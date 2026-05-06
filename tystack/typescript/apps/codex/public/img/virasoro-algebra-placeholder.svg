@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Virasoro algebra central extension</title>
+  <desc id="desc">An infinite row of Witt modes with one central vertical generator added.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <line x1="80" y1="200" x2="640" y2="200" stroke="#333" stroke-width="3"/>
+  <g fill="#d6e6f2" stroke="#2f5873" stroke-width="2">
+    <circle cx="140" cy="200" r="28"/>
+    <circle cx="240" cy="200" r="28"/>
+    <circle cx="340" cy="200" r="28"/>
+    <circle cx="440" cy="200" r="28"/>
+    <circle cx="540" cy="200" r="28"/>
+  </g>
+  <text x="126" y="207" font-family="Arial, sans-serif" font-size="19" fill="#193143">L-2</text>
+  <text x="226" y="207" font-family="Arial, sans-serif" font-size="19" fill="#193143">L-1</text>
+  <text x="331" y="207" font-family="Arial, sans-serif" font-size="19" fill="#193143">L0</text>
+  <text x="431" y="207" font-family="Arial, sans-serif" font-size="19" fill="#193143">L1</text>
+  <text x="531" y="207" font-family="Arial, sans-serif" font-size="19" fill="#193143">L2</text>
+  <line x1="340" y1="172" x2="340" y2="82" stroke="#7a5a24" stroke-width="4" marker-end="url(#arrow)"/>
+  <circle cx="340" cy="64" r="28" fill="#f1dfc4" stroke="#7a5a24" stroke-width="2"/>
+  <text x="330" y="72" font-family="Arial, sans-serif" font-size="24" fill="#463414">C</text>
+  <text x="385" y="70" font-family="Arial, sans-serif" font-size="21" fill="#463414">central direction</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a5a24"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Topological K-theory virtual bundle</title>
+  <desc id="desc">Two vector bundles combine as a formal difference E minus F.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <rect x="70" y="90" width="180" height="150" rx="8" fill="#d6e6f2" stroke="#2f5873" stroke-width="2"/>
+  <text x="146" y="170" font-family="Arial, sans-serif" font-size="28" fill="#193143">E</text>
+  <text x="278" y="176" font-family="Arial, sans-serif" font-size="42" fill="#333">-</text>
+  <rect x="330" y="120" width="150" height="100" rx="8" fill="#f1dfc4" stroke="#7a5a24" stroke-width="2"/>
+  <text x="393" y="178" font-family="Arial, sans-serif" font-size="28" fill="#463414">F</text>
+  <path d="M505 170 H600" stroke="#333" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="615" y="178" font-family="Arial, sans-serif" font-size="24" fill="#1d2b1f">[E]-[F]</text>
+  <text x="105" y="270" font-family="Arial, sans-serif" font-size="20" fill="#333">actual bundles</text>
+  <text x="535" y="270" font-family="Arial, sans-serif" font-size="20" fill="#333">virtual class</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

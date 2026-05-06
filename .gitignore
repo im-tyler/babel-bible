@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+._*
+nul
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node / build
+node_modules/
+.pnpm-store/
+.turbo/
+dist/
+build/
+.next/
+.astro/
+out/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Local CC settings
+.claude/settings.local.json
+.claude/
+
+# LEAN — build artifacts (6.9G of cache+deps, regenerable via lake)
+.lake/
+lean-packages/
+lake-packages/
+
+# REFERENCE — vendored upstream textbooks/papers (1G, not your work)
+reference/

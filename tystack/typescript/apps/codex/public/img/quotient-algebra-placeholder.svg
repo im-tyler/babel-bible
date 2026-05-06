@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Quotient algebra classes</title>
+  <desc id="desc">Expressions flow through a projection into equivalence classes determined by relations.</desc>
+  <rect width="720" height="360" fill="#f8f6ef"/>
+  <rect x="48" y="62" width="190" height="236" rx="8" fill="#d6e6f2" stroke="#2f5873" stroke-width="2"/>
+  <text x="82" y="102" font-family="Arial, sans-serif" font-size="21" fill="#193143">original algebra</text>
+  <text x="92" y="152" font-family="Arial, sans-serif" font-size="19" fill="#193143">x² + 1</text>
+  <text x="92" y="196" font-family="Arial, sans-serif" font-size="19" fill="#193143">x⁴ - 1</text>
+  <text x="92" y="240" font-family="Arial, sans-serif" font-size="19" fill="#193143">x³ + x</text>
+  <path d="M258 180 H430" stroke="#333" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="300" y="154" font-family="Arial, sans-serif" font-size="19" fill="#333">project</text>
+  <rect x="454" y="76" width="216" height="208" rx="8" fill="#d9ead3" stroke="#315f3c" stroke-width="2"/>
+  <text x="493" y="115" font-family="Arial, sans-serif" font-size="21" fill="#1d2b1f">classes</text>
+  <ellipse cx="562" cy="166" rx="70" ry="34" fill="#fff" stroke="#315f3c" stroke-width="2"/>
+  <ellipse cx="562" cy="230" rx="70" ry="34" fill="#fff" stroke="#315f3c" stroke-width="2"/>
+  <text x="532" y="172" font-family="Arial, sans-serif" font-size="18" fill="#1d2b1f">0</text>
+  <text x="532" y="236" font-family="Arial, sans-serif" font-size="18" fill="#1d2b1f">1</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

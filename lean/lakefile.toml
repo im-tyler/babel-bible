@@ -1,0 +1,10 @@
+name = "Codex"
+defaultTargets = ["Codex"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "Codex"
+roots = ["Codex"]

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Wilson action diagram</title><desc id="desc">A statistical physics schematic with a lattice, weights, correlations, and coarse graining.</desc>
+  <rect width="720" height="420" fill="#f7f2e8"/><g stroke="#29445c" stroke-width="3"><path d="M110 95 H390 M110 145 H390 M110 195 H390 M110 245 H390 M110 295 H390"/><path d="M110 95 V295 M160 95 V295 M210 95 V295 M260 95 V295 M310 95 V295 M360 95 V295"/></g>
+  <g fill="#315f8c"><circle cx="110" cy="95" r="9"/><circle cx="160" cy="145" r="9"/><circle cx="210" cy="195" r="9"/><circle cx="260" cy="245" r="9"/><circle cx="310" cy="145" r="9"/><circle cx="360" cy="295" r="9"/></g>
+  <g fill="#a85d34"><circle cx="160" cy="95" r="9"/><circle cx="210" cy="145" r="9"/><circle cx="260" cy="195" r="9"/><circle cx="310" cy="245" r="9"/><circle cx="360" cy="195" r="9"/></g>
+  <rect x="455" y="110" width="150" height="150" rx="12" fill="#dceefb" stroke="#2f5f89" stroke-width="5"/><path d="M410 195 C435 190, 445 185, 455 180" fill="none" stroke="#4d4f91" stroke-width="5" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4d4f91"/></marker></defs>
+  <text x="360" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#243447">Wilson action</text><text x="530" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#243447">coarse scale</text>
+  <text x="360" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#243447">Weights, correlations, and scale changes organize the model.</text>
+</svg>

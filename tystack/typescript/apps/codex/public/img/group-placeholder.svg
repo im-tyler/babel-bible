@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rotations of a square as a group</title>
+  <desc id="desc">Four square rotations arranged in a cycle with arrows for quarter-turn composition.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g fill="#d6e6f2" stroke="#2f5873" stroke-width="3">
+    <rect x="105" y="70" width="70" height="70" transform="rotate(0 140 105)"/>
+    <rect x="545" y="70" width="70" height="70" transform="rotate(90 580 105)"/>
+    <rect x="545" y="220" width="70" height="70" transform="rotate(180 580 255)"/>
+    <rect x="105" y="220" width="70" height="70" transform="rotate(270 140 255)"/>
+  </g>
+  <text x="132" y="110" font-family="Arial, sans-serif" font-size="22" fill="#193143">0</text>
+  <text x="572" y="110" font-family="Arial, sans-serif" font-size="22" fill="#193143">1</text>
+  <text x="572" y="260" font-family="Arial, sans-serif" font-size="22" fill="#193143">2</text>
+  <text x="132" y="260" font-family="Arial, sans-serif" font-size="22" fill="#193143">3</text>
+  <path d="M190 105 H520" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M580 145 V210" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M530 255 H200" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M140 215 V150" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="292" y="184" font-family="Arial, sans-serif" font-size="24" fill="#333">quarter-turn group</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

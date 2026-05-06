@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Double cover sheets</title>
+  <desc id="desc">Two sheets sit above a base circle with fibers of two points.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <ellipse cx="360" cy="260" rx="220" ry="46" fill="none" stroke="#333" stroke-width="3"/>
+  <ellipse cx="360" cy="160" rx="220" ry="46" fill="none" stroke="#2f5873" stroke-width="4"/>
+  <ellipse cx="360" cy="92" rx="220" ry="46" fill="none" stroke="#7a5a24" stroke-width="4"/>
+  <circle cx="250" cy="260" r="7" fill="#333"/>
+  <circle cx="250" cy="160" r="8" fill="#2f5873"/>
+  <circle cx="250" cy="92" r="8" fill="#7a5a24"/>
+  <path d="M250 100 V250" stroke="#555" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="115" y="268" font-family="Arial, sans-serif" font-size="20" fill="#333">base</text>
+  <text x="590" y="96" font-family="Arial, sans-serif" font-size="20" fill="#7a5a24">sheet 1</text>
+  <text x="590" y="164" font-family="Arial, sans-serif" font-size="20" fill="#2f5873">sheet 2</text>
+</svg>

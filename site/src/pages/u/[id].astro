@@ -1,0 +1,171 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+import { sectionLabel } from "../../lib/sections";
+
+export async function getStaticPaths() {
+  const units = await getCollection("units");
+  return units.map((u) => ({
+    params: { id: String(u.data.id) },
+    props: { entry: u },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const fm: any = entry.data;
+
+// Helper: build prereq display
+const prereqs = (fm.prerequisites || []).map((p: any) => String(p));
+
+// Tier anchors: rename keys for display
+const tierAnchorEntries = Object.entries(fm.tier_anchors || {})
+  .filter(([_, v]) => v && v !== "deferred");
+
+// References: split shipped vs pending
+const refs = fm.references || [];
+
+const tiersPresent = (fm.tiers_present || ["master"]) as ("beginner" | "intermediate" | "master")[];
+
+// Section breadcrumb derived from frontmatter
+const sectionDisplayLabel = sectionLabel(fm.section);
+
+// All units (for prereq cross-ref resolution)
+const allUnits = await getCollection("units");
+const unitById = new Map(allUnits.map((u) => [String(u.data.id), u]));
+
+const leanStatus = fm.lean_status || "none";
+---
+
+<Base
+  title={fm.title}
+  description={`${fm.title} — three-tier unit in Codex curriculum.`}
+  tiersPresent={tiersPresent}
+  showTierToggle={true}
+  active="units"
+>
+  <article class="unit-page">
+    <div class="unit-body">
+      <header class="unit-header">
+        <div class="unit-eyebrow">{sectionDisplayLabel} · {fm.id}</div>
+        <h1 class="unit-title">{fm.title}</h1>
+        <div class="unit-meta-bar">
+          {tiersPresent.map((t) => (
+            <span class={`tier-badge tier-badge--${t}`}>{t}</span>
+          ))}
+          {fm.lean_status && (
+            <span class={`lean-pill lean-pill--${leanStatus}`}>
+              Lean: {leanStatus}
+            </span>
+          )}
+        </div>
+      </header>
+
+      <Content />
+    </div>
+
+    <aside class="unit-sidebar" aria-label="Unit metadata">
+      {tierAnchorEntries.length > 0 && (
+        <section>
+          <h3>Reading anchors</h3>
+          <ul class="ref-list">
+            {tierAnchorEntries.map(([tier, anchor]) => (
+              <li>
+                <span class={`tier-badge tier-badge--${tier}`} style="margin-right: 0.5em;">{tier}</span>
+                <span class="ref-locator">{String(anchor)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {prereqs.length > 0 && (
+        <section>
+          <h3>Prerequisites</h3>
+          <ul>
+            {prereqs.map((p: string) => {
+              const target = unitById.get(p);
+              return target ? (
+                <li>
+                  <a href={`/u/${p}`}>{target.data.title}</a>
+                  <span style="color: var(--color-text-faint); font-family: var(--font-mono); font-size: 0.85em; margin-left: 0.4em;">{p}</span>
+                </li>
+              ) : (
+                <li>
+                  <span class="pending-badge">{p}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {fm.successors && fm.successors.length > 0 && (
+        <section>
+          <h3>Continues to</h3>
+          <ul>
+            {fm.successors.map((s: any) => {
+              const id = String(s);
+              const target = unitById.get(id);
+              return target ? (
+                <li>
+                  <a href={`/u/${id}`}>{target.data.title}</a>
+                  <span style="color: var(--color-text-faint); font-family: var(--font-mono); font-size: 0.85em; margin-left: 0.4em;">{id}</span>
+                </li>
+              ) : (
+                <li>
+                  <span class="pending-badge">{id}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {refs.length > 0 && (
+        <section>
+          <h3>References</h3>
+          <ul class="ref-list">
+            {refs.map((r: any, i: number) => (
+              <li>
+                {r.path && <span class="ref-source">{r.path}</span>}
+                {r.locator && <span class="ref-locator">{r.locator}</span>}
+                {r.pending && <span class="pending-badge">pending</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {fm.lean_module && (
+        <section>
+          <h3>Lean</h3>
+          <ul class="ref-list">
+            <li>
+              <span class="ref-source">{fm.lean_module}</span>
+              {fm.lean_status && (
+                <span class={`lean-pill lean-pill--${leanStatus}`} style="margin-top: 0.4em; display: inline-flex;">
+                  {leanStatus}
+                </span>
+              )}
+            </li>
+          </ul>
+        </section>
+      )}
+
+      {fm.estimated_time && (
+        <section>
+          <h3>Estimated time</h3>
+          <ul class="ref-list">
+            {Object.entries(fm.estimated_time).map(([tier, t]) => (
+              <li>
+                <span class={`tier-badge tier-badge--${tier}`} style="margin-right: 0.5em;">{tier}</span>
+                <span>{String(t)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </article>
+</Base>

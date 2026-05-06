@@ -1,0 +1,146 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+
+// Try multiple candidate paths to be robust across dev and build CWDs.
+const candidates = [
+  resolve(process.cwd(), "../CONCEPT_CATALOG.md"),
+  resolve(process.cwd(), "CONCEPT_CATALOG.md"),
+];
+let raw = "";
+for (const p of candidates) {
+  try {
+    raw = readFileSync(p, "utf-8");
+    if (raw) break;
+  } catch {
+    /* try next */
+  }
+}
+
+// Parse `### namespace.concept-slug` entries with title and notes
+type Entry = {
+  id: string;
+  title: string;
+  prerequisites: string[];
+  notes: string;
+  namespace: string;
+};
+
+const entries: Entry[] = [];
+const blocks = raw.split(/^### /m).slice(1);
+for (const block of blocks) {
+  const lines = block.split("\n");
+  const id = lines[0].trim();
+  if (!id || !id.includes(".")) continue;
+
+  let title = id;
+  let prereqs: string[] = [];
+  let notes = "";
+
+  for (let i = 1; i < lines.length; i++) {
+    const l = lines[i];
+    if (l.startsWith("- **title**:")) {
+      title = l.replace(/^- \*\*title\*\*:\s*/, "").trim();
+    } else if (l.startsWith("- **prerequisites**:")) {
+      const matches = l.match(/`([^`]+)`/g);
+      prereqs = matches ? matches.map((m) => m.replace(/`/g, "")) : [];
+    } else if (l.startsWith("- **notes**:")) {
+      notes = l.replace(/^- \*\*notes\*\*:\s*/, "").trim();
+      break;
+    }
+  }
+
+  const namespace = id.split(".")[0];
+  entries.push({ id, title, prerequisites: prereqs, notes, namespace });
+}
+
+// Group by namespace
+type NS = { name: string; entries: Entry[] };
+const grouped = new Map<string, Entry[]>();
+entries.forEach((e) => {
+  if (!grouped.has(e.namespace)) grouped.set(e.namespace, []);
+  grouped.get(e.namespace)!.push(e);
+});
+
+const NAMESPACE_LABELS: Record<string, string> = {
+  "alg-geom": "Algebraic geometry",
+  "complex-analysis": "Complex analysis & Riemann surfaces",
+  "rep-theory": "Representation theory",
+  "lie": "Lie theory",
+  "lie-groups": "Lie groups",
+  "linalg": "Linear algebra",
+  "algebra": "Algebra",
+  "manifolds": "Manifolds",
+  "diffgeo": "Differential geometry",
+  "topology": "Topology",
+  "spin-geometry": "Spin geometry",
+  "bundle": "Bundles",
+  "stat-mech": "Statistical mechanics",
+  "set-theory": "Set theory",
+  "groups": "Groups",
+};
+
+const namespaces: NS[] = Array.from(grouped.entries())
+  .map(([name, entries]) => ({
+    name,
+    entries: entries.sort((a, b) => a.id.localeCompare(b.id)),
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Map: concept_catalog_id -> unit id (so we can link "concept" -> "unit")
+const allUnits = await getCollection("units");
+const conceptToUnit = new Map<string, { id: string; title: string }>();
+allUnits.forEach((u) => {
+  if (u.data.concept_catalog_id) {
+    conceptToUnit.set(u.data.concept_catalog_id, {
+      id: String(u.data.id),
+      title: u.data.title,
+    });
+  }
+});
+---
+
+<Base title="Concept catalog" active="concepts">
+  <div class="unit-list-page">
+    <h1>Concept catalog</h1>
+    <p style="color: var(--color-text-soft); margin-bottom: 2rem;">
+      The canonical list of concepts. Every unit maps to exactly one entry here via its <code>concept_catalog_id</code>. Concepts that have a shipped unit link directly; others are scoped but unbuilt.
+    </p>
+    <p style="color: var(--color-text-soft); margin-bottom: 2rem;">
+      {entries.length} concepts across {namespaces.length} namespaces.
+    </p>
+
+    {namespaces.map((ns) => (
+      <section class="section-block" id={ns.name}>
+        <h2>{NAMESPACE_LABELS[ns.name] || ns.name}</h2>
+        <div class="section-meta">
+          {ns.entries.length} concept{ns.entries.length === 1 ? "" : "s"} · namespace <code>{ns.name}</code>
+        </div>
+        <div class="unit-card-grid">
+          {ns.entries.map((e) => {
+            const unit = conceptToUnit.get(e.id);
+            return unit ? (
+              <a href={`/u/${unit.id}`} class="unit-card">
+                <div class="unit-card-id">{e.id}</div>
+                <div class="unit-card-title">{e.title}</div>
+                <div style="font-size: 0.8rem; color: var(--color-text-soft); margin-top: 0.4rem; font-family: var(--font-sans);">
+                  → unit {unit.id}
+                </div>
+              </a>
+            ) : (
+              <div class="unit-card" style="opacity: 0.65; cursor: not-allowed; border-style: dashed;">
+                <div class="unit-card-id">{e.id}</div>
+                <div class="unit-card-title">{e.title}</div>
+                <div style="font-size: 0.8rem; color: var(--color-text-faint); margin-top: 0.4rem; font-family: var(--font-sans);">
+                  no unit yet
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

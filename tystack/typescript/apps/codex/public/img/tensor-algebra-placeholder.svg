@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tensor algebra shelves</title>
+  <desc id="desc">Shelves labelled scalars, vectors, two-letter words, and three-letter words, with arrows showing concatenation.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <rect x="48" y="48" width="624" height="58" rx="8" fill="#d9ead3" stroke="#315f3c" stroke-width="2"/>
+  <rect x="48" y="126" width="624" height="58" rx="8" fill="#d6e6f2" stroke="#2f5873" stroke-width="2"/>
+  <rect x="48" y="204" width="624" height="58" rx="8" fill="#f1dfc4" stroke="#7a5a24" stroke-width="2"/>
+  <text x="70" y="83" font-family="Arial, sans-serif" font-size="22" fill="#1d2b1f">degree 0: scalars</text>
+  <text x="70" y="161" font-family="Arial, sans-serif" font-size="22" fill="#193143">degree 1: v, w</text>
+  <text x="70" y="239" font-family="Arial, sans-serif" font-size="22" fill="#463414">degree 2: vv, vw, wv, ww</text>
+  <path d="M482 152 C528 160 538 192 486 212" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="494" y="190" font-family="Arial, sans-serif" font-size="18" fill="#333">join words</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,1977 @@
+{
+  "_comment": "Codex dependency graph. Source of truth for prereq relationships. Updated by integrator on every unit ship.",
+  "version": 1,
+  "edges": [
+    {
+      "from": "01.01.03",
+      "to": "03.09.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "03.09.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.04",
+      "to": "03.09.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.05",
+      "to": "03.09.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.02",
+      "to": "03.09.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.03",
+      "to": "03.09.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.01",
+      "to": "03.09.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.03",
+      "to": "03.09.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.05",
+      "to": "03.09.04",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.01",
+      "to": "03.09.06",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.04",
+      "to": "03.09.06",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.05",
+      "to": "03.09.06",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "03.09.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.01",
+      "to": "03.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.07",
+      "to": "03.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.08",
+      "to": "03.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "03.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.06",
+      "to": "03.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.06",
+      "to": "03.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.06",
+      "to": "03.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "03.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.02",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.04",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.05",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.07",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.09",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.06",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.08.01",
+      "to": "03.08.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.08.04",
+      "to": "03.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.08.04",
+      "to": "03.08.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.08.06",
+      "to": "03.08.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.02",
+      "to": "03.08.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.04",
+      "to": "03.08.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.01",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.07",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.08",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.06",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.06",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.04",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.06",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.08",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "03.08.07",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.04",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.06",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.09",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.04",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "00.02.05",
+      "to": "01.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.01",
+      "to": "01.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "03.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.02",
+      "to": "03.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "03.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "03.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.04",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.04.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.03",
+      "to": "03.04.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.04",
+      "to": "03.04.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.05",
+      "to": "03.04.06",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "01.01.15",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "03.09.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.02",
+      "to": "03.09.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.02",
+      "to": "03.09.03",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "02.11.04",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.04",
+      "to": "02.11.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.04",
+      "to": "02.11.05",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "02.11.08",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "02.11.08",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.08",
+      "to": "03.10.02",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.08",
+      "to": "02.11.03",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.03",
+      "to": "03.09.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.07",
+      "to": "03.09.09",
+      "state": "shipped"
+    },
+    {
+      "from": "03.09.07",
+      "to": "03.09.10",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.03",
+      "to": "03.09.09",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.09.09",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.09.09",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.05.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.05.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.03",
+      "to": "03.05.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.04",
+      "to": "03.05.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.01",
+      "to": "03.05.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.02",
+      "to": "03.05.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "03.05.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.03",
+      "to": "03.05.07",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.07",
+      "to": "03.05.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.04.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.03",
+      "to": "03.04.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.03",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.04.08",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.08",
+      "to": "03.07.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "03.11.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.11.01",
+      "to": "03.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.11.02",
+      "to": "03.11.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.11.02",
+      "to": "03.10.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.11.01",
+      "to": "03.11.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.11.01",
+      "to": "03.10.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.11.03",
+      "to": "03.10.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "03.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.01",
+      "to": "03.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.04",
+      "to": "03.01.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.02",
+      "to": "03.01.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.03",
+      "to": "03.01.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.01",
+      "to": "03.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "03.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.12.01",
+      "to": "03.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "03.05.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.12.02",
+      "to": "03.05.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.12.01",
+      "to": "03.08.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.12.03",
+      "to": "03.08.06",
+      "state": "shipped"
+    },
+    {
+      "from": "03.12.04",
+      "to": "03.08.06",
+      "state": "shipped"
+    },
+    {
+      "from": "00.02.05",
+      "to": "01.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.01",
+      "to": "03.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.01",
+      "to": "03.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.01",
+      "to": "03.03.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.02",
+      "to": "03.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.02",
+      "to": "03.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "03.03.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "03.03.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.03",
+      "to": "03.05.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.03",
+      "to": "03.09.03",
+      "state": "shipped"
+    },
+    {
+      "from": "02.01.01",
+      "to": "02.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "02.01.02",
+      "to": "03.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "02.01.02",
+      "to": "03.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "02.11.06",
+      "state": "shipped"
+    },
+    {
+      "from": "02.01.05",
+      "to": "02.11.06",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.06",
+      "to": "02.11.04",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.06",
+      "to": "02.11.07",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.06",
+      "to": "02.11.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "02.11.07",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.07",
+      "to": "02.11.08",
+      "state": "shipped"
+    },
+    {
+      "from": "00.02.05",
+      "to": "01.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.01",
+      "to": "03.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.01",
+      "to": "03.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "03.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "03.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.02",
+      "to": "03.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "05.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "05.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "05.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.02",
+      "to": "05.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.04",
+      "to": "05.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.01",
+      "to": "05.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "05.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.03",
+      "to": "05.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.01",
+      "to": "05.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.04",
+      "to": "05.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.04",
+      "to": "05.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.01",
+      "to": "05.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "05.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.01",
+      "to": "05.02.03",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.02",
+      "to": "05.02.03",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.03",
+      "to": "05.02.04",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.04",
+      "to": "05.02.04",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "05.02.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.02",
+      "to": "05.02.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.04",
+      "to": "05.02.05",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.02.05",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "05.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "05.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.02",
+      "to": "05.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.02",
+      "to": "05.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.01",
+      "to": "05.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.02",
+      "to": "05.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.04.01",
+      "to": "05.04.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.02",
+      "to": "05.04.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.04.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "05.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "05.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.06.01",
+      "to": "05.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.02.01",
+      "to": "05.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.06.02",
+      "to": "05.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.07.01",
+      "to": "05.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.02",
+      "to": "05.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.01",
+      "to": "05.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.05.01",
+      "to": "05.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.06.02",
+      "to": "05.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.07.02",
+      "to": "05.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "05.08.01",
+      "to": "05.08.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.06.02",
+      "to": "05.08.02",
+      "state": "shipped"
+    },
+    {
+      "from": "05.05.01",
+      "to": "05.08.03",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.01",
+      "to": "05.08.03",
+      "state": "shipped"
+    },
+    {
+      "from": "05.01.03",
+      "to": "05.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "05.08.03",
+      "to": "05.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "05.02.01",
+      "to": "05.08.04",
+      "state": "shipped"
+    },
+    {
+      "from": "00.02.05",
+      "to": "08.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.01",
+      "to": "08.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.01",
+      "to": "08.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.01",
+      "to": "08.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.03",
+      "to": "08.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.02",
+      "to": "08.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.04",
+      "to": "08.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.02.01",
+      "to": "08.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.01",
+      "to": "08.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.02.02",
+      "to": "08.02.03",
+      "state": "shipped"
+    },
+    {
+      "from": "02.01.05",
+      "to": "08.02.03",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.02",
+      "to": "08.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.03.02",
+      "to": "08.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "08.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.01",
+      "to": "08.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.02",
+      "to": "08.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.04",
+      "to": "08.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.04.01",
+      "to": "08.04.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.06.01",
+      "to": "08.04.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.04.03",
+      "to": "08.04.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.04.01",
+      "to": "08.04.03",
+      "state": "shipped"
+    },
+    {
+      "from": "08.04.01",
+      "to": "08.04.04",
+      "state": "shipped"
+    },
+    {
+      "from": "08.02.01",
+      "to": "08.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.04.02",
+      "to": "08.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.04",
+      "to": "08.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.01",
+      "to": "08.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.05.01",
+      "to": "08.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.05.02",
+      "to": "08.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.08",
+      "to": "08.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.05.01",
+      "to": "08.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.06.01",
+      "to": "08.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.10.02",
+      "to": "08.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.01.01",
+      "to": "08.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.06.01",
+      "to": "08.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.08",
+      "to": "08.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "08.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.07",
+      "to": "08.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "08.08.02",
+      "to": "08.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.07.05",
+      "to": "08.08.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "08.08.02",
+      "state": "shipped"
+    },
+    {
+      "from": "08.04.01",
+      "to": "08.08.03",
+      "state": "shipped"
+    },
+    {
+      "from": "08.07.01",
+      "to": "08.08.03",
+      "state": "shipped"
+    },
+    {
+      "from": "08.07.01",
+      "to": "08.09.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.08",
+      "to": "08.09.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.01",
+      "to": "06.01.05",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.01",
+      "to": "06.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.02",
+      "to": "06.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.05",
+      "to": "06.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.01",
+      "to": "06.01.04",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.01",
+      "to": "06.01.06",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.02",
+      "to": "06.01.06",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.04",
+      "to": "06.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.01",
+      "to": "06.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.01",
+      "to": "06.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.01",
+      "to": "06.03.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.06",
+      "to": "06.03.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.05",
+      "to": "06.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.01",
+      "to": "06.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.05.01",
+      "to": "06.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.01",
+      "to": "06.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "06.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "06.02.01",
+      "to": "06.05.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.02",
+      "to": "06.05.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.01",
+      "to": "06.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.02",
+      "to": "06.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.06.01",
+      "to": "06.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "06.03.02",
+      "to": "06.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "06.06.02",
+      "to": "06.06.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.06.04",
+      "to": "06.06.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.05.01",
+      "to": "06.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "06.06.01",
+      "to": "06.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "06.06.02",
+      "to": "06.06.05",
+      "state": "shipped"
+    },
+    {
+      "from": "06.06.03",
+      "to": "06.06.05",
+      "state": "shipped"
+    },
+    {
+      "from": "06.01.01",
+      "to": "06.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "06.07.01",
+      "to": "06.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "07.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.03",
+      "to": "07.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "07.01.01",
+      "to": "07.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "07.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.01.02",
+      "to": "07.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.01",
+      "to": "07.06.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.01",
+      "to": "07.06.03",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.15",
+      "to": "07.06.03",
+      "state": "shipped"
+    },
+    {
+      "from": "07.04.01",
+      "to": "07.06.03",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.03",
+      "to": "07.06.04",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.03",
+      "to": "07.06.05",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.04",
+      "to": "07.06.05",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.01",
+      "to": "07.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.02",
+      "to": "07.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "07.03.01",
+      "to": "07.06.06",
+      "state": "shipped"
+    },
+    {
+      "from": "07.03.01",
+      "to": "07.06.07",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.03",
+      "to": "07.06.07",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.04",
+      "to": "07.06.07",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.07",
+      "to": "07.06.08",
+      "state": "shipped"
+    },
+    {
+      "from": "07.06.07",
+      "to": "07.06.09",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "07.06.09",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "07.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "07.01.01",
+      "to": "07.07.01",
+      "state": "shipped"
+    },
+    {
+      "from": "07.07.01",
+      "to": "07.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.08",
+      "to": "07.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "07.01.01",
+      "to": "07.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.03.01",
+      "to": "07.07.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.03",
+      "to": "07.07.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.06",
+      "to": "03.13.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.11",
+      "to": "03.13.01",
+      "state": "shipped"
+    },
+    {
+      "from": "03.13.01",
+      "to": "03.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.07",
+      "to": "03.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.04.13",
+      "to": "03.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "03.13.02",
+      "to": "03.13.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.06.04",
+      "to": "03.13.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.05.02",
+      "to": "03.13.03",
+      "state": "shipped"
+    },
+    {
+      "from": "03.13.01",
+      "to": "03.13.E1",
+      "state": "shipped"
+    },
+    {
+      "from": "03.13.02",
+      "to": "03.13.E1",
+      "state": "shipped"
+    },
+    {
+      "from": "03.13.03",
+      "to": "03.13.E1",
+      "state": "shipped"
+    }
+  ],
+  "pending": [],
+  "shipped": [
+    "00.02.05",
+    "01.01.01",
+    "01.01.03",
+    "01.01.15",
+    "01.02.01",
+    "02.01.01",
+    "02.01.02",
+    "02.01.05",
+    "02.11.01",
+    "02.11.03",
+    "02.11.04",
+    "02.11.05",
+    "02.11.06",
+    "02.11.07",
+    "02.11.08",
+    "03.01.01",
+    "03.01.02",
+    "03.01.03",
+    "03.01.04",
+    "03.01.05",
+    "03.02.01",
+    "03.03.01",
+    "03.03.02",
+    "03.03.03",
+    "03.04.01",
+    "03.04.02",
+    "03.04.03",
+    "03.04.04",
+    "03.04.05",
+    "03.04.06",
+    "03.04.08",
+    "03.05.01",
+    "03.05.02",
+    "03.05.03",
+    "03.05.04",
+    "03.05.05",
+    "03.05.07",
+    "03.05.08",
+    "03.05.09",
+    "03.06.03",
+    "03.06.04",
+    "03.06.05",
+    "03.06.06",
+    "03.07.05",
+    "03.08.01",
+    "03.08.04",
+    "03.08.06",
+    "03.08.07",
+    "03.09.02",
+    "03.09.03",
+    "03.09.04",
+    "03.09.05",
+    "03.09.06",
+    "03.09.07",
+    "03.09.08",
+    "03.09.09",
+    "03.09.10",
+    "03.09.11",
+    "03.09.12",
+    "03.09.13",
+    "03.09.14",
+    "03.09.15",
+    "03.09.16",
+    "03.09.17",
+    "03.09.18",
+    "03.09.19",
+    "03.09.20",
+    "03.09.21",
+    "03.09.22",
+    "03.09.E1",
+    "03.09.E2",
+    "03.10.02",
+    "03.11.01",
+    "03.11.02",
+    "03.11.03",
+    "03.12.01",
+    "03.12.02",
+    "03.12.03",
+    "03.12.04",
+    "03.12.05",
+    "03.13.01",
+    "03.13.02",
+    "03.13.03",
+    "03.13.E1",
+    "04.01.01",
+    "04.02.01",
+    "04.03.01",
+    "04.04.01",
+    "04.02.02",
+    "04.02.03",
+    "04.06.01",
+    "04.05.01",
+    "04.05.03",
+    "04.05.04",
+    "04.05.02",
+    "04.05.05",
+    "04.01.02",
+    "04.01.03",
+    "04.01.04",
+    "04.02.04",
+    "04.06.02",
+    "04.07.01",
+    "04.07.02",
+    "04.08.01",
+    "04.08.02",
+    "04.08.03",
+    "04.09.01",
+    "04.09.02",
+    "04.10.01",
+    "04.10.02",
+    "05.01.01",
+    "05.01.02",
+    "05.01.03",
+    "05.01.04",
+    "05.02.01",
+    "05.02.02",
+    "05.02.03",
+    "05.02.04",
+    "05.02.05",
+    "05.03.01",
+    "05.04.01",
+    "05.04.02",
+    "05.05.01",
+    "05.06.01",
+    "05.06.02",
+    "05.07.01",
+    "05.07.02",
+    "05.08.01",
+    "05.08.02",
+    "05.08.03",
+    "05.08.04",
+    "06.01.01",
+    "06.01.02",
+    "06.01.03",
+    "06.01.04",
+    "06.01.05",
+    "06.01.06",
+    "06.02.01",
+    "06.03.01",
+    "06.03.02",
+    "06.03.03",
+    "06.04.01",
+    "06.05.01",
+    "06.05.02",
+    "06.05.03",
+    "06.06.01",
+    "06.06.02",
+    "06.06.03",
+    "06.06.04",
+    "06.06.05",
+    "06.07.01",
+    "06.07.02",
+    "07.01.01",
+    "07.01.02",
+    "07.01.03",
+    "07.01.04",
+    "07.01.05",
+    "07.01.06",
+    "07.01.07",
+    "07.01.08",
+    "07.02.01",
+    "07.03.01",
+    "07.04.01",
+    "07.06.01",
+    "07.06.02",
+    "07.06.03",
+    "07.06.04",
+    "07.06.05",
+    "07.06.06",
+    "07.06.07",
+    "07.06.08",
+    "07.06.09",
+    "07.07.01",
+    "07.07.02",
+    "07.07.03",
+    "07.05.01",
+    "07.05.02",
+    "07.05.03",
+    "08.01.01",
+    "08.01.02",
+    "08.01.03",
+    "08.01.04",
+    "08.02.01",
+    "08.02.02",
+    "08.02.03",
+    "08.03.01",
+    "08.03.02",
+    "08.04.01",
+    "08.04.02",
+    "08.04.03",
+    "08.04.04",
+    "08.05.01",
+    "08.05.02",
+    "08.06.01",
+    "08.06.02",
+    "08.07.01",
+    "08.08.01",
+    "08.08.02",
+    "08.08.03",
+    "08.09.01",
+    "03.04.07",
+    "03.04.09",
+    "03.04.10",
+    "03.04.11",
+    "03.04.12",
+    "03.04.13",
+    "04.03.02",
+    "03.04.E1",
+    "03.05.10",
+    "03.08.05",
+    "03.12.06",
+    "03.12.07",
+    "03.12.E1"
+  ],
+  "_notes": {
+    "01.01.03": "vector space — Wave 2 Phase 2.1 unit #1, SHIPPED",
+    "01.01.15": "bilinear form / quadratic form — Wave 2 Phase 2.2 unit #1, SHIPPED",
+    "03.01.04": "tensor algebra — Wave 2 Phase 2.5 unit #1, SHIPPED",
+    "03.01.01": "tensor product — Wave 4 Strand A unit #3, SHIPPED",
+    "03.01.02": "associative algebra — Wave 4 Strand A unit #4, SHIPPED",
+    "03.01.03": "ideal in an algebra — Wave 4 Strand A unit #5, SHIPPED",
+    "03.01.05": "quotient algebra — Wave 2 Phase 2.5 unit #2, SHIPPED",
+    "03.05.01": "principal bundle — Wave 2 Phase 2.1 unit #2, SHIPPED",
+    "03.05.03": "orthogonal frame bundle — Wave 2 Phase 2.6 unit #1, SHIPPED",
+    "03.05.05": "double cover — Wave 2 Phase 2.5 unit #5, SHIPPED",
+    "03.06.03": "Stiefel-Whitney classes — Wave 4 Strand B unit #5, SHIPPED 2026-04-28",
+    "03.09.02": "Clifford algebra — SHIPPED 2026-04-27",
+    "03.09.03": "spin group Spin(n) — Wave 2 Phase 2.2 unit #2, SHIPPED",
+    "03.09.04": "spin structure on an oriented Riemannian manifold — pilot unit #2",
+    "03.09.05": "Spinor bundle — Wave 3 unit, SHIPPED 2026-04-28; closes Dirac apex pending_prereqs flag",
+    "03.09.08": "Dirac operator on a spin manifold — pilot unit #6, SHIPPED",
+    "03.09.06": "Fredholm operators — pilot unit #3, SHIPPED",
+    "03.09.07": "symbol of a differential operator — Wave 2 Phase 2.4 unit #2, SHIPPED",
+    "03.09.09": "elliptic operators on a manifold — Wave 2 Phase 2.4 unit #3, SHIPPED",
+    "02.11.01": "Bounded linear operators — Wave 2 Phase 2.3 catch-up unit, SHIPPED 2026-04-28",
+    "02.11.04": "Banach spaces — Wave 2 Phase 2.2 unit #3, SHIPPED",
+    "02.11.08": "Hilbert space — Wave 2 Phase 2.2 unit #4, SHIPPED",
+    "02.11.03": "unbounded self-adjoint operators — Wave 2 Phase 2.4 unit #1, SHIPPED",
+    "02.11.05": "Compact operators — Wave 2 Phase 2.3 catch-up unit, SHIPPED 2026-04-28",
+    "03.05.07": "principal bundle with connection — Wave 2 Phase 2.2 unit #6, SHIPPED",
+    "03.05.08": "Complex vector bundle — Wave 2 Phase 2.3 catch-up unit, SHIPPED 2026-04-28",
+    "03.04.01": "Lie algebra — Wave 2 Phase 2.3 catch-up unit, SHIPPED 2026-04-28",
+    "03.05.02": "vector bundle — Wave 2 Phase 2.1 unit #3, SHIPPED",
+    "03.05.04": "connection on a vector bundle — Wave 2 Phase 2.2 unit #5, SHIPPED",
+    "03.06.06": "Chern-Weil homomorphism — pilot unit #4, SHIPPED",
+    "03.06.04": "Pontryagin and Chern classes — pilot unit #5, SHIPPED",
+    "03.08.01": "topological K-theory — Wave 2 Phase 2.5 unit #4, SHIPPED",
+    "03.08.06": "stable homotopy — Wave 2 Phase 2.6 unit #2, SHIPPED",
+    "03.08.04": "classifying space — Wave 2 Phase 2.5 unit #3, SHIPPED",
+    "03.12.01": "Homotopy and homotopy group — Wave 4 Strand B unit #1, SHIPPED 2026-04-28",
+    "03.12.02": "Covering space — Wave 4 Strand B unit #2, SHIPPED 2026-04-28",
+    "03.12.03": "Suspension — Wave 5 unit #1, SHIPPED 2026-04-28",
+    "03.12.04": "Spectrum — Wave 5 unit #2, SHIPPED 2026-04-28",
+    "03.08.07": "Bott periodicity — pilot unit #7, SHIPPED",
+    "03.07.05": "Yang-Mills action — pilot unit #8, SHIPPED",
+    "03.10.02": "CFT basics — pilot unit #9, SHIPPED",
+    "03.09.10": "Atiyah-Singer index theorem — pilot unit #10, SHIPPED",
+    "00.02.05": "function — Wave 4 Strand A unit #1, SHIPPED",
+    "01.01.01": "field — Wave 4 Strand A unit #2, SHIPPED",
+    "03.02.01": "Smooth manifold — Wave 3 Phase 3.1 unit #1, SHIPPED 2026-04-28",
+    "03.03.01": "Lie group — Wave 3 Phase 3.1 unit #4, SHIPPED 2026-04-28",
+    "03.04.02": "Differential forms — Wave 3 Phase 3.1 unit #2, SHIPPED 2026-04-28",
+    "03.04.03": "integration on manifolds — Wave 2 Phase 2.4 unit #4, SHIPPED",
+    "03.04.08": "variational calculus on manifolds — Wave 2 Phase 2.4 unit #5, SHIPPED",
+    "03.11.01": "central extension of a Lie algebra — Wave 2 Phase 2.4 unit #6, SHIPPED",
+    "03.11.02": "infinite-dimensional Lie algebra representations — Wave 2 Phase 2.5 unit #6, SHIPPED",
+    "03.11.03": "Virasoro algebra — Wave 2 Phase 2.6 unit #3, SHIPPED",
+    "03.04.04": "Exterior derivative — Wave 4 Strand B unit #3, SHIPPED 2026-04-28",
+    "03.04.05": "Stokes' theorem — Wave 4 Strand B unit #4, SHIPPED 2026-04-28",
+    "03.04.06": "de Rham cohomology — Wave 2 Phase 2.1 unit #4, SHIPPED",
+    "03.06.05": "Invariant polynomial on a Lie algebra — Wave 2 Phase 2.3 catch-up unit, SHIPPED 2026-04-28",
+    "03.05.09": "Curvature of a connection — Wave 2 Phase 2.3 catch-up unit, SHIPPED 2026-04-28",
+    "02.01.01": "Topological space — Wave 3 Phase 3.1 unit #3, SHIPPED 2026-04-28",
+    "02.01.05": "Metric space — Wave 3 Phase 3.1 unit #5, SHIPPED 2026-04-28",
+    "01.02.01": "group — Wave 3 Phase 3.2 unit #1, SHIPPED",
+    "03.03.02": "group action — Wave 3 Phase 3.2 unit #2, SHIPPED",
+    "03.03.03": "orthogonal group — Wave 3 Phase 3.2 unit #3, SHIPPED",
+    "02.01.02": "continuous map — Wave 3 Phase 3.2 unit #4, SHIPPED",
+    "02.11.06": "normed vector space — Wave 3 Phase 3.2 unit #5, SHIPPED",
+    "02.11.07": "inner product space — Wave 3 Phase 3.2 unit #6, SHIPPED",
+    "03.12.05": "Eilenberg-MacLane space — Wave 5 unit #3, SHIPPED 2026-04-28",
+    "04.01.01": "Sheaf — v0.5 Strand A unit #1, SHIPPED 2026-04-28",
+    "05.01.01": "symplectic vector space — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.01.02": "symplectic manifold — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.01.03": "symplectic group — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.01.04": "darboux's theorem — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.02.01": "hamiltonian vector field — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.02.02": "poisson bracket and Poisson manifold — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.02.03": "integrable system — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.02.04": "action-angle coordinates — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.02.05": "cotangent bundle as canonical symplectic manifold — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.03.01": "coadjoint orbit — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.04.01": "moment map — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.04.02": "marsden-Weinstein symplectic reduction — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.05.01": "lagrangian submanifold — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.06.01": "almost-complex structure on a symplectic manifold — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.06.02": "pseudoholomorphic curve — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.07.01": "gromov non-squeezing theorem — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.07.02": "symplectic capacity — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.08.01": "arnold conjecture and Floer homology setup — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.08.02": "floer homology — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.08.03": "maslov index — v0.5 Strand B symplectic unit, SHIPPED",
+    "05.08.04": "conley-Zehnder index — v0.5 Strand B symplectic unit, SHIPPED",
+    "04.02.01": "Scheme — v0.5 Strand A unit #2, SHIPPED 2026-04-28",
+    "04.03.01": "Sheaf cohomology — v0.5 Strand A unit #3, SHIPPED 2026-04-28",
+    "04.04.01": "Riemann-Roch theorem for curves — v0.5 Strand A unit #4, SHIPPED 2026-04-28",
+    "06.01.01": "Holomorphic function — v0.5 Strand C unit #1, SHIPPED 2026-04-28",
+    "06.03.01": "Riemann surface — v0.5 Strand C unit #2, SHIPPED 2026-04-28",
+    "06.04.01": "Riemann-Roch theorem for compact Riemann surfaces — v0.5 Strand C unit #3, SHIPPED 2026-04-28",
+    "07.01.01": "Group representation — v0.5 Strand D unit #1, SHIPPED 2026-04-28",
+    "07.01.02": "Schur's lemma — v0.5 Strand D unit #2, SHIPPED 2026-04-28",
+    "07.03.01": "Highest weight representation — v0.5 Strand D unit #3, SHIPPED 2026-04-28",
+    "07.04.01": "Cartan-Weyl classification — v0.5 Strand D unit #4, SHIPPED 2026-04-28",
+    "08.01.01": "partition function (statistical mechanics) — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.01.02": "ising model — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.01.03": "boltzmann distribution and canonical ensemble — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.01.04": "free energy — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.02.01": "mean-field theory and Curie-Weiss model — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.02.02": "spontaneous symmetry breaking — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.02.03": "mermin-Wagner theorem — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.03.01": "onsager solution of the 2D Ising model (transfer matrix) — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.03.02": "transfer matrix — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.04.01": "renormalisation group (real-space block decimation) — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.04.02": "wilson-Fisher fixed point and universality — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.04.03": "beta function (renormalisation group) — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.04.04": "block-spin decimation — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.05.01": "critical exponents and scaling laws — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.05.02": "correlation functions (statistical mechanics) — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.06.01": "gaussian field theory and free boson — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.06.02": "conformal symmetry at criticality — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.07.01": "path integral formulation of statistical mechanics — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.08.01": "wilson's lattice gauge theory — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.08.02": "wilson action — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.08.03": "effective field theory — v0.5 Strand E stat-mech unit, SHIPPED",
+    "08.09.01": "quantum-classical correspondence (Wick rotation) — v0.5 Strand E stat-mech unit, SHIPPED",
+    "04.07.01": "Projective space — v0.5 Strand A supporting unit #1, SHIPPED 2026-04-28",
+    "04.02.02": "Affine scheme — v0.5 Strand A supporting unit #2, SHIPPED 2026-04-28",
+    "04.02.03": "Projective scheme — v0.5 Strand A supporting unit #3, SHIPPED 2026-04-28",
+    "04.06.01": "Quasi-coherent sheaf — v0.5 Strand A supporting unit #4, SHIPPED 2026-04-28",
+    "04.06.02": "Coherent sheaf — v0.5 Strand A supporting unit #5, SHIPPED 2026-04-28",
+    "04.05.01": "Weil divisor — v0.5 Strand A supporting unit #6, SHIPPED 2026-04-28",
+    "04.05.03": "Line bundle on a scheme — v0.5 Strand A supporting unit #7, SHIPPED 2026-04-28",
+    "04.05.04": "Cartier divisor — v0.5 Strand A supporting unit #8, SHIPPED 2026-04-28",
+    "04.05.02": "Picard group — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.05.05": "Ample and very ample line bundle — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.01.02": "Stalk of a sheaf — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.01.03": "Sheafification — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.01.04": "Direct and inverse image of sheaves — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.02.04": "Morphism of schemes — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.07.02": "Blowup — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.08.01": "Sheaf of differentials — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.08.02": "Canonical sheaf — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.08.03": "Serre duality — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.09.01": "Hodge decomposition — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.09.02": "Kodaira vanishing theorem — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.10.01": "Moduli of curves — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "04.10.02": "Geometric invariant theory — v0.5 Strand A supporting unit, SHIPPED 2026-04-28",
+    "07.01.03": "Character — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.01.04": "Character orthogonality — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.01.05": "Regular representation — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.01.06": "Tensor product of representations — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.01.07": "Induced representation — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.01.08": "Frobenius reciprocity — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.02.01": "Maschke's theorem — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "06.01.05": "Meromorphic function — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.01.02": "Cauchy integral formula — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.01.03": "Residue theorem — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.01.04": "Analytic continuation — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.01.06": "Riemann mapping theorem — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.02.01": "Branch point and ramification — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.03.02": "Genus of a Riemann surface — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.03.03": "Uniformization theorem — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.05.01": "Divisor on a Riemann surface — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.05.02": "Holomorphic line bundle on a Riemann surface — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.05.03": "Riemann-Hurwitz formula — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.06.01": "Holomorphic 1-form / abelian differential — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.06.02": "Period matrix — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.06.03": "Jacobian variety — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.06.04": "Abel-Jacobi map — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.06.05": "Theta function — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.07.01": "Holomorphic functions of several variables — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "06.07.02": "Hartogs phenomenon — v0.5 supporting Strand C unit, SHIPPED 2026-04-28",
+    "07.06.01": "Lie algebra representation — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.02": "Universal enveloping algebra — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.03": "Root system — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.04": "Weyl group — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.05": "Dynkin diagram — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.06": "Verma module — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.07": "Weyl character formula — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.08": "Weyl dimension formula — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.06.09": "Borel-Weil theorem — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.07.01": "Compact Lie group representation — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.07.02": "Peter-Weyl theorem — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.07.03": "Haar measure — v0.5 supporting Strand D unit, SHIPPED 2026-04-28",
+    "07.05.01": "Symmetric group representation — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.05.02": "Young diagram and tableau — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "07.05.03": "Specht module — v0.5 Strand D supporting unit, SHIPPED 2026-04-28",
+    "03.09.11": "Clifford chessboard classification — v0.6 Lawson-Michelsohn pilot Agent A, SHIPPED 2026-04-29",
+    "03.09.12": "KR-theory and (1,1)-periodicity — v0.6 Lawson-Michelsohn pilot Agent A, SHIPPED 2026-04-29",
+    "03.09.13": "Triality on Spin(8) and exceptional Lie groups — v0.6 Lawson-Michelsohn pilot Agent A, SHIPPED 2026-04-29",
+    "03.09.14": "Generalised Dirac bundle and Bochner-Weitzenböck — v0.6 Lawson-Michelsohn pilot Agent B, SHIPPED 2026-04-29",
+    "03.09.15": "Cl_k-linear Dirac operator and KO-valued index — v0.6 Lawson-Michelsohn pilot Agent B, SHIPPED 2026-04-29",
+    "03.09.20": "Heat-kernel proof of Atiyah-Singer index theorem — v0.6 Lawson-Michelsohn pilot Agent C, SHIPPED 2026-04-29",
+    "03.09.21": "Family / equivariant / Lefschetz fixed-point index — v0.6 Lawson-Michelsohn pilot Agent C, SHIPPED 2026-04-29",
+    "03.09.22": "Sobolev / pseudodifferential / parametrix analytic foundations — v0.6 Lawson-Michelsohn pilot Agent C, SHIPPED 2026-04-29",
+    "03.09.E1": "Clifford and spin algebra exercise pack (LM Ch I supplement) — v0.6 Lawson-Michelsohn pilot Agent D, SHIPPED 2026-04-29",
+    "03.09.16": "Positive scalar curvature obstruction theory — v0.6 Lawson-Michelsohn pilot Agent E, SHIPPED 2026-04-29",
+    "03.09.17": "Witten positive-mass theorem via spinors — v0.6 Lawson-Michelsohn pilot Agent E, SHIPPED 2026-04-29",
+    "03.09.18": "Berger holonomy classification + parallel spinors — v0.6 Lawson-Michelsohn pilot Agent E, SHIPPED 2026-04-29",
+    "03.09.19": "Calibrated geometries (Harvey-Lawson) — v0.6 Lawson-Michelsohn pilot Agent E, SHIPPED 2026-04-29",
+    "03.09.E2": "Chapter IV applications exercise pack — v0.6 Lawson-Michelsohn pilot Agent E, SHIPPED 2026-04-29",
+    "03.13.01": "Spectral sequences — exact couples, filtered complexes, double complexes — v0.6 Bott-Tu Pass 4 Agent C, SHIPPED 2026-04-28",
+    "03.13.02": "Leray-Serre spectral sequence and the Gysin sequence — v0.6 Bott-Tu Pass 4 Agent C, SHIPPED 2026-04-28",
+    "03.13.03": "Leray-Hirsch theorem and the splitting principle for vector bundles — v0.6 Bott-Tu Pass 4 Agent C, SHIPPED 2026-04-28",
+    "03.13.E1": "Spectral-sequence computation exercise pack (Bott-Tu Ch. III supplement) — v0.6 Bott-Tu Pass 4 Agent C, SHIPPED 2026-04-28",
+    "03.04.07": "Mayer-Vietoris sequence for de Rham cohomology — v0.6 Bott-Tu pilot Agent A, SHIPPED 2026-04-29",
+    "03.04.09": "Compactly-supported / compactly-vertical cohomology + Thom isomorphism via global angular form — v0.6 Bott-Tu pilot Agent A, SHIPPED 2026-04-29",
+    "03.04.10": "Good covers, finite-dimensionality, Mayer-Vietoris induction — v0.6 Bott-Tu pilot Agent A, SHIPPED 2026-04-29",
+    "03.04.11": "Čech-de Rham double complex and the tic-tac-toe principle — v0.6 Bott-Tu pilot Agent A, SHIPPED 2026-04-29",
+    "03.04.12": "Künneth formula via dual proof — v0.6 Bott-Tu pilot Agent B, SHIPPED 2026-04-29",
+    "03.04.13": "Singular cohomology and de Rham theorem (three routes) — v0.6 Bott-Tu pilot Agent B, SHIPPED 2026-04-29",
+    "04.03.02": "Local systems and monodromy — v0.6 Bott-Tu pilot Agent B, SHIPPED 2026-04-29",
+    "03.04.E1": "Mayer-Vietoris + degree-theory exercise pack (Bott-Tu Ch I supplement) — v0.6 Bott-Tu pilot Agent B, SHIPPED 2026-04-29",
+    "03.05.10": "Sphere bundle and Hopf index theorem — v0.6 Bott-Tu pilot Agent D, SHIPPED 2026-04-29",
+    "03.08.05": "Universal bundle and Borel presentation — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
+    "03.12.06": "Sullivan minimal models and rational homotopy theory — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
+    "03.12.07": "Whitehead tower and rational Hurewicz — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
+    "03.12.E1": "Rational-homotopy exercise pack — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29"
+  }
+}
