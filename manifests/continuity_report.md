@@ -7,11 +7,11 @@ _Generated: $(date)_
 
 | Metric | Avg | Threshold | Status |
 |---|---|---|---|
-| Backward-reference density (per 1000w) | 15.32 | 8.0 | ✓ |
-| Forward-promise density (per 1000w) | 3.64 | 3.0 | ✓ |
+| Backward-reference density (per 1000w) | 15.29 | 8.0 | ✓ |
+| Forward-promise density (per 1000w) | 3.62 | 3.0 | ✓ |
 | Lateral connections (per Master section) | 4.92 | 3 | ✓ |
-| Synthesis claims (Intermediate) | 2.58 | 2 | ✓ |
-| Synthesis claims (Master) | 4.67 | 4 | ✓ |
+| Synthesis claims (Intermediate) | 2.62 | 2 | ✓ |
+| Synthesis claims (Master) | 4.70 | 4 | ✓ |
 | Anchor-phrase reuse rate | 1.00 | 0.95 | ✓ |
 
 ## All thresholds met ✓
