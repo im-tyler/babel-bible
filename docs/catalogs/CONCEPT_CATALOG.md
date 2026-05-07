@@ -809,6 +809,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: dimension counting for functions with prescribed singularities
 - **notes**: $\ell(D) - \ell(K - D) = \deg(D) - g + 1$ on smooth projective curve of genus $g$. Equivalently $\chi(\mathcal{L}) = \deg(\mathcal{L}) + 1 - g$. Serre duality $H^1(C; \mathcal{L}) \cong H^0(C; \omega_C \otimes \mathcal{L}^{-1})^\vee$. Canonical divisor of degree $2g - 2$. Inductive proof via skyscraper short exact sequences. Hirzebruch and Grothendieck generalisations. Brill-Noether theory and Clifford's theorem for special divisors.
 
+### alg-geom.hurwitz-formula
+
+- **title**: Hurwitz formula
+- **unit**: `04.04.02`
+- **prerequisites**: `alg-geom.riemann-roch-curves`
+- **tier_anchors**:
+  - master: Hurwitz 1891 *Über Riemann'sche Flächen mit gegebenen Verzweigungspunkten* (Math. Ann. 39, originator); Hartshorne §IV.2; Liu §7.4; Donaldson §6
+  - intermediate: Hartshorne §IV.2; Liu §7.4
+  - beginner: Hartshorne §IV.2 informal; ramification accounting for branched covers of curves
+- **notes**: $2g_Y - 2 = n(2g_X - 2) + \deg R$ for a finite separable morphism $\pi : Y \to X$ of smooth projective curves of degree $n$, with ramification divisor $R = \sum_y (e_y - 1)\,y$ in the tame case ($\mathrm{char}\,k \nmid e_y$). Proof via $\pi^* K_X = K_Y - R$ and degree comparison. Worked examples: $t \mapsto t^n$ on $\mathbb{P}^1$, hyperelliptic double cover ramified at $2g + 2$ points, elliptic double cover with four branch points. Wild ramification in positive characteristic replaces $\sum(e_y - 1)$ with the different $\mathfrak{d}_{Y/X}$. Castelnuovo-Severi inequality bounds $g_Y$ in terms of $g_X$, $n$, and ramification.
+
 ### alg-geom.sheaf-cohomology
 
 - **title**: Sheaf cohomology
@@ -939,6 +950,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: dualities pairing top and bottom cohomology
 - **notes**: For smooth projective $X$ of dimension $n$ over a field, $H^i(X; \mathcal{F}) \cong H^{n-i}(X; \mathcal{F}^\vee \otimes \omega_X)^\vee$ for locally free $\mathcal{F}$. Trace map $H^n(X; \omega_X) \to k$. Serre 1955 *Un théorème de dualité*. Grothendieck duality (1966) generalises to proper morphisms via dualising complex $\omega_X^\bullet$. On curves: $H^1(\mathcal{L}) \cong H^0(\omega \otimes \mathcal{L}^{-1})^\vee$, powering Riemann-Roch.
 
+### alg-geom.serre-duality-curves
+
+- **title**: Serre duality on a curve
+- **prerequisites**: `complex-analysis.holomorphic-line-bundle`, `complex-analysis.riemann-roch-compact-rs`, `alg-geom.canonical-sheaf`
+- **tier_anchors**:
+  - master: Serre 1955 *Un théorème de dualité* (originator); Hartshorne §IV.1; Donaldson *Riemann Surfaces* §11; Griffiths-Harris *Principles of Algebraic Geometry* §0.7
+  - intermediate: Donaldson *Riemann Surfaces* §11; Forster *Lectures on Riemann Surfaces* §17
+  - beginner: pairing $H^1$ of a line bundle with global sections of the dual-twisted canonical
+- **notes**: For a line bundle $L$ on a smooth projective curve $X$ of genus $g$ over an algebraically closed field $k$, the residue trace $\mathrm{tr} : H^1(X; K_X) \to k$ pairs $H^1(X; L) \times H^0(X; K_X \otimes L^{-1}) \to k$ non-degenerately, giving $H^1(X; L) \cong H^0(X; K_X \otimes L^{-1})^*$. Combined with Riemann-Roch ($\dim H^0(L) - \dim H^1(L) = \deg L + 1 - g$) yields $\dim H^0(L) - \dim H^0(K \otimes L^{-1}) = \deg L + 1 - g$. Vanishing $H^1(L) = 0$ for $\deg L > 2g - 2$. Specialisation of Grothendieck duality to dimension 1; the dualising sheaf is $K_X = \omega_X$. Geometric content: $H^0(K \otimes L^{-1})$ measures specialty (Brill-Noether). Originator: Serre 1955 (Comm. Math. Helv. 29).
+
 ### alg-geom.hodge-decomposition
 
 - **title**: Hodge decomposition
@@ -958,6 +979,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Voisin Vol I; Lazarsfeld Vol I
   - beginner: positivity kills higher cohomology
 - **notes**: $H^i(X; \omega_X \otimes L) = 0$ for $i > 0$, $L$ ample on smooth projective complex $X$. Kodaira 1953 (transcendental). Akizuki-Nakano generalisation to $\Omega^p$. Algebraic proof via Deligne-Illusie reduction mod $p$. Kawamata-Viehweg generalisation to nef + big. Kollár's injectivity. Foundational for the minimal model program.
+
+### alg-geom.intersection-pairing-surfaces
+
+- **title**: Intersection pairing on a surface
+- **prerequisites**: `alg-geom.scheme`, `alg-geom.weil-divisor`, `alg-geom.cartier-divisor`, `alg-geom.line-bundle-scheme`, `alg-geom.picard-group`
+- **tier_anchors**:
+  - master: Hartshorne §V.1; Beauville *Complex Algebraic Surfaces* §I–§III; Fulton *Intersection Theory* Ch. 7–8
+  - intermediate: Hartshorne §V.1; Beauville §I
+  - beginner: Beauville §I; counting transverse intersection points
+- **notes**: Symmetric bilinear pairing $\mathrm{Pic}(X) \times \mathrm{Pic}(X) \to \mathbb{Z}$, $(D, D') \mapsto D \cdot D'$, on a smooth projective surface $X$ over algebraically closed $k$. Three equivalent definitions: geometric (transverse intersection count after moving lemma), cohomological ($D \cdot D' = \chi(\mathcal{O}_X) - \chi(\mathcal{O}(-D)) - \chi(\mathcal{O}(-D')) + \chi(\mathcal{O}(-D-D'))$, Hartshorne V.1.4), cup-product (cycle-class map $\mathrm{Pic}(X) \to H^2(X, \mathbb{Z})$ intertwines intersection with $\smile$). Self-intersection $D^2$. Examples: line $L^2 = 1$ on $\mathbb{P}^2$, exceptional divisor $E^2 = -1$, ruling $f^2 = 0$ on $\mathbb{P}^1 \times \mathbb{P}^1$. Italian school (Castelnuovo-Enriques 1880–1910); Hartshorne V scheme-theoretic framing; Fulton's $A^*(X)$-deepening. Load-bearing for adjunction, Riemann-Roch on surfaces, Hodge index, and the Castelnuovo-Beauville-Bombieri-Kodaira classification of surfaces.
 
 ### alg-geom.moduli-of-curves
 
@@ -2559,3 +2590,14 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **tier_anchors**:
   - intermediate: Bott-Tu §19 minimal-model exercises; Félix-Halperin-Thomas §10–§14 worked examples; Hatcher §4.2 + §4.3; Sullivan 1977
 - **notes**: Eight exercises covering the Sullivan minimal-model machinery and rational homotopy. Distribution: 2 easy / 4 medium / 2 hard. Easy: minimal model of $S^{2k}$ (closed case), minimal model of $\mathbb{C}P^n$. Medium: minimal model of $\Omega S^n$ via Bott-Samelson; rational Hurewicz for a simply-connected space; minimal model of a fibration via Halperin's algorithm; minimal model of a Lie group as exterior algebra on primitive generators. Hard: Sullivan's solution to Serre's question $\pi_*(S^n) \otimes \mathbb{Q}$; formality of compact Kähler manifolds via the $dd^c$-lemma. Cross-cuts N12 and N14. Each exercise carries a hint and full answer in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### alg-geom.cech-schemes
+
+- **title**: Čech cohomology of sheaves on schemes
+- **unit**: `04.03.03`
+- **prerequisites**: `alg-geom.scheme`, `alg-geom.affine-scheme`, `alg-geom.sheaf-cohomology`
+- **tier_anchors**:
+  - master: Serre 1955 *Faisceaux Algébriques Cohérents* (Annals of Math. 61); Hartshorne §III.4 + §III.5; Liu *Algebraic Geometry and Arithmetic Curves* §5.2
+  - intermediate: Hartshorne §III.4
+  - beginner: Hartshorne §III.4 informal — combinatorial cocycle bookkeeping on intersections of an open cover
+- **notes**: Čech cochain complex $C^p(\mathcal{U}, \mathcal{F}) = \prod_{i_0 < \cdots < i_p} \mathcal{F}(U_{i_0 \cdots i_p})$ with alternating-sum-of-restriction differential $\delta : C^p \to C^{p+1}$; Čech cohomology $\check H^p(\mathcal{U}, \mathcal{F}) = \ker\delta^p / \mathrm{im}\,\delta^{p-1}$; refinement colimit $\check H^p(X, \mathcal{F}) = \mathrm{colim}_\mathcal{U} \check H^p(\mathcal{U}, \mathcal{F})$. Cartan's comparison theorem: for separated scheme $X$, affine open cover $\mathcal{U}$, and quasi-coherent $\mathcal{F}$, the canonical map $\check H^*(\mathcal{U}, \mathcal{F}) \to H^*(X, \mathcal{F})$ is an isomorphism in all degrees. Foundation for the cohomology computation on $\mathbb{P}^n_k$ via the standard cover $\{D_+(x_i)\}$ — Hartshorne III.5. Affine vanishing (Serre): $H^p(\mathrm{Spec}\,A, \tilde M) = 0$ for $p > 0$. Two-set covers reproduce Mayer-Vietoris. Čech-derived spectral sequence $E_2^{p,q} = \check H^p(\mathcal{U}, \mathcal{H}^q(\mathcal{F})) \Rightarrow H^{p+q}(X, \mathcal{F})$ degenerates when higher derived presheaves vanish on intersections. Originator: Čech 1932 (combinatorial topology); modern scheme version Serre 1955 *FAC*.
