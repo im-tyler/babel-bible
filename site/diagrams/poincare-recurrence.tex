@@ -1,0 +1,42 @@
+% Poincaré recurrence: bounded measure + measure-preserving => almost every orbit recurs.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Bounded phase space (large blob)
+  \draw[gray!50!black, very thick, fill=gray!8] (0, 0) ellipse [x radius=4.0cm, y radius=2.5cm];
+  \node[gray!60!black] at (-3.5, 2.0) {finite-measure $X$};
+
+  % Region A
+  \draw[red!60!black, thick, fill=red!10] (-2.5, 0.5) ellipse [x radius=0.8cm, y radius=0.5cm];
+  \node[red!70!black] at (-2.5, 0.5) {$A$};
+
+  % Sequence of iterates returning to A
+  \draw[arrow, blue!75!black] (-2.0, 0.4) to[bend left=30] (1.0, 1.5);
+  \filldraw[blue!75!black] (1.0, 1.5) circle (1.5pt);
+  \node[blue!75!black, font=\footnotesize] at (1.4, 1.6) {$T(x)$};
+
+  \draw[arrow, blue!75!black] (1.0, 1.5) to[bend left=20] (2.5, -0.5);
+  \filldraw[blue!75!black] (2.5, -0.5) circle (1.5pt);
+  \node[blue!75!black, font=\footnotesize] at (2.9, -0.5) {$T^2(x)$};
+
+  \draw[arrow, blue!75!black] (2.5, -0.5) to[bend left=15] (-1.5, -1.6);
+  \filldraw[blue!75!black] (-1.5, -1.6) circle (1.5pt);
+  \node[blue!75!black, font=\footnotesize] at (-1.0, -1.7) {$T^3(x)$};
+
+  \draw[arrow, blue!75!black] (-1.5, -1.6) to[bend right=20] (-2.4, 0.6);
+  \filldraw[red!75!black] (-2.4, 0.6) circle (1.8pt);
+  \node[red!75!black, font=\footnotesize] at (-3.5, 0.9) {$T^N(x) \in A$};
+
+  % Theorem statement
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=4pt] at (0, 3.6)
+    {Almost every $x \in A$ returns to $A$ infinitely often.};
+
+  % Mean recurrence time (Kac)
+  \node[draw=teal!50!black, fill=teal!4, rounded corners=4pt, inner sep=4pt] at (0, -3.4)
+    {Kac's lemma: $\mathbb{E}[\tau_A] = \mu(X) / \mu(A)$};
+
+  \begin{scope}[on background layer]
+    \fill[orange!4, rounded corners=12pt] (-5.0, -4.2) rectangle (5.0, 4.6);
+  \end{scope}
+\end{tikzpicture}
