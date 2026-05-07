@@ -369,6 +369,46 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Cannas §27 informal
 - **notes**: For closed connected $(M, \omega)$ with Hamiltonian $T = T^k$ action and moment map $\mu : M \to \mathfrak{t}^*$: (i) $\mu(M)$ is a convex polytope; (ii) $\mu(M) = \mathrm{conv}(\mu(M^T))$; (iii) every fibre $\mu^{-1}(c)$ is connected. Atiyah's proof: Morse-Bott analysis of $\mu^\xi$, even index/coindex via weight-space decomposition, level-set connectedness via even-index attaching, induction on rank. Examples: $S^2$ height function, $\mathbb{CP}^n$ standard polytope, coadjoint orbits / Schur-Horn permutohedron. Originators: Atiyah 1982 *Convexity and commuting Hamiltonians*; Guillemin-Sternberg 1982 *Convexity properties of the moment mapping*.
 
+### topology.hurewicz-theorem
+
+- **title**: Hurewicz theorem
+- **prerequisites**: `topology.homotopy`, `topology.singular-homology`
+- **tier_anchors**:
+  - master: Hurewicz 1935-36 four-paper series in *Proc. Konink. Akad. Wetensch. Amsterdam* (originator); Hatcher §4.2 (full proof); tom Dieck §6; May Ch. 11
+  - intermediate: Hatcher §2.A + §4.2
+  - beginner: Hatcher §2.A informal
+- **notes**: Hurewicz map $h_n : \pi_n(X) \to H_n(X)$, $[\sigma] \mapsto \sigma_*[S^n]$. Low-dim form (Hatcher 2A.1): $h_1 : \pi_1 \to H_1$ is abelianisation map. Higher-dim form (Hatcher 4.32): if $X$ is $(n-1)$-connected then $H_k(X) = 0$ for $1 \leq k < n$ and $h_n$ is iso. Relative form (Hatcher 4.37). $\pi_n(S^n) = \mathbb{Z}$ as a basic computation. Hopf map shows non-injectivity of $h_3 : \pi_3(S^2) \to H_3(S^2) = 0$. Originator: Witold Hurewicz 1935-36 four-paper series.
+
+### topology.whitehead-theorem
+
+- **title**: Whitehead's theorem
+- **prerequisites**: `topology.cw-complex`, `topology.homotopy`, `topology.hurewicz-theorem`
+- **tier_anchors**:
+  - master: Whitehead 1949 *Combinatorial homotopy I+II* (originator); Hatcher §4.1 (full proof + Warsaw counterexample); tom Dieck §8
+  - intermediate: Hatcher §4.1; May Ch. 10
+  - beginner: Hatcher §4.1 informal
+- **notes**: A continuous map $f : X \to Y$ between CW complexes inducing iso on all $\pi_n$ is a homotopy equivalence (Hatcher 4.5). Proof via cellular approximation + HEP for CW pairs + skeleton-by-skeleton inductive obstruction-theoretic construction of homotopy inverse. Mapping-cylinder reformulation. Hurewicz + Whitehead corollary: simply-connected CW complexes with iso on all $H_n$ are homotopy-equivalent. Warsaw circle is the standard counterexample for the CW hypothesis. Originator: J.H.C. Whitehead 1949.
+
+### symplectic-geometry.contact-manifold
+
+- **title**: Contact manifold
+- **prerequisites**: `symplectic-geometry.symplectic-manifold`, `diffgeo.exterior-derivative`
+- **tier_anchors**:
+  - master: Lie 1872 (origins); Cartan early 20th c. (manifold framing); Reeb 1952 (Reeb vector field); Gray 1959 (rigidity); Geiges *An Introduction to Contact Topology* 2008
+  - intermediate: Cannas da Silva §10; Geiges Ch. 1-2
+  - beginner: Cannas §10 informal; Geiges Ch. 1
+- **notes**: Odd-dimensional manifold $M^{2n+1}$ with maximally non-integrable codimension-1 hyperplane field $\xi \subset TM$, locally $\xi = \ker\alpha$ with $\alpha \wedge (d\alpha)^n \neq 0$. Co-orientable (global $\alpha$) vs non-co-orientable. Reeb vector field $R$: $\iota_R\alpha = 1, \iota_R d\alpha = 0$. Standard examples: $\mathbb{R}^{2n+1}$ with $dz - \sum y_i dx_i$; $S^{2n+1} \subset \mathbb{C}^{n+1}$ Sasakian; $S(T^*M)$ unit-cotangent (Reeb = geodesic flow); $J^1(M, \mathbb{R})$. Contact Darboux via Moser. Symplectisation $(M \times \mathbb{R}, d(e^t \alpha))$. Legendrian = $n$-dim submanifold tangent to $\xi$. Gray's theorem (1959): isotopic contact structures are diffeomorphic. Tight/overtwisted dichotomy (Eliashberg 1989).
+
+### symplectic-geometry.generating-functions
+
+- **title**: Generating functions for symplectomorphisms
+- **prerequisites**: `symplectic-geometry.lagrangian-submanifold`, `symplectic-geometry.weinstein-neighbourhood`, `symplectic-geometry.symplectic-manifold`
+- **tier_anchors**:
+  - master: Hamilton 1834 (origins); Hörmander 1971 *Fourier integral operators I* (Acta Math. 127, GFQI); Viterbo 1992 (symplectic-capacity applications); Cannas §22; McDuff-Salamon Ch. 9 + 11
+  - intermediate: Cannas §22; McDuff-Salamon Ch. 9
+  - beginner: Arnold *Mathematical Methods of Classical Mechanics* §47 informal
+- **notes**: Graph of symplectomorphism $\phi : T^*M \to T^*M$ as a Lagrangian in $T^*M \times T^*M \cong T^*(M \times M)$. Type-1 generating function $F : M \times M \to \mathbb{R}$. Four classical types (physics literature). Generating function for exact Lagrangian = scalar potential $S : M \to \mathbb{R}$. Hörmander 1971 GFQI: every closed Lagrangian admits a generating function quadratic at infinity. Sikorav-Viterbo theorem: GFQIs for Hamiltonian-isotopic Lagrangians are equivalent up to stabilisation/fibre-change/constants — gives spectral invariants. Discrete action principle: critical points = fixed points / Lagrangian intersections. Conley-Zehnder used GFQI for the torus Arnold conjecture (1983).
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property

@@ -1,0 +1,42 @@
+% AGS convexity: moment polytope = convex hull of fixed-point images.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  fixed/.style={fill=red!75!black, circle, inner sep=2pt},
+  vertex/.style={fill=blue!75!black, circle, inner sep=2pt},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Symplectic manifold M with circle action (sketch as a torus with arrows)
+  \draw[gray!50!black, very thick, fill=gray!8] (-4.0, 0) ellipse [x radius=1.6cm, y radius=1.0cm];
+  \draw[gray!50!black, thick] (-4.5, 0.05) .. controls (-4.4, -0.2) and (-3.6, -0.2) .. (-3.5, 0.05);
+  \draw[gray!50!black, thick] (-4.4, -0.05) .. controls (-4.3, 0.1) and (-3.7, 0.1) .. (-3.6, -0.05);
+
+  % Fixed points (red)
+  \filldraw[red!75!black] (-5.4, 0) circle (2pt);
+  \filldraw[red!75!black] (-2.6, 0) circle (2pt);
+  \filldraw[red!75!black] (-4.0, 0.85) circle (2pt);
+
+  \node[gray!50!black] at (-4.0, 1.5) {$(M, \omega)$};
+  \node[font=\footnotesize, red!75!black, anchor=west] at (-2.4, 0) {fixed points $M^T$};
+
+  % Moment map arrow
+  \draw[arrow, blue!75!black] (-1.5, 0) -- node[above] {$\mu$} (1.5, 0);
+  \node[font=\footnotesize, gray!50!black] at (0, -0.5) {moment map};
+
+  % Polytope on the right (the image)
+  \node[vertex] (P1) at (2.0, -0.7) {};
+  \node[vertex] (P2) at (5.0, -0.5) {};
+  \node[vertex] (P3) at (4.0, 1.5)  {};
+
+  \draw[blue!60!black, thick, fill=blue!10] (P1.center) -- (P2.center) -- (P3.center) -- cycle;
+
+  \node[anchor=west, font=\footnotesize, blue!60!black] at (5.4, 1.5) {$\mu(M^T)$ images};
+  \node[anchor=west, font=\footnotesize, blue!60!black] at (5.4, 0.4) {$\mu(M) = \mathrm{conv}(\mu(M^T))$};
+  \node[font=\small, blue!60!black] at (3.6, 0.5) {$\mu(M)$};
+
+  \begin{scope}[on background layer]
+    \fill[teal!4, rounded corners=12pt] (-6.0, -1.5) rectangle (10.0, 2.4);
+  \end{scope}
+
+  \node[align=center] at (2.0, -2.2)
+    {\itshape AGS theorem: the moment-map image is a convex polytope, the convex hull of fixed-point images.};
+\end{tikzpicture}
