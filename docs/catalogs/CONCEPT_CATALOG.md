@@ -309,6 +309,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Hatcher §2.2 informal cell-counting
 - **notes**: For a CW complex $X$, $C_n^{\mathrm{cell}}(X) = H_n(X^{(n)}, X^{(n-1)})$. Cellular boundary via long-exact-sequence connecting map; explicit degree formula $d_n(e_\alpha^n) = \sum \deg(\phi_{\alpha\beta}) e_\beta^{n-1}$. Cellular = singular: $H_n^{\mathrm{cell}}(X) \cong H_n(X)$ (Hatcher 2.35). Computational power: $\mathbb{CP}^n$ has zero boundaries (no consecutive cells); $\mathbb{RP}^n$ has $\partial = 1 + (-1)^k$. Cellular approximation theorem: every continuous CW-map is homotopic to a cellular map (Hatcher 4.8). Originator: J.H.C. Whitehead 1949 *Combinatorial homotopy II*.
 
+### topology.excision
+
+- **title**: Excision theorem
+- **prerequisites**: `topology.singular-homology`, `topology.cellular-homology`
+- **tier_anchors**:
+  - master: Eilenberg-Steenrod *Foundations of Algebraic Topology* §I (axiomatic); Hatcher §2.1 (full proof); May Ch. 13
+  - intermediate: Hatcher §2.1 + Theorem 2.20
+  - beginner: Hatcher §2.1 informal
+- **notes**: For $Z \subseteq A \subseteq X$ with $\overline Z \subseteq \mathrm{int}(A)$, the inclusion induces $H_n(X \setminus Z, A \setminus Z) \cong H_n(X, A)$. Equivalent open-cover form: $X = \mathrm{int}(A) \cup \mathrm{int}(B) \Rightarrow H_n(B, A \cap B) \cong H_n(X, A)$. Proof via barycentric subdivision + Lebesgue-number argument. Consequences: Mayer-Vietoris derivation; $H_n(D^k, S^{k-1}) \cong \tilde H_{n-1}(S^{k-1})$; cellular boundary formula. Originator: Eilenberg-Steenrod 1952 (axiomatic elevation); precursor in Eilenberg 1944.
+
+### topology.eilenberg-steenrod
+
+- **title**: Eilenberg-Steenrod axioms
+- **prerequisites**: `topology.singular-homology`, `topology.excision`
+- **tier_anchors**:
+  - master: Eilenberg-Steenrod 1945 + 1952 *Foundations of Algebraic Topology* (originator); Hatcher §2.3 + §4.1; tom Dieck §17
+  - intermediate: Hatcher §2.3; May Ch. 13
+  - beginner: Hatcher §2.3 informal
+- **notes**: Axioms for ordinary homology: homotopy, long exact sequence of a pair, excision, additivity, naturality, dimension ($h_n(\mathrm{pt}) = 0$ for $n \neq 0$), and weak-equivalence. Uniqueness theorem: any two theories satisfying dimension and agreeing on $\mathrm{pt}$ are naturally isomorphic on CW pairs. Generalised cohomology theories drop dimension axiom (K-theory, cobordism, stable homotopy). Brown representability via spectra. Singular = simplicial = cellular = Čech all satisfy axioms; uniqueness explains agreement.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property
@@ -1187,6 +1207,26 @@ Before adding a concept to the catalog:
   - intermediate: formal definitions, canonical theorem, and worked computations
   - beginner: phase-space and paired-direction intuition
 - **notes**: The local normal form for every symplectic form. Central theorem: Darboux local coordinate theorem. Used in the v0.5 symplectic geometry strand for Hamiltonian dynamics, reduction, rigidity, and Floer-theoretic constructions.
+
+### symplectic-geometry.moser-trick
+
+- **title**: Moser's trick
+- **prerequisites**: `symplectic-geometry.symplectic-manifold`, `symplectic-geometry.darboux-theorem`
+- **tier_anchors**:
+  - master: Moser 1965 (originator, volume forms); Weinstein 1971 (symplectic extension); Cannas da Silva §3; McDuff-Salamon Ch. 3
+  - intermediate: Cannas §3; McDuff-Salamon Ch. 3
+  - beginner: Cannas §3 informal path-method intuition
+- **notes**: Path-method proof technique. Given $\omega_t$ a path of cohomologous symplectic forms with $\dot\omega_t = d\alpha_t$, define $X_t$ by $\iota_{X_t}\omega_t = -\alpha_t$; the time-1 flow $\psi_1$ satisfies $\psi_1^* \omega_1 = \omega_0$. Originator-anchor for Darboux's theorem (modern proof), Weinstein neighbourhood theorem, equivariant Darboux, and smooth structure of regular symplectic reduction.
+
+### symplectic-geometry.weinstein-neighbourhood
+
+- **title**: Weinstein Lagrangian neighbourhood theorem
+- **prerequisites**: `symplectic-geometry.lagrangian-submanifold`, `symplectic-geometry.symplectic-manifold`, `symplectic-geometry.moser-trick`
+- **tier_anchors**:
+  - master: Weinstein 1971 (originator); Cannas §8; McDuff-Salamon Ch. 3 + 11
+  - intermediate: Cannas §8; McDuff-Salamon Ch. 3
+  - beginner: Cannas §8 informal
+- **notes**: Closed Lagrangian $L \subset (M, \omega)$ has a tubular neighbourhood symplectomorphic to a neighbourhood of the zero section in $T^*L$ with the canonical form $-d\lambda$. Three-step proof: Lagrangian splitting + normal bundle = $T^*L$; tubular diffeomorphism via exponential map; Moser's trick on path of forms vanishing on $L$. Equivariant version. Generating-function bridge to symplectomorphisms. Foundational for Floer-theoretic comparison and Arnold-Givental conjectures. Originator: Weinstein 1971 *Symplectic manifolds and their Lagrangian submanifolds* (Adv. Math. 6).
 
 ### symplectic-geometry.hamiltonian-vector-field
 

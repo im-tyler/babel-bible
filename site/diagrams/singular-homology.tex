@@ -1,0 +1,38 @@
+% Singular n-simplex with alternating-face boundary.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  vert/.style={fill=blue!75!black, circle, inner sep=2pt},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Standard 2-simplex Δ^2 (triangle) with vertices labelled
+  \node[vert, label=below left:$v_0$]  (v0) at (0, 0)   {};
+  \node[vert, label=below right:$v_1$] (v1) at (4, 0)   {};
+  \node[vert, label=above:$v_2$]       (v2) at (2, 3)   {};
+
+  \draw[blue!50!black, thick, fill=blue!8] (v0.center) -- (v1.center) -- (v2.center) -- cycle;
+
+  % Map into X
+  \draw[arrow, gray!60!black] (4.6, 1.5) -- node[above, font=\footnotesize] {$\sigma$} (6.4, 1.5);
+
+  % Blob X
+  \draw[gray!50!black, very thick, fill=gray!8] plot[smooth cycle]
+    coordinates {(7.0, 0.4) (8.6, 1.8) (10.4, 1.6) (10.8, -0.2) (9.0, -1.0) (7.4, -0.5)};
+  \node at (8.6, 0.5) {$X$};
+
+  % Image triangle inside X (curved)
+  \draw[blue!75!black, thick] plot[smooth cycle]
+    coordinates {(7.6, 0.0) (9.5, 1.0) (10.0, 0.4)};
+  \node[vert] at (7.6, 0.0)  {};
+  \node[vert] at (9.5, 1.0)  {};
+  \node[vert] at (10.0, 0.4) {};
+
+  % Face / boundary equation below
+  \node[font=\small, anchor=west] at (0.0, -1.6)
+    {$\partial \sigma \;=\; \sigma|_{[v_1, v_2]} \;-\; \sigma|_{[v_0, v_2]} \;+\; \sigma|_{[v_0, v_1]}$};
+  \node[font=\footnotesize, gray!50!black, anchor=west] at (0.0, -2.3)
+    {alternating sum of face restrictions; satisfies $\partial^2 = 0$.};
+
+  \begin{scope}[on background layer]
+    \fill[blue!4, rounded corners=12pt] (-1.0, -2.7) rectangle (11.4, 4.0);
+  \end{scope}
+\end{tikzpicture}
