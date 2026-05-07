@@ -269,6 +269,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: visual loop deformation
 - **notes**: Homotopy as continuous deformation; homotopy equivalence; fundamental group $\pi_1$ via loop concatenation; higher homotopy groups $\pi_n$ for $n \geq 2$ (abelian by Eckmann-Hilton). Functoriality, homotopy invariance, Seifert-Van Kampen, Hurewicz, universal cover, long exact sequence of a fibration. Eilenberg-MacLane spaces.
 
+### topology.fundamental-groupoid
+
+- **title**: Fundamental groupoid
+- **prerequisites**: `topology.homotopy`, `topology.topological-space`, `topology.continuous-map`
+- **tier_anchors**:
+  - master: Brown *Topology and Groupoids* §6, §10; Brown 1967 (originator paper); May *Concise Course* Ch. 2
+  - intermediate: Brown §6; May Ch. 2
+  - beginner: Brown §6 informal; loops-and-paths intuition
+- **notes**: Small category $\pi_1(X)$ on points of $X$ with morphisms = path-homotopy classes; partial composition (concatenation when endpoints match); inverses by reversed paths; identity = constant path. Functor $\pi_1 : \mathbf{Top} \to \mathbf{Groupoid}$. Equivalent to one-object $\mathrm{B}\pi_1(X, x_0)$ when $X$ is path-connected. Brown's groupoid Seifert-van Kampen: $\pi_1(X, A)$ as a pushout, no path-connectedness hypothesis on $U \cap V$. Galois correspondence as equivalence $\mathbf{Cov}(X) \simeq \mathbf{Set}^{\pi_1(X)}$.
+
 ### rep-theory.cartan-weyl-classification
 
 - **title**: Cartan-Weyl classification
