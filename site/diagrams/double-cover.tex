@@ -1,0 +1,35 @@
+% Double cover Spin(n) -> SO(n).
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=3mm]}, thick},
+  sheet/.style={blue!60!black, thick},
+]
+  % Two sheets: upper and lower copies of a circle
+  \draw[sheet] (-1.6, 2.4) ellipse [x radius=2.0cm, y radius=0.5cm];
+  \draw[sheet] ( 2.6, 2.4) ellipse [x radius=2.0cm, y radius=0.5cm];
+
+  % Base circle
+  \draw[sheet, very thick] (0.5, -0.4) ellipse [x radius=2.5cm, y radius=0.6cm];
+
+  % Two preimage points above one base point
+  \filldraw[blue!75!black] (-1.6, 2.4) circle (2pt);
+  \filldraw[blue!75!black] ( 2.6, 2.4) circle (2pt);
+  \filldraw[red!70!black]  ( 0.5, -0.4) circle (2.5pt);
+
+  % Projection arrows
+  \draw[arrow, gray!70!black] (-1.6, 2.2) -- (0.4, -0.2);
+  \draw[arrow, gray!70!black] ( 2.6, 2.2) -- (0.6, -0.2);
+
+  % Labels
+  \node at (-1.6, 3.2) {$\mathrm{Spin}(n)$ sheet 1};
+  \node at ( 2.6, 3.2) {$\mathrm{Spin}(n)$ sheet 2};
+  \node at ( 0.5, -1.2) {$\mathrm{SO}(n)$ base};
+  \node at ( 4.7, 1.0) {$p$ (2:1)};
+
+  \begin{scope}[on background layer]
+    \fill[red!4, rounded corners=12pt] (-4.0, -1.6) rectangle (5.4, 3.6);
+  \end{scope}
+
+  \node at (0.5, -2.2)
+    {\itshape Two-sheeted cover: $\pi_1(\mathrm{SO}(n)) = \mathbb{Z}/2$ for $n \geq 3$, simply connected above.};
+\end{tikzpicture}

@@ -1,0 +1,23 @@
+% Universal property of the quotient topology.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=3mm]}, thick},
+]
+  \node (X)  at (0, 2) {$X$};
+  \node (Y)  at (4, 2) {$X/{\sim}$};
+  \node (Z)  at (4, 0) {$Z$};
+
+  \draw[arrow] (X)        -- node[above] {$q$}       (Y);
+  \draw[arrow] (X)        -- node[below left] {$f$}  (Z);
+  \draw[arrow, dashed] (Y) -- node[right] {$\tilde f$} (Z);
+
+  \node[font=\small\itshape] at (1.6, 0.6) {factor};
+
+  \begin{scope}[on background layer]
+    \fill[purple!5, rounded corners=12pt] (-1.0, -0.9) rectangle (5.5, 3.0);
+  \end{scope}
+
+  \node[align=left, anchor=west] at (-1.0, -1.6)
+    {\itshape A continuous $f : X \to Z$ that is constant on equivalence classes\\
+     factors uniquely through the quotient.};
+\end{tikzpicture}

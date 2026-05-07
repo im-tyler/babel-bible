@@ -1,0 +1,31 @@
+% Long exact sequence of a Serre fibration: pi_n(F) -> pi_n(E) -> pi_n(B) -> pi_{n-1}(F) ...
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=3mm]}, thick},
+]
+  \node at (-6.0, 0) {$\cdots$};
+  \node (Fn)   at (-3.7, 0) {$\pi_n(F)$};
+  \node (En)   at (-1.4, 0) {$\pi_n(E)$};
+  \node (Bn)   at ( 0.9, 0) {$\pi_n(B)$};
+  \node (Fnm1) at ( 3.4, 0) {$\pi_{n-1}(F)$};
+  \node at ( 5.6, 0) {$\cdots$};
+
+  \draw[arrow] (-5.4, 0) -- (Fn);
+  \draw[arrow] (Fn) -- node[above] {$i_*$}      (En);
+  \draw[arrow] (En) -- node[above] {$p_*$}      (Bn);
+  \draw[arrow] (Bn) -- node[above] {$\partial$} (Fnm1);
+  \draw[arrow] (Fnm1) -- (5.0, 0);
+
+  % Fibration picture above
+  \node[font=\small] at (-3.7, 1.6) {$F \hookrightarrow$};
+  \node[font=\small] at (-1.4, 1.6) {$E$};
+  \node[font=\small] at ( 0.9, 1.6) {$B$};
+  \draw[arrow] (-1.05, 1.6) -- node[above] {$p$} (0.55, 1.6);
+
+  \begin{scope}[on background layer]
+    \fill[teal!6, rounded corners=12pt] (-6.6, -0.7) rectangle (6.4, 2.3);
+  \end{scope}
+
+  \node at (0, -1.4)
+    {\itshape A fibration assembles the homotopy of $E$ from $F$ and $B$ via one long exact sequence.};
+\end{tikzpicture}

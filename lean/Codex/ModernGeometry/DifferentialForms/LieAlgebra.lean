@@ -20,23 +20,17 @@ universe u v
 variable {K : Type u} [CommRing K] {L : Type v} [LieRing L] [LieAlgebra K L]
 
 /-- Antisymmetry of the bracket as the equality `⁅X, Y⁆ = -⁅Y, X⁆`.
-    Available in Mathlib as `lie_skew`; re-exported here for clarity. -/
+    Mathlib's `lie_skew x y` has type `-⁅y, x⁆ = ⁅x, y⁆`; symmetry gives the
+    Codex-side orientation. -/
 theorem bracket_antisymm (X Y : L) : ⁅X, Y⁆ = -⁅Y, X⁆ :=
-  lie_skew Y X |>.symm
+  (lie_skew X Y).symm
 
-/-- Jacobi identity in the cyclic-sum form. Mathlib's `leibniz_lie` is the
-    Leibniz form `⁅X, ⁅Y, Z⁆⁆ = ⁅⁅X, Y⁆, Z⁆ + ⁅Y, ⁅X, Z⁆⁆`; the cyclic
-    form below follows by antisymmetry. -/
+/-- Jacobi identity in the cyclic-sum form. Mathlib's `lie_jacobi` provides
+    exactly this statement; we re-export it so downstream Codex modules
+    can call it under the local name. -/
 theorem jacobi_cyclic (X Y Z : L) :
-    ⁅X, ⁅Y, Z⁆⁆ + ⁅Y, ⁅Z, X⁆⁆ + ⁅Z, ⁅X, Y⁆⁆ = 0 := by
-  have h := leibniz_lie X Y Z
-  -- h : ⁅X, ⁅Y, Z⁆⁆ = ⁅⁅X, Y⁆, Z⁆ + ⁅Y, ⁅X, Z⁆⁆
-  -- Rearranging plus antisymmetry yields the cyclic identity.
-  have hYZX : ⁅Y, ⁅Z, X⁆⁆ = -⁅⁅X, Y⁆, Z⁆ - ⁅Z, ⁅X, Y⁆⁆ := by
-    have := leibniz_lie Y Z X
-    simp [bracket_antisymm] at this ⊢
-    linear_combination this
-  sorry  -- pending: reformulation through Mathlib's exact lemma `lie_jacobi`
+    ⁅X, ⁅Y, Z⁆⁆ + ⁅Y, ⁅Z, X⁆⁆ + ⁅Z, ⁅X, Y⁆⁆ = 0 :=
+  lie_jacobi X Y Z
 
 /-- The adjoint action `ad X : L → L`, `ad X Y = ⁅X, Y⁆`. -/
 def ad (X : L) : L →ₗ[K] L where

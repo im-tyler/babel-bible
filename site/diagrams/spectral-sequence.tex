@@ -1,0 +1,33 @@
+% E_2-page of a first-quadrant spectral sequence with d_2 differentials.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  axis/.style={->, >=Stealth, thick, gray},
+  diff/.style={-{Stealth[length=2.5mm]}, thick, red!70!black},
+  dot/.style={fill=blue!75!black, circle, inner sep=1.7pt},
+]
+  % Axes
+  \draw[axis] (-0.4, 0) -- (6.6, 0) node[right, black] {$p$};
+  \draw[axis] (0, -0.4) -- (0, 5.2) node[above, black] {$q$};
+
+  % Lattice of dots E_2^{p,q}
+  \foreach \p in {0,1,2,3,4,5} {
+    \foreach \q in {0,1,2,3,4} {
+      \node[dot] at (\p, \q) {};
+    }
+  }
+
+  % Three d_2 differentials (slope: -1 vertical, +2 horizontal)
+  \draw[diff] (0, 4) -- (2, 3);
+  \draw[diff] (1, 3) -- (3, 2);
+  \draw[diff] (2, 2) -- (4, 1);
+
+  % Annotation
+  \node at (5.0, 4.5) {$d_2 : E_2^{p,q} \to E_2^{p+2,\, q-1}$};
+
+  \begin{scope}[on background layer]
+    \fill[yellow!7, rounded corners=12pt] (-1.0, -1.0) rectangle (7.6, 5.6);
+  \end{scope}
+
+  \node at (3.3, -1.6)
+    {\itshape $E_2$-page with $d_2$ differentials. Cohomology of the page yields $E_3$, and so on.};
+\end{tikzpicture}
