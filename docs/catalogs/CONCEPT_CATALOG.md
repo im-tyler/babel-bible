@@ -279,6 +279,36 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Brown §6 informal; loops-and-paths intuition
 - **notes**: Small category $\pi_1(X)$ on points of $X$ with morphisms = path-homotopy classes; partial composition (concatenation when endpoints match); inverses by reversed paths; identity = constant path. Functor $\pi_1 : \mathbf{Top} \to \mathbf{Groupoid}$. Equivalent to one-object $\mathrm{B}\pi_1(X, x_0)$ when $X$ is path-connected. Brown's groupoid Seifert-van Kampen: $\pi_1(X, A)$ as a pushout, no path-connectedness hypothesis on $U \cap V$. Galois correspondence as equivalence $\mathbf{Cov}(X) \simeq \mathbf{Set}^{\pi_1(X)}$.
 
+### topology.cofibration
+
+- **title**: Cofibration and homotopy extension property
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`, `topology.quotient-topology`, `topology.homotopy`
+- **tier_anchors**:
+  - master: May *Concise Course* Ch. 6; Strom *Modern Classical Homotopy Theory* §1; Whitehead *Elements of Homotopy Theory* §I.5
+  - intermediate: Hatcher §0; May Ch. 6
+  - beginner: Hatcher §0 informal; May §6 informal HEP picture
+- **notes**: Map $i : A \to X$ with the homotopy extension property: any homotopy $H : A \times [0,1] \to Z$ compatible with $f : X \to Z$ extends to $\tilde H : X \times [0,1] \to Z$. Equivalent retract characterisation: $X \times \{0\} \cup_{A \times \{0\}} A \times [0,1]$ is a retract of $X \times [0,1]$. Mapping-cylinder factorisation $X \hookrightarrow M_f \xrightarrow{\simeq} Y$. CW pair inclusions are cofibrations. Eckmann-Hilton dual to fibration; cofibre sequence $A \to X \to X/A \to \Sigma A \to \cdots$. Originator: Borsuk 1931 (ANR theory); modern HEP framing Strom 1968 / Steenrod 1967.
+
+### topology.compact-open-topology
+
+- **title**: Compact-open topology and function spaces
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`
+- **tier_anchors**:
+  - master: Steenrod 1967 (originator paper); May *Concise Course* §5; tom Dieck §2.4
+  - intermediate: Munkres §46; Hatcher §0
+  - beginner: Munkres §46 informal
+- **notes**: Compact-open topology on $C(X, Y)$: subbasis $W(K, U) = \{f : f(K) \subseteq U\}$ for $K$ compact, $U$ open. Evaluation $C(X, Y) \times X \to Y$ continuous when $X$ is locally compact Hausdorff. Exponential law $C(X \times Y, Z) \cong C(X, C(Y, Z))$ as a homeomorphism. Compactly-generated weak Hausdorff (CGWH) = Steenrod's convenient category. Loop space $\Omega X$, suspension-loop adjunction $[\Sigma X, Y] \cong [X, \Omega Y]$. Originator: Fox 1945; Steenrod 1967 *A convenient category of topological spaces*.
+
+### topology.cw-complex
+
+- **title**: CW complex
+- **prerequisites**: `topology.topological-space`, `topology.quotient-topology`, `topology.homotopy`
+- **tier_anchors**:
+  - master: Whitehead 1949 (originator paper); Hatcher §0 + §4.1; tom Dieck §8
+  - intermediate: Hatcher §0; May Ch. 10
+  - beginner: Hatcher §0 informal; cell-attachment intuition
+- **notes**: Inductive skeleton construction $X^{(n)} = X^{(n-1)} \cup_\Phi \bigsqcup_\alpha D^n_\alpha$ with attaching map $\Phi : \bigsqcup_\alpha S^{n-1}_\alpha \to X^{(n-1)}$. Weak (colimit) topology on $X = \mathrm{colim}\, X^{(n)}$. Cellular pushout square. Standard examples: $S^n$, $\mathbb{RP}^n$, $\mathbb{CP}^n$, classifying spaces, Lie groups. CW pair inclusions are cofibrations. Cellular approximation theorem; Whitehead's theorem (homotopy-equivalence detection by $\pi_n$). Originator: J.H.C. Whitehead 1949 *Combinatorial homotopy I*.
+
 ### topology.fibration
 
 - **title**: Fibration (Hurewicz and Serre)
