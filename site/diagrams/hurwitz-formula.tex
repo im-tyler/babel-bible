@@ -1,0 +1,48 @@
+% Hurwitz formula: branched cover with ramification points.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+  branch/.style={fill=red!75!black, circle, inner sep=1.8pt},
+]
+  % Top: Y as a doubled torus (or just a torus)
+  \draw[blue!60!black, thick] (0, 2.5) ellipse [x radius=2.5cm, y radius=0.7cm];
+  \node[blue!60!black] at (-3.0, 2.5) {$Y$};
+  \node[font=\footnotesize, gray!50!black] at (3.5, 2.5) {genus $g_Y$};
+
+  % Bottom: X
+  \draw[teal!60!black, thick] (0, -1.0) ellipse [x radius=2.5cm, y radius=0.7cm];
+  \node[teal!60!black] at (-3.0, -1.0) {$X$};
+  \node[font=\footnotesize, gray!50!black] at (3.5, -1.0) {genus $g_X$};
+
+  % Map pi
+  \draw[arrow] (0, 1.7) -- node[right] {$\pi$, degree $n$} (0, -0.2);
+
+  % Ramification points on Y mapping to branch points on X
+  \node[branch] (y1) at (-1.5, 2.5) {};
+  \node[branch] (y2) at ( 0.5, 2.5) {};
+  \node[branch] (y3) at ( 1.7, 2.5) {};
+
+  \node[branch] (x1) at (-1.5, -1.0) {};
+  \node[branch] (x2) at ( 0.5, -1.0) {};
+  \node[branch] (x3) at ( 1.7, -1.0) {};
+
+  \draw[red!75!black, thick] (y1) -- (x1);
+  \draw[red!75!black, thick] (y2) -- (x2);
+  \draw[red!75!black, thick] (y3) -- (x3);
+
+  \node[font=\footnotesize, red!75!black] at (-1.6, 1.6) {$e_y$};
+
+  % Hurwitz formula box
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=4pt] at (0, 4.5)
+    {$2 g_Y - 2 \;=\; n(2g_X - 2) \;+\; \sum_{y} (e_y - 1)$};
+
+  % Examples on the side
+  \node[anchor=west, font=\footnotesize] at (5.0, 2.5) {Examples:};
+  \node[anchor=west, font=\footnotesize] at (5.0, 1.9) {- $t \mapsto t^n$ on $\mathbb{P}^1$: $0 = -2n + 2(n-1)$};
+  \node[anchor=west, font=\footnotesize] at (5.0, 1.3) {- elliptic curve: 2-cover of $\mathbb{P}^1$ branched at 4 pts};
+  \node[anchor=west, font=\footnotesize] at (5.0, 0.7) {- hyperelliptic genus $g$: $2g + 2$ branch points};
+
+  \begin{scope}[on background layer]
+    \fill[teal!4, rounded corners=12pt] (-4.0, -1.8) rectangle (12.0, 5.5);
+  \end{scope}
+\end{tikzpicture}

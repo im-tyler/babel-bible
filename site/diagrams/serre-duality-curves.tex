@@ -1,0 +1,36 @@
+% Serre duality on a curve: H^1(X, L) = H^0(X, K x L^-1)*.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % H^1(X, L) on left
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=6pt] (lhs) at (-3.5, 0)
+    {$H^1(X, L)$};
+
+  % H^0 on right
+  \node[draw=teal!50!black, fill=teal!4, rounded corners=4pt, inner sep=6pt] (rhs) at (3.5, 0)
+    {$H^0(X, K_X \otimes L^{-1})^*$};
+
+  % Iso arrow
+  \draw[arrow] (lhs) -- node[above] {$\cong$} node[below, font=\footnotesize] {natural perfect pairing} (rhs);
+
+  % Pairing diagram below
+  \node at (-3.5, -2.0) {$H^1(X, L)$};
+  \node at ( 0.0, -2.0) {$\times$};
+  \node at ( 3.5, -2.0) {$H^0(X, K_X \otimes L^{-1})$};
+  \draw[arrow] (3.5, -2.4) -- node[right] {$\smile$ + sheaf-mult.} (3.5, -3.4);
+  \draw[arrow] (-3.5, -2.4) -- node[left] {$H^1(X, K_X)$} (-3.5, -3.4);
+  \node at (0, -3.7) {$H^1(X, K_X) \xrightarrow{\;\mathrm{tr}\;} \mathbb{C}$};
+
+  % Riemann-Roch box
+  \node[draw=red!50!black, fill=red!4, rounded corners=4pt, inner sep=4pt] at (0, 1.8)
+    {$\dim H^0(L) - \dim H^0(K_X \otimes L^{-1}) = \deg L + 1 - g$};
+
+  % Genus formula reminder
+  \node[font=\footnotesize, gray!50!black] at (0, 2.6) {Riemann-Roch};
+  \node[font=\footnotesize, gray!50!black] at (0, -4.5) {(via Serre duality)};
+
+  \begin{scope}[on background layer]
+    \fill[blue!4, rounded corners=12pt] (-6.0, -5.0) rectangle (8.0, 3.4);
+  \end{scope}
+\end{tikzpicture}

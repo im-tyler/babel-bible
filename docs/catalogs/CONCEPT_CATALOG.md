@@ -970,6 +970,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: harmonic forms split by holomorphic type
 - **notes**: For compact Kähler $X$, $H^n(X; \mathbb{C}) = \bigoplus_{p+q = n} H^{p,q}(X)$ with $H^{p,q} = H^q(X; \Omega^p)$ and $\overline{H^{p,q}} = H^{q,p}$. Hodge 1941 *Theory and Applications of Harmonic Integrals* — harmonic representatives. Hodge-to-de-Rham degeneration. Algebraic proof: Deligne-Illusie 1987 via reduction mod $p$. Polarised Hodge structures and period domains. Bridges algebra and topology.
 
+### alg-geom.hodge-decomposition-curves
+
+- **title**: Hodge decomposition on a compact Riemann surface
+- **prerequisites**: `complex-analysis.holomorphic-line-bundle`, `complex-analysis.riemann-roch-compact-rs`, `alg-geom.canonical-sheaf`, `topology.de-rham-cohomology`
+- **tier_anchors**:
+  - master: Hodge 1941 *The Theory and Applications of Harmonic Integrals* (originator); Griffiths-Harris *Principles of Algebraic Geometry* §0.6–§0.7; Donaldson *Riemann Surfaces* §10; Voisin *Hodge Theory and Complex Algebraic Geometry I* §5–§6
+  - intermediate: Donaldson *Riemann Surfaces* §10; Forster *Lectures on Riemann Surfaces* §17; Griffiths-Harris §0.7
+  - beginner: Donaldson §10 informal; Forster §17 informal
+- **notes**: For a compact Riemann surface $X$ (= smooth projective complex curve) of genus $g$, complex conjugation on $C^\infty$ forms intertwines the Dolbeault bidegree decomposition with the Kähler-harmonic theorem to give $H^1(X; \mathbb{C}) = H^{1,0}(X) \oplus H^{0,1}(X)$, with $H^{1,0}(X) = H^0(X; \Omega^1_X)$ (holomorphic 1-forms), $H^{0,1}(X) = H^1(X; \mathcal{O}_X)$, and $\overline{H^{1,0}} = H^{0,1}$. Dimensions $h^{1,0} = h^{0,1} = g$, total $2g$ matching topology. Period matrix $\Pi = (A \mid B)$ over a symplectic homology basis satisfies Riemann's bilinear relations $A B^T = B A^T$, $\mathrm{Im}(B A^{-1}) > 0$, exhibiting the Jacobian $\mathrm{Jac}(X) = H^0(X; \Omega^1_X)^* / H_1(X; \mathbb{Z})$ as a principally polarised abelian variety. Curve case of the general Kähler Hodge $(p,q)$-decomposition (Hodge 1941); originator content traces to Riemann's 1857 bilinear relations. Direct prerequisite for Serre duality on curves and for the bilinear-relations and Schottky machinery on Jacobians.
+
 ### alg-geom.kodaira-vanishing
 
 - **title**: Kodaira vanishing theorem
@@ -989,6 +999,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Hartshorne §V.1; Beauville §I
   - beginner: Beauville §I; counting transverse intersection points
 - **notes**: Symmetric bilinear pairing $\mathrm{Pic}(X) \times \mathrm{Pic}(X) \to \mathbb{Z}$, $(D, D') \mapsto D \cdot D'$, on a smooth projective surface $X$ over algebraically closed $k$. Three equivalent definitions: geometric (transverse intersection count after moving lemma), cohomological ($D \cdot D' = \chi(\mathcal{O}_X) - \chi(\mathcal{O}(-D)) - \chi(\mathcal{O}(-D')) + \chi(\mathcal{O}(-D-D'))$, Hartshorne V.1.4), cup-product (cycle-class map $\mathrm{Pic}(X) \to H^2(X, \mathbb{Z})$ intertwines intersection with $\smile$). Self-intersection $D^2$. Examples: line $L^2 = 1$ on $\mathbb{P}^2$, exceptional divisor $E^2 = -1$, ruling $f^2 = 0$ on $\mathbb{P}^1 \times \mathbb{P}^1$. Italian school (Castelnuovo-Enriques 1880–1910); Hartshorne V scheme-theoretic framing; Fulton's $A^*(X)$-deepening. Load-bearing for adjunction, Riemann-Roch on surfaces, Hodge index, and the Castelnuovo-Beauville-Bombieri-Kodaira classification of surfaces.
+
+### alg-geom.adjunction-formula
+
+- **title**: Adjunction formula on a surface
+- **prerequisites**: `alg-geom.intersection-pairing-surfaces`, `alg-geom.canonical-sheaf`, `alg-geom.sheaf-of-differentials`, `alg-geom.riemann-roch-curves`
+- **tier_anchors**:
+  - master: Hartshorne §V.1.5; Beauville *Complex Algebraic Surfaces* Ch. I and Ch. III; Griffiths-Harris §1.4 (conormal sequence) and §4.5 (analytic adjunction)
+  - intermediate: Hartshorne §V.1 (Proposition 1.5); Beauville §I.5
+  - beginner: Beauville §I; Hartshorne §V.1 informal — genus of a smooth plane curve from intersection numbers
+- **notes**: For a smooth projective curve $C$ on a smooth projective surface $X$ over algebraically closed $k$, the adjunction formula in canonical-restriction form: $\omega_C \cong (\omega_X \otimes \mathcal{O}_X(C))|_C$. Genus form: $2 g_C - 2 = K_X \cdot C + C^2$, equivalently $g_C = 1 + \tfrac{1}{2}(K_X \cdot C + C^2)$. Proof via the conormal exact sequence $0 \to \mathcal{N}_{C/X}^\vee \to \Omega^1_X|_C \to \Omega^1_C \to 0$, taking determinants, and using $\mathcal{N}_{C/X}^\vee \cong \mathcal{O}_X(-C)|_C$. Codim-$1$ case of the general adjunction $\omega_Y \cong (\omega_X \otimes \det \mathcal{N}_{Y/X})|_Y$. Recovers Plücker's plane-curve genus formula $g = (d-1)(d-2)/2$, the bidegree-$(a,b)$ genus $(a-1)(b-1)$ on $\mathbb{P}^1 \times \mathbb{P}^1$, the K3 inequality $C^2 \geq -2$, the Castelnuovo $(-1)$-curve diagnostic, and Noether's formula $K_X^2 + e(X) = 12 \chi(\mathcal{O}_X)$. Picard 1897 originator-text; Castelnuovo 1892 and Severi 1921 Italian-school synthesis; Hartshorne V.1.5 modern scheme-theoretic framing.
 
 ### alg-geom.moduli-of-curves
 
@@ -2601,3 +2621,14 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Hartshorne §III.4
   - beginner: Hartshorne §III.4 informal — combinatorial cocycle bookkeeping on intersections of an open cover
 - **notes**: Čech cochain complex $C^p(\mathcal{U}, \mathcal{F}) = \prod_{i_0 < \cdots < i_p} \mathcal{F}(U_{i_0 \cdots i_p})$ with alternating-sum-of-restriction differential $\delta : C^p \to C^{p+1}$; Čech cohomology $\check H^p(\mathcal{U}, \mathcal{F}) = \ker\delta^p / \mathrm{im}\,\delta^{p-1}$; refinement colimit $\check H^p(X, \mathcal{F}) = \mathrm{colim}_\mathcal{U} \check H^p(\mathcal{U}, \mathcal{F})$. Cartan's comparison theorem: for separated scheme $X$, affine open cover $\mathcal{U}$, and quasi-coherent $\mathcal{F}$, the canonical map $\check H^*(\mathcal{U}, \mathcal{F}) \to H^*(X, \mathcal{F})$ is an isomorphism in all degrees. Foundation for the cohomology computation on $\mathbb{P}^n_k$ via the standard cover $\{D_+(x_i)\}$ — Hartshorne III.5. Affine vanishing (Serre): $H^p(\mathrm{Spec}\,A, \tilde M) = 0$ for $p > 0$. Two-set covers reproduce Mayer-Vietoris. Čech-derived spectral sequence $E_2^{p,q} = \check H^p(\mathcal{U}, \mathcal{H}^q(\mathcal{F})) \Rightarrow H^{p+q}(X, \mathcal{F})$ degenerates when higher derived presheaves vanish on intersections. Originator: Čech 1932 (combinatorial topology); modern scheme version Serre 1955 *FAC*.
+
+### alg-geom.cohomology-projective
+
+- **title**: Cohomology of line bundles on projective space
+- **unit**: `04.03.04`
+- **prerequisites**: `alg-geom.cech-schemes`, `alg-geom.projective-scheme`
+- **tier_anchors**:
+  - master: Serre 1955 *Faisceaux Algébriques Cohérents* (Annals of Math. 61); Hartshorne §III.5; Liu *Algebraic Geometry and Arithmetic Curves* §5.2
+  - intermediate: Hartshorne §III.5 + Theorem III.5.1
+  - beginner: Hartshorne §III.5 informal — counting monomials of fixed degree on the standard affine cover of projective space
+- **notes**: Theorem (Hartshorne III.5.1, Serre 1955): for $X = \mathbb{P}^n_k$ and $\mathcal{O}(d)$ the standard twisting sheaf, $H^0(\mathbb{P}^n, \mathcal{O}(d)) = S_d$ the degree-$d$ piece of $S = k[x_0, \ldots, x_n]$, of dimension $\binom{n + d}{n}$ for $d \geq 0$ and zero otherwise; $H^n(\mathbb{P}^n, \mathcal{O}(d))$ has basis Laurent monomials $x_0^{a_0} \cdots x_n^{a_n}$ with all $a_i < 0$ and $\sum a_i = d$, of dimension $\binom{-d - 1}{n}$ for $d \leq -n - 1$ and zero otherwise; $H^p(\mathbb{P}^n, \mathcal{O}(d)) = 0$ for $0 < p < n$. Proof via Čech on the standard cover $\{D_+(x_i)\}_{i=0}^n$: localised polynomial rings $S_{x_{i_0} \cdots x_{i_p}}$, alternating-sum differential, monomial bookkeeping with negative-support decomposition. Serre duality on $\mathbb{P}^n$: $H^n(\mathbb{P}^n, \mathcal{O}(d)) \cong H^0(\mathbb{P}^n, \mathcal{O}(-d - n - 1))^*$ via cup-product pairing, with dual basis matching $a_i + b_i = -1$; canonical sheaf $\omega_{\mathbb{P}^n} = \mathcal{O}(-n - 1)$ read off from this. Euler-Poincaré characteristic: $\chi(\mathbb{P}^n, \mathcal{O}(d)) = \binom{n + d}{n}$ as a polynomial identity in $d$. Hilbert polynomial of $\mathcal{O}_{\mathbb{P}^n}$ of degree $n$, leading coefficient $1/n!$, constant term $1$. Bott vanishing: $H^p(\mathbb{P}^n, \Omega^q(d)) = 0$ for $0 < p < n$, $d > 0$ via Euler exact sequence and the cohomology table. Riemann-Roch on $\mathbb{P}^n$ via Chern character and Todd class recovers $\binom{n + d}{n}$ from $\int e^{dH} \mathrm{td}(\mathbb{P}^n)$. Originator: Serre 1955 *FAC*; standard pedagogical reference Hartshorne III.5.

@@ -2276,6 +2276,41 @@
       "from": "06.04.01",
       "to": "06.04.04",
       "state": "shipped"
+    },
+    {
+      "from": "06.05.02",
+      "to": "06.04.03",
+      "state": "shipped"
+    },
+    {
+      "from": "06.04.01",
+      "to": "06.04.03",
+      "state": "shipped"
+    },
+    {
+      "from": "04.03.03",
+      "to": "04.03.04",
+      "state": "shipped"
+    },
+    {
+      "from": "04.02.03",
+      "to": "04.03.04",
+      "state": "shipped"
+    },
+    {
+      "from": "04.03.04",
+      "to": "04.03.05",
+      "state": "pending"
+    },
+    {
+      "from": "04.05.06",
+      "to": "04.05.07",
+      "state": "shipped"
+    },
+    {
+      "from": "04.04.01",
+      "to": "04.05.07",
+      "state": "shipped"
     }
   ],
   "pending": [],
@@ -2406,6 +2441,7 @@
     "04.03.01",
     "04.03.02",
     "04.03.03",
+    "04.03.04",
     "04.04.01",
     "04.04.02",
     "04.05.01",
@@ -2414,6 +2450,7 @@
     "04.05.04",
     "04.05.05",
     "04.05.06",
+    "04.05.07",
     "04.06.01",
     "04.06.02",
     "04.07.01",
@@ -2475,6 +2512,7 @@
     "06.03.02",
     "06.03.03",
     "06.04.01",
+    "06.04.03",
     "06.04.04",
     "06.05.01",
     "06.05.02",
@@ -2748,6 +2786,8 @@
     "03.08.05": "Universal bundle and Borel presentation — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
     "03.12.06": "Sullivan minimal models and rational homotopy theory — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
     "03.12.07": "Whitehead tower and rational Hurewicz — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
-    "03.12.E1": "Rational-homotopy exercise pack — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29"
+    "03.12.E1": "Rational-homotopy exercise pack — v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
+    "06.04.04": "Serre duality on a curve — v0.6 Donaldson Riemann-surfaces P1 batch 12, SHIPPED 2026-05-07",
+    "06.04.03": "Hodge decomposition on a compact Riemann surface — v0.6 Donaldson Riemann-surfaces P1 batch 13, SHIPPED 2026-05-07"
   }
 }

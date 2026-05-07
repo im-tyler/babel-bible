@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cohomology of line bundles on projective space</title>
+  <desc id="desc">A schematic showing the dimension diagram of $H^i(\mathbb{P}^n, \mathcal{O}(d))$ as a function of the twist $d$, with a positive-degree branch on the left counted by $\binom{n+d}{n}$ and a negative-degree branch on the right counted by $\binom{-d-1}{n}$, separated by a vanishing band.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <g stroke="#222" stroke-width="2" fill="none">
+    <line x1="60" y1="280" x2="660" y2="280"/>
+    <line x1="360" y1="50" x2="360" y2="300"/>
+  </g>
+  <g fill="#222" font-family="Inter, Arial, sans-serif" font-size="20" text-anchor="middle">
+    <text x="660" y="305">d</text>
+    <text x="378" y="48">dim</text>
+  </g>
+  <g fill="none" stroke-width="5">
+    <path d="M 360 280 Q 480 240 600 100" stroke="#2d5a3d"/>
+    <path d="M 360 280 Q 240 240 120 100" stroke="#b8742a"/>
+  </g>
+  <g fill="#222" font-family="Inter, Arial, sans-serif" font-size="20" text-anchor="middle">
+    <text x="540" y="140">$H^0 \;=\; \binom{n+d}{n}$</text>
+    <text x="200" y="140">$H^n \;=\; \binom{-d-1}{n}$</text>
+    <text x="360" y="270">$H^p = 0$ for $0 &lt; p &lt; n$</text>
+  </g>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Dimension of $H^i(\mathbb{P}^n, \mathcal{O}(d))$ as a function of the twist $d$</text>
+</svg>
