@@ -9,8 +9,20 @@ A single resource aimed at superseding every existing math/physics self-study pa
 ```
 codex/
 ├── README.md                          ← you are here
-├── FASTTRACK_BOOKLIST.md              ← full Fast Track curriculum booklist
-├── reference/                         ← local archive of external sources
+├── OVERVIEW.md                        ← project orientation
+├── BRIEF.md                           ← one-page vision extract
+├── docs/                              ← all planning + spec + catalog material
+│   ├── pilot-lessons.md
+│   ├── plans/                         ← PROJECT_PLAN, PILOT_PLAN, WAVE_*, V05_*_PLAN, SITE_PLAN, REVIEWER_PLAN, FASTTRACK_EQUIVALENCE_PLAN, CURRICULUM_V0_5_PLAN
+│   ├── specs/                         ← UNIT_SPEC, QUALITY_RUBRIC, ORCHESTRATION_PROTOCOL, CONTINUITY_SCAFFOLD, FASTTRACK_FLOW_SCAFFOLD
+│   ├── catalogs/                      ← CONCEPT_CATALOG, DEPENDENCY_MAP, MATHLIB_GAPS, FASTTRACK_BOOKLIST, NEED_TO_SOURCE
+│   └── batches/                       ← GPT batch scaffolds
+├── content/                           ← produced curriculum units
+├── lean/                              ← Codex.* Lean 4 project
+├── site/                              ← Astro companion site
+├── manifests/                         ← per-unit status JSON; deps; campaign + connections
+├── plans/fasttrack/                   ← per-book Fast Track equivalence plans
+├── reference/                         ← local archive of external sources (gitignored)
 │   ├── _meta/
 │   │   ├── SOURCES.md                 ← attribution + license per source
 │   │   └── licenses/                  ← (per-source license text if explicit)
@@ -60,9 +72,9 @@ See `reference/_meta/SOURCES.md` for the complete attribution index and license 
 2. Convert remaining HTML → MD once fetches complete.
 3. Draft the 5 scaffold documents:
    - `BRIEF.md` — audience, pedagogical philosophy, mastery definition, Lean integration stance
-   - `UNIT_SPEC.md` — what one lesson contains; style rules; explanation modes
-   - `QUALITY_RUBRIC.md` — pass/fail checklist for AI-produced units
-   - `DEPENDENCY_MAP.md` — DAG of prerequisites (book-level + concept-level for pilot)
-   - `PILOT_PLAN.md` — first ~10 units (prereqs + Shilov), success criteria
+   - `docs/specs/UNIT_SPEC.md` — what one lesson contains; style rules; explanation modes
+   - `docs/specs/QUALITY_RUBRIC.md` — pass/fail checklist for AI-produced units
+   - `docs/catalogs/DEPENDENCY_MAP.md` — DAG of prerequisites (book-level + concept-level for pilot)
+   - `docs/plans/PILOT_PLAN.md` — first ~10 units (prereqs + Shilov), success criteria
 4. Build `TOPIC_INDEX.md` — curriculum-topic to archive-file mapping, seeded from the Fast Track booklist.
 5. Run the pilot. Iterate until the pipeline produces content at quality. Then scale.

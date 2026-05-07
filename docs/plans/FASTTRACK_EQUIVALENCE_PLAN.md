@@ -4,7 +4,7 @@ A scaffold-of-scaffolds. Specifies how Codex achieves *equivalent information tr
 
 This document does not produce curriculum content directly. It produces the **system** by which curriculum content for each Fast Track book is planned, scaffolded, and verified — so that the work can be tackled agentically across the 72-book corpus.
 
-Read alongside `FASTTRACK_BOOKLIST.md`, `CURRICULUM_V0_5_PLAN.md`, `V05_SUPPORTING_UNITS_PLAN.md`, `QUALITY_RUBRIC.md`, `UNIT_SPEC.md`.
+Read alongside `docs/catalogs/FASTTRACK_BOOKLIST.md`, `docs/plans/CURRICULUM_V0_5_PLAN.md`, `docs/plans/V05_SUPPORTING_UNITS_PLAN.md`, `docs/specs/QUALITY_RUBRIC.md`, `docs/specs/UNIT_SPEC.md`.
 
 ---
 
@@ -173,13 +173,13 @@ Each book takes **5 distinct agent passes**, in dependency order. Within a pass,
 
 ### Pass 2 — **Gap-analysis agent** (one per book, parallel-safe after Pass 1)
 
-**Input:** The Pass-1 audit + current `manifests/deps.json` + current `CONCEPT_CATALOG.md`.
+**Input:** The Pass-1 audit + current `manifests/deps.json` + current `docs/catalogs/CONCEPT_CATALOG.md`.
 **Tools:** Read, Grep, Glob (codebase analysis only; no web).
 **Task:** Produce §2 of the per-book plan: theorem coverage table, exercise coverage table, worked-example coverage, notation crosswalk, sequencing diff, intuition coverage, applications coverage, scorecard.
 **Output:** §2 filled in; status `gap-analysed`.
 
 **Agent prompt template:**
-> You have an audit of *<Title>* at `plans/fasttrack/<book-slug>.md` §1. Open `manifests/deps.json`, `CONCEPT_CATALOG.md`, and grep `content/` for relevant theorem and concept names. For each item in the audit's theorem inventory, find a Codex unit that covers it (cite by ID and section heading); for items with no match, mark `GAP`. Repeat for exercises, worked examples, notation, sequencing, intuition, applications. Produce §2 of the per-book plan with the seven coverage tables and the scorecard.
+> You have an audit of *<Title>* at `plans/fasttrack/<book-slug>.md` §1. Open `manifests/deps.json`, `docs/catalogs/CONCEPT_CATALOG.md`, and grep `content/` for relevant theorem and concept names. For each item in the audit's theorem inventory, find a Codex unit that covers it (cite by ID and section heading); for items with no match, mark `GAP`. Repeat for exercises, worked examples, notation, sequencing, intuition, applications. Produce §2 of the per-book plan with the seven coverage tables and the scorecard.
 
 **Stop condition:** §2 scorecard filled with per-layer percentages; status set to `gap-analysed`.
 
@@ -202,7 +202,7 @@ Each book takes **5 distinct agent passes**, in dependency order. Within a pass,
 **Task:** Produce the new units and unit-deepenings specified in §3. Same protocol as the v0.5 supporting-unit batches: write content + Lean stub, validate to 27/27, return proposed CONCEPT_CATALOG and deps.json entries.
 **Output:** New unit files in `content/`, Lean stubs in `lean/`, proposed registration entries returned to the orchestrator (claude) for sequential integration.
 
-**Agent prompt template:** Same as `V05_GPT_BATCH_SUPPORTING.md` template — already proven on 30 supporting units. Adapt the unit list per book.
+**Agent prompt template:** Same as `docs/batches/V05_GPT_BATCH_SUPPORTING.md` template — already proven on 30 supporting units. Adapt the unit list per book.
 
 **Stop condition:** All new and deepened units validate at 27/27.
 

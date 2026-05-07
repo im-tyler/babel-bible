@@ -4,7 +4,7 @@ A fifth-layer scaffold above flows. Specifies the connective-tissue infrastructu
 
 This is the substitute for the single editorial mind that real books have. Without this scaffold, agents working in parallel produce a competent anthology of independent units. With this scaffold, they produce a continuous teaching where every part is in conversation with every other part.
 
-Read after `FASTTRACK_FLOW_SCAFFOLD.md`, `FASTTRACK_EQUIVALENCE_PLAN.md`, `UNIT_SPEC.md`.
+Read after `docs/specs/FASTTRACK_FLOW_SCAFFOLD.md`, `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`, `docs/specs/UNIT_SPEC.md`.
 
 ---
 
@@ -226,7 +226,7 @@ The brief contains:
   them for orchestrator addition
 - Do not paraphrase anchor phrases — use them verbatim
 - Do not claim a unit is the "definitive" treatment of a concept
-  unless that unit is the apex unit per CONCEPT_CATALOG.md
+  unless that unit is the apex unit per docs/catalogs/CONCEPT_CATALOG.md
 ```
 
 The brief is what gives the agent the *cognitive context* a single author would have internally. Without it, the agent works in isolation. With it, the agent's output is shaped by the surrounding curriculum even though the agent didn't author it.
@@ -351,7 +351,7 @@ When the equivalence and flow plans are run agentically, every agent task gains 
 3. **Use registered anchor phrases verbatim.** If a phrase is registered, it must appear; if a connection is registered, the prose must invoke it. Agents may extend, but not paraphrase.
 4. **Flag novel connections.** When an agent identifies a new connection not in the registry, it adds a proposal to `manifests/connection_proposals.md` for the orchestrator to integrate. Agents do not unilaterally add to the registry.
 
-The orchestrator (claude in the current setup) holds the registry. After every batch of parallel work, the orchestrator runs Pass W (weaving) and Pass V (verification) before integrating registrations into `CONCEPT_CATALOG.md` and `deps.json`.
+The orchestrator (claude in the current setup) holds the registry. After every batch of parallel work, the orchestrator runs Pass W (weaving) and Pass V (verification) before integrating registrations into `docs/catalogs/CONCEPT_CATALOG.md` and `deps.json`.
 
 ---
 

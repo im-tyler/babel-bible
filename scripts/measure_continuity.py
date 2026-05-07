@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """measure_continuity.py — compute Layer 4 continuity metrics across Codex.
 
-Six metrics (per CONTINUITY_SCAFFOLD.md §10):
+Six metrics (per docs/specs/CONTINUITY_SCAFFOLD.md §10):
 
   1. Backward-reference density (per 1000 words, per unit)        target ≥ 8
   2. Forward-promise density   (per 1000 words, per unit)         target ≥ 3

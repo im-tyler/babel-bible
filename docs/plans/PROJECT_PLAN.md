@@ -191,14 +191,14 @@ Units with non-overlapping prerequisites can be produced concurrently. The depen
 
 1. `OVERVIEW.md` ✓
 2. `BRIEF.md` ✓
-3. `UNIT_SPEC.md` ✓
-4. `PROJECT_PLAN.md` (this document) ✓
-5. `DEPENDENCY_MAP.md` — pending
-6. `PILOT_PLAN.md` — pending
-7. `REVIEWER_PLAN.md` ✓
-8. `CONCEPT_CATALOG.md` ✓ (seed entries only for pilot subjects)
+3. `docs/specs/UNIT_SPEC.md` ✓
+4. `docs/plans/PROJECT_PLAN.md` (this document) ✓
+5. `docs/catalogs/DEPENDENCY_MAP.md` — pending
+6. `docs/plans/PILOT_PLAN.md` — pending
+7. `docs/plans/REVIEWER_PLAN.md` ✓
+8. `docs/catalogs/CONCEPT_CATALOG.md` ✓ (seed entries only for pilot subjects)
 
-**Note on revised ordering:** `QUALITY_RUBRIC.md` is *not* a Phase 1 deliverable. It is distilled after pilot unit #1 produces real failure modes to capture. See Phase 2b below.
+**Note on revised ordering:** `docs/specs/QUALITY_RUBRIC.md` is *not* a Phase 1 deliverable. It is distilled after pilot unit #1 produces real failure modes to capture. See Phase 2b below.
 
 ### Phase 1.5 — RAG layer (NEW)
 
@@ -213,9 +213,9 @@ Deliverables:
 
 Produce one pilot unit end-to-end manually (no agents). Use the scaffold exactly as-is. The purpose is to surface real failure modes of the spec.
 
-Candidate unit: named in `PILOT_PLAN.md` when that file is written. Likely an apex unit (e.g., Clifford algebra, Master tier only).
+Candidate unit: named in `docs/plans/PILOT_PLAN.md` when that file is written. Likely an apex unit (e.g., Clifford algebra, Master tier only).
 
-### Phase 2b — Distill QUALITY_RUBRIC.md
+### Phase 2b — Distill docs/specs/QUALITY_RUBRIC.md
 
 After unit #1 exists, catalogue what went wrong or required judgment. Those become the rubric's checklist items. Per-tier rubrics written now, grounded in real output.
 
@@ -252,23 +252,31 @@ Parallel agent swarms. Topological-sort dependency graph. Target ~1500 units ove
 
 ```
 codex/
-├── PROJECT_PLAN.md
+├── README.md
+├── OVERVIEW.md
 ├── BRIEF.md
-├── UNIT_SPEC.md
-├── QUALITY_RUBRIC.md
-├── DEPENDENCY_MAP.md
-├── PILOT_PLAN.md
-├── FASTTRACK_BOOKLIST.md
-├── NEED_TO_SOURCE.md
+├── docs/
+│   ├── pilot-lessons.md
+│   ├── plans/                    # PROJECT_PLAN, PILOT_PLAN, WAVE_*, V05_*_PLAN, SITE_PLAN, REVIEWER_PLAN, FASTTRACK_EQUIVALENCE_PLAN, CURRICULUM_V0_5_PLAN
+│   ├── specs/                    # UNIT_SPEC, QUALITY_RUBRIC, ORCHESTRATION_PROTOCOL, CONTINUITY_SCAFFOLD, FASTTRACK_FLOW_SCAFFOLD
+│   ├── catalogs/                 # CONCEPT_CATALOG, DEPENDENCY_MAP, MATHLIB_GAPS, FASTTRACK_BOOKLIST, NEED_TO_SOURCE
+│   └── batches/                  # GPT batch scaffolds
 ├── reference/                    # scanned external material (Phase 0)
 ├── content/                      # produced units (Phase 2+)
-│   ├── 00-prereqs/
-│   ├── 01-fundamentals/
-│   ├── 02-quantum-stat/
-│   └── 03-modern-geometry/
+│   ├── 00-precalc/
+│   ├── 01-foundations/
+│   ├── 02-analysis/
+│   ├── 03-modern-geometry/
+│   ├── 04-algebraic-geometry/
+│   ├── 05-symplectic/
+│   ├── 06-riemann-surfaces/
+│   ├── 07-representation-theory/
+│   └── 08-stat-mech/
 ├── lean/                         # Lean 4 project — Codex.* modules
 ├── scripts/                      # orchestration tooling
-└── manifests/                    # per-unit status JSON; dependency graph
+├── plans/fasttrack/              # per-book Fast Track equivalence plans
+├── manifests/                    # per-unit status JSON; dependency graph; campaign + connections
+└── site/                         # Astro companion site
 ```
 
 ### Dependency graph format
@@ -308,11 +316,11 @@ codex/
 | Mathematical errors compound across dependent units | Lean where Mathlib covers; named human reviewer where not; integration phase explicitly checks prereq chain |
 | Pilot succeeds but doesn't generalize | Pilot deliberately covers three very different concepts to stress the spec |
 | Scope creep into other sciences | Hard gate: math + physics only in v1; written into OVERVIEW invariants |
-| Burnout on specs, never produce | Pilot unit #1 is the hard stop — produce it before writing QUALITY_RUBRIC.md |
+| Burnout on specs, never produce | Pilot unit #1 is the hard stop — produce it before writing docs/specs/QUALITY_RUBRIC.md |
 | Over-engineering agent orchestration | Pilot unit #1 is manual; agent orchestration only after rubric distilled |
-| **Reviewer bandwidth (new, critical)** | `REVIEWER_PLAN.md`; LLM-augmented review with human spot-check; recruit 1–3 collaborators before Master scaling |
+| **Reviewer bandwidth (new, critical)** | `docs/plans/REVIEWER_PLAN.md`; LLM-augmented review with human spot-check; recruit 1–3 collaborators before Master scaling |
 | **Lean coverage collapses at FT top (new)** | Accept `lean_status: none` with `lean_mathlib_gap` + named `human_reviewer`; feed gaps as Mathlib contribution roadmap |
-| **DAG partial-order freedom (new)** | `CONCEPT_CATALOG.md` as canonical concept source; two producers cannot declare different prereqs for the same concept |
+| **DAG partial-order freedom (new)** | `docs/catalogs/CONCEPT_CATALOG.md` as canonical concept source; two producers cannot declare different prereqs for the same concept |
 | **v0.x audience ≠ advertised audience (new)** | Own it in product communications: apex-first pilot = graduate reference; Beginner/Intermediate served at v1+ when prereq chains fill |
 | **No RAG = no Scanner = no agent production (new)** | Phase 1.5 explicitly builds embeddings + retrieval before any agent work begins |
 
@@ -322,13 +330,13 @@ codex/
 
 1. `OVERVIEW.md` ✓
 2. `BRIEF.md` ✓
-3. `UNIT_SPEC.md` ✓ (revised with `tiers_present`, `concept_catalog_id`, `lean_mathlib_gap`, `human_reviewer`)
-4. `REVIEWER_PLAN.md` ✓
-5. `CONCEPT_CATALOG.md` ✓ (seed only)
-6. Write `DEPENDENCY_MAP.md` — seed apex units, pulled-prereq DAG
-7. Write `PILOT_PLAN.md` — 10 apex units (Master-only)
+3. `docs/specs/UNIT_SPEC.md` ✓ (revised with `tiers_present`, `concept_catalog_id`, `lean_mathlib_gap`, `human_reviewer`)
+4. `docs/plans/REVIEWER_PLAN.md` ✓
+5. `docs/catalogs/CONCEPT_CATALOG.md` ✓ (seed only)
+6. Write `docs/catalogs/DEPENDENCY_MAP.md` — seed apex units, pulled-prereq DAG
+7. Write `docs/plans/PILOT_PLAN.md` — 10 apex units (Master-only)
 8. Build RAG layer (Phase 1.5)
 9. Produce pilot unit #1 manually — stress-test spec
-10. Distill `QUALITY_RUBRIC.md` from unit #1's failure modes
+10. Distill `docs/specs/QUALITY_RUBRIC.md` from unit #1's failure modes
 11. Produce 9 more pilot units
 12. Only then invoke parallel agent orchestration.

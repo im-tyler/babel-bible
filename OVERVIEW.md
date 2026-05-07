@@ -49,7 +49,7 @@ A **unit** is the atomic piece of curriculum: one concept, ~20–50 min of Maste
 
 Sections with tier markers (Beginner 4, Intermediate+ 4, Master 5) allow the UI to filter per learner.
 
-**Full details in `UNIT_SPEC.md`.**
+**Full details in `docs/specs/UNIT_SPEC.md`.**
 
 **Tier completion is per-unit flexible.** A unit *may* ship with only Master-tier content filled in and backfill Beginner / Intermediate later. Frontmatter declares which tiers are present (`tiers_present: [master]`). Reviewer rubric keys off present tiers only.
 
@@ -90,7 +90,7 @@ Each unit has a `tiers_present` frontmatter field: subset of `[beginner, interme
 
 ### What production strategy the pilot uses is a separate decision
 
-The overview does not lock this. `PILOT_PLAN.md` records the pilot's specific choice. Other waves can use a different strategy without violating any invariant.
+The overview does not lock this. `docs/plans/PILOT_PLAN.md` records the pilot's specific choice. Other waves can use a different strategy without violating any invariant.
 
 ---
 
@@ -107,7 +107,7 @@ The overview does not lock this. `PILOT_PLAN.md` records the pilot's specific ch
 
 At ~30 min expert review per unit × ~1500 units = ~750 hours of domain-expert time. That is 4.5 person-months of pure review work. No current reviewer roster supports this. Tyler alone cannot review all topics at Master-tier fluency.
 
-**Reviewer strategy is a Phase 1 deliverable, not an afterthought.** See `REVIEWER_PLAN.md` for the concrete plan (who reviews, incentives, escalation when no expert is available, LLM-augmented review with human spot-check policy). Without this solved, Master-tier scaling stalls no matter how fast production runs.
+**Reviewer strategy is a Phase 1 deliverable, not an afterthought.** See `docs/plans/REVIEWER_PLAN.md` for the concrete plan (who reviews, incentives, escalation when no expert is available, LLM-augmented review with human spot-check policy). Without this solved, Master-tier scaling stalls no matter how fast production runs.
 
 ### Automated checks (build-time)
 
@@ -120,13 +120,13 @@ At ~30 min expert review per unit × ~1500 units = ~750 hours of domain-expert t
 
 ### Per-tier rubrics
 
-Full rubric in `QUALITY_RUBRIC.md` (to be written). Each tier has a pass/fail checklist keyed to §3 and UNIT_SPEC. If `tiers_present` doesn't include a tier, that tier's rubric doesn't run.
+Full rubric in `docs/specs/QUALITY_RUBRIC.md` (to be written). Each tier has a pass/fail checklist keyed to §3 and UNIT_SPEC. If `tiers_present` doesn't include a tier, that tier's rubric doesn't run.
 
 ---
 
 ## 7. Agent orchestration
 
-Six roles with canonical JSON handoff manifests. Full detail in `PROJECT_PLAN.md` §4.
+Six roles with canonical JSON handoff manifests. Full detail in `docs/plans/PROJECT_PLAN.md` §4.
 
 | Role | In | Out |
 |---|---|---|
@@ -149,7 +149,7 @@ Parallelization is topological-sort-based: units with no unproduced prereq can r
 | 1 | Scaffold (this doc, BRIEF, UNIT_SPEC, DEPENDENCY_MAP, PILOT_PLAN, REVIEWER_PLAN) — rubric *after* pilot unit #1, not before | In progress |
 | 1.5 | RAG layer over the reference archive (embeddings + retrieval for Scanner role) | Pending |
 | 2a | Pilot unit #1: produced manually (no agents), used as rubric-seed | Pending |
-| 2b | `QUALITY_RUBRIC.md` distilled from unit #1's actual output + failure modes | Pending |
+| 2b | `docs/specs/QUALITY_RUBRIC.md` distilled from unit #1's actual output + failure modes | Pending |
 | 2c | 9 more pilot units produced using the rubric (mix of manual + agent-assisted) | Pending |
 | 3 | Iterate specs from pilot learnings | Pending |
 | 4 | Parallel scale via agent swarm | Pending |
@@ -164,28 +164,40 @@ Parallelization is topological-sort-based: units with no unproduced prereq can r
 
 ```
 codex/
+├── README.md                     # repo intro
 ├── OVERVIEW.md                   # you are here
 ├── BRIEF.md                      # one-page vision extract
-├── UNIT_SPEC.md                  # canonical unit format
-├── QUALITY_RUBRIC.md             # per-tier pass/fail checklists
-├── DEPENDENCY_MAP.md             # book-level DAG + concept-level for pilot
-├── PILOT_PLAN.md                 # pilot: units, strategy, success criteria
-├── PROJECT_PLAN.md               # agent roles, staged build, risks
-├── FASTTRACK_BOOKLIST.md         # 88-text source-of-truth list
-├── NEED_TO_SOURCE.md             # remaining to acquire
-├── reference/                    # external archive (Phase 0, done)
+├── docs/                         # all planning + spec + catalog material
+│   ├── pilot-lessons.md          # consolidated production-lesson log
+│   ├── plans/                    # PROJECT_PLAN, PILOT_PLAN, WAVE_*, V05_*_PLAN, SITE_PLAN, REVIEWER_PLAN, FASTTRACK_EQUIVALENCE_PLAN, CURRICULUM_V0_5_PLAN
+│   ├── specs/                    # UNIT_SPEC, QUALITY_RUBRIC, ORCHESTRATION_PROTOCOL, CONTINUITY_SCAFFOLD, FASTTRACK_FLOW_SCAFFOLD
+│   ├── catalogs/                 # CONCEPT_CATALOG, DEPENDENCY_MAP, MATHLIB_GAPS, FASTTRACK_BOOKLIST, NEED_TO_SOURCE
+│   └── batches/                  # paste-ready GPT batch scaffolds (V05_GPT_BATCH_*, WAVE_4_GPT_BATCH)
+├── reference/                    # external archive (Phase 0, done; gitignored)
 ├── content/                      # produced units (Phase 2+)
-│   ├── 00-prereqs/
-│   ├── 01-fundamentals/
-│   ├── 02-quantum-stat/
+│   ├── 00-precalc/
+│   ├── 01-foundations/
+│   ├── 02-analysis/
 │   ├── 03-modern-geometry/
-│   └── _meta/
-│       └── NOTATION.md           # project-wide notation glossary
+│   ├── 04-algebraic-geometry/
+│   ├── 05-symplectic/
+│   ├── 06-riemann-surfaces/
+│   ├── 07-representation-theory/
+│   └── 08-stat-mech/
+├── _meta/
+│   └── NOTATION.md               # project-wide notation glossary
+├── style/
+│   └── editorial-voice.md        # voice and prose conventions
 ├── lean/                         # Codex.* Lean 4 project
-├── scripts/                      # orchestration tooling
-└── manifests/
-    ├── deps.json                 # dependency graph (JSON adjacency list)
-    └── units/*.json              # per-unit pipeline-status manifests
+├── scripts/                      # orchestration tooling (validators, RAG, fetchers)
+├── plans/fasttrack/              # per-book Fast Track equivalence plans (long-form)
+├── manifests/
+│   ├── campaign.json             # cross-strand orchestration log
+│   ├── connections.json          # cross-unit semantic connections
+│   ├── deps.json                 # dependency graph (JSON adjacency list)
+│   └── units/*.json              # per-unit pipeline-status manifests
+├── logs/                         # sourcing run logs
+└── site/                         # Astro companion site
 ```
 
 ---
@@ -228,15 +240,15 @@ codex/
 
 ### Open (deferrable — decided per wave / per pilot / per platform milestone):
 
-- **Pilot production strategy** (top-down vs bottom-up vs mixed) — recorded in `PILOT_PLAN.md`
-- **Which 10 specific apex (or leaf) units seed the pilot** — in `PILOT_PLAN.md`
+- **Pilot production strategy** (top-down vs bottom-up vs mixed) — recorded in `docs/plans/PILOT_PLAN.md`
+- **Which 10 specific apex (or leaf) units seed the pilot** — in `docs/plans/PILOT_PLAN.md`
 - **Whether v1 ships Master-only and tiers backfill later, or all-tiers-at-once** — recorded per unit via `tiers_present`
 - **Specific Mathlib target modules to prioritize contributing to** — emerges from `lean_status: none` flags in produced units
 - **Platform for v0.1 pilot rendering** (Astro / Next / minimal custom)
 - **Interactivity milestones calendar** (v0.5 through v2.0)
 - **Agent swarm vendor / orchestration runtime** (whichever Tyler is using)
-- **Reviewer roster and incentives** — recorded in `REVIEWER_PLAN.md`
-- **Canonical concept catalog per subject per tier** — recorded in `CONCEPT_CATALOG.md`; resolves DAG free-degrees (two producers can't declare different prereqs for the same unit if the concept list is canonical)
+- **Reviewer roster and incentives** — recorded in `docs/plans/REVIEWER_PLAN.md`
+- **Canonical concept catalog per subject per tier** — recorded in `docs/catalogs/CONCEPT_CATALOG.md`; resolves DAG free-degrees (two producers can't declare different prereqs for the same unit if the concept list is canonical)
 
 ---
 
@@ -257,9 +269,9 @@ Chronological record of scope-affecting decisions, so future contributors can un
 | 2026-04-23 | Lean invariant weakened: `lean_status: none` acceptable at frontier with named human reviewer | Mathlib doesn't cover spin geometry / QFT / most graduate physics; Lean-as-gate would block apex-first pilot entirely |
 | 2026-04-23 | v0.x audience honestly scoped to PhD-track only during apex-first pilot | Beginner/Intermediate profiles cannot consume until prereq chains fill in per tier; do not advertise those profiles as served at v0.x |
 | 2026-04-23 | RAG layer added as Phase 1.5 (before agent production) | Scanner agent role assumes retrieval; TOPIC_INDEX keyword-matching too coarse |
-| 2026-04-23 | `QUALITY_RUBRIC.md` written *after* pilot unit #1, not before | Rubrics written from imagined failure modes miss real ones; pilot output seeds real rubric |
-| 2026-04-23 | `REVIEWER_PLAN.md` added as Phase 1 deliverable | Reviewer bandwidth is the actual scaling bottleneck (~750 hours expert time for v1) and was previously unaddressed |
-| 2026-04-23 | `CONCEPT_CATALOG.md` added to resolve DAG free-degrees | Without canonical concept lists per subject/tier, producers declare inconsistent prereqs for the same unit |
+| 2026-04-23 | `docs/specs/QUALITY_RUBRIC.md` written *after* pilot unit #1, not before | Rubrics written from imagined failure modes miss real ones; pilot output seeds real rubric |
+| 2026-04-23 | `docs/plans/REVIEWER_PLAN.md` added as Phase 1 deliverable | Reviewer bandwidth is the actual scaling bottleneck (~750 hours expert time for v1) and was previously unaddressed |
+| 2026-04-23 | `docs/catalogs/CONCEPT_CATALOG.md` added to resolve DAG free-degrees | Without canonical concept lists per subject/tier, producers declare inconsistent prereqs for the same unit |
 | 2026-04-23 | Platform: Neutron (TS framework) + Nucleus (database); no interim Astro | Dogfooding drives Neutron maturity; content remains tool-agnostic so pilot can proceed in parallel with Neutron development |
 | 2026-04-23 | Nucleus leak is a hard blocker before Phase 2c | Agent-assisted production writes unit manifests and progress to Nucleus; leak must be fixed before scaling |
 | 2026-04-27 | Pool leak fixed (`ClientWithDriver` wrapper aborts driver on drop); 83 nucleus-client tests + 3597 nucleus-lib tests passing | Belt-and-suspenders cancellation under runtime-shutdown / panic / cancel paths |
@@ -273,26 +285,26 @@ Chronological record of scope-affecting decisions, so future contributors can un
 | 2026-04-27 | Wave A complete: validator-in-build, citation footnote panel, filterable nav (units/concepts/dag) | Hardened pipeline before content scaling |
 | 2026-04-27 | Pilot unit #3 (Fredholm operators) shipped — 27/27 rubric, three tiers | Functional-analysis subject area; stress-tests spec on territory disjoint from spin geometry |
 | 2026-04-27 | Lean lakefile + top-level Codex.lean library | `lean_status: partial` units now have a real build target; CI can `lake build` going forward |
-| 2026-04-27 | `MATHLIB_GAPS.md` aggregator added | Auto-generated upstream-contribution roadmap from unit `lean_mathlib_gap` fields; 3 gaps tracked |
+| 2026-04-27 | `docs/catalogs/MATHLIB_GAPS.md` aggregator added | Auto-generated upstream-contribution roadmap from unit `lean_mathlib_gap` fields; 3 gaps tracked |
 | 2026-04-27 | UNIT_SPEC patched (5 gaps from pilot lessons): `pending_prereqs` flag, `deferred` tier-anchor value, `pending+pointer` reference schema, Lean module path verification, `partial` lean_status statement-compile gate | Spec gaps surfaced by manual production of unit #1; closed before scaling |
-| 2026-04-27 | `QUALITY_RUBRIC.md` distilled from pilot-lessons.md (not pre-written) | 19 automated checks + tier-specific human-judgment items; mechanically enforceable by validator |
+| 2026-04-27 | `docs/specs/QUALITY_RUBRIC.md` distilled from docs/pilot-lessons.md (not pre-written) | 19 automated checks + tier-specific human-judgment items; mechanically enforceable by validator |
 | 2026-04-27 | `scripts/validate_unit.py` ships; runs the automated rubric in seconds; unit #1 passes 19/19 | Quality gate is now machine-checkable before any human reviewer touches a unit |
 | 2026-04-27 | Lean module skeleton at `lean/Codex/SpinGeometry/CliffordAlgebra.lean` with theorem statements | Resolves `lean_status: partial` minimum-bar promise; statements compile, ABS classification marked as Mathlib gap |
 | 2026-04-27 | `manifests/deps.json` seeded with pending-prereq edges from unit #1 | DAG growth bookkeeping is now real, not theoretical |
 | 2026-04-27 | `content/_meta/NOTATION.md` seeded with notation introduced by unit #1 | Glossary populated; validator can now check unregistered-symbol usage |
-| 2026-04-27 | `CONCEPT_CATALOG.md` expanded with 5 prereq concepts unit #1 declares | Resolves DAG free-degrees for the spin-geometry branch |
+| 2026-04-27 | `docs/catalogs/CONCEPT_CATALOG.md` expanded with 5 prereq concepts unit #1 declares | Resolves DAG free-degrees for the spin-geometry branch |
 
 ---
 
 ## 13. Next immediate actions (revised)
 
-1. Write `DEPENDENCY_MAP.md` — seed ~10 apex units at the top of FT, record pulled-in prereqs as the DAG grows.
-2. Write `PILOT_PLAN.md` — pick the 10 apex units, declare strategy, define success criteria.
-3. Write `REVIEWER_PLAN.md` — reviewer roster, incentives, LLM-augmented review policy with human spot-check gating.
-4. Write `CONCEPT_CATALOG.md` (or seed its first section for pilot subjects) — canonical concept lists per subject per tier.
+1. Write `docs/catalogs/DEPENDENCY_MAP.md` — seed ~10 apex units at the top of FT, record pulled-in prereqs as the DAG grows.
+2. Write `docs/plans/PILOT_PLAN.md` — pick the 10 apex units, declare strategy, define success criteria.
+3. Write `docs/plans/REVIEWER_PLAN.md` — reviewer roster, incentives, LLM-augmented review policy with human spot-check gating.
+4. Write `docs/catalogs/CONCEPT_CATALOG.md` (or seed its first section for pilot subjects) — canonical concept lists per subject per tier.
 5. Build the RAG layer (Phase 1.5) — embeddings + vector store + retrieval API over `reference/`.
 6. Produce pilot unit #1 manually (no agents, using the scaffold as-is). This is the rubric-seed.
-7. Distill `QUALITY_RUBRIC.md` *from* pilot unit #1's output + its observed failure modes. Do not write the rubric before this.
+7. Distill `docs/specs/QUALITY_RUBRIC.md` *from* pilot unit #1's output + its observed failure modes. Do not write the rubric before this.
 8. Produce 9 more pilot units (mix of manual + agent-assisted using the distilled rubric).
 9. Only then invoke parallel agent orchestration for scale.
 

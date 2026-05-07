@@ -27,7 +27,7 @@ Adding a new concept entry is a *curriculum-architecture* decision, not a unit-p
 
 ---
 
-## Seed entries (to be filled during `DEPENDENCY_MAP.md` writing)
+## Seed entries (to be filled during `docs/catalogs/DEPENDENCY_MAP.md` writing)
 
 Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry below will be fleshed out as the DAG is drawn.
 

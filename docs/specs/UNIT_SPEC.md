@@ -39,7 +39,7 @@ title: Vector space
 slug: vector-space
 section: fundamentals
 chapter: linear-algebra
-concept_catalog_id: linalg.vector-space  # from CONCEPT_CATALOG.md
+concept_catalog_id: linalg.vector-space  # from docs/catalogs/CONCEPT_CATALOG.md
 prerequisites:
   - 00.02.05  # function
   - 01.01.01  # field
@@ -128,13 +128,13 @@ reviewed_by: []
 | `pending_prereqs` | no (default `false`) | when `true`, prereq IDs may point at not-yet-produced units. Used during apex-first production. |
 | `successors` | no | populated by Integrator; producers leave empty |
 | `tier_anchors` | yes | name the specific anchor source per tier. Accepted values per tier: a string naming the anchor (e.g. `"Lawson-Michelsohn §I.1"`) **or** the literal `deferred` (without quotes is a YAML tag; quoted `"deferred"` works) when that tier is not in `tiers_present`. |
-| `references` | yes | ≥1 entry. By default each `path` must resolve in `reference/` at build time. An entry may instead set `pending: true` with `pointer:` linking to `NEED_TO_SOURCE.md` (e.g. `pointer: "NEED_TO_SOURCE.md#75"`) to declare a citation that will resolve once the source is acquired. Pending citations count toward `≥1` but a unit may not have *only* pending citations — at least one resolved citation is required. |
+| `references` | yes | ≥1 entry. By default each `path` must resolve in `reference/` at build time. An entry may instead set `pending: true` with `pointer:` linking to `docs/catalogs/NEED_TO_SOURCE.md` (e.g. `pointer: "docs/catalogs/NEED_TO_SOURCE.md#75"`) to declare a citation that will resolve once the source is acquired. Pending citations count toward `≥1` but a unit may not have *only* pending citations — at least one resolved citation is required. |
 | `lean_module` | yes if Mathlib covers | canonical Lean module path |
 | `lean_status` | yes | see §7 |
 | `lean_mathlib_gap` | yes if `lean_status: none` | short note on *why* Mathlib doesn't cover (names the gap; feeds upstream-contribution roadmap) |
 | `human_reviewer` | yes if `lean_status: none` at Intermediate+ | name of the domain expert who signed off on correctness |
 | `tiers_present` | yes | subset of `[beginner, intermediate, master]` actually written in this unit; rubric only runs on present tiers |
-| `concept_catalog_id` | yes | unique id from `CONCEPT_CATALOG.md` canonical list; prevents two producers declaring the same concept differently |
+| `concept_catalog_id` | yes | unique id from `docs/catalogs/CONCEPT_CATALOG.md` canonical list; prevents two producers declaring the same concept differently |
 | `estimated_time` | yes | guides learner pacing; Beginner 10–20m, Intermediate 20–45m, Master 45–90m typical |
 | `status` | yes | drives the pipeline (see §12) |
 
@@ -332,7 +332,7 @@ Producer adds new entries when introducing notation not already present. Integra
 
 - Second-person ("you") for Beginner intuition sections; third-person impersonal for Intermediate+ formal content.
 - Emulate the *rigor* of the anchor text, not the literal prose. Do not copy sentences. Do not paraphrase closely. Rewrite.
-- **Master-tier prose standard**: Lawson-Michelsohn, Hörmander, Kato — declarative, structurally honest, sparing with motivation, generous with the precise statement of universal properties, confident in categorical and functorial language without ostentation. Six prose failure modes are explicitly disallowed at Master tier and checked by the rubric (`QUALITY_RUBRIC.md` §M):
+- **Master-tier prose standard**: Lawson-Michelsohn, Hörmander, Kato — declarative, structurally honest, sparing with motivation, generous with the precise statement of universal properties, confident in categorical and functorial language without ostentation. Six prose failure modes are explicitly disallowed at Master tier and checked by the rubric (`docs/specs/QUALITY_RUBRIC.md` §M):
   1. No section-level metacommentary (don't narrate what a section is doing — enact structure through theorem ordering).
   2. No "Counterexamples to common slips" bullet lists at Master tier — fold into running prose. (Encouraged at Intermediate as a `### Counterexamples to common slips` subsection; prohibited at Master.)
   3. No hedged futures or apologies for omission ("we will see…", "we do not state…").
@@ -354,7 +354,7 @@ Producer adds new entries when introducing notation not already present. Integra
 
 ### Prohibited phrasings (case-insensitive)
 
-Two classes — see `QUALITY_RUBRIC.md` §0 for the full list and tier-specific application:
+Two classes — see `docs/specs/QUALITY_RUBRIC.md` §0 for the full list and tier-specific application:
 
 - **Slop (any tier)**: "obviously", "clearly", "it is easy to see", "as we will see", "now, let's consider", "trivial(ly)".
 - **Hedged futures and LM-failure-mode phrases (Master tier only)**: "we will see", "we will rely on", "we do not state", "a subtlety worth noting", "the right organising principle", "the structural fact that organises", "the philosophical point is", "the deeper philosophical content".
@@ -385,4 +385,4 @@ The `status` frontmatter field drives the pipeline. Producer writes `draft`. Rev
 
 A complete, tier-complete unit for `01.01.03 — Vector Space` will be written during the pilot as the worked example of this spec. It lives at `content/01-fundamentals/01-linear-algebra/01.01.03-vector-space.md` once produced.
 
-Before writing that unit, every item in this spec must have an unambiguous interpretation. If producing the pilot unit reveals a spec gap, that's a signal to revise UNIT_SPEC.md first — not to patch in the unit.
+Before writing that unit, every item in this spec must have an unambiguous interpretation. If producing the pilot unit reveals a spec gap, that's a signal to revise docs/specs/UNIT_SPEC.md first — not to patch in the unit.

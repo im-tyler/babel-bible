@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate every unit in `content/` against the rubric in QUALITY_RUBRIC.md.
+"""Validate every unit in `content/` against the rubric in docs/specs/QUALITY_RUBRIC.md.
 
 Walks the content tree, invokes `validate_unit.py` on each unit as a
 subprocess (one process per unit, simple and robust across Python
@@ -53,7 +53,7 @@ def main():
         print(f"No units found under {content_root}.")
         sys.exit(0)
 
-    print(f"Validating {len(units)} units against QUALITY_RUBRIC.md …")
+    print(f"Validating {len(units)} units against docs/specs/QUALITY_RUBRIC.md …")
     print()
 
     failures: list[tuple[Path, str]] = []

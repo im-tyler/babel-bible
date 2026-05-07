@@ -2,7 +2,7 @@
 
 Curriculum DAG. Apex-first construction: start from the ~10 apex units at the top of Fast Track, pull prerequisites as they surface. Each pulled prereq becomes its own future unit with its own prereqs. The graph grows downward.
 
-**Authoritative source for prerequisites per concept:** `CONCEPT_CATALOG.md`. This document is the *drawing* of the DAG at v0.x; the catalog is the *definition* of what each concept requires.
+**Authoritative source for prerequisites per concept:** `docs/catalogs/CONCEPT_CATALOG.md`. This document is the *drawing* of the DAG at v0.x; the catalog is the *definition* of what each concept requires.
 
 ---
 
@@ -173,6 +173,6 @@ Convergence means early production of foundational units unblocks many apex unit
 This document is regenerated from `manifests/deps.json` after every production wave. The JSON is the source of truth; this markdown is a human-readable view.
 
 Adding a new concept requires updating:
-1. `CONCEPT_CATALOG.md` — the canonical prereqs of that concept
+1. `docs/catalogs/CONCEPT_CATALOG.md` — the canonical prereqs of that concept
 2. `manifests/deps.json` — the adjacency list
 3. This document — regenerated view

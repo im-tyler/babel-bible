@@ -10,11 +10,11 @@ This is your third v0.5 batch, after Strands B (Symplectic) and E (Statistical f
 
 ## Read first
 
-1. **`V05_SUPPORTING_UNITS_PLAN.md`** — the master scaffold. Every unit below has its originator citation and modern textbook anchor there. Read it before you produce any unit.
-2. `CURRICULUM_V0_5_PLAN.md` — overall v0.5 framing.
-3. `FASTTRACK_BOOKLIST.md` — Fast Track parity reference. The Master-tier anchors below pull from this list whenever the textbook is on it.
-4. `UNIT_SPEC.md`, `QUALITY_RUBRIC.md` — frontmatter and tier markers; 27-point validator + §M Master prose standard.
-5. `CONCEPT_CATALOG.md` — namespaces in use: `complex-analysis.<x>` for Strand C, `rep-theory.<x>` for Strand D.
+1. **`docs/plans/V05_SUPPORTING_UNITS_PLAN.md`** — the master scaffold. Every unit below has its originator citation and modern textbook anchor there. Read it before you produce any unit.
+2. `docs/plans/CURRICULUM_V0_5_PLAN.md` — overall v0.5 framing.
+3. `docs/catalogs/FASTTRACK_BOOKLIST.md` — Fast Track parity reference. The Master-tier anchors below pull from this list whenever the textbook is on it.
+4. `docs/specs/UNIT_SPEC.md`, `docs/specs/QUALITY_RUBRIC.md` — frontmatter and tier markers; 27-point validator + §M Master prose standard.
+5. `docs/catalogs/CONCEPT_CATALOG.md` — namespaces in use: `complex-analysis.<x>` for Strand C, `rep-theory.<x>` for Strand D.
 6. **Templates** — read at least one of these before each strand:
    - `content/06-riemann-surfaces/03-riemann-surfaces/06.03.01-riemann-surface.md` (Strand C apex, set the tone)
    - `content/07-representation-theory/04-classification/07.04.01-cartan-weyl-classification.md` (Strand D apex, includes Killing/Cartan/Weyl genius-prose context)
@@ -84,7 +84,7 @@ All 30 units: three tiers, `tiers_present: [beginner, intermediate, master]`. Be
 1. Open the originator paper or the modern anchor. Identify the canonical statement and the originator's conceptual phrasing.
 2. Draft the unit using the apex template (06.03.01 or 07.04.01).
 3. Master-tier *Historical & philosophical context* section: cite originator paper with the exact title and year. Prefer originator's prose for framing where readable.
-4. Update `CONCEPT_CATALOG.md` (namespace `complex-analysis.<x>` for C, `rep-theory.<x>` for D).
+4. Update `docs/catalogs/CONCEPT_CATALOG.md` (namespace `complex-analysis.<x>` for C, `rep-theory.<x>` for D).
 5. Update `manifests/deps.json` (both the `nodes[]` array and `_notes{}` object).
 6. Run `./.venv/bin/python scripts/validate_unit.py <path>` until 27/27.
 7. After every 3–4 units, run `./.venv/bin/python scripts/validate_all.py` to ensure no global drift.
@@ -123,7 +123,7 @@ Stop and report after:
 
 If a single unit genuinely cannot be sourced (originator paper unavailable, no clear modern anchor), set `lean_status: none`, `human_reviewer: TBD`, ship at apex skeleton, and report — don't block the batch.
 
-Begin with `06.01.05 Meromorphic function`. Read `V05_SUPPORTING_UNITS_PLAN.md` first.
+Begin with `06.01.05 Meromorphic function`. Read `docs/plans/V05_SUPPORTING_UNITS_PLAN.md` first.
 
 ---
 

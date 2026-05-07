@@ -1,8 +1,8 @@
 # Codex — Quality Rubric
 
-Per-tier pass/fail checklists. Distilled from `pilot-lessons.md` after pilot unit #1 (Clifford algebra). The checklist is the rubric — there is no "holistic vibes" gate. Reviewers tick boxes; failed boxes block ship.
+Per-tier pass/fail checklists. Distilled from `docs/pilot-lessons.md` after pilot unit #1 (Clifford algebra). The checklist is the rubric — there is no "holistic vibes" gate. Reviewers tick boxes; failed boxes block ship.
 
-Read `UNIT_SPEC.md` and `OVERVIEW.md` §3 first; this document keys off both.
+Read `docs/specs/UNIT_SPEC.md` and `OVERVIEW.md` §3 first; this document keys off both.
 
 ---
 
@@ -22,14 +22,14 @@ If a check is ambiguous in a specific case, write a comment in `manifests/units/
 
 ### Automated (validator script)
 
-- [ ] Frontmatter YAML is valid; all required fields present per `UNIT_SPEC.md` §4.
+- [ ] Frontmatter YAML is valid; all required fields present per `docs/specs/UNIT_SPEC.md` §4.
 - [ ] `id` matches filename pattern `<section>.<chapter>.<ordinal>` and `<id>-<slug>.md` filename.
-- [ ] `concept_catalog_id` exists in `CONCEPT_CATALOG.md`.
+- [ ] `concept_catalog_id` exists in `docs/catalogs/CONCEPT_CATALOG.md`.
 - [ ] `tiers_present` is a non-empty subset of `[beginner, intermediate, master]`.
 - [ ] For each `t ∈ tiers_present`: at least one section in the markdown body carries the `[<Tier>]` or `[<Tier>+]` marker that includes `t`.
 - [ ] For each `t ∉ tiers_present`: `tier_anchors[t]` is `deferred` OR `null` OR absent. Tier-marked sections for `t` must be absent or empty.
 - [ ] `prerequisites[]` IDs each exist as either (a) a `status: shipped` unit OR (b) listed in `manifests/deps.json` with `state: pending` AND this unit's frontmatter has `pending_prereqs: true`.
-- [ ] Every `references[]` entry either resolves to an existing path in `reference/` OR has `pending: true` with `pointer:` linking to `NEED_TO_SOURCE.md`.
+- [ ] Every `references[]` entry either resolves to an existing path in `reference/` OR has `pending: true` with `pointer:` linking to `docs/catalogs/NEED_TO_SOURCE.md`.
 - [ ] At least one `references[]` entry is *not* pending.
 - [ ] Every inline `[ref: source locator]` cite uses a `source` declared in frontmatter `references[]` (no orphan citations).
 - [ ] Every inline `[<unit-id>]` cross-ref points to a `status: shipped` unit OR has been registered as a forward-ref in `manifests/deps.json`.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate a Codex unit against the automated portion of QUALITY_RUBRIC.md.
+"""Validate a Codex unit against the automated portion of docs/specs/QUALITY_RUBRIC.md.
 
 Usage:
     python validate_unit.py path/to/unit.md
@@ -187,10 +187,10 @@ def check_tiers_present(report: ValidationReport):
 def check_concept_catalog_id(report: ValidationReport, repo: Path):
     fm = report.frontmatter
     cid = fm.get("concept_catalog_id", "")
-    catalog = (repo / "CONCEPT_CATALOG.md").read_text() if (repo / "CONCEPT_CATALOG.md").exists() else ""
+    catalog = (repo / "docs/catalogs/CONCEPT_CATALOG.md").read_text() if (repo / "docs/catalogs/CONCEPT_CATALOG.md").exists() else ""
     found = bool(cid) and cid in catalog
     report.add(
-        "concept_catalog_id exists in CONCEPT_CATALOG.md",
+        "concept_catalog_id exists in docs/catalogs/CONCEPT_CATALOG.md",
         found,
         detail=f"id '{cid}' not found" if not found else "",
     )

@@ -2,7 +2,7 @@
 
 **v0.x scope is complete**: 66 units, fully closed DAG, spin-geometry strand (Wave 1) traversable from leaf to apex with three tiers. **v0.5 is the first lateral expansion**: producing additional apex strands beyond spin geometry to reach Fast Track parity.
 
-Read `PILOT_PLAN.md` (v0.x retrospective), `WAVE_3_PLAN.md` and `WAVE_4_PLAN.md` (depth-completion plans), `pilot-lessons.md` (consolidated production lessons), `QUALITY_RUBRIC.md` (the validator gate).
+Read `docs/plans/PILOT_PLAN.md` (v0.x retrospective), `docs/plans/WAVE_3_PLAN.md` and `docs/plans/WAVE_4_PLAN.md` (depth-completion plans), `docs/pilot-lessons.md` (consolidated production lessons), `docs/specs/QUALITY_RUBRIC.md` (the validator gate).
 
 ---
 
@@ -285,7 +285,7 @@ These two strands are physics-flavored, computational, and somewhat self-contain
 - **Mathematical adjacency**: claude's three strands form a connected sub-DAG (sheaf cohomology in AG ↔ holomorphic line bundles on Riemann surfaces ↔ characters of compact Lie groups → Borel-Weil). Producing them together lets cross-references resolve as production proceeds.
 - **Prose density**: AG, RS, RT have heavy prose components (definitions of schemes, divisors, weight lattices). claude's Master-tier prose pace fits this.
 - **Computational density**: SG and SFT have more action-functional / partition-function / commutator computation. gpt-codex has shown speed and accuracy on this style.
-- **Independence**: SG and SFT can run completely independently of claude's three strands; collisions on shared files (`CONCEPT_CATALOG.md`, `manifests/deps.json`, `pilot-lessons.md`) are the only coordination point.
+- **Independence**: SG and SFT can run completely independently of claude's three strands; collisions on shared files (`docs/catalogs/CONCEPT_CATALOG.md`, `manifests/deps.json`, `docs/pilot-lessons.md`) are the only coordination point.
 
 ### Estimated production time
 
@@ -300,8 +300,8 @@ Realistic calendar: **2–3 weeks of intermittent work** brings v0.5 to closure 
 
 The two gpt-codex strands need their own batch scaffolds. Written as separate files:
 
-- `/Users/tyler/Documents/proj rn/codex/V05_GPT_BATCH_B_SYMPLECTIC.md` — Strand B (Symplectic geometry) Wave 1 apex queue.
-- `/Users/tyler/Documents/proj rn/codex/V05_GPT_BATCH_E_SFT.md` — Strand E (Statistical field theory) Wave 1 apex queue.
+- `docs/batches/V05_GPT_BATCH_B_SYMPLECTIC.md` — Strand B (Symplectic geometry) Wave 1 apex queue.
+- `docs/batches/V05_GPT_BATCH_E_SFT.md` — Strand E (Statistical field theory) Wave 1 apex queue.
 
 Each file contains:
 - Read-first list (PILOT_PLAN, QUALITY_RUBRIC, etc.)
@@ -310,7 +310,7 @@ Each file contains:
 - Hard conventions and prose standard
 - Stop conditions
 
-The claude-side strands (A, C, D) are produced from `CURRICULUM_V0_5_PLAN.md` directly — claude reads the strand definition above and produces from it.
+The claude-side strands (A, C, D) are produced from `docs/plans/CURRICULUM_V0_5_PLAN.md` directly — claude reads the strand definition above and produces from it.
 
 ## 9. Numbering convention
 
@@ -349,7 +349,7 @@ After v0.5 closes:
 
 - **v1 launch readiness**: rendering polish (KaTeX + theme + tier filter UX), exercise interactivity (interactive widgets — Neutron-side work), RAG layer over `reference/`, reviewer attestation pass.
 - **v0.6 lateral expansion**: 2–3 more strands beyond the v0.5 five (geometric quantization, number theory, advanced algebraic topology, etc.) — the same scaffold-driven pattern repeated.
-- **Consolidation**: rubric evolution (v3 of QUALITY_RUBRIC.md); LM-editorial-writer agent review on all v0.5 Master prose; sourcing-acquisition pass to resolve TODO_REF placeholders.
+- **Consolidation**: rubric evolution (v3 of docs/specs/QUALITY_RUBRIC.md); LM-editorial-writer agent review on all v0.5 Master prose; sourcing-acquisition pass to resolve TODO_REF placeholders.
 
 The v0.5 plan's purpose is twofold: (1) bring Codex to Fast Track parity in modern-geometry breadth, (2) prove the lateral-expansion model works at scale.
 

@@ -2,7 +2,7 @@
 
 **Wave 3.** Production of the foundational prerequisites that Wave 2's pulled-prereq units declared as `pending_prereqs: true`. Where Wave 1 was the apex (10 units) and Wave 2 the first prereq layer (~30 units), Wave 3 reaches the foundational stratum: smooth manifold, Lie group, differential forms, topological space, normed/metric/inner-product spaces, basic algebra (group, ring, ideal), tensor product, covering space, etc.
 
-Read `OVERVIEW.md` §5 (production strategy), `DEPENDENCY_MAP.md` §5–§6 (DAG layout and convergence), `PILOT_PLAN.md` (Wave 1 retrospective), `pilot-lessons.md` (Wave 1 + Wave 2 production lessons), `QUALITY_RUBRIC.md` (the validator gate, including LM Master prose standard from §M).
+Read `OVERVIEW.md` §5 (production strategy), `docs/catalogs/DEPENDENCY_MAP.md` §5–§6 (DAG layout and convergence), `docs/plans/PILOT_PLAN.md` (Wave 1 retrospective), `docs/pilot-lessons.md` (Wave 1 + Wave 2 production lessons), `docs/specs/QUALITY_RUBRIC.md` (the validator gate, including LM Master prose standard from §M).
 
 ---
 
@@ -228,4 +228,4 @@ Tyler's call which path Wave 4 takes. Wave 3 is the inflection point.
 
 ---
 
-*Plan drafted 2026-04-28 during Phase 2.3 / 2.4 production. Will be revised after Wave 2 closes and pilot-lessons.md has accumulated foundational-tier observations.*
+*Plan drafted 2026-04-28 during Phase 2.3 / 2.4 production. Will be revised after Wave 2 closes and docs/pilot-lessons.md has accumulated foundational-tier observations.*

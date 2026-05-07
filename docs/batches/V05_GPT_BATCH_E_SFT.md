@@ -1,6 +1,6 @@
 # Codex v0.5 — Strand E (Statistical Field Theory & Lattice Models) — gpt-codex batch
 
-This is your second strand. Concurrent with Strand B (Symplectic geometry — see `V05_GPT_BATCH_B_SYMPLECTIC.md`) and claude's Strands A, C, D.
+This is your second strand. Concurrent with Strand B (Symplectic geometry — see `docs/batches/V05_GPT_BATCH_B_SYMPLECTIC.md`) and claude's Strands A, C, D.
 
 Total Strand E production: ~22 new units (12 apex + ~10 supporting). At your current production cadence (~2–5 min per unit), this strand should close in roughly 1.5–2 hours of focused work.
 
@@ -10,12 +10,12 @@ Total Strand E production: ~22 new units (12 apex + ~10 supporting). At your cur
 
 ## Read first
 
-1. `CURRICULUM_V0_5_PLAN.md` §6 — the Strand E framing, apex unit list, supporting units, and shipped foundations to reuse.
-2. `PILOT_PLAN.md` — current shipped count, v0.x retrospective.
-3. `pilot-lessons.md` — production lessons.
-4. `UNIT_SPEC.md` — frontmatter and tier markers.
-5. `QUALITY_RUBRIC.md` — 27-point automated checklist + §M Master prose standard.
-6. `CONCEPT_CATALOG.md` — find/add concept entries; new namespace `stat-mech.<topic>` for this strand.
+1. `docs/plans/CURRICULUM_V0_5_PLAN.md` §6 — the Strand E framing, apex unit list, supporting units, and shipped foundations to reuse.
+2. `docs/plans/PILOT_PLAN.md` — current shipped count, v0.x retrospective.
+3. `docs/pilot-lessons.md` — production lessons.
+4. `docs/specs/UNIT_SPEC.md` — frontmatter and tier markers.
+5. `docs/specs/QUALITY_RUBRIC.md` — 27-point automated checklist + §M Master prose standard.
+6. `docs/catalogs/CONCEPT_CATALOG.md` — find/add concept entries; new namespace `stat-mech.<topic>` for this strand.
 7. **Existing reference templates** — read these for style:
    - `content/03-modern-geometry/10-conformal-field-theory/03.10.02-cft-basics.md` (closest physics-style content; ties to the conformal-symmetry-at-criticality apex unit).
    - `content/03-modern-geometry/07-gauge-theory/03.07.05-yang-mills-action.md` (action-functional style, similar physics flavour).
@@ -51,10 +51,10 @@ All units: three tiers, `tiers_present: [beginner, intermediate, master]`. Begin
 
 1. Read the anchor reference; identify the canonical Master-tier statement and proof.
 2. Draft using the CFT-basics or Yang-Mills template.
-3. Update `CONCEPT_CATALOG.md` (new namespace `stat-mech`).
+3. Update `docs/catalogs/CONCEPT_CATALOG.md` (new namespace `stat-mech`).
 4. Update `manifests/deps.json`.
 5. Run `validate_unit.py` until 27/27.
-6. Append to `pilot-lessons.md`.
+6. Append to `docs/pilot-lessons.md`.
 7. After apex queue: `validate_all.py` green, `pnpm build` clean.
 
 ## Hard conventions
@@ -79,7 +79,7 @@ Stop and report after:
 
 If any apex unit (e.g., Onsager) genuinely cannot be sourced from `reference/`, report and ship the unit at `lean_status: none` with `human_reviewer: TBD` rather than block.
 
-Begin with `08.01.01` Partition function. Read `CURRICULUM_V0_5_PLAN.md` §6 first.
+Begin with `08.01.01` Partition function. Read `docs/plans/CURRICULUM_V0_5_PLAN.md` §6 first.
 
 ---
 

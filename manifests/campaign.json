@@ -37,7 +37,7 @@
           "connections_integrated": 9,
           "notation_decisions_applied": [4, 6, 7, 8, 10, 13, 23, 25, 26],
           "validator_status": "5149/5149 across 191 units",
-          "calibration_finding": "All 4 agents wrote CONCEPT_CATALOG.md entries directly to satisfy validator's concept_catalog_id check; 'no shared file edits' rule needs revision in protocol v2."
+          "calibration_finding": "All 4 agents wrote docs/catalogs/CONCEPT_CATALOG.md entries directly to satisfy validator's concept_catalog_id check; 'no shared file edits' rule needs revision in protocol v2."
         },
         "P4_production":     { "status": "pending" },
         "P5_verification":   { "status": "needs-rework", "completed_at": "2026-04-29", "agent_duration_s": 653, "theorem_coverage_pct": 92.5, "exercise_reproducibility": "14/15+1partial", "notation_comprehension": "5/5", "deficit_rows_count": 14, "estimated_rework_hours": 5 },

@@ -49,4 +49,4 @@ A unit with `lean_status: partial` must:
 When a unit cannot be formalised because Mathlib lacks the relevant
 infrastructure, the unit declares `lean_status: none` with a
 `lean_mathlib_gap` description. These collectively form the upstream
-contribution roadmap; see `MATHLIB_GAPS.md` at codex root.
+contribution roadmap; see `docs/catalogs/MATHLIB_GAPS.md` at codex root.

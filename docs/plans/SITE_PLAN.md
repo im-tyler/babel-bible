@@ -2,7 +2,7 @@
 
 The rendering layer. Reads `content/`, produces a learner-facing site. Built on Neutron (TS) with markdown + math + tier filtering. Persists state to Nucleus once we wire that in (later).
 
-Read `OVERVIEW.md` §10 (platform strategy) and `UNIT_SPEC.md` (canonical content format) before this.
+Read `OVERVIEW.md` §10 (platform strategy) and `docs/specs/UNIT_SPEC.md` (canonical content format) before this.
 
 ---
 
@@ -39,7 +39,7 @@ For v0.1 pilot: `/`, `/about`, `/units`, `/u/[id]`, `/concepts`. The rest are st
 
 ## 3. Content collection schema
 
-Zod schema at `src/content/config.ts` mirroring `UNIT_SPEC.md` frontmatter exactly.
+Zod schema at `src/content/config.ts` mirroring `docs/specs/UNIT_SPEC.md` frontmatter exactly.
 
 ```ts
 defineCollection({

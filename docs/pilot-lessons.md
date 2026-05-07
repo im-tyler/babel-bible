@@ -1,6 +1,6 @@
 # Pilot Lessons — running log
 
-What we observed during pilot unit production, especially failure modes the spec didn't catch. Distilled into `QUALITY_RUBRIC.md` after the pilot.
+What we observed during pilot unit production, especially failure modes the spec didn't catch. Distilled into `docs/specs/QUALITY_RUBRIC.md` after the pilot.
 
 ---
 
@@ -52,7 +52,7 @@ Produced six units in a single autonomous run after discovering that the paralle
 
 - Dirac operator `03.09.08` remains `pending_prereqs: true` on `03.09.05` spinor bundle — genuine Wave 3 territory.
 - All Tier-A Master anchors (Lawson-Michelsohn, Milnor-Stasheff, Kobayashi-Nomizu) remain `TODO_REF` — sourcing is unblocked but pending.
-- Wave 3 next: smooth manifold + topological space + metric space (highest-leverage foundational layer per WAVE_3_PLAN.md).
+- Wave 3 next: smooth manifold + topological space + metric space (highest-leverage foundational layer per docs/plans/WAVE_3_PLAN.md).
 
 ---
 
@@ -71,7 +71,7 @@ Produced `03.06.06 Chern-Weil homomorphism` and `03.06.04 Pontryagin and Chern c
 
 - The site asset path is a sibling of `codex` (`../tystack/...`), not inside the content repo. Producers need to be explicit about that to avoid creating dead image paths.
 - The automated validator does not count Intermediate exercise distribution yet; producers still need to self-check the 2 easy / 3 medium / 2 hard balance.
-- The validator accepts legacy `TODO_REF` entries as resolved-enough for the pilot. Before public launch, those should become either sourced archive entries or explicit `pending: true` references with pointers into `NEED_TO_SOURCE.md`.
+- The validator accepts legacy `TODO_REF` entries as resolved-enough for the pilot. Before public launch, those should become either sourced archive entries or explicit `pending: true` references with pointers into `docs/catalogs/NEED_TO_SOURCE.md`.
 - Characteristic-class units introduce notation that should eventually be added to `content/_meta/NOTATION.md`: `S^\bullet(\mathfrak g^\ast)^G`, `\mathrm{cw}_P`, `c_k(E)`, `p_k(V)`, Chern roots, and total classes.
 
 ### Follow-up review flags
@@ -140,7 +140,7 @@ Two general-purpose agents reviewed the unit independently with different prompt
 
 1. **`prerequisites:` lists IDs that don't exist as units yet.** I declared `01.01.03 vector space`, `01.01.15 bilinear form`, `03.01.04 tensor algebra`, `03.01.05 quotient algebra` — none of these are produced. The spec doesn't say what to do here. Currently the build-time cross-ref check would fail. **Recommendation:** add a `pending` flag in frontmatter or an `allow-pending-prereqs.txt` file at the manifest layer to permit apex units to declare not-yet-produced prereqs without breaking builds. The DAG carries the dependency forward.
 2. **`tier_anchors.beginner: deferred` and `intermediate: deferred`** — the spec doesn't formally accept `deferred` as a value. I used it because it reads naturally; the spec should bless it explicitly or pick a different sentinel (`null`, `"deferred"`, or `pending`).
-3. **`TODO_REF` source name** is a workaround. The spec assumes `references[].source` resolves to a real archive directory. We need a controlled way to declare "this citation will exist in reference/ once X is sourced," and to link those citations to NEED_TO_SOURCE.md. **Recommendation:** allow a `pending: true` flag on a reference entry, plus a `pointer-to: NEED_TO_SOURCE.md#75` link.
+3. **`TODO_REF` source name** is a workaround. The spec assumes `references[].source` resolves to a real archive directory. We need a controlled way to declare "this citation will exist in reference/ once X is sourced," and to link those citations to docs/catalogs/NEED_TO_SOURCE.md. **Recommendation:** allow a `pending: true` flag on a reference entry, plus a `pointer-to: docs/catalogs/NEED_TO_SOURCE.md#75` link.
 4. **`reviewed_by` is empty.** Pilot unit shipped as `status: draft` with `reviewed_by: []`. Need to walk through review before Phase 2b; this manual unit hasn't been mathematical-reviewed by Tyler yet. Spec should specify whether `draft` units count toward "10 units shipped" — they don't.
 5. **`lean_status: partial`** is justified (Mathlib has the universal-property construction, doesn't have the ABS classification or pin/spin in the standardised form we want). But the spec doesn't say what minimum the Lean module must contain for `partial` to be acceptable. **Recommendation:** require `partial` units to formalize at least the statement (no proofs allowed to be `sorry`-free, but the *theorem* must be statable in Lean).
 
@@ -157,7 +157,7 @@ Two general-purpose agents reviewed the unit independently with different prompt
 - **The "physical content" / Dirac-spinor section** leans heavily on Tong's framing. The math-physics translation is correct but a Lawson-Michelsohn-trained reviewer may want a more geometric framing. Worth flagging during review.
 - **The Lean code is illustrative, not yet compiling.** The actual `Codex.SpinGeometry.CliffordAlgebra` module file does not exist in `lean/`. The unit cites it as if it does. This is a real spec gap: the build system should verify `lean_module:` paths exist when `lean_status` is not `none`.
 
-### Action items for QUALITY_RUBRIC.md (Phase 2b)
+### Action items for docs/specs/QUALITY_RUBRIC.md (Phase 2b)
 
 These specific failure modes should each become a rubric checklist item:
 
@@ -177,13 +177,13 @@ These specific failure modes should each become a rubric checklist item:
 
 ### Next units to produce
 
-Per `PILOT_PLAN.md` §1 the order is:
+Per `docs/plans/PILOT_PLAN.md` §1 the order is:
 2. `03.09.04 Spin structure` (manual, validates rubric on adjacent concept)
 3. `03.09.06 Fredholm operators` (manual, stress on different subject area)
 4. `03.06.06 Chern-Weil homomorphism` (first agent-drafted)
 …
 
-Before unit #2, distill `QUALITY_RUBRIC.md` from this lessons file (Phase 2b).
+Before unit #2, distill `docs/specs/QUALITY_RUBRIC.md` from this lessons file (Phase 2b).
 
 ---
 

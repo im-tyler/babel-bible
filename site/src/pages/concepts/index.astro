@@ -6,8 +6,8 @@ import { resolve } from "node:path";
 
 // Try multiple candidate paths to be robust across dev and build CWDs.
 const candidates = [
-  resolve(process.cwd(), "../CONCEPT_CATALOG.md"),
-  resolve(process.cwd(), "CONCEPT_CATALOG.md"),
+  resolve(process.cwd(), "../docs/catalogs/CONCEPT_CATALOG.md"),
+  resolve(process.cwd(), "docs/catalogs/CONCEPT_CATALOG.md"),
 ];
 let raw = "";
 for (const p of candidates) {

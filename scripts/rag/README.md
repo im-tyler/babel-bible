@@ -9,7 +9,7 @@ Embedding + retrieval over the `codex/reference/` archive. The Scanner agent rol
 | Embedding model | `BAAI/bge-large-en-v1.5` (1024-dim) | local via `sentence-transformers`; no API key; ~1.3 GB one-time download |
 | Storage | Nucleus `VECTOR(1024)` column + HNSW index | dogfoods Nucleus; single persistence layer |
 | Chunking | MD: sectioned, max ~800 tokens with 100-token overlap; PDFs: per-page, paragraph-grouped | preserves semantic boundaries |
-| Provenance | Every chunk carries `source / source_path / locator` | matches `[ref:]` citation syntax in `UNIT_SPEC.md` |
+| Provenance | Every chunk carries `source / source_path / locator` | matches `[ref:]` citation syntax in `docs/specs/UNIT_SPEC.md` |
 
 ## Files
 

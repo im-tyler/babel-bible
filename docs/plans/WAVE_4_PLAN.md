@@ -2,7 +2,7 @@
 
 **Wave 4.** Production of the deep prerequisites that Wave 3 units (and a handful of Wave 2 mid-tier units) declared `pending_prereqs: true` against. After Wave 4, every shipped unit's prerequisites should resolve to other shipped units — the curriculum DAG becomes traversable from leaf to apex with zero residual `pending_prereqs: true`.
 
-Read `OVERVIEW.md`, `WAVE_3_PLAN.md` (Wave 3 Phase 3.1 + 3.2 are complete), `pilot-lessons.md` (consolidated production lessons through Phase 3.2), `QUALITY_RUBRIC.md` (the validator gate).
+Read `OVERVIEW.md`, `docs/plans/WAVE_3_PLAN.md` (Wave 3 Phase 3.1 + 3.2 are complete), `docs/pilot-lessons.md` (consolidated production lessons through Phase 3.2), `docs/specs/QUALITY_RUBRIC.md` (the validator gate).
 
 ---
 
@@ -28,7 +28,7 @@ Plus one additional gap surfaced by Wave 1 / Wave 2 prereq lists but not yet in 
 
 ## 2. Strand A — algebra / foundations (5 units, independent)
 
-For the **gpt-codex parallel session**. See `WAVE_4_GPT_BATCH.md` (paste-ready scaffold).
+For the **gpt-codex parallel session**. See `docs/batches/WAVE_4_GPT_BATCH.md` (paste-ready scaffold).
 
 | Order | Unit ID | Title | Path | Anchor |
 |---|---|---|---|---|
@@ -62,9 +62,9 @@ The two strands operate on **disjoint chapter directories**:
 - Strand B: `content/03-modern-geometry/12-homotopy/`, `content/03-modern-geometry/04-differential-forms/03.04.04-*`, `content/03-modern-geometry/04-differential-forms/03.04.05-*`, `content/03-modern-geometry/06-characteristic-classes/03.06.03-*`
 
 Shared files both strands edit:
-- `CONCEPT_CATALOG.md` — append-only; new entries added in different sections
+- `docs/catalogs/CONCEPT_CATALOG.md` — append-only; new entries added in different sections
 - `manifests/deps.json` — append-only; both strands add to `shipped` set
-- `pilot-lessons.md` — append-only
+- `docs/pilot-lessons.md` — append-only
 
 Risk of last-write-wins on shared files is acceptable — historically (Wave 2, Wave 3 Phase 3.2) this hasn't caused issues because each session adds new content rather than modifying shared lines.
 

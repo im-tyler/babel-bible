@@ -1,10 +1,10 @@
 # Codex — Pedagogical Flow Scaffold
 
-A second-order scaffold folded on top of the equivalence plan. Where `FASTTRACK_EQUIVALENCE_PLAN.md` captures *what* each Fast Track book teaches, this document captures *how* — the specific pedagogical sequence, the inter-chapter bridges, the pause-and-motivate moments, the difficulty ramps, the way each author attenuates a reader from foundations to apex.
+A second-order scaffold folded on top of the equivalence plan. Where `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` captures *what* each Fast Track book teaches, this document captures *how* — the specific pedagogical sequence, the inter-chapter bridges, the pause-and-motivate moments, the difficulty ramps, the way each author attenuates a reader from foundations to apex.
 
 A Codex unit is a reference object: definitions, theorems, exercises, examples, three tiers. A *flow* is a teaching object: an ordered traversal of units, annotated with the rhetorical scaffolding an author would use to bring a learner up the conceptual ladder. Multiple flows traverse the same underlying units; each preserves a distinct pedagogical voice.
 
-Read alongside `FASTTRACK_EQUIVALENCE_PLAN.md`, `UNIT_SPEC.md`, `SITE_PLAN.md`.
+Read alongside `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`, `docs/specs/UNIT_SPEC.md`, `docs/plans/SITE_PLAN.md`.
 
 ---
 

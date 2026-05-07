@@ -123,7 +123,7 @@ Do not ship unreviewed Master-tier content just to hit a production target. Qual
 |---|---|---|
 | (apex 1–10, TBD in PILOT_PLAN) | Tyler for topics he's fluent in | Recruit 2 collaborators before pilot completion |
 
-Tyler: list the 10 pilot apex units here with self-confidence rating (Green = can review, Yellow = can review with effort, Red = need outside expert) once `PILOT_PLAN.md` names them. Recruitment for Red units starts before that unit enters review.
+Tyler: list the 10 pilot apex units here with self-confidence rating (Green = can review, Yellow = can review with effort, Red = need outside expert) once `docs/plans/PILOT_PLAN.md` names them. Recruitment for Red units starts before that unit enters review.
 
 ---
 

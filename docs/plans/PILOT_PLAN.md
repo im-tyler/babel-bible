@@ -4,7 +4,7 @@
 
 **Status (2026-04-28, Wave 5 closed — DAG complete):** ✅ all 10 apex units shipped at 27/27 rubric. LM-editorial pass complete on all units. Wave 2 + Wave 3 + Wave 4 + Wave 5 all closed: **66 units shipped total (10 Wave 1 + 31 Wave 2 + 12 Wave 3 + 10 Wave 4 + 3 Wave 5). 1775/1775 rubric checks. Build clean: 71 pages render.** **🎉🎉🎉 ZERO units have `pending_prereqs: true`. The curriculum DAG is FULLY CLOSED — every shipped unit's prerequisites resolve to other shipped units.** v0.x scope is complete; lateral expansion (additional apex strands) and v1 launch readiness (rendering, exercise interactivity, RAG, reviewer attestation) are the next moves.
 
-Read `OVERVIEW.md` §5 (production strategy), §8 (pipeline stages), and `DEPENDENCY_MAP.md` before this.
+Read `OVERVIEW.md` §5 (production strategy), §8 (pipeline stages), and `docs/catalogs/DEPENDENCY_MAP.md` before this.
 
 ---
 
@@ -31,14 +31,14 @@ Deliberately *not* parallel. The pilot is a stress test of the spec.
 
 The pilot succeeds if, by end of wave 1:
 
-- [x] All 10 units exist in `content/03-modern-geometry/` with full frontmatter per `UNIT_SPEC.md`
+- [x] All 10 units exist in `content/03-modern-geometry/` with full frontmatter per `docs/specs/UNIT_SPEC.md`
 - [~] All reference citations resolve to real files in `reference/` — *partial: TODO_REF placeholders remain for Lawson-Michelsohn (NEED_TO_SOURCE #75), Atiyah-Singer Annals 1968, Berline-Getzler-Vergne, Kobayashi-Nomizu Vol. II, Milnor-Stasheff. Sourcing is a Wave 2 parallel task.*
 - [x] All cross-references resolve (each unit's prereqs are either published pilot units or explicitly marked `pending_prereqs: true` with deps registered in `manifests/deps.json`)
 - [n/a] For units with `lean_status: full` — *no pilot unit shipped at `lean_status: full`; Mathlib coverage is too thin at apex.*
 - [x] For units with `lean_status: none` — `lean_mathlib_gap` populated; `human_reviewer: TBD` for most (formal review pending)
 - [ ] ≥ 9 of 10 Master tiers rated "publication-quality" by a named mathematical reviewer — *pending Tyler's mathematical review pass*
-- [x] `QUALITY_RUBRIC.md` exists, distilled from real pilot output (Wave 1 + LM editorial review + Wave 2 batch reports → 18 catalogued failure modes as of 2026-04-28)
-- [x] At least one failure mode per unit is documented in `pilot-lessons.md`
+- [x] `docs/specs/QUALITY_RUBRIC.md` exists, distilled from real pilot output (Wave 1 + LM editorial review + Wave 2 batch reports → 18 catalogued failure modes as of 2026-04-28)
+- [x] At least one failure mode per unit is documented in `docs/pilot-lessons.md`
 - [x] Production time per unit recorded — manual ~2.5h/unit (Wave 1 first three); agent-drafted ~2 min/unit (Wave 1 last seven; Wave 2 batches at 6 units / ~12 min). Median: agent-drafted apex unit ~2 min; manual apex unit ~2.5h.
 
 The pilot *fails* (not "succeeds with caveats") if:
@@ -50,7 +50,7 @@ The pilot *fails* (not "succeeds with caveats") if:
 
 ## 3. Reviewer confidence table
 
-Pre-filled defaults (×) inferred from Tyler's known E8 / spinorial-2 / SO(8) / gauge-theory work. **Tyler: confirm or override each row.** Any Red → co-reviewer recruitment starts before that unit enters review. See `REVIEWER_PLAN.md` §7.
+Pre-filled defaults (×) inferred from Tyler's known E8 / spinorial-2 / SO(8) / gauge-theory work. **Tyler: confirm or override each row.** Any Red → co-reviewer recruitment starts before that unit enters review. See `docs/plans/REVIEWER_PLAN.md` §7.
 
 | Unit | Green (can review solo) | Yellow (can review with effort) | Red (need outside expert) | Note |
 |---|:---:|:---:|:---:|---|
@@ -81,7 +81,7 @@ This is necessary even for *manual* production — the producer needs the top-N 
 
 ## 4b. Reference-material gap for unit #1 (Clifford algebra)
 
-**Lawson-Michelsohn *Spin Geometry* (NEED_TO_SOURCE #75) is the canonical Master-tier anchor for `spin-geometry.clifford.clifford-algebra` per `CONCEPT_CATALOG.md`. We don't have it yet.**
+**Lawson-Michelsohn *Spin Geometry* (NEED_TO_SOURCE #75) is the canonical Master-tier anchor for `spin-geometry.clifford.clifford-algebra` per `docs/catalogs/CONCEPT_CATALOG.md`. We don't have it yet.**
 
 Two paths:
 
@@ -126,7 +126,7 @@ Agent-assisted production (unit #4 onward) writes manifests to Nucleus. The curr
 
 ## 8. Exit to Wave 2
 
-Pilot complete → review `pilot-lessons.md` → revise `UNIT_SPEC.md` and `QUALITY_RUBRIC.md` as needed → Wave 2 produces the high-priority pulled-prereq units (from `DEPENDENCY_MAP.md` §4) in parallel. Wave 2 is the first real test of parallel agent production.
+Pilot complete → review `docs/pilot-lessons.md` → revise `docs/specs/UNIT_SPEC.md` and `docs/specs/QUALITY_RUBRIC.md` as needed → Wave 2 produces the high-priority pulled-prereq units (from `docs/catalogs/DEPENDENCY_MAP.md` §4) in parallel. Wave 2 is the first real test of parallel agent production.
 
 ---
 

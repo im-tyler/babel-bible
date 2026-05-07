@@ -1385,7 +1385,7 @@ This section converts §2's eighteen named gap blocks into a concrete, executabl
 
 Calibration principle (inherited from the Lawson-Michelsohn pilot, `plans/fasttrack/lawson-michelsohn-spin-geometry.md` §3): every new unit closes ≥2 named gap rows from §2.1–§2.7, with the exception of N7 (general-spectral-sequence machinery) and N12 (Sullivan minimal models), each of which is itself a chapter-level gap block (gap blocks 7 and 12 from §2.8) and warrants a dedicated unit even though it touches a single block. Deepening is preferred to a new unit when ≥60% of the gap content can be slotted into an existing unit's `Advanced results [Master]` or `Exercises [Intermediate+]` block without inflating the unit beyond v0.5 length budgets.
 
-Originator-prose principle (per `style/editorial-voice.md` §6 and `FASTTRACK_EQUIVALENCE_PLAN.md` §10): Bott-Tu is the *originator-text* for the global angular form, the tic-tac-toe presentation of the Čech-de Rham double complex, the splitting-principle pedagogy as exposited, and the Mayer-Vietoris-induction-on-good-cover proof discipline. New units that exposit these get originator-prose treatment citing Bott-Tu 1982 directly, alongside the underlying primary sources (Mayer 1929 / Vietoris 1930 for MV; Čech 1932 for Čech cohomology; Leray 1946 for spectral sequences and the Leray spectral sequence; Serre 1951 for Serre spectral sequence; Sullivan 1977 for minimal models; Thom 1952 for the Thom isomorphism; Borel 1953 for $H^*(BG)$).
+Originator-prose principle (per `style/editorial-voice.md` §6 and `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10): Bott-Tu is the *originator-text* for the global angular form, the tic-tac-toe presentation of the Čech-de Rham double complex, the splitting-principle pedagogy as exposited, and the Mayer-Vietoris-induction-on-good-cover proof discipline. New units that exposit these get originator-prose treatment citing Bott-Tu 1982 directly, alongside the underlying primary sources (Mayer 1929 / Vietoris 1930 for MV; Čech 1932 for Čech cohomology; Leray 1946 for spectral sequences and the Leray spectral sequence; Serre 1951 for Serre spectral sequence; Sullivan 1977 for minimal models; Thom 1952 for the Thom isomorphism; Borel 1953 for $H^*(BG)$).
 
 Distinctive feature relative to the LM pilot. LM Pass 3 mostly proposed *additive* new units in a single tightly-themed chapter (the spin-geometry chapter `03.09`). Bott-Tu's gaps span **four** Codex chapters (`03.04` de Rham; `04.03` sheaf cohomology; `03.05` bundles; `03.12` homotopy) plus require **a brand-new chapter** (`03.13` spectral sequences) and a **brand-new sub-chapter** (`03.12.06`–`.07` rational homotopy + Whitehead tower). The agent decomposition therefore splits cleanly along chapter boundaries — every agent owns disjoint files — and the spectral-sequences chapter is parallel-safe because it is greenfield.
 
@@ -1409,7 +1409,7 @@ Each unit is specified at the level needed to draft a Pass-4 agent prompt direct
 | **Section / chapter** | `content/03-modern-geometry/04-differential-forms/` |
 | **Concept catalog ID** | `diffgeo.de-rham.mayer-vietoris` |
 | **Prerequisites** | `03.04.06` (de Rham cohomology), `03.04.04` (exterior derivative), `03.04.02` (differential forms) |
-| **Originator** | Walther Mayer 1929 *Über abstrakte Topologie* (Monatsh. Math. Phys. 36) and Leopold Vietoris 1930 *Über die Homologiegruppen der Vereinigung zweier Komplexe* (Monatsh. Math. Phys. 37) for the original simplicial version; **Bott-Tu 1982 §2 is the originator-text for the de Rham version with the partition-of-unity proof of exactness** (per `FASTTRACK_EQUIVALENCE_PLAN.md` §10 — Bott-Tu's exposition is canonical and gets originator-prose treatment) |
+| **Originator** | Walther Mayer 1929 *Über abstrakte Topologie* (Monatsh. Math. Phys. 36) and Leopold Vietoris 1930 *Über die Homologiegruppen der Vereinigung zweier Komplexe* (Monatsh. Math. Phys. 37) for the original simplicial version; **Bott-Tu 1982 §2 is the originator-text for the de Rham version with the partition-of-unity proof of exactness** (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10 — Bott-Tu's exposition is canonical and gets originator-prose treatment) |
 | **Modern anchor** | Bott-Tu §2 + §5; alternative: Madsen-Tornehave *From Calculus to Cohomology* §5 |
 | **Lean status** | `partial` (Mathlib has `Mayer-Vietoris` for singular homology via `CategoryTheory.Triangulated`; the de Rham specialisation via partition of unity is not present) |
 | **Estimated production time** | 90 min beginner / 110 min intermediate / 140 min master = ~5.5 h prose + Lean stub |
@@ -1453,7 +1453,7 @@ Each unit is specified at the level needed to draft a Pass-4 agent prompt direct
 | **Section / chapter** | `content/03-modern-geometry/04-differential-forms/` |
 | **Concept catalog ID** | `diffgeo.de-rham.cech-de-rham-double-complex` |
 | **Prerequisites** | `03.04.10` (good cover + MV induction), `04.03.01` (sheaf cohomology — Čech specifically), `03.04.06` (de Rham cohomology) |
-| **Originator** | Čech 1932 *Théorie générale de l'homologie dans un espace quelconque* (Fund. Math. 19) for Čech cohomology; **Bott-Tu §8–§9 is the originator-text for the explicit Čech-de Rham double complex with horizontal $\delta$ / vertical $d$ typography and the tic-tac-toe pedagogy** (originator-prose treatment per `FASTTRACK_EQUIVALENCE_PLAN.md` §10 — this is one of Bott-Tu's signature pedagogical innovations) |
+| **Originator** | Čech 1932 *Théorie générale de l'homologie dans un espace quelconque* (Fund. Math. 19) for Čech cohomology; **Bott-Tu §8–§9 is the originator-text for the explicit Čech-de Rham double complex with horizontal $\delta$ / vertical $d$ typography and the tic-tac-toe pedagogy** (originator-prose treatment per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10 — this is one of Bott-Tu's signature pedagogical innovations) |
 | **Modern anchor** | Bott-Tu §8–§9 + §12 (tic-tac-toe Künneth + tic-tac-toe Poincaré duality); alternative: Griffiths-Harris *Principles of Algebraic Geometry* p. 42–44 |
 | **Lean status** | `none` |
 | **Estimated production time** | ~6.5 h (largest of the de Rham bundle of new units; carries the entire §8–§12 machinery) |
@@ -1967,7 +1967,7 @@ Pass 4 production therefore creates leverage for ~3 Tier α books beyond Bott-Tu
 
 Production work splits into **5 parallel agent jobs** organised by chapter ownership and by spectral-sequence dependency. The integration agent (claude as operator) handles serial registration of CONCEPT_CATALOG / deps.json / connections.json after each batch returns.
 
-**Parallel-safety guarantee.** All 5 agents work on disjoint chapter directories: Agent A owns `content/03-modern-geometry/04-differential-forms/` (4 new units in `03.04.07/.09/.10/.11`); Agent B owns the remaining `03-04` slot (`03.04.12/.13`) plus `04-algebraic-geometry/03-cohomology/` (`04.03.02`); Agent C owns the new chapter `content/03-modern-geometry/13-spectral-sequences/` (3 new units in `03.13.01–03`); Agent D owns the bundle / characteristic-class / classifying-space deepenings in `03-modern-geometry/05-bundles/`, `06-characteristic-classes/`, and `08-k-theory/` plus the sphere-bundle new unit `03.05.10`; Agent E owns the homotopy chapter `12-homotopy/` (2 new units `03.12.06–07`). The only file-write conflict points are `manifests/connections.json`, `manifests/deps.json`, `CONCEPT_CATALOG.md`, and `notation/bott-tu.md`, all serialised by the integration agent.
+**Parallel-safety guarantee.** All 5 agents work on disjoint chapter directories: Agent A owns `content/03-modern-geometry/04-differential-forms/` (4 new units in `03.04.07/.09/.10/.11`); Agent B owns the remaining `03-04` slot (`03.04.12/.13`) plus `04-algebraic-geometry/03-cohomology/` (`04.03.02`); Agent C owns the new chapter `content/03-modern-geometry/13-spectral-sequences/` (3 new units in `03.13.01–03`); Agent D owns the bundle / characteristic-class / classifying-space deepenings in `03-modern-geometry/05-bundles/`, `06-characteristic-classes/`, and `08-k-theory/` plus the sphere-bundle new unit `03.05.10`; Agent E owns the homotopy chapter `12-homotopy/` (2 new units `03.12.06–07`). The only file-write conflict points are `manifests/connections.json`, `manifests/deps.json`, `docs/catalogs/CONCEPT_CATALOG.md`, and `notation/bott-tu.md`, all serialised by the integration agent.
 
 **Batch ordering.** Agents A, B, D run in **parallel** (Batch 1) — they have no inter-dependencies on each other's output beyond the cross-chapter connection registration. Agent C runs starting at the same time as Batch 1 but its later units (N8, N9) depend on N3 from Agent A; C should sequence its own work so that N7 ships before C consumes A's output. Agent E runs after Agent C completes (Batch 2) because Agent E's units depend on Leray-Serre (N8) shipped by Agent C, and the Sullivan minimal models (N12) is downstream of N8 per the §3.5 edge graph.
 
@@ -2055,7 +2055,7 @@ Production work splits into **5 parallel agent jobs** organised by chapter owner
 
 ### §3.7 Equivalence verification plan
 
-Pass 5 (per `FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit acceptance checks.
+Pass 5 (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit acceptance checks.
 
 #### 4.1 Theorem-layer self-check (book-as-input)
 
@@ -2117,7 +2117,7 @@ After Pass 5 success, the operator updates:
 | Intuition arcs | 13% (0.5 / 4) | **100%** (4 / 4) |
 | Applications | 43% (6 / 14) | **≥ 90%** (13 / 14) |
 
-**Aggregate target:** **≥ 95% effective coverage** as a weighted average of the seven layers (matching `FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 acceptance bar).
+**Aggregate target:** **≥ 95% effective coverage** as a weighted average of the seven layers (matching `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 acceptance bar).
 
 The arc layer's jump from 13% to 100% is the single largest single-pass improvement and is the campaign's most distinctive achievement on this book — the LM pilot's intuition layer was already at 88% pre-§3; Bott-Tu's at 13% reflects that the existing Codex de Rham / characteristic-class units pre-Pass-4 carried theorems but not Bott's architectural framing.
 
@@ -2268,7 +2268,7 @@ Per the brief's hard requirement, sampled units confirm originator papers are na
 - **N12 `03.12.06` Sullivan minimal models (Ch III §19):** Sullivan 1977 *Infinitesimal computations in topology* (Publ. IHÉS 47) named; Quillen 1969 *Rational homotopy theory* (Ann. Math. 90) named; Bott-Tu 1982 §19 named as the canonical differential-form-flavoured exposition. ✓ originator-prose preserved.
 - **N13 `03.08.05` Universal bundle (Ch IV §23):** Borel 1953 *Sur la cohomologie des espaces fibrés principaux et des espaces homogènes de groupes de Lie compacts* (Ann. Math. 57) named with full title; Bott-Tu 1982 §23 originator-text status preserved for the Grassmannian-and-flag-manifold differential-form pedagogy. ✓ originator-prose preserved.
 
-All 5 sampled units carry full originator-prose treatment per `FASTTRACK_EQUIVALENCE_PLAN.md §10`. The Bott-Tu originator-text status is preserved across Mayer-Vietoris, the Čech-de Rham double complex, the spectral-sequence Čech-de-Rham prototype, the Sullivan-school differential-form rational-homotopy pedagogy, and the universal-bundle Grassmannian classification.
+All 5 sampled units carry full originator-prose treatment per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md §10`. The Bott-Tu originator-text status is preserved across Mayer-Vietoris, the Čech-de Rham double complex, the spectral-sequence Čech-de-Rham prototype, the Sullivan-school differential-form rational-homotopy pedagogy, and the universal-bundle Grassmannian classification.
 
 ---
 
@@ -2523,7 +2523,7 @@ Every edited unit re-validated 27/27 (or 19/19 for exercise packs) immediately a
 
 ### §5.2 Pass V continuity verification
 
-`scripts/measure_continuity.py` was run after Pass W. The full-corpus run measured 213 units; the Bott-Tu-batch-restricted run measured the 23 in scope; the LM-batch-restricted run measured the 20 in scope. Per `CONTINUITY_SCAFFOLD.md` §15, the 176 pre-Layer-4 units sit on a phased grace period; only the LM-batch and Bott-Tu-batch cohorts are required to hit thresholds immediately.
+`scripts/measure_continuity.py` was run after Pass W. The full-corpus run measured 213 units; the Bott-Tu-batch-restricted run measured the 23 in scope; the LM-batch-restricted run measured the 20 in scope. Per `docs/specs/CONTINUITY_SCAFFOLD.md` §15, the 176 pre-Layer-4 units sit on a phased grace period; only the LM-batch and Bott-Tu-batch cohorts are required to hit thresholds immediately.
 
 **Bott-Tu batch metrics (in-scope, 23 units):**
 

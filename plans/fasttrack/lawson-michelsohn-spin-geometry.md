@@ -1120,7 +1120,7 @@ This section converts §2's eighteen named gap blocks into a concrete, executabl
 
 Calibration principle: every new unit closes ≥2 named gap rows from §2 (theorems, exercises, worked examples, applications, or notation), measured against the §2.1–§2.7 tables. Deepening is preferred to a new unit when ≥60% of the gap content can be slotted into an existing unit's `Advanced results [Master]` or `Exercises [Intermediate+]` block without inflating the unit beyond v0.5 length budgets. Where a gap requires both a new home concept *and* a worked-example chain (e.g., the Dirac-on-standard-spaces gap), the home concept gets the new unit and the worked examples land in a deepening pass.
 
-Originator-prose principle: every new unit names the originator paper and contextualises the historical moment per `style/editorial-voice.md` §6. Where Lawson himself is the originator (Gromov-Lawson 1980/83, Harvey-Lawson 1982, the Lawson-Michelsohn synthesis), the citation is to the original paper, not to *Spin Geometry* as a textbook synthesis (per `FASTTRACK_EQUIVALENCE_PLAN.md` §10).
+Originator-prose principle: every new unit names the originator paper and contextualises the historical moment per `style/editorial-voice.md` §6. Where Lawson himself is the originator (Gromov-Lawson 1980/83, Harvey-Lawson 1982, the Lawson-Michelsohn synthesis), the citation is to the original paper, not to *Spin Geometry* as a textbook synthesis (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10).
 
 ---
 
@@ -1645,7 +1645,7 @@ Production work splits into **5 parallel agent jobs** organised by chapter and t
 - **Exercise pack:** EP2 (`03.09.E2`).
 - **Notation alignment sub-pass:** decision #24 (α-invariant symbol $\alpha(M)$ — pinned in N6).
 - **Connection brief:** Invokes proposed-from-Batch-1 connections `conn:NEW.clk-dirac-alpha-invariant`, `conn:NEW.dirac-bundle-hodge`, `conn:NEW.mckean-singer-supertrace`, `conn:NEW.triality-calibrations`. Proposes `conn:NEW.lichnerowicz-psc-obstruction`, `conn:NEW.hitchin-alpha-cl-k`, `conn:NEW.gromov-lawson-enlargeable`, `conn:NEW.witten-asymptotic-flat-spinor`, `conn:NEW.berger-parallel-spinor-equiv`.
-- **Originator citations to anchor on:** **Lawson is the originator** for Gromov-Lawson 1980/83 and Harvey-Lawson 1982 — these get originator-prose treatment per `style/editorial-voice.md` §6 and `FASTTRACK_EQUIVALENCE_PLAN.md` §10. Other originators: Lichnerowicz 1963; Hitchin 1974; Witten 1981; Berger 1955; Wang 1989 (parallel spinors); Cartan 1938 (pure spinors).
+- **Originator citations to anchor on:** **Lawson is the originator** for Gromov-Lawson 1980/83 and Harvey-Lawson 1982 — these get originator-prose treatment per `style/editorial-voice.md` §6 and `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10. Other originators: Lichnerowicz 1963; Hitchin 1974; Witten 1981; Berger 1955; Wang 1989 (parallel spinors); Cartan 1938 (pure spinors).
 - **Deliverables:** 4 new units + 1 exercise pack = 5 unit operations; ~25 h. **Tied with Agent C as largest.**
 - **Sequencing:** must wait for Agent B (N4 + N5) and Agent A (N3 triality) to ship before starting. Estimated start: end of Batch 1 (~25 h after kickoff if Batch 1 runs in parallel).
 - **Estimated agent time:** ~30 h.
@@ -1676,7 +1676,7 @@ Production work splits into **5 parallel agent jobs** organised by chapter and t
 
 ### §3.7 Equivalence verification plan
 
-Pass 5 (per `FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit acceptance checks. Each check has a pass criterion and a sample size.
+Pass 5 (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit acceptance checks. Each check has a pass criterion and a sample size.
 
 #### 4.1 Book-as-input self-check
 
@@ -1711,7 +1711,7 @@ Pass 5 (per `FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit acceptance c
 | Intuition arcs | 88% (3.5 / 4) | **100%** (4 / 4) |
 | Applications | 22% (3.5 / 16) | **≥ 90%** (15 / 16) |
 
-**Aggregate target:** **≥ 95% effective coverage** as a weighted average of the seven layers (matching `FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 acceptance bar).
+**Aggregate target:** **≥ 95% effective coverage** as a weighted average of the seven layers (matching `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 acceptance bar).
 
 #### 4.5 Standing exceptions (declared up-front, not failures)
 
@@ -1804,7 +1804,7 @@ Per the brief's hard requirement, four sampled units (one per chapter) confirm o
 - **Ch III — `03.09.20` heat-kernel index:** Atiyah-Bott-Patodi 1973 *On the heat equation and the index theorem* (Invent. Math. 19) named with title; McKean-Singer 1967 *Curvature and the eigenvalues of the Laplacian* (J. Diff. Geom. 1) named; Getzler 1986 *A short proof of the local Atiyah-Singer index theorem* (Topology 25) named; Alvarez-Gaumé 1983 *Supersymmetry and the Atiyah-Singer index theorem* (Comm. Math. Phys. 90) named. ✓ originator-prose preserved.
 - **Ch IV — `03.09.19` calibrated geometries:** Harvey-Lawson 1982 *Calibrated geometries* (Acta Math. 148, 47–157) named with **explicit Lawson originator-prose treatment** (Master section identifies Lawson as co-originator and contextualises the *Acta Math.* paper's four-part structure); McLean 1998 named; Joyce 2007 named. ✓ originator-prose preserved at full strength for the Lawson originator-text status per `FASTTRACK_EQUIVALENCE_PLAN §10`.
 
-**Verdict on §4.1: theorem layer falls just short.** 110/126 = 87% fully covered, 92.5% aggregate (with △ counted as half) — below the 95% threshold by 2.5 percentage points. The deficit is in 13 specific rows (listed above). The Master-historical originator-prose is fully preserved per `FASTTRACK_EQUIVALENCE_PLAN.md §10`.
+**Verdict on §4.1: theorem layer falls just short.** 110/126 = 87% fully covered, 92.5% aggregate (with △ counted as half) — below the 95% threshold by 2.5 percentage points. The deficit is in 13 specific rows (listed above). The Master-historical originator-prose is fully preserved per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md §10`.
 
 ---
 
@@ -1858,7 +1858,7 @@ Sampled 5 high-leverage notation conventions from §2.4 and verified that a Code
 
 #### Standing notation observation
 
-Per `FASTTRACK_EQUIVALENCE_PLAN.md §9.4`, a `notation/<book>.md` crosswalk file was specified in §3.4 of this plan. The standalone file at `notation/lawson-michelsohn.md` was **not produced**; the 26 notation decisions are instead embedded in the new units' Master sections and frontmatter via inline `[notation crosswalk #N]` references (5 units carry such references: `03.09.02`, `03.09.03`, `03.09.11`, `03.09.12`, `03.09.13`). The reader can reconstruct the full mapping from the 26 inline references; §4.3 verified that this is sufficient for parsing in 5/5 sampled cases.
+Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md §9.4`, a `notation/<book>.md` crosswalk file was specified in §3.4 of this plan. The standalone file at `notation/lawson-michelsohn.md` was **not produced**; the 26 notation decisions are instead embedded in the new units' Master sections and frontmatter via inline `[notation crosswalk #N]` references (5 units carry such references: `03.09.02`, `03.09.03`, `03.09.11`, `03.09.12`, `03.09.13`). The reader can reconstruct the full mapping from the 26 inline references; §4.3 verified that this is sufficient for parsing in 5/5 sampled cases.
 
 This is a documentation-format gap, not a content gap. The check is: can a reader parse LM passages using Codex notation? Yes (5/5). The verification proceeds; the standalone file is a follow-up cleanup item.
 
@@ -2176,7 +2176,7 @@ Every edited unit re-validated 27/27 (or 19/19 for exercise packs) immediately a
 
 ### §7.2 Pass V continuity verification
 
-`scripts/measure_continuity.py` was run after Pass W. The full-corpus run measured 196 units; the LM-batch-restricted run measured the 20 in scope. Per `CONTINUITY_SCAFFOLD.md` §15, pre-Layer-4 units (the 176 v0.5 baseline) have a phased grace period; only the LM-batch cohort is required to hit thresholds immediately.
+`scripts/measure_continuity.py` was run after Pass W. The full-corpus run measured 196 units; the LM-batch-restricted run measured the 20 in scope. Per `docs/specs/CONTINUITY_SCAFFOLD.md` §15, pre-Layer-4 units (the 176 v0.5 baseline) have a phased grace period; only the LM-batch cohort is required to hit thresholds immediately.
 
 **LM-batch metrics (in-scope):**
 

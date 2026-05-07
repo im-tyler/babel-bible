@@ -8,12 +8,12 @@ This is your batch. The claude session is concurrently producing Strand B (homot
 
 ## Read first
 
-1. `WAVE_4_PLAN.md` — the overall Wave 4 framing (read §1, §2, §4, §7).
-2. `PILOT_PLAN.md` — current shipped count (53 units), Wave 1+2+3 status.
-3. `pilot-lessons.md` — the consolidated production lessons. The most recent autonomous-run entry covers the validator improvement (code-block stripping for prohibited-phrasings) that you'll benefit from.
-4. `UNIT_SPEC.md` — frontmatter, tier markers, citation syntax.
-5. `QUALITY_RUBRIC.md` — the 27-point automated checklist + the §M Master-tier prose standard (six failure modes).
-6. `CONCEPT_CATALOG.md` — find each concept entry; add parent entries first if missing (e.g., `set-theory.set-and-function` namespace may need creating).
+1. `docs/plans/WAVE_4_PLAN.md` — the overall Wave 4 framing (read §1, §2, §4, §7).
+2. `docs/plans/PILOT_PLAN.md` — current shipped count (53 units), Wave 1+2+3 status.
+3. `docs/pilot-lessons.md` — the consolidated production lessons. The most recent autonomous-run entry covers the validator improvement (code-block stripping for prohibited-phrasings) that you'll benefit from.
+4. `docs/specs/UNIT_SPEC.md` — frontmatter, tier markers, citation syntax.
+5. `docs/specs/QUALITY_RUBRIC.md` — the 27-point automated checklist + the §M Master-tier prose standard (six failure modes).
+6. `docs/catalogs/CONCEPT_CATALOG.md` — find each concept entry; add parent entries first if missing (e.g., `set-theory.set-and-function` namespace may need creating).
 7. One existing shipped unit as a reference template — recommended: `content/01-foundations/01-linear-algebra/01.01.15-bilinear-quadratic-form.md` (same chapter as the field unit you'll produce, three tiers, Master-only proof).
 
 ## Production queue — Strand A (5 units)
@@ -47,13 +47,13 @@ All five units: produce all three tiers. `tiers_present: [beginner, intermediate
 
 Same as Wave 2 / Wave 3 protocol. After each unit:
 
-1. Update `CONCEPT_CATALOG.md` with the new concept entry. **Add parent namespace entries first if missing** — e.g., `set-theory.function`, `algebra.associative-algebra`, `algebra.ideal`, `algebra.tensor-product`, `linalg.field`. The catalog already has `linalg.vector-space`, `linalg.bilinear-form`, `algebra.tensor-algebra`, `algebra.quotient-algebra` — your new entries integrate next to those.
+1. Update `docs/catalogs/CONCEPT_CATALOG.md` with the new concept entry. **Add parent namespace entries first if missing** — e.g., `set-theory.function`, `algebra.associative-algebra`, `algebra.ideal`, `algebra.tensor-product`, `linalg.field`. The catalog already has `linalg.vector-space`, `linalg.bilinear-form`, `algebra.tensor-algebra`, `algebra.quotient-algebra` — your new entries integrate next to those.
 2. Update `manifests/deps.json` — add the new unit to the `shipped` list (move from `pending` if it was there). Add `_notes` entry.
 3. Run `./.venv/bin/python scripts/validate_unit.py <path>` and iterate until 27/27.
-4. Append a paragraph to `pilot-lessons.md` describing what was non-obvious about producing this foundational-tier unit.
+4. Append a paragraph to `docs/pilot-lessons.md` describing what was non-obvious about producing this foundational-tier unit.
 5. Run `./.venv/bin/python scripts/validate_all.py` — should be green (the claude session's Strand B units may be shipping concurrently, so the unit count grows from both sides).
 
-After all five: run `cd /Users/tyler/Documents/proj rn/tystack/typescript/apps/codex && pnpm build` to confirm rendering. Vite emits a Neutron `sharp` dynamic-import warning that does not block; ignore it.
+After all five: run `cd site && npm run build` (from the codex repo root) to confirm rendering.
 
 ## Hard conventions
 
@@ -94,7 +94,7 @@ Stop and report back if:
 
 Otherwise: produce all five, validate, build, and report when done with rubric scores and a one-line note per unit on what was the hardest part.
 
-Begin with unit `00.02.05` Function. Read `WAVE_4_PLAN.md` and `pilot-lessons.md` first.
+Begin with unit `00.02.05` Function. Read `docs/plans/WAVE_4_PLAN.md` and `docs/pilot-lessons.md` first.
 
 ---
 

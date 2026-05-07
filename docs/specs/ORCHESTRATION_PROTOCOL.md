@@ -2,7 +2,7 @@
 
 The execution layer. Specifies the state machine, integration mechanics, failure recovery, batch coordination, quality sampling, cost ledger, and watchdog protocols that turn the four-layer scaffold (units / DAG / equivalence / flows / continuity) into a *running* autonomous system. Without this layer, the scaffolds remain plans; with it, they become executable across the 64-book Fast Track campaign without human intervention.
 
-Read after `FASTTRACK_EQUIVALENCE_PLAN.md`, `FASTTRACK_FLOW_SCAFFOLD.md`, `CONTINUITY_SCAFFOLD.md`.
+Read after `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`, `docs/specs/FASTTRACK_FLOW_SCAFFOLD.md`, `docs/specs/CONTINUITY_SCAFFOLD.md`.
 
 ---
 
@@ -132,7 +132,7 @@ draft → trajectory-extracted → bridged → paused → verified → woven →
 | From → To | Trigger | Pre-condition | Agent dispatched | Post-condition |
 |---|---|---|---|---|
 | `draft → audited` | Operator includes book in active batch | `book.passes.P1_audit.status == "pending"` | Audit agent (FASTTRACK_EQUIVALENCE_PLAN §4 Pass 1) | `plan_path/§1.1–1.7` filled; ≥3 sources cited |
-| `audited → gap-analysed` | Operator detects `audited` status | Plan §1 complete; `CONCEPT_CATALOG.md`, `deps.json`, `connections.json` accessible | Gap-analysis agent (Pass 2) | `plan_path/§2` filled; scorecard populated |
+| `audited → gap-analysed` | Operator detects `audited` status | Plan §1 complete; `docs/catalogs/CONCEPT_CATALOG.md`, `deps.json`, `connections.json` accessible | Gap-analysis agent (Pass 2) | `plan_path/§2` filled; scorecard populated |
 | `gap-analysed → production-ready` | Operator detects `gap-analysed` status | Plan §2 complete | Production-plan agent (Pass 3) | `plan_path/§3` filled; agent decomposition specified |
 | `production-ready → in-production` | Operator dispatches production batch | Plan §3 lists ≥1 unit to produce; budget available | Production agent batch (Pass 4 — N parallel agents) | New unit/Lean files exist; pending integration |
 | `in-production → production-complete` | Operator processes returned outputs | All Pass-4 agents returned successfully | (operator runs integration §4) | All produced units validate 27/27; CONCEPT_CATALOG/deps integrated |
@@ -174,7 +174,7 @@ You are the integration agent for Codex.
 Inputs:
 - A batch of recently-returned agent outputs at <paths>
 - The campaign ledger at manifests/campaign.json
-- Current shared files: CONCEPT_CATALOG.md, manifests/deps.json, manifests/connections.json
+- Current shared files: docs/catalogs/CONCEPT_CATALOG.md, manifests/deps.json, manifests/connections.json
 
 For each returned output:
 1. Validate the unit with ./.venv/bin/python scripts/validate_unit.py <path>

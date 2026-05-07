@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Walk content/, collect every unit's `lean_mathlib_gap` and `lean_status`,
-and emit `MATHLIB_GAPS.md` — a single rolled-up upstream-contribution
+and emit `docs/catalogs/MATHLIB_GAPS.md` — a single rolled-up upstream-contribution
 roadmap for Mathlib.
 
 Run after producing or updating any unit. Idempotent; overwrites.
@@ -93,7 +93,7 @@ def main():
             "path": str(unit_path.relative_to(repo_root)),
         })
 
-    out_path = repo_root / "MATHLIB_GAPS.md"
+    out_path = repo_root / "docs/catalogs/MATHLIB_GAPS.md"
     lines = [
         "# Codex — Mathlib Gap Roadmap",
         "",

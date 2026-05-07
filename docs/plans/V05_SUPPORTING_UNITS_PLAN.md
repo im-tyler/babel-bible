@@ -2,7 +2,7 @@
 
 The v0.5 apex units (Strands A, C, D shipped by claude; B, E by gpt-codex) name many concepts they don't formally define — "divisor", "Picard group", "root system", "Weyl group", "Hodge decomposition", "theta function", "Verma module", and many more. This document scaffolds the supporting units beneath those apexes, anchoring each on the **best modern textbook** and citing the **original paper(s)** where the concept was conceived. The pedagogical goal is to convey not only the modern formalism but the intelligence of the geniuses who first made these ideas precise.
 
-Read alongside `CURRICULUM_V0_5_PLAN.md` (apex strand plan), `FASTTRACK_BOOKLIST.md` (master booklist), `CONCEPT_CATALOG.md` (registered concepts), `QUALITY_RUBRIC.md` (the validator gate). Every unit follows the Phase 3.2 LM-prose template (three-tier, 27/27 validator).
+Read alongside `docs/plans/CURRICULUM_V0_5_PLAN.md` (apex strand plan), `docs/catalogs/FASTTRACK_BOOKLIST.md` (master booklist), `docs/catalogs/CONCEPT_CATALOG.md` (registered concepts), `docs/specs/QUALITY_RUBRIC.md` (the validator gate). Every unit follows the Phase 3.2 LM-prose template (three-tier, 27/27 validator).
 
 ---
 
