@@ -1,0 +1,50 @@
+% Weinstein neighbourhood: tubular nbhd of L in M is symplectomorphic to nbhd of zero section in T*L.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=3mm]}, thick},
+]
+  % Left: ambient (M, omega) with closed Lagrangian L
+  \draw[gray!50!black, very thick, fill=gray!8] plot[smooth cycle]
+    coordinates {(-4.5, 0) (-3, 1.6) (-1, 1.4) (-0.4, 0) (-1, -1.6) (-3, -1.5) (-4.5, -0.4)};
+  \node at (-3.6, 1.2) {$(M, \omega)$};
+
+  % Lagrangian L (a closed curve) inside
+  \draw[red!70!black, very thick]
+    (-3.7, 0) .. controls (-3.5, 0.7) and (-2.0, 0.7) .. (-1.6, 0)
+    .. controls (-2.0, -0.7) and (-3.5, -0.7) .. (-3.7, 0);
+  \node[red!70!black] at (-2.6, 0) {$L$};
+
+  % Tubular neighbourhood drawn as a halo (dashed)
+  \draw[red!50!black, dashed, thick]
+    (-3.9, 0) .. controls (-3.6, 1.0) and (-1.9, 1.0) .. (-1.4, 0)
+    .. controls (-1.9, -1.0) and (-3.6, -1.0) .. (-3.9, 0);
+  \node[red!50!black, font=\footnotesize] at (-1.0, -0.7) {$U$};
+
+  % Symplectomorphism arrow
+  \draw[arrow, blue!75!black] (-0.2, 0) -- node[above] {$\phi$} (1.5, 0);
+
+  % Right: T*L tubular nbhd of zero section
+  \draw[teal!70!black, very thick, fill=teal!8]
+    (2.0, -1.0) -- (6.5, -1.0) -- (6.5, 1.0) -- (2.0, 1.0) -- cycle;
+  \node[teal!70!black] at (6.0, 0.8) {$T^*L$};
+
+  % Zero section
+  \draw[red!70!black, very thick] (2.2, 0) -- (6.3, 0);
+  \node[red!70!black] at (4.25, 0.3) {zero section};
+
+  % Cotangent fibre direction arrows
+  \foreach \x in {3.0, 4.25, 5.5} {
+    \draw[gray!50!black, ->] (\x, -0.05) -- (\x, -0.7);
+    \draw[gray!50!black, ->] (\x,  0.05) -- (\x,  0.7);
+  }
+
+  % Canonical form annotation
+  \node[anchor=west] at (2.0, -1.6) {$\omega_{\mathrm{can}} = -d\lambda$};
+
+  \begin{scope}[on background layer]
+    \fill[blue!4, rounded corners=12pt] (-5.5, -2.4) rectangle (7.5, 2.6);
+  \end{scope}
+
+  \node[align=center] at (1.0, -3.0)
+    {\itshape A neighbourhood of any closed Lagrangian is symplectomorphic to its cotangent bundle.};
+\end{tikzpicture}

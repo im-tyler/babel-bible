@@ -1,0 +1,29 @@
+% Eilenberg-Steenrod axioms: schematic listing the seven axioms with key arrows.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  axiom/.style={draw=blue!60!black, fill=blue!4, rounded corners=4pt, inner sep=4pt, minimum width=4cm, align=center},
+  arrow/.style={-{Stealth[length=2mm]}, thick},
+]
+  % Functor source / target
+  \node[font=\small\itshape] at (-3.4, 4.6) {pairs of spaces};
+  \node[font=\small\itshape] at ( 3.4, 4.6) {graded abelian groups};
+  \draw[arrow] (-2.0, 4.6) -- node[above] {$h_*$} (1.7, 4.6);
+
+  % Axioms in two columns
+  \node[axiom] (A1) at (-3.0, 3.5) {{\bfseries 1. Homotopy.} $f \simeq g \;\Rightarrow\; f_* = g_*$};
+  \node[axiom] (A2) at ( 3.0, 3.5) {{\bfseries 2. Long exact sequence.} for each pair $(X, A)$};
+  \node[axiom] (A3) at (-3.0, 2.3) {{\bfseries 3. Excision.} $\overline{Z} \subseteq \mathrm{int}\, A$};
+  \node[axiom] (A4) at ( 3.0, 2.3) {{\bfseries 4. Additivity.} $h_n(\bigsqcup X_\alpha) = \bigoplus h_n(X_\alpha)$};
+  \node[axiom] (A5) at (-3.0, 1.1) {{\bfseries 5. Naturality.} functorial in pair maps};
+  \node[axiom] (A6) at ( 3.0, 1.1) {{\bfseries 6. Dimension.} $h_n(\mathrm{pt}) = 0$ for $n \neq 0$};
+  \node[axiom, draw=red!60!black, fill=red!5] (A7) at (0, -0.1) {{\bfseries 7. Weak equivalence.} $\pi_*$-iso $\Rightarrow$ $h_*$-iso};
+
+  % Uniqueness theorem call-out below
+  \node[font=\small\itshape, align=center] at (0, -1.4)
+    {Uniqueness theorem (E-S 1952): any two theories satisfying axioms 1--6\\
+     and agreeing on a point are naturally isomorphic on CW pairs.};
+
+  \begin{scope}[on background layer]
+    \fill[teal!4, rounded corners=12pt] (-6.0, -2.2) rectangle (6.0, 5.2);
+  \end{scope}
+\end{tikzpicture}

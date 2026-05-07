@@ -329,6 +329,46 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Hatcher §2.3 informal
 - **notes**: Axioms for ordinary homology: homotopy, long exact sequence of a pair, excision, additivity, naturality, dimension ($h_n(\mathrm{pt}) = 0$ for $n \neq 0$), and weak-equivalence. Uniqueness theorem: any two theories satisfying dimension and agreeing on $\mathrm{pt}$ are naturally isomorphic on CW pairs. Generalised cohomology theories drop dimension axiom (K-theory, cobordism, stable homotopy). Brown representability via spectra. Singular = simplicial = cellular = Čech all satisfy axioms; uniqueness explains agreement.
 
+### topology.poincare-duality
+
+- **title**: Poincaré duality
+- **prerequisites**: `topology.singular-homology`, `topology.cellular-homology`, `topology.excision`, `topology.eilenberg-steenrod`
+- **tier_anchors**:
+  - master: Poincaré 1895/1899 (originator); Hatcher §3.3 (full proof); Milnor-Stasheff §11; Bott-Tu §5; Spivak (de Rham)
+  - intermediate: Hatcher §3.3; Bredon §VI
+  - beginner: Hatcher §3.3 informal
+- **notes**: For closed oriented $n$-manifold $M$, cap with $[M]$ gives $H^k(M; \mathbb{Z}) \cong H_{n-k}(M; \mathbb{Z})$. $\mathbb{Z}/2$-coefficients version: works without orientation. Lefschetz duality for manifolds with boundary. de Rham version: integration pairing on closed oriented smooth manifolds. Consequences: vanishing $\chi$ for odd-dim closed manifolds, signature theorem, Hirzebruch L-genus. Originator: Poincaré *Analysis Situs* 5th supplement; modern proof Lefschetz 1930 + Eilenberg-Steenrod 1952; de Rham 1931 (smooth version).
+
+### topology.cap-product
+
+- **title**: Cap product
+- **prerequisites**: `topology.singular-homology`, `topology.cellular-homology`
+- **tier_anchors**:
+  - master: Eilenberg-Steenrod 1952 §V (axiomatic); Spanier *Algebraic Topology* §V; Hatcher §3.3
+  - intermediate: Hatcher §3.3; Bredon §VI
+  - beginner: Hatcher §3.3 informal
+- **notes**: Front-face/back-face split: $\phi \frown \sigma = \phi(\sigma|_{[v_0, \ldots, v_k]}) \cdot \sigma|_{[v_k, \ldots, v_n]}$. Bilinear $\frown : C^k \otimes C_n \to C_{n-k}$, descends to homology via Leibniz rule $\partial(\phi \frown \sigma) = (-1)^k(\delta\phi \frown \sigma - \phi \frown \partial\sigma)$. Makes $H_*(X)$ a graded $H^*(X)$-module. Naturality (projection formula): $f_*(f^*\phi \frown \alpha) = \phi \frown f_*\alpha$. Cap-cup compatibility: $\phi \frown (\psi \frown \alpha) = (\psi \smile \phi) \frown \alpha$. Cap with fundamental class $-\frown[M]$ is the Poincaré-duality isomorphism. Originator: Čech 1936 / Whitney 1938 / Lefschetz 1942; axiomatised in Eilenberg-Steenrod 1952.
+
+### topology.universal-coefficient
+
+- **title**: Universal coefficient theorem (homology and cohomology)
+- **prerequisites**: `topology.singular-homology`, `topology.cellular-homology`
+- **tier_anchors**:
+  - master: Cartan-Eilenberg *Homological Algebra* 1956 (originator algebraic); Hatcher §3.1 + §3.A; Weibel *Introduction to Homological Algebra*; tom Dieck §17
+  - intermediate: Hatcher §3.A and §3.1
+  - beginner: Hatcher §3.A informal
+- **notes**: Homology UCT: split SES $0 \to H_n(X) \otimes G \to H_n(X; G) \to \mathrm{Tor}(H_{n-1}(X), G) \to 0$. Cohomology UCT: $0 \to \mathrm{Ext}(H_{n-1}(X), G) \to H^n(X; G) \to \mathrm{Hom}(H_n(X), G) \to 0$. Algebraic version for any chain complex of free abelian groups. Tor and Ext as derived functors. Field-coefficient case: Tor and Ext vanish in characteristic 0. Bockstein homomorphism via SES $0 \to \mathbb{Z} \to \mathbb{Z} \to \mathbb{Z}/n \to 0$. Originator: Cartan-Eilenberg 1956 (algebraic); Eilenberg-Steenrod 1952 (topological).
+
+### symplectic-geometry.ags-convexity
+
+- **title**: Atiyah-Guillemin-Sternberg convexity theorem
+- **prerequisites**: `symplectic-geometry.moment-map`, `symplectic-geometry.symplectic-manifold`
+- **tier_anchors**:
+  - master: Atiyah 1982 + Guillemin-Sternberg 1982 (originator papers, simultaneous); Cannas da Silva §27; Audin *Topology of Torus Actions* §IV; Kirwan *Cohomology of Quotients* §3
+  - intermediate: Cannas §27; Audin §IV
+  - beginner: Cannas §27 informal
+- **notes**: For closed connected $(M, \omega)$ with Hamiltonian $T = T^k$ action and moment map $\mu : M \to \mathfrak{t}^*$: (i) $\mu(M)$ is a convex polytope; (ii) $\mu(M) = \mathrm{conv}(\mu(M^T))$; (iii) every fibre $\mu^{-1}(c)$ is connected. Atiyah's proof: Morse-Bott analysis of $\mu^\xi$, even index/coindex via weight-space decomposition, level-set connectedness via even-index attaching, induction on rank. Examples: $S^2$ height function, $\mathbb{CP}^n$ standard polytope, coadjoint orbits / Schur-Horn permutohedron. Originators: Atiyah 1982 *Convexity and commuting Hamiltonians*; Guillemin-Sternberg 1982 *Convexity properties of the moment mapping*.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property

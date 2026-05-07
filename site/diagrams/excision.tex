@@ -1,0 +1,32 @@
+% Excision: collapse Z inside A; relative homology unchanged.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Big space X
+  \draw[gray!50!black, very thick, fill=gray!8] plot[smooth cycle]
+    coordinates {(-3.5, 0) (-2, 2.2) (1.5, 2.4) (3.4, 0.8) (3.6, -1.2) (1, -2) (-2, -1.6) (-3.5, -0.6)};
+  \node at (3.0, 1.7) {$X$};
+
+  % A inside X (medium blob)
+  \draw[blue!60!black, thick, fill=blue!10] plot[smooth cycle]
+    coordinates {(-2.4, 0.4) (-1.4, 1.6) (0.5, 1.8) (1.8, 0.5) (1.4, -1.0) (-0.4, -1.3) (-2.0, -0.6)};
+  \node[blue!70!black] at (1.9, 1.5) {$A$};
+
+  % Z inside A (small blob), in red
+  \draw[red!70!black, thick, fill=red!10] plot[smooth cycle]
+    coordinates {(-1.0, 0.5) (-0.4, 0.95) (0.4, 0.6) (0.4, -0.1) (-0.2, -0.4) (-0.9, -0.1)};
+  \node[red!70!black] at (1.1, 0.5) {$Z$};
+
+  % Annotations
+  \node[anchor=west] at (4.4, 1.2)
+    {$\overline{Z} \subseteq \mathrm{int}(A)$};
+  \node[anchor=west] at (4.4, 0.4)
+    {$H_n(X \setminus Z,\, A \setminus Z) \cong H_n(X, A)$};
+  \node[anchor=west, font=\footnotesize, gray!50!black] at (4.4, -0.4)
+    {(excision: collapse $Z$ without changing relative homology)};
+
+  \begin{scope}[on background layer]
+    \fill[orange!4, rounded corners=12pt] (-4.0, -2.6) rectangle (10.0, 3.0);
+  \end{scope}
+\end{tikzpicture}
