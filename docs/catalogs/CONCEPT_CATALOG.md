@@ -479,6 +479,46 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Arnold §15 informal; Goldstein §8 informal
 - **notes**: Convex transform $f^*(p) = \sup_q (\langle p, q\rangle - f(q))$. Fenchel-Moreau involution $(f^*)^* = f$. Differential form $\nabla f^*(p) = q(p)$ inverse of $\nabla f$. Fibre Legendre transform $\mathbb{F}L : TQ \to T^*Q$, $\mathbb{F}L(q, \dot q) = (q, \partial L/\partial \dot q)$. Regularity = local diffeomorphism (Hessian non-singular); hyper-regularity = global diffeomorphism. Hamiltonian $H(q, p) = \langle p, \dot q\rangle - L$. Equivalence of EL on $TQ$ with Hamilton's equations on $T^*Q$. Cotangent bundle as natural symplectic phase space. Singular Lagrangians and Dirac-Bergmann constraint analysis (gauge theories, GR). Originator: Legendre 1787; mechanics application Hamilton 1834; modern framing Abraham-Marsden 1978.
 
+### classical-mechanics.noether-theorem
+
+- **title**: Noether's theorem
+- **prerequisites**: `classical-mechanics.lagrangian-on-tm`, `classical-mechanics.hamilton-principle`
+- **tier_anchors**:
+  - master: Noether 1918 *Invariante Variationsprobleme* (Nachr. König. Gesell. Wiss. Göttingen, originator); Olver *Applications of Lie Groups to Differential Equations*; Marsden-Ratiu Ch. 4 + 11
+  - intermediate: Goldstein §13.7; Arnold §20
+  - beginner: Strogatz informal; Goldstein §13.7 informal
+- **notes**: Every smooth one-parameter family of symmetries of the action $S$ gives a conserved quantity along EL flow. Setup: vector field $X$ on $Q$ with prolongation $X^{(1)}$ on $TQ$; invariance $\mathcal{L}_{X^{(1)}} L = 0$. Noether charge $J_X = \langle \partial L/\partial \dot q, X\rangle$. Examples: time-translation → energy; space-translation → momentum; rotation → angular momentum. Hamiltonian-side: Poisson-commute condition $\{f, H\} = 0$. Lifts to moment-map theory: $G$-action on $(M, \omega)$ with $\mu : M \to \mathfrak{g}^*$. Field-theory generalisation: Noether currents $\partial_\mu J^\mu_X = 0$. Inverse Noether (Cartan-Lie). Originator: Emmy Noether 1918.
+
+### symplectic-geometry.geodesic-flow-hamiltonian
+
+- **title**: Geodesic flow as a Hamiltonian flow
+- **prerequisites**: `symplectic-geometry.hamiltonian-vector-field`, `symplectic-geometry.cotangent-bundle`, `manifolds.smooth-manifold`
+- **tier_anchors**:
+  - master: Jacobi 1837 (originator); Abraham-Marsden §3.7; Klingenberg *Riemannian Geometry* Ch. 3; Cannas §1-§2
+  - intermediate: Arnold §47; Marsden-Ratiu Ch. 8
+  - beginner: Arnold §47 informal; Strogatz §6 informal
+- **notes**: Kinetic-energy Hamiltonian $H(q, p) = \frac{1}{2} g^{ij} p_i p_j$ on $T^*M$. Hamilton's equations recover the geodesic equation $\ddot q^i + \Gamma^i_{jk}\dot q^j \dot q^k = 0$. Unit cotangent bundle $S(T^*M)$ is contact; Reeb = geodesic spray. Killing vector fields → Noether-conserved quantities. Maupertuis-Jacobi reformulation: mechanics with potential $V$ on energy level $H = E$ ↔ pure geodesic flow of Jacobi metric $\tilde g = (E - V)g$. Examples: flat $\mathbb{R}^n$ (straight lines), round $S^n$ (great circles, integrable), hyperbolic plane (Anosov), Jacobi-integrable ellipsoid. Originator: Jacobi 1837.
+
+### topology.blakers-massey
+
+- **title**: Blakers-Massey theorem
+- **prerequisites**: `topology.homotopy`, `topology.cw-complex`, `topology.hurewicz-theorem`
+- **tier_anchors**:
+  - master: Blakers-Massey 1949-53 four-paper Annals series (originator); Hatcher §4.2 (full proof); tom Dieck §6; Anel-Biedermann-Finster-Joyal 2017 (∞-categorical)
+  - intermediate: Hatcher §4.2
+  - beginner: Hatcher §4.2 informal
+- **notes**: Homotopy excision for CW triads $X = A \cup B$ with $C = A \cap B$ path-connected and connectivity hypotheses on the inclusions. $\pi_k(A, C) \to \pi_k(X, B)$ is iso for $k < m + n$, surjective at $m + n$. Homology-excision-up-to-stable-range. Freudenthal suspension theorem as corollary: $\pi_k(X) \to \pi_{k+1}(\Sigma X)$ iso for $k < 2n - 1$ when $X$ is $(n-1)$-connected. Foundation of stable homotopy theory and Adams spectral sequence. ∞-categorical generalisation in modal homotopy type theory.
+
+### topology.euler-characteristic
+
+- **title**: Euler characteristic
+- **prerequisites**: `topology.cw-complex`, `topology.cellular-homology`, `topology.poincare-duality`
+- **tier_anchors**:
+  - master: Euler 1758 (originator); Poincaré 1895; Lefschetz 1926; Hatcher §2.2 + §2.C + §3.3; Milnor *Topology from the Differentiable Viewpoint* (Poincaré-Hopf)
+  - intermediate: Hatcher §2.2 + §3.3
+  - beginner: Hatcher §2.2 informal
+- **notes**: Cellular form $\chi(X) = \sum (-1)^n c_n$. Homological form $\chi(X) = \sum (-1)^n \mathrm{rk}\, H_n$. Cellular = homological proof. Multiplicativity via Künneth. Euler-Poincaré for fibre bundles $\chi(E) = \chi(F)\chi(B)$. Vanishes on closed odd-dim orientable manifolds (Poincaré duality + alternating sum). Gauss-Bonnet $\int K\, dA = 2\pi \chi$ on closed surfaces; Chern-Gauss-Bonnet via Pfaffian in even dim. Poincaré-Hopf $\sum \mathrm{ind}_p V = \chi(M)$. Lefschetz fixed-point. Examples: $S^n, \Sigma_g, \mathbb{RP}^n, \mathbb{CP}^n, T^n$. Originator: Euler 1758 *Elementa doctrinae solidorum*.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property
