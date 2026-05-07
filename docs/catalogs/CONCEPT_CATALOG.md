@@ -409,6 +409,36 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Arnold *Mathematical Methods of Classical Mechanics* §47 informal
 - **notes**: Graph of symplectomorphism $\phi : T^*M \to T^*M$ as a Lagrangian in $T^*M \times T^*M \cong T^*(M \times M)$. Type-1 generating function $F : M \times M \to \mathbb{R}$. Four classical types (physics literature). Generating function for exact Lagrangian = scalar potential $S : M \to \mathbb{R}$. Hörmander 1971 GFQI: every closed Lagrangian admits a generating function quadratic at infinity. Sikorav-Viterbo theorem: GFQIs for Hamiltonian-isotopic Lagrangians are equivalent up to stabilisation/fibre-change/constants — gives spectral invariants. Discrete action principle: critical points = fixed points / Lagrangian intersections. Conley-Zehnder used GFQI for the torus Arnold conjecture (1983).
 
+### symplectic-geometry.delzant-theorem
+
+- **title**: Delzant theorem (symplectic toric classification)
+- **prerequisites**: `symplectic-geometry.moment-map`, `symplectic-geometry.ags-convexity`, `symplectic-geometry.symplectic-reduction`
+- **tier_anchors**:
+  - master: Delzant 1988 *Hamiltoniens périodiques et images convexes de l'application moment* (Bull. SMF 116, originator); Cannas §28; Audin *Topology of Torus Actions* §VII; Guillemin *Moment Maps* (Birkhauser 1994)
+  - intermediate: Cannas §28; Audin §VII
+  - beginner: Cannas §28 informal
+- **notes**: Bijection between symplectic toric manifolds (closed, effective Hamiltonian half-dim torus action) and Delzant polytopes (simple + rational + smooth). Five-step construction: facet primitive normals $v_i$; surjection $\beta : \mathbb{R}^d \to \mathbb{R}^n$; kernel torus $K$; standard $T^d$-action on $\mathbb{C}^d$ with diagonal moment map; symplectic reduction $M_\Delta = \mu_K^{-1}(0)/K$. Examples: standard simplex = $\mathbb{CP}^n$ (Fubini-Study); standard cube = $(\mathbb{CP}^1)^n$; trapezoid = Hirzebruch $\mathbb{F}_n$. Originator: Delzant 1988.
+
+### symplectic-geometry.symplectisation
+
+- **title**: Symplectisation of a contact manifold
+- **prerequisites**: `symplectic-geometry.contact-manifold`, `symplectic-geometry.symplectic-manifold`
+- **tier_anchors**:
+  - master: Geiges Ch. 2; Cieliebak-Eliashberg *From Stein to Weinstein and Back* (2012); McDuff-Salamon Ch. 11; Eliashberg-Hofer SFT survey 2000
+  - intermediate: Geiges Ch. 2; Cannas §10
+  - beginner: Geiges §2 informal
+- **notes**: Symplectisation $(M \times \mathbb{R}, d(e^t \alpha))$ of a co-orientable contact manifold. Verification via $(e^t\alpha)^{n+1} = e^{(n+1)t} dt \wedge \alpha \wedge (d\alpha)^n$. Independence of contact-form choice via $(p, t) \mapsto (p, t - \log f(p))$. Liouville structure with primitive $\lambda = e^t\alpha$ and Liouville vector field $\partial_t$. Reeb-flow lift. Floer-theoretic relevance: SFT (Eliashberg-Givental-Hofer 2000) and ECH (Hutchings 2002). Worked example: $S^{2n+1} \subset \mathbb{C}^{n+1}$ symplectisation = $\mathbb{C}^{n+1}\setminus\{0\}$.
+
+### symplectic-geometry.gray-theorem
+
+- **title**: Gray's stability theorem
+- **prerequisites**: `symplectic-geometry.contact-manifold`, `symplectic-geometry.moser-trick`
+- **tier_anchors**:
+  - master: Gray 1959 *Some global properties of contact structures* (Ann. Math. 69, originator); Geiges Ch. 2; McDuff-Salamon Ch. 11
+  - intermediate: Geiges Ch. 2; Cannas §10
+  - beginner: Geiges Ch. 2 informal
+- **notes**: A smooth path of contact structures on a closed manifold is induced by an isotopy. Proof: Moser-trick adaptation. Choose contact forms $\alpha_t$, seek $\psi_t^*\alpha_t = \lambda_t \alpha_0$. The contact condition makes the tangent equation $\iota_{X_t}d\alpha_t|_{\xi_t} = -\dot\alpha_t|_{\xi_t}$ uniquely solvable for $X_t \in \xi_t$. Integrate. Consequences: classification up to homotopy = up to diffeomorphism on closed manifolds; Reeb-dynamics stability; foundation for SFT/ECH. 3D extra: tight/overtwisted dichotomy (Eliashberg 1989). Originator: J.W. Gray 1959.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property

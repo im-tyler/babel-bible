@@ -1,0 +1,37 @@
+% Generating function S : M -> R for an exact Lagrangian, plus type-1 for symplectomorphism.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Cotangent bundle T*M as horizontal strip
+  \draw[gray!50!black, thick, fill=gray!8] (-5.5, -1.0) rectangle (-0.5, 1.0);
+  \node[gray!50!black] at (-0.9, 0.8) {$T^*M$};
+
+  % Zero section
+  \draw[red!70!black, very thick] (-5.4, 0) -- (-0.6, 0);
+  \node[red!70!black, font=\footnotesize] at (-3.0, -0.3) {zero section};
+
+  % Lagrangian = graph of dS, drawn as a curve
+  \draw[blue!70!black, very thick] (-5.4, 0.5) .. controls (-4.2, 0.7) and (-2.8, -0.3) .. (-1.2, 0.4);
+  \node[blue!70!black, font=\footnotesize] at (-1.0, 0.7) {$L = \{(q, dS_q) : q \in M\}$};
+
+  % S : M -> R below
+  \draw[arrow] (-3.0, -1.4) -- node[right, font=\footnotesize] {$S$ generates $L$} (-3.0, -2.0);
+  \node at (-3.0, -2.4) {$S : M \to \mathbb{R}$};
+
+  % Right side: type-1 generating function for a symplectomorphism
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=4pt, align=left] at (4.0, 1.0)
+    {{\bfseries Type-1 generating function} $F : M \times M \to \mathbb{R}$ for $\phi : T^*M \to T^*M$};
+
+  \node[font=\small, anchor=west] at (1.5, -0.3) {$\phi(q_1, -F_{q_1}(q_1, q_2)) = (q_2, F_{q_2}(q_1, q_2))$};
+
+  % Bottom: critical-point correspondence
+  \node[font=\small, anchor=west] at (1.5, -2.0)
+    {Critical points of $S$ $\leftrightarrow$ intersections $L \cap (\text{zero section})$};
+  \node[font=\small, anchor=west] at (1.5, -2.6)
+    {Critical points of $F$ $\leftrightarrow$ fixed points of $\phi$};
+
+  \begin{scope}[on background layer]
+    \fill[blue!4, rounded corners=12pt] (-6.5, -3.4) rectangle (10.5, 1.8);
+  \end{scope}
+\end{tikzpicture}

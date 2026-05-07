@@ -1,0 +1,39 @@
+% Whitehead's theorem: pi_*-iso => homotopy equivalence (CW complexes).
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Two CW complexes
+  \draw[blue!60!black, thick, fill=blue!8] plot[smooth cycle]
+    coordinates {(-4.5, 0.6) (-3.4, 1.4) (-2.2, 1.0) (-2.0, 0) (-2.8, -1.2) (-4.2, -0.8) (-4.8, 0)};
+  \node[blue!60!black] at (-3.5, 0.4) {$X$};
+
+  \draw[red!60!black, thick, fill=red!8] plot[smooth cycle]
+    coordinates {(2.2, 0.6) (3.0, 1.4) (4.4, 1.2) (4.8, 0) (4.2, -1.2) (2.8, -1.0) (2.0, 0)};
+  \node[red!60!black] at (3.4, 0.4) {$Y$};
+
+  \node[font=\footnotesize, gray!50!black] at (-3.5, -2.0) {CW complex};
+  \node[font=\footnotesize, gray!50!black] at (3.5, -2.0)  {CW complex};
+
+  % Map f
+  \draw[arrow, thick] (-1.9, 0) -- node[above] {$f$} (1.9, 0);
+
+  % Hypothesis box above
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=4pt] at (0, 2.6)
+    {{\bfseries Hypothesis:} $f_* : \pi_n(X) \xrightarrow{\;\sim\;} \pi_n(Y)$ for all $n$};
+
+  % Conclusion box below
+  \node[draw=teal!50!black, fill=teal!4, rounded corners=4pt, inner sep=4pt] at (0, -3.0)
+    {{\bfseries Conclusion:} $f$ is a homotopy equivalence.};
+
+  % Warsaw circle counterexample callout
+  \node[draw=red!50!black, fill=red!4, rounded corners=4pt, inner sep=3pt, font=\footnotesize, align=left] at (8.4, 0)
+    {{\bfseries Warsaw circle:}\\
+     not CW.\\
+     $\pi_n = 0 \;\;\forall n$\\
+     but not contractible.};
+
+  \begin{scope}[on background layer]
+    \fill[purple!4, rounded corners=12pt] (-5.5, -3.8) rectangle (10.4, 3.4);
+  \end{scope}
+\end{tikzpicture}
