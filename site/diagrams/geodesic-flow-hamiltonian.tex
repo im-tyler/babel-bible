@@ -1,0 +1,44 @@
+% Geodesic flow on Riemannian manifold = Hamiltonian flow on T*M with H = (1/2) g^{ij} p_i p_j.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Riemannian manifold (sphere with geodesic)
+  \draw[blue!60!black, thick, fill=blue!8] (-3.5, 0) circle (1.4cm);
+  \node[blue!60!black] at (-5.0, 1.0) {$(M, g)$};
+
+  % Geodesic = great circle
+  \draw[red!70!black, very thick] (-3.5, 0) ellipse [x radius=1.4cm, y radius=0.45cm];
+  \node[red!70!black, font=\footnotesize] at (-3.5, -0.85) {geodesic};
+
+  % Tangent vector at one point
+  \filldraw[red!75!black] (-2.1, 0.05) circle (1.5pt);
+  \draw[arrow, red!75!black] (-2.1, 0.05) -- (-1.4, 0.05);
+  \node[red!75!black, font=\footnotesize] at (-1.0, 0.05) {$\dot q$};
+
+  % Legendre arrow to T*M
+  \draw[arrow, blue!50!black] (-0.5, 0) -- (1.5, 0) node[midway, above] {$\mathbb{F}L$ (Legendre)};
+
+  % T*M side: phase space ellipsoid
+  \draw[teal!70!black, thick, fill=teal!8] (4.0, 0) ellipse [x radius=1.6cm, y radius=1.0cm];
+  \node[teal!70!black] at (5.5, 1.2) {$T^*M$};
+
+  % Hamiltonian flow as a curve on T*M
+  \draw[red!75!black, very thick] (2.4, 0) .. controls (3.0, 0.7) and (5.0, 0.5) .. (5.6, -0.2);
+  \node[red!75!black, font=\footnotesize] at (4.0, 0.6) {$X_H$ flow};
+
+  % Hamiltonian formula box
+  \node[draw=teal!50!black, fill=teal!4, rounded corners=4pt, inner sep=4pt] at (4.0, 2.4)
+    {$H(q, p) = \tfrac{1}{2} g^{ij}(q) p_i p_j$};
+
+  % Bottom: equivalences
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=4pt, align=left] at (-1.0, -2.7)
+    {{\bfseries Hamilton's eqs} $\Leftrightarrow$ {\bfseries geodesic eq} $\ddot q^i + \Gamma^i_{jk}\dot q^j \dot q^k = 0$};
+
+  \begin{scope}[on background layer]
+    \fill[purple!4, rounded corners=12pt] (-6.5, -3.4) rectangle (8.5, 3.1);
+  \end{scope}
+
+  \node[align=center] at (1.0, -4.0)
+    {\itshape Restriction to unit cotangent bundle: Reeb vector field = geodesic spray.};
+\end{tikzpicture}

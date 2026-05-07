@@ -1,0 +1,37 @@
+% Noether: symmetry vector field X on Q + invariant Lagrangian => conserved J_X.
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Configuration space Q with symmetry vector field
+  \draw[blue!60!black, thick, fill=blue!8] (0, 0) circle (1.6cm);
+  \node[blue!60!black] at (-2.0, 1.4) {$Q$};
+
+  % Symmetry vector field arrows (rotation, schematic)
+  \foreach \a in {0, 60, 120, 180, 240, 300} {
+    \draw[arrow, red!75!black, thick] ({1.6*cos(\a)}, {1.6*sin(\a)}) -- ({1.0*cos(\a + 90)}, {1.0*sin(\a + 90)});
+  }
+  \node[red!75!black] at (0, 0) {$X$};
+
+  % Invariance equation
+  \node[draw=red!50!black, fill=red!4, rounded corners=4pt, inner sep=4pt] at (5.5, 1.6)
+    {$\mathcal{L}_{X^{(1)}} L = 0$};
+
+  % Conservation law arrow
+  \draw[arrow, thick] (5.5, 1.0) -- (5.5, -0.0) node[midway, right] {Noether};
+
+  % Conserved quantity box
+  \node[draw=teal!50!black, fill=teal!4, rounded corners=4pt, inner sep=4pt] at (5.5, -1.0)
+    {$J_X = \langle \tfrac{\partial L}{\partial \dot q}, X(q) \rangle$ conserved on flow};
+
+  % Examples
+  \node[anchor=west, font=\footnotesize] at (-3.5, -2.4) {Examples:};
+  \node[anchor=west, font=\footnotesize] at (-3.5, -2.9) {time-translation $\to$ energy};
+  \node[anchor=west, font=\footnotesize] at (1.0, -2.9) {space-translation $\to$ momentum};
+  \node[anchor=west, font=\footnotesize] at (-3.5, -3.4) {rotation $\to$ angular momentum};
+  \node[anchor=west, font=\footnotesize] at (1.0, -3.4) {gauge $\to$ electric charge};
+
+  \begin{scope}[on background layer]
+    \fill[orange!4, rounded corners=12pt] (-4.0, -3.9) rectangle (8.5, 2.6);
+  \end{scope}
+\end{tikzpicture}

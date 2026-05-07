@@ -519,6 +519,46 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Hatcher §2.2 informal
 - **notes**: Cellular form $\chi(X) = \sum (-1)^n c_n$. Homological form $\chi(X) = \sum (-1)^n \mathrm{rk}\, H_n$. Cellular = homological proof. Multiplicativity via Künneth. Euler-Poincaré for fibre bundles $\chi(E) = \chi(F)\chi(B)$. Vanishes on closed odd-dim orientable manifolds (Poincaré duality + alternating sum). Gauss-Bonnet $\int K\, dA = 2\pi \chi$ on closed surfaces; Chern-Gauss-Bonnet via Pfaffian in even dim. Poincaré-Hopf $\sum \mathrm{ind}_p V = \chi(M)$. Lefschetz fixed-point. Examples: $S^n, \Sigma_g, \mathbb{RP}^n, \mathbb{CP}^n, T^n$. Originator: Euler 1758 *Elementa doctrinae solidorum*.
 
+### classical-mechanics.hamilton-jacobi
+
+- **title**: Hamilton-Jacobi equation
+- **prerequisites**: `symplectic-geometry.generating-functions`, `symplectic-geometry.cotangent-bundle`, `classical-mechanics.legendre-transform`
+- **tier_anchors**:
+  - master: Hamilton 1834 (originator); Jacobi 1866; Carathéodory 1909; Crandall-Lions 1983 viscosity solutions; Abraham-Marsden §5.2; Arnold §47 + Appendix 11; Evans *PDE* Ch. 3
+  - intermediate: Goldstein §10; Arnold §47
+  - beginner: Goldstein §10 informal; Arnold §47 informal
+- **notes**: $\partial S/\partial t + H(q, \partial S/\partial q, t) = 0$ for action $S(q, t)$; time-indep $H(q, \partial W/\partial q) = E$. Generating-function-type-2 making $H \mapsto 0$. Method of characteristics: characteristics = Hamilton flow. Complete integrals giving full integration. Separation of variables (central potentials, Stäckel framework). Action-angle coordinates from HJ. Geometric: solutions = Lagrangian submanifolds of $T^*M$. WKB / eikonal limit of Schrödinger. Viscosity-solution theory (Crandall-Lions 1983) for caustics + optimal control. Originator: Hamilton 1834; Jacobi 1866 computational.
+
+### classical-mechanics.liouville-volume
+
+- **title**: Liouville's volume theorem
+- **prerequisites**: `symplectic-geometry.hamiltonian-vector-field`, `symplectic-geometry.symplectic-manifold`
+- **tier_anchors**:
+  - master: Liouville 1838 *Sur la théorie de la variation des constantes arbitraires* (J. Math. Pures Appl., originator); Arnold §16 + Appendix 1; Abraham-Marsden §3.5
+  - intermediate: Arnold §16; Goldstein §9.9
+  - beginner: Strogatz §6 informal; Goldstein §9.9 informal
+- **notes**: Hamiltonian flows preserve symplectic volume $\omega^n/n!$. Proof via Cartan: $\mathcal{L}_{X_H}\omega = 0 \Rightarrow \mathcal{L}_{X_H}\omega^n = 0$. Darboux-coordinate divergence-free form. Liouville equation $\partial_t\rho + \{\rho, H\} = 0$ for phase-space density. Equilibrium measures as $f(H)$. Volume-rigid + length-flexible characterising symplectic geometry. Counterexample: gradient flows are NOT volume-preserving. Foundation for Poincaré recurrence and statistical mechanics. Originator: Liouville 1838.
+
+### classical-mechanics.poincare-recurrence
+
+- **title**: Poincaré recurrence theorem
+- **prerequisites**: `classical-mechanics.liouville-volume`, `symplectic-geometry.hamiltonian-vector-field`
+- **tier_anchors**:
+  - master: Poincaré 1890 *Sur le problème des trois corps* (Acta Math. 13, originator); Carathéodory 1919; Walters *An Introduction to Ergodic Theory* Ch. 1; Halmos *Lectures on Ergodic Theory* Ch. 2
+  - intermediate: Arnold §16; Walters Ch. 1
+  - beginner: Strogatz §6 informal; Arnold §16 informal
+- **notes**: On finite measure space with measure-preserving $T : X \to X$, every measurable $A$ with $\mu(A) > 0$ has a.e. point returning infinitely often. Pigeonhole proof on $T^{-n}(A)$ disjoint iterates. Mean recurrence time = $\mu(X)/\mu(A)$ (Kac's lemma). Hamiltonian application via Liouville volume. Boltzmann/Zermelo timescale resolution of H-theorem tension. Quantum recurrence in finite-dim Hilbert space; failure in infinite-dim. Foundation of ergodic theory (ergodicity, mixing, K-systems, Bernoulli). Originator: Poincaré 1890; Carathéodory 1919 abstract.
+
+### symplectic-geometry.adiabatic-invariants
+
+- **title**: Adiabatic invariants
+- **prerequisites**: `symplectic-geometry.action-angle-coordinates`, `symplectic-geometry.integrable-system`, `symplectic-geometry.symplectic-manifold`
+- **tier_anchors**:
+  - master: Ehrenfest 1916 (originator term); Arnold-Kozlov-Neishtadt Ch. 6; Born *The Mechanics of the Atom* (1925); Berry 1984 (geometric phase)
+  - intermediate: Arnold §52; Goldstein §12.5
+  - beginner: Goldstein §12.5 informal; Arnold §52 informal
+- **notes**: Slowly-varying Hamiltonian $H(q, p; \lambda(\epsilon t))$. Adiabatic theorem (Burgers/Ehrenfest 1916, 1D): action $I = (1/2\pi)\oint p\,dq$ conserved up to $O(\epsilon)$ over time $O(\epsilon^{-1})$. Geometric proof: average over fast angle. Higher-dim issues with resonant tori. Magnetic mirror $\mu = mv_\perp^2/(2B)$ adiabatic invariant for charged-particle motion (foundational for tokamaks). Quantum adiabatic theorem (Born-Fock 1928). Berry phase as adiabatic-correction holonomy. Nekhoroshev exponential-stability extension. Connection to KAM. Originator: Ehrenfest 1913-16.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property
