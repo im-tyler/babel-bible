@@ -1,0 +1,28 @@
+% Exponential law: C(X x Y, Z) cong C(X, C(Y, Z)).
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  arrow/.style={-{Stealth[length=2.5mm]}, thick},
+]
+  % Top: C(X x Y, Z)
+  \node (left)  at (0, 1.5) {$C(X \times Y,\, Z)$};
+  % Right: C(X, C(Y, Z))
+  \node (right) at (6, 1.5) {$C\bigl(X,\, C(Y, Z)\bigr)$};
+
+  % Bidirectional arrows
+  \draw[arrow] (left.east)  -- node[above] {$\mathrm{curry}$}     (right.west);
+  \draw[arrow] (right.west) -- node[below] {$\mathrm{uncurry}$} ([yshift=-0.45cm] left.east);
+
+  % Annotation
+  \node[font=\small\itshape] at (3, 2.6) {natural homeomorphism (CGWH)};
+
+  % Subbasis explanation below
+  \node (sub) at (3, -0.6) {Subbasis on $C(X, Y)$:};
+  \node at (3, -1.4)
+    {$W(K, U) = \{f \in C(X, Y) \,:\, f(K) \subseteq U\}$};
+  \node[font=\footnotesize, gray!50!black] at (3, -2.0)
+    {for $K \subseteq X$ compact, $U \subseteq Y$ open};
+
+  \begin{scope}[on background layer]
+    \fill[blue!4, rounded corners=12pt] (-1.5, -2.5) rectangle (7.5, 3.4);
+  \end{scope}
+\end{tikzpicture}

@@ -279,6 +279,36 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Brown §6 informal; loops-and-paths intuition
 - **notes**: Small category $\pi_1(X)$ on points of $X$ with morphisms = path-homotopy classes; partial composition (concatenation when endpoints match); inverses by reversed paths; identity = constant path. Functor $\pi_1 : \mathbf{Top} \to \mathbf{Groupoid}$. Equivalent to one-object $\mathrm{B}\pi_1(X, x_0)$ when $X$ is path-connected. Brown's groupoid Seifert-van Kampen: $\pi_1(X, A)$ as a pushout, no path-connectedness hypothesis on $U \cap V$. Galois correspondence as equivalence $\mathbf{Cov}(X) \simeq \mathbf{Set}^{\pi_1(X)}$.
 
+### topology.singular-homology
+
+- **title**: Singular homology
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`, `topology.homotopy`
+- **tier_anchors**:
+  - master: Eilenberg 1944 (originator); Hatcher §2.1--§2.2; May Ch. 13; tom Dieck §9
+  - intermediate: Hatcher §2.1; Munkres *Elements of Algebraic Topology* §29
+  - beginner: Hatcher §2.1 informal; chains-and-cycles intuition
+- **notes**: Singular $n$-simplex $\sigma : \Delta^n \to X$. Free abelian chain group $C_n(X)$. Boundary $\partial = \sum (-1)^i d^i$, $\partial^2 = 0$. Homology $H_n(X) = \ker \partial_n / \mathrm{im}\, \partial_{n+1}$. Functoriality, homotopy invariance via prism/chain-homotopy. Reduced homology, augmentation. Coefficients $H_n(X; G)$. Mayer-Vietoris. Long exact sequence of a pair. Computations $H_n(\mathrm{pt})$, $H_n(S^k)$. Originator: Eilenberg 1944 *Singular homology theory* (Ann. Math. 45); precursors Vietoris 1927, Lefschetz 1933.
+
+### topology.simplicial-homology
+
+- **title**: Simplicial and $\Delta$-complex homology
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`, `topology.homotopy`
+- **tier_anchors**:
+  - master: Hatcher §2.1; Eilenberg-Steenrod *Foundations of Algebraic Topology* §I; May Ch. 13
+  - intermediate: Hatcher §2.1; Munkres *Elements* §6 + §13
+  - beginner: Hatcher §2.1 informal triangulations
+- **notes**: $\Delta$-complex / semi-simplicial structure on $X$ via characteristic maps with face conditions. Simplicial chain complex $C_n^\Delta(X)$ — finite-dim when $X$ is finite. Simplicial homology $H_n^\Delta(X)$. Comparison theorem (Hatcher 2.27): $H_n^\Delta(X) \cong H_n(X)$ via the natural chain map. Standard computations: $S^n$, $\mathbb{RP}^n$, $\mathbb{CP}^n$, genus-$g$ surfaces, lens spaces. Originator: Poincaré 1895 (simplicial chain complex); Eilenberg-Zilber 1950 / Eilenberg-Steenrod 1952 modern $\Delta$-framing.
+
+### topology.cellular-homology
+
+- **title**: Cellular homology and cellular approximation
+- **prerequisites**: `topology.cw-complex`, `topology.singular-homology`
+- **tier_anchors**:
+  - master: Whitehead 1949 II (originator); Hatcher §2.2 + §4.1; Massey *A Basic Course* Ch. IX
+  - intermediate: Hatcher §2.2; May Ch. 13
+  - beginner: Hatcher §2.2 informal cell-counting
+- **notes**: For a CW complex $X$, $C_n^{\mathrm{cell}}(X) = H_n(X^{(n)}, X^{(n-1)})$. Cellular boundary via long-exact-sequence connecting map; explicit degree formula $d_n(e_\alpha^n) = \sum \deg(\phi_{\alpha\beta}) e_\beta^{n-1}$. Cellular = singular: $H_n^{\mathrm{cell}}(X) \cong H_n(X)$ (Hatcher 2.35). Computational power: $\mathbb{CP}^n$ has zero boundaries (no consecutive cells); $\mathbb{RP}^n$ has $\partial = 1 + (-1)^k$. Cellular approximation theorem: every continuous CW-map is homotopic to a cellular map (Hatcher 4.8). Originator: J.H.C. Whitehead 1949 *Combinatorial homotopy II*.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property
