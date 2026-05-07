@@ -1,0 +1,37 @@
+% Symplectisation: contact M times R with d(e^t alpha).
+\begin{tikzpicture}[
+  every node/.style={font=\small},
+  axis/.style={->, thick, gray!60!black},
+]
+  % Contact manifold M as horizontal slice
+  \draw[blue!60!black, thick, fill=blue!8] (0, 0) ellipse [x radius=3.5cm, y radius=0.6cm];
+  \node[blue!60!black] at (-3.0, 0.6) {$M$};
+  \node[font=\footnotesize, gray!50!black] at (3.0, 0.4) {contact, $\alpha$};
+
+  % Stack of horizontal slices for M x R (the symplectisation)
+  \draw[teal!50!black, thick, dashed] (0, 1.5) ellipse [x radius=3.5cm, y radius=0.6cm];
+  \draw[teal!50!black, thick, dashed] (0,-1.5) ellipse [x radius=3.5cm, y radius=0.6cm];
+  \draw[teal!50!black, thick, dashed] (0, 3.0) ellipse [x radius=3.5cm, y radius=0.6cm];
+  \draw[teal!50!black, thick, dashed] (0,-3.0) ellipse [x radius=3.5cm, y radius=0.6cm];
+
+  % Vertical t-axis
+  \draw[axis] (-4.5, -3.5) -- (-4.5, 3.5) node[above, black] {$t$};
+
+  % e^t alpha annotations
+  \node[font=\footnotesize] at (4.5, 3.0)  {$e^{t}\alpha$ for $t = 1$};
+  \node[font=\footnotesize] at (4.5, 1.5)  {$e^{t}\alpha$ for $t = 0.5$};
+  \node[font=\footnotesize] at (4.5, 0)    {$e^{t}\alpha$ for $t = 0$};
+  \node[font=\footnotesize] at (4.5, -1.5) {$e^{t}\alpha$ for $t = -0.5$};
+  \node[font=\footnotesize] at (4.5, -3.0) {$e^{t}\alpha$ for $t = -1$};
+
+  % Boxed conclusion
+  \node[draw=blue!50!black, fill=blue!4, rounded corners=4pt, inner sep=4pt] at (0, 4.5)
+    {Symplectisation: $(M \times \mathbb{R},\; d(e^t \alpha))$, exact symplectic};
+
+  \begin{scope}[on background layer]
+    \fill[blue!3, rounded corners=12pt] (-5.5, -4.5) rectangle (8.0, 5.4);
+  \end{scope}
+
+  \node[align=center, font=\small] at (0, -4.2)
+    {\itshape Independent of contact-form choice; foundation for SFT and Embedded Contact Homology.};
+\end{tikzpicture}

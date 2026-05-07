@@ -439,6 +439,46 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Geiges Ch. 2 informal
 - **notes**: A smooth path of contact structures on a closed manifold is induced by an isotopy. Proof: Moser-trick adaptation. Choose contact forms $\alpha_t$, seek $\psi_t^*\alpha_t = \lambda_t \alpha_0$. The contact condition makes the tangent equation $\iota_{X_t}d\alpha_t|_{\xi_t} = -\dot\alpha_t|_{\xi_t}$ uniquely solvable for $X_t \in \xi_t$. Integrate. Consequences: classification up to homotopy = up to diffeomorphism on closed manifolds; Reeb-dynamics stability; foundation for SFT/ECH. 3D extra: tight/overtwisted dichotomy (Eliashberg 1989). Originator: J.W. Gray 1959.
 
+### symplectic-geometry.kam-theorem
+
+- **title**: Kolmogorov-Arnold-Moser theorem
+- **prerequisites**: `symplectic-geometry.integrable-system`, `symplectic-geometry.action-angle-coordinates`, `symplectic-geometry.symplectic-manifold`, `symplectic-geometry.generating-functions`
+- **tier_anchors**:
+  - master: Kolmogorov 1954 + Arnold 1963 + Moser 1962 (originator papers); Arnold-Kozlov-Neishtadt *Math. Aspects of Classical & Celestial Mechanics* Ch. 5; Pöschel 1982; Salamon 2004
+  - intermediate: Arnold *Mathematical Methods* Appendix 8; Wayne 1996 lecture notes
+  - beginner: Strogatz §8 informal
+- **notes**: APEX UNIT. Persistence of invariant tori under Hamiltonian perturbation. Setup: integrable $H_0(I)$ with action-angle coords; perturbation $H_\epsilon = H_0 + \epsilon H_1$. Diophantine condition $|\langle k, \omega^*\rangle| \geq \gamma/|k|^\tau$. Kolmogorov non-degeneracy $\det \partial^2 H_0/\partial I^2 \neq 0$. Theorem: Diophantine torus survives for small $\epsilon$. Newton-iteration / KAM scheme: cohomological equation, Fourier decomposition, super-exponential convergence with controlled analyticity loss. Measure conclusion: $1 - C\sqrt\epsilon$ of phase space remains invariant. Refinements: Moser twist 1962, Pöschel $C^k$ 1982, lower-dim tori, Nekhoroshev exponential stability, Aubry-Mather. Applications: solar-system stability, magnetic confinement, beam dynamics. Originators: Kolmogorov 1954 (4-page Dokl. announcement); Arnold 1963 (full proof); Moser 1962 (smooth twist version).
+
+### classical-mechanics.lagrangian-on-tm
+
+- **title**: Lagrangian mechanics on the tangent bundle
+- **prerequisites**: `manifolds.smooth-manifold`
+- **tier_anchors**:
+  - master: Lagrange 1788 *Mécanique analytique* (originator); Abraham-Marsden *Foundations of Mechanics* §3.5; Arnold §4 + Appendix 1; Souriau 1970
+  - intermediate: Arnold §2-§4; Marsden-Ratiu Ch. 1-2
+  - beginner: Strogatz §1 informal; Arnold §4 informal
+- **notes**: Configuration space $Q$, tangent bundle $TQ = \{(q, \dot q)\}$, Lagrangian $L : TQ \to \mathbb{R}$ (often $T - V$). Action $S[\gamma] = \int L\, dt$. Euler-Lagrange equations $\frac{d}{dt}(\partial L/\partial \dot q^i) - \partial L/\partial q^i = 0$ as critical-point condition. Coordinate-free framing via Poincaré-Cartan one-form $\theta_L = (\partial L/\partial \dot q^i) dq^i$. Energy $E_L = \dot q^i (\partial L/\partial \dot q^i) - L$ as Hamilton-prefiguration. Examples: free particle, particle-in-potential = Newton's 2nd law, geodesics, pendulum. Regularity / hyper-regularity controlling Legendre transform. Originator: Lagrange 1788; modern coordinate-free framing mid-20th-c.
+
+### classical-mechanics.hamilton-principle
+
+- **title**: Hamilton's principle of least action
+- **prerequisites**: `classical-mechanics.lagrangian-on-tm`
+- **tier_anchors**:
+  - master: Hamilton 1834 *On a general method in dynamics* (Phil. Trans., originator); Arnold §4 + Appendix 1; Abraham-Marsden §3.5; Marsden-Ratiu Ch. 1
+  - intermediate: Arnold §4; Goldstein *Classical Mechanics* §2
+  - beginner: Strogatz informal; Arnold §4 informal
+- **notes**: Path is a physical trajectory iff it is a critical point of the action functional $S[\gamma] = \int L(\gamma, \dot\gamma) dt$ among paths with fixed endpoints. First-variation formula: $\delta S = \int (\partial L/\partial q - d/dt(\partial L/\partial \dot q)) \delta q\, dt$ + boundary, which vanishes by endpoint condition. Vanishing for arbitrary $\delta q$ ⇔ Euler-Lagrange. Equivalence with Newton's 2nd law for $L = T - V$. Maupertuis reparametrisation pitfall and Jacobi metric. D'Alembert principle for non-conservative forces. Holonomic constraints via Lagrange multipliers. Field-theory generalisation: Klein-Gordon, Maxwell, Yang-Mills, Einstein-Hilbert. Originator: Hamilton 1834; Maupertuis 1744 less-precise predecessor.
+
+### classical-mechanics.legendre-transform
+
+- **title**: Legendre transform
+- **prerequisites**: `classical-mechanics.lagrangian-on-tm`
+- **tier_anchors**:
+  - master: Legendre 1787 (originator algebraic transform); Abraham-Marsden §3.6; Arnold §15 + App. 4; Marsden-Ratiu Ch. 7; Rockafellar *Convex Analysis* §12
+  - intermediate: Arnold §15; Goldstein §8
+  - beginner: Arnold §15 informal; Goldstein §8 informal
+- **notes**: Convex transform $f^*(p) = \sup_q (\langle p, q\rangle - f(q))$. Fenchel-Moreau involution $(f^*)^* = f$. Differential form $\nabla f^*(p) = q(p)$ inverse of $\nabla f$. Fibre Legendre transform $\mathbb{F}L : TQ \to T^*Q$, $\mathbb{F}L(q, \dot q) = (q, \partial L/\partial \dot q)$. Regularity = local diffeomorphism (Hessian non-singular); hyper-regularity = global diffeomorphism. Hamiltonian $H(q, p) = \langle p, \dot q\rangle - L$. Equivalence of EL on $TQ$ with Hamilton's equations on $T^*Q$. Cotangent bundle as natural symplectic phase space. Singular Lagrangians and Dirac-Bergmann constraint analysis (gauge theories, GR). Originator: Legendre 1787; mechanics application Hamilton 1834; modern framing Abraham-Marsden 1978.
+
 ### topology.cofibration
 
 - **title**: Cofibration and homotopy extension property
