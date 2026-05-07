@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Family Index</title>
+  <desc id="desc">A schematic placeholder diagram for Family Index.</desc>
+  <rect width="720" height="360" fill="#fbf5ee"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a6a4f"/></marker></defs>
+  <g stroke="#3a6a4f" stroke-width="5" fill="none" marker-end="url(#ar)">
+    <path d="M120 90 L300 170"/>
+    <path d="M120 250 L300 170"/>
+    <path d="M300 170 L500 90"/>
+    <path d="M300 170 L500 250"/>
+  </g>
+  <g fill="#c66a3a">
+    <circle cx="120" cy="90" r="14"/>
+    <circle cx="120" cy="250" r="14"/>
+    <circle cx="300" cy="170" r="14"/>
+    <circle cx="500" cy="90" r="14"/>
+    <circle cx="500" cy="250" r="14"/>
+  </g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Family Index</text>
+</svg>

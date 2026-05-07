@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Schur Lemma</title>
+  <desc id="desc">A schematic placeholder diagram for Schur Lemma.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <path d="M80 280 Q200 60 360 200 T640 140" fill="none" stroke="#1d4e5a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M80 200 Q200 320 360 100 T640 240" fill="none" stroke="#b8651e" stroke-width="10" stroke-linecap="round" stroke-dasharray="14 10"/>
+  <g fill="#1d4e5a"><circle cx="80" cy="280" r="10"/><circle cx="640" cy="140" r="10"/></g>
+  <g fill="#b8651e"><circle cx="80" cy="200" r="10"/><circle cx="640" cy="240" r="10"/></g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Schur Lemma</text>
+</svg>
