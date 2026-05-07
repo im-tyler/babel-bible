@@ -279,6 +279,36 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Brown §6 informal; loops-and-paths intuition
 - **notes**: Small category $\pi_1(X)$ on points of $X$ with morphisms = path-homotopy classes; partial composition (concatenation when endpoints match); inverses by reversed paths; identity = constant path. Functor $\pi_1 : \mathbf{Top} \to \mathbf{Groupoid}$. Equivalent to one-object $\mathrm{B}\pi_1(X, x_0)$ when $X$ is path-connected. Brown's groupoid Seifert-van Kampen: $\pi_1(X, A)$ as a pushout, no path-connectedness hypothesis on $U \cap V$. Galois correspondence as equivalence $\mathbf{Cov}(X) \simeq \mathbf{Set}^{\pi_1(X)}$.
 
+### topology.fibration
+
+- **title**: Fibration (Hurewicz and Serre)
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`, `topology.homotopy`
+- **tier_anchors**:
+  - master: Hurewicz 1955, Serre 1951 (originator papers); May Ch. 7--9; tom Dieck §5; Bott-Tu §17
+  - intermediate: Hatcher §4.2; May Ch. 7
+  - beginner: Hatcher §4 informal; Hopf-fibration intuition
+- **notes**: Hurewicz fibration: HLP for all spaces. Serre fibration: HLP for CW pairs / discs. Standard examples: covering maps, fibre bundles over paracompact bases, path-space fibration $PX \to X$ with fibre $\Omega X$. Long exact sequence of homotopy groups $\pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi_{n-1}(F)$. Fibration replacement: any map factors through a Hurewicz fibration. Hopf fibration $S^1 \to S^3 \to S^2$ as the originator example. Loop-space adjunction: $\pi_n(\Omega X) \cong \pi_{n+1}(X)$. Connection to Leray-Serre spectral sequence.
+
+### topology.quotient-topology
+
+- **title**: Quotient and identification topology
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`
+- **tier_anchors**:
+  - master: Brown *Topology and Groupoids* §4; tom Dieck §1.5
+  - intermediate: Brown §4; Hatcher §0; Munkres §22
+  - beginner: Brown §4 informal universal-property treatment
+- **notes**: Identification topology on $Y = X/{\sim}$: $U$ open iff $q^{-1}(U)$ open in $X$. Universal property: continuous maps $Y \to Z$ are continuous maps $X \to Z$ constant on equivalence classes. Standard quotients: cone $CX$, suspension $SX$ ($\Sigma S^n = S^{n+1}$), mapping cylinder $M_f$, mapping cone $C_f$, adjunction space $Y \cup_f X$, wedge $X \vee Y$, smash $X \wedge Y$. Cellular pushout for CW complex skeleton attachments. Quotient by group action gives covering spaces when properly discontinuous.
+
+### topology.seifert-van-kampen
+
+- **title**: Seifert-van Kampen theorem
+- **prerequisites**: `topology.homotopy`, `topology.fundamental-groupoid`, `topology.topological-space`
+- **tier_anchors**:
+  - master: Brown 1967 (groupoid form); Brown *Topology and Groupoids* §6.7; tom Dieck §3.2
+  - intermediate: Hatcher §1.2; May Ch. 2; Brown §6.7
+  - beginner: Hatcher §1.2 informal; figure-eight / sphere computations
+- **notes**: Classical group form: $\pi_1(U \cup V, x_0) = \pi_1(U, x_0) *_{\pi_1(U \cap V, x_0)} \pi_1(V, x_0)$ when $U$, $V$, $U \cap V$ path-connected. Brown's groupoid form: pushout in $\mathbf{Groupoid}$ for $\pi_1(X, A)$ with $A$ meeting every path-component of $U$, $V$, $U \cap V$ — no connectedness hypothesis on $U \cap V$. Lebesgue-number subdivision argument. Key computations: figure eight ($F_2$), sphere ($0$), genus-$g$ surface ($\langle a_i, b_i \mid \prod[a_i, b_i] \rangle$).
+
 ### rep-theory.cartan-weyl-classification
 
 - **title**: Cartan-Weyl classification
