@@ -56,8 +56,11 @@ CHAPTER_PREFIXES = {
 
 
 def slug_from_title(title: str) -> str:
-    s = title.lower()
-    s = re.sub(r"[^\w\s-]", " ", s)
+    import unicodedata
+    s = unicodedata.normalize("NFKD", title)
+    s = s.encode("ascii", "ignore").decode("ascii")
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9\s-]", " ", s)
     s = re.sub(r"[\s_]+", "-", s)
     return s.strip("-")
 

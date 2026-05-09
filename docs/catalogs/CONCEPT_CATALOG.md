@@ -419,6 +419,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Cannas §28 informal
 - **notes**: Bijection between symplectic toric manifolds (closed, effective Hamiltonian half-dim torus action) and Delzant polytopes (simple + rational + smooth). Five-step construction: facet primitive normals $v_i$; surjection $\beta : \mathbb{R}^d \to \mathbb{R}^n$; kernel torus $K$; standard $T^d$-action on $\mathbb{C}^d$ with diagonal moment map; symplectic reduction $M_\Delta = \mu_K^{-1}(0)/K$. Examples: standard simplex = $\mathbb{CP}^n$ (Fubini-Study); standard cube = $(\mathbb{CP}^1)^n$; trapezoid = Hirzebruch $\mathbb{F}_n$. Originator: Delzant 1988.
 
+### symplectic-geometry.duistermaat-heckman
+
+- **title**: Duistermaat-Heckman theorem
+- **prerequisites**: `symplectic-geometry.moment-map`, `symplectic-geometry.symplectic-reduction`, `symplectic-geometry.ags-convexity`
+- **tier_anchors**:
+  - master: Duistermaat-Heckman 1982 *On the variation in the cohomology of the symplectic form of the reduced phase space* (Invent. Math. 69, originator); Atiyah-Bott 1984 *The moment map and equivariant cohomology* (Topology 23); Cannas §31; Audin §IV.4; Guillemin-Sternberg *Supersymmetry and Equivariant de Rham Theory*
+  - intermediate: Cannas §31; Audin §IV.4
+  - beginner: Cannas §31 informal
+- **notes**: Pushforward of Liouville volume $\omega^n/n!$ under moment map $\mu : M \to \mathfrak{t}^*$ has piecewise-polynomial density $\rho(t)$ of degree $\le n - k$ on chambers of $\mu(M) \setminus \mathcal{W}$, walls $\mathcal{W}$ being moment-map images of fixed-point components of proper subtori. Three formulations: (1) pushforward density polynomial; (2) equivariant integration $\int_M e^{i\langle t, \mu\rangle}\omega^n/n! = \sum_F \int_F e^{i\langle t, \mu(F)\rangle}/e_T(\nu_F)$ over fixed-point components; (3) reduced symplectic volume $\mathrm{vol}(M_t, \omega_t)$ polynomial in $t$. Proof spine: linear variation $[\omega_t] = [\omega_{t_0}] + \langle t - t_0, c_T\rangle$ in cohomology of reduced space; binomial-theorem expansion gives polynomial of degree $\le n - k$. Toric corollary: for symplectic toric $M$, $\int_M \omega^n/n! = (2\pi)^n \mathrm{vol}_{\mathrm{Leb}}(\Delta)$. Worked examples: $S^2$ rotation (constant $\rho = 2\pi$); $\mathbb{CP}^n$ toric (constant $\rho = (2\pi)^n$); coadjoint orbit of $U(n)$ (Harish-Chandra-Itzykson-Zuber integral via Weyl-image fixed points). Prototype of equivariant localisation, subsumed by Atiyah-Bott / Berline-Vergne 1982-1984; non-Abelian generalisation Witten 1992. Originators: Duistermaat-Heckman 1982; Atiyah-Bott 1984 (abstract).
+
 ### symplectic-geometry.symplectisation
 
 - **title**: Symplectisation of a contact manifold
@@ -549,6 +559,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Strogatz §6 informal; Arnold §16 informal
 - **notes**: On finite measure space with measure-preserving $T : X \to X$, every measurable $A$ with $\mu(A) > 0$ has a.e. point returning infinitely often. Pigeonhole proof on $T^{-n}(A)$ disjoint iterates. Mean recurrence time = $\mu(X)/\mu(A)$ (Kac's lemma). Hamiltonian application via Liouville volume. Boltzmann/Zermelo timescale resolution of H-theorem tension. Quantum recurrence in finite-dim Hilbert space; failure in infinite-dim. Foundation of ergodic theory (ergodicity, mixing, K-systems, Bernoulli). Originator: Poincaré 1890; Carathéodory 1919 abstract.
 
+### symplectic-geometry.poincare-cartan-invariants
+
+- **title**: Poincaré-Cartan integral invariants
+- **prerequisites**: `symplectic-geometry.symplectic-manifold`, `symplectic-geometry.hamiltonian-vector-field`, `classical-mechanics.liouville-volume`
+- **tier_anchors**:
+  - master: Poincaré 1890 *Sur le problème des trois corps* (Acta Math. 13) and *Les Méthodes Nouvelles de la Mécanique Céleste* Vol. III §245-§249 (originator); Cartan 1922 *Leçons sur les invariants intégraux* (Hermann, Paris); Arnold *Mathematical Methods of Classical Mechanics* §44 + Appendix 1; Abraham-Marsden *Foundations of Mechanics* §3.4
+  - intermediate: Arnold §44; Goldstein §9.5
+  - beginner: Arnold §44 informal extended-phase-space picture
+- **notes**: Extended phase space $\widetilde{M} = T^*Q \times \mathbb{R}$. Poincaré-Cartan one-form $\theta = p\, dq - H\, dt$. Differential $\omega = d\theta = dp \wedge dq - dH \wedge dt$ has rank $2n$ and one-dimensional kernel; suspended Hamiltonian vector field $\widetilde{X}_H = X_H + \partial_t$ is the kernel direction. First integral invariant $\oint_\gamma \theta$ flow-invariant on closed one-cycles (Poincaré 1890). Higher invariants $\omega^k$ for $k = 1, \ldots, n$ — Cartan 1922 graded family with Liouville volume $\omega^n / n!$ as top degree. Cartan-formula proof: $\iota_{\widetilde{X}_H}\omega = 0$ plus closedness of $\omega$ gives $\mathcal{L}_{\widetilde{X}_H}\omega^k = 0$. Tube-of-trajectories reformulation: integrals on two rims of any tube agree by Stokes. Action variables $I_k = \frac{1}{2\pi}\oint_{\gamma_k} p\, dq$ on a Liouville torus are first invariants on basis loops; angles canonical-conjugate (Liouville-Arnold). Maupertuis principle on energy level $H = E$ as reduction of Hamilton's principle to spatial $\delta \int p\, dq = 0$. Cartan's relative-versus-absolute distinction. Originator: Poincaré 1890/1899; Cartan 1922 systematic theory.
+
 ### symplectic-geometry.adiabatic-invariants
 
 - **title**: Adiabatic invariants
@@ -558,6 +578,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Arnold §52; Goldstein §12.5
   - beginner: Goldstein §12.5 informal; Arnold §52 informal
 - **notes**: Slowly-varying Hamiltonian $H(q, p; \lambda(\epsilon t))$. Adiabatic theorem (Burgers/Ehrenfest 1916, 1D): action $I = (1/2\pi)\oint p\,dq$ conserved up to $O(\epsilon)$ over time $O(\epsilon^{-1})$. Geometric proof: average over fast angle. Higher-dim issues with resonant tori. Magnetic mirror $\mu = mv_\perp^2/(2B)$ adiabatic invariant for charged-particle motion (foundational for tokamaks). Quantum adiabatic theorem (Born-Fock 1928). Berry phase as adiabatic-correction holonomy. Nekhoroshev exponential-stability extension. Connection to KAM. Originator: Ehrenfest 1913-16.
+
+### symplectic-geometry.birkhoff-normal-form
+
+- **title**: Birkhoff normal form
+- **prerequisites**: `symplectic-geometry.hamiltonian-vector-field`, `symplectic-geometry.action-angle-coordinates`, `symplectic-geometry.symplectic-manifold`
+- **tier_anchors**:
+  - master: Birkhoff 1927 *Dynamical Systems* (AMS Colloquium Publications IX, originator); Siegel 1942 (small divisors); Moser 1956 (analytic refinement); Arnold-Kozlov-Neishtadt Ch. 7; Pöschel 1989 *On invariant manifolds of complex analytic mappings near non-resonant fixed points*
+  - intermediate: Arnold *Mathematical Methods of Classical Mechanics* §22 + Appendix 7
+  - beginner: Strogatz §6 informal; Arnold §22 informal opening
+- **notes**: Hamiltonian system near an elliptic equilibrium $z_0$ with $H_2 = \tfrac{1}{2}\sum \omega_j (q_j^2 + p_j^2)$. If $\omega = (\omega_1, \ldots, \omega_n)$ is non-resonant up to order $N$ — no integer relation $\sum k_j \omega_j = 0$ with $|k| \leq N$ — then a sequence of canonical (Lie-series) transformations puts $H = H_2 + Z_4 + Z_6 + \cdots + Z_N + R_{N+1}$ where each $Z_{2k}$ depends only on the actions $I_j = (q_j^2 + p_j^2)/2$ and $R_{N+1} = O(\|z\|^{N+1})$. Construction: at each order $k$, generating function $F_k$ with $\{H_2, F_k\}$ killing the non-resonant part of $H_k$; resonant terms become $Z_k$. Small-divisor / Poincaré non-integrability: full series generally diverges; Diophantine condition gives Gevrey-class smoothness. Examples: 1D (action-angle), 2D non-resonant (full Birkhoff), 2D 1:1 resonance (focus/saddle/centre classification), Lyapunov families near triangular Lagrange points in restricted three-body problem. Refinements: Birkhoff-Gustavson algorithm; KAM as the convergent island in the Birkhoff scheme; Nekhoroshev stability bounds derived from finite-order Birkhoff truncation. Originator: Birkhoff 1927; Siegel 1942 small divisors; Moser 1956 analytic refinement; Pöschel 1989 Gevrey.
+
+### symplectic-geometry.williamson-normal-form
+
+- **title**: Williamson normal form for quadratic Hamiltonians
+- **prerequisites**: `symplectic-geometry.symplectic-vector-space`, `symplectic-geometry.symplectic-manifold`, `symplectic-geometry.symplectic-group`
+- **tier_anchors**:
+  - master: Williamson 1936 (originator, *Amer. J. Math.* 58); Arnold-Kozlov-Neishtadt *Mathematical Aspects of Classical and Celestial Mechanics* Ch. 7; de Gosson *Symplectic Geometry and Quantum Mechanics* Ch. 6; Long *Index Theory for Symplectic Paths*
+  - intermediate: Arnold *Mathematical Methods of Classical Mechanics* §22 + Appendix 6; McDuff-Salamon *Introduction to Symplectic Topology* Ch. 2
+  - beginner: Arnold §22 informal opening; informal harmonic-oscillator picture
+- **notes**: Symplectic congruence classification of quadratic Hamiltonians $H(z) = \tfrac{1}{2} z^T A z$ on $(\mathbb{R}^{2n}, \omega_0)$ with $A$ real symmetric. **Positive-definite case (the headline statement):** there exists $S \in \mathrm{Sp}(2n, \mathbb{R})$ with $S^T A S = \mathrm{diag}(\omega_1, \ldots, \omega_n, \omega_1, \ldots, \omega_n)$, where the positive numbers $\{\omega_1, \ldots, \omega_n\}$ — the **symplectic eigenvalues** or **Williamson invariants** of $A$ — are read off as the absolute values of the eigenvalues of $JA$ (which are $\pm i\omega_k$, all purely imaginary). The unordered multiset $\{\omega_k\}$ is a complete symplectic-conjugacy invariant. Proof: $JA$ is skew-self-adjoint for the inner product $\langle u, v\rangle_A = u^T A v$ (using $A^T = A$, $J^T = -J$), so its spectrum is purely imaginary; pair complex eigenvectors with their conjugates to build a real symplectic basis that simultaneously diagonalises $A$. **Indefinite case (full Williamson 1936 classification):** $JA$-spectrum decomposes under joint $\pm$ and $\bar{\,\cdot\,}$ symmetries into orbits of four types — purely imaginary pair (elliptic, $H = \omega(q^2 + p^2)/2$ with a $\pm$ Krein sign), real pair (saddle, $H = \omega \, q p$), complex quadruple (loxodromic), and zero (parabolic / nilpotent). Long 1971 refinement at degenerate strata (Williamson-Long form). **Connections:** quadratic linearisation underlying the Birkhoff normal form near an elliptic equilibrium; symplectic eigenvalues are the frequency vector entering the KAM Diophantine condition; symplectic capacity of an ellipsoid $\{z^T A z \leq 1\}$ is $\pi / \omega_{\max}$; metaplectic quantisation has spectrum $\sum (n_k + 1/2)\omega_k$; Robertson-Schrödinger uncertainty principle bounds each symplectic eigenvalue of a Gaussian covariance matrix below by $\hbar/2$; Krein theory of strong stability identifies elliptic-block sign collisions as the linear birth of parametric resonance instabilities (e.g. triangular Lagrange points at the critical mass ratio of the restricted three-body problem). Originator: Williamson 1936 *On the algebraic problem concerning the normal forms of linear dynamical systems* (Amer. J. Math. 58); Long 1971 refinement; Arnold App. 6 mechanics-flavoured exposition.
 
 ### topology.cofibration
 

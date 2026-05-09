@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-09T01:01:52.935368+00:00_
+_Generated: 2026-05-09T01:37:10.941929+00:00_
 
 ## Burn-down
 
-- Units shipped: **257**
-- Units queued (gap units from audits): **39**
+- Units shipped: **261**
+- Units queued (gap units from audits): **35**
 - Of which deepenings: **0**
 - Audits completed: **9 / 92**
 - Books unaudited: **57**
@@ -14,26 +14,26 @@ _Generated: 2026-05-09T01:01:52.935368+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `05.09.03` | Birkhoff normal form / perturbation theory | P? | arnold-mathematical-methods |
-| 2 | `05.02.09` | Integral invariants of Poincaré-Cartan | P? | arnold-mathematical-methods |
-| 3 | `05.09.04` | Williamson's normal form for quadratic Hamiltonians | P? | arnold-mathematical-methods |
-| 4 | `05.00.06` | Galilean group and Newtonian mechanics setup | P? | arnold-mathematical-methods |
-| 5 | `05.09.05` | Geodesics on Lie groups / Euler-Arnold equations | P? | arnold-mathematical-methods |
-| 6 | `05.09.06` | Nekhoroshev estimates / exponential stability | P? | arnold-mathematical-methods |
-| 7 | `03.12.00` | Fundamental group | P1 | brown-topology-and-groupoids |
-| 8 | `05.04.05` | Duistermaat-Heckman theorem | P? | cannas-da-silva-symplectic |
-| 9 | `05.04.06` | Symplectic blow-up and symplectic cut | P? | cannas-da-silva-symplectic |
-| 10 | `05.10.04` | Survey of contact topology and Reeb dynamics | P? | cannas-da-silva-symplectic |
-| 11 | `05.06.03` | Newlander-Nirenberg integrability | P? | cannas-da-silva-symplectic |
-| 12 | `06.04.02` | Čech cohomology of holomorphic line bundles | P? | donaldson-riemann-surfaces, forster-riemann-surfaces |
-| 13 | `06.06.06` | Jacobi inversion theorem | P? | donaldson-riemann-surfaces |
-| 14 | `06.06.07` | Riemann's bilinear relations | P? | donaldson-riemann-surfaces |
-| 15 | `06.06.08` | Schottky's theorem and the Schottky problem | P? | donaldson-riemann-surfaces |
-| 16 | `06.08.01` | Gauss-Manin connection | P? | donaldson-riemann-surfaces |
-| 17 | `06.08.02` | Variation of Hodge structure on the Jacobian | P? | donaldson-riemann-surfaces |
-| 18 | `06.04.05` | Hilbert-space PDE for $\bar\partial$ | P? | donaldson-riemann-surfaces |
-| 19 | `06.08.03` | Survey: moduli of Riemann surfaces | P? | donaldson-riemann-surfaces |
-| 20 | `06.04.07` | Survey: sheaf cohomology in algebraic geometry | P? | donaldson-riemann-surfaces |
+| 1 | `05.00.06` | Galilean group and Newtonian mechanics setup | P? | arnold-mathematical-methods |
+| 2 | `05.09.05` | Geodesics on Lie groups / Euler-Arnold equations | P? | arnold-mathematical-methods |
+| 3 | `05.09.06` | Nekhoroshev estimates / exponential stability | P? | arnold-mathematical-methods |
+| 4 | `03.12.00` | Fundamental group | P1 | brown-topology-and-groupoids |
+| 5 | `05.04.06` | Symplectic blow-up and symplectic cut | P? | cannas-da-silva-symplectic |
+| 6 | `05.10.04` | Survey of contact topology and Reeb dynamics | P? | cannas-da-silva-symplectic |
+| 7 | `05.06.03` | Newlander-Nirenberg integrability | P? | cannas-da-silva-symplectic |
+| 8 | `06.04.02` | Čech cohomology of holomorphic line bundles | P? | donaldson-riemann-surfaces, forster-riemann-surfaces |
+| 9 | `06.06.06` | Jacobi inversion theorem | P? | donaldson-riemann-surfaces |
+| 10 | `06.06.07` | Riemann's bilinear relations | P? | donaldson-riemann-surfaces |
+| 11 | `06.06.08` | Schottky's theorem and the Schottky problem | P? | donaldson-riemann-surfaces |
+| 12 | `06.08.01` | Gauss-Manin connection | P? | donaldson-riemann-surfaces |
+| 13 | `06.08.02` | Variation of Hodge structure on the Jacobian | P? | donaldson-riemann-surfaces |
+| 14 | `06.04.05` | Hilbert-space PDE for $\bar\partial$ | P? | donaldson-riemann-surfaces |
+| 15 | `06.08.03` | Survey: moduli of Riemann surfaces | P? | donaldson-riemann-surfaces |
+| 16 | `06.04.07` | Survey: sheaf cohomology in algebraic geometry | P? | donaldson-riemann-surfaces |
+| 17 | `06.09.01` | Stein Riemann surfaces | P? | forster-riemann-surfaces |
+| 18 | `06.09.02` | Theorem A and B for Stein RS | P? | forster-riemann-surfaces |
+| 19 | `06.09.03` | Behnke-Stein on non-compact RS | P? | forster-riemann-surfaces |
+| 20 | `06.09.04` | Cousin I (additive) | P? | forster-riemann-surfaces |
 
 ## Audits completed
 
