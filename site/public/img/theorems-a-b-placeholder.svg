@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Theorems A and B for Stein Riemann surfaces</title>
+  <desc id="desc">A schematic placeholder showing a Stein Riemann surface with a coherent sheaf, a global-section arrow generating a stalk, and a vanishing higher-cohomology box.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g fill="none" stroke="#5a3d6f" stroke-width="6">
+    <path d="M80 200 Q200 80 360 200 Q520 320 640 200"/>
+  </g>
+  <g fill="#d68a3a">
+    <circle cx="200" cy="170" r="10"/>
+    <circle cx="360" cy="200" r="10"/>
+    <circle cx="520" cy="230" r="10"/>
+  </g>
+  <g fill="none" stroke="#3a6f5a" stroke-width="3" stroke-dasharray="6 4">
+    <path d="M360 60 L360 195"/>
+  </g>
+  <g fill="#3a6f5a">
+    <polygon points="354,195 366,195 360,205"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#222">
+    <text x="360" y="50" text-anchor="middle" font-size="20">global sections generate</text>
+    <text x="100" y="100" font-size="18">A: stalk surjection</text>
+    <text x="500" y="320" text-anchor="end" font-size="18">B: H^q = 0, q ≥ 1</text>
+    <text x="360" y="345" text-anchor="middle" font-size="22">Theorems A and B (Stein RS)</text>
+  </g>
+</svg>
