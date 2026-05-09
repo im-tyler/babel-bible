@@ -269,6 +269,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: visual loop deformation
 - **notes**: Homotopy as continuous deformation; homotopy equivalence; fundamental group $\pi_1$ via loop concatenation; higher homotopy groups $\pi_n$ for $n \geq 2$ (abelian by Eckmann-Hilton). Functoriality, homotopy invariance, Seifert-Van Kampen, Hurewicz, universal cover, long exact sequence of a fibration. Eilenberg-MacLane spaces.
 
+### topology.fundamental-group
+
+- **title**: Fundamental group
+- **prerequisites**: `topology.topological-space`, `topology.continuous-map`, `topology.homotopy`
+- **tier_anchors**:
+  - master: Poincaré 1895 *Analysis Situs* (originator); Hatcher §1.1; Brown *Topology and Groupoids* §6; tom Dieck §2
+  - intermediate: Hatcher §1.1; Munkres §51-§52
+  - beginner: Hatcher §1.1 informal; 3Blue1Brown loops-on-circle
+- **notes**: $\pi_1(X, x_0)$ as homotopy classes of based loops $\gamma : [0,1] \to X$, $\gamma(0)=\gamma(1)=x_0$, under concatenation. Identity = constant loop; inverse = reversed loop. Functoriality $f_* : \pi_1(X, x_0) \to \pi_1(Y, y_0)$, $(g \circ f)_* = g_* \circ f_*$. Homotopy invariance: $f \simeq g$ implies $f_* = g_*$. Basepoint independence up to inner automorphism via path conjugation $\beta_\eta$. Standard examples: $\pi_1(\mathbb{R}^n) = 0$, $\pi_1(S^1) = \mathbb{Z}$ (winding number via universal cover), $\pi_1(S^n) = 0$ for $n \geq 2$, $\pi_1(\mathbb{T}^n) = \mathbb{Z}^n$, $\pi_1(\mathbb{RP}^n) = \mathbb{Z}/2$, $\pi_1(\Sigma_g)$ surface group, $\pi_1$(figure-eight) $= F_2$. Loop space $\Omega(X, x_0)$ with compact-open topology; $\pi_0(\Omega X) = \pi_1(X)$ and $\pi_n(X) = \pi_{n-1}(\Omega X)$. Galois correspondence between subgroups and connected covers (`topology.covering-space`). $\pi_1(X, x_0) = \mathrm{Aut}_{\pi_1(X)}(x_0)$ in the fundamental groupoid (`topology.fundamental-groupoid`). Originator Poincaré 1895.
+
 ### topology.fundamental-groupoid
 
 - **title**: Fundamental groupoid
@@ -429,6 +439,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Cannas §31 informal
 - **notes**: Pushforward of Liouville volume $\omega^n/n!$ under moment map $\mu : M \to \mathfrak{t}^*$ has piecewise-polynomial density $\rho(t)$ of degree $\le n - k$ on chambers of $\mu(M) \setminus \mathcal{W}$, walls $\mathcal{W}$ being moment-map images of fixed-point components of proper subtori. Three formulations: (1) pushforward density polynomial; (2) equivariant integration $\int_M e^{i\langle t, \mu\rangle}\omega^n/n! = \sum_F \int_F e^{i\langle t, \mu(F)\rangle}/e_T(\nu_F)$ over fixed-point components; (3) reduced symplectic volume $\mathrm{vol}(M_t, \omega_t)$ polynomial in $t$. Proof spine: linear variation $[\omega_t] = [\omega_{t_0}] + \langle t - t_0, c_T\rangle$ in cohomology of reduced space; binomial-theorem expansion gives polynomial of degree $\le n - k$. Toric corollary: for symplectic toric $M$, $\int_M \omega^n/n! = (2\pi)^n \mathrm{vol}_{\mathrm{Leb}}(\Delta)$. Worked examples: $S^2$ rotation (constant $\rho = 2\pi$); $\mathbb{CP}^n$ toric (constant $\rho = (2\pi)^n$); coadjoint orbit of $U(n)$ (Harish-Chandra-Itzykson-Zuber integral via Weyl-image fixed points). Prototype of equivariant localisation, subsumed by Atiyah-Bott / Berline-Vergne 1982-1984; non-Abelian generalisation Witten 1992. Originators: Duistermaat-Heckman 1982; Atiyah-Bott 1984 (abstract).
 
+### symplectic-geometry.symplectic-blowup
+
+- **title**: Symplectic blow-up and symplectic cut
+- **prerequisites**: `symplectic-geometry.symplectic-reduction`, `symplectic-geometry.delzant-theorem`, `symplectic-geometry.almost-complex`
+- **tier_anchors**:
+  - master: Lerman 1995 *Symplectic cuts* (Math. Res. Lett. 2, originator of the cut construction); McDuff-Polterovich 1994 *Symplectic packings and algebraic geometry* (Invent. Math. 115); Cannas §29; McDuff-Salamon *Introduction to Symplectic Topology* Ch. 7 and Ch. 9; Beauville *Complex Algebraic Surfaces* Ch. II
+  - intermediate: Cannas §29; McDuff-Salamon Ch. 7
+  - beginner: Cannas §29 informal
+- **notes**: Symplectic analogue of the algebraic blow-up: replace a Darboux ball $B(p, \delta) \subset (M, \omega)$ around a point $p$ with a tubular neighbourhood of $\mathbb{CP}^{n - 1}$ (the exceptional divisor, scaled by $\delta$). Two equivalent constructions: (i) Lerman's symplectic cut at level $\mu = \delta$ for the rotational $S^1$-action with moment map $\mu(z) = \pi\|z\|^2$ on the Darboux ball, giving $M_\delta = \mu^{-1}([0, \delta])/{\sim}$ where the $\delta$-level is collapsed by the $S^1$-action; (ii) explicit gluing via the tautological line bundle $\mathcal{O}_{\mathbb{P}^{n-1}}(-1)$ over $\mathbb{CP}^{n-1}$, with the Hopf-style projection making the symplectic form patch smoothly. Properties: $H^*(\widetilde M) = H^*(M) \oplus H^*(\mathbb{CP}^{n-1})_{\geq 1}$ additively; for surfaces ($n = 2$) introduces a $(-1)$-curve, a symplectic 2-sphere of self-intersection $-1$; symplectic volume $\mathrm{vol}(\widetilde M) = \mathrm{vol}(M) - \mathrm{vol}(B(p, \delta)) + \mathrm{vol}(\mathbb{CP}^{n-1}_\delta) = \mathrm{vol}(M) - O(\delta^{2n})$. Examples: blow-up of $\mathbb{CP}^2$ at a point = Hirzebruch surface $\mathbb{F}_1$; blow-up of $\mathbb{CP}^1 \times \mathbb{CP}^1$ at a point; symplectic cut on toric varieties chops the Delzant polytope along a hyperplane. Inverse: Castelnuovo's contractibility theorem (a $(-1)$-curve in a smooth projective surface contracts to a smooth point) has a symplectic analogue. Applications: birational classification of complex surfaces (Castelnuovo-Beauville-Bombieri); symplectic-embedding flexibility / obstructions (McDuff-Polterovich 1994); compactification of Donaldson instanton moduli spaces (ideal instantons via blow-ups). Originator: algebraic side, Cremona / Italian school 19th c.; symplectic side, Gromov 1985 (sketched) and Lerman 1995 (cut construction made explicit); McDuff-Polterovich 1994 systematic embedding applications.
+
 ### symplectic-geometry.symplectisation
 
 - **title**: Symplectisation of a contact manifold
@@ -458,6 +478,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Arnold *Mathematical Methods* Appendix 8; Wayne 1996 lecture notes
   - beginner: Strogatz §8 informal
 - **notes**: APEX UNIT. Persistence of invariant tori under Hamiltonian perturbation. Setup: integrable $H_0(I)$ with action-angle coords; perturbation $H_\epsilon = H_0 + \epsilon H_1$. Diophantine condition $|\langle k, \omega^*\rangle| \geq \gamma/|k|^\tau$. Kolmogorov non-degeneracy $\det \partial^2 H_0/\partial I^2 \neq 0$. Theorem: Diophantine torus survives for small $\epsilon$. Newton-iteration / KAM scheme: cohomological equation, Fourier decomposition, super-exponential convergence with controlled analyticity loss. Measure conclusion: $1 - C\sqrt\epsilon$ of phase space remains invariant. Refinements: Moser twist 1962, Pöschel $C^k$ 1982, lower-dim tori, Nekhoroshev exponential stability, Aubry-Mather. Applications: solar-system stability, magnetic confinement, beam dynamics. Originators: Kolmogorov 1954 (4-page Dokl. announcement); Arnold 1963 (full proof); Moser 1962 (smooth twist version).
+
+### classical-mechanics.galilean-newtonian-setup
+
+- **title**: Galilean group and Newtonian mechanics
+- **prerequisites**: `manifolds.smooth-manifold`
+- **tier_anchors**:
+  - master: Newton 1687 *Principia* (originator); Bargmann 1954 *Annals of Math.* 59 (central extension / projective representations); Souriau 1970 *Structure des systèmes dynamiques*; Marsden-Ratiu Ch. 1; Arnold *Mathematical Methods* Appendix 1
+  - intermediate: Arnold *Mathematical Methods* Ch. 1; Marsden-Ratiu Ch. 1
+  - beginner: Strogatz §1 informal; Arnold Ch. 1 informal
+- **notes**: Galilean spacetime as affine 4-space $\mathbb{A}^4$ with absolute time $t : \mathbb{A}^4 \to \mathbb{R}$ and Euclidean structure on each time-fibre. Galilean group $\mathrm{Gal}(4)$ as 10-parameter group of affine transformations preserving time differences and fibre Euclidean structure: spatial translations $\mathbb{R}^3$, time translation $\mathbb{R}$, rotations $\mathrm{SO}(3)$, Galilean boosts $\mathbb{R}^3$, with semi-direct product structure. Inertial frames = Galilean coordinate systems; Galilean relativity principle. Newton's laws restated geometrically on a configuration manifold $Q$ with Newton's 2nd $m_i \ddot q_i = F_i(q, \dot q, t)$ and determinism principle (state $(q, \dot q, t)$ determines the future). Conservative forces $F = -\nabla V$; Lagrangian $L = T - V$ as the bridge to the Lagrangian formalism. Examples: free particle (Newton's 1st), two-body Kepler, $N$-body system with Galilean invariance giving energy / momentum / angular momentum / centre-of-mass conservation laws. Lie algebra $\mathfrak{gal}(4)$ 10-dim with brackets among translations / boosts / rotations. Inönü-Wigner contraction $c \to \infty$ from Poincaré group. Bargmann central extension by $\mathbb{R}$ governs projective QM representations; mass = central charge (Lévy-Leblond 1963). Originator: Galileo 1632 *Dialogue* (relativity principle); Newton 1687 *Principia*; modern group-theoretic framing Bargmann 1954, Souriau 1970.
 
 ### classical-mechanics.lagrangian-on-tm
 
@@ -508,6 +538,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Arnold §47; Marsden-Ratiu Ch. 8
   - beginner: Arnold §47 informal; Strogatz §6 informal
 - **notes**: Kinetic-energy Hamiltonian $H(q, p) = \frac{1}{2} g^{ij} p_i p_j$ on $T^*M$. Hamilton's equations recover the geodesic equation $\ddot q^i + \Gamma^i_{jk}\dot q^j \dot q^k = 0$. Unit cotangent bundle $S(T^*M)$ is contact; Reeb = geodesic spray. Killing vector fields → Noether-conserved quantities. Maupertuis-Jacobi reformulation: mechanics with potential $V$ on energy level $H = E$ ↔ pure geodesic flow of Jacobi metric $\tilde g = (E - V)g$. Examples: flat $\mathbb{R}^n$ (straight lines), round $S^n$ (great circles, integrable), hyperbolic plane (Anosov), Jacobi-integrable ellipsoid. Originator: Jacobi 1837.
+
+### symplectic-geometry.euler-arnold-equations
+
+- **title**: Euler-Arnold equations
+- **prerequisites**: `symplectic-geometry.coadjoint-orbit`, `symplectic-geometry.geodesic-flow-hamiltonian`, `lie-theory.lie-group`
+- **tier_anchors**:
+  - master: Euler 1758 *Du mouvement de rotation des corps solides autour d'un axe variable* (Mémoires Berlin 14, originator, rigid body); Arnold 1966 *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits* (Ann. Inst. Fourier 16, originator, general Lie group + ideal fluid); Marsden-Ratiu Ch. 13-14; Arnold-Khesin *Topological Methods in Hydrodynamics*
+  - intermediate: Arnold *Mathematical Methods of Classical Mechanics* §29 + Appendix 2; Marsden-Ratiu Ch. 13
+  - beginner: Strogatz §3 informal rigid-body picture; Arnold §29 informal
+- **notes**: Body-frame projection of geodesic flow on a Lie group $G$ with left-invariant Riemannian metric to the dual Lie algebra $\mathfrak{g}^*$. Setup: inertia operator $I : \mathfrak{g} \to \mathfrak{g}^*$, kinetic-energy Hamiltonian $H(\xi^*) = \tfrac{1}{2}\langle \xi^*, I^{-1}\xi^*\rangle$. Equation: $\dot \xi^* = -\mathrm{ad}^*_{I^{-1}\xi^*}\xi^*$. Hamiltonian flow of $H$ for the Lie-Poisson bracket on $\mathfrak{g}^*$; coadjoint orbits are the symplectic leaves with KKS form. Conservation: energy + Casimirs (= $\mathrm{Ad}^*_G$-invariant functions). Examples: $\mathrm{SO}(3)$ rigid-body Euler equations (Euler 1758, Liouville-integrable, Poinsot construction); $\mathrm{SO}(n)$ rigid body (Manakov 1976, Lax pair with spectral parameter); $\mathrm{SDiff}(M)$ ideal-fluid Euler equations (Arnold 1966, $L^2$ inertia); $\mathrm{Diff}(S^1)$ Bott-Virasoro group with $L^2$ metric → KdV, with $H^1$ metric → Camassa-Holm (Misiołek 1998). Tennis-racket theorem: stability of long/short-axis rotation, instability of medium-axis. Geodesic completeness: full for compact finite-dim $G$, blow-up possible for infinite-dim (Beale-Kato-Majda 1984 vorticity criterion for 3D Euler). Mishchenko-Fomenko argument-shift method (1978) gives Liouville-integrability on semisimple $\mathfrak{g}$. Heavy top via semidirect product $\mathrm{SO}(3) \ltimes \mathbb{R}^3$. Originators: Euler 1758 (rigid body), Arnold 1966 (general Lie group + ideal fluid).
 
 ### topology.blakers-massey
 
