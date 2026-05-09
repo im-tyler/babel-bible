@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-09T02:06:42.419793+00:00_
+_Generated: 2026-05-09T02:21:40.547530+00:00_
 
 ## Burn-down
 
-- Units shipped: **269**
-- Units queued (gap units from audits): **27**
+- Units shipped: **273**
+- Units queued (gap units from audits): **23**
 - Of which deepenings: **0**
 - Audits completed: **9 / 92**
 - Books unaudited: **57**
@@ -14,26 +14,26 @@ _Generated: 2026-05-09T02:06:42.419793+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `06.06.06` | Jacobi inversion theorem | P? | donaldson-riemann-surfaces |
-| 2 | `06.06.07` | Riemann's bilinear relations | P? | donaldson-riemann-surfaces |
-| 3 | `06.06.08` | Schottky's theorem and the Schottky problem | P? | donaldson-riemann-surfaces |
-| 4 | `06.08.01` | Gauss-Manin connection | P? | donaldson-riemann-surfaces |
-| 5 | `06.08.02` | Variation of Hodge structure on the Jacobian | P? | donaldson-riemann-surfaces |
-| 6 | `06.04.05` | Hilbert-space PDE for $\bar\partial$ | P? | donaldson-riemann-surfaces |
-| 7 | `06.08.03` | Survey: moduli of Riemann surfaces | P? | donaldson-riemann-surfaces |
-| 8 | `06.04.07` | Survey: sheaf cohomology in algebraic geometry | P? | donaldson-riemann-surfaces |
-| 9 | `06.09.01` | Stein Riemann surfaces | P? | forster-riemann-surfaces |
-| 10 | `06.09.02` | Theorem A and B for Stein RS | P? | forster-riemann-surfaces |
-| 11 | `06.09.03` | Behnke-Stein on non-compact RS | P? | forster-riemann-surfaces |
-| 12 | `06.09.04` | Cousin I (additive) | P? | forster-riemann-surfaces |
-| 13 | `06.09.05` | Cousin II (multiplicative) | P? | forster-riemann-surfaces |
-| 14 | `06.09.06` | Mittag-Leffler on RS | P? | forster-riemann-surfaces |
-| 15 | `06.09.07` | Runge approximation on RS | P? | forster-riemann-surfaces |
-| 16 | `06.02.02` | Branched coverings as a category | P? | forster-riemann-surfaces |
-| 17 | `06.02.03` | Riemann's existence theorem for algebraic curves | P? | forster-riemann-surfaces |
-| 18 | `06.09.08` | Survey: Cartan-Serre Stein theory in higher dim | P? | forster-riemann-surfaces |
-| 19 | `04.03.05` | Serre's vanishing and finiteness theorems | P? | hartshorne-algebraic-geometry |
-| 20 | `04.02.05` | Smooth, étale, and unramified morphisms | P? | hartshorne-algebraic-geometry |
+| 1 | `06.06.07` | Riemann's bilinear relations | P? | donaldson-riemann-surfaces |
+| 2 | `06.06.08` | Schottky's theorem and the Schottky problem | P? | donaldson-riemann-surfaces |
+| 3 | `06.08.02` | Variation of Hodge structure on the Jacobian | P? | donaldson-riemann-surfaces |
+| 4 | `06.08.03` | Survey: moduli of Riemann surfaces | P? | donaldson-riemann-surfaces |
+| 5 | `06.04.07` | Survey: sheaf cohomology in algebraic geometry | P? | donaldson-riemann-surfaces |
+| 6 | `06.09.02` | Theorem A and B for Stein RS | P? | forster-riemann-surfaces |
+| 7 | `06.09.03` | Behnke-Stein on non-compact RS | P? | forster-riemann-surfaces |
+| 8 | `06.09.04` | Cousin I (additive) | P? | forster-riemann-surfaces |
+| 9 | `06.09.05` | Cousin II (multiplicative) | P? | forster-riemann-surfaces |
+| 10 | `06.09.06` | Mittag-Leffler on RS | P? | forster-riemann-surfaces |
+| 11 | `06.09.07` | Runge approximation on RS | P? | forster-riemann-surfaces |
+| 12 | `06.02.02` | Branched coverings as a category | P? | forster-riemann-surfaces |
+| 13 | `06.02.03` | Riemann's existence theorem for algebraic curves | P? | forster-riemann-surfaces |
+| 14 | `06.09.08` | Survey: Cartan-Serre Stein theory in higher dim | P? | forster-riemann-surfaces |
+| 15 | `04.03.05` | Serre's vanishing and finiteness theorems | P? | hartshorne-algebraic-geometry |
+| 16 | `04.02.05` | Smooth, étale, and unramified morphisms | P? | hartshorne-algebraic-geometry |
+| 17 | `04.05.08` | Riemann-Roch theorem for surfaces | P? | hartshorne-algebraic-geometry |
+| 18 | `04.05.09` | Hodge index theorem | P? | hartshorne-algebraic-geometry |
+| 19 | `04.04.03` | Elliptic curves | P? | hartshorne-algebraic-geometry |
+| 20 | `04.02.07` | Nullstellensatz and dimension theory | P? | hartshorne-algebraic-geometry |
 
 ## Audits completed
 
