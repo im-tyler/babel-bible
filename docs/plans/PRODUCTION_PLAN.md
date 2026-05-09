@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-09T02:39:00.758561+00:00_
+_Generated: 2026-05-09T02:57:42.043548+00:00_
 
 ## Burn-down
 
-- Units shipped: **277**
-- Units queued (gap units from audits): **19**
+- Units shipped: **281**
+- Units queued (gap units from audits): **15**
 - Of which deepenings: **0**
 - Audits completed: **9 / 92**
 - Books unaudited: **57**
@@ -14,25 +14,21 @@ _Generated: 2026-05-09T02:39:00.758561+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `06.06.08` | Schottky's theorem and the Schottky problem | P? | donaldson-riemann-surfaces |
-| 2 | `06.08.03` | Survey: moduli of Riemann surfaces | P? | donaldson-riemann-surfaces |
-| 3 | `06.09.03` | Behnke-Stein on non-compact RS | P? | forster-riemann-surfaces |
-| 4 | `06.09.04` | Cousin I (additive) | P? | forster-riemann-surfaces |
-| 5 | `06.09.05` | Cousin II (multiplicative) | P? | forster-riemann-surfaces |
-| 6 | `06.09.06` | Mittag-Leffler on RS | P? | forster-riemann-surfaces |
-| 7 | `06.09.07` | Runge approximation on RS | P? | forster-riemann-surfaces |
-| 8 | `06.02.02` | Branched coverings as a category | P? | forster-riemann-surfaces |
-| 9 | `06.02.03` | Riemann's existence theorem for algebraic curves | P? | forster-riemann-surfaces |
-| 10 | `06.09.08` | Survey: Cartan-Serre Stein theory in higher dim | P? | forster-riemann-surfaces |
-| 11 | `04.03.05` | Serre's vanishing and finiteness theorems | P? | hartshorne-algebraic-geometry |
-| 12 | `04.02.05` | Smooth, étale, and unramified morphisms | P? | hartshorne-algebraic-geometry |
-| 13 | `04.05.08` | Riemann-Roch theorem for surfaces | P? | hartshorne-algebraic-geometry |
-| 14 | `04.05.09` | Hodge index theorem | P? | hartshorne-algebraic-geometry |
-| 15 | `04.04.03` | Elliptic curves | P? | hartshorne-algebraic-geometry |
-| 16 | `04.02.07` | Nullstellensatz and dimension theory | P? | hartshorne-algebraic-geometry |
-| 17 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
-| 18 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
-| 19 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
+| 1 | `06.09.04` | Cousin I (additive) | P? | forster-riemann-surfaces |
+| 2 | `06.09.05` | Cousin II (multiplicative) | P? | forster-riemann-surfaces |
+| 3 | `06.09.06` | Mittag-Leffler on RS | P? | forster-riemann-surfaces |
+| 4 | `06.09.07` | Runge approximation on RS | P? | forster-riemann-surfaces |
+| 5 | `06.02.03` | Riemann's existence theorem for algebraic curves | P? | forster-riemann-surfaces |
+| 6 | `06.09.08` | Survey: Cartan-Serre Stein theory in higher dim | P? | forster-riemann-surfaces |
+| 7 | `04.03.05` | Serre's vanishing and finiteness theorems | P? | hartshorne-algebraic-geometry |
+| 8 | `04.02.05` | Smooth, étale, and unramified morphisms | P? | hartshorne-algebraic-geometry |
+| 9 | `04.05.08` | Riemann-Roch theorem for surfaces | P? | hartshorne-algebraic-geometry |
+| 10 | `04.05.09` | Hodge index theorem | P? | hartshorne-algebraic-geometry |
+| 11 | `04.04.03` | Elliptic curves | P? | hartshorne-algebraic-geometry |
+| 12 | `04.02.07` | Nullstellensatz and dimension theory | P? | hartshorne-algebraic-geometry |
+| 13 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
+| 14 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
+| 15 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
 
 ## Audits completed
 
