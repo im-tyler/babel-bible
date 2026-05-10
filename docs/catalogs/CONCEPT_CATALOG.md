@@ -81,6 +81,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: 3Blue1Brown / Strogatz analogous derivative-as-measurement level
 - **notes**: First-order elliptic operator on the spinor bundle, $D=c\circ\nabla^S$. Principal symbol is Clifford multiplication, hence elliptic. Role in Lichnerowicz formula, positive scalar curvature, and Atiyah-Singer index theorem.
 
+### foundations.real-numbers
+
+- **title**: Real numbers, integers, rationals
+- **unit**: `00.01.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: Dedekind 1872 *Stetigkeit und irrationale Zahlen* (originator of the cut construction); Cantor 1872 *Über die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen* (originator of the Cauchy-sequence quotient); Hilbert 1899 *Grundlagen der Geometrie* (axiomatic complete-ordered-field characterisation); Tarski 1959 (real-closed-field axiomatisation); Rudin *Principles of Mathematical Analysis* Ch. 1
+  - intermediate: Lang *Basic Mathematics* Ch. 1; Apostol *Calculus Vol. 1* Ch. 1
+  - beginner: Lang *Basic Mathematics* Ch. 1; Strogatz-style number-line picture
+- **notes**: Number-system hierarchy $\mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$. Field axioms (closure, associativity, commutativity, distributivity, identities, inverses) and order axioms for $\mathbb{Q}$ and $\mathbb{R}$. Completeness axiom (least upper bound) and Archimedean property. Two parallel constructions of $\mathbb{R}$ from $\mathbb{Q}$: Dedekind cuts and Cauchy-sequence completion modulo null sequences. Uniqueness of complete ordered fields up to unique order-isomorphism. Irrationality of $\sqrt{2}$ (classical contradiction proof). Density of $\mathbb{Q}$ in $\mathbb{R}$ via Archimedean property. Cardinality jump $|\mathbb{Z}| = |\mathbb{Q}| = \aleph_0$ versus $|\mathbb{R}| = 2^{\aleph_0}$ via Cantor's diagonal argument. Foundational floor for the algebra strand (`linalg.field`), the analysis strand (metric-space completion), and the complex-analysis strand.
+
 ### linalg.field
 
 - **title**: Field
@@ -100,6 +111,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Axler *Linear Algebra Done Right* §1.A
   - beginner: 3Blue1Brown — *Essence of Linear Algebra* Ch. 1
 - **notes**: The single most-reused concept in the curriculum. Definition over arbitrary field, not just $\mathbb{R}$ or $\mathbb{C}$. Counterexamples: function spaces, polynomial rings as $K$-vector spaces.
+
+### linear-algebra.subspace-basis-dimension
+
+- **title**: Subspace, basis, dimension
+- **prerequisites**: `linalg.vector-space`
+- **tier_anchors**:
+  - master: Halmos *Finite-Dimensional Vector Spaces* §I.5–I.8; Hoffman-Kunze §2; Lang *Algebra* Ch. III §5
+  - intermediate: Axler *Linear Algebra Done Right* §2; Apostol *Calculus* Vol. 2 Ch. 1 §1.7–§1.13
+  - beginner: 3Blue1Brown — *Essence of Linear Algebra* Ch. 2 (linear combinations, span, basis)
+- **notes**: The structural triple every linear-algebra computation rests on. Subspace = subset closed under the two operations; basis = linearly independent spanning set; dimension = common cardinality of any basis. Steinitz replacement theorem (1913) is the load-bearing result. Generalises to rank over a PID and to module-theoretic invariants for general modules; in the categorical view, finite-dimensional $K$-vector spaces form a category equivalent to $\mathbb{N}$ with morphisms given by matrices, and $K_0(K\text{-Vect}^{\mathrm{fd}})=\mathbb{Z}$.
 
 ### set-theory.function
 
@@ -2170,6 +2191,17 @@ Before adding a concept to the catalog:
   - beginner: visual local-data intuition
 - **notes**: Supporting v0.5 Riemann-surface and complex-analysis unit.
 
+### complex-analysis.riemann-sphere
+
+- **title**: Riemann sphere
+- **unit**: `06.01.07`
+- **prerequisites**: `complex-analysis.holomorphic-function`
+- **tier_anchors**:
+  - master: Riemann 1857 *Theorie der Abel'schen Functionen* (originator); Klein 1894 *Vorlesungen über die hypergeometrische Funktion*; Ahlfors §1.2.4; Forster §1; Miranda Ch. I; Donaldson Ch. 3; Griffiths-Harris Ch. 1 §3
+  - intermediate: Ahlfors *Complex Analysis* Ch. 1 §2.4; Stein-Shakarchi Vol. II §1.3
+  - beginner: Needham *Visual Complex Analysis* §3.IV (stereographic projection); 3Blue1Brown sphere-of-complex-numbers intuition
+- **notes**: Distinctive Ahlfors item from `plans/fasttrack/lars-ahlfors-complex-analysis.md` §3 audit. Three-tier unit covering one-point compactification, the two-chart holomorphic atlas, biholomorphism with $\mathbb{P}^1(\mathbb{C})$, Möbius automorphism group $\mathrm{PSL}_2(\mathbb{C})$, function field $\mathbb{C}(z)$, Riemann-Roch in genus 0, and Grothendieck's splitting of vector bundles on $\mathbb{P}^1$.
+
 ### complex-analysis.branch-point-ramification
 
 - **title**: Branch point and ramification
@@ -2966,3 +2998,14 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Donaldson *Riemann Surfaces* §10; Hörmander *Introduction to Complex Analysis in Several Variables* §3
   - beginner: Donaldson §10 informal; Demailly informal
 - **notes**: Setup: compact Riemann surface $X$ with Hermitian metric $\omega$ and Hermitian holomorphic line bundle $(L, h)$. The $L^2$ space of $L$-valued $(0, q)$-forms is the completion of $\Omega^{0, q}(X, L)$ under $\langle s, t \rangle = \int_X \langle s, t \rangle_h \, dV_\omega$. The Cauchy-Riemann operator $\bar\partial : L^2_{(0, q)}(X, L) \to L^2_{(0, q+1)}(X, L)$ is a closed densely-defined unbounded operator with Hilbert adjoint $\bar\partial^*$. The Hodge-Laplace $\Delta_{\bar\partial} = \bar\partial \bar\partial^* + \bar\partial^* \bar\partial$ is self-adjoint, elliptic of order two, non-negative. **Hodge-Dolbeault theorem on a compact Riemann surface:** $L^2_{(0, q)}(X, L) = \mathcal{H}^q(X, L) \oplus \overline{\mathrm{im}\, \bar\partial} \oplus \overline{\mathrm{im}\, \bar\partial^*}$ orthogonally; $\mathcal{H}^q(X, L) = \ker \Delta_{\bar\partial}$ is finite-dimensional and canonically isomorphic to $H^q(X, L)$ via the Dolbeault fine resolution. **Solvability:** $\bar\partial f = g$ for $g \in L^2_{(0, 1)}(X, L)$ closed has a solution iff $g \perp \mathcal{H}^1(X, L)$; the canonical solution is $f = \bar\partial^* G g$, the Bergman / Green-operator output. **Bochner-Kodaira-Nakano formula** $\Delta_{\bar\partial} = \Delta_\partial + [i \Theta(L, h), \Lambda]$ on $L$-valued forms gives the curvature lower bound $\langle \Delta_{\bar\partial} \alpha, \alpha \rangle \geq \int_X (i\Theta/\omega) |\alpha|^2 dV$ on $(0, 1)$-forms; positive curvature forces $\mathcal{H}^1 = 0$, recovering Kodaira vanishing $H^1(X, L) = 0$ for $\deg L > 2g - 2$. **Hörmander's $L^2$ existence theorem:** on a complete Kähler manifold with curvature $i \Theta(L, h) \geq c \omega$, every $\bar\partial$-closed $g \in L^2_{(0, q)}$ admits a solution with $\|f\|^2 \leq c^{-1} \|g\|^2$ — foundation of complex analysis on Stein manifolds. Schwartz finiteness theorem $\dim H^q(X, \mathcal{F}) < \infty$ for coherent $\mathcal{F}$ on compact $X$ via $\bar\partial$-Hodge theory + ellipticity of $\Delta_{\bar\partial}$. Spectral discreteness on compact $X$: eigenvalues $0 = \lambda_0 < \lambda_1 \leq \lambda_2 \leq \cdots \to \infty$ with finite multiplicities; the Bergman kernel of $\ker \bar\partial$ encodes geometric data (Tian 1990, Zelditch 1998). Worked examples: $\mathbb{P}^1$ with $\mathcal{O}(d)$ (Kodaira positive for $d \geq 1$ gives $H^1 = 0$); elliptic curve $\mathbb{C}/\Lambda$ trivial bundle (harmonic $(0, 1)$-form $d\bar z$ generates $H^1(X, \mathcal{O}) \cong \mathbb{C}$); higher genus with $\deg L \geq 2g - 1$ gives $H^1 = 0$. Originators: Hörmander 1965 (*Acta Math.* 113); Andreotti-Vesentini 1965 (compact Kähler $L^2$); Hodge 1941 (harmonic representatives); Kodaira 1953 (vanishing).
+
+### analysis.real-number-axioms
+
+- **title**: Real-number axioms (ordered field)
+- **unit**: `02.02.01`
+- **prerequisites**: `set-theory.function`
+- **tier_anchors**:
+  - master: Hilbert 1899 *Grundlagen der Geometrie* §13–§17 (originator of the complete-ordered-field axiomatisation, Vollständigkeitsaxiom); Apostol *Calculus* Vol. 1 Ch. 3; Bourbaki *Topologie Générale* Ch. IV; Tarski 1948 (decidability of the elementary theory)
+  - intermediate: Apostol *Calculus* Vol. 1 Ch. 3 §3.1–3.7; Rudin *Principles of Mathematical Analysis* Ch. 1
+  - beginner: Strogatz number-line intuition; 3Blue1Brown style framing
+- **notes**: The standard axiomatic characterisation of $\mathbb{R}$ as a **complete ordered field**. Thirteen axioms in three families: nine field axioms (closure, associativity, commutativity of $+, \cdot$; identity elements $0 \neq 1$; additive inverse; multiplicative inverse for nonzero; distributivity), three order axioms (trichotomy, transitivity, compatibility of $<$ with $+$ and $\cdot$), and one completeness axiom (every non-empty bounded-above subset has a least upper bound). Apostol's Axiom 11 is the standard textbook framing. **Categoricity:** any two complete ordered fields are uniquely order-isomorphic, so $\mathbb{R}$ is uniquely characterised up to isomorphism. **Archimedean property** as theorem from completeness: for every $x \in \mathbb{R}$ some $n \in \mathbb{N}$ has $n > x$; proof by contradiction via $\sup \mathbb{N}$. **Equivalent reformulations of (C):** Cauchy completeness plus Archimedean, nested-interval property, monotone convergence theorem, Bolzano-Weierstrass. **Independence of axioms** demonstrated by witnessing structures: $\mathbb{Z}$ violates (F6), $\mathbb{C}$ admits no compatible order, $\mathbb{Q}$ violates (C). **Constructive vs classical completeness** (Bishop-Bridges 1967) — Cauchy completeness is intuitionistically valid; LUB completeness needs LEM. **Non-Archimedean extensions** (Robinson 1966) — hyperreals $^*\mathbb{R}$ relax Archimedean, restoring infinitesimals. **Tarski 1948** — the first-order theory of real closed fields is decidable by quantifier elimination, contrasting with the undecidability of $\mathbb{N}$. Foundational for [02.02.02] sup/inf, [02.03.01] sequence convergence, [02.04.04] FTC, and the entire single-variable analysis strand. Originators: Hilbert 1899 (*Grundlagen der Geometrie*) for the axiomatisation; Apostol 1967 for the canonical pedagogical presentation; Dedekind 1872 / Cantor 1872 for the construction-from-rationals alternative; Bourbaki 1940- for the modern formalisation; Tarski 1948 for the elementary theory's decision procedure.

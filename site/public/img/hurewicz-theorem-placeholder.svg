@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hurewicz Theorem</title>
+  <desc id="desc">A schematic placeholder diagram for Hurewicz Theorem.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <ellipse cx="360" cy="170" rx="240" ry="100" fill="none" stroke="#2d5a3d" stroke-width="8"/>
+  <ellipse cx="360" cy="170" rx="240" ry="100" fill="none" stroke="#8a4a8a" stroke-width="3" stroke-dasharray="6 8" transform="rotate(20 360 170)"/>
+  <g fill="#2d5a3d">
+    <circle cx="180" cy="170" r="8"/>
+    <circle cx="540" cy="170" r="8"/>
+    <circle cx="360" cy="80" r="8"/>
+    <circle cx="360" cy="260" r="8"/>
+  </g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Hurewicz Theorem</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Subspaces, basis, and dimension</title>
+  <desc id="desc">A plane through the origin shown as a tilted parallelogram inside three-dimensional space, with two basis arrows spanning it; on the right, three orthogonal basis arrows spanning the surrounding three-dimensional space.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow-blue2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-green2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#059669"/>
+    </marker>
+    <marker id="arrow-purple2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif" fill="#0f172a">
+    <text x="60" y="40" font-size="26" font-weight="700">a subspace is closed under combine and scale</text>
+  </g>
+  <g transform="translate(40,80)">
+    <polygon points="60,200 320,140 380,220 120,280" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2" opacity="0.85"/>
+    <circle cx="200" cy="220" r="6" fill="#0f172a"/>
+    <g fill="none" stroke-linecap="round" stroke-width="6">
+      <path d="M200 220 L320 170" stroke="#2563eb" marker-end="url(#arrow-blue2)"/>
+      <path d="M200 220 L160 270" stroke="#dc2626" marker-end="url(#arrow-red2)"/>
+      <path d="M200 220 L290 280" stroke="#059669" marker-end="url(#arrow-green2)"/>
+    </g>
+    <text x="328" y="166" font-size="20" font-weight="700" fill="#2563eb">v_1</text>
+    <text x="138" y="290" font-size="20" font-weight="700" fill="#dc2626">v_2</text>
+    <text x="298" y="298" font-size="18" font-weight="700" fill="#059669">a v_1 + b v_2</text>
+    <text x="60" y="320" font-size="17">plane through the origin: a 2-dim subspace of 3-dim space</text>
+  </g>
+  <g transform="translate(540,80)">
+    <g stroke="#cbd5e1" stroke-width="1">
+      <path d="M0 240 L360 240"/>
+      <path d="M180 0 L180 320"/>
+      <path d="M40 320 L320 40"/>
+    </g>
+    <circle cx="180" cy="220" r="6" fill="#0f172a"/>
+    <g fill="none" stroke-linecap="round" stroke-width="6">
+      <path d="M180 220 L300 220" stroke="#2563eb" marker-end="url(#arrow-blue2)"/>
+      <path d="M180 220 L180 100" stroke="#dc2626" marker-end="url(#arrow-red2)"/>
+      <path d="M180 220 L100 140" stroke="#7c3aed" marker-end="url(#arrow-purple2)"/>
+    </g>
+    <text x="306" y="218" font-size="20" font-weight="700" fill="#2563eb">e_1</text>
+    <text x="190" y="100" font-size="20" font-weight="700" fill="#dc2626">e_2</text>
+    <text x="60" y="138" font-size="20" font-weight="700" fill="#7c3aed">e_3</text>
+    <text x="0" y="320" font-size="17">three independent arrows: a basis of 3-dim space</text>
+  </g>
+</svg>
