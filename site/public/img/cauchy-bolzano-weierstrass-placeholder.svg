@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Cauchy clustering and the bisection construction of a convergent subsequence</title>
+  <desc id="desc">Top: a number line with sequence terms clustering tighter and tighter around a limit, illustrating the Cauchy condition. Bottom: a bounded interval being halved repeatedly, with the half containing infinitely many terms shaded and converging to a single point — the bisection proof of Bolzano-Weierstrass.</desc>
+  <rect width="900" height="460" fill="#f8fafc"/>
+
+  <g transform="translate(60 40)">
+    <text x="380" y="0" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#1f2933">Cauchy: later terms cluster tighter and tighter</text>
+    <line x1="0" y1="50" x2="760" y2="50" stroke="#1f2933" stroke-width="3"/>
+    <polygon points="760,50 745,42 745,58" fill="#1f2933"/>
+    <polygon points="0,50 15,42 15,58" fill="#1f2933"/>
+    <g fill="#2f5f89">
+      <circle cx="120" cy="50" r="6"/>
+      <circle cx="640" cy="50" r="6"/>
+      <circle cx="220" cy="50" r="6"/>
+      <circle cx="540" cy="50" r="6"/>
+      <circle cx="300" cy="50" r="5"/>
+      <circle cx="460" cy="50" r="5"/>
+      <circle cx="350" cy="50" r="4"/>
+      <circle cx="410" cy="50" r="4"/>
+      <circle cx="375" cy="50" r="3"/>
+      <circle cx="385" cy="50" r="3"/>
+    </g>
+    <line x1="380" y1="40" x2="380" y2="80" stroke="#16a34a" stroke-width="3"/>
+    <text x="380" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#16a34a">limit L</text>
+  </g>
+
+  <g transform="translate(60 200)">
+    <text x="380" y="0" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#1f2933">Bolzano-Weierstrass by bisection</text>
+
+    <g transform="translate(0 30)">
+      <rect x="0" y="0" width="760" height="24" fill="#e2e8f0" stroke="#1f2933" stroke-width="2"/>
+      <text x="-10" y="18" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">[a, b]</text>
+    </g>
+
+    <g transform="translate(0 70)">
+      <rect x="0" y="0" width="380" height="24" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <rect x="380" y="0" width="380" height="24" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+      <text x="-10" y="18" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">step 1</text>
+    </g>
+
+    <g transform="translate(0 110)">
+      <rect x="0" y="0" width="190" height="24" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+      <rect x="190" y="0" width="190" height="24" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <rect x="380" y="0" width="380" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="-10" y="18" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">step 2</text>
+    </g>
+
+    <g transform="translate(0 150)">
+      <rect x="0" y="0" width="190" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="190" y="0" width="95" height="24" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#1f2933" stroke-width="2"/>
+      <rect x="380" y="0" width="380" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="-10" y="18" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">step 3</text>
+    </g>
+
+    <line x1="237" y1="180" x2="237" y2="210" stroke="#16a34a" stroke-width="3"/>
+    <text x="237" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#16a34a">single limit point L</text>
+  </g>
+</svg>

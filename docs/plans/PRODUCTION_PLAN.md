@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-10T18:40:09.235183+00:00_
+_Generated: 2026-05-10T18:53:23.123366+00:00_
 
 ## Burn-down
 
-- Units shipped: **293**
-- Units queued (gap units from audits): **74**
+- Units shipped: **297**
+- Units queued (gap units from audits): **70**
 - Of which deepenings: **0**
 - Audits completed: **13 / 92**
 - Books unaudited: **47**
@@ -21,19 +21,19 @@ _Generated: 2026-05-10T18:40:09.235183+00:00_
 | 5 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
 | 6 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
 | 7 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
-| 8 | `06.01.08` | Möbius (linear-fractional) transformations | P? | lars-ahlfors-complex-analysis |
-| 9 | `06.01.10` | Cauchy-Riemann equations + harmonic conjugate | P? | lars-ahlfors-complex-analysis |
-| 10 | `06.01.11` | Harmonic functions on the plane | P? | lars-ahlfors-complex-analysis |
-| 11 | `06.01.12` | Maximum modulus + Schwarz lemma | P? | lars-ahlfors-complex-analysis |
-| 12 | `06.01.13` | Argument principle and Rouché | P? | lars-ahlfors-complex-analysis |
-| 13 | `06.01.14` | Normal families and Montel's theorem | P? | lars-ahlfors-complex-analysis |
-| 14 | `06.01.15` | Gamma function $\Gamma(z)$ | P? | lars-ahlfors-complex-analysis |
-| 15 | `06.01.16` | Riemann zeta function $\zeta(s)$ | P? | lars-ahlfors-complex-analysis |
-| 16 | `06.01.17` | Weierstrass factorization theorem | P? | lars-ahlfors-complex-analysis |
-| 17 | `06.01.18` | Mittag-Leffler theorem on $\mathbb{C}$ | P? | lars-ahlfors-complex-analysis |
-| 18 | `06.01.19` | Schwarz-Christoffel formula | P? | lars-ahlfors-complex-analysis |
-| 19 | `06.01.20` | Picard's little theorem | P? | lars-ahlfors-complex-analysis |
-| 20 | `06.01.21` | Picard's great theorem | P? | lars-ahlfors-complex-analysis |
+| 8 | `06.01.10` | Cauchy-Riemann equations + harmonic conjugate | P? | lars-ahlfors-complex-analysis |
+| 9 | `06.01.11` | Harmonic functions on the plane | P? | lars-ahlfors-complex-analysis |
+| 10 | `06.01.12` | Maximum modulus + Schwarz lemma | P? | lars-ahlfors-complex-analysis |
+| 11 | `06.01.13` | Argument principle and Rouché | P? | lars-ahlfors-complex-analysis |
+| 12 | `06.01.14` | Normal families and Montel's theorem | P? | lars-ahlfors-complex-analysis |
+| 13 | `06.01.15` | Gamma function $\Gamma(z)$ | P? | lars-ahlfors-complex-analysis |
+| 14 | `06.01.16` | Riemann zeta function $\zeta(s)$ | P? | lars-ahlfors-complex-analysis |
+| 15 | `06.01.17` | Weierstrass factorization theorem | P? | lars-ahlfors-complex-analysis |
+| 16 | `06.01.18` | Mittag-Leffler theorem on $\mathbb{C}$ | P? | lars-ahlfors-complex-analysis |
+| 17 | `06.01.19` | Schwarz-Christoffel formula | P? | lars-ahlfors-complex-analysis |
+| 18 | `06.01.20` | Picard's little theorem | P? | lars-ahlfors-complex-analysis |
+| 19 | `06.01.21` | Picard's great theorem | P? | lars-ahlfors-complex-analysis |
+| 20 | `06.01.22` | Phragmén-Lindelöf principle | P? | lars-ahlfors-complex-analysis |
 
 ## Audits completed
 
