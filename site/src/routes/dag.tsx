@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { sectionLabel, sectionOrder, SECTIONS } from "../lib/sections";
 
 export function head() {
   return {
@@ -8,97 +9,158 @@ export function head() {
   };
 }
 
+interface Edge { from: string; to: string; state: string }
+
+function sectionKeyForId(id: string): string {
+  // "05.09.03" -> use first numeric segment to look up a key in SECTIONS.
+  // Convention from content/ tree: numeric chapter index maps to a section.
+  const top = id.split(".")[0];
+  const idx = parseInt(top, 10);
+  // Heuristic: SECTIONS array is ordered by `order`; map numeric index to first match.
+  const sec = SECTIONS.find((s) => s.order === idx);
+  return sec?.key || "unsectioned";
+}
+
 export async function loader() {
   const depsPath = resolve(import.meta.dirname, "../../../manifests/deps.json");
   let deps: any = { edges: [], shipped: [], pending: [] };
-  try {
-    deps = JSON.parse(readFileSync(depsPath, "utf-8"));
-  } catch (e) {
-    // empty fallback
+  try { deps = JSON.parse(readFileSync(depsPath, "utf-8")); }
+  catch { /* empty */ }
+
+  const edges: Edge[] = deps.edges || [];
+  const shipped: string[] = deps.shipped || [];
+  const pending: string[] = deps.pending || [];
+  const notes: Record<string, string> = deps._notes || {};
+
+  // Section adjacency counts: from-section -> to-section -> count.
+  const sectionsUsed = new Set<string>();
+  shipped.forEach((id) => sectionsUsed.add(sectionKeyForId(id)));
+  pending.forEach((id) => sectionsUsed.add(sectionKeyForId(id)));
+
+  const sectionOrder_ = (k: string) => sectionOrder(k);
+  const sectionList = Array.from(sectionsUsed).sort((a, b) => sectionOrder_(a) - sectionOrder_(b));
+
+  const matrix: Record<string, Record<string, number>> = {};
+  for (const k of sectionList) {
+    matrix[k] = {};
+    for (const j of sectionList) matrix[k][j] = 0;
   }
+  for (const e of edges) {
+    const from = sectionKeyForId(e.from);
+    const to = sectionKeyForId(e.to);
+    if (matrix[from] && matrix[from][to] !== undefined) {
+      matrix[from][to]++;
+    }
+  }
+
+  // Find max count for color scale.
+  let maxCount = 0;
+  for (const k of sectionList) for (const j of sectionList) {
+    if (k === j) continue;
+    if (matrix[k][j] > maxCount) maxCount = matrix[k][j];
+  }
+
   return {
-    edgeCount: (deps.edges || []).length,
-    shipped: deps.shipped || [],
-    pending: deps.pending || [],
-    edges: (deps.edges || []) as Array<{ from: string; to: string; state: string }>,
-    notes: (deps._notes || {}) as Record<string, string>,
+    edgeCount: edges.length,
+    shipped, pending, notes,
+    sectionList,
+    matrix,
+    maxCount,
   };
 }
 
 export default function DagPage({ data }: { data: any }) {
-  // For v0.1 we render the DAG as a structured list grouped by edge state.
-  // Visualisation will arrive when the unit count justifies the layout cost.
-  const byTo: Record<string, Array<{ from: string; state: string }>> = {};
-  for (const e of data.edges) {
-    if (!byTo[e.to]) byTo[e.to] = [];
-    byTo[e.to].push({ from: e.from, state: e.state });
-  }
-  const targets = Object.keys(byTo).sort();
+  const sections: string[] = data.sectionList;
+  const matrix = data.matrix as Record<string, Record<string, number>>;
+  const max = data.maxCount || 1;
 
   return (
-    <article class="prose">
-      <h1>Dependency map</h1>
-      <p class="muted">
-        Curriculum prerequisite graph from <code>manifests/deps.json</code>. {data.edgeCount} edges across{" "}
-        {data.shipped.length} shipped and {data.pending.length} pending units.
-      </p>
+    <article>
+      <section class="page-narrow" style="padding-top: 0;">
+        <h1>Dependency map</h1>
+        <p class="lede">
+          Curriculum prerequisite graph from <code>manifests/deps.json</code>.{" "}
+          <strong>{data.edgeCount}</strong> edges across {data.shipped.length} shipped and{" "}
+          {data.pending.length} pending units.
+        </p>
+      </section>
 
-      <h2>Shipped units</h2>
-      {data.shipped.length === 0 ? (
-        <p class="muted">None yet.</p>
-      ) : (
-        <ul>
-          {data.shipped.map((id: string) => (
-            <li>
-              <a href={`/u/${id}`}><code>{id}</code></a>
-              {data.notes[id] && <span class="muted"> — {data.notes[id]}</span>}
-            </li>
-          ))}
-        </ul>
-      )}
-
-      <h2>Pending units (declared but not yet produced)</h2>
-      <p class="muted">
-        These ids are referenced by shipped units as prerequisites or successors. They will be filled in by future production waves.
-      </p>
-      {data.pending.length === 0 ? (
-        <p class="muted">None.</p>
-      ) : (
-        <ul>
-          {data.pending.map((id: string) => (
-            <li>
-              <code>{id}</code>
-              {data.notes[id] && <span class="muted"> — {data.notes[id]}</span>}
-            </li>
-          ))}
-        </ul>
-      )}
-
-      <h2>Edges (each unit's incoming dependencies)</h2>
-      {targets.length === 0 ? (
-        <p class="muted">No edges yet.</p>
-      ) : (
-        <ul>
-          {targets.map((t: string) => (
-            <li>
-              <code>{t}</code>{" requires: "}
-              {byTo[t].map((e, i) => (
-                <>
-                  {i > 0 && ", "}
-                  <code>{e.from}</code>{" "}
-                  <span class={`badge badge--${e.state === "shipped" ? "shipped" : "pending"}`}>
-                    {e.state}
-                  </span>
-                </>
+      <section class="page-narrow">
+        <h2>Section adjacency</h2>
+        <p class="muted">
+          How many prerequisite edges flow from one section to another. Rows are the prereq
+          (<em>from</em>); columns are the dependent (<em>to</em>). Diagonal cells (intra-section)
+          and off-diagonal cells (cross-section) are coloured by edge density.
+        </p>
+        <div class="dag-matrix-wrap">
+          <table class="dag-matrix">
+            <thead>
+              <tr>
+                <th class="dag-matrix__corner"></th>
+                {sections.map((s) => (
+                  <th class="dag-matrix__col-head" title={sectionLabel(s)}>
+                    <span class="dag-matrix__rot">{sectionLabel(s)}</span>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {sections.map((row) => (
+                <tr>
+                  <th class="dag-matrix__row-head">{sectionLabel(row)}</th>
+                  {sections.map((col) => {
+                    const v = matrix[row]?.[col] || 0;
+                    const intensity = v === 0 ? 0 : Math.min(1, v / max);
+                    const bg = `color-mix(in srgb, var(--accent) ${Math.round(intensity * 70)}%, transparent)`;
+                    return (
+                      <td
+                        class="dag-matrix__cell"
+                        style={`background:${bg}`}
+                        title={`${sectionLabel(row)} → ${sectionLabel(col)}: ${v} edges`}
+                      >
+                        {v > 0 ? v : ""}
+                      </td>
+                    );
+                  })}
+                </tr>
               ))}
-            </li>
-          ))}
-        </ul>
-      )}
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-      <p class="muted">
-        Visual graph rendering (force-directed or layered DAG) will arrive when the unit count justifies the layout work — likely once Wave C (units #3–10) is done.
-      </p>
+      <section class="page-narrow">
+        <h2>Shipped units ({data.shipped.length})</h2>
+        {data.shipped.length === 0 ? (
+          <p class="muted">None yet.</p>
+        ) : (
+          <ul class="dag-id-list">
+            {data.shipped.map((id: string) => (
+              <li>
+                <a href={`/u/${id}`}><code>{id}</code></a>
+                {data.notes[id] && <span class="muted"> — {data.notes[id]}</span>}
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+
+      {data.pending.length > 0 && (
+        <section class="page-narrow">
+          <h2>Pending units ({data.pending.length})</h2>
+          <p class="muted">
+            Declared as a prerequisite or successor by a shipped unit but not yet produced.
+          </p>
+          <ul class="dag-id-list">
+            {data.pending.map((id: string) => (
+              <li>
+                <code>{id}</code>
+                {data.notes[id] && <span class="muted"> — {data.notes[id]}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </article>
   );
 }

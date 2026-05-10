@@ -107,10 +107,13 @@ export default function RootLayout({ children }: { children: any }) {
           <nav>
             <a href="/units">Units</a>
             <a href="/concepts">Concepts</a>
+            <a href="/connections">Connections</a>
             <a href="/sources">Sources</a>
             <a href="/lean">Lean</a>
-            <a href="/production">Production</a>
             <a href="/dag">DAG</a>
+            <a href="/production">Production</a>
+            <a href="/specs">Specs</a>
+            <a href="/plans">Plans</a>
             <a href="/about">About</a>
           </nav>
           <div class="header-controls">
