@@ -69,8 +69,11 @@ You are running a Fast Track audit at `/Users/tyler/Documents/Code Projects/Code
 - §2 Coverage table: book topic → Codex unit ID(s) → status (✓ / △ / ✗) → note. Use ACTUAL existing unit IDs only — do NOT invent. Run `find content -name "*.md" | sort` early and cross-reference accurately.
 - §3 Gap punch-list, priority-ordered (P1 / P2 / P3 / P4):
   - Each item has the form: `1. **\\`<id>\\` <title>.** <one-paragraph spec describing exactly what to write>`.
-  - For new units: pick a sensible unit id (`<chapter>.<section>.<position>`) by looking at which sub-chapter the topic logically belongs in. AVOID collisions with shipped IDs (the production plan tracks 257+ shipped units; check before assigning).
-  - For deepenings of existing templated units: cite the existing unit id and explain what proof / content needs to replace the templated stand-in.
+  - **Three kinds** of items (use the correct kind tag):
+    - `[NEW]` — new unit. Pick a sensible unit id (`<chapter>.<section>.<position>`) by looking at which sub-chapter the topic logically belongs in. AVOID collisions with shipped IDs.
+    - `[DEEPEN]` — deepen an existing templated unit. Cite the existing unit id and explain what proof / content needs to replace the templated stand-in.
+    - `[ENRICH]` — concept already fully covered by an existing unit. The audit's job is just to record the citation: book + chapter/section + 1-line note about what perspective this book contributes (proof variant / worked example / historical context). Spec field is the bibliography-patch.
+  - When a concept is already shipped well, prefer `[ENRICH]` over duplicate authoring. We do not want two unit-versions of the same concept; we want one canonical unit citing every book that covers it.
 - §4 Implementation sketch (production estimates).
 - §5 What this plan does NOT cover (out-of-scope topics, deferred sections).
 - §6 Acceptance criteria for FT equivalence on this book.
@@ -86,10 +89,23 @@ Lines produced; P1 / P2 / P3 / P4 punch-list counts; estimated existing-coverage
 """
 
 
+def emit_one(book: dict, as_json: bool) -> None:
+    book["slug"] = slug_for(book)
+    if as_json:
+        print(json.dumps({**book, "rendered_brief": BRIEF_TEMPLATE.format(**book)},
+                         indent=2, ensure_ascii=False))
+    else:
+        print(BRIEF_TEMPLATE.format(**book))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--ft-entry")
     ap.add_argument("--slug")
+    ap.add_argument("--batch", type=int, default=1,
+                    help="emit briefs for N books in parallel (separated by '\\n---BRIEF-BREAK---\\n')")
+    ap.add_argument("--ft-prefix",
+                    help="restrict to books whose ft_entry starts with this prefix (e.g., '0.' for prereqs)")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
 
@@ -108,24 +124,22 @@ def main() -> int:
         filtered.append(b)
 
     if args.ft_entry:
-        candidates = [b for b in filtered if b["ft_entry"] == args.ft_entry]
+        filtered = [b for b in filtered if b["ft_entry"] == args.ft_entry]
     elif args.slug:
-        candidates = [b for b in filtered if slug_for(b) == args.slug]
-    else:
-        candidates = filtered
+        filtered = [b for b in filtered if slug_for(b) == args.slug]
 
-    if not candidates:
+    if args.ft_prefix:
+        filtered = [b for b in filtered if b["ft_entry"].startswith(args.ft_prefix)]
+
+    if not filtered:
         print("no unaudited book matches", file=sys.stderr)
         return 1
 
-    book = candidates[0]
-    book["slug"] = slug_for(book)
-
-    if args.json:
-        print(json.dumps({**book, "rendered_brief": BRIEF_TEMPLATE.format(**book)},
-                         indent=2, ensure_ascii=False))
-    else:
-        print(BRIEF_TEMPLATE.format(**book))
+    take = filtered[: max(1, args.batch)]
+    for i, book in enumerate(take):
+        if i > 0:
+            print("\n---BRIEF-BREAK---\n")
+        emit_one(book, args.json)
     return 0
 
 
