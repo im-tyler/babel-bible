@@ -107,13 +107,6 @@ export default function RootLayout({ children }: { children: any }) {
           <nav>
             <a href="/units">Units</a>
             <a href="/concepts">Concepts</a>
-            <a href="/connections">Connections</a>
-            <a href="/sources">Sources</a>
-            <a href="/lean">Lean</a>
-            <a href="/dag">DAG</a>
-            <a href="/production">Production</a>
-            <a href="/specs">Specs</a>
-            <a href="/plans">Plans</a>
             <a href="/about">About</a>
           </nav>
           <div class="header-controls">
@@ -135,8 +128,31 @@ export default function RootLayout({ children }: { children: any }) {
       </main>
       <footer class="site-footer">
         <div class="container">
-          <p>Codex — math &amp; physics curriculum, all tiers.</p>
-          <p class="muted">v0.1 pilot. Apex-first. Master tier seeded; lower tiers backfilling.</p>
+          <div class="footer-grid">
+            <div>
+              <p class="footer-brand">Codex</p>
+              <p class="muted">Math &amp; physics curriculum, all tiers. v0.1 pilot.</p>
+            </div>
+            <div>
+              <p class="footer-heading">Browse</p>
+              <a href="/units">Units</a>
+              <a href="/concepts">Concepts</a>
+              <a href="/dag">Dependency map</a>
+            </div>
+            <div>
+              <p class="footer-heading">Sources</p>
+              <a href="/sources">Booklist</a>
+              <a href="/connections">Connections</a>
+              <a href="/lean">Lean status</a>
+            </div>
+            <div>
+              <p class="footer-heading">Project</p>
+              <a href="/production">Production</a>
+              <a href="/specs">Specs</a>
+              <a href="/plans">Plans</a>
+              <a href="/about">About</a>
+            </div>
+          </div>
         </div>
       </footer>
       <script dangerouslySetInnerHTML={{ __html: TOGGLE_INIT }} />
