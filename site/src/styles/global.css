@@ -13,22 +13,22 @@
   --serif: "EB Garamond", "Georgia", "Times New Roman", serif;
 }
 
-/* ---------- Theme: dark (default) ---------- */
+/* ---------- Theme: dark (default) — warm graphite ---------- */
 :root,
 html[data-theme="dark"] {
-  --bg: #0c0d10;
-  --bg-elev: #16181d;
-  --fg: #e6e6e6;
-  --fg-strong: #ffffff;
-  --muted: #8a8d96;
-  --accent: #7aa2f7;
-  --accent-2: #bb9af7;
-  --warn: #e0af68;
-  --good: #9ece6a;
-  --border: #1f2128;
-  --code-bg: #16181d;
-  --code-fg: #c0caf5;
-  --table-stripe: rgba(255, 255, 255, 0.02);
+  --bg: #14110d;             /* warm near-black, slight brown undertone */
+  --bg-elev: #1c1813;        /* warm graphite */
+  --fg: #ece7da;             /* warm off-white, not icy */
+  --fg-strong: #fbf7ee;
+  --muted: #9c9180;          /* warm grey */
+  --accent: #d4a574;          /* amber / caramel — replaces cold blue */
+  --accent-2: #c08552;        /* deeper caramel for secondary */
+  --warn: #e0a060;
+  --good: #a8c884;            /* warmer olive-green than tokyonight green */
+  --border: #2a2419;
+  --code-bg: #1a1611;
+  --code-fg: #e5d4b3;
+  --table-stripe: rgba(255, 230, 200, 0.025);
 }
 
 /* ---------- Theme: calm (warm sepia) ---------- */
@@ -48,21 +48,21 @@ html[data-theme="calm"] {
   --table-stripe: rgba(0, 0, 0, 0.025);
 }
 
-/* ---------- Theme: light ---------- */
+/* ---------- Theme: light — warm parchment ---------- */
 html[data-theme="light"] {
-  --bg: #ffffff;
-  --bg-elev: #f6f7f9;
-  --fg: #1f2328;
-  --fg-strong: #000000;
-  --muted: #6b7280;
-  --accent: #2563eb;
-  --accent-2: #7c3aed;
-  --warn: #b45309;
-  --good: #15803d;
-  --border: #e5e7eb;
-  --code-bg: #f3f4f6;
-  --code-fg: #1f2937;
-  --table-stripe: rgba(0, 0, 0, 0.02);
+  --bg: #fbf7f0;             /* warm off-white, not icy white */
+  --bg-elev: #f3ede1;        /* warm cream */
+  --fg: #2b2520;             /* warm near-black */
+  --fg-strong: #1a1612;
+  --muted: #756a5c;
+  --accent: #a86a32;          /* terracotta-caramel — replaces cold blue */
+  --accent-2: #8b5a3c;        /* deeper warm brown for secondary */
+  --warn: #b56b1f;
+  --good: #5e7a3d;
+  --border: #e3d8c4;
+  --code-bg: #f0e9d8;
+  --code-fg: #3a2f24;
+  --table-stripe: rgba(120, 80, 30, 0.03);
 }
 
 * { box-sizing: border-box; }
@@ -1082,3 +1082,11 @@ body.cite-panel--open { overflow: hidden; }
   .dag-matrix__cell { width: 28px; height: 24px; font-size: 0.7rem; }
   .dag-matrix__corner, .dag-matrix__row-head { min-width: 100px; font-size: 0.78rem; }
 }
+
+/* ---------- Header tier toggle visible only on unit pages ---------- */
+/* Tier toggle controls per-tier visibility of unit content. It does
+ * nothing on routes that don't have any [data-tier] sections, so hide
+ * it there. :has() is widely supported on evergreen browsers; for old
+ * browsers the toggle simply remains visible (graceful fallback). */
+.tier-toggle { display: none; }
+body:has(article.unit-page) .tier-toggle { display: inline-flex; }

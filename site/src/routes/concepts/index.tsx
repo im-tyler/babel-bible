@@ -17,7 +17,7 @@ function renderInline(s: string | undefined): string {
 
 export function head() {
   return {
-    title: "Concepts | Codex",
+    title: "Concepts | Math STEM",
     description: "Browse the canonical concept catalog. Each concept maps to at most one unit; prerequisites form the dependency graph.",
   };
 }

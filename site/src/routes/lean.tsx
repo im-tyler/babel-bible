@@ -3,7 +3,7 @@ import { sectionLabel, sectionOrder, SECTION_BY_KEY } from "../lib/sections";
 
 export function head() {
   return {
-    title: "Lean formalization | Codex",
+    title: "Lean formalization | Math STEM",
     description:
       "Formalization status across the curriculum. Each unit declares its Lean module and a Mathlib-coverage status: full, partial, none, or stub.",
   };
@@ -75,7 +75,7 @@ export default function LeanPage({ data }: { data: any }) {
       <section class="page-narrow" style="padding-top: 0;">
         <h1>Lean formalization</h1>
         <p class="lede">
-          Each Codex unit declares a Lean status. <strong>full</strong> means the proof is checked
+          Each Math STEM unit declares a Lean status. <strong>full</strong> means the proof is checked
           end-to-end. <strong>partial</strong> means statements compile but Mathlib gaps gate the
           proofs. <strong>none</strong> means Mathlib coverage is too thin to state the theorem
           formally; the unit ships with a named human reviewer.

@@ -1,9 +1,10 @@
 import { getCollection } from "@neutron-build/core";
+import { sectionLabel, sectionOrder } from "../../lib/sections";
 
 export function head() {
   return {
-    title: "All units | Codex",
-    description: "Browse every Codex unit. Filter by tier, section, or status.",
+    title: "All units | Math STEM",
+    description: "Browse every Math STEM unit. Filter by section or search by title / id.",
   };
 }
 
@@ -29,59 +30,57 @@ export async function loader() {
     tiers_present: u.data.tiers_present,
     status: u.data.status,
   }));
-  // Compute facets
-  const sections = Array.from(new Set(rows.map((r) => r.section))).sort();
-  const statuses = Array.from(new Set(rows.map((r) => r.status))).sort();
-  return { units: rows, sections, statuses };
+  // Sections, ordered canonically and decorated with their display label.
+  const sectionKeys = Array.from(new Set(rows.map((r) => r.section)));
+  const sections = sectionKeys
+    .map((k) => ({ key: k, label: sectionLabel(k), order: sectionOrder(k) }))
+    .sort((a, b) => a.order - b.order);
+  return { units: rows, sections };
 }
 
 const FILTER_INIT = `
 (function () {
   function getFilters() {
-    const params = new URLSearchParams(location.search);
+    var params = new URLSearchParams(location.search);
     return {
-      tier: params.get('tier') || '',
       section: params.get('section') || '',
-      status: params.get('status') || '',
       q: (params.get('q') || '').toLowerCase(),
     };
   }
   function setFilter(key, value) {
-    const params = new URLSearchParams(location.search);
+    var params = new URLSearchParams(location.search);
     if (value) params.set(key, value); else params.delete(key);
     history.replaceState(null, '', '?' + params.toString());
     apply();
   }
   function apply() {
-    const f = getFilters();
-    document.querySelectorAll('[data-filter-tier]').forEach(function (sel) {
-      sel.value = f[sel.getAttribute('data-filter-tier')] || '';
+    var f = getFilters();
+    document.querySelectorAll('[data-filter]').forEach(function (sel) {
+      var k = sel.getAttribute('data-filter');
+      if (k && k !== 'q') sel.value = f[k] || '';
     });
-    let visible = 0;
+    var qInput = document.getElementById('filter-q');
+    if (qInput && document.activeElement !== qInput) qInput.value = f.q;
+    var visible = 0;
     document.querySelectorAll('tr[data-unit-row]').forEach(function (tr) {
-      const tiers = (tr.dataset.tiers || '').split(',');
-      const section = tr.dataset.section || '';
-      const status = tr.dataset.status || '';
-      const text = (tr.dataset.search || '').toLowerCase();
-      const ok = (!f.tier || tiers.indexOf(f.tier) !== -1)
-        && (!f.section || section === f.section)
-        && (!f.status || status === f.status)
+      var section = tr.dataset.section || '';
+      var text = (tr.dataset.search || '').toLowerCase();
+      var ok = (!f.section || section === f.section)
         && (!f.q || text.indexOf(f.q) !== -1);
       tr.style.display = ok ? '' : 'none';
       if (ok) visible++;
     });
-    const counter = document.getElementById('filter-count');
+    var counter = document.getElementById('filter-count');
     if (counter) counter.textContent = visible + ' shown';
   }
   document.addEventListener('change', function (e) {
-    const t = e.target;
+    var t = e.target;
     if (!t || !t.getAttribute) return;
-    const key = t.getAttribute('data-filter-tier');
-    if (key) setFilter(key, t.value);
+    var key = t.getAttribute('data-filter');
+    if (key && key !== 'q') setFilter(key, t.value);
   });
   document.addEventListener('input', function (e) {
-    const t = e.target;
-    if (t && t.id === 'filter-q') setFilter('q', t.value);
+    if (e.target && e.target.id === 'filter-q') setFilter('q', e.target.value);
   });
   document.addEventListener('click', function (e) {
     if (e.target && e.target.id === 'filter-clear') {
@@ -110,23 +109,12 @@ export default function UnitsIndex({ data }: { data: any }) {
           placeholder="Search title or id…"
           class="unit-filters__search"
           autocomplete="off"
+          aria-label="Search units"
         />
-        <select data-filter-tier="tier" class="unit-filters__select">
-          <option value="">All tiers</option>
-          <option value="beginner">Beginner</option>
-          <option value="intermediate">Intermediate</option>
-          <option value="master">Master</option>
-        </select>
-        <select data-filter-tier="section" class="unit-filters__select">
+        <select data-filter="section" class="unit-filters__select" aria-label="Filter by section">
           <option value="">All sections</option>
-          {data.sections.map((s: string) => (
-            <option value={s}>{s}</option>
-          ))}
-        </select>
-        <select data-filter-tier="status" class="unit-filters__select">
-          <option value="">All statuses</option>
-          {data.statuses.map((s: string) => (
-            <option value={s}>{s}</option>
+          {data.sections.map((s: any) => (
+            <option value={s.key}>{s.label}</option>
           ))}
         </select>
         <button id="filter-clear" type="button" class="btn unit-filters__clear">Clear</button>
@@ -138,28 +126,18 @@ export default function UnitsIndex({ data }: { data: any }) {
             <th>ID</th>
             <th>Title</th>
             <th>Section</th>
-            <th>Tiers</th>
-            <th>Status</th>
           </tr>
         </thead>
         <tbody>
           {data.units.map((u: UnitRow) => (
             <tr
               data-unit-row
-              data-tiers={u.tiers_present.join(",")}
               data-section={u.section}
-              data-status={u.status}
               data-search={`${u.id} ${u.title}`}
             >
               <td><code>{u.id}</code></td>
               <td><a href={`/u/${u.id}`}>{u.title}</a></td>
-              <td>{u.section} / {u.chapter}</td>
-              <td>
-                {u.tiers_present.map((t: string) => (
-                  <span class={`tier-pill tier-pill--${t}`} title={t}>{t[0].toUpperCase()}</span>
-                ))}
-              </td>
-              <td><span class={`badge badge--${u.status}`}>{u.status}</span></td>
+              <td>{sectionLabel(u.section)}</td>
             </tr>
           ))}
         </tbody>

@@ -4,7 +4,7 @@ import { sectionLabel, sectionOrder, SECTIONS } from "../lib/sections";
 
 export function head() {
   return {
-    title: "Dependency map | Codex",
+    title: "Dependency map | Math STEM",
     description: "Curriculum prerequisite graph. Apex-first; pending units fill in over time.",
   };
 }

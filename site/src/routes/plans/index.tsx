@@ -2,7 +2,7 @@ import { listDocs, PLANS_DIR, type DocSummary } from "../../lib/md-docs";
 
 export function head() {
   return {
-    title: "Plans | Codex",
+    title: "Plans | Math STEM",
     description: "Curriculum production plans, reviewer plan, site plan, project plan.",
   };
 }

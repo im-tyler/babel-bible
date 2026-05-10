@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 export function head() {
   return {
-    title: "Production | Codex",
+    title: "Production | Math STEM",
     description:
       "Live production state from manifests/production/plan.json — shipped, queued, audits done, next-up.",
   };

@@ -4,9 +4,9 @@ import { loadBooklist, totalBooks } from "../lib/booklist";
 
 export function head() {
   return {
-    title: "About Codex",
+    title: "About Math STEM",
     description:
-      "What Codex is, who it's for, and how the three-tier system works. Plus everything that goes into producing it.",
+      "What Math STEM is, who it's for, and how the three-tier system works. Plus everything that goes into producing it.",
   };
 }
 
@@ -25,7 +25,7 @@ export default function About({ data }: { data: any }) {
   return (
     <article>
       <section class="page-narrow" style="padding-top: 0;">
-        <h1>About Codex</h1>
+        <h1>About Math STEM</h1>
         <p class="lede">
           A curriculum that takes a self-taught learner from high-school algebra to graduate-level
           mastery in mathematics and physics. Every concept exists at three depths in a single
@@ -130,7 +130,7 @@ export default function About({ data }: { data: any }) {
       <section class="page-narrow">
         <h2>Project &amp; contributors</h2>
         <p>
-          Codex ships through automated quality gates and a human reviewer pipeline. The
+          Math STEM ships through automated quality gates and a human reviewer pipeline. The
           production plan, reviewer protocol, and house-style specs are all public.
         </p>
       </section>

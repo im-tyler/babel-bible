@@ -48,12 +48,12 @@ export function head() {
   return {
     openGraph: {
       type: "website",
-      title: "Codex — math & physics curriculum",
+      title: "Math STEM — math & physics curriculum",
       description: "A three-tier curriculum from algebra to graduate-level mastery. Beginner / Intermediate / Master in one source.",
     },
     twitter: {
       card: "summary_large_image" as const,
-      title: "Codex — math & physics curriculum",
+      title: "Math STEM — math & physics curriculum",
       description: "A three-tier curriculum from algebra to graduate-level mastery.",
     },
     headScripts: [
@@ -128,7 +128,7 @@ export default function RootLayout({ children }: { children: any }) {
     <>
       <header class="site-header">
         <div class="container">
-          <a href="/" class="brand">Codex</a>
+          <a href="/" class="brand">Math STEM</a>
           <nav>
             <a href="/units">Units</a>
             <a href="/concepts">Concepts</a>
@@ -155,7 +155,7 @@ export default function RootLayout({ children }: { children: any }) {
         <div class="container">
           <div class="footer-grid">
             <div>
-              <p class="footer-brand">Codex</p>
+              <p class="footer-brand">Math STEM</p>
               <p class="muted">Math &amp; physics curriculum, all tiers. v0.1 pilot.</p>
             </div>
             <div>

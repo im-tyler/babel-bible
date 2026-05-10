@@ -12,8 +12,8 @@ export async function loader({ params }: { params: { slug: string } }) {
 
 export function head({ data }: { data: any }) {
   return {
-    title: `${data.title} | Codex plans`,
-    description: `Codex plan: ${data.title}.`,
+    title: `${data.title} | Math STEM plans`,
+    description: `Math STEM plan: ${data.title}.`,
   };
 }
 

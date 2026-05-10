@@ -2,8 +2,8 @@ import { listDocs, SPECS_DIR, type DocSummary } from "../../lib/md-docs";
 
 export function head() {
   return {
-    title: "Specs | Codex",
-    description: "Codex unit-format spec, quality rubric, continuity scaffold, and orchestration protocol.",
+    title: "Specs | Math STEM",
+    description: "Math STEM unit-format spec, quality rubric, continuity scaffold, and orchestration protocol.",
   };
 }
 
