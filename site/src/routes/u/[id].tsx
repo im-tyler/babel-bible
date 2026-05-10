@@ -1,5 +1,6 @@
 import { getCollection, getEntry } from "@neutron-build/core";
 import UnitMeta from "../../components/UnitMeta";
+import { renderInline } from "../../lib/inline-math";
 
 export async function getStaticPaths() {
   const units = await getCollection("units");
@@ -35,7 +36,7 @@ export default function UnitPage({ data }: { data: any }) {
         <p class="unit-breadcrumb">
           <code>{u.id}</code> · {u.section} / {u.chapter}
         </p>
-        <h1>{u.title}</h1>
+        <h1 dangerouslySetInnerHTML={{ __html: renderInline(u.title) }} />
         <div class="unit-pills">
           <span class={`badge badge--${u.status}`}>{u.status}</span>
           <span class="badge">{tierLabel}</span>

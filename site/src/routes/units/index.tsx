@@ -1,5 +1,6 @@
 import { getCollection } from "@neutron-build/core";
 import { sectionLabel, sectionOrder } from "../../lib/sections";
+import { renderInline } from "../../lib/inline-math";
 
 export function head() {
   return {
@@ -136,7 +137,7 @@ export default function UnitsIndex({ data }: { data: any }) {
               data-search={`${u.id} ${u.title}`}
             >
               <td><code>{u.id}</code></td>
-              <td><a href={`/u/${u.id}`}>{u.title}</a></td>
+              <td><a href={`/u/${u.id}`} dangerouslySetInnerHTML={{ __html: renderInline(u.title) }} /></td>
               <td>{sectionLabel(u.section)}</td>
             </tr>
           ))}

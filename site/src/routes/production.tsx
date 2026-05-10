@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { renderInline } from "../lib/inline-math";
 
 export function head() {
   return {
@@ -125,7 +126,8 @@ export default function ProductionPage({ data }: { data: any }) {
           <ol class="queue-list">
             {data.plan.queue.map((q: QueuedUnit) => (
               <li>
-                <code>{q.id}</code> {q.title}
+                <code>{q.id}</code>{" "}
+                <span dangerouslySetInnerHTML={{ __html: renderInline(q.title) }} />
                 {q.source_audits.length > 0 && (
                   <span class="muted">
                     {" — from "}

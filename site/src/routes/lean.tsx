@@ -1,5 +1,6 @@
 import { getCollection } from "@neutron-build/core";
 import { sectionLabel, sectionOrder, SECTION_BY_KEY } from "../lib/sections";
+import { renderInline } from "../lib/inline-math";
 
 export function head() {
   return {
@@ -125,7 +126,7 @@ export default function LeanPage({ data }: { data: any }) {
               {s.rows.map((r: Row) => (
                 <tr>
                   <td class="ft-id"><a href={`/u/${r.id}`}><code>{r.id}</code></a></td>
-                  <td>{r.title}</td>
+                  <td dangerouslySetInnerHTML={{ __html: renderInline(r.title) }} />
                   <td class="status-col">
                     <span class={`lean-pill lean-pill--${r.lean_status}`}>{r.lean_status}</span>
                   </td>
