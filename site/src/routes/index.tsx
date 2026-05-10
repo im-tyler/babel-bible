@@ -1,84 +1,118 @@
 import { getCollection } from "@neutron-build/core";
+import { SECTIONS, SECTION_BY_KEY, sectionLabel, sectionOrder } from "../lib/sections";
 
 export function head() {
   return {
-    title: "Codex — math & physics curriculum",
+    title: "Codex — A three-tier curriculum from foundations to mastery",
     description:
-      "A single curriculum from high-school algebra to graduate-level mastery. Three tiers: Beginner, Intermediate, Master. Lean-verified where Mathlib covers.",
+      "A self-contained pathway through modern mathematics and physics. Every unit speaks at three levels: Beginner for intuition, Intermediate for formal proofs, Master for graduate-level depth with primary-source citations and Lean formalization status.",
   };
+}
+
+interface SectionSummary {
+  key: string;
+  label: string;
+  anchor: string;
+  order: number;
+  count: number;
 }
 
 export async function loader() {
   const units = await getCollection("units");
-  const shipped = units.filter((u: any) => u.data.status === "shipped");
-  const draft = units.filter((u: any) => u.data.status === "draft" || u.data.status === "review");
-  return {
-    shippedCount: shipped.length,
-    draftCount: draft.length,
-    totalCount: units.length,
-    featured: units.slice(0, 5).map((u: any) => ({
-      id: u.data.id,
-      title: u.data.title,
-      tiers_present: u.data.tiers_present,
-      status: u.data.status,
-    })),
-  };
+  const totalUnits = units.length;
+
+  const sectionCounts = new Map<string, number>();
+  units.forEach((u: any) => {
+    const key = u.data.section || "unsectioned";
+    sectionCounts.set(key, (sectionCounts.get(key) || 0) + 1);
+  });
+
+  const sections: SectionSummary[] = Array.from(sectionCounts.entries())
+    .map(([key, count]) => ({
+      key,
+      label: sectionLabel(key),
+      anchor: SECTION_BY_KEY.get(key)?.anchor ?? key,
+      order: sectionOrder(key),
+      count,
+    }))
+    .sort((a, b) => a.order - b.order);
+
+  return { totalUnits, sections };
 }
 
-export default function HomePage({ data }: { data: any }) {
+export default function HomePage({ data }: { data: { totalUnits: number; sections: SectionSummary[] } }) {
   return (
-    <article class="hero">
-      <h1>Codex</h1>
-      <p class="lede">
-        From high-school algebra to graduate-level mastery in mathematics and physics. Three tiers
-        per unit. Lean-verified where Mathlib covers. Apex-first curriculum, building outward from
-        the hardest material.
-      </p>
+    <article>
+      <section class="hero">
+        <div class="hero-eyebrow">A curriculum, not a textbook</div>
+        <h1>Walk the path from algebra to mastery — three times.</h1>
+        <p class="lede">
+          Every unit speaks at three levels. <strong>Beginner</strong> for the geometric picture.{" "}
+          <strong>Intermediate</strong> for the formal definition with proofs and exercises.{" "}
+          <strong>Master</strong> for graduate-level depth, with original-paper citations and Lean
+          formalization status.
+        </p>
+        <div class="cta-row">
+          <a href="/units" class="cta cta--primary">Browse {data.totalUnits} units</a>
+          <a href="/about" class="cta cta--secondary">How Codex works</a>
+        </div>
+      </section>
 
-      <div class="stats">
-        <div>
-          <strong>{data.shippedCount}</strong>
-          <span>shipped</span>
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-number">{data.totalUnits}</div>
+          <div class="stat-label">Validated units</div>
         </div>
-        <div>
-          <strong>{data.draftCount}</strong>
-          <span>in review</span>
+        <div class="stat-card">
+          <div class="stat-number">{data.sections.length}</div>
+          <div class="stat-label">Sections</div>
         </div>
-        <div>
-          <strong>{data.totalCount}</strong>
-          <span>total units</span>
+        <div class="stat-card">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Tiers per unit</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">27/27</div>
+          <div class="stat-label">Quality checks</div>
         </div>
       </div>
 
-      <h2>How it works</h2>
-      <p>
-        Pick a tier in the header. Beginner is intuition + visuals; Intermediate is undergrad-textbook
-        rigor; Master is graduate-textbook rigor. Each unit has all three depths in one document; the
-        site filters what you see.
-      </p>
-      <p class="muted">
-        v0.1 pilot is apex-first: Master-tier graduate content seeded at the top of Fast Track, with
-        prerequisite chains filling in as we produce more units.
-      </p>
+      <section class="page-narrow" style="text-align:center; padding-top: 0;">
+        <h2 style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: 500; margin-top: 0;">
+          The full curriculum
+        </h2>
+      </section>
 
-      <h2>Featured units</h2>
-      <ul class="unit-list">
-        {data.featured.map((u: any) => (
-          <li>
-            <a href={`/u/${u.id}`}>
-              <code class="unit-id">{u.id}</code> {u.title}
-            </a>
-            <span class={`badge badge--${u.status}`}>{u.status}</span>
-            {u.tiers_present.map((t: string) => (
-              <span class={`tier-pill tier-pill--${t}`}>{t}</span>
-            ))}
-          </li>
+      <div class="sections-grid">
+        {data.sections.map((s) => (
+          <a href={`/units#${s.anchor}`} class="section-card">
+            <div class="section-card-name">{s.label}</div>
+            <div class="section-card-meta">{s.count} {s.count === 1 ? "unit" : "units"}</div>
+          </a>
         ))}
-      </ul>
+      </div>
 
-      <p>
-        <a href="/units" class="btn btn--primary">Browse all units →</a>
-      </p>
+      <section class="page-narrow">
+        <h2>What this is</h2>
+        <p>
+          A self-contained pathway through modern mathematics and physics, from precalculus through
+          statistical field theory, symplectic geometry, algebraic geometry, and representation
+          theory. The same concept, three times: an intuitive picture for the curious, a formal
+          treatment with exercises for the rigorous, and a deep treatment with original-source
+          citations for graduate readers.
+        </p>
+        <p>
+          Each unit is anchored on the canonical literature — Riemann's <em>Theorie der Abelschen
+          Functionen</em>, Cartan-Serre's <em>Faisceaux Algébriques Cohérents</em>, Frobenius's
+          character theory papers, Hodge's harmonic-integrals monograph, Mumford's{" "}
+          <em>Geometric Invariant Theory</em>. Master-tier prose contextualises the original
+          conception alongside the modern textbook synthesis.
+        </p>
+        <p>
+          Every unit ships through a 27-point automated quality rubric. Mathlib formalization
+          status is tracked per unit. Cross-references are validated. The whole thing builds clean.
+        </p>
+      </section>
     </article>
   );
 }

@@ -9,7 +9,7 @@ export function head() {
 }
 
 export async function loader() {
-  const depsPath = resolve(import.meta.dirname, "../../../../../codex/manifests/deps.json");
+  const depsPath = resolve(import.meta.dirname, "../../../manifests/deps.json");
   let deps: any = { edges: [], shipped: [], pending: [] };
   try {
     deps = JSON.parse(readFileSync(depsPath, "utf-8"));

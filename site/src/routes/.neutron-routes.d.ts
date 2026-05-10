@@ -6,6 +6,10 @@ declare module "@neutron-build/core" {
     | "/about"
     | "/concepts"
     | "/dag"
+    | "/lean"
+    | "/production"
+    | "/sources"
+    | `/sources/${string}`
     | `/u/${string}`
     | "/units"
   }
