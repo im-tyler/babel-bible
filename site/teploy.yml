@@ -1,5 +1,5 @@
-app: neutron-site
-domain: "neutron.build, www.neutron.build"
+app: codex-site
+domain: "learn.stemframework.org"
 server: deploy-ovh
 port: 80
-build_local: true
+build_local: false
