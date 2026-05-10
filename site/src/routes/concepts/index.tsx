@@ -1,6 +1,19 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { getCollection } from "@neutron-build/core";
+import { Marked } from "marked";
+import markedKatex from "marked-katex-extension";
+
+// Inline-math renderer for catalog text fields. Catalog entries authored in
+// markdown with `$...$` LaTeX must be rendered through KaTeX so the math
+// shows as glyphs, not literal TeX source.
+const _md = new Marked({ gfm: true });
+_md.use(markedKatex({ throwOnError: false, output: "html", strict: "ignore", nonStandard: true }) as any);
+function renderInline(s: string | undefined): string {
+  if (!s) return "";
+  // parseInline returns a string in marked v18; strip a trailing newline.
+  return (_md.parseInline(s) as string).trim();
+}
 
 export function head() {
   return {
@@ -82,6 +95,9 @@ export async function loader() {
     entries: entries.map((e) => ({
       ...e,
       shipped_unit: idByConcept[e.id] ?? null,
+      title_html: renderInline(e.title),
+      notes_html: renderInline(e.notes),
+      master_anchor_html: renderInline(e.master_anchor),
     })),
   };
 }
@@ -111,8 +127,17 @@ export default function ConceptsIndex({ data }: { data: any }) {
                   <span class="badge badge--pending">no unit yet</span>
                 )}
               </header>
-              {e.title && <p class="concept-item__title"><strong>{e.title}</strong></p>}
-              {e.notes && <p class="concept-item__notes muted">{e.notes}</p>}
+              {e.title && (
+                <p class="concept-item__title">
+                  <strong dangerouslySetInnerHTML={{ __html: e.title_html }} />
+                </p>
+              )}
+              {e.notes && (
+                <p
+                  class="concept-item__notes muted"
+                  dangerouslySetInnerHTML={{ __html: e.notes_html }}
+                />
+              )}
               {e.prerequisites.length > 0 && (
                 <p class="concept-item__prereqs">
                   <span class="muted">requires:</span>{" "}
@@ -126,7 +151,8 @@ export default function ConceptsIndex({ data }: { data: any }) {
               )}
               {e.master_anchor && (
                 <p class="concept-item__anchor muted">
-                  Master anchor: <em>{e.master_anchor}</em>
+                  Master anchor:{" "}
+                  <em dangerouslySetInnerHTML={{ __html: e.master_anchor_html }} />
                 </p>
               )}
             </li>
