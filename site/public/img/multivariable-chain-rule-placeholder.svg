@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Chain rule for multi-variable functions</title>
+  <desc id="desc">A composition diagram. A point t on a real line maps via g into the plane R-squared as a circle traced by (cos t, sin t). From the plane, f maps to the real line via x squared plus y squared, sending the entire circle to the single value 1. Two arrows labelled Dg of a and Df of g of a indicate the Jacobians, and a third arrow shows the composition derivative D of f-after-g of a equal to the product Df of g of a composed with Dg of a.</desc>
+  <rect width="900" height="460" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#1f2933">
+    <text x="450" y="36" text-anchor="middle" font-size="22">Composition $f \circ g$ and its derivative</text>
+  </g>
+
+  <!-- Left panel: domain R -->
+  <g transform="translate(40 80)">
+    <rect width="220" height="300" fill="#ffffff" stroke="#cfd6dd" stroke-width="2" rx="6"/>
+    <text x="110" y="28" text-anchor="middle" font-size="16" fill="#1f2933">$\mathbb{R}$ (input $t$)</text>
+    <line x1="30" y1="160" x2="190" y2="160" stroke="#5a3d6f" stroke-width="2"/>
+    <circle cx="110" cy="160" r="5" fill="#1f2933"/>
+    <text x="110" y="186" text-anchor="middle" font-size="14" fill="#1f2933">$a$</text>
+    <text x="110" y="240" text-anchor="middle" font-size="13" fill="#5a6470">scalar parameter</text>
+  </g>
+
+  <!-- Middle panel: R^2 -->
+  <g transform="translate(340 80)">
+    <rect width="220" height="300" fill="#ffffff" stroke="#cfd6dd" stroke-width="2" rx="6"/>
+    <text x="110" y="28" text-anchor="middle" font-size="16" fill="#1f2933">$\mathbb{R}^{2}$ (intermediate)</text>
+    <circle cx="110" cy="170" r="60" fill="none" stroke="#5a3d6f" stroke-width="3"/>
+    <line x1="40" y1="170" x2="180" y2="170" stroke="#cfd6dd" stroke-width="1"/>
+    <line x1="110" y1="100" x2="110" y2="240" stroke="#cfd6dd" stroke-width="1"/>
+    <circle cx="170" cy="170" r="4" fill="#1f2933"/>
+    <text x="178" y="166" font-size="13" fill="#1f2933">$g(a)$</text>
+    <text x="110" y="270" text-anchor="middle" font-size="13" fill="#5a6470">$g(t)=(\cos t,\sin t)$</text>
+  </g>
+
+  <!-- Right panel: codomain R -->
+  <g transform="translate(640 80)">
+    <rect width="220" height="300" fill="#ffffff" stroke="#cfd6dd" stroke-width="2" rx="6"/>
+    <text x="110" y="28" text-anchor="middle" font-size="16" fill="#1f2933">$\mathbb{R}$ (output)</text>
+    <line x1="30" y1="160" x2="190" y2="160" stroke="#d68a3a" stroke-width="2"/>
+    <circle cx="140" cy="160" r="5" fill="#1f2933"/>
+    <text x="140" y="186" text-anchor="middle" font-size="14" fill="#1f2933">$1$</text>
+    <text x="110" y="240" text-anchor="middle" font-size="13" fill="#5a6470">$f(x,y)=x^{2}+y^{2}$</text>
+  </g>
+
+  <!-- Arrows between panels -->
+  <g stroke="#1f2933" stroke-width="2" fill="none">
+    <line x1="262" y1="230" x2="338" y2="230" marker-end="url(#arrow)"/>
+    <line x1="562" y1="230" x2="638" y2="230" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2933"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">
+    <text x="300" y="222" text-anchor="middle">$Dg(a)$</text>
+    <text x="600" y="222" text-anchor="middle">$Df(g(a))$</text>
+  </g>
+
+  <!-- Composition arrow at the bottom -->
+  <g>
+    <path d="M 110 410 Q 450 460 790 410" fill="none" stroke="#a14242" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="450" y="448" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#a14242">$D(f\circ g)(a) = Df(g(a)) \circ Dg(a)$</text>
+  </g>
+</svg>

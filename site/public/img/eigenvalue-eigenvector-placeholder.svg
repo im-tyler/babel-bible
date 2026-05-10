@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Eigenvectors as the stretching directions of a linear map</title>
+  <desc id="desc">On the left, a generic vector v in the plane is rotated when the linear map T is applied, so T v is not parallel to v; on the right, an eigenvector e of T is only stretched along its own line, T e equals lambda times e, with lambda equal to the stretch factor. Below each panel, the eigenvalue equation T v equals lambda v is shown, together with the characteristic polynomial chi(t) equals det(t I minus T) whose roots are the eigenvalues.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <defs>
+    <marker id="eig-arrow-blue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="eig-arrow-red" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="eig-arrow-green" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#16a34a"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif" fill="#0f172a">
+    <text x="40" y="40" font-size="24" font-weight="700">eigenvectors: directions T only stretches</text>
+  </g>
+  <g transform="translate(40,70)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#334155">generic vector: T v is not parallel to v</text>
+    <g stroke="#cbd5e1" stroke-width="1">
+      <path d="M0 240 L360 240"/>
+      <path d="M40 40 L40 320"/>
+    </g>
+    <g font-size="12" fill="#64748b">
+      <text x="40" y="252">0</text>
+      <text x="100" y="252">1</text>
+      <text x="160" y="252">2</text>
+      <text x="220" y="252">3</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-width="5">
+      <path d="M40 240 L160 180" stroke="#2563eb" marker-end="url(#eig-arrow-blue)"/>
+      <path d="M40 240 L280 80" stroke="#dc2626" marker-end="url(#eig-arrow-red)"/>
+    </g>
+    <text x="168" y="178" font-size="16" font-weight="700" fill="#2563eb">v</text>
+    <text x="290" y="80" font-size="16" font-weight="700" fill="#dc2626">T v</text>
+    <text x="0" y="360" font-size="16" fill="#0f172a">T v points in a new direction — v is not an eigenvector</text>
+  </g>
+  <g transform="translate(520,70)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#334155">eigenvector: T e is parallel to e</text>
+    <g stroke="#cbd5e1" stroke-width="1">
+      <path d="M0 240 L360 240"/>
+      <path d="M40 40 L40 320"/>
+    </g>
+    <g font-size="12" fill="#64748b">
+      <text x="40" y="252">0</text>
+      <text x="100" y="252">1</text>
+      <text x="160" y="252">2</text>
+      <text x="220" y="252">3</text>
+      <text x="280" y="252">4</text>
+    </g>
+    <g stroke="#cbd5e1" stroke-dasharray="4 4" stroke-width="1">
+      <path d="M40 240 L320 100"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-width="5">
+      <path d="M40 240 L160 180" stroke="#16a34a" marker-end="url(#eig-arrow-green)"/>
+      <path d="M40 240 L280 100" stroke="#dc2626" marker-end="url(#eig-arrow-red)"/>
+    </g>
+    <text x="168" y="178" font-size="16" font-weight="700" fill="#16a34a">e</text>
+    <text x="290" y="100" font-size="16" font-weight="700" fill="#dc2626">T e = λ e</text>
+    <text x="0" y="360" font-size="16" fill="#0f172a">T e lies on the same line as e — stretch factor λ is the eigenvalue</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#0f172a">
+    <text x="40" y="410" font-size="15" fill="#475569">eigenvalue equation: T v = λ v with v ≠ 0;  characteristic polynomial: χ_T(t) = det(t I − T), eigenvalues are roots</text>
+  </g>
+</svg>

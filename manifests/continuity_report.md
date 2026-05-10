@@ -1,17 +1,17 @@
 # Codex — Continuity Report
 _Generated: $(date)_
 
-**Units measured:** 301
+**Units measured:** 305
 
 ## Aggregate metrics
 
 | Metric | Avg | Threshold | Status |
 |---|---|---|---|
-| Backward-reference density (per 1000w) | 13.80 | 8.0 | ✓ |
-| Forward-promise density (per 1000w) | 3.05 | 3.0 | ✓ |
-| Lateral connections (per Master section) | 5.50 | 3 | ✓ |
-| Synthesis claims (Intermediate) | 2.76 | 2 | ✓ |
-| Synthesis claims (Master) | 4.90 | 4 | ✓ |
+| Backward-reference density (per 1000w) | 13.78 | 8.0 | ✓ |
+| Forward-promise density (per 1000w) | 3.04 | 3.0 | ✓ |
+| Lateral connections (per Master section) | 5.47 | 3 | ✓ |
+| Synthesis claims (Intermediate) | 2.75 | 2 | ✓ |
+| Synthesis claims (Master) | 4.88 | 4 | ✓ |
 | Anchor-phrase reuse rate | 1.00 | 0.95 | ✓ |
 
 ## All thresholds met ✓

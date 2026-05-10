@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Harmonic Functions on the Plane</title>
+  <desc id="desc">A schematic placeholder diagram for harmonic functions: a saddle-like contour map paired with a stretched-membrane silhouette, suggesting Laplace's equation and the mean-value property.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g transform="translate(120,180)">
+    <ellipse cx="0" cy="0" rx="96" ry="96" fill="none" stroke="#2f6e5a" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="68" ry="68" fill="none" stroke="#2f6e5a" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="40" ry="40" fill="none" stroke="#2f6e5a" stroke-width="3"/>
+    <circle cx="0" cy="0" r="5" fill="#2f6e5a"/>
+    <path d="M-96 0 L96 0 M0 -96 L0 96" stroke="#2f6e5a" stroke-width="2" stroke-dasharray="4 5"/>
+  </g>
+  <g transform="translate(480,180)">
+    <path d="M-130 60 C-90 -60 -30 -20 0 -50 C30 -80 90 30 130 -40 L130 60 Z" fill="none" stroke="#c25a3a" stroke-width="6"/>
+    <path d="M-130 60 L130 60" stroke="#c25a3a" stroke-width="2"/>
+  </g>
+  <text x="360" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#222">Harmonic Functions on the Plane</text>
+</svg>
