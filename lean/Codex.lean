@@ -10,6 +10,7 @@ import Codex.Precalc.Numbers.Reals
 import Codex.SpinGeometry.CliffordAlgebra
 import Codex.Foundations.LinearAlgebra.VectorSpace
 import Codex.Foundations.LinearAlgebra.Basis
+import Codex.Foundations.LinearAlgebra.RankNullity
 import Codex.Foundations.LinearAlgebra.BilinearQuadraticForm
 import Codex.Analysis.FunctionalAnalysis.BanachSpaces
 import Codex.Analysis.FunctionalAnalysis.HilbertSpace

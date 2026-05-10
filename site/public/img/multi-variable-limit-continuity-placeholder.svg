@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-variable limit and continuity</title>
+  <desc id="desc">Two side-by-side panels. The left panel shows a smooth bowl-shaped surface over the xy-plane representing f(x, y) = x squared plus y squared, continuous at the origin. The right panel shows a saddle-shaped surface with a discontinuity ridge at the origin, representing g(x, y) = xy over (x squared plus y squared), where the limit at the origin does not exist because different straight-line approaches give different values.</desc>
+  <rect width="900" height="460" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#1f2933">
+    <text x="225" y="40" text-anchor="middle" font-size="22">Continuous at $(0, 0)$</text>
+    <text x="675" y="40" text-anchor="middle" font-size="22">Limit fails at $(0, 0)$</text>
+  </g>
+  <g transform="translate(40 70)">
+    <rect width="370" height="320" fill="#ffffff" stroke="#cfd6dd" stroke-width="2" rx="6"/>
+    <g transform="translate(185 200)">
+      <ellipse cx="0" cy="0" rx="140" ry="40" fill="#e0e7f1" stroke="#5a3d6f" stroke-width="2"/>
+      <path d="M -130 0 Q -65 -150 0 -160 Q 65 -150 130 0" fill="none" stroke="#5a3d6f" stroke-width="3"/>
+      <path d="M -100 -30 Q -50 -110 0 -118 Q 50 -110 100 -30" fill="none" stroke="#5a3d6f" stroke-width="2" stroke-dasharray="4 4"/>
+      <path d="M -65 -55 Q -30 -75 0 -78 Q 30 -75 65 -55" fill="none" stroke="#5a3d6f" stroke-width="2" stroke-dasharray="4 4"/>
+      <circle cx="0" cy="0" r="4" fill="#1f2933"/>
+      <text x="0" y="22" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">$(0, 0)$</text>
+    </g>
+    <text x="185" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1f2933">$f(x, y) = x^{2} + y^{2}$</text>
+  </g>
+  <g transform="translate(490 70)">
+    <rect width="370" height="320" fill="#ffffff" stroke="#cfd6dd" stroke-width="2" rx="6"/>
+    <g transform="translate(185 180)">
+      <ellipse cx="0" cy="20" rx="140" ry="40" fill="#fdecd1" stroke="#d68a3a" stroke-width="2"/>
+      <path d="M -130 20 Q -65 -120 0 20 Q 65 160 130 20" fill="none" stroke="#d68a3a" stroke-width="3"/>
+      <path d="M -130 20 Q -65 160 0 20 Q 65 -120 130 20" fill="none" stroke="#d68a3a" stroke-width="3"/>
+      <line x1="0" y1="-110" x2="0" y2="150" stroke="#a14242" stroke-width="2" stroke-dasharray="6 4"/>
+      <circle cx="0" cy="20" r="4" fill="#1f2933"/>
+      <text x="0" y="42" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1f2933">$(0, 0)$</text>
+      <text x="100" y="-95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a14242">$y = x$ approach: $1/2$</text>
+      <text x="-100" y="160" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a14242">$y = 0$ approach: $0$</text>
+    </g>
+    <text x="185" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1f2933">$g(x, y) = xy / (x^{2} + y^{2})$</text>
+  </g>
+  <text x="450" y="430" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5a6470">A limit must agree along every approach. The right surface fails because directional limits disagree.</text>
+</svg>

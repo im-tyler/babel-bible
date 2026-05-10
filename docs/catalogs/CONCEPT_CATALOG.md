@@ -92,6 +92,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Lang *Basic Mathematics* Ch. 1; Strogatz-style number-line picture
 - **notes**: Number-system hierarchy $\mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$. Field axioms (closure, associativity, commutativity, distributivity, identities, inverses) and order axioms for $\mathbb{Q}$ and $\mathbb{R}$. Completeness axiom (least upper bound) and Archimedean property. Two parallel constructions of $\mathbb{R}$ from $\mathbb{Q}$: Dedekind cuts and Cauchy-sequence completion modulo null sequences. Uniqueness of complete ordered fields up to unique order-isomorphism. Irrationality of $\sqrt{2}$ (classical contradiction proof). Density of $\mathbb{Q}$ in $\mathbb{R}$ via Archimedean property. Cardinality jump $|\mathbb{Z}| = |\mathbb{Q}| = \aleph_0$ versus $|\mathbb{R}| = 2^{\aleph_0}$ via Cantor's diagonal argument. Foundational floor for the algebra strand (`linalg.field`), the analysis strand (metric-space completion), and the complex-analysis strand.
 
+### foundations.absolute-value
+
+- **title**: Absolute value and the triangle inequality
+- **unit**: `00.01.02`
+- **prerequisites**: `foundations.real-numbers`
+- **tier_anchors**:
+  - master: Lang *Basic Mathematics* Ch. 2; Rudin *Principles of Mathematical Analysis* Ch. 1; Bourbaki *Topologie générale* Ch. IX (norms and absolute values); Ostrowski 1916 *Über einige Lösungen der Funktionalgleichung* (classification of absolute values on $\mathbb{Q}$)
+  - intermediate: Lang *Basic Mathematics* Ch. 2; Apostol *Calculus Vol. 1* Ch. 1
+  - beginner: Lang *Basic Mathematics* Ch. 2; Strogatz-style distance-on-the-line picture
+- **notes**: Definition $|x| = x$ if $x \geq 0$ else $-x$, the four signature properties (positivity, multiplicativity, triangle inequality, reverse triangle), and the case-on-sign proof of the triangle inequality. The triangle inequality is the load-bearing axiom — the absolute-value function on $\mathbb{R}$ is the prototype of a norm, and the metric $d(x, y) = |x - y|$ is the prototype of a metric. Master-tier scope adds the $\ell^p$ norms via Minkowski's inequality, the discrete metric as a non-norm, the $p$-adic absolute value with its ultrametric strengthening, and Ostrowski's theorem classifying all non-trivial absolute values on $\mathbb{Q}$ as either Euclidean or $p$-adic. Foundational floor for sequence convergence (`analysis.sequence-limit`), metric-space axioms (`topology.metric-space`), normed vector spaces (`functional-analysis.banach-spaces`), and number-theoretic completions (`number-theory.p-adic-numbers`).
+
 ### linalg.field
 
 - **title**: Field
@@ -121,6 +132,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Axler *Linear Algebra Done Right* §2; Apostol *Calculus* Vol. 2 Ch. 1 §1.7–§1.13
   - beginner: 3Blue1Brown — *Essence of Linear Algebra* Ch. 2 (linear combinations, span, basis)
 - **notes**: The structural triple every linear-algebra computation rests on. Subspace = subset closed under the two operations; basis = linearly independent spanning set; dimension = common cardinality of any basis. Steinitz replacement theorem (1913) is the load-bearing result. Generalises to rank over a PID and to module-theoretic invariants for general modules; in the categorical view, finite-dimensional $K$-vector spaces form a category equivalent to $\mathbb{N}$ with morphisms given by matrices, and $K_0(K\text{-Vect}^{\mathrm{fd}})=\mathbb{Z}$.
+
+### linear-algebra.linear-transformation-rank-nullity
+
+- **title**: Linear transformation: kernel, image, rank-nullity
+- **prerequisites**: `linear-algebra.subspace-basis-dimension`
+- **tier_anchors**:
+  - master: Apostol *Calculus* Vol. 2 Ch. 2 §2.2–§2.7; Axler *Linear Algebra Done Right* Ch. 3; Mac Lane–Birkhoff *Algebra* Ch. V
+  - intermediate: Axler *Linear Algebra Done Right* §3.B–§3.D; Apostol *Calculus* Vol. 2 Ch. 2
+  - beginner: 3Blue1Brown — *Essence of Linear Algebra* Ch. 3 (linear transformations) and Ch. 6–7 (the inverse, column space, null space)
+- **notes**: The fundamental dimension-counting theorem for linear maps. Linear map $T:V\to W$ is the morphism in the category of vector spaces; kernel $\ker T$ and image $\mathrm{im}\,T$ are its canonical sub-objects. Rank-nullity $\dim V=\dim(\ker T)+\dim(\mathrm{im}\,T)$ packages dimension as a conserved quantity through any linear map. Categorical sharpening: in $K\text{-Vect}$ every short exact sequence splits, so $V\cong\ker T\oplus\mathrm{im}\,T$ — the splitting fails for general modules (e.g. $0\to\mathbb Z\xrightarrow{2}\mathbb Z\to\mathbb Z/2\to 0$). Functional-analytic generalisation: the index $\mathrm{ind}(T)=\dim\ker T-\dim\mathrm{coker}\,T$ for Fredholm operators (Atiyah-Singer). Pairs with the first isomorphism theorem $V/\ker T\cong\mathrm{im}\,T$.
 
 ### set-theory.function
 
@@ -2202,6 +2223,17 @@ Before adding a concept to the catalog:
   - beginner: Needham *Visual Complex Analysis* §3.IV (stereographic projection); 3Blue1Brown sphere-of-complex-numbers intuition
 - **notes**: Distinctive Ahlfors item from `plans/fasttrack/lars-ahlfors-complex-analysis.md` §3 audit. Three-tier unit covering one-point compactification, the two-chart holomorphic atlas, biholomorphism with $\mathbb{P}^1(\mathbb{C})$, Möbius automorphism group $\mathrm{PSL}_2(\mathbb{C})$, function field $\mathbb{C}(z)$, Riemann-Roch in genus 0, and Grothendieck's splitting of vector bundles on $\mathbb{P}^1$.
 
+### complex-analysis.mobius-transformations
+
+- **title**: Möbius (linear-fractional) transformations
+- **unit**: `06.01.08`
+- **prerequisites**: `complex-analysis.riemann-sphere`
+- **tier_anchors**:
+  - master: Möbius 1855 *Die Theorie der Kreisverwandtschaft in rein geometrischer Darstellung* (originator); Klein 1872 *Erlanger Programm*; Poincaré 1882 *Théorie des groupes fuchsiens*; Ahlfors §3.3; Beardon *The Geometry of Discrete Groups*; Ford *Automorphic Functions*
+  - intermediate: Ahlfors *Complex Analysis* Ch. 3 §3 (linear transformations); Stein-Shakarchi Vol. II §1.3; Needham *Visual Complex Analysis* Ch. 3
+  - beginner: Needham *Visual Complex Analysis* §3.II (geometric inversion); 3Blue1Brown 'Möbius transformations revealed'
+- **notes**: Distinctive Ahlfors item 7 from `plans/fasttrack/lars-ahlfors-complex-analysis.md` §3 audit. Three-tier unit covering the group $\mathrm{PSL}_2(\mathbb{C}) = \mathrm{Aut}(\mathbb{C}_\infty)$, three-point uniqueness via cross-ratio, classification by trace squared (parabolic / elliptic / hyperbolic / loxodromic), circle-and-line preservation, and the bridge to hyperbolic geometry on $\mathbb{H}$ via $\mathrm{PSL}_2(\mathbb{R})$ and the modular group $\mathrm{PSL}_2(\mathbb{Z})$. Foundational for Schwarz-Pick, Schwarz-Christoffel, and the modular function $\lambda / j$.
+
 ### complex-analysis.branch-point-ramification
 
 - **title**: Branch point and ramification
@@ -3009,3 +3041,15 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Apostol *Calculus* Vol. 1 Ch. 3 §3.1–3.7; Rudin *Principles of Mathematical Analysis* Ch. 1
   - beginner: Strogatz number-line intuition; 3Blue1Brown style framing
 - **notes**: The standard axiomatic characterisation of $\mathbb{R}$ as a **complete ordered field**. Thirteen axioms in three families: nine field axioms (closure, associativity, commutativity of $+, \cdot$; identity elements $0 \neq 1$; additive inverse; multiplicative inverse for nonzero; distributivity), three order axioms (trichotomy, transitivity, compatibility of $<$ with $+$ and $\cdot$), and one completeness axiom (every non-empty bounded-above subset has a least upper bound). Apostol's Axiom 11 is the standard textbook framing. **Categoricity:** any two complete ordered fields are uniquely order-isomorphic, so $\mathbb{R}$ is uniquely characterised up to isomorphism. **Archimedean property** as theorem from completeness: for every $x \in \mathbb{R}$ some $n \in \mathbb{N}$ has $n > x$; proof by contradiction via $\sup \mathbb{N}$. **Equivalent reformulations of (C):** Cauchy completeness plus Archimedean, nested-interval property, monotone convergence theorem, Bolzano-Weierstrass. **Independence of axioms** demonstrated by witnessing structures: $\mathbb{Z}$ violates (F6), $\mathbb{C}$ admits no compatible order, $\mathbb{Q}$ violates (C). **Constructive vs classical completeness** (Bishop-Bridges 1967) — Cauchy completeness is intuitionistically valid; LUB completeness needs LEM. **Non-Archimedean extensions** (Robinson 1966) — hyperreals $^*\mathbb{R}$ relax Archimedean, restoring infinitesimals. **Tarski 1948** — the first-order theory of real closed fields is decidable by quantifier elimination, contrasting with the undecidability of $\mathbb{N}$. Foundational for [02.02.02] sup/inf, [02.03.01] sequence convergence, [02.04.04] FTC, and the entire single-variable analysis strand. Originators: Hilbert 1899 (*Grundlagen der Geometrie*) for the axiomatisation; Apostol 1967 for the canonical pedagogical presentation; Dedekind 1872 / Cantor 1872 for the construction-from-rationals alternative; Bourbaki 1940- for the modern formalisation; Tarski 1948 for the elementary theory's decision procedure.
+
+
+### analysis.multi-variable-limit-continuity
+
+- **title**: Multi-variable limit and continuity
+- **unit**: `02.05.01`
+- **prerequisites**: `analysis.real-number-axioms`
+- **tier_anchors**:
+  - master: Apostol *Calculus* Vol. 2 Ch. 8 §8.2–8.4 (multi-variable limit and continuity, originator pedagogical presentation); Fréchet 1906 *Sur quelques points du calcul fonctionnel* (Rend. Circ. Mat. Palermo 22) — originator of the metric / general topological framework; Heine 1872 *Die Elemente der Functionenlehre* (J. reine angew. Math. 74) — uniform continuity on compact sets; Bourbaki *Topologie Générale* Ch. I §7
+  - intermediate: Apostol *Calculus* Vol. 2 Ch. 8; Rudin *Principles of Mathematical Analysis* Ch. 4; Munkres *Topology* §18, §21
+  - beginner: 3Blue1Brown style multi-variable framing; Strogatz informal "no jumps" surface intuition
+- **notes**: Limit and continuity for $f : \mathbb{R}^n \to \mathbb{R}^m$. Open ball $B_r(a) = \{x : \|x - a\| < r\}$ from the Euclidean norm. **Definition:** $\lim_{x \to a} f(x) = L$ iff for every $\varepsilon > 0$ there exists $\delta > 0$ with $0 < \|x - a\| < \delta \Rightarrow \|f(x) - L\| < \varepsilon$; $f$ is continuous at $a$ iff $\lim_{x \to a} f(x) = f(a)$; continuous iff continuous at every point of its domain. **Worked example contrast:** $f(x, y) = x^2 + y^2$ is continuous at the origin, but $g(x, y) = xy/(x^2 + y^2)$ has no limit at the origin — the approach $y = x$ gives $1/2$ while $y = 0$ gives $0$, so directional limits disagree. **Sequential characterisation theorem:** $f$ is continuous at $a$ iff for every sequence $x_k \to a$, the image sequence $f(x_k) \to f(a)$. The forward direction picks $\delta$ from $\varepsilon$ and $N$ from $\delta$; the contrapositive of the converse builds a witness sequence with $\|x_k - a\| < 1/k$ but $\|f(x_k) - f(a)\| \geq \varepsilon_0$. **Bridge** to the general-topology characterisation (preimage of open is open, [02.01.02]); to uniform continuity and the multivariable Heine-Cantor theorem on compact domains; to the differential structure built on top of continuity in [02.05.02]; to first-countability — sequential continuity equals topological continuity exactly when the domain has countable neighbourhood bases. The path-independence requirement is the central insight: in $\mathbb{R}^n$ for $n \geq 2$, "$x$ approaches $a$" allows infinitely many directions, so a candidate limit must agree along all of them. **Master scope:** multivariable Heine-Cantor (continuous on compact equals uniformly continuous); composition continuity via preimage axioms; Tietze extension on normal spaces; Banach fixed-point theorem on complete metric spaces; first-countability and the gap to general topological continuity. Originators: Cauchy 1821 (*Cours d'analyse*) for single-variable $\varepsilon$-$\delta$; Riemann's lectures of the 1850s for the multivariable case in pedagogical practice; Heine 1872 and Cantor 1872 (independently) for uniform continuity on compact sets; Fréchet's 1906 thesis introduced the metric / abstract-space framework that subsumes both single- and multi-variable limits. Foundational for [02.05.02] partial derivative and the differential, [02.05.03] chain rule, [02.05.04] inverse and implicit function theorems, and [02.05.05] Taylor and extrema.
