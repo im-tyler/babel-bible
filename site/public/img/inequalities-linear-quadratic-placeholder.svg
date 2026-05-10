@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sign analysis on the number line for a quadratic inequality</title>
+  <desc id="desc">A schematic placeholder diagram showing a horizontal number line with two marked roots at x = -2 and x = 3, with sign labels for the factor product (x - 3)(x + 2) in the three regions: positive on the left, negative in the middle (the solution interval), positive on the right; the solution interval (-2, 3) is shaded.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <!-- Title text -->
+  <text x="60" y="50" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">Solving $(x - 3)(x + 2) &lt; 0$ by sign analysis</text>
+  <text x="60" y="74" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">The product is negative when the two factors have opposite signs.</text>
+  <!-- Number line: x from -5 to 6, screen from 60 to 660. Pixel per unit: 600/11 ≈ 54.5. Place origin at screen x = 60 + 5*54.5 = 332.5; we'll snap to 340 for clarity. Use scale 60 px/unit and span x = -5..5.5, screen 60..690. -->
+  <!-- We use scale 60 px per unit; origin at screen 360. -->
+  <!-- Number line baseline -->
+  <line x1="60" y1="200" x2="700" y2="200" stroke="#222" stroke-width="2"/>
+  <!-- Tick marks at integer values -5..5 (screen 60..660) -->
+  <g stroke="#222" stroke-width="1.5">
+    <line x1="60" y1="195" x2="60" y2="205"/>
+    <line x1="120" y1="195" x2="120" y2="205"/>
+    <line x1="180" y1="195" x2="180" y2="205"/>
+    <line x1="240" y1="195" x2="240" y2="205"/>
+    <line x1="300" y1="195" x2="300" y2="205"/>
+    <line x1="360" y1="195" x2="360" y2="205"/>
+    <line x1="420" y1="195" x2="420" y2="205"/>
+    <line x1="480" y1="195" x2="480" y2="205"/>
+    <line x1="540" y1="195" x2="540" y2="205"/>
+    <line x1="600" y1="195" x2="600" y2="205"/>
+    <line x1="660" y1="195" x2="660" y2="205"/>
+  </g>
+  <!-- Tick labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="13" fill="#444" text-anchor="middle">
+    <text x="60" y="226">-5</text>
+    <text x="120" y="226">-4</text>
+    <text x="180" y="226">-3</text>
+    <text x="240" y="226">-2</text>
+    <text x="300" y="226">-1</text>
+    <text x="360" y="226">0</text>
+    <text x="420" y="226">1</text>
+    <text x="480" y="226">2</text>
+    <text x="540" y="226">3</text>
+    <text x="600" y="226">4</text>
+    <text x="660" y="226">5</text>
+  </g>
+  <!-- Shaded solution interval (-2, 3): screen 240..540, drawn above line -->
+  <rect x="240" y="184" width="300" height="16" fill="#d68a3a" fill-opacity="0.35"/>
+  <!-- Roots at x = -2 (screen 240) and x = 3 (screen 540): open circles since strict inequality -->
+  <circle cx="240" cy="200" r="7" fill="#f4f4ec" stroke="#a83232" stroke-width="2.5"/>
+  <circle cx="540" cy="200" r="7" fill="#f4f4ec" stroke="#a83232" stroke-width="2.5"/>
+  <!-- Root labels -->
+  <text x="240" y="178" font-family="Inter, Arial, sans-serif" font-size="14" fill="#a83232" text-anchor="middle">x = -2</text>
+  <text x="540" y="178" font-family="Inter, Arial, sans-serif" font-size="14" fill="#a83232" text-anchor="middle">x = 3</text>
+  <!-- Sign labels above the line in each region -->
+  <text x="150" y="130" font-family="Inter, Arial, sans-serif" font-size="20" fill="#3a6a3a" text-anchor="middle">(+)(+) = +</text>
+  <text x="390" y="130" font-family="Inter, Arial, sans-serif" font-size="20" fill="#a83232" text-anchor="middle">(-)(+) = -</text>
+  <text x="620" y="130" font-family="Inter, Arial, sans-serif" font-size="20" fill="#3a6a3a" text-anchor="middle">(+)(+) = +</text>
+  <!-- Sub-labels: which factor sign in each region -->
+  <text x="150" y="105" font-family="Inter, Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">x - 3 &lt; 0, x + 2 &lt; 0</text>
+  <text x="390" y="105" font-family="Inter, Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">x - 3 &lt; 0, x + 2 &gt; 0</text>
+  <text x="620" y="105" font-family="Inter, Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">x - 3 &gt; 0, x + 2 &gt; 0</text>
+  <!-- Solution caption -->
+  <text x="390" y="280" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5a3d6f" text-anchor="middle">Solution: -2 &lt; x &lt; 3, the open interval (-2, 3)</text>
+  <text x="390" y="304" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666" text-anchor="middle">Open circles at the roots because the inequality is strict.</text>
+  <!-- Axis label -->
+  <text x="700" y="195" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">x</text>
+</svg>

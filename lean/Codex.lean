@@ -8,6 +8,7 @@
 
 import Codex.Precalc.Numbers.Reals
 import Codex.Precalc.Equations.LinesPlane
+import Codex.Precalc.Inequalities.Basic
 import Codex.SpinGeometry.CliffordAlgebra
 import Codex.Foundations.LinearAlgebra.VectorSpace
 import Codex.Foundations.LinearAlgebra.Basis

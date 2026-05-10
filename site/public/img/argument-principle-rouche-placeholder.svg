@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Argument Principle and Rouché</title>
+  <desc id="desc">A schematic placeholder diagram. On the left, a closed contour in the z-plane encloses two marked zeros and one marked pole of a meromorphic function; arrows trace the orientation of the contour. On the right, the image curve in the w-plane is shown winding around the origin, with the net winding number equal to zeros minus poles.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g transform="translate(180,180)">
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#5a3d6f" stroke-width="3"/>
+    <path d="M120 0 A 120 120 0 0 1 0 120" fill="none" stroke="#5a3d6f" stroke-width="4" marker-end="url(#tipA)"/>
+    <g fill="#2f6e5a">
+      <circle cx="-50" cy="-30" r="6"/>
+      <circle cx="40" cy="20" r="6"/>
+    </g>
+    <g stroke="#c25a3a" stroke-width="3" fill="none">
+      <line x1="20" y1="-50" x2="40" y2="-30"/>
+      <line x1="40" y1="-50" x2="20" y2="-30"/>
+    </g>
+    <text x="-50" y="-45" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">zero</text>
+    <text x="30" y="-58" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">pole</text>
+    <text x="40" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">zero</text>
+    <text x="0" y="-135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">contour γ in z-plane</text>
+  </g>
+  <g transform="translate(540,180)">
+    <circle cx="0" cy="0" r="6" fill="#222"/>
+    <text x="14" y="4" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">0</text>
+    <path d="M 90 0 C 90 -90, -50 -120, -90 -40 S -50 80, 0 90 S 80 50, 90 0" fill="none" stroke="#d68a3a" stroke-width="3" marker-end="url(#tipB)"/>
+    <path d="M 60 0 C 60 -60, -30 -80, -60 -20 S -30 50, 0 60" fill="none" stroke="#d68a3a" stroke-width="3" stroke-dasharray="4 4"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">image f(γ) winds N − P times</text>
+  </g>
+  <defs>
+    <marker id="tipA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#5a3d6f"/>
+    </marker>
+    <marker id="tipB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#d68a3a"/>
+    </marker>
+  </defs>
+  <text x="360" y="340" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Argument Principle and Rouché</text>
+</svg>

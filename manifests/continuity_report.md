@@ -1,20 +1,22 @@
 # Codex — Continuity Report
 _Generated: $(date)_
 
-**Units measured:** 309
+**Units measured:** 313
 
 ## Aggregate metrics
 
 | Metric | Avg | Threshold | Status |
 |---|---|---|---|
-| Backward-reference density (per 1000w) | 13.73 | 8.0 | ✓ |
-| Forward-promise density (per 1000w) | 3.01 | 3.0 | ✓ |
-| Lateral connections (per Master section) | 5.45 | 3 | ✓ |
-| Synthesis claims (Intermediate) | 2.74 | 2 | ✓ |
-| Synthesis claims (Master) | 4.83 | 4 | ✓ |
+| Backward-reference density (per 1000w) | 13.66 | 8.0 | ✓ |
+| Forward-promise density (per 1000w) | 2.99 | 3.0 | ✗ |
+| Lateral connections (per Master section) | 5.43 | 3 | ✓ |
+| Synthesis claims (Intermediate) | 2.72 | 2 | ✓ |
+| Synthesis claims (Master) | 4.81 | 4 | ✓ |
 | Anchor-phrase reuse rate | 1.00 | 0.95 | ✓ |
 
-## All thresholds met ✓
+## Failures
+
+- forward_density: 2.99 < 3.0
 
 ## Lowest 10 units by backward-reference density
 
@@ -26,7 +28,7 @@ _Generated: $(date)_
 | 05.04.03 | content/05-symplectic/moment-reduction/05.04.03-ags-convexity.md | 2.72 |
 | 02.01.01 | content/02-analysis/01-topology/02.01.01-topological-space.md | 2.86 |
 | 06.05.01 | content/06-riemann-surfaces/05-divisors-bundles/06.05.01-divisor-riemann-surface.md | 2.86 |
+| 00.04.01 | content/00-precalc/04-inequalities/00.04.01-inequalities-linear-quadratic.md | 3.22 |
 | 06.05.02 | content/06-riemann-surfaces/05-divisors-bundles/06.05.02-holomorphic-line-bundle.md | 3.52 |
 | 06.06.03 | content/06-riemann-surfaces/06-jacobians/06.06.03-jacobian-variety.md | 3.53 |
 | 07.07.02 | content/07-representation-theory/07-compact-lie/07.07.02-peter-weyl-theorem.md | 3.62 |
-| 07.07.03 | content/07-representation-theory/07-compact-lie/07.07.03-haar-measure.md | 3.63 |
