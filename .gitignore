@@ -35,9 +35,9 @@ venv/
 *.log
 logs/
 
-# Local CC settings
+# Local CC settings — only ignore the per-machine settings file.
+# Slash commands and shared agents live under .claude/ and SHOULD be tracked.
 .claude/settings.local.json
-.claude/
 
 # LEAN — build artifacts (6.9G of cache+deps, regenerable via lake)
 .lake/
