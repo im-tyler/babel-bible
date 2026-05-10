@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Quadratic equations and the parabola</title>
+  <desc id="desc">A schematic placeholder diagram showing an upward-opening parabola on a coordinate grid crossing the x-axis at two marked roots with a vertex below the axis, axes labelled.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <!-- Grid -->
+  <g stroke="#d8d4c4" stroke-width="1">
+    <line x1="60" y1="60" x2="660" y2="60"/>
+    <line x1="60" y1="120" x2="660" y2="120"/>
+    <line x1="60" y1="180" x2="660" y2="180"/>
+    <line x1="60" y1="240" x2="660" y2="240"/>
+    <line x1="60" y1="300" x2="660" y2="300"/>
+    <line x1="120" y1="40" x2="120" y2="320"/>
+    <line x1="240" y1="40" x2="240" y2="320"/>
+    <line x1="360" y1="40" x2="360" y2="320"/>
+    <line x1="480" y1="40" x2="480" y2="320"/>
+    <line x1="600" y1="40" x2="600" y2="320"/>
+  </g>
+  <!-- Axes (x-axis at y-screen 180, y-axis at x-screen 360) -->
+  <line x1="60" y1="180" x2="700" y2="180" stroke="#222" stroke-width="2"/>
+  <line x1="360" y1="20" x2="360" y2="340" stroke="#222" stroke-width="2"/>
+  <text x="690" y="172" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">x</text>
+  <text x="368" y="32" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">y</text>
+  <!-- Parabola y = x^2 - 5x + 6 (roots at x=2, x=3, vertex at (2.5, -0.25)).
+       Use a wider visible parabola: y = (x - 2)(x - 4) so roots at x = 2, 4 and
+       vertex at (3, -1). Scale: 60 px per unit. Origin at (360, 180).
+       Sample points: x = -1..7 in real units.
+         x=-1 -> y=15, x=0 -> y=8, x=1 -> y=3, x=2 -> y=0, x=3 -> y=-1,
+         x=4 -> y=0, x=5 -> y=3, x=6 -> y=8, x=7 -> y=15.
+       Screen: sx = 360 + 60*x, sy = 180 - 60*y. -->
+  <path d="M 300,240 Q 360,240 360,240 Q 360,240 420,240"
+        fill="none" stroke="none"/>
+  <path d="M 300,60 Q 330,300 360,240 Q 390,200 420,240 Q 450,300 480,60"
+        fill="none" stroke="#5a3d6f" stroke-width="5" stroke-linecap="round"/>
+  <!-- Roots at x=2 (screen 480) and x=4 (screen 600): the parabola crosses
+       the x-axis there. Use approximate parametric path that reads as a
+       parabola visually. We mark the roots with dots. -->
+  <circle cx="480" cy="180" r="7" fill="#a83232" stroke="#222" stroke-width="2"/>
+  <text x="488" y="172" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a83232">(2, 0)</text>
+  <circle cx="540" cy="180" r="7" fill="#a83232" stroke="#222" stroke-width="2"/>
+  <text x="548" y="172" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a83232">(3, 0)</text>
+  <!-- Vertex marker at (2.5, -0.25): screen (390, 195) — display as the lowest
+       point of the curve. -->
+  <circle cx="510" cy="195" r="6" fill="#d68a3a" stroke="#222" stroke-width="2"/>
+  <text x="518" y="212" font-family="Inter, Arial, sans-serif" font-size="14" fill="#d68a3a">vertex</text>
+  <!-- Label the parabola -->
+  <text x="80" y="100" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5a3d6f">y = x² − 5x + 6</text>
+  <text x="80" y="120" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5a3d6f">Δ = 25 − 24 = 1 &gt; 0, two real roots</text>
+</svg>

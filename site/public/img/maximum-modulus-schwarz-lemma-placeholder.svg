@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Maximum Modulus and Schwarz Lemma</title>
+  <desc id="desc">A schematic placeholder diagram for the maximum modulus principle and Schwarz lemma: on the left, a disc whose interior shading lightens toward the boundary, where a holomorphic function attains its largest absolute value; on the right, a holomorphic map of the unit disc into itself, with concentric circles contracted inward toward the origin.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g transform="translate(180,180)">
+    <defs>
+      <radialGradient id="modgrad" cx="0" cy="0" r="120" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#f4f4ec"/>
+        <stop offset="1" stop-color="#c25a3a"/>
+      </radialGradient>
+    </defs>
+    <circle cx="0" cy="0" r="120" fill="url(#modgrad)" stroke="#c25a3a" stroke-width="3"/>
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#c25a3a" stroke-width="5"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">max on boundary</text>
+  </g>
+  <g transform="translate(540,180)">
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#2f6e5a" stroke-width="3" stroke-dasharray="6 4"/>
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#2f6e5a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#2f6e5a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#2f6e5a" stroke-width="2"/>
+    <path d="M-95 0 L-30 0" stroke="#2f6e5a" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M0 -95 L0 -30" stroke="#2f6e5a" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M95 0 L30 0" stroke="#2f6e5a" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M0 95 L0 30" stroke="#2f6e5a" stroke-width="2" marker-end="url(#arrow)"/>
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M0 0 L10 5 L0 10 Z" fill="#2f6e5a"/>
+      </marker>
+    </defs>
+    <circle cx="0" cy="0" r="4" fill="#2f6e5a"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">Schwarz contraction</text>
+  </g>
+  <text x="360" y="340" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Maximum Modulus and Schwarz Lemma</text>
+</svg>
