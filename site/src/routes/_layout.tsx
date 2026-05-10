@@ -46,7 +46,29 @@ export const config = { hydrate: false };
 
 export function head() {
   return {
+    openGraph: {
+      type: "website",
+      title: "Codex — math & physics curriculum",
+      description: "A three-tier curriculum from algebra to graduate-level mastery. Beginner / Intermediate / Master in one source.",
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: "Codex — math & physics curriculum",
+      description: "A three-tier curriculum from algebra to graduate-level mastery.",
+    },
     headScripts: [
+      {
+        // Inject favicon + theme-color link/meta tags. SeoMetaInput doesn't
+        // surface arbitrary <link> nodes so we add them via a tiny inline
+        // script that runs synchronously in <head>.
+        content: `(function(){
+          var d=document;var h=d.head||d.getElementsByTagName('head')[0];
+          function add(t,a){var n=d.createElement(t);for(var k in a)n.setAttribute(k,a[k]);h.appendChild(n);}
+          add('link',{rel:'icon',type:'image/svg+xml',href:'/favicon.svg'});
+          add('link',{rel:'apple-touch-icon',href:'/favicon.svg'});
+          add('meta',{name:'theme-color',content:'#0c0d10'});
+        })();`,
+      },
       {
         // Pre-paint: read tier + theme from localStorage and apply to <html>
         // so users don't see a flash of wrong theme/tier.

@@ -46,9 +46,90 @@
       archive_path: "reference/jimmyqin/",
     },
     TODO_REF: {
-      name: "Pending source",
+      name: "Citation pending",
       license:
-        "This citation will resolve once the source is acquired. See NEED_TO_SOURCE.md.",
+        "This citation refers to a primary source that will be wired in as the source is acquired and added to the archive. The locator is preserved so the reference is intelligible to readers familiar with the field.",
+    },
+    apostol: {
+      name: "Tom M. Apostol — Calculus (Vol 1, single-variable; Vol 2, multi-variable + linear algebra)",
+      attribution: "Apostol, T. — Calculus, Wiley, 1967, 1969.",
+    },
+    hartshorne: {
+      name: "Robin Hartshorne — Algebraic Geometry",
+      attribution: "Hartshorne, R. — Algebraic Geometry, Springer GTM 52, 1977.",
+    },
+    hatcher: {
+      name: "Allen Hatcher — Algebraic Topology",
+      attribution: "Hatcher, A. — Algebraic Topology, Cambridge University Press, 2002.",
+      archive_path: "reference/textbooks/hatcher-algebraic-topology/",
+    },
+    "lawson-michelsohn": {
+      name: "H. Blaine Lawson Jr. & Marie-Louise Michelsohn — Spin Geometry",
+      attribution: "Lawson & Michelsohn — Spin Geometry, Princeton, 1989.",
+    },
+    "bott-tu": {
+      name: "Raoul Bott & Loring Tu — Differential Forms in Algebraic Topology",
+      attribution: "Bott, R. & Tu, L. — Differential Forms in Algebraic Topology, Springer GTM 82, 1982.",
+    },
+    cannas: {
+      name: "Ana Cannas da Silva — Lectures on Symplectic Geometry",
+      attribution: "Cannas da Silva, A. — Lectures on Symplectic Geometry, Springer LNM 1764, 2008.",
+    },
+    donaldson: {
+      name: "Simon Donaldson — Riemann Surfaces",
+      attribution: "Donaldson, S. — Riemann Surfaces, Oxford GTM 22, 2011.",
+    },
+    forster: {
+      name: "Otto Forster — Lectures on Riemann Surfaces",
+      attribution: "Forster, O. — Lectures on Riemann Surfaces, Springer GTM 81, 1981.",
+    },
+    ahlfors: {
+      name: "Lars V. Ahlfors — Complex Analysis",
+      attribution: "Ahlfors, L. — Complex Analysis, McGraw-Hill, 3rd edition 1979.",
+    },
+    lang: {
+      name: "Serge Lang — Basic Mathematics / Algebra / Complex Analysis (multi-volume)",
+      attribution: "Lang, S. — Basic Mathematics (1971), Algebra (1965/2002), etc.",
+    },
+    arnold: {
+      name: "Vladimir Arnold — Mathematical Methods of Classical Mechanics / Ordinary Differential Equations",
+      attribution: "Arnold, V. — Mathematical Methods of Classical Mechanics, Springer GTM 60, 1989 (2nd ed.).",
+    },
+    brown: {
+      name: "Ronald Brown — Topology and Groupoids",
+      attribution: "Brown, R. — Topology and Groupoids, BookSurge, 2006.",
+    },
+    "griffiths-harris": {
+      name: "Phillip Griffiths & Joseph Harris — Principles of Algebraic Geometry",
+      attribution: "Griffiths, P. & Harris, J. — Principles of Algebraic Geometry, Wiley, 1978.",
+    },
+    weinberg: {
+      name: "Steven Weinberg — The Quantum Theory of Fields (Vols 1-3)",
+      attribution: "Weinberg, S. — The Quantum Theory of Fields, Cambridge, 1995-2000.",
+    },
+    "landau-lifshitz": {
+      name: "L. D. Landau & E. M. Lifshitz — Course of Theoretical Physics (Vols 1-10)",
+      attribution: "Landau, L. & Lifshitz, E. — Course of Theoretical Physics, Pergamon, 1960s-80s.",
+    },
+    milnor: {
+      name: "John Milnor — various (Topology, Morse Theory, Characteristic Classes)",
+      attribution: "Milnor, J. — primary references including Morse Theory (Princeton, 1963), Topology from the Differentiable Viewpoint (Virginia, 1965), Characteristic Classes (with Stasheff, Princeton, 1974).",
+    },
+    spivak: {
+      name: "Michael Spivak — Calculus on Manifolds / Comprehensive Introduction to Differential Geometry",
+      attribution: "Spivak, M. — Calculus on Manifolds (1965), A Comprehensive Introduction to Differential Geometry (5 vols, 3rd ed., 1999).",
+    },
+    rudin: {
+      name: "Walter Rudin — Principles of Mathematical Analysis / Real and Complex Analysis / Functional Analysis",
+      attribution: "Rudin, W. — three classic texts published by McGraw-Hill, 1953-1991.",
+    },
+    axler: {
+      name: "Sheldon Axler — Linear Algebra Done Right",
+      attribution: "Axler, S. — Linear Algebra Done Right, Springer UTM, 3rd ed. 2015.",
+    },
+    riemann: {
+      name: "Bernhard Riemann — Collected Works (Theorie der Abelschen Functionen 1857, etc.)",
+      attribution: "Riemann, B. — Theorie der Abelschen Functionen, J. reine angew. Math. 54, 1857; Collected Mathematical Works, Springer 1990.",
     },
   };
 

@@ -7,7 +7,7 @@ import { spawnSync } from "node:child_process";
 import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 
-const codexRoot = resolve(import.meta.dirname, "../../../../../codex");
+const codexRoot = resolve(import.meta.dirname, "../..");
 const validatorPath = resolve(codexRoot, "scripts/validate_all.py");
 const venvPython = resolve(codexRoot, ".venv/bin/python");
 

@@ -55,12 +55,22 @@ const refRenderer: RendererExtension = {
     const cls = isPending ? "ref ref--pending" : "ref";
     const sourceAttr = escapeHtml(t.source);
     const locatorAttr = escapeHtml(t.locator || "");
-    const title = t.locator
-      ? escapeHtml(`${t.source} — ${t.locator}`)
-      : escapeHtml(t.source);
-    const supBody = t.locator
-      ? `${escapeHtml(t.source)} ${escapeHtml(t.locator)}`
-      : escapeHtml(t.source);
+    // Public-facing label: hide the literal "TODO_REF" sentinel — show only
+    // the locator (e.g., "Apostol 1967"). Falls back to "pending" if no
+    // locator was provided. Non-pending sources keep their source name.
+    let supBody: string;
+    let title: string;
+    if (isPending) {
+      supBody = t.locator ? escapeHtml(t.locator) : "pending";
+      title = t.locator ? `pending citation: ${escapeHtml(t.locator)}` : "pending citation";
+    } else {
+      supBody = t.locator
+        ? `${escapeHtml(t.source)} ${escapeHtml(t.locator)}`
+        : escapeHtml(t.source);
+      title = t.locator
+        ? escapeHtml(`${t.source} — ${t.locator}`)
+        : escapeHtml(t.source);
+    }
     return `<span class="${cls}" data-ref-source="${sourceAttr}" data-ref-locator="${locatorAttr}" title="${title}"><sup>[${supBody}]</sup></span>`;
   },
 };

@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-10T19:30:13.220132+00:00_
+_Generated: 2026-05-10T19:41:54.331076+00:00_
 
 ## Burn-down
 
-- Units shipped: **309**
-- Units queued (gap units from audits): **58**
+- Units shipped: **313**
+- Units queued (gap units from audits): **54**
 - Of which deepenings: **0**
 - Audits completed: **13 / 92**
 - Books unaudited: **47**
@@ -21,19 +21,19 @@ _Generated: 2026-05-10T19:30:13.220132+00:00_
 | 5 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
 | 6 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
 | 7 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
-| 8 | `06.01.13` | Argument principle and Rouché | P? | lars-ahlfors-complex-analysis |
-| 9 | `06.01.14` | Normal families and Montel's theorem | P? | lars-ahlfors-complex-analysis |
-| 10 | `06.01.15` | Gamma function $\Gamma(z)$ | P? | lars-ahlfors-complex-analysis |
-| 11 | `06.01.16` | Riemann zeta function $\zeta(s)$ | P? | lars-ahlfors-complex-analysis |
-| 12 | `06.01.17` | Weierstrass factorization theorem | P? | lars-ahlfors-complex-analysis |
-| 13 | `06.01.18` | Mittag-Leffler theorem on $\mathbb{C}$ | P? | lars-ahlfors-complex-analysis |
-| 14 | `06.01.19` | Schwarz-Christoffel formula | P? | lars-ahlfors-complex-analysis |
-| 15 | `06.01.20` | Picard's little theorem | P? | lars-ahlfors-complex-analysis |
-| 16 | `06.01.21` | Picard's great theorem | P? | lars-ahlfors-complex-analysis |
-| 17 | `06.01.22` | Phragmén-Lindelöf principle | P? | lars-ahlfors-complex-analysis |
-| 18 | `06.01.23` | Schwarz reflection principle | P? | lars-ahlfors-complex-analysis |
-| 19 | `06.01.24` | Dirichlet problem on the disc + Perron's method | P? | lars-ahlfors-complex-analysis |
-| 20 | `06.01.25` | Weierstrass $\wp$ function | P? | lars-ahlfors-complex-analysis |
+| 8 | `06.01.14` | Normal families and Montel's theorem | P? | lars-ahlfors-complex-analysis |
+| 9 | `06.01.15` | Gamma function $\Gamma(z)$ | P? | lars-ahlfors-complex-analysis |
+| 10 | `06.01.16` | Riemann zeta function $\zeta(s)$ | P? | lars-ahlfors-complex-analysis |
+| 11 | `06.01.17` | Weierstrass factorization theorem | P? | lars-ahlfors-complex-analysis |
+| 12 | `06.01.18` | Mittag-Leffler theorem on $\mathbb{C}$ | P? | lars-ahlfors-complex-analysis |
+| 13 | `06.01.19` | Schwarz-Christoffel formula | P? | lars-ahlfors-complex-analysis |
+| 14 | `06.01.20` | Picard's little theorem | P? | lars-ahlfors-complex-analysis |
+| 15 | `06.01.21` | Picard's great theorem | P? | lars-ahlfors-complex-analysis |
+| 16 | `06.01.22` | Phragmén-Lindelöf principle | P? | lars-ahlfors-complex-analysis |
+| 17 | `06.01.23` | Schwarz reflection principle | P? | lars-ahlfors-complex-analysis |
+| 18 | `06.01.24` | Dirichlet problem on the disc + Perron's method | P? | lars-ahlfors-complex-analysis |
+| 19 | `06.01.25` | Weierstrass $\wp$ function | P? | lars-ahlfors-complex-analysis |
+| 20 | `06.01.26` | Modular function $\lambda$ and $j$-invariant | P? | lars-ahlfors-complex-analysis |
 
 ## Audits completed
 

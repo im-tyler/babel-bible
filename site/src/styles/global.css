@@ -1042,3 +1042,43 @@ body.cite-panel--open { overflow: hidden; }
 .footer-grid a:hover { color: var(--accent); }
 .footer-brand { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; margin: 0 0 0.4rem; }
 .footer-heading { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.5rem; }
+
+/* ---------- Pilot banner (home page) ---------- */
+.pilot-banner {
+  margin: 0 auto 1.5rem;
+  max-width: 980px;
+  padding: 0.75rem 1rem;
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-elev));
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border));
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--fg);
+}
+.pilot-banner strong { color: var(--fg-strong); }
+.pilot-banner em { font-style: italic; color: var(--muted); }
+
+/* ---------- Mobile responsive base (header + footer) ---------- */
+@media (max-width: 760px) {
+  .site-header .container {
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+  }
+  .site-header nav { font-size: 0.92rem; flex-wrap: wrap; }
+  .site-header nav a { padding: 0.2rem 0.4rem; }
+  .header-controls { gap: 0.4rem; }
+  .theme-toggle__btn, .tier-toggle__btn { padding: 0.3rem 0.5rem; font-size: 0.78rem; }
+  .hero h1 { font-size: 1.6rem; }
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+  .sections-grid { grid-template-columns: 1fr; }
+  .hub-grid { grid-template-columns: 1fr; }
+  .booklist-table { font-size: 0.78rem; }
+  .booklist-table .topic-col { display: none; }
+  .lean-table { font-size: 0.78rem; }
+  .lean-table td { padding: 0.3rem 0.4rem; }
+  .filter-row { gap: 0.5rem 0.8rem; padding: 0.6rem 0.8rem; }
+  .conn-meta { font-size: 0.72rem; gap: 0.35rem; }
+  .dag-matrix__col-head { height: 90px; }
+  .dag-matrix__cell { width: 28px; height: 24px; font-size: 0.7rem; }
+  .dag-matrix__corner, .dag-matrix__row-head { min-width: 100px; font-size: 0.78rem; }
+}

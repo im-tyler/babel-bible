@@ -43,6 +43,13 @@ export async function loader() {
 export default function HomePage({ data }: { data: { totalUnits: number; sections: SectionSummary[] } }) {
   return (
     <article>
+      <div class="pilot-banner">
+        <strong>v0.1 pilot.</strong> Apex-first content, foundations backfilling.
+        Every unit ships through a 27-point automated rubric; human-reviewer
+        attestation is rolling. Citations marked <em>pending</em> resolve as
+        primary sources are wired in.
+      </div>
+
       <section class="hero">
         <div class="hero-eyebrow">A curriculum, not a textbook</div>
         <h1>Walk the path from algebra to mastery — three times.</h1>
