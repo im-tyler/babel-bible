@@ -141,9 +141,18 @@ export default function RootLayout({ children }: { children: any }) {
               <button type="button" class="theme-toggle__btn" data-theme-set="light" title="Light">L</button>
             </div>
             <div class="tier-toggle" role="group" aria-label="Reading tier">
-              <button type="button" class="tier-toggle__btn" data-tier-set="beginner">Beginner</button>
-              <button type="button" class="tier-toggle__btn" data-tier-set="intermediate">Intermediate</button>
-              <button type="button" class="tier-toggle__btn" data-tier-set="master">Master</button>
+              <button type="button" class="tier-toggle__btn" data-tier-set="beginner" title="Beginner — intuition + visuals">
+                <span class="tier-toggle__full">Beginner</span>
+                <span class="tier-toggle__short" aria-hidden="true">B</span>
+              </button>
+              <button type="button" class="tier-toggle__btn" data-tier-set="intermediate" title="Intermediate — proofs + exercises">
+                <span class="tier-toggle__full">Intermediate</span>
+                <span class="tier-toggle__short" aria-hidden="true">I</span>
+              </button>
+              <button type="button" class="tier-toggle__btn" data-tier-set="master" title="Master — full graduate-level depth">
+                <span class="tier-toggle__full">Master</span>
+                <span class="tier-toggle__short" aria-hidden="true">M</span>
+              </button>
             </div>
           </div>
         </div>
