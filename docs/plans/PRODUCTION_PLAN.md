@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-09T03:15:29.532102+00:00_
+_Generated: 2026-05-09T03:35:13.040091+00:00_
 
 ## Burn-down
 
-- Units shipped: **285**
-- Units queued (gap units from audits): **11**
+- Units shipped: **289**
+- Units queued (gap units from audits): **7**
 - Of which deepenings: **0**
 - Audits completed: **9 / 92**
 - Books unaudited: **57**
@@ -14,17 +14,13 @@ _Generated: 2026-05-09T03:15:29.532102+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `06.09.05` | Cousin II (multiplicative) | P? | forster-riemann-surfaces |
-| 2 | `06.09.06` | Mittag-Leffler on RS | P? | forster-riemann-surfaces |
-| 3 | `06.09.07` | Runge approximation on RS | P? | forster-riemann-surfaces |
-| 4 | `06.09.08` | Survey: Cartan-Serre Stein theory in higher dim | P? | forster-riemann-surfaces |
-| 5 | `04.05.08` | Riemann-Roch theorem for surfaces | P? | hartshorne-algebraic-geometry |
-| 6 | `04.05.09` | Hodge index theorem | P? | hartshorne-algebraic-geometry |
-| 7 | `04.04.03` | Elliptic curves | P? | hartshorne-algebraic-geometry |
-| 8 | `04.02.07` | Nullstellensatz and dimension theory | P? | hartshorne-algebraic-geometry |
-| 9 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
-| 10 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
-| 11 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
+| 1 | `06.09.06` | Mittag-Leffler on RS | P? | forster-riemann-surfaces |
+| 2 | `06.09.07` | Runge approximation on RS | P? | forster-riemann-surfaces |
+| 3 | `06.09.08` | Survey: Cartan-Serre Stein theory in higher dim | P? | forster-riemann-surfaces |
+| 4 | `04.05.09` | Hodge index theorem | P? | hartshorne-algebraic-geometry |
+| 5 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
+| 6 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
+| 7 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
 
 ## Audits completed
 

@@ -1,16 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
-  <title id="title">Symbol of Operator</title>
-  <desc id="desc">A schematic placeholder diagram for Symbol of Operator.</desc>
-  <rect width="720" height="360" fill="#f5f1e9"/>
-  <g stroke="#2f5f89" stroke-width="2" fill="none" opacity="0.45">
-    <path d="M120 80 L120 280"/><path d="M220 80 L220 280"/><path d="M320 80 L320 280"/>
-    <path d="M420 80 L420 280"/><path d="M520 80 L520 280"/><path d="M620 80 L620 280"/>
-    <path d="M120 80 L620 80"/><path d="M120 140 L620 140"/><path d="M120 200 L620 200"/>
-    <path d="M120 260 L620 260"/>
-  </g>
-  <path d="M120 260 Q220 80 320 200 T520 140 T620 200" fill="none" stroke="#7a4f9a" stroke-width="10" stroke-linecap="round"/>
-  <circle cx="220" cy="140" r="9" fill="#2f5f89"/>
-  <circle cx="420" cy="200" r="9" fill="#2f5f89"/>
-  <circle cx="620" cy="200" r="9" fill="#2f5f89"/>
-  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Symbol of Operator</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Symbol keeps the highest-order part</title>
+  <desc id="desc">A differential operator is filtered through a magnifying lens that keeps only its highest-order coefficient, producing a function on cotangent directions.</desc>
+  <rect width="900" height="460" fill="#f8fafc"/>
+  <rect x="70" y="95" width="280" height="250" rx="8" fill="#ffffff" stroke="#1f2933" stroke-width="3"/>
+  <text x="210" y="140" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#1f2933">operator P</text>
+  <text x="210" y="195" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#2563eb">highest order</text>
+  <text x="210" y="245" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" fill="#64748b">lower order terms</text>
+  <text x="210" y="292" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" fill="#64748b">coefficients</text>
+  <path d="M365 220 L505 220" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  <path d="M505 220 l-22 -14 l4 28 z" fill="#334155"/>
+  <circle cx="435" cy="220" r="48" fill="none" stroke="#16a34a" stroke-width="6"/>
+  <text x="435" y="308" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#16a34a">principal filter</text>
+  <rect x="550" y="95" width="280" height="250" rx="8" fill="#ffffff" stroke="#1f2933" stroke-width="3"/>
+  <text x="690" y="140" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#1f2933">symbol</text>
+  <line x1="622" y1="252" x2="760" y2="154" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  <path d="M760 154 l-25 2 l15 20 z" fill="#dc2626"/>
+  <text x="690" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#475569">cotangent direction</text>
+  <text x="450" y="420" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#475569">The principal symbol records the top-order response in each direction.</text>
 </svg>
