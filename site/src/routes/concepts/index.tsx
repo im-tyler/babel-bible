@@ -58,7 +58,7 @@ function parseCatalog(text: string): CatalogEntry[] {
 }
 
 export async function loader() {
-  const catalogPath = resolve(import.meta.dirname, "../../../../../../codex/CONCEPT_CATALOG.md");
+  const catalogPath = resolve(import.meta.dirname, "../../../../docs/catalogs/CONCEPT_CATALOG.md");
   let entries: CatalogEntry[] = [];
   try {
     const text = readFileSync(catalogPath, "utf-8");
