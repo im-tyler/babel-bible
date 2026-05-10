@@ -1,14 +1,14 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-09T03:35:13.040091+00:00_
+_Generated: 2026-05-10T18:29:02.822525+00:00_
 
 ## Burn-down
 
 - Units shipped: **289**
-- Units queued (gap units from audits): **7**
+- Units queued (gap units from audits): **78**
 - Of which deepenings: **0**
-- Audits completed: **9 / 92**
-- Books unaudited: **57**
+- Audits completed: **13 / 92**
+- Books unaudited: **47**
 
 ## Next 20 queued units (topological order)
 
@@ -21,6 +21,19 @@ _Generated: 2026-05-09T03:35:13.040091+00:00_
 | 5 | `04.03.06` | Derived functors and Ext | P? | hartshorne-algebraic-geometry |
 | 6 | `04.03.07` | Higher direct images and base change | P? | hartshorne-algebraic-geometry |
 | 7 | `03.12.22` | $\Delta$-complex / semi-simplicial set | P? | hatcher-algebraic-topology |
+| 8 | `06.01.07` | Riemann sphere $\mathbb{C}_\infty$ | P? | lars-ahlfors-complex-analysis |
+| 9 | `06.01.08` | Möbius (linear-fractional) transformations | P? | lars-ahlfors-complex-analysis |
+| 10 | `06.01.10` | Cauchy-Riemann equations + harmonic conjugate | P? | lars-ahlfors-complex-analysis |
+| 11 | `06.01.11` | Harmonic functions on the plane | P? | lars-ahlfors-complex-analysis |
+| 12 | `06.01.12` | Maximum modulus + Schwarz lemma | P? | lars-ahlfors-complex-analysis |
+| 13 | `06.01.13` | Argument principle and Rouché | P? | lars-ahlfors-complex-analysis |
+| 14 | `06.01.14` | Normal families and Montel's theorem | P? | lars-ahlfors-complex-analysis |
+| 15 | `06.01.15` | Gamma function $\Gamma(z)$ | P? | lars-ahlfors-complex-analysis |
+| 16 | `06.01.16` | Riemann zeta function $\zeta(s)$ | P? | lars-ahlfors-complex-analysis |
+| 17 | `06.01.17` | Weierstrass factorization theorem | P? | lars-ahlfors-complex-analysis |
+| 18 | `06.01.18` | Mittag-Leffler theorem on $\mathbb{C}$ | P? | lars-ahlfors-complex-analysis |
+| 19 | `06.01.19` | Schwarz-Christoffel formula | P? | lars-ahlfors-complex-analysis |
+| 20 | `06.01.20` | Picard's little theorem | P? | lars-ahlfors-complex-analysis |
 
 ## Audits completed
 
@@ -34,21 +47,19 @@ _Generated: 2026-05-09T03:35:13.040091+00:00_
 | forster-riemann-surfaces | 0 | 0 | 0 | 0 | 0 |
 | hartshorne-algebraic-geometry | 0 | 0 | 0 | 0 | 0 |
 | hatcher-algebraic-topology | 0 | 0 | 0 | 0 | 0 |
+| lars-ahlfors-complex-analysis | 0 | 0 | 0 | 0 | 0 |
 | lawson-michelsohn-spin-geometry | 0 | 0 | 0 | 0 | 0 |
+| serge-lang-basic-mathematics | 0 | 0 | 0 | 0 | 0 |
+| tom-m-apostol-calculus-vol-multi | 0 | 0 | 0 | 0 | 0 |
+| tom-m-apostol-calculus-vol-single | 0 | 0 | 0 | 0 | 0 |
 
 ## Books unaudited (top 20 by FT entry)
 
 | FT | Title | Author |
 |---|---|---|
-| 0.1 | Basic Mathematics | Serge Lang |
-| 0.2 | Calculus, Vol 1 (Single Variable) | Tom M. Apostol |
-| 0.3 | Calculus, Vol 2 (Multi-Variable) | Tom M. Apostol |
 | 1.02 | Mechanics | Landau, Lifshitz |
 | 1.03 | The Classical Theory of Fields | Landau, Lifshitz |
-| 1.04 | Complex Analysis | Lars Ahlfors |
 | 1.13 | Geometric Integration Theory | Hassler Whitney |
-| 1.14 | Curvature in Mathematics and Physics | Shlomo Sternberg |
-| 1.18 | Multivariable Mathematics (Ch. 8) | Theodore Shifrin |
 | 2.01 | Quantum Mechanics: Non-Relativistic Theory | Landau, Lifshitz |
 | 2.02 | Quantum Theory, Groups and Representations | Peter Woit |
 | 2.03 | QFT Lecture Notes | Sourav Chatterjee |
@@ -60,3 +71,9 @@ _Generated: 2026-05-09T03:35:13.040091+00:00_
 | 2.09 | Generalized Functions Vol. 6 | Gel'fand, Vilenkin |
 | 2.10 | Statistical Physics 1 | Landau, Lifshitz |
 | 2.11 | Structure of Dynamical Systems | Jean-Marie Souriau |
+| 2.12 | Exactly Solved Models in Statistical Mechanics | R.J. Baxter |
+| 2.13 | Statistical Field Theory Vol. 1 | Itzykson, Drouffe |
+| 2.14 | Statistical Field Theory Vol. 2 | Itzykson, Drouffe |
+| 2.15 | MIT OCW: Statistical Mechanics II | MIT (Kardar et al) |
+| 2.16 | Stochastic Quantization | Parisi et al |
+| 2.17 | The Quantum Theory of Fields Vol. 1 | Steven Weinberg |

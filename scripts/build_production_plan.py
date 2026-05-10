@@ -120,12 +120,33 @@ def parse_audit(path: Path) -> tuple[str, list[dict]]:
             uid = m.group(2)
             title = m.group(3).strip()
             spec = m.group(4).strip()
-            kind = "new_unit"
-            spec_lower = spec.lower()
-            for hint in DEEPENING_HINTS:
-                if hint in spec_lower or hint in title.lower():
+            # Explicit kind tag wins: [NEW] / [DEEPEN] / [ENRICH] / [DEFERRED] / [OUT OF SCOPE]
+            kind = None
+            tag_match = re.match(
+                r"^\s*\[(NEW|DEEPEN|DEEPENING|ENRICH|DEFERRED|OUT[\s-]OF[\s-]SCOPE)\]\s*",
+                spec, re.I,
+            )
+            if tag_match:
+                tag = tag_match.group(1).upper().replace(" ", "-").replace("--", "-")
+                if tag.startswith("OUT"):
+                    kind = "out_of_scope"
+                elif tag == "DEFERRED":
+                    kind = "deferred"
+                elif tag == "ENRICH":
+                    kind = "enrich"
+                elif tag in ("DEEPEN", "DEEPENING"):
                     kind = "deepening"
-                    break
+                elif tag == "NEW":
+                    kind = "new_unit"
+                spec = spec[tag_match.end():].strip()
+            if kind is None:
+                # Fallback to legacy heuristic.
+                kind = "new_unit"
+                spec_lower = spec.lower()
+                for hint in DEEPENING_HINTS:
+                    if hint in spec_lower or hint in title.lower():
+                        kind = "deepening"
+                        break
             items.append({
                 "id": uid,
                 "title": title,
@@ -283,7 +304,13 @@ def main() -> int:
                         units[src]["successors"].append(dst)
 
     # Topological order for queued units.
-    queued_order = [u for u in topo_sort(units) if units[u]["status"] == "queued"]
+    # Exclude enrichments (bibliography-only patches) and out-of-scope/deferred
+    # entries from the production queue — those don't get authored as new units.
+    queued_order = [
+        u for u in topo_sort(units)
+        if units[u]["status"] == "queued"
+        and units[u].get("kind") not in {"enrich", "out_of_scope", "deferred"}
+    ]
 
     # Booklist rows + which are audited.
     audit_slugs = audited_books()
@@ -293,10 +320,18 @@ def main() -> int:
     # Aggregate counts.
     counts = {
         "shipped": sum(1 for u in units.values() if u["status"] == "shipped"),
-        "queued": sum(1 for u in units.values() if u["status"] == "queued"),
+        "queued": sum(
+            1 for u in units.values()
+            if u["status"] == "queued"
+            and u.get("kind") not in {"enrich", "out_of_scope", "deferred"}
+        ),
         "deepenings_queued": sum(
             1 for u in units.values()
             if u["status"] == "queued" and u.get("kind") == "deepening"
+        ),
+        "enrichments_pending": sum(
+            1 for u in units.values()
+            if u["status"] == "queued" and u.get("kind") == "enrich"
         ),
         "audits_done": len(audits),
         "books_total": len(rows),
