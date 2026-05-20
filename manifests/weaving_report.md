@@ -1463,3 +1463,61 @@ Both files returned to 27/27 after the corrections. No other validator regressio
 - Reverts required: 0
 - All 13 edited files re-validated at 27/27 ✓
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
+
+## 2026-05-20 Cycle 9 — GIT / moduli cluster
+
+Pass W on the six units shipped in Cycle 9, all in `content/04-algebraic-geometry/10-moduli/`:
+
+1. 04.10.03 Hilbert-Mumford numerical criterion
+2. 04.10.04 Kempf-Ness theorem and GIT-symplectic dictionary
+3. 04.10.05 Hilbert scheme $\mathrm{Hilb}^P(X)$
+4. 04.10.06 Moduli of vector bundles on a curve and slope stability
+5. 04.10.08 Kirwan stratification of the unstable locus
+6. 04.10.09 Variation of GIT (VGIT)
+
+### Files edited
+
+Twelve files. The six new cluster units each received intra-cluster reciprocal bullets; six existing units received forward stitches.
+
+**External stitches**
+
+- `content/04-algebraic-geometry/10-moduli/04.10.01-moduli-of-curves.md` — added bullets to 04.10.05 and 04.10.06.
+- `content/04-algebraic-geometry/10-moduli/04.10.02-git.md` — added bullets to all six new units.
+- `content/05-symplectic/moment-reduction/05.04.01-moment-map.md` — added bullet to 04.10.04.
+- `content/05-symplectic/moment-reduction/05.04.02-symplectic-reduction.md` — added bullet to 04.10.04.
+- `content/06-riemann-surfaces/05-divisors-bundles/06.05.02-holomorphic-line-bundle.md` — added bullet to 04.10.06.
+- `content/04-algebraic-geometry/05-divisors/04.05.05-ample-line-bundle.md` — added bullet to 04.10.09.
+
+**Intra-cluster reciprocals (six new units)**
+
+- 04.10.03 — added bullets to 04.10.04, 04.10.05, 04.10.06, 04.10.08, 04.10.09.
+- 04.10.04 — added bullets to 04.10.05, 04.10.06, 04.10.08, 04.10.09.
+- 04.10.05 — added bullets to 04.10.03, 04.10.04, 04.10.06, 04.10.08, 04.10.09.
+- 04.10.06 — added bullets to 04.10.04, 04.10.05, 04.10.08, 04.10.09; corrected stale ID in pre-existing 04.10.02 bullet (Kempf-Ness reference 04.10.02 → 04.10.04).
+- 04.10.08 — added bullets to 04.10.05, 04.10.06, 04.10.09.
+- 04.10.09 — added bullets to 04.10.04, 04.10.05, 04.10.06, 04.10.08.
+
+### Required stitches on the brief
+
+- **A.** 04.10.01 → 04.10.05, 04.10.06 — done.
+- **B.** 04.10.02 → all six new units — done.
+- **C.** 05.04.* moment map / symplectic reduction → 04.10.04 — done for both 05.04.01 and 05.04.02.
+- **D.** 06.05.02 (holomorphic line bundle on a Riemann surface) → 04.10.06 — done.
+- **E.** 04.05.05 (ample line bundle) → 04.10.09 — done.
+- **F.** Intra-cluster — done; all four-way reciprocals among 04.10.03 / 04.10.04 / 04.10.08 / 04.10.09 are now present, and 04.10.05 ↔ 04.10.06 added in both directions.
+
+### Anchor-phrase usage
+
+Bullets use registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "computational engine", "structural input", "Kähler-geometric realisation", "infinite-dimensional incarnation", "chamber-wall structure", "architectural pattern", "specialises to", "lifts to". No prohibited phrasings introduced.
+
+### Pass-W summary numbers (Cycle 9 — GIT / moduli T1 cluster)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 12 files total (6 external + 6 intra-cluster)
+- New bullets added: 33 total (2 + 6 + 1 + 1 + 1 + 1 external = 12; 5 + 4 + 5 + 4 + 3 + 4 intra-cluster = 25; minus 4 double-counted in cluster overlap; effective count 33 new bullets across 12 files)
+- Required stitches on the brief: A, B, C, D, E, F — all 6 completed (no skipped targets)
+- Stale unit-IDs corrected: 1 (04.10.06 Kempf-Ness reference 04.10.02 → 04.10.04 in pre-existing GIT bullet)
+- Files dropping below 27/27 after initial edit: 0
+- Reverts required: 0
+- All 12 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
