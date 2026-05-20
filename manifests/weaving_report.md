@@ -1215,3 +1215,90 @@ The single intra-cluster gap was 03.06.07 → 03.06.18, which is fixed by edit #
 - Files with broken validator after edit / reverts required: 0
 - All 9 edited files re-validated at 27/27 ✓
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check)
+
+## Cycle 6 math lane Pass-W (2026-05-20) — homotopy advanced T1 cluster
+
+Pass W on the six production units shipped in the Cycle 6 homotopy advanced batch:
+
+- `content/03-modern-geometry/12-homotopy/03.12.33-kan-quillen-model-structure-on-sset.md`
+- `content/03-modern-geometry/12-homotopy/03.12.35-simplicial-model-category-and-function-complex.md`
+- `content/03-modern-geometry/12-homotopy/03.12.37-homotopy-colimit-bousfield-kan.md`
+- `content/03-modern-geometry/12-homotopy/03.12.38-bousfield-kan-spectral-sequence.md`
+- `content/03-modern-geometry/12-homotopy/03.12.40-postnikov-tower-kan-complex.md`
+- `content/03-modern-geometry/12-homotopy/03.12.45-arithmetic-square-integral-fracture.md`
+
+### Files edited
+
+Seven files. The six new cluster units themselves were not edited (intra-cluster citations were verified in place where present); the seven edits are reciprocal-pointer additions in receiving units that previously lacked an explicit Connections-section bullet pointing into the new cluster.
+
+1. `content/03-modern-geometry/12-homotopy/03.12.31-quillen-model-category.md`
+2. `content/03-modern-geometry/12-homotopy/03.12.25-simplicial-sets-and-geometric-realization.md`
+3. `content/03-modern-geometry/12-homotopy/03.12.05-eilenberg-maclane.md`
+4. `content/03-modern-geometry/12-homotopy/03.12.07-whitehead-tower.md`
+5. `content/03-modern-geometry/13-spectral-sequences/03.13.01-spectral-sequence.md`
+6. `content/03-modern-geometry/12-homotopy/03.12.35-simplicial-model-category-and-function-complex.md`
+7. `content/03-modern-geometry/12-homotopy/03.12.37-homotopy-colimit-bousfield-kan.md`
+
+### Per-edit rationale
+
+**1. 03.12.31 (Quillen model category).** Added three Connections bullets: [03.12.33] (Kan-Quillen as the canonical worked example, with $I = \{\partial \Delta^n \hookrightarrow \Delta^n\}$ and $J = \{\Lambda^n_k \hookrightarrow \Delta^n\}$ as generating cofibrations / acyclic cofibrations), [03.12.35] (simplicial-enrichment refinement upgrading $\mathrm{Hom}_{\mathrm{Ho}}$ from a set to a Kan complex via SM7), and [03.12.37] (homotopy colimit as the left-derived left adjoint in the projective model structure on $\mathbf{sSet}^I$). Stitches the model-category root upward into the new cluster. Anchor phrase: "the foundational reason the framework was built is to axiomatise exactly this kind of construction".
+
+**2. 03.12.25 (Simplicial sets and geometric realization).** Added two Connections bullets: [03.12.33] (the natural model structure on $\mathbf{sSet}$ with $|{-}| \dashv \mathrm{Sing}$ as Quillen equivalence with the Serre model structure on $\mathbf{Top}$) and [03.12.40] (Postnikov tower in the simplicial model via the coskeleton functor $\mathrm{cosk}_n$). The unit was previously routing Kan-Quillen references through the [03.12.31] bullet; the new explicit [03.12.33] bullet plugs the structural gap. Anchor phrases: "the foundational reason the simplicial-set framework is the right combinatorial home", "Postnikov tower is therefore an intrinsic simplicial-set construction".
+
+**3. 03.12.05 (Eilenberg-MacLane spaces).** Added a Connections bullet for [03.12.40] recording that Postnikov tower stages connect by principal $K(\pi_n(X), n)$-fibrations with classifying $k$-invariants in $H^{n+1}(P_{n-1} X; \pi_n(X))$, recovered via the representability theorem from the present unit. Anchor phrase: "the foundational reason Eilenberg-MacLane spaces are the building blocks of homotopy theory is exactly the Postnikov tower". Stitches the bottom-up assembly of homotopy types via $K(\pi, n)$ pieces.
+
+**4. 03.12.07 (Whitehead tower).** Added a Connections bullet for [03.12.40] explicating the Postnikov / Whitehead duality: Postnikov descends from a space by killing $\pi_k$ above degree $n$ (truncation from above), Whitehead ascends by killing $\pi_k$ below degree $n$ (connective cover from below), both assembled from principal $K(\pi_n(X), n)$-fibrations. The two towers bracket the homotopy structure of any simply-connected space. Anchor phrase: "the combinatorial simplicial-set construction of the Postnikov tower via coskeleta in [03.12.40] is the formal counterpart of the topological Whitehead-tower construction".
+
+**5. 03.13.01 (Spectral sequence).** Added a Connections bullet for [03.12.38] (Bousfield-Kan SS as cosimplicial-space SS, exact-couple construction with $D$-term $\pi_*(\mathrm{Tot}_s X^{\bullet})$ and $E$-term $\pi_* N^s X^{\bullet}$). Notes the homotopy-tower nature (cosimplicial direction rather than cohomological filtration) and the characteristic $\lim^1$ obstruction in the convergence theory. Stitches the abstract spectral-sequence framework forward into the BK specialisation; the bullet also flags the Adams-SS / chromatic specialisations at ring spectra.
+
+**6. 03.12.35 (Simplicial model category and function complex).** Intra-cluster gap fill. The unit previously cited [03.12.31] and [03.12.25] but lacked an explicit [03.12.33] bullet despite extensive prose references to "the Kan-Quillen model structure" throughout the body. Added a dedicated Connections bullet identifying Kan-Quillen as the canonical worked example of the simplicial-model-category framework, with $\mathrm{Map}(L, K) = K^L$ a Kan complex when $K$ is Kan-fibrant. Closes the most load-bearing intra-cluster reciprocal.
+
+**7. 03.12.37 (Homotopy colimit via Bousfield-Kan).** Intra-cluster gap fill. The unit previously cited [03.12.31] and [03.12.25] but lacked an explicit [03.12.33] bullet despite the Ken-Brown-lemma and left-Quillen arguments resting on the Kan-Quillen structure. Added a dedicated Connections bullet recording that the diagram-category model structure $\mathbf{sSet}^I$ inherits its level-wise structure from [03.12.33], and that the bar construction $B(*, I, X)$ is the explicit point-set realisation of the derived left Kan extension.
+
+### Reciprocal stitch coverage (brief checklist)
+
+- **A. 03.12.31 → 03.12.33, 03.12.35, 03.12.37.** Completed (edit #1; three bullets added).
+- **B. 03.12.25 → 03.12.33, 03.12.40.** Completed (edit #2; two bullets added).
+- **C. 03.12.05 → 03.12.40.** Completed (edit #3).
+- **D. 03.12.07 → 03.12.40.** Completed (edit #4).
+- **E. 03.13.x → 03.12.38.** Completed (edit #5 on 03.13.01); 03.13.02-04 not edited (the brief's "any shipped 03.13.* unit" was satisfied by routing through the spectral-sequence root unit 03.13.01).
+- **F. Bousfield localisation / p-completion → 03.12.45.** Skipped — no shipped Bousfield-localisation or p-completion unit exists in the 03.12.x range. Logged for a future cycle when the localisation unit ships.
+
+### Intra-cluster reciprocal verification
+
+- 03.12.35 cites 03.12.33: **was missing**, added by edit #6.
+- 03.12.37 cites 03.12.33: **was missing**, added by edit #7.
+- 03.12.38 cites 03.12.37: present ✓ (Connections bullet at line 604, "the companion unit develops the Bousfield-Kan homotopy-limit construction").
+- 03.12.45 cites 03.12.37: present ✓ (Connections bullet at line 648).
+- 03.12.45 cites 03.12.38: present ✓ (Connections bullet at line 650).
+- 03.12.40 cites 03.12.33: present ✓ (already in Connections list).
+
+### Seams found but not edited
+
+- **Stitch F (localisation).** No shipped Bousfield-localisation, p-completion, or rationalisation unit exists in the 03.12.x range at present. The 03.12.45 unit's body prose carries the localisation language in self-contained form, and the Connections list points back to 03.12.37 and 03.12.38 for the cosimplicial machinery. The forward stitch from a future localisation unit into 03.12.45 will be the natural completion when that unit ships; logged for the next cycle that picks up Bousfield localisation as a production target.
+
+- **03.13.02 (Leray-Serre SS) → 03.12.38.** The Bousfield-Kan SS and Leray-Serre SS are siblings in the spectral-sequence taxonomy (filtered-complex vs. cosimplicial-tower), and a bidirectional stitch would be desirable. The brief's required stitch was "any shipped 03.13.* unit"; edit #5 satisfies the requirement by routing through the root unit 03.13.01. A 03.13.02 → 03.12.38 reciprocal is desirable but not load-bearing for the present cycle. Flag for the next spectral-sequence-chapter cycle.
+
+- **03.13.04 (Atiyah-Hirzebruch SS) → 03.12.38.** The 03.12.38 unit already has a Connections bullet for [03.13.04] explicating the structural parallel; the reverse direction (03.13.04 → 03.12.38) is desirable but not load-bearing. Same disposition as 03.13.02.
+
+- **03.12.06 (Sullivan minimal models) → 03.12.45.** The 03.12.45 unit's rational corner $L_\mathbb{Q} X$ is identified with the Sullivan minimal model via the Bousfield-Gugenheim PL-de Rham equivalence (Connections bullet at line 646), but the reverse stitch from 03.12.06 to 03.12.45 was not on the brief's required list. The rationalisation corner of the arithmetic square is a substantive forward promise from 03.12.06; flag for a future cycle.
+
+- **03.12.19 / 03.12.20 (Hurewicz, Whitehead theorems) → 03.12.45.** The 03.12.45 unit's Step-4 Whitehead-theorem appeal and the Hurewicz-accessible-spaces side condition are recorded in the Connections list (lines 656, 658). Reverse stitches from 03.12.19 and 03.12.20 to 03.12.45 would be desirable but were not on the brief's required list. Flag for the next chapter-internal cycle.
+
+### Quality observations
+
+**Calibre of the six new units.** Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander prose calibre), all six units hit the target. Each unit ships at 27/27, each Master Connections section has 5+ substantive cross-unit bullets, and the synthesis paragraphs carry the throughline density required by §10.2. The 03.12.45 unit's Master tier (Sullivan arithmetic-square pullback, $\lim^1$-vanishing convergence, chromatic height-by-height assembly) is the densest of the six and reads at Hopkins-Ravenel calibre; the 03.12.33 unit's Quillen-equivalence development with the small-object argument for both $I$ and $J$ is at Goerss-Jardine calibre.
+
+**Drift flags.** Minor — the 03.12.35 unit's Connections list previously stated "the Kan-Quillen model structure of [03.12.25]" in the [03.12.25] bullet, which is structurally imprecise now that the Kan-Quillen structure has its own dedicated unit (03.12.33). Edit #6 silently corrects this by dropping the "of [03.12.25]" tag from the [03.12.25] bullet and adding a dedicated [03.12.33] bullet. No other drift observed.
+
+**Anchor-phrase reuse and continuity metrics.** All six new units and all seven edited reciprocal targets use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the canonical worked example", "the prototypical combinatorial form". Forward-promise density and backward-reference density meet the §10.2 thresholds on every unit.
+
+### Pass-W summary numbers (math lane)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 7 (8 outbound bullets added across 5 receiving units + 2 intra-cluster gap-fill bullets)
+- Required stitches on the brief: 6 (A-F); 5 completed (A, B, C, D, E), 1 skipped with logged note (F — no localisation target unit exists)
+- Intra-cluster reciprocals verified: 6 total; pre-existing: 4 (03.12.38→37, 03.12.45→37, 03.12.45→38, 03.12.40→33); added: 2 (03.12.35→33, 03.12.37→33)
+- Files with broken validator after edit / reverts required: 0
+- All 7 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check)
