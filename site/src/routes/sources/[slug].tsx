@@ -15,8 +15,8 @@ export async function loader({ params }: { params: { slug: string } }) {
 
 export function head({ data }: { data: any }) {
   return {
-    title: `${data.title} | Math STEM`,
-    description: `Math STEM audit and gap-unit punch-list for ${data.title}.`,
+    title: `${data.title} | Babel Bible`,
+    description: `Babel Bible audit and gap-unit punch-list for ${data.title}.`,
   };
 }
 

@@ -48,12 +48,12 @@ export function head() {
   return {
     openGraph: {
       type: "website",
-      title: "Math STEM — math & physics curriculum",
+      title: "Babel Bible — math & physics curriculum",
       description: "A three-tier curriculum from algebra to graduate-level mastery. Beginner / Intermediate / Master in one source.",
     },
     twitter: {
       card: "summary_large_image" as const,
-      title: "Math STEM — math & physics curriculum",
+      title: "Babel Bible — math & physics curriculum",
       description: "A three-tier curriculum from algebra to graduate-level mastery.",
     },
     headScripts: [
@@ -128,11 +128,15 @@ export default function RootLayout({ children }: { children: any }) {
     <>
       <header class="site-header">
         <div class="container">
-          <a href="/" class="brand">Math STEM</a>
+          <a href="/" class="brand">Babel Bible</a>
           <nav>
-            <a href="/units">Units</a>
+            <a href="/math">Math</a>
+            <a href="/physics">Physics</a>
+            <a href="/chemistry">Chemistry</a>
+            <a href="/biology">Biology</a>
+            <a href="/philosophy">Philosophy</a>
+            <a href="/units">All Units</a>
             <a href="/concepts">Concepts</a>
-            <a href="/about">About</a>
           </nav>
           <div class="header-controls">
             <div class="theme-toggle" role="group" aria-label="Theme">
@@ -164,7 +168,7 @@ export default function RootLayout({ children }: { children: any }) {
         <div class="container">
           <div class="footer-grid">
             <div>
-              <p class="footer-brand">Math STEM</p>
+              <p class="footer-brand">Babel Bible</p>
               <p class="muted">Math &amp; physics curriculum, all tiers. v0.1 pilot.</p>
             </div>
             <div>

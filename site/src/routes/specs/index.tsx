@@ -2,8 +2,8 @@ import { listDocs, SPECS_DIR, type DocSummary } from "../../lib/md-docs";
 
 export function head() {
   return {
-    title: "Specs | Math STEM",
-    description: "Math STEM unit-format spec, quality rubric, continuity scaffold, and orchestration protocol.",
+    title: "Specs | Babel Bible",
+    description: "Babel Bible unit-format spec, quality rubric, continuity scaffold, and orchestration protocol.",
   };
 }
 

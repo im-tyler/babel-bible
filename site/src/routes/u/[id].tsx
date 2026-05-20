@@ -19,8 +19,8 @@ export async function loader({ params }: { params: { id: string } }) {
 
 export function head({ data }: { data: any }) {
   return {
-    title: `${data.unit.id} — ${data.unit.title} | Math STEM`,
-    description: `Math STEM unit ${data.unit.id}: ${data.unit.title}. Tiers present: ${data.unit.tiers_present.join(", ")}.`,
+    title: `${data.unit.id} — ${data.unit.title} | Babel Bible`,
+    description: `Babel Bible unit ${data.unit.id}: ${data.unit.title}. Tiers present: ${data.unit.tiers_present.join(", ")}.`,
   };
 }
 

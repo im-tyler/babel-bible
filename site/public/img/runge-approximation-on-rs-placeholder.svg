@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Runge Approximation on Rs</title>
+  <desc id="desc">A schematic placeholder diagram for Runge approximation on a non-compact Riemann surface.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <rect x="100" y="80" width="520" height="200" fill="none" stroke="#1d4e5a" stroke-width="3"/>
+  <rect x="180" y="130" width="220" height="100" fill="#e8d8b8" stroke="#b8651e" stroke-width="3"/>
+  <text x="290" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">Y (Runge open)</text>
+  <text x="510" y="185" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">X (non-compact RS)</text>
+  <path d="M120 140 L160 135 L160 220 L120 225 Z" fill="none" stroke="#1d4e5a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="360" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">Runge approximation on a non-compact Riemann surface</text>
+</svg>

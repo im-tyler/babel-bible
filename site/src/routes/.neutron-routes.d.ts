@@ -4,10 +4,18 @@ declare module "@neutron-build/core" {
     paths:
     | "/"
     | "/about"
+    | "/biology"
+    | `/biology/${string}`
+    | "/chemistry"
+    | `/chemistry/${string}`
     | "/concepts"
     | "/connections"
     | "/dag"
     | "/lean"
+    | "/math"
+    | "/philosophy"
+    | `/philosophy/${string}`
+    | "/physics"
     | "/plans"
     | `/plans/${string}`
     | "/production"

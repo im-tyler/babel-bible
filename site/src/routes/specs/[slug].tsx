@@ -12,8 +12,8 @@ export async function loader({ params }: { params: { slug: string } }) {
 
 export function head({ data }: { data: any }) {
   return {
-    title: `${data.title} | Math STEM specs`,
-    description: `Math STEM spec: ${data.title}.`,
+    title: `${data.title} | Babel Bible specs`,
+    description: `Babel Bible spec: ${data.title}.`,
   };
 }
 

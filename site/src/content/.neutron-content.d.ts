@@ -2,5 +2,8 @@
 declare module "neutron/content" {
   interface ContentCollectionMap {
     "units": { "id": string; "title": string; "slug": string; "section"?: string; "chapter"?: string; "concept_catalog_id": string; "prerequisites": string | number[]; "successors": string | number[]; "tier_anchors"?: { "beginner"?: string | "deferred" | unknown | undefined; "intermediate"?: string | "deferred" | unknown | undefined; "master"?: string | "deferred" | unknown | undefined; }; "tiers_present": "beginner" | "intermediate" | "master"[]; "pending_prereqs": boolean; "references": { "source"?: string; "path"?: string; "locator"?: string; "pending"?: boolean; "pointer"?: string; }[]; "lean_module"?: string; "lean_status"?: "full" | "partial" | "none" | "stub"; "lean_mathlib_gap"?: string; "human_reviewer"?: string; "estimated_time"?: unknown; "status"?: string; "produced_by"?: string; "reviewed_by": string[]; };
+    "biology": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
+    "chemistry": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
+    "philosophy": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
   }
 }

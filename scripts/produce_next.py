@@ -139,7 +139,7 @@ def peers_for(uid: str) -> list[str]:
 BRIEF_TEMPLATE = """\
 # Agent brief — write unit {uid}: {title}
 
-You are writing one new curriculum unit for the Codex math curriculum project at `/Users/tyler/Documents/Code Projects/Codex/`.
+You are writing one new curriculum unit for the Codex math curriculum project at `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`.
 
 ## Read first (do not skip):
 - `docs/specs/UNIT_SPEC.md` (canonical unit format)

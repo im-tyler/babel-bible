@@ -47,7 +47,7 @@ def slug_for(book: dict) -> str:
 BRIEF_TEMPLATE = """\
 # Agent brief — Fast Track audit: {title}
 
-You are running a Fast Track audit at `/Users/tyler/Documents/Code Projects/Codex/`.
+You are running a Fast Track audit at `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`.
 
 ## Read first:
 - `docs/specs/ORCHESTRATION_PROTOCOL.md` (Pass 1 audit + Pass 2 gap analysis spec)

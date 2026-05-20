@@ -1649,6 +1649,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: visual periodic-pattern account analogous to 3Blue1Brown / Strogatz pacing
 - **notes**: Complex K-theory has period $2$ and real K-theory has period $8$. The unit treats the classifying-space form, coefficient tables, Bott elements, Clifford-module source of real periodicity, and the role of Bott periodicity in the topological index.
 
+### topology.kr-theory
+
+- **title**: KR-theory (K-theory with reality)
+- **unit**: `03.08.12`
+- **prerequisites**: `k-theory.vector-bundles`, `k-theory.bott.periodicity`, `spin-geometry.clifford.clifford-algebra`
+- **tier_anchors**:
+  - master: Atiyah 1966 *K-theory and reality* (Quart. J. Math. Oxford (2) 17, 367-386); Atiyah *K-Theory* (Benjamin 1967) Ch. III; Karoubi *K-Theory: An Introduction* Ch. III §5-§7; Lawson-Michelsohn *Spin Geometry* §I.10
+  - intermediate: Atiyah 1966 *K-theory and reality*; Karoubi §III.5
+  - beginner: K-theory of a space with a continuous involution — Strogatz / 3Blue1Brown analogous level
+- **notes**: Atiyah's bigraded $KR^{p,q}(X)$ for a Real space $(X, \tau)$, unifying $KU$, $KO$, $KSp$, and $KSC$ in one ring. The (1, 1)-periodicity $KR^{p+1, q+1} \cong KR^{p, q}$ is the K-theoretic shadow of the Clifford bridging identity $\mathrm{Cl}_{r+1, s+1} \cong \mathrm{Cl}_{r, s} \otimes \mathrm{Cl}_{1, 1}$. Combined with the complex two-fold periodicity it produces the eight-fold real Bott periodicity. KR hosts the Atiyah-Singer index theorem for Real elliptic operators, with $\mathbb{Z}/2$-valued indices in dimensions $\equiv 1, 2 \pmod 8$ detecting positive-scalar-curvature obstructions. The KR-refinement of Adams' division-algebra argument gives a unified proof that the only normed division-algebra spheres are $S^0, S^1, S^3, S^7$. Distinct from `spin-geometry.kr-theory` (same theory, complementary entry point).
+
 ### gauge-theory.yang-mills.action
 
 - **title**: Yang-Mills action
@@ -2238,6 +2249,17 @@ Before adding a concept to the catalog:
   - intermediate: finite-volume definitions, canonical theorem, and scaling computations
   - beginner: lattice-state and weighted-probability intuition
 - **notes**: The relation between quantum time evolution and statistical weights after imaginary-time continuation. Central theorem: thermal trace as imaginary-time path integral. Used in the v0.5 statistical field theory strand for lattice models, criticality, renormalisation, and Euclidean field theory.
+
+### stat-mech.phi-4-dyson-series
+
+- **title**: φ⁴ theory and the Dyson series
+- **unit**: `08.10.03`
+- **prerequisites**: `stat-mech.path-integral`, `stat-mech.wick-rotation`, `quantum-mechanics.bosonic-fock-space-second-quantisation`
+- **tier_anchors**:
+  - master: Peskin-Schroeder Ch. 4 + Ch. 10; Weinberg Vol. I Ch. 6; Itzykson-Zuber Ch. 6; Glimm-Jaffe Chs. 8-11
+  - intermediate: Peskin-Schroeder §4.1-4.4; Tong QFT §3; Folland Tourist Guide Ch. 6
+  - beginner: Zee QFT in a Nutshell Ch. I; Tong informal sections
+- **notes**: The interaction Hamiltonian of φ⁴ theory generates a time-ordered exponential whose perturbative expansion is the Dyson series. Central theorem: Wick's theorem reduces the vacuum expectation of a time-ordered product of free fields to a sum over pairings of Feynman propagators. First non-trivial application: tree-level 2→2 scattering amplitude $\mathcal{M} = -i\lambda$. One-loop bubble diagram exhibits the logarithmic UV divergence cured by coupling renormalisation, yielding the one-loop beta function $\beta(\lambda) = 3\lambda^2/(16\pi^2)$. Stat-side framing: the Dyson expansion is the perturbative series of the Euclidean path-integral generating functional around the Gaussian free-field measure; the Wick-rotated theory is the field-theoretic continuum limit of the critical Ising model in the Wilsonian sense. Triviality in $d=4$ (Aizenman-Duminil-Copin 2021) is the modern closure of the four-dimensional φ⁴ chapter.
 
 ## v0.5 Strand C supporting complex analysis
 
@@ -3229,3 +3251,1533 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Apostol *Calculus* Vol. 2 Ch. 9 §9.4–9.9; Rudin *Principles of Mathematical Analysis* Ch. 9 §9.39–9.41; Spivak *Calculus on Manifolds* Ch. 2 §2-12 to §2-14
   - beginner: 3Blue1Brown style tangent-paraboloid framing; Strogatz informal "cup, cap, saddle" picture for critical points
 - **notes**: Multi-variable Taylor expansion plus the second-derivative test for extrema. **Taylor's theorem (multi-variable, Lagrange form):** for $f : U \to \mathbb{R}$ of class $C^{k+1}$ on a convex open $U \subseteq \mathbb{R}^n$, $a \in U$, $a + h \in U$, there exists $c$ on the segment from $a$ to $a + h$ with $f(a + h) = \sum_{|\alpha| \leq k} D^\alpha f(a) h^\alpha/\alpha! + \sum_{|\alpha| = k+1} D^\alpha f(c) h^\alpha/\alpha!$, using multi-index notation $\alpha = (\alpha_1, \ldots, \alpha_n) \in \mathbb{N}^n$, $|\alpha| = \sum \alpha_i$, $\alpha! = \alpha_1! \cdots \alpha_n!$, $h^\alpha = h_1^{\alpha_1} \cdots h_n^{\alpha_n}$, $D^\alpha = \partial^{|\alpha|}/(\partial x_1^{\alpha_1} \cdots \partial x_n^{\alpha_n})$. The second-order specialisation reads $f(a + h) = f(a) + \nabla f(a) \cdot h + \tfrac{1}{2} h^T H_f(a) h + o(\|h\|^2)$ where $H_f(a) = (\partial^2 f/\partial x_i \partial x_j(a))$ is the **Hessian matrix**, symmetric by Clairaut-Schwarz for $C^2$ functions. **Second-derivative test theorem:** for a $C^2$ function $f$ with $\nabla f(a) = 0$ and $H = H_f(a)$ the Hessian: (1) $H$ positive definite ⇒ strict local min; (2) $H$ negative definite ⇒ strict local max; (3) $H$ indefinite (both positive and negative eigenvalues) ⇒ saddle; (4) $H$ semidefinite with a zero eigenvalue ⇒ inconclusive. **Worked examples:** $f(x, y) = x^2 + y^2$, critical point $(0, 0)$, Hessian $\mathrm{diag}(2, 2)$, both eigenvalues positive, local minimum; $g(x, y) = x^2 - y^2$, critical point $(0, 0)$, Hessian $\mathrm{diag}(2, -2)$, mixed signs, saddle. **Proof structure** (case (1)): Taylor expansion at $a$ with $\nabla f(a) = 0$ gives $f(a + h) - f(a) = \tfrac{1}{2} h^T H_f(c(h)) h$ for $c(h)$ on the segment; by continuity of $H_f$, $h^T H_f(c(h)) h \geq \tfrac{1}{2} \lambda_{\min}(H) \|h\|^2$ for small $\|h\|$, with $\lambda_{\min} > 0$ the smallest eigenvalue of $H$; the Rayleigh-quotient bound dominates the remainder, giving strict positivity. **Counterexamples for case (4):** $f(x, y) = x^4 + y^4$ has zero Hessian at origin and is a strict local min; $g(x, y) = x^4 - y^4$ has zero Hessian at origin and is a saddle; $h(x, y) = x^2 - y^3$ has positive semidefinite Hessian (one zero eigenvalue) but the origin is not a local min. **Bridge** to *Morse theory* — a Morse function has only non-degenerate critical points, each labelled by an *index* (number of negative Hessian eigenvalues), and the topology of sublevel sets changes by attaching a cell of dimension equal to the index as $c$ passes a critical value; foundation for the h-cobordism theorem and Floer homology. To *Lagrange multipliers* via the implicit function theorem [02.05.04]: constrained extrema are critical points of the Lagrangian $L(x, \lambda) = f(x) - \lambda g(x)$, and the bordered-Hessian classifies them. To *catastrophe theory* (Thom 1972): generic degenerate critical points in $r$-parameter families with $r \leq 4$ have one of seven normal forms (fold, cusp, swallowtail, butterfly, three umbilics). To *Laplace's method*: $\int e^{-N f(x)} dx \sim e^{-N f(a^*)} (2\pi/N)^{n/2}/\sqrt{\det H_f(a^*)}$ as $N \to \infty$ for a non-degenerate minimum $a^*$. **Master scope:** integral form of the Taylor remainder; Morse lemma (local quadratic normal form at non-degenerate critical points via parametric inverse function theorem); Lagrange multiplier rule with bordered-Hessian classification; Thom's elementary catastrophes; Laplace's method and the saddle-point method in complex analysis; multi-jet classification of degenerate critical points. Originators: Taylor 1715 for the single-variable formula; Lagrange 1797 for the remainder form; Cauchy 1821 *Cours d'analyse* for the first rigorous $\varepsilon$-$\delta$ proof; Hesse 1857 for the Hessian determinant in algebraic geometry; Morse 1925 for Morse theory; Milnor 1963 *Morse Theory* for the modern textbook presentation; Smale 1961 for the h-cobordism theorem application; Thom 1972 for catastrophe theory; Mather 1968–1971 for the rigorous proofs; Apostol 1969 Vol. 2 Ch. 9 for the canonical undergraduate pedagogical presentation. Foundational for Morse theory and the topology of manifolds (pending unit in 03.12.*), Lagrange multipliers in constrained optimisation, the saddle-point method in complex analysis (pending unit in 06.*), the stationary-phase asymptotic in oscillatory-integral theory, and partition-function expansions in statistical mechanics.
+
+## Physics (§09–13)
+
+### classical-mechanics.kinematics
+
+- **title**: Kinematics — position, velocity, acceleration
+- **unit**: `09.01.01`
+- **prerequisites**: `analysis.multivariable-chain-rule`, `set-theory.function`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §1–2; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §1
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 1
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 1
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.newtons-laws
+
+- **title**: Newton's laws of motion
+- **unit**: `09.01.02`
+- **prerequisites**: `linalg.vector-space`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §2; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §1–3
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 1–2
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 2–3
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.conservation-laws
+
+- **title**: Conservation laws — energy, momentum, angular momentum
+- **unit**: `09.01.03`
+- **prerequisites**: `classical-mechanics.newtons-laws`, `linalg.vector-space`, `ode.phase-space-vector-field`, `ode.first-integrals`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §3, §16; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §2, §6–9
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 3–4
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 3–4
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.action-principle
+
+- **title**: The action principle and variational calculus
+- **unit**: `09.02.01`
+- **prerequisites**: `classical-mechanics.newtons-laws`, `classical-mechanics.conservation-laws`, `analysis.multivariable-chain-rule`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §12–14; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §2–3
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 6
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 5–6
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.euler-lagrange-equations
+
+- **title**: Euler-Lagrange equations
+- **unit**: `09.02.02`
+- **prerequisites**: `classical-mechanics.newtons-laws`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §12; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §1–3
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 7
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 6
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.noethers-theorem
+
+- **title**: Noether's theorem — symmetries and conservation laws
+- **unit**: `09.03.01`
+- **prerequisites**: `classical-mechanics.euler-lagrange-equations`, `classical-mechanics.conservation-laws`, `linalg.vector-space`, `ode.first-integrals`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §20; Marsden-Ratiu, *Mechanics and Symmetry*, Ch. 11
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 7.5; Goldstein, *Classical Mechanics* 3e, Ch. 2.6
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 7
+- **notes**: (to be filled during production)
+
+
+### quantum.free-particle-e3
+
+- **title**: Quantum free particle as a representation of E(3)
+- **unit**: `09.03.03`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Souriau 1970 Structure des Systemes Dynamiques; Mackey 1968 Induced Representations
+  - intermediate: Hall Quantum Theory for Mathematicians Ch. 17; Taylor PDE Vol. 1
+  - beginner: Taylor-Bohm Quantum Mechanics informal; Strogatz-style wave picture
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.legendre-transform
+
+- **title**: Legendre transform — from Lagrangian to Hamiltonian
+- **unit**: `09.04.01`
+- **prerequisites**: `classical-mechanics.euler-lagrange-equations`, `classical-mechanics.conservation-laws`, `analysis.multivariable-chain-rule`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §13, §14; Marsden-Ratiu, *Mechanics and Symmetry*, Ch. 3.3
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 13.1
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 8
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.hamiltons-equations
+
+- **title**: Hamilton's equations
+- **unit**: `09.04.02`
+- **prerequisites**: `classical-mechanics.legendre-transform`, `symplectic-geometry.symplectic-manifold`, `symplectic-geometry.hamiltonian-vector-field`, `symplectic-geometry.poisson-bracket`, `symplectic-geometry.cotangent-bundle`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), Part III §8; Marsden-Ratiu, *Introduction to Mechanics and Symmetry*, Ch. 2-3; Abraham-Marsden, *Foundations of Mechanics*, §3.6-3.7
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 13; Goldstein-Poole-Safko, *Classical Mechanics* 3e, Ch. 8
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 8
+- **notes**: (to be filled during production)
+
+
+### quantum.complex-structures-squeezed
+
+- **title**: Complex structures and quantization: squeezed states
+- **unit**: `09.04.07`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: de Gosson Symplectic Geometry and Quantum Mechanics Ch. 3; Bargmann 1961
+  - intermediate: Hall Quantum Theory Ch. 14; Folland Harmonic Analysis Ch. 1
+  - beginner: Taylor-Bohm informal coherent-state picture; Strogatz-style oscillator
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.canonical-transformations
+
+- **title**: Canonical transformations
+- **unit**: `09.05.01`
+- **prerequisites**: `classical-mechanics.hamiltons-equations`, `linalg.vector-space`, `analysis.multivariable-chain-rule`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §45; Marsden-Ratiu, *Mechanics and Symmetry*, Ch. 2.2–2.3
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 13.5; Goldstein, *Classical Mechanics* 3e, Ch. 9
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 9
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.hamilton-jacobi
+
+- **title**: Hamilton-Jacobi equation
+- **unit**: `09.05.02`
+- **prerequisites**: `classical-mechanics.hamiltons-equations`, `classical-mechanics.legendre-transform`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §46–47; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §47
+  - intermediate: Goldstein, *Classical Mechanics* 3e, Ch. 10
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 9–10
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.action-angle-variables
+
+- **title**: Action-angle variables
+- **unit**: `09.06.01`
+- **prerequisites**: `classical-mechanics.hamilton-jacobi`, `classical-mechanics.hamiltons-equations`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §49–50; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §49
+  - intermediate: Goldstein, *Classical Mechanics* 3e, Ch. 10.6; Taylor, *Classical Mechanics*, Ch. 13.6
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 10
+- **notes**: (to be filled during production)
+
+
+### classical-mechanics.kam-theorem-chaos
+
+- **title**: KAM theorem and chaos
+- **unit**: `09.08.01`
+- **prerequisites**: `classical-mechanics.hamiltons-equations`, `ode.poincare-bendixson`, `ode.limit-cycle-lienard`
+- **tier_anchors**:
+  - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §52; Arnold, *Geometric Methods in the Theory of ODEs*
+  - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 13.7; Goldstein, *Classical Mechanics* 3e, Ch. 11
+  - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 11
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.coulomb-gauss
+
+- **title**: Coulomb's law and Gauss's law
+- **unit**: `10.01.01`
+- **prerequisites**: `classical-mechanics.newtons-laws`, `linalg.vector-space`, `analysis.multivariable-chain-rule`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 1; Zangwill, *Modern Electrodynamics*, Ch. 3
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 2
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 1–2
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.laplace-boundary-value-problems
+
+- **title**: Laplace equation and boundary value problems
+- **unit**: `10.01.02`
+- **prerequisites**: `analysis.multivariable-chain-rule`, `linalg.vector-space`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 2; Zangwill, *Modern Electrodynamics*, Ch. 4
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 3
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 2
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.biot-savart-ampere
+
+- **title**: Biot-Savart law and Ampere's law
+- **unit**: `10.02.01`
+- **prerequisites**: `classical-mechanics.newtons-laws`, `linalg.vector-space`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 5; Zangwill, *Modern Electrodynamics*, Ch. 9
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 5
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 3
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.faradays-law-induction
+
+- **title**: Faraday's law and electromagnetic induction
+- **unit**: `10.03.01`
+- **prerequisites**: `electromagnetism.biot-savart-ampere`, `classical-mechanics.newtons-laws`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 6; Zangwill, *Modern Electrodynamics*, Ch. 10
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 7
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 4
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.maxwell-equations-differential-form
+
+- **title**: Maxwell's equations in differential form
+- **unit**: `10.04.01`
+- **prerequisites**: `diffgeo.exterior-derivative`, `diffgeo.stokes-theorem`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3rd ed. (1998), Ch. 6 and Ch. 11; Landau-Lifshitz, *The Classical Theory of Fields*, 4th ed. (Course of Theoretical Physics Vol. 2, 1980), §28-§30; Zangwill, *Modern Electrodynamics* (2013), Ch. 22; Misner-Thorne-Wheeler, *Gravitation* (1973), Ch. 3-4 (forms-first treatment of EM)
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4th ed. (2013), Ch. 7-9; Purcell-Morin, *Electricity and Magnetism*, 3rd ed. (2013), Ch. 9
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lectures 4-6; Feynman *Lectures on Physics* Vol. II Ch. 1-18 (selected)
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.em-waves-wave-equation
+
+- **title**: EM waves and the wave equation
+- **unit**: `10.04.02`
+- **prerequisites**: `electromagnetism.faradays-law-induction`, `classical-mechanics.kinematics`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 7; Landau-Lifshitz Vol 2, Ch. 4
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 9
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 5–6
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.special-relativity-lorentz
+
+- **title**: Special relativity — postulates and Lorentz transformations
+- **unit**: `10.05.01`
+- **prerequisites**: `classical-mechanics.kinematics`, `linalg.vector-space`, `analysis.multivariable-chain-rule`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 11; Landau-Lifshitz Vol 2, Ch. 1
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 12
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 7–8
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.relativistic-dynamics
+
+- **title**: Relativistic kinematics and dynamics
+- **unit**: `10.05.02`
+- **prerequisites**: `classical-mechanics.newtons-laws`, `classical-mechanics.conservation-laws`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 11; Landau-Lifshitz Vol 2, Ch. 2
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 12.2
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 8–9
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.covariant-em-faraday-tensor
+
+- **title**: Covariant electrodynamics — Faraday tensor
+- **unit**: `10.06.01`
+- **prerequisites**: `electromagnetism.relativistic-dynamics`, `electromagnetism.maxwell-equations-differential-form`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 11; Landau-Lifshitz Vol 2, Ch. 4
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 12.3
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 10
+- **notes**: (to be filled during production)
+
+
+### electromagnetism.radiation-larmor
+
+- **title**: Radiation from accelerating charges — Larmor formula
+- **unit**: `10.07.01`
+- **prerequisites**: `electromagnetism.covariant-em-faraday-tensor`, `classical-mechanics.newtons-laws`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (1999), Ch. 14; Zangwill, *Modern Electrodynamics*, Ch. 20
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (2017), Ch. 11
+  - beginner: Susskind & Friedman, *Special Relativity and Classical Field Theory* (2017), Lecture 11
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.thermodynamic-laws
+
+- **title**: First and second laws of thermodynamics
+- **unit**: `11.01.01`
+- **prerequisites**: `classical-mechanics.noethers-theorem`, `analysis.multivariable-chain-rule`
+- **tier_anchors**:
+  - master: Callen, *Thermodynamics and an Introduction to Thermostatistics*, 2e (1985), Ch. 1–4; Landau & Lifshitz, *Statistical Physics*, Part 1, §1–4
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 1–3
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 1–2
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.thermodynamic-potentials
+
+- **title**: Thermodynamic potentials and Legendre transforms
+- **unit**: `11.01.02`
+- **prerequisites**: `classical-mechanics.legendre-transform`, `analysis.multivariable-chain-rule`
+- **tier_anchors**:
+  - master: Callen, *Thermodynamics and an Introduction to Thermostatistics*, 2e (1985), Ch. 5–8; Landau & Lifshitz, *Statistical Physics*, Part 1, §15–20
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 5; Callen, *Thermodynamics*, Ch. 5
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 3
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.maxwell-boltzmann-kinetic-theory
+
+- **title**: Maxwell-Boltzmann distribution from kinetic theory
+- **unit**: `11.02.01`
+- **prerequisites**: `classical-mechanics.conservation-laws`, `classical-mechanics.kinematics`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Landau & Lifshitz, *Statistical Physics*, Part 1, §4–5; Huang, *Statistical Mechanics*, 2e, Ch. 3
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 6
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 4
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.microcanonical-ensemble
+
+- **title**: Microcanonical ensemble
+- **unit**: `11.03.01`
+- **prerequisites**: `statistical-mechanics.maxwell-boltzmann-kinetic-theory`, `classical-mechanics.hamiltons-equations`, `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Landau & Lifshitz, *Statistical Physics*, Part 1, §1–4; Huang, *Statistical Mechanics*, 2e, Ch. 6
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 2–3; Reichl, *Modern Course in Statistical Physics*, Ch. 2
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 5–6
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.canonical-ensemble
+
+- **title**: Canonical ensemble and partition function
+- **unit**: `11.04.01`
+- **prerequisites**: `stat-mech.boltzmann-distribution`, `stat-mech.free-energy`, `analysis.multivariable-taylor-extrema`
+- **tier_anchors**:
+  - master: Landau & Lifshitz *Statistical Physics, Part 1*, 3rd ed. (Course of Theoretical Physics Vol. 5, Pergamon, 1980) §28–§31; Reichl *A Modern Course in Statistical Physics*, 4th ed. (Wiley-VCH, 2016) Ch. 3
+  - intermediate: Schroeder *Thermal Physics* Ch. 6–7; Reif *Fundamentals of Statistical and Thermal Physics* (McGraw-Hill, 1965) Ch. 6
+  - beginner: Schroeder *An Introduction to Thermal Physics* (Addison-Wesley, 2000), Ch. 6 (Boltzmann statistics); Susskind & Hrabovsky *Statistical Mechanics: The Theoretical Minimum* (Basic Books, 2014, where applicable)
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.bose-einstein-distribution
+
+- **title**: Bose-Einstein distribution
+- **unit**: `11.05.01`
+- **prerequisites**: `statistical-mechanics.microcanonical-ensemble`, `statistical-mechanics.maxwell-boltzmann-kinetic-theory`
+- **tier_anchors**:
+  - master: Landau & Lifshitz, *Statistical Physics*, Part 1, §54–55; Huang, *Statistical Mechanics*, 2e, Ch. 12
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 7
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 9
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.fermi-dirac-electron-gas
+
+- **title**: Fermi-Dirac distribution and electron gas
+- **unit**: `11.05.02`
+- **prerequisites**: `statistical-mechanics.bose-einstein-distribution`, `quantum-mechanics.stern-gerlach-spin-half`
+- **tier_anchors**:
+  - master: Landau & Lifshitz, *Statistical Physics*, Part 1, §56–58; Ashcroft & Mermin, *Solid State Physics*, Ch. 2
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 7
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 10
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.ising-phase-transitions
+
+- **title**: Ising model and phase transitions
+- **unit**: `11.06.01`
+- **prerequisites**: `statistical-mechanics.bose-einstein-distribution`, `statistical-mechanics.fermi-dirac-electron-gas`
+- **tier_anchors**:
+  - master: Landau & Lifshitz, *Statistical Physics*, Part 1, §73–74; Huang, *Statistical Mechanics*, 2e, Ch. 14
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 8; Reichl, *Modern Course in Statistical Physics*, Ch. 4
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 11
+- **notes**: (to be filled during production)
+
+
+### statistical-mechanics.renormalization-group-critical-phenomena
+
+- **title**: Critical phenomena and renormalization group
+- **unit**: `11.07.01`
+- **prerequisites**: `statistical-mechanics.bose-einstein-distribution`, `statistical-mechanics.fermi-dirac-electron-gas`
+- **tier_anchors**:
+  - master: Goldenfeld, *Lectures on Phase Transitions and the Renormalization Group* (1992); Wilson & Kogut, *Physics Reports* 12C (1974)
+  - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 8; Goldenfeld, *Lectures on Phase Transitions and the Renormalization Group*, Ch. 1–5
+  - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 12
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.wave-particle-duality
+
+- **title**: Wave-particle duality and the double-slit
+- **unit**: `12.01.01`
+- **prerequisites**: `classical-mechanics.kinematics`, `classical-mechanics.newtons-laws`
+- **tier_anchors**:
+  - master: Dirac, *The Principles of Quantum Mechanics*, 4e (1958), Ch. I; Sakurai, *Modern Quantum Mechanics*, §1.1
+  - intermediate: Feynman, Leighton & Sands, *The Feynman Lectures on Physics*, Vol. III, Ch. 1
+  - beginner: Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (2014), Lecture 1
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.stern-gerlach-spin-half
+
+- **title**: Stern-Gerlach and spin-1/2
+- **unit**: `12.01.02`
+- **prerequisites**: `linear-algebra.linear-transformation-rank-nullity`, `linear-algebra.eigenvalue-eigenvector`, `spin-geometry.clifford.clifford-algebra`, `rep-theory.lie-algebra-representation`, `rep-theory.compact-lie-group-representation`
+- **tier_anchors**:
+  - master: Sakurai-Napolitano, *Modern Quantum Mechanics* 2e (2011), Ch. 3 (angular momentum); Sakurai, *Advanced Quantum Mechanics* (1967), Ch. 3 (relativistic spin); Peskin & Schroeder, *Introduction to Quantum Field Theory* (1995), Ch. 3 (Dirac field spin); Weinberg, *Lectures on Quantum Mechanics* 2e (2015), Ch. 4
+  - intermediate: Griffiths, *Introduction to Quantum Mechanics* 2e (2005), Ch. 4 §4.4 (spin); Sakurai-Napolitano, *Modern Quantum Mechanics* 2e (2011), Ch. 1 §1.1 (Stern-Gerlach motivation)
+  - beginner: Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (2014), Lectures 1–2; Feynman Lectures on Physics Vol. III, Chs. 1–6 (selected)
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.hilbert-space-formalism
+
+- **title**: Hilbert-space formalism of quantum mechanics
+- **unit**: `12.02.01`
+- **prerequisites**: `linear-algebra.eigenvalue-eigenvector`, `functional-analysis.banach-space`, `functional-analysis.normed-vector-space`, `functional-analysis.inner-product-space`, `functional-analysis.hilbert-space`, `functional-analysis.bounded-operators`, `functional-analysis.unbounded-self-adjoint`, `quantum-mechanics.stern-gerlach-spin-half`
+- **tier_anchors**:
+  - master: von Neumann, *Mathematische Grundlagen der Quantenmechanik* (Springer, 1932; Eng. trans. Princeton, 1955); Dirac, *The Principles of Quantum Mechanics*, 4th ed. (Oxford, 1958); Reed & Simon, *Methods of Modern Mathematical Physics*, Vol. I (Academic Press, 1980), §VII–VIII; Hall, *Quantum Theory for Mathematicians* (Springer GTM 267, 2013), Chs. 2–10; Takhtajan, *Quantum Mechanics for Mathematicians* (AMS GSM 95, 2008), Chs. 1–3
+  - intermediate: Griffiths, *Introduction to Quantum Mechanics*, 2nd ed. (Pearson, 2005), Ch. 3; Sakurai & Napolitano, *Modern Quantum Mechanics*, 2nd ed. (Pearson/Cambridge, 2011), Ch. 1 §1.2–1.7; Shankar, *Principles of Quantum Mechanics*, 2nd ed. (Plenum, 1994), Chs. 1, 4
+  - beginner: Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (Basic Books, 2014), Lectures 1–3; Feynman, Leighton & Sands, *The Feynman Lectures on Physics*, Vol. III (Addison-Wesley, 1965), Chs. 1–3, 8
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.hilbert-spaces-kets-bras
+
+- **title**: Hilbert spaces, kets, and bras
+- **unit**: `12.02.01`
+- **prerequisites**: `quantum-mechanics.stern-gerlach-spin-half`, `linalg.vector-space`
+- **tier_anchors**:
+  - master: Dirac, *The Principles of Quantum Mechanics*, 4e (1958), Ch. I–II; von Neumann, *Mathematical Foundations of Quantum Mechanics* (1932)
+  - intermediate: Sakurai, *Modern Quantum Mechanics*, 2e (2017), Ch. 1.1–1.2
+  - beginner: Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (2014), Lecture 1–2
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.operators-observables-hermiticity
+
+- **title**: Operators, observables, and Hermiticity
+- **unit**: `12.02.02`
+- **prerequisites**: `quantum-mechanics.wave-particle-duality`, `quantum-mechanics.stern-gerlach-spin-half`, `linalg.vector-space`
+- **tier_anchors**:
+  - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. II-III; von Neumann, Mathematical Foundations of Quantum Mechanics (1932), Ch. II-III
+  - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (2017), Ch. 1.2-1.4
+  - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lectures 2-3
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.bosonic-fock-space-second-quantisation
+
+- **title**: Bosonic Fock space and second quantisation
+- **unit**: `12.03.01`
+- **prerequisites**: `linear-algebra.eigenvalue-eigenvector`, `functional-analysis.banach-space`, `functional-analysis.inner-product-space`, `functional-analysis.hilbert-space`, `functional-analysis.bounded-operators`, `functional-analysis.unbounded-self-adjoint`, `rep-theory.lie-algebra-representation`, `quantum-mechanics.stern-gerlach-spin-half`
+- **tier_anchors**:
+  - master: Reed, M. & Simon, B., *Methods of Modern Mathematical Physics*, Vol. II: *Fourier Analysis, Self-Adjointness* (Academic Press, 1975), §X.7 (Fock spaces, creation and annihilation operators, second quantisation); Bratteli, O. & Robinson, D. W., *Operator Algebras and Quantum Statistical Mechanics*, Vol. II, 2nd ed. (Springer, 1997), §5.2 (the bosonic Fock space and the Weyl CCR-algebra); Glimm, J. & Jaffe, A., *Quantum Physics: A Functional Integral Point of View*, 2nd ed. (Springer, 1987), Ch. 6; Cook, J. M., *Trans. Amer. Math. Soc.* 74, 222 (1953); Streater, R. F. & Wightman, A. S., *PCT, Spin and Statistics, and All That* (Benjamin, 1964; Princeton Landmarks reprint, 2000); Woit, P., *Quantum Theory, Groups and Representations* (Springer, 2017), Chs. 22–25
+  - intermediate: Chatterjee, S., *Introduction to Quantum Field Theory for Mathematicians*, Stanford lecture notes (2022), Lecture 2; Folland, G. B., *Quantum Field Theory: A Tourist Guide for Mathematicians* (AMS Math. Surveys 149, 2008), Ch. 4–5; Hall, B. C., *Quantum Theory for Mathematicians* (Springer GTM 267, 2013), Chs. 11–14
+  - beginner: Sakurai & Napolitano, *Modern Quantum Mechanics*, 2nd ed. (Pearson/Cambridge, 2011), Ch. 2 §2.3 (harmonic oscillator with ladder operators); Griffiths, *Introduction to Quantum Mechanics*, 2nd ed. (Pearson, 2005), Ch. 2 §2.3 (algebraic harmonic oscillator); Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (Basic Books, 2014), Lecture 10
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.schrodinger-heisenberg-pictures
+
+- **title**: Schrödinger and Heisenberg pictures
+- **unit**: `12.03.01`
+- **prerequisites**: `quantum-mechanics.hilbert-space-formalism`, `quantum-mechanics.wave-particle-duality`
+- **tier_anchors**:
+  - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. III; von Neumann, Mathematical Foundations of Quantum Mechanics (1932), Ch. IV
+  - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (2017), Ch. 2.1-2.2
+  - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lectures 3-4
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.fermionic-fock-space-pauli-anticommutators
+
+- **title**: Fermionic Fock space, Pauli exclusion, and anticommutators
+- **unit**: `12.03.02`
+- **prerequisites**: `linear-algebra.eigenvalue-eigenvector`, `functional-analysis.banach-space`, `functional-analysis.inner-product-space`, `functional-analysis.hilbert-space`, `functional-analysis.bounded-operators`, `spin-geometry.clifford.clifford-algebra`, `rep-theory.lie-algebra-representation`, `quantum-mechanics.stern-gerlach-spin-half`, `quantum-mechanics.schrodinger-heisenberg-pictures`
+- **tier_anchors**:
+  - master: Bratteli, O. & Robinson, D. W., *Operator Algebras and Quantum Statistical Mechanics*, Vol. II, 2nd ed. (Springer, 1997), §5.2 (CAR-algebra, fermionic Fock representation, Pauli exclusion via the antisymmetric tensor algebra); Reed, M. & Simon, B., *Methods of Modern Mathematical Physics*, Vol. II: *Fourier Analysis, Self-Adjointness* (Academic Press, 1975), §X.7 (fermionic Fock space, $\\|a^*(f)\\| = \\|f\\|$ bound); Glimm, J. & Jaffe, A., *Quantum Physics: A Functional Integral Point of View*, 2nd ed. (Springer, 1987), Ch. 6 (Dirac field on fermionic Fock space); Streater, R. F. & Wightman, A. S., *PCT, Spin and Statistics, and All That* (Benjamin, 1964; Princeton Landmarks reprint, 2000), Ch. 4 (spin-statistics theorem); Lawson, H. B. & Michelsohn, M.-L., *Spin Geometry* (Princeton, 1989), Ch. I (Clifford algebras and the CAR algebra as the relevant Clifford structure); Jordan, P. & Wigner, E., *Z. Phys.* 47, 631 (1928) (originator paper for fermionic anticommutation and the Jordan-Wigner transformation)
+  - intermediate: Folland, G. B., *Quantum Field Theory: A Tourist Guide for Mathematicians* (AMS Math. Surveys 149, 2008), Ch. 4 (Fock spaces, bosonic and fermionic); Hall, B. C., *Quantum Theory for Mathematicians* (Springer GTM 267, 2013), Ch. 19 (systems of identical particles, antisymmetric tensor products, Slater determinants); Chatterjee, S., *Introduction to Quantum Field Theory for Mathematicians*, Stanford lecture notes (2022), Lecture 2 (Fock spaces); Berezin, F. A., *The Method of Second Quantization* (Academic Press, 1966), Part II (fermionic case)
+  - beginner: Sakurai & Napolitano, *Modern Quantum Mechanics*, 2nd ed. (Pearson/Cambridge, 2011), Ch. 7 (identical particles and second quantisation); Griffiths, *Introduction to Quantum Mechanics*, 2nd ed. (Pearson, 2005), Ch. 5 §5.2 (identical particles, bosons and fermions, Pauli exclusion); Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (Basic Books, 2014), Lecture 7 (entanglement) and Lecture 10 (particle statistics in passing)
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.particle-in-a-box
+
+- **title**: Particle in a box
+- **unit**: `12.04.01`
+- **prerequisites**: `quantum-mechanics.hilbert-space-formalism`, `quantum-mechanics.operators-observables-hermiticity`
+- **tier_anchors**:
+  - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. III; Messiah, Quantum Mechanics, Vol. 1 (Dover, 1999), Ch. III
+  - intermediate: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (Cambridge, 2018), Ch. 2.1-2.2
+  - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lecture 4
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.quantum-harmonic-oscillator
+
+- **title**: Quantum harmonic oscillator
+- **unit**: `12.04.02`
+- **prerequisites**: `quantum-mechanics.operators-observables-hermiticity`, `quantum-mechanics.hilbert-space-formalism`
+- **tier_anchors**:
+  - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. IV; Messiah, Quantum Mechanics, Vol. 1, Ch. V
+  - intermediate: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (Cambridge, 2018), Ch. 2.3
+  - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lecture 5
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.angular-momentum-su2
+
+- **title**: Angular momentum operators and SU(2) representations
+- **unit**: `12.05.01`
+- **prerequisites**: `quantum-mechanics.hilbert-space-formalism`, `quantum-mechanics.stern-gerlach-spin-half`
+- **tier_anchors**:
+  - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. IV; Wigner, Group Theory and its Application to the Quantum Mechanics of Atomic Spectra (1931)
+  - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (Cambridge, 2017), Ch. 3.1-3.5
+  - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lecture 6
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.hydrogen-atom-bound-states
+
+- **title**: Hydrogen atom bound states
+- **unit**: `12.06.01`
+- **prerequisites**: `quantum-mechanics.particle-in-a-box`, `quantum-mechanics.operators-observables-hermiticity`
+- **tier_anchors**:
+  - master: Pauli 1926; Fock 1935; Bander & Itzykson, Rev. Mod. Phys. 38, 330 (1966)
+  - intermediate: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (Cambridge, 2018), Ch. 4.1-4.3
+  - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lecture 7
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.time-independent-perturbation-theory
+
+- **title**: Time-independent perturbation theory
+- **unit**: `12.07.01`
+- **prerequisites**: `quantum-mechanics.particle-in-a-box`, `quantum-mechanics.operators-observables-hermiticity`
+- **tier_anchors**:
+  - master: Kato, Perturbation Theory for Linear Operators (Springer, 1966); Epstein 1916
+  - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (2017), Ch. 5.1-5.2
+  - beginner: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (2018), Ch. 7 intro
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.path-integral-formulation
+
+- **title**: Path integral formulation of quantum mechanics
+- **unit**: `12.10.01`
+- **prerequisites**: `quantum-mechanics.quantum-harmonic-oscillator`, `classical-mechanics.action-principle`
+- **tier_anchors**:
+  - master: Feynman & Hibbs, Quantum Mechanics and Path Integrals (1965); Kleinert, Path Integrals (2009)
+  - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (2017), Ch. 2.5-2.6
+  - beginner: Feynman, QED: The Strange Theory of Light and Matter (1985)
+- **notes**: (to be filled during production)
+
+
+### quantum-mechanics.dirac-equation-relativistic-spin
+
+- **title**: Dirac equation and relativistic spin
+- **unit**: `12.11.01`
+- **prerequisites**: `quantum-mechanics.schrodinger-heisenberg-pictures`, `electromagnetism.special-relativity-lorentz`
+- **tier_anchors**:
+  - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. XI; Bjorken & Drell, Relativistic Quantum Mechanics (1964)
+  - intermediate: Griffiths, Introduction to Elementary Particles, 2e (2008), Ch. 7
+  - beginner: Feynman, QED: The Strange Theory of Light and Matter (1985)
+- **notes**: (to be filled during production)
+
+
+### general-relativity.equivalence-principle
+
+- **title**: The equivalence principle
+- **unit**: `13.01.01`
+- **prerequisites**: `classical-mechanics.newtons-laws`
+- **tier_anchors**:
+  - master: Will, Theory and Experiment in Gravitational Physics, 2e (2018); Norton, 'What was Einstein's Principle of Equivalence?' (1985)
+  - intermediate: Schutz, A First Course in General Relativity, 2e (2009), Ch. 1, 5
+  - beginner: Hartle, Gravity: An Introduction to Einstein's General Relativity (2003), Ch. 1-2
+- **notes**: (to be filled during production)
+
+
+### general-relativity.tensors-smooth-manifolds
+
+- **title**: Tensors on smooth manifolds
+- **unit**: `13.02.01`
+- **prerequisites**: `algebra.tensor-product`, `electromagnetism.special-relativity-lorentz`
+- **tier_anchors**:
+  - master: Wald, General Relativity (1984), Ch. 2-3; Carroll, Spacetime and Geometry (2004), Ch. 2
+  - intermediate: Schutz, A First Course in General Relativity, 2e (2009), Ch. 3-4
+  - beginner: Hartle, Gravity (2003), Ch. 3-4
+- **notes**: (to be filled during production)
+
+
+### general-relativity.geodesics-parallel-transport
+
+- **title**: Geodesics and parallel transport
+- **unit**: `13.02.02`
+- **prerequisites**: `algebra.tensor-product`, `classical-mechanics.action-principle`
+- **tier_anchors**:
+  - master: Wald, General Relativity (1984), Ch. 3; do Carmo, Riemannian Geometry (1992), Ch. 3
+  - intermediate: Schutz, A First Course in General Relativity, 2e (2009), Ch. 6
+  - beginner: Hartle, Gravity (2003), Ch. 5-6
+- **notes**: (to be filled during production)
+
+
+### general-relativity.riemann-curvature-tensor
+
+- **title**: Riemann curvature tensor
+- **unit**: `13.03.01`
+- **prerequisites**: `general-relativity.tensors-smooth-manifolds`
+- **tier_anchors**:
+  - master: Wald, *General Relativity* (1984), Ch. 3; Carroll, *Spacetime and Geometry* (2004), Ch. 3
+  - intermediate: Schutz, *A First Course in General Relativity*, 2nd ed. (2009), Ch. 6; Carroll, *Spacetime and Geometry* (2004), Ch. 3
+  - beginner: Hartle, *Gravity: An Introduction to Einstein's General Relativity* (2003), Ch. 6
+- **notes**: (to be filled during production)
+
+
+### general-relativity.einstein-field-equations
+
+- **title**: Einstein field equations
+- **unit**: `13.04.01`
+- **prerequisites**: `general-relativity.tensors-smooth-manifolds`, `classical-mechanics.newtons-laws`
+- **tier_anchors**:
+  - master: Wald, General Relativity (1984), Ch. 4; Weinberg, Gravitation and Cosmology (1972), Ch. 7
+  - intermediate: Schutz, A First Course in General Relativity, 2e (2009), Ch. 8
+  - beginner: Hartle, Gravity: An Introduction to Einstein's General Relativity (2003), Ch. 8
+- **notes**: (to be filled during production)
+
+
+### general-relativity.schwarzschild-solution
+
+- **title**: Schwarzschild solution
+- **unit**: `13.05.01`
+- **prerequisites**: `diffgeo.differential-forms`, `diffgeo.exterior-derivative`, `diffgeo.connection.vector-bundle-connection`, `bundle.connection.curvature`
+- **tier_anchors**:
+  - master: Wald — General Relativity Ch. 6; Misner-Thorne-Wheeler — Gravitation §31; Weinberg — Gravitation and Cosmology Ch. 8
+  - intermediate: Schutz — A First Course in General Relativity Ch. 10–11; Hartle — Gravity Ch. 9; Carroll — Spacetime and Geometry Ch. 5
+  - beginner: Susskind — General Relativity: Theoretical Minimum (selected lectures); Hartle — Gravity (intro chapters)
+- **notes**: (to be filled during production)
+
+
+### general-relativity.orbits-schwarzschild
+
+- **title**: Orbits in Schwarzschild geometry
+- **unit**: `13.05.02`
+- **prerequisites**: `general-relativity.geodesics-parallel-transport`, `classical-mechanics.newtons-laws`
+- **tier_anchors**:
+  - master: Chandrasekhar — Mathematical Theory of Black Holes (1983) Ch. 3–4
+  - intermediate: Schutz — A First Course in General Relativity Ch. 11; Hartle — Gravity Ch. 9
+  - beginner: Hartle — Gravity Ch. 9 (selected sections on orbits and precession)
+- **notes**: (to be filled during production)
+
+
+### general-relativity.linearized-gr-gravitational-waves
+
+- **title**: Linearized GR and gravitational waves
+- **unit**: `13.07.01`
+- **prerequisites**: `general-relativity.riemann-curvature-tensor`, `electromagnetism.em-waves-wave-equation`
+- **tier_anchors**:
+  - master: Misner, Thorne & Wheeler, Gravitation (1973), Ch. 35-36; Maggiore, Gravitational Waves Vol. 1 (2008)
+  - intermediate: Schutz, A First Course in General Relativity, 2e (2009), Ch. 9
+  - beginner: Hartle, Gravity: An Introduction to Einstein's General Relativity (2003), Ch. 23
+- **notes**: (to be filled during production)
+
+
+### general-relativity.flrw-cosmology-friedmann
+
+- **title**: FLRW cosmology and Friedmann equations
+- **unit**: `13.08.01`
+- **prerequisites**: `general-relativity.tensors-smooth-manifolds`, `electromagnetism.special-relativity-lorentz`
+- **tier_anchors**:
+  - master: Weinberg, *Cosmology* (Oxford, 2008); Dodelson, *Modern Cosmology* (2003)
+  - intermediate: Schutz, *A First Course in General Relativity*, 2e (2009), Ch. 12
+  - beginner: Hartle, *Gravity: An Introduction to Einstein's General Relativity* (2003), Ch. 18-19
+- **notes**: (to be filled during production)
+
+
+## Chemistry (§14–16)
+
+### chemistry.atomic-structure-electron-configurations
+
+- **title**: Atomic structure and electron configurations
+- **unit**: `14.01.01`
+- **prerequisites**: `quantum-mechanics.angular-momentum-su2`
+- **tier_anchors**:
+  - master: Levine, *Quantum Chemistry*, 7e (2014), Ch. 10-11
+  - intermediate: Atkins, *Physical Chemistry*, 12e (2023), Ch. 8
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 7
+- **notes**: (to be filled during production)
+
+
+### chemistry.lewis-structures-vsepr
+
+- **title**: Lewis structures and VSEPR
+- **unit**: `14.02.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Gillespie & Higgitt, *VSEPR Theory*; Gillespie & Robinson 1961
+  - intermediate: Atkins & de Paula, *Physical Chemistry*, 12e (2023), Ch. 2
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 9
+- **notes**: (to be filled during production)
+
+
+### chemistry.hybridization-valence-bond
+
+- **title**: Hybridization and valence bond theory
+- **unit**: `14.02.02`
+- **prerequisites**: `chemistry.atomic-structure-electron-configurations`
+- **tier_anchors**:
+  - master: Pauling, *The Nature of the Chemical Bond*, 3e (1960)
+  - intermediate: Clayden, Greeves, Warren & Wothers, *Organic Chemistry*, 2e (2012), Ch. 4
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 10
+- **notes**: (to be filled during production)
+
+
+### chemistry.stoichiometry-gas-laws
+
+- **title**: Stoichiometry and gas laws
+- **unit**: `14.03.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Atkins Ch. 1 + statistical-mechanics perspective on the ideal gas law
+  - intermediate: Atkins & de Paula, *Physical Chemistry*, 12e (2023), Ch. 1
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 4-5
+- **notes**: (to be filled during production)
+
+
+### chemistry.hydrogen-atom-quantum-chemistry
+
+- **title**: Hydrogen atom quantum chemistry
+- **unit**: `14.04.01`
+- **prerequisites**: `chemistry.atomic-structure-electron-configurations`
+- **tier_anchors**:
+  - master: Levine, *Quantum Chemistry*, 7e (2014), Ch. 6-7
+  - intermediate: McQuarrie, *Quantum Chemistry*, 2e (2008), Ch. 6
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 7
+- **notes**: (to be filled during production)
+
+
+### physical-chemistry.mo-theory-homonuclear-diatomics
+
+- **title**: Molecular orbital theory for homonuclear diatomics
+- **unit**: `14.05.02`
+- **prerequisites**: `linear-algebra.eigenvalue-eigenvector`, `rep-theory.group-representation`, `rep-theory.character`
+- **tier_anchors**:
+  - master: McQuarrie — *Quantum Chemistry* Ch. 8–9; Levine — *Quantum Chemistry* Ch. 13–14; Szabo-Ostlund — *Modern Quantum Chemistry* (LCAO foundations)
+  - intermediate: Atkins & de Paula — *Physical Chemistry* Ch. 10–11; Housecroft-Sharpe — *Inorganic Chemistry* Ch. 2 (MO for diatomics)
+  - beginner: Tro — *Chemistry: A Molecular Approach* (intro chapters on bonding); Khan Academy Chemistry; Crash Course Chemistry on bonding
+- **notes**: (to be filled during production)
+
+
+### chemistry.chemical-thermodynamics-equilibrium
+
+- **title**: Chemical thermodynamics: free energies and equilibrium
+- **unit**: `14.06.01`
+- **prerequisites**: `chemistry.stoichiometry-gas-laws`
+- **tier_anchors**:
+  - master: Callen, *Thermodynamics and an Introduction to Thermostatistics*, 2e (1985)
+  - intermediate: Atkins & de Paula, *Physical Chemistry*, 12e (2023), Ch. 3
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 17-18
+- **notes**: (to be filled during production)
+
+
+### chemistry.chemical-kinetics-rate-laws
+
+- **title**: Chemical kinetics: rate laws and the Arrhenius equation
+- **unit**: `14.08.01`
+- **prerequisites**: `chemistry.stoichiometry-gas-laws`
+- **tier_anchors**:
+  - master: Laidler, *Chemical Kinetics*, 3e (1987)
+  - intermediate: Atkins & de Paula, *Physical Chemistry*, 12e (2023), Ch. 22
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 13
+- **notes**: (to be filled during production)
+
+
+### chemistry.acid-base-bronsted-lewis-pka
+
+- **title**: Acid-base chemistry: Bronsted-Lowry, Lewis, and pKa
+- **unit**: `14.10.01`
+- **prerequisites**: `chemistry.atomic-structure-electron-configurations`
+- **tier_anchors**:
+  - master: Albert & Serjeant, *The Determination of Ionization Constants*, (1984)
+  - intermediate: Clayden, Greeves, Warren & Wothers, *Organic Chemistry*, 2e (2012), Ch. 8
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 16
+- **notes**: (to be filled during production)
+
+
+### chemistry.electrochemistry-nernst-cells
+
+- **title**: Electrochemistry: the Nernst equation and electrochemical cells
+- **unit**: `14.11.01`
+- **prerequisites**: `chemistry.acid-base-bronsted-lewis-pka`
+- **tier_anchors**:
+  - master: Bard & Faulkner, *Electrochemical Methods*, 3e (2022)
+  - intermediate: Atkins & de Paula, *Physical Chemistry*, 12e (2023), Ch. 7
+  - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 19
+- **notes**: (to be filled during production)
+
+
+### chemistry.structure-stereochemistry
+
+- **title**: Structure of organic molecules — stereochemistry
+- **unit**: `15.01.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Eliel & Wilen — Stereochemistry of Organic Compounds (Wiley, 1994); Anslyn & Dougherty — Modern Physical Organic Chemistry Ch. 6; March's Advanced Organic Chemistry 7th ed. Ch. 5
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 15–16 (Stereochemistry, stereoselectivity); Bruice — Organic Chemistry, stereochemistry chapters
+  - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 14 (Stereochemistry)
+- **notes**: (to be filled during production)
+
+
+### chemistry.functional-groups-nomenclature
+
+- **title**: Functional groups and nomenclature
+- **unit**: `15.02.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: IUPAC — Nomenclature of Organic Chemistry: IUPAC Recommendations and Preferred Names 2013 (Blue Book); Favre & Powell — Nomenclature of Organic Chemistry: IUPAC Recommendations and Preferred Names 2013 (RSC, 2014)
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 2–3 (Functional groups, nomenclature); Bruice — Organic Chemistry, nomenclature chapters
+  - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 2 (Functional groups)
+- **notes**: (to be filled during production)
+
+
+### chemistry.acids-bases-organic
+
+- **title**: Acids and bases in organic chemistry
+- **unit**: `15.03.01`
+- **prerequisites**: `chemistry.functional-groups-nomenclature`
+- **tier_anchors**:
+  - master: March's Advanced Organic Chemistry 7th ed. Ch. 8; Anslyn & Dougherty — Modern Physical Organic Chemistry Ch. 1 (thermodynamics of acids and bases)
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 8; Bruice — Organic Chemistry, acid-base chapters
+  - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 8 (Acids and bases)
+- **notes**: (to be filled during production)
+
+
+### organic-chemistry.sn1-vs-sn2-mechanism
+
+- **title**: SN1 vs SN2 substitution mechanisms
+- **unit**: `15.04.02`
+- **prerequisites**: `chemistry.chemical-kinetics-rate-laws`
+- **tier_anchors**:
+  - master: Carey & Sundberg — Advanced Organic Chemistry Part A 5th ed. Ch. 4 (nucleophilic substitution); Anslyn & Dougherty — Modern Physical Organic Chemistry Ch. 11; March's Advanced Organic Chemistry 7th ed. Ch. 10; Lowry & Richardson — Mechanism and Theory in Organic Chemistry Ch. 4
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 15 (nucleophilic substitution at saturated carbon); Vollhardt-Schore — Organic Chemistry Ch. 6–7; Bruice — Organic Chemistry intermediate sections; Carey & Giuliano — Organic Chemistry Ch. 8
+  - beginner: Klein — Organic Chemistry as a Second Language (substitution chapters); Crash Course Organic Chemistry (substitution episodes); Vollhardt-Schore — Organic Chemistry, beginner-tier sections of Ch. 6–7
+- **notes**: (to be filled during production)
+
+
+### chemistry.electrophilic-addition-alkenes
+
+- **title**: Electrophilic addition to alkenes
+- **unit**: `15.05.01`
+- **prerequisites**: `chemistry.acid-base-bronsted-lewis-pka`
+- **tier_anchors**:
+  - master: Carey & Sundberg — Advanced Organic Chemistry Part A 5th ed. Ch. 6; March's Advanced Organic Chemistry 7th ed. Ch. 11
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 19–20; Bruice — Organic Chemistry, addition chapters
+  - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 19 (Electrophilic addition to alkenes)
+- **notes**: (to be filled during production)
+
+
+### chemistry.aromatic-chemistry-eas-huckel
+
+- **title**: Aromatic chemistry — EAS, Huckel
+- **unit**: `15.06.01`
+- **prerequisites**: `chemistry.structure-stereochemistry`
+- **tier_anchors**:
+  - master: March's Advanced Organic Chemistry 7th ed. Ch. 11; Carey & Sundberg — Advanced Organic Chemistry Part A 5th ed. Ch. 10
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 22–23; Bruice — Organic Chemistry, aromatic chapters
+  - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 22 (Aromatic chemistry)
+- **notes**: (to be filled during production)
+
+
+### chemistry.carbonyl-nucleophilic-addition
+
+- **title**: Carbonyl chemistry — nucleophilic addition
+- **unit**: `15.07.01`
+- **prerequisites**: `chemistry.functional-groups-nomenclature`
+- **tier_anchors**:
+  - master: March's Advanced Organic Chemistry 7th ed. Ch. 16; Carey & Sundberg — Advanced Organic Chemistry Part A 5th ed. Ch. 3, 9
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 9–10; Bruice — Organic Chemistry, carbonyl chapters
+  - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 6 (Nucleophilic addition to carbonyl groups), Ch. 9 (Using organometallic reagents to make C-C bonds)
+- **notes**: (to be filled during production)
+
+
+### chemistry.retrosynthetic-analysis
+
+- **title**: Retrosynthetic analysis
+- **unit**: `15.10.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Carey & Sundberg — Advanced Organic Chemistry Part B 5th ed. Ch. 1–2; Warren — Organic Synthesis: The Disconnection Approach 2nd ed.; Nicolaou & Sorensen — Classics in Total Synthesis
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 28 (Retrosynthetic analysis); Bruice — Organic Chemistry, synthesis chapters
+  - beginner: Klein — Organic Chemistry as a Second Language, retrosynthesis chapters; Crash Course Organic Chemistry — Synthesis and Retrosynthesis
+- **notes**: (to be filled during production)
+
+
+### chemistry.nmr-spectroscopy-organic
+
+- **title**: NMR spectroscopy of organic molecules
+- **unit**: `15.11.01`
+- **prerequisites**: `organic-chemistry.sn1-vs-sn2-mechanism`
+- **tier_anchors**:
+  - master: Keeler — Understanding NMR Spectroscopy, 2nd ed.; Ernst, Bodenhausen & Wokaun — Principles of Nuclear Magnetic Resonance in One and Two Dimensions
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 13 (NMR spectroscopy); Pavia — Introduction to Spectroscopy
+  - beginner: Klein — Organic Chemistry as a Second Language, spectroscopy chapters; Crash Course Organic Chemistry — NMR episodes
+- **notes**: (to be filled during production)
+
+
+### chemistry.amino-acids-protein-chemistry
+
+- **title**: Amino acids and protein chemistry
+- **unit**: `15.12.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Carey & Sundberg — Advanced Organic Chemistry Part A, peptide chemistry sections; Voet & Voet — Biochemistry Ch. 4–6; Walsh — Tetrahedron report on peptide synthesis
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 42 (The organic chemistry of life); Lehninger — Biochemistry Ch. 3–4
+  - beginner: Klein — Organic Chemistry as a Second Language, bioorganic chapters; Crash Course Biology — Biomolecules
+- **notes**: (to be filled during production)
+
+
+### chemistry.nucleic-acid-chemistry
+
+- **title**: Nucleic acid chemistry
+- **unit**: `15.13.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Carey & Sundberg — Advanced Organic Chemistry Part A; Blackburn — Nucleic Acids: Structures, Properties, and Functions; Saenger — Principles of Nucleic Acid Structure
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 42; Voet & Voet — Biochemistry Ch. 8–10
+  - beginner: Klein — Organic Chemistry as a Second Language, bioorganic chapters; Crash Course Biology — DNA and RNA
+- **notes**: (to be filled during production)
+
+
+### chemistry.enzyme-mechanism
+
+- **title**: Enzyme mechanism
+- **unit**: `15.14.01`
+- **prerequisites**: `chemistry.chemical-kinetics-rate-laws`
+- **tier_anchors**:
+  - master: Carey & Sundberg — Advanced Organic Chemistry Part A; Fersht — Enzyme Structure and Mechanism; Silverman — The Organic Chemistry of Enzyme-Catalyzed Reactions
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 42; Voet & Voet — Biochemistry Ch. 11–12; Lehninger — Biochemistry Ch. 6
+  - beginner: Crash Course Biology — Enzymes; Khan Academy — Enzyme catalysis
+- **notes**: (to be filled during production)
+
+
+### chemistry.periodic-trends-quantified
+
+- **title**: Periodic trends quantified
+- **unit**: `16.01.01`
+- **prerequisites**: `chemistry.hydrogen-atom-quantum-chemistry`
+- **tier_anchors**:
+  - master: Cotton & Wilkinson — Advanced Inorganic Chemistry, Ch. 1; Greenwood & Earnshaw — Chemistry of the Elements, Ch. 1–2
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 1; Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 2
+  - beginner: Crash Course Chemistry — The Periodic Table; Khan Academy — Periodic trends
+- **notes**: (to be filled during production)
+
+
+### chemistry.symmetry-group-theory-chemistry
+
+- **title**: Symmetry and group theory in chemistry
+- **unit**: `16.02.01`
+- **prerequisites**: `chemistry.periodic-trends-quantified`
+- **tier_anchors**:
+  - master: Cotton — Chemical Applications of Group Theory, 3rd ed.; Bishop — Group Theory and Chemistry
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 4; Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 4
+  - beginner: Kettle — Symmetry and Structure; Crash Course Chemistry — Molecular Geometry
+- **notes**: (to be filled during production)
+
+
+### chemistry.crystal-field-theory-fundamentals
+
+- **title**: Crystal field theory fundamentals
+- **unit**: `16.03.01`
+- **prerequisites**: `chemistry.symmetry-group-theory-chemistry`
+- **tier_anchors**:
+  - master: Cotton & Wilkinson — Advanced Inorganic Chemistry, Ch. 16–17; Ballhausen — Introduction to Ligand Field Theory
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 19; Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 10
+  - beginner: Crash Course Chemistry — Transition Metals; Khan Academy — Transition metals
+- **notes**: (to be filled during production)
+
+
+### inorganic-chemistry.crystal-field-octahedral
+
+- **title**: Crystal field splitting in octahedral complexes
+- **unit**: `16.03.02`
+- **prerequisites**: `rep-theory.character-orthogonality`, `quantum-mechanics.stern-gerlach-spin-half`, `chemistry.hydrogen-atom-quantum-chemistry`
+- **tier_anchors**:
+  - master: Cotton & Wilkinson — Advanced Inorganic Chemistry, Ch. 16–17; Crabtree — The Organometallic Chemistry of the Transition Metals, Ch. 1–2; Bersuker — Electronic Structure and Properties of Transition Metal Compounds
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 21 (d-block coordination chemistry); Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 10 (Crystal-field / Ligand-field theory)
+  - beginner: Atkins / Shriver — Chemistry: A Very Short Introduction (Beginner sections); Crash Course Chemistry — Transition Metals
+- **notes**: (to be filled during production)
+
+
+### chemistry.coordination-chemistry
+
+- **title**: Coordination chemistry
+- **unit**: `16.04.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Cotton & Wilkinson — Advanced Inorganic Chemistry, Ch. 19–20; von Zelewsky — Stereochemistry of Coordination Compounds
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 7, 19; Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 9
+  - beginner: Crash Course Chemistry — Transition Metals; Khan Academy — Coordination chemistry
+- **notes**: (to be filled during production)
+
+
+### chemistry.organometallic-16-18-electron
+
+- **title**: Organometallic chemistry
+- **unit**: `16.05.01`
+- **prerequisites**: `chemistry.coordination-chemistry`
+- **tier_anchors**:
+  - master: Crabtree — Organometallic Chemistry, Ch. 1–6; Hartwig — Organotransition Metal Chemistry
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 20; Crabtree — Organometallic Chemistry of the Transition Metals, Ch. 1–4
+  - beginner: Crash Course Chemistry — Organometallics; Crabtree Ch. 1 introductory material
+- **notes**: (to be filled during production)
+
+
+### chemistry.bioinorganic-metalloenzymes
+
+- **title**: Bioinorganic chemistry
+- **unit**: `16.06.01`
+- **prerequisites**: `chemistry.coordination-chemistry`, `chemistry.enzyme-mechanism`
+- **tier_anchors**:
+  - master: Lippard & Berg — Principles of Bioinorganic Chemistry; Berg, Tymoczko & Stryer — Biochemistry Ch. 7; Bertini, Gray, Stiefel & Valentine — Biological Inorganic Chemistry
+  - intermediate: Lippard, S. J. & Berg, J. M. — Principles of Bioinorganic Chemistry; Frausto da Silva & Williams — The Biological Chemistry of the Elements
+  - beginner: Crash Course Biology — Enzymes; Lippard & Berg introductory chapters
+- **notes**: (to be filled during production)
+
+
+### chemistry.solid-state-chemistry
+
+- **title**: Solid-state chemistry
+- **unit**: `16.07.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: West, A. R. — Solid State Chemistry; Kittel — Introduction to Solid State Physics, Ch. 1–7
+  - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 6; West — Solid State Chemistry and its Applications
+  - beginner: Crash Course Chemistry — Network Solids; Khan Academy — Solids
+- **notes**: (to be filled during production)
+
+
+## Biology (§17–19)
+
+### thermo.souriau-gibbs-state
+
+- **title**: Souriau Gibbs state on a symplectic G-space
+- **unit**: `11.04.02`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Souriau 1970 Ch. III-IV; Kirillov 1976 Lectures on the Orbit Method; Marle 2016
+  - intermediate: Souriau 1970 Ch. IV; Marsden-Ratiu Ch. 9; Guillemin-Sternberg 1984
+  - beginner: Souriau 1970 Ch. IV informal; Strogatz-style thermal equilibrium
+- **notes**: (to be filled during production)
+
+
+### biology.biomolecules-cells-overview
+
+- **title**: Biomolecules in cells
+- **unit**: `17.01.01`
+- **prerequisites**: `chemistry.lewis-structures-vsepr`
+- **tier_anchors**:
+  - master: Alberts et al., MBoC 7e; Stryer et al., Biochemistry 9e; Voet & Voet, Biochemistry, 5th ed. (2019), Ch. 1-3
+  - intermediate: Alberts et al., MBoC 7e, Ch. 2; Berg, Tymoczko & Stryer, Biochemistry, 9th ed. (2019), Ch. 1-3
+  - beginner: Alberts et al., Molecular Biology of the Cell, 7th ed. (2022), Ch. 2
+- **notes**: (to be filled during production)
+
+
+### biology.cell-membranes-structure
+
+- **title**: Cell membranes: structure
+- **unit**: `17.02.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Alberts et al., MBoC 7e; Stryer et al., Biochemistry 9e; Gennis, Biomembranes: Molecular Structure and Function (1989)
+  - intermediate: Alberts et al., MBoC 7e, Ch. 10; Berg, Tymoczko & Stryer, Biochemistry, 9th ed. (2019), Ch. 11
+  - beginner: Alberts et al., Molecular Biology of the Cell, 7th ed. (2022), Ch. 10
+- **notes**: (to be filled during production)
+
+
+### biology.membrane-transport
+
+- **title**: Membrane transport
+- **unit**: `17.02.02`
+- **prerequisites**: `chemistry.electrochemistry-nernst-cells`
+- **tier_anchors**:
+  - master: Alberts et al., MBoC 7e; Gennis, Biomembranes (1989); Hille, Ion Channels of Excitable Membranes, 4th ed. (2021)
+  - intermediate: Alberts et al., MBoC 7e, Ch. 11; Berg, Tymoczko & Stryer, Biochemistry, 9th ed. (2019), Ch. 13
+  - beginner: Alberts et al., Molecular Biology of the Cell, 7th ed. (2022), Ch. 11
+- **notes**: (to be filled during production)
+
+
+### biology.cellular-organization-organelles
+
+- **title**: Cellular organization: organelles
+- **unit**: `17.03.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Alberts et al., MBoC 7e; Palade, Nobel Lecture 1974; Rothman, Nobel Lecture 2013
+  - intermediate: Alberts et al., MBoC 7e, Ch. 12-14; Lodish et al., Molecular Cell Biology, 9th ed. (2023), Ch. 12-13
+  - beginner: Alberts et al., Molecular Biology of the Cell, 7th ed. (2022), Ch. 12-13
+- **notes**: (to be filled during production)
+
+
+### biology.cytoskeleton-contractile
+
+- **title**: Cytoskeleton and contractile proteins
+- **unit**: `17.03.02`
+- **prerequisites**: `biology.skeletal-muscle-physiology`
+- **tier_anchors**:
+  - master: Alberts et al., MBoC 7e; Howard, Mechanics of Motor Proteins and the Cytoskeleton (2001); Bray, Cell Movements, 2nd ed. (2001)
+  - intermediate: Alberts et al., MBoC 7e, Ch. 16; Lodish et al., Molecular Cell Biology, 9th ed. (2023), Ch. 17
+  - beginner: Alberts et al., Molecular Biology of the Cell, 7th ed. (2022), Ch. 16
+- **notes**: (to be filled during production)
+
+
+### biology.cellular-respiration-glycolysis-cac
+
+- **title**: Cellular respiration: glycolysis and CAC
+- **unit**: `17.04.01`
+- **prerequisites**: `chemistry.chemical-thermodynamics-equilibrium`
+- **tier_anchors**:
+  - master: Alberts et al., MBoC 7e; Berg et al., Biochemistry 9e; Nicholls & Ferguson, Bioenergetics, 4th ed. (2013)
+  - intermediate: Alberts et al., MBoC 7e, Ch. 14; Berg, Tymoczko & Stryer, Biochemistry, 9th ed. (2019), Ch. 14-16
+  - beginner: Alberts et al., Molecular Biology of the Cell, 7th ed. (2022), Ch. 14
+- **notes**: (to be filled during production)
+
+
+### biology.oxidative-phosphorylation
+
+- **title**: Oxidative phosphorylation and ATP synthesis
+- **unit**: `17.04.02`
+- **prerequisites**: `chemistry.electrochemistry-nernst-cells`
+- **tier_anchors**:
+  - master: Nicholls & Ferguson, *Bioenergetics* (4th ed., Academic Press 2013); Mitchell, *Chemiosmotic coupling in oxidative and photosynthetic phosphorylation* (1966); Boyer, *The ATP synthase — a splendid molecular machine* (1997, Annu. Rev. Biochem. 66, 717-749)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 14 *Energy Generation in Mitochondria and Chloroplasts*; Stryer, *Biochemistry* (8th ed., W. H. Freeman 2015), Ch. 18
+  - beginner: Khan Academy (cellular respiration series); PhET Simulation — Energy Forms and Changes
+- **notes**: (to be filled during production)
+
+
+### biology.photosynthesis
+
+- **title**: Photosynthesis: light and dark reactions
+- **unit**: `17.04.03`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Blankenship, *Molecular Mechanisms of Photosynthesis* (2nd ed., Wiley-Blackwell 2014); Bassham, Benson & Calvin, *The Path of Carbon in Photosynthesis* (1950); Hill & Bendall, *Function of the two cytochrome components in chloroplasts: a working hypothesis* (1960)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 14; Campbell & Farrell, *Biochemistry* (7th ed., Cengage 2018), Ch. 17
+  - beginner: Khan Academy (photosynthesis series); Crash Course Biology #8
+- **notes**: (to be filled during production)
+
+
+### biology.dna-replication
+
+- **title**: DNA replication
+- **unit**: `17.05.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Kornberg & Baker, *DNA Replication* (2nd ed., W. H. Freeman 2005); Meselson & Stahl 1958; Okazaki et al. 1968; Gilbert & Maxam 1973
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 5 *DNA Replication, Repair, and Recombination*; Watson et al., *Molecular Biology of the Gene* (7th ed., Pearson 2014), Ch. 8
+  - beginner: Khan Academy (DNA replication series); Amoeba Sisters — DNA Structure & Replication
+- **notes**: (to be filled during production)
+
+
+### biology.transcription
+
+- **title**: Transcription
+- **unit**: `17.05.02`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Ptashne & Gann, *Genes and Signals* (2002); Kornberg, *The Molecular Basis of Eukaryotic Transcription* (Nobel Lecture 2006); Cramer et al., *Structural biology of RNA polymerase II* (2008)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 6 *How Cells Read the Genome: From DNA to Protein*; Lodish et al., *Molecular Cell Biology* (8th ed., W. H. Freeman 2016), Ch. 5
+  - beginner: Khan Academy (transcription and translation); Amoeba Sisters — DNA to Protein
+- **notes**: (to be filled during production)
+
+
+### biology.translation
+
+- **title**: Translation
+- **unit**: `17.05.03`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Steitz, *A structural understanding of the dynamic ribosome machine* (2008 Nobel Lecture); Noller, *Evolution of protein synthesis from an RNA world* (2004); Ramakrishnan, *Ribosome Structure and the Mechanism of Translation* (2002)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 6; Lodish et al., *Molecular Cell Biology* (8th ed., W. H. Freeman 2016), Ch. 5
+  - beginner: Khan Academy (translation); Amoeba Sisters — Protein Synthesis
+- **notes**: (to be filled during production)
+
+
+### biology.mutation-repair
+
+- **title**: Mutation and repair
+- **unit**: `17.06.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Friedberg et al., *DNA Repair and Mutagenesis* (2nd ed., ASM Press 2006); Lindahl — Instability and decay of the primary structure of DNA (1993 Nature); Modrich — Mechanisms in eukaryotic DNA mismatch repair (2006)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 5 *DNA Replication, Repair, and Recombination*; Strachan & Read, *Human Molecular Genetics* (5th ed., Garland 2019)
+  - beginner: Khan Academy (mutations); Amoeba Sisters — Mutations
+- **notes**: (to be filled during production)
+
+
+### biology.cell-signaling-gpcrs
+
+- **title**: Cell signaling: receptors and GPCRs
+- **unit**: `17.07.01`
+- **prerequisites**: `biology.transcription`
+- **tier_anchors**:
+  - master: Gilman, *G Proteins and Regulation of Adenylyl Cyclase* (Nobel Lecture 1994); Rosenbaum et al., *The structure and function of G-protein-coupled receptors* (2009); Pierce et al., *Signal transduction — principles, pathways, and processes* (2002)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 15 *Cell Signaling*; Lodish et al., *Molecular Cell Biology* (8th ed., W. H. Freeman 2016), Ch. 15
+  - beginner: Khan Academy (cell signaling); Crash Course Biology — Signal Transduction
+- **notes**: (to be filled during production)
+
+
+### biology.rtk-mapk-cascade
+
+- **title**: Receptor tyrosine kinases and the MAPK signaling cascade
+- **unit**: `17.07.02`
+- **prerequisites**: `biology.cell-signaling-gpcrs`
+- **tier_anchors**:
+  - master: Lemmon & Schlessinger — *Cell signaling by receptor tyrosine kinases* (Cell 2010); Huang & Ferrell — *Ultrasensitivity in the MAPK cascade* (PNAS 1996); Goldbeter & Koshland — *Amplified sensitivity from covalent modification* (PNAS 1981); Kholodenko — *Negative feedback and ultrasensitivity in MAPK cascades* (Eur. J. Biochem. 2000); Ferrell & Machleder — *Biochemical basis of an all-or-none cell fate switch* (Science 1998)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 15; Lodish et al., *Molecular Cell Biology* (8th ed., W. H. Freeman 2016), Ch. 16; Lehninger *Principles of Biochemistry* (7th ed., Macmillan 2017), Ch. 12
+  - beginner: Khan Academy (intracellular signal transduction); Crash Course Biology — Signal Transduction; Amoeba Sisters — Cell Signaling
+- **notes**: Receptor tyrosine kinases, ligand-induced dimerization and trans-autophosphorylation, GRB2-SOS adapter recruitment via SH2 phospho-tyrosine recognition, Ras GTP loading, and the three-tier Raf-MEK-ERK MAPK cascade. Quantitative content: Hill-function kinetics at each tier, Huang-Ferrell composition theorem for cascade ultrasensitivity, Goldbeter-Koshland zero-order ultrasensitivity, distributive multisite phosphorylation. Master tier covers four named sub-sections: stacked-Hill mathematics of ultrasensitivity; bistability via positive feedback (saddle-node bifurcations, oscillations from delayed negative feedback per Kholodenko); spatial dynamics including scaffold proteins, KSR, and reaction-diffusion gradients of active ERK; and cross-system connections to oncology via RTK/Ras/Raf mutations and clinical inhibitors (EGFR-TKIs, vemurafenib, trametinib, sotorasib).
+
+
+### biology.cell-cycle-mitosis
+
+- **title**: Cell cycle and mitosis
+- **unit**: `17.08.01`
+- **prerequisites**: `biology.cell-signaling-gpcrs`
+- **tier_anchors**:
+  - master: Nurse — Cyclin dependent kinases and regulation of the cell cycle (Nobel Lecture 2001); Hartwell et al. 1974 (cell cycle genetics); Novak & Tyson 1993 (numerical modeling of cell cycle oscillations)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 17 *The Cell Cycle*; Morgan, *The Cell Cycle: Principles of Control* (2nd ed., New Science Press 2007)
+  - beginner: Khan Academy (cell cycle); Crash Course Biology — Mitosis
+- **notes**: (to be filled during production)
+
+
+### biology.resting-membrane-potential
+
+- **title**: Resting membrane potential and ion channels
+- **unit**: `17.09.01`
+- **prerequisites**: `chemistry.electrochemistry-nernst-cells`
+- **tier_anchors**:
+  - master: Hille, *Ion Channels of Excitable Membranes* (3rd ed., Sinauer 2001), Ch. 1-4; Hodgkin & Huxley 1952; Nernst 1888; Goldman 1943
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 11; Kandel et al., *Principles of Neural Science* (5th ed., McGraw-Hill 2013), Ch. 6-7
+  - beginner: Khan Academy (neuronal synapses); Crash Course — Nervous System
+- **notes**: (to be filled during production)
+
+
+### cellular-neuroscience.action-potential-ionic-basis
+
+- **title**: The action potential — ionic basis
+- **unit**: `17.09.02`
+- **prerequisites**: `ode.limit-cycle-lienard`
+- **tier_anchors**:
+  - master: Hille, *Ion Channels of Excitable Membranes* (3rd ed., Sinauer 2001) — the canonical reference; Koch, *Biophysics of Computation* (Oxford University Press 1999), Chs. 6-7; Kandel et al., *Principles of Neural Science* (5th ed.) — advanced sections including patch-clamp and Markov-state modelling; Hodgkin & Huxley 1952 (*J. Physiol.* 117, 500-544) — the four foundational papers culminating in the quantitative description; Neher & Sakmann 1976 (*Nature* 260, 799-802) — patch-clamp recording of single-channel currents; Sakmann & Neher 1995 *Single-Channel Recording* (2nd ed., Plenum); Izhikevich, *Dynamical Systems in Neuroscience* (MIT Press 2007) — bifurcation analysis of HH and reduced models
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 11 *Membrane Transport of Small Molecules and the Electrical Properties of Membranes*; Boron & Boulpaep, *Medical Physiology* (3rd ed., Elsevier 2017), Ch. 7 *Electrophysiology of the Cell Membrane*; Kandel, Schwartz, Jessell, Siegelbaum, Hudspeth, *Principles of Neural Science* (5th ed., McGraw-Hill 2013), Part II *Cell and Molecular Biology of the Neuron*
+  - beginner: Crash Course Biology / Anatomy & Physiology (neuron episodes); Nick Lane, *The Vital Question* (W. W. Norton 2015), chapters on the proton-motive force and the energetic basis of excitability
+- **notes**: (to be filled during production)
+
+
+### biology.innate-immunity
+
+- **title**: Innate immunity at the molecular level
+- **unit**: `17.10.01`
+- **prerequisites**: `biology.biomolecules-cells-overview`
+- **tier_anchors**:
+  - master: Janeway et al., *Immunobiology* (9th ed., Garland 2017); Medzhitov & Janeway 2002 (Decoding the patterns of self and nonself); Beutler 2004 (TLRs and innate immunity, Nobel Lecture)
+  - intermediate: Alberts et al., *Molecular Biology of the Cell* (6th ed., Garland 2014), Ch. 24 *The Innate and Adaptive Immune Systems*; Janeway et al., *Immunobiology* (9th ed., Garland 2017)
+  - beginner: Khan Academy (immune system); Crash Course Biology — Immune System
+- **notes**: (to be filled during production)
+
+
+### biology.cardiovascular-physiology
+
+- **title**: Cardiovascular physiology — the heart
+- **unit**: `18.02.01`
+- **prerequisites**: `biology.oxidative-phosphorylation`
+- **tier_anchors**:
+  - master: Boron-Boulpaep advanced sections; Noble et al. Cardiac Cellular Electrophysiology; Katz Physiology of the Heart 6th ed.; primary literature — Frank 1895, Starling 1918, Wiggers 1921
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 21-24 (Cardiovascular Physiology); Hall & Hall Guyton and Hall Textbook of Medical Physiology 14th ed. Ch. 9-13
+  - beginner: Campbell Biology 12th ed. Ch. 42 (Circulation and Gas Exchange); Crash Course Anatomy & Physiology episodes on the heart; Khan Academy cardiovascular system modules
+- **notes**: (to be filled during production)
+
+
+### biology.respiratory-physiology
+
+- **title**: Respiratory physiology — gas exchange and transport
+- **unit**: `18.03.01`
+- **prerequisites**: `biology.photosynthesis`
+- **tier_anchors**:
+  - master: Boron-Boulpaep advanced sections; West Ventilation/Blood Flow and Gas Exchange; primary literature — Bohr 1904, Haldane 1914, Fenn & Rahn 1954
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 26-32 (Respiratory Physiology); West Respiratory Physiology 10th ed.
+  - beginner: Campbell Biology 12th ed. Ch. 42; Crash Course Anatomy & Physiology respiratory episodes; Khan Academy respiratory system modules
+- **notes**: (to be filled during production)
+
+
+### biology.skeletal-muscle-physiology
+
+- **title**: Skeletal muscle physiology
+- **unit**: `18.04.01`
+- **prerequisites**: `biology.cytoskeleton-contractile`
+- **tier_anchors**:
+  - master: Boron-Boulpaep advanced sections; Hill 1938; Huxley 1957 cross-bridge model; Bagshaw 1993 muscle contraction; primary literature
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 9 (Cellular Physiology of Skeletal, Cardiac, and Smooth Muscle); McMahon Muscles, Reflexes, and Locomotion
+  - beginner: Campbell Biology 12th ed. Ch. 50; Crash Course Anatomy & Physiology muscle episodes; Khan Academy muscle physiology modules
+- **notes**: (to be filled during production)
+
+
+### animal-physiology.muscle-contraction-actin-myosin
+
+- **title**: Muscle contraction — the actin-myosin cycle
+- **unit**: `18.04.02`
+- **prerequisites**: `chemistry.enzyme-mechanism`, `biology.cytoskeleton-contractile`
+- **tier_anchors**:
+  - master: Boron-Boulpaep advanced sections (Ch. 9 §III–V); Hill *Animal Physiology* 4th ed. (muscle and locomotion); Squire *Molecular Mechanism of Muscular Contraction* (Springer 1981) and Squire *The Structural Basis of Muscular Contraction* (Plenum 1981); primary literature — Huxley & Hanson 1954, Hill 1938, Lymn & Taylor 1971, Huxley & Simmons 1971, Rayment et al. 1993, Finer-Simmons-Spudich 1994
+  - intermediate: Boron-Boulpaep *Medical Physiology* 3rd ed. Ch. 9 (Cellular Physiology of Skeletal, Cardiac, and Smooth Muscle); Alberts et al. *Molecular Biology of the Cell* 6th ed. Ch. 16 (The Cytoskeleton, §16.4 Molecular Motors); Campbell *Biology* 11th ed. Ch. 50 (Sensory and Motor Mechanisms)
+  - beginner: Crash Course Anatomy & Physiology (muscle episodes 21–22); Campbell *Biology* intro chapters on muscle physiology; Khan Academy muscle modules
+- **notes**: (to be filled during production)
+
+
+### biology.nervous-system
+
+- **title**: Nervous system — gross anatomy and functional organisation
+- **unit**: `18.05.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Kandel advanced sections; Nieuwenhuys et al. The Human Central Nervous System 4th ed.; primary literature — Cajal 1904, Sherrington 1906
+  - intermediate: Kandel et al. Principles of Neural Science 6th ed. Ch. 1-18; Boron-Boulpaep Medical Physiology 3rd ed. Ch. 11-17
+  - beginner: Campbell Biology 12th ed. Ch. 48-49; Crash Course Anatomy & Physiology nervous system episodes; Khan Academy neuroanatomy modules
+- **notes**: (to be filled during production)
+
+
+### biology.endocrine-hormones
+
+- **title**: Endocrine system — hormones and regulation
+- **unit**: `18.07.01`
+- **prerequisites**: `biology.nervous-system`
+- **tier_anchors**:
+  - master: Boron-Boulpaep advanced sections; Williams Textbook of Endocrinology 14th ed.; primary literature — Bayliss & Starling 1902, Harris 1955, Schally & Guillemin 1970s
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 47-55; Guyton and Hall Textbook of Medical Physiology 14th ed. Ch. 73-84
+  - beginner: Campbell Biology 12th ed. Ch. 45; Crash Course Anatomy & Physiology endocrine episodes; Khan Academy endocrine system modules
+- **notes**: (to be filled during production)
+
+
+### biology.renal-physiology
+
+- **title**: Renal physiology — homeostasis and the nephron
+- **unit**: `18.08.01`
+- **prerequisites**: `chemistry.acid-base-bronsted-lewis-pka`
+- **tier_anchors**:
+  - master: Boron-Boulpaep advanced sections; Brenner and Rector The Kidney 11th ed.; primary literature — Bowman 1842, Starling 1896, Richards 1930s
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 33-40 (Renal Physiology); Guyton and Hall Textbook of Medical Physiology 14th ed. Ch. 25-31
+  - beginner: Campbell Biology 12th ed. Ch. 44; Crash Course Anatomy & Physiology urinary system episodes; Khan Academy renal physiology modules
+- **notes**: (to be filled during production)
+
+
+### biology.embryology-morphogenesis
+
+- **title**: Embryology and morphogenesis
+- **unit**: `18.11.01`
+- **prerequisites**: `biology.cell-cycle-mitosis`
+- **tier_anchors**:
+  - master: Gilbert advanced sections; primary literature — Spemann & Mangold 1924, Nusslein-Volhard & Wieschaus 1980, Driever & Nusslein-Volhard 1988
+  - intermediate: Gilbert Developmental Biology 12th ed. Ch. 1-12; Wolpert Principles of Development 6th ed.
+  - beginner: Campbell Biology 12th ed. Ch. 46-47; Crash Course Biology development episodes; Khan Academy embryology modules
+- **notes**: (to be filled during production)
+
+
+### biology.mendelian-genetics
+
+- **title**: Mendelian genetics — segregation and dominance
+- **unit**: `19.01.01`
+- **prerequisites**: `biology.mutation-repair`
+- **tier_anchors**:
+  - master: Hartl & Clark advanced sections; Crow & Kimura Introduction to Population Genetics Theory; primary literature — Mendel 1866
+  - intermediate: Hartl & Clark Principles of Population Genetics 4th ed. Ch. 1; Futuyma Evolution 4th ed. Ch. 4
+  - beginner: Campbell Biology 12th ed. Ch. 14; Crash Course Biology genetics episodes; Khan Academy Mendelian genetics modules
+- **notes**: (to be filled during production)
+
+
+### population-genetics.hardy-weinberg
+
+- **title**: Hardy-Weinberg equilibrium
+- **unit**: `19.02.01`
+- **prerequisites**: `biology.mendelian-genetics`
+- **tier_anchors**:
+  - master: Charlesworth & Charlesworth, *Elements of Evolutionary Genetics* (Roberts, 2010), Ch. 2 + Ch. 5; Crow & Kimura, *An Introduction to Population Genetics Theory* (Harper & Row, 1970), Ch. 1–3; Walsh & Lynch, *Evolution and Selection of Quantitative Traits* (Oxford, 2018), Ch. 1; Ewens, *Mathematical Population Genetics I* 2nd ed. (Springer, 2004), Ch. 1–3
+  - intermediate: Hartl & Clark, *Principles of Population Genetics* 4th ed. Ch. 2–3; Futuyma, *Evolution* 4th ed. (Sinauer, 2017), Ch. 8 (variation in populations); Gillespie, *Population Genetics: A Concise Guide* 2nd ed. (Johns Hopkins, 2004), Ch. 1–2
+  - beginner: Coyne, *Why Evolution Is True* (Viking, 2009), Ch. 1 + Ch. 5; Crash Course Biology, *Population Genetics* episode; Hartl & Clark, *Principles of Population Genetics* 4th ed. (Sinauer, 2007), Ch. 1 introductory sections
+- **notes**: (to be filled during production)
+
+
+### biology.wright-fisher-diffusion
+
+- **title**: Wright-Fisher model and the diffusion approximation
+- **unit**: `19.02.05`
+- **prerequisites**: `population-genetics.hardy-weinberg`, `biology.mendelian-genetics`
+- **tier_anchors**:
+  - master: Ewens, *Mathematical Population Genetics I* 2nd ed. (Springer, 2004), Ch. 3 + Ch. 4; Crow & Kimura, *An Introduction to Population Genetics Theory* (Harper & Row, 1970), Ch. 3 + Ch. 8 + Ch. 9; Charlesworth & Charlesworth, *Elements of Evolutionary Genetics* (Roberts, 2010), Ch. 5; primary literature — Wright 1931 *Genetics* 16, Fisher 1930, Kimura 1955 *PNAS* 41, Kimura 1962 *Genetics* 47, Kingman 1982
+  - intermediate: Hartl & Clark, *Principles of Population Genetics* 4th ed. Ch. 3 + Ch. 7; Gillespie, *Population Genetics: A Concise Guide* 2nd ed. Ch. 2–3; Futuyma, *Evolution* 4th ed. Ch. 10; Crow & Kimura Ch. 3
+  - beginner: Coyne, *Why Evolution Is True* (Viking, 2009), Ch. 5; Hartl & Clark, *Principles of Population Genetics* 4th ed. Ch. 3 introductory sections; Gillespie, *Population Genetics: A Concise Guide* 2nd ed. Ch. 2
+- **notes**: The discrete Wright-Fisher Markov chain (binomial sampling each generation), its diffusion-limit Fokker-Planck equation $\partial_t \phi = -\partial_p[M\phi] + \tfrac{1}{2}\partial_p^2[V\phi]$ with $V(p) = p(1-p)$ and $M(p) = sp(1-p)$, Kimura's fixation-probability formula $u(p) = (1 - e^{-2Nsp})/(1 - e^{-2Ns})$ derived from the backward Kolmogorov ODE, the neutral $u(p) = p$ case, weak-selection asymptotics and the nearly-neutral threshold $|2Ns| \sim 1$, and the Kingman coalescent as the time-reversed genealogical dual. Connects Hardy-Weinberg (deterministic null) to natural selection (deterministic drift) to genetic drift (stochastic limit) to phylogenetics (coalescent inference).
+
+
+### biology.natural-selection
+
+- **title**: Natural selection — directional, stabilizing, and disruptive
+- **unit**: `19.03.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Futuyma Ch. 11-12; Crow & Kimura Introduction to Population Genetics Theory; primary literature — Darwin 1859, Fisher 1930, Haldane 1932
+  - intermediate: Futuyma Evolution 4th ed. Ch. 10-11; Hartl & Clark Principles of Population Genetics 4th ed. Ch. 3-4
+  - beginner: Campbell Biology 12th ed. Ch. 22-23; Coyne Why Evolution Is True; Crash Course Biology evolution episodes
+- **notes**: (to be filled during production)
+
+
+### biology.sexual-selection
+
+- **title**: Sexual selection
+- **unit**: `19.03.02`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Futuyma advanced sections; primary literature — Darwin 1871, Fisher 1930, Zahavi 1975, Lande 1981
+  - intermediate: Futuyma Evolution 4th ed. Ch. 12; Andersson Sexual Selection (1994)
+  - beginner: Coyne Why Evolution Is True Ch. 2; Campbell Biology 12th ed. Ch. 23; Crash Course Biology sexual selection episodes
+- **notes**: (to be filled during production)
+
+
+### biology.kin-selection-hamiltons
+
+- **title**: Kin selection and Hamilton's rule
+- **unit**: `19.03.03`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Futuyma advanced sections; primary literature — Hamilton 1964, Maynard Smith 1964, Trivers 1971, Wilson 1975
+  - intermediate: Futuyma Evolution 4th ed. Ch. 13; Hamilton 1964 papers
+  - beginner: Coyne Why Evolution Is True Ch. 7; Campbell Biology 12th ed. Ch. 51; Crash Course Biology social behaviour episodes
+- **notes**: (to be filled during production)
+
+
+### biology.genetic-drift
+
+- **title**: Genetic drift
+- **unit**: `19.04.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Hartl & Clark advanced sections; Ewens Mathematical Population Genetics; primary literature — Wright 1931, Kimura 1968, Kingman 1982
+  - intermediate: Hartl & Clark Principles of Population Genetics 4th ed. Ch. 3, 7; Futuyma Evolution 4th ed. Ch. 10
+  - beginner: Coyne Why Evolution Is True Ch. 7; Campbell Biology 12th ed. Ch. 23; Crash Course Biology genetic drift episodes
+- **notes**: (to be filled during production)
+
+
+### biology.quantitative-genetics
+
+- **title**: Quantitative genetics — heritability and the breeder's equation
+- **unit**: `19.05.01`
+- **prerequisites**: `biology.genetic-drift`
+- **tier_anchors**:
+  - master: Walsh & Lynch advanced sections; Falconer & Mackay Introduction to Quantitative Genetics 4th ed.; primary literature — Fisher 1918, Lush 1937
+  - intermediate: Walsh & Lynch Evolution and Selection of Quantitative Traits Ch. 1-7; Futuyma Evolution 4th ed. Ch. 13
+  - beginner: Coyne Why Evolution Is True Ch. 7; Campbell Biology 12th ed. Ch. 23; Crash Course Biology heritability episodes
+- **notes**: (to be filled during production)
+
+
+### biology.speciation
+
+- **title**: Speciation — allopatric and sympatric
+- **unit**: `19.06.01`
+- **prerequisites**: `biology.genetic-drift`
+- **tier_anchors**:
+  - master: Coyne & Orr advanced sections; primary literature — Mayr 1942, Dobzhansky 1937, Grant & Grant 2008
+  - intermediate: Futuyma Evolution 4th ed. Ch. 17-18; Coyne & Orr Speciation
+  - beginner: Coyne Why Evolution Is True Ch. 5, 8; Campbell Biology 12th ed. Ch. 24; Crash Course Biology speciation episodes
+- **notes**: (to be filled during production)
+
+
+### biology.phylogenetics
+
+- **title**: Phylogenetics — tree reconstruction
+- **unit**: `19.07.01`
+- **prerequisites**: `quantum-mechanics.hydrogen-atom-bound-states`
+- **tier_anchors**:
+  - master: Felsenstein advanced sections; Semple & Steel Phylogenetics; primary literature — Felsenstein 1981, 1985
+  - intermediate: Felsenstein Inferring Phylogenies; Baum & Smith Tree Thinking Ch. 1-8
+  - beginner: Coyne Why Evolution Is True Ch. 1; Campbell Biology 12th ed. Ch. 26; Crash Course Biology phylogeny episodes
+- **notes**: (to be filled during production)
+
+
+### biology.population-ecology
+
+- **title**: Population ecology — Lotka-Volterra
+- **unit**: `19.09.01`
+- **prerequisites**: `analysis.first-order-ode`
+- **tier_anchors**:
+  - master: Begon et al. advanced sections; Kot Elements of Mathematical Ecology; primary literature — Lotka 1925, Volterra 1926, May 1972
+  - intermediate: Begon, Harper & Townsend Ecology: Individuals, Populations and Communities 4th ed. Ch. 5-6; Case An Illustrated Guide to Theoretical Ecology
+  - beginner: Campbell Biology 12th ed. Ch. 52-53; Crash Course Ecology population dynamics episodes
+- **notes**: (to be filled during production)
+
+
+### biology.community-ecology
+
+- **title**: Community ecology — interactions and food webs
+- **unit**: `19.10.01`
+- **prerequisites**: (none)
+- **tier_anchors**:
+  - master: Begon et al. advanced sections; Pimm Food Webs; primary literature — Paine 1966, May 1972, Tilman 1982
+  - intermediate: Begon, Harper & Townsend Ecology 4th ed. Ch. 8-11; Case An Illustrated Guide to Theoretical Ecology
+  - beginner: Campbell Biology 12th ed. Ch. 54; Crash Course Ecology community ecology episodes
+- **notes**: (to be filled during production)
+
+
+### biology.origin-of-life
+
+- **title**: Origin of life — mechanistic scenarios
+- **unit**: `19.15.01`
+- **prerequisites**: `chemistry.chemical-thermodynamics-equilibrium`, `quantum-mechanics.particle-in-a-box`
+- **tier_anchors**:
+  - master: Maynard Smith & Szathmary advanced sections; Deamer Assembling Life; primary literature — Miller 1953, Woese 1998
+  - intermediate: Maynard Smith & Szathmary The Major Transitions in Evolution Ch. 1-4; Hazen Genesis Ch. 5-10
+  - beginner: Coyne Why Evolution Is True Ch. 1; Lane The Vital Question; Crash Course Biology origin of life episodes
+- **notes**: (to be filled during production)
+

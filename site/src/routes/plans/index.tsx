@@ -2,7 +2,7 @@ import { listDocs, PLANS_DIR, type DocSummary } from "../../lib/md-docs";
 
 export function head() {
   return {
-    title: "Plans | Math STEM",
+    title: "Plans | Babel Bible",
     description: "Curriculum production plans, reviewer plan, site plan, project plan.",
   };
 }

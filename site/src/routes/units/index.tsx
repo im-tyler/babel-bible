@@ -4,8 +4,8 @@ import { renderInline } from "../../lib/inline-math";
 
 export function head() {
   return {
-    title: "All units | Math STEM",
-    description: "Browse every Math STEM unit. Filter by section or search by title / id.",
+    title: "All units | Babel Bible",
+    description: "Browse every Babel Bible unit. Filter by section or search by title / id.",
   };
 }
 

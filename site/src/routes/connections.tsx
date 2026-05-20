@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 export function head() {
   return {
-    title: "Connections | Math STEM",
+    title: "Connections | Babel Bible",
     description: "Cross-unit synthesis registry. Every load-bearing or synthesis cross-reference between units, typed and tagged.",
   };
 }

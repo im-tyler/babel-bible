@@ -3,7 +3,7 @@ import { listAudits, type AuditSummary } from "../../lib/audits";
 
 export function head() {
   return {
-    title: "Sources | Math STEM",
+    title: "Sources | Babel Bible",
     description:
       "The Fast Track booklist — 92 primary texts that anchor the curriculum, with sourcing status and per-book audit punch-lists.",
   };

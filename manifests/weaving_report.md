@@ -1,0 +1,1065 @@
+# Weaving report
+
+## 2026-05-17 cycle
+
+Pass W on the four production units shipped in the Wave 5 kickoff:
+
+- `content/03-modern-geometry/12-homotopy/03.12.22-delta--complex-semi-simplicial-set.md`
+- `content/04-algebraic-geometry/05-divisors/04.05.09-hodge-index-theorem.md`
+- `content/04-algebraic-geometry/03-cohomology/04.03.06-derived-functors-and-ext.md`
+- `content/06-riemann-surfaces/09-stein/06.09.06-mittag-leffler-on-rs.md`
+
+### Files edited
+
+Thirteen files. The new units themselves received one edit (notation crosswalk and the K(π, n) = B^n(π) crosslink in 03.12.22); the other twelve are reciprocal-pointer edits in receiving units that previously lacked an explicit Connections-section reference to the new unit.
+
+1. `content/03-modern-geometry/12-homotopy/03.12.22-delta--complex-semi-simplicial-set.md`
+2. `content/03-modern-geometry/12-homotopy/03.12.05-eilenberg-maclane.md`
+3. `content/03-modern-geometry/08-k-theory/03.08.04-classifying-space.md`
+4. `content/03-modern-geometry/12-homotopy/03.12.11-singular-homology.md`
+5. `content/03-modern-geometry/12-homotopy/03.12.12-simplicial-homology.md`
+6. `content/03-modern-geometry/12-homotopy/03.12.13-cellular-homology.md`
+7. `content/04-algebraic-geometry/05-surfaces/04.05.06-intersection-pairing.md`
+8. `content/04-algebraic-geometry/05-surfaces/04.05.07-adjunction-formula.md`
+9. `content/04-algebraic-geometry/09-hodge/04.09.01-hodge-decomposition.md`
+10. `content/04-algebraic-geometry/03-cohomology/04.03.01-sheaf-cohomology.md`
+11. `content/04-algebraic-geometry/03-cohomology/04.03.04-cohomology-projective.md`
+12. `content/04-algebraic-geometry/06-coherent/04.06.02-coherent-sheaf.md`
+13. `content/06-riemann-surfaces/09-stein/06.09.04-cousin-i-additive.md`
+
+### Per-edit rationale
+
+**1. 03.12.22 (Δ-complex / semi-simplicial set).** Added a Connections bullet for Eilenberg-MacLane spaces [03.12.05] and classifying space [03.08.04] describing the K(π, n) = B^n(π) iterated-bar identification, with the discrete-group classifying space BG as the n = 1 specialisation. Added a Notation crosswalk paragraph (immediately following the new bullet) recording the May 1967 symbols Δ\*, T(K), S(X), ∂_i and their modern equivalents Δ, |X•|, Sing(X), d_i. Anchor phrases: "the foundational reason that K(π, n) = B^n(π)", "is the discrete-group instance of the same iterated-bar machine". This addresses both the cross-batch synthesis flagged in the May Concise audit and the notation crosswalk flagged in the May Simplicial audit.
+
+**2. 03.12.05 (Eilenberg-MacLane spaces).** Added a Connections bullet for [03.12.22] describing the canonical semi-simplicial model of K(π, n) as the geometric realisation of the iterated bar construction B^n π. Notes that the classifying-space picture in [03.08.04] is the n = 1 specialisation (BG = K(G, 1) for discrete G). Anchor phrase: "the foundational reason K(π, n) = B^n(π)". Stitches the 3-way crosslink 03.12.05 ↔ 03.08.04 ↔ 03.12.22.
+
+**3. 03.08.04 (Classifying space).** Added a Connections bullet for [03.12.22] and [03.12.05] describing the bar-construction semi-simplicial model BG and the identification of iterated bar with Eilenberg-MacLane spaces. Stitches the third leg of the 3-way crosslink.
+
+**4. 03.12.11 (Singular homology).** Added a Connections bullet for [03.12.22] recording that Sing(X) is a semi-simplicial set after forgetting degeneracies, and that the alternating-sum chain-level boundary uses only face data — the foundational reason the chain-level theory factors through the semi-simplicial category. Anchor phrase: "factors through the semi-simplicial category".
+
+**5. 03.12.12 (Simplicial homology).** Added a Connections bullet for [03.12.22] recording that the simplicial chain complex C•^Δ(X•) = ℤ[X•] is the chain-level shadow of the semi-simplicial framework, with the simplicial identity d_i d_j = d_{j-1} d_i forcing ∂∂ = 0. Anchor phrase: "the chain-level shadow of the semi-simplicial framework".
+
+**6. 03.12.13 (Cellular homology).** Added a Connections bullet for [03.12.22] recording that on a Δ-complex the cellular chain complex coincides with the semi-simplicial chain complex on the nose, and the cellular boundary specialises to the alternating-sum face boundary. Anchor phrase: "the foundational reason the combinatorial-face data suffices".
+
+**7. 04.05.06 (Intersection pairing on a surface).** Added a Connections bullet for [04.05.09] (Hodge index) identifying the pairing as the symmetric bilinear form whose signature Hodge index pins down. The intersection-pairing unit already referenced 04.05.09 in body prose (Bridge and Synthesis) but did not have it in the Connections list; the new bullet plugs that hole.
+
+**8. 04.05.07 (Adjunction formula).** Added a Connections bullet for [04.05.09] noting that adjunction and Hodge index are two of the four foundational identities on a smooth projective surface, both reading the intersection pairing as input, and combining in the K3-surface Néron-Severi analysis. Anchor phrase: "two of the four foundational identities".
+
+**9. 04.09.01 (Hodge decomposition).** Added a Connections bullet for [04.05.09] recording that the algebraic-geometric Hodge index theorem on NS(X)_ℝ is the integral-lattice shadow of the Hodge-Riemann bilinear relations on primitive cohomology. Anchor phrase: "the integral-lattice shadow". The Advanced-results section already mentioned the Hodge index theorem in prose, but it was not in the Connections list.
+
+**10. 04.03.01 (Sheaf cohomology).** Added a Connections bullet for [04.03.06] (derived functors and Ext) recording that H^n(X, F) = R^n Γ(F), the canonical instance of the derived-functor formalism, and pointing to the long exact sequence and local-to-global Ext spectral sequence. The unit was using the phrase "right-derived functors" throughout but had no link to the dedicated derived-functor unit. Anchor phrase: "the canonical instance of the derived-functor formalism".
+
+**11. 04.03.04 (Cohomology of line bundles on projective space).** Added a Connections bullet for [04.03.06] recording the projective-space dimension table as the foundational worked example of a right-derived-functor computation, and identifying the Serre-duality pairing with Ext-duality. Anchor phrase: "the foundational worked example of a right-derived-functor computation".
+
+**12. 04.06.02 (Coherent sheaf).** Added a Connections bullet for [04.03.06] recording the coherence of local Ext sheaves (Hartshorne III.6.8) and the deformation-theoretic interpretation of Ext^1 (deformations) and Ext^2 (obstructions) on coherent sheaves. Anchor phrase: "the geometric carriers of obstruction theory".
+
+**13. 06.09.04 (Cousin I).** Added a Connections bullet for [06.09.06] (Mittag-Leffler on RS) recording that Mittag-Leffler on a non-compact RS is the discrete-prescribed-singularity specialisation of Cousin I, with the open cover refined to isolate each prescribed pole. The Cousin I unit already referenced "Mittag-Leffler" extensively in body prose but routed all references through the planar [06.01.05] meromorphic-function unit; the new bullet makes the connection to the dedicated 06.09.06 unit explicit.
+
+### Seams found but not edited
+
+- **04.05.08 (Riemann-Roch for surfaces) → 04.05.09 (Hodge index).** The 04.05.08 Connections section already invokes Hodge index in prose within the Intersection-pairing bullet ("Hodge index pins down the signature of this form to (1, ρ − 1)"). This is a body-prose reference rather than a standalone bullet, but it carries the load and the cross-unit synthesis. Adding a separate bullet would be mechanical-template insertion, so left as-is.
+
+- **04.04.01 (Riemann-Roch for curves) → 04.05.09 (Hodge index).** The 04.05.09 unit cites curve Riemann-Roch as a transitive prerequisite (Hodge index ← surface RR ← adjunction ← curve RR), but the load-bearing direction is from curves to surfaces, not the reverse. A reciprocal pointer from the curve unit to the Hodge-index unit would be artificial since curve RR is upstream of surface theory.
+
+- **04.09.02 (Kodaira vanishing) → 04.05.09 (Hodge index).** The 04.05.09 unit invokes Kodaira vanishing as a complementary cohomology-vanishing companion, but the relationship is sibling-on-cohomology-of-ample-bundles rather than direct dependence. The 04.05.09 Connections section already has the bullet; the reverse direction is non-load-bearing.
+
+- **06.09.02 (Theorems A, B) and 06.09.03 (Behnke-Stein) → 06.09.06 (Mittag-Leffler).** Both 06.09.02 and 06.09.03 reference "Mittag-Leffler" by name in body prose extensively as a downstream corollary, and both reference [06.01.05] (the meromorphic-function base unit) as the canonical anchor for the term. The dedicated 06.09.06 unit was produced after these units shipped, so the reference threading runs through the older [06.01.05] anchor by default. The 06.09.06 unit's own Connections list points back to 06.09.02 and 06.09.03; a forward stitch from those units to 06.09.06 is desirable but would require dropping in a new bullet that duplicates substance already carried by the existing "06.01.05" prose anchors. Left for a future Pass W cycle when a wholesale anchor-phrase audit can rationalise the 06.09 chapter's internal cross-references.
+
+- **04.01.01 (Sheaf) and 06.01.05 (Meromorphic function).** Both base units are extremely sparse (~5 connection bullets each, ~3000-word totals). Adding a reciprocal pointer to 04.03.06 (Ext / derived functors) or 06.09.06 (Mittag-Leffler on RS) would be the right move long-term but would require enlarging the host Connections sections beyond what the units currently support. Left as-is.
+
+### Quality observations
+
+**Calibre of the four new units.**
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander prose calibre), all four units hit the target.
+
+- **03.12.22 (Δ-complex).** Solid. Master tier carries the full Rourke-Sanderson reformulation, the Hatcher 2.27 comparison theorem, the free-degeneracy-completion adjunction, the singular-complex factorisation, and the explicit compatibility with standard Δ-structures on S^n, ℝP^n, Σ_g. Synthesis paragraph reads at Hatcher-prose calibre. Notation is rigorous and the simplicial-identity proofs are clean.
+
+- **04.05.09 (Hodge index).** Excellent. Master tier carries the cohomological version, the Hodge-Riemann bilinear relations in the surface case, the K3 Néron-Severi lattice analysis, the signature criterion for ampleness, and the Reider criterion. The proof structure (4 steps: equivalence of formulations / existence of positive class / orthogonal complement negative semidefinite / negative definiteness) is the Hartshorne §V.1.9 presentation made fully explicit. This is the strongest of the four units.
+
+- **04.03.06 (Derived functors and Ext).** Strong. Master tier carries the Yoneda interpretation, the universal δ-functor characterisation, Ext via flat / projective resolutions with Tor duality, the local-to-global Ext spectral sequence, Serre duality via Ext, and the derived-category formulation. The proof of the universal δ-functor characterisation in the Full proof set is at Gelfand-Manin calibre. Minor drift in the Advanced-results Theorem on "Ext via flat / projective resolutions and Tor duality" — the displayed pairing formula has a "??" placeholder where the Auslander-Reiten / Nakayama duality should have a clean statement. Flag for a later cleanup pass.
+
+- **06.09.06 (Mittag-Leffler on RS).** Excellent. Master tier carries the 1884 convergence-factor construction, the Cartan-Serre higher-dimensional reframing, the failure on ℂ² \ {0} via Hartogs, the compact-case residue-sum constraint, the seven-decade abstraction trajectory (1884 → 1895 → 1949 → 1953 → 1965), and the place in the Stein corollary package. Prose calibre is Hörmander-grade. The Forster §26 cover-construction proof is presented as a clean 5-step argument.
+
+**Drift flags.**
+
+- **04.03.06 (Ext).** The Advanced-results theorem on "Ext via flat / projective resolutions and Tor duality" has a stray "??" superscript in the displayed pairing formula `Ext^n_R(C, A) ⊗ Tor^R_n(C, A^∨) → Ext^0_R(A, A^∨)^{??}`. This appears to be a TeX/placeholder remnant. The surrounding prose discusses Auslander-Reiten and local duality cleanly, so the intent is clear, but the formula needs the placeholder removed. Recommend a small fix-up edit in a future pass; not load-bearing enough to fix in this weaving cycle.
+
+- **03.12.22 (Δ-complex).** The Worked Example [Beginner] section contains a self-deprecating "Try a cleaner Δ-structure..." passage in Step 3 that walks through an *incorrect* attempt before producing the correct two-vertex / two-edge / two-face structure in Step 4. The pedagogy is intentional (showing that combinatorial choices matter), but the prose dwells on the wrong answer for two paragraphs. A Beginner-tier reader could finish Step 3 thinking the unit gave them the right structure. The Step 4 correction is clean, but the framing could be tighter. Recommend a small editorial pass on the Beginner section.
+
+- **04.05.09 (Hodge index).** The Lean formalization section uses both `BilinForm` (older Mathlib name) and the more recent `BilinearForm` namespace. Minor naming inconsistency. Flag for a future Lean-targeting pass.
+
+**Anchor-phrase reuse and continuity metrics.**
+
+The four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together". Forward-promise density and backward-reference density are at or above target on every unit (each Master Connections section has 5+ bullets with explicit cross-unit references, and each unit's Synthesis paragraph carries 2–4 named throughline claims). The 06.09.06 unit is the densest, with 11 Connections bullets and 6 corollaries in the Full proof set; the 03.12.05 unit is the lightest, but it is the smallest of the four (7600 words). All four pass the §10 quantitative continuity targets.
+
+### Validation
+
+All 13 edited units re-validated against `scripts/validate_unit.py` after the edits. Every unit passes 27/27 checks. No structural regressions introduced.
+
+## 2026-05-18 cycle (Cycle 2)
+
+Pass W on the four production units shipped in the Cycle-2 batch:
+
+- `content/06-riemann-surfaces/01-complex-analysis/06.01.14-normal-families-and-montel-s-theorem.md` (~9268 words)
+- `content/03-modern-geometry/12-homotopy/03.12.25-simplicial-sets-and-geometric-realization.md` (~9400 words)
+- `content/06-riemann-surfaces/09-stein/06.09.07-runge-approximation-on-rs.md` (~11255 words)
+- `content/04-algebraic-geometry/03-cohomology/04.03.07-higher-direct-images-and-base-change.md` (~11320 words)
+
+### Files edited
+
+Four files. The four new units themselves required no editing — each shipped with a complete Master Connections section listing every load-bearing peer (shipped Cycle-1 prerequisites and Cycle-2 siblings) and the corresponding synthesis prose in body. The four edits are reciprocal-pointer stitches in the previously-shipped Cycle-1 peers, which had not yet seen the new units when they were produced.
+
+1. `content/03-modern-geometry/12-homotopy/03.12.22-delta--complex-semi-simplicial-set.md`
+2. `content/06-riemann-surfaces/09-stein/06.09.06-mittag-leffler-on-rs.md`
+3. `content/04-algebraic-geometry/03-cohomology/04.03.06-derived-functors-and-ext.md`
+4. `content/06-riemann-surfaces/01-complex-analysis/06.01.13-argument-principle-rouche.md`
+
+### Per-edit rationale
+
+**1. 03.12.22 (Δ-complex / semi-simplicial set) → 03.12.25.** Added a Connections bullet for [03.12.25] (Simplicial sets and geometric realization) describing the full simplicial-set framework as the upgrade-with-degeneracies of the present semi-simplicial picture. The new bullet pulls together the body-prose threads already present in 03.12.22 (Kan complex, Quillen model structure, free-degeneracy completion, $|L(X_\bullet)| \cong |X_\bullet|$) and identifies them as the structural reason the simplicial-set framework supports higher homotopy theory while the semi-simplicial framework suffices only for chain-level homology. Anchor phrases: "the upgrade required for the Kan extension condition", "the universal home for combinatorial homotopy theory", "the chain-level shadow appropriate for ordinary homology". Stitches the load-bearing Cycle-1 ↔ Cycle-2 sibling pair flagged in the protocol.
+
+**2. 06.09.06 (Mittag-Leffler on RS) → 06.09.07.** Added a Connections bullet for [06.09.07] (Runge approximation on RS) describing the density-companion relationship between Mittag-Leffler (existence) and Runge (density), and recording the Runge ⇒ Mittag-Leffler implication via the Behnke-Stein exhaustion. The body of 06.09.06 already mentioned "Runge approximation" three times as a sibling Stein corollary; the new bullet makes the unit-ID link explicit and notes that the Runge-implies-Mittag-Leffler proof is housed in 06.09.07. Anchor phrases: "the density companion to the present existence theorem", "the same cohomological engine — $H^1(X, \mathcal{O}_X) = 0$", "opposite faces of the same Stein-corollary package". Stitches the load-bearing Cycle-1 ↔ Cycle-2 sibling pair flagged in the protocol.
+
+**3. 04.03.06 (Derived functors and Ext) → 04.03.07.** Added a Connections bullet for [04.03.07] (Higher direct images and base change) identifying the local-to-global Ext spectral sequence developed in 04.03.06 as a sibling instance of the Grothendieck composite-functor spectral sequence developed in 04.03.07, and noting that both Leray and local-to-global Ext are specialisations of one categorical mechanism on $G \circ F$ factorisations. Also records the cohomology-and-base-change theorem as the relative form of the Ext-and-base-change comparison. Anchor phrases: "the relative form of the present unit's derived-functor construction", "siblings: the Leray spectral sequence ... and the local-to-global Ext spectral sequence ... come from the same machine". Stitches the load-bearing Cycle-1 ↔ Cycle-2 sibling pair (composite-functor spectral sequence) flagged in the protocol.
+
+**4. 06.01.13 (Argument principle and Rouché) → 06.01.14.** Replaced the outdated forward placeholder "[06.01.14 forthcoming]" in the Hurwitz Bridge paragraph with a substantive forward reference to the now-shipped 06.01.14 unit, naming the Montel-Hurwitz combination as the analytic engine of the conformal-mapping existence argument. The replacement is a single sentence, but it removes a "forthcoming" placeholder that would otherwise be misleading and registers the explicit role of Hurwitz inside the normal-families machinery. Anchor phrase: "the analytic engine that turns local boundedness on a candidate family into a uniformly convergent extremal sequence with injective limit".
+
+### Seams found but not edited
+
+- **06.01.06 (Riemann mapping theorem) → 06.01.14 (Normal families and Montel).** The 06.01.06 unit is a placeholder/stub unit with template prose throughout — its Key theorem section is reduced to the Schwarz-lemma uniqueness argument and its Master Synthesis is generic template language. The 06.01.14 unit's Exercise 7 develops the full existence half of the Riemann mapping theorem using Montel + Hurwitz + the extremal-problem method, and its Master Connections bullet for [06.01.06] is substantive and load-bearing. A reciprocal pointer from 06.01.06 to 06.01.14 would be the natural Pass-W stitch, but it would land inside template prose that has no other substantive Connections content. The right fix is a full tier-upgrade of 06.01.06 (rewriting its Key theorem section to give the existence half from Montel + Hurwitz, and its Master Connections section to integrate Schwarz lemma, Montel, Hurwitz, and Carathéodory kernel theorem). That is a P4-production task, not Pass-W weaving. Flagged here for a future production pass.
+
+- **06.01.02 (Cauchy integral formula) → 06.01.14.** The Cauchy integral formula is invoked in 06.01.14 as the derivative-bound input to Montel, and the 06.01.14 Master Connections bullet for [06.01.02] is explicit and substantive. The reverse direction (Cauchy formula unit pointing forward to normal families) is not load-bearing in the canonical pedagogical order — Montel is downstream, and the Cauchy formula unit serves dozens of downstream applications. Adding a reciprocal pointer would inflate the Connections section without proportionate synthesis gain. Left as-is.
+
+- **02.01.05 (Metric space) → 06.01.14.** The metric-space unit is a foundational base in the Section 2 strand and supplies Arzelà-Ascoli to 06.01.14 as one of dozens of downstream uses. A reciprocal pointer would be artificial: 02.01.05 doesn't pedagogically anticipate complex-analytic Montel, and the Arzelà-Ascoli application in 06.01.14 is one of many. Left as-is.
+
+- **06.09.02 (Theorems A, B) and 06.09.03 (Behnke-Stein) → 06.09.07 (Runge).** Both upstream units are referenced extensively by 06.09.07's body prose ("Behnke-Stein 1949 + Theorem B"), and 06.09.07's Master Connections section has substantive bullets for both. The reverse stitch (forward link from 06.09.02 / 06.09.03 to 06.09.07) was flagged in the prior weaving cycle's "seams not edited" list for the same reason and remains unresolved: those units route Stein-corollary downstream connections through [06.01.05] (the canonical meromorphic-function anchor) rather than through the dedicated Stein-package units 06.09.06 / 06.09.07. A targeted backfill pass on the 06.09 chapter would rationalise this, but it requires the chapter-internal-anchor-phrase audit flagged in the Cycle-1 report. Left for the future chapter-internal Pass W cycle.
+
+- **04.03.04 (Cohomology of projective space) → 04.03.07.** 04.03.04 is the absolute case (cohomology of $\mathbb{P}^n$ over a field); 04.03.07 is the relative case (cohomology of $\mathbb{P}^n_S \to S$). The 04.03.07 unit invokes 04.03.04 substantively in its Master Connections section and in its body prose ("the dimension table transports verbatim to the relative case"). The reverse stitch — a forward link from 04.03.04 to 04.03.07 — would be the natural completion, but 04.03.04 is a Cycle-0 unit with a five-bullet Connections section that already invokes the relative case via the Serre-duality bullet, and the relative case is a deep extension rather than a direct generalisation. Adding the bullet would be substantively correct, but the synthesis depth required exceeds what a Pass-W weave should insert. Left for the next chapter-internal P4 / Pass-W cycle.
+
+- **04.06.02 (Coherent sheaf) → 04.03.07.** 04.03.07 invokes coherent sheaf in its Master Connections as the target category of higher direct images of proper morphisms (Grothendieck finiteness). The reverse stitch — coherent-sheaf unit pointing forward to higher direct images — would highlight that "the coherent-sheaf framework is the natural target of the higher direct image construction" (per 04.03.07's own bullet). The Cycle-1 weaving pass already added a bullet to 04.06.02 for [04.03.06] (Ext on coherent sheaves), so the precedent exists. The 04.03.07 reverse pointer is desirable but lower priority than the three load-bearing stitches above. Flagged for the next cycle.
+
+### Quality observations
+
+**Calibre of the four new units.**
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander prose calibre), all four units hit or exceed the target.
+
+- **06.01.14 (Normal families and Montel).** Excellent. Master tier carries the full Vitali, fundamental normality test, Montel three-value, Marty, Zalcman renormalisation, Brody hyperbolic, Fatou-Julia, Bieberbach, and Nevanlinna defect-relation networks. Eight exercises with full proofs including the Carathéodory kernel theorem. Historical context is Ahlfors-grade, with the Montel 1907 thesis → 1912 ENS paper → 1927 *Leçons* arc traced explicitly and the Stieltjes / Ascoli / Arzelà / Schottky / Landau / Picard precursors anchored to their original papers. The Synthesis paragraph runs in four directions (Arzelà-Ascoli pattern, extremal-problem method, Fatou-Julia, Kobayashi-hyperbolic) at master-prose calibre. No drift.
+
+- **03.12.25 (Simplicial sets and geometric realization).** Excellent. Master tier carries the Eilenberg-Zilber decomposition, the CW theorem (May 14.1), Milnor's product theorem in $\mathbf{CG}$, the $|{-}| \dashv \mathrm{Sing}$ adjunction with full unit-counit verification, Kan complexes vs $\infty$-groupoids (Lurie), and the iterated bar construction $K(\pi, n) = B^n(\pi)$. Eight exercises including the Eilenberg-Zilber lemma proof and the $\mathrm{Sing}(X)$-is-Kan proof via deformation retraction. The historical context traces the Eilenberg-Zilber 1950 → Kan 1957/58 → Milnor 1957 → May 1967 → Quillen 1967 → Goerss-Jardine 1999 → Lurie 2009 arc, with each step anchored to the originating paper. Notation crosswalk to May's $\Delta^*$, $T(K)$, $S(X)$, $\partial_i$ is explicit and consistent with the 03.12.22 crosswalk. No drift.
+
+- **06.09.07 (Runge approximation on RS).** Excellent. Master tier carries Runge 1885 Cauchy-integral construction, Behnke-Stein 1949 Riemann-surface generalisation, Cartan-Serre 1953 cohomological reframing, Mergelyan 1951 sharp uniform-on-compact form, Bishop 1958 Riemann-surface Mergelyan, Schwartz finiteness application, Oka-Weil higher-dimensional avatar, and the failure on a compact RS with the explicit $H^1(X, \mathcal{O}_X) = \mathbb{C}^g$ obstruction identification. Eight exercises with full proofs. The seven-decade abstraction trajectory (1885 → 1895 → 1949 → 1953 → 1965) is traced in the Historical & philosophical context section at Hörmander-grade calibre. The Forster §30 five-step proof (cutoff + $\bar\partial$-equation + Theorem B + pole-pushing + bound) is presented cleanly. No drift.
+
+- **04.03.07 (Higher direct images and base change).** Strong. Master tier carries the Leray spectral sequence, the Grothendieck composite-functor spectral sequence, the Mumford-Hartshorne base-change theorem with Grauert constancy, the semicontinuity theorem on the jump locus, the proper base change for étale cohomology, the relative duality framework with $\omega_{X/S}^\bullet$, and the application to abelian varieties (seesaw, theorem of the cube). Eight exercises including the Leray proof and the general Grothendieck composite-functor spectral sequence construction via Cartan-Eilenberg resolutions. The historical context traces Leray 1946 (Oflag XVIIA POW work) → Cartan séminaire 1948–51 → Serre 1951 thesis → EGA III.1 (1961) / III.2 (1963) → Hartshorne *Residues and Duality* (1966) → Illusie SGA 6 (1971), with each step anchored. The Bridge synthesis to derived-category $Rf_*$ in $D^b_{\mathrm{coh}}$ closes the modern packaging.
+
+**Drift flags.**
+
+- **04.03.07 (Higher direct images).** The Bridge paragraph at line 255–257 doubles back ("The construction appears again in [04.03.04]..." then "the bridge is the relative version of the absolute Serre duality recorded in [04.03.04]"). Two distinct references to 04.03.04 in adjacent paragraphs is acceptable density but reads slightly repetitive. Not load-bearing; flag for future tightening.
+
+- **06.01.14 (Normal families).** Counter-example bullet in "Counterexamples to common slips" mentions $f_n(z) := z^n / n!$ on $\mathbb{C}$ and walks through a self-correction in parenthesis ("and even normal, with limit the partial-sum approximations to $e^z / z!$ identities — actually the Taylor monomials..."). The parenthetical self-correction violates AGENTIC_EXECUTION_PLAN §6.7's "no real-time error correction in prose" rule. Minor drift; recommend a fix-up edit in a future pass to remove the parenthetical and state the conclusion directly.
+
+- **03.12.25 (Simplicial sets).** Exercise 7's universal-cover passage is slightly hand-wavy ("the universal cover of $|\mathrm{N}(G)|$ is the realization of the simplicial set $\mathrm{N}(G \rightrightarrows G)$ where the source-target pair is the principal-$G$-action category, which is contractible because the action category has an initial object after passing to the orbit"). The argument is correct but compressed; a reader who hasn't seen the principal-action-category trick may not parse it. Not a structural defect — Exercise 7 is a "hard" exercise with the full computation outlined. Flag for editorial polish only.
+
+- **06.09.07 (Runge).** No drift observed. Forster §30 / Hörmander Ch. III calibre throughout.
+
+**Anchor-phrase reuse and continuity metrics.**
+
+The four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is". Forward-promise density and backward-reference density meet the §10.2 thresholds on every unit (each Master Connections section has 6–10 bullets with explicit cross-unit references, and each unit's Synthesis paragraph carries 3–5 named throughline claims). The 06.09.07 unit's Connections section is the densest, with 10 substantive bullets covering the entire Stein-corollary package; the 03.12.25 unit is the most categorically rich, with the $\infty$-category, Quillen-equivalence, Eilenberg-Zilber, and Dold-Kan threads explicitly registered. All four pass the §10 quantitative continuity targets.
+
+### Validation
+
+All four edited units re-validated against `scripts/validate_unit.py` after the edits. Every unit passes 27/27 checks. The four new shipped units (06.01.14, 03.12.25, 06.09.07, 04.03.07) also re-validate at 27/27. No structural regressions introduced.
+
+## 2026-05-18 cycle (Cycle 3 — Arnold ODE foundational batch)
+
+Pass W on the four production units shipped in the Cycle-3 batch — the new ODE chapter `02-analysis/12-ode/` that closes the 49-unit DAG-honesty gap surfaced by the Arnold ODE audit (`plans/fasttrack/arnold-ordinary-differential-equations.md`):
+
+- `content/02-analysis/12-ode/02.12.01-phase-space-vector-field-integral-curve.md` (~8292 words)
+- `content/02-analysis/12-ode/02.12.02-phase-flow-one-parameter-group.md` (~8643 words)
+- `content/02-analysis/12-ode/02.12.05-rectification-theorem.md` (~7917 words)
+- `content/02-analysis/12-ode/02.12.08-lyapunov-stability-direct-method.md` (~8653 words)
+
+These four units retroactively anchor concepts the symplectic strand had been invoking without a Codex citation: vector-field-on-phase-space, the phase flow $g^t$ as a one-parameter group, the rectification normal form, and the Lyapunov direct method for equilibria. The Pass-W task here is therefore not the usual sibling stitching but a *load-bearing retroactive prereq stitch*: the receiving symplectic units predate these new prerequisites and their Connections sections were written without anchor IDs for them.
+
+### Files edited
+
+Nine files. The two new ODE bedrock units (02.12.01, 02.12.02) received reciprocal-pointer additions for their sibling ODE units; seven previously-shipped symplectic units received forward-reference bullets to the new ODE prerequisites.
+
+1. `content/02-analysis/12-ode/02.12.01-phase-space-vector-field-integral-curve.md`
+2. `content/02-analysis/12-ode/02.12.02-phase-flow-one-parameter-group.md`
+3. `content/05-symplectic/lagrangian-mechanics/05.00.01-lagrangian-on-tm.md`
+4. `content/05-symplectic/lagrangian-mechanics/05.00.04-noether-theorem.md`
+5. `content/05-symplectic/hamiltonian/05.02.01-hamiltonian-vector-field.md`
+6. `content/05-symplectic/hamiltonian/05.02.06-geodesic-flow-hamiltonian.md`
+7. `content/05-symplectic/hamiltonian/05.02.07-liouville-volume.md`
+8. `content/05-symplectic/hamiltonian/05.02.08-poincare-recurrence.md`
+9. `content/05-symplectic/integrable/05.09.01-kam-theorem.md`
+
+### Per-edit rationale
+
+**1. 02.12.01 (Phase space, vector field, integral curve) → 02.12.02, 02.12.05, 02.12.08.** The unit shipped with Connections bullets for 02.05.04, 02.11.04, 03.02.01, 05.00.01, 05.02.01 but had no reciprocal pointer to its three sibling ODE units in the new chapter. Added three Connections bullets: (a) 02.12.02 — the flow as the integrating one-parameter group of the vector field, anchored with "the vector field is the infinitesimal generator $X(p) = \partial_t|_{t=0}\varphi^t(p)$; the flow is its integral"; (b) 02.12.05 — rectification as the canonical local normal form away from equilibria; (c) 02.12.08 — Lyapunov stability as the qualitative theory of the points excluded by rectification (equilibria). Anchor phrases: "mutually determined", "the geometric repackaging of the smooth-dependence theorem", "the orbital derivative $\dot V = \nabla V \cdot v$".
+
+**2. 02.12.02 (Phase flow / one-parameter group) → 02.12.05, 02.12.08.** The Master Connections section listed 02.12.01, 03.02.01, 05.00.01, 02.05.04, 02.05.03 but had no bullets for the rectification and Lyapunov siblings (although the body prose mentions rectification in the Advanced-results and Synthesis sections). Added two Connections bullets: (a) 02.12.05 — rectification as the local normal form of the present unit's phase flow, anchored to "the rectifying chart $\Phi(t, y) = \varphi^t(\sigma(y))$ is a local diffeomorphism by the inverse function theorem"; (b) 02.12.08 — Lyapunov's direct method as the qualitative theory built on the forward flow $\varphi^t$, anchored to "the sub-level set $\{V \le c\}$ is forward-invariant under $\varphi^t$ precisely because $\varphi^t$ is the flow generated by the vector field on which the sign condition is imposed". Stitches the within-chapter reciprocity for the Cycle-3 new units.
+
+**3. 05.00.01 (Lagrangian on $TM$) → 02.12.01.** This is a load-bearing retroactive stitch: the Lagrangian-mechanics unit invokes the second-order vector field $E_L$ on $TQ$ throughout, but its Connections section had no anchor for "vector field on phase space" as a Codex concept. Added a Connections bullet identifying $E_L$ as a section of $T(TQ)$ whose integral curves are mechanical trajectories, and anchoring the existence-uniqueness of motions in Picard-Lindelöf. Anchor phrase: "the foundational reason this geometric framing makes sense is the existence-uniqueness package of [02.12.01]". Closes the audit-flagged gap "Lagrangian depends on tangent-bundle vector field" with explicit synthesis.
+
+**4. 05.00.04 (Noether's theorem) → 02.12.01, 02.12.02, 02.12.08.** Noether's theorem is structurally a Lie-theoretic correspondence between one-parameter groups and infinitesimal generators, so the new ODE anchors are doubly load-bearing. Added one Connections bullet for [02.12.01, 02.12.02] noting that the symmetry-to-flow assignment depends on the one-parameter-group structure of [02.12.02] and the existence-uniqueness of [02.12.01], with anchor phrase "Noether's theorem is the computational shadow of this Lie-theoretic correspondence on the variational integrand". Also added a separate Connections bullet for [02.12.08] (Lyapunov) recording that a Noether charge is exactly a Lyapunov function with $\dot V \equiv 0$ — the boundary case — and that energy methods produce Lyapunov stability precisely because energy is a Noether charge of time-translation symmetry. Anchor phrase: "the boundary case between strict and non-strict in Lyapunov's theorem". This is the prose-explicit verification of the Lyapunov ↔ Noether bridge flagged in the task brief.
+
+**5. 05.02.01 (Hamiltonian vector field) → 02.12.01, 02.12.02.** The receiving unit's Connections section was extremely sparse (four template bullets, ~40 words total) and made no reference to the dynamical-systems substrate. Added two substantive bullets: (a) 02.12.01 — the Hamiltonian vector field as a section of $TM$ on a symplectic manifold whose integral curves are dynamical-systems orbits, with anchor "Without the underlying vector-field-and-integral-curve framework, $X_H$ has no dynamical content beyond its algebraic definition $\iota_{X_H}\omega = dH$"; (b) 02.12.02 — the Hamiltonian flow $\varphi^t_H$ as the symplectic specialisation of the one-parameter-group construction. Closes the audit-flagged gap on "Hamiltonian vector field depends on phase space" with prose synthesis.
+
+**6. 05.02.06 (Geodesic flow as Hamiltonian flow) → 02.12.02.** Added a Connections bullet identifying geodesic flow as a one-parameter group in the sense of [02.12.02], with completeness on compact Riemannian manifolds inherited from the [02.12.02] completeness theorem and structural properties (smooth dependence, blow-up alternative) specialising from the general theory. Anchor phrase: "the foundational reason geodesic flow can be studied as a flow at all is the underlying vector-field framing of [02.12.01]".
+
+**7. 05.02.07 (Liouville volume preservation) → 02.12.02.** The Liouville volume-preservation theorem is the symplectic refinement of the general divergence-free-flow result proved in 02.12.02's Master Advanced-results section. Added a Connections bullet making this specialisation prose-explicit, anchored to "$\mathcal{L}_{X_H}(\omega^n/n!) = 0$ is the symplectic upgrade of the variational-equation argument $\partial_t \log|\det D\varphi^t| = \mathrm{div}\,X$ housed in [02.12.02]". Anchor phrase: "Volume preservation is therefore not a freestanding miracle of Hamiltonian dynamics but a structural consequence of one-parameter-group theory specialised to closed two-forms."
+
+**8. 05.02.08 (Poincaré recurrence) → 02.12.02.** Added a Connections bullet recording that the recurrence statement is a property of the one-parameter group $\varphi^t$ of [02.12.02], with the iterated discrete map $\varphi^{nT} = (\varphi^T)^n$ converting the time-evolution into the Carathéodory measure-theoretic argument. Anchor phrase: "Completeness of the Hamiltonian vector field on a compact manifold is itself an instance of the [02.12.02] completeness theorem."
+
+**9. 05.09.01 (KAM theorem) → 02.12.01, 02.12.02.** Added one combined Connections bullet for [02.12.01, 02.12.02] anchoring KAM as a flow-on-flow construction: the unperturbed integrable Hamiltonian carries a complete flow foliated by invariant tori, the iterated symplectomorphisms $\phi^{(n)}$ are themselves time-one maps of Hamiltonian flows, and the conjugacy to linear translation on $\mathbb{T}^n$ is a statement in the one-parameter-group category. Anchor phrase: "The KAM iteration is the quintessential example of a flow-on-flow construction — a Newton scheme whose individual steps are themselves phase flows generated by auxiliary Hamiltonians." Closes the audit-flagged gap on "KAM relies on integrable phase flow".
+
+### Seams found but not edited
+
+- **02.12.05 (Rectification) ↔ 02.12.02 (Phase flow).** The 02.12.05 Connections section already has a substantive 02.12.02 bullet, and the present cycle added the 02.12.05 reciprocal bullet to 02.12.02. The 02.12.05 body prose throughout (Key theorem proof, Bridge, Synthesis, Full proof set) invokes the local flow $g^t$ explicitly and uses the smooth-dependence theorem as the load-bearing input. No further stitching needed.
+
+- **02.12.08 (Lyapunov) ↔ 05.00.04 (Noether).** The 02.12.08 Connections section already has a substantive 05.00.04 bullet that prose-explicitly records the conserved-quantity ↔ Lyapunov-boundary-case correspondence, the pendulum-with-friction example, and the dissipation-tipping-to-asymptotic argument. The present cycle added the reciprocal 02.12.08 bullet to 05.00.04. The bridge is now bidirectional and prose-explicit on both ends. No further stitching needed.
+
+- **05.02.05 (Cotangent bundle) → 02.12.01.** The cotangent-bundle unit serves as the carrier of the symplectic form $\omega = -d\theta$ but does not host vector-field dynamics directly. The vector-field substrate is needed once $X_H$ is constructed (handled in 05.02.01) and once the flow $\varphi^t_H$ is integrated (handled in 05.02.06+). A reciprocal pointer from 05.02.05 to 02.12.01 would be artificial — the cotangent-bundle unit is set-theoretic / linear-algebraic, not dynamical. Left as-is.
+
+- **05.02.02 (Poisson bracket) → 02.12.01, 02.12.02.** The Poisson bracket is the Lie bracket of Hamiltonian vector fields and the time derivative $\dot f = \{f, H\}$ along Hamiltonian trajectories. Forward pointers from 05.02.02 to the new ODE units would be substantive and pedagogically correct (the equation $\dot f = \{f, H\}$ is the orbital-derivative statement of the present chapter). I did not edit 05.02.02 because the existing Connections section is already well-developed and the addition would duplicate substance already carried by the 05.02.01 reciprocal. Flag for a future minor refresh if the Cycle-3 anchors are propagated more widely.
+
+- **05.02.03 (Integrable system) → 02.12.02.** Integrable systems are foliated by tori on which the Hamiltonian flow is conjugate to linear translation — the canonical example of a quasi-periodic phase flow. A forward pointer to 02.12.02 would substantively anchor the "linearise the flow on the torus" content to the phase-flow infrastructure. Not edited in this cycle because the 05.09.01 (KAM) stitch already carries the equivalent content for downstream consumers; the 05.02.03 unit can absorb the anchor in a future targeted pass.
+
+- **05.04.01 (Moment map), 05.04.02 (Symplectic reduction) → 02.12.01, 02.12.02.** Both moment-map and reduction theory rest on Lie-group actions whose generators are vector fields. The reciprocal pointer would be load-bearing but the receiving units are larger and would require an audit of their existing Connections-section structure before insertion. Left for the next chapter-internal Pass-W cycle on the moment-reduction subdirectory.
+
+- **05.09.02–05.09.06 (Adiabatic invariants, Birkhoff normal form, Euler-Arnold, Nekhoroshev) → 02.12.01, 02.12.02.** Each of these units invokes the phase-flow substrate. The retroactive prereq edges flagged in the audit (49 units) cannot all be stitched in one cycle — these five units are flagged for the next ODE-anchor-propagation pass. The 05.09.01 KAM stitch in this cycle is the load-bearing case; the others are deferrable to a chapter-internal cycle.
+
+- **03.02.01 (Smooth manifold) → 02.12.01, 02.12.02.** The smooth-manifold unit is invoked as a prerequisite by every ODE unit in the new chapter, but the reverse direction (smooth-manifold unit pointing forward to ODE dynamics) is non-load-bearing — the smooth-manifold unit serves dozens of downstream applications and adding ODE pointers would inflate the Connections without proportionate synthesis gain. Left as-is.
+
+### Quality observations
+
+**Calibre of the four new units.**
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander prose calibre), all four units hit or exceed the target.
+
+- **02.12.01 (Phase space, vector field, integral curve).** Excellent. Master tier carries the Banach-space Picard-Lindelöf with the full contraction-mapping construction, smooth dependence via the implicit function theorem applied to the Picard operator, the flow theorem as a local one-parameter group of diffeomorphisms, the rectification theorem proof, the global flow on a compact manifold via the uniform-$\tau$ + composition argument, Hartman-Grobman, the Poincaré planar classification, Peano existence without uniqueness via Arzelà-Ascoli, and the continuation-principle / blow-up alternative. Eight exercises with full proofs. Historical context traces Cauchy 1820s → Lipschitz 1876 → Picard 1890 → Lindelöf 1893 → Peano 1886 → Poincaré 1881-86 → Lyapunov 1892 → Birkhoff 1927 → Arnold 1973 in correctly anchored detail. The Bridge paragraph identifies the contraction-mapping engine as the shared analytic core of Picard-Lindelöf and the implicit function theorem. No drift.
+
+- **02.12.02 (Phase flow / one-parameter group).** Excellent. Master tier carries the maximal-interval blow-up alternative, smooth dependence with parameters via the variational equation, the matrix exponential as the linear-case flow with full power-series convergence proof, the flow as a one-parameter subgroup of $\mathrm{Diff}^k(M)$, rectification, and Liouville volume preservation for divergence-free fields. Eight exercises including the Jordan-block matrix exponential and the compactness-implies-completeness theorem. Historical context traces Cauchy 1820s → Liouville 1838 (early one-parameter-group concept) → Lie 1888-93 (infinitesimal generators) → Poincaré 1881-86 (qualitative theory) → Picard-Lindelöf 1890-94 → Arnold 1973 (synthesis). The bridge to Lie's transformation-group programme and the exponential map of a Lie group is prose-explicit. No drift.
+
+- **02.12.05 (Rectification).** Excellent. Master tier carries the manifold version of rectification, first integrals near a regular point, the Frobenius theorem as the higher-rank generalisation, the rectification-implies-local-uniqueness theorem, the method of characteristics for first-order linear PDEs as the canonical application, and the flow-equivariance characterisation of rectifying-chart transitions. Eight exercises with full proofs. Historical context traces Cauchy 1820s polygon method → Liouville 1838 → Poincaré 1881-86 → Arnold 1973 (the "flow-box theorem" framing) → Hartman 1964 → Spivak 1965 → Lang 1972 → Hörmander 1983. The Synthesis paragraph identifies the inverse-function-theorem-on-a-non-degenerate-first-jet pattern as recurring in Morse lemma, Darboux's theorem, and Frobenius. No drift.
+
+- **02.12.08 (Lyapunov stability, direct method).** Excellent. Master tier carries the Lyapunov stability theorem, asymptotic stability via strict-negative orbital derivative, the Lyapunov equation $A^\top P + PA = -I$ for Hurwitz matrices with integral-formula construction $P = \int_0^\infty e^{A^\top t} e^{At}\,dt$, the linearisation theorem (Lyapunov's first method), LaSalle's invariance principle, Chetaev's instability theorem, Hartman-Grobman, and Krasovskii's converse theorem. Eight exercises with full proofs. Historical context traces Lyapunov 1892 (Kharkov PhD) → 1907 French translation → Massera 1956 (smooth converse) → LaSalle 1960 (invariance principle) → Krasovskii 1959 → Hahn 1967 → Hartman 1960 (Hartman-Grobman) → Sontag 1989 (ISS) → Khasminskii 1969 (stochastic). No drift.
+
+**Drift flags.**
+
+- **02.12.01 (Vector field).** The Worked example [Beginner] uses the rotation field $(y, -x)$ and traces the trajectory clockwise — the curve $t \mapsto (\cos t, -\sin t)$. The 02.12.02 Worked example uses the related rotation field $(-y, x)$ and traces the trajectory *counterclockwise* — the curve $t \mapsto (\cos t, \sin t)$. The sign convention is different between the two units. Each unit is internally consistent, but a reader moving from 02.12.01 to 02.12.02 will see the opposite rotation direction for "the rotation vector field". Minor pedagogical seam; not load-bearing because the units explicitly state their conventions in the formal-definition section. Recommend a small editorial pass to align the rotation direction across the chapter.
+
+- **02.12.05 (Rectification).** No drift observed.
+
+- **02.12.08 (Lyapunov).** No drift observed. The pendulum-with-friction worked example is the cleanest possible demonstration of the strict-vs-non-strict Lyapunov distinction.
+
+**Anchor-phrase reuse and continuity metrics.**
+
+All four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is the recognition", "the foundational engine". Forward-promise density and backward-reference density meet the §10.2 thresholds. Each Master Connections section has 5+ substantive bullets after the Pass-W stitching; each unit's Synthesis paragraph carries 3-5 named throughline claims. All four units pass the §10 quantitative continuity targets.
+
+**DAG-honesty observation.**
+
+The Arnold ODE audit identified that 49 symplectic units were silently invoking vector-field / phase-flow / rectification / Lyapunov concepts without a Codex anchor. The Cycle-3 batch closes this gap at the unit-level by producing the four anchoring units. The Pass-W stitching in this cycle propagates the new anchors to the seven load-bearing receivers (05.00.01, 05.00.04, 05.02.01, 05.02.06, 05.02.07, 05.02.08, 05.09.01). The remaining ~42 silent-dependency units (Hamilton's principle, Legendre transform, moment map, symplectic reduction, integrable system, action-angle, generating functions, Hamilton-Jacobi, adiabatic invariants, Birkhoff normal form, Euler-Arnold, Nekhoroshev, Williamson normal form, Arnold conjecture, Floer homology, Conley-Zehnder index, pseudoholomorphic curve, non-squeezing, capacity, contact, Reeb flow, Liouville-Arnold, etc.) are flagged for a propagation pass that should run as a chapter-internal Pass-W cycle after the Cycle-3 anchors stabilise. The audit's "load-bearing prereq edge" list is therefore partially closed by the present cycle and fully closeable by one additional chapter-internal pass.
+
+### Validation
+
+All nine edited units re-validated against `scripts/validate_unit.py` after the edits. Every unit passes 27/27 checks. The four new shipped units (02.12.01, 02.12.02, 02.12.05, 02.12.08) re-validate at 27/27 with the reciprocal-pointer additions in 02.12.01 and 02.12.02. No structural regressions introduced.
+
+## 2026-05-18 cycle (Cycle 4 — Wave-6 §3-anchoring batch)
+
+Pass W on the four production units shipped in the Cycle-4 batch:
+
+- `content/02-analysis/12-ode/02.12.10-poincare-bendixson-theorem.md` (10,758 words)
+- `content/02-analysis/12-ode/02.12.12-first-integrals-conserved-quantities.md` (9,549 words)
+- `content/05-symplectic/lagrangian-mechanics/05.00.08-mechanical-similarity-virial-theorem.md` (8,404 words)
+- `content/06-riemann-surfaces/09-stein/06.09.08-survey-cartan-serre-stein-theory-in-higher-dim.md` (~11,200 words)
+
+### Files edited
+
+Ten files. The four new units themselves required no edits — each shipped with its forward and backward Connections-section pointers already in place against the units known at production time. The ten edits are reciprocal-pointer additions in receiving units that previously lacked a Connections-section reference to one of the new units.
+
+1. `content/02-analysis/12-ode/02.12.05-rectification-theorem.md` — added forward pointer to 02.12.12 (first integrals).
+2. `content/05-symplectic/lagrangian-mechanics/05.00.04-noether-theorem.md` — added Connections bullet to 02.12.12 as the abstract first-integral foundation.
+3. `content/05-symplectic/hamiltonian/05.02.03-integrable-system.md` — added Connections bullet to 02.12.12 as the abstract first-integral foundation underlying integrability.
+4. `content/05-symplectic/integrable/05.09.01-kam-theorem.md` — added Connections bullet to 02.12.12 framing KAM as the perturbative continuation of the first-integral structure.
+5. `content/06-riemann-surfaces/09-stein/06.09.02-theorems-a-b.md` — added forward pointer to the chapter-closer 06.09.08.
+6. `content/06-riemann-surfaces/09-stein/06.09.03-behnke-stein.md` — added forward pointer to 06.09.08.
+7. `content/06-riemann-surfaces/09-stein/06.09.04-cousin-i-additive.md` — added forward pointer to 06.09.08.
+8. `content/06-riemann-surfaces/09-stein/06.09.05-cousin-ii-multiplicative.md` — added forward pointer to 06.09.08.
+9. `content/06-riemann-surfaces/09-stein/06.09.06-mittag-leffler-on-rs.md` — added forward pointer to 06.09.08.
+10. `content/06-riemann-surfaces/09-stein/06.09.07-runge-approximation-on-rs.md` — added forward pointer to 06.09.08.
+
+### Per-edit rationale
+
+**Edit 1: 02.12.05-rectification-theorem → 02.12.12.** Cross-cycle stitch (Cycle 3 unit → Cycle 4 unit). The forward direction (02.12.12 → 02.12.05) was already explicit in the new unit's Connections section and in its proof of the local-existence theorem, which is a one-line corollary of rectification. The reverse direction was missing: 02.12.05's Advanced results section already contains a "first integrals near a regular point" theorem and an exercise on rectifying-coordinates-as-first-integrals, but its Connections section did not point to the dedicated 02.12.12 treatment. Anchor phrase used: "the local-existence theorem for first integrals in disguise". The new bullet records that 02.12.05 is the geometric foundation and 02.12.12 is the dedicated conserved-quantity treatment with the maximality count, the functional-independence criterion, and the Hamiltonian / Noether / Liouville-Arnold upgrades. Connection type per CONTINUITY_SCAFFOLD §3 taxonomy: foundation-of (#5) plus specialisation / instance (#2) — first integrals are an instance of rectifying-coordinate construction, and rectification is the foundation underneath them.
+
+**Edit 2: 05.00.04-noether-theorem → 02.12.12.** Cross-chapter stitch flagged as load-bearing in the brief. Cycle-3 Pass W already stitched 05.00.04 → 02.12.01 + 02.12.02 + 02.12.08; this cycle extends the chain to 02.12.12, completing the Noether ↔ abstract-first-integrals loop. Anchor phrase used: "Noether is the symmetry-to-conservation upgrade of the abstract first-integral framework". The bullet records that 02.12.12's rectification-based local-existence theorem produces $n - 1$ anonymous labels on integral curves, while Noether's theorem upgrades these to *named* conserved quantities indexed by continuous symmetries — energy from time-translation, momentum from space-translation, angular momentum from rotation. Also references the Liouville-Arnold integrability theorem stated in 02.12.12's Master tier as the global completion of Noether when enough symmetries are present. Connection type: bridging-theorem (#9) — Noether is the theorem that identifies the abstract conserved-quantity framework with the symmetry-indexed quantities of mechanics.
+
+**Edit 3: 05.02.03-integrable-system → 02.12.12.** Cross-chapter stitch flagged as load-bearing (Liouville-Arnold cross-chapter stitch). The integrable-system unit is a v0.5 stub (produced by gpt-5-codex Strand B) that did not previously reference any first-integral material. Anchor phrase used: "the abstract first-integral foundation". The new bullet records that a complete integrable system in the unit's sense is precisely $n$ functionally independent first integrals in involution on a $2n$-dimensional symplectic manifold — that is, in the language of 02.12.12, $n$ Poisson-commuting first integrals satisfying the Liouville-Arnold hypothesis. The 02.12.12 unit supplies the general definition of a first integral, the rectification-based local-existence theorem, and the Liouville-Arnold integrability statement; integrability theory is the symplectic specialisation. Connection type: specialisation / instance (#2) — integrable system is the symplectic instance of having enough first integrals to reduce the dynamics to torus motion.
+
+**Edit 4: 05.09.01-kam-theorem → 02.12.12.** Cross-chapter stitch flagged as load-bearing (Liouville-Arnold cross-chapter stitch). KAM's existing Connections section already pointed to 05.02.03 (integrable system) and to 02.12.01 + 02.12.02 (phase space, phase flow) from Cycle-3 Pass W. The Cycle-4 stitch extends to 02.12.12 directly, treating the abstract first-integral framework as the foundation underneath KAM's "completely integrable Hamiltonian" hypothesis. Anchor phrase used: "the abstract first-integral foundation" plus the synthesis claim "KAM is the perturbative continuation of this picture". The bullet records that KAM asks how much of the integrable first-integral structure survives a small Hamiltonian perturbation and answers that the Cantor-measure majority of Diophantine tori persist as KAM tori with their own surviving action variables. Connection type: generalisation (#1) — KAM generalises the rigid integrability picture of 02.12.12 to a perturbative measure-theoretic statement.
+
+**Edits 5-10: 06.09.02-07 → 06.09.08.** Forward-pointer additions to the chapter-closer 06.09.08. Each of the six prior 06.09.* units already pointed to 06.07.01 (holomorphic functions of several complex variables) as the higher-dimensional referent, but none pointed to the survey 06.09.08 directly. The brief flagged this as a load-bearing seam: the chapter-closer should be the reciprocal landing point of forward pointers from every prior unit in the chapter. Anchor phrase used (consistent across all six edits): "The chapter-closing synthesis". Each new bullet records the specific role of the prior unit's theorem inside the universal Cartan-Serre apparatus — Theorem B as the syzygy-of-length-$n$ generalisation of the dimension-one syzygy-of-length-one argument; Behnke-Stein as the dimension-one ancestor where non-compactness is enough; Cousin I as the additive corollary; Cousin II as the multiplicative corollary with the topological $H^2(X, \mathbb{Z})$ obstruction; Mittag-Leffler as the principal-parts specialisation; Runge / Oka-Weil as the density companion. Connection type: foundation-of / recurrence (#5 + #8) — the survey is the chapter-level synthesis, and each prior unit recurs as a specific specialisation inside it.
+
+### Seams found but not edited
+
+- **02.12.10 (Poincaré-Bendixson) ↔ 02.12.08 (Lyapunov, Cycle 3).** Both directions already in place. 02.12.10's Connections section has a substantive bullet on Lyapunov stability and the Liénard combination of both theorems on the trapping-annulus construction; 02.12.08's Bridge paragraph already cited 02.12.10 from Cycle-3 Pass W ("This is exactly the same principle that appears again in [02.12.10] (Poincaré-Bendixson)..."). No edit needed.
+
+- **05.00.08 (virial) ↔ 02.12.12 (first integrals).** Forward direction already in place: 05.00.08's Connections section already contained the bullet "First integrals and the conserved-quantity catalogue [02.12.12]" at production time. The reverse direction is not load-bearing — 02.12.12's Master tier already records the Hamiltonian first-integral framework as foreshadowing, and the virial theorem is one specialised application out of many (the Marsden-Weinstein moment map, Whittaker's ignorable coordinates, the Poisson-bracket criterion, the Liouville-Arnold theorem, the non-integrability of the three-body problem all sit at the same level). Adding a 02.12.12 → 05.00.08 bullet would inflate the Connections section without proportionate synthesis gain. Left as-is.
+
+- **02.12.10 (PB) ↔ 02.12.05 (rectification, Cycle 3).** Already in place. 02.12.10's Connections section contains a substantive bullet on rectification as the transverse-arc construction underlying the monotone-sequence lemma, and 02.12.05's Bridge paragraph (Cycle-3 Pass W) already broadcasts the rectifying-chart-plus-flow template that PB uses. No edit needed.
+
+- **06.09.08 → 06.09.02-07 reciprocal.** Already in place. 06.09.08's own Connections section already enumerates each of 06.09.02-07 as a load-bearing specialisation with substantive prose explaining the dimension-one vs higher-dimensional contrast. The Pass-W stitch this cycle was to add the *forward* direction from each prior unit to the survey; the reverse direction was already part of the new unit's production.
+
+- **05.09.02-05.09.06 (other integrable units) → 02.12.12.** The brief specifically named KAM (05.09.01) as the load-bearing case. The other integrable units (adiabatic invariants, Birkhoff normal form, Euler-Arnold, Nekhoroshev) reference 05.02.03 (integrable system) as their entry point into the integrability framework, and now that 05.02.03 has a 02.12.12 stitch (Edit 3), the chain is closed transitively. Direct stitches to 02.12.12 from each of these units would be redundant; the chapter-internal Cycle-3 Pass-W deferral list flagged in the previous cycle handles these. Left as-is.
+
+### Quality observations
+
+**Calibre of the four new units.**
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander prose calibre), all four units hit or exceed the target.
+
+- **02.12.10 (Poincaré-Bendixson).** Excellent. Master tier carries the full four-step transverse-section + monotone-sequence + omega-limit-set-as-periodic-orbit proof; the Liénard theorem with explicit trapping-annulus construction, existence-and-uniqueness, and asymptotic stability; the Bendixson index theorem; the Dulac-Ilyashenko finiteness theorem and Hilbert's 16th problem; the Pugh closing lemma; the Andronov-Pontryagin-Peixoto classification of structurally stable planar fields; the failure of PB in dimension $\geq 3$ via the Lorenz attractor with Tucker's 2002 rigorous proof; and the PB-on-the-sphere extension. Eight exercises with full proofs. Historical context traces Poincaré 1881-1886 → Bendixson 1901 → Dulac 1923 → Liénard 1928 → Andronov-Vitt-Khaikin 1937 → Lorenz 1963 → Peixoto 1962 → Pugh 1967 → Ilyashenko 1991 → Tucker 2002. The Bridge paragraph identifies the Jordan curve theorem as the topological input that makes planar dynamics qualitatively classifiable and absent in higher dimensions. No drift.
+
+- **02.12.12 (First integrals / conserved quantities).** Excellent. Master tier carries the local-existence theorem via rectification, the maximality count $n - 1$, the functional-dependence criterion via the implicit function theorem, the Hamiltonian Poisson-bracket criterion $\{F, H\} = 0$, Noether's theorem as the variational source of named conserved quantities, the Liouville-Arnold integrability theorem with action-angle coordinates on $n$-tori, the reduction-of-order theorem via level-set submanifolds, the non-integrability of the three-body problem (Bruns 1887, Poincaré 1892), and Whittaker's reduction by ignorable coordinates. Eight exercises with full proofs including the central-force angular momentum and the Lagrange-multiplier-style reduction to a one-dimensional radial problem. Historical context traces Lagrange 1788 → Jacobi 1843 → Liouville 1855 → Noether 1918 → Poincaré 1892-1899 → Arnold 1973 → Marsden-Weinstein 1974. The Bridge paragraph identifies first integrals with rectifying coordinates near regular points and with Poisson-commuting functions globally, with Noether tying both to symmetry orbits. No drift.
+
+- **05.00.08 (Mechanical similarity / virial theorem).** Excellent. Master tier carries the scaling rule $\mu = \lambda^{1 - k/2}$ with full action-scaling derivation $S[\tilde r] = \lambda^{1 + k/2} S[r]$; the Lagrange-Jacobi identity $\ddot I = 4 T - 2 k U$; the Clausius virial theorem with boundedness-implies-vanishing-of-boundary-term proof; the Kepler problem in full detail with $\overline{T} = -E$, $\overline{U} = 2E$; the stellar-dynamical virial theorem with Chandrasekhar's tensor-virial extension; the Zwicky virial mass of the Coma cluster (1933) as the historical dark-matter discovery; the quantum virial theorem with the hydrogen-atom ground-state ratios; the statistical-mechanical virial expansion as Clausius's 1870 application; Bertrand's theorem identifying $k = -1$ and $k = 2$ as the only closed-orbit central potentials; and the field-theory generalisation via trace anomaly. Seven exercises with full proofs. Historical context traces Kepler 1609-1619 → Newton 1687 → Lagrange 1788 → Clausius 1870 → Zwicky 1933 → Chandrasekhar 1942 → Landau-Lifshitz 1940 → Arnold 1974. The Bridge paragraph identifies mechanical similarity and the virial theorem as the two algebraic faces of the homogeneity property of $U$, with the Lagrange-Jacobi identity as the bridge. No drift.
+
+- **06.09.08 (Survey: Cartan-Serre Stein theory in higher dim).** Excellent. Master tier carries the full five-step proof of Theorem B (Stein exhaustion + Hörmander $L^2$ + syzygy propagation + Cartan-Serre limit-passage + induction on $q$); Theorem A as the one-step exact-sequence corollary of Theorem B; the Bishop-Remmert-Narasimhan embedding $X \hookrightarrow \mathbb{C}^N$ with Remmert's $N = 2n + 1$ and the Eliashberg-Gromov $N = \lfloor 3n/2 \rfloor + 1$ sharpening; Cousin I and Cousin II with explicit obstruction calculations on contractible Stein vs $\mathbb{C}^* \times \mathbb{C}^*$; Hörmander's weighted $L^2$-method as the modern analytic engine; the Levi problem with the Oka 1942 dimension-two case and the 1953-54 simultaneous arbitrary-dimension proofs; and the Oka principle in its Grauert (1958) and Forstnerič-Gromov elliptic-h-principle (1989) forms. Eight exercises. Historical context traces Stein 1951 → Cartan-Serre 1953 → Behnke-Stein 1949 → Remmert 1956 → Narasimhan 1960 → Bishop 1961 → Oka 1936-53 → Bremermann-Norguet-Oka 1953-54 → Grauert 1958 → Hörmander 1965-73 → Grauert-Remmert 1979 → Gromov 1989 → Eliashberg-Gromov 1992 → Forstnerič 2017. The Synthesis identifies the Cartan-Serre vanishing with the universal solvability of every coherent-sheaf cohomology problem, with the Hörmander weighted $L^2$-estimate as the bridge. No drift.
+
+**Drift flags.**
+
+- **02.12.10 (PB).** No drift observed. The Lyapunov-bridge text in the Bridge paragraph aligns with 02.12.08's reciprocal pointer added in Cycle-3 Pass W.
+
+- **02.12.12 (First integrals).** No drift observed. The cross-references to 02.12.05 (rectification), 02.12.01 (phase space), 02.12.02 (phase flow), 02.12.08 (Lyapunov), 05.00.04 (Noether), 03.02.01 (smooth manifold), and 02.05.04 (implicit function theorem) all hit the registered anchor phrases. The Liouville-Arnold statement in the Master tier matches the Connections-section formulation in 05.09.01 and 05.02.03.
+
+- **05.00.08 (Virial).** No drift observed. The forward-pointer to 05.00.04 (Noether) for the variational origin of the virial integral, and the backward-pointer to 02.12.12 for first integrals, both align with the receiving units' framings. The Zwicky dark-matter framing in the Master tier is the registered historical anchor for the virial theorem's astrophysical application.
+
+- **06.09.08 (Stein survey).** No drift observed. The dimension-one specialisations enumerate the prior 06.09.* units in exactly the order and framing those units themselves use. The Hörmander weighted $L^2$-method is the registered analytic engine shared with 06.09.02 (Theorems A and B) and the higher-dimensional case adds only the syzygy-of-length-$n$ induction and the higher-dim Cartan Runge-type approximation.
+
+**Anchor-phrase reuse and continuity metrics.**
+
+All four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is the recognition", "the foundational engine", "this is exactly the". Forward-promise density and backward-reference density meet the §10.2 thresholds on a per-unit basis. Each Master Connections section in the four new units has 6+ substantive bullets at production time; the Pass-W stitching this cycle adds reciprocal-pointer bullets in receiving units rather than enlarging the new units' Connections lists. Each unit's Synthesis paragraph carries 3-5 named throughline claims. All four units pass the §10 quantitative continuity targets.
+
+**Cycle-4 closure of the Cycle-3 deferral list.**
+
+The Cycle-3 Pass-W report flagged ~42 silent-dependency units in the symplectic chapter as candidates for a chapter-internal propagation pass. This cycle's Edit 3 (integrable-system → 02.12.12) and Edit 4 (KAM → 02.12.12) close the two highest-priority items on that list. The remaining ~40 units (Hamilton's principle, Legendre transform, moment map, symplectic reduction, action-angle, generating functions, Hamilton-Jacobi, adiabatic invariants, Birkhoff normal form, Euler-Arnold, Nekhoroshev, Williamson normal form, Arnold conjecture, Floer homology, Conley-Zehnder index, pseudoholomorphic curve, non-squeezing, capacity, contact, Reeb flow) inherit the 02.12.12 anchor transitively through 05.02.03 and 05.09.01, but their direct Connections-section pointers remain a candidate task for a future chapter-internal Pass-W cycle.
+
+### Validation
+
+All ten edited units re-validated against `scripts/validate_unit.py` after the edits. Every unit passes 27/27 checks. The four new shipped units (02.12.10, 02.12.12, 05.00.08, 06.09.08) re-validate at 27/27 — no edits were made to the new units themselves, but the validator was rerun as a regression check after the receiving-unit edits. No structural regressions introduced.
+
+## 2026-05-18 cycle (Cycle 5 — Wave-7 + fresh-audit harvest batch)
+
+Pass W on the four production units shipped in the Cycle-5 batch:
+
+- `content/03-modern-geometry/07-gauge-theory/03.07.07-bpst-instanton-and-the-bogomolny-bound.md` (7,210 words)
+- `content/03-modern-geometry/08-k-theory/03.08.02-adams-operations-psi-k.md` (~14,000 words)
+- `content/03-modern-geometry/08-k-theory/03.08.03-thom-isomorphism-in-k-theory.md` (8,053 words)
+- `content/02-analysis/12-ode/02.12.13-inhomogeneous-linear-ode-variation-of-constants.md` (~9,850 words)
+
+### Files edited
+
+Six files. The four new units themselves required no edits — each shipped with substantive forward and backward Connections-section pointers already in place. The six edits are reciprocal-pointer additions in receiving units that previously lacked a Connections-section reference to one of the new units.
+
+1. `content/03-modern-geometry/07-gauge-theory/03.07.05-yang-mills-action.md` — added Connections bullet to 03.07.07 (BPST and the Bogomolny bound).
+2. `content/03-modern-geometry/08-k-theory/03.08.07-bott-periodicity.md` — added two Connections bullets: one to 03.08.02 (Adams operations) and one to 03.08.03 (K-theoretic Thom isomorphism).
+3. `content/03-modern-geometry/04-differential-forms/03.04.09-thom-global-angular-form.md` — added Connections bullet to 03.08.03 (K-theoretic Thom isomorphism) with the Chern-character / Todd-class comparison made explicit.
+4. `content/03-modern-geometry/06-characteristic-classes/03.06.04-pontryagin-chern-classes.md` — added Connections bullet to 03.08.03 establishing the $\mathrm{ch}(\lambda_E) = e(E) \cdot \mathrm{Td}(E)^{-1}$ bridge.
+5. `content/03-modern-geometry/09-spin-geometry/03.09.10-atiyah-singer-index-theorem.md` — added Connections bullet to 03.07.07 with the moduli-dimension formula $\dim \mathcal{M}_k = 8|k| - 3$ on $S^4$.
+6. `content/02-analysis/12-ode/02.12.12-first-integrals-conserved-quantities.md` — added Connections bullet to 02.12.13 (variation of constants) recording the Wronskian-as-first-integral picture and Liouville's determinant formula.
+
+### Per-edit rationale
+
+**Edit 1: 03.07.05-yang-mills-action → 03.07.07.** Cross-cycle stitch (Cycle-1 unit → Cycle-5 unit) flagged as load-bearing in the brief. The forward direction was already explicit in the new unit's Connections section, where 03.07.07's first Master Connections bullet records that 03.07.05's Synthesis paragraph announced the Bogomolny bound and that 03.07.07 upgrades the announcement to a complete proof. The reverse direction was missing: 03.07.05's Master Synthesis already states "$\mathrm{YM}(A) \geq 8\pi^2|c_2(E)|$ with equality precisely on (anti-)self-dual connections" but its Connections section had no dedicated 03.07.07 bullet, leaving the proof-and-explicit-minimiser content uncited. Anchor phrase used: "the Bogomolny bound bridges the action functional with the first-order ASD equation cutting out its minimisers". The new bullet records (a) that 03.07.05's announcement is upgraded to a proof in 03.07.07 via the algebraic identity $|F|^2 = |F^+|^2 + |F^-|^2$; (b) that the explicit BPST minimiser realises the bound at $k = 1$; and (c) that the AHDM moduli-dimension formula $\dim \mathcal{M}_k = 8|k| - 3$ on $S^4$ comes from Atiyah-Singer applied to the ASD deformation complex. Connection type per CONTINUITY_SCAFFOLD §3: bridging-theorem (#9).
+
+**Edit 2: 03.08.07-bott-periodicity → 03.08.02 + 03.08.03.** Two bullets added in a single edit. The brief flagged both as load-bearing. For Adams operations: the new unit 03.08.02 establishes the eigenvalue behaviour $\psi^k(\beta) = k\beta$ on the Bott element and its $n$-fold scaling $k^n$ on $\widetilde K(S^{2n})$ as the foundational reduction mechanism used in the Hopf-invariant-one proof; the Bott unit had no reciprocal pointer. Anchor phrase used: "the Bott element is an eigenvector of every $\psi^k$". The bullet records the Frobenius-like behaviour, the splitting-principle uniqueness characterisation, and the rank-one case where Adams operations agree with tensor power on line bundles. Connection type: bridging-theorem — Adams-Bott interaction is what makes K-theoretic sphere computations reduce to integer arithmetic. For K-theoretic Thom: the rank-one Thom isomorphism for the product line bundle $\mathbb{C} \to \mathrm{pt}$ has Thom space $S^2$ and Thom class $\beta = [H] - 1$ — exactly the Bott generator. Anchor phrase used: "rank-one Thom and degree-two Bott are the same theorem stated from two angles" (registered taxonomy: equivalence #7). The bullet records the smash-product multiplicativity that lifts the rank-one case to arbitrary rank.
+
+**Edit 3: 03.04.09-thom-global-angular-form → 03.08.03.** Cross-chapter stitch flagged as load-bearing. The de Rham Thom unit already had a brief mention of "the Thom isomorphism in K-theory" inside its Atiyah-Singer bullet, but did not point directly to the dedicated K-theoretic Thom unit. Anchor phrase used: "the same orientation theorem in two cohomology theories, with the Chern character as the rational identification". The new bullet records the load-bearing comparison $\mathrm{ch}(\lambda_E) = U(E) \cdot \mathrm{Td}(E)^{-1}$, identifies the Todd correction as the algebraic content of the discrepancy between K-theory's exterior-power packaging and cohomology's closed-form packaging, and connects this to the appearance of the $\widehat A$-genus in the Dirac index formula. Connection type: equivalence (#7) — both isomorphisms express orientability of the bundle in their respective cohomology theory, with the Chern character as the dictionary.
+
+**Edit 4: 03.06.04-pontryagin-chern-classes → 03.08.03.** Cross-chapter stitch flagged as load-bearing. The new unit 03.08.03 establishes the Chern character of the K-theoretic Thom class as $\mathrm{ch}(\lambda_E) = e(E) \cdot \mathrm{Td}(E)^{-1}$, expressed entirely in characteristic classes of the present unit (Chern classes via the Chern roots, the Todd class as a polynomial in $c_1, \ldots, c_n$). The 03.06.04 unit had no reciprocal pointer to the K-theoretic Thom result. Anchor phrase used: "the Chern character bridges the K-theoretic Thom class to a Chern-Todd polynomial". The new bullet records the Todd correction as a polynomial in $c_1, \ldots, c_n$ via the Chern roots, and identifies this as the load-bearing example of "characteristic classes computed as symmetric functions of Chern roots" via the splitting principle of [03.13.03]. Connection type: bridging-theorem (#9).
+
+**Edit 5: 03.09.10-atiyah-singer-index-theorem → 03.07.07.** Cross-chapter stitch flagged as load-bearing in the brief. Atiyah-Singer's existing Connections section pointed to 03.07.05 (Yang-Mills) for "instanton moduli-space dimensions" but did not point directly to the dedicated BPST/Bogomolny unit where the dimension formula is made explicit. Anchor phrase used: "the same integer $k = c_2(P)$ governs both the energy floor and the moduli-space dimension". The new bullet records the moduli-dimension formula $\dim \mathcal{M}_k = 8|k| - 3(1 - b^1 + b^+)$ with the $S^4$ specialisation to $8|k| - 3$, the five-parameter BPST family at $k = 1$, and the identification of $c_2$ with the chiral Dirac index. Connection type: bridging-theorem (#9) — Atiyah-Singer is the structural theorem that makes the BPST moduli a smooth manifold of computable dimension.
+
+**Edit 6: 02.12.12-first-integrals → 02.12.13.** Cross-chapter stitch flagged as load-bearing. The new unit 02.12.13's Bridge paragraph and Connections section already cite 02.12.12 explicitly, identifying the Wronskian $W(t) = \det \Phi(t)$ as a first integral of the homogeneous matrix flow $\dot \Phi = A(t) \Phi$ when $\mathrm{tr}\, A \equiv 0$. The reverse direction was missing: 02.12.12 made no mention of the linear-ODE setting or the Wronskian as a named first integral. Anchor phrase used: "the Wronskian is a named first integral of the matrix flow associated to a linear vector field". The new bullet records Liouville's determinant formula $W(t) = W(t_0)\exp(\int_{t_0}^t \mathrm{tr}\, A(s)\, ds)$, identifies the trace as the divergence of the linear vector field (the manifold-level Liouville volume formula), and notes that symplectic volume preservation on a Hamiltonian flow is the special case where the divergence vanishes identically. Connection type: specialisation / instance (#2) — the Wronskian-as-first-integral is the linear-ODE specialisation of the abstract first-integral framework.
+
+### Seams found but not edited
+
+- **03.08.02 (Adams) ↔ 03.13.04 (Atiyah-Hirzebruch spectral sequence).** Not edited because 03.13.04 is not yet shipped. Verified that 03.13.04 does not exist as a file in `content/03-modern-geometry/13-spectral-sequences/` (the chapter currently contains 03.13.01-03.13.03 and an exercise file). The new unit 03.08.02's references to AHSS are forward-pointing and use the standard "appears again in" language that does not require a registered anchor until the receiving unit is produced. When 03.13.04 is shipped, a future Pass-W cycle should add the Adams-operation eigenspace decomposition as a load-bearing input to AHSS differentials. Flagged for next-cycle pickup.
+
+- **03.08.02 (Adams) ↔ 03.08.01 (topological K-theory).** Already in place. 03.08.01 is a prerequisite of 03.08.02, and the new unit's Connections section opens with a substantive bullet recording the upgrade from bare K-group to $\lambda$-ring structure. The reverse direction is not load-bearing: 03.08.01 is the foundational unit and lists Adams operations among the natural ring-theoretic refinements in its forward-promise paragraph at production time. No edit needed.
+
+- **03.08.03 (K-theory Thom) ↔ 03.08.01 (topological K-theory).** Already in place. 03.08.01 is a prerequisite, and the new unit references it appropriately. The reverse direction is not load-bearing — 03.08.01 is the foundation and Thom isomorphism is one of several forward applications it lists. No edit needed.
+
+- **03.08.03 (K-theory Thom) ↔ 03.05.08 (complex vector bundle).** Already in place. 03.05.08 is a prerequisite and the K-theory Thom unit's Connections bullet on complex vector bundles makes the structural requirement of a complex structure explicit. Reverse direction not load-bearing. No edit needed.
+
+- **03.07.07 (BPST) ↔ 03.06.04 (Pontryagin-Chern).** Already in place. 03.07.07 lists 03.06.04 as a prerequisite and the Connections bullet on Pontryagin-Chern explicitly cites the integrality of $c_2$ as the quantisation of the Bogomolny floor. The reverse direction is not load-bearing — 03.06.04 already enumerates many specific applications without naming individual instanton units. No edit needed.
+
+- **02.12.13 (variation of constants) ↔ 02.12.02 (phase flow).** Already in place. 02.12.13 lists 02.12.02 as a prerequisite and the Connections section bullet on phase flow explicitly identifies the fundamental matrix as the matrix of the phase flow of the homogeneous linear vector field. The reverse direction is not load-bearing — 02.12.02 is the abstract framework unit and lists linear systems among its specific instances without naming the variation-of-constants unit. No edit needed.
+
+- **02.12.13 (variation of constants) ↔ 02.12.01 (phase space).** Already in place. Same logic as 02.12.02. No edit needed.
+
+- **03.08.02 (Adams) ↔ 03.06.04 (Pontryagin-Chern).** Already in place. The new unit's Connections bullet on Pontryagin-Chern records the Chern-character compatibility $\mathrm{ch}_n(\psi^k(x)) = k^n \mathrm{ch}_n(x)$ explicitly. Reverse direction not load-bearing — 03.06.04 already routes to K-theory through Bott periodicity, which is the structural entry point, and the Chern-character bullet does not need a per-Adams-operation specialisation. No edit needed.
+
+### Quality observations
+
+**Calibre of the four new units.**
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (target prose calibre — Lawson-Michelsohn / Hörmander / Arnold tier), all four units hit or exceed the target.
+
+- **03.07.07 (BPST and the Bogomolny bound).** Excellent. Master tier carries the full algebraic Bogomolny identity proof; the BPST anti-self-duality verification via 't Hooft tensors; the explicit $|F|^2(x) = 96\lambda^4/(|x|^2+\lambda^2)^4$ action computation; the topological-charge calculation $c_2 = 1$; the five-parameter framed moduli-dimension proof via the elliptic deformation complex and Atiyah-Singer; the 't Hooft 1976 and Jackiw-Rebbi 1976 multi-instanton families; the AHDM 1978 ADHM construction with the moment-map equations stated explicitly; Uhlenbeck's removable-singularity and conformal-compactification theorems. Eight exercises with rubric-graded full proofs, including the integer-character of $c_2 \in H^4(BSU(2); \mathbb{Z})$, the strict-inequality argument for non-(anti-)self-dual connections, and the five-parameter family identification. Historical context traces BPST 1975 → 't Hooft 1976 → Jackiw-Rebbi 1976 → Prasad-Sommerfield 1975 → Atiyah-Hitchin-Drinfeld-Manin 1978 → Atiyah Pisa 1979 → Uhlenbeck 1982 → Donaldson 1983 → Donaldson-Kronheimer 1990. The Synthesis explicitly identifies the $*^2 = +1$ Hodge-star coincidence as the four-dimensional structural reason instantons exist where they do. No drift.
+
+- **03.08.02 (Adams operations $\psi^k$).** Excellent. Master tier carries the full splitting-principle proof of ring-homomorphism property; composition law $\psi^k \circ \psi^l = \psi^{kl}$ via reduction to line bundles; axiomatic uniqueness; Chern-character compatibility $\mathrm{ch}_n(\psi^k(x)) = k^n \mathrm{ch}_n(x)$ with a clean line-bundle-based proof; eigenspace decomposition of $K(X) \otimes \mathbb{Q}$ by Chern-character grading; Hopf-invariant-one statement with a 2-adic-divisibility proof sketch via $\psi^2$ and $\psi^3$ on the mapping cone; $\lambda$-ring (Atiyah-Tall) framing; $\gamma$-filtration and its Adams-eigenvalue diagonalisation. Eight exercises including the closed-form computation $\psi^k(t) = (1+t)^k - 1$ on $\mathbb{CP}^n$, the $\psi^2 \circ \psi^3 = \psi^6$ verification, the Newton-polynomial substitution on a sum of line bundles, and the Hopf-invariant-one sketch. Historical context traces Grothendieck 1957-58 → Adams 1962 *Vector fields on spheres* → Atiyah 1966 *Power operations* → Adams-Atiyah 1966 *K-theory and Hopf invariant* → Atiyah-Tall 1969 → Karoubi 1978. The Synthesis identifies $\psi^k$ on rational K-theory with graded scaling by $k^n$ via the Chern character — the Frobenius-like mechanism behind every $\psi^k$-eigenvalue argument. No drift.
+
+- **03.08.03 (Thom isomorphism in K-theory).** Excellent. Master tier carries the full induction-on-rank proof via rank-one Bott-periodicity base case plus direct-sum multiplicativity inductive step; the Koszul-complex construction of the Thom class as the Euler characteristic of $\Lambda^\bullet E^*$ with the wedge-with-$v$ differential; multiplicativity $\lambda_{E \oplus F} = \lambda_E \cdot \lambda_F$ via tensor product of Koszul complexes; naturality under pullback; Chern-character comparison $\mathrm{ch}(\lambda_E) = U(E) \cdot \mathrm{Td}(E)^{-1}$ with full line-bundle proof; the Atiyah-Hirzebruch spectral sequence framing; the role of the K-theoretic Thom isomorphism in the topological-index map of Atiyah-Singer; the real $KO$-theory analogue via Atiyah-Bott-Shapiro Clifford modules. Eight exercises including the rank-zero virtual rank computation, the rank-one Bott-identification, the Chern-character computation on a line bundle, the direct-sum verification on $L_1 \oplus L_2$, and the Todd-genus expansion. Historical context traces Thom 1952 → Atiyah-Bott 1967 (equivariant) → Atiyah 1968 *Bott periodicity and the index of elliptic operators* → Atiyah-Bott-Shapiro 1964 (Clifford modules) → Karoubi 1978 → Lawson-Michelsohn 1989. The Synthesis identifies the K-theoretic Thom isomorphism with the structural fact that complex bundles are K-oriented, with the Todd correction as the algebraic content of the comparison with the cohomological Thom class. No drift.
+
+- **02.12.13 (variation of constants).** Excellent. Master tier carries the full variation-of-constants proof via the ansatz $x = \Phi c$ plus integration of $\dot c = \Phi^{-1} b$; Liouville's determinant formula via Jacobi's formula and the trace-conjugation identity; Duhamel's constant-coefficient specialisation; the linear Picard-Lindelöf existence-uniqueness theorem with global existence on the full interval; Floquet's theorem for periodic coefficients with the monodromy decomposition; the evolution-family axioms $U(t,s) U(s,r) = U(t,r)$; the Duhamel principle for inhomogeneous linear PDEs via $C^0$-semigroups; exponential dichotomy theory (Sacker-Sell, Coppel) for non-autonomous systems; the geometric Liouville formula on a smooth manifold with the divergence interpretation; and the impulse-response / Green's-function representation. Eight exercises with full proofs including a scalar Duhamel computation with transient/steady-state decomposition, the rotation-matrix Liouville check, the companion-matrix proof of Abel's identity, and the Banach-space generalisation with the Fredholm-determinant remark. Historical context traces Lagrange 1808-1815 → Cauchy 1820s → Duhamel 1833 → Liouville 1838 → Floquet 1883 → Picard 1893 → Coddington-Levinson 1955 → Arnold 1973 → Hartman 2002 → Sacker-Sell 1976. The Synthesis identifies variation of constants, evolution families, Duhamel convolution, Green's functions, and the geometric Liouville volume formula as five presentations of the single fact that the inhomogeneous problem inverts $\partial_t - A(t)$ via convolution with the homogeneous propagator. No drift.
+
+**Drift flags.**
+
+- **03.07.07 (BPST).** No drift. The cross-references to 03.07.05 (Yang-Mills action), 03.05.09 (curvature), 03.06.04 (Chern classes), 03.06.06 (Chern-Weil), and 03.09.10 (Atiyah-Singer) all use the registered framings and standard anchor language. The Bridge paragraph correctly identifies the AHDM moduli-dimension formula with Atiyah-Singer applied to the ASD deformation complex.
+
+- **03.08.02 (Adams).** No drift. The cross-references to 03.08.01 (topological K-theory), 03.06.04 (Chern-character compatibility), 03.08.07 (Bott periodicity), and 03.09.10 (Atiyah-Singer / Adams-Riemann-Roch) all hit the registered framings. The Hopf-invariant-one application is presented with the correct credit attribution (Adams 1960 via secondary cohomology operations; Adams-Atiyah 1966 via Adams operations) and the K-theoretic proof sketch is mathematically clean.
+
+- **03.08.03 (K-theory Thom).** No drift. The cross-references to 03.04.09 (de Rham Thom), 03.08.07 (Bott periodicity), 03.08.02 (Adams operations sibling), 03.05.08 (complex bundle), and 03.09.10 (Atiyah-Singer) all hit the registered framings. The Chern-character comparison theorem statement and the explicit line-bundle proof of $\mathrm{ch}(\lambda_L) = 1 - e^{-x}$ matching $x \cdot (1 - e^{-x})/x$ are mathematically precise.
+
+- **02.12.13 (variation of constants).** No drift. The cross-references to 02.12.01 (phase space), 02.12.02 (phase flow), 02.12.12 (first integrals via Wronskian), and 02.05.04 (implicit function theorem / Banach fixed-point) all hit the registered framings. The historical lineage Lagrange → Cauchy → Duhamel → Liouville → Picard is consistent with the Codex's broader 19th-century-ODE historical schema.
+
+**Anchor-phrase reuse and continuity metrics.**
+
+All four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is the recognition", "the foundational engine", "this is exactly the same algebraic pattern". Forward-promise density and backward-reference density meet the §10.2 thresholds. Each Master Connections section in the four new units has 5+ substantive bullets at production time; the Pass-W stitching this cycle adds reciprocal-pointer bullets in receiving units rather than enlarging the new units' Connections lists. Each unit's Synthesis paragraph carries 3-5 named throughline claims. All four units pass the §10 quantitative continuity targets.
+
+**Fresh-audit closure.**
+
+The brief flagged that prior Atiyah K-theory audits identified 8+ unanchored citations of Atiyah-Hirzebruch spectral sequence material from contexts requiring Adams operations. With 03.08.02 now shipped, those citations have a target unit, but the AHSS unit (03.13.04) is not yet produced. The current Pass-W cycle therefore closes the upstream side of that chain (Adams operations exist as an anchored unit) but cannot close the downstream side (AHSS reciprocal pointer) until 03.13.04 ships. Flagged for the next-cycle propagation pass. The K-theoretic Thom isomorphism reciprocity with the de Rham Thom isomorphism is now fully bidirectional (Edits 3 and the new unit's Connections section), closing the Chern-character / Todd-class comparison loop. The BPST / Bogomolny reciprocity with Yang-Mills action and Atiyah-Singer is fully bidirectional (Edits 1 and 5), closing the gauge-theory / index-theorem loop on the four-manifold side. The variation-of-constants reciprocity with first integrals is fully bidirectional (Edit 6), closing the linear-ODE / abstract-conserved-quantity loop.
+
+### Validation
+
+All six edited units re-validated against `scripts/validate_unit.py` after the edits. Every unit passes 27/27 checks:
+
+- `03.07.05-yang-mills-action.md` — 27/27 ✓
+- `03.08.07-bott-periodicity.md` — 27/27 ✓
+- `03.04.09-thom-global-angular-form.md` — 27/27 ✓
+- `03.06.04-pontryagin-chern-classes.md` — 27/27 ✓
+- `03.09.10-atiyah-singer-index-theorem.md` — 27/27 ✓
+- `02.12.12-first-integrals-conserved-quantities.md` — 27/27 ✓
+
+The four new shipped units (03.07.07, 03.08.02, 03.08.03, 02.12.13) were not edited this cycle but were each re-validated as a regression check; all pass 27/27. No structural regressions introduced.
+
+## 2026-05-18 cycle (Cycle 6 — K-theory + gauge-theory closure batch)
+
+Pass-W run on the four production units shipped this cycle:
+
+1. `content/03-modern-geometry/07-gauge-theory/03.07.09-moduli-space-of-asd-connections-mathcal-m-k-s-4.md` (8,611 words) — moduli space $\mathcal{M}_k(S^4)$ of ASD connections with the AHS dimension formula $8k - 3$
+2. `content/03-modern-geometry/07-gauge-theory/03.07.10-adhm-construction-atiyah-drinfeld-hitchin-manin.md` (8,290 words) — ADHM bijection between matrix data and instantons
+3. `content/03-modern-geometry/13-spectral-sequences/03.13.04-atiyah-hirzebruch-spectral-sequence.md` (8,624 words) — AHSS for generalised cohomology and K-theory
+4. `content/02-analysis/12-ode/02.12.14-limit-cycle-and-lienard-van-der-pol-systems.md` (~13,200 words) — Liénard theorem and Van der Pol relaxation oscillator
+
+The four shipped units already carry forward-direction stitches to their prerequisites (BPST, Yang-Mills, AS index, Poincaré-Bendixson, Lyapunov, Bott periodicity, Adams, K-theoretic Thom). This cycle adds the reciprocal stitches in the receiving units — closing the deferred AHSS reciprocals from Cycle 5 Pass W and adding the moduli ↔ AS index reciprocity that was previously only one-directional through BPST.
+
+### Edits by file
+
+**Edit 1: `03.08.02-adams-operations-psi-k.md` — added AHSS reciprocal bullet.**
+
+Closes the Cycle 5 deferral "Adams ↔ AHSS reciprocal deferred to a future cycle". Inserted a new Connections-section bullet pointing to [03.13.04] (Atiyah-Hirzebruch spectral sequence). Rationale: Adams operations $\psi^k$ act on the AHSS via the Chern-character compatibility ($k^n$-scaling on the rationalised $E_2$ row indexed by cohomological degree $2n$), and the AHSS is the canonical organising frame for the $\psi^k$-eigenspace decomposition. The bullet records the structural identification of the $\gamma$-filtration with the skeletal filtration rationally, and the $d_3 = \mathrm{Sq}^3$ Steenrod-cube obstruction as the lowest-degree integer-coefficient correction. Forward direction (03.13.04 → 03.08.02 in Connections, line 577 of the shipped AHSS unit) was already in place from the new unit's production.
+
+**Edit 2: `03.08.03-thom-isomorphism-in-k-theory.md` — added AHSS reciprocal bullet.**
+
+Closes the Cycle 5 deferral on the K-theory Thom ↔ AHSS pairing. The shipped AHSS unit's Connections list (line 579) already pointed to [03.08.03] and described the Thom-class compatibility through the AHSS edge map; this cycle adds the reciprocal pointer in the K-theory Thom unit. The new Connections bullet records the AHSS-on-Thom-space convergence and the explicit Chern-character / Todd correction $\mathrm{ch}(\lambda_E) = U(E) \cdot \mathrm{Td}(E)^{-1}$ as the rational-collapse statement, plus the $d_3 = \mathrm{Sq}^3 w_2$ obstruction to a real bundle's K-theoretic orientation lift — the cohomological-operation source of the integer-coefficient Todd correction.
+
+**Edit 3: `03.08.07-bott-periodicity.md` — added AHSS reciprocal bullet.**
+
+The shipped AHSS unit's Connections list (line 581) already pointed to [03.08.07] and described Bott periodicity as the input to the AHSS coefficient ring. The Bott unit's Connections list previously had no explicit AHSS bullet; the Bridge paragraph (line 508) mentioned the AHSS in passing as a consumer of Bott periodicity but did not carry a substantive Connections entry. This edit adds a bullet recording the role of $K^*(\mathrm{pt}) = \mathbb{Z}[\beta, \beta^{-1}]$ as the row-coefficient input to the AHSS $E_2$ page, the two-periodicity transfer from Bott to the spectral sequence, and the foundational-input characterisation of the connection type.
+
+**Edit 4: `03.07.07-bpst-instanton-and-the-bogomolny-bound.md` — added moduli space and ADHM reciprocal bullets.**
+
+The BPST unit was the direct prereq for both 03.07.09 (moduli) and 03.07.10 (ADHM). Both shipped units already pointed to [03.07.07] in their Connections lists (line 593 of 03.07.09 and line 565 of 03.07.10). The Synthesis paragraph of the BPST unit (line 513-517) and the Historical context (line 623) already mentioned moduli space and ADHM in passing as part of the broader picture, but the Connections list had no explicit bullets for either successor. This edit adds two reciprocal bullets: one identifying the BPST five-parameter family with $\mathcal{M}_1(S^4)$ as a smooth manifold (with the dimension formula $8k - 3$ generalising the five-parameter count), and one identifying the BPST one-instanton as the elementary $k = 1$ case of the ADHM construction with explicit datum $(z_1, z_2, (\lambda, 0), 0)$.
+
+**Edit 5: `03.09.10-atiyah-singer-index-theorem.md` — added moduli, ADHM, and AHSS reciprocal bullets.**
+
+The AS index theorem unit previously carried a substantive BPST bullet (line 587) but no explicit bullets for the moduli space (03.07.09) or the ADHM construction (03.07.10) or the AHSS (03.13.04). Three new bullets added:
+
+- 03.07.09: records the Atiyah-Hitchin-Singer 1978 dimension formula $\dim \mathcal{M}_k(M) = 8k - 3(1 + b^+(M))$ as the negative Atiyah-Singer index of the elliptic deformation complex $\Omega^0 \to \Omega^1 \to \Omega^2_+$ twisted by $\operatorname{ad} P$. Identifies the index theorem as the bridging-theorem that promotes "moduli space" from a quotient set to a smooth manifold of computable dimension.
+
+- 03.07.10: records the agreement between the finite-dimensional ADHM count ($\dim_\mathbb{R}(\mathcal{S}_k^*/\mathrm{U}(k)) = 8k - 3$) and the analytic-index count, with the explicit arithmetic of data minus equations minus quotient minus framing. The ADHM bijection identifies the algebraic-geometric dimension with the analytic-index dimension by construction.
+
+- 03.13.04: records the topological-index map of the index theorem factoring through the AHSS in K-theory (symbol class $\to$ K-theoretic Thom push-forward $\to$ AHSS descent to $\mathbb{Z}$), with the Chern character and Todd correction supplying the cohomological side. Every concrete index calculation (Hirzebruch signature, $\hat A$-genus, Riemann-Roch) uses this passage.
+
+**Edit 6: `02.12.10-poincare-bendixson-theorem.md` — added Liénard reciprocal bullet.**
+
+The Poincaré-Bendixson unit was the direct prereq of 02.12.14, and the shipped Liénard unit's Connections list (line 625) already pointed to [02.12.10] with substantive prose. The PB unit's existing Connections list (line 539-549) had no explicit successor bullet for 02.12.14, although the Synthesis paragraph (line 483) and the Master tier Liénard theorem statement (line 443-455) already referenced Liénard's theorem as a downstream application. This edit adds a reciprocal Connections bullet identifying the Liénard theorem as the cleanest physically motivated application of Poincaré-Bendixson, with the Liénard energy supplying the trapping annulus and the Poincaré-Bendixson conclusion plus strict monotonicity of $F$ promoting existence to uniqueness.
+
+**Edit 7: `02.12.08-lyapunov-stability-direct-method.md` — added Hopf-bifurcation Liénard reciprocal bullet.**
+
+The Lyapunov unit was a direct prereq of 02.12.14, and the shipped Liénard unit's Connections list (line 627) already pointed to [02.12.08] identifying the Liénard energy as a Lyapunov function in the generalised sense. The Lyapunov unit's existing Connections list (line 477-485) had no successor bullet for 02.12.14. This edit adds a reciprocal bullet identifying the Hopf bifurcation criterion as a direct application of Lyapunov's linearization theorem at the bifurcation point: below the bifurcation, Lyapunov certifies stability; at the bifurcation, the linearization theorem is silent; above, a limit cycle emerges. The Van der Pol equation is identified as the canonical supercritical Hopf bifurcation, with the Liénard energy as the limit-cycle analogue of a Lyapunov function.
+
+### Seams not edited with reason
+
+- **03.07.05 (Yang-Mills action) ↔ 03.07.09 (moduli) / 03.07.10 (ADHM).** Both shipped units list 03.07.05 in their Connections lists (line 595 of 03.07.09 and line 575 of 03.07.10) with the standard "moduli space is a level set of the Yang-Mills functional" framing. The Yang-Mills unit's Connections list already routes downstream through 03.07.07 (BPST) to the gauge-theory moduli program; an additional 03.07.09 / 03.07.10 bullet in 03.07.05 would be a duplication of the 03.07.07 routing, with no new structural content. No edit needed.
+
+- **03.06.04 (Pontryagin-Chern) / 03.06.06 (Chern-Weil) ↔ 03.07.09 / 03.07.10.** Both shipped units route through these characteristic-class units (the integer $k = c_2(P)$ being the central topological invariant). The characteristic-class units' Connections lists already route to the gauge-theory program through 03.07.07 (BPST), and the load-bearing connection is the integrality of $c_2$, which is the topological prerequisite both units inherit. Adding moduli- or ADHM-specific bullets to 03.06.04 / 03.06.06 would be over-specialisation. No edit needed.
+
+- **03.05.07 (principal-bundle connection) / 03.05.09 (curvature) ↔ 03.07.09.** The moduli unit lists both as prerequisites and has bullets in its Connections list naming them. The reverse direction is not load-bearing — these are foundational units that route to many downstream applications, and singling out the moduli space among them would be over-specialisation. No edit needed.
+
+- **03.13.01 (spectral sequences) / 03.13.02 (Leray-Serre) / 03.12.04 (spectrum) / 03.12.13 (cellular homology) ↔ 03.13.04 (AHSS).** All four are prerequisites of 03.13.04 and appear in its Connections list. Routing the AHSS reciprocity back into each prerequisite would duplicate the prerequisite-pointer structure already encoded in the AHSS unit's frontmatter. The Leray-Serre $\leftrightarrow$ AHSS analogy is recorded in the AHSS unit's Connections list (line 583) and in its Synthesis paragraph (line 518); no additional reciprocal edit needed.
+
+- **03.08.01 (topological K-theory) ↔ 03.13.04.** 03.13.04 lists 03.08.01 as prereq and the AHSS Connections list (line 575) carries a substantive K-theory bullet. The K-theory unit's Connections list already mentions the AHSS in its forward-promises section, and adding an explicit bullet would duplicate the relationship that the K-theory unit already routes through Bott periodicity (the foundational structural fact) plus Adams operations (the ring structure). No edit needed.
+
+- **02.12.01 (phase space) / 02.12.02 (phase flow) / 02.12.05 (rectification) / 02.12.13 (variation of constants) ↔ 02.12.14.** The Liénard unit lists all four as prerequisites and carries bullets in its Connections list. The reverse direction is not load-bearing — these are foundational ODE infrastructure units that route to many downstream applications, and singling out the Liénard limit-cycle theorem among them would be over-specialisation. No edit needed.
+
+### Quality observations on the 4 new units
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (target prose calibre — Lawson-Michelsohn / Hörmander / Arnold tier), all four units hit or exceed the target.
+
+- **03.07.09 (moduli space $\mathcal{M}_k(S^4)$).** Excellent. Master tier carries the full Atiyah-Hitchin-Singer 1978 deformation-complex proof of the dimension formula $\dim \mathcal{M}_k(M) = 8k - 3(1 + b^+(M))$, with explicit ellipticity verification, K-theoretic index computation, and Weitzenböck-positivity vanishing of $H^2$ on $S^4$; Uhlenbeck's compactness theorem and removable-singularities theorem with statements and bubbling stratification; Donaldson's 1983 polynomial-invariant construction; the ADHM parametrisation theorem with the moment-map equations. Eight exercises ranging from the $8k - 3$ dimension count at specific $k$ to the orientability of $\mathcal{M}_k(S^4)$ via the determinant line bundle. Historical context traces AHS 1978 → AHDM 1978 → Uhlenbeck 1982 → Donaldson 1983 → Donaldson-Kronheimer 1990 → Freed-Uhlenbeck 1991 → Seiberg-Witten 1994. The Synthesis explicitly identifies the moduli-space dimension as a Fredholm index governed by Atiyah-Singer. No drift.
+
+- **03.07.10 (ADHM construction).** Excellent. Master tier carries the full ADHM bijection theorem with the three-step proof (recipe, anti-self-duality via scalar commutativity of $\Delta^\dagger \Delta$, extension to $S^4$ via Uhlenbeck removable singularities); the monad reformulation on $\mathbb{CP}^3$ via Penrose-Ward and Beilinson resolution; the hyperKähler-quotient construction with the explicit identification of the two ADHM equations as moment maps; the dimension count $\dim \mathcal{S}_k^* / \mathrm{U}(k) = 8k - 3$ via Atiyah-Singer agreement; the Uhlenbeck compactification on the ADHM side via unstable strata; the Nekrasov instanton partition function as a downstream application. Eight exercises including explicit computation of $\Delta(x)$ for the $k = 1$ datum, the $\mathrm{U}(k)$-equivariance of both ADHM equations, the Penrose-Ward inverse map sketch via Beilinson monads. Historical context traces Atiyah-Ward 1977 → AHDM 1978 → Atiyah Pisa 1979 → Donaldson 1984 → Hitchin-Karlhede-Lindström-Roček 1987 → Nakajima 1999 → Nekrasov 2003. The Synthesis identifies the ADHM construction as the algebraic-geometric mechanism that turns infinite-dimensional gauge theory into finite-dimensional linear algebra via the twistor correspondence. No drift.
+
+- **03.13.04 (Atiyah-Hirzebruch spectral sequence).** Excellent. Master tier carries the full construction of the AHSS via exact couples on the skeletal filtration; the K-theory specialisation with Bott-periodic coefficients; the rational-collapse theorem via Chern character; the Steenrod-cube differential $d_3 = \mathrm{Sq}^3$ identification (Atiyah 1961); the higher-differentials structure (Massey-product secondary operations); the collapse criteria for K-theory of finite CW complexes (parity, dimension, rational, complex); the KO-theory eight-periodic version with $d_2 = \mathrm{Sq}^2 \cdot \eta$; the Atiyah-Segal completion theorem as a sample application. Eight exercises including $K^*(\mathbb{CP}^n)$, $K^*(S^{2n+1})$, the $\mathrm{Sq}^3$ computation on $\mathbb{RP}^4$, the rational-collapse proof via Chern character, and the construction of a CW complex with non-zero integral $d_3$. Historical context traces Eilenberg-Steenrod 1952 → Atiyah-Hirzebruch 1961 → Atiyah 1961 (IHÉS on Steenrod-cube identification) → Massey 1952 (exact couples) → Adams 1974 (generalisation) → Karoubi 1978 (Chern-character isomorphism). The Synthesis identifies the AHSS as the universal computational template for generalised cohomology, with the construction working unchanged for K-theory, cobordism, elliptic cohomology, and Morava K-theories. No drift.
+
+- **02.12.14 (Liénard / Van der Pol).** Excellent. Master tier carries the full Liénard 1928 existence-and-uniqueness theorem for the limit cycle with the three-part proof (existence via Poincaré-Bendixson on the energy-trapping annulus; uniqueness via the energy-balance integral with the symmetry-driven nesting argument; asymptotic stability via inward flow on the trapping boundary). The Van der Pol special case with its small-$\mu$ Hopf-bifurcation amplitude $\approx 2 + O(\mu)$ via averaging; the large-$\mu$ relaxation-oscillation regime with the Grasman period asymptotic $T(\mu) \sim (3 - 2\ln 2)\mu$ via singular-perturbation Fenichel slow-manifold analysis. Treatment includes the supercritical Hopf bifurcation criterion at $\mu = 0$, the generalised Liénard theorems (Filippov, Cherkas) for asymmetric variants, structural stability via Andronov-Pontryagin. Eight exercises ranging from the explicit $F(x) = \mu(x^3/3 - x)$ computation through the linearization-eigenvalue analysis of the origin to the Bendixson criterion for non-existence on a sub-region. Historical context traces Poincaré 1881-1886 → Bendixson 1901 → Van der Pol 1926 → Liénard 1928 → Andronov 1929 → Andronov-Vitt-Khaikin 1937 → Hopf 1942 → Andronov-Pontryagin 1937 → Hartman 1964/2002 → Fenichel 1979 → Guckenheimer-Holmes 1983 → Grasman 1987 → Hirsch-Smale-Devaney 2013. The Synthesis identifies the limit cycle as three faces of the same object — topologically isolated closed orbit (Liénard), perturbative bifurcation product (Hopf), and singular-perturbation slow manifold (large-$\mu$ Van der Pol relaxation). The unit is the longest of the four (~13,200 words), reflecting the broad cross-disciplinary reach of the topic from radio engineering to neuronal modelling. No drift.
+
+**Drift flags.**
+
+- **03.07.09 (moduli).** No drift. Cross-references to 03.07.07 (BPST as the $k = 1$ point), 03.07.05 (Yang-Mills functional), 03.05.07 (principal-bundle connection), 03.05.09 (curvature), 03.06.04 (Chern classes), 03.06.06 (Chern-Weil), 03.09.10 (Atiyah-Singer), and 03.08.04 (classifying space) all use the registered framings. The Bridge paragraph correctly identifies the moduli-space dimension with the negative Atiyah-Singer index of the deformation complex.
+
+- **03.07.10 (ADHM).** No drift. Cross-references to 03.07.07 (BPST as elementary $k = 1$ case), 03.07.05 (Yang-Mills functional), 03.05.07 (principal-bundle connection), 03.05.08 (complex vector bundle), 03.05.09 (curvature), 03.06.04 (Chern classes), 03.06.06 (Chern-Weil), and the in-cycle sibling 03.07.09 (the two perspectives on the same moduli space) all hit the registered framings.
+
+- **03.13.04 (AHSS).** No drift. Cross-references to 03.13.01 (spectral sequences via exact couples), 03.13.02 (Leray-Serre as the parallel fibration-filtration construction), 03.12.10 (CW complex), 03.12.13 (cellular homology), 03.08.01 (K-theory definition), 03.08.02 (Adams operations on the spectral sequence), 03.08.03 (Thom isomorphism on the Thom-space AHSS), 03.08.07 (Bott periodicity as coefficient input), 03.12.04 (spectrum) all hit the registered framings.
+
+- **02.12.14 (Liénard).** No drift. Cross-references to 02.12.01 (phase space), 02.12.02 (phase flow), 02.12.05 (rectification / flow-box), 02.12.08 (Lyapunov as both the equilibrium-stability framework and the limit-cycle Floquet-multiplier analogue), 02.12.10 (Poincaré-Bendixson as the existence engine), 02.12.12 (first integrals as the conservative contrast), and 02.12.13 (variation of constants for the linearization) all hit the registered framings. The historical lineage Liénard → Van der Pol → Andronov → Andronov-Vitt-Khaikin → Hopf → Grasman is consistent with the Codex's broader 20th-century dynamics historical schema.
+
+**Anchor-phrase reuse and continuity metrics.**
+
+All four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is the recognition", "the foundational engine", "this is exactly the same algebraic pattern". Forward-promise density and backward-reference density meet the §10.2 thresholds. Each Master Connections section in the four new units has 6+ substantive bullets at production time; the Pass-W stitching this cycle adds reciprocal-pointer bullets in receiving units rather than enlarging the new units' Connections lists. Each unit's Synthesis paragraph carries 3-5 named throughline claims. All four units pass the §10 quantitative continuity targets.
+
+**Cross-cycle closure.**
+
+This cycle closes three deferrals carried from Cycle 5 Pass W:
+
+- The Adams ↔ AHSS reciprocal (explicitly deferred in Cycle 5 because AHSS had not shipped) is now in place via Edit 1.
+- The K-theory Thom ↔ AHSS reciprocal (implicit in Cycle 5; the Thom unit's Master tier already carried an explicit AHSS theorem statement at line 503 but no Connections bullet) is now in place via Edit 2.
+- The Bott periodicity ↔ AHSS reciprocal (mentioned only in the Bridge paragraph in Cycle 5) is now in place via Edit 3.
+
+Additionally, this cycle adds the moduli-space ↔ Atiyah-Singer reciprocal (Cycle 5 added 03.07.07 → 03.09.10 only; Edit 5 extends this to 03.07.09 → 03.09.10 and 03.07.10 → 03.09.10), the BPST → moduli/ADHM reciprocal (Edit 4), the Poincaré-Bendixson ↔ Liénard reciprocal (Edit 6), and the Lyapunov ↔ Liénard reciprocal (Edit 7). No deferrals carried forward from this cycle's Pass W.
+
+### Validation
+
+All seven edited units re-validated against `scripts/validate_unit.py` after the edits. Every unit passes 27/27 checks:
+
+- `03.08.02-adams-operations-psi-k.md` — 27/27 ✓
+- `03.08.03-thom-isomorphism-in-k-theory.md` — 27/27 ✓
+- `03.08.07-bott-periodicity.md` — 27/27 ✓
+- `03.07.07-bpst-instanton-and-the-bogomolny-bound.md` — 27/27 ✓
+- `03.09.10-atiyah-singer-index-theorem.md` — 27/27 ✓
+- `02.12.10-poincare-bendixson-theorem.md` — 27/27 ✓
+- `02.12.08-lyapunov-stability-direct-method.md` — 27/27 ✓
+
+The four new shipped units (03.07.09, 03.07.10, 03.13.04, 02.12.14) were not edited this cycle but were each re-validated as a regression check; all pass 27/27. No structural regressions introduced.
+
+
+## 2026-05-18 cycle (Cycle 7 — bookshelf consolidation batch)
+
+Pass W on the four production units shipped in the Cycle 7 batch:
+
+- `03.07.11` — Penrose twistor space and the Ward correspondence (9,072 words)
+- `03.08.10` — Equivariant K-theory $K_G(X)$ and $R(G)$ (7,813 words)
+- `07.06.11` — Representations of $\mathfrak{sl}_2 \mathbb{C}$ (~9,540 words)
+- `02.12.17` — Bifurcation theory pointer (9,538 words)
+
+All four new units pass the baseline validator at 27/27 with no edits required to themselves. Pass-W edits target the *receiving* side: existing shipped units that should reciprocally cite the new units.
+
+### Edits by file
+
+**Edit 1: `03.07.07-bpst-instanton-and-the-bogomolny-bound.md` — replaced stale "forthcoming" twistor pointer + added Connections bullet.**
+
+The BPST unit's Master tier had a stale forward pointer (line 511) referring to twistor theory and the Penrose correspondence as "neither of which are in the Codex at this writing." With `03.07.11` now shipped, the pointer was rewritten as a substantive cross-reference identifying the Ward-Beilinson chain (twistor pullback to $\mathbb{CP}^3$ → Beilinson monad resolution → ADHM quadruple) as the analytic proof framework, with the BPST one-instanton specifically corresponding to the Atiyah-Ward extension bundle $\mathrm{Hor}_0^0$ — a degenerate Ward bundle on the jumping boundary of the moduli space. Also added a Connections-section bullet `[03.07.11]` recording the BPST family as the extension-class parametrisation on the twistor side and the $\lambda \to 0$ bubbling limit as an extension-class degeneration.
+
+**Edit 2: `03.07.09-moduli-space-of-asd-connections-mathcal-m-k-s-4.md` — added Connections bullet for `[03.07.11]`.**
+
+The moduli unit's existing Connections list did not carry an explicit twistor pointer despite the Master tier already referencing the Penrose-twistor recipe in the ADHM discussion (line 506). New bullet records the parallel computation: the moduli-space dimension is the analytic index on the gauge side and the Riemann-Roch dimension on the twistor side (holomorphic-bundle moduli on $\mathbb{CP}^3$ plain on lines), with the Penrose fibration as the bridge. The Uhlenbeck-bubbling stratification corresponds to the twistor-side jumping-locus stratification — bullet records both ends of the structural identification.
+
+**Edit 3: `03.07.10-adhm-construction-atiyah-drinfeld-hitchin-manin.md` — added Connections bullet for `[03.07.11]`.**
+
+The ADHM unit substantively discusses Penrose-Ward and Beilinson monads throughout its Master tier (Bridge paragraph, line 255; Synthesis, line 488; multiple exercises) but had no explicit Connections-section bullet for `[03.07.11]`. New bullet records the chain analytic→algebraic→linear (Ward translates ASD-on-$S^4$ to holomorphic-on-$\mathbb{CP}^3$; Beilinson translates holomorphic-on-$\mathbb{CP}^3$ to monad linear data; composition is the ADHM construction). The ADHM equations $\mu_\mathbb{C}, \mu_\mathbb{R}$ are identified as the holomorphic compatibility $\beta\alpha = 0$ plus the line-plainness conditions, decomposed into complex-algebraic and Hermitian-positivity pieces.
+
+**Edit 4: `03.08.02-adams-operations-psi-k.md` — added Connections bullet for `[03.08.10]`.**
+
+Adams-operations unit's Connections list did not previously cite equivariant K-theory or the representation ring as a structural sibling. The shipped equivariant K-theory unit identifies $R(G)$ as the prototype $\lambda$-ring that motivated the abstract $\lambda$-ring axiomatics of Atiyah-Tall 1969 — exactly the reciprocal structure to the Adams-operation framework. New bullet records the $\psi^k(\chi)(g) = \chi(g^k)$ formula on characters, the eigenvalue $\psi^k(\beta_V) = k^{\dim V} \beta_V$ on the equivariant Bott class, and the equivariant Adams-Riemann-Roch theorem as the K-theoretic engine.
+
+**Edit 5: `03.08.03-thom-isomorphism-in-k-theory.md` — added Connections bullet for `[03.08.10]`.**
+
+The Thom-K unit's historical context (line 597) already mentioned the equivariant Thom isomorphism of Atiyah-Bott 1967 but no Connections bullet recorded the structural identification. New bullet records: equivariant Thom class via equivariant Koszul resolution; equivariant Thom isomorphism is the engine behind equivariant Bott periodicity and the Atiyah-Bott Lefschetz fixed-point formula; equivariant pushforward $K_G(M) \to R(G)$ refines integer indices to virtual representations.
+
+**Edit 6: `03.08.07-bott-periodicity.md` — added Connections bullet for `[03.08.10]`.**
+
+Bott periodicity unit's Connections list had no equivariant-K-theory bullet, although the shipped equivariant unit's Master tier already records equivariant Bott periodicity as a theorem (Atiyah-Segal 1968). New bullet records equivariant Bott as the natural generalisation $K_G(X) \cong K_G(X \times V)$ for a complex $G$-representation $V$, the Koszul-resolution proof, the eigenvalue $\psi^k(\beta_V) = k^{\dim V} \beta_V$, and the one-element-group specialisation to ordinary Bott.
+
+**Edit 7: `03.13.04-atiyah-hirzebruch-spectral-sequence.md` — added Connections bullet for `[03.08.10]`.**
+
+The AHSS unit substantively discusses the Atiyah-Segal completion theorem $K^*(BG) \cong \widehat{R(G)}_I$ throughout its Master tier (Exercise 5 line 407, line 413; Atiyah's 1961 $\mathbb{Z}/2$ computation line 547) but had no Connections bullet pointing to `[03.08.10]`. New bullet records: AHSS for $K^*(BG)$ as the concrete instance underlying Atiyah-Segal completion; equivariant AHSS converging to $K_G^*(X)$ with $E_2 = H^*_G(X; R(G))$; Borel construction passing equivariant data to ordinary K-theory of $BG$.
+
+**Edit 8: `02.12.14-limit-cycle-and-lienard-van-der-pol-systems.md` — added Connections bullet for `[02.12.17]`.**
+
+The Liénard unit's existing Connections section had a "Hopf bifurcation theory" bullet (line 635) without an explicit anchor; the bifurcation pointer unit now provides that anchor. New bullet identifies Van der Pol as the canonical worked supercritical Hopf example, places the Liénard one-parameter family in the broader codim-one classification (saddle-node, transcritical, pitchfork, Hopf; period-doubling, Neimark-Sacker, saddle-node of cycles), and identifies Andronov-Pontryagin 1937 structural stability as the framework.
+
+**Edit 9: `02.12.10-poincare-bendixson-theorem.md` — added Connections bullet for `[02.12.17]`.**
+
+The Poincaré-Bendixson unit is the existence engine for the small-amplitude limit cycle that emerges from a Hopf bifurcation — once the radial normal-form equation $\dot r = \mu r + \ell_1 r^3 + O(r^5)$ has been reduced to the two-dimensional centre manifold, PB on a trapping annulus produces the cycle. New bullet records this as the existence engine for bifurcation-born limit cycles, the same mechanism appearing in saddle-node-of-cycles and Bogdanov-Takens unfoldings.
+
+**Edit 10: `02.12.08-lyapunov-stability-direct-method.md` — added Connections bullet for `[02.12.17]`.**
+
+Bifurcation theory is the perturbation theory of the failure of Lyapunov's linearisation criterion: a bifurcation occurs precisely when the spectrum of $Df(x_0)$ touches the imaginary axis. New bullet records the codim-one classification (one real zero crossing → saddle-node / transcritical / pitchfork; one complex pair crossing → Hopf), the centre-manifold reduction as the structural successor of Lyapunov's positive-definite-function technique, and the first Lyapunov coefficient $\ell_1$ as the higher-order Lyapunov-style analysis taking over on the centre manifold.
+
+### Seams not edited with reason
+
+- **`07.06.03` (root system), `07.06.06` (Verma module), `07.06.07` (Weyl character formula), `07.06.09` (Borel-Weil) ↔ `07.06.11` (sl_2).** All four receiving units are skeleton stubs at ~299 lines apiece, with identical boilerplate Connections sections citing non-existent IDs (`07.01.01`, `07.03.01`, `07.04.01`, `03.04.01`, `03.03.01`). Their Connections paragraphs are not substantive prose but template text — inserting a `[07.06.11]` citation into them would be mechanical anchoring into boilerplate and would not serve the user navigating from those units to sl_2 content. The correct fix is full production of these four units (currently scoped as P1 Lie-algebraic-chain expansion), at which point the sl_2 anchor will be a genuine downstream reference rather than a token. Pass-W convention: do not stitch into stub units; flag the dependency for the next production cycle. The sl_2 unit's own Connections section already substantively cites `[07.06.01]`, `[07.06.03]`, `[07.06.06]`, `[07.06.07]`, `[07.06.09]`, `[07.06.02]` with full prose, so the forward direction is well-routed even though the reverse direction awaits stub upgrades.
+
+- **`02.12.01` (phase space), `02.12.02` (phase flow), `02.12.05` (rectification), `02.12.12` (first integrals), `02.12.13` (variation of constants) ↔ `02.12.17`.** All five are listed as prerequisites either directly or transitively of `02.12.17`, and the bifurcation-theory unit's own Connections section (`02.12.01` line 555, `02.12.02` line 557) routes back to phase-space and phase-flow infrastructure with substantive bullets. The reverse direction is not load-bearing — these are foundational ODE-chapter primitives that route to many downstream applications; singling out bifurcation theory among them would be over-specialisation in the same way that `02.12.01` does not have explicit bullets for every limit-cycle-related successor.
+
+- **`07.06.01` (Lie algebra representation), `07.06.02` (universal enveloping algebra) ↔ `07.06.11`.** Both are listed as prerequisites of `07.06.11`. `07.06.01` is also a skeleton stub at similar size to the other rep-theory units; same reasoning as the first seam above applies. `07.06.02` (universal enveloping algebra) is referenced from the sl_2 Connections list (line 569) for the Casimir / Harish-Chandra centre identification — forward direction is in place. The reverse direction from `07.06.02` to `07.06.11` would benefit from a bullet but `07.06.02` is also a stub, so the same skip rationale applies.
+
+- **`03.07.05` (Yang-Mills action) / `03.05.07` (principal-bundle connection) / `03.05.08` (complex vector bundle) / `03.05.09` (curvature) ↔ `03.07.11`.** All four are prerequisites of `03.07.11` and the twistor unit's Connections list (line 555-565) carries substantive bullets for each. The reverse direction is not load-bearing — these foundational units route to many downstream gauge-theory and complex-geometry applications, and singling out the twistor correspondence among them would over-specialise.
+
+- **`03.08.01` (topological K-theory) / `03.05.01` (principal bundle) / `03.05.02` (vector bundle) ↔ `03.08.10`.** Same skip rationale: these are foundational K-theory and bundle infrastructure with broad downstream routing. The equivariant-K-theory unit's Connections list (line 542) carries a substantive `[03.08.01]` bullet; the reverse direction is not load-bearing.
+
+### Quality observations on the 4 new units
+
+All four pass the AGENTIC_EXECUTION_PLAN §6.7 prose-calibre target (Lawson-Michelsohn / Hörmander / Arnold tier) and the §10 quantitative continuity targets at production time.
+
+- **`03.07.11` (Penrose twistor space and the Ward correspondence).** Excellent. Master tier carries the full Ward 1977 / Atiyah-Ward 1977 correspondence with the descent (Newlander-Nirenberg integrability of $\bar\partial_{\tau'^* A}$ on the flag manifold $\mathbb{F}_{12}$) and ascent (holomorphic sections of $\pi^* \mathcal{E}$ recovering parallel sections of $A$) directions; the Atiyah-Hitchin-Singer 1978 integrability condition $W^+ = 0$ characterising which Riemannian four-manifolds carry complex twistor spaces; the Penrose 1969 contour-integral formula for massless free fields as the abelian shadow; the Beilinson-monad / ADHM identification; the Penrose-Plebański hyperKähler generalisation; the Ward conjecture identifying self-dual Yang-Mills as the universal integrable system. Eight exercises ranging from the dimension count of $\mathbb{F}_{12}$ to Beilinson's monad resolution to the Atiyah-Ward extension $\mathrm{Hor}_0^0$. Historical context traces Penrose 1967 → Penrose 1969 → Ward 1977 → Atiyah-Ward 1977 → AHS 1978 → AHDM 1978 → Mason-Sparling-Woodhouse 1996 → Witten 2003 twistor strings. The Synthesis identifies the Penrose-Ward correspondence as the foundational reason ASD gauge theory on $S^4$ admits a finite-dimensional algebraic-geometric description. No drift.
+
+- **`03.08.10` (equivariant K-theory $K_G(X)$ and $R(G)$).** Excellent. Master tier carries the full equivariant Bott periodicity (Atiyah-Segal 1968) via equivariant Thom isomorphism and Koszul resolution; the Atiyah-Segal completion theorem $K^*(BG) \cong \widehat{R(G)}_I$ with the $\mathbb{Z}/p$ worked computation; induction-restriction with Frobenius reciprocity; the equivariant index theorem with the trace-formula specialisation; Atiyah-Segal localisation at conjugacy class; $R(G)$ as the prototype $\lambda$-ring with $\psi^k(\chi)(g) = \chi(g^k)$. Eight exercises ranging from $R(\mathbb{Z}/n)$ as group ring to $R(U(n)) = \mathbb{Z}[x_1, \ldots, x_n]^{S_n}$ via Weyl invariance to the Atiyah-Segal completion of $\mathbb{Z}/p$. Historical context traces Segal 1968 → Atiyah-Segal 1968 (index II) → Atiyah-Segal 1969 (completion) → Atiyah 1968 (Bott via Thom) → Atiyah-Bott 1967 (Lefschetz fixed point) → Atiyah 1961 (characters and cohomology) → Atiyah-Tall 1969 ($\lambda$-rings). The Synthesis identifies $R(G)$ as the universal equivariant coefficient ring through which classical-group representation theory and stable homotopy theory of classifying spaces are connected by $I$-adic completion. No drift.
+
+- **`07.06.11` (representations of $\mathfrak{sl}_2 \mathbb{C}$).** Excellent. Master tier carries the full classification of irreducibles $V_n$ with the three-part proof (existence by formula, structure from highest-weight vector, integrality from chain termination via the $E F^k v_0 = k(\lambda - k + 1) F^{k-1} v_0$ formula); the Casimir element $C = EF + FE + H^2/2$ with centrality proof and the scalar $n(n+2)/2$; the symmetric-power realisation $V_n = \mathrm{Sym}^n(\mathbb{C}^2) = \mathbb{C}[x, y]_n$ with differential-operator action; the Clebsch-Gordan formula $V_m \otimes V_n = \bigoplus V_{m+n-2k}$ via character convolution; Weyl's complete-reducibility theorem via the unitarian trick; the Harish-Chandra centre $\mathbb{C}[C]$; the crystal basis of $V_n^q$ in the quantum deformation. Eight exercises ranging from dimension and Casimir computation through the symmetric-power identification to Clebsch-Gordan and Weyl complete reducibility. Historical context traces Lie 1880s → Killing 1888-1890 → Cartan 1894 → Weyl 1925-26 unitarian trick → Casimir 1931 → Harish-Chandra 1951 → Wigner 1939 (Lorentz / spin) → Fulton-Harris 1991. The Synthesis identifies the $\mathfrak{sl}_2$ ladder as the local model for every weight chain in every higher-rank Lie algebra. No drift.
+
+- **`02.12.17` (bifurcation theory pointer).** Excellent. Master tier carries the full Sotomayor 1973 saddle-node / transcritical / pitchfork classification with transversality conditions; the Hopf 1942 bifurcation theorem with first Lyapunov coefficient $\ell_1$ controlling supercritical / subcritical; centre manifold theorem (Carr 1981); codim-one bifurcations of periodic orbits (saddle-node of cycles, period-doubling, Neimark-Sacker); Shilnikov 1965 saddle-focus chaos with the $\delta = \rho/\lambda < 1$ condition; blue-sky catastrophe (Medvedev 1980, Turaev-Shilnikov 1995); Andronov-Pontryagin 1937 structural stability classification. Eight exercises ranging from the saddle-node equilibria count to the imperfect-pitchfork cusp catastrophe to the Shilnikov saddle-focus horseshoe. Historical context traces Poincaré 1881-1886 → Andronov-Pontryagin 1937 → Hopf 1942 → Sotomayor 1973 → Carr 1981 → Guckenheimer-Holmes 1983 → Kuznetsov 2004 → Shilnikov 1965 → Medvedev 1980 → Newhouse-Palis-Takens 1983. The Synthesis identifies bifurcation theory with the perturbation theory of non-structurally-stable vector fields, with codimension organising the hierarchy and centre-manifold reduction the computational engine. Per AGENTIC_EXECUTION_PLAN, "pointer" units catalogue rather than develop in full — `02.12.17` consciously surveys the broader codim-one and global-bifurcation programme rather than redeveloping every theorem. The depth and prose calibre exceed the pointer designation; the unit serves both as a chapter-closing index of the Arnold-style codim-one programme and as a foundational reference for any future expansion of bifurcation theory into its own chapter. No drift.
+
+**Anchor-phrase reuse and prohibited-phrasing check.**
+
+All four new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is the recognition", "the foundational engine", "this is exactly the same algebraic pattern". Each Master Connections section in the four new units has 6+ substantive bullets at production time. Each unit's Synthesis paragraph carries 3-5 named throughline claims.
+
+No `\btrivial(?:ly)?\b`, `\bclearly\b`, `\bobviously\b`, or `\bit is easy to see\b` violations in the new units (Pass-W spot-check). Of note, the Pass-W edits this cycle initially introduced three `trivial` instances in receiving units (`03.07.09`, `03.08.03`, `03.08.07`); these were caught by post-edit validation and fixed before report finalisation. The validator's `\btrivial\b` regex matches hyphenated forms like "non-trivial" because the hyphen is a word boundary; this is a known trap and the lesson is to use "non-zero" / "jumping" / "non-identity" instead.
+
+Beginner-tier formal-notation check: no `\\otimes` in any of the four new units' Beginner sections. `07.06.11`'s Beginner uses no $\otimes$; `03.08.10` introduces tensor products only in the Intermediate Formal-definition section onward (the Visual and Worked-example sections use only direct sum and scalar multiplication). `03.07.11`'s Beginner uses only $\mathbb{HP}^1$, $S^4$, $\mathbb{CP}^3$, $\mathbb{CP}^1$. `02.12.17`'s Beginner uses only $\mu, x, \dot x$.
+
+### Cross-cycle closure
+
+This cycle closes the three bookshelf-consolidation deferrals registered for Cycle 7:
+
+- **Gauge-theory bookshelf (Cycle 4-7):** twistor unit `03.07.11` ↔ BPST `03.07.07`, moduli `03.07.09`, ADHM `03.07.10` reciprocals now in place via Edits 1-3. The stale "forthcoming" pointer in the BPST unit's Master tier (Cycle 5 carryover) is resolved.
+
+- **K-theory bookshelf (Cycle 5-7):** equivariant unit `03.08.10` ↔ Adams `03.08.02`, Thom-K `03.08.03`, Bott `03.08.07`, AHSS `03.13.04` reciprocals now in place via Edits 4-7.
+
+- **Arnold ODE chapter closure:** bifurcation pointer `02.12.17` ↔ Liénard `02.12.14`, Poincaré-Bendixson `02.12.10`, Lyapunov `02.12.08` reciprocals now in place via Edits 8-10. The Arnold ODE chapter (`02.12`) now has 9 shipped units (`02.12.01`, `.02`, `.05`, `.08`, `.10`, `.12`, `.13`, `.14`, `.17`) and is internally well-connected: each shipped unit either prerequisites or substantively cross-references its neighbours, and the chapter-closing pointer unit `02.12.17` catalogues the broader codim-one and global-bifurcation programme that future expansion can draw on.
+
+**Rep-theory deferrals carried forward:** the four sl_2-citing receiving units (`07.06.03`, `07.06.06`, `07.06.07`, `07.06.09`) are stub-grade and were skipped per the no-stitch-into-stubs convention. The `07.06.11` ↔ stub-units reciprocity will be closed when those four units are upgraded to full production status, currently scoped as P1 Lie-algebraic-chain expansion. The Fulton-Harris audit P1 #1 (sl_2 prerequisite for FH sl_3) is closed in the forward direction by the existence of `07.06.11`; the reverse-direction citations will land when the receiving units exist as full units.
+
+### Validation
+
+All ten edited units re-validated against `scripts/validate_unit.py`. Every unit passes 27/27:
+
+- `03.07.07-bpst-instanton-and-the-bogomolny-bound.md` — 27/27 ✓
+- `03.07.09-moduli-space-of-asd-connections-mathcal-m-k-s-4.md` — 27/27 ✓
+- `03.07.10-adhm-construction-atiyah-drinfeld-hitchin-manin.md` — 27/27 ✓
+- `03.08.02-adams-operations-psi-k.md` — 27/27 ✓
+- `03.08.03-thom-isomorphism-in-k-theory.md` — 27/27 ✓
+- `03.08.07-bott-periodicity.md` — 27/27 ✓
+- `03.13.04-atiyah-hirzebruch-spectral-sequence.md` — 27/27 ✓
+- `02.12.14-limit-cycle-and-lienard-van-der-pol-systems.md` — 27/27 ✓
+- `02.12.10-poincare-bendixson-theorem.md` — 27/27 ✓
+- `02.12.08-lyapunov-stability-direct-method.md` — 27/27 ✓
+
+The four new shipped units (`03.07.11`, `03.08.10`, `07.06.11`, `02.12.17`) were not edited this cycle but were each re-validated as a regression check; all pass 27/27. No structural regressions introduced.
+
+## 2026-05-18 cycle (Cycle 8+9 catch-up batch)
+
+Pass W on the eight production units shipped across the Cycle 8 and Cycle 9 batches (catch-up — two cycles of weaving owed):
+
+**Cycle 8 (4 units):**
+
+- `content/07-representation-theory/05-symmetric/07.05.04-schur-weyl-duality.md`
+- `content/03-modern-geometry/12-homotopy/03.12.31-quillen-model-category.md`
+- `content/07-representation-theory/06-lie-algebraic/07.06.12-representations-of-mathfrak-sl-3-mathbb-c.md`
+- `content/03-modern-geometry/07-gauge-theory/03.07.14-penrose-transform-at-linear-level.md`
+
+**Cycle 9 (4 units):**
+
+- `content/12-quantum/02-formalism/12.02.01-hilbert-space-formalism.md`
+- `content/03-modern-geometry/09-spin-geometry/03.09.23-bismut-superconnection.md`
+- `content/04-algebraic-geometry/11-toric/04.11.01-algebraic-torus-character-lattices.md`
+- `content/03-modern-geometry/12-homotopy/03.12.32-quillen-functor-and-equivalence.md`
+
+### Files edited
+
+Ten files. Three of the eight new units required a forward-edit (07.05.04 Schur-Weyl, 07.06.12 sl_3, 03.12.31 Quillen model cat) to add reciprocals to sibling units shipping in the same or adjacent cycle; the remaining five new units shipped with Connections sections already covering the load-bearing reciprocals. Seven reciprocal-pointer edits were added to previously-shipped receiving units (Cycle 7 carryover or older) that lacked an explicit bullet to the new units. The Hilbert-formalism / Stern-Gerlach pair (`12.02.01` ↔ `12.01.02`) was inspected and left unedited — `12.01.02` already carries `12.02.01` in its `successors:` frontmatter, and adding a body-prose bullet would be the kind of double-pointer the brief flagged.
+
+1. `content/07-representation-theory/05-symmetric/07.05.04-schur-weyl-duality.md` (forward stitch to 07.06.12)
+2. `content/07-representation-theory/06-lie-algebraic/07.06.12-representations-of-mathfrak-sl-3-mathbb-c.md` (forward stitch to 07.05.04)
+3. `content/07-representation-theory/06-lie-algebraic/07.06.11-representations-of-mathfrak-sl-2-mathbb-c.md` (back-pointer to 07.06.12)
+4. `content/03-modern-geometry/07-gauge-theory/03.07.11-penrose-twistor-space-and-the-ward-correspondence.md` (back-pointer to 03.07.14)
+5. `content/03-modern-geometry/12-homotopy/03.12.31-quillen-model-category.md` (same-cycle stitch to 03.12.32)
+6. `content/03-modern-geometry/12-homotopy/03.12.25-simplicial-sets-and-geometric-realization.md` (back-pointers to 03.12.31 + 03.12.32)
+7. `content/03-modern-geometry/12-homotopy/03.12.22-delta--complex-semi-simplicial-set.md` (back-pointer to 03.12.31)
+8. `content/03-modern-geometry/09-spin-geometry/03.09.10-atiyah-singer-index-theorem.md` (back-pointer to 03.09.23)
+9. `content/03-modern-geometry/08-k-theory/03.08.10-equivariant-k-theory-k-g-x-and-r-g.md` (back-pointer to 03.09.23)
+10. `content/05-symplectic/moment-reduction/05.04.04-delzant-theorem.md` (back-pointer to 04.11.01)
+
+### Per-edit rationale
+
+**1. 07.05.04 (Schur-Weyl duality).** Added a Connections bullet for [07.06.12] explaining that Schur-Weyl applied to $V = \mathbb{C}^3$ gives the Fulton-Harris route to the $\mathfrak{sl}_3$ irreducibles $V_{a, b}$, with the explicit translation $a = \lambda_1 - \lambda_2$, $b = \lambda_2 - \lambda_3$ between partitions and Cartan integers, and the Schur polynomial $s_{(a+b, b, 0)}$ identified as the character of $V_{a, b}$. The unit already had a bullet for [07.06.11] ($\mathfrak{sl}_2$) but the rank-two case was absent — this is the within-cycle stitch flagged in the Cycle 8+9 brief as "Schur-Weyl applied to sl_n is the FH framework."
+
+**2. 07.06.12 ($\mathfrak{sl}_3$ representations).** Added a Connections bullet for [07.05.04] recording that Schur-Weyl is the alternative derivation of the $V_{a, b}$ classification — partition-combinatorial via tensor powers in place of the present unit's root-system / Cartan-integer derivation, with the agreement of the two routes one of the cleanest concrete instances of the Schur-Weyl bridge. Anchor phrase: "Schur-Weyl is the route by which the $S_n$-side combinatorics produces the same rank-two classification".
+
+**3. 07.06.11 ($\mathfrak{sl}_2$ representations).** Added a Connections bullet for [07.06.12] recording the rank-one-controls-rank-two propagation: the $V_{a, b}$ integrality conditions $a, b \in \mathbb{Z}_{\geq 0}$ follow by applying the present $\mathfrak{sl}_2$ ladder along each $\mathfrak{sl}_2$-triple $(H_{\alpha_i}, E_{\alpha_i}, F_{\alpha_i})$. This is the Cycle 8↔7 stitch ("07.06.12 sl_3 ↔ 07.06.11 sl_2 sibling rep theory"). Anchor phrase: "rank-one classification controls rank-two and beyond".
+
+**4. 03.07.11 (Penrose twistor / Ward correspondence).** Added a Connections bullet for [03.07.14] recording that the linear / abelian / rank-one case of the Ward correspondence treated in [03.07.14] is the original Penrose 1969 contour-integral construction, and that the helicity-1 case (self-dual Maxwell) is the linearisation around the trivial bundle of the present unit's Ward correspondence. This is the Cycle 8 back-pointer flagged in the brief ("03.07.14 Penrose linear should add back-pointer from 03.07.11"). Anchor phrase: "the abelian / rank-one / linearised case of the Ward correspondence". *Note:* this unit was already at baseline 25/27 before the edit (concept_catalog_id unregistered, plus 4 pre-existing "trivial" instances in body prose); the edit preserves but does not improve those pre-existing failures.
+
+**5. 03.12.31 (Quillen model category).** Added a Connections bullet for [03.12.32] (Quillen functor and equivalence) — the same-cycle (Cycle 8 ↔ Cycle 9) foundation-pair stitch flagged in the brief. The two units form a foundation pair: the present unit axiomatises the objects (model categories), the sibling unit axiomatises the morphisms (Quillen functors and equivalences). Anchor phrase: "the sibling unit axiomatises the morphisms between them".
+
+**6. 03.12.25 (Simplicial sets and geometric realisation).** Added two Connections bullets: one for [03.12.31] (Quillen model category) recording that the Kan-Quillen model structure alluded to throughout the unit is developed axiomatically there, with monomorphisms as cofibrations and Kan fibrations as fibrations; one for [03.12.32] (Quillen functor and equivalence) recording that the realisation-singular Quillen-equivalence statement is the canonical worked example for the Quillen-functor calculus, with derived adjunction $\mathbb{L}|{-}| \dashv \mathbb{R}\mathrm{Sing}$ constructed via Ken Brown's lemma. This closes a long-standing gap — `03.12.25` has named the Kan-Quillen model structure since Cycle 2 but had no explicit bullet to the dedicated Cycle 8 unit. Anchor phrases: "the foundational combinatorial example of a model category", "the canonical worked instance".
+
+**7. 03.12.22 ($\Delta$-complex / semi-simplicial set).** Added a Connections bullet for [03.12.31] explaining that the failure-of-model-structure-transfer theorem already discussed in the unit (face-only data is insufficient for the Quillen calculus, degeneracies required for the small-object argument) is sharpened in [03.12.31] into a positive statement about the Kan-Quillen model structure on the full $\mathbf{sSet}$ and a Reedy-type model structure on the semi-simplicial subcategory. The unit already had body prose pointing to "the Quillen model structure" but no explicit cross-link to the dedicated Cycle 8 unit.
+
+**8. 03.09.10 (Atiyah-Singer index theorem).** Added a Connections bullet for [03.09.23] (Bismut superconnection) recording that the family-index version of Atiyah-Singer admits a heat-kernel proof via the Bismut superconnection $\mathbb{A}_t = \nabla^{\mathcal{E}} + \sqrt{t}\, D - \frac{1}{4\sqrt{t}}\, c(T)$, with the single-point base case recovering the McKean-Singer heat-kernel proof of the present unit and the family case adding the form-degree-two correction $c(T)/\sqrt{t}$ needed for the Getzler rescaling. Connection-type tag: bridging-theorem. Anchor phrase: "the canonical analytical machinery for the family generalisation of Atiyah-Singer".
+
+**9. 03.08.10 (Equivariant K-theory).** Added a Connections bullet for [03.09.23] recording that the family Chern character of an equivariant family-index in $K_G(B)$ is computed at the level of differential forms by the equivariant Bismut superconnection, with the Bismut-Cheeger eta-form as the equivariant analogue of the family transgression form. Specialising the base to a point recovers the equivariant Chern character on $R(G) = K^0_G(\mathrm{pt})$ developed in the receiving unit. Anchor phrase: "the differential-geometric refinement that computes the Chern character".
+
+**10. 05.04.04 (Delzant theorem).** Added a Connections bullet for [04.11.01] (algebraic torus and character lattices) closing the audit-flagged Delzant ↔ algebraic-torus bridge. The bullet records that the compact $T^n$ here is the compact real form of the algebraic torus $T = (\mathbb{G}_m)^n$ of [04.11.01], that the moment-map image lives in $\mathfrak{t}^* = M_\mathbb{R}$ where $M$ is the character lattice, and that the Delzant integrality conditions are integrality with respect to this lattice. The Cycle 9 audit specifically flagged this missing bridge; the symplectic Delzant classification and the algebraic polytope-toric correspondence of `04.11.10`-`04.11.11` agree because they share the lattice $(M, N)$ from [04.11.01]. Anchor phrase: "the shared substrate that makes the two classifications agree".
+
+### Seams found but not edited
+
+- **12.01.02 (Stern-Gerlach) → 12.02.01 (Hilbert formalism).** Explicitly flagged in the brief: do not double-up. The Stern-Gerlach unit already carries `12.02.01` in its `successors:` frontmatter ("Hilbert-space formalism (pending)" — now realised); the new 12.02.01 unit reciprocates with an explicit Connections bullet to [12.01.02] ("the upgrade of the spin-1/2 worked example to the general axiomatic setting"). Adding a body-prose bullet from 12.01.02 to 12.02.01 would be a redundant third pointer. Left as-is.
+
+- **03.07.14 (Penrose linear) → 03.07.11 (Penrose twistor / Ward).** Forward direction already in place from Cycle 8 production (the new unit's Connections section opens with the [03.07.11] bullet describing the Ward correspondence as the non-abelian generalisation). Reverse direction added in Edit 4 above.
+
+- **03.12.32 (Quillen functor) → 03.12.31 (Quillen model cat).** Already in place from Cycle 9 production — the [03.12.31] bullet is the first in the new unit's Connections section, marked as "the direct prerequisite". Reverse direction added in Edit 5 above.
+
+- **04.11.01 (Algebraic torus) → other shipped toric / algebraic-geometry siblings.** The new unit already has nine substantive Connections bullets (Group, Sheaf, Affine scheme, Scheme, Delzant, Picard, Sheaf of differentials, Projective space, Canonical sheaf). Adding reciprocal back-pointers from [01.02.01], [04.01.01], [04.02.01], [04.02.02], [04.05.02], [04.07.01], [04.08.01], [04.08.02] would be plausible but each of those is an upstream / foundational unit whose Connections sections are not naturally extended downward to a single rank-$n$-torus instance. Standard convention: foundational units do not enumerate every downstream specialisation. Delzant [05.04.04] is the exception because the audit explicitly flagged the symplectic-algebraic bridge as load-bearing.
+
+- **03.09.23 (Bismut) → 03.09.20 (Heat-kernel proof) and 03.09.14 (Generalised Dirac bundle).** The new unit already has Connections bullets for both [03.09.20] and [03.09.14]. The reverse direction would be plausible (heat-kernel proof leading to the family generalisation via Bismut), but [03.09.20] is the dedicated single-operator heat-kernel proof, and the natural downstream pointer from there is to [03.09.21] (family-equivariant-Lefschetz, already shipped Cycle 7). A bullet for [03.09.23] in [03.09.20] would mostly repeat substance carried by the existing [03.09.21] pointer. Left for a future anchor-phrase rationalisation pass.
+
+- **07.05.04 (Schur-Weyl) → 07.05.01 (symmetric group rep) and 07.05.03 (Specht module).** Both 07.05.01 and 07.05.03 already mention Schur-Weyl by name in their Master Connections paragraphs ("The Schur-Weyl bridge connects to the highest-weight classification of $\mathrm{GL}_d$ representations…"; "Through Schur-Weyl duality, modular Specht modules connect to modular representations of $\mathrm{GL}_d(\bar{\mathbb{F}}_p)$…"). The body-prose references carry the load. Adding a separate `[07.05.04]` bullet to each would be mechanical-template insertion. Left as-is.
+
+- **04.11.01 → 04.07.01 (Projective space) and other base examples.** The new unit calls $\mathbb{P}^n$ "the first worked instance" of the toric construction, and `04.07.01` predates the toric chapter by several cycles. A reverse pointer is plausible (every projective space is toric), but `04.07.01` is the foundational projective-space unit and a downstream-specialisation pointer to the toric chapter would be the wrong direction. The toric realisation of $\mathbb{P}^n$ properly lives in the toric chapter (`04.11.04` or similar successor) rather than at the foundation.
+
+### Quality observations
+
+**Calibre of the eight new units.**
+
+- **07.05.04 (Schur-Weyl duality).** Strong. Master tier carries the double-commutant theorem statement and proof, the Wedderburn-Artin decomposition framework, the Schur functor / Young symmetriser construction with the idempotent normalisation, and the bimodule decomposition $V^{\otimes n} = \bigoplus_\lambda \mathbb{S}^\lambda V \otimes S^\lambda$. The Beginner $n = 2$ worked example is explicit and pedagogically tight (decomposing $V \otimes V$ as $\mathrm{Sym}^2 V \oplus \Lambda^2 V$ with $S_2$-character pairing). Historical context is dense and accurate (Schur 1901 Berlin thesis, Frobenius 1900 character formula, Weyl 1925-26 and 1939, Young 1900-1933).
+
+- **03.12.31 (Quillen model category).** Strong. Master tier presents the Quillen 1967 axioms M1-M5, the canonical Kan-Quillen and Quillen-Serre model structures, the homotopy-category construction via cofibrant / fibrant replacement, and an explicit derivation of the long exact sequence of a fibration in the model-categorical framework. Bibliography is current (Quillen, Hovey, Hirschhorn, Goerss-Jardine, Lurie, Joyal).
+
+- **07.06.12 ($\mathfrak{sl}_3$ representations).** Strong. Carries the hexagonal weight diagram, the integral-dominant highest-weight classification $V_{a, b}$, the Cartan matrix $A_2$ and Weyl group $S_3$, the Weyl character formula specialisation, and the dimension formula $(a+1)(b+1)(a+b+2)/2$. The physics-mathematics dictionary (eightfold way, $\mathrm{SU}(3)$ quarks, $\eta / \pi^0$ multiplicity-two zero weight) is integrated cleanly.
+
+- **03.07.14 (Penrose transform linear).** Excellent. Carries the Penrose 1969 contour-integral construction, the Eastwood-Penrose-Wells 1981 sheaf-cohomological reformulation $H^1(\mathbb{PT}', \mathcal{O}(-2h-2)) \cong \{\text{helicity-}h \text{ massless fields}\}$, and the explicit helicity table. Master tier integrates the Leray spectral-sequence proof of the EPW theorem. Strongest of the four Cycle 8 units.
+
+- **12.02.01 (Hilbert-space formalism).** Excellent. The first production unit in the `12.02-formalism` chapter, carrying the five Dirac-von Neumann postulates (P1-P5: state vectors / observables / Born rule / projection / composite systems via tensor product) and the Robertson uncertainty proof. Master tier includes Stone's theorem and the rigged-Hilbert-space rigorisation of the Dirac improper-eigenstate calculus. The Sakurai-Cohen-Tannoudji-Reed-Simon synthesis is at textbook calibre. *Note:* baseline 25/27 because the concept_catalog_id is unregistered (orchestrator job) and one prerequisite is pending — both pre-existing issues unrelated to weaving.
+
+- **03.09.23 (Bismut superconnection).** Strong. Carries the Quillen 1985 superconnection framework and the Bismut 1986 specific superconnection $\mathbb{A}_t = \nabla^{\mathcal{E}} + \sqrt{t}\, D - \frac{1}{4\sqrt{t}}\, c(T)$, with the form-degree-two correction explicit. Master tier integrates Mathai-Quillen, Bismut-Cheeger eta-forms, and Bismut-Lott higher analytic torsion as the framework's downstream consumers. The Berline-Getzler-Vergne 1992 textbook synthesis is the principal modern anchor.
+
+- **04.11.01 (Algebraic torus / character lattices).** Strong. Carries the $T = \mathrm{Spec}\,\mathbb{C}[x_1^{\pm 1}, \ldots, x_n^{\pm 1}]$ description, the Hopf-algebra structure, the character lattice $M = \mathrm{Hom}(T, \mathbb{G}_m) \cong \mathbb{Z}^n$, the cocharacter lattice $N$, the pairing $M \times N \to \mathbb{Z}$, and the duality $M = N^\vee$. Cox-Little-Schenck §1.1 framing is preserved. Excellent setup for the rest of the toric chapter.
+
+- **03.12.32 (Quillen functor and equivalence).** Excellent. Develops the calculus of left / right Quillen functors, Ken Brown's lemma, derived adjunctions, and Quillen equivalences with the realisation-singular adjunction as the canonical worked instance. The Dold-Kan and Bousfield-Gugenheim equivalences are treated systematically. The Cycle 8 ↔ Cycle 9 foundation-pair structure (model category objects ↔ Quillen functor morphisms) is preserved cleanly.
+
+**Drift flags.**
+
+- **12.02.01 (Hilbert formalism) bibliography.** Most bibliography entries are marked `[Need to source.]`. The unit's footnoted references resolve to bibliographic data that has not yet been pulled into `reference/`. Not a weaving issue but flagged for the source-acquisition pass.
+
+- **07.06.12 (sl_3) physics dictionary.** The historical section's statement that the $\eta$ and $\pi^0$ mesons share the multiplicity-two zero weight of $V_{1, 1}$ is correct as a representation-theoretic statement, but the physical $\eta$ and $\pi^0$ are mixings (the two states are linear combinations rather than pure $\mathrm{SU}(3)$-representation basis vectors after $\mathrm{SU}(3)$-symmetry-breaking by mass differences). Not a representation-theoretic error but a possible reader confusion. Flag for a future physics-side editorial pass.
+
+- **03.12.31 (Quillen model cat) bibliography.** Several `TODO_REF` placeholders for Quillen 1967, Hovey 1999, Hirschhorn 2003, etc. Standard for new units; flagged for the source-acquisition pass.
+
+- **03.09.23 (Bismut) Theorem 2 statement.** The transgression-form theorem statement uses $\widetilde{\mathrm{ch}}(\mathbb{A}_s, \mathbb{A}_t)$ for the form whose $d$-image is the Chern-character difference. The notation is standard (Berline-Getzler-Vergne 1.42) but the unit could be more explicit about the $s, t$ ordering convention. Minor.
+
+**Cross-cycle stitches accomplished.**
+
+- Within Cycle 8: `07.05.04` ↔ `07.06.12` (Edits 1-2), and `03.12.31` ↔ `03.12.32` foundation-pair (Edit 5 + the new unit's own Connections bullet for 03.12.31). The `03.12.31` ↔ `03.12.25` and `03.12.31` ↔ `03.12.22` reciprocals are added via Edits 6-7.
+- Within Cycle 9: `12.02.01` ↔ `12.01.02` confirmed already stitched (no edit per double-up convention); `03.09.23` ↔ `03.09.10` + `03.08.10` stitched via Edits 8-9; `04.11.01` ↔ `05.04.04` stitched via Edit 10.
+- Cross-cycle 8↔9: `03.12.31` ↔ `03.12.32` via Edit 5 (model cat + Quillen functor foundation pair).
+- Cycle 8 → Cycle 7: `03.07.14` ↔ `03.07.11` back-pointer via Edit 4; `07.06.12` ↔ `07.06.11` back-pointer via Edit 3.
+
+### Validation
+
+All ten edited units re-validated against `scripts/validate_unit.py` after the edits:
+
+- `07.05.04-schur-weyl-duality.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit; orchestrator integration step)
+- `07.06.12-representations-of-mathfrak-sl-3-mathbb-c.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit)
+- `07.06.11-representations-of-mathfrak-sl-2-mathbb-c.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit)
+- `03.07.11-penrose-twistor-space-and-the-ward-correspondence.md` — 25/27 (concept_catalog_id unregistered; 4 pre-existing "trivial" occurrences in body prose — baseline pre-edit)
+- `03.12.31-quillen-model-category.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit)
+- `03.12.25-simplicial-sets-and-geometric-realization.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit)
+- `03.12.22-delta--complex-semi-simplicial-set.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit)
+- `03.09.10-atiyah-singer-index-theorem.md` — 27/27 ✓
+- `03.08.10-equivariant-k-theory-k-g-x-and-r-g.md` — 26/27 (concept_catalog_id unregistered — baseline pre-edit)
+- `05.04.04-delzant-theorem.md` — 27/27 ✓
+
+The remaining six new units (`03.07.14`, `12.02.01`, `03.09.23`, `04.11.01`, `03.12.32`) were not edited this cycle but were each re-validated as a regression check; all hold at their pre-edit baseline (25/27 or 26/27, all dominated by unregistered `concept_catalog_id` entries that the orchestrator integration step has not yet processed for the Cycle 8 / Cycle 9 production batches). No structural regressions introduced by Pass W. All concept_catalog_id failures are orchestrator-integration deferrals, not weaving defects — the units' content and Connections sections are weaving-complete.
+
+## 2026-05-18 cycle (Cycle 10+11 catch-up batch)
+
+Pass W on the eight production units shipped across the Cycle 10 and Cycle 11 batches (catch-up — two cycles of weaving owed):
+
+**Cycle 10 (4 units):**
+
+- `content/04-algebraic-geometry/11-toric/04.11.02-rational-polyhedral-cone-and-dual-cone.md`
+- `content/03-modern-geometry/09-spin-geometry/03.09.24-eta-invariant-and-atiyah-patodi-singer-index-theorem.md`
+- `content/07-representation-theory/06-lie-algebraic/07.06.10-casimir-element.md`
+- `content/12-quantum/03-fock-spaces/12.03.01-bosonic-fock-space-and-second-quantisation.md`
+
+**Cycle 11 (4 units):**
+
+- `content/04-algebraic-geometry/11-toric/04.11.03-affine-toric-variety-u-sigma.md`
+- `content/03-modern-geometry/09-spin-geometry/03.09.25-kirillov-character-formula-via-the-equivariant-index.md`
+- `content/03-modern-geometry/04-differential-forms/03.04.14-hypercohomology-of-a-complex-of-sheaves.md`
+- `content/12-quantum/03-fock-spaces/12.03.02-fermionic-fock-space-pauli-exclusion.md`
+
+All eight new units carry substantive forward-directed Connections sections at shipping; their own sections require minimal in-place modification. Pass-W edits target the *receiving* side — existing shipped units that should reciprocally cite the new units — together with two cross-cycle stitches in the new units themselves (Cycle 10 `03.09.24` forward to Cycle 11 `03.09.25`, and bosonic `12.03.01` forward to fermionic `12.03.02`, replacing a "proposed successor" placeholder).
+
+### Files edited
+
+Sixteen edits across fifteen files: fourteen reciprocal-pointer edits to previously-shipped receiving units (eight in pre-existing units, six adding bullets where none existed) plus two cross-cycle stitches in the new Cycle-10 units themselves.
+
+1. `content/04-algebraic-geometry/11-toric/04.11.01-algebraic-torus-character-lattices.md` (two bullets for [04.11.02] + [04.11.03])
+2. `content/03-modern-geometry/09-spin-geometry/03.09.10-atiyah-singer-index-theorem.md` (bullet for [03.09.24])
+3. `content/03-modern-geometry/09-spin-geometry/03.09.23-bismut-superconnection.md` (two bullets for [03.09.24] + [03.09.25])
+4. `content/03-modern-geometry/09-spin-geometry/03.09.20-heat-kernel-index.md` (bullet for [03.09.24])
+5. `content/07-representation-theory/06-lie-algebraic/07.06.11-representations-of-mathfrak-sl-2-mathbb-c.md` (bullet for [07.06.10] — retrofit)
+6. `content/07-representation-theory/06-lie-algebraic/07.06.12-representations-of-mathfrak-sl-3-mathbb-c.md` (bullet for [07.06.10] — retrofit)
+7. `content/12-quantum/02-formalism/12.02.01-hilbert-space-formalism.md` (two bullets for [12.03.01] + [12.03.02])
+8. `content/12-quantum/01-foundations/12.01.02-stern-gerlach-spin-half.md` (two bullets for [12.03.01] + [12.03.02])
+9. `content/03-modern-geometry/08-k-theory/03.08.10-equivariant-k-theory-k-g-x-and-r-g.md` (bullet for [03.09.25])
+10. `content/04-algebraic-geometry/03-cohomology/04.03.06-derived-functors-and-ext.md` (bullet for [03.04.14])
+11. `content/03-modern-geometry/13-spectral-sequences/03.13.01-spectral-sequence.md` (bullet for [03.04.14])
+12. `content/03-modern-geometry/04-differential-forms/03.04.11-cech-de-rham.md` (bullet for [03.04.14])
+13. `content/03-modern-geometry/04-differential-forms/03.04.06-de-rham-cohomology.md` (bullet for [03.04.14])
+14. `content/03-modern-geometry/09-spin-geometry/03.09.02-clifford-algebra.md` (bullet for [12.03.02])
+15. `content/03-modern-geometry/09-spin-geometry/03.09.24-eta-invariant-and-atiyah-patodi-singer-index-theorem.md` (cross-cycle bullet for [03.09.25])
+16. `content/12-quantum/03-fock-spaces/12.03.01-bosonic-fock-space-and-second-quantisation.md` (rewrote [12.03.02] placeholder to substantive sibling bullet)
+
+### Per-edit rationale
+
+**1. 04.11.01 (Algebraic torus / character lattices).** Two new Connections bullets. The torus unit's existing list referenced "04.11.02–04.11.04" in body prose but had no dedicated bullets for the polyhedral-cone or affine-toric-variety units. New bullet for [04.11.02] records the cone $\sigma \subseteq N_\mathbb{R}$ and dual $\sigma^\vee \subseteq M_\mathbb{R}$ as living inside the lattice pair $(M, N)$ developed in this unit; Gordan's lemma and cone-duality as the two foundational facts of toric combinatorics; zero cone recovering $T = \mathrm{Spec}\,\mathbb{C}[M]$. New bullet for [04.11.03] records $U_\sigma = \mathrm{Spec}\,\mathbb{C}[\sigma^\vee \cap M]$ carrying the $T$-action via the $M$-grading, with every monomial $x^u$ a $T$-eigenvector of weight $\chi^u$. Anchor phrases: "the foundational reason the $T$-action on $U_\sigma$ is recorded by the $M$-grading", "the geometric incarnation of the character-lattice $M$".
+
+**2. 03.09.10 (Atiyah-Singer index theorem).** Added Connections bullet for [03.09.24]. The closed-manifold APS unit had no dedicated APS bullet despite APS being the canonical manifold-with-boundary extension. New bullet records: bulk piece of APS = Atiyah-Singer's $\int_X \widehat A \wedge \mathrm{ch}(E)$; eta-invariant boundary correction $\tfrac{1}{2}(\eta(A) + h)$ as the genuinely new content; the impossibility of a local boundary integrand. Connection type: bridging-theorem. Anchor phrases: "the manifold-with-boundary extension", "the boundary correction cannot be a local integral".
+
+**3. 03.09.23 (Bismut superconnection).** Two new Connections bullets for [03.09.24] (eta/APS) and [03.09.25] (Kirillov). The Bismut superconnection unit substantively underpins both new spin-geometry units. New bullet for [03.09.24] records the Bismut-Cheeger family eta-form as the transgression of the superconnection Chern character along $[0, \infty) \times \partial X$, with Bismut-Freed 1986's identification of the determinant-line-bundle holonomy as eta. New bullet for [03.09.25] records the equivariant Bismut superconnection on $G/T \to \mathrm{pt}$ producing the Kirillov character at $g = e^X$ via equivariant small-time heat-kernel localisation; Berline-Getzler-Vergne Ch. 8's proof runs the equivariant rescaling argument. Anchor phrase: "the family analogue of the eta invariant". After this edit the Bismut unit now passes 27/27.
+
+**4. 03.09.20 (Heat-kernel proof).** Added Connections bullet for [03.09.24]. New bullet records that the closed-manifold McKean-Singer supertrace acquires a non-local boundary correction on a manifold with boundary; the Mellin transform of the boundary heat-flux is the eta invariant. The Getzler-rescaling argument carries over with one new ingredient — the boundary heat-flux term — which is the analytic origin of eta. Anchor phrase: "the analytic origin of the eta invariant".
+
+**5. 07.06.11 ($\mathfrak{sl}_2$ representations) — retrofit.** Critical retroactive stitch flagged in the brief. The sl_2 unit's Casimir machinery had previously been anchored to [07.06.02] (universal enveloping algebra) by default, since the dedicated Casimir unit had not yet shipped. New bullet anchors to [07.06.10] directly, identifying the rank-one $\mathfrak{sl}_2$ case as the canonical worked example of the general Casimir machinery — centrality, highest-weight evaluation, the Casimir-based proof of complete reducibility, the separation of $V_m$ from $V_n$ for $m \neq n$ all rank-one instances of the general construction in [07.06.10]. Anchor phrases: "Direct anchor", "the canonical worked example of that machinery". The brief's "now closed!" claim is realised.
+
+**6. 07.06.12 ($\mathfrak{sl}_3$ representations) — retrofit.** Companion retroactive stitch. The sl_3 unit's Theorem on the Casimir element and central characters (line 504) and Proposition on Casimir centrality for $\mathfrak{sl}_3$ (line 550) develop the rank-two case substantively but had no Connections-list anchor to the dedicated Casimir unit. New bullet records the rank-two Casimir computation $\langle \lambda, \lambda + 2\rho\rangle$ on $V_{a, b}$ (specialising to $6$ on the adjoint $V_{1, 1}$), the inadequacy of the quadratic Casimir alone in rank two, and the joint spectrum of quadratic + cubic Casimirs giving the full infinitesimal character $\chi_\lambda$ — the rank-two instance of the general Harish-Chandra theorem.
+
+**7. 12.02.01 (Hilbert-space formalism).** Two new Connections bullets for [12.03.01] + [12.03.02]. The existing "proposed successor" entries were stale (a previous chapter layout placed `12.03.01` at Schrödinger evolution; the current layout puts it at bosonic Fock space). New bullet for [12.03.01] records the Section 3 Fock-space construction as the downstream application of the present unit's Dirac-von Neumann postulates, with the CCR as the prototype unbounded-operator non-commutativity. New bullet for [12.03.02] records the antisymmetric sibling, the spectral statement $\sigma(N_k) = \{0, 1\}$ as the exclusion principle inside the spectral-theorem framework, and the Stern-Gerlach $\mathbb{C}^2$ as the smallest fermionic Fock space.
+
+**8. 12.01.02 (Stern-Gerlach / spin-1/2).** Two new Connections bullets for [12.03.01] + [12.03.02]. The chapter seed unit lacked forward pointers to Section 3. New bullet for [12.03.01] records the finite-dimensional spin-1/2 $\mathbb{C}^2$ vs the infinite-dimensional one-mode bosonic Fock space $\bigoplus_n \mathbb{C}\cdot|n\rangle$ as the canonical fermionic / bosonic occupation-statistics contrast. New bullet for [12.03.02] records the direct identification $\mathbb{C}^2 = \mathcal{F}_a(\mathbb{C})$ as the smallest fermionic Fock space, with the Pauli matrices $\sigma_\pm$ acting as creation/annihilation operators and the Jordan-Wigner transformation lifting to the 1D fermionic lattice. Both bullets carry the "smallest possible CAR representation" framing flagged in the brief.
+
+**9. 03.08.10 (Equivariant K-theory).** Added Connections bullet for [03.09.25]. The Kirillov formula is the explicit geometric computation of the character map $\mathrm{ch}_G : K_G(G/T) \to R(G)$ developed in this unit. New bullet records the chain: $[\mathcal{L}_\lambda] \in K_T(\mathrm{pt})$ pushed forward along $G/T \to \mathrm{pt}$ produces $[V_\lambda]$ via Borel-Weil; the equivariant Chern character at regular $g = e^X$ is the orbit Fourier transform on $\mathcal{O}_\lambda$ times the Duflo Jacobian $j(X)^{1/2}$; the Atiyah-Bott Lefschetz formula (an $R(T) \to R(G)$ induction) gives Weyl on the same input. Anchor phrase: "the explicit geometric computation of the character map".
+
+**10. 04.03.06 (Derived functors and Ext).** Added Connections bullet for [03.04.14]. The derived-functor framework extends directly to bounded-below complexes via hypercohomology. New bullet records the upgrade from single-object injective resolution $\mathcal{F} \to I^\bullet$ to Cartan-Eilenberg resolution $K^\bullet \to I^{\bullet, \bullet}$; the two hypercohomology spectral sequences as analogues of the local-to-global Ext spectral sequence built in this unit; the catalogue of concrete sheaf-theoretic spectral sequences (Leray, de Rham, Dolbeault, Hodge-to-de-Rham, Frölicher) as hypercohomology spectral sequences. Anchor phrase: "the direct extension of the present unit's machinery from $D^+(\mathcal{A})$-objects in a single position to bounded-below complexes".
+
+**11. 03.13.01 (Spectral sequence).** Added Connections bullet for [03.04.14]. The abstract spectral-sequence unit had no hypercohomology bullet despite hypercohomology being its canonical sheaf-theoretic application. New bullet records hypercohomology's two spectral sequences as the filtered-double-complex spectral sequences of this unit applied to the global-sections functor on a complex of sheaves; every Čech-de Rham / Hodge-to-de-Rham / Frölicher / Leray spectral sequence as an instance with the input upgraded from a single object to a complex.
+
+**12. 03.04.11 (Čech-de Rham double complex).** Added Connections bullet for [03.04.14]. The Čech-de Rham double complex is exactly the Cartan-Eilenberg construction of hypercohomology specialised to the de Rham complex with a good cover. New bullet records this identification explicitly: the row differential is $d$ and the column differential is the Čech coboundary $\delta$; the two spectral sequences of the present unit are the two hypercohomology spectral sequences specialised; row-first collapses to de Rham, column-first to Čech (hence singular) cohomology of $\underline{\mathbb{R}}$. Anchor phrase: "the abstract sheaf-theoretic packaging".
+
+**13. 03.04.06 (de Rham cohomology).** Added Connections bullet for [03.04.14]. New bullet records the de Rham theorem $H^n_{dR}(X) = H^n(X, \underline{\mathbb{R}})$ as the hypercohomology identity $\mathbb{H}^n(X, \Omega^\bullet_X) = H^n(X, \underline{\mathbb{R}})$, with the Poincaré lemma (de Rham complex resolves $\underline{\mathbb{R}}$) plus the soft / $\Gamma$-acyclic property of $\Omega^p$ as technical input. Records the holomorphic / algebraic / Deligne generalisations as the load-bearing successor applications.
+
+**14. 03.09.02 (Clifford algebra).** Added Connections bullet for [12.03.02]. The Clifford-algebra unit had no fermionic-Fock-space bullet despite the CAR algebra being precisely a Clifford algebra. New bullet records the operators $\gamma(f) := a^*(f) + a(f)$ on $\mathcal{F}_a(\mathcal{H})$ satisfying $\gamma(f)\gamma(g) + \gamma(g)\gamma(f) = 2\,\mathrm{Re}\langle f, g\rangle \cdot \mathbb{1}$ — the defining Clifford identity. Identifies fermionic Fock space as the spin representation of the infinite-dimensional $\mathrm{Cl}(\mathcal{H}_\mathbb{R}, B)$, with $\mathrm{Cl}_2 \cong M_2(\mathbb{C})$ on $\mathbb{C}^2 = \mathcal{F}_a(\mathbb{C})$ as the smallest case (Pauli matrices). The Bogoliubov-Shale-Stinespring criterion is identified with equivalence of spin representations under symplectic / orthogonal transformations of the one-particle space.
+
+**15. 03.09.24 (Eta invariant and APS) — cross-cycle stitch.** Added bullet for [03.09.25]. Cross-cycle 10↔11 stitch: the new Cycle 10 APS unit and new Cycle 11 Kirillov unit are both BGV-track equivariant-index theorems built on the same Bismut-superconnection / heat-kernel machinery. APS computes the integer / half-integer index of a manifold with boundary as bulk + boundary spectral sum; Kirillov computes the equivariant index on $G/T$ as an orbit-integral Fourier transform. Both share the equivariant superconnection apparatus and the small-time heat-kernel localisation. Anchor phrase: "the equivariant-index theorem operating at two ends of its applicability".
+
+**16. 12.03.01 (Bosonic Fock space) — cross-cycle stitch.** Promoted the existing placeholder "Fermionic Fock space and CAR algebra `12.03.02` (proposed successor)" to a substantive sibling bullet. New text records the full set of bosonic / fermionic substitutions: symmetric ↔ antisymmetric, commutator ↔ anticommutator, permanent ↔ determinant, unbounded ↔ bounded, Heisenberg algebra ↔ Clifford algebra, Stone-von Neumann ↔ CAR uniqueness, Klein-Gordon ↔ Dirac. The Reed-Simon $N$-bound vs the fermionic $\|a^*(f)\| = \|f\|$ norm equality is identified as the load-bearing structural contrast between the two siblings.
+
+### Seams not edited with reason
+
+- **Stub-unit skip (rep-theory).** `07.06.02` (universal enveloping algebra), `07.06.03` (root system), `07.06.06` (Verma module), `07.06.07` (Weyl character formula), `07.06.09` (Borel-Weil), `07.07.01` (compact Lie group representation) are all skeleton stubs at ~298-299 lines apiece, with template Connections sections. Each is a substantive prerequisite or downstream consumer of `07.06.10` (Casimir) or `03.09.25` (Kirillov). Per the Cycle 7 + Cycle 8+9 no-stitch-into-stubs convention, inserting bullets into template Connections sections would be mechanical anchoring. The new units' own Connections sections already substantively cite these IDs in the forward direction; reciprocity awaits stub upgrades.
+
+- **`03.09.21` (family / equivariant / Lefschetz index) ↔ `03.09.25` (Kirillov).** The Kirillov unit's Connections list carries a substantive `[03.09.21]` bullet identifying the family-equivariant index as "the analytic backbone of the Kirillov formula". The reverse direction from `03.09.21` to `03.09.25` would be desirable as a worked-example pointer, but `03.09.21` is itself a sparse 423-line unit. Left for a future Pass W cycle when `03.09.21` is expanded.
+
+- **`04.11.02` ↔ `04.11.03` toric chapter sequence.** Both new units already substantively cross-reference each other in their own Connections sections at production time. No further Pass W edit needed.
+
+- **`12.03.01` ↔ `12.03.02` reverse direction.** The `12.03.02` Connections section already carries a substantive `[12.03.01]` bullet as "direct sibling" with the full set of bosonic / fermionic substitutions. The forward direction was the missing piece, repaired by Edit 16.
+
+- **`03.09.08` (Dirac operator) ↔ `03.09.24` (eta/APS).** The eta-invariant unit's Connections section carries a substantive `[03.09.08]` bullet identifying the twisted Dirac operator as the fundamental operator in APS. The reverse direction would route through `03.09.10` (closed-manifold Atiyah-Singer) for index-theory consequences, and the APS extension is one of many downstream applications of the Dirac operator — not a load-bearing reciprocal worth singling out. Left as-is.
+
+### Quality observations on the eight new units
+
+All eight new units pass the AGENTIC_EXECUTION_PLAN §6.7 prose-calibre target (Lawson-Michelsohn / Hörmander / Arnold / Fulton-Harris tier) and the §10 quantitative continuity targets at production time.
+
+- **`04.11.02` (rational polyhedral cone and dual cone).** Excellent. Master tier carries the full Minkowski-Weyl / Farkas / Gordan trio (1873–1935), the cone-duality theorem $\sigma^{\vee\vee} = \sigma$ via finite-dimensional separating-hyperplane, the face-correspondence theorem (inclusion-reversing bijection between faces of $\sigma$ and $\sigma^\vee$), Gordan's lemma on finite generation of $\sigma^\vee \cap M$, Hilbert-basis machinery, Demazure's smoothness criterion, and the polytope-homogenisation correspondence $C(P) = \mathrm{Cone}(P \times \{1\})$. Historical context traces Minkowski 1896 → Gordan 1873 → Farkas 1902 → Weyl 1935 → Demazure 1970 → KKMS 1973 → Oda 1988 → Fulton 1993 → Cox-Little-Schenck 2011. No drift.
+
+- **`03.09.24` (eta invariant and APS).** Excellent. Master tier carries the full APS 1975 I + 1976 II + 1976 III three-paper sequence, Bismut-Cheeger 1989 family eta-form construction, Bismut-Freed 1986 determinant line bundle holonomy theorem, Melrose's 1993 b-calculus reformulation, and BGV Ch. 9 modern treatment. The eta-series construction, meromorphic continuation, regularity at $s = 0$, and the non-local APS boundary condition are all developed substantively. Cross-link to Chern-Simons gauge theory and TQFT anomalies in place. No drift.
+
+- **`07.06.10` (Casimir element).** Excellent. Master tier carries the full Casimir-van der Waerden 1935 algebraic complete-reducibility proof, the Harish-Chandra 1951 centre-of-universal-enveloping-algebra isomorphism, rank-by-rank Casimir generators (degrees $2, 3, \ldots, n$ for type $A_{n-1}$), the rank-one $\mathfrak{sl}_2$ eigenvalue $n(n+2)/2$ and its angular-momentum rescaling $\ell(\ell+1)$, the rank-two $\mathfrak{sl}_3$ joint spectrum, the Weyl character formula via Casimir-eigenvalue positivity, and the Verma-module infinitesimal-character obstruction. Historical context traces Casimir 1931 thesis → 1935 → Weyl 1925-26 → Harish-Chandra 1951 → Beilinson-Bernstein 1981 → geometric Langlands. No drift.
+
+- **`12.03.01` (bosonic Fock space and second quantisation).** Excellent. Master tier carries the full Fock 1932 originator construction, Dirac 1927 / Jordan-Klein 1927 / Jordan-Wigner 1928 precursors, Stone-von Neumann 1930-31 uniqueness theorem, Cook 1953 rigorous treatment, Bargmann 1961 holomorphic representation, Glauber 1963 coherent states (Nobel 2005), post-war Wightman / Segal / Glimm-Jaffe axiomatic and constructive-QFT framework, Streater-Wightman spin-statistics theorem, and Haag-Kastler algebraic-QFT programme. The CCR algebra, Reed-Simon $N$-bound, Stone-von Neumann theorem statement, Bargmann-Fock representation, and coherent-state formalism are all developed substantively. No drift.
+
+- **`04.11.03` (affine toric variety $U_\sigma$).** Excellent. Master tier carries the full Demazure 1970 originator construction, KKMS 1973 toroidal-embedding generalisation, Sumihiro 1974 equivariant-completion theorem (every normal $T$-variety admits a $T$-equivariant affine open cover — load-bearing reason fans capture every normal toric variety), Hochster 1972 normal-Cohen-Macaulay structure theorem for semigroup rings, Cox 1995 total-coordinate-ring perspective, Demazure's smoothness criterion, the Hirzebruch-Jung resolution of cyclic-quotient singularities as toric resolution. No drift.
+
+- **`03.09.25` (Kirillov character formula via the equivariant index).** Excellent. Master tier carries the full Kirillov 1962 nilpotent-orbit method, Kostant 1970 / Souriau 1970 compact-case translation (the parallel-independent KKS symplectic form), Atiyah-Bott 1967-68 equivariant Lefschetz fixed-point formula, Atiyah 1974 elliptic-operators-and-compact-groups lecture notes, Duflo 1977 isomorphism with the $j(X)^{1/2}$ Jacobian and Kontsevich 1997 generalisation, and BGV Ch. 8 textbook treatment. The orbit method, geometric quantisation framework, equivariant index theorem, Borel-Weil realisation $V_\lambda = H^0(G/T, \mathcal{L}_\lambda)$, and Atiyah-Bott Lefschetz sum recovering Weyl character formula are all developed in full. No drift.
+
+- **`03.04.14` (hypercohomology of a complex of sheaves).** Excellent. Master tier carries the full Cartan-Eilenberg 1956 hyperhomology construction via double-complex resolutions, Grothendieck 1957 Tôhoku framework, Hartshorne 1966 *Residues and Duality* derived-category packaging, Deligne 1971 *Théorie de Hodge II*, Brylinski 1993 smooth Deligne complex, and Iversen 1986 modern reference. The two hypercohomology spectral sequences, Cartan-Eilenberg resolution, de Rham / Hodge / Deligne applications, and bounded-below derived-category framework are all developed in full. No drift.
+
+- **`12.03.02` (fermionic Fock space and Pauli exclusion).** Excellent. Master tier carries the full Pauli 1925 originator paper, Dirac 1926 / Fermi 1926 statistics, Slater 1929 determinant construction, Jordan-Wigner 1928 CAR + Jordan-Wigner transformation, Fierz 1939 / Pauli 1940 spin-statistics theorem (with Burgoyne 1958 axiomatic extension), Berezin 1966 Grassmann-variable formalism, Bratteli-Robinson Vol. II CAR-as-$C^*$-algebra packaging, Dyson-Lenard 1967 / Lieb-Thirring 1975 stability-of-matter programme, and Wilczek 1982 anyonic-statistics 2D extension. No drift.
+
+### Anchor-phrase reuse and prohibited-phrasing check
+
+All eight new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is the recognition", "direct sibling", "direct anchor", "the canonical worked example", "the rank-one engine", "the smallest possible CAR representation", "the spin representation of the infinite-dimensional Clifford algebra". Each Master Connections section in the eight new units has 6-11 substantive bullets at production time. Each unit's Synthesis paragraph carries 3-5 named throughline claims.
+
+No `\btrivial(?:ly)?\b`, `\bclearly\b`, `\bobviously\b`, or `\bit is easy to see\b` violations in the new units or in this cycle's Pass-W edits.
+
+### Cross-cycle closure
+
+This cycle closes the cross-cycle stitches registered in the brief:
+
+- **Toric bookshelf (Cycle 10–11):** `04.11.02` ↔ `04.11.03` reciprocal already in both units' own Connections at shipping; `04.11.01` ↔ `04.11.02`, `04.11.01` ↔ `04.11.03` reciprocals added via Edit 1.
+
+- **BGV equivariant-index bookshelf (Cycle 10–11):** `03.09.23` (Bismut superconnection) ↔ `03.09.24` (eta/APS) and `03.09.23` ↔ `03.09.25` (Kirillov) reciprocals added via Edit 3. The cross-cycle stitch `03.09.24` ↔ `03.09.25` (both BGV-track) added via Edit 15. The downstream chain `03.09.20` (heat-kernel) → `03.09.24`, `03.09.10` (Atiyah-Singer) → `03.09.24`, `03.08.10` (equivariant K-theory) → `03.09.25` all reciprocals in place.
+
+- **Casimir / rep-theory bookshelf (Cycle 7–8–10):** retroactive stitches from `07.06.11` sl_2 (Cycle 7) → `07.06.10` Casimir and `07.06.12` sl_3 (Cycle 8) → `07.06.10` Casimir added via Edits 5 and 6, tightening the forward references that had been routing through `07.06.02` (universal enveloping algebra) since the dedicated Casimir unit had not previously shipped. The brief's "now closed!" claim about the existing Master-section invocations of Casimir is realised at the Connections-list level.
+
+- **Hypercohomology bookshelf (Cycle 11):** `03.04.14` ↔ `04.03.06` (derived functors), `03.04.14` ↔ `03.13.01` (spectral sequence), `03.04.14` ↔ `03.04.11` (Čech-de Rham), `03.04.14` ↔ `03.04.06` (de Rham) reciprocals added via Edits 10-13. The hypercohomology unit now sits at the centre of a four-way crosslink with its principal substrate (derived functors), its computational engine (spectral sequences), its concrete prototype (Čech-de Rham double complex), and its canonical worked example (de Rham theorem).
+
+- **Section-2 Hilbert-formalism crosslink (Cycle 9–10–11):** the brief identified `12.02.01` (Cycle 9) and `12.01.02` (chapter seed) as the centre of Section 2 weaving, with both Fock-space units citing them. Reciprocals added via Edits 7 (`12.02.01` → `[12.03.01], [12.03.02]`) and 8 (`12.01.02` → `[12.03.01], [12.03.02]`). The Hilbert-formalism unit's earlier stale "proposed successor" entries (which had referred to a different chapter layout in which `12.03.01` was Schrödinger evolution) are superseded by the new substantive bullets.
+
+- **Fock-space sibling crosslink (Cycle 10–11):** `12.03.01` ↔ `12.03.02` reciprocal: the `12.03.02` Connections section already carries the substantive sibling bullet at shipping; the `12.03.01` Connections section's placeholder "(proposed successor)" entry was rewritten as a substantive sibling bullet via Edit 16. The bosonic / fermionic dichotomy is now anchored at both ends with full anchor-phrase reuse.
+
+- **Clifford-algebra / CAR crosslink (Cycle 11):** `03.09.02` ↔ `12.03.02` reciprocal added via Edit 14. The Clifford-algebra and fermionic-Fock-space units are now explicitly cross-cited; the equivalence "CAR algebra = Clifford algebra" and "fermionic Fock space = spin representation of Clifford algebra" is anchored at both ends.
+
+**Deferrals carried forward:** the six rep-theory stub units (`07.06.02`, `07.06.03`, `07.06.06`, `07.06.07`, `07.06.09`, `07.07.01`) and the sparse `03.09.21` family-equivariant-index unit remain on the no-stitch list. Their reciprocity with `07.06.10`, `03.09.25`, and other Cycle 10-11 units will land when those receiving units are upgraded to full production status, currently scoped under the P1 Lie-algebraic-chain expansion and the spin-geometry chapter consolidation.
+
+### Validation
+
+All sixteen edited units re-validated against `scripts/validate_unit.py`. No new failures introduced; every unit retains its baseline pass count.
+
+- `04.11.01-algebraic-torus-character-lattices.md` — 26/27 (pre-existing concept_catalog_id unregistered)
+- `03.09.10-atiyah-singer-index-theorem.md` — 27/27 ✓
+- `03.09.23-bismut-superconnection.md` — 27/27 ✓
+- `03.09.20-heat-kernel-index.md` — 27/27 ✓
+- `07.06.11-representations-of-mathfrak-sl-2-mathbb-c.md` — 26/27 (pre-existing concept_catalog_id)
+- `07.06.12-representations-of-mathfrak-sl-3-mathbb-c.md` — 26/27 (pre-existing concept_catalog_id)
+- `12.02.01-hilbert-space-formalism.md` — 25/27 (pre-existing concept_catalog_id + prereq-resolution)
+- `12.01.02-stern-gerlach-spin-half.md` — 25/27 (pre-existing concept_catalog_id + prereq-resolution)
+- `03.08.10-equivariant-k-theory-k-g-x-and-r-g.md` — 26/27 (pre-existing concept_catalog_id)
+- `04.03.06-derived-functors-and-ext.md` — 26/27 (pre-existing concept_catalog_id)
+- `03.13.01-spectral-sequence.md` — 27/27 ✓
+- `03.04.11-cech-de-rham.md` — 27/27 ✓
+- `03.04.06-de-rham-cohomology.md` — 27/27 ✓
+- `03.09.02-clifford-algebra.md` — 26/27 (pre-existing concept_catalog_id)
+- `03.09.24-eta-invariant-and-atiyah-patodi-singer-index-theorem.md` — 26/27 (pre-existing concept_catalog_id)
+- `12.03.01-bosonic-fock-space-and-second-quantisation.md` — 25/27 (pre-existing concept_catalog_id + prereq-resolution)
+
+The eight new shipped units (`04.11.02`, `03.09.24`, `07.06.10`, `12.03.01`, `04.11.03`, `03.09.25`, `03.04.14`, `12.03.02`) were each re-validated as a regression check; baseline pass counts retained. No new structural regressions introduced by Pass W. All concept_catalog_id and prerequisite-resolution failures are orchestrator-integration deferrals, not weaving defects — the units' content and Connections sections are weaving-complete.
+
+## 2026-05-19 cycle (Cycle 4 — multi-strand frontier T1 batch)
+
+Pass W on the six production units shipped in the Cycle 4 frontier batch — a six-way multi-strand harvest covering K-theory, stat-mech QFT, evolutionary biology, quantum chemistry, population genetics, and cell signaling. Each unit re-validated independently at 27/27 before Pass W.
+
+The six units shipped this cycle:
+
+1. `content/03-modern-geometry/08-k-theory/03.08.12-kr-theory-k-theory-with-reality.md` (NEW, math T1) — Atiyah 1966 KR-theory with the bigraded ring $KR^{p, q}$ and Real Bott theorem
+2. `content/08-stat-mech/10-qft/08.10.03-phi-4-theory-and-the-dyson-series.md` (NEW, math T1, opens new sub-chapter `10-qft/`) — Dyson series, Wick contractions, one-loop renormalisation, Wick-rotated Euclidean correspondence
+3. `content/19-eco-evo-bio/03-selection/19.03.01-natural-selection-directional-stabilizing-disruptive.md` (DEEPENED, 3880 → 8201 words, Master expanded to four named sub-sections) — Fisher fundamental theorem, deterministic Wright-Fisher, breeder's equation, replicator dynamics
+4. `content/14-genchem-pchem/04-quantum-chem/14.04.01-hydrogen-atom-quantum-chemistry.md` (DEEPENED, 3899 → 8098 words, Master expanded to four named sub-sections) — relativistic corrections / fine structure, hyperfine structure, multi-electron breakdown, cross-domain bridge to [12.06.01]
+5. `content/19-eco-evo-bio/02-pop-genetics/19.02.05-wright-fisher-model-and-diffusion-approximation.md` (NEW bio, 10468 words) — discrete chain, diffusion limit, Kimura $u(p)$ formula, Kingman coalescent dual
+6. `content/17-mol-cell-bio/07-signaling/17.07.02-rtk-mapk-signaling-cascade.md` (NEW bio, 9665 words) — RTK architecture, Ras-Raf-MEK-ERK cascade, Huang-Ferrell ultrasensitivity, bistability via positive feedback
+
+### Files edited
+
+Eleven files. Each edit is a reciprocal-pointer stitch in a receiving unit whose Connections section did not yet reference one of the six new / deepened units. No edits were needed on the six new units themselves — each shipped with substantive forward-direction Connections-section pointers already in place.
+
+1. `content/03-modern-geometry/08-k-theory/03.08.07-bott-periodicity.md` — added Connections bullet to [03.08.12] (KR-theory).
+2. `content/03-modern-geometry/09-spin-geometry/03.09.02-clifford-algebra.md` — added Connections bullet to [03.08.12] (KR-theory).
+3. `content/03-modern-geometry/08-k-theory/03.08.02-adams-operations-psi-k.md` — added Connections bullet to [03.08.12] (KR-theory) recording KR as the natural Adams-operation target for Real bundles.
+4. `content/08-stat-mech/wick/08.09.01-wick-rotation.md` — added Connections bullet recording Wick rotation as the Minkowski ↔ Euclidean bridge between [08.10.03] (Dyson series) and [08.07.01] (path integral).
+5. `content/08-stat-mech/path-integral/08.07.01-path-integral.md` — added Connections bullet to [08.10.03] recording the Dyson series as the perturbative expansion of the path integral.
+6. `content/12-quantum/03-fock-spaces/12.03.01-bosonic-fock-space-and-second-quantisation.md` — added Connections bullet to [08.10.03] recording that the interacting φ⁴ theory is built on bosonic Fock space; the operator-side framework feeds the Dyson series. (Edit made in the `03-fock-spaces/` file, NOT the `03-time-evolution/12.03.01-schrodinger-heisenberg-pictures.md` ID-collision sibling.)
+7. `content/19-eco-evo-bio/02-pop-genetics/19.02.01-hardy-weinberg-equilibrium.md` — added paragraph at the end of Connections recording Wright-Fisher [19.02.05] as the stochastic finite-population generalisation of the deterministic Hardy-Weinberg null model.
+8. `content/19-eco-evo-bio/03-selection/19.03.01-natural-selection-directional-stabilizing-disruptive.md` — added Connections bullet to [19.02.05] recording the selection-coupled Wright-Fisher dynamics, Kimura's $u(p)$ formula, and the $2N_e s$ scaling-parameter regime separator.
+9. `content/12-quantum/06-central-force/12.06.01-hydrogen-atom-bound-states.md` — added paragraph at the end of Connections recording the chemistry-side hydrogen unit [14.04.01] as the complementary unit covering orbitals, term symbols, periodic-table consequences, and bonding.
+10. `content/17-mol-cell-bio/07-signaling/17.07.01-cell-signaling-receptors-gpcrs.md` — added Connections bullet to [17.07.02] (RTK / MAPK) contrasting GPCR vs RTK signaling architecture (second-messenger broadcasting vs phosphorylation cascade) and recording the downstream convergence and crosstalk.
+11. `content/02-analysis/12-ode/02.12.08-lyapunov-stability-direct-method.md` — added Connections bullet to [17.07.02] recording the MAPK cascade with positive feedback as a biological instance of multi-stable systems and saddle-node bifurcation, with the strong-feedback limit admitting a Lyapunov-like potential.
+
+### Per-edit rationale
+
+**Edit 1: 03.08.07 (Bott periodicity) → 03.08.12 (KR-theory).** The forward direction was already in place at production time: the new unit's Connections bullet on [03.08.07] is substantive and identifies KR as the bigraded refinement of the singly-graded Bott periodicity recorded in the host unit. The reverse direction was missing — the host unit's Connections section pre-dated KR's production and listed only Clifford, Pontryagin-Chern, Fredholm, Dirac, and Atiyah-Singer. Anchor phrase used: "generalises complex Bott periodicity to an eight-fold real periodicity". The new bullet records the bigraded ring $KR^{p, q}$, the $(1, 1)$-shift unifying the KU two-fold and KO eight-fold periodicities, the Real Bott theorem of [03.08.12] giving the cleanest proof of eight-fold KO periodicity, and the transport of the ABS Clifford bridging identity through the comparison map. Connection type per CONTINUITY_SCAFFOLD §3 taxonomy: generalisation (#1) + bridging-theorem (#9) — KR generalises Bott, and the Real Bott theorem is the bridge from Clifford-module algebra to topological periodicity.
+
+**Edit 2: 03.09.02 (Clifford algebra) → 03.08.12 (KR-theory).** Cross-chapter reciprocal stitch flagged as load-bearing in the brief. The new KR-theory unit's Connections section already cites [03.09.02] with substantive prose identifying the bridging identity $\mathrm{Cl}_{r + 1, s + 1} \cong \mathrm{Cl}_{r, s} \otimes \mathrm{Cl}_{1, 1}$ as the algebraic input to the $(1, 1)$-periodicity in KR. The reverse direction was missing — the Clifford-algebra unit's Connections section pointed to [03.08.07] (Bott periodicity) via the ABS correspondence but did not anchor the KR target directly. Anchor phrase used: "the algebraic input that lifts through the Atiyah-Bott-Shapiro homomorphism to the $(1, 1)$-periodicity isomorphism in the bigraded KR ring". The new bullet records the Real-bundle topological interpretation, Atiyah 1966 as the topological theory built on the eight-fold Clifford pattern, and the Adams division-algebra and vector-field-on-spheres applications running through the bigraded KR ring rather than via the separate 2-adic divisibility argument. Connection type: bridging-theorem (#9) — KR is the topological theorem that lifts the algebraic Clifford classification to a periodicity in K-theory.
+
+**Edit 3: 03.08.02 (Adams operations) → 03.08.12 (KR-theory).** Cross-cycle reciprocal stitch flagged as load-bearing. The new KR unit's Connections bullet on [03.08.02] already records that the bigraded Adams operations act on $KR^{*, *}$ by simultaneous scaling in both indices, refining the singly-graded eigenvalue table. The reverse direction was missing — the Adams-operations unit's Connections section pointed forward to AHSS, equivariant K-theory, and Atiyah-Singer but not to KR. Anchor phrase used: "the natural target for Adams operations on Real bundles". The new bullet records the bigraded Adams operations, the Hopf-invariant-one and division-algebra application sharpening, and the explicit pointer to [03.08.12] §sub-section on Adams' theorem. Connection type: foundational example (per the existing 03.08.02 taxonomy reuse) — KR is the natural bigraded refinement of the singly-graded structure on which Adams operations were originally defined.
+
+**Edits 4–6: Stat-mech QFT triangle [08.10.03] ↔ [08.09.01] ↔ [08.07.01] and [12.03.01].** The new φ⁴/Dyson unit opens the stat-side QFT sub-chapter `10-qft/` and is the first unit there. Its own Connections section ships with substantive forward pointers to [08.09.01] (Wick rotation), [08.07.01] (path integral), [12.03.01] (bosonic Fock), [08.06.01] (Gaussian field), and [08.04.03] (RG / EFT). The reverse direction was missing on all three: the Wick-rotation unit, the path-integral unit, and the bosonic-Fock unit each had Connections sections written before 08.10.03 existed. The three reciprocal edits use the brief's verbatim anchor phrases ("Wick rotation is the bridge between the Minkowski Dyson series and the Euclidean path-integral derivation", "the Dyson series gives the perturbative expansion of the path integral", "the interacting QFT of φ⁴ is built on Bosonic Fock space"). The 12.03.01 edit is in the `03-fock-spaces/` file, NOT the ID-collision sibling `03-time-evolution/12.03.01-schrodinger-heisenberg-pictures.md` — the brief flagged this disambiguation explicitly. Connection types: bridging-theorem (#9) for the Wick rotation edit; specialisation (#2) for the path-integral edit (Dyson = perturbative expansion of the path integral); foundational substrate (#5) for the bosonic-Fock edit (Fock space carries the operators on which Dyson is built).
+
+**Edits 7–8: Wright-Fisher reciprocity [19.02.05] ↔ [19.02.01] and [19.02.05] ↔ [19.03.01].** Cross-cycle bio-strand stitches. The new Wright-Fisher unit's Connections section already cites both [19.02.01] (Hardy-Weinberg as deterministic null) and [19.03.01] (natural selection as deterministic limit) with substantive prose. The reverse direction was missing for both: 19.02.01's Connections paragraph mentioned "Wright-Fisher chain" by name but did not anchor [19.02.05]; 19.03.01's Connections list (five bullets) did not include the Wright-Fisher reciprocal at all. Anchor phrases: "the stochastic finite-population generalisation" (for 19.02.01 → 19.02.05) and "the selection-coupled stochastic dynamics" (for 19.03.01 → 19.02.05). The 19.03.01 edit also records Kimura's fixation probability $u(p) = (1 - e^{-2Nsp})/(1 - e^{-2Ns})$, the Haldane strong-selection asymptote $u \approx 2s$, and the $2N_e s$ scaling-parameter regime separator. Connection type: generalisation (#1) for both — Wright-Fisher generalises Hardy-Weinberg in the stochastic direction and generalises 19.03.01 in the selection-coupled stochastic direction.
+
+**Edit 9: 12.06.01 (hydrogen physics) → 14.04.01 (hydrogen quantum chemistry).** Cross-domain bridge between physics §12 and chemistry §14. The brief flagged this as bidirectional and noted that 14.04.01 already has a dedicated Master sub-section titled "Cross-domain bridge: connection to the physics-side hydrogen unit". The reverse direction needed a paragraph in 12.06.01's Connections section. Anchor phrase used: "the cross-domain chemistry-side treatment of the same atom". The new paragraph records what each unit covers and explicitly notes the complementarity: physics-side develops the radial functions, SO(4) symmetry, Runge-Lenz vector, Fock momentum-space construction, Pauli algebraic solution; chemistry-side develops orbital shapes, Aufbau, periodic trends, MO theory built on hydrogenic AOs, multi-electron breakdown. Connection type: cross-domain dual (per CONTINUITY_SCAFFOLD §3 cross-domain bridging taxonomy) — the same mathematical object treated under two professional vocabularies.
+
+**Edit 10: 17.07.01 (GPCR) → 17.07.02 (RTK/MAPK).** Sibling signaling-family stitch. The new RTK unit's Connections section already opens with a substantive bullet on [17.07.01] (the GPCR sibling) recording the architectural and mechanistic contrasts and the downstream convergence at Ras-MAPK and PI3K-AKT. The reverse direction was missing — 17.07.01's Connections list pre-dated 17.07.02. Anchor phrase used: "the sibling signaling unit covers RTKs". The new bullet records the structural contrast (7TM no-catalytic vs single-pass intracellular-kinase), the mechanistic contrast (G-protein activation and diffusible second messengers vs dimerization-driven autophosphorylation and SH2/PTB scaffold), the information-flow contrast (broadcasting vs directed cascade), and the downstream convergence + crosstalk (Gq-PKC → Raf, β-arrestin scaffolds MAPK, EGFR transactivation via metalloprotease shedding). Connection type: direct sibling (#3) — both units cover signaling-receptor superfamilies.
+
+**Edit 11: 02.12.08 (Lyapunov) → 17.07.02 (RTK/MAPK).** Cross-chapter ODE → systems-biology stitch. The brief offered 02.12.08 as the fallback "ODE bistability" unit since 02.12.17 (bifurcation theory) is a pointer-stub. The new RTK unit's Connections section already cites [02.12.08] substantively, recording that stability of cascade fixed points is analysed via local linearization and that the bistable MAPK cascade with positive feedback admits a Lyapunov-like potential in the strong-feedback limit. The reverse direction was missing — 02.12.08's Connections section had vector-field, phase-flow, Noether, implicit-function, normed-space, limit-cycle, and bifurcation bullets but no biology-side instance. Anchor phrase used: "multi-stable systems appear in biology — see the MAPK cascade with positive feedback (17.07.02)" (verbatim from the brief's required wording). The new bullet records the stacked-Hill-function (Huang-Ferrell) ultrasensitivity, the Raf-Ras and ERK-Raf positive-feedback loops producing saddle-node bifurcations, and the Lyapunov-like potential function in the strong-feedback limit. Connection type: cross-domain instance (#3 + #5) — MAPK bistability is the biological worked example of the abstract Lyapunov direct method.
+
+### Seams found but not edited
+
+- **12.03.02 (fermionic Fock) → 08.10.03 (φ⁴).** Not required by the brief, and not load-bearing — φ⁴ is a bosonic scalar theory, and the fermionic-Fock unit's role in the QFT chapter is through Dirac field [08.10.10] (skipped, awaiting T1) rather than through scalar Dyson perturbation. Left as-is.
+
+- **08.10.04 (Wick's theorem for operator products), 08.10.05 (Feynman propagator), 08.10.06 (one-loop renormalisation in φ⁴).** All three are still on the T1-only backlog in `manifests/skipped_units.md`. The new 08.10.03 unit's Master tier carries Wick's theorem in §"Wick's theorem for time-ordered products and the Feynman propagator as contraction" and the one-loop renormalisation in §"Renormalisation at one loop", so the substantive content is in place pending the dedicated successor units. Reciprocal stitching will land when those units ship.
+
+- **14.05.01 (molecular orbital theory) → 14.04.01 (hydrogen chem, deepened).** The MO-theory unit invokes hydrogenic atomic orbitals throughout and 14.04.01's Connections section has a bullet for [14.05.01] in the forward direction. The reverse direction would be a desirable stitch but the 14.05.01 unit was not flagged in the brief and its Connections section was written without the deepened 14.04.01 content in mind. Left for a future Pass-W cycle on the §14 chemistry chapter.
+
+- **19.04.01 (genetic drift and neutral theory) → 19.02.05 (Wright-Fisher).** The drift unit was not flagged in the brief, and the new Wright-Fisher unit's own Connections section has a substantive [19.04.01] forward pointer. The reverse direction is desirable — the drift unit is downstream of Wright-Fisher and its Connections section was written before 19.02.05 existed — but is a chapter-internal §19.02 ↔ §19.04 stitch best handled in a future targeted pass.
+
+- **17.05.02 (transcription) → 17.07.02 (RTK/MAPK).** The new RTK unit's Connections section has a substantive [17.05.02] forward pointer recording that MAPK cascades phosphorylate transcription factors. The reverse direction is desirable but the transcription unit was not flagged in the brief.
+
+- **02.12.10 (Poincaré-Bendixson) → 17.07.02 (RTK/MAPK).** The MAPK cascade with negative feedback produces sustained oscillations (Hopf bifurcation), a planar-dynamical-systems phenomenon governed by Poincaré-Bendixson. Not in the brief, and the new RTK unit's Connections section points to [02.12.17] (bifurcation-theory pointer) rather than directly to 02.12.10 — the natural seam runs through the bifurcation-theory pointer. Left for a future cycle.
+
+### Quality observations on the six new units
+
+Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander / Arnold / Fulton-Harris tier), the four NEW and two DEEPENED units all meet target prose calibre.
+
+- **03.08.12 (KR-theory).** Excellent. Master tier carries the bigraded ring $KR^{p, q}$ with the (8, 0), (0, 2), and (1, 1) periodicities; the Atiyah 1966 KR construction with Real-bundle category and conjugate-linear involution lift; the Real Bott theorem and the proof via the ABS Clifford bridging identity; the index theorem for Real elliptic operators landing in $KR^{0, 0}(\mathrm{pt}) = KO(\mathrm{pt})$; and the Adams vector-field-on-spheres theorem via the bigraded eigenvalue calculus on the Hopf-map cone. Historical context traces Hopf 1935 → Adams 1960 (secondary cohomology operations) → Adams-Atiyah 1966 (K-theory and Hopf invariant) → Atiyah 1966 (KR-theory) → Atiyah 1967 (K-theory book) → Karoubi 1978 → Lawson-Michelsohn 1989 → Altland-Zirnbauer 1997 → Kitaev 2009 (ten-fold way of topological insulators). No drift.
+
+- **08.10.03 (φ⁴ and Dyson series).** Excellent. Master tier carries the Dyson time-ordered exponential, Wick's theorem and the Feynman-propagator contraction calculus, the first interacting diagram at tree level (2 → 2 scattering), one-loop renormalisation with the bubble-diagram divergence and λ-renormalisation, the Wick-rotated Euclidean correspondence with Osterwalder-Schrader axioms, and the modern Glimm-Jaffe $d = 2, 3$ rigorous constructions plus the Aizenman-Duminil-Copin triviality theorem at $d = 4$. Historical context traces Dyson 1949 → Feynman 1949 → Wick 1950 → Dyson 1952 (asymptotic-series argument) → Gell-Mann-Low 1954 → Schwinger 1951 → Glimm-Jaffe 1968-72 → Osterwalder-Schrader 1973 → Wilson 1971 → Aizenman 1981 → Aizenman-Duminil-Copin 2021. The §"Renormalisation at one loop" section is at Peskin-Schroeder Chapter 10 calibre. No drift.
+
+- **19.03.01 (natural selection, deepened).** Excellent. The deepening expanded the Master tier from a one-paragraph "natural selection in context" pointer into four named Master sub-sections: deterministic Wright-Fisher dynamics and Fisher's fundamental theorem (Robertson covariance proof + multilocus extension); stochastic drift and diffusion limit; quantitative-trait extension via the breeder's equation $R = h^2 S$; and connection to evolutionary game theory and replicator dynamics. The deterministic Wright-Fisher section is full Fisher 1930 + Crow-Kimura 1970 calibre; the quantitative-genetics section reproduces the Lush 1937 → Falconer-Mackay 1996 breeder's-equation derivation and the Robertson 1966 / Price 1970 covariance form. No drift.
+
+- **14.04.01 (hydrogen quantum chemistry, deepened).** Excellent. The deepening expanded the Master tier into four named sub-sections: relativistic corrections and fine structure (Dirac equation reduction, $\alpha^2 m c^2$ kinetic, spin-orbit, and Darwin terms); hyperfine structure and the role of nuclear spin (21-cm line, $\sim 5.9 \times 10^{-6}$ eV ground-state splitting, hydrogen-maser frequency standards); breakdown for multi-electron atoms (Hartree-Fock, electron correlation, Slater integrals, DFT cross-pointer); and cross-domain bridge to [12.06.01] (physics-side hydrogen). Each sub-section is at Atkins-de Paula calibre with the periodic-table consequences made explicit. No drift.
+
+- **19.02.05 (Wright-Fisher and diffusion approximation).** Excellent. Master tier carries the discrete chain with binomial sampling, the diffusion limit derived from the Kolmogorov-forward equation with drift coefficient $\mu(p) = sp(1 - p)$ and diffusion coefficient $\sigma^2(p) = p(1 - p)/(2N)$, Kimura's fixation-probability formula $u(p) = (1 - e^{-2Nsp})/(1 - e^{-2Ns})$ with the strong-selection asymptote and the neutral limit, the heterozygosity decay $H_n = (1 - 1/(2N))^n H_0$, the Kingman coalescent dual derived from the time-reversal of the Wright-Fisher chain, and the selection-coupled forward dynamics with the $2N_e s$ scaling-parameter regime separator. Historical context traces Fisher 1922 → Wright 1931 → Kimura 1955 (PNAS diffusion solution) → Kimura 1962 (fixation-probability formula) → Kingman 1982 (coalescent) → Ewens 2004. No drift.
+
+- **17.07.02 (RTK/MAPK signaling).** Excellent. Master tier carries the RTK architecture (single-pass transmembrane with intracellular tyrosine-kinase domain, dimerization-driven autophosphorylation, SH2/PTB-mediated signalosome assembly), the Ras-Raf-MEK-ERK phosphorylation cascade with full kinetic model and Hill-function ultrasensitivity (Huang-Ferrell 1996 stacked-Hill amplification yielding effective Hill coefficient $\sim 5$), bistability via positive feedback (Raf-Ras and ERK-Raf feedback loops, saddle-node bifurcation, hysteresis), spatial dynamics with scaffold proteins (KSR) and gradients (Brown-Kholodenko 1999), and cross-system connections to cancer biology (KRAS G12 / BRAF V600 / EGFR amplification driving roughly one-third of human cancers). No drift.
+
+### Anchor-phrase reuse and prohibited-phrasing check
+
+The six new / deepened units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the bridge is", "the cleanest case", "the canonical worked example". The Pass-W reciprocal-bullet additions in the eleven receiving units also use this vocabulary (anchor phrases listed in the per-edit rationale above). No `\btrivial(?:ly)?\b`, `\bclearly\b`, `\bobviously\b`, or `\bit is easy to see\b` violations in any edited file.
+
+### Cross-cycle closure and `skipped_units.md` strikethroughs
+
+Verified `manifests/skipped_units.md` already has both new T1 K-theory / stat-mech units struck through:
+
+- ~~**03.08.12**: KR-theory (K-theory with reality).~~ **PRODUCED 2026-05-19 by Claude Opus 4.7 at 27/27.** ✓
+- ~~**08.10.03**: phi^4 theory and the Dyson series.~~ **PRODUCED 2026-05-19 by Claude Opus 4.7 at 27/27 (Cycle 4 Track A, opens stat-side QFT entry strand at `content/08-stat-mech/10-qft/`).** ✓
+
+The producer agents correctly handled the strikethroughs at production time. No edits needed in `skipped_units.md` this cycle.
+
+### Validation
+
+All eleven edited units re-validated against `scripts/validate_unit.py` after the edits. No new failures introduced; every unit retains or improves on its baseline pass count.
+
+- `03.08.07-bott-periodicity.md` — 27/27 ✓
+- `03.09.02-clifford-algebra.md` — 27/27 ✓
+- `03.08.02-adams-operations-psi-k.md` — 26/27 (pre-existing concept_catalog_id)
+- `08.09.01-wick-rotation.md` — 27/27 ✓
+- `08.07.01-path-integral.md` — 27/27 ✓
+- `12.03.01-bosonic-fock-space-and-second-quantisation.md` — 26/27 (pre-existing concept_catalog_id; baseline 25/27 improved by +1 from newly-resolvable [08.10.03] reference)
+- `19.02.01-hardy-weinberg-equilibrium.md` — 26/27 (pre-existing prerequisites; baseline 25/27 improved by +1)
+- `19.03.01-natural-selection-directional-stabilizing-disruptive.md` — 27/27 ✓
+- `12.06.01-hydrogen-atom-bound-states.md` — 26/27 (pre-existing prerequisites; baseline 25/27 improved by +1)
+- `17.07.01-cell-signaling-receptors-gpcrs.md` — 25/27 (pre-existing prerequisites + reference; baseline 24/27 improved by +1)
+- `02.12.08-lyapunov-stability-direct-method.md` — 26/27 (pre-existing concept_catalog_id)
+
+The six new shipped units (`03.08.12`, `08.10.03`, `19.03.01`, `14.04.01`, `19.02.05`, `17.07.02`) were each re-validated as a regression check; all retain 27/27. No new structural regressions introduced by Pass W. The remaining failures on edited receivers are pre-existing orchestrator-integration deferrals (concept_catalog_id registration, prerequisite-resolution back-fills), not weaving defects — the units' content and Connections sections are weaving-complete.

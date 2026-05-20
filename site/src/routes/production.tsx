@@ -4,7 +4,7 @@ import { renderInline } from "../lib/inline-math";
 
 export function head() {
   return {
-    title: "Production | Math STEM",
+    title: "Production | Babel Bible",
     description:
       "Live production state from manifests/production/plan.json — shipped, queued, audits done, next-up.",
   };

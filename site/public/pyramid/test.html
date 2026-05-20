@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>three.js test</title>
+<style>
+  html,body{margin:0;height:100%;background:#222;color:#fff;font-family:monospace;}
+  #status{position:fixed;top:8px;left:8px;z-index:10;padding:8px 12px;background:#000;border:1px solid #444;font-size:12px;white-space:pre;max-width:90vw;overflow:auto;}
+  canvas{display:block;}
+</style>
+</head>
+<body>
+<div id="status">init...</div>
+<script>
+  const s = document.getElementById('status');
+  function log(msg) { s.textContent += '\n' + msg; }
+  window.addEventListener('error', e => log('WINDOW ERROR: ' + e.message + ' @ ' + (e.filename||'') + ':' + (e.lineno||'')));
+  window.addEventListener('unhandledrejection', e => log('PROMISE REJECT: ' + (e.reason && e.reason.message || e.reason)));
+</script>
+<script type="importmap">
+{ "imports": {
+  "three": "./vendor/three.module.js",
+  "three/addons/": "./vendor/"
+}}
+</script>
+<script type="module">
+  const s = document.getElementById('status');
+  s.textContent = 'importing three...';
+  try {
+    const THREE = await import('three');
+    s.textContent = 'three loaded, revision=' + THREE.REVISION;
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x224466);
+    const camera = new THREE.PerspectiveCamera(60, innerWidth/innerHeight, 0.1, 100);
+    camera.position.z = 3;
+    const renderer = new THREE.WebGLRenderer({antialias:true});
+    renderer.setSize(innerWidth, innerHeight);
+    document.body.appendChild(renderer.domElement);
+    const cube = new THREE.Mesh(
+      new THREE.BoxGeometry(1,1,1),
+      new THREE.MeshBasicMaterial({color:0xff8844, wireframe:true})
+    );
+    scene.add(cube);
+    s.textContent += '\ncube added. starting render loop.';
+    function animate() {
+      requestAnimationFrame(animate);
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.013;
+      renderer.render(scene, camera);
+    }
+    animate();
+    s.textContent += '\nrender loop running. you should see an orange wireframe cube.';
+  } catch (err) {
+    s.textContent = 'IMPORT/INIT ERROR:\n' + (err.stack || err.message || err);
+  }
+</script>
+</body>
+</html>

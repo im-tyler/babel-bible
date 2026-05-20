@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background: #08080d;
+}
+
+#scene {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#scene canvas {
+    display: block;
+}
+
+#legend {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 10;
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(8, 8, 13, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    padding: 20px;
+    width: 230px;
+    line-height: 1.5;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    user-select: none;
+}
+
+.legend-heading {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 10px;
+}
+
+.toggle-section {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.toggle-section:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.toggle-arrow {
+    font-size: 8px;
+    transition: transform 0.2s;
+}
+
+.toggle-section.open .toggle-arrow {
+    transform: rotate(-90deg);
+}
+
+.section-body {
+    display: none;
+}
+
+.section-body.open {
+    display: block;
+}
+
+.section-detail {
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    padding-left: 8px;
+}
+
+.legend-note {
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0.04em;
+}
+
+.legend-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 6px;
+    margin: 0 -6px;
+    border-radius: 3px;
+    white-space: nowrap;
+    cursor: default;
+    transition: background 0.2s;
+}
+
+.legend-row[data-pyramid] {
+    cursor: pointer;
+}
+
+.legend-row[data-pyramid]:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.legend-row.small {
+    white-space: normal;
+    opacity: 0.5;
+    line-height: 1.4;
+}
+
+.legend-desc {
+    opacity: 0.35;
+    margin-left: auto;
+    font-size: 10px;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.dot.pulse {
+    animation: dotPulse 3s ease-in-out infinite;
+}
+
+.legend-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 14px 0;
+}
+
+.ef-group {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.ef-group:first-of-type {
+    margin-top: 0;
+}
+
+.ef-row {
+    padding: 2px 0 2px 4px;
+    color: rgba(136, 136, 170, 0.8);
+}
+
+.ef-num {
+    display: inline-block;
+    width: 16px;
+    text-align: right;
+    margin-right: 6px;
+    opacity: 0.5;
+    font-size: 10px;
+}
+
+.eightfold-label {
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+    font-size: 9px;
+    letter-spacing: 0.04em;
+    color: rgba(136, 136, 170, 0.7);
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+    opacity: 0;
+    animation: efIn 0.6s ease forwards;
+}
+
+.eightfold-label .ef-3d-num {
+    opacity: 0.4;
+    margin-right: 4px;
+}
+
+@keyframes dotPulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+@keyframes efIn {
+    from { opacity: 0; transform: translateX(-10px); }
+    to { opacity: 1; transform: translateX(-2px); }
+}
+
+/* =========================================================================
+   Scene navigation — single tab bar, bottom-center.
+   Tabs always visible, active state highlighted in warm gold.
+   Structure / Torus / Crystal are variants of the axial form;
+   Meeting / Spawn are different scenes (separator between the groups).
+   ========================================================================= */
+#scene-nav {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px;
+    background: rgba(8, 8, 13, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.scene-tab {
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.52);
+    background: transparent;
+    border: 1px solid transparent;
+    padding: 9px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.18s, background 0.18s, border-color 0.18s;
+    white-space: nowrap;
+}
+
+.scene-tab:hover {
+    color: rgba(255, 245, 220, 0.95);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.scene-tab.active {
+    color: rgba(255, 240, 214, 1);
+    background: rgba(212, 165, 116, 0.14);
+    border-color: rgba(212, 165, 116, 0.42);
+}
+
+.scene-tab-sep {
+    width: 1px;
+    height: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    margin: 0 6px;
+}
+
+#hint {
+    position: fixed;
+    top: 28px;
+    right: 28px;
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+    user-select: none;
+    z-index: 10;
+}
+
+.pyramid-label {
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    transform: translateX(20px);
+    opacity: 0;
+    animation: labelIn 1s ease forwards;
+}
+
+.pyramid-label:nth-child(1) { animation-delay: 1s; }
+.pyramid-label:nth-child(2) { animation-delay: 1.3s; }
+.pyramid-label:nth-child(3) { animation-delay: 1.6s; }
+.pyramid-label:nth-child(4) { animation-delay: 1.9s; }
+
+.label-name {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.label-desc {
+    font-size: 10px;
+    opacity: 0.45;
+    letter-spacing: 0.06em;
+}
+
+.label-line {
+    position: absolute;
+    left: -18px;
+    top: 50%;
+    width: 16px;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.25;
+}
+
+@keyframes labelIn {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(20px);
+    }
+}

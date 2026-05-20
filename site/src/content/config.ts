@@ -12,6 +12,15 @@ const reference = z.object({
   pointer: z.string().optional(),
 });
 
+const essaySchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  slug: z.string(),
+  order: z.number(),
+  subtitle: z.string().optional(),
+  applies_to: z.array(z.number()).default([]),
+});
+
 export const collections = {
   units: defineCollection({
     schema: z.object({
@@ -44,4 +53,7 @@ export const collections = {
       reviewed_by: z.array(z.string()).default([]),
     }),
   }),
+  biology: defineCollection({ schema: essaySchema }),
+  chemistry: defineCollection({ schema: essaySchema }),
+  philosophy: defineCollection({ schema: essaySchema }),
 };

@@ -3,7 +3,7 @@ import { SECTIONS, SECTION_BY_KEY, sectionLabel, sectionOrder } from "../lib/sec
 
 export function head() {
   return {
-    title: "Math STEM — A three-tier curriculum from foundations to mastery",
+    title: "Babel Bible — A three-tier curriculum from foundations to mastery",
     description:
       "A self-contained pathway through modern mathematics and physics. Every unit speaks at three levels: Beginner for intuition, Intermediate for formal proofs, Master for graduate-level depth with primary-source citations and Lean formalization status.",
   };
@@ -61,7 +61,7 @@ export default function HomePage({ data }: { data: { totalUnits: number; section
         </p>
         <div class="cta-row">
           <a href="/units" class="cta cta--primary">Browse {data.totalUnits} units</a>
-          <a href="/about" class="cta cta--secondary">How Math STEM works</a>
+          <a href="/about" class="cta cta--secondary">How Babel Bible works</a>
         </div>
       </section>
 
