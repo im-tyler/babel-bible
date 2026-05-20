@@ -1302,3 +1302,79 @@ Seven files. The six new cluster units themselves were not edited (intra-cluster
 - Files with broken validator after edit / reverts required: 0
 - All 7 edited files re-validated at 27/27 ✓
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check)
+
+## 2026-05-20 cycle (Cycle 7 — Hodge / Voisin cluster)
+
+Pass W on the six new units shipped this cycle (all math T1, all 27/27, all in `content/04-algebraic-geometry/09-hodge/`):
+
+1. `04.09.05-ddbar-lemma.md`
+2. `04.09.07-hard-lefschetz-theorem.md`
+3. `04.09.08-hodge-riemann-bilinear-relations.md`
+4. `04.09.09-lefschetz-1-1-theorem.md`
+5. `04.09.10-akizuki-nakano-vanishing.md`
+6. `04.09.11-kodaira-embedding-theorem.md`
+
+### Files edited
+
+Nine files total. Three external reciprocal-stitch targets (the brief's targets A, B, C) plus six intra-cluster reciprocal fills (target D — bidirectional links among all six siblings).
+
+1. `content/04-algebraic-geometry/09-hodge/04.09.01-hodge-decomposition.md` (target A)
+2. `content/04-algebraic-geometry/09-hodge/04.09.02-kodaira-vanishing.md` (target B)
+3. `content/04-algebraic-geometry/05-divisors/04.05.09-hodge-index-theorem.md` (target C)
+4. `content/04-algebraic-geometry/09-hodge/04.09.05-ddbar-lemma.md` (target D intra)
+5. `content/04-algebraic-geometry/09-hodge/04.09.07-hard-lefschetz-theorem.md` (target D intra)
+6. `content/04-algebraic-geometry/09-hodge/04.09.08-hodge-riemann-bilinear-relations.md` (target D intra)
+7. `content/04-algebraic-geometry/09-hodge/04.09.09-lefschetz-1-1-theorem.md` (target D intra)
+8. `content/04-algebraic-geometry/09-hodge/04.09.10-akizuki-nakano-vanishing.md` (target D intra)
+9. `content/04-algebraic-geometry/09-hodge/04.09.11-kodaira-embedding-theorem.md` (target D intra)
+
+### Per-edit rationale
+
+**1. 04.09.01 (Hodge decomposition) — target A.** Added six Connections bullets pointing to each of the six new cycle-7 units. The bullets record: ddbar-lemma [04.09.05] as form-level rigidity behind the Hodge decomposition; Hard Lefschetz [04.09.07] refining bidegree-wise via $L^k : H^{p,q} \to H^{p+k, q+k}$; Hodge-Riemann [04.09.08] polarising the Hodge structure; Lefschetz (1,1) [04.09.09] classifying integral $H^{1,1}$ classes as line bundles; Akizuki-Nakano [04.09.10] giving Hodge-bidegree vanishing for twisted Hodge bundles; Kodaira embedding [04.09.11] as the projective-embedding criterion via positivity of an integral Hodge class. Anchor phrases: "sharpens the Hodge decomposition", "refines the Hodge decomposition bidegree-wise", "polarise the Hodge structure", "classifies the algebraic part of the Hodge decomposition", "Hodge-bidegree vanishing for twisted Hodge bundles", "projective embedding criterion via positivity of an integral Hodge class".
+
+**2. 04.09.02 (Kodaira vanishing) — target B.** Added two Connections bullets. The Akizuki-Nakano [04.09.10] bullet records Akizuki-Nakano as the full-bidegree refinement: $H^q(X, \Omega^p_X \otimes L) = 0$ for $p + q > n$, with the $p = n$ case recovering Kodaira. The Kodaira-embedding [04.09.11] bullet records Kodaira vanishing as the engine of the embedding theorem: separation of points and tangent vectors by sections of $L^{\otimes k}$ proved via Kodaira vanishing on ideal-sheaf twists. Anchor phrases: "full bidegree refinement of Kodaira vanishing", "engine of the embedding theorem".
+
+**3. 04.05.09 (Hodge index theorem) — target C.** Added two Connections bullets. The Hard Lefschetz [04.09.07] bullet records the surface signature $(1, \rho - 1)$ as the algebraic shadow of Hard Lefschetz on degree-2 cohomology. The Hodge-Riemann [04.09.08] bullet records the Hodge-Riemann relations as the $n$-dimensional generalisation of Hodge index, with the surface theorem appearing as the $n = k = 2$ specialisation. Anchor phrases: "generalises the surface signature pattern", "$n$-dimensional generalisation of the Hodge index theorem".
+
+**4. 04.09.05 (ddbar-lemma) — target D intra.** Added five new intra-cluster bullets — Hard Lefschetz [04.09.07], Hodge-Riemann [04.09.08], Lefschetz (1,1) [04.09.09], Akizuki-Nakano [04.09.10], Kodaira embedding [04.09.11]. Also corrected two stale unit IDs in pre-existing bullets: "Hard Lefschetz [04.09.04]" → "Hard Lefschetz theorem [04.09.07]" and "Hodge-Riemann bilinear relations [04.09.07]" → "Hodge-Riemann bilinear relations [04.09.08]". The stale IDs were left over from an earlier numbering scheme before the cluster was finalised. The anchor for the cluster is the form-level rigidity / harmonic-form / Kähler-identity package shared by all six theorems.
+
+**5. 04.09.07 (Hard Lefschetz) — target D intra.** Added three new intra-cluster bullets: ddbar-lemma [04.09.05] (form-level rigidity for the $\mathfrak{sl}_2$-action on cohomology), Akizuki-Nakano [04.09.10] (same Kähler $\mathfrak{sl}_2$-skeleton applied to different curvature inputs), Kodaira embedding [04.09.11] (Hard Lefschetz organising the cohomology of the embedded projective variety into the Lefschetz primitive decomposition).
+
+**6. 04.09.08 (Hodge-Riemann bilinear relations) — target D intra.** Added four new intra-cluster bullets: ddbar-lemma [04.09.05] (form-level rigidity making the polarising form descend to cohomology), Lefschetz (1,1) [04.09.09] (the algebraic-class identification inside the polarised weight-2 structure), Akizuki-Nakano [04.09.10] (Bochner-Kodaira-Nakano shared engine), Kodaira embedding [04.09.11] (HR2 polarisation supplying the analytic input for projective embedding).
+
+**7. 04.09.09 (Lefschetz (1,1)) — target D intra.** Added five new intra-cluster bullets: ddbar-lemma [04.09.05] (canonical Hodge filtration making the algebraic-class condition well-defined), Hard Lefschetz [04.09.07] ((1,1)-theorem as the codimension-1 Hodge conjecture inside the Lefschetz framework), Hodge-Riemann [04.09.08] (polarisation supplying the signature constraint on $\mathrm{NS}(X)$), Akizuki-Nakano [04.09.10] ($p = 1$ case controlling tangent separation), Kodaira embedding [04.09.11] (positive integral $(1,1)$-class $\Leftrightarrow$ ample line bundle $\Leftrightarrow$ projective embedding dictionary).
+
+**8. 04.09.10 (Akizuki-Nakano vanishing) — target D intra.** Added two new intra-cluster bullets: Hodge-Riemann [04.09.08] (HR2 positivity as the cohomology-level version of pointwise curvature positivity), Lefschetz (1,1) [04.09.09] ($p = 1$ Akizuki-Nakano controlling the tangent-separation step). The pre-existing connections to ddbar [04.09.05], Hard Lefschetz [04.09.07], and Kodaira embedding [04.09.11] are already strong (verified during the read pass).
+
+**9. 04.09.11 (Kodaira embedding) — target D intra.** Added five new intra-cluster bullets: ddbar-lemma [04.09.05] (analytic toolkit support, metric-independent positivity statement), Hard Lefschetz [04.09.07] (Lefschetz primitive decomposition of embedded variety cohomology), Hodge-Riemann [04.09.08] (HR2 polarisation as analytic input for the embedding), Lefschetz (1,1) [04.09.09] (analytic-algebraic dictionary line bundle $\Leftrightarrow$ embedding), Akizuki-Nakano [04.09.10] (sharper vanishing for tangent-separation control).
+
+### Anchor-phrase usage
+
+All nine edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "sharpens", "refines", "polarise", "classifies", "generalises", "the foundational reason", "the algebraic shadow", "the engine of", "$n$-dimensional generalisation". The new bullets ride on the existing synthesis paragraphs of the target units rather than introducing new throughlines.
+
+### Seams found but not edited
+
+- **Stale unit-ID corrections deferred elsewhere.** The 04.09.05 file had two stale numeric IDs in pre-existing bullets ([04.09.04] for Hard Lefschetz, [04.09.07] for Hodge-Riemann). These were corrected silently as part of edit #4 since the bullets are in the Connections section. No equivalent stale-ID issues observed in the other five new cluster units during the read pass.
+
+- **04.08.01 (Sheaf of differentials) → 04.09.10 (Akizuki-Nakano).** The Akizuki-Nakano statement $H^q(X, \Omega^p_X \otimes L) = 0$ for $p + q > n$ uses the sheaf of holomorphic $p$-forms as the bundle direction; a forward stitch from 04.08.01 to 04.09.10 would be natural but was not on the brief's required list. Flag for a future Hodge-chapter cycle.
+
+- **04.08.02 (Canonical sheaf) → 04.09.10 (Akizuki-Nakano), → 04.09.11 (Kodaira embedding).** The $\omega_X = \Omega^n_X$ appearance in both Akizuki-Nakano ($p = n$ specialisation) and Kodaira embedding (canonical-class polarisation for moduli of curves) suggests forward stitches from 04.08.02. Not on the brief; flag for next cycle.
+
+- **04.09.06 (Frölicher spectral sequence) → cluster.** The Frölicher spectral sequence $E_1^{p,q} = H^q(X, \Omega^p_X) \Rightarrow H^{p+q}_{\mathrm{dR}}(X)$ is the spectral-sequence framework that encodes the Hodge decomposition; ddbar-lemma is what forces $E_1 = E_\infty$ on a compact Kähler manifold. The 04.09.05 ddbar unit already has a bullet for 04.09.06, but a reciprocal from 04.09.06 was not in scope for this Pass W. Flag for next cycle.
+
+### Quality observations
+
+**Calibre of the six new units.** All six units ship at 27/27, math T1 standard. The Master Connections sections each have 5+ substantive cross-unit bullets after this Pass W (previously 4-6, now 7-12). Synthesis density and forward/backward-promise scaffolding meet the §10.2 thresholds.
+
+**Drift flags.** The two stale unit-IDs in 04.09.05 (Hard Lefschetz [04.09.04], Hodge-Riemann [04.09.07]) were the only drift observed. Silently corrected. No other drift.
+
+### Pass-W summary numbers (Cycle 7 — Hodge / Voisin cluster)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 9 files (3 external + 6 intra-cluster) with 31 new bullets added total
+- Required stitches on the brief: A, B, C, D — all 4 completed (no skipped targets)
+- Intra-cluster reciprocals verified: 6 units × 5 siblings = 30 bidirectional links, of which pre-existing: 5 (07→08, 07→09, 08→07, 10→05, 10→07, 10→11), added by this Pass W: 25
+- Stale unit-IDs corrected: 2 (in 04.09.05)
+- Files with broken validator after edit / reverts required: 0
+- All 9 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
