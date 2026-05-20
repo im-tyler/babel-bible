@@ -1599,6 +1599,28 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: 3Blue1Brown / Strogatz analogous global-twisting level
 - **notes**: Chern classes for complex vector bundles, Pontryagin classes for real bundles via complexification, splitting principle, Whitney product formula, Chern-Weil representatives, and standard examples such as $T\mathbb{CP}^n$.
 
+### char-classes.hirzebruch-signature
+
+- **title**: Hirzebruch signature theorem
+- **unit**: `03.06.11`
+- **prerequisites**: `char-classes.pontryagin-chern.definitions`, `char-classes.chern-weil.homomorphism`, `topology.singular-cohomology`
+- **tier_anchors**:
+  - master: Hirzebruch 1956/1966 *Topological Methods in Algebraic Geometry* §8; Atiyah-Singer 1968 *Annals of Mathematics* 87, *Index of Elliptic Operators III*
+  - intermediate: Milnor-Stasheff §19; Bott-Tu §22
+  - beginner: Strogatz / 3Blue1Brown analogous bilinear-form and global-invariant pacing
+- **notes**: For a closed oriented smooth $4k$-manifold $M$, the cup-product intersection form on $H^{2k}(M; \mathbb{R})$ is symmetric and non-degenerate; its signature $\mathrm{sig}(M) = b_+(M) - b_-(M)$ equals the Pontryagin number $\langle L_k(p_1, \ldots, p_k), [M] \rangle$ where $L_k$ is the degree-$k$ component of the Hirzebruch multiplicative sequence associated to $Q(x) = \sqrt{x}/\tanh \sqrt{x}$. The first three $L$-polynomials are $L_1 = p_1/3$, $L_2 = (7 p_2 - p_1^2)/45$, $L_3 = (62 p_3 - 13 p_1 p_2 + 2 p_1^3)/945$. Proof structure: signature and Pontryagin numbers are both oriented bordism invariants, and the rational oriented bordism ring $\Omega_*^{\mathrm{SO}} \otimes \mathbb{Q}$ is a polynomial ring on $[\mathbb{CP}^{2k}]$; multiplicativity reduces the formula to verification on the projective-space generators where it is direct. Atiyah-Singer 1968 reformulates the theorem as the index identity for the signature operator $D^+ = d + d^\ast$. Canonical examples: $\mathrm{sig}(\mathbb{CP}^2) = 1$ with $p_1 = 3$; $\mathrm{sig}(K3) = -16$ with $p_1 = -48$; $\mathrm{sig}(\mathbb{CP}^4) = 1$ with $(p_1, p_2) = (5, 10)$; $\mathrm{sig}(\mathbb{HP}^2) = 1$ with $(p_1, p_2) = (2, 7)$.
+
+### char-classes.chern-character
+
+- **title**: Chern character $\mathrm{ch}(E)$ as a ring homomorphism
+- **unit**: `03.06.18`
+- **prerequisites**: `char-classes.pontryagin-chern.definitions`, `k-theory.vector-bundles`, `k-theory.adams-operations`, `bundle.complex-vector-bundle`
+- **tier_anchors**:
+  - master: Atiyah-Hirzebruch 1959 Bull. AMS 65, 276-281; Atiyah K-Theory §2-§3; Milnor-Stasheff §16
+  - intermediate: Bott-Tu §21; Atiyah K-Theory §2.4
+  - beginner: Bott-Tu §21 informal exposition; 3Blue1Brown / Strogatz analogous level
+- **notes**: The Chern character $\mathrm{ch}(E) = \sum_j e^{x_j}$ is a ring homomorphism from topological K-theory to rational even cohomology, additive on direct sums and multiplicative on tensor products via the splitting principle. The Atiyah-Hirzebruch theorem promotes the rationalisation $\mathrm{ch} \otimes \mathbb{Q} : K(X) \otimes \mathbb{Q} \to H^{\mathrm{even}}(X; \mathbb{Q})$ to a ring isomorphism on every finite CW complex. The Chern character is the universal coefficient appearing in Hirzebruch-Riemann-Roch and Atiyah-Singer, and is compatible with Adams operations via $\mathrm{ch}_n(\psi^k(x)) = k^n \mathrm{ch}_n(x)$.
+
 ### k-theory.classifying-spaces
 
 - **title**: Classifying space
@@ -3337,7 +3359,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
-### quantum.free-particle-e3
+### modern-geometry.quantum-free-particle-e3
 
 - **title**: Quantum free particle as a representation of E(3)
 - **unit**: `09.03.03`
@@ -3373,7 +3395,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
-### quantum.complex-structures-squeezed
+### modern-geometry.complex-structures-squeezed
 
 - **title**: Complex structures and quantization: squeezed states
 - **unit**: `09.04.07`
@@ -4313,7 +4335,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Biology (§17–19)
 
-### thermo.souriau-gibbs-state
+### symplectic.souriau-gibbs-state
 
 - **title**: Souriau Gibbs state on a symplectic G-space
 - **unit**: `11.04.02`
@@ -4840,3 +4862,86 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: Strogatz Ch. 3 (saddle-node, pitchfork, transcritical) — informal worked examples
 - **notes**: Pointer unit (per Codex pointer convention): names and sketches the main local-bifurcation taxonomy (saddle-node, transcritical, pitchfork, Hopf) plus the global-bifurcation landscape (homoclinic, heteroclinic), without producing the full proofs. Anchors downstream relativity / fluid-dynamics / MAPK-bistability content (e.g., `17.07.02` MAPK cascade) that cites bifurcation language.
 
+
+
+### char-classes.sw-pontryagin-numbers
+
+- **title**: Stiefel-Whitney and Pontryagin numbers
+- **unit**: `03.06.10`
+- **prerequisites**: `char-classes.stiefel-whitney`, `char-classes.pontryagin-chern.definitions`, `char-classes.chern-weil`, smooth-manifold, singular-homology
+- **tier_anchors**:
+  - master: Milnor-Stasheff 1974 §4 + §16 + §17 (canonical reference for both SW and Pontryagin numbers); Thom 1954 *Comment. Math. Helv.* 28 (originator — bordism-invariance + completeness for unoriented bordism); Hirzebruch 1956 *Topological Methods in Algebraic Geometry* §1.5 (Pontryagin numbers + signature theorem); Wall 1960 *Ann. Math.* 72 (integral oriented-bordism ring); Milnor 1956 *Ann. Math.* 64 (exotic 7-sphere via Pontryagin numbers); Stong 1968 *Notes on Cobordism Theory* Ch. III-IV
+  - intermediate: Milnor-Stasheff 1974 §4, §16; Hirzebruch 1956 §1.5
+  - beginner: Milnor-Stasheff 1974 §4 (informal level)
+- **notes**: For a closed manifold M^n, evaluate top-dimensional characteristic monomials (SW mod 2, Pontryagin in dim 4k) on the fundamental class [M]. SW numbers w_I[M] ∈ Z/2 are defined for any closed manifold (no orientation needed, since the mod-2 fundamental class is canonical); Pontryagin numbers p_I[M] ∈ Z require orientation + dim divisible by 4. Thom 1954: SW numbers are bordism invariants of unoriented bordism, and the SW-number map separates bordism classes — Ω^O_n is detected by SW numbers. Thom-Hirzebruch: rational Pontryagin numbers separate oriented-bordism classes after ⊗Q; the signature is a specific rational linear combination via Hirzebruch's L-genus, σ(M) = p_1/3 in dim 4. Worked examples: CP^2 with p_1 = 3, σ = 1; S^2 × S^2 with p_1 = 0, σ = 0; K3 with p_1 = -48, σ = -16; RP^2 with both SW numbers = 1 (not null-bordant). Master tier covers Thom's bordism-invariance proof via the boundary identity TW|_∂W = T(∂W) ⊕ R, and the Milnor exotic-7-sphere divisibility argument. Lean status: partial (theorems stated, sorry proof bodies pending bundled characteristic-class infrastructure in Mathlib).
+
+
+
+### quantum.time-dependent-perturbation-theory
+
+- **title**: Time-dependent perturbation theory and Fermi's golden rule
+- **unit**: `12.07.02`
+- **prerequisites**: `quantum-mechanics.time-independent-perturbation-theory`, `quantum-mechanics.schrodinger-heisenberg-pictures`, `quantum-mechanics.angular-momentum-operators-su2`
+- **tier_anchors**:
+  - master: Cohen-Tannoudji, Diu & Laloe, Quantum Mechanics, Vol. II (Wiley, 1977), Ch. XIII; Dirac 1927 Proc. Roy. Soc. A 114; Fermi 1950 Nuclear Physics
+  - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (2017), Ch. 5.6-5.8
+  - beginner: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (2018), Ch. 11 intro
+- **notes**: First-order amplitude expansion in the interaction picture, the squared-sinc lineshape for sinusoidal perturbations, the long-time limit producing the energy-conserving delta, and the rate formula $\Gamma_{i\to f} = (2\pi/\hbar) |V_{fi}|^2 \rho(E_f)$. The Master tier develops the Dyson series and its connection to the S-matrix in QFT (Dyson 1949 Phys. Rev. 75), the emergence of Fermi's golden rule from Dirac's 1927 paper and Wentzel's 1927 radiationless-transition calculation (with Fermi 1950 christening it the "golden rule"), the catalogue of physical applications (photoionisation cross-sections, beta decay via Fermi's 1934 four-fermion interaction, spontaneous emission and the Einstein A-coefficient, electron-phonon scattering, tunnel-junction conductance), and second-order Dyson with virtual transitions including Bethe's 1947 non-relativistic Lamb-shift calculation and the AC Stark shift. The Lean status is `none`: Mathlib has the unperturbed unitary exponential but lacks the time-ordered Dyson expansion, the operator-valued Volterra convergence, and the distributional long-time limit of the squared-sinc kernel.
+
+
+### char-classes.chern-simons-transgression
+
+- **title**: Chern-Simons forms and transgression
+- **unit**: `03.06.07`
+- **prerequisites**: `char-classes.pontryagin-chern.definitions`, `char-classes.chern-weil.homomorphism`, `bundle.vector-bundle`, `topology.de-rham-cohomology`
+- **tier_anchors**:
+  - master: Chern-Simons 1974 *Annals of Math.* (2) 99, 48-69; Freed 1995 *Adv. Math.* 113, 237-303; Kobayashi-Nomizu Vol. II Ch. XII §1-§3
+  - intermediate: Bott-Tu *Differential Forms in Algebraic Topology* §6 (transgression); Milnor-Stasheff Appendix C
+  - beginner: 3Blue1Brown / Strogatz analogous level for derivative-of-a-primitive pictures
+- **notes**: The Chern-Simons form `CS_P(omega)` of an Ad-invariant polynomial `P` of degree `k` and a connection `omega` is a `(2k-1)`-form on the principal bundle satisfying `d CS_P(omega) = P(Omega)` — the transgression d-cocycle identity. The construction realises Cartan's transgression in the Weil algebra at the bundle level. The Chern-Simons three-form `CS(A) = (1/8 pi^2) tr(A ∧ dA + (2/3) A^3)` for the second Chern polynomial is gauge-invariant modulo integers, yielding the integer-level Chern-Simons action functional whose path integral defines the Witten-Reshetikhin-Turaev 3-manifold and knot invariants. Higher Chern-Simons forms produce secondary characteristic classes on flat bundles in dimension `2k-1` with values in `H^{2k-1}(M; R/Z)`, the Cheeger-Simons differential characters; the same forms appear in the Atiyah-Patodi-Singer boundary correction (eta-invariant variation) and the Stora-Zumino descent equations for chiral gauge anomalies.
+
+### char-classes.steenrod-squares-wu
+
+- **title**: Steenrod squares and the Wu formula
+- **unit**: `03.06.14`
+- **prerequisites**: `char-classes.stiefel-whitney`, `topology.singular-homology`, `alg-top.singular-cohomology`
+- **tier_anchors**:
+  - master: Steenrod 1947 *Annals of Math.* 48 (originator of Sq^i); Steenrod-Epstein 1962 *Cohomology Operations* (Annals Studies 50, canonical monograph); Milnor-Stasheff 1974 §8 + §11; Wu 1950 *C. R. Acad. Sci. Paris* 230 (Wu formula); Milnor 1958 *Annals* 67 (Hopf-algebra structure of A_2)
+  - intermediate: Milnor-Stasheff §8 (Sq on Thom spaces) + §11 (Wu formula); Hatcher §4.L
+  - beginner: Hatcher *Algebraic Topology* §4.L informal opening; 3Blue1Brown / Strogatz analogous level for stable cohomology operations on a CW skeleton
+- **notes**: Steenrod squares `Sq^i : H^n(X; F_2) → H^{n+i}(X; F_2)` are the stable mod-2 cohomology operations characterised by Steenrod-Epstein axioms (naturality, additivity, Cartan formula, unstability, stability). They generate the mod-2 Steenrod algebra `A_2`, a graded cocommutative Hopf algebra over `F_2` whose dual is the polynomial algebra `F_2[xi_1, xi_2, ...]` with `|xi_i| = 2^i - 1` (Milnor 1958). The Wu formula `w(TM) = Sq(v)` expresses the total Stiefel-Whitney class of the tangent bundle of a closed smooth manifold as the total Steenrod square of the Wu class `v in H^*(M; F_2)`, where `v_i` is defined by the Poincaré-duality pairing condition `<Sq^i(u), [M]> = <v_i cup u, [M]>` for all `u in H^{n-i}(M; F_2)`. Stiefel-Whitney classes admit the Thom-Wu construction `Sq^i(u) = pi^*(w_i(E)) cup u` on the mod-2 Thom class `u`. The bordism application (Thom 1954) identifies `H^*(MO; F_2)` as a free `A_2`-module, recovering the unoriented bordism ring as a polynomial `F_2`-algebra.
+
+### char-classes.unoriented-bordism-thom
+
+- **title**: Unoriented bordism and Thom's theorem
+- **unit**: `03.06.12`
+- **prerequisites**: `char-classes.stiefel-whitney`, `bundle.vector-bundle`, `topology.singular-homology`
+- **tier_anchors**:
+  - master: Thom 1954 *Comment. Math. Helv.* 28, 17-86 *Quelques propriétés globales des variétés différentiables*; Milnor-Stasheff *Characteristic Classes* §17 (Pontryagin-Thom) + §18 (computation of N_*); Stong *Notes on Cobordism Theory* (Princeton, 1968); Pontryagin 1950 *Smooth manifolds and their applications in homotopy theory*; Dold 1956 *Math. Z.* 65, 25-35 (Dold manifolds as odd-dimensional generators)
+  - intermediate: Milnor-Stasheff §17–§18; Stong Ch. I–II; Hatcher *Algebraic Topology* §3.D for bordism overview
+  - beginner: Hatcher §3.D informal opening; pair-of-pants / disk-bounds-sphere pictures
+- **notes**: The unoriented bordism group `N_n` is the abelian group of closed smooth `n`-manifolds modulo the bordism relation `M ~ N <=> exists W^{n+1} with boundary M sqcup N`, with addition by disjoint union; every element has order 2 so `N_n` is an `F_2`-vector space. The graded ring `N_* = oplus N_n` carries the Cartesian-product multiplication. Bordism invariance of Stiefel-Whitney numbers (Pontryagin 1947; Thom 1954): if `M, N` are bordant then `<w_omega(TM), [M]_2> = <w_omega(TN), [N]_2>` in `F_2` for every partition `omega` of `n`. Proof: pull `w_omega(TW)` along boundary inclusions, then `d[W]_2 = [M]_2 + [N]_2` in `H_n(d W; F_2)` and Stokes-style relative pairing collapses to zero. Pontryagin-Thom construction (transversality + tubular neighbourhood) defines the Thom homomorphism `Phi : N_n -> pi_n(MO)` from the bordism group into the n-th homotopy group of the unoriented Thom spectrum. Thom's main theorem: `Phi` is a ring isomorphism `N_* ≅ pi_*(MO)`. Computation: Thom showed `H^*(MO; F_2)` is a free module over the mod-2 Steenrod algebra `A` on generators indexed by non-dyadic partitions; Adams spectral sequence collapses at `E_2`, yielding `N_* ≅ F_2[x_n : n >= 2, n + 1 != 2^k]` with one polynomial generator in every non-Mersenne dimension. Generators chosen as `[RP^{2k}]` for even dimensions and Dold manifolds `P(m,n) = (S^m x CP^n) / Z_2` for odd admissible dimensions (Dold 1956). Low-dimensional values: `N_0 = F_2`, `N_1 = 0`, `N_2 = F_2 <[RP^2]>`, `N_3 = 0`, `N_4 = F_2^2 <[RP^4], [RP^2 x RP^2]>`, `N_5 = F_2`, with `N_n = 0` exactly when `n in {1, 3, 7, 15, ...}`. The theorem is the historical model for every subsequent cobordism computation (Wall 1960 oriented, Quillen 1969 complex MU as universal formal group law) and the first nontrivial collapsing Adams spectral sequence.
+
+
+### inorg-chem.crystal-field-stabilization-spectrochemical-series
+
+- **title**: Crystal field stabilization energy and the spectrochemical series
+- **unit**: `16.04.02`
+- **prerequisites**: `inorganic-chemistry.crystal-field-octahedral` (16.03.02), `chemistry.coordination-chemistry` (16.04.01), `representation-theory.character` (07.01.03), `representation-theory.character-orthogonality` (07.01.04)
+- **tier_anchors**:
+  - master: Bethe 1929 *Annalen der Physik* 3 (originator); Van Vleck 1932 *Phys. Rev.* 41 (LFT extensions to magnetism); Jahn & Teller 1937 *Proc. Roy. Soc. A* 161 (J-T theorem); Tanabe & Sugano 1954 *J. Phys. Soc. Japan* 9 (term-energy diagrams); Schäffer & Jørgensen 1965 *Mol. Phys.* 9 (AOM); Schäffer 1968 *Struct. Bonding* 5 (AOM formal); Cotton-Wilkinson *Adv. Inorg. Chem.* 6th ed.; Bersuker 2010
+  - intermediate: Housecroft-Sharpe *Inorganic Chemistry* 5th ed. Ch. 19-21; Miessler-Fischer-Tarr 5th ed. Ch. 10-11; Atkins *Inorganic Chemistry* 7th ed. Ch. 20
+  - beginner: Atkins-Jones *Chemistry: Molecules, Matter, and Change* Ch. 16; Crash Course Chemistry coordination compounds + CFT
+- **notes**: Develops the CFSE formula $-0.4 n_{t_{2g}} \Delta_o + 0.6 n_{e_g} \Delta_o$ for octahedral d-electron configurations and proves the high-spin / low-spin crossover at $\Delta_o = P$ for $d^4$ through $d^7$. Includes the empirical spectrochemical series ordering, the sigma-donor / pi-donor / pi-acceptor classification due to Schäffer-Jørgensen, the angular overlap model (AOM) parameterisation $\Delta_o = 3 e_\sigma - 4 e_\pi$, the Jahn-Teller theorem with symmetric-square selection rule and application to $d^9$ Cu(II), the Laporte and spin selection rules for d-d transitions, the LMCT/MLCT distinction in charge-transfer spectra, and the Tanabe-Sugano diagram framework for assigning electronic spectra. The Master tier connects to bioinorganic metalloenzymes (heme spin-crossover), to lattice models of transition-metal solids (multi-orbital Hubbard), and to organic stereochemistry (Hückel-J-T in degenerate $\pi$ systems).
+
+
+### organismal-bio.cardiac-electrophysiology
+
+- **title**: Cardiac action potentials, pacemaker physiology, and the ECG
+- **unit**: `18.02.02`
+- **prerequisites**: `ode.phase-space-vector-field`, `ode.limit-cycle-lienard`, `ode.bifurcation-theory-pointer`
+- **tier_anchors**:
+  - master: Bers *Excitation-Contraction Coupling and Cardiac Contractile Force* (2nd ed., Kluwer 2001); Zipes-Jalife-Stevenson *Cardiac Electrophysiology: From Cell to Bedside* (7th ed., Elsevier 2017); Noble 1962 (*J. Physiol.* 160, 317-352) — first cardiac Purkinje HH-style model; DiFrancesco & Noble 1985 (*Phil. Trans. R. Soc. B* 307, 353-398) — funny current pacemaker model; Luo & Rudy 1991/1994 (*Circ. Res.*) — modern ventricular model; Beeler & Reuter 1977 (*J. Physiol.* 268, 177-210); Maltsev & Lakatta 2009 — coupled-clock pacemaker; Winfree 1987 — spiral and scroll-wave reentry
+  - intermediate: Boron & Boulpaep *Medical Physiology* (3rd ed., Elsevier 2017) Ch. 20-21; Klabunde *Cardiovascular Physiology Concepts* (3rd ed., Wolters Kluwer 2021) Chs. 2-4; Berne & Levy *Cardiovascular Physiology* (10th ed., Mosby 2008) Chs. 2-3
+  - beginner: Crash Course Anatomy & Physiology heart and cardiac conduction episodes; Khan Academy cardiovascular electrophysiology modules; Goldberger *Clinical Electrocardiography: A Simplified Approach* (9th ed., Elsevier 2017) — beginner-accessible ECG primer
+- **notes**: Deepens the §18.02 cardiovascular chapter at the cellular electrophysiology level above the organ-and-haemodynamics peer 18.02.01. Four Master sub-sections: (i) cardiac AP phases 0-4 and ion-channel basis (plateau as the defining feature; L-type Ca, delayed-rectifier K, contrast with neural HH); (ii) pacemaker cells with funny current $I_f$ and the coupled membrane-clock/Ca-clock model (DiFrancesco-Noble + Maltsev-Lakatta); (iii) conduction, gap junctions, and reentry as a limit-cycle phenomenon on the cardiac excitable medium (wavelength criterion, Winfree-Keener rotors, ventricular fibrillation as scroll-wave breakup); (iv) ECG genesis from cellular dipoles to body-surface vectorcardiography (Einthoven's triangle, twelve-lead axis determination, link to specific pathologies). The unit builds *above* the neural HH parent 17.09.02 without re-deriving it; cardiac contributions are the plateau, the funny current, gap-junction coupling, and the body-surface ECG. Lean status: none — Mathlib lacks conductance-based cardiac models, the bidomain PDE, and reentry-rotor stability theory.

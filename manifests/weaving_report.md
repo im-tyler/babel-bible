@@ -1063,3 +1063,65 @@ All eleven edited units re-validated against `scripts/validate_unit.py` after th
 - `02.12.08-lyapunov-stability-direct-method.md` — 26/27 (pre-existing concept_catalog_id)
 
 The six new shipped units (`03.08.12`, `08.10.03`, `19.03.01`, `14.04.01`, `19.02.05`, `17.07.02`) were each re-validated as a regression check; all retain 27/27. No new structural regressions introduced by Pass W. The remaining failures on edited receivers are pre-existing orchestrator-integration deferrals (concept_catalog_id registration, prerequisite-resolution back-fills), not weaving defects — the units' content and Connections sections are weaving-complete.
+
+## Cycle 5 chem-bio-phys lane Pass-W (2026-05-20)
+
+Pass-W weaver pass for Cycle 5's six chem/bio/phys-lane shipments:
+
+1. `content/17-mol-cell-bio/02-membranes/17.02.01-cell-membranes-structure.md` (DEEPENED to 11524w)
+2. `content/16-inorgchem/04-coordination/16.04.01-coordination-chemistry-geometries-isomerism.md` (DEEPENED to 9355w)
+3. `content/18-organismal-bio/05-nervous-system/18.05.01-nervous-system-gross-anatomy.md` (DEEPENED to 10444w)
+4. `content/12-quantum/07-perturbation/12.07.02-time-dependent-perturbation-theory-fermi-golden-rule.md` (NEW, 10259w)
+5. `content/18-organismal-bio/02-cardiovascular/18.02.02-cardiac-action-potentials-pacemaker.md` (NEW, 13441w)
+6. `content/16-inorgchem/04-coordination/16.04.02-crystal-field-stabilization-spectrochemical-series.md` (NEW, 11554w)
+
+### Reciprocal stitches made (1 total)
+
+- **08.10.03 (φ⁴ theory and the Dyson series) → 12.07.02 (time-dependent perturbation theory / Fermi golden rule).** Receiver: `content/08-stat-mech/10-qft/08.10.03-phi-4-theory-and-the-dyson-series.md`. The new bullet identifies the golden rule as the one-quantum, single-vertex non-relativistic precursor of the φ⁴-Dyson machinery: the same time-ordered exponential in the interaction picture, truncated at first order against a continuum density of final states, yields the golden-rule rate, while the QFT generalisation in 08.10.03 replaces single-particle matrix elements with spacetime-integrated interaction densities and Green's functions with Feynman propagators. Anchor phrasing: "the non-relativistic QM precursor of the Dyson machinery developed here". Validator: 27/27 maintained.
+
+### Stitches NOT made — peers in `status: draft`
+
+The dominant filtering result this pass is that nearly every peer cited by the six new units is itself still `status: draft`. Per criterion 1, draft peers do not receive stitches. The complete skip-by-draft list:
+
+- **17.02.01 (cell membranes)** cites: `17.01.01` (draft), `17.02.02` (draft), `17.07.01` (draft), `17.09.02` (draft), `17.03.01` (draft), `14.06.01` (draft), `11.04.01` (draft), `15.13.02` (proposed, not yet produced — file does not exist).
+- **16.04.01 (coordination geometries)** cites: `16.03.02` (draft), `16.02.01` (draft), `16.05.01` (draft), `16.06.01` (draft), `12.01.02` (draft), `07.01.03` (cross-lane, math §7).
+- **18.05.01 (nervous system gross anatomy)** cites: `17.09.01` (draft), `17.09.02` (draft), `17.07.01` (draft), `18.04.01` (draft), `18.04.02` (draft), `18.07.01` (draft), `18.02.01` (draft), `18.03.01` (draft), `18.08.01` (draft), `02.x.pending` (math §2, not yet specified).
+- **12.07.02 (time-dependent PT / golden rule)** cites: `12.07.01` (draft), `12.03.01` (math-lane collision-zone — `12-quantum/03-time-evolution/`, skip per criterion 3), `12.05.01` (draft), `08.10.03` (SHIPPED — stitched, see above).
+- **18.02.02 (cardiac action potentials)** cites: `17.09.02` (draft), `18.02.01` (draft), `18.04.02` (draft), `17.09.01` (draft), `02.12.14` (cross-lane, math §2), `02.12.17` (cross-lane, math §2), `02.12.01` (cross-lane, math §2).
+- **16.04.02 (crystal field stabilisation)** cites: `16.03.02` (draft), `16.04.01` (draft — this is one of the six new units actually deepened this cycle; per criterion-1 it is still `status: shipped`, but we do not edit the six new units themselves per hard requirement 3), `16.06.01` (draft), `16.02.01` (draft), `14.04.01` (draft), `12.01.02` (draft), `16.05.01` (draft).
+
+Note on `16.04.01` ↔ `16.04.02`: both are this cycle's shipments. They already cite each other in their Connections sections (16.04.01 has the forward hook to crystal-field-splitting and CFSE downstream; 16.04.02 has the back-pointer to 16.04.01 as the structural parent). No reciprocal Pass-W stitch needed — both sides are already woven.
+
+### Cross-lane stitches recommended for math-lane (NOT made by this pass)
+
+Math-lane owns these peer files. Pass-W flags them for the orchestrator to relay if desired:
+
+- **`content/07-representation-theory/01-foundations/07.01.03-character.md` ← 16.04.01.** Recommended one-sentence stitch: "**Coordination chemistry: geometries and isomerism [16.04.01].** Burnside's lemma applied to the rotation subgroup of $O_h$ generates the Werner isomer counts for MA$_n$B$_{6-n}$ octahedral coordination compounds, a clean chemistry-domain test of the orbit-counting machinery; the chirality discrimination uses the sign of the rotation-subgroup quotient."
+
+- **`content/02-analysis/12-ode/02.12.01-phase-space-vector-field-integral-curve.md` ← 18.02.02.** Recommended stitch: "**Cardiac action potentials and pacemaker dynamics [18.02.02].** The conductance-based cardiac model is a multi-dimensional autonomous flow on $\mathbb{R}^N$ (one voltage, several gating variables, ion concentrations) whose action-potential trajectory and pacemaker limit cycle are exactly the integral-curve and closed-orbit objects of this unit applied to a biophysically detailed vector field."
+
+- **`content/02-analysis/12-ode/02.12.14-limit-cycle-and-lienard-van-der-pol-systems.md` ← 18.02.02.** Recommended stitch: "**Cardiac action potentials and pacemaker dynamics [18.02.02].** The SA-node and AV-node pacemaker oscillation is a relaxation limit cycle that reduces to a Liénard / Van-der-Pol-type two-time-scale system in the singular limit of fast membrane gating against slow calcium dynamics; the coupled-clock pacemaker model is a biological flagship case of the Liénard framework developed here."
+
+- **`content/02-analysis/12-ode/02.12.17-bifurcation-theory-pointer.md` ← 18.02.02.** Recommended stitch: "**Cardiac action potentials and pacemaker dynamics [18.02.02].** Hopf bifurcation at the cellular level (sinus arrest, early afterdepolarisations from $I_{Kr}$ block) and at the tissue restitution level (alternans-driven wavefront break-up) is the load-bearing mechanism for clinically significant arrhythmia transitions — one of the most consequential biological applications of bifurcation taxonomy."
+
+- (Skipped: 18.05.01's `02.x.pending` placeholder. The cited target — stochastic graph models / Watts-Strogatz small-world — is not yet a unit ID. No file to recommend stitching.)
+
+### Anomalies
+
+- **`15.13.02` (ion channels and pharmacology) cited by 17.02.01 but file does not exist.** This is an explicit forward pointer to a proposed-not-yet-produced chemistry §15 unit. No action.
+- **`02.x.pending` cited by 18.05.01.** Explicit placeholder for a math-§2 stochastic-graphs unit not yet specified. No action.
+- **`12.03.01` (Schrödinger and Heisenberg pictures) cited by 12.07.02.** Falls inside the math-lane §2 collision-zone (`content/12-quantum/03-time-evolution/`) and is correctly skipped per criterion 3.
+
+### Reverts / regressions
+
+None. The single stitch made (08.10.03) maintains 27/27.
+
+### Pass-W summary numbers
+
+- New / deepened units processed: 6
+- Unique peer IDs cited (deduplicated): 22 (excluding self-references between the six new units)
+- Peers found as files: 21 (15.13.02 does not exist; 02.x.pending is a placeholder)
+- Peers eligible for stitching (shipped + in-lane + not collision-zone + not duplicate): **1** (08.10.03)
+- Stitches made: **1**
+- Cross-lane recommendations flagged for math-lane: 4 (one for 16.04.01 → 07.01.03; three for 18.02.02 → 02.12.01 / 02.12.14 / 02.12.17)
+- Files with broken validator after edit / reverts required: 0

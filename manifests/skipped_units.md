@@ -24,16 +24,16 @@
 
 ## 2026-05-18 — T2 session (GLM 5.1)
 
-- **03.06.07**: Chern-Simons / transgression form. Reason: characteristic-classes cluster flagged §18.2 skip (Brylinski gerbe/Chern-Weil advanced); reassign to T1 producer.
-- **03.06.10**: Stiefel-Whitney and Pontryagin numbers. Reason: characteristic-classes advanced; T2 cannot reliably reproduce Thom's bordism arguments.
-- **03.06.11**: Hirzebruch signature theorem (master-tier rewrite). Reason: characteristic-classes advanced; multiplicative-sequence proof requires T1.
-- **03.06.12**: Unoriented bordism and Thom's theorem. Reason: characteristic-classes advanced; bordism exact-sequence arguments.
+- ~~**03.06.07**: Chern-Simons / transgression form. Reason: characteristic-classes cluster flagged §18.2 skip (Brylinski gerbe/Chern-Weil advanced); reassign to T1 producer.~~ **PRODUCED 2026-05-20 by Claude Opus 4.7 at 27/27 (Cycle 5 math T1, characteristic-classes T1 cluster; transgression d-cocycle identity, gauge-variation integrality, TQFT pointer to Witten 1989; Lean stub at `lean/Codex/Modern/CharClasses/ChernSimonsTransgression.lean`).**
+- ~~**03.06.10**: Stiefel-Whitney and Pontryagin numbers. Reason: characteristic-classes advanced; T2 cannot reliably reproduce Thom's bordism arguments.~~ — shipped 2026-05-20 (Cycle 5 math T1, Opus 4.7); 27/27.
+- ~~**03.06.11**: Hirzebruch signature theorem (master-tier rewrite). Reason: characteristic-classes advanced; multiplicative-sequence proof requires T1.~~ **PRODUCED 2026-05-20 by Claude Opus 4.7 (1M context) at 27/27 (Cycle 5 math T1, characteristic-classes cluster, Lean partial module `Codex.Modern.CharClasses.HirzebruchSignature`).**
+- ~~**03.06.12**: Unoriented bordism and Thom's theorem. Reason: characteristic-classes advanced; bordism exact-sequence arguments.~~ **PRODUCED 2026-05-20 by Claude Opus 4.7 (1M context) at 27/27 (Cycle 5 math T1, characteristic-classes cluster, ~6672 words, Lean partial module `Codex.Modern.CharClasses.UnorientedBordismThom`).**
 - **03.06.13**: Oriented bordism and Pontryagin-Thom. Reason: characteristic-classes advanced; Pontryagin-Thom construction.
-- **03.06.14**: Steenrod squares and the Wu formula. Reason: characteristic-classes advanced.
+- ~~**03.06.14**: Steenrod squares and the Wu formula. Reason: characteristic-classes advanced.~~ **PRODUCED 2026-05-20 by Claude Opus 4.7 (1M context) at 27/27 — closes Cycle-3 pending_approvals item Q (Milnor-Stasheff P0 cross-plan dependency).**
 - **03.06.15**: Multiplicative sequences and the L-, A-, Todd genera. Reason: characteristic-classes advanced; Hirzebruch multiplicative-sequence proofs.
 - **03.06.16**: Whitney duality and immersion obstructions. Reason: characteristic-classes advanced.
 - **03.06.17**: Combinatorial Pontryagin classes and exotic 7-spheres. Reason: characteristic-classes advanced; Milnor exotic-sphere construction.
-- **03.06.18**: Chern character ch(E) as a ring homomorphism. Reason: characteristic-classes advanced.
+- ~~**03.06.18**: Chern character ch(E) as a ring homomorphism. Reason: characteristic-classes advanced.~~ **PRODUCED 2026-05-20 by Claude Opus 4.7 at 27/27 (Cycle 5 Track A math T1 frontier, characteristic-classes cluster).**
 - **03.06.19**: Signature of a 4k-manifold and the intersection form. Reason: characteristic-classes advanced.
 - **03.06.20**: Borel-Hirzebruch and the cohomology of G/T. Reason: characteristic-classes advanced.
 - **03.06.23**: Modularity of the elliptic genus. Reason: characteristic-classes advanced; elliptic genus proofs.
