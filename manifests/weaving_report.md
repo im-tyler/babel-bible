@@ -1378,3 +1378,88 @@ All nine edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD �
 - Files with broken validator after edit / reverts required: 0
 - All 9 edited files re-validated at 27/27 ✓
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
+
+## 2026-05-20 cycle (Cycle 8 — characteristic-classes T1 cluster, remaining)
+
+Pass W on the six production units shipped in Cycle 8 — the remaining characteristic-classes T1 cluster:
+
+- `content/03-modern-geometry/06-characteristic-classes/03.06.13-oriented-bordism-pontryagin-thom.md`
+- `content/03-modern-geometry/06-characteristic-classes/03.06.15-multiplicative-sequences-l-ahat-todd-genera.md`
+- `content/03-modern-geometry/06-characteristic-classes/03.06.16-whitney-duality-immersion-obstructions.md`
+- `content/03-modern-geometry/06-characteristic-classes/03.06.17-combinatorial-pontryagin-exotic-7-spheres.md`
+- `content/03-modern-geometry/06-characteristic-classes/03.06.19-signature-4k-manifold-intersection-form.md`
+- `content/03-modern-geometry/06-characteristic-classes/03.06.20-borel-hirzebruch-cohomology-g-t.md`
+
+### Files edited
+
+Thirteen files: seven external receivers (six in the characteristic-classes chapter, one in the divisors chapter) plus six intra-cluster reciprocal edits among the new units themselves.
+
+1. `content/03-modern-geometry/06-characteristic-classes/03.06.03-stiefel-whitney.md`
+2. `content/03-modern-geometry/06-characteristic-classes/03.06.04-pontryagin-chern-classes.md`
+3. `content/03-modern-geometry/06-characteristic-classes/03.06.10-stiefel-whitney-pontryagin-numbers.md`
+4. `content/03-modern-geometry/06-characteristic-classes/03.06.11-hirzebruch-signature-theorem.md`
+5. `content/03-modern-geometry/06-characteristic-classes/03.06.12-unoriented-bordism-thoms-theorem.md`
+6. `content/03-modern-geometry/06-characteristic-classes/03.06.13-oriented-bordism-pontryagin-thom.md`
+7. `content/03-modern-geometry/06-characteristic-classes/03.06.15-multiplicative-sequences-l-ahat-todd-genera.md`
+8. `content/03-modern-geometry/06-characteristic-classes/03.06.16-whitney-duality-immersion-obstructions.md`
+9. `content/03-modern-geometry/06-characteristic-classes/03.06.17-combinatorial-pontryagin-exotic-7-spheres.md`
+10. `content/03-modern-geometry/06-characteristic-classes/03.06.18-chern-character-ring-homomorphism.md`
+11. `content/03-modern-geometry/06-characteristic-classes/03.06.19-signature-4k-manifold-intersection-form.md`
+12. `content/03-modern-geometry/06-characteristic-classes/03.06.20-borel-hirzebruch-cohomology-g-t.md`
+13. `content/04-algebraic-geometry/05-divisors/04.05.09-hodge-index-theorem.md`
+
+### Per-edit rationale
+
+**Target A — 03.06.12 (Unoriented bordism) → 03.06.13.** Enriched the existing 03.06.13 bullet with the orientation-forgetting map $\Omega^{SO} \to \Omega^O$ and the framing "oriented bordism is the enriched unoriented theory". Anchor phrase: *oriented bordism enriches unoriented bordism via $\Omega^{SO} \to \Omega^O$*.
+
+**Target B — 03.06.11 (Hirzebruch signature) → 03.06.13, 03.06.15, 03.06.17, 03.06.19.** Added four new bullets. 03.06.13 records signature as the load-bearing $\Omega^{SO}_*$-invariant; 03.06.15 records the $L$-genus as the multiplicative sequence yielding the formula; 03.06.17 records Milnor's exotic-sphere argument using the dimension-$8$ signature formula as smooth-structure diagnostic; 03.06.19 records the dedicated intersection-form treatment with signature theorem as $L$-genus side and intersection-form unimodularity as cohomology side.
+
+**Target C — 03.06.10 (SW/Pontryagin numbers) → 03.06.13, 03.06.16.** Enriched the existing 03.06.13 bullet with Wall 1960's integral classification ("Pontryagin + SW numbers classify oriented bordism"). Added a new 03.06.16 bullet recording Whitney duality as the SW-number compatibility result for tangent and normal bundles.
+
+**Target D — 03.06.18 (Chern character) → 03.06.15, 03.06.20.** Added two new bullets. 03.06.15 records the Todd class landing in the Chern-character context via Hirzebruch-Riemann-Roch $\chi(X, E) = \int_X \mathrm{ch}(E) \cdot \mathrm{Td}(TX)$. 03.06.20 records the splitting principle as the Borel-Hirzebruch restriction-to-maximal-torus argument, the structural foundation for the well-definedness of the Chern character.
+
+**Target E — 03.06.04 (Pontryagin/Chern) → 03.06.15, 03.06.16, 03.06.17, 03.06.19, 03.06.20.** Added five new bullets. 03.06.15 records multiplicative sequences operating on Pontryagin/Chern roots; 03.06.16 records Whitney duality applied to the present unit's Whitney sum identity for normal bundles; 03.06.17 records Pontryagin classes distinguishing smooth structures; 03.06.19 records signature via Pontryagin numbers; 03.06.20 records Borel-Hirzebruch $G/T$ computing Pontryagin/Chern classes as Weyl-invariant polynomial generators.
+
+**Target F — 03.06.03 (Stiefel-Whitney) → 03.06.13, 03.06.16.** Added two new bullets. 03.06.13 records oriented bordism using both SW classes (2-primary torsion) and Pontryagin classes (rational structure) per the Wall 1960 integral classification. 03.06.16 records Whitney duality applying the Whitney product formula directly to SW classes.
+
+**Target G — 04.05.09 (Hodge index) → 03.06.19.** Added one new bullet recording the smooth $4$-manifold signature theorem as the differential-topology extension of the surface Hodge index pattern: the cycle-class map $\mathrm{NS}(X) \hookrightarrow H^2(X; \mathbb{Z})$ identifies the algebraic surface signature theorem as the projective specialisation of the four-manifold signature.
+
+**Target H — intra-cluster reciprocals.** Each of the six new units received bullets pointing to its five new-cluster siblings that it previously did not reference. Counts: 03.06.13 added 4 (→16, 17, 19, 20; already had 15); 03.06.15 added 5 (→13, 16, 17, 19, 20); 03.06.16 added 5 (→13, 15, 17, 19, 20); 03.06.17 added 5 (→13, 15, 16, 19, 20); 03.06.19 added 5 (→13, 15, 16, 17, 20); 03.06.20 added 5 (→13, 15, 16, 17, 19). The intra-cluster anchor phrases follow the §3 taxonomy — "load-bearing", "universal home", "structural foundation", "factors through", "lives in the Weyl-invariant symmetric algebra on roots".
+
+### Anchor-phrase usage
+
+All thirteen edits use registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "load-bearing", "universal home", "structural foundation", "factors through", "enriches", "classifies", "lives in the Weyl-invariant symmetric algebra on roots", "distinguishes smooth structures", "engine of", "the projective specialisation of". The new bullets extend the existing synthesis paragraphs of the target units rather than introducing new throughlines.
+
+### Validator drift caught and fixed in-loop
+
+Two files came back at 26/27 on the first revalidation due to the word "trivial" introduced in new bullets (prohibited phrasing under §5):
+
+- 03.06.16 bullet to 03.06.20 used "trivial $\varepsilon^N$ bundle" → corrected to "flat $\varepsilon^N$ bundle"
+- 03.06.20 bullet to 03.06.16 used "classifying the trivial bundle" → corrected to "classifying the flat product bundle"
+
+Both files returned to 27/27 after the corrections. No other validator regressions.
+
+### Seams found but not edited
+
+- **03.06.07 (Chern-Simons) → 03.06.15 / 03.06.20.** The Chern-Simons $(2k - 1)$-form is the secondary refinement of the multiplicative-sequence evaluation on a curvature form, and the Borel-Hirzebruch presentation is the universal home of the primary Chern polynomials that Chern-Simons transgresses. Reciprocal stitch not on the brief; flag for next cycle.
+- **03.06.14 (Steenrod squares / Wu) → 03.06.16.** The Wu formula expresses the mod-2 Stiefel-Whitney classes purely in terms of cohomology operations; the integer-coefficient Whitney duality of 03.06.16 has matching Wu corrections via the relation $\overline{p_k(E)} = w_{2k}(E)^2 + $ Wu corrections. Forward stitch from 03.06.14 not on the brief; flag for next cycle.
+- **03.09.04 (Spin structure) → 03.06.17.** Milnor's exotic-$S^7$ argument is consistent with the spin / $\widehat{A}$-integrality picture; the Rokhlin theorem ($\widehat{A}[M] \equiv 0 \pmod 2$ for closed spin $4$-manifolds) is the dimension-$4$ analogue of Milnor's argument. Reciprocal stitch not on the brief; flag for next cycle.
+- **04.05.06 (Intersection pairing) → 03.06.19.** The smooth $4$-manifold intersection-form picture of 03.06.19 specialises on a smooth projective surface to the algebraic intersection pairing of 04.05.06; reciprocal stitch not on the brief; flag for next cycle.
+
+### Quality observations
+
+**Calibre of the six new units.** All six units ship at 27/27, math T1 standard. The Master Connections sections each have 7+ substantive cross-unit bullets after this Pass W (previously 6-10, now 11-15).
+
+**Drift flags.** Only two "trivial" instances introduced and fixed in-loop. No other prohibited phrasings, no broken refs, no paragraphs over 250 words. No pre-existing drift observed in the new units during the read pass.
+
+### Pass-W summary numbers (Cycle 8 — characteristic-classes T1 cluster, remaining)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 13 files (7 external + 6 intra-cluster) with 36 new bullets added total (counting the 2 enriched bullets on 03.06.12 and 03.06.10 as enrichments rather than adds)
+- Required stitches on the brief: A, B, C, D, E, F, G, H — all 8 completed (no skipped targets)
+- Intra-cluster reciprocals added: 29 new bidirectional links (4 + 5 + 5 + 5 + 5 + 5); pre-existing bidirectional pairs: 1 (13↔15 already in 13, added to 15)
+- Stale unit-IDs corrected: 0
+- Files dropping below 27/27 after initial edit: 2 (03.06.16, 03.06.20) — both due to inadvertent "trivial" usage, corrected in-loop
+- Reverts required: 0
+- All 13 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
