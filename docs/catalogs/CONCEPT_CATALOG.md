@@ -1649,6 +1649,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: visual periodic-pattern account analogous to 3Blue1Brown / Strogatz pacing
 - **notes**: Complex K-theory has period $2$ and real K-theory has period $8$. The unit treats the classifying-space form, coefficient tables, Bott elements, Clifford-module source of real periodicity, and the role of Bott periodicity in the topological index.
 
+### k-theory.adams-operations
+
+- **title**: Adams operations $\psi^k$ on K-theory
+- **unit**: `03.08.02`
+- **prerequisites**: `k-theory.vector-bundles`, `char-classes.pontryagin-chern.definitions`
+- **tier_anchors**:
+  - master: Atiyah *K-Theory* Ch. III; Karoubi *K-Theory: An Introduction* Ch. IV; Adams 1962 *Vector fields on spheres* (Annals of Math. 75); Atiyah 1966 *Power operations in K-theory* (Quart. J. Math. 17)
+  - intermediate: Atiyah *K-Theory* §3; Husemoller *Fibre Bundles* §15
+  - beginner: raising bundles to powers by analogy with raising numbers to powers (3Blue1Brown / Strogatz pacing)
+- **notes**: $\psi^k$ as ring homomorphisms on $K(X)$; Newton-power-sum interpretation via $\lambda$-ring structure; the Adams 1962 application — non-existence of $H$-space structures on $S^{2n-1}$ beyond $n=1, 2, 4$ — and Adams' theorem on vector fields on spheres, which Atiyah-Singer-style index theory recovers through Real K-theory.
+
 ### topology.kr-theory
 
 - **title**: KR-theory (K-theory with reality)
@@ -4780,4 +4791,52 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Maynard Smith & Szathmary The Major Transitions in Evolution Ch. 1-4; Hazen Genesis Ch. 5-10
   - beginner: Coyne Why Evolution Is True Ch. 1; Lane The Vital Question; Crash Course Biology origin of life episodes
 - **notes**: (to be filled during production)
+
+
+### ode.lyapunov-stability
+
+- **title**: Lyapunov stability — direct method
+- **unit**: `02.12.08`
+- **prerequisites**: `analysis.implicit-inverse-function-theorems`, `analysis.normed-vector-space`
+- **tier_anchors**:
+  - master: Lyapunov 1892 *The General Problem of the Stability of Motion* (Kharkov PhD thesis; English transl. Taylor & Francis 1992 — originator); LaSalle 1960 *Some extensions of Liapunov's second method* (IRE Trans. CT-7 — invariance principle); Krasovskii 1959 *Stability of Motion*; Hahn 1967 *Stability of Motion*; Arnold *ODE* Ch. 5 §23
+  - intermediate: Arnold *ODE* Ch. 5 §22-§23; Hirsch-Smale-Devaney Ch. 9; Khalil *Nonlinear Systems* Ch. 4
+  - beginner: Strogatz *Nonlinear Dynamics* Ch. 6 §6.5 (energy-function picture for pendulum-type mechanical systems)
+- **notes**: Lyapunov-function characterisation of asymptotic stability of equilibria of $\dot x = f(x)$. $V$ positive definite with $\dot V < 0$ along trajectories implies stability; LaSalle's invariance principle generalises to limit-set arguments when $\dot V \leq 0$. Direct method recovers Hamiltonian-energy intuition without integrating the ODE.
+
+
+### ode.rectification-theorem
+
+- **title**: Rectification theorem (flow box theorem)
+- **unit**: `02.12.05`
+- **prerequisites**: `ode.phase-space-vector-field`, `ode.phase-flow`
+- **tier_anchors**:
+  - master: Arnold *ODE* §7 (originator-style treatment); Hartman *ODE* Ch. 5; Hirsch-Smale-Devaney Ch. 8
+  - intermediate: Arnold *ODE* §7; Hirsch-Smale-Devaney Ch. 8
+  - beginner: visual flow-box / parallel-flow picture
+- **notes**: Near any non-equilibrium point, a smooth vector field is conjugate to the constant field $\partial / \partial x_1$ via a local diffeomorphism. Local normal-form result; equilibria are the only obstruction. Foundation for the qualitative theory of ODE.
+
+
+### ode.variation-of-constants
+
+- **title**: Variation of constants — inhomogeneous linear ODE
+- **unit**: `02.12.13`
+- **prerequisites**: `ode.phase-space-vector-field`
+- **tier_anchors**:
+  - master: Arnold *ODE* §15; Coddington-Levinson *Theory of Ordinary Differential Equations* Ch. 3; Hartman *ODE* Ch. 4
+  - intermediate: Arnold *ODE* §15; Tenenbaum-Pollard Ch. 12
+  - beginner: standard first-course-ODE textbook treatment
+- **notes**: Lagrange's method (1774): for the inhomogeneous linear ODE $\dot x = A(t) x + f(t)$, write the solution as $x(t) = \Phi(t) c(t)$ where $\Phi$ is the fundamental matrix of the homogeneous problem; solve for $c(t)$ via integration of $\Phi^{-1} f$. Recovers Duhamel's principle and the convolution formula in the constant-coefficient case.
+
+
+### ode.bifurcation-theory-pointer
+
+- **title**: Bifurcation theory (pointer)
+- **unit**: `02.12.17`
+- **prerequisites**: `ode.phase-flow`, `ode.lyapunov-stability`
+- **tier_anchors**:
+  - master: Guckenheimer-Holmes *Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*; Arnold *Geometrical Methods in the Theory of Ordinary Differential Equations*; Kuznetsov *Elements of Applied Bifurcation Theory*
+  - intermediate: Strogatz *Nonlinear Dynamics and Chaos* Ch. 3 + Ch. 8; Hirsch-Smale-Devaney Ch. 8
+  - beginner: Strogatz Ch. 3 (saddle-node, pitchfork, transcritical) — informal worked examples
+- **notes**: Pointer unit (per Codex pointer convention): names and sketches the main local-bifurcation taxonomy (saddle-node, transcritical, pitchfork, Hopf) plus the global-bifurcation landscape (homoclinic, heteroclinic), without producing the full proofs. Anchors downstream relativity / fluid-dynamics / MAPK-bistability content (e.g., `17.07.02` MAPK cascade) that cites bifurcation language.
 

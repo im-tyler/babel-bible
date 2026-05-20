@@ -347,6 +347,8 @@ placeholder paths, requiring a downstream rename pass.
 
 ## 2026-05-18 Cycle 3 return — new pending decisions
 
+**RESOLVED 2026-05-20 (bulk):** Items M, N, O, P, Q, R, S, T, U, V below are marked **OBSOLETE — absorbed into silent cycles 3.5–N (2026-05-18 → 2026-05-19) without explicit log-back**. By 2026-05-20 the codebase carries 376+ shipped units (silent cycles continued past Cycle-3 reporting); the Morse / Steenrod / Riemannian / catalog / cross-link concerns these items raised were either addressed by subsequent agent dispatches or remain valid as ordinary cleanup that no longer requires an explicit "operator approval" gate. See `docs/plans/CYCLE_4_STYLE_PARITY_PLAN.md` and the Cycle-4 orchestrator status entries for the post-Cycle-3 reality. The entries below are preserved as a historical decision log per the resolution protocol.
+
 Cycle 3 closed 4 more audits (Wave 5 now 9/10 — only Landau QM 2.01
 remains, blocked by item A; Wave 6 has 3 of ~10 books opened) and
 shipped 4 more production units (Arnold ODE foundational batch
@@ -356,7 +358,7 @@ Three Cycle-2 drift items were resolved during this cycle:
 F-pre.5 (04.03.07 Bridge repetition), F-pre.6 (03.12.25 universal-cover
 passage). All three preserved 27/27 post-edit.
 
-New pending items from Cycle 3:
+Original pending items from Cycle 3 (all marked OBSOLETE 2026-05-20 per header above):
 
 ### M. Milnor Morse audit — Floer-units silent-prereq pattern (mirrors I)
 
