@@ -1125,3 +1125,93 @@ None. The single stitch made (08.10.03) maintains 27/27.
 - Stitches made: **1**
 - Cross-lane recommendations flagged for math-lane: 4 (one for 16.04.01 → 07.01.03; three for 18.02.02 → 02.12.01 / 02.12.14 / 02.12.17)
 - Files with broken validator after edit / reverts required: 0
+
+## Cycle 5 math lane Pass-W (2026-05-20) — characteristic-classes T1 cluster
+
+Pass-W weaver pass for Cycle 5's six math-lane shipments, the characteristic-classes T1 frontier batch in `content/03-modern-geometry/06-characteristic-classes/`:
+
+1. `content/03-modern-geometry/06-characteristic-classes/03.06.07-chern-simons-and-transgression.md`
+2. `content/03-modern-geometry/06-characteristic-classes/03.06.10-stiefel-whitney-pontryagin-numbers.md`
+3. `content/03-modern-geometry/06-characteristic-classes/03.06.11-hirzebruch-signature-theorem.md`
+4. `content/03-modern-geometry/06-characteristic-classes/03.06.12-unoriented-bordism-thoms-theorem.md`
+5. `content/03-modern-geometry/06-characteristic-classes/03.06.14-steenrod-squares-and-wu-formula.md`
+6. `content/03-modern-geometry/06-characteristic-classes/03.06.18-chern-character-ring-homomorphism.md`
+
+The six new units shipped with substantive Master Connections sections already pointing to every load-bearing peer in the characteristic-classes chapter, the K-theory chapter, and the homotopy chapter. The Pass-W task this cycle is the reciprocal-pointer stitch: every previously-shipped peer that the new units invoke needs an outbound Connections-section bullet to the new arrival, so the cross-references are bidirectional and the seam-stitching is symmetric.
+
+### Files edited
+
+Nine files. The intra-cluster stitches required one edit (03.06.07 was missing the reciprocal bullet to 03.06.18); the other intra-cluster reciprocals (03.06.10 ↔ 03.06.11, 03.06.10 ↔ 03.06.12, 03.06.14 ↔ 03.06.03) were already present in the new units' Connections sections at production time. The remaining eight edits are reciprocal-pointer additions in pre-cycle peers.
+
+1. `content/03-modern-geometry/06-characteristic-classes/03.06.07-chern-simons-and-transgression.md`
+2. `content/03-modern-geometry/06-characteristic-classes/03.06.04-pontryagin-chern-classes.md`
+3. `content/03-modern-geometry/06-characteristic-classes/03.06.03-stiefel-whitney.md`
+4. `content/03-modern-geometry/06-characteristic-classes/03.06.06-chern-weil-homomorphism.md`
+5. `content/03-modern-geometry/08-k-theory/03.08.01-topological-k-theory.md`
+6. `content/03-modern-geometry/08-k-theory/03.08.02-adams-operations-psi-k.md`
+7. `content/03-modern-geometry/08-k-theory/03.08.07-bott-periodicity.md`
+8. `content/03-modern-geometry/12-homotopy/03.12.11-singular-homology.md`
+9. `content/03-modern-geometry/12-homotopy/03.12.15-eilenberg-steenrod.md`
+
+### Per-edit rationale
+
+**1. 03.06.07 (Chern-Simons forms and transgression) → 03.06.18.** Added a Connections bullet identifying the Chern character of [03.06.18] as the formal-exponential combinator whose degree-by-degree transgressions are exactly the Chern-Simons tower constructed here: the degree-$(2k-1)$ Chern-Simons form is the bundle-level primitive of $\mathrm{ch}_k(E) = \tfrac{1}{k!}\sum_j x_j^k$. Anchor phrase: *the secondary tower of the Chern character is the Chern-Simons tower*. Closes the only intra-cluster reciprocal that was missing at production time.
+
+**2. 03.06.04 (Pontryagin and Chern classes) → 03.06.07, 03.06.10, 03.06.18.** Added three Connections bullets to the foundational unit of the chapter: (a) 03.06.07 — Chern-Simons as the explicit transgression primitive of the Chern forms produced here, with the $\mathbb{R}/\mathbb{Z}$-valued invariants descending from the present unit; (b) 03.06.10 — Pontryagin and SW numbers as the numerical-invariant downstream specialisation of the present unit's classes via integration against the fundamental class; (c) 03.06.18 — Chern character as the formal exponential of the Chern roots supplied here, with the Newton-Girard identities providing the explicit rational-polynomial $\mathrm{ch}_k(c_1, \ldots, c_k)$. Stitches the three load-bearing forward-reference directions of the foundational chapter unit.
+
+**3. 03.06.03 (Stiefel-Whitney classes) → 03.06.10, 03.06.12, 03.06.14.** Added three Connections bullets to the SW-class foundational unit: (a) 03.06.10 — SW numbers as numerical evaluations against $[M]_2$; (b) 03.06.12 — Thom's classification of unoriented bordism via SW numbers; (c) 03.06.14 — Steenrod squares + the Wu formula $w(TM) = \mathrm{Sq}(v)$ as the cohomology-operation engine that defines the present unit's classes via the Thom-isomorphism construction. The pre-cycle 03.06.03 Connections section was extremely sparse (five short bullets); the three new bullets triple its information density and stitch the present unit into the bordism and Steenrod-algebra programmes that depend on it.
+
+**4. 03.06.06 (Chern-Weil homomorphism) → 03.06.07, 03.06.18.** Added two Connections bullets to the Chern-Weil foundational unit: (a) 03.06.07 — Chern-Simons as the secondary characteristic-class story, with the transgression formula $d\mathrm{CS}_P(\omega) = P(\Omega)$ identified as the bundle-level evaluation of the Weil-algebra transgression; (b) 03.06.18 — Chern character as the Chern-Weil image of the invariant polynomial $\mathrm{tr}\,e^{F/2\pi i}$, with multiplicativity under tensor and additivity under direct sum following from block-diagonal curvature on the respective constructions. Anchor phrases: *the secondary characteristic-class story of Chern-Weil*; *the Chern-Weil image of the exponential invariant polynomial*.
+
+**5. 03.08.01 (Topological K-theory) → 03.06.18.** Added a Connections bullet identifying the Chern character of [03.06.18] as the explicit comparison map producing the rational isomorphism $K(X) \otimes \mathbb{Q} \cong H^{\mathrm{even}}(X; \mathbb{Q})$, with integral discrepancies controlled by the Atiyah-Hirzebruch spectral sequence. The pre-cycle 03.08.01 Connections section referenced the Chern character only through 03.06.04 (Pontryagin and Chern classes); the new bullet routes the reference through the dedicated Chern-character unit. Anchor phrase: *the rational $K \to H$ iso*.
+
+Note: a pre-existing prohibited phrasing in the 03.08.01 Master Synthesis paragraph (the word "trivial" in the phrase "stably trivial") was rephrased to "stably isomorphic to a product" to bring the unit to 27/27 after the new bullet was added. The unit had been shipped at 26/27 due to this pre-existing violation; the rephrase was minimal and confined to the Master tier, consistent with Pass-W discipline (Connections / Master / Bibliography edits only).
+
+**6. 03.08.02 (Adams operations) → 03.06.18.** Added a Connections bullet identifying the Chern-character compatibility $\mathrm{ch}_n(\psi^k(x)) = k^n \mathrm{ch}_n(x)$ as the explicit reason Adams operations diagonalise on the rationalised K-theory: the cohomological grading $\Psi^k = k^n$ on degree $2n$ pulls back through the Chern character to the K-theoretic eigenvalue decomposition. The pre-cycle Connections section referenced the compatibility only through 03.06.04; the new bullet routes it through the dedicated unit. Anchor phrase: *Chern character compatibility with Adams operations*.
+
+**7. 03.08.07 (Bott periodicity) → 03.06.18.** Added a Connections bullet recording that the Chern character intertwines the K-theoretic Bott element $\beta \in \widetilde K(S^2)$ with the cohomological fundamental class $\omega \in H^2(S^2; \mathbb{Z})$ via $\mathrm{ch}(\beta) = \omega$ and $\mathrm{ch}(\beta^n) = \omega^n / n!$ on $\widetilde K(S^{2n})$, so that rationally Bott periodicity is recovered as the suspension isomorphism on rational even cohomology. Anchor phrase: *Chern character recovers Bott periodicity rationally*.
+
+**8. 03.12.11 (Singular homology) → 03.06.14.** Added a Connections bullet identifying Steenrod squares as stable cohomology operations on the mod-2 singular cohomology dual to the singular-homology theory developed here, making $H^*(X; \mathbb{F}_2)$ a module over the Steenrod algebra $\mathcal{A}_2$. The framing respects the homology-side scope of 03.12.11 by routing the cohomology-operation language through the dual cochain construction. Anchor phrase: *Steenrod squares as cohomology operations on $H^*(X; \mathbb{F}_2)$*. Note: the 03.06.14 unit references 03.12.11 as "Singular cohomology" in its own Connections section; the actual 03.12.11 unit is singular homology, with singular cohomology housed at 03.04.13. The new bullet is phrased to make this scope-mismatch transparent to the reader.
+
+**9. 03.12.15 (Eilenberg-Steenrod axioms) → 03.06.14.** Added a Connections bullet recording that the Steenrod algebra $\mathcal{A}_2$ of stable mod-2 cohomology operations is a strictly stronger natural-transformation structure than the axioms determine: the present unit's seven axioms pin down ordinary cohomology as a graded abelian group plus cup-product ring structure, but the Steenrod algebra action is the additional symmetric cup-$i$ refinement, with $\mathcal{A}_2 = \pi_*(H\mathbb{F}_2 \wedge H\mathbb{F}_2)$ on the representing-spectrum side. Anchor phrase: *cohomology operations and the Steenrod algebra*.
+
+### Intra-cluster reciprocals — verification only
+
+Verified at the start of the cycle that the following intra-cluster reciprocals were already present in the new units' Master Connections sections at production time (no edit needed):
+
+- 03.06.10 references 03.06.11 (Hirzebruch fixes the L-poly combo of Pontryagin numbers) and 03.06.12 (SW numbers classify unoriented bordism). Both present.
+- 03.06.11 references 03.06.10 (Pontryagin numbers as input). Present.
+- 03.06.12 references 03.06.10 (SW number classification). Present.
+- 03.06.14 references 03.06.03 (Steenrod squares define SW classes). Present.
+
+The single intra-cluster gap was 03.06.07 → 03.06.18, which is fixed by edit #1 above.
+
+### Seams found but not edited
+
+- **03.06.05 (Invariant polynomial on a Lie algebra) → 03.06.07, 03.06.18.** The 03.06.05 unit is the algebraic foundation of both the transgression construction in 03.06.07 and the exponential invariant polynomial used by 03.06.18. Forward pointers would be substantively correct, but the reciprocal direction was not on the brief's required list. Left as-is to respect the "don't add stitches not on the list" rule.
+
+- **03.06.13 (Oriented bordism and Pontryagin-Thom) → 03.06.10, 03.06.12.** The 03.06.13 unit is the oriented-bordism sibling of 03.06.12. Both 03.06.10 and 03.06.12 already point forward to 03.06.13 in their Connections sections; the reverse direction would round out the bidirectional stitching but is not on the brief's required list. Flag for a future chapter-internal cycle.
+
+- **03.06.15 (Multiplicative sequences and L, $\widehat{A}$, Td genera) → 03.06.11.** The signature theorem is the canonical example of a multiplicative-sequence computation, and 03.06.11 already references 03.06.15 forward. The reverse direction (03.06.15 → 03.06.11) is desirable but not on the brief's required list. Flag for a future chapter-internal cycle.
+
+- **03.09.10 (Atiyah-Singer index theorem) → 03.06.18.** The Atiyah-Singer formula uses the Chern character centrally on the K-theoretic symbol class. The 03.06.18 Connections section already has a substantive 03.09.10 bullet. A reciprocal bullet from 03.09.10 to 03.06.18 would be the natural completion, but adding the bullet was not on the brief's required list. Flag for the next index-theorem-chapter cycle.
+
+- **04.05.10 / 04.05.12 (Hirzebruch-Riemann-Roch / Grothendieck-Riemann-Roch) → 03.06.18.** Both Riemann-Roch units invoke the Chern character as the universal coefficient on the right-hand side of the formula. The reverse direction is desirable but cross-chapter; not on the brief's required list. Flag for the next algebraic-geometry-chapter cycle.
+
+### Quality observations
+
+**Calibre of the six new units.** Per AGENTIC_EXECUTION_PLAN §6.7 (Lawson-Michelsohn / Hörmander prose calibre), all six units hit the target. Each unit ships at 27/27, each Master Connections section has 5+ substantive cross-unit bullets, and the synthesis paragraphs carry the throughline density required by §10.2.
+
+**Drift flags.** None observed in the six new units. All six pass 27/27 with no prohibited phrasings, no oversized paragraphs, no over-formal Beginner content. The intra-cluster reciprocal coverage at production time was nearly complete (4 of 5 expected reciprocals present); the single gap (03.06.07 → 03.06.18) is closed by edit #1 in this cycle.
+
+**Anchor-phrase reuse and continuity metrics.** All six new units consistently use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3: "builds toward", "appears again in", "is dual to", "generalises", "the foundational reason", "the central insight", "putting these together", "the secondary tower of", "the numerical-invariant downstream of". Forward-promise density and backward-reference density meet the §10.2 thresholds on every unit.
+
+### Pass-W summary numbers (math lane)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 9 (8 outbound reciprocal additions + 1 intra-cluster gap fill)
+- Required stitches on the brief: 8 (A–H); all 8 completed (G and H targets both exist as shipped units; no items skipped)
+- Intra-cluster reciprocals verified: 5; pre-existing: 4; added: 1 (03.06.07 → 03.06.18)
+- Files with broken validator after edit / reverts required: 0
+- All 9 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check)
