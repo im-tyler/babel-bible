@@ -224,3 +224,73 @@ Quality contract held throughout — every shipped unit passed independent
 chapter location) and **G** (Landau CF chapter location). Resolving these
 unblocks ~75 punch-list units across Section 2 and the new Section-1
 relativity strand.
+
+---
+
+# 2026-05-20 — Math lane double cycle (5 + 6) + Layer A structural cleanup
+
+**Orchestrator:** claude-opus-4-7 (1M context), math-lane session (parallel to chem/bio/phys session B which independently shipped its own Cycle 5).
+
+**Outcome:** **COMPLETE** — 12 math T1 units shipped across two cycles, all 27/27 with independent re-validation; 4 structural collisions resolved; Layer A meta cleanup done; completion roadmap drafted; parallel-lanes coordination doc written and in active use.
+
+## Cycle 5 (math T1, characteristic-classes cluster, 6 units, 41,539w)
+
+| Unit | Title | Words |
+|---|---|---|
+| 03.06.07 | Chern-Simons forms and transgression | 7,032 |
+| 03.06.10 | Stiefel-Whitney and Pontryagin numbers | 6,092 |
+| 03.06.11 | Hirzebruch signature theorem | 6,909 |
+| 03.06.12 | Unoriented bordism and Thom's theorem | 6,672 |
+| 03.06.14 | Steenrod squares and the Wu formula | 6,949 |
+| 03.06.18 | Chern character ring homomorphism | 7,845 |
+
+Pass-W: 9 reciprocal cross-link edits across characteristic-classes / K-theory / homotopy sections. All neighbors retain 27/27.
+
+## Cycle 6 (math T1, homotopy advanced cluster, 6 units, 57,879w)
+
+| Unit | Title | Words |
+|---|---|---|
+| 03.12.33 | Kan-Quillen model structure on sSet | 10,205 |
+| 03.12.35 | Simplicial model category and function complex | 11,358 |
+| 03.12.37 | Homotopy colimit via Bousfield-Kan | 9,993 |
+| 03.12.38 | Bousfield-Kan spectral sequence | 9,153 |
+| 03.12.40 | Postnikov tower of a Kan complex | 7,615 |
+| 03.12.45 | Arithmetic square and integral fracture | 9,555 |
+
+Pass-W: 7 reciprocal cross-link edits + 2 intra-cluster gap fills (03.12.35, 03.12.37 missing [03.12.33]). All neighbors retain 27/27.
+
+## Layer A structural cleanup
+
+- 12.02.01 duplicate resolved (shorter kets-and-bras deleted; 02-formalism/ consolidated; 12.02.02 moved in).
+- 12.03.01 ID collision: Bosonic Fock renumbered 12.03.01 → 12.13.01 (new sub-chapter 13-fock-spaces/); Fermionic Fock 12.03.02 → 12.13.02; Schrödinger/Heisenberg keeps 12.03.01. Inbound references updated.
+- 11-thermodynamics merged into 05-symplectic (Souriau-Gibbs → 05.03.02).
+- 09-quantum-theory renamed → 03-modern-geometry/14-quantum-representations (Woit-style rep-theory QM to math track; frees Chapter 9 for classical mech).
+
+## Layer A meta cleanup
+
+- deps.json pending list backfilled (15 → 24 IDs; closed prereq-registration debt on all Pass-W neighbors).
+- CONCEPT_CATALOG.md missing entries closed: k-theory.adams-operations + 4 ODE entries (lyapunov, rectification, variation-of-constants, bifurcation-theory-pointer) + 6 new Cycle-5/6 entries.
+- 17.07.01 reference flag fix (Alberts MBoC non-pending).
+- pending_approvals.md items M–T marked OBSOLETE / absorbed into silent cycles 3.x.
+
+## Plans drafted
+
+- `docs/plans/COMPLETION_ROADMAP.md` — full multi-cycle plan to corpus completion (Phases 1-8, ~80 cycles).
+- `docs/plans/CYCLE_5_PARALLEL_LANES.md` — bootstrap prompt + coordination protocol for math/chem-bio-phys parallel lanes. **Session B active and using this** (commits 61285ad, 853dc2a).
+
+## T1-only skipped backlog
+
+Closed this session: 14 entries (2 from Cycle 4 + 6 from Cycle 5 + 6 from Cycle 6). 102 remain.
+
+## Cumulative metrics (verified 2026-05-20)
+
+- Total .md files in content/: 656 (up from ~600 at session start)
+- Shipped units logged: 376 (plus today's ~18 to be re-counted next plan.json regen)
+- T1 backlog: ~110 → 96 (14 closed)
+- Forgejo origin/main: clean, up to date (last commit 99ad375)
+
+## Next-session recommended start
+
+1. Read `docs/plans/COMPLETION_ROADMAP.md` §3 for the phased plan.
+2. Math lane: Cycle 7 (K-theory backlog remaining — 03.08.13–20) or Cycle 8 (Hodge/Voisin cluster 04.09.x).
+3. Continue parallel-lanes pattern with Session B per CYCLE_5_PARALLEL_LANES.md.
