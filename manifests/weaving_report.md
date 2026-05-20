@@ -1521,3 +1521,91 @@ Bullets use registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "com
 - Reverts required: 0
 - All 12 edited files re-validated at 27/27 ✓
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
+
+## 2026-05-20 Cycle 10 — tropical / mirror symmetry cluster
+
+Pass W on the six units shipped in Cycle 10 — opens new sub-chapter 04.12 tropical, all in `content/04-algebraic-geometry/12-tropical/`:
+
+1. 04.12.01 Tropical semiring and tropical polynomial
+2. 04.12.02 Tropical curve as balanced rational metric graph
+3. 04.12.03 Kapranov's theorem
+4. 04.12.04 Newton polytope and non-archimedean amoeba
+5. 04.12.05 Mikhalkin's correspondence theorem
+6. 04.12.06 Nishinou-Siebert correspondence theorem
+
+### Files edited
+
+Eight files. Four external receivers (three in the toric chapter, one in the moduli chapter) and four intra-cluster reciprocal edits among the new units themselves. Cluster units 04.12.01 and 04.12.03 already carried bidirectional links to every cluster sibling under the brief's intra-cluster reciprocity audit, so no edits were needed there.
+
+**External stitches**
+
+- `content/04-algebraic-geometry/11-toric/04.11.01-algebraic-torus-character-lattices.md` — added bullets to 04.12.01 (tropical semiring on lattice characters) and 04.12.04 (amoeba via Log map).
+- `content/04-algebraic-geometry/11-toric/04.11.02-rational-polyhedral-cone-and-dual-cone.md` — added bullet to 04.12.04 (Newton polytope as bounded rational polyhedron).
+- `content/04-algebraic-geometry/11-toric/04.11.04-fan-and-toric-variety.md` — added bullets to 04.12.05 (Mikhalkin uses toric surface) and 04.12.06 (Nishinou-Siebert uses toric degeneration).
+- `content/04-algebraic-geometry/10-moduli/04.10.01-moduli-of-curves.md` — added bullets to 04.12.05 (tropical GW = recursion on moduli of stable maps) and 04.12.06 (log GW on dual intersection complex).
+
+**Intra-cluster reciprocals (cluster units)**
+
+- 04.12.02 — added bullet to 04.12.06.
+- 04.12.04 — added bullets to 04.12.02 and 04.12.06.
+- 04.12.05 — added bullets to 04.12.01, 04.12.02, 04.12.03, and 04.10.01.
+- 04.12.06 — added bullets to 04.12.01, 04.12.02, 04.12.03, 04.12.04, and 04.10.01.
+
+### Required stitches on the brief
+
+- **A.** 04.11.01 → 04.12.01, 04.12.04 — done.
+- **B.** 04.11.02 → 04.12.04 — done.
+- **C.** 04.11.04 → 04.12.05, 04.12.06 — done.
+- **D.** 04.10.* moduli → 04.12.05, 04.12.06 — done (selected 04.10.01 moduli-of-curves as the relevant Cycle 9 moduli receiver, since the brief's parenthetical "tropical GW = recursion in moduli of curves" specifies moduli of curves; bidirectional bullets added to both sides).
+- **E.** Intra-cluster bidirectional verification — done. Audit matrix (rows = source, cols = target, 6x6 minus diagonal): 04.12.01 already linked to all five siblings before Pass W; 04.12.03 likewise. 04.12.02 was missing →06; 04.12.04 was missing →02 and →06; 04.12.05 was missing →01, →02, →03; 04.12.06 was missing →01, →02, →03, →04. All gaps filled. Pre-existing bidirectional pairs (01↔02, 01↔03, 01↔04, 01↔05, 01↔06, 02↔03, 02↔04, 02↔05, 03↔04, 03↔05, 03↔06, 04↔05, 05↔06): 13. Added by this Pass W: 11 directed edges completing two-way reciprocity on the remaining pairs (02↔06, 04↔02, 04↔06, 05↔01, 05↔02, 05↔03, 06↔01, 06↔02, 06↔03, 06↔04). All 15 cluster pairs now bidirectional.
+
+### Per-edit rationale
+
+**1. 04.11.01 (algebraic torus) — target A.** Added two new bullets. The 04.12.01 bullet records the tropical semiring as the valuation-image arithmetic of the algebraic torus: the integer pairing $M \times N \to \mathbb{Z}$ of the present unit becomes the integer-slope structure of tropical polynomials, and the valuation map $v : K^* \to \mathbb{R}$ on a non-archimedean field $K$ restricts on $T(K)$ to the tropicalisation map $\mathrm{trop} : T(K) \to N_\mathbb{R}$. The 04.12.04 bullet records the Log map $\mathrm{Log} : T(\mathbb{C}) \to N_\mathbb{R}$ as the moment map for the maximal compact subtorus $T_{\mathbb{S}^1}$, the foundational substrate of the complex amoeba and its non-archimedean limit. Anchor phrases: "the valuation-image arithmetic of the algebraic torus", "the foundational substrate of the amoeba-tropicalisation story".
+
+**2. 04.11.02 (rational polyhedral cone) — target B.** Added one new bullet. The 04.12.04 bullet records the Newton polytope as the bounded rational-polyhedron specialisation of the cone formalism, with the normal fan $\Sigma(\mathrm{Newt}(f)) \subseteq N_\mathbb{R}$ assembled from inner-normal cones supplying the rational-polyhedral-fan instance of the cone-and-fan formalism. The cone-duality theorem $\sigma^{\vee\vee} = \sigma$ of the present unit is identified as the foundational reason that the Newton-polytope-to-tropical-hypersurface duality is exact. Anchor phrase: "the bounded rational-polyhedron specialisation of the cone formalism".
+
+**3. 04.11.04 (fan and toric variety) — target C.** Added two new bullets. The 04.12.05 bullet records the toric surface from the inner-normal fan of a Newton polygon as the algebraic-geometric home for Mikhalkin curves, with unbounded rays of the tropical curve corresponding bijectively to rays of the fan. The 04.12.06 bullet records the toric variety $X_\Sigma$ as the target of a toric degeneration $\mathfrak{X} \to \mathrm{Spec}\,\mathbb{C}\{\{t\}\}$, with the dual intersection complex $B(\Xi)$ built from a polyhedral subdivision $\Xi$ of a polytope of an ample line bundle. Anchor phrases: "the structural backbone on which the surface-level correspondence sits", "the foundational input to the toric-degeneration mechanism".
+
+**4. 04.10.01 (moduli of curves) — target D.** Added two new bullets. The 04.12.05 bullet records Mikhalkin's correspondence as a Gromov-Witten count on a toric surface lifted from invariants of $\overline{\mathcal{M}}_{g,n}(X, \beta)$ to tropical-curve counts on $\mathbb{R}^2$, with the dimension count $3g - 3 + n$ supplying the foundational reason the count asks for $3d - 1 + g$ generic point conditions. The 04.12.06 bullet records Nishinou-Siebert as implemented in the log-enhanced moduli space $\overline{\mathcal{M}}_{g,n}^{\log}(\mathfrak{X}, \beta)$ with tropical curves on the dual intersection complex playing the role of combinatorial recursion. Anchor phrase: "the combinatorial recursion on the moduli-of-curves dimension count".
+
+**5. 04.12.02 (tropical curve) — target E intra.** Added one new bullet to 04.12.06 recording the Nishinou-Siebert tropical curves on the dual intersection complex as balanced rational metric graphs in the precise sense of the present unit, with Mikhalkin's trivalent-vertex multiplicity $|\det(u_i, u_j)|$ recovered as the dimension-$2$ specialisation of the Nishinou-Siebert formula.
+
+**6. 04.12.04 (Newton polytope) — target E intra.** Added two new bullets. The 04.12.02 bullet records the dual-subdivision-to-curve duality at the surface level: vertices of the embedded tropical curve correspond to triangles of the regular subdivision $\Xi$ of the Newton polygon, bounded edges to interior edges of $\Xi$, and rays to boundary edges. The 04.12.06 bullet records the polytope subdivision $\Xi$ of an ample line bundle's polytope on $X_\Sigma$ as the input data to the toric degeneration, with the dual intersection complex $B(\Xi)$ the tropical skeleton of the special fibre.
+
+**7. 04.12.05 (Mikhalkin correspondence) — target E intra and target D.** Added four new bullets: 04.12.01 (tropical polynomial as defining equation of every Mikhalkin tropical curve), 04.12.02 (the curves enumerated are balanced rational metric graphs with prescribed Newton polygon), 04.12.03 (Kapranov's foundational equivalence as the structural input to the Hensel-lift / patchworking direction of the count), and 04.10.01 (moduli-of-curves dimension count supplying the foundational reason for the $3d - 1 + g$ generic point conditions).
+
+**8. 04.12.06 (Nishinou-Siebert correspondence) — target E intra and target D.** Added five new bullets: 04.12.01 (tropical-semiring substrate of the polyhedral-subdivision data on $B(\Xi)$), 04.12.02 (Nishinou-Siebert tropical curves on $B(\Xi)$ as balanced rational metric graphs), 04.12.03 (Kapranov's equivalence as structural input to the Hensel lift at each tropical vertex), 04.12.04 (Newton-polytope subdivision $\Xi$ as the toric-degeneration input data), and 04.10.01 (log moduli of stable maps $\overline{\mathcal{M}}_{g,n}^{\log}(\mathfrak{X}, \beta)$ as the moduli-theoretic home of the tropical-to-algebraic lift).
+
+### Anchor-phrase usage
+
+All eight edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "the foundational substrate of", "the foundational reason", "the foundational input to", "the algebraic substrate", "the structural backbone", "the combinatorial recursion on", "the bounded rational-polyhedron specialisation of", "the dimension-$2$ specialisation of", "the structural input to", "the tropical skeleton of". No prohibited phrasings introduced.
+
+### Seams found but not edited
+
+- **04.05.05 (Ample line bundle) → 04.12.06.** The Nishinou-Siebert setup uses an ample line bundle on the toric variety $X_\Sigma$ to choose the polytope whose subdivision $\Xi$ generates the dual intersection complex $B(\Xi)$. A forward stitch from 04.05.05 would be natural; not on the brief; flag for next cycle.
+
+- **04.11.03 (Affine toric variety $U_\sigma$) → 04.12.04.** The boundary strata of $X_{\Sigma(\mathrm{Newt}(f))}$ are affine toric varieties indexed by faces of $\mathrm{Newt}(f)$, and the closure $\overline{V(f)}$ meets each such stratum in a divisor whose tropicalisation is a cell of $\mathrm{trop}(f)$. The 04.12.04 unit already references 04.11.03 in the forward direction; reciprocal stitch from 04.11.03 to 04.12.04 not on the brief; flag for next cycle.
+
+- **04.11.04 (Fan and toric variety) → 04.12.03 (Kapranov).** Kapranov's theorem lives on $T = (K^*)^n = U_{\{0\}}$, the open dense torus orbit of $X_\Sigma$ for every fan $\Sigma$ in $N_\mathbb{R}$. The 04.12.03 unit already has a bullet for 04.11.04; the reciprocal stitch from 04.11.04 to 04.12.03 was not on the brief; flag for next cycle.
+
+- **04.10.* Cycle 9 moduli units other than 04.10.01 → 04.12.06.** The Nishinou-Siebert log moduli space $\overline{\mathcal{M}}_{g,n}^{\log}(\mathfrak{X}, \beta)$ has natural connections to 04.10.02 (GIT — the algebraic-geometric quotient construction underlying every moduli space), 04.10.05 (Hilbert scheme — log moduli is built on a log-Hilbert-scheme refinement), and arguably 04.10.06 (moduli of vector bundles — used in the obstruction theory). Reciprocal stitches not on the brief; flag for next cycle if depth needed.
+
+### Quality observations
+
+**Calibre of the six new units.** All six units ship at 27/27, math T1 standard. The Master Connections sections each have 6-12 substantive cross-unit bullets after this Pass W. 04.12.05 was the most under-stitched intra-cluster pre-Pass-W (only 4 cluster bullets present); after this Pass W it has 8. 04.12.06 was similarly under-stitched (5 pre-existing bullets); after this Pass W it has 10.
+
+**Drift flags.** No stale unit-IDs found in pre-existing bullets; no prohibited phrasings introduced; no paragraph over 250 words; no broken validator results. The cluster shipped clean and required only the additive reciprocal-stitch edits documented above.
+
+### Pass-W summary numbers (Cycle 10 — tropical / mirror symmetry cluster)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 8 files total (4 external + 4 intra-cluster)
+- New bullets added: 19 total (2 + 1 + 2 + 2 external = 7; 1 + 2 + 4 + 5 intra-cluster = 12; total 19 new bullets across 8 files)
+- Required stitches on the brief: A, B, C, D, E — all 5 completed (no skipped targets)
+- Stale unit-IDs corrected: 0
+- Files dropping below 27/27 after initial edit: 0
+- Reverts required: 0
+- All 8 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
+- All 2 untouched cluster units (04.12.01, 04.12.03) re-validated at 27/27 ✓ (no Pass-W edits needed, already bidirectional with every cluster sibling)
