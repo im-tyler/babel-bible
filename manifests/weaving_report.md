@@ -1609,3 +1609,112 @@ All eight edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD 
 - All 8 edited files re-validated at 27/27 ✓
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
 - All 2 untouched cluster units (04.12.01, 04.12.03) re-validated at 27/27 ✓ (no Pass-W edits needed, already bidirectional with every cluster sibling)
+
+## 2026-05-20 cycle (Cycle 11 — toric variety expansion cluster)
+
+Pass W on the six production units shipped this cycle, all in `content/04-algebraic-geometry/11-toric/`:
+
+- `04.11.05-smoothness-completeness-via-fans.md`
+- `04.11.06-orbit-cone-correspondence.md`
+- `04.11.07-toric-resolution-of-singularities.md`
+- `04.11.08-toric-divisor-support-function.md`
+- `04.11.09-toric-picard-group.md`
+- `04.11.10-polytope-fan-dictionary-line-bundle-l-p.md`
+
+### Files edited
+
+Twelve files. Six external prerequisite or sibling-chapter targets (04.11.01, 04.11.02, 04.11.03, 04.11.04, 04.05.05, 04.12.04) and six intra-cluster sibling targets (the four new units that received additional within-cluster bullets: 04.11.05, 04.11.06, 04.11.07, 04.11.08; plus mislabel fixes inside 04.11.09 and 04.11.10).
+
+1. `content/04-algebraic-geometry/11-toric/04.11.04-fan-and-toric-variety.md`
+2. `content/04-algebraic-geometry/11-toric/04.11.03-affine-toric-variety-u-sigma.md`
+3. `content/04-algebraic-geometry/11-toric/04.11.01-algebraic-torus-character-lattices.md`
+4. `content/04-algebraic-geometry/11-toric/04.11.02-rational-polyhedral-cone-and-dual-cone.md`
+5. `content/04-algebraic-geometry/05-divisors/04.05.05-ample-line-bundle.md`
+6. `content/04-algebraic-geometry/12-tropical/04.12.04-newton-polytope-non-archimedean-amoeba.md`
+7. `content/04-algebraic-geometry/11-toric/04.11.05-smoothness-completeness-via-fans.md`
+8. `content/04-algebraic-geometry/11-toric/04.11.06-orbit-cone-correspondence.md`
+9. `content/04-algebraic-geometry/11-toric/04.11.07-toric-resolution-of-singularities.md`
+10. `content/04-algebraic-geometry/11-toric/04.11.08-toric-divisor-support-function.md`
+11. `content/04-algebraic-geometry/11-toric/04.11.09-toric-picard-group.md`
+12. `content/04-algebraic-geometry/11-toric/04.11.10-polytope-fan-dictionary-line-bundle-l-p.md`
+
+### Per-edit rationale
+
+**1. 04.11.04 (Fan and toric variety) — target A (canonical hub).** Added new bullets for 04.11.05 (smoothness and completeness via fans), 04.11.08 (toric divisor and support function), and 04.11.09 (toric Picard group); fixed the existing bullet that mislabelled 04.11.05 as the orbit-cone unit (orbit-cone is 04.11.06 in the current cluster numbering) by relabelling to 04.11.06; and updated the inline reference in the 04.11.01 bullet from `[04.11.05]` to `[04.11.06]` for the orbit-cone phrase. The unit was the canonical hub that needed bullets to ALL six new sibling units per the brief; four already existed (one mislabelled), three were added, and one mislabel was corrected. Anchor phrases: "the foundational reason these two tests are exhaustive", "the divisorial layer on top of the fan-to-toric construction", "the line-bundle classification built directly on the fan-to-toric dictionary".
+
+**2. 04.11.03 (Affine toric variety $U_\sigma$) — target B.** Added new bullets for 04.11.05 (smoothness criterion globalising the Demazure local criterion) and 04.11.07 (toric resolution operating chart-by-chart on the affine pieces developed here); fixed the existing bullet that mislabelled 04.11.05 as the orbit-cone unit by relabelling to 04.11.06. The 04.11.05 bullet emphasises the Hilbert-basis-equals-Krull-dimension count as the technical core; the 04.11.07 bullet emphasises star subdivision as a finite procedure on the cone primitives. Anchor phrases: "the technical core of the global criterion", "the smoothness criterion measures progress of the algorithm".
+
+**3. 04.11.01 (Algebraic torus and character/cocharacter lattices) — target C.** Added new bullets for 04.11.06 (orbit-cone correspondence) and 04.11.10 (polytope-fan dictionary). The 04.11.06 bullet identifies the orbits $O(\sigma) = \mathrm{Hom}_\mathbb{Z}(\sigma^\perp \cap M, \mathbb{C}^*)$ as sub-tori using the lattice formalism developed here, with the duality $M \leftrightarrow N$ supplying the dimension formula $\dim O(\sigma) + \dim \sigma = n$. The 04.11.10 bullet identifies the character lattice $M$ as the home of the polytope $P$ and the cocharacter lattice $N$ as the home of the normal fan $\Sigma_P$, with the perfect pairing as the foundational reason the polytope-fan construction works. Anchor phrases: "the foundational reason the orbit-cone dictionary is exact", "the foundational reason inward-normal cones at vertices of $P$ produce a fan".
+
+**4. 04.11.02 (Rational polyhedral cone and dual cone) — target D.** Added new bullets for 04.11.05 (smoothness criterion as a basis condition on a single cone, completeness via cone duality) and 04.11.07 (star subdivision as a finite procedure on the cone primitives, with the face-correspondence theorem ensuring the fan axioms are preserved); fixed the existing inline reference to "orbit-cone correspondence" pointing to `04.11.05` by repointing to `04.11.06`. Anchor phrases: "the cone-and-dual-cone formalism is the combinatorial input on which both criteria run", "a finite procedure on the cone primitives".
+
+**5. 04.05.05 (Ample and very ample line bundle) — target E.** Added new bullets for 04.11.09 (toric Picard group, specialising Cartan-Serre-Grothendieck to the strict-convexity criterion on a support function) and 04.11.10 (polytope-fan dictionary, identifying the very-ampleness condition with explicit lattice-point data on $P$). The 04.11.09 bullet identifies the toric ample cone as the open polyhedral cone of strictly convex piecewise-linear functions modulo characters; the 04.11.10 bullet identifies the projective embedding $X_P \hookrightarrow \mathbb{P}^{|P \cap M| - 1}$ by the lattice-point basis as the explicit very-ample embedding. Anchor phrases: "a fully combinatorial description of ampleness that the abstract Cartan-Serre-Grothendieck statement only guarantees exists", "the abstract positivity theory of this unit into explicit combinatorics on lattice polytopes".
+
+**6. 04.12.04 (Newton polytope and non-archimedean amoeba) — target F.** Added a new bullet for 04.11.10 (polytope-fan dictionary) identifying the Newton polytope $\mathrm{Newt}(f)$ as the polytope side of the dictionary applied to the toric compactification $X_{\Sigma(\mathrm{Newt}(f))}$, with the Laurent polynomial $f$ identified as a specific global section of the polarisation $L_{\mathrm{Newt}(f)}$ and the tropicalisation $T(f)$ identified as the support function of $L_{\mathrm{Newt}(f)}$ read through the lattice point data of $f$. Anchor phrase: "the foundational reason Newton-polytope data and tropical-hypersurface data are dual on the same lattice pair $(M, N)$".
+
+**7. 04.11.05 (Smoothness and completeness via fans) — intra-cluster reciprocity (target G).** Added a new bullet for 04.11.08 (toric divisor) recording the divisor-level reading of the smoothness criterion ("every Weil is Cartier" iff every cone unimodular) and the divisor-polytope boundedness condition for completeness ($P_D$ bounded iff $D$ nef and $X_\Sigma$ complete). Closes the missing 05 ↔ 08 reciprocity in the chain.
+
+**8. 04.11.06 (Orbit-cone correspondence) — intra-cluster reciprocity (target G).** Added a new bullet for 04.11.05 (smoothness and completeness via fans) recording that both criteria of `[04.11.05]` read off the orbit stratification: smoothness at $T$-fixed points (zero-dimensional orbits for maximal cones), completeness as every cocharacter degenerating into a closed orbit. Closes the missing 06 ↔ 05 reciprocity in the chain.
+
+**9. 04.11.07 (Toric resolution of singularities) — intra-cluster reciprocity (target G).** Added two new bullets: 04.11.08 (toric divisor as the bookkeeping framework for discrepancies along a resolution sequence; star subdivision adds one exceptional divisor per new ray) and 04.11.09 (toric Picard group transformation under resolution; pullback adds one $\mathbb{Z}$-summand per exceptional divisor; wall-crossing as toric variation-of-GIT). Closes the missing 07 ↔ 08 and 07 ↔ 09 reciprocities.
+
+**10. 04.11.08 (Toric divisor and support function) — intra-cluster reciprocity (target G).** Added a new bullet for 04.11.07 (toric resolution) recording the support-function transformation under a resolution $\psi_{f^* D} = \psi_D \circ \phi_\mathbb{R}$ and the role of the divisor language as bookkeeping for the resolution algorithm. Closes the missing 08 ↔ 07 reciprocity.
+
+**11. 04.11.09 (Toric Picard group) — intra-cluster reciprocity + mislabel correction (target G).** Fixed the bullet that mislabelled 04.11.05 as the orbit-cone correspondence (the orbit-cone unit is 04.11.06; 04.11.05 is the smoothness/completeness unit) by relabelling the bullet ID to 04.11.06 and adjusting the framing from "downstream unit" to "sibling unit". Added two new bullets: 04.11.05 (smoothness and completeness criteria that gate the Picard-group statements) and 04.11.07 (toric resolution adding one $\mathbb{Z}$-summand to the Picard group per exceptional divisor). Closes the missing 09 ↔ 05 and 09 ↔ 07 reciprocities and resolves the unit-ID drift.
+
+**12. 04.11.10 (Polytope-fan dictionary; $L_P$) — intra-cluster reciprocity + mislabel correction (target G).** Fixed the same mislabel as 04.11.09 (bullet ID 04.11.05 → 04.11.06 for the orbit-cone correspondence content). Added two new bullets: 04.11.05 (smoothness and completeness criteria specialising at the polytope level, with smoothness corresponding to the Delzant condition at every vertex) and 04.11.07 (toric resolution as regular triangulations of $P$, with crepant resolutions corresponding to lattice triangulations with interior lattice points). Closes the missing 10 ↔ 05 and 10 ↔ 07 reciprocities and resolves the unit-ID drift.
+
+### Anchor-phrase usage
+
+All twelve edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "the foundational reason", "the foundational input", "the technical core of", "the divisorial layer on top of", "the line-bundle classification built directly on", "the structural backbone on which", "the polarised refinement of", "a finite procedure on the cone primitives", "the bookkeeping framework for", "a fully combinatorial description". No prohibited phrasings introduced.
+
+### Stale unit-IDs found and corrected
+
+Three pre-existing bullets in the cluster mislabelled 04.11.05 as the orbit-cone correspondence unit. This was a numbering drift from an earlier draft of the cluster plan where the unit ordering was different. The orbit-cone correspondence is now correctly at 04.11.06, and 04.11.05 is smoothness/completeness via fans. Corrections applied:
+
+- `04.11.04` line at the 04.11.01 bullet ("orbit-cone correspondence of `[04.11.05]`") → `[04.11.06]`
+- `04.11.04` bullet "**Orbit-cone correspondence [04.11.05].**" → "**Orbit-cone correspondence [04.11.06].**"
+- `04.11.03` bullet "**Orbit-cone correspondence [04.11.05].**" → "**Orbit-cone correspondence [04.11.06].**"
+- `04.11.02` inline ("**orbit-cone correspondence** of `04.11.05`") → `04.11.06`
+- `04.11.09` bullet "**Orbit-cone correspondence [04.11.05].**" → "**Orbit-cone correspondence [04.11.06].**"
+- `04.11.10` bullet "**Orbit-cone correspondence [04.11.05].**" → "**Orbit-cone correspondence [04.11.06].**"
+
+Six stale references corrected total. The pre-existing bullet content was already correctly describing the orbit-cone correspondence; only the unit-ID tags were drifted.
+
+### Seams found but not edited
+
+- **04.11.11 (Algebraic moment map) → 04.11.10, 04.11.06, 04.11.08, 04.11.09.** Several new cluster units reference 04.11.11 as the symplectic-side companion; a reciprocal stitch from 04.11.11 back to these new units is desirable but 04.11.11 is not yet shipped, so the stitch is deferred to the cycle that produces it.
+
+- **04.11.12 (Cohomology of a smooth complete toric variety) → 04.11.08, 04.11.09.** Multiple new units forward-reference 04.11.12 for the Stanley-Reisner / Danilov-Jurkiewicz cohomology presentation; reciprocal stitches from 04.11.12 back to 04.11.08, 04.11.09 will be needed when 04.11.12 ships.
+
+- **04.11.13 (Toric Mori program / toric Riemann-Roch) → 04.11.07, 04.11.09.** Likewise: forward-referenced, not yet shipped, deferred.
+
+- **04.11.15 (Cox ring and GIT quotient) → 04.11.08, 04.11.09.** Same pattern.
+
+- **04.05.02 (Picard group of a general variety) → 04.11.09.** The 04.11.09 unit already has a 04.05.02 bullet identifying the toric Picard group as a sharp combinatorial special case; a reciprocal stitch from 04.05.02 to 04.11.09 would be the natural completion but is outside the cycle-11 brief. Flag for next general-Picard-group Pass-W cycle.
+
+- **04.05.03 (Line bundle), 04.05.04 (Cartier divisor) → 04.11.08, 04.11.09.** The toric units already reference general line-bundle and Cartier-divisor theory; reciprocal stitches from 04.05.03 and 04.05.04 to the toric refinements would be natural but are outside the cycle-11 brief.
+
+- **04.12.05 (Mikhalkin), 04.12.06 (Nishinou-Siebert) → 04.11.10.** Both tropical-correspondence units depend on the polytope-fan dictionary of 04.11.10; the 04.11.10 unit already has bullets pointing to both. Reciprocal stitches from 04.12.05 and 04.12.06 to 04.11.10 would be natural but the existing bullets in those units already route through 04.11.04 (fan-and-toric-variety) and 04.11.08 (toric divisor), which carry the load. Deferred.
+
+- **05.04.05 / 05.09.01 (Symplectic toric manifold / Delzant correspondence).** The 04.11.05, 04.11.10 units reference these as the symplectic-side companions; reciprocal stitches from the symplectic units are outside the cycle-11 brief and depend on which symplectic units have shipped.
+
+### Quality observations
+
+**Calibre of the six new units.** All six units ship at 27/27, math T1 standard. The cluster delivers the core of toric-variety theory in a coherent six-unit arc covering the four geometric criteria (smoothness, completeness, projectivity, orbit decomposition), the structural divisor and Picard-group theory, the resolution algorithm, and the polytope-fan dictionary. Master Connections sections range from 9 (04.11.09) to 13 (04.11.10) bullets. The cluster is now internally bidirectional across all six siblings.
+
+**Drift flags.** The six mislabel corrections noted above are the only structural drifts found. No prohibited phrasings introduced; no paragraph exceeds 250 words; no Beginner-tier proof language; no broken references.
+
+### Pass-W summary numbers (Cycle 11 — toric variety expansion cluster)
+
+- New units processed: 6
+- Reciprocal-stitch edits made: 12 files total (6 external + 6 intra-cluster)
+- New bullets added: 21 total (3 + 2 + 2 + 2 + 2 + 1 external = 12; 1 + 1 + 2 + 1 + 2 + 2 intra-cluster = 9; total 21 new bullets across 12 files)
+- Required stitches on the brief: A, B, C, D, E, F, G — all 7 completed (no skipped targets)
+- Stale unit-IDs corrected: 6 (all instances of 04.11.05 mislabelled as orbit-cone, repointed to 04.11.06)
+- Files dropping below 27/27 after initial edit: 0
+- Reverts required: 0
+- All 12 edited files re-validated at 27/27 ✓
+- All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
+- All 4 prerequisite cluster units (04.11.01-04.11.04) re-validated at 27/27 ✓
+- External targets (04.05.05, 04.12.04) re-validated at 27/27 ✓
