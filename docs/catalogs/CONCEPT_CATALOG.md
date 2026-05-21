@@ -5449,6 +5449,17 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: sparse polynomial root count as mixed volume of Newton polytopes
 - **notes**: Bernstein-Kushnirenko theorem: for generic Laurent polynomials $f_1,\ldots,f_n$ on $(\mathbb{C}^*)^n$ with Newton polytopes $P_1,\ldots,P_n$, the number of isolated common zeros in the dense torus is $n!\operatorname{MV}(P_1,\ldots,P_n)$, counted with multiplicity. Kushnirenko's special case uses one Newton polytope repeated, giving $n!\operatorname{Vol}(P)$. Classical Bezout is recovered when each $P_i$ is a degree-$d_i$ simplex, yielding $d_1\cdots d_n$. The toric proof compactifies the torus inside a smooth projective toric variety, interprets each Laurent polynomial as a section of a toric line bundle, and applies the mixed-volume intersection formula while checking that generic sections have no boundary solutions.
 
+### toric-geometry.reflexive-polytope-batyrev-mirror
+
+- **title**: Reflexive polytope and Batyrev mirror duality
+- **unit**: `04.11.16`
+- **prerequisites**: `toric-geometry.polytope-fan-dictionary`, `toric-geometry.divisor-support-function`, `alg-geom.adjunction-formula`, `tropical.toric-degeneration-calabi-yau`
+- **tier_anchors**:
+  - master: Batyrev 1994 *J. Algebraic Geometry* 3; Fulton *Introduction to Toric Varieties* §3.4-§3.5; Cox-Little-Schenck *Toric Varieties* §8.3 and §11.5; Kreuzer-Skarke 2000-2002 reflexive 4-polytope classification; Batyrev-Borisov 1996 nef partitions
+  - intermediate: Fulton §3.5; Cox-Little-Schenck §8.3; Batyrev 1994 statement-level construction
+  - beginner: mirror symmetry as swapping a lattice polytope with its polar dual
+- **notes**: A full-dimensional lattice polytope $P \subset M_\mathbb{R}$ with $0 \in \mathrm{int}(P)$ is reflexive when its polar $P^\circ=\{u\in N_\mathbb{R}:\langle m,u\rangle\ge -1\text{ for all }m\in P\}$ is also a lattice polytope. Equivalently, every facet of $P$ is cut out by a primitive lattice normal at lattice distance one from the origin; equivalently, the normal toric variety is Gorenstein Fano and its anticanonical polytope is $P$. Batyrev's theorem pairs generic anticanonical Calabi-Yau hypersurfaces in $X_P$ and $X_{P^\circ}$, after crepant resolution when available, with exchanged Hodge numbers. In dimension four, Kreuzer-Skarke classified 473,800,776 reflexive polytopes, giving the standard large database of toric Calabi-Yau threefold hypersurfaces.
+
 ### toric-geometry.divisor-support-function
 
 - **title**: Toric divisor and support function
