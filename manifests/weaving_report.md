@@ -1811,3 +1811,106 @@ All edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 �
 - All 11 edited files re-validated at 27/27 ✓
 - All 6 new cluster units (04.12.07–12) re-validated at 27/27 ✓
 - Lateral-density target (≥ 3 lateral connections per Master section across the chapter, CYCLE_4 §6.2): met. Every existing-chapter sibling now has 4+ forward bullets to the new sub-chapter; every new unit has 6+ Connections bullets covering both intra-cluster and external dependencies.
+
+## Cycle 6 chem-bio-phys lane Pass-W (2026-05-20)
+
+### Scope
+
+Cross-stitching for the 12 chem-bio-phys lane units shipped in Cycle 6:
+
+1. `content/18-organismal-bio/02-cardiovascular/18.02.01-cardiovascular-physiology-heart.md`
+2. `content/18-organismal-bio/03-respiratory/18.03.01-respiratory-physiology-gas-exchange.md`
+3. `content/18-organismal-bio/04-musculoskeletal/18.04.01-skeletal-muscle-physiology.md`
+4. `content/14-genchem-pchem/06-thermo/14.06.01-chemical-thermodynamics-equilibrium.md`
+5. `content/14-genchem-pchem/08-kinetics/14.08.01-chemical-kinetics-rate-laws-arrhenius.md`
+6. `content/19-eco-evo-bio/03-selection/19.03.02-sexual-selection.md`
+7. `content/16-inorgchem/05-organometallic/16.05.01-organometallic-16-18-electron-rules.md`
+8. `content/14-genchem-pchem/12-spectroscopy/14.12.01-uv-vis-ir-nmr-fundamentals.md`
+9. `content/17-mol-cell-bio/04-energy-metabolism/17.04.01-cellular-respiration-glycolysis-cac.md`
+10. `content/17-mol-cell-bio/04-energy-metabolism/17.04.02-oxidative-phosphorylation-atp-synthesis.md`
+11. `content/17-mol-cell-bio/05-gene-expression/17.05.01-dna-replication.md`
+12. `content/13-gr-cosmology/05-schwarzschild/13.05.02-orbits-schwarzschild-geometry.md`
+
+### Peer-reference inventory and eligibility
+
+Union of `[NN.NN.NN]` peer refs extracted from the 12 Connections sections (54 distinct peers). Status check (shipped vs draft) and lane-membership applied to each:
+
+- **Shipped + in chem/bio/phys lane:** `12.07.02`, `16.04.01`, `16.04.02`, `17.02.01`, `17.07.02`, `18.02.02`, `19.02.05`. (`17.02.01` was not cited by any of the 12 new units, so dropped from candidate set.) `12.07.02` lives in `content/12-quantum/07-perturbation/` — outside the §2 quantum-formalism math-lane exclusion zone, so eligible.
+- **Shipped + cross-lane (math §00-07):** `02.12.14`, `03.05.09`. Do-not-edit per brief; recommendations recorded below.
+- **Draft (skip):** all other peers including every peer in chapters §11, §13, §14 (except the new units themselves), §15, §16.06, §17.01-17.10 (except `17.02.01` and `17.07.02`), §18.04.02-18.08, §19.02-19.06.
+- **New this cycle (cannot edit per brief item 3):** `14.06.01`, `14.08.01`, `14.12.01`, `13.05.02`, `16.05.01`, `17.04.01`, `17.04.02`, `17.05.01`, `18.02.01`, `18.03.01`, `18.04.01`, `19.03.02`.
+
+### Stitches considered and made
+
+In-lane shipped peers crossed against new-unit citations:
+
+| Peer | New unit citing | Already references new unit? | Action |
+|---|---|---|---|
+| 18.02.02 | 18.02.01 (cardio-heart) | YES (existing bullet) | SKIP |
+| 18.02.02 | 18.04.01 (skeletal muscle) | NO | STITCH |
+| 19.02.05 | 19.03.02 (sexual selection) | NO | STITCH |
+| 16.04.01 | 16.05.01 (organometallic 18-electron) | YES | SKIP |
+| 16.04.02 | 16.05.01 | YES | SKIP |
+| 16.04.02 | 14.12.01 (UV-Vis IR NMR) | NO | STITCH |
+| 12.07.02 | 14.12.01 | NO | STITCH |
+| 17.07.02 | 17.04.01 (glycolysis/CAC) | NO | STITCH |
+
+Five reciprocal Connections bullets appended.
+
+### Stitches by new unit
+
+- **18.02.01 (cardiovascular-physiology-heart):** no in-lane shipped peers needing a new back-stitch (only shipped peer `18.02.02` already references 18.02.01).
+- **18.03.01 (respiratory-gas-exchange):** no in-lane shipped peers cited.
+- **18.04.01 (skeletal-muscle-physiology):** 1 stitch
+  - `content/18-organismal-bio/02-cardiovascular/18.02.02-cardiac-action-potentials-pacemaker.md` (cardiac vs skeletal ECC architecture contrast).
+- **14.06.01 (chemical-thermodynamics-equilibrium):** no in-lane shipped peers cited (all cited §11 / §14 peers still draft).
+- **14.08.01 (chemical-kinetics-rate-laws-arrhenius):** no in-lane shipped peers cited (`02.12.14` is math-lane, `16.05.01` is new-this-cycle).
+- **19.03.02 (sexual-selection):** 1 stitch
+  - `content/19-eco-evo-bio/02-pop-genetics/19.02.05-wright-fisher-model-and-diffusion-approximation.md` (mating-success variance → Wright-Fisher fixation machinery).
+- **16.05.01 (organometallic-16-18-electron-rules):** no new stitches needed; both eligible in-lane peers (`16.04.01`, `16.04.02`) already reference 16.05.01.
+- **14.12.01 (uv-vis-ir-nmr-fundamentals):** 2 stitches
+  - `content/16-inorgchem/04-coordination/16.04.02-crystal-field-stabilization-spectrochemical-series.md` (crystal-field splitting as TM-complex chromophoric basis for Tanabe-Sugano UV-Vis).
+  - `content/12-quantum/07-perturbation/12.07.02-time-dependent-perturbation-theory-fermi-golden-rule.md` (Fermi's golden rule as the dynamical engine for absorption/emission intensities in UV-Vis, IR, NMR).
+- **17.04.01 (cellular-respiration-glycolysis-cac):** 1 stitch
+  - `content/17-mol-cell-bio/07-signaling/17.07.02-rtk-mapk-signaling-cascade.md` (RTK-MAPK control of central-carbon metabolism via PFK-2/FBPase-2 and mitochondrial dehydrogenases).
+- **17.04.02 (oxidative-phosphorylation):** no in-lane shipped peers cited (all cited peers are draft or new-this-cycle).
+- **17.05.01 (dna-replication):** no in-lane shipped peers cited.
+- **13.05.02 (orbits-schwarzschild-geometry):** no in-lane shipped peers cited (`09.01.02` Newton's laws is draft; `13.02.02`, `13.04.01`, `13.05.01` are draft; `03.05.09` is math-lane).
+
+### Cross-lane peers (math §00-07) — recommended stitches NOT made
+
+Per brief: do not edit cross-lane peers; record recommendations.
+
+1. **`03.05.09` (curvature)** cited by **13.05.02 (orbits-schwarzschild-geometry)**. Recommended reciprocal bullet for the math-lane curator:
+   > `- **Orbits in the Schwarzschild geometry [13.05.02].** The curvature 2-form of the Levi-Civita connection on the Schwarzschild manifold is the geometric source of the geodesic deviation that decides perihelion precession, photon-sphere deflection, and ISCO location; the bound-orbit and scattering analysis in [13.05.02] is the canonical physical realisation of curvature-driven deviation on a non-flat Lorentzian manifold and the entry point from curvature theory to observational GR.`
+
+2. **`02.12.14` (limit-cycle and Liénard / Van der Pol systems)** cited by **14.08.01 (chemical-kinetics-rate-laws-arrhenius)**. Recommended reciprocal bullet:
+   > `- **Chemical kinetics: rate laws and Arrhenius [14.08.01].** The autocatalytic oscillators of physical chemistry — Belousov-Zhabotinsky, Brusselator, Oregonator, Lotka-Volterra in its chemical reading — are realised as Liénard-type relaxation oscillators whose limit cycles are the rigorous mathematical content of "chemical oscillation"; the rate-law and Arrhenius machinery in [14.08.01] supplies the temperature-dependent vector field whose Hopf bifurcation generates the limit cycle.`
+
+### Validation
+
+All 5 edited peers re-validated at their prior 27/27 score after stitch:
+
+- `content/18-organismal-bio/02-cardiovascular/18.02.02-cardiac-action-potentials-pacemaker.md` — 27/27 ✓
+- `content/19-eco-evo-bio/02-pop-genetics/19.02.05-wright-fisher-model-and-diffusion-approximation.md` — 27/27 ✓
+- `content/16-inorgchem/04-coordination/16.04.02-crystal-field-stabilization-spectrochemical-series.md` — 27/27 ✓
+- `content/12-quantum/07-perturbation/12.07.02-time-dependent-perturbation-theory-fermi-golden-rule.md` — 27/27 ✓
+- `content/17-mol-cell-bio/07-signaling/17.07.02-rtk-mapk-signaling-cascade.md` — 27/27 ✓
+
+No reverts required. No edits to any of the 12 new/deepened units. No edits to deps.json, CONCEPT_CATALOG.md, or math-lane structural-cleanup files.
+
+### Summary numbers
+
+- New units processed: 12
+- Distinct peers referenced: 54
+- In-lane shipped peers eligible after deduplication and exclusion checks: 7 candidate (peer × new-unit) edges
+- Edges already linked (existing bullet referenced new unit): 3 (`18.02.02→18.02.01`, `16.04.01→16.05.01`, `16.04.02→16.05.01`)
+- Reciprocal Connections bullets added: 5
+- Cross-lane recommendations recorded but not stitched: 2 (`03.05.09→13.05.02`, `02.12.14→14.08.01`)
+- Files edited: 5
+- Reverts required: 0
+- All edited files re-validated at 27/27 ✓
+
+### Anomalies
+
+Low yield (5 stitches across 12 units) is consistent with the brief's expectation and reflects that most chem-bio-phys peers remain `status: draft`. The deepest substrate chapters in this lane — biomolecules (§17.01), membranes (§17.02), bio-signaling GPCRs (§17.07.01), bioinorganic (§16.06), and most of organismal physiology (§18.04.02–18.08) — are still pre-ship, which throttles lane-internal stitch counts mechanically. No stale unit-IDs found in any inspected file. No prohibited-phrasing or paragraph-length regressions introduced.
