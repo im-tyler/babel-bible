@@ -581,3 +581,72 @@ The validator's `\btrivial(?:ly)?\b` prohibited-phrasings rule collides with sta
 
 That brings Manin to 10/14 after Cycle 14. Then Cycle 15 finishes Manin (21.06.02, 21.09.01-02, 21.10.01 = 4 units) plus 2 spillover units from another zero-ship book (likely Serre *Course in Arithmetic* opener or Joe Harris *Moduli of Curves* opener).
 
+
+---
+
+## 2026-05-20 Cycle 14 — Manin Part 2 (under book-completion framing)
+
+**Headline:** Manin IMNT 4/14 → 10/14 (71%); 21.03 and 21.04 sub-chapters closed; 21.05/21.06/21.07 opened.
+
+### Cycle 14 — 6 units shipped 27/27
+
+| Unit | Title | Mode | Words | Sub-chapter |
+|---|---|---|---|---|
+| 21.03.03 | Dedekind ζ_K, Hecke L, Artin L | standard | 9,824 | closes 21.03 (3/3) |
+| 21.04.03 | Eichler-Shimura correspondence | **originator-prose** | 9,397 | closes 21.04 (3/3) |
+| 21.05.01 | ℓ-adic Galois representations | standard | 9,450 | opens 21.05 |
+| 21.06.01 | Modularity theorem + BSD | **originator-prose** | 10,888 | opens 21.06 |
+| 21.07.01 | Z_p-extensions / Iwasawa theory | **originator-prose** | 9,281 | opens 21.07 |
+| 21.07.02 | p-adic L-functions / Main Conjecture | standard | 10,837 | (21.07) |
+
+**Total:** 6 units, ~59,677 words. All 27/27 on first independent re-validation.
+
+### Pass-W (cycle 14)
+
+22 reciprocal Connections bullets across 11 peer files (4 Section-21-shipped, 3 external — 04.04.03 elliptic curves, 06.06.03 Jacobian variety, 03.03.05 p-adic Lie group — plus 4 intra-batch fills). All touched files validate at 27/27.
+
+### Book-completion progress
+
+- **Manin IMNT — 10/14 (71%)** ↑ from 4/14
+- Plan totals: shipped 698 → 704; queued 62 → 56.
+- Books at 100%: unchanged at 36 (Manin closes in Cycle 15 after 4 more units; the cycle takes Manin + 2 spillover).
+
+### Section 21 chapter status
+
+| Sub-chapter | Status | Units |
+|---|---|---|
+| 21.03 L-functions | **closed** | 3/3 |
+| 21.04 modular forms | **closed** | 3/3 |
+| 21.05 Galois reps | open | 1/N |
+| 21.06 modularity-BSD | open | 1/N |
+| 21.07 Iwasawa | open | 2/N |
+| 21.09 Arakelov / Faltings | unopened | 0 |
+| 21.10 Langlands | unopened | 0 |
+
+### Catalog backfills
+
+- `diff-geom.padics-lie-group` entry added (resolves pre-existing pointer in 03.03.05; same pattern as 01.02.02 Cycle 13)
+
+### Term-of-art tension (continued)
+
+Adding to the watch list:
+- "trivial Galois representation" — used for the 1-dim unit rep
+- "trivial motive" — used for $\mathrm{Spec}\,\mathbb{Z}$
+- "inertia acts trivially" — standard phrasing in ramification theory
+
+All worked around with "identity / one-dimensional unit / by the identity / unit motive" forms. The per-domain validator exemption recommendation has now accumulated 5+ distinct pinned NT terms.
+
+### Recommended next cycle (15) — closes Manin
+
+**Manin Part 3 + spillover.** 4 remaining Manin queued units:
+- 21.06.02 Sato-Tate conjecture (P3)
+- 21.09.01 Arakelov geometry / arithmetic surfaces (P3, survey)
+- 21.09.02 Faltings / Mordell theorem (P3)
+- 21.10.01 Langlands philosophy survey (P4)
+
+Plus 2 spillover from another zero-ship book — best candidates:
+- 21.08.01 Weil conjectures (could be Manin auxiliary; or from another audit if it sources elsewhere)
+- Open Joe Harris *Moduli of Curves* with its first 1-2 punch-list items (zero-ship book)
+
+After Cycle 15: **Manin 100% ✓**; 37th book at 100%; remaining queue ~50 across 11-12 books.
+
