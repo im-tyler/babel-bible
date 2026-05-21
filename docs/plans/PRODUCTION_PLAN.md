@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-21T01:58:33.556694+00:00_
+_Generated: 2026-05-21T02:53:27.236971+00:00_
 
 ## Burn-down
 
-- Units shipped: **692**
-- Units queued (gap units from audits): **68**
+- Units shipped: **698**
+- Units queued (gap units from audits): **62**
 - Of which deepenings: **0**
 - Audits completed: **58 / 92**
 - Books unaudited: **0**
@@ -26,14 +26,14 @@ _Generated: 2026-05-21T01:58:33.556694+00:00_
 | 10 | `04.11.13` | Toric intersection theory and mixed volumes | P3 | fulton-toric-varieties |
 | 11 | `04.11.14` | Bernstein-Kushnirenko theorem | P3 | fulton-toric-varieties |
 | 12 | `04.11.16` | Reflexive polytope and Batyrev mirror duality (pointer) | P4 | fulton-toric-varieties |
-| 13 | `04.12.13` | Period integral and the mirror map (pointer) | P2 | gross-tropical-geometry-mirror-symmetry |
-| 14 | `04.12.15` | Log Gromov-Witten invariants (pointer) | P3 | gross-tropical-geometry-mirror-symmetry |
-| 15 | `03.06.23` | Modularity of the elliptic genus | P1 | hirzebruch-manifolds-modular-forms |
-| 16 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
-| 17 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
-| 18 | `04.05.10` | Hirzebruch-Riemann-Roch theorem (general dimension) | P1 | hirzebruch-topological-methods |
-| 19 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
-| 20 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
+| 13 | `03.06.23` | Modularity of the elliptic genus | P1 | hirzebruch-manifolds-modular-forms |
+| 14 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
+| 15 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
+| 16 | `04.05.10` | Hirzebruch-Riemann-Roch theorem (general dimension) | P1 | hirzebruch-topological-methods |
+| 17 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
+| 18 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
+| 19 | `04.10.20` | Deformation theory of smooth curves | P1 | joe-harris-moduli-of-curves |
+| 20 | `04.10.22` | Stable curve and Deligne-Mumford stability | P1 | joe-harris-moduli-of-curves |
 
 ## Audits completed
 

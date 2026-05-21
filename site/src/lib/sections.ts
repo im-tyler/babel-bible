@@ -33,6 +33,7 @@ export const SECTIONS: SectionInfo[] = [
   { key: "organismal-bio", order: 18, label: "Organismal biology", anchor: "organismal-bio" },
   { key: "eco-evo-bio", order: 19, label: "Ecology & evolution", anchor: "eco-evo-bio" },
   { key: "philosophy", order: 20, label: "Philosophy", anchor: "philosophy" },
+  { key: "number-theory", order: 21, label: "Number theory", anchor: "number-theory" },
 ];
 
 export const MATH_SECTION_KEYS = new Set([
@@ -46,6 +47,7 @@ export const MATH_SECTION_KEYS = new Set([
   "stat-mech",
   "riemann-surfaces",
   "representation-theory",
+  "number-theory",
 ]);
 
 export const SECTION_BY_KEY = new Map<string, SectionInfo>(
