@@ -2125,3 +2125,122 @@ No peer files edited; nothing to re-validate.
 3. **12.11.00 placeholder.** The Dirac unit cites Klein-Gordon as `[12.11.00]`. No file with that ID exists in `content/`; the sub-chapter `12-quantum/11-relativistic-qm/` currently contains only 12.11.01. Likely a future-stub reference. No action.
 4. **13.06.NN placeholder.** The gravitational-wave unit cites black-hole quasi-normal modes as `[13.06.NN, pending]`. Not a stable ID. No action.
 5. **No stale unit-IDs detected** in any inspected file beyond the two placeholders called out above.
+
+## 2026-05-20 Cycle 14 Pass-W — Section 21 number-theory chapter expansion (Manin-Panchishkin lane)
+
+Pass W on the six units shipped in Cycle 14 across Section 21 (number theory). The cycle closes the $L$-functions sub-chapter `21.03` (3/3), closes the modular-forms sub-chapter `21.04` (3/3), and opens the Galois-representations / modularity-BSD / Iwasawa sub-chapters `21.05`, `21.06`, `21.07` with one or two units each:
+
+1. 21.03.03 Dedekind $\zeta_K$, Hecke $L$, Artin $L$ (`21-number-theory/03-l-functions/`)
+2. 21.04.03 Eichler-Shimura correspondence (`21-number-theory/04-modular-forms/`)
+3. 21.05.01 $\ell$-adic Galois representations — first unit of 21.05 (`21-number-theory/05-galois-reps/`)
+4. 21.06.01 Modularity theorem + BSD — first unit of 21.06 (`21-number-theory/06-modularity-bsd/`)
+5. 21.07.01 $\mathbb{Z}_p$-extensions and Iwasawa theory — first unit of 21.07 (`21-number-theory/07-iwasawa/`)
+6. 21.07.02 $p$-adic $L$-functions and Mazur-Wiles Main Conjecture (`21-number-theory/07-iwasawa/`)
+
+### Files edited
+
+Eleven files. Per Pass-W contract: zero edits made to the six new units' Beginner / Intermediate / Master body / Frontmatter; all edits are bullets appended inside `## Connections [Master]`.
+
+**Group A — Cycle-13 Section-21 units receiving forward bullets to Cycle-14 siblings (4 files):**
+
+1. `content/21-number-theory/03-l-functions/21.03.01-riemann-zeta-function.md` — added 4 bullets (→21.05.01, →21.06.01, →21.07.01, →21.07.02).
+2. `content/21-number-theory/03-l-functions/21.03.02-dirichlet-l-functions.md` — added 4 bullets (→21.05.01, →21.06.01, →21.07.01, →21.07.02).
+3. `content/21-number-theory/04-modular-forms/21.04.01-modular-forms-on-sl2-z.md` — added 3 bullets (→21.03.03, →21.06.01, →combined 21.07.01+21.07.02). 21.04.03 and 21.05.01 forward bullets already in place from Cycle 13.
+4. `content/21-number-theory/04-modular-forms/21.04.02-hecke-operators-hecke-algebra.md` — added 2 bullets (→21.07.01, →21.07.02). 21.03.03, 21.04.03, 21.05.01, 21.06.01 forward bullets already in place from Cycle 13.
+
+**Group B — External peers receiving reciprocal bullets (3 files):**
+
+5. `content/04-algebraic-geometry/04-curves/04.04.03-elliptic-curves.md` — added 2 bullets (→21.04.03, →21.06.01). The 04.04.03 Connections section already referenced "Galois representations and the Langlands program" + "Modular curves and modular forms" in body prose, but had no explicit Connections bullet to the dedicated 21.04.03 / 21.06.01 units; both reciprocals now in place.
+6. `content/06-riemann-surfaces/06-jacobians/06.06.03-jacobian-variety.md` — added 1 bullet (→21.04.03). The 06.06.03 Connections section is exceptionally sparse (one composite line referring to 06.05.01/06.06.03/06.04.01); the new bullet is the first arithmetic-application stitch from the Jacobian unit.
+7. `content/03-differential-geometry/03-lie-groups/03.03.05-padics-lie-group.md` — added 1 bullet (→21.07.01). The $1$-dimensional pro-$p$ Lie group $\Gamma \cong \mathbb{Z}_p$ is the foundational substrate of Iwasawa theory; the present bullet records the operator-theoretic identification.
+
+**Group C — Intra-batch reciprocity stitches (4 files; bullets between Cycle-14 new units where one direction was missing):**
+
+8. `content/21-number-theory/03-l-functions/21.03.03-dedekind-hecke-artin-l-functions.md` — added 1 bullet (→21.04.03). 21.04.03 was cited by 21.04.01 in the original 21.03.03 Connections; the explicit Eichler-Shimura bullet now closes the bridge.
+9. `content/21-number-theory/05-galois-reps/21.05.01-ell-adic-galois-representations.md` — added 2 bullets (→21.03.03, →21.07.02). 21.03.03 cites 21.05.01 ($\ell$-adic extension of Artin formalism); 21.07.02 cites 21.05.01 (deformation theory of $p$-adic Galois reps). Both reciprocals now in place.
+10. `content/21-number-theory/06-modularity-bsd/21.06.01-modularity-theorem-bsd-conjecture.md` — added 1 bullet (→21.03.03). 21.03.03 cites 21.06.01 (BSD as elliptic-curve analytic-class-number-formula); reciprocal now in place.
+11. `content/21-number-theory/07-iwasawa/21.07.01-zp-extensions-iwasawa-theory.md` — added 1 bullet (→21.04.03). 21.04.03 cites 21.07.01 (Mazur-Wiles uses Eichler-Shimura $\rho_{f, \ell}$ as input); reciprocal now in place.
+
+### Required stitches on the brief
+
+- **A.** External peer `04.04.03` (elliptic curves) — cited by 21.04.03, 21.06.01. Both reciprocals added.
+- **B.** External peer `06.06.03` (Jacobian variety) — cited by 21.04.03. Reciprocal added.
+- **C.** External peer `03.03.05` ($p$-adic Lie group) — cited by 21.07.01. Reciprocal added.
+- **D.** Cycle-13 forward bullets — 21.03.01 (→21.05.01/06.01/07.01/07.02), 21.03.02 (→21.05.01/06.01/07.01/07.02), 21.04.01 (→21.03.03/06.01/combined 07.01+07.02), 21.04.02 (→21.07.01/07.02). 13 forward bullets added; the remaining ones (e.g. 21.04.01→21.04.03, 21.04.01→21.05.01, 21.04.02→21.03.03/04.03/05.01/06.01) were already present from Cycle 13.
+- **E.** Intra-batch reciprocity for new Cycle-14 siblings — 21.03.03→21.04.03, 21.05.01→21.03.03+21.07.02, 21.06.01→21.03.03, 21.07.01→21.04.03 added (5 bullets across 4 files). All other intra-batch directions were already bidirectional in the new units as shipped.
+
+### Reciprocity audit — bidirectional pairs after Pass-W
+
+External peers (Cycle 14 ↔ external):
+- (21.04.03, 04.04.03), (21.04.03, 06.06.03)
+- (21.06.01, 04.04.03)
+- (21.07.01, 03.03.05)
+
+Cycle-13 ↔ Cycle-14 forward bullets now in place (every Cycle-14 unit cited by a Cycle-13 unit, and vice versa):
+- (21.03.01, 21.05.01), (21.03.01, 21.06.01), (21.03.01, 21.07.01), (21.03.01, 21.07.02)
+- (21.03.02, 21.05.01), (21.03.02, 21.06.01), (21.03.02, 21.07.01), (21.03.02, 21.07.02)
+- (21.04.01, 21.03.03), (21.04.01, 21.06.01), (21.04.01, 21.07.01), (21.04.01, 21.07.02)
+- (21.04.02, 21.07.01), (21.04.02, 21.07.02)
+
+Intra-batch reciprocals now closed:
+- (21.03.03, 21.04.03), (21.03.03, 21.05.01), (21.03.03, 21.06.01)
+- (21.04.03, 21.05.01), (21.04.03, 21.06.01), (21.04.03, 21.07.01)
+- (21.05.01, 21.06.01), (21.05.01, 21.07.01), (21.05.01, 21.07.02)
+- (21.06.01, 21.07.01), (21.06.01, 21.07.02)
+- (21.07.01, 21.07.02)
+
+### Reciprocity gaps left open
+
+- **Forward references to not-yet-shipped Section-21 successors (21.06.02 Sato-Tate, 21.10.01 Langlands programme / Tate's thesis).** Cited by 21.06.01 (21.06.02 and 21.10.01) and by 21.03.03 (21.10.01); receivers don't exist yet, no reciprocal possible. Reciprocity will land when those units ship.
+- **Generic chapter pointers `[04-algebraic-geometry]` and `[07-rep-theory]` in 21.05.01.** Not literal unit IDs — placeholder pointers to forthcoming étale-cohomology and representation-theory anchor units. No reciprocal action possible; left for a future cycle when canonical anchor units are produced.
+
+### Term-of-art tensions
+
+- **"trivial X" → "unit X" workaround re-applied.** In drafting the new 21.03.01 → 21.05.01 forward bullet I initially wrote "the trivial $1$-dimensional motive" and "the simplest non-trivial Galois representation"; the validator's `\btrivial(?:ly)?\b` prohibition triggered (the bullet's `\zeta(s)` interpretation as the Hasse-Weil $L$-function of $\mathrm{Spec}\,\mathbb{Z}$ is genuinely the "trivial motive" in motivic-cohomology term-of-art usage). Rewrote as "the unit $1$-dimensional motive" / "simplest non-unit Galois representation," parallel to the Cycle-13 "negative-even zero" / "principal character" workarounds. Same orchestrator recommendation as Cycle 13: a per-domain validator exemption for chapter 21 covering {`trivial zero`, `trivial character`, `trivial motive`, `trivial representation`} would let the number-theory lane use canonical term-of-art phrasing without round-tripping through paraphrase. The current "unit X" / "principal X" workarounds remain mathematically precise but are mildly load-bearing on reader recognition.
+- **"principal character" already in use for `21.03.02`-style settings.** The 21.07.02 unit uses "principal character $\chi_0$" consistently for the trivial Dirichlet character, matching Cycle 13's convention; new Pass-W bullets on 21.03.01 → 21.07.02 follow the same phrasing.
+
+### Anchor-phrase usage
+
+All Pass-W edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "successor unit", "sibling unit", "the operator-theoretic substrate", "the operator-theoretic source", "the foundational substrate", "the prototype", "the analytic shadow", "the algebraic carrier", "the algebraic substrate", "the geometric realisation", "the cyclotomic algebraic substrate", "fibrewise specialisation", "elliptic-curve refinement", "the $\mathrm{GL}_2$ analogue of". No prohibited phrasings introduced (after the "trivial motive" fix described above).
+
+### Seams found but not edited
+
+- **21.06.02 (Sato-Tate)** — forward-cited by 21.06.01; future unit. Reciprocal deferred.
+- **21.10.01 (Tate's thesis / Langlands $\mathrm{GL}_1$)** — forward-cited by 21.03.03 and 21.06.01; future unit. Reciprocal deferred.
+- **Generic `[04-algebraic-geometry]` / `[07-rep-theory]` chapter pointers in 21.05.01.** Not literal unit IDs; no per-unit reciprocal action possible.
+- **04.04.03 vs. 21.04.03 Jacobian context.** 04.04.03 already had Jacobi-inversion-theorem references and "Galois representations and the Langlands program" body prose; the new bullet is the first dedicated Connections entry to 21.04.03. The body-prose layer was carrying the load before; the new bullet promotes the link to the Connections list.
+
+### Pass-W summary numbers (Cycle 14)
+
+- New units processed: 6
+- Files edited: 11 (4 Cycle-13 forward-bullet receivers + 3 external peer receivers + 4 intra-batch reciprocal receivers; zero edits to the six new units beyond Group C intra-batch reciprocity)
+- New Connections bullets added: 22 total
+  - 21.03.01: 4 (→05.01, →06.01, →07.01, →07.02)
+  - 21.03.02: 4 (→05.01, →06.01, →07.01, →07.02)
+  - 21.04.01: 3 (→03.03, →06.01, →combined 07.01+07.02)
+  - 21.04.02: 2 (→07.01, →07.02)
+  - 04.04.03: 2 (→21.04.03, →21.06.01)
+  - 06.06.03: 1 (→21.04.03)
+  - 03.03.05: 1 (→21.07.01)
+  - 21.03.03: 1 (→21.04.03) [intra-batch]
+  - 21.05.01: 2 (→21.03.03, →21.07.02) [intra-batch]
+  - 21.06.01: 1 (→21.03.03) [intra-batch]
+  - 21.07.01: 1 (→21.04.03) [intra-batch]
+- Required stitches on the brief: A, B, C, D, E — all 5 completed.
+- Stale unit-IDs found and corrected: 0
+- Reverts required: 1 ("trivial motive" → "unit motive" in 21.03.01; validator-driven, no semantic loss)
+- All 6 new units re-validated at 27/27 ✓
+- All 11 edited peer files validated:
+  - 10 at 27/27 ✓
+  - 1 at 26/27 (`03.03.05-padics-lie-group.md` — pre-existing `concept_catalog_id` failure, confirmed via `git stash` baseline; unrelated to this Pass-W edit)
+
+### Chapter-status note
+
+Section 21 (number theory) is **now at 10/N**. Sub-chapter inventory:
+- `21.03 L-functions` — **closed (3/3):** 21.03.01 Riemann zeta, 21.03.02 Dirichlet $L$, 21.03.03 Dedekind/Hecke/Artin $L$.
+- `21.04 modular forms` — **closed (3/3):** 21.04.01 modular forms on $\mathrm{SL}_2(\mathbb{Z})$, 21.04.02 Hecke operators, 21.04.03 Eichler-Shimura.
+- `21.05 Galois reps` — **open (1/N):** 21.05.01 $\ell$-adic Galois representations.
+- `21.06 modularity / BSD` — **open (1/N):** 21.06.01 modularity theorem + BSD.
+- `21.07 Iwasawa` — **open (2/N):** 21.07.01 $\mathbb{Z}_p$-extensions, 21.07.02 $p$-adic $L$ + Main Conjecture.
+
+The remaining roadmap forward-referenced from these units: 21.06.02 Sato-Tate, 21.10.01 Tate's thesis / Langlands $\mathrm{GL}_1$ prototype, plus likely future units in 21.05 (Fontaine $p$-adic Hodge theory, Serre's modularity conjecture / Khare-Wintenberger), 21.06 (Bhargava-Skinner-Zhang density theorem), 21.07 (Skinner-Urban deeper results, anticyclotomic Bertolini-Darmon, non-commutative Iwasawa theory). The Manin-Panchishkin lane is ready for further production cycles; the cross-stitch substrate is now bidirectionally closed across Sections 21.03 and 21.04 internally and to the external peers 04.04.03 / 06.06.03 / 03.03.05.

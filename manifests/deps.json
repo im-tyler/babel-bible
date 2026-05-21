@@ -4516,6 +4516,26 @@
       "from": "06.01.08",
       "to": "21.04.01",
       "state": "shipped"
+    },
+    {
+      "from": "21.03.01",
+      "to": "21.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "21.03.02",
+      "to": "21.07.02",
+      "state": "shipped"
+    },
+    {
+      "from": "21.04.02",
+      "to": "21.05.01",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.12",
+      "to": "21.05.01",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -4875,7 +4895,12 @@
     "08.09.01",
     "21.03.01",
     "21.04.01",
-    "21.04.02"
+    "21.04.02",
+    "21.04.03",
+    "21.05.01",
+    "21.07.01",
+    "21.07.02",
+    "21.03.03"
   ],
   "_notes": {
     "01.01.03": "vector space \u2014 Wave 2 Phase 2.1 unit #1, SHIPPED",
@@ -5096,6 +5121,8 @@
     "04.12.11": "Slab function and structure of a tropical manifold \u2014 Cycle 12 tropical/mirror-symmetry T1 cluster, Gross-Siebert 2010 JAG 19 originator, SHIPPED 2026-05-20",
     "04.12.13": "Period integral and the mirror map (pointer) \u2014 Cycle 13 Gross pointer, Candelas-de la Ossa-Green-Parkes 1991 + Morrison 1993 + Gross 2011 CBMS Lecture 7 anchors, SHIPPED 2026-05-20",
     "04.12.15": "Log Gromov-Witten invariants (pointer) \u2014 Cycle 13 Gross pointer, Gross-Siebert 2013 JAMS 26 + Abramovich-Chen 2014 Asian JM 18 originators, SHIPPED 2026-05-20",
-    "21.03.01": "Riemann zeta function \u03b6(s) \u2014 Cycle 13 Manin IMNT number-theory chapter-opener, Riemann 1859 originator-prose, SHIPPED 2026-05-20"
+    "21.03.01": "Riemann zeta function \u03b6(s) \u2014 Cycle 13 Manin IMNT number-theory chapter-opener, Riemann 1859 originator-prose, SHIPPED 2026-05-20",
+    "21.07.02": "p-adic L-functions and the Iwasawa Main Conjecture \u2014 Cycle 14 Manin IMNT Iwasawa-theory chapter, Kubota-Leopoldt 1964 + Mazur-Wiles 1984 originators, SHIPPED 2026-05-20",
+    "21.06.01": "Modularity theorem (statement) and BSD conjecture \u2014 Cycle 14 Manin IMNT modularity-BSD chapter-opener, Wiles 1995 + BCDT 2001 + Birch-Swinnerton-Dyer 1965 originators, SHIPPED 2026-05-20"
   }
 }
