@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-21T03:48:36.019808+00:00_
+_Generated: 2026-05-21T04:12:14.161897+00:00_
 
 ## Burn-down
 
-- Units shipped: **704**
-- Units queued (gap units from audits): **56**
+- Units shipped: **714**
+- Units queued (gap units from audits): **52**
 - Of which deepenings: **0**
 - Audits completed: **58 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-21T03:48:36.019808+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `08.10.01` | Bosonic Fock space and second quantisation | P1 | chatterjee-qft-lecture-notes, landau-lifshitz-statistical-physics-1, parisi-wu-stochastic-quantization |
-| 2 | `08.10.04` | Wick's theorem for operator products | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 3 | `08.10.05` | Feynman propagator and the contour-integral representation | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 4 | `08.10.06` | One-loop renormalisation in $\phi^4$ | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 5 | `08.10.07` | Wightman axioms (W1–W7) | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 6 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 7 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
-| 8 | `04.11.11` | Algebraic moment map and the polytope | P2 | fulton-toric-varieties |
-| 9 | `04.11.12` | Cohomology of a smooth complete toric variety | P3 | fulton-toric-varieties |
-| 10 | `04.11.13` | Toric intersection theory and mixed volumes | P3 | fulton-toric-varieties |
-| 11 | `04.11.14` | Bernstein-Kushnirenko theorem | P3 | fulton-toric-varieties |
-| 12 | `04.11.16` | Reflexive polytope and Batyrev mirror duality (pointer) | P4 | fulton-toric-varieties |
-| 13 | `03.06.23` | Modularity of the elliptic genus | P1 | hirzebruch-manifolds-modular-forms |
-| 14 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
-| 15 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
-| 16 | `04.05.10` | Hirzebruch-Riemann-Roch theorem (general dimension) | P1 | hirzebruch-topological-methods |
-| 17 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
-| 18 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
-| 19 | `04.10.20` | Deformation theory of smooth curves | P1 | joe-harris-moduli-of-curves |
-| 20 | `04.10.22` | Stable curve and Deligne-Mumford stability | P1 | joe-harris-moduli-of-curves |
+| 1 | `08.10.04` | Wick's theorem for operator products | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 2 | `08.10.05` | Feynman propagator and the contour-integral representation | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 3 | `08.10.06` | One-loop renormalisation in $\phi^4$ | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 4 | `08.10.07` | Wightman axioms (W1–W7) | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 5 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 6 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
+| 7 | `04.11.12` | Cohomology of a smooth complete toric variety | P3 | fulton-toric-varieties |
+| 8 | `04.11.13` | Toric intersection theory and mixed volumes | P3 | fulton-toric-varieties |
+| 9 | `04.11.14` | Bernstein-Kushnirenko theorem | P3 | fulton-toric-varieties |
+| 10 | `04.11.16` | Reflexive polytope and Batyrev mirror duality (pointer) | P4 | fulton-toric-varieties |
+| 11 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
+| 12 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
+| 13 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
+| 14 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
+| 15 | `04.10.20` | Deformation theory of smooth curves | P1 | joe-harris-moduli-of-curves |
+| 16 | `04.10.22` | Stable curve and Deligne-Mumford stability | P1 | joe-harris-moduli-of-curves |
+| 17 | `04.10.26` | Forgetful and gluing morphisms on $\overline{\mathcal{M}}_{g, n}$ | P2 | joe-harris-moduli-of-curves |
+| 18 | `04.10.29` | Limit linear series (Eisenbud-Harris) | P2 | joe-harris-moduli-of-curves |
+| 19 | `04.10.30` | Hurwitz numbers and the Hurwitz scheme | P3 | joe-harris-moduli-of-curves |
+| 20 | `04.10.32` | ELSV formula: Hurwitz numbers as Hodge integrals | P3 | joe-harris-moduli-of-curves |
 
 ## Audits completed
 
