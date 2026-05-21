@@ -4180,7 +4180,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Atkins Ch. 1 + statistical-mechanics perspective on the ideal gas law
   - intermediate: Atkins & de Paula, *Physical Chemistry*, 12e (2023), Ch. 1
   - beginner: Tro, *Chemistry: A Molecular Approach*, 6e (2023), Ch. 4-5
-- **notes**: (to be filled during production)
+- **notes**: Stoichiometry (mole ratios, limiting reagent, theoretical yield) and the ideal gas law PV = nRT with Dalton's law of partial pressures. Intermediate: limiting-reagent theorem with extent-of-reaction proof, van der Waals corrections. Master: kinetic theory derivation of PV = nRT from molecular collisions, Maxwell-Boltzmann distribution and characteristic speeds, equipartition theorem, virial expansion with statistical-mechanical B(T) expression and Mayer cluster-integral proof, cubic equations of state (Redlich-Kwong, Peng-Robinson), Graham's law of effusion, mean free path, Joule-Thomson coefficient and inversion temperature, principle of corresponding states, generalised compressibility charts. Originators: Richter, Dalton, Avogadro, Boyle, Charles, Clausius, Maxwell, Boltzmann, van der Waals, Andrews, Graham, Joule-Thomson, Kamerlingh Onnes. Cycle 4 Track B deepening from 3512w to 8004w.
 
 
 ### chemistry.hydrogen-atom-quantum-chemistry
