@@ -2028,3 +2028,100 @@ All edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 �
 ### Chapter-status note
 
 The tropical chapter `04.12` is now **14/14 complete** (units 01-13 plus 15; numbering 14 was intentionally skipped per the brief). The chapter forms a bidirectionally closed sub-graph covering tropical foundations (01-06), Gross-Siebert mirror-symmetry programme (07-12), and the two chapter-closing pointers (13, 15). Section 21 (number theory) is **open at 4/N** with the first sub-chapter on $L$-functions (21.03) seeded at 2 units and the second sub-chapter on modular forms (21.04) seeded at 2 units; the planned future units 21.03.03 (Dedekind/Hecke/Artin $L$), 21.04.03 (Eichler-Shimura), 21.05.01 ($\ell$-adic Galois representations), 21.06.01 (modularity + BSD), and 21.10.01 (Tate's thesis / Langlands $\mathrm{GL}_1$ prototype) are all forward-referenced and ready for the next Manin-Panchishkin production cycle.
+
+## T1 batch chem-bio-phys lane Pass-W (2026-05-20)
+
+### Scope
+
+Cross-stitching for the 4 T1-class chem-bio-phys-lane units deepened and re-validated at 27/27 in the current cycle:
+
+1. `content/11-stat-mech-physics/07-rg/11.07.01-critical-phenomena-and-renormalization-group.md` (3844 → 9038w; 5 substantive Master subs; full Wilson-Fisher derivation)
+2. `content/12-quantum/10-path-integral/12.10.01-path-integral-formulation.md` (6524 → 12202w; 6 Master subs; Trotter, Wick, semiclassical, Faddeev-Popov, instantons)
+3. `content/12-quantum/11-relativistic-qm/12.11.01-dirac-equation-relativistic-spin.md` (6931 → 11630w; 5 Master subs; Clifford closure, g=2, chiral, FW, hole-theory)
+4. `content/13-gr-cosmology/07-gravitational-waves/13.07.01-linearized-gr-gravitational-waves.md` (5703 → 11885w; 4 Master subs; TT gauge, quadrupole, chirp, LIGO)
+
+### Peer-reference inventory
+
+Union of `[NN.NN.NN]` peer refs extracted from the 4 Connections-Master sections (one peer per row; deduplicated):
+
+| Peer ID | File path / status | Cited by | Lane | Disposition |
+|---|---|---|---|---|
+| 11.06.01 | `content/11-stat-mech-physics/06-phase-transitions/11.06.01-ising-model-and-phase-transitions.md` — `draft` | 11.07.01 | chem-bio-phys | SKIP (draft) |
+| 11.04.01 | `content/11-stat-mech-physics/04-partition-functions/11.04.01-canonical-ensemble.md` — `draft` | 11.07.01, 12.10.01 | chem-bio-phys | SKIP (draft) |
+| 12.01.01 | `content/12-quantum/01-foundations/12.01.01-wave-particle-duality-and-double-slit.md` — `draft` | 11.07.01 (as QED reference) | chem-bio-phys | SKIP (draft) |
+| 09.02.01 | `content/09-classical-mech/02-lagrangian/09.02.01-action-principle-variational-calculus.md` — `draft` | 12.10.01 | chem-bio-phys | SKIP (draft) |
+| 12.03.01 | `content/12-quantum/03-time-evolution/12.03.01-schrodinger-heisenberg-pictures.md` — `draft` | 12.10.01, 12.11.01 | math-lane §2 exclusion zone (`12-quantum/03-time-evolution/`) | SKIP (exclusion zone + draft) |
+| 12.04.02 | `content/12-quantum/04-one-dim-problems/12.04.02-quantum-harmonic-oscillator.md` — `draft` | 12.10.01 | chem-bio-phys | SKIP (draft) |
+| 09.04.02 | `content/09-classical-mech/04-hamiltonian/09.04.02-hamiltons-equations.md` — `draft` | 12.10.01 | chem-bio-phys | SKIP (draft) |
+| 09.05.01 | `content/09-classical-mech/05-canonical/09.05.01-canonical-transformations.md` — `draft` | 12.10.01 (cited as Hamilton-Jacobi; literal ID points at canonical-transformations) | chem-bio-phys | SKIP (draft) |
+| 10.05.01 | `content/10-em-sr/05-special-relativity/10.05.01-special-relativity-postulates-and-lorentz-transformations.md` — `draft` | 12.11.01 | chem-bio-phys | SKIP (draft) |
+| 12.05.01 | `content/12-quantum/05-angular-momentum/12.05.01-angular-momentum-operators-su2.md` — `draft` | 12.11.01 | chem-bio-phys (outside §2 exclusion zone) | SKIP (draft) |
+| 03.09.08 | `content/03-modern-geometry/09-spin-geometry/03.09.08-dirac-operator.md` — `shipped` | 12.11.01 | cross-lane math §00-07 | RECOMMEND (do-not-edit) |
+| 12.11.00 | (no file — placeholder for Klein-Gordon stub) | 12.11.01 | — | SKIP (missing target) |
+| 12.10.01 | (T1 unit deepened this cycle) | 12.11.01 | chem-bio-phys | SKIP (forbidden: editing a T1 unit) |
+| 13.04.01 | `content/13-gr-cosmology/04-einstein-eq/13.04.01-einstein-field-equations.md` — `draft` | 13.07.01 | chem-bio-phys | SKIP (draft) |
+| 13.03.01 | `content/13-gr-cosmology/03-curvature/13.03.01-riemann-curvature-tensor.md` — `draft` | 13.07.01 | chem-bio-phys | SKIP (draft) |
+| 10.04.02 | `content/10-em-sr/04-maxwell-fields/10.04.02-em-waves-and-wave-equation.md` — `draft` | 13.07.01 | chem-bio-phys | SKIP (draft) |
+| 13.05.02 | `content/13-gr-cosmology/05-schwarzschild/13.05.02-orbits-schwarzschild-geometry.md` — `draft` | 13.07.01 | chem-bio-phys | SKIP (draft) |
+| 09.03.01 | `content/09-classical-mech/03-symmetries-noether/09.03.01-noethers-theorem.md` — `draft` | 13.07.01 | chem-bio-phys | SKIP (draft) |
+| 13.08.01 | `content/13-gr-cosmology/08-cosmology/13.08.01-flrw-cosmology-friedmann-equations.md` — `draft` | 13.07.01 | chem-bio-phys | SKIP (draft) |
+| 13.06.NN | (pending; not a literal stable ID) | 13.07.01 | — | SKIP (placeholder) |
+
+### Eligibility summary
+
+- **In-lane shipped peers eligible for stitching:** 0
+- **In-lane draft peers (rule 1 disqualifies):** 15 (14 distinct files; 12.03.01 also fails rule 3)
+- **Math-lane §2 exclusion-zone peers:** 1 (12.03.01, in `12-quantum/03-time-evolution/`)
+- **Cross-lane math §00-07 peers (do-not-edit, record recommendation):** 1 (03.09.08, `shipped`)
+- **Placeholder / missing / T1-itself targets:** 3 (12.11.00, 12.10.01, 13.06.NN)
+
+### Stitches made
+
+**Zero** reciprocal Connections bullets appended. The expected-low-yield clause in the brief is realised in the extreme: every cited in-lane chem-bio-phys peer is still `status: draft`, so none meets rule 1 (shipped). The substantial intellectual scaffolding for these four T1 units (action principle, Hamiltonian mechanics, Schrödinger time evolution, special relativity, Einstein field equations, Riemann curvature, EM waves, Noether, canonical ensemble, Ising, QHO, spin/SU(2), Schwarzschild orbits, FLRW) lives entirely in unshipped territory; the T1 frontier deepenings have outrun the substrate units that ought to anchor them.
+
+### Stitches by new unit
+
+- **11.07.01 (critical-phenomena-and-renormalization-group):** 0 stitches. Cited in-lane peers (11.06.01 Ising, 11.04.01 canonical, 12.01.01 wave-particle/QED) all draft.
+- **12.10.01 (path-integral-formulation):** 0 stitches. Cited in-lane peers (09.02.01 action, 12.04.02 QHO, 11.04.01 canonical, 09.04.02 Hamilton's eqs, 09.05.01 canonical transformations) all draft; 12.03.01 also math-lane §2 exclusion.
+- **12.11.01 (dirac-equation-relativistic-spin):** 0 stitches. Cited in-lane peers (10.05.01 SR, 12.05.01 angular-momentum SU(2)) draft; 12.03.01 in exclusion zone; 12.11.00 has no file; 12.10.01 is a T1 unit (forbidden); 03.09.08 is cross-lane (recommended below).
+- **13.07.01 (linearized-gr-gravitational-waves):** 0 stitches. Cited in-lane peers (13.04.01 Einstein eqs, 13.03.01 Riemann, 10.04.02 EM waves, 13.05.02 Schwarzschild orbits, 09.03.01 Noether, 13.08.01 FLRW) all draft.
+
+### Cross-lane peers (math §00-07) — recommendations NOT made
+
+Per brief: do not edit cross-lane peers; record recommendation.
+
+1. **`03.09.08` (Dirac operator)** cited by **12.11.01 (dirac-equation-relativistic-spin)**. Currently `status: shipped` with no existing reference to 12.11.01 in its Connections. Recommended reciprocal bullet for the math-lane curator (spin-geometry chapter):
+
+   > `- **Dirac equation and relativistic spin [12.11.01].** The flat-space, Minkowski-signature, single-particle restriction of the Dirac operator $\slashed{D} = i\gamma^\mu\partial_\mu$ on $\mathbb{R}^{1,3}$ is exactly Dirac's original 1928 equation; the gamma-matrix Clifford-algebra closure $\{\gamma^\mu,\gamma^\nu\}=2\eta^{\mu\nu}$, the four-component spinor representation, and the geometric origin of the $g=2$ magnetic moment in [12.11.01] are the physical content that the abstract Dirac operator on a spin manifold specialises to in the Minkowski-vacuum case, anchoring the Atiyah-Singer / Lichnerowicz formalism in the historical particle-physics calculation that drove the discovery of antimatter.`
+
+No other cross-lane peers cited by the four T1 units (no math §00-07 references in the RG, path-integral, or gravitational-wave units' Connections-Master sections).
+
+### Validation
+
+No peer files edited; nothing to re-validate.
+
+- T1 units re-validated upstream at 27/27 (out of scope for this Pass-W).
+- No reverts required (no edits made).
+- No edits to deps.json, CONCEPT_CATALOG.md, or math-lane structural-cleanup files.
+- No frontmatter or existing-bullet edits.
+
+### Summary numbers
+
+- New T1 units processed: 4
+- Distinct in-lane peers extracted: 15 (across 4 Connections-Master sections; one peer 11.04.01 cited by two units)
+- Distinct cross-lane peers extracted: 1 (03.09.08)
+- Placeholder / missing / self-T1 targets: 3 (12.11.00, 12.10.01, 13.06.NN)
+- In-lane shipped peers eligible after rule check: 0
+- Reciprocal Connections bullets appended: 0
+- Files edited: 0
+- Cross-lane recommendations recorded but not stitched: 1 (`03.09.08 → 12.11.01`)
+- Reverts required: 0
+- Validator regressions: 0
+
+### Anomalies
+
+1. **Substrate-frontier inversion.** The four T1 units are frontier physics deepenings (full Wilson-Fisher derivation, Faddeev-Popov, FW transformation, LIGO chirp). Every chem-bio-phys-lane peer they cite (Ising, canonical ensemble, action principle, Hamilton's equations, SR postulates, Einstein equations, Riemann curvature, EM waves, Noether, etc.) is still `status: draft`. This is the structural reason for the zero-stitch outcome: the lane has been worked top-down rather than bottom-up. No action recommended at this stage — the substrate chapters will eventually ship and standard Pass-W cycles will then back-stitch the T1 frontier.
+2. **09.05.01 prose-vs-ID mismatch in 12.10.01.** The path-integral unit's Connections-Master bullet labels `[09.05.01]` as "Hamilton-Jacobi equation," but the literal ID 09.05.01 in the canonical-mechanics chapter is "Canonical transformations"; Hamilton-Jacobi is 09.05.02 (also shipped-status `draft`). Recorded for future Pass-W; per this brief I extracted the literal ID as written and the stitching disposition (both `draft`) is unchanged. No correction made to the T1 unit.
+3. **12.11.00 placeholder.** The Dirac unit cites Klein-Gordon as `[12.11.00]`. No file with that ID exists in `content/`; the sub-chapter `12-quantum/11-relativistic-qm/` currently contains only 12.11.01. Likely a future-stub reference. No action.
+4. **13.06.NN placeholder.** The gravitational-wave unit cites black-hole quasi-normal modes as `[13.06.NN, pending]`. Not a stable ID. No action.
+5. **No stale unit-IDs detected** in any inspected file beyond the two placeholders called out above.
