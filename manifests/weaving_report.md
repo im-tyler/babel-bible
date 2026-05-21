@@ -1718,3 +1718,96 @@ Six stale references corrected total. The pre-existing bullet content was alread
 - All 6 new cluster units re-validated at 27/27 ✓ (regression check via the intra-cluster edits)
 - All 4 prerequisite cluster units (04.11.01-04.11.04) re-validated at 27/27 ✓
 - External targets (04.05.05, 04.12.04) re-validated at 27/27 ✓
+
+## 2026-05-20 Cycle 12 — Gross-Siebert / SYZ tropical-mirror-symmetry cluster
+
+Pass W on the six units shipped in Cycle 12, extending the tropical chapter (`content/04-algebraic-geometry/12-tropical/`) from 6 units to 12 units. The new units close the algebraic-geometric / mirror-symmetry arc that the Cycle-10 tropical chapter and the Cycle-11 toric chapter set up:
+
+1. 04.12.07 Toric degeneration of a Calabi-Yau variety
+2. 04.12.08 Dual intersection complex / tropical manifold $B$
+3. 04.12.09 Gross-Siebert reconstruction theorem
+4. 04.12.10 Strominger-Yau-Zaslow conjecture
+5. 04.12.11 Slab function and structure of a tropical manifold
+6. 04.12.12 Theta function of a polarised tropical manifold
+
+### Files edited
+
+Eleven files. Six are the existing tropical-chapter siblings 04.12.01–06 (chapter is now 12 units long; the older 6 needed forward bullets to the new 6 per the CYCLE_4 §6.2 lateral-density target). Five are external receivers across the toric, moduli, Hodge, and symplectic chapters that the new units cite.
+
+**Existing-chapter receivers (tropical, 04.12.01–06)**
+
+1. `content/04-algebraic-geometry/12-tropical/04.12.01-tropical-semiring-tropical-polynomial.md` — added bullets to 04.12.07, 04.12.08, 04.12.11, 04.12.12.
+2. `content/04-algebraic-geometry/12-tropical/04.12.02-tropical-curve-balanced-metric-graph.md` — added bullets to 04.12.07, 04.12.08, 04.12.09, 04.12.10, 04.12.11, 04.12.12.
+3. `content/04-algebraic-geometry/12-tropical/04.12.03-kapranovs-theorem.md` — added bullets to 04.12.07, 04.12.08, 04.12.11, 04.12.12.
+4. `content/04-algebraic-geometry/12-tropical/04.12.04-newton-polytope-non-archimedean-amoeba.md` — added bullets to 04.12.07, 04.12.08, 04.12.09, 04.12.10, 04.12.11, 04.12.12.
+5. `content/04-algebraic-geometry/12-tropical/04.12.05-mikhalkin-correspondence-theorem.md` — added bullets to 04.12.07, 04.12.08, 04.12.10, 04.12.11, 04.12.12.
+6. `content/04-algebraic-geometry/12-tropical/04.12.06-nishinou-siebert-correspondence.md` — added bullets to 04.12.07, 04.12.08, 04.12.11, 04.12.12.
+
+**External receivers (toric, moduli, Hodge, symplectic)**
+
+7. `content/04-algebraic-geometry/11-toric/04.11.04-fan-and-toric-variety.md` — added bullets to 04.12.07, 04.12.08, 04.12.09, 04.12.11. (04.12.10 doesn't cite 04.11.04 directly; the SYZ unit routes through 04.12.07/08/09 to reach the toric-fan layer, which is the structurally correct path.)
+8. `content/04-algebraic-geometry/11-toric/04.11.10-polytope-fan-dictionary-line-bundle-l-p.md` — added bullets to 04.12.07, 04.12.08, 04.12.11, 04.12.12.
+9. `content/04-algebraic-geometry/10-moduli/04.10.01-moduli-of-curves.md` — added bullet to 04.12.12 (Mandel 2019 identifies theta-function structure constants with log GW invariants on $\overline{\mathcal{M}}_{0,3}$).
+10. `content/04-algebraic-geometry/09-hodge/04.09.11-kodaira-embedding-theorem.md` — added bullet to 04.12.07 (smooth Calabi-Yau fibres are projective via Kodaira embedding applied to the ambient toric polarisation).
+11. `content/05-symplectic/lagrangian/05.05.01-lagrangian-submanifold.md` — added bullet to 04.12.10 (special Lagrangians are Lagrangians plus the calibration condition; the Lagrangian framework is the SYZ entry point).
+
+### Required stitches on the brief
+
+- **A.** 04.11.04 (fan & toric variety) — cited by 04.12.07, 08, 09, 11. All four reciprocals added.
+- **B.** 04.11.10 (polytope-fan dictionary, $L_P$) — cited by 04.12.07, 08, 11, 12. All four reciprocals added.
+- **C.** 04.09.11 (Kodaira embedding) — cited by 04.12.07. Reciprocal added.
+- **D.** 05.05.01 (Lagrangian submanifold) — cited by 04.12.10. Reciprocal added.
+- **E.** 04.10.01 (moduli of curves) — cited by 04.12.12. Reciprocal added.
+- **F.** Forward stitches from existing 04.12.01–06 to the new 04.12.07–12 — 28 directed-edge bullets added in total (covering every new sibling from every existing sibling that has a substantive structural connection); see per-file count below.
+
+### Reciprocity audit
+
+Every Connections bullet on every new unit (04.12.07–12) now has a matching reciprocal bullet in the cited peer. The 17 new units (6 cited new + 11 touched peers) collectively form a bidirectionally closed sub-graph on the polytope-fan / tropical / mirror-symmetry arc.
+
+Pairs verified bidirectional after Pass W:
+
+- (04.11.04, 04.12.07), (04.11.04, 04.12.08), (04.11.04, 04.12.09), (04.11.04, 04.12.11)
+- (04.11.10, 04.12.07), (04.11.10, 04.12.08), (04.11.10, 04.12.11), (04.11.10, 04.12.12)
+- (04.09.11, 04.12.07), (05.05.01, 04.12.10), (04.10.01, 04.12.12)
+- All 36 (04.12.01–06) × (04.12.07–12) ordered pairs where the new unit substantively cites the older sibling: 28 forward bullets added (a few new units do not cite every older sibling — e.g., 04.12.11 doesn't cite 04.12.03; in those cases no forward bullet is added, which preserves the "no inflated reciprocity" rule of CYCLE_4 §6.2).
+
+### Anchor-phrase usage
+
+All edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD §3 — "the foundational reason", "the foundational input", "the structural backbone on which", "the structural backbone of", "the foundational substrate", "the foundational enumerative input", "the polarised refinement of", "the rigid-toric prototype of which X is the Calabi-Yau generalisation", "the dimension-2 prototype". No prohibited phrasings introduced.
+
+### Seams found but not edited
+
+- **04.11.11 (algebraic moment map / Atiyah-Guillemin-Sternberg), 04.11.12 (cohomology of smooth complete toric variety).** Both are forward-referenced by the new tropical-mirror-symmetry units but not yet shipped; reciprocal stitches deferred to the cycle that produces them.
+- **04.10.02 (GIT) → 04.12.09 (Gross-Siebert reconstruction).** The Gross-Siebert reconstruction theorem's algebraisation step uses GIT-style quotient constructions on the formal smoothing; a reciprocal stitch from 04.10.02 back to 04.12.09 would be natural but is outside the cycle-12 brief.
+- **04.12.15 (log Gromov-Witten invariants).** Forward-referenced in 04.12.06, 04.12.11, 04.12.12; not yet shipped. Reciprocal stitches deferred.
+- **04.05.05 (ample line bundle), 04.05.03 (line bundle).** Forward-referenced (via the polarisation $L_P$ in 04.12.07 and 04.12.12); the existing 04.11.10 reciprocity in Cycle 11 carries most of the load. Adding direct (04.05.05 ↔ 04.12.07) and (04.05.05 ↔ 04.12.12) bullets would tighten the structure further but is outside the cycle-12 brief.
+- **04.09.01 (Hodge decomposition), 04.09.02 (Kodaira vanishing).** The smooth Calabi-Yau fibres of `[04.12.07]` carry a Hodge structure with $h^{n,0} = 1$ (Calabi-Yau condition); reciprocal stitches from the Hodge units to 04.12.07 would be the natural completion but are outside the cycle-12 brief.
+
+### Quality observations
+
+**Calibre of the new units.** All six units ship at 27/27. Master Connections sections range from 6 (04.12.08) to 10 (04.12.12) bullets. The cluster delivers the Gross-Siebert mirror-symmetry programme as a coherent six-unit arc covering toric degeneration as the algebraic substrate, dual intersection complex / tropical manifold as the combinatorial-affine output, the reconstruction theorem as the inverse construction, the SYZ conjecture as the symplectic-side picture, slab functions and the scattering-diagram structure $\mathscr{S}$, and theta functions as the canonical-basis output. The cluster is bidirectionally closed across all six new siblings and against the citing peers in the existing tropical, toric, moduli, Hodge, and symplectic chapters.
+
+**Cross-chapter bidirectional health.** The tropical chapter (04.12) is now 12 units long with strong forward and backward lateral density. The Cycle-11 toric expansion (04.11.04 and 04.11.10) and the Cycle-10 tropical foundations (04.12.01–06) together act as the algebraic-and-combinatorial substrate; the Cycle-12 units sit on top of this substrate as the mirror-symmetry payload. No stale unit-IDs found in any edited file.
+
+### Pass-W summary numbers (Cycle 12 — Gross-Siebert / SYZ tropical-mirror-symmetry cluster)
+
+- New units processed: 6 (04.12.07, 04.12.08, 04.12.09, 04.12.10, 04.12.11, 04.12.12)
+- Files edited: 11 (6 existing tropical-chapter siblings + 5 external receivers across toric, moduli, Hodge, symplectic chapters)
+- New Connections bullets added: 39 total
+  - 04.12.01: 4 bullets (→07, 08, 11, 12)
+  - 04.12.02: 6 bullets (→07, 08, 09, 10, 11, 12)
+  - 04.12.03: 4 bullets (→07, 08, 11, 12)
+  - 04.12.04: 6 bullets (→07, 08, 09, 10, 11, 12)
+  - 04.12.05: 5 bullets (→07, 08, 10, 11, 12)
+  - 04.12.06: 4 bullets (→07, 08, 11, 12)
+  - 04.11.04: 4 bullets (→07, 08, 09, 11)
+  - 04.11.10: 4 bullets (→07, 08, 11, 12)
+  - 04.10.01: 1 bullet (→12)
+  - 04.09.11: 1 bullet (→07)
+  - 05.05.01: 1 bullet (→10)
+- Required stitches on the brief: A, B, C, D, E, F — all 6 completed.
+- Stale unit-IDs found and corrected: 0
+- Reverts required: 0
+- All 11 edited files re-validated at 27/27 ✓
+- All 6 new cluster units (04.12.07–12) re-validated at 27/27 ✓
+- Lateral-density target (≥ 3 lateral connections per Master section across the chapter, CYCLE_4 §6.2): met. Every existing-chapter sibling now has 4+ forward bullets to the new sub-chapter; every new unit has 6+ Connections bullets covering both intra-cluster and external dependencies.

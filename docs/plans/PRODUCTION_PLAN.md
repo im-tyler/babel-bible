@@ -1,12 +1,12 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-18T19:37:41.765675+00:00_
+_Generated: 2026-05-21T01:58:33.556694+00:00_
 
 ## Burn-down
 
-- Units shipped: **376**
-- Units queued (gap units from audits): **273**
-- Of which deepenings: **13**
+- Units shipped: **692**
+- Units queued (gap units from audits): **68**
+- Of which deepenings: **0**
 - Audits completed: **58 / 92**
 - Books unaudited: **0**
 
@@ -14,26 +14,26 @@ _Generated: 2026-05-18T19:37:41.765675+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `03.08.12` | $KR$-theory (K-theory with reality) | P3 | atiyah-k-theory |
-| 2 | `08.10.01` | Bosonic Fock space and second quantisation | P1 | chatterjee-qft-lecture-notes, landau-lifshitz-statistical-physics-1, parisi-wu-stochastic-quantization |
-| 3 | `08.10.03` | $\phi^4$ theory and the Dyson series | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 4 | `08.10.04` | Wick's theorem for operator products | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 5 | `08.10.05` | Feynman propagator and the contour-integral representation | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 6 | `08.10.06` | One-loop renormalisation in $\phi^4$ | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 7 | `08.10.07` | Wightman axioms (W1–W7) | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 8 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 9 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
-| 10 | `07.01.09` | Non-abelian Fourier transform on a finite group | P1 | diaconis-group-representations-probability-statistics |
-| 11 | `07.05.05` | Random walk on a finite group; Upper Bound Lemma | P1 | diaconis-group-representations-probability-statistics |
-| 12 | `07.05.07` | Riffle shuffle and the 7-shuffle theorem | P1 | diaconis-group-representations-probability-statistics |
-| 13 | `07.05.08` | Cutoff phenomenon | P1 | diaconis-group-representations-probability-statistics |
-| 14 | `07.05.09` | Strong stationary time; coupling argument | P2 | diaconis-group-representations-probability-statistics |
-| 15 | `07.05.10` | Murnaghan-Nakayama rule | P2 | diaconis-group-representations-probability-statistics |
-| 16 | `07.05.11` | Spectral analysis of permutation-valued data | P2 | diaconis-group-representations-probability-statistics |
-| 17 | `07.05.12` | Metrics on $S_n$ | P3 | diaconis-group-representations-probability-statistics |
-| 18 | `07.05.13` | Models for partially ranked data on $S_n / S_{n-k}$ | P3 | diaconis-group-representations-probability-statistics |
-| 19 | `07.05.14` | De Finetti / exchangeability and the symmetric group | P4 | diaconis-group-representations-probability-statistics |
-| 20 | `07.07.04` | Weyl integration formula | P2 | fulton-harris-representation-theory |
+| 1 | `08.10.01` | Bosonic Fock space and second quantisation | P1 | chatterjee-qft-lecture-notes, landau-lifshitz-statistical-physics-1, parisi-wu-stochastic-quantization |
+| 2 | `08.10.04` | Wick's theorem for operator products | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 3 | `08.10.05` | Feynman propagator and the contour-integral representation | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 4 | `08.10.06` | One-loop renormalisation in $\phi^4$ | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 5 | `08.10.07` | Wightman axioms (W1–W7) | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 6 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 7 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
+| 8 | `04.11.11` | Algebraic moment map and the polytope | P2 | fulton-toric-varieties |
+| 9 | `04.11.12` | Cohomology of a smooth complete toric variety | P3 | fulton-toric-varieties |
+| 10 | `04.11.13` | Toric intersection theory and mixed volumes | P3 | fulton-toric-varieties |
+| 11 | `04.11.14` | Bernstein-Kushnirenko theorem | P3 | fulton-toric-varieties |
+| 12 | `04.11.16` | Reflexive polytope and Batyrev mirror duality (pointer) | P4 | fulton-toric-varieties |
+| 13 | `04.12.13` | Period integral and the mirror map (pointer) | P2 | gross-tropical-geometry-mirror-symmetry |
+| 14 | `04.12.15` | Log Gromov-Witten invariants (pointer) | P3 | gross-tropical-geometry-mirror-symmetry |
+| 15 | `03.06.23` | Modularity of the elliptic genus | P1 | hirzebruch-manifolds-modular-forms |
+| 16 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
+| 17 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
+| 18 | `04.05.10` | Hirzebruch-Riemann-Roch theorem (general dimension) | P1 | hirzebruch-topological-methods |
+| 19 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
+| 20 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
 
 ## Audits completed
 

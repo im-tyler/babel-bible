@@ -4401,6 +4401,71 @@
       "from": "12.04.01",
       "to": "19.15.01",
       "state": "shipped"
+    },
+    {
+      "from": "04.11.10",
+      "to": "04.12.12",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.06",
+      "to": "04.12.12",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.07",
+      "to": "04.12.12",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.08",
+      "to": "04.12.12",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.11",
+      "to": "04.12.12",
+      "state": "shipped"
+    },
+    {
+      "from": "04.11.04",
+      "to": "04.12.10",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.02",
+      "to": "04.12.10",
+      "state": "shipped"
+    },
+    {
+      "from": "05.05.01",
+      "to": "04.12.10",
+      "state": "shipped"
+    },
+    {
+      "from": "04.11.04",
+      "to": "04.12.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.11.10",
+      "to": "04.12.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.06",
+      "to": "04.12.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.12.07",
+      "to": "04.12.11",
+      "state": "pending"
+    },
+    {
+      "from": "04.12.08",
+      "to": "04.12.11",
+      "state": "pending"
     }
   ],
   "pending": [
@@ -4747,7 +4812,12 @@
     "08.08.01",
     "08.08.02",
     "08.08.03",
-    "08.09.01"
+    "08.09.01",
+    "04.12.08",
+    "04.12.12",
+    "04.12.10",
+    "04.12.07",
+    "04.12.11"
   ],
   "_notes": {
     "01.01.03": "vector space \u2014 Wave 2 Phase 2.1 unit #1, SHIPPED",
@@ -4964,6 +5034,7 @@
     "03.12.07": "Whitehead tower and rational Hurewicz \u2014 v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
     "03.12.E1": "Rational-homotopy exercise pack \u2014 v0.6 Bott-Tu pilot Agent E, SHIPPED 2026-04-29",
     "06.04.04": "Serre duality on a curve \u2014 v0.6 Donaldson Riemann-surfaces P1 batch 12, SHIPPED 2026-05-07",
-    "06.04.03": "Hodge decomposition on a compact Riemann surface \u2014 v0.6 Donaldson Riemann-surfaces P1 batch 13, SHIPPED 2026-05-07"
+    "06.04.03": "Hodge decomposition on a compact Riemann surface \u2014 v0.6 Donaldson Riemann-surfaces P1 batch 13, SHIPPED 2026-05-07",
+    "04.12.11": "Slab function and structure of a tropical manifold \u2014 Cycle 12 tropical/mirror-symmetry T1 cluster, Gross-Siebert 2010 JAG 19 originator, SHIPPED 2026-05-20"
   }
 }
