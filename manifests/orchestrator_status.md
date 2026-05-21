@@ -449,3 +449,56 @@ Math lane fully autonomous; no operator-pending items; deps.json + catalog clean
 - Total units: 48
 - Total words: ~454,000
 - Aggregate Lean files created: ~48 (one per math T1 unit)
+
+---
+
+## 2026-05-20 Cycle 12 — Gross *Tropical/Mirror Symmetry* book closing pass (new framing)
+
+**Framing shift:** Cycle 12 inaugurates the **book-completion framing** decided this session. Each cycle now targets a single Fast Track audit and drives its punch-list toward 100%. The metric becomes "books at 100%" rather than "T1 entries shipped"; same work, sharper headline. Roadmap §3 attack-order doc updated; the 14-cycle plan in `docs/plans/COMPLETION_ROADMAP.md` v0 is being superseded by the book-by-book sequence per the conversation log.
+
+### Cycle 12 — Gross 6/8 queued, 12/14 total
+
+| Unit | Title | Mode | Words | Status |
+|---|---|---|---|---|
+| 04.12.07 | Toric degeneration of a Calabi-Yau variety | standard | 10,185 | shipped 27/27 |
+| 04.12.08 | Dual intersection complex; tropical manifold B | standard | 7,832 | shipped 27/27 |
+| 04.12.09 | Gross-Siebert reconstruction theorem (statement) | **originator-prose** | 10,161 | shipped 27/27 |
+| 04.12.10 | Strominger-Yau-Zaslow conjecture | **originator-prose** | 10,911 | shipped 27/27 |
+| 04.12.11 | Slab function and structure | standard | 9,898 | shipped 27/27 |
+| 04.12.12 | Theta function of polarised tropical manifold | standard | 8,389 | shipped 27/27 |
+
+**Total:** 6 units, ~57,376 words. All 27/27 on first independent re-validation by parent. Originator-prose mode held for 04.12.09 and 04.12.10 per audit §3 (TGMS Lecture 5, SYZ 1996 verbatim setups).
+
+### Pass-W (cycle 12)
+
+39 reciprocal Connections bullets across 11 existing files (`04.12.01–06`, `04.11.04`, `04.11.10`, `04.10.01`, `04.09.11`, `05.05.01`). Every new unit now has matching reverse bullets in cited peers. Reciprocity gaps surfaced for future cycles: 04.11.11/12, 04.12.13/15, 04.10.02, 04.05.03/05, 04.09.01/02 — all flagged in weaving_report under "Seams found but not edited."
+
+### Gross book status after cycle 12
+
+- **12/14 shipped (85.7%)**
+- Remaining queued: 04.12.13 (period integral, pointer), 04.12.15 (log Gromov-Witten, pointer). Both explicit pointer-only per audit §5; can be batched with the next cycle (a Manin-half or Joe-Harris-half) rather than running a Gross-finishing cycle of two.
+
+### Plan rebuild delta
+
+- shipped: 685 → 692 (+7; includes Session B carry-over commit 9d598f9 absorbing one new unit + 11 deepenings)
+- queued: 74 → 68 (–6)
+- audits_done: 58/92 (unchanged)
+- Total content units on disk: 698
+
+### Commits
+
+- `9d598f9` chem/bio/phys carry-over: 11 cross-domain deepenings + new spectroscopy unit
+- `(cycle 12)` cycle 12: Gross Tropical/Mirror Symmetry book closing pass (6 units, 12/14)
+
+### Recommended next cycle (13)
+
+Per book-completion attack order:
+
+**Manin *Introduction to Modern Number Theory* — Part 1.** Manin is one of the four zero-ship books (14 queued, 0 shipped). Section 21 was reserved for number theory but no chapter exists on disk yet. Cycle 13 should:
+1. Scaffold `content/21-number-theory/` chapter directory and minimal index file.
+2. Read `plans/fasttrack/manin-introduction-modern-number-theory.md` for the punch-list.
+3. Dispatch 6 P1 units from the Manin queue head (finite-field arithmetic, p-adic intro, Hensel's lemma, modular forms intro, etc. — exact selection depends on the audit).
+4. Add a chapter-level Connections entry to existing prereq units (07-representation-theory units that touch Galois / 02-analysis units that touch p-adic completion).
+
+Could pair Cycle 13 with the two Gross pointer remainders (04.12.13, 04.12.15) as overflow, closing Gross to 14/14 in the same commit.
+
