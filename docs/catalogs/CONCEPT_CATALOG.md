@@ -4420,7 +4420,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Cotton — Chemical Applications of Group Theory, 3rd ed.; Bishop — Group Theory and Chemistry
   - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 4; Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 4
   - beginner: Kettle — Symmetry and Structure; Crash Course Chemistry — Molecular Geometry
-- **notes**: (to be filled during production)
+- **notes**: Point groups, character tables, and irreducible representations applied to molecular symmetry. Covers SALC construction via projection operators, vibrational-mode decomposition, spectroscopic selection rules (Laporte, mutual exclusion), the Jahn-Teller theorem, crystallographic restriction, correlation tables, and factor-group analysis. Proves the decomposition formula for reducible representations, the crystallographic restriction theorem, and the direct-product identity for the totally symmetric irrep. Originator chain: Hessel 1830, Bethe 1929, Wigner 1931, Jahn-Teller 1937, Cotton 1963. Shipped at ~8100w with `lean_status: none`.
 
 
 ### chemistry.crystal-field-theory-fundamentals
@@ -4480,7 +4480,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Lippard & Berg — Principles of Bioinorganic Chemistry; Berg, Tymoczko & Stryer — Biochemistry Ch. 7; Bertini, Gray, Stiefel & Valentine — Biological Inorganic Chemistry
   - intermediate: Lippard, S. J. & Berg, J. M. — Principles of Bioinorganic Chemistry; Frausto da Silva & Williams — The Biological Chemistry of the Elements
   - beginner: Crash Course Biology — Enzymes; Lippard & Berg introductory chapters
-- **notes**: (to be filled during production)
+- **notes**: Metalloenzymes and metalloproteins across the periodic table. Covers haemoglobin cooperative binding (Hill equation, MWC allosteric model, Perutz stereochemical mechanism, Bohr effect, 2,3-BPG), iron-sulphur clusters and Marcus electron-transfer theory, photosynthetic water oxidation (Kok S-state cycle, Mn4CaO5 structure), zinc enzymes (carbonic anhydrase, carboxypeptidase, alcohol dehydrogenase, Lewis acid catalysis), metal ion homeostasis (metallochaperones, IRP/IRE system, Irving-Williams selectivity), vitamin B12 organometallic biochemistry (adenosylcobalamin radical rearrangements, methylcobalamin methyl transfer), and cytochrome P450 hydroxylation (Compound I, oxygen-rebound mechanism). Key theorem: Hill equation proof for cooperative binding. Prerequisites: coordination chemistry [16.04.01]. Deepened in Cycle 4 Track B to 8000+ words with 7 substantive Master H2 sections.
 
 
 ### chemistry.solid-state-chemistry
@@ -4492,7 +4492,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: West, A. R. — Solid State Chemistry; Kittel — Introduction to Solid State Physics, Ch. 1–7
   - intermediate: Housecroft & Sharpe — Inorganic Chemistry, Ch. 6; West — Solid State Chemistry and its Applications
   - beginner: Crash Course Chemistry — Network Solids; Khan Academy — Solids
-- **notes**: (to be filled during production)
+- **notes**: Covers crystal structures (NaCl, CsCl, ZnS, diamond, CaF2) and the 14 Bravais lattices; radius-ratio rules for structure prediction; Madelung constants and Born-Lande lattice energies; the Born-Haber cycle; Kapustinskii approximation; Bloch theorem and band theory (nearly-free electron model, tight-binding model, reciprocal lattice, Brillouin zone); classification of metals, semiconductors, and insulators by band gap; carrier concentration, effective mass, and density of states; semiconductor doping (n-type, p-type); optical properties and direct vs indirect gaps; point defects (vacancies, interstitials, Frenkel, Schottky) and defect thermodynamics; ionic conductivity and fast ion conductors; non-stoichiometry; colour centres (F-centres); covalent network solids (diamond, graphite, graphene, silicates); metastable polymorphs and phase transitions. Key theorems: packing efficiency of NaCl structure (proved), Bloch theorem, Born-Lande equation. Originator chain: Bragg 1913 (X-ray diffraction), Madelung 1909 (Coulomb sum), Born-Lande 1918 (lattice energy), Bravais 1850 (lattice classification), Bloch 1928 (band theory), Wilson 1931 (semiconductor classification). Status: deepened to 8001w in Cycle 4 Track B with 5 substantive Master H2 sections.
 
 
 ## Biology (§17–19)
