@@ -4818,10 +4818,10 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **unit**: `18.11.01`
 - **prerequisites**: `biology.cell-cycle-mitosis`
 - **tier_anchors**:
-  - master: Gilbert advanced sections; primary literature — Spemann & Mangold 1924, Nusslein-Volhard & Wieschaus 1980, Driever & Nusslein-Volhard 1988
+  - master: Gilbert advanced sections; primary literature — Spemann & Mangold 1924, Nusslein-Volhard & Wieschaus 1980, Driever & Nusslein-Volhard 1988, Turing 1952, Davidson et al. 2002, Gierer & Meinhardt 1972, Takahashi & Yamanaka 2006, Thiery 2002
   - intermediate: Gilbert Developmental Biology 12th ed. Ch. 1-12; Wolpert Principles of Development 6th ed.
   - beginner: Campbell Biology 12th ed. Ch. 46-47; Crash Course Biology development episodes; Khan Academy embryology modules
-- **notes**: (to be filled during production)
+- **notes**: Embryogenesis from fertilisation through organogenesis. Beginner covers stages (cleavage, gastrulation, neurulation), morphogen gradients (Bicoid), and Hox genes. Intermediate formalises the French flag model and exponential-gradient threshold theorem with proof. Master tier covers four advanced systems: gene regulatory networks (Davidson sea urchin GRN), Turing reaction-diffusion patterns (Gierer-Meinhardt model, wavelength selection), epithelial-mesenchymal transition (EMT transcription factors, morphomechanics), and stem cell niches/pluripotency (Oct4/Sox2/Nanog, iPSC reprogramming). Key theorems: Bicoid threshold model, Turing instability condition, wavelength selection proposition. Prose-first BIO unit; lean_status: none.
 
 
 ### biology.mendelian-genetics
@@ -5671,3 +5671,111 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Schneider *p-adic Lie Groups* (Springer GMW 344, 2011), Ch. 4-5
   - beginner: Gouvêa *p-adic Numbers* (Springer UTX, 2nd ed. 1997)
 - **notes**: $p$-adic Lie group = Lie group object in the category of $p$-adic analytic manifolds. The $p$-adic exponential $\exp_p : p\mathbb{Z}_p \to 1 + p\mathbb{Z}_p$ converges on the open ball of radius $p^{-1/(p-1)}$ around 0 (for $p$ odd; smaller radius for $p=2$). $\mathbb{Z}_p$ itself is the prototype $p$-adic Lie group, and its profinite topology is the source of the Iwasawa-algebra structure $\Lambda = \mathbb{Z}_p[[\Gamma]]$. Standard examples include $\mathrm{GL}_n(\mathbb{Z}_p)$, $\mathrm{SL}_n(\mathbb{Z}_p)$, and the unit group of a $p$-adic division algebra. The Lazard correspondence equates $p$-saturable $p$-adic Lie groups with $\mathbb{Z}_p$-Lie algebras of finite rank. Used in: Galois representations of number fields (via $\mathrm{Gal}(K_\infty/K) \cong \mathbb{Z}_p$ for cyclotomic and other towers), $p$-adic Hodge theory (Fontaine's rings $B_{\mathrm{dR}}, B_{\mathrm{cris}}$), Iwasawa theory, $p$-adic representation theory.
+
+
+### biology.metacommunity-theory
+
+- **title**: Metacommunity dynamics and spatial ecology
+- **unit**: `19.10.01`
+- **prerequisites**: `biology.community-ecology`
+- **tier_anchors**:
+  - master: Leibold et al. 2004 *Ecology Letters* 7; Hubbell 2001 *Unified Neutral Theory*; MacArthur & Wilson 1967 *Island Biogeography*
+  - intermediate: Begon, Harper & Townsend *Ecology* 4th ed. Ch. 10-11
+  - beginner: Campbell Biology 12th ed. Ch. 54
+- **notes**: Metacommunity theory extends community ecology to spatially structured landscapes. Four paradigms (patch dynamics, species sorting, mass effects, neutral theory) organise the field. Key results include the competition-colonisation trade-off (Tilman 1994), MacArthur-Wilson island biogeography equilibrium, Hubbell's neutral theory species-abundance predictions, and beta diversity partitioning into turnover and nestedness components. Builds toward landscape ecology and conservation biogeography.
+
+
+### biology.food-web-network-structure
+
+- **title**: Food web assembly, network structure, and interaction strength
+- **unit**: `19.10.01`
+- **prerequisites**: `biology.community-ecology`
+- **tier_anchors**:
+  - master: Pimm 1982 *Food Webs*; Williams & Martinez 2000 *Nature* 404; Bascompte & Melian 2005 *Ecology* 86
+  - intermediate: Begon, Harper & Townsend *Ecology* 4th ed. Ch. 8-9
+  - beginner: Campbell Biology 12th ed. Ch. 54
+- **notes**: Food web assembly theory (Drake 1990, Law & Morton 1996) addresses how communities self-organise through sequential colonisation. Network motifs reveal structural building blocks: nested architecture in mutualistic webs, modular structure in antagonistic webs. The niche model (Williams & Martinez 2000) generates realistic food webs from simple allometric and niche-overlap rules. Interaction strength distributions are strongly skewed (many weak, few strong), and this skew stabilises food web dynamics (McCann et al. 1998). Trophic cascades in complex webs differ from linear-chain cascades due to omnivory and detrital pathways.
+
+
+### biology.complexity-stability
+
+- **title**: Complexity-stability analysis in ecological communities
+- **unit**: `19.10.01`
+- **prerequisites**: `biology.community-ecology`
+- **tier_anchors**:
+  - master: May 1972 *Nature* 238; McCann et al. 1998 *Nature* 395; Pimm & Lawton 1980 *J. Anim. Ecol.* 49
+  - intermediate: Begon, Harper & Townsend *Ecology* 4th ed. Ch. 8
+  - beginner: Campbell Biology 12th ed. Ch. 54
+- **notes**: May's (1972) random-matrix analysis showed that increasing species richness and connectance destabilises randomly assembled communities when the stability criterion sigma*sqrt(SC) > 1. Real food webs resolve this paradox through compartmentalisation, interaction-strength skew, and allometric constraints on body-size ratios. Weak interactions provide stabilising feedback (McCann et al. 1998). Omnivory dampens population oscillations. The interplay between network structure and dynamical stability is the central problem of theoretical community ecology.
+
+
+### biology.hormone-receptor-signalling
+
+- **title**: Hormone receptor mechanisms and intracellular signalling cascades
+- **unit**: `18.07.01`
+- **prerequisites**: `biology.endocrine-hormones`
+- **tier_anchors**:
+  - master: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 47-48; Williams Textbook of Endocrinology 14th ed. Ch. 1; primary literature — Rodbell et al. 1971
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 47-49
+  - beginner: Campbell Biology 12th ed. Ch. 45
+- **notes**: G-protein-coupled receptors (GPCRs) mediate peptide hormone signalling via cAMP and IP3/DAG second-messenger cascades. Receptor tyrosine kinases (RTKs) mediate insulin and growth factor signalling via PI3K/Akt and MAPK pathways. Nuclear hormone receptors mediate steroid and thyroid hormone action as ligand-activated transcription factors. Receptor desensitisation (GRK phosphorylation, beta-arrestin internalisation) and downregulation modulate cellular responsiveness to sustained hormone exposure. Covered as a Master section within 18.07.01.
+
+
+### biology.endocrine-dynamics
+
+- **title**: Mathematical models of endocrine feedback dynamics
+- **unit**: `18.07.01`
+- **prerequisites**: `biology.endocrine-hormones`
+- **tier_anchors**:
+  - master: Goodwin 1965 Advances in Enzyme Regulation 3; Murray Mathematical Biology 3rd ed. Ch. 6; Keener & Sneyd Mathematical Physiology 2nd ed. Ch. 15
+  - intermediate: Murray Mathematical Biology 3rd ed. Ch. 6
+  - beginner: conceptual overview within 18.07.01
+- **notes**: The Goodwin oscillator model of hormone cascades with Hill-type negative feedback. Delay differential equations capturing transport and action delays in endocrine axes. Hopf bifurcation from steady-state to oscillatory hormone release when feedback cooperativity or delays exceed critical thresholds. Pulsatile hormone release and ultradian rhythms as emergent properties of feedback dynamics. Frequency-dependent decoding of GnRH pulse trains by gonadotroph cells. Covered as a Master section within 18.07.01.
+
+
+### biology.parathyroid-calcium-regulation
+
+- **title**: Parathyroid-calcium-vitamin D axis and mineral homeostasis
+- **unit**: `18.07.01`
+- **prerequisites**: `biology.endocrine-hormones`
+- **tier_anchors**:
+  - master: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 51; Williams Textbook of Endocrinology 14th ed. Ch. 28; primary literature — Copp & Cameron 1961
+  - intermediate: Boron-Boulpaep Medical Physiology 3rd ed. Ch. 51
+  - beginner: Campbell Biology 12th ed. Ch. 45
+- **notes**: Three-hormone system (PTH, calcitriol, calcitonin) regulating ionised calcium concentration. The calcium-sensing receptor (CaSR) on parathyroid chief cells as the molecular set point. PTH actions on bone (osteoclast activation via RANKL), kidney (calcium reabsorption, phosphate excretion, 1-alpha-hydroxylase stimulation), and intestine (indirect via vitamin D activation). Vitamin D activation cascade: skin synthesis, hepatic 25-hydroxylation, renal 1-alpha-hydroxylation regulated by PTH and FGF-23. Calcitonin as physiological antagonist from thyroid C cells. Covered as a Master section within 18.07.01.
+
+
+### biology.metabolism-first-origin
+
+- **title**: Metabolism-first scenario and the iron-sulfur world
+- **unit**: `19.15.01`
+- **prerequisites**: `biology.origin-of-life`
+- **tier_anchors**:
+  - master: Wachtershauser 1988 *Microbiol. Rev.* 52; Russell et al. 2010 *Geobiology* 8; Lane *The Vital Question* (Norton 2015) Ch. 1-6; Martin & Russell 2003 *Phil. Trans. R. Soc. B* 358
+  - intermediate: Hazen *Genesis* Ch. 5-10; Deamer *Assembling Life* Ch. 3-4
+  - beginner: Lane *The Vital Question* introduction; Crash Course Biology origin of life episodes
+- **notes**: Autotrophic-origin models proposing that self-sustaining chemical reaction networks preceded self-replicating molecules. Wachtershauser's iron-sulfur world (1988): pyrite precipitation provides exergonic driving force and positively charged surface for concentrating anions; surface metabolism builds complexity through successive extension without enzymatic machinery. Russell-Lane alkaline hydrothermal vent model: Lost City-type vents produce natural proton gradients across iron-sulfur mineral pore walls, providing continuous free energy (proton motive force), mineral catalysis, and physical compartmentalisation. The Wood-Ljungdahl pathway (acetogens and methanogens) is the strongest candidate for a primordial carbon-fixation route. Universal chemiosmotic coupling (Mitchell 1961, Nobel 1978) across all three domains of life is interpreted as a relic of the vent environment. Covered as a Master section within 19.15.01.
+
+
+### biology.quasispecies-error-threshold
+
+- **title**: Quasispecies theory and the error threshold
+- **unit**: `19.15.01`
+- **prerequisites**: `biology.origin-of-life`
+- **tier_anchors**:
+  - master: Eigen 1971 *Naturwissenschaften* 58; Eigen & Schuster 1977-78 *Naturwissenschaften* 64-65; Maynard Smith & Szathmary 1995 *Major Transitions* Ch. 3-4
+  - intermediate: Maynard Smith & Szathmary *Major Transitions* Ch. 3; Kauffman *Origins of Order* Ch. 7
+  - beginner: Lane *The Vital Question* Ch. 4
+- **notes**: Eigen's quasispecies theory formalises the tension between replication fidelity and genome length. The error threshold relation constrains maximum genome length to approximately ln(sigma)/(1-q) where sigma is the superiority parameter and q is per-base copying fidelity. For RNA without proofreading (q ~ 0.99), the maximum stable genome is ~230 nucleotides — the information catastrophe. Spiegelman's monster (serial transfer experiment, 1967) empirically demonstrates information reduction under selection for replication speed alone. Hypercycles (Eigen & Schuster 1977) distribute information across multiple cooperating replicators to exceed the single-molecule threshold, but require compartmentalisation for parasite resistance (Szathmary & Demeter 1987). The transition to DNA with proofreading enzymes lowers the error rate to 10^-6 to 10^-9, permitting million-base-pair genomes. Covered as a Master section within 19.15.01.
+
+
+### biology.homochirality-origin
+
+- **title**: Homochirality and the origin of biological asymmetry
+- **unit**: `19.15.01`
+- **prerequisites**: `biology.origin-of-life`
+- **tier_anchors**:
+  - master: Frank 1953 *Biochim. Biophys. Acta* 11; Soai et al. 1995 *Nature* 378; Viedma 2005 *Phys. Rev. Lett.* 94; primary literature on parity violation and circularly polarised UV
+  - intermediate: Hazen *Genesis* Ch. 7-8; Deamer *Assembling Life* Ch. 5
+  - beginner: Lane *The Vital Question* Ch. 5
+- **notes**: Terrestrial life uses exclusively L-amino acids and D-sugars (homochirality), despite prebiotic synthesis producing racemic mixtures. Frank's model (1953) shows that coupled autocatalysis and mutual antagonism amplify any tiny initial enantiomeric excess to homochirality. The Soai reaction (1995) demonstrates asymmetric autocatalytic amplification from 10^-6 enantiomeric excess to greater than 99.5%. Viedma ripening (2005) achieves complete chiral conversion via grinding-induced Ostwald ripening with solution-phase racemisation. Proposed initial bias sources include parity violation in the weak nuclear force (Vester-Ulbricht hypothesis, enantiomeric excess ~10^-11) and circularly polarised UV in star-forming regions. Carbonaceous chondrite meteorites show L-amino acid excesses of 2-18%, consistent with a systematic physical cause. Covered as a Master section within 19.15.01.
