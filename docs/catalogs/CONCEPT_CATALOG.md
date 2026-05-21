@@ -3473,7 +3473,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Arnold, *Mathematical Methods of Classical Mechanics*, 2nd ed. (1989), §2; Landau & Lifshitz, *Mechanics*, 3rd ed. (1976), §1–3
   - intermediate: Taylor, *Classical Mechanics* (2005), Ch. 1–2
   - beginner: Susskind & Hrabovsky, *The Theoretical Minimum: Classical Mechanics* (2014), Lecture 2–3
-- **notes**: (to be filled during production)
+- **notes**: Three laws (inertia, F=ma, action-reaction) stated formally as ODE initial-value problems on phase space. Intermediate tier proves uniqueness via Picard-Lindelof. Master tier develops four substantive strands: (1) conservative forces, the work-energy theorem, and the virial theorem; (2) the central-force two-body problem reduced to effective one-body form, Kepler orbits and the Laplace-Runge-Lenz vector; (3) rigid body dynamics with the inertia tensor, Euler's equations, and intermediate-axis instability; (4) the geometric reformulation on Riemannian manifolds with Galilean invariance and the bridge to Lagrangian/Hamiltonian mechanics. Connects to conservation laws [09.01.03], action principle [09.02.01], Noether's theorem [09.03.01], Hamilton's equations [09.04.02].
 
 
 ### classical-mechanics.conservation-laws
@@ -3977,10 +3977,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Dirac, The Principles of Quantum Mechanics, 4e (1958), Ch. IV; Wigner, Group Theory and its Application to the Quantum Mechanics of Atomic Spectra (1931)
   - intermediate: Sakurai & Napolitano, Modern Quantum Mechanics, 2e (Cambridge, 2017), Ch. 3.1-3.5
   - beginner: Susskind & Friedman, Quantum Mechanics: The Theoretical Minimum (2014), Lecture 6
-- **notes**: (to be filled during production)
-
-
-### quantum-mechanics.hydrogen-atom-bound-states
+- **notes**: Bound-state spectrum of the Coulomb Hamiltonian on L2(R3); separation of variables in spherical coordinates; radial equation solved via associated Laguerre polynomials; quantised energy levels En = -ER/n2 with n2-fold accidental degeneracy; Pauli's algebraic SO(4) solution via the Runge-Lenz vector; Fock's stereographic projection identifying the momentum-space problem with the free particle on S3; selection rules for electric dipole transitions via the Wigner-Eckart theorem; Coulomb scattering continuum and Rutherford cross section; parabolic coordinates and the Stark effect. Originator chain: Bohr 1913, Pauli 1926 Z. Phys. 36, Schrodinger 1926, Fock 1935 Z. Phys. 98, Bander-Itzykson 1966 Rev. Mod. Phys. 38.
 
 - **title**: Hydrogen atom bound states
 - **unit**: `12.06.01`
