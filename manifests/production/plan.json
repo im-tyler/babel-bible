@@ -5440,7 +5440,7 @@
       "audit_position": 13,
       "prereqs": [],
       "successors": [],
-      "status": "queued"
+      "status": "shipped"
     },
     "08.10.02": {
       "id": "08.10.02",
