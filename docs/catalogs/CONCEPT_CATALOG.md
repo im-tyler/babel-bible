@@ -3569,6 +3569,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
+### quantum-mechanics.free-particle-e3-representation
+
+- **title**: Quantum free particle as a representation of $E(3)$ (Mackey-machine framing)
+- **unit**: `09.03.03`
+- **prerequisites**: `topology.hilbert-space`, `lie-groups.lie-group`, `rep-theory.lie-algebra-representation`, `rep-theory.induced-representation`
+- **tier_anchors**:
+  - master: Mackey, *Induced Representations of Groups and Quantum Mechanics* (Benjamin 1968) Ch. 1-2; Souriau, *Structure des systèmes dynamiques* (Dunod 1970) Ch. III §13-15; Folland, *A Course in Abstract Harmonic Analysis* (CRC 1995) Ch. 6
+  - intermediate: Woit, *Quantum Theory, Groups and Representations* (Springer 2017) Ch. 19; Hall, *Quantum Theory for Mathematicians* (Springer GTM 267, 2013) Ch. 17 §17.3-17.4
+  - beginner: Woit Ch. 19 §1 informal opening on the free-particle Hamiltonian and momentum eigenstates
+- **notes**: Companion entry to `modern-geometry.quantum-free-particle-e3`, framed from the Mackey-machine and semidirect-product perspective rather than the wave-function differential-geometric one. Develops $E(3) = \mathbb{R}^3 \rtimes SO(3)$ explicitly as a semidirect product with abelian normal factor, applies the orbit-and-stabiliser classification to identify irreducible unitary representations with pairs (orbit on dual momentum space, character of little group), identifies the free Hamiltonian as the Casimir of the translation subalgebra, treats the Fourier transform as the intertwiner that diagonalises this Casimir, and connects to the Galilean / Poincaré central-extension story (Bargmann 1954, Wigner 1939). Lean status: none — Mathlib lacks the named representation theory of $E(n)$, the Mackey machine for semidirect products, and the spectral theorem for unbounded operators with continuous spectrum in the form needed.
+
+
 ### classical-mechanics.legendre-transform
 
 - **title**: Legendre transform — from Lagrangian to Hamiltonian
@@ -6138,4 +6150,14 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: Peskin & Schroeder, *An Introduction to Quantum Field Theory* (Addison-Wesley, 1995), §4.8 and §5.1; Srednicki, *Quantum Field Theory* (Cambridge, 2007), Ch. 54-57
   - beginner: Feynman, *Lectures on Physics*, Vol. III, Ch. 17-18; Griffiths, *Introduction to Elementary Particles*, 2e (2008), Ch. 8 §1
 - **notes**: Free quantum field theory of the photon (massless spin-1) and the Proca field (massive spin-1). Polarisation count from Wigner's little group ($ISO(2)$ for massless gives 2 helicities; $SO(3)$ for massive gives 3 polarisations). Gauge invariance for the photon as a kinematic consequence of Lorentz covariance plus the massless little group. Lorenz, Coulomb, and axial gauges; Gupta-Bleuler indefinite-metric quantisation; $R_\xi$-gauge propagator. Proca Lagrangian, mode expansion, propagator $-i(\eta_{\mu\nu} - k_\mu k_\nu/m^2)/(k^2 - m^2 + i\varepsilon)$ with its singular massless limit. Stueckelberg trick (1938) restoring U(1) gauge invariance via an auxiliary scalar, smooth $m \to 0$ limit, prefiguring the Higgs mechanism. Faddeev-Popov determinant for abelian gauge theory (field-independent, no ghost contribution). Dirac constraint analysis: $A_0$ as Lagrange multiplier, Gauss's law as first-class constraint generating residual gauge transformations. Originator chain: Dirac 1927, Proca 1936, Stueckelberg 1938, Wigner 1939, Gupta-Bleuler 1950, Faddeev-Popov 1967, Weinberg 1995.
+
+### literature.great-gatsby-fitzgerald
+
+- **title**: Reading guide: The Great Gatsby (F. Scott Fitzgerald)
+- **prerequisites**: `literature.literal-figurative-language`, `literature.symbolism-allegory`, `literature.point-of-view`
+- **tier_anchors**:
+  - beginner: "Fitzgerald, The Great Gatsby; SparkNotes"
+  - intermediate: "Fitzgerald novel + Bruccoli, Some Sort of Epic Grandeur"
+  - master: "primary criticism: Trilling 1950, Bewley 1963, Berman 1994, Persons 2003"
+- **notes**: Full reading guide covering plot, seven principal characters, five major themes (American Dream, class/wealth, illusion/reality, time/past, moral emptiness), five symbol systems (green light, Eckleburg eyes, valley of ashes, East/West Egg, Gatsby's parties), Nick as unreliable narrator, modernist style, Jazz Age historical context, critical reception from 1925 to present including New Critical, historicist, race/gender, and psychoanalytic approaches. Prerequisites: literal vs figurative language (22.03.01), symbolism and allegory (22.03.03), point of view (22.03.06). No Lean formalization; human-review-only at all tiers.
 
