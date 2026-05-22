@@ -1,4 +1,4 @@
-# Codex — Canonical Concept Catalog
+# Babel Bible — Canonical Concept Catalog
 
 The master list of concepts. Every unit maps to exactly one entry here via `concept_catalog_id`. Two producers cannot declare different prerequisites for the same concept because the concept (and its canonical prerequisites) is defined *here*, not in the unit.
 
@@ -5022,7 +5022,7 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Guckenheimer-Holmes *Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*; Arnold *Geometrical Methods in the Theory of Ordinary Differential Equations*; Kuznetsov *Elements of Applied Bifurcation Theory*
   - intermediate: Strogatz *Nonlinear Dynamics and Chaos* Ch. 3 + Ch. 8; Hirsch-Smale-Devaney Ch. 8
   - beginner: Strogatz Ch. 3 (saddle-node, pitchfork, transcritical) — informal worked examples
-- **notes**: Pointer unit (per Codex pointer convention): names and sketches the main local-bifurcation taxonomy (saddle-node, transcritical, pitchfork, Hopf) plus the global-bifurcation landscape (homoclinic, heteroclinic), without producing the full proofs. Anchors downstream relativity / fluid-dynamics / MAPK-bistability content (e.g., `17.07.02` MAPK cascade) that cites bifurcation language.
+- **notes**: Pointer unit (per Babel Bible pointer convention): names and sketches the main local-bifurcation taxonomy (saddle-node, transcritical, pitchfork, Hopf) plus the global-bifurcation landscape (homoclinic, heteroclinic), without producing the full proofs. Anchors downstream relativity / fluid-dynamics / MAPK-bistability content (e.g., `17.07.02` MAPK cascade) that cites bifurcation language.
 
 
 
@@ -5776,3 +5776,251 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Hazen *Genesis* Ch. 7-8; Deamer *Assembling Life* Ch. 5
   - beginner: Lane *The Vital Question* Ch. 5
 - **notes**: Terrestrial life uses exclusively L-amino acids and D-sugars (homochirality), despite prebiotic synthesis producing racemic mixtures. Frank's model (1953) shows that coupled autocatalysis and mutual antagonism amplify any tiny initial enantiomeric excess to homochirality. The Soai reaction (1995) demonstrates asymmetric autocatalytic amplification from 10^-6 enantiomeric excess to greater than 99.5%. Viedma ripening (2005) achieves complete chiral conversion via grinding-induced Ostwald ripening with solution-phase racemisation. Proposed initial bias sources include parity violation in the weak nuclear force (Vester-Ulbricht hypothesis, enantiomeric excess ~10^-11) and circularly polarised UV in star-forming regions. Carbonaceous chondrite meteorites show L-amino acid excesses of 2-18%, consistent with a systematic physical cause. Covered as a Master section within 19.15.01.
+
+### `philosophy.good-life-eudaimonia-flourishing`
+
+- **title**: The good life: eudaimonia, flourishing, and meaning
+- **unit**: `20.02.05`
+- **prerequisites**: `philosophy.ethics-foundations` (20.02.01, pending)
+- **tier_anchors**:
+  - master: primary sources: Aristotle NE, Epicurus Letter to Menoeceus, Epictetus Enchiridion, Wolf 2010
+  - intermediate: Aristotle, Nicomachean Ethics; Mill, Utilitarianism
+  - beginner: Any intro ethics textbook; Nagel, What Does It All Mean? Ch. 10
+- **notes**: The good-life question — what makes a life go well? — is the central question of value theory. The unit maps the three-family taxonomy of well-being (hedonism, desire-fulfilment, objective list) alongside historical positions (Aristotelian eudaimonia, Stoic tranquility, existentialist authenticity) and the contemporary meaning-of-life debate (Wolf, Nagel). The Experience Machine argument establishes that pleasure is not sufficient for well-being. The trilemma structure — each family captures something the others miss — motivates hybrid positions: Wolf's fitting-fulfilment account, Nussbaum's capabilities approach, Seligman's PERMA model. The master tier covers the ergon argument's interpretive disputes (inclusive vs. dominant eudaimonia), the existentialist challenge to all well-being frameworks, and the contemporary synthesis attempts. Cross-domain hooks to phil-of-mind, phil-of-science, existentialism/phenomenology, and political philosophy. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.epistemology-knowledge-justification-truth
+
+- **title**: Epistemology: knowledge, justification, and truth
+- **unit**: `20.01.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: primary sources: Plato Theaetetus, Gettier 1963, Goldman 1967, Sosa 1991, Williamson 2000
+  - intermediate: Pritchard, What is this Thing Called Knowledge?; Steup & Neta, Contemporary Debates in Epistemology
+  - beginner: Any intro philosophy textbook; Nagel, What Does It All Mean?
+- **notes**: The classical JTB analysis of knowledge, the Gettier problem and its structural impossibility result, and the major responses: reliabilism, virtue epistemology, contextualism, knowledge-first (E=K), defeasibility, sensitivity, safety. Also covers foundationalism vs coherentism vs infinitism (structure of justification), skepticism (evil demon, brain in a vat, closure principle), and social epistemology (testimony, peer disagreement, division of cognitive labour, epistemic injustice). No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.rights-natural-human-legal
+
+- **title**: Rights: natural, human, and legal
+- **unit**: `20.02.02`
+- **prerequisites**: `philosophy.ethics-introduction`
+- **tier_anchors**:
+  - master: primary sources: Locke 1689, Kant 1785, Dworkin 1977, Waldron 2004
+  - intermediate: Locke, Second Treatise; Dworkin, Taking Rights Seriously
+  - beginner: Any intro ethics textbook; UN Universal Declaration of Human Rights
+- **notes**: Natural rights (Locke: life, liberty, property; state of nature; social contract), human rights (UDHR, CEDAW, ICCPR, ICESCR; universality debate; Sen's capabilities grounding), legal vs moral rights (Hohfeldian analytical framework: claim, liberty, power, immunity and their correlatives), negative vs positive rights (duties of non-interference vs duties of provision; Nozick's libertarian objection; the collapse argument), animal rights (Singer's utilitarian case; Regan's deontological case; the boundary problem), rights-based vs consequentialist ethics (Dworkin's rights-as-trumps; Nozick's side-constraints; Feinberg's Nowheresville). Hohfeld correlativity as a structural theorem. Will theory (Hart) vs interest theory (MacCormick, Raz). No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.freedom-liberty-positive-negative
+
+- **title**: Freedom and liberty: negative, positive, and free will
+- **unit**: `20.02.03`
+- **prerequisites**: `philosophy.ethics-introduction`
+- **tier_anchors**:
+  - beginner: "Berlin, Two Concepts of Liberty (essay); any intro to political philosophy"
+  - intermediate: "Mill, On Liberty; Berlin, Four Essays on Liberty"
+  - master: "primary sources: Hobbes 1651, Locke 1689, Berlin 1958, Frankfurt 1969"
+- **notes**: Negative liberty (Berlin: freedom from interference) and positive liberty (freedom to self-realise) as the two dominant conceptions in political philosophy. MacCallum's triadic analysis unifying both. Mill's harm principle as the canonical limit on legitimate coercion. Compatibilism vs incompatibilism on free will, including van Inwagen's consequence argument as a formal reconstruction. Frankfurt's counterexamples to the principle of alternate possibilities. Republican freedom (Pettit: non-domination) and the capabilities approach (Sen). Existentialist freedom in Sartre: radical freedom, bad faith, ontological vs political freedom. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.trolley-problem-moral-dilemmas
+
+- **title**: The trolley problem and moral dilemmas
+- **unit**: `20.02.04`
+- **prerequisites**: `philosophy.ethics-introduction` (20.02.01, pending)
+- **tier_anchors**:
+  - beginner: "Foot, The Problem of Abortion and the Doctrine of Double Effect (1967); any intro ethics textbook"
+  - intermediate: "Thomson, Killing, Letting Die, and the Trolley Problem (1976); Edmonds, Would You Kill the Fat Man?"
+  - master: "primary sources: Foot 1967, Thomson 1976, Greene et al. 2001, Kamm 2007"
+- **notes**: The trolley problem as a family of thought experiments isolating moral factors in life-trade-off decisions. Original switch/diversion case (Foot 1967), fat man/footbridge variant (Thomson 1976), loop variant, bridge variant, transplant surgeon variant, cave explorer variant. Doctrine of Double Effect (DDE): four conditions, intended-vs-foreseen distinction, Aquinas origin. Thomson's rights-based analysis: permissibility grounded in rights violations, not intentions. Thomson's 1985 recantation: even the switch case may be impermissible. Kamm's Doctrine of Triple Effect: means vs merely-needed effects. Dual-process moral psychology (Greene et al. 2001): fMRI evidence that personal dilemmas activate emotional brain regions, impersonal dilemmas activate cognitive regions; the claim that deontological intuitions are emotional artefacts. Greene's deep pragmatism proposal. Critiques: normativity objection, case-classification objection, expertise objection, cultural variation objection. Real-world applications: autonomous vehicle programming (Bonnefon et al. 2016, Moral Machine), medical triage (COVID-19 ventilator allocation), military ethics and just war theory (Walzer, strategic vs terror bombing). Deontological vs consequentialist responses mapped. Cross-domain hooks to phil-of-mind, phil-of-science, decision theory, political philosophy. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.consciousness-hard-problem-qualia
+
+- **title**: Consciousness: the hard problem, qualia, and the mind-body debate
+- **unit**: `20.06.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: "primary sources: Chalmers 1995/1996, Jackson 1982, Nagel 1974, Dennett 1991, Tononi 2004"
+  - intermediate: "Chalmers 1996; Jackson 1982; Searle 1992"
+  - beginner: "Chalmers, The Conscious Mind intro; any philosophy of mind textbook"
+- **notes**: The hard problem of consciousness (Chalmers), qualia, the explanatory gap, functionalism vs identity theory vs dualism, the Chinese Room (Searle), the knowledge argument (Jackson's Mary's Room), philosophical zombies, integrated information theory (Tononi), global workspace theory (Baars/Dehaene), panpsychism (Russellian monism), illusionism (Dennett). Position mapping across five dimensions. Cross-domain hooks to phil-of-physics measurement problem (consciousness-causes-collapse), phil-of-biology (animal consciousness), AI (Turing Test, machine consciousness), ethics (moral status). No Lean formalisation; human-review-only at I/M tier.
+
+## Scaffolded §14-§23 Concept IDs
+
+These entries register live draft units so the validator can distinguish "unknown concept" from "known concept awaiting full catalog prose." Expand each into the full catalog schema as the corresponding unit is promoted from draft to review.
+
+### Chemistry and Biology Additions
+
+- `chemistry.statistical-mechanics` - Statistical Mechanics for Chemistry (`14.07.01`)
+- `chemistry.solutions-phase-equilibria` - Solutions and Phase Equilibria (`14.09.01`)
+- `chemistry.radical-pericyclic-reactions` - Radical and Pericyclic Reactions (`15.08.01`)
+- `chemistry.organometallic-synthesis` - Organometallic Methods in Synthesis (`15.09.01`)
+- `biology.body-plans-organization` - Body plans and organization (`18.01.01`)
+- `biology.digestive-physiology` - Digestive physiology and nutrition (`18.06.01`)
+- `biology.reproductive-biology` - Reproductive biology (`18.09.01`)
+- `biology.immunology` - Immunology (`18.10.01`)
+- `biology.macroevolution` - Macroevolution (`19.08.01`)
+- `biology.ecosystem-ecology` - Ecosystem ecology (`19.11.01`)
+- `biology.biogeography` - Biogeography (`19.12.01`)
+- `biology.coevolution` - Coevolution (`19.13.01`)
+- `biology.conservation-biology` - Conservation biology (`19.14.01`)
+ - `philosophy-of-physics.measurement-problem` - The measurement problem in quantum mechanics (`20.03.01`)
+ - `philosophy.aesthetics-beauty-art-judgment` - Aesthetics: beauty, art, and judgment (`20.04.01`)
+ - `philosophy-of-biology.unit-of-selection` - The unit of selection (`20.05.02`)
+ - `philosophy.consciousness-hard-problem-qualia` - Consciousness: the hard problem, qualia, and the mind-body debate (`20.06.01`)
+ - `philosophy.philosophy-of-mathematics-platonism-constructivism` - Philosophy of mathematics: Platonism, constructivism, and the nature of numbers (`20.09.01`)
+
+### Language
+
+- `grammar.nouns` - Nouns (`22.01.01`)
+- `grammar.verbs` - Verbs (`22.01.02`)
+- `grammar.sentences` - Sentences: subject and predicate (`22.01.03`)
+- `grammar.pronouns` - Pronouns (`22.01.04`)
+- `grammar.adjectives` - Adjectives (`22.01.05`)
+- `grammar.adverbs` - Adverbs (`22.01.06`)
+- `grammar.prepositions` - Prepositions (`22.01.07`)
+- `grammar.conjunctions` - Conjunctions (`22.01.08`)
+- `grammar.interjections` - Interjections (`22.01.09`)
+- `grammar.noun-phrases-verb-phrases` - Noun phrases and verb phrases (`22.01.10`)
+- `grammar.subject-verb-agreement` - Subject-verb agreement (`22.01.11`)
+- `grammar.verb-tense` - Verb tense: present, past, future (`22.01.12`)
+- `grammar.perfect-progressive-aspects` - Perfect and progressive aspects (`22.01.13`)
+- `grammar.active-passive-voice` - Active and passive voice (`22.01.14`)
+- `grammar.clauses` - Clauses: independent and dependent (`22.01.15`)
+- `grammar.compound-complex-sentences` - Compound and complex sentences (`22.01.16`)
+- `grammar.relative-clauses` - Relative clauses (`22.01.17`)
+- `grammar.punctuation-end-marks-commas` - Punctuation: end marks and commas (`22.01.18`)
+- `grammar.punctuation-semicolons-colons-dashes` - Punctuation: semicolons, colons, dashes (`22.01.19`)
+- `grammar.apostrophes-quotation-marks` - Apostrophes and quotation marks (`22.01.20`)
+- `grammar.common-errors-fragments-run-ons-dangling-modifiers` - Common errors: fragments, run-ons, dangling modifiers (`22.01.21`)
+- `grammar.parallel-structure` - Parallel structure (`22.01.22`)
+- `grammar.pronoun-case-reference` - Pronoun case and reference (`22.01.23`)
+- `grammar.capitalization-conventions` - Capitalization conventions (`22.01.24`)
+- `writing.clear-sentence` - Writing a clear sentence (`22.02.01`)
+- `writing.paragraph-structure` - Paragraph structure (`22.02.02`)
+- `writing.transitions-flow` - Transitions and flow (`22.02.03`)
+- `writing.thesis-statement` - Thesis statement (`22.02.04`)
+- `writing.structuring-argument` - Structuring an argument (`22.02.05`)
+- `writing.using-evidence` - Using evidence (`22.02.06`)
+- `writing.counterargument-rebuttal` - Counterargument and rebuttal (`22.02.07`)
+- `writing.introduction-conclusion` - Introduction and conclusion (`22.02.08`)
+- `writing.citation-attribution` - Citation and attribution (`22.02.09`)
+- `writing.revision-editing` - Revision and editing (`22.02.10`)
+- `writing.style-voice` - Style and voice (`22.02.11`)
+- `literature.literal-figurative-language` - Literal vs Figurative Language (`22.03.01`)
+- `literature.metaphor-simile` - Metaphor and Simile (`22.03.02`)
+- `literature.symbolism-allegory` - Symbolism and Allegory (`22.03.03`)
+- `literature.irony` - Irony (`22.03.04`)
+- `literature.foreshadowing-suspense` - Foreshadowing and Suspense (`22.03.05`)
+- `literature.point-of-view` - Point of View (`22.03.06`)
+- `literature.tone-mood` - Tone and Mood (`22.03.07`)
+- `literature.theme` - Theme (`22.03.08`)
+- `literature.motif-repetition` - Motif and Repetition (`22.03.09`)
+- `literature.unreliable-narration` - Unreliable Narration (`22.03.10`)
+- `literature.satire-parody` - Satire and Parody (`22.03.11`)
+- `literature.imagery-sensory-detail` - Imagery and Sensory Detail (`22.03.12`)
+- `literature.allusion` - Allusion (`22.03.13`)
+- `literature.personification` - Personification (`22.03.14`)
+- `literature.hyperbole-understatement` - Hyperbole and Understatement (`22.03.15`)
+
+### World
+
+- `economics.scarcity` - Scarcity and choice (`23.01.01`)
+- `economics.opportunity-cost` - Opportunity Cost (`23.01.02`)
+- `economics.supply-and-demand` - Supply and Demand (`23.01.03`)
+- `economics.market-equilibrium` - Market Equilibrium (`23.01.04`)
+- `economics.elasticity` - Elasticity (`23.01.05`)
+- `economics.price-controls` - Price Controls (`23.01.06`)
+- `economics.consumer-producer-surplus` - Consumer and Producer Surplus (`23.01.07`)
+- `economics.costs-of-production` - Costs of Production (`23.01.08`)
+- `economics.perfect-competition` - Perfect Competition (`23.01.09`)
+- `economics.monopoly` - Monopoly (`23.01.10`)
+- `economics.oligopoly-monopolistic-competition` - Oligopoly and Monopolistic Competition (`23.01.11`)
+- `economics.profit-maximization` - Profit Maximization (`23.01.12`)
+- `economics.labor-markets-wages` - Labor Markets and Wages (`23.01.13`)
+- `economics.money-and-banking` - Money and Banking (`23.01.14`)
+- `economics.inflation-deflation` - Inflation and Deflation (`23.01.15`)
+- `economics.gdp-economic-measurement` - GDP and economic measurement (`23.01.16`)
+- `economics.unemployment` - Unemployment (`23.01.17`)
+- `economics.fiscal-policy` - Fiscal policy (`23.01.18`)
+- `economics.monetary-policy` - Monetary policy (`23.01.19`)
+- `economics.international-trade` - International trade and comparative advantage (`23.01.20`)
+- `economics.exchange-rates` - Exchange rates (`23.01.21`)
+- `economics.game-theory` - Game theory basics (`23.01.22`)
+- `economics.externalities-public-goods` - Externalities and public goods (`23.01.23`)
+- `economics.income-inequality-redistribution` - Income inequality and redistribution (`23.01.24`)
+- `economics.behavioral-economics` - Behavioral economics (`23.01.25`)
+- `economics.market-failures` - Market failures (`23.01.26`)
+- `economics.economic-systems` - Economic systems (`23.01.27`)
+- `economics.development-economics` - Development economics (`23.01.28`)
+- `economics.personal-finance-budgeting` - Personal finance: budgeting, saving, compound interest (`23.01.29`)
+- `economics.personal-finance-credit-debt-investing` - Personal finance: credit, debt, investing (`23.01.30`)
+- `civics.what-is-government` - What is government (`23.02.01`)
+- `civics.types-of-government` - Types of government (`23.02.02`)
+- `civics.what-is-constitution` - What is a constitution (`23.02.03`)
+- `civics.separation-of-powers` - Separation of powers (`23.02.04`)
+- `civics.legislature` - The legislature (`23.02.05`)
+- `civics.executive` - The executive (`23.02.06`)
+- `civics.judiciary` - The judiciary (`23.02.07`)
+- `civics.how-law-is-made` - How a law is made (`23.02.08`)
+- `civics.electoral-systems` - Electoral systems (`23.02.09`)
+- `civics.political-parties-interest-groups` - Political parties and interest groups (`23.02.10`)
+- `civics.rights-civil-liberties` - Rights and civil liberties (`23.02.11`)
+- `civics.federalism-local-government` - Federalism and local government (`23.02.12`)
+- `civics.international-organizations` - International organizations (`23.02.13`)
+- `civics.treaties-international-law` - Treaties and international law (`23.02.14`)
+- `civics.citizenship-civic-participation` - Citizenship and civic participation (`23.02.15`)
+- `geography.maps-projections` - Maps and Map Projections (`23.03.01`)
+- `geography.latitude-longitude` - Latitude, Longitude, and Coordinate Systems (`23.03.02`)
+- `geography.continents-oceans` - Continents and Oceans (`23.03.03`)
+- `geography.landforms` - Landforms (`23.03.04`)
+- `geography.climate-biomes` - Climate Zones and Biomes (`23.03.05`)
+- `geography.population-distribution` - Population Distribution and Density (`23.03.06`)
+- `geography.urbanization-settlement` - Urbanization and Settlement (`23.03.07`)
+- `geography.natural-resources` - Natural Resources and Distribution (`23.03.08`)
+- `geography.cultural-geography` - Cultural Geography (`23.03.09`)
+- `geography.political-geography` - Political Geography (`23.03.10`)
+- `geography.human-migration` - Human Migration (`23.03.11`)
+- `geography.environmental-geography` - Environmental Geography (`23.03.12`)
+
+### philosophy.democracy-theory-participation-deliberation
+
+- **title**: Democratic theory: participation, deliberation, and representation
+- **unit**: `20.07.01`
+- **prerequisites**: `philosophy.justice-fairness-rawls-nozick` (20.02.01)
+- **tier_anchors**:
+  - beginner: "Dahl, On Democracy; any intro to political philosophy"
+  - intermediate: "Habermas, Between Facts and Norms; Dahl 1989"
+  - master: "primary sources: Dahl 1989, Habermas 1992, Mouffe 2000, Fishkin 2009"
+- **notes**: Democratic theory as the systematic study of collective self-rule. Five families: participatory democracy (citizen engagement beyond the ballot box), deliberative democracy (Habermasian discourse ethics, Rawlsian public reason, Fishkin's deliberative polling), representative democracy (mandate vs independence, accountability mechanisms, principal-agent problems), radical democracy (Mouffe's agonistic pluralism, Laclau, Ranciere), and epistemic democracy (Condorcet jury theorem, Hong-Page diversity theorem, Page and Stiglitz on collective intelligence). Formal results: Arrow's impossibility theorem on social welfare functions, Gibbard-Satterthwaite on strategy-proofness, Sen's liberal paradox. Democratic deficits (EU, international institutions, technocratic governance). Populism as democratic pathology or democratic corrective. Democratization waves (Huntington) and democratic backsliding. Voting theory and social choice. Cross-domain hooks to justice/fairness (20.02.01), freedom/liberty (20.02.03), rights (20.02.02), and social choice theory in mathematics. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.justice-fairness-rawls-nozick
+
+- **title**: Theories of justice: Rawls, Nozick, and fairness
+- **unit**: `20.02.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Any intro ethics/political philosophy textbook; Sandel, Justice"
+  - intermediate: "Rawls, A Theory of Justice (1971); Nozick, Anarchy, State, and Utopia (1974)"
+  - master: "primary sources: Rawls 1971, Nozick 1974, Sen 1992, Cohen 2008"
+- **notes**: Rawls's theory of justice (original position, veil of ignorance, two principles with the difference principle), Nozick's libertarian entitlement theory (justice in acquisition, transfer, rectification; Wilt Chamberlain argument), the patterned vs historical distinction, utilitarian approaches (classical, rule, Harsanyi's expected-utility original position), the capabilities approach (Sen's critique of primary goods, Nussbaum's list, capability as freedom), distributive vs retributive justice, structural injustice, Cohen's internal egalitarian critique of the difference principle (incentive argument, justice vs motivation), Sandel's communitarian critique (constitutive attachments, situated self), and the contemporary landscape (luck egalitarianism, democratic equality, sufficientarianism, global justice, intersection with race/gender/disability). No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.ai-ethics-alignment-bias-responsibility
+
+- **title**: Ethics of artificial intelligence
+- **unit**: `20.02.06`
+- **prerequisites**: `philosophy.justice-fairness-rawls-nozick` (20.02.01)
+- **tier_anchors**:
+  - beginner: "Any intro to AI ethics; Floridi & Savulescu, The Ethics of Artificial Intelligence"
+  - intermediate: "Russell, Human Compatible; Bostrom, Superintelligence"
+  - master: "primary sources: Russell 2019, Bostrom 2014, Floridi 2020, Christiano 2017"
+- **notes**: The alignment problem (identification, specification, robustness), fairness and bias in machine learning (demographic parity, equalised odds, Chouldechova-Kleinberg impossibility result), autonomous weapons (Sparrow, Asaro), surveillance and privacy (panopticon, differential surveillance, privacy as autonomy), AI and labour displacement (UBI response, capabilities critique), the responsibility gap (strict liability, negligence, vicarious liability, electronic personhood, moral crumple zones), robot rights and moral status (consciousness, functional equivalence, zombie problem), superintelligence risk (Bostrom's orthogonality thesis, instrumental convergence, the control problem), AI governance (EU AI Act, global coordination, regulatory capture). No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.philosophy-of-science-demarcation-falsification
+
+- **title**: Philosophy of science: demarcation, falsification, and paradigms
+- **unit**: `20.08.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Any intro to philosophy of science; Chalmers, What Is This Thing Called Science?"
+  - intermediate: "Popper, Logic of Scientific Discovery; Kuhn, Structure of Scientific Revolutions"
+  - master: "primary sources: Popper 1935, Kuhn 1962, Lakatos 1970, Feyerabend 1975, van Fraassen 1980"
+- **notes**: The demarcation problem (what counts as science), logical positivism and its collapse, Popper's falsificationism and the asymmetry between verification and falsification, conventionalist stratagems, Kuhn's paradigms and scientific revolutions (normal science, anomaly, crisis, incommensurability), Lakatos's research programmes (hard core, protective belt, progressive vs degenerating problemshifts), Feyerabend's epistemological anarchism, the Duhem-Quine thesis (holism about confirmation), underdetermination (transient and permanent), scientific realism vs anti-realism (instrumentalism, constructive empiricism, structural realism, entity realism, selective realism), and values in science (the value-free ideal, inductive risk, feminist epistemology, situated knowledges, social objectivity). No Lean formalisation; human-review-only at I/M tier.
