@@ -3,6 +3,11 @@
   "version": 1,
   "edges": [
     {
+      "from": "32.15.01",
+      "to": "32.17.01",
+      "state": "pending"
+    },
+    {
       "from": "01.01.03",
       "to": "03.09.02",
       "state": "shipped"
@@ -5573,6 +5578,11 @@
       "state": "shipped"
     },
     {
+      "from": "32.17.01",
+      "to": "32.18.01",
+      "state": "pending"
+    },
+    {
       "from": "04.10.02",
       "to": "04.10.13",
       "state": "shipped"
@@ -5639,6 +5649,36 @@
     },
     {
       "from": "04.10.12",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.01",
+      "to": "04.10.22",
+      "state": "shipped"
+    },
+    {
+      "from": "04.04.01",
+      "to": "04.10.22",
+      "state": "shipped"
+    },
+    {
+      "from": "04.08.02",
+      "to": "04.10.22",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.02",
+      "to": "04.10.22",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.22",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.22",
       "to": "]",
       "state": "shipped"
     }
@@ -5832,6 +5872,7 @@
     "04.10.12",
     "04.10.13",
     "04.10.14",
+    "04.10.22",
     "04.11.11",
     "04.11.12",
     "04.11.13",
@@ -6243,6 +6284,8 @@
     "32.02.01": "Mesopotamia and the Fertile Crescent — Wave 1 world-history seed, SHIPPED 2026-05-22",
     "32.04.01": "Indus Valley Civilization and Vedic India — Wave 1 world-history seed, SHIPPED 2026-05-22",
     "32.07.01": "Roman Republic and Empire: from founding myths to the fall and beyond — Wave 1 world-history seed, SHIPPED 2026-05-22",
-    "32.08.01": "Classical India: Mauryan Empire, Gupta Golden Age, and South Indian Kingdoms — Wave 1 world-history seed, SHIPPED 2026-05-22"
+    "32.08.01": "Classical India: Mauryan Empire, Gupta Golden Age, and South Indian Kingdoms — Wave 1 world-history seed, SHIPPED 2026-05-22",
+    "32.18.01": "Industrial Revolution and its global consequences — Wave 2 world-history, SHIPPED 2026-05-22",
+    "32.17.01": "Enlightenment and Revolutions — Wave 2 world-history, SHIPPED 2026-05-22"
   }
 }

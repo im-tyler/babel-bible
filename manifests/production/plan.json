@@ -3678,7 +3678,7 @@
       "audit_position": 3,
       "prereqs": [],
       "successors": [],
-      "status": "queued"
+      "status": "shipped"
     },
     "04.10.26": {
       "id": "04.10.26",
