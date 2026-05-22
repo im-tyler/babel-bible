@@ -1978,6 +1978,11 @@
       "state": "pending"
     },
     {
+      "from": "32.01.01",
+      "to": "32.04.01",
+      "state": "shipped"
+    },
+    {
       "from": "05.05.01",
       "to": "05.05.03",
       "state": "shipped"
@@ -5081,6 +5086,36 @@
       "from": "21.02.01",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "01.01.01",
+      "to": "21.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.01",
+      "to": "21.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.02",
+      "to": "21.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.02.12",
+      "to": "21.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "21.02.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "21.02.02",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -5430,6 +5465,7 @@
     "12.06.04",
     "20.02.04",
     "21.02.01",
+    "21.02.02",
     "21.03.01",
     "21.03.03",
     "21.04.01",
@@ -5662,6 +5698,7 @@
     "21.07.02": "p-adic L-functions and the Iwasawa Main Conjecture — Cycle 14 Manin IMNT Iwasawa-theory chapter, Kubota-Leopoldt 1964 + Mazur-Wiles 1984 originators, SHIPPED 2026-05-20",
     "21.06.01": "Modularity theorem (statement) and BSD conjecture — Cycle 14 Manin IMNT modularity-BSD chapter-opener, Wiles 1995 + BCDT 2001 + Birch-Swinnerton-Dyer 1965 originators, SHIPPED 2026-05-20",
     "20.02.02": "Rights: natural, human, and legal — Wave 1 philosophy seed (ethics), SHIPPED 2026-05-21",
-    "32.02.01": "Mesopotamia and the Fertile Crescent — Wave 1 world-history seed, SHIPPED 2026-05-22"
+    "32.02.01": "Mesopotamia and the Fertile Crescent — Wave 1 world-history seed, SHIPPED 2026-05-22",
+    "32.04.01": "Indus Valley Civilization and Vedic India — Wave 1 world-history seed, SHIPPED 2026-05-22"
   }
 }
