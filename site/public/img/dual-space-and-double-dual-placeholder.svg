@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Dual space and double dual</title>
+  <desc id="desc">A column vector in V on the left, two row covectors in V* in the middle producing scalars via row-times-column multiplication, and on the right the canonical isomorphism arrow from V to V** sending v to evaluation-at-v.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow-blue3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-purple3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif" fill="#0f172a">
+    <text x="40" y="40" font-size="24" font-weight="700">a covector eats a vector and returns a number</text>
+  </g>
+  <g transform="translate(40,80)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#1d4ed8">V (column)</text>
+    <rect x="0" y="40" width="80" height="200" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="40" y="90" font-size="18" text-anchor="middle">2</text>
+    <text x="40" y="140" font-size="18" text-anchor="middle">1</text>
+    <text x="40" y="190" font-size="18" text-anchor="middle">3</text>
+    <text x="40" y="280" font-size="14" text-anchor="middle" fill="#475569">v in V</text>
+  </g>
+  <g transform="translate(180,80)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#b91c1c">V* (row)</text>
+    <rect x="0" y="40" width="240" height="50" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+    <text x="40" y="72" font-size="18" text-anchor="middle">1</text>
+    <text x="120" y="72" font-size="18" text-anchor="middle">0</text>
+    <text x="200" y="72" font-size="18" text-anchor="middle">0</text>
+    <text x="120" y="115" font-size="14" text-anchor="middle" fill="#475569">e^1: read first coordinate</text>
+    <rect x="0" y="140" width="240" height="50" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+    <text x="40" y="172" font-size="18" text-anchor="middle">0</text>
+    <text x="120" y="172" font-size="18" text-anchor="middle">1</text>
+    <text x="200" y="172" font-size="18" text-anchor="middle">2</text>
+    <text x="120" y="215" font-size="14" text-anchor="middle" fill="#475569">f: read coord 2 + twice coord 3</text>
+    <path d="M260 65 L320 65" stroke="#b91c1c" stroke-width="3" fill="none" marker-end="url(#arrow-red3)"/>
+    <text x="340" y="72" font-size="20" font-weight="700">= 1</text>
+    <path d="M260 165 L320 165" stroke="#b91c1c" stroke-width="3" fill="none" marker-end="url(#arrow-red3)"/>
+    <text x="340" y="172" font-size="20" font-weight="700">= 7</text>
+  </g>
+  <g transform="translate(600,80)">
+    <text x="0" y="20" font-size="18" font-weight="700" fill="#6d28d9">V to V** (canonical)</text>
+    <rect x="0" y="40" width="80" height="80" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+    <text x="40" y="85" font-size="18" text-anchor="middle">v</text>
+    <path d="M90 80 L200 80" stroke="#7c3aed" stroke-width="3" fill="none" marker-end="url(#arrow-purple3)"/>
+    <text x="145" y="68" font-size="14" text-anchor="middle" fill="#6d28d9">ev_v</text>
+    <rect x="210" y="40" width="120" height="80" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+    <text x="270" y="85" font-size="16" text-anchor="middle">f -&gt; f(v)</text>
+    <text x="0" y="160" font-size="14" fill="#475569">no choice of basis needed</text>
+    <text x="0" y="184" font-size="14" fill="#475569">no inner product needed</text>
+    <text x="0" y="208" font-size="14" fill="#475569">an iso in finite dim</text>
+    <text x="0" y="232" font-size="14" fill="#475569">contrast: V to V* depends</text>
+    <text x="0" y="252" font-size="14" fill="#475569">on a chosen basis</text>
+  </g>
+</svg>

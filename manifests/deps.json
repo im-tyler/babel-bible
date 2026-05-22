@@ -6386,6 +6386,51 @@
       "from": "08.10.09",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "32.15.01",
+      "to": "32.16.01",
+      "state": "pending"
+    },
+    {
+      "from": "32.21.01",
+      "to": "32.22.01",
+      "state": "pending"
+    },
+    {
+      "from": "32.19.01",
+      "to": "32.20.01",
+      "state": "pending"
+    },
+    {
+      "from": "32.20.01",
+      "to": "32.21.01",
+      "state": "pending"
+    },
+    {
+      "from": "01.01.03",
+      "to": "01.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.04",
+      "to": "01.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.05",
+      "to": "01.01.02",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "01.01.02",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -6396,7 +6441,9 @@
     "22.03.06",
     "22.03.08",
     "22.04.03",
-    "32.14.01"
+    "32.14.01",
+    "32.15.01",
+    "32.19.01"
   ],
   "shipped": [
     "00.01.01",
@@ -6407,6 +6454,7 @@
     "00.03.02",
     "00.04.01",
     "01.01.01",
+    "01.01.02",
     "01.01.03",
     "01.01.04",
     "01.01.05",
@@ -6781,7 +6829,9 @@
     "21.09.01",
     "21.09.02",
     "21.10.01",
-    "32.08.01"
+    "32.08.01",
+    "32.16.01",
+    "32.21.01"
   ],
   "_notes": {
     "01.01.03": "vector space — Wave 2 Phase 2.1 unit #1, SHIPPED",
@@ -7012,6 +7062,7 @@
     "32.08.01": "Classical India: Mauryan Empire, Gupta Golden Age, and South Indian Kingdoms — Wave 1 world-history seed, SHIPPED 2026-05-22",
     "32.18.01": "Industrial Revolution and its global consequences — Wave 2 world-history, SHIPPED 2026-05-22",
     "32.17.01": "Enlightenment and Revolutions — Wave 2 world-history, SHIPPED 2026-05-22",
-    "32.15.01": "Colonialism and imperialism: colonizer and colonized — Wave 2 world-history, SHIPPED 2026-05-22"
+    "32.15.01": "Colonialism and imperialism: colonizer and colonized — Wave 2 world-history, SHIPPED 2026-05-22",
+    "32.22.01": "World War II: Global Theaters and Multi-Perspective Histories — Wave 3 world-history, SHIPPED 2026-05-22"
   }
 }

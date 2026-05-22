@@ -1,29 +1,39 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-22T21:50:41.211325+00:00_
+_Generated: 2026-05-22T23:09:51.238566+00:00_
 
 ## Burn-down
 
-- Units shipped: **908**
-- Units queued (gap units from audits): **10**
-- Of which deepenings: **0**
-- Audits completed: **58 / 92**
+- Units shipped: **926**
+- Units queued (gap units from audits): **99**
+- Of which deepenings: **4**
+- Audits completed: **65 / 92**
 - Books unaudited: **0**
 
 ## Next 20 queued units (topological order)
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 2 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
-| 3 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
-| 4 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
-| 5 | `08.12.01` | Fluctuation-dissipation theorem (Landau-Callen-Welton) | P? | landau-lifshitz-statistical-physics-1 |
-| 6 | `08.11.02` | Debye theory of specific heats of solids | P? | landau-lifshitz-statistical-physics-1 |
-| 7 | `08.11.03` | Real gases — virial expansion and van der Waals | P? | landau-lifshitz-statistical-physics-1 |
-| 8 | `08.12.02` | Equilibrium fluctuations of thermodynamic quantities | P? | landau-lifshitz-statistical-physics-1 |
-| 9 | `03.12.48` | Bousfield localisation of a model category | P3 | may-ponto-more-concise |
-| 10 | `08.10.08` | Langevin updates and lattice numerics | P3 | parisi-wu-stochastic-quantization |
+| 1 | `03.07.17` | Chern-Simons functional on a 3-manifold | P1 | donaldson-floer-homology-yang-mills |
+| 2 | `03.07.18` | Configuration space and slice theorem on $\mathcal{B}^*(Y)$ | P1 | donaldson-floer-homology-yang-mills |
+| 3 | `03.07.19` | Spectral flow and the Floer grading mod 8 | P1 | donaldson-floer-homology-yang-mills |
+| 4 | `03.07.20` | Uhlenbeck compactness for ASD equations on cylinders | P1 | donaldson-floer-homology-yang-mills |
+| 5 | `03.07.21` | Gluing theorem for instanton trajectories | P1 | donaldson-floer-homology-yang-mills |
+| 6 | `03.07.22` | Orientations on instanton trajectory moduli | P1 | donaldson-floer-homology-yang-mills |
+| 7 | `03.07.23` | Instanton Floer homology $HF_*(Y)$ | P1 | donaldson-floer-homology-yang-mills |
+| 8 | `03.07.24` | Relative Donaldson invariants for 4-manifolds with boundary | P2 | donaldson-floer-homology-yang-mills |
+| 9 | `03.07.25` | Donaldson-Floer surgery exact triangle | P2 | donaldson-floer-homology-yang-mills |
+| 10 | `03.07.26` | Atiyah-Floer conjecture | P2 | donaldson-floer-homology-yang-mills |
+| 11 | `03.07.27` | Polyfolds (Hofer-Wysocki-Zehnder) | P3 | donaldson-floer-homology-yang-mills |
+| 12 | `03.07.28` | Monopole-instanton Floer equivalence (Kronheimer-Mrowka) | P3 | donaldson-floer-homology-yang-mills |
+| 13 | `24.01.00` | Numerical-PDE chapter README + notation crosswalk | P? | douglas-arnold-feec |
+| 14 | `24.01.01` | Sobolev spaces $H^s$ and $W^{k,p}$ | P? | douglas-arnold-feec |
+| 15 | `24.01.02` | Sobolev spaces of differential forms $H\Lambda^k$ | P? | douglas-arnold-feec |
+| 16 | `24.01.03` | Weak / variational formulation of elliptic PDE | P? | douglas-arnold-feec |
+| 17 | `24.01.04` | Babuška-Brezzi (inf-sup) condition for saddle-point problems | P? | douglas-arnold-feec |
+| 18 | `03.04.15` | Hodge Laplacian on a Riemannian manifold | P1 | douglas-arnold-feec |
+| 19 | `24.02.01` | Classical conforming FEM — Galerkin, Céa, Bramble-Hilbert | P1 | douglas-arnold-feec |
+| 20 | `24.02.02` | Mixed FEM for the Poisson equation (Raviart-Thomas) | P1 | douglas-arnold-feec |
 
 ## Audits completed
 
@@ -42,12 +52,16 @@ _Generated: 2026-05-22T21:50:41.211325+00:00_
 | cannas-da-silva-symplectic | 0 | 0 | 0 | 0 | 0 |
 | chatterjee-qft-lecture-notes | 6 | 2 | 0 | 0 | 8 |
 | diaconis-group-representations-probability-statistics | 4 | 3 | 2 | 1 | 10 |
+| donaldson-floer-homology-yang-mills | 7 | 3 | 2 | 0 | 12 |
 | donaldson-riemann-surfaces | 0 | 0 | 0 | 0 | 0 |
+| douglas-arnold-feec | 9 | 3 | 3 | 0 | 15 |
 | forster-riemann-surfaces | 0 | 0 | 0 | 0 | 0 |
 | freed-lectures-field-theory-topology | 0 | 0 | 0 | 0 | 0 |
 | fulton-harris-representation-theory | 3 | 2 | 0 | 0 | 5 |
 | fulton-toric-varieties | 7 | 4 | 3 | 1 | 15 |
+| gelfand-manin-homological-algebra | 13 | 1 | 0 | 0 | 14 |
 | gelfand-vilenkin-generalized-functions-combined | 0 | 0 | 0 | 0 | 0 |
+| gerard-microlocal-qft-curved-spacetimes | 8 | 5 | 2 | 1 | 16 |
 | goerss-jardine-simplicial-homotopy | 4 | 4 | 1 | 0 | 9 |
 | griffiths-harris-geometry-algebraic-curves | 0 | 0 | 0 | 0 | 0 |
 | gross-tropical-geometry-mirror-symmetry | 10 | 3 | 1 | 0 | 14 |
@@ -62,6 +76,7 @@ _Generated: 2026-05-22T21:50:41.211325+00:00_
 | kobayashi-nomizu-foundations-vol2 | 6 | 4 | 1 | 0 | 11 |
 | landau-lifshitz-classical-theory-of-fields | 0 | 0 | 0 | 0 | 0 |
 | landau-lifshitz-mechanics | 0 | 0 | 0 | 0 | 0 |
+| landau-lifshitz-quantum-mechanics | 0 | 0 | 0 | 0 | 0 |
 | landau-lifshitz-statistical-physics-1 | 0 | 0 | 0 | 0 | 0 |
 | lars-ahlfors-complex-analysis | 0 | 0 | 0 | 0 | 0 |
 | lawson-michelsohn-spin-geometry | 0 | 0 | 0 | 0 | 0 |
@@ -72,6 +87,7 @@ _Generated: 2026-05-22T21:50:41.211325+00:00_
 | milnor-morse-theory | 4 | 1 | 1 | 0 | 6 |
 | milnor-stasheff-characteristic-classes | 7 | 1 | 3 | 0 | 11 |
 | mumford-geometric-invariant-theory | 4 | 2 | 3 | 2 | 11 |
+| olver-lie-groups-differential-equations | 0 | 0 | 0 | 0 | 0 |
 | parisi-wu-stochastic-quantization | 5 | 1 | 2 | 1 | 9 |
 | ravenel-complex-cobordism | 0 | 0 | 0 | 0 | 0 |
 | serge-lang-algebra | 0 | 0 | 0 | 0 | 0 |
@@ -80,6 +96,7 @@ _Generated: 2026-05-22T21:50:41.211325+00:00_
 | serre-course-in-arithmetic | 3 | 1 | 0 | 0 | 4 |
 | serre-lie-algebras-and-lie-groups | 4 | 1 | 0 | 0 | 5 |
 | serre-linear-representations-finite-groups | 0 | 2 | 0 | 0 | 2 |
+| shilov-linear-algebra | 0 | 0 | 0 | 0 | 0 |
 | souriau-structure-dynamical-systems | 0 | 0 | 0 | 0 | 0 |
 | sternberg-lectures-differential-geometry | 2 | 1 | 0 | 0 | 3 |
 | tom-m-apostol-calculus-vol-multi | 0 | 0 | 0 | 0 | 0 |

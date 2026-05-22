@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Gram-Schmidt orthonormalisation</title>
+  <desc id="desc">A schematic placeholder diagram for Gram-Schmidt: an input pair of linearly independent vectors v1 and v2 is shown on the left; in the middle, v2 is decomposed into its component parallel to v1 (the projection) and its perpendicular complement u2; on the right, the resulting orthonormal pair e1, e2 is displayed with right angle indicator.</desc>
+  <rect width="720" height="360" fill="#f3f1ea"/>
+  <g fill="#222" font-family="Inter, Arial, sans-serif" font-size="22">
+    <text x="360" y="36" text-anchor="middle" fill="#222">Gram-Schmidt: input → project → normalise</text>
+  </g>
+  <g stroke="#2c4a6f" stroke-width="2" fill="none">
+    <line x1="60" y1="320" x2="60" y2="80"/>
+    <line x1="60" y1="320" x2="300" y2="320"/>
+  </g>
+  <g stroke="#b85a1e" stroke-width="3" fill="none">
+    <line x1="60" y1="320" x2="200" y2="200" marker-end="url(#arrow)"/>
+    <line x1="60" y1="320" x2="240" y2="280" marker-end="url(#arrow)"/>
+  </g>
+  <g fill="#b85a1e" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="206" y="190">v_1</text>
+    <text x="246" y="270">v_2</text>
+  </g>
+  <text x="180" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">two independent vectors</text>
+  <g stroke="#2c4a6f" stroke-width="2" fill="none">
+    <line x1="320" y1="320" x2="320" y2="80"/>
+    <line x1="320" y1="320" x2="500" y2="320"/>
+  </g>
+  <g stroke="#b85a1e" stroke-width="3" fill="none">
+    <line x1="320" y1="320" x2="460" y2="200" marker-end="url(#arrow)"/>
+  </g>
+  <g stroke="#2c4a6f" stroke-width="2" stroke-dasharray="6 4" fill="none">
+    <line x1="320" y1="320" x2="430" y2="226"/>
+    <line x1="430" y1="226" x2="460" y2="200"/>
+  </g>
+  <g stroke="#1f7a44" stroke-width="3" fill="none">
+    <line x1="430" y1="226" x2="460" y2="200" marker-end="url(#arrowg)"/>
+  </g>
+  <g fill="#222" font-family="Inter, Arial, sans-serif" font-size="16">
+    <text x="380" y="290" text-anchor="middle" fill="#2c4a6f">proj along e_1</text>
+    <text x="466" y="218" fill="#1f7a44">u_2</text>
+  </g>
+  <text x="410" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">subtract projection, get perpendicular u_2</text>
+  <g stroke="#2c4a6f" stroke-width="2" fill="none">
+    <line x1="540" y1="320" x2="540" y2="80"/>
+    <line x1="540" y1="320" x2="700" y2="320"/>
+  </g>
+  <g stroke="#1f7a44" stroke-width="3" fill="none">
+    <line x1="540" y1="320" x2="640" y2="320" marker-end="url(#arrowg)"/>
+    <line x1="540" y1="320" x2="540" y2="220" marker-end="url(#arrowg)"/>
+  </g>
+  <path d="M 540 300 L 560 300 L 560 320" stroke="#1f7a44" stroke-width="2" fill="none"/>
+  <g fill="#1f7a44" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="650" y="316">e_1</text>
+    <text x="546" y="216">e_2</text>
+  </g>
+  <text x="620" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">orthonormal pair</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#b85a1e"/>
+    </marker>
+    <marker id="arrowg" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#1f7a44"/>
+    </marker>
+  </defs>
+</svg>
