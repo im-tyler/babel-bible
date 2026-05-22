@@ -27,9 +27,10 @@ export default function About({ data }: { data: any }) {
       <section class="page-narrow" style="padding-top: 0;">
         <h1>About Babel Bible</h1>
         <p class="lede">
-          A curriculum that takes a self-taught learner from high-school algebra to graduate-level
-          mastery in mathematics and physics. Every concept exists at three depths in a single
-          source document; the site filters what you see.
+          A self-study curriculum that takes a learner from foundations to graduate-level mastery
+          across the sciences and humanities — math, physics, chemistry, biology, philosophy,
+          language, and the social world. Every concept exists at three depths in a single source
+          document; the site filters what you see.
         </p>
       </section>
 
@@ -42,19 +43,21 @@ export default function About({ data }: { data: any }) {
         <ul>
           <li>
             <strong>Beginner</strong> — intuition, visuals, worked examples with everyday numbers.
-            Anchored on 3Blue1Brown and Strogatz <em>Infinite Powers</em>. Endpoint: scientific
+            Math/physics anchors: 3Blue1Brown, Strogatz <em>Infinite Powers</em>. Other domains
+            use their own field-canonical entry points. Endpoint: scientific and cultural
             literacy.
           </li>
           <li>
             <strong>Intermediate</strong> — definitions, proofs, exercises, scaffolded Lean
-            puzzles. Anchored on Axler <em>Linear Algebra Done Right</em>, Apostol{" "}
-            <em>Calculus</em>, Griffiths <em>Electrodynamics</em>. Endpoint: undergrad-textbook
-            mastery.
+            puzzles where applicable. Math/physics anchors: Axler <em>Linear Algebra Done Right</em>,
+            Apostol <em>Calculus</em>, Griffiths <em>Electrodynamics</em>. Endpoint:
+            undergrad-textbook mastery.
           </li>
           <li>
             <strong>Master</strong> — full proofs, primary literature, hard problems, full Lean
-            formalisation where Mathlib covers. Anchored on Lang <em>Algebra</em>, Hartshorne, Bott-Tu, Lawson-Michelsohn,
-            Weinberg. Endpoint: graduate research readiness.
+            formalisation where Mathlib covers. Math/physics anchors: Lang <em>Algebra</em>,
+            Hartshorne, Bott-Tu, Lawson-Michelsohn, Weinberg. Endpoint: graduate research
+            readiness.
           </li>
         </ul>
       </section>
@@ -79,9 +82,9 @@ export default function About({ data }: { data: any }) {
           place-holders for apex units; they fill in as the prerequisite chain reaches them.
         </p>
         <p class="muted">
-          If you arrived hoping for accessible introductions to graduate math, you are early.
-          v1 is the right time to come back. v0.x is for graduate readers who want a single
-          cross-linked reference.
+          If you arrived hoping for accessible introductions to graduate-level material, you are
+          early. v1 is the right time to come back. v0.x is for graduate readers who want a
+          single cross-linked reference.
         </p>
       </section>
 

@@ -1,0 +1,12 @@
+node_modules
+src
+public
+scripts
+.git
+.vscode
+*.md
+package*.json
+vite.config.ts
+tsconfig.json
+neutron.config.ts
+teploy.yml

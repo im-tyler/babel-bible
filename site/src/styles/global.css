@@ -792,6 +792,48 @@ body.cite-panel--open { overflow: hidden; }
   gap: 0.75rem;
   margin: 1rem 0 2rem;
 }
+
+/* ---------- Domain groups (homepage "full curriculum") ---------- */
+.domain-group {
+  margin: 1.6rem auto 0.4rem;
+  max-width: 1080px;
+  padding: 1.2rem 0 0.6rem;
+  border-top: 1px solid var(--border);
+}
+.domain-group:first-of-type { border-top: none; padding-top: 0.4rem; }
+.domain-group__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 0.25rem;
+}
+.domain-group__title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin: 0;
+  color: var(--fg-strong);
+  letter-spacing: 0.01em;
+}
+.domain-group__count {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.domain-group__blurb {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  max-width: 70ch;
+}
+.domain-group .sections-grid { margin-top: 0.6rem; margin-bottom: 0.6rem; }
+@media (max-width: 640px) {
+  .domain-group__header { flex-direction: column; gap: 0.2rem; align-items: flex-start; }
+}
 .section-card {
   display: block;
   padding: 0.9rem 1rem;
@@ -1042,6 +1084,27 @@ body.cite-panel--open { overflow: hidden; }
 .footer-grid a:hover { color: var(--accent); }
 .footer-brand { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; margin: 0 0 0.4rem; }
 .footer-heading { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.5rem; }
+.footer-note { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--muted); margin: 1rem 0 0; }
+.footer-note a { color: inherit; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; }
+.footer-note a:hover { color: var(--accent); text-decoration-color: currentColor; }
+
+/* ---------- Section framing: double-diamond decorations ---------- */
+.section-framed { position: relative; }
+.section-frame {
+  position: absolute;
+  top: 0.5rem;
+  width: 40px;
+  height: 100px;
+  color: var(--muted);
+  opacity: 0.55;
+  pointer-events: none;
+}
+.section-frame svg { display: block; }
+.section-frame--left { left: -64px; }
+.section-frame--right { right: -64px; }
+@media (max-width: 960px) {
+  .section-frame { display: none; }
+}
 
 /* ---------- Pilot banner (home page) ---------- */
 .pilot-banner {

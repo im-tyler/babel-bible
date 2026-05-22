@@ -1,80 +1,64 @@
-# Codex
+# Babel Bible
 
-A single resource aimed at superseding every existing math/physics self-study path — from pre-calculus through spin geometry, QFT, and algebraic topology.
+A self-study curriculum spanning the sciences and humanities. Math, physics, chemistry, biology, philosophy, language, and the social world — same concept, three depths:
 
-**Status:** Pre-pilot. Reference archive being assembled; scaffold docs (Brief / Unit spec / Quality rubric / Dependency map / Pilot plan) not yet written.
+- **Beginner** — intuition, visuals, worked examples.
+- **Intermediate** — formal definitions, proofs, exercises.
+- **Master** — graduate-level depth with primary-source citations and Lean formalisation status where Mathlib covers.
+
+**Status:** Live at <https://babelbible.org>. 830+ units across 7 domains. Continuously expanded by an autonomous production pipeline against a 27-point quality rubric.
+
+**Codename:** the Lean formalisation library and internal docs still use the codename `Codex`. Babel Bible is the product name.
 
 ## Layout
 
 ```
-codex/
+B.I.B.L.E/
 ├── README.md                          ← you are here
-├── OVERVIEW.md                        ← project orientation
+├── OVERVIEW.md                        ← project orientation (load-bearing doc)
 ├── BRIEF.md                           ← one-page vision extract
-├── docs/                              ← all planning + spec + catalog material
-│   ├── pilot-lessons.md
-│   ├── plans/                         ← PROJECT_PLAN, PILOT_PLAN, WAVE_*, V05_*_PLAN, SITE_PLAN, REVIEWER_PLAN, FASTTRACK_EQUIVALENCE_PLAN, CURRICULUM_V0_5_PLAN
-│   ├── specs/                         ← UNIT_SPEC, QUALITY_RUBRIC, ORCHESTRATION_PROTOCOL, CONTINUITY_SCAFFOLD, FASTTRACK_FLOW_SCAFFOLD
-│   ├── catalogs/                      ← CONCEPT_CATALOG, DEPENDENCY_MAP, MATHLIB_GAPS, FASTTRACK_BOOKLIST, NEED_TO_SOURCE
-│   └── batches/                       ← GPT batch scaffolds
-├── content/                           ← produced curriculum units
-├── lean/                              ← Codex.* Lean 4 project
-├── site/                              ← Astro companion site
-├── manifests/                         ← per-unit status JSON; deps; campaign + connections
+├── content/                           ← produced curriculum units (~830, growing)
+│   ├── 00-precalc/  …  21-number-theory/    ← math (~580 units)
+│   ├── 09-classical-mech/  …  13-gr-cosmology/   ← physics (~55 units)
+│   ├── 14-genchem-pchem/  …  16-inorgchem/   ← chemistry (~32 units)
+│   ├── 17-mol-cell-bio/  …  19-eco-evo-bio/   ← biology (~40 units)
+│   ├── 20-philosophy/   ← philosophy (~7 units)
+│   ├── 22-language/     ← grammar / writing / literature (~50 units)
+│   └── 23-world/        ← economics / civics / geography (~57 units)
+├── lean/                              ← Lean 4 project (library = `Codex`)
+├── site/                              ← Neutron-based site (deploys to babelbible.org)
+├── docs/                              ← specs, plans, catalogs
+├── manifests/                         ← per-unit state, deps, campaign log
 ├── plans/fasttrack/                   ← per-book Fast Track equivalence plans
 ├── reference/                         ← local archive of external sources (gitignored)
-│   ├── _meta/
-│   │   ├── SOURCES.md                 ← attribution + license per source
-│   │   └── licenses/                  ← (per-source license text if explicit)
-│   ├── tong/                          ← David Tong DAMTP lecture notes (20 PDFs + 24 HTML)
-│   ├── quantum-well/                  ← Boris — CC BY 4.0 — 958 MD notes
-│   ├── milekic/                       ← Nikola Milekic — 938 MD (mostly SWE, out of scope)
-│   ├── fast-track/                    ← The Fast Track article itself
-│   ├── goodtheorist/                  ← 't Hooft's curated resource map
-│   ├── rigetti/                       ← Susan Rigetti's physics self-study guide
-│   ├── quantum-country/               ← Matuschak & Nielsen — 3 essays (mnemonic medium)
-│   ├── diegovera/                     ← Diego Vera self-study essays (47 pages)
-│   ├── jimmyqin/                      ← Jimmy Qin handwritten PDFs (150) + 6 pages
-│   ├── rowlands/                      ← George Rowlands CS garden (out of scope for pilot)
-│   └── readingfeynman/                ← Van Belle — ARCHIVED BUT EXCLUDED FROM PRODUCTION (fringe)
-├── scripts/                           ← retrieval + conversion tooling
-│   ├── fetch_obsidian.py              ← Obsidian Publish sites via cache/access API
-│   ├── fetch_static.sh                ← Single-page curl with browser UA
-│   ├── fetch_tong.py                  ← Bespoke Tong crawler (course pages + PDFs)
-│   ├── fetch_urls.py                  ← Batch URL fetcher (takes a list of URLs)
-│   ├── enumerate_sitemap.py           ← Extract <loc> URLs from sitemap.xml
-│   ├── extract_links.py               ← Same-domain link extractor
-│   └── convert_html_to_md.sh          ← pandoc HTML -> gfm+math markdown
-└── logs/                              ← fetch run logs
+└── scripts/                           ← validators + content tooling
 ```
 
 ## Pipeline
 
-Five stages, implemented:
+1. **Spec** (`docs/specs/UNIT_SPEC.md`) declares the unit format and rubric.
+2. **Produce** — content agents draft units that pass the 27-point automated rubric (`scripts/validate_unit.py`).
+3. **Integrate** — cross-refs validated at build time; broken refs fail the build.
+4. **Site** — Neutron generates static HTML; deployed to OVH via Teploy.
+5. **Audit** — Fast Track books mapped per-unit; per-book audits in `manifests/`.
 
-1. **Discover** — per-source URL enumeration (sitemap.xml, Obsidian cache JSON, course-page scraping).
-2. **Retrieve** — curl / Python `urlretrieve` with browser UA and polite rate limits (0.3–1.0 s).
-3. **Normalize** — pandoc HTML → GitHub-flavored markdown with LaTeX math preserved (`gfm+tex_math_dollars`).
-4. **Organize** — per-source directory, `SOURCES.md` for attribution metadata.
-5. **Rebuild** — deferred. Will be driven by the Unit Spec once written; content-production agents query the archive for reference material on a per-topic basis.
+## Three tiers
 
-## Source Rules
+Each unit packs Beginner / Intermediate / Master content in a single source file. Section markers (`[Beginner]`, `[Intermediate+]`, `[Master]`) gate visibility. The tier toggle in the site header changes what the reader sees.
 
-See `reference/_meta/SOURCES.md` for the complete attribution index and license status. Summary:
+## Lean formalisation
 
-- **Legally adaptable with attribution:** Quantum Well (CC BY 4.0) only.
-- **Reference-only (all rights reserved):** everything else — don't republish, paraphrase when producing original content, always attribute.
-- **Excluded from production use:** `readingfeynman/` (fringe interpretation, archived for completeness only).
+The Lean 4 library lives in `lean/` (module root: `Codex.*`). Each Master-tier unit declares a `lean_status` of `full`, `partial`, or `none`. Mathlib coverage gaps surface in `docs/catalogs/MATHLIB_GAPS.md` as contribution candidates.
 
-## Next Steps
+## Site
 
-1. Finish any in-flight background fetches (readingfeynman, rowlands).
-2. Convert remaining HTML → MD once fetches complete.
-3. Draft the 5 scaffold documents:
-   - `BRIEF.md` — audience, pedagogical philosophy, mastery definition, Lean integration stance
-   - `docs/specs/UNIT_SPEC.md` — what one lesson contains; style rules; explanation modes
-   - `docs/specs/QUALITY_RUBRIC.md` — pass/fail checklist for AI-produced units
-   - `docs/catalogs/DEPENDENCY_MAP.md` — DAG of prerequisites (book-level + concept-level for pilot)
-   - `docs/plans/PILOT_PLAN.md` — first ~10 units (prereqs + Shilov), success criteria
-4. Build `TOPIC_INDEX.md` — curriculum-topic to archive-file mapping, seeded from the Fast Track booklist.
-5. Run the pilot. Iterate until the pipeline produces content at quality. Then scale.
+Built with [Neutron](https://neutron.build) — single static-site target served by Caddy. Local dev: `cd site && npm run dev`. Production build: `npm run build && neutron-ts preview` to verify locally; deploy with `teploy deploy` (config in `site/teploy.yml`).
+
+## Next-step references
+
+- `OVERVIEW.md` — the canonical project doc; read this when in doubt.
+- `BRIEF.md` — one-page extract of the vision.
+- `docs/specs/UNIT_SPEC.md` — the unit format.
+- `docs/specs/QUALITY_RUBRIC.md` — the 27-point automated checks.
+- `docs/plans/PRODUCTION_RUNBOOK.md` — how an agent picks the next unit.
+- `docs/plans/COMPLETION_ROADMAP.md` — what remains to v1.

@@ -48,13 +48,13 @@ export function head() {
   return {
     openGraph: {
       type: "website",
-      title: "Babel Bible — math & physics curriculum",
-      description: "A three-tier curriculum from algebra to graduate-level mastery. Beginner / Intermediate / Master in one source.",
+      title: "Babel Bible — a self-study curriculum across the sciences and humanities",
+      description: "Three-tier curriculum spanning math, physics, chemistry, biology, philosophy, language, and the social world. Beginner / Intermediate / Master in one source.",
     },
     twitter: {
       card: "summary_large_image" as const,
-      title: "Babel Bible — math & physics curriculum",
-      description: "A three-tier curriculum from algebra to graduate-level mastery.",
+      title: "Babel Bible — a self-study curriculum across the sciences and humanities",
+      description: "Three-tier curriculum from foundations to graduate-level mastery, across the sciences and humanities.",
     },
     headScripts: [
       {
@@ -135,8 +135,8 @@ export default function RootLayout({ children }: { children: any }) {
             <a href="/chemistry">Chemistry</a>
             <a href="/biology">Biology</a>
             <a href="/philosophy">Philosophy</a>
-            <a href="/units">All Units</a>
-            <a href="/concepts">Concepts</a>
+            <a href="/language">Language</a>
+            <a href="/world">World</a>
           </nav>
           <div class="header-controls">
             <div class="theme-toggle" role="group" aria-label="Theme">
@@ -169,7 +169,8 @@ export default function RootLayout({ children }: { children: any }) {
           <div class="footer-grid">
             <div>
               <p class="footer-brand">Babel Bible</p>
-              <p class="muted">Math &amp; physics curriculum, all tiers. v0.1 pilot.</p>
+              <p class="muted">A self-study curriculum across the sciences and humanities. Three tiers, one source.</p>
+              <p class="footer-note">Built with <a href="https://neutron.build" target="_blank" rel="noopener noreferrer">Neutron</a>.</p>
             </div>
             <div>
               <p class="footer-heading">Browse</p>
