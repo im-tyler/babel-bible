@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Langevin updates and lattice numerics</title>
+  <desc id="desc">A schematic placeholder showing a lattice grid with a noisy trajectory in stochastic time evolving toward equilibrium for Langevin updates and lattice numerics.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g stroke="#1d4e5a" stroke-width="2" fill="none">
+    <line x1="80" y1="60" x2="80" y2="300"/>
+    <line x1="140" y1="60" x2="140" y2="300"/>
+    <line x1="200" y1="60" x2="200" y2="300"/>
+    <line x1="260" y1="60" x2="260" y2="300"/>
+    <line x1="320" y1="60" x2="320" y2="300"/>
+    <line x1="60" y1="80" x2="340" y2="80"/>
+    <line x1="60" y1="140" x2="340" y2="140"/>
+    <line x1="60" y1="200" x2="340" y2="200"/>
+    <line x1="60" y1="260" x2="340" y2="260"/>
+  </g>
+  <g fill="#1d4e5a">
+    <circle cx="80" cy="80" r="4"/>
+    <circle cx="140" cy="80" r="4"/>
+    <circle cx="200" cy="80" r="4"/>
+    <circle cx="260" cy="80" r="4"/>
+    <circle cx="320" cy="80" r="4"/>
+    <circle cx="80" cy="140" r="4"/>
+    <circle cx="140" cy="140" r="4"/>
+    <circle cx="200" cy="140" r="4"/>
+    <circle cx="260" cy="140" r="4"/>
+    <circle cx="320" cy="140" r="4"/>
+    <circle cx="80" cy="200" r="4"/>
+    <circle cx="140" cy="200" r="4"/>
+    <circle cx="200" cy="200" r="4"/>
+    <circle cx="260" cy="200" r="4"/>
+    <circle cx="320" cy="200" r="4"/>
+    <circle cx="80" cy="260" r="4"/>
+    <circle cx="140" cy="260" r="4"/>
+    <circle cx="200" cy="260" r="4"/>
+    <circle cx="260" cy="260" r="4"/>
+    <circle cx="320" cy="260" r="4"/>
+  </g>
+  <g fill="none" stroke="#b8651e" stroke-width="3">
+    <path d="M420 220 Q450 150 480 180 Q510 220 540 160 Q570 100 600 140 Q630 180 660 130"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="420" cy="220" r="5"/>
+    <circle cx="450" cy="170" r="5"/>
+    <circle cx="480" cy="180" r="5"/>
+    <circle cx="510" cy="200" r="5"/>
+    <circle cx="540" cy="160" r="5"/>
+    <circle cx="570" cy="120" r="5"/>
+    <circle cx="600" cy="140" r="5"/>
+    <circle cx="630" cy="160" r="5"/>
+    <circle cx="660" cy="130" r="5"/>
+  </g>
+  <text x="200" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">Lattice $\Lambda$</text>
+  <text x="540" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">Stochastic time $\tau$</text>
+  <text x="540" y="285" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">noisy trajectory $\phi(x, \tau)$ relaxes to equilibrium</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Langevin updates and lattice numerics</text>
+</svg>
