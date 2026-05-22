@@ -102,9 +102,9 @@
 - **08.10.01**: Bosonic Fock space and second quantisation. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
 - **08.10.02**: Fokker-Planck equation and equilibrium distribution. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
 - ~~**08.10.03**: phi^4 theory and the Dyson series. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.~~ **PRODUCED 2026-05-19 by Claude Opus 4.7 at 27/27 (Cycle 4 Track A, opens stat-side QFT entry strand at `content/08-stat-mech/10-qft/`).**
-- **08.10.04**: Wick's theorem for operator products. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
-- **08.10.05**: Feynman propagator and the contour-integral representation. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
-- **08.10.06**: One-loop renormalisation in phi^4. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
+- ~~**08.10.04**: Wick's theorem for operator products. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.~~ **PRODUCED 2026-05-22 by gpt-5-codex at 28/28 (`content/08-stat-mech/10-qft/`).**
+- ~~**08.10.05**: Feynman propagator and the contour-integral representation. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.~~ **PRODUCED 2026-05-22 by gpt-5-codex at 28/28 (`content/08-stat-mech/10-qft/`).**
+- ~~**08.10.06**: One-loop renormalisation in phi^4. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.~~ **PRODUCED 2026-05-22 by gpt-5-codex at 28/28 (`content/08-stat-mech/10-qft/`).**
 - **08.10.07**: Wightman axioms (W1-W7). Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
 - **08.10.08**: Langevin updates and lattice numerics. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.
 - **08.10.09**: Fermionic Fock space, Pauli exclusion, anticommutators. Reason: frontier stat-mech/QFT cluster flagged §18.2 skip.

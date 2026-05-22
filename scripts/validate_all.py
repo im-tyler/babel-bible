@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Validate every unit in `content/` against the rubric in docs/specs/QUALITY_RUBRIC.md.
+"""Validate units in `content/` against the rubric in docs/specs/QUALITY_RUBRIC.md.
 
-Walks the content tree, invokes `validate_unit.py` on each unit as a
-subprocess (one process per unit, simple and robust across Python
-versions), aggregates results, and exits non-zero if any unit fails.
+Walks the content tree, runs `validate_unit.py` in-process so repo-wide
+indexes are reused, aggregates results, and exits non-zero if any unit fails.
 
 Usage:
     python validate_all.py [--root <codex-root>]
+    python validate_all.py --path content/14-genchem-pchem --path content/22-language
 
 Exit code:
     0 — every unit passes every automated check
@@ -15,8 +15,6 @@ Exit code:
 from __future__ import annotations
 
 import argparse
-import re
-import subprocess
 import sys
 from pathlib import Path
 
@@ -29,28 +27,37 @@ def find_repo_root(start: Path) -> Path:
     raise SystemExit(f"Could not locate codex/ root from {start}")
 
 
-SUMMARY_RE = re.compile(r"\s*(\d+)/(\d+)\s+checks passed\.")
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", type=Path, default=Path.cwd(),
                     help="codex repo root (auto-detected if omitted)")
+    ap.add_argument("--path", action="append", type=Path,
+                    help="content subtree or unit file to validate; repeatable")
     args = ap.parse_args()
 
     repo_root = find_repo_root(args.root)
-    validator = repo_root / "scripts" / "validate_unit.py"
-    if not validator.exists():
-        raise SystemExit(f"validate_unit.py not found at {validator}")
+    sys.path.insert(0, str(repo_root / "scripts"))
+    from validate_unit import validate
 
-    content_root = repo_root / "content"
-    if not content_root.exists():
-        print(f"No content/ directory at {content_root}; nothing to validate.")
-        sys.exit(0)
-
-    units = sorted(content_root.rglob("*.md"))
+    if args.path:
+        units: list[Path] = []
+        for requested in args.path:
+            path = requested if requested.is_absolute() else repo_root / requested
+            if path.is_file():
+                units.append(path)
+            elif path.is_dir():
+                units.extend(sorted(path.rglob("*.md")))
+            else:
+                raise SystemExit(f"Path not found: {requested}")
+        units = sorted(set(units))
+    else:
+        content_root = repo_root / "content"
+        if not content_root.exists():
+            print(f"No content/ directory at {content_root}; nothing to validate.")
+            sys.exit(0)
+        units = sorted(content_root.rglob("*.md"))
     if not units:
-        print(f"No units found under {content_root}.")
+        print("No units found.")
         sys.exit(0)
 
     print(f"Validating {len(units)} units against docs/specs/QUALITY_RUBRIC.md …")
@@ -62,29 +69,29 @@ def main():
 
     for unit_path in units:
         rel = unit_path.relative_to(repo_root)
-        result = subprocess.run(
-            [sys.executable, str(validator), str(unit_path)],
-            capture_output=True,
-            text=True,
-        )
-        out = result.stdout
-
-        m = SUMMARY_RE.search(out)
-        if m:
-            passed, total = int(m.group(1)), int(m.group(2))
+        try:
+            report = validate(unit_path)
+            passed = sum(1 for check in report.checks if check.passed)
+            total = len(report.checks)
             grand_total_passed += passed
             grand_total_checks += total
-        else:
-            passed, total = 0, 0
+        except Exception as exc:
+            passed = 0
+            total = 0
+            print(f"  ✗ {rel}  ({passed}/{total})")
+            print(f"        exception: {exc}")
+            failures.append((unit_path, str(exc)))
+            continue
 
-        if result.returncode == 0:
+        if report.all_passed:
             print(f"  ✓ {rel}  ({passed}/{total})")
         else:
             print(f"  ✗ {rel}  ({passed}/{total})")
-            failed_lines = [ln for ln in out.splitlines() if "[✗]" in ln]
-            for ln in failed_lines[:6]:
-                print(f"        {ln.strip()}")
-            failures.append((unit_path, out))
+            for check in [c for c in report.checks if not c.passed][:6]:
+                print(f"        [✗] {check.name}")
+                if check.detail:
+                    print(f"            {check.detail.splitlines()[0]}")
+            failures.append((unit_path, ""))
 
     print()
     print(f"Overall: {grand_total_passed}/{grand_total_checks} checks passed across {len(units)} units")

@@ -77,11 +77,15 @@ def run(cmd: list[str], cwd: Path = ROOT, check: bool = True) -> subprocess.Comp
     return subprocess.run(cmd, cwd=cwd, check=check, capture_output=True, text=True)
 
 
+_PASS_RE = re.compile(r"\b(\d+)/(\d+) checks passed\b")
+
+
 def validate(path: Path) -> tuple[bool, str]:
     proc = run(["python3", "scripts/validate_unit.py", str(path.relative_to(ROOT))],
                check=False)
     out = proc.stdout + proc.stderr
-    return ("27/27 checks passed" in out), out
+    m = _PASS_RE.search(out)
+    return bool(m) and m.group(1) == m.group(2), out
 
 
 def ensure_catalog_stub(catalog_id: str, title: str) -> bool:
@@ -171,7 +175,8 @@ def main() -> int:
         print(out)
         print("VALIDATOR FAILED — fix the unit and re-run.")
         return 1
-    print("   27/27 ✓")
+    m = _PASS_RE.search(out)
+    print(f"   {m.group(1)}/{m.group(2)} ✓" if m else "   ✓")
 
     fm = parse_frontmatter(path)
     catalog_id = fm.get("concept_catalog_id", "")

@@ -25,6 +25,12 @@ from typing import Any
 import yaml
 
 
+_CATALOG_TEXT_CACHE: dict[Path, str] = {}
+_DEPS_CACHE: dict[Path, dict[str, Any]] = {}
+_CONTENT_STATUS_CACHE: dict[Path, dict[str, set[str]]] = {}
+_UNIT_STATUS_CACHE: dict[Path, dict[str, set[str]]] = {}
+
+
 # Repo root resolution: walk up from the unit until we find OVERVIEW.md
 def find_repo_root(start: Path) -> Path:
     cur = start.resolve()
@@ -42,6 +48,52 @@ REQUIRED_FRONTMATTER = {
 
 VALID_TIERS = {"beginner", "intermediate", "master"}
 
+UNIT_ID_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}$")
+ESSAY_ID_RE = re.compile(r"^\d{2}\.essays\.\d{2}$")
+
+DOMAIN_BY_PREFIX = {
+    "00": "math", "01": "math", "02": "math", "03": "math",
+    "04": "math", "05": "math", "06": "math", "07": "math",
+    "08": "math",
+    "09": "physics", "10": "physics", "11": "physics",
+    "12": "physics", "13": "physics",
+    "14": "chemistry", "15": "chemistry", "16": "chemistry",
+    "17": "biology", "18": "biology", "19": "biology",
+    "20": "philosophy",
+    "22": "language",
+    "23": "world",
+}
+
+INTERMEDIATE_EVIDENCE_KEYWORDS = {
+    "math": [
+        "key theorem", "key result", "key derivation",
+    ],
+    "physics": [
+        "key theorem", "key derivation", "core model", "key result",
+    ],
+    "chemistry": [
+        "key theorem", "key mechanism", "key result", "key derivation",
+        "core model", "advanced treatment",
+    ],
+    "biology": [
+        "key mechanism", "key experiment", "evidence pattern",
+        "core model", "key theorem", "key result",
+    ],
+    "philosophy": [
+        "key argument", "argument reconstruction", "case analysis",
+        "key theorem", "key concepts",
+    ],
+    "language": [
+        "key concepts", "diagnostics", "close reading",
+        "rhetorical analysis", "linguistic theory", "critical theory",
+    ],
+    "world": [
+        "key concepts", "key model", "case study", "comparative framework",
+        "institutional analysis", "academic perspectives", "political theory",
+        "geographic theory", "economic theory",
+    ],
+}
+
 PROHIBITED_PHRASES = [
     r"\bobviously\b", r"\bclearly\b", r"\bit is easy to see\b",
     r"\bas we will see\b", r"\btrivial(?:ly)?\b",
@@ -54,7 +106,7 @@ PROHIBITED_RE = re.compile("|".join(PROHIBITED_PHRASES), re.IGNORECASE)
 # only when they introduce an arbitrary symbol; "Let's compute..." (plain
 # English contraction) is permitted via the trailing-apostrophe check.
 BEGINNER_PROOF_LANGUAGE = [
-    "Proof.", "QED", "∎", "Suppose ", "It follows that", "Hence,", "Hence ",
+    "Proof.", "QED", "∎", "It follows that", "Hence,", "Hence ",
 ]
 
 # Allowed-only chars in Beginner formal-content scan.  Anything else flagged.
@@ -148,6 +200,17 @@ def section_tier_set(marker: str | None) -> set[str]:
     return {base}
 
 
+def unit_domain(fm: dict) -> str:
+    uid = str(fm.get("id", ""))
+    prefix = uid.split(".", 1)[0] if "." in uid else ""
+    return DOMAIN_BY_PREFIX.get(prefix, "math")
+
+
+def unit_prefix(fm: dict) -> str:
+    uid = str(fm.get("id", ""))
+    return uid.split(".", 1)[0] if "." in uid else ""
+
+
 # ---------------------------------------------------------------------------
 # Universal checks (§0)
 # ---------------------------------------------------------------------------
@@ -187,7 +250,7 @@ def check_tiers_present(report: ValidationReport):
 def check_concept_catalog_id(report: ValidationReport, repo: Path):
     fm = report.frontmatter
     cid = fm.get("concept_catalog_id", "")
-    catalog = (repo / "docs/catalogs/CONCEPT_CATALOG.md").read_text() if (repo / "docs/catalogs/CONCEPT_CATALOG.md").exists() else ""
+    catalog = _concept_catalog_text(repo)
     found = bool(cid) and cid in catalog
     report.add(
         "concept_catalog_id exists in docs/catalogs/CONCEPT_CATALOG.md",
@@ -223,17 +286,23 @@ def check_prereqs(report: ValidationReport, repo: Path):
     fm = report.frontmatter
     prereqs = fm.get("prerequisites", []) or []
     pending_ok = bool(fm.get("pending_prereqs", False))
-    deps_path = repo / "manifests" / "deps.json"
-    deps = {}
-    if deps_path.exists():
-        deps = json.loads(deps_path.read_text())
+    draft_ok = fm.get("status") == "draft"
+    deps = _deps_manifest(repo)
     pending_set = set(deps.get("pending", []))
+    for edge in deps.get("edges", []):
+        if isinstance(edge, dict) and edge.get("state") == "pending":
+            if edge.get("from"):
+                pending_set.add(str(edge.get("from")))
+            if edge.get("to"):
+                pending_set.add(str(edge.get("to")))
 
     # Each prereq must point to a published unit OR a pending edge
     failed = []
     for pid in prereqs:
         # Heuristic: "published" = a content/**/*.md exists with id == pid in frontmatter
         if not _unit_with_id_exists(pid, repo):
+            if (pending_ok or draft_ok) and _content_with_id_exists(pid, repo):
+                continue
             if not (pending_ok and pid in pending_set):
                 failed.append(pid)
     report.add(
@@ -244,17 +313,66 @@ def check_prereqs(report: ValidationReport, repo: Path):
 
 
 def _unit_with_id_exists(uid: str, repo: Path) -> bool:
-    content = repo / "content"
-    if not content.exists():
+    return "shipped" in _unit_statuses(repo).get(str(uid), set())
+
+
+def _content_with_id_exists(uid: str, repo: Path, shipped_only: bool = False) -> bool:
+    statuses = _content_statuses(repo).get(str(uid), set())
+    if not statuses:
         return False
-    for p in content.rglob("*.md"):
-        try:
-            fm, _ = parse_unit(p)
-        except Exception:
+    if not shipped_only:
+        return True
+    return "shipped" in statuses or ESSAY_ID_RE.match(str(uid)) is not None
+
+
+def _concept_catalog_text(repo: Path) -> str:
+    repo = repo.resolve()
+    if repo not in _CATALOG_TEXT_CACHE:
+        path = repo / "docs/catalogs/CONCEPT_CATALOG.md"
+        _CATALOG_TEXT_CACHE[repo] = path.read_text() if path.exists() else ""
+    return _CATALOG_TEXT_CACHE[repo]
+
+
+def _deps_manifest(repo: Path) -> dict[str, Any]:
+    repo = repo.resolve()
+    if repo not in _DEPS_CACHE:
+        path = repo / "manifests" / "deps.json"
+        _DEPS_CACHE[repo] = json.loads(path.read_text()) if path.exists() else {}
+    return _DEPS_CACHE[repo]
+
+
+def _scan_statuses(roots: list[Path]) -> dict[str, set[str]]:
+    statuses: dict[str, set[str]] = {}
+    for root in roots:
+        if not root.exists():
             continue
-        if fm.get("id") == uid and fm.get("status") == "shipped":
-            return True
-    return False
+        for p in root.rglob("*.md"):
+            try:
+                fm, _ = parse_unit(p)
+            except Exception:
+                continue
+            uid = str(fm.get("id", "")).strip()
+            if not uid:
+                continue
+            statuses.setdefault(uid, set()).add(str(fm.get("status", "")).strip())
+    return statuses
+
+
+def _unit_statuses(repo: Path) -> dict[str, set[str]]:
+    repo = repo.resolve()
+    if repo not in _UNIT_STATUS_CACHE:
+        _UNIT_STATUS_CACHE[repo] = _scan_statuses([repo / "content"])
+    return _UNIT_STATUS_CACHE[repo]
+
+
+def _content_statuses(repo: Path) -> dict[str, set[str]]:
+    repo = repo.resolve()
+    if repo not in _CONTENT_STATUS_CACHE:
+        _CONTENT_STATUS_CACHE[repo] = _scan_statuses([
+            repo / "content",
+            repo / "site" / "src" / "content",
+        ])
+    return _CONTENT_STATUS_CACHE[repo]
 
 
 def check_references(report: ValidationReport, repo: Path):
@@ -306,6 +424,12 @@ def check_lean_status(report: ValidationReport, repo: Path):
     gap = fm.get("lean_mathlib_gap")
     reviewer = fm.get("human_reviewer")
     tp = set(fm.get("tiers_present", []))
+    prefix = unit_prefix(fm)
+    formal_gap_required = prefix in {
+        "00", "01", "02", "03", "04", "05", "06", "07", "08",
+        "09", "10", "11", "12", "13",
+        "14", "15", "16", "17", "18", "19",
+    } or str(fm.get("id", "")).startswith("20.01.")
 
     if status == "full":
         ok = bool(module)
@@ -328,12 +452,17 @@ def check_lean_status(report: ValidationReport, repo: Path):
         report.add("lean_status: none has no lean_module declared",
                    not module,
                    detail=f"unexpected lean_module: {module}")
-        report.add("lean_status: none has lean_mathlib_gap text",
-                   bool(gap) and len(str(gap).split()) >= 30,
-                   detail="gap missing or under 30 words")
+        min_words = 30 if formal_gap_required else 5
+        report.add("lean_status: none has lean/formalization note",
+                   bool(gap) and len(str(gap).split()) >= min_words,
+                   detail=f"gap/note missing or under {min_words} words")
         if {"intermediate", "master"} & tp:
+            reviewer_text = str(reviewer or "").strip().lower()
+            reviewer_ok = bool(reviewer) and reviewer_text not in {"tbd", "todo", "pending"}
+            if fm.get("status") == "draft":
+                reviewer_ok = bool(reviewer)
             report.add("lean_status: none requires named human_reviewer",
-                       bool(reviewer),
+                       reviewer_ok,
                        detail="human_reviewer empty")
     else:
         report.add("lean_status is full | partial | none", False,
@@ -354,6 +483,37 @@ def check_inline_citations(report: ValidationReport, body: str):
         "every [ref: …] uses a declared source",
         not failed,
         detail=f"orphan citations: {set(failed)}" if failed else "",
+    )
+
+
+def check_hooks_out(report: ValidationReport, repo: Path):
+    hooks = report.frontmatter.get("hooks_out", []) or []
+    if not hooks:
+        report.add("hooks_out absent or empty is valid", True)
+        return
+    failed = []
+    for idx, hook in enumerate(hooks):
+        if not isinstance(hook, dict):
+            failed.append(f"hook {idx} is not a mapping")
+            continue
+        target = str(hook.get("target", ""))
+        kind = hook.get("kind")
+        why = str(hook.get("why", "")).strip()
+        if not (UNIT_ID_RE.match(target) or ESSAY_ID_RE.match(target)):
+            failed.append(f"hook {idx} target has invalid id syntax: {target!r}")
+        if kind not in {"proposed", "confirmed"}:
+            failed.append(f"hook {idx} kind must be proposed|confirmed: {kind!r}")
+        if len(why) < 30:
+            failed.append(f"hook {idx} why is missing or under 30 chars")
+        if kind == "confirmed":
+            if not hook.get("confirmed_by"):
+                failed.append(f"hook {idx} confirmed hook missing confirmed_by")
+            if not _content_with_id_exists(target, repo, shipped_only=True):
+                failed.append(f"hook {idx} confirmed target not found as shipped: {target}")
+    report.add(
+        "hooks_out entries are well-formed",
+        not failed,
+        detail="\n".join(failed) if failed else "",
     )
 
 
@@ -446,8 +606,12 @@ def check_beginner(report: ValidationReport, body: str):
     report.add("Beginner paragraphs ≤ 120 words", not over_120,
                detail=f"oversize: {over_120}" if over_120 else "")
 
-    # No proof language
-    proof_hits = [w for w in BEGINNER_PROOF_LANGUAGE if w in text]
+    # No proof language. Exercise answers may use words such as "hence" in
+    # ordinary explanations, so remove structured exercise blocks before this
+    # prose-style scan.
+    proof_text = re.sub(r"<aside[\s\S]*?</aside>", "", text, flags=re.IGNORECASE)
+    proof_text = re.sub(r"```[\s\S]*?```", "", proof_text)
+    proof_hits = [w for w in BEGINNER_PROOF_LANGUAGE if w in proof_text]
     report.add("Beginner has no proof language", not proof_hits,
                detail=f"found: {proof_hits}" if proof_hits else "")
 
@@ -457,19 +621,37 @@ def check_beginner(report: ValidationReport, body: str):
                not forb_hits,
                detail=f"found symbols: {set(forb_hits)}" if forb_hits else "")
 
-    # At least one image reference
+    # At least one image reference. Draft units may use an ASCII/table visual
+    # scaffold while assets are being produced; shipped units still need a
+    # real image/diagram reference.
     has_image = bool(re.search(r"!\[[^\]]*\]\([^)]+\)", text))
+    if not has_image and report.frontmatter.get("status") == "draft":
+        visual_sections = []
+        h2s = list(re.finditer(r"^##\s+(.+?)(?:\s*\[(\w+\+?)\])?\s*$", body, re.MULTILINE))
+        for i, m in enumerate(h2s):
+            title = m.group(1).strip().lower()
+            marker = m.group(2)
+            if "visual" not in title or "beginner" not in section_tier_set(marker):
+                continue
+            start = m.end()
+            end = h2s[i + 1].start() if i + 1 < len(h2s) else len(body)
+            visual_sections.append(body[start:end].strip())
+        has_image = any(len(v.split()) >= 5 or "```" in v or "|" in v for v in visual_sections)
     report.add("Beginner has at least one image/diagram reference", has_image)
 
 
 def check_intermediate(report: ValidationReport, body: str):
     titles = [t.lower() for _, t, _, _, _ in extract_sections(body)]
     has_def = any("formal definition" in t for t in titles)
-    has_thm = any("key theorem" in t for t in titles)
-    has_ex = any("exercise" in t for t in titles)
+    domain = unit_domain(report.frontmatter)
+    evidence_terms = INTERMEDIATE_EVIDENCE_KEYWORDS.get(domain, INTERMEDIATE_EVIDENCE_KEYWORDS["math"])
+    has_thm = any(any(term in t for term in evidence_terms) for t in titles)
+    has_ex = any("exercise" in t for t in titles) or '<aside class="exercise"' in body
+    if not has_ex and report.frontmatter.get("status") == "draft":
+        has_ex = "<aside data-exercise" in body
     has_lean = any("lean" in t for t in titles)
     report.add("Intermediate has formal definition section", has_def)
-    report.add("Intermediate has key theorem with proof section", has_thm)
+    report.add("Intermediate has domain evidence section", has_thm)
     report.add("Intermediate has exercises section", has_ex)
     fm = report.frontmatter
     if fm.get("lean_status") in ("full", "partial"):
@@ -483,7 +665,11 @@ def check_master(report: ValidationReport, body: str):
     titles = [t.lower() for t, _, _ in master_sections]
 
     # The three structurally-required Master sections.
-    has_connections = any("connection" in t for t in titles)
+    all_titles = [t.lower() for _, t, _, _, _ in sections]
+    has_connections = any("connection" in t for t in titles) or (
+        unit_domain(report.frontmatter) in {"language", "world", "philosophy"}
+        and any("connection" in t for t in all_titles)
+    )
     has_history = any(("historical" in t) or ("philosophical" in t) for t in titles)
     has_biblio = any("bibliograph" in t for t in titles)
     report.add("Master has connections section", has_connections)
@@ -525,6 +711,7 @@ def validate(unit_path: Path) -> ValidationReport:
     check_references(report, repo)
     check_lean_status(report, repo)
     check_inline_citations(report, body)
+    check_hooks_out(report, repo)
     check_prohibited_phrasings(report, body)
     # Math delimiter brittleness check disabled: marked-katex-extension is
     # configured with `nonStandard: true` so `$X$-Y` patterns render

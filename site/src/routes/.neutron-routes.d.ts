@@ -11,6 +11,8 @@ declare module "@neutron-build/core" {
     | "/concepts"
     | "/connections"
     | "/dag"
+    | "/language"
+    | `/language/${string}`
     | "/lean"
     | "/math"
     | "/philosophy"
@@ -25,6 +27,8 @@ declare module "@neutron-build/core" {
     | `/specs/${string}`
     | `/u/${string}`
     | "/units"
+    | "/world"
+    | `/world/${string}`
   }
 }
 

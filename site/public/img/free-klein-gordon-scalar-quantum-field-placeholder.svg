@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Free Klein-Gordon scalar quantum field</title>
+  <desc id="desc">A schematic placeholder showing the positive mass shell in momentum space together with creation and annihilation operators acting on the bosonic Fock vacuum.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g fill="none" stroke="#1f6f8b" stroke-width="3">
+    <path d="M120 280 L120 60"/>
+    <path d="M60 250 L600 250"/>
+  </g>
+  <g fill="none" stroke="#f2b134" stroke-width="4">
+    <path d="M120 150 Q360 60 600 150"/>
+    <path d="M120 150 Q360 240 600 150"/>
+  </g>
+  <g fill="#1f6f8b">
+    <circle cx="200" cy="180" r="7"/>
+    <circle cx="320" cy="130" r="7"/>
+    <circle cx="440" cy="160" r="7"/>
+    <circle cx="520" cy="200" r="7"/>
+  </g>
+  <text x="105" y="55" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">p0</text>
+  <text x="605" y="270" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">p</text>
+  <text x="610" y="155" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">Xm</text>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Mass shell + Fock-space mode operators</text>
+</svg>

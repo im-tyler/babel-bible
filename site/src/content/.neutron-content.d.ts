@@ -5,5 +5,7 @@ declare module "neutron/content" {
     "biology": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
     "chemistry": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
     "philosophy": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
+    "language": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
+    "world": { "id": string; "title": string; "slug": string; "order": number; "subtitle"?: string; "applies_to": number[]; };
   }
 }

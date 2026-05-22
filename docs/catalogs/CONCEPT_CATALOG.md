@@ -2459,6 +2459,39 @@ Before adding a concept to the catalog:
   - beginner: Zee QFT in a Nutshell Ch. I; Tong informal sections
 - **notes**: The interaction Hamiltonian of φ⁴ theory generates a time-ordered exponential whose perturbative expansion is the Dyson series. Central theorem: Wick's theorem reduces the vacuum expectation of a time-ordered product of free fields to a sum over pairings of Feynman propagators. First non-trivial application: tree-level 2→2 scattering amplitude $\mathcal{M} = -i\lambda$. One-loop bubble diagram exhibits the logarithmic UV divergence cured by coupling renormalisation, yielding the one-loop beta function $\beta(\lambda) = 3\lambda^2/(16\pi^2)$. Stat-side framing: the Dyson expansion is the perturbative series of the Euclidean path-integral generating functional around the Gaussian free-field measure; the Wick-rotated theory is the field-theoretic continuum limit of the critical Ising model in the Wilsonian sense. Triviality in $d=4$ (Aizenman-Duminil-Copin 2021) is the modern closure of the four-dimensional φ⁴ chapter.
 
+### stat-mech.wick-theorem-operator-products
+
+- **title**: Wick's theorem for operator products
+- **unit**: `08.10.04`
+- **prerequisites**: `stat-mech.gaussian-field`, `stat-mech.path-integral`, `stat-mech.bosonic-fock-space-second-quantisation`
+- **tier_anchors**:
+  - master: Glimm-Jaffe Chs. 6-8; Streater-Wightman Ch. 2; Simon P(φ)₂ Chs. I-II
+  - intermediate: Wick 1950; Chatterjee Lecture 17; Folland Tourist Guide Ch. 6
+  - beginner: Chatterjee Lecture 17 motivation; Peskin-Schroeder §4.2 diagrammatic motivation
+- **notes**: Wick's theorem rewrites products of bosonic free-field operators as normal-ordered products plus all possible collections of pairwise contractions. Taking the vacuum expectation keeps only complete pairings, giving the Gaussian moment formula and the propagator products behind Feynman diagrams. Stat-mech-side framing: the theorem identifies the operator-side Fock calculation with the Euclidean Gaussian path-integral moment calculation, then provides the local bookkeeping used by the Dyson expansion, φ⁴ perturbation theory, and constructive definitions of Wick powers.
+
+### stat-mech.feynman-propagator-contour-integral
+
+- **title**: Feynman propagator and the contour-integral representation
+- **unit**: `08.10.05`
+- **prerequisites**: `complex-analysis.residue-theorem`, `stat-mech.path-integral`, `stat-mech.wick-rotation`, `stat-mech.wick-theorem-operator-products`
+- **tier_anchors**:
+  - master: Stueckelberg *Helv. Phys. Acta* 14 (1941); Feynman *Phys. Rev.* 76 (1949); Streater-Wightman Ch. 3; Glimm-Jaffe Ch. 6
+  - intermediate: Chatterjee Lecture 19; Peskin-Schroeder §2.4 and §4.2; Folland Tourist Guide Chs. 3, 6
+  - beginner: Chatterjee Lecture 19 motivation; Zee QFT in a Nutshell early propagator discussion
+- **notes**: The Feynman propagator is the time-ordered two-point distribution of the free scalar field. The contour-integral representation moves the positive-energy pole below the real energy axis and the negative-energy pole above it, so residue calculus encodes the same time-ordering rule as the operator definition. Stat-mech-side framing: Wick contractions in the Lorentzian operator theory become propagator lines in the Dyson expansion, while Wick rotation converts the same denominator into the Euclidean Gaussian covariance used by path-integral statistical mechanics.
+
+### stat-mech.one-loop-renormalisation-phi-4
+
+- **title**: One-loop renormalisation in φ⁴
+- **unit**: `08.10.06`
+- **prerequisites**: `stat-mech.beta-function`, `stat-mech.phi-4-dyson-series`, `stat-mech.feynman-propagator-contour-integral`
+- **tier_anchors**:
+  - master: Bogoliubov-Parasiuk 1957; Hepp 1966; Zimmermann 1969; Wilson 1971; Weinberg Vol. I Ch. 12
+  - intermediate: Chatterjee Lectures 20-21; Peskin-Schroeder Ch. 10; Folland Tourist Guide Ch. 6
+  - beginner: Chatterjee Lectures 20-21 toy subtraction example; Zee renormalisation motivation
+- **notes**: The one-loop bubble in four-dimensional φ⁴ theory has logarithmic cutoff growth, but subtracting a reference amplitude produces a finite difference. This is the one-loop momentum-subtraction form of renormalisation: one measured coupling fixes the convention, and the remaining scale dependence is predicted by the finite subtracted loop integral. Stat-mech-side framing: the same subtraction logic supports Wilsonian scale flow, beta functions, and universality near critical points.
+
 ## v0.5 Strand C supporting complex analysis
 
 ### complex-analysis.meromorphic-function
@@ -3848,6 +3881,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
+### statistical-mechanics.souriau-gibbs-state-physics
+
+- **title**: Souriau Gibbs state on a symplectic G-space (physics-side)
+- **unit**: `11.04.02`
+- **prerequisites**: `statistical-mechanics.canonical-ensemble`, `symplectic-geometry.moment-map`, `lie-theory.lie-group`
+- **tier_anchors**:
+  - master: Souriau, *Structure des Systèmes Dynamiques* (Dunod, 1970), Ch. IV §16; Marle, *On Henri Poincaré's note 'Sur une forme nouvelle des équations de la mécanique'* (2014); Barbaresco, *Lie Group Statistics and Lie Group Machine Learning* (Entropy 2020)
+  - intermediate: Marsden & Ratiu, *Introduction to Mechanics and Symmetry* (Springer 1999) §12.7; Guillemin & Sternberg, *Symplectic Techniques in Physics* (CUP 1984) §4
+  - beginner: Souriau 1970 Ch. IV opening; informal canonical-ensemble analogy after Schroeder *Thermal Physics* Ch. 6
+- **notes**: Physics-flavoured companion to the symplectic-side unit `05.03.02`. Develops $\rho_\beta = e^{-\langle\beta,\mu\rangle}/Z(\beta)$ as the statistical-mechanics generalisation of the canonical ensemble where the inverse-temperature scalar is replaced by a Lie-algebra element. Worked examples emphasise recovery of the Maxwell-Boltzmann ensemble for $G = \mathbb{R}_t$ (time translation) and the relativistic Jüttner distribution for $G = $ Poincaré group. Master section covers the convex-analytic Legendre duality between $Z(\beta)$ and the entropy, the Souriau-Noether theorem in its thermodynamic form, and the Fisher-information / information-geometric reading of the second log-derivative.
+
+
 ### quantum-mechanics.wave-particle-duality
 
 - **title**: Wave-particle duality and the double-slit
@@ -4023,6 +4068,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Griffiths, Introduction to Elementary Particles, 2e (2008), Ch. 7
   - beginner: Feynman, QED: The Strange Theory of Light and Matter (1985)
 - **notes**: (to be filled during production)
+
+
+### quantum-mechanics.crossing-symmetry-cpt-theorem
+
+- **title**: Crossing symmetry; CPT theorem at the $S$-matrix level
+- **unit**: `12.06.04`
+- **prerequisites**: `quantum-mechanics.scattering-theory`, `quantum-mechanics.dirac-equation-relativistic-spin`, `quantum-mechanics.canonical-qft`, `quantum-mechanics.bosonic-fock-space-second-quantisation`, `quantum-mechanics.fermionic-fock-space-pauli-anticommutators`
+- **tier_anchors**:
+  - master: Weinberg, The Quantum Theory of Fields, Vol. 1 (Cambridge 1995), §3.8 (crossing), §5.8 (CPT theorem); Streater & Wightman, PCT, Spin and Statistics, and All That (Benjamin 1964; Princeton Landmarks reprint 2000), §4.3; Bogolubov, Logunov, Oksak & Todorov, General Principles of Quantum Field Theory (Kluwer 1990), Ch. 9-10
+  - intermediate: Peskin & Schroeder, An Introduction to Quantum Field Theory (Westview 1995), §3.6 (discrete symmetries), §5.5 (crossing); Srednicki, Quantum Field Theory (Cambridge 2007), Ch. 23
+  - beginner: Feynman, QED: The Strange Theory of Light and Matter (1985), Ch. 3 (antiparticle = particle going backward in time); Griffiths, Introduction to Elementary Particles, 2e (2008), §4.3 (crossing diagrams)
+- **notes**: Crossing symmetry is the analytic-continuation rule that the invariant amplitude for $A + B \to C + D$ and the amplitude for $A + \bar{C} \to \bar{B} + D$ are values of one holomorphic function on the complexified Mandelstam plane, evaluated in distinct real physical regions. The CPT theorem asserts that every unitary local Lorentz-invariant quantum field theory admits an anti-unitary symmetry $\Theta$ commuting with the Hamiltonian and conjugating the $S$-matrix as $\Theta S \Theta^{-1} = S^\dagger$. Two complementary proofs: (i) constructive Lüders-Pauli 1954-55 (Lüders, Det Kong. Danske Vid. Selsk. 28(5) 1954; Pauli, in *Niels Bohr and the Development of Physics* 1955; Bell, Proc. Roy. Soc. A 231, 479 1955) using Weinberg's free-field construction from unitary Poincaré representations; (ii) axiomatic Jost 1957 (Jost, Helv. Phys. Acta 30, 409) using analytic continuation of Wightman functions to the Bargmann-Hall-Wightman extended tube and the Jost-point characterisation of spacelike-cone configurations. The rigorous crossing proof for two-to-two amplitudes is due to Bros, Epstein, Glaser 1965 (Commun. Math. Phys. 1, 240) via holomorphy of Wightman functions. Greenberg 2002 (Phys. Rev. Lett. 89, 231602) shows CPT violation in a unitary theory forces Lorentz violation, tying CPT searches to Lorentz-violation searches in the Kostelecky Standard Model Extension framework. Spin-statistics is the partner theorem (both follow from the same Bargmann-Hall-Wightman machinery, with the $(-1)^{2j}$ phase appearing identically in both proofs). Experimental consequences: equal mass for particle-antiparticle pairs, equal total lifetimes, the Pomeranchuk theorem on high-energy cross-section equality for crossed channels, the dispersion-relation programme of the 1960s, the maximal-analyticity Mandelstam representation conjecture, and the eventual Veneziano-Virasoro dual-resonance models that grew into string theory.
+
+
+### quantum-mechanics.free-klein-gordon-scalar-quantum-field
+
+- **title**: Free Klein-Gordon scalar quantum field
+- **unit**: `12.05.04`
+- **prerequisites**: `quantum-mechanics.bosonic-fock-space-second-quantisation`, `quantum-mechanics.quantum-harmonic-oscillator`, `quantum-mechanics.dirac-equation-relativistic-spin`
+- **tier_anchors**:
+  - master: Weinberg, The Quantum Theory of Fields, Vol. 1 (Cambridge 1995), Ch. 5.2; Streater & Wightman, PCT, Spin and Statistics, and All That (Benjamin 1964); Reed & Simon, Methods of Modern Mathematical Physics Vol. II, X.7; Folland, Quantum Field Theory: A Tourist Guide for Mathematicians (AMS 2008), Ch. 5
+  - intermediate: Peskin & Schroeder, An Introduction to Quantum Field Theory (Westview 1995), Ch. 2; Tong, QFT lecture notes, §2; Srednicki, Quantum Field Theory (Cambridge 2007), Ch. 3
+  - beginner: Zee, Quantum Field Theory in a Nutshell, 2e (Princeton 2010), Ch. I.3-I.7; Lancaster & Blundell, Quantum Field Theory for the Gifted Amateur (Oxford 2014), Ch. 4-7
+- **notes**: The free Klein-Gordon scalar quantum field is the operator-valued tempered distribution on Minkowski space built as a mode expansion over the Lorentz-invariant measure on the positive mass shell, with creation and annihilation operators on the bosonic Fock space of the one-particle space $L^2(X_m, d\mu_m)$. Three equivalent constructions: (i) Weinberg-style derivation from a unitary irreducible Poincaré representation on the mass-$m$ scalar orbit by direct assembly of Lorentz-covariant local operators (WQTFV1 §5.2); (ii) canonical quantization of the classical Klein-Gordon Lagrangian with equal-time commutators (Peskin-Schroeder Ch. 2); (iii) the Wightman-axiom realization as the unique covariant tempered distribution with prescribed two-point function and vanishing odd $n$-point functions on the cyclic vacuum (Streater-Wightman Ch. 3). Central theorems: microcausality (commutators vanish at spacelike separation), Reeh-Schlieder cyclicity of the vacuum for local algebras, Lorentz covariance under the unitary Poincaré representation, the Feynman propagator as the Green's function of the Klein-Gordon operator with $i\epsilon$ prescription, and the spectrum condition (energy-momentum spectrum in the closed forward light cone). The free Klein-Gordon field is the simplest nontrivial relativistic QFT and the prototype for every higher-spin / charged-field construction; it is the $j = 0$ case of Weinberg's general field-construction theorem and the operator-valued image of Cook's 1953 Fock-space second quantization functor applied to the Wightman-Garding one-particle space. Originator citations: Klein 1926 (Z. Phys. 37, 895), Gordon 1926 (Z. Phys. 40, 117), Fock 1926 (Z. Phys. 39, 226) for the classical wave equation; Pauli & Weisskopf 1934 (Helv. Phys. Acta 7, 709) for the charged-scalar second quantization and the Fock-space resolution of the negative-probability problem; Wightman 1956 (Phys. Rev. 101, 860) for the axiomatic / distributional foundation.
+
+
+### quantum-mechanics.free-dirac-quantum-field
+
+- **title**: Free Dirac spin-1/2 quantum field
+- **unit**: `12.05.05`
+- **prerequisites**: `spin-geometry.clifford.clifford-algebra`, `electromagnetism.special-relativity-lorentz`, `quantum-mechanics.angular-momentum-su2`, `quantum-mechanics.dirac-equation-relativistic-spin`, `quantum-mechanics.fermionic-fock-space-pauli-anticommutators`
+- **tier_anchors**:
+  - master: Weinberg, S., *The Quantum Theory of Fields*, Vol. I (Cambridge, 1995), §5.5–§5.7 (causal Dirac field as a Lorentz-covariant operator-valued distribution); Streater, R. F. & Wightman, A. S., *PCT, Spin and Statistics, and All That* (Benjamin, 1964; Princeton Landmarks reprint, 2000), Ch. 4 (spin-statistics theorem); Glimm, J. & Jaffe, A., *Quantum Physics: A Functional Integral Point of View*, 2e (Springer, 1987), Ch. 6 (free Dirac field on fermionic Fock space)
+  - intermediate: Peskin, M. E. & Schroeder, D. V., *An Introduction to Quantum Field Theory* (Westview, 1995), Ch. 3 §3.5 (quantisation of the Dirac field, CAR, mode expansion, antiparticle interpretation); Srednicki, M., *Quantum Field Theory* (Cambridge, 2007), Chs. 36–43 (Dirac field, $u, v$ spinors); Tong, D., *Quantum Field Theory*, DAMTP Cambridge lecture notes, §5 (Quantising the Dirac field)
+  - beginner: Zee, A., *Quantum Field Theory in a Nutshell*, 2e (Princeton, 2010), Ch. II.1 (The Dirac field, sketch); Aitchison, I. J. R. & Hey, A. J. G., *Gauge Theories in Particle Physics*, 4e (CRC, 2013), Vol. I Ch. 7 (Dirac quanta and antiparticles, physics-style)
+- **notes**: The free Dirac spin-1/2 quantum field is the operator-valued tempered distribution on Minkowski space built as a mode expansion $\psi(x) = \sum_s \int d^3\mathbf{p}/(2\pi)^3 (2 E_{\mathbf{p}})^{-1/2} (a^s_{\mathbf{p}} u^s(p) e^{-ip\cdot x} + b^{s\dagger}_{\mathbf{p}} v^s(p) e^{+ip\cdot x})$ on the antisymmetric Fock space of a one-particle Hilbert space carrying two spin labels and two charges (electron and positron). The mode operators satisfy the canonical anticommutation relations (CAR) $\{a^s_{\mathbf{p}}, a^{r\dagger}_{\mathbf{q}}\} = (2\pi)^3 \delta^{(3)}(\mathbf{p}-\mathbf{q})\delta^{sr}$ and similarly for $b$. Central theorems: microcausality $\{\psi(x), \bar\psi(y)\} = 0$ at spacelike separation, forced by the Lorentz-invariance of the Pauli-Jordan function and its spacelike vanishing; spin-statistics (Pauli 1940; Streater-Wightman 1964) showing that CAR rather than CCR is necessary for any half-integer-spin Lorentz-covariant local field with positive-definite energy; positivity of the normal-ordered Hamiltonian $H = \sum_s \int (\ldots) E_{\mathbf{p}}(a^{s\dagger}_{\mathbf{p}} a^s_{\mathbf{p}} + b^{s\dagger}_{\mathbf{p}} b^s_{\mathbf{p}})$; the Feynman propagator $S_F(x-y) = \int d^4p/(2\pi)^4 i(\gamma^\mu p_\mu + m)/(p^2 - m^2 + i\epsilon) e^{-ip\cdot(x-y)}$ as the Green's function of the Dirac operator with the time-ordering $i\epsilon$ prescription; Wick's theorem and the LSZ reduction formula for spin-1/2. Three complementary constructions: (i) Weinberg-style derivation from the unitary $(j, 0) \oplus (0, j)$ irreducible Lorentz representation on the mass-$m$ orbit (WQTFV1 §5.5); (ii) canonical quantisation of the Dirac Lagrangian $\mathcal{L} = \bar\psi(i\gamma^\mu\partial_\mu - m)\psi$ with equal-time anticommutators (Peskin-Schroeder Ch. 3); (iii) Wightman reconstruction from the spin-1/2 two-point function (Glimm-Jaffe Ch. 6). The free Dirac field is the $j = 1/2$ case of Weinberg's general field-construction theorem and the operator-valued image of fermionic second quantisation. Originator citations: Dirac 1927 (Proc. Roy. Soc. A 114, 243) for the first quantum field; Jordan-Wigner 1928 (Z. Phys. 47, 631) for fermionic anticommutation; Heisenberg-Pauli 1929-30 (Z. Phys. 56, 1; 59, 168) for the covariant Lagrangian quantisation; Anderson 1933 (Phys. Rev. 43, 491) for the experimental confirmation of antiparticles; Fierz 1939 (Helv. Phys. Acta 12, 3) and Pauli 1940 (Phys. Rev. 58, 716) for the spin-statistics theorem; Wightman 1956 (Phys. Rev. 101, 860) and Streater-Wightman 1964 for the axiomatic / distributional foundation.
 
 
 ### general-relativity.equivalence-principle
@@ -5920,6 +6001,18 @@ These entries register live draft units so the validator can distinguish "unknow
 - `literature.allusion` - Allusion (`22.03.13`)
 - `literature.personification` - Personification (`22.03.14`)
 - `literature.hyperbole-understatement` - Hyperbole and Understatement (`22.03.15`)
+- `literature.nineteen-eighty-four-orwell` - Reading guide: Nineteen Eighty-Four (Orwell) (`22.04.04`)
+- `literature.old-man-and-the-sea-hemingway` - Reading guide: The Old Man and the Sea (Hemingway) (`22.04.03`)
+
+### literature.old-man-and-the-sea-hemingway
+
+- **title**: Reading guide: The Old Man and the Sea (Hemingway)
+- **prerequisites**: `literature.literal-figurative-language`, `literature.theme`
+- **tier_anchors**:
+  - beginner: "Hemingway, The Old Man and the Sea; SparkNotes"
+  - intermediate: "Hemingway novella + Baker, Hemingway: The Writer as Artist"
+  - master: "primary criticism: Waldhorn 1972, Young 1973, Brenner 1991, Bickford Sylvester 1992"
+- **notes**: Reading guide for Ernest Hemingway's 1952 novella. Covers plot, character analysis (Santiago, Manolin, the marlin, the sharks), themes (perseverance, pride and humility, man vs nature, defeat and redemption, friendship, luck and fate), symbolism (the marlin, the sharks, the lions on the beach, crucifixion imagery, Joe DiMaggio), Hemingway's iceberg theory and minimalist style, narrative voice, historical context (post-WWII, career decline and comeback), and critical reception (Pulitzer, Nobel). No Lean formalisation; human-review-only at I/M tier.
 
 ### World
 
@@ -6024,3 +6117,25 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Popper, Logic of Scientific Discovery; Kuhn, Structure of Scientific Revolutions"
   - master: "primary sources: Popper 1935, Kuhn 1962, Lakatos 1970, Feyerabend 1975, van Fraassen 1980"
 - **notes**: The demarcation problem (what counts as science), logical positivism and its collapse, Popper's falsificationism and the asymmetry between verification and falsification, conventionalist stratagems, Kuhn's paradigms and scientific revolutions (normal science, anomaly, crisis, incommensurability), Lakatos's research programmes (hard core, protective belt, progressive vs degenerating problemshifts), Feyerabend's epistemological anarchism, the Duhem-Quine thesis (holism about confirmation), underdetermination (transient and permanent), scientific realism vs anti-realism (instrumentalism, constructive empiricism, structural realism, entity realism, selective realism), and values in science (the value-free ideal, inductive risk, feminist epistemology, situated knowledges, social objectivity). No Lean formalisation; human-review-only at I/M tier.
+
+### literature.catcher-in-the-rye-salinger
+
+- **title**: Reading guide: The Catcher in the Rye (Salinger)
+- **prerequisites**: `literature.literal-figurative-language`, `literature.point-of-view`, `literature.unreliable-narration`
+- **tier_anchors**:
+  - beginner: "Salinger, The Catcher in the Rye; SparkNotes"
+  - intermediate: "Salinger novel + Bloom, Holden Caulfield (Chelsea House)"
+  - master: "primary criticism: Trilling 1950, Bewley 1963, Costello 1959, Bryan 1974"
+- **notes**: Reading guide for J.D. Salinger's The Catcher in the Rye (1951). Beginner tier: plot walkthrough, character introductions (Holden, Phoebe, Allie, Mr. Antolini, Stradlater, Ackley, Jane Gallagher, Sally Hayes), main themes (alienation, phoniness, innocence vs experience, grief, coming of age). Intermediate tier: close reading and formal analysis, narrative voice (repetition, qualification, digression, second-person address), unreliable narration applied to Holden, register and diction analysis, two exercises. Master tier: deep symbolism (catcher metaphor, museum, carousel, red hunting hat), literary criticism (Trilling, Costello, Bewley, Bryan, feminist and queer readings), historical context (postwar America, 1950s conformity, Cold War, censorship, Salinger biography), Bildungsroman tradition. No Lean formalisation.
+
+### quantum-mechanics.free-maxwell-massive-vector-fields-photon-and-proca
+
+- **title**: Free Maxwell / massive vector fields; photon and Proca
+- **unit**: `12.05.06`
+- **prerequisites**: `quantum-mechanics.angular-momentum-su2`, `quantum-mechanics.bosonic-fock-space-second-quantisation`, `quantum-mechanics.fermionic-fock-space-pauli-anticommutators`, `electromagnetism.maxwell-equations-differential-form`
+- **tier_anchors**:
+  - master: Weinberg, S., *The Quantum Theory of Fields, Vol. 1* (Cambridge, 1995), §5.3 and §5.9; Itzykson & Zuber, *Quantum Field Theory* (McGraw-Hill, 1980), Ch. 3; Woit, P., *Quantum Theory, Groups and Representations* (Springer, 2017), Ch. 46; Stueckelberg 1938 *Helv. Phys. Acta* 11, 225; Proca 1936 *J. Phys. Radium* 7, 347
+  - intermediate: Peskin & Schroeder, *An Introduction to Quantum Field Theory* (Addison-Wesley, 1995), §4.8 and §5.1; Srednicki, *Quantum Field Theory* (Cambridge, 2007), Ch. 54-57
+  - beginner: Feynman, *Lectures on Physics*, Vol. III, Ch. 17-18; Griffiths, *Introduction to Elementary Particles*, 2e (2008), Ch. 8 §1
+- **notes**: Free quantum field theory of the photon (massless spin-1) and the Proca field (massive spin-1). Polarisation count from Wigner's little group ($ISO(2)$ for massless gives 2 helicities; $SO(3)$ for massive gives 3 polarisations). Gauge invariance for the photon as a kinematic consequence of Lorentz covariance plus the massless little group. Lorenz, Coulomb, and axial gauges; Gupta-Bleuler indefinite-metric quantisation; $R_\xi$-gauge propagator. Proca Lagrangian, mode expansion, propagator $-i(\eta_{\mu\nu} - k_\mu k_\nu/m^2)/(k^2 - m^2 + i\varepsilon)$ with its singular massless limit. Stueckelberg trick (1938) restoring U(1) gauge invariance via an auxiliary scalar, smooth $m \to 0$ limit, prefiguring the Higgs mechanism. Faddeev-Popov determinant for abelian gauge theory (field-independent, no ghost contribution). Dirac constraint analysis: $A_0$ as Lagrange multiplier, Gauss's law as first-class constraint generating residual gauge transformations. Originator chain: Dirac 1927, Proca 1936, Stueckelberg 1938, Wigner 1939, Gupta-Bleuler 1950, Faddeev-Popov 1967, Weinberg 1995.
+
