@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-22T21:26:32.907587+00:00_
+_Generated: 2026-05-22T21:50:41.211325+00:00_
 
 ## Burn-down
 
-- Units shipped: **902**
-- Units queued (gap units from audits): **16**
+- Units shipped: **908**
+- Units queued (gap units from audits): **10**
 - Of which deepenings: **0**
 - Audits completed: **58 / 92**
 - Books unaudited: **0**
@@ -14,22 +14,16 @@ _Generated: 2026-05-22T21:26:32.907587+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `08.10.07` | Wightman axioms (W1–W7) | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 2 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
-| 3 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
-| 4 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
-| 5 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
-| 6 | `04.10.29` | Limit linear series (Eisenbud-Harris) | P2 | joe-harris-moduli-of-curves |
-| 7 | `04.10.30` | Hurwitz numbers and the Hurwitz scheme | P3 | joe-harris-moduli-of-curves |
-| 8 | `04.10.32` | ELSV formula: Hurwitz numbers as Hodge integrals | P3 | joe-harris-moduli-of-curves |
-| 9 | `04.10.34` | Torelli morphism and Torelli theorem | P4 | joe-harris-moduli-of-curves |
-| 10 | `08.12.01` | Fluctuation-dissipation theorem (Landau-Callen-Welton) | P? | landau-lifshitz-statistical-physics-1 |
-| 11 | `08.11.02` | Debye theory of specific heats of solids | P? | landau-lifshitz-statistical-physics-1 |
-| 12 | `08.11.03` | Real gases — virial expansion and van der Waals | P? | landau-lifshitz-statistical-physics-1 |
-| 13 | `08.12.02` | Equilibrium fluctuations of thermodynamic quantities | P? | landau-lifshitz-statistical-physics-1 |
-| 14 | `03.12.48` | Bousfield localisation of a model category | P3 | may-ponto-more-concise |
-| 15 | `08.10.02` | Fokker-Planck equation and equilibrium distribution | P1 | parisi-wu-stochastic-quantization |
-| 16 | `08.10.08` | Langevin updates and lattice numerics | P3 | parisi-wu-stochastic-quantization |
+| 1 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
+| 2 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
+| 3 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
+| 4 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
+| 5 | `08.12.01` | Fluctuation-dissipation theorem (Landau-Callen-Welton) | P? | landau-lifshitz-statistical-physics-1 |
+| 6 | `08.11.02` | Debye theory of specific heats of solids | P? | landau-lifshitz-statistical-physics-1 |
+| 7 | `08.11.03` | Real gases — virial expansion and van der Waals | P? | landau-lifshitz-statistical-physics-1 |
+| 8 | `08.12.02` | Equilibrium fluctuations of thermodynamic quantities | P? | landau-lifshitz-statistical-physics-1 |
+| 9 | `03.12.48` | Bousfield localisation of a model category | P3 | may-ponto-more-concise |
+| 10 | `08.10.08` | Langevin updates and lattice numerics | P3 | parisi-wu-stochastic-quantization |
 
 ## Audits completed
 

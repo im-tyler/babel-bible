@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dirac field psi and Dirac adjoint bar psi</title>
+  <desc id="desc">A schematic placeholder showing the Dirac field as a four-component spinor at a spacetime point, with upper components for electron spin states, lower components for positron spin states, and arrows indicating the spinor transformation S(Lambda) under a Lorentz boost.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g fill="none" stroke="#1d4e5a" stroke-width="4">
+    <rect x="120" y="60" width="120" height="240"/>
+    <line x1="120" y1="180" x2="240" y2="180"/>
+  </g>
+  <g fill="#1d4e5a" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="180" y="105" text-anchor="middle">e- up</text>
+    <text x="180" y="155" text-anchor="middle">e- down</text>
+    <text x="180" y="220" text-anchor="middle">e+ up</text>
+    <text x="180" y="270" text-anchor="middle">e+ down</text>
+  </g>
+  <g fill="none" stroke="#b8651e" stroke-width="4">
+    <path d="M260 180 Q380 100 480 180" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#b8651e"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#1d4e5a" stroke-width="4">
+    <rect x="500" y="60" width="120" height="240"/>
+    <line x1="500" y1="180" x2="620" y2="180"/>
+  </g>
+  <g fill="#1d4e5a" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="560" y="105" text-anchor="middle">mixed</text>
+    <text x="560" y="155" text-anchor="middle">mixed</text>
+    <text x="560" y="220" text-anchor="middle">mixed</text>
+    <text x="560" y="270" text-anchor="middle">mixed</text>
+  </g>
+  <g fill="#222" font-family="Inter, Arial, sans-serif">
+    <text x="180" y="335" text-anchor="middle" font-size="20">psi</text>
+    <text x="560" y="335" text-anchor="middle" font-size="20">S(Lambda) psi</text>
+    <text x="380" y="80" text-anchor="middle" font-size="18" fill="#b8651e">Lorentz boost</text>
+  </g>
+</svg>
