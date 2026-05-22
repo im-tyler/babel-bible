@@ -1,4 +1,4 @@
-# Codex — Dependency Map
+# Babel Bible — Dependency Map
 
 Curriculum DAG. Apex-first construction: start from the ~10 apex units at the top of Fast Track, pull prerequisites as they surface. Each pulled prereq becomes its own future unit with its own prereqs. The graph grows downward.
 

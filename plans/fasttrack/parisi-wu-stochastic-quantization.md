@@ -115,7 +115,7 @@ Distinctive contributions, in roughly the order Namiki LNP m9 develops them:
    define $\int e^{-S}$ for actions $S$ taking complex values, where
    the Euclidean measure $e^{-S}$ is not a probability. Convergence
    is fragile and still an open problem (Aarts-Seiler-Stamatescu work,
-   2010s). Namiki ch. 9; pointer level in the Codex.
+   2010s). Namiki ch. 9; pointer level in the Babel Bible.
 
 SQ is **not** a first introduction to QFT. It assumes Euclidean QFT
 (Wick-rotated path integrals, scalar $\phi^4$, gauge theories, Yang-Mills),
@@ -136,7 +136,7 @@ References for §1 (peer-reviewed):
 
 ---
 
-## §2 Coverage table (Codex vs Namiki / Damgaard-Hüffel)
+## §2 Coverage table (Babel Bible vs Namiki / Damgaard-Hüffel)
 
 Cross-referenced against the current 313-unit corpus, focusing on
 `08-stat-mech/` (22 units across partition, mean-field, Onsager, RG,
@@ -144,7 +144,7 @@ critical, gaussian, path-integral, lattice-gauge, wick) and on the
 nascent `12-quantum/` chapters.
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Namiki / D-H topic | Codex unit(s) | Status | Note |
+| Namiki / D-H topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Euclidean path integral $\int \mathcal{D}\phi\,e^{-S}$ | `08.07.01-path-integral` | ✓ | Covered as stat-mech path integral. |
 | Wick rotation $t \to -i\tau$ | `08.09.01-wick-rotation` | ✓ | Covered. |
@@ -157,7 +157,7 @@ nascent `12-quantum/` chapters.
 | Fluctuation-dissipation relation; detailed balance in field theory | — | ✗ | **Gap.** |
 | Parisi-Wu stochastic-quantization theorem (equilibrium $= e^{-S}/Z$) | — | ✗ | **Gap (central theorem).** |
 | Stochastic perturbation theory; tree-diagram expansion in $\tau$ | — | ✗ | **Gap.** Master-tier deepening. |
-| Zwanziger stochastic gauge fixing | — | ✗ | **Gap.** Distinctive contribution; no FP-ghost analogue exists yet in Codex either. |
+| Zwanziger stochastic gauge fixing | — | ✗ | **Gap.** Distinctive contribution; no FP-ghost analogue exists yet in Babel Bible either. |
 | Faddeev-Popov ghosts / BRST (for contrast) | — | ✗ | **Gap** (separate; relevant only as the *thing-SQ-replaces*). |
 | Parisi-Sourlas dimensional reduction | — | ✗ | **Gap.** |
 | Nicolai map for SUSY theories | — | ✗ | **Gap.** Master-tier; pointer to SUSY QM. |
@@ -336,7 +336,7 @@ convention and note the rescaling at first use.
   LNP m9 and in Damgaard-Hüffel.** Full P1 audit deferred; this pass
   works from the canonical chapter structure.
 - **Exercise-pack production.** Neither Namiki nor Damgaard-Hüffel
-  includes formal exercise sets; a Codex exercise pack would have to
+  includes formal exercise sets; a Babel Bible exercise pack would have to
   be constructed from scratch and is a P3-priority-3 follow-up.
 - **Complex Langevin convergence theory** beyond a pointer.
 - **Lattice numerical implementation** beyond a Master-section in
@@ -352,7 +352,7 @@ at equivalence-coverage when:
 - The analysis-chapter stochastic-process prereqs have shipped
   (strict prereq): Wiener measure + Fokker-Planck at finite dim.
 - ≥95% of Namiki LNP m9's named theorems in chapters 2–6 map to
-  Codex units (currently 0%; after priority-1 units this rises to
+  Babel Bible units (currently 0%; after priority-1 units this rises to
   ~80%; after priority-1+2 to ~95%).
 - ≥90% of Damgaard-Hüffel §2–7 results (the foundational core of the
   review) have a direct unit or are referenced from a unit that
@@ -395,7 +395,7 @@ the SUSY-connection (Nicolai) gap. Priority-3+4 are deepenings.
 - **Nicolai 1980 *Phys. Lett. B* 89 / *Nucl. Phys. B* 176.** Elsevier-
   paywalled originals. Citation only.
 - **Zinn-Justin, *QFT and Critical Phenomena* 4th ed.** Already on
-  the Codex's "BUY" list for QFT coverage generally; ch. 17 is a
+  the Babel Bible's "BUY" list for QFT coverage generally; ch. 17 is a
   strong free-standing secondary anchor for the Langevin /
   Fokker-Planck side and would let SQ priority-1 units be drafted
   *without* waiting for Namiki acquisition. **Recommend prioritising

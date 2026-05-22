@@ -1,4 +1,4 @@
-# Codex v0.5 — Strand E (Statistical Field Theory & Lattice Models) — gpt-codex batch
+# Babel Bible v0.5 — Strand E (Statistical Field Theory & Lattice Models) — gpt-codex batch
 
 This is your second strand. Concurrent with Strand B (Symplectic geometry — see `docs/batches/V05_GPT_BATCH_B_SYMPLECTIC.md`) and claude's Strands A, C, D.
 

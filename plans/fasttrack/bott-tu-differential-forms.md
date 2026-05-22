@@ -692,9 +692,9 @@ What this book offers that peer texts do not:
 
 What makes Fast Track include it specifically: this is the book that turns a working geometer or theoretical physicist into a working algebraic topologist. After Bott-Tu, the reader can talk about Chern classes, spectral sequences, classifying spaces, rational homotopy theory, and the de Rham theorem fluently, with the same comfort they had in differential geometry when they started. The book is the canonical bridge between the differential-geometric and the algebraic-topological — and the existence of this bridge is exactly what makes spin geometry, gauge theory, characteristic-class computations on Calabi-Yau manifolds, and the modern Hodge-theoretic literature accessible.
 
-The book also functions as an originator-text in places. Bott himself proved the periodicity that bears his name (Bott periodicity), and although the book does not reproduce that proof in full, the spirit of Bott periodicity — that homotopy groups of classical groups stabilize in a regular pattern — pervades the §23 universal-bundle construction. Tu's later books (*An Introduction to Manifolds*, *Differential Geometry: Connections, Curvature, and Characteristic Classes*) extend and elaborate on Bott-Tu's pedagogy and serve as sequels. Citing Bott-Tu for the splitting principle, the Čech-de Rham double complex, or the global angular form is citing close to the source. The Codex Master sections covering these topics should preserve this originator-prose status (per FASTTRACK_EQUIVALENCE_PLAN §10).
+The book also functions as an originator-text in places. Bott himself proved the periodicity that bears his name (Bott periodicity), and although the book does not reproduce that proof in full, the spirit of Bott periodicity — that homotopy groups of classical groups stabilize in a regular pattern — pervades the §23 universal-bundle construction. Tu's later books (*An Introduction to Manifolds*, *Differential Geometry: Connections, Curvature, and Characteristic Classes*) extend and elaborate on Bott-Tu's pedagogy and serve as sequels. Citing Bott-Tu for the splitting principle, the Čech-de Rham double complex, or the global angular form is citing close to the source. The Babel Bible Master sections covering these topics should preserve this originator-prose status (per FASTTRACK_EQUIVALENCE_PLAN §10).
 
-One pedagogical fact about Bott-Tu deserves explicit mention. Of all the canonical graduate algebraic-topology texts, this is the one that most rewards re-reading. The first pass teaches the reader the theorems. The second pass — usually undertaken several years later, when the reader has done some research — reveals the architecture: that the entire book is a single argument about how local-to-global passage works in geometry, and that every chapter is the same argument at a higher level of abstraction. De Rham is local-to-global at the level of forms; Čech is local-to-global at the level of presheaves; spectral sequences are local-to-global at the level of filtered complexes; characteristic classes are local-to-global at the level of bundles. The book is *one theorem, told four times, each time more powerfully*. This is the architecture Bott had in mind, and it is the architecture that Codex must preserve.
+One pedagogical fact about Bott-Tu deserves explicit mention. Of all the canonical graduate algebraic-topology texts, this is the one that most rewards re-reading. The first pass teaches the reader the theorems. The second pass — usually undertaken several years later, when the reader has done some research — reveals the architecture: that the entire book is a single argument about how local-to-global passage works in geometry, and that every chapter is the same argument at a higher level of abstraction. De Rham is local-to-global at the level of forms; Čech is local-to-global at the level of presheaves; spectral sequences are local-to-global at the level of filtered complexes; characteristic classes are local-to-global at the level of bundles. The book is *one theorem, told four times, each time more powerfully*. This is the architecture Bott had in mind, and it is the architecture that Babel Bible must preserve.
 
 ---
 
@@ -722,15 +722,15 @@ Additional consulted but not load-bearing:
 
 ---
 
-## §2. Codex coverage diff
+## §2. Babel Bible coverage diff
 
-The diff below was produced by exhaustively grepping `content/` and reading the relevant Codex units against each entry in §1. Status conventions follow the Lawson-Michelsohn pilot (`plans/fasttrack/lawson-michelsohn-spin-geometry.md` §2):
+The diff below was produced by exhaustively grepping `content/` and reading the relevant Babel Bible units against each entry in §1. Status conventions follow the Lawson-Michelsohn pilot (`plans/fasttrack/lawson-michelsohn-spin-geometry.md` §2):
 
-- **✓ covered** — the result, exercise, example, or convention is materially present in some Codex unit (proved or used) at depth equal to or greater than the book's treatment.
+- **✓ covered** — the result, exercise, example, or convention is materially present in some Babel Bible unit (proved or used) at depth equal to or greater than the book's treatment.
 - **△ partial** — Codex mentions or invokes the item but does not develop it to the book's level (e.g., stated without proof, named only in a Master "Advanced results" line, or treated only as a forward-pointer or one-sentence aside).
-- **GAP** — no Codex unit covers this. Honest: simply not in the curriculum.
+- **GAP** — no Babel Bible unit covers this. Honest: simply not in the curriculum.
 
-Where multiple Codex units share coverage of a single book result, the most authoritative is listed first.
+Where multiple Babel Bible units share coverage of a single book result, the most authoritative is listed first.
 
 The arithmetic on this book is brutal but predictable: Codex has shipped a strong differential-geometry / characteristic-class spine and a deep spin-geometry strand, but has not yet shipped the central machinery of *Differential Forms in Algebraic Topology* — the Čech-de Rham double complex, spectral sequences, the Mayer-Vietoris and tic-tac-toe argument families, and the homotopy-theory chapter (Postnikov / minimal models / $\pi_*(S^n)$). Where it does have coverage (de Rham basics, Stokes, Chern classes via Chern-Weil, Eilenberg-MacLane spaces, classifying spaces, sheaf-cohomology / Čech in `04.03.01`), the depth ranges from one-paragraph mention to fully proved theorem-with-exercises. The §2.1 table calls each row honestly.
 
@@ -744,7 +744,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §1 De Rham complex on $\mathbb{R}^n$
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 1 | Def 1.1 — $\Omega^k(\mathbb{R}^n)$ smooth $k$-forms | 03.04.02 | "Formal definition" | ✓ covered |
 | 2 | Def 1.2 — Wedge product, graded-commutative | 03.04.02 | "Formal definition" + "Advanced results" | ✓ covered |
@@ -755,7 +755,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §2 Mayer-Vietoris sequence
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 7 | Def 2.1 — $\Omega^*$ as contravariant functor | 03.04.06 / 03.04.04 | 03.04.04 "Key theorem" (pullback + $d$); 03.04.06 "Full proof set" (functoriality of $f^*$) | ✓ covered |
 | 8 | Prop 2.2 — $f^*$ commutes with $d, \wedge$ | 03.04.04 | "Key theorem with proof" | ✓ covered |
@@ -765,7 +765,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §3 Orientation and integration
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 12 | Def 3.1 — Oriented manifold (top form mod positive functions) | 03.04.03 | "Intuition" + "Formal definition" | ✓ covered |
 | 13 | Prop 3.2 — Orientability iff global nowhere-vanishing $n$-form | 03.04.03 | Implicit in "Formal definition"; not stated as a theorem | △ partial |
@@ -775,7 +775,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §4 Poincaré lemmas
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 17 | Thm 4.1 — Poincaré lemma for $H^*(\mathbb{R}^n)$ | 03.04.04 / 03.04.02 | 03.04.04 "Advanced results" + "Full proof set" (cone construction homotopy operator); 03.04.02 §"Advanced results" | ✓ covered |
 | 18 | Lem 4.2 — Homotopy operator $K$ on $M \times \mathbb{R}$ | 03.04.04 | "Full proof set" (constructs $K$ with $dK + Kd = \mathrm{id}$ on star-shaped $U$) | △ partial — proved only on star-shaped $U \subset \mathbb{R}^n$, not on $M \times \mathbb{R}$ |
@@ -786,7 +786,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §5 The Mayer-Vietoris argument
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 23 | Def 5.1 — Good cover (intersections diffeomorphic to $\mathbb{R}^n$) | 04.03.01 | Exercise 4 (good cover defined; "every finite intersection is contractible, or appropriately acyclic") | △ partial |
 | 24 | Thm 5.2 — Existence of good covers | — | Asserted in 04.03.01 Exercise 4 hypothesis but not proved | GAP |
@@ -799,12 +799,12 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §6 The Thom isomorphism
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 31 | Def 6.1 — Smooth real / complex vector bundle | 03.05.02 / 03.05.08 | 03.05.02 "Formal definition"; 03.05.08 "Formal definition" | ✓ covered |
 | 32 | Prop 6.2 — Reduction to $O(r)$ via inner product | 03.05.03 | "Orthogonal frame bundle" — exists as a unit | △ partial — frame bundle treated; explicit "every bundle admits an inner product" theorem statement absent |
 | 33 | Prop 6.3 — Functorial bundle operations $\oplus, \otimes, \mathrm{dual}, \Lambda^k$ | 03.05.02 | "Advanced results" lists them as operations; details only sketched | △ partial |
-| 34 | Def 6.4 — $H^*_c(E)$ and $H^*_{cv}(E)$ | — | $H^*_{cv}$ (compact-vertical cohomology) is a Bott-Tu coinage and is absent everywhere in Codex | GAP |
+| 34 | Def 6.4 — $H^*_c(E)$ and $H^*_{cv}(E)$ | — | $H^*_{cv}$ (compact-vertical cohomology) is a Bott-Tu coinage and is absent everywhere in Babel Bible | GAP |
 | 35 | Thm 6.5 — Integration along the fiber + projection formula | — | Not stated. Mentioned obliquely once in 03.09.21 (family index) but not for the Bott-Tu setup | GAP |
 | 36 | Thm 6.6 — Poincaré lemma for $H^*_{cv}$ | — | Not stated | GAP |
 | 37 | Thm 6.7 — Mayer-Vietoris for $H^*_{cv}$ | — | Not stated | GAP |
@@ -820,7 +820,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §7 The nonorientable case
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 47 | Def 7.1 — Twisted de Rham complex $\Omega^*(M; o(M))$ | — | Orientation line bundle / twisted-coefficient forms not introduced | GAP |
 | 48 | Thm 7.2 — Twisted Poincaré duality (nonorientable) | — | Not stated | GAP |
@@ -831,7 +831,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §8 The generalized Mayer-Vietoris principle
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 51 | Def 8.1 — Čech-de Rham double complex $C^p(\mathcal U,\Omega^q)$ | — | Not in any unit | GAP |
 | 52 | Prop 8.2 — Čech-de Rham augmented sequence is $\delta$-exact | — | Not stated | GAP |
@@ -841,7 +841,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §9 More examples and applications of Mayer-Vietoris
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 56 | Thm 9.1 — Good cover gives $H^*_{dR}(M) \cong \check H^*(\mathcal U; \mathbb R)$ | 04.03.01 | "Comparison" + Exercise 4 (Čech computes sheaf cohomology on good covers); de Rham specialisation is left implicit | △ partial |
 | 57 | Prop 9.2 — Explicit double-complex diagonal isomorphism | — | Not stated | GAP |
@@ -851,7 +851,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §10 Presheaves and Čech cohomology
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 61 | Def 10.1 — Presheaf, sheaf | 04.01.01 | "Formal definition" | ✓ covered |
 | 62 | Def 10.2 — Čech cochain $C^p(\mathcal U; \mathcal F)$ | 04.03.01 | "Formal definition" §"Čech cohomology" | ✓ covered |
@@ -861,7 +861,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §11 Sphere bundles
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 66 | Def 11.1 — Oriented $S^{r-1}$ bundle with $SO(r)$ structure group | 03.05.03 / 03.05.02 | "Frame bundle" (orthogonal frame); sphere-bundle as a bundle in its own right not introduced | △ partial |
 | 67 | Thm 11.2 — Euler class of an oriented sphere bundle | 03.06.04 | "Advanced results" (Euler class for $SO(2n)$ rank-$2n$ real bundle); sphere-bundle reformulation not given | △ partial |
@@ -872,7 +872,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §12 Thom isomorphism and Poincaré duality revisited
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 72 | Thm 12.1 — Thom isomorphism, Čech-de Rham version | — | Not stated | GAP |
 | 73 | Thm 12.2 — Euler class is Poincaré dual of zero locus | — | Not stated | GAP |
@@ -881,7 +881,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §13 Monodromy
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 76 | Def 13.1 — Locally constant presheaf / local system | — | Not in any unit (local-system formalism absent) | GAP |
 | 77 | Thm 13.2 — Locally constant on simply connected = constant | — | Implicit in covering-space theory in 03.12.02 but not stated for local systems | △ partial |
@@ -893,7 +893,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §14 The spectral sequence of a filtered complex
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 81 | Def 14.1 — Exact couple $(D, E, i, j, k)$ | — | Not in any unit | GAP |
 | 82 | Thm 14.2 — Derived couple gives spectral sequence | — | Not stated | GAP |
@@ -907,7 +907,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §15 Cohomology with integer coefficients
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 90 | Def 15.1 — Singular $p$-simplex, $S_*(X; \mathbb Z)$ | — | Singular chain complex not formally introduced in any unit | GAP |
 | 91 | Def 15.2 — Singular cohomology $H^*_{\mathrm{sing}}(X; \mathbb Z)$ | 03.04.06 | Mentioned (as the target of de Rham iso) but not defined | △ partial |
@@ -918,7 +918,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §16 The path fibration
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 96 | Def 16.1 — Based path space $PX$, loop space $\Omega X$ | 03.12.03 / 03.12.05 | 03.12.03 "Advanced results" (loop space adjunction $\Sigma \dashv \Omega$); 03.12.05 (uses $\Omega K(A,n+1) \simeq K(A,n)$) | ✓ covered |
 | 97 | Thm 16.2 — Path fibration $\Omega X \to PX \to X$ with $PX$ contractible | 03.12.03 | "Advanced results" (loop-space functor mentioned); contractibility-of-$PX$ statement not explicit | △ partial |
@@ -926,7 +926,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §17 Review of homotopy theory
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 99 | Def 17.1 — $\pi_n(X, x_0)$, relative $\pi_n(X, A, x_0)$ | 03.12.01 | "Formal definition" (homotopy groups; relative groups mentioned in passing) | △ partial — relative homotopy groups not unit-defined |
 | 100 | Thm 17.2 — LES of a pair | — | Not stated | GAP |
@@ -938,7 +938,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §18 Applications to homotopy theory
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 106 | Def 18.1 — Eilenberg-MacLane space $K(\pi, n)$ | 03.12.05 | "Formal definition" + worked examples ($S^1, \mathbb{RP}^\infty, \mathbb{CP}^\infty$) | ✓ covered |
 | 107 | Thm 18.2 — Telescoping construction (existence of $K(\pi,n)$) | 03.12.05 | "Key theorem" + "Full proof set" | ✓ covered |
@@ -952,7 +952,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §19 Rational homotopy theory
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 115 | Def 19.1 — Minimal model (free graded-commutative DGA) | — | Not in any unit | GAP |
 | 116 | Thm 19.2 — Sullivan: every simply-connected finite-type space has a minimal model | — | Not stated | GAP |
@@ -964,7 +964,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §20 Chern classes of a complex vector bundle
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 120 | Def 20.1 — First Chern class $c_1(L) \in H^2(M; \mathbb Z)$ | 03.06.04 / 03.05.08 | 03.06.04 "Worked example" + "Advanced results"; 03.05.08 "Worked example" ($c_1(\mathcal O(-1)) = -1$) | ✓ covered |
 | 121 | Thm 20.2 — $c_1: \mathrm{Pic}(M) \xrightarrow{\sim} H^2(M; \mathbb Z)$ | 04.05.02 | Picard group unit covers $\mathrm{Pic}(M) \cong H^1(M; \mathcal O^*)$; exponential SES + $c_1$ correspondence asserted but not full equivalence-of-categories proof | △ partial |
@@ -974,7 +974,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §21 Splitting principle and flag manifolds
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 125 | Thm 21.1 — Splitting principle | 03.06.04 | "Advanced results" (statement) + "Full proof set" §"Proof of the splitting principle" (flag-bundle injectivity) | ✓ covered |
 | 126 | Cor 21.2 — Identities verifiable on direct sums of line bundles | 03.06.04 | "Full proof set" derives axiomatic uniqueness via splitting; exact corollary stated | ✓ covered |
@@ -986,7 +986,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §22 Pontrjagin classes
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 132 | Def 22.1 — Conjugate bundle $\bar E$, complexification $E_{\mathbb C}$ | 03.05.08 | "Advanced results" (mentions); 03.06.04 Exercise 4 (uses) | △ partial |
 | 133 | Prop 22.2 — $\bar E_{\mathbb C} \cong E_{\mathbb C}$ | 03.06.04 | Exercise 4 (uses but does not state as a proposition) | △ partial |
@@ -997,7 +997,7 @@ The 144-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 ##### §23 The search for the universal bundle
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 138 | Def 23.1 — Grassmannian $G_k(\mathbb C^n)$, tautological $\gamma_k^n$ | 03.08.04 | Mentioned; 03.05.08 "Worked example" (tautological $\mathcal O(-1)$ is the $k=1, n=2$ case); finite Grassmannian not explicitly defined | △ partial |
 | 139 | Def 23.2 — Poincaré series of a graded algebra | — | Not in any unit | GAP |
@@ -1023,12 +1023,12 @@ Coverage is concentrated on the §1 / §3 / §4 de Rham basics (forms, Stokes, P
 
 ### §2.2 Exercise coverage
 
-Exercise coverage is estimated by topic-equivalence: for each book §x exercise group, identify the Codex unit whose `Exercises [Intermediate+]` block (and supporting `Check your understanding [Beginner]` block) drills the same skill. Bott-Tu has roughly **~150–180** problems; the table groups them by section.
+Exercise coverage is estimated by topic-equivalence: for each book §x exercise group, identify the Babel Bible unit whose `Exercises [Intermediate+]` block (and supporting `Check your understanding [Beginner]` block) drills the same skill. Bott-Tu has roughly **~150–180** problems; the table groups them by section.
 
-| Book §x exercise group | Approx. count | Codex unit's exercise block | Status |
+| Book §x exercise group | Approx. count | Babel Bible unit's exercise block | Status |
 |---|---|---|---|
 | §1 (de Rham complex on $\mathbb R^n$: $d^2=0$ in coordinates, $d$ on specific forms, wedge graded-commutativity) | ~3–4 | 03.04.02 (8 exercises covering $d$ on forms, antisymmetry); 03.04.04 (7 exercises covering $d^2=0$ verification) | ✓ ≥80% |
-| §2 (Mayer-Vietoris: $H^*(S^1)$, $H^*(S^n)$ inductively, $H^*(\mathbb R^n \setminus 0)$) | ~5–6 | No Codex unit drills Mayer-Vietoris computation; 03.04.06 has $H^*$-of-circle-related exercises but only at the cohomology-as-quotient level | GAP |
+| §2 (Mayer-Vietoris: $H^*(S^1)$, $H^*(S^n)$ inductively, $H^*(\mathbb R^n \setminus 0)$) | ~5–6 | No Babel Bible unit drills Mayer-Vietoris computation; 03.04.06 has $H^*$-of-circle-related exercises but only at the cohomology-as-quotient level | GAP |
 | §3 (orientation, integration, Stokes on half-space) | ~4–5 | 03.04.03 (7 exercises on orientation reversal, partition of unity, integration); 03.04.05 (7 exercises on Stokes, FTC, Green's, divergence) | ✓ ≥80% |
 | §4 (Poincaré lemmas, degree of antipodal, degree of polynomial maps) | ~5–6 | 03.04.04 Ex 7 (1D Poincaré lemma); 03.04.02 Ex on closed/exact; degree theory absent | partial |
 | §5 (MV argument: $H^*(\mathbb R^2 \setminus n\text{-pts})$, Künneth on $T^n$, Poincaré dual of curve in $T^2$) | ~8–10 | nothing — MV induction, finite-dimensionality, Künneth, Poincaré duality computational drills are all absent | GAP |
@@ -1057,17 +1057,17 @@ Exercise coverage is estimated by topic-equivalence: for each book §x exercise 
 - partial: **9** of 23 (39%)
 - GAP: **10** of 23 (43%)
 
-Of the estimated **~150–180** book exercises, Codex's existing exercise blocks cover roughly **35–45** at equivalent depth (~25%), drill **~40–55** more partially via topic-adjacent exercises (~25–30%), and leave **~80–95** without a Codex exercise equivalent (~50%).
+Of the estimated **~150–180** book exercises, Babel Bible's existing exercise blocks cover roughly **35–45** at equivalent depth (~25%), drill **~40–55** more partially via topic-adjacent exercises (~25–30%), and leave **~80–95** without a Babel Bible exercise equivalent (~50%).
 
-The largest unmexercised regions: Mayer-Vietoris induction on $S^n$ and on $\mathbb R^n$-minus-points (the §2 / §5 backbone — 13–16 exercises with no Codex analogue), the entire spectral-sequence chapter (§14: 10–12 exercises absent), the entire rational-homotopy section (§19: 3–4 exercises absent), the path-fibration / loop-space cohomology computations (§16: 3–4 exercises absent), the Hopf index / sphere-bundle Euler-number drills (§11: 5–6 exercises absent), the Čech-de Rham double-complex tic-tac-toe drills (§9 / §12: 8–10 exercises absent). The shipped strands' exercise coverage is solid where it exists (de Rham basics, Stokes, Chern classes, Eilenberg-MacLane / Postnikov, sheaves) but the *characteristic Bott-Tu exercise type* — "compute this cohomology by hand using two charts" — has essentially no presence in Codex.
+The largest unmexercised regions: Mayer-Vietoris induction on $S^n$ and on $\mathbb R^n$-minus-points (the §2 / §5 backbone — 13–16 exercises with no Codex analogue), the entire spectral-sequence chapter (§14: 10–12 exercises absent), the entire rational-homotopy section (§19: 3–4 exercises absent), the path-fibration / loop-space cohomology computations (§16: 3–4 exercises absent), the Hopf index / sphere-bundle Euler-number drills (§11: 5–6 exercises absent), the Čech-de Rham double-complex tic-tac-toe drills (§9 / §12: 8–10 exercises absent). The shipped strands' exercise coverage is solid where it exists (de Rham basics, Stokes, Chern classes, Eilenberg-MacLane / Postnikov, sheaves) but the *characteristic Bott-Tu exercise type* — "compute this cohomology by hand using two charts" — has essentially no presence in Babel Bible.
 
 ---
 
 ### §2.3 Worked-example coverage
 
-The 41 named worked examples from §1.4, mapped to Codex.
+The 41 named worked examples from §1.4, mapped to Babel Bible.
 
-| # | Book worked example | Codex unit | Section/Heading | Status |
+| # | Book worked example | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 1 | $H^*(\mathbb R^n) = \mathbb R$ in degree 0 (§1) | 03.04.04 | "Full proof set" (homotopy operator on star-shaped) | ✓ covered |
 | 2 | $H^*(S^1)$ via two-chart MV (§2) | — | not in any unit; $\pi_1(S^1)$ is, but $H^*$ is not | GAP |
@@ -1125,7 +1125,7 @@ The 8 covered worked examples are: the Poincaré-lemma cone construction on $\ma
 
 ### §2.4 Notation crosswalk
 
-For each notational convention from §1.5, classify Codex's choice as `same`, `differs`, `not fixed`, or `absent`.
+For each notational convention from §1.5, classify Babel Bible's choice as `same`, `differs`, `not fixed`, or `absent`.
 
 | Book convention | Codex convention | Status |
 |---|---|---|
@@ -1171,7 +1171,7 @@ For each notational convention from §1.5, classify Codex's choice as `same`, `d
 - partially absent / not fixed: **3** (9%)
 - absent: **9** (26%)
 
-The critical convention — the $\delta$ vs $d$ typographic discipline that drives the tic-tac-toe arguments — is **not preserved**: Codex's 04.03.01 collapses the Čech differential into a generic $d^p$, losing the page-level visual distinction. This is a faithful translation but it costs the Bott-Tu reader's eye-pattern on first encounter. The Bott-Tu coinage $\Omega^*_{cv}$ and the related $H^*_{cv}$ are entirely absent — there is no Codex unit where compactly-vertical cohomology of a vector bundle is even named. The global angular form $\psi$ with sign $d\psi = -\pi^* e(E)$ is absent. The Pontryagin sign convention matches Bott-Tu / Milnor-Stasheff exactly (consistent with the Lawson-Michelsohn pilot's findings on the Codex spin-geometry strand). The spectral-sequence symbols ($E_r^{p,q}$, $d_r$, $\Rightarrow$, ${}_I E / {}_{II} E$, $\mathrm{Tot}$) are all absent — the entire notation system of Ch III is missing.
+The critical convention — the $\delta$ vs $d$ typographic discipline that drives the tic-tac-toe arguments — is **not preserved**: Babel Bible's 04.03.01 collapses the Čech differential into a generic $d^p$, losing the page-level visual distinction. This is a faithful translation but it costs the Bott-Tu reader's eye-pattern on first encounter. The Bott-Tu coinage $\Omega^*_{cv}$ and the related $H^*_{cv}$ are entirely absent — there is no Babel Bible unit where compactly-vertical cohomology of a vector bundle is even named. The global angular form $\psi$ with sign $d\psi = -\pi^* e(E)$ is absent. The Pontryagin sign convention matches Bott-Tu / Milnor-Stasheff exactly (consistent with the Lawson-Michelsohn pilot's findings on the Babel Bible spin-geometry strand). The spectral-sequence symbols ($E_r^{p,q}$, $d_r$, $\Rightarrow$, ${}_I E / {}_{II} E$, $\mathrm{Tot}$) are all absent — the entire notation system of Ch III is missing.
 
 ---
 
@@ -1181,19 +1181,19 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 
 #### Chapter-level dependencies
 
-| Book dependency | Codex DAG analogue (deps.json) | Status |
+| Book dependency | Babel Bible DAG analogue (deps.json) | Status |
 |---|---|---|
 | Ch I (de Rham) → Ch II (Čech-de Rham) | 03.04.02 → 03.04.06; 03.04.06 → 04.03.01 (de Rham → sheaf cohomology) is implicit (no explicit edge) | △ partial — the de Rham → Čech bridge is informal |
 | Ch I, Ch II → Ch III (spectral sequences) | no Ch III content exists; dependency cannot be tested | absent — vacuous because spectral-sequence content is missing |
-| Ch I §6, Ch II §11–§12, Ch III §14 → Ch IV (characteristic classes) | 03.04.06 → 03.06.06 (Chern-Weil); 03.06.06 → 03.06.04; 03.05.02 / 03.05.07 / 03.05.08 → 03.06.04 | ✓ present — characteristic-class spine connects without going through MV / spectral sequences (because the Codex path uses Chern-Weil instead of Bott-Tu's Thom-class-via-double-complex) |
+| Ch I §6, Ch II §11–§12, Ch III §14 → Ch IV (characteristic classes) | 03.04.06 → 03.06.06 (Chern-Weil); 03.06.06 → 03.06.04; 03.05.02 / 03.05.07 / 03.05.08 → 03.06.04 | ✓ present — characteristic-class spine connects without going through MV / spectral sequences (because the Babel Bible path uses Chern-Weil instead of Bott-Tu's Thom-class-via-double-complex) |
 
 #### Within-chapter linear dependencies (Chapter I)
 
-| Book within-chapter edge | Codex DAG edge | Status |
+| Book within-chapter edge | Babel Bible DAG edge | Status |
 |---|---|---|
 | §1 → §2 (MV uses de Rham complex) | 03.04.02 → 03.04.06 | ✓ present |
 | §2 → §3 (orientation defined for MV-comparable manifolds) | 03.04.03 prerequisite is 03.02.01 (smooth manifold), 03.04.02 (forms); §2 / MV is not an explicit prerequisite | implicit — the authorial reason for the §2→§3 edge does not appear |
-| §3 → §4 (Stokes used in Poincaré lemma proof) | 03.04.05 (Stokes) and 03.04.04 (which contains Poincaré lemma) — 03.04.04 is a *prerequisite* of 03.04.05, reverse of Bott-Tu! Bott-Tu derives Poincaré lemma after Stokes; Codex derives $d$ first, then Stokes references $d$ already | △ partial — Codex's de Rham linearisation differs from Bott-Tu's |
+| §3 → §4 (Stokes used in Poincaré lemma proof) | 03.04.05 (Stokes) and 03.04.04 (which contains Poincaré lemma) — 03.04.04 is a *prerequisite* of 03.04.05, reverse of Bott-Tu! Bott-Tu derives Poincaré lemma after Stokes; Codex derives $d$ first, then Stokes references $d$ already | △ partial — Babel Bible's de Rham linearisation differs from Bott-Tu's |
 | §4 → §5 (Poincaré lemma is input to MV induction) | not in DAG (MV induction absent) | absent |
 | §5 → §6 (Thom uses finite-good-cover induction) | 03.06.04 / 03.06.06 do not depend on a finite-good-cover unit | absent |
 | §6 → §7 (nonorientable case modifies Thom) | nonorientable case absent | absent |
@@ -1204,7 +1204,7 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 | Book edge | Codex edge | Status |
 |---|---|---|
 | §8 → §9 (examples of generalized MV) | absent | absent |
-| §8, §9 → §10 (presheaves formalize cover structure) | 04.01.01 / 04.03.01 do not have prerequisites in 03.04 (de Rham); the Codex path treats sheaves as a parallel strand, not as a generalisation of de Rham MV | absent — Codex's logical order reverses Bott-Tu's pedagogy |
+| §8, §9 → §10 (presheaves formalize cover structure) | 04.01.01 / 04.03.01 do not have prerequisites in 03.04 (de Rham); the Babel Bible path treats sheaves as a parallel strand, not as a generalisation of de Rham MV | absent — Babel Bible's logical order reverses Bott-Tu's pedagogy |
 | §10 → §11 (sphere bundles use presheaf-of-cohomology) | absent | absent |
 | §6 (Ch I), §11 → §12 (Thom revisited) | absent | absent |
 | §10 → §13 (monodromy as failure-of-locally-constant-to-be-constant) | absent | absent |
@@ -1215,7 +1215,7 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 |---|---|---|
 | §14 → §15 (singular cohomology uses spectral sequences) | absent — both endpoints absent | absent |
 | §14, §15 → §16 (path fibration via spectral sequence) | absent | absent |
-| §16 → §17 (loop-space → homotopy review) | 03.12.03 (suspension / loop space) → 03.12.01 (homotopy)? actually 03.12.03 has 03.12.01 as a prerequisite, reversed from Bott-Tu | △ partial — Codex's homotopy unit is foundational, not a §17 review |
+| §16 → §17 (loop-space → homotopy review) | 03.12.03 (suspension / loop space) → 03.12.01 (homotopy)? actually 03.12.03 has 03.12.01 as a prerequisite, reversed from Bott-Tu | △ partial — Babel Bible's homotopy unit is foundational, not a §17 review |
 | §17 → §18 (homotopy + spectral sequences = Postnikov) | 03.12.01 → 03.12.05 | ✓ present (but without the spectral-sequence step) |
 | §17, §18 → §19 (rational homotopy theory caps the chapter) | absent | absent |
 
@@ -1225,8 +1225,8 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 |---|---|---|
 | §20 → §21 (splitting principle uses projectivization) | 03.06.04 contains both Chern definition and splitting principle in a single unit; no explicit "projectivization → splitting" edge in deps.json | implicit — both are in 03.06.04 |
 | §21 → §22 (Pontryagin via complexification + splitting) | 03.06.04 contains both | implicit |
-| §20, §21, §22 → §23 (universal bundle classification is the apex) | 03.06.04 → 03.08.07 (Bott periodicity); 03.08.04 (classifying space) is a *prerequisite* of 03.08.01 / 03.08.07; the Codex path treats classifying spaces as an early k-theory concept, not as the §23 apex | △ partial — same content but inverted DAG order |
-| Chs I, II → all of Ch IV via Euler-class machinery | 03.04.06 (de Rham) → 03.06.06 (Chern-Weil) → 03.06.04 (Chern); but Ch I §6 / Ch II §11 (Euler-class-via-Thom) is the missing path | △ partial — Codex's Chern-Weil-via-curvature route bypasses the §6 Euler-class-via-Thom-class derivation Bott-Tu uses |
+| §20, §21, §22 → §23 (universal bundle classification is the apex) | 03.06.04 → 03.08.07 (Bott periodicity); 03.08.04 (classifying space) is a *prerequisite* of 03.08.01 / 03.08.07; the Babel Bible path treats classifying spaces as an early k-theory concept, not as the §23 apex | △ partial — same content but inverted DAG order |
+| Chs I, II → all of Ch IV via Euler-class machinery | 03.04.06 (de Rham) → 03.06.06 (Chern-Weil) → 03.06.04 (Chern); but Ch I §6 / Ch II §11 (Euler-class-via-Thom) is the missing path | △ partial — Babel Bible's Chern-Weil-via-curvature route bypasses the §6 Euler-class-via-Thom-class derivation Bott-Tu uses |
 
 #### §2.5 totals
 
@@ -1236,15 +1236,15 @@ Of the **24** within-chapter and chapter-level dependency edges enumerated above
 - △ partial / implicit: **9** (38%)
 - absent: **12** (50%)
 
-The Codex DAG covers a different spine: it goes de Rham → Chern-Weil → Chern/Pontryagin classes → characteristic-class-on-$BG$, an essentially differential-geometric route to characteristic classes that is closer to Kobayashi-Nomizu Vol. II Ch. XII than to Bott-Tu Ch I §6 → Ch II §11–§12. Bott-Tu's distinctive arc — Mayer-Vietoris induction → Čech-de Rham double complex → spectral sequences → characteristic classes via the double-complex Thom isomorphism — is *not* the Codex path. In §3 (production planning), Pass 3 will need to decide whether to (a) graft the Bott-Tu spine onto the existing Codex DAG as a parallel route, (b) replace the Codex Chern-Weil-first route with a Bott-Tu MV-first route, or (c) ship both as alternative tracks. Option (a) is the lowest-friction and matches the Lawson-Michelsohn pilot's pattern of additive coverage.
+The Babel Bible DAG covers a different spine: it goes de Rham → Chern-Weil → Chern/Pontryagin classes → characteristic-class-on-$BG$, an essentially differential-geometric route to characteristic classes that is closer to Kobayashi-Nomizu Vol. II Ch. XII than to Bott-Tu Ch I §6 → Ch II §11–§12. Bott-Tu's distinctive arc — Mayer-Vietoris induction → Čech-de Rham double complex → spectral sequences → characteristic classes via the double-complex Thom isomorphism — is *not* the Babel Bible path. In §3 (production planning), Pass 3 will need to decide whether to (a) graft the Bott-Tu spine onto the existing Babel Bible DAG as a parallel route, (b) replace the Babel Bible Chern-Weil-first route with a Bott-Tu MV-first route, or (c) ship both as alternative tracks. Option (a) is the lowest-friction and matches the Lawson-Michelsohn pilot's pattern of additive coverage.
 
 ---
 
 ### §2.6 Intuition coverage
 
-The book establishes four chapter-level intuition arcs (per §1.7). For each: is the corresponding intuition explicit in some Codex unit's `Beginner` or `Master` section?
+The book establishes four chapter-level intuition arcs (per §1.7). For each: is the corresponding intuition explicit in some Babel Bible unit's `Beginner` or `Master` section?
 
-| Book intuition arc | Codex location | Status |
+| Book intuition arc | Babel Bible location | Status |
 |---|---|---|
 | **The de Rham theory arc** — "no-obstacle path": forms first, all manifolds, $H = \ker d / \mathrm{im} d$ on day one; $H_{dR} = H_{\mathrm{sing}}$ as a comparison theorem; cohomology via Mayer-Vietoris induction is the canonical computation method | 03.04.02 / 03.04.04 / 03.04.06 deliver the "forms first" path; 03.04.06 `Intuition [Beginner]` (water flowing around rocks) is materially in the Bott spirit; `Historical & philosophical context [Master]` invokes Bott-Tu's framing | △ partial — the Beginner arc (forms-first cohomology) is captured strongly. The "Mayer-Vietoris is *the* computation method" half of the arc is absent (because MV is absent). The Bott-Tu pedagogical lever — *cohomology is computed by gluing two charts* — has no Codex venue |
 | **The Čech-de Rham arc** — the double complex made graphical; horizontal $\delta$, vertical $d$; tic-tac-toe diagrams; "spectral sequences are double complexes you've already done" | 04.03.01 mentions Čech and the Čech-to-derived spectral sequence at master level but does *not* have horizontal/vertical typographic distinction or tic-tac-toe demonstration | GAP — the entire pedagogical innovation of Ch II (graphical double complex) is missing |
@@ -1257,15 +1257,15 @@ The book establishes four chapter-level intuition arcs (per §1.7). For each: is
 - △ partial: **1** of 4 (25%)
 - GAP: **3** of 4 (75%)
 
-This is the inverse of the Lawson-Michelsohn pilot, where intuition coverage was the *strongest* layer (88%). For Bott-Tu it is the *weakest*. The reason is structural: Codex's spin-geometry strand was built recently in the "every unit gets four intuition layers" mode and explicitly carries the LM master arcs. Codex's de Rham / characteristic-class / homotopy strands were built in earlier waves before the FASTTRACK_EQUIVALENCE_PLAN's emphasis on capturing book-level intuition arcs, and they ship the *theorems* without the architectural framing Bott provides. The §2.6 GAP rows here are the rows most worth the time to backfill — they are short prose additions to existing units, not new units, and they are the rows whose absence most hurts a reader trying to read Bott-Tu using Codex as a companion.
+This is the inverse of the Lawson-Michelsohn pilot, where intuition coverage was the *strongest* layer (88%). For Bott-Tu it is the *weakest*. The reason is structural: Babel Bible's spin-geometry strand was built recently in the "every unit gets four intuition layers" mode and explicitly carries the LM master arcs. Babel Bible's de Rham / characteristic-class / homotopy strands were built in earlier waves before the FASTTRACK_EQUIVALENCE_PLAN's emphasis on capturing book-level intuition arcs, and they ship the *theorems* without the architectural framing Bott provides. The §2.6 GAP rows here are the rows most worth the time to backfill — they are short prose additions to existing units, not new units, and they are the rows whose absence most hurts a reader trying to read Bott-Tu using Codex as a companion.
 
 ---
 
 ### §2.7 Application coverage
 
-The book's worked applications, mapped to Codex Connections / applied units.
+The book's worked applications, mapped to Babel Bible Connections / applied units.
 
-| Book application | Codex location | Status |
+| Book application | Babel Bible location | Status |
 |---|---|---|
 | Hopf fibration $S^1 \to S^3 \to S^2$ as primary example for Euler class, spectral sequence, Hopf invariant | 03.05.08 mentions Hopf line bundle $\mathcal O(-1) \to \mathbb{CP}^1$ implicitly; Hopf fibration as a fibration with Euler-class generator and spectral-sequence collapse not derived | △ partial |
 | $H^*(\mathbb{C}P^n)$ classes via Mayer-Vietoris on a good cover | 03.06.04 / 03.08.04 give $H^*(\mathbb{C}P^n) = \mathbb Z[x]/(x^{n+1})$ via classifying-space / Chern-Weil; MV-on-good-cover derivation absent | △ partial — endpoint matches, derivation route differs |
@@ -1307,7 +1307,7 @@ The covered applications are the ones Codex reaches via its Chern-Weil / classif
 | Intuition arcs | 0 + 0.5 = 0.5 | 4 | 13% | ✗ |
 | Applications | 3 + 3 = 6 | 14 | 43% | △ partial |
 
-**Aggregate honest grade: ~35–40% effective coverage** of the book's content (unweighted mean across the eight layers ≈ 37%; weighted-by-importance grade is dragged lower by the 13% intuition arcs and 31% sequencing scores). The book's de Rham / characteristic-class endpoints are reachable via the Codex DAG; the *book itself* — its Mayer-Vietoris-driven derivations, its Čech-de Rham double complex, its spectral-sequence chapter, its rational-homotopy capstone, its dual-proof discipline, and its narrative architecture — is largely not in Codex.
+**Aggregate honest grade: ~35–40% effective coverage** of the book's content (unweighted mean across the eight layers ≈ 37%; weighted-by-importance grade is dragged lower by the 13% intuition arcs and 31% sequencing scores). The book's de Rham / characteristic-class endpoints are reachable via the Babel Bible DAG; the *book itself* — its Mayer-Vietoris-driven derivations, its Čech-de Rham double complex, its spectral-sequence chapter, its rational-homotopy capstone, its dual-proof discipline, and its narrative architecture — is largely not in Babel Bible.
 
 This is a more brutal grade than Lawson-Michelsohn's ~38% but reflects a different kind of gap. LM's gap was *content not yet shipped* (KR-theory, family index, Calabi-Yau spinors, positive mass theorem) — production work that closes by writing new units. Bott-Tu's gap is *content shipped under different organising principles*. Codex has Chern classes; Bott-Tu has them via projectivization and good-cover Mayer-Vietoris. Codex has $H^*(\mathbb{C}P^n)$; Bott-Tu derives it three different ways across §9, §16, §20. The headline is the same number, the books are reachable, but the *Bott-Tu pedagogical pathways through that material* — and especially the spectral-sequence machinery and the local-to-global architectural arc — are not.
 
@@ -1325,7 +1325,7 @@ This is a more brutal grade than Lawson-Michelsohn's ~38% but reflects a differe
 
 6. **Monodromy and local systems (Ch II §13).** Locally constant presheaves, monodromy representation $\pi_1 \to \mathrm{Aut}(\mathcal F)$, Möbius as $\mathbb Z/2$ local system, classification of rank-1 local systems — absent. Rows 76–80.
 
-7. **Spectral sequence machinery (Ch III §14).** Exact couples, derived couples, filtered-complex spectral sequences, double-complex spectral sequences, Leray-Serre spectral sequence as a *primary computational tool*, multiplicative structure, the Gysin sequence as a corollary, Leray's general construction — entirely absent. Rows 81–89. The single biggest gap: the Codex curriculum has no spectral-sequence unit anywhere, in any strand. This shows up in Lawson-Michelsohn (rows 86, 89 of LM Pass 2 §2.5: "the Leray spectral sequence is invoked but not unit-developed") and now appears as the dominant structural gap in Bott-Tu.
+7. **Spectral sequence machinery (Ch III §14).** Exact couples, derived couples, filtered-complex spectral sequences, double-complex spectral sequences, Leray-Serre spectral sequence as a *primary computational tool*, multiplicative structure, the Gysin sequence as a corollary, Leray's general construction — entirely absent. Rows 81–89. The single biggest gap: the Babel Bible curriculum has no spectral-sequence unit anywhere, in any strand. This shows up in Lawson-Michelsohn (rows 86, 89 of LM Pass 2 §2.5: "the Leray spectral sequence is invoked but not unit-developed") and now appears as the dominant structural gap in Bott-Tu.
 
 8. **Singular cohomology as a primary object (Ch III §15).** Singular chain complex $S_*(X; \mathbb Z)$ as a chain complex with cone construction, singular Mayer-Vietoris, dual cochain complex, the homology spectral sequence — absent. Singular cohomology is *named* (in the de Rham theorem statement) but never *defined or developed*. Rows 90–95.
 
@@ -1335,7 +1335,7 @@ This is a more brutal grade than Lawson-Michelsohn's ~38% but reflects a differe
 
 11. **$\pi_4(S^3)$ and $\pi_5(S^3)$ computations, Whitehead tower, Serre's finiteness theorem (Ch III §18).** Codex has Postnikov-tower machinery in 03.12.05; it does not have the Whitehead tower, Serre's finiteness theorem, or the actual $\pi_4(S^3) = \mathbb Z/2$ / $\pi_5(S^3) = \mathbb Z/2$ computations. Rows 111, 112, 113, 114. Worked examples 28, 29, 30.
 
-12. **Rational homotopy theory and Sullivan minimal models (Ch III §19).** Minimal models of free graded-commutative DGAs, Sullivan's theorem, the main theorem identifying generators with $\pi_n \otimes \mathbb Q$, the minimal models of $S^n$ and $\mathbb{C}P^n$ — *entirely absent* across the entire Codex curriculum. Rows 115–119. Worked examples 32, 33. This is the chapter that distinguishes Bott-Tu from Hatcher (Hatcher does not cover rational homotopy at all); covering it in Codex requires a new strand or chapter, not just additions to existing units.
+12. **Rational homotopy theory and Sullivan minimal models (Ch III §19).** Minimal models of free graded-commutative DGAs, Sullivan's theorem, the main theorem identifying generators with $\pi_n \otimes \mathbb Q$, the minimal models of $S^n$ and $\mathbb{C}P^n$ — *entirely absent* across the entire Babel Bible curriculum. Rows 115–119. Worked examples 32, 33. This is the chapter that distinguishes Bott-Tu from Hatcher (Hatcher does not cover rational homotopy at all); covering it in Babel Bible requires a new strand or chapter, not just additions to existing units.
 
 13. **Projectivization of a vector bundle and the Grothendieck definition of Chern classes (Ch IV §20).** $\mathbb P(E) \to M$ as a primary construction, Grothendieck's definition of $c(E)$ via the relation in $H^*(\mathbb P(E))$, the Whitney product formula via projectivization — Codex has the splitting-principle proof but not the projectivization-relation route. Rows 122, 123. The construction is also the bridge to the Riemann-Roch Grothendieck framework (Hartshorne Appendix A).
 
@@ -1351,21 +1351,21 @@ This is a more brutal grade than Lawson-Michelsohn's ~38% but reflects a differe
 
 #### Qualitative summary
 
-Codex's existing differential-forms and characteristic-class strands cover the **endpoints** of *Differential Forms in Algebraic Topology* — de Rham cohomology, Stokes' theorem, Chern / Pontryagin classes via Chern-Weil, classifying spaces $BU(n) / BO(n)$, Eilenberg-MacLane spaces, Postnikov towers, Bott periodicity — at intuition-and-exercise depth (~33% of the book overall, ~70% on the de Rham / characteristic-class spine itself). The Beginner / Intermediate / Master tier framing is in place for the central units, and the existing exercises drill the textbook results.
+Babel Bible's existing differential-forms and characteristic-class strands cover the **endpoints** of *Differential Forms in Algebraic Topology* — de Rham cohomology, Stokes' theorem, Chern / Pontryagin classes via Chern-Weil, classifying spaces $BU(n) / BO(n)$, Eilenberg-MacLane spaces, Postnikov towers, Bott periodicity — at intuition-and-exercise depth (~33% of the book overall, ~70% on the de Rham / characteristic-class spine itself). The Beginner / Intermediate / Master tier framing is in place for the central units, and the existing exercises drill the textbook results.
 
-The gap is in **derivation pathway and pedagogical architecture**. Bott-Tu's spine is Mayer-Vietoris induction → Čech-de Rham double complex → spectral sequences → characteristic classes via Thom-class-and-double-complex; Codex's spine is forms → cohomology via $\ker d / \mathrm{im}\, d$ → curvature via connections → Chern-Weil → Chern / Pontryagin classes. Both reach the same theorems; only the first reaches them by Bott-Tu's path. A reader using Codex as a Bott-Tu companion can verify Codex agrees on the destinations (Chern of $T\mathbb{C}P^n$, signature of $\mathbb{C}P^2$, $H^*(BU(n))$, the de Rham theorem) but cannot rederive Bott-Tu's §2 / §5 / §8 / §9 / §12 / §14 arguments from Codex prose because the input concepts (Mayer-Vietoris exact sequence in Codex, $\Omega^*_{cv}$, double complex, exact couple, Leray-Serre as primitive, $E_2$-page) are absent.
+The gap is in **derivation pathway and pedagogical architecture**. Bott-Tu's spine is Mayer-Vietoris induction → Čech-de Rham double complex → spectral sequences → characteristic classes via Thom-class-and-double-complex; Babel Bible's spine is forms → cohomology via $\ker d / \mathrm{im}\, d$ → curvature via connections → Chern-Weil → Chern / Pontryagin classes. Both reach the same theorems; only the first reaches them by Bott-Tu's path. A reader using Codex as a Bott-Tu companion can verify Codex agrees on the destinations (Chern of $T\mathbb{C}P^n$, signature of $\mathbb{C}P^2$, $H^*(BU(n))$, the de Rham theorem) but cannot rederive Bott-Tu's §2 / §5 / §8 / §9 / §12 / §14 arguments from Babel Bible prose because the input concepts (Mayer-Vietoris exact sequence in Babel Bible, $\Omega^*_{cv}$, double complex, exact couple, Leray-Serre as primitive, $E_2$-page) are absent.
 
 The largest gap blocks, in roughly decreasing order of impact:
 
-(i) **Spectral-sequence machinery** (§14 in entirety: exact couples, double-complex spectral sequences, Leray-Serre as a primary tool, Gysin, multiplicative structure). No Codex unit ships any of this; the Lawson-Michelsohn pilot's §2.5 row also identifies this as the largest analytic gap. Pass 3 will likely propose 2–3 new units in a new "spectral sequences" chapter under section 03 (or as `03.12.06 / 03.12.07` extending the homotopy chapter, or as a top-level new chapter `03.13`).
+(i) **Spectral-sequence machinery** (§14 in entirety: exact couples, double-complex spectral sequences, Leray-Serre as a primary tool, Gysin, multiplicative structure). No Babel Bible unit ships any of this; the Lawson-Michelsohn pilot's §2.5 row also identifies this as the largest analytic gap. Pass 3 will likely propose 2–3 new units in a new "spectral sequences" chapter under section 03 (or as `03.12.06 / 03.12.07` extending the homotopy chapter, or as a top-level new chapter `03.13`).
 
 (ii) **Mayer-Vietoris and the Čech-de Rham double complex** (§2 + §5 + §8 + §9 + §12). The book's distinctive two-level pedagogy. Pass 3 must ship at least one MV unit (perhaps `03.04.07 mayer-vietoris` and `03.04.08 cech-de-rham-double-complex` — slug-naming TBD) deepening the de Rham strand, plus exercise packs.
 
-(iii) **Rational homotopy / Sullivan minimal models** (§19 in entirety). Currently has no presence anywhere in Codex. Either ships as an extension to the homotopy chapter (`03.12.06`) or remains a Bott-Tu-specific footnote with low priority.
+(iii) **Rational homotopy / Sullivan minimal models** (§19 in entirety). Currently has no presence anywhere in Babel Bible. Either ships as an extension to the homotopy chapter (`03.12.06`) or remains a Bott-Tu-specific footnote with low priority.
 
-(iv) **The Thom-class / global-angular-form / $\Omega^*_{cv}$ machinery** (§6 in entirety + §11). The Bott-Tu derivation route to the Euler class is bypassed by Codex's Chern-Weil-curvature route. Pass 3 should consider a new unit `03.04.09 thom-isomorphism-de-rham` or `03.05.10 thom-class-global-angular-form` shipping the differential-form definition of the Thom class and the global angular form. This is also a load-bearing prerequisite for the LM-style spin-geometry derivations of Â-genus.
+(iv) **The Thom-class / global-angular-form / $\Omega^*_{cv}$ machinery** (§6 in entirety + §11). The Bott-Tu derivation route to the Euler class is bypassed by Babel Bible's Chern-Weil-curvature route. Pass 3 should consider a new unit `03.04.09 thom-isomorphism-de-rham` or `03.05.10 thom-class-global-angular-form` shipping the differential-form definition of the Thom class and the global angular form. This is also a load-bearing prerequisite for the LM-style spin-geometry derivations of Â-genus.
 
-(v) **The methodological doubling of proofs.** Less a content gap, more a writing-discipline gap: existing Codex units that contain Künneth / Poincaré duality / Thom isomorphism need a "tic-tac-toe alternative proof" expansion in their Master section, *after* the prerequisite Čech-de-Rham unit ships. This is gap (ii) producing this gap as a follow-on.
+(v) **The methodological doubling of proofs.** Less a content gap, more a writing-discipline gap: existing Babel Bible units that contain Künneth / Poincaré duality / Thom isomorphism need a "tic-tac-toe alternative proof" expansion in their Master section, *after* the prerequisite Čech-de-Rham unit ships. This is gap (ii) producing this gap as a follow-on.
 
 (vi) **Worked examples — Mayer-Vietoris on $S^n$, $\mathbb{C}P^n$ via good cover, spectral sequence of Hopf fibration, $\pi_4(S^3) = \mathbb Z/2$, minimal models of $S^n$ / $\mathbb{C}P^n$.** The pedagogical heart of the book (per §1.7). 23 of 41 named worked examples are GAPs. Pass 3 should produce a worked-example-pack unit (or distribute these across the new MV / spectral-sequence / rational-homotopy units).
 
@@ -1697,7 +1697,7 @@ Each unit is specified at the level needed to draft a Pass-4 agent prompt direct
 
 #### §3.1 summary table
 
-| ID | Title | Closes (§2 blocks) | Prereqs (Codex) | Time | Lean |
+| ID | Title | Closes (§2 blocks) | Prereqs (Babel Bible) | Time | Lean |
 |---|---|---|---|---|---|
 | 03.04.07 | Mayer-Vietoris (de Rham) | 1, 2 (partial) | 03.04.06, 03.04.04 | 5.5 h | partial |
 | 03.04.10 | Good cover + MV induction | 2 | 03.04.07, 03.04.06 | 5.5 h | none |
@@ -1720,7 +1720,7 @@ Each unit is specified at the level needed to draft a Pass-4 agent prompt direct
 
 ### §3.2 Existing units to deepen
 
-Six existing Codex units receive deepening passes, each addressing partial-coverage rows from §2.1 / §2.3 / §2.4 / §2.6 that are too small for a new unit but too substantial for a single exercise.
+Six existing Babel Bible units receive deepening passes, each addressing partial-coverage rows from §2.1 / §2.3 / §2.4 / §2.6 that are too small for a new unit but too substantial for a single exercise.
 
 #### D1 — `03.04.06 de Rham cohomology`
 
@@ -1844,7 +1844,7 @@ A new file at `notation/bott-tu.md` documents the **34 notation conventions** en
 
 ## Purpose
 
-This document maps Bott-Tu's notation to Codex's notation for every
+This document maps Bott-Tu's notation to Babel Bible's notation for every
 load-bearing convention. Readers cross-referencing Bott-Tu with Codex
 consult this table; agents producing units that cite Bott-Tu follow the
 **decision** column.
@@ -1884,7 +1884,7 @@ consult this table; agents producing units that cite Bott-Tu follow the
 | 29 | Two filtrations / two SS | ${}_I E_r, {}_{II} E_r$ | absent | **adopt Bott-Tu** (introduce in N7) | Originator convention |
 | 30 | Convergence symbol | $\Rightarrow$ | absent | **adopt Bott-Tu** (introduce in N7) | Standard cohomological convention |
 | 31 | Homotopy group | $\pi_n(X, x_0)$ | same | **use Codex (= Bott-Tu)** | Aligned |
-| 32 | Loop / path space | $\Omega X$, $PX$ | $\Omega X$ same; $PX$ partially absent | **adopt Bott-Tu for $PX$** (introduce in N12 / N14) | Path space currently mentioned in Codex but not used as primary object |
+| 32 | Loop / path space | $\Omega X$, $PX$ | $\Omega X$ same; $PX$ partially absent | **adopt Bott-Tu for $PX$** (introduce in N12 / N14) | Path space currently mentioned in Babel Bible but not used as primary object |
 | 33 | Eilenberg-MacLane space | $K(\pi, n)$ | $K(A, n)$ | **document both** (variable swap) | Functionally identical |
 | 34 | Hopf invariant | $H(f)$ | absent | **adopt Bott-Tu** (introduce in N14) | Originator convention; standard |
 
@@ -1900,9 +1900,9 @@ The global-angular-form sign convention $d\psi = -\pi^* e(E)$ is Bott-Tu (the mi
 #### Tally by decision
 
 - **Use Codex (= Bott-Tu)**: 17 conventions (50%). Already aligned at the symbol level.
-- **Adopt Bott-Tu** (Codex was missing or differs): 13 conventions (38%). Introduce in the new units listed.
+- **Adopt Bott-Tu** (Babel Bible was missing or differs): 13 conventions (38%). Introduce in the new units listed.
 - **Document both** (variable swap or stylistic): 2 conventions ($h$ vs $x$ for hyperplane; $\pi$ vs $A$ in $K(\pi, n)$).
-- **Pin** (Codex was inconsistent, fix in a single unit): 2 conventions ($\Phi$ Thom class; $PX$ path space).
+- **Pin** (Babel Bible was inconsistent, fix in a single unit): 2 conventions ($\Phi$ Thom class; $PX$ path space).
 
 The 13 "adopt Bott-Tu" decisions trigger a notation-update sub-pass within agent decomposition (Agent A handles 03.04.06 and 04.03.01 updates; Agent B handles N3, N4 introductions; Agent C handles N7, N8 introductions; Agent E handles N12, N13, N14 introductions).
 
@@ -2059,14 +2059,14 @@ Pass 5 (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit a
 
 #### 4.1 Theorem-layer self-check (book-as-input)
 
-- **Procedure.** Present the Bott-Tu §1.2 theorem inventory (144 named results) to the verification agent, row by row. For each entry, the agent runs a Codex grep for the corresponding theorem statement against the post-Pass-4 content and refreshes §2.1's ✓/△/GAP marks.
+- **Procedure.** Present the Bott-Tu §1.2 theorem inventory (144 named results) to the verification agent, row by row. For each entry, the agent runs a Babel Bible grep for the corresponding theorem statement against the post-Pass-4 content and refreshes §2.1's ✓/△/GAP marks.
 - **Pass criterion:** ≥ **137 of 144** named theorem rows marked ✓ covered (≥ 95%); ≤ **3 rows** still marked GAP (declared as standing exceptions, see §4.5); the remaining ≤ 4 rows marked △ partial **with explicit deepening promised in the next pass**. Aggregate must hit **≥ 95%** as $(✓ + 0.5 \times △) / 144$.
 - **Failure mode:** if any of N1–N14 fails to materially close its declared §2.1 rows, the verification agent flags by row number and routes back to Pass 4 for the responsible agent.
 
 #### 4.2 Exercise reproducibility check
 
-- **Procedure.** Sample 18 Bott-Tu exercises uniformly across the four chapters (using the §1.3 inventory + EP1 / EP2 / EP3 as the sampling frame; chapters weighted in proportion to total exercise count: Ch I 6 samples, Ch II 4, Ch III 5, Ch IV 3). For each, the verification agent finds the Codex unit a reader would use and quotes the relevant paragraph, then drafts a one-paragraph solution sketch using only Codex prose.
-- **Pass criterion:** ≥ **15 of 18** sampled exercises have a complete solution sketch derivable from Codex prose within 1 page; ≤ 3 require external reference. The 15/18 threshold ≈ 83%, set at the level where a graduate reader can fill the gap from minor reference rather than missing-content.
+- **Procedure.** Sample 18 Bott-Tu exercises uniformly across the four chapters (using the §1.3 inventory + EP1 / EP2 / EP3 as the sampling frame; chapters weighted in proportion to total exercise count: Ch I 6 samples, Ch II 4, Ch III 5, Ch IV 3). For each, the verification agent finds the Babel Bible unit a reader would use and quotes the relevant paragraph, then drafts a one-paragraph solution sketch using only Babel Bible prose.
+- **Pass criterion:** ≥ **15 of 18** sampled exercises have a complete solution sketch derivable from Babel Bible prose within 1 page; ≤ 3 require external reference. The 15/18 threshold ≈ 83%, set at the level where a graduate reader can fill the gap from minor reference rather than missing-content.
 - **Failure mode:** if a chapter is systematically under-represented (e.g., 4 of 5 sampled Ch III exercises fail), Agent C / Agent E's deliverables are flagged for additional exercise-pack content.
 
 #### 4.3 Notation comprehension check
@@ -2079,7 +2079,7 @@ Pass 5 (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit a
 
 Bott-Tu's §1.7 four chapter-level intuition arcs are the book's distinctive achievement and cannot be summarised by theorem rows. Pass 5 explicitly checks each.
 
-- **Procedure.** For each of the four §1.7 arcs (no-obstacle path; double complex made graphical; dual-proof discipline; unification arc), the verification agent locates the corresponding Codex prose (per the §3.1 / §3.2 Master-section requirements) and judges whether the arc is *articulated* (not merely implicit).
+- **Procedure.** For each of the four §1.7 arcs (no-obstacle path; double complex made graphical; dual-proof discipline; unification arc), the verification agent locates the corresponding Babel Bible prose (per the §3.1 / §3.2 Master-section requirements) and judges whether the arc is *articulated* (not merely implicit).
 - **Pass criterion:** all 4 arcs ✓ explicit. Specifically:
   - Arc 1 (no-obstacle path) — `03.04.06` D1 Master section + N1 + N2.
   - Arc 2 (graphical double complex) — N3 Master section.
@@ -2247,7 +2247,7 @@ To reach the 95% strict-aggregate threshold, 3 more rows must move from △ to �
 | 89 | Leray's general construction | N8 covers; the topological version is at theorem-level depth, the sheaf version is at master depth |
 | 110 | Postnikov tower | 03.12.05 Exercise 7 + Master "Advanced results" — already ✓ in original §2.1, but the Postnikov $k$-invariant route is at Exercise depth; the deepening D5 / N14 promote to theorem-level in N14 Master |
 | 124 | Properties of Chern classes (full Bott-Tu list) | D3 lists all four; whether they are each stated as separate theorems or as one composite theorem affects the count |
-| 131 | $c(T\mathbb{C}P^n) = (1+h)^{n+1}$ | D3 + 03.06.04 — already ✓; some literature presentations require the proof via Euler sequence vs. via splitting; the derivation route in Codex is the splitting-principle one, not the Euler-sequence one Bott-Tu uses |
+| 131 | $c(T\mathbb{C}P^n) = (1+h)^{n+1}$ | D3 + 03.06.04 — already ✓; some literature presentations require the proof via Euler sequence vs. via splitting; the derivation route in Babel Bible is the splitting-principle one, not the Euler-sequence one Bott-Tu uses |
 | 142 | $[M, BU(k)] \leftrightarrow$ rank-$k$ bundles | N13 + D5 — already ✓; the unique-up-to-homotopy clause is at Exercise depth |
 | 144 | Naturality of Chern classes via $BU(k)$ | D3 + N13 — already ✓; whether to count the "universal" vs. "axiomatic" route as fully cross-developed |
 
@@ -2274,9 +2274,9 @@ All 5 sampled units carry full originator-prose treatment per `docs/plans/FASTTR
 
 ### §4.2 Exercise reproducibility check
 
-Sampled 18 Bott-Tu exercises uniformly across the four chapters: 5 from Ch I (de Rham), 5 from Ch II (Čech-de Rham), 4 from Ch III (spectral sequences), 4 from Ch IV (characteristic classes). For each, identify the Codex unit a reader would consult and judge whether they can produce a one-page solution sketch from Codex prose alone.
+Sampled 18 Bott-Tu exercises uniformly across the four chapters: 5 from Ch I (de Rham), 5 from Ch II (Čech-de Rham), 4 from Ch III (spectral sequences), 4 from Ch IV (characteristic classes). For each, identify the Babel Bible unit a reader would consult and judge whether they can produce a one-page solution sketch from Babel Bible prose alone.
 
-| # | Bott-Tu source | Exercise | Codex unit | Verdict |
+| # | Bott-Tu source | Exercise | Babel Bible unit | Verdict |
 |---|---|---|---|---|
 | 1 | §1 | Verify $d^2 = 0$ in coordinates | `03.04.04` "Key theorem with proof" + Exercises 1–7 | **yes** — $d^2 = 0$ proved with full coordinate computation |
 | 2 | §2 | Compute $H^*(S^1)$ via two-chart MV | D1 (`03.04.06`) "Mayer-Vietoris computation of $H^*(S^n)$" §"Step $H^*(S^1)$" | **yes** — explicit two-chart computation |
@@ -2305,7 +2305,7 @@ Sampled 18 Bott-Tu exercises uniformly across the four chapters: 5 from Ch I (de
 
 **Score: 17 yes + 1 partial = 17/18 effective; conservatively 16/18 (counting the partial as a half-yes) = 89%.** Threshold is 15/18 (83%). **§4.2 passes.**
 
-The single partial (row 18, $H^*(BU(2))$) is a depth-of-derivation issue: Codex states the result everywhere it appears and derives it via the Borel construction in EP2 Exercise 8, but the alternative direct route via the splitting principle and symmetric-function invariant theory — which is what Bott-Tu §23 carries — is in N13 Master with a forward-reference rather than a full derivation. A reader can verify the result and reproduce the Borel-construction proof from Codex content alone; reproducing the Bott-Tu §23 invariant-theory proof requires consulting one external page.
+The single partial (row 18, $H^*(BU(2))$) is a depth-of-derivation issue: Codex states the result everywhere it appears and derives it via the Borel construction in EP2 Exercise 8, but the alternative direct route via the splitting principle and symmetric-function invariant theory — which is what Bott-Tu §23 carries — is in N13 Master with a forward-reference rather than a full derivation. A reader can verify the result and reproduce the Borel-construction proof from Babel Bible content alone; reproducing the Bott-Tu §23 invariant-theory proof requires consulting one external page.
 
 Bott-Tu's Ch III is the densest exercise environment in the book (per §1.3); EP2 (the spectral-sequence pack) shoulders most of that load with 18 problems including the explicit $\pi_4(S^3)$ Postnikov computation, transgression in Stiefel manifolds, and the Eilenberg-Moore on the path-loop fibration. The Ch III sample passes 4/4. EP3's 8 rational-homotopy exercises cover §19 in full — 4/4 on Ch III rational-homotopy alone.
 
@@ -2315,7 +2315,7 @@ Bott-Tu's Ch III is the densest exercise environment in the book (per §1.3); EP
 
 Sampled 6 specific Bott-Tu notation conventions per §3.7.4 spec, plus a tic-tac-toe sample to verify the load-bearing $\delta$ vs $d$ discipline.
 
-| # | Convention | Bott-Tu source | Codex location | Verdict |
+| # | Convention | Bott-Tu source | Babel Bible location | Verdict |
 |---|---|---|---|---|
 | 1 | $\Omega^*_{cv}(E)$ — Bott-Tu's compact-vertical coinage | §6 (origin) | N4 (`03.04.09`) "Formal definition" introduces $\Omega^*_{cv}(E)$ as Bott-Tu's coinage with explicit "Bott-Tu §6 — Bott-Tu coinage" reference; used throughout N4 Master section | **parses** ✓ |
 | 2 | $\delta$ vs $d$ typographic discipline (Čech vs de Rham) | §8 (the load-bearing convention per §2.4) | D2 (`04.03.01`) lines 158–164 explicitly fix the convention with the quote "Bott-Tu §8 fixes this typographic discipline"; N3 (`03.04.11`) adopts uniformly; the tic-tac-toe alternative-proof sub-section in 04.03.01 line 491 uses $D = d + (-1)^p \delta$ correctly | **parses** ✓ — special check: the §8–§9 tic-tac-toe sample resolves cleanly |
@@ -2324,7 +2324,7 @@ Sampled 6 specific Bott-Tu notation conventions per §3.7.4 spec, plus a tic-tac
 | 5 | Exact couple notation $E_r$ + $d_r$ + ${}_I E$ / ${}_{II} E$ + $\Rightarrow$ | §14 | N7 (`03.13.01`) "Formal definition" lines 159–195 fix all four conventions; N8 uses throughout | **parses** ✓ |
 | 6 | Tautological $\gamma_k^n \to G_k(\mathbb{C}^n)$ | §23 | N13 (`03.08.05`) "Formal definition" introduces $\gamma_k^n$ as Bott-Tu's notation; D5 (`03.08.04`) uses the same symbol for the universal bundle on the finite Grassmannian | **parses** ✓ |
 
-**Tic-tac-toe parse spot-check.** Pulled the $S^2$ tic-tac-toe Künneth computation from the Bott-Tu §9 worked example as represented in N3 Master section. The $S^2 \times S^2$ computation uses $\delta$ explicitly for horizontal (Čech) arrows and $d$ for vertical (de Rham) arrows; the diagonal staircase is drawn with the correct sign $D = d + (-1)^p \delta$. The reader can parse the entire diagram using only Codex notation conventions. **Verdict: parses ✓.**
+**Tic-tac-toe parse spot-check.** Pulled the $S^2$ tic-tac-toe Künneth computation from the Bott-Tu §9 worked example as represented in N3 Master section. The $S^2 \times S^2$ computation uses $\delta$ explicitly for horizontal (Čech) arrows and $d$ for vertical (de Rham) arrows; the diagonal staircase is drawn with the correct sign $D = d + (-1)^p \delta$. The reader can parse the entire diagram using only Babel Bible notation conventions. **Verdict: parses ✓.**
 
 **Score: 6/6.** Threshold is 6/6. **§4.3 passes.**
 
@@ -2336,7 +2336,7 @@ The single notation gap from §2.4 — the absent `notation/bott-tu.md` standalo
 
 Bott-Tu's §1.7 four chapter-level intuition arcs are the book's distinctive achievement and cannot be summarised by theorem rows. Each is checked individually.
 
-| Arc | Codex location | Verbatim text-anchor | Verdict |
+| Arc | Babel Bible location | Verbatim text-anchor | Verdict |
 |---|---|---|---|
 | **Arc 1 — No-obstacle path** (de Rham via Mayer-Vietoris; cohomology by gluing two charts; canonical computation method) | D1 (`03.04.06`) Master "Historical & philosophical context" + N1 (`03.04.07`) `synthesis_claims` + N2 (`03.04.10`) Master | "The architectural arc that organises this — *cohomology computed by gluing two charts* — is what Bott emphasises as the **no-obstacle path** of the book's introduction. The Mayer-Vietoris computation of $H^*(S^n)$ is the canonical exemplar..." (D1 line 552) + N1 synthesis claim "Mayer-Vietoris is the canonical computation method for de Rham cohomology — the no-obstacle path of Bott-Tu §1.7" | **explicit ✓** |
 | **Arc 2 — Graphical double complex** (horizontal $\delta$, vertical $d$; tic-tac-toe; "spectral sequences are double complexes you've already done") | N3 (`03.04.11`) Master "Historical & philosophical context" | "The **double-complex tic-tac-toe pedagogy** — the part of the apparatus channeled here directly from §8–§9 of Bott-Tu — is Bott and Tu's signature contribution to the exposition. ... The diagonal staircase, drawn explicitly on the page as a sequence of zig-zag moves on the bigraded grid, is what they ask the reader to internalise." + "By the time the reader reaches the formal definition of a spectral sequence, the reader has already done several." | **explicit ✓** |
@@ -2410,13 +2410,13 @@ The Pass-4 production batch is a substantial success and reaches the §3.7 sign-
 
 - **+87 theorem rows promoted** (65 from GAP, 22 from △). Mayer-Vietoris and good-cover induction (rows 9–11, 23, 24, 25); the Čech-de Rham double complex with tic-tac-toe (rows 51–58, 72–75); Hopf index theorem with global angular form (rows 67–71); local systems and monodromy (rows 76–80); the entire spectral-sequence machinery (rows 81–89); singular cohomology and de Rham theorem (rows 90–95); cohomology of $\Omega S^n$ via path fibration (rows 96–98); Whitehead tower with $\pi_4(S^3)$ and $\pi_5(S^3)$ (rows 109, 111–114); Sullivan minimal models with the main theorem of rational homotopy (rows 115–119); flag manifolds and Borel presentation (rows 129, 130); universal bundle and infinite Grassmannian (rows 138–142) — all newly present at full Master depth.
 - **All 4 chapter-level intuition arcs at 100%** — the campaign's most distinctive jump (from 13% pre-batch).
-- **Notation comprehension at 6/6** — the load-bearing $\delta$ vs $d$ tic-tac-toe discipline, the global-angular-form Bott-Tu sign, the Thom class $\Phi$, exact-couple $E_r$, $\gamma_k^n$ tautological, and $\Omega^*_{cv}$ all parse from Codex notation.
+- **Notation comprehension at 6/6** — the load-bearing $\delta$ vs $d$ tic-tac-toe discipline, the global-angular-form Bott-Tu sign, the Thom class $\Phi$, exact-couple $E_r$, $\gamma_k^n$ tautological, and $\Omega^*_{cv}$ all parse from Babel Bible notation.
 - **17/18 + 1 partial sampled exercises reproducible** (89%), well above the 15/18 = 83% threshold.
 - **Master-section originator-prose preserved** in all 5 sampled units across Ch I/II/III/IV, including Bott-Tu 1982 explicit originator-text status for Mayer-Vietoris (§2 partition-of-unity proof), Čech-de Rham double complex (§8–§9 tic-tac-toe pedagogy), spectral-sequence Čech-de-Rham prototype (§14), Sullivan minimal models exposition (§19), and Grassmannian-flag-manifold characteristic-class pedagogy (§23).
 - **Validation green:** all units pass 27/27 (5711/5711 site-wide checks).
 - **Cross-Tier α leverage realised:** the spectral-sequence sub-DAG (`03.13.01–03`) is now in production and unblocks Voisin (Hodge theory); the Čech + local systems edges unblock Hartshorne Ch. III; the Leray-Hirsch + Borel presentation unblock Fulton-Harris.
 
-The 92.9% strict / 95.0% lenient theorem-layer reading is, in honesty, the result of a Pass 4 that delivered substantial content at high depth but where some of the 144-row inventory is captured in master sections as proved propositions invoked in larger arguments rather than as standalone named theorems. This pattern is consistent with how Bott-Tu treats the same propositions in their book (Bott-Tu's §1.2 inventory is 144 named results, but in the actual prose, some are theorems and some are unnamed propositions; Codex's content reflects the same distribution).
+The 92.9% strict / 95.0% lenient theorem-layer reading is, in honesty, the result of a Pass 4 that delivered substantial content at high depth but where some of the 144-row inventory is captured in master sections as proved propositions invoked in larger arguments rather than as standalone named theorems. This pattern is consistent with how Bott-Tu treats the same propositions in their book (Bott-Tu's §1.2 inventory is 144 named results, but in the actual prose, some are theorems and some are unnamed propositions; Babel Bible's content reflects the same distribution).
 
 #### Sign-off artifact
 

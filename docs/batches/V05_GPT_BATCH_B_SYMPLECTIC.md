@@ -1,4 +1,4 @@
-# Codex v0.5 — Strand B (Symplectic Geometry) — gpt-codex batch
+# Babel Bible v0.5 — Strand B (Symplectic Geometry) — gpt-codex batch
 
 This is your strand. The claude session is concurrently producing Strands A (Algebraic geometry), C (Riemann surfaces), and D (Representation theory). Strand E (Statistical field theory) is your second strand — see `docs/batches/V05_GPT_BATCH_E_SFT.md`.
 
@@ -62,7 +62,7 @@ Same as previous batches:
 Same as v0.x:
 
 - **Sign convention** for symplectic forms: $\omega(X_H, \cdot) = dH$ (the "geometric" convention). Mathematical / physical literature uses both signs; commit to this one and document it clearly in the formal-definition section of `05.02.01`.
-- **Citation syntax**: `[ref: source locator]` for external; `[NN.NN.NN]` for cross-refs to other Codex units. `TODO_REF` placeholder when source not in `reference/`.
+- **Citation syntax**: `[ref: source locator]` for external; `[NN.NN.NN]` for cross-refs to other Babel Bible units. `TODO_REF` placeholder when source not in `reference/`.
 - **No emojis anywhere**.
 - **Lean status**: Mathlib has `SymplecticForm`, `Symplectic`, partial Hamiltonian-mechanics infrastructure. Use `lean_status: partial` for units where Mathlib has the structure but not the full theorem; `none` for units where Mathlib lacks substantial infrastructure (e.g., Floer homology).
 

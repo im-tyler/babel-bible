@@ -77,12 +77,12 @@ chooses NAT.
 
 ---
 
-## §2 Coverage table (Codex vs NAT)
+## §2 Coverage table (Babel Bible vs NAT)
 
 Cross-referenced against the current 313-unit corpus.
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| NAT topic | Codex unit(s) | Status | Note |
+| NAT topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Fundamental groupoid $\pi_1(X, A)$ | — | ✗ | **Gap** — already on the Brown 1.05 punch-list (`03.12.0a`); NAT depends on it. |
 | Seifert-van Kampen for groupoids (group + groupoid) | — | ✗ | **Gap** — already on Brown 1.05 punch-list (`03.12.0b`). NAT prerequisite. |
@@ -91,7 +91,7 @@ Cross-referenced against the current 313-unit corpus.
 | Relative homotopy group $\pi_n(X, A, x_0)$ | — | ✗ | **Gap.** Foundational and *load-bearing* for NAT. |
 | Whitehead's crossed module of a pair $\Pi_2(X, A, x_0) \to \pi_1(A, x_0)$ | — | ✗ | **Gap.** This is the 2-dim object NAT generalises to all dimensions. |
 | Crossed complex of a filtered space | — | ✗ | **Gap (high priority — NAT's central object).** |
-| Cubical singular complex / cubical ω-groupoid | — | ✗ | **Gap.** Cubical methods are absent from the Codex; need a dedicated stub even if Codex doesn't follow the cubical track further. |
+| Cubical singular complex / cubical ω-groupoid | — | ✗ | **Gap.** Cubical methods are absent from the Babel Bible; need a dedicated stub even if Codex doesn't follow the cubical track further. |
 | Equivalence: crossed complexes ≃ cubical ω-groupoids | — | ✗ | **Gap.** Brown-Higgins theorem; pointer unit only at FT-equivalence. |
 | Higher Homotopy Seifert-van Kampen (HvKT) | — | ✗ | **Gap (high priority — NAT's central theorem).** |
 | Worked computation: $\pi_2$ of the mapping cone $S^1 \cup_2 D^2$ | — | ✗ | **Gap.** The signature demonstration that HvKT *computes* where classical methods don't. |
@@ -101,7 +101,7 @@ Cross-referenced against the current 313-unit corpus.
 | Classifying space $B(\mathcal{C})$ of a crossed complex | — | ✗ | **Gap (low priority — survey-level pointer).** |
 | Pointer to ∞-groupoid models / Grothendieck *Pursuing Stacks* | — | ✗ | **Gap (low priority — Master-tier connection only).** |
 
-**Aggregate coverage estimate:** ~0% of NAT has corresponding Codex units.
+**Aggregate coverage estimate:** ~0% of NAT has corresponding Babel Bible units.
 The gap is total. This is unsurprising — NAT is a research-monograph
 extension of Brown 1.05, and Brown 1.05 itself is only ~30% covered.
 Closing the Brown 1.05 punch-list is a hard prerequisite for any
@@ -200,7 +200,7 @@ and 5 should carry originator-prose treatment per
 crossed-module form) and $\pi_n(X, A, x_0)$ (classical relative homotopy
 group) — they are the same set, but $\Pi$ carries the crossed-module action
 in the notation. NAT also writes $\rho(X_*)$ for the cubical ω-groupoid
-and $C(X_*)$ for the crossed complex. The Codex notation decision (per
+and $C(X_*)$ for the crossed complex. The Babel Bible notation decision (per
 `docs/specs/UNIT_SPEC.md` §11) should: use $\pi_n(X, A, x_0)$ for the
 relative homotopy group as a set, use $\Pi_2(X, A, x_0) \to \pi_1(A, x_0)$
 explicitly when the crossed-module structure is invoked, and adopt NAT's
@@ -228,7 +228,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
 - The Brown 1.05 punch-list priority-1 units have shipped (strict prereq).
-- ≥95% of NAT's named theorems in chapters 1–10 map to Codex units
+- ≥95% of NAT's named theorems in chapters 1–10 map to Babel Bible units
   (currently 0%; after priority-1 units this rises to ~70%; after
   priority-1+2 to ~90%; full ≥95% requires priority-3 + selective
   priority-4).

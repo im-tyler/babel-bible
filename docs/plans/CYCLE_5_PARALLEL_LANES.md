@@ -8,7 +8,7 @@ The math-lane session (started 2026-05-19) shipped Cycle 4 and the structural-cl
 
 ## §1 Project orientation (assume nothing — read in full)
 
-You are working on the **B.I.B.L.E project (Codex curriculum framework)**. Project root: `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`. The project is a tiered, multi-domain mathematical-knowledge framework — every unit ships with Beginner / Intermediate / Master tiers, anchored to canonical textbooks, validated against a 27-point structural rubric (`scripts/validate_unit.py`), and (for math/theoretical-physics) accompanied by a Lean 4 formalization.
+You are working on the **B.I.B.L.E project (Babel Bible curriculum framework)**. Project root: `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`. The project is a tiered, multi-domain mathematical-knowledge framework — every unit ships with Beginner / Intermediate / Master tiers, anchored to canonical textbooks, validated against a 27-point structural rubric (`scripts/validate_unit.py`), and (for math/theoretical-physics) accompanied by a Lean 4 formalization.
 
 Before doing any work, read in this order:
 
@@ -56,7 +56,7 @@ Before doing any work, read in this order:
 | **Math** | Session A (math-lane orchestrator) | `content/00-precalc/` through `content/07-representation-theory/` | All structural-cleanup files in §2 |
 | **Chem/Bio/Phys** | Session B (you, if you're reading this as a freshly-opened terminal) | `content/08-stat-mech/`, `09-classical-mech/`, `10-em-sr/`, `11-stat-mech-physics/`, `12-quantum/` (except the §2 collision files), `13-gr-cosmology/`, `14-genchem-pchem/`, `15-orgchem/`, `16-inorgchem/`, `17-mol-cell-bio/`, `18-organismal-bio/`, `19-eco-evo-bio/`, `20-philosophy/` | Files explicitly excluded in §2 |
 
-**Lean modules** follow content: math units' Lean lives in `lean/Codex/Foundations/`, `lean/Codex/Analysis/`, etc.; physics units in `lean/Codex/Quantum/`, `lean/Codex/ClassicalMech/`, etc. The Lean namespace `Codex.*` is the project's Lean library name and stays globally consistent.
+**Lean modules** follow content: math units' Lean lives in `lean/Codex/Foundations/`, `lean/Codex/Analysis/`, etc.; physics units in `lean/Codex/Quantum/`, `lean/Codex/ClassicalMech/`, etc. The Lean namespace `Babel Bible.*` is the project's Lean library name and stays globally consistent.
 
 **Shared files** (both lanes append, conflicts resolved on commit-then-pull-rebase):
 
@@ -144,7 +144,7 @@ Each agent brief should include:
 The math-lane session uses this template; copy and adapt:
 
 ```text
-You are producing a single Codex unit for the B.I.B.L.E project. Cycle 5, Track B/C, lane chem-bio-phys.
+You are producing a single Babel Bible unit for the B.I.B.L.E project. Cycle 5, Track B/C, lane chem-bio-phys.
 
 Working directory: /Users/tyler/Documents/Code Projects/B.I.B.L.E/
 

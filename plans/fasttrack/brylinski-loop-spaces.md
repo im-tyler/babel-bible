@@ -141,14 +141,14 @@ gerbes ⇔ loop-space line bundles ⇔ loop-group central extensions.
 
 ---
 
-## §2 Coverage table (Codex vs Brylinski)
+## §2 Coverage table (Babel Bible vs Brylinski)
 
-Cross-referenced against the current Codex corpus (per file scan of
+Cross-referenced against the current Babel Bible corpus (per file scan of
 `content/03-modern-geometry/{04,05,06,07,08,11,12,13}-*/` and
 `content/05-symplectic/`). ✓ = covered; △ = partial / different framing;
 ✗ = not covered.
 
-| Brylinski topic | Chapter | Codex unit(s) | Status | Note |
+| Brylinski topic | Chapter | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | Sheaf hypercohomology, Čech–de-Rham double complex | 1 | `03.04.11-cech-de-rham.md` | △ | Single-complex Čech-de-Rham only; **gap**: hypercohomology of a complex of sheaves; spectral sequence of the Čech-hypercohomology bicomplex. |
 | Smooth Deligne complex $\mathbb{Z}(p)_D^\infty$ | 1 | — | ✗ | **Gap (high priority — Brylinski's foundational tool; load-bearing for everything downstream).** |
@@ -176,7 +176,7 @@ units, and most of that 5% is the algebraic / Lie-cocycle side of Ch. 7
 Deligne-cohomology and gerbe apparatus (Chs. 1, 4, 5, 6)** is absent. The
 gap is essentially total for the book's central content.
 
-Prerequisite-blocker note: the Codex has solid bundle/connection
+Prerequisite-blocker note: the Babel Bible has solid bundle/connection
 foundations (`03.05-bundles/`, `03.06-characteristic-classes/`) and Čech
 cohomology (`03.04.11-cech-de-rham.md`, `06.04.02-cech-cohomology-line-bundles.md`),
 which is the minimum substrate. No new prereq stub is needed *before*
@@ -188,7 +188,7 @@ gerbes), not in the foundations.
 
 ## §3 Gap punch-list (P3-lite — units to write, priority-ordered)
 
-**Priority 0 — no external blockers.** The Codex's existing
+**Priority 0 — no external blockers.** The Babel Bible's existing
 `03.04.11-cech-de-rham.md`, `03.05.*-bundles/`, `03.06.*-characteristic-classes/`
 and `03.11.01-central-extension.md` are sufficient prereq substrate.
 
@@ -327,7 +327,7 @@ $[\underline{\mathbb{Z}} \to \underline{\Omega}^0 \to \cdots \to
 \underline{\Omega}^{p-1}]$. Bunke–Schick and the differential-cohomology
 literature write $\hat{H}^p(M, \mathbb{Z})$ for $H^p(M, \mathbb{Z}(p)_D^\infty)$.
 Murray writes $\mathcal{G} \to M$ for a bundle gerbe; Brylinski writes
-$\mathcal{C} \to M$ for a sheaf of groupoids (gerbe). The Codex notation
+$\mathcal{C} \to M$ for a sheaf of groupoids (gerbe). The Babel Bible notation
 decision (per `docs/specs/UNIT_SPEC.md` §11) should: adopt Brylinski's
 $\mathbb{Z}(p)_D^\infty$ in `03.06.07` for the complex, adopt the
 differential-cohomology $\hat{H}^p$ in unit bodies as the headline name,
@@ -372,7 +372,7 @@ equivalence-coverage when:
   a stated theorem plus at least one worked computation
   (the level-$k$ gerbe on $\mathrm{SU}(2)$ is the canonical choice).
 - ≥95% of Brylinski's named theorems in Chs. 1, 2, 4, 5, 6, 7 map to
-  Codex units (currently ~5%; after priority-1 this rises to ~75%;
+  Babel Bible units (currently ~5%; after priority-1 this rises to ~75%;
   after priority-1 + priority-2 to ~90%; ≥95% additionally needs the
   exercise-pack sweep noted in §5 and the priority-3 pointer for FHT).
 - ≥90% of Brylinski's signature worked examples map: the prequantum

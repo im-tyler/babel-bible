@@ -1,4 +1,4 @@
-# Codex — Wave 4 Plan
+# Babel Bible — Wave 4 Plan
 
 **Wave 4.** Production of the deep prerequisites that Wave 3 units (and a handful of Wave 2 mid-tier units) declared `pending_prereqs: true` against. After Wave 4, every shipped unit's prerequisites should resolve to other shipped units — the curriculum DAG becomes traversable from leaf to apex with zero residual `pending_prereqs: true`.
 

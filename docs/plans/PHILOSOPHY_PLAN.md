@@ -1,8 +1,8 @@
-# Codex — Philosophy Plan
+# Babel Bible — Philosophy Plan
 
-**Drafted 2026-05-17.** Final per-domain plan in the five-domain expansion. Sibling of `PHYSICS_PLAN.md` / `CHEMISTRY_PLAN.md` / `BIOLOGY_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md`. Authored last per the umbrella §6 sequence — philosophy is mostly a *receiver* of cross-domain hooks, so it benefits from seeing what shape the other four want to point at it.
+**Drafted 2026-05-17; updated 2026-05-22.** Per-domain plan for philosophy in the cross-domain expansion. Sibling of `PHYSICS_PLAN.md`, `CHEMISTRY_PLAN.md`, `BIOLOGY_PLAN.md`, and `LANGUAGE_WORLD_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md`. Philosophy is mostly a *receiver* of cross-domain hooks, so it benefits from seeing what shape the other domains want to point at it.
 
-**Status:** Draft. Locks the **hybrid mode decision** (philosophy gets *both* the existing synthesis essays AND a new tiered-units track for analytic philosophy of science), the subsection allocation under §20, anchor literature, mastery endpoints, the inbound-hook taxonomy that determines where new units are seeded, and the essay-ID retrofit.
+**Status:** Active. Locks the **hybrid mode decision** (philosophy gets *both* synthesis essays AND tiered units), the subsection allocation under §20, anchor literature, mastery endpoints, inbound-hook taxonomy, and essay-ID retrofit. Live production has already added epistemology and ethics units, so ethics and general epistemology are now admitted §20 material rather than future exclusions.
 
 Read before this plan: `OVERVIEW.md`; `BIBLE_EXPANSION_PLAN.md` (esp. §2.5 phil mode + §3 contract); the 6 existing essays at `site/src/content/philosophy/01-reflexivity` … `06-realization`; `PHYSICS_PLAN.md`, `CHEMISTRY_PLAN.md`, `BIOLOGY_PLAN.md` outbound-hook taxonomies (they tell us what phil needs to land).
 
@@ -13,7 +13,7 @@ Read before this plan: `OVERVIEW.md`; `BIBLE_EXPANSION_PLAN.md` (esp. §2.5 phil
 1. **Resolves the mode question** (open per umbrella): philosophy adopts **hybrid mode**, with two distinct content registers running parallel: synthesis essays (existing) + tiered analytic-philosophy units (new). Both forms have legitimate roles; neither subsumes the other.
 2. **Retrofits the 6 existing essays with IDs** `20.essays.01` … `20.essays.06` so cross-refs from other domains resolve. This was a hard requirement from `BIBLE_EXPANSION_PLAN.md` §10 step 4.
 3. **Allocates subsections under §20** for analytic philosophy of science — one subsection per scientific domain we mirror, plus logic, phil-of-science-general, and phil-of-mind.
-4. **Names Wave 1 seeds**: complete the essay retrofit + produce 2 analytic units chosen because they are the highest-leverage inbound-hook targets across all four other domains.
+4. **Names Wave 1 seeds**: complete the essay retrofit + produce analytic units chosen because they are the highest-leverage inbound-hook targets across the other domains.
 5. **Specifies the cross-domain return surface** — how phil emits "see also" hooks *back into* science units (the reverse direction of the dominant hook flow).
 
 It does not:
@@ -57,25 +57,27 @@ Philosophy occupies a single top-level section (§20) per the umbrella prefix ta
 | ID prefix | Subsection | Role |
 |---|---|---|
 | `20.essays.NN` | Synthesis essays | Role A; existing 6 + future additions |
-| `20.01.NN` | Logic and formal methods | Tiered units; covers propositional / first-order / modal logic, formal semantics, computability foundations |
-| `20.02.NN` | Philosophy of mathematics | Tiered units; Platonism, structuralism, formalism, intuitionism, indispensability, set-theoretic foundations |
+| `20.01.NN` | Epistemology, logic, and formal methods | Tiered units; knowledge, justification, truth, propositional / first-order / modal logic, formal semantics, computability foundations |
+| `20.02.NN` | Ethics and value theory | Tiered units; rights, liberty, moral dilemmas, well-being, flourishing, applied moral frameworks |
 | `20.03.NN` | Philosophy of physics | Tiered units; interpretation of QM, classical-quantum boundary, spacetime ontology, the arrow of time |
-| `20.04.NN` | Philosophy of chemistry | Tiered units; the bond ontology, reduction, structural realism in molecular chem |
+| `20.04.NN` | Aesthetics and philosophy of language/literature | Reserved for future §22-facing philosophy units; no forced production in v1 |
 | `20.05.NN` | Philosophy of biology | Tiered units; species, units of selection, fitness, teleology, life, agency, the gene concept |
 | `20.06.NN` | Philosophy of mind | Tiered units; consciousness (hard problem), intentionality, computationalism, embodiment |
-| `20.07.NN` | General philosophy of science | Tiered units; explanation, theory choice, evidence, scientific realism vs anti-realism, methodology |
+| `20.07.NN` | Political philosophy and democracy | Tiered units; legitimacy, authority, rights, civic order, democracy-facing concepts |
+| `20.08.NN` | General philosophy of science | Tiered units; explanation, theory choice, evidence, scientific realism vs anti-realism, methodology |
+| `20.09.NN` | Philosophy of mathematics | Tiered units; Platonism, structuralism, formalism, intuitionism, indispensability, set-theoretic foundations |
 
 **Locked.** This is the §20 layout.
 
-The `20.essays.NN` subsection is a single flat namespace; essays don't subdivide by topic because their integrative arc spans multiple. The `20.01–07` subsections subdivide because analytic phil-of-science has clearly distinct sub-disciplines that map onto the other domains' content.
+The `20.essays.NN` subsection is a single flat namespace; essays don't subdivide by topic because their integrative arc spans multiple. The `20.01–09` subsections subdivide because tiered philosophy has distinct sub-disciplines that map onto other domains' content.
 
 **Addressing-semantics note.** §20 uses the same dotted-triple `section.chapter.unit` form as math/physics/chem/bio, *but with a semantic asymmetry*: in math/physics/chem/bio, level-2 is a chapter inside one section. In §20, level-2 is a **sub-discipline** (logic / phil-of-math / phil-of-physics / etc.) — there is no "chapter of philosophy" the way there is "chapter of QM". The validator regex (`^\d{2}\.\d{2}\.\d{2}$`) treats both forms identically; the asymmetry is in human-readable interpretation only. Cross-domain `hooks_out` targets like `20.03.01` parse as section=20, sub-discipline=03 (phil-of-physics), unit=01 — not as section=20, chapter=03 in the math sense. Document this so authors don't conflate the two readings.
 
-### 3.1 Why these 7 subsections, not more or fewer
+### 3.1 Why these subsections, not more or fewer
 
-Not more: ethics, aesthetics, political phil, history of phil are *out of v1 scope* for Codex (math-and-sciences focus per `OVERVIEW.md`). Phil of language, epistemology, metaphysics-as-general appear only via the phil-of-X subsections that they bear on (e.g., the epistemology of testimony in science appears in 20.07; metaphysical commitments of QM interpretation in 20.03).
+Not more: history-of-philosophy survey and broad metaphysics-as-a-standalone-spine remain out of v1. Ethics, epistemology, and political philosophy are now in scope because live §20 units already depend on them and §23 world/civics needs principled hooks into rights, liberty, legitimacy, and evidence.
 
-Not fewer: collapsing phil-of-physics and phil-of-chemistry into "phil-of-natural-science" would obscure the very different methodological commitments each touches. Keeping them parallel to the science sections makes the cross-domain hook contract clean (a physics unit hooks to 20.03; a bio unit hooks to 20.05; etc.).
+Not fewer: collapsing epistemology, ethics, phil-of-physics, phil-of-biology, and political philosophy into one "general philosophy" bucket would make cross-domain hooks useless. Keeping them distinct makes the contract clean: physics hooks to 20.03, biology to 20.05/20.06, world/civics to 20.02/20.07, language to 20.04, math to 20.09.
 
 ---
 
@@ -90,7 +92,7 @@ Not fewer: collapsing phil-of-physics and phil-of-chemistry into "phil-of-natura
 - The author wants to draw a **structural analogy** across traditions (e.g., the 01-reflexivity essay drawing the same structure from Vedanta, Sufism, and mathematics).
 - There is no operationalized mastery endpoint — the essay is intended to *change how the reader sees*, not to be tested.
 
-### 4.2 When to write a tiered analytic unit (under `20.01` … `20.07`)
+### 4.2 When to write a tiered analytic unit (under `20.01` … `20.09`)
 
 - The content is **a position, an argument, or a concept** with a definable scope.
 - It has **standard literature anchors** at Intermediate / Master (textbook canonical articles + primary papers).
@@ -113,7 +115,7 @@ The 6 existing essays form an initial cluster. New essays are added one-at-a-tim
 
 No tier system. Essays are written at a single register — accessible-but-substantial prose, comparable to *The Hedgehog Review* or a long-form *Aeon* essay. Reading-time scope: 20–60 minutes per essay.
 
-### 5.2 Tiered units (`20.01–07`)
+### 5.2 Tiered units (`20.01–09`)
 
 Anchored to analytic-philosophy literature at three tiers, per subsection.
 
@@ -127,7 +129,7 @@ Anchored to analytic-philosophy literature at three tiers, per subsection.
 
 **Lean status note.** `20.01` is the *one* phil subsection where Lean has direct purchase — propositional and first-order logic are exactly what formal verification handles. Master-tier units in `20.01` should aim for `lean_status: full` where Mathlib's logic libraries cover the result.
 
-#### `20.02` Philosophy of mathematics
+#### `20.09` Philosophy of mathematics
 
 | Tier | Anchor |
 |---|---|
@@ -143,9 +145,13 @@ Anchored to analytic-philosophy literature at three tiers, per subsection.
 | Intermediate | Albert *Quantum Mechanics and Experience*; Sklar *Philosophy of Physics*; Maudlin *Philosophy of Physics: Quantum Theory* |
 | Master | Wallace *The Emergent Multiverse* (Everettian QM); Bell *Speakable and Unspeakable in Quantum Mechanics*; Earman *Bangs, Crunches, Whimpers, and Shrieks* (singularity / GR phil); primary lit (*Studies in Hist. & Phil. of Modern Physics*) |
 
-#### `20.04` Philosophy of chemistry
+#### `20.04` Aesthetics and philosophy of language/literature
 
-The smallest analytic-phil sub-discipline because the field is relatively young.
+This subsection is reserved for §22-facing philosophy: interpretation, meaning, aesthetic value, literature as knowledge, and philosophy of language where it directly supports language/literature units. It is not a first-wave production target.
+
+#### `20.08` Philosophy of chemistry and general philosophy of science
+
+Philosophy of chemistry is treated as a sublane of general philosophy of science for v1 because the live content pressure is currently lighter than physics, biology, ethics, and epistemology.
 
 | Tier | Anchor |
 |---|---|
@@ -169,7 +175,7 @@ The smallest analytic-phil sub-discipline because the field is relatively young.
 | Intermediate | Chalmers *The Conscious Mind* (full); Dennett *Consciousness Explained*; Block *Imagery* / *Consciousness, Function, and Representation* (collected papers) |
 | Master | Chalmers (collected papers); primary lit (*Journal of Consciousness Studies*, *Mind & Language*); contemporary debates (Tegmark / Tononi IIT vs higher-order theories vs global-workspace) |
 
-#### `20.07` General philosophy of science
+#### `20.08` General philosophy of science
 
 | Tier | Anchor |
 |---|---|
@@ -185,7 +191,7 @@ The smallest analytic-phil sub-discipline because the field is relatively young.
 
 No mastery endpoint. The reader emerges with a stance — testable only over years, not over a chapter.
 
-### 6.2 Tiered units (across `20.01–07`)
+### 6.2 Tiered units (across `20.01–09`)
 
 | Tier | Endpoint |
 |---|---|
@@ -197,7 +203,7 @@ These mirror the math/physics/chem/bio mastery endpoints in structure (testable,
 
 ### 6.3 Machine-verifiability
 
-Per `BIBLE_EXPANSION_PLAN.md` §5: phil at I/M tier is **very low** machine-verifiable (lowest of the five domains). Argument reconstruction at intermediate tier can be partially LLM-checked ("does the reconstruction preserve premise-conclusion structure"); at master tier, only human review counts.
+Per `BIBLE_EXPANSION_PLAN.md` §5: phil at I/M tier is **very low** machine-verifiable. Argument reconstruction at intermediate tier can be partially LLM-checked ("does the reconstruction preserve premise-conclusion structure"); at master tier, only human review counts.
 
 **Exception**: `20.01` Logic and formal methods at Master tier where Lean covers the formal results — that subset is machine-verifiable like math. This makes `20.01` the easiest analytic-phil subsection to ship at scale.
 
@@ -207,14 +213,16 @@ Per `BIBLE_EXPANSION_PLAN.md` §5: phil at I/M tier is **very low** machine-veri
 
 ### 7.1 Inbound hooks (the dominant direction)
 
-Phil receives `hooks_out` from all four other domains. The expected target distribution (rough, to be updated after Wave 2):
+Phil receives `hooks_out` from the other domains. The expected target distribution (rough, to be updated after Wave 2):
 
 | Source domain | Likely target subsections |
 |---|---|
-| Math | `20.01` logic, `20.02` phil-of-math |
-| Physics | `20.03` phil-of-physics (heaviest landing site, esp. from §12 QM and §13 GR); also `20.07` for explanation / theory questions |
-| Chemistry | `20.04` phil-of-chem (sparse); `20.07` for reduction questions |
+| Math | `20.01` logic, `20.09` phil-of-math |
+| Physics | `20.03` phil-of-physics (heaviest landing site, esp. from §12 QM and §13 GR); also `20.08` for explanation / theory questions |
+| Chemistry | `20.08` phil-of-chem / general phil-of-science (sparse) |
 | Biology | `20.05` phil-of-biology (heavy, esp. from §19 eco/evo); `20.06` phil-of-mind (from §17.09 + §18.05) |
+| Language | `20.04` aesthetics / philosophy of language and literature |
+| World | `20.02` ethics, `20.07` political philosophy, `20.08` general philosophy of science/evidence |
 
 ### 7.2 Outbound hooks (the rare direction)
 
@@ -256,7 +264,7 @@ Each essay also gets an `applies_to:` frontmatter field listing the section numb
 
 ### 8.2 Two tiered seed units
 
-Chosen because they are the **highest-leverage inbound-hook targets** — the topics that the other four domains' Wave-1 units will most likely want to hook into:
+Chosen because they are the **highest-leverage inbound-hook targets** — the topics that the other domains' Wave-1 units will most likely want to hook into:
 
 | Seed | ID | Subsection | Why this one |
 |---|---|---|---|
@@ -314,20 +322,22 @@ The hardest reviewer-recruitment problem in the project. Phil reviewers:
 |---|---|---|
 | `20.essays` | Yellow (synthesis writing is a Tyler-strength based on the existing 6 essays) | Optional external read for new essays |
 | `20.01` logic | Yellow with Lean grounding | Logician for Master-tier (where Mathlib doesn't cover) |
-| `20.02` phil-of-math | Yellow with math grounding | Phil-of-math specialist for Master |
+| `20.02` ethics/value theory | Yellow / Red | Ethics specialist for I/M |
 | `20.03` phil-of-physics | Yellow / Red | Phil-of-physics specialist (with physics-side credentialing) for I/M |
-| `20.04` phil-of-chem | Red | Phil-of-chem specialist (small field; may need to commission) |
+| `20.04` aesthetics / phil-of-language | Red | Language/literature-facing philosophy reviewer |
 | `20.05` phil-of-bio | Yellow / Red | Phil-of-bio specialist for I/M |
 | `20.06` phil-of-mind | Red | Phil-of-mind specialist for I/M (this is one of the most contested subfields in philosophy) |
-| `20.07` general phil-of-science | Yellow / Red | Phil-of-science generalist for I/M |
+| `20.07` political philosophy | Yellow / Red | Political philosophy / democratic theory reviewer |
+| `20.08` general phil-of-science / phil-of-chem | Yellow / Red | Phil-of-science generalist for I/M; phil-of-chem commissioned when needed |
+| `20.09` phil-of-math | Yellow with math grounding | Phil-of-math specialist for Master |
 
 **Recruitment priority (in order):**
 
 1. **Phil-of-physics + phil-of-biology specialist OR generalist phil-of-science specialist with strong cross-domain reading** — covers the densest hook landing sites (20.03 + 20.05). Single highest-leverage hire.
-2. **Phil-of-math + logic specialist** — covers 20.01 + 20.02 + the formal side of 20.07.
+2. **Phil-of-math + logic specialist** — covers 20.01 + 20.09 + the formal side of 20.08.
 3. **Phil-of-mind specialist** — covers 20.06; can't easily be substituted.
 
-20.04 (phil-of-chem) is small enough that commissioning a one-off review for each Master-tier unit is acceptable in v1; no dedicated reviewer required.
+The phil-of-chem part of 20.08 is small enough that commissioning a one-off review for each Master-tier unit is acceptable in v1; no dedicated reviewer required.
 
 **Tyler-as-essay-reviewer.** The synthesis-essay role is the one place where Tyler is plausibly the right reviewer — the existing 6 essays demonstrate the project's voice. New essays go through Tyler review by default. Tiered units do not, except in `20.essays.NN`.
 
@@ -339,7 +349,7 @@ The hardest reviewer-recruitment problem in the project. Phil reviewers:
 
 | Question | Deferred to | Why now is wrong |
 |---|---|---|
-| Should ethics / political phil / aesthetics get a §20.08+ subsection in v2? | v2 scope discussion | v1 is explicitly math-sciences-focused; expanding to normative phil is a different product question |
+| Should history of philosophy or broad metaphysics get a dedicated subsection? | v2 scope discussion | v1 now admits ethics/political/aesthetics where live content needs them, but not a full historical/metaphysical survey |
 | Does `20.essays` need internal sub-organization (e.g., a `20.essays.philosophical/`, `20.essays.contemplative/`) once it grows past ~10? | After essay count exceeds 10 | Premature with 6 essays |
 | Should `20.06` phil-of-mind absorb a "cognitive science" interface as bio fills in §17.09 + §18.05? | After Wave 2 bio | Premature; bio sets the agenda for what the phil side wants to absorb |
 | Whether to introduce a "history of science" subsection as v1 grows | Probably v2; lean against | Not a sub-discipline of phil-of-science proper; would distort §20 scope |
@@ -356,8 +366,8 @@ The hardest reviewer-recruitment problem in the project. Phil reviewers:
 | The two registers (essays + analytic units) feel like different products on the same site | Site rendering treats them differently but visibly related — `/philosophy` route shows both, with the essay arc as featured content and the tiered units as a search-and-browse catalog. UI work for `BIBLE_EXPANSION_PLAN.md` site phase. |
 | Analytic phil-of-physics or phil-of-bio units default to one position (e.g., Everettian QM, or gene-selectionism) and present it as canonical | Mastery rubric requires that each unit *covers the position space*, not advocates for one; reviewer enforces. This is a known failure mode in popular analytic-phil teaching. |
 | Essay accumulation pace becomes unsustainable as more essays seem warranted | Soft cap 12, hard cap 20 (§4.4) enforces discipline. Each new essay requires explicit "couldn't be a unit because X" justification at review. |
-| Cross-domain hook flow becomes uneven — physics dumps 30 hooks into 20.03 while chem barely touches 20.04 | Acceptable; this is real. 20.04 phil-of-chem will be smaller than 20.03 phil-of-physics because the underlying analytic-phil subfield is. No artificial balancing. |
-| The 6 existing essays' style conflicts with the analytic-unit style and the project looks tonally inconsistent | Style guide for `20.01–07` follows `style/editorial-voice.md`; `20.essays.NN` continues its existing voice. The two registers are visibly different — by design — and the site treats them as such. |
+| Cross-domain hook flow becomes uneven — physics dumps 30 hooks into 20.03 while chem barely touches 20.08 | Acceptable; this is real. Phil-of-chem will be smaller than 20.03 phil-of-physics because the underlying analytic-phil subfield is. No artificial balancing. |
+| The 6 existing essays' style conflicts with the analytic-unit style and the project looks tonally inconsistent | Style guide for `20.01–09` follows `style/editorial-voice.md`; `20.essays.NN` continues its existing voice. The two registers are visibly different — by design — and the site treats them as such. |
 | Phil-of-mind (20.06) becomes a magnet for fringe content (panpsychism, simulation theory, etc.) at master tier | Master-tier sources are the gatekeeping — Chalmers, Block, Dennett are the standard; popular and fringe positions appear only insofar as they are responded to in the canonical literature. |
 
 ---
@@ -366,8 +376,9 @@ The hardest reviewer-recruitment problem in the project. Phil reviewers:
 
 | Date | Decision | Rationale |
 |---|---|---|
-| 2026-05-17 | Philosophy adopts **hybrid mode**: existing synthesis essays continue at `20.essays.NN`; new tiered analytic-philosophy units at `20.01–07.NN` | Essays cannot subsume analytic argument-reconstruction (no testable endpoint); tiered units cannot subsume the integrative arc of essays. Two registers, both load-bearing. |
-| 2026-05-17 | §20 subsection allocation locked: `20.essays` + `20.01` logic + `20.02` phil-of-math + `20.03` phil-of-physics + `20.04` phil-of-chem + `20.05` phil-of-bio + `20.06` phil-of-mind + `20.07` general phil-of-science | Mirrors the science domains plus logic; ethics / political / aesthetics out of v1; subsection-per-domain makes cross-domain hook contract clean |
+| 2026-05-17 | Philosophy adopts **hybrid mode**: existing synthesis essays continue at `20.essays.NN`; new tiered analytic-philosophy units initially planned for the first seven analytic subsections | Essays cannot subsume analytic argument-reconstruction (no testable endpoint); tiered units cannot subsume the integrative arc of essays. Two registers, both load-bearing. Superseded by the 2026-05-22 allocation below. |
+| 2026-05-17 | §20 subsection allocation initially locked as `20.essays` plus logic, phil-of-math, phil-of-physics, phil-of-chem, phil-of-bio, phil-of-mind, and general phil-of-science | Superseded by the 2026-05-22 allocation after live content expanded into ethics, aesthetics/language, political philosophy, and world/civics hooks. |
+| 2026-05-22 | §20 allocation revised to match live content: `20.01` epistemology/logic, `20.02` ethics, `20.03` phil-of-physics, `20.04` aesthetics/phil-of-language, `20.05` phil-of-bio, `20.06` phil-of-mind, `20.07` political philosophy, `20.08` general phil-of-science/phil-of-chem, `20.09` phil-of-math | Live units already include epistemology and ethics; world/civics needs political philosophy; language needs aesthetics/meaning hooks |
 | 2026-05-17 | Essay retrofit: 6 existing essays get IDs `20.essays.01` … `20.essays.06` | Required by umbrella §10 step 4; mechanical change; unblocks cross-refs from other domains |
 | 2026-05-17 | Initial essay budget: soft cap 12, hard cap 20 by end of v1 | Essays accumulate without validator discipline; explicit caps prevent register drift |
 | 2026-05-17 | `20.01` is the one phil subsection that targets `lean_status: full` at master tier where Mathlib covers | Propositional + first-order logic + parts of computability are exactly what Mathlib covers; this is the bridge between phil and the math/Lean pipeline |
@@ -384,7 +395,7 @@ Gated on `BIBLE_EXPANSION_PLAN.md` §10 patches (UNIT_SPEC + validator + OVERVIE
 1. **Essay retrofit pass** — write `scripts/retrofit_essay_ids.py` (mechanical: parse the 6 essay files, prepend `id:` and `applies_to:` to frontmatter, idempotent). Run; spot-check rendering of `/philosophy/01-reflexivity` etc. for regressions; commit.
 2. **Reviewer recruitment** — start outreach for the three priority reviewer roles (§9). This is the longest-pole item for phil, so start immediately.
 3. **Sourcing pass** — `reference/_meta/SOURCES.md` extensions for phil. Phil sourcing is harder than science sourcing because much canonical phil is in copyrighted anthologies; identify which works have open / fair-use accessible versions.
-4. **Coverage manifest** — `manifests/production/phil-coverage.json` mapping the §20 subsection anchor literature to (eventually) Codex unit IDs.
+4. **Coverage manifest** — `manifests/production/phil-coverage.json` mapping the §20 subsection anchor literature to (eventually) Babel Bible unit IDs.
 5. **Harvest pending-hook backlog** — once Physics + Chemistry + Biology Wave 1 units have shipped, query `manifests/connections.json` for `kind: proposed` edges targeting §20; absorb each into the phil-side backlog per `BIBLE_EXPANSION_PLAN.md` §3.6.
 6. **Produce `20.03.01` measurement problem** manually — first analytic-phil unit; establishes the analytic-phil rubric.
 7. **Retro on `20.03.01`** — what's missing in the analytic-phil pedagogy spec; update the rubric.
@@ -392,8 +403,8 @@ Gated on `BIBLE_EXPANSION_PLAN.md` §10 patches (UNIT_SPEC + validator + OVERVIE
 9. **Cross-domain audit** on Wave 1 phil: did the bidirectional hooks (`20.03.01 ↔ 12.01.02` and `20.05.02 ↔ 19.02.01`) resolve? Are there obvious missing hooks from the other domains?
 10. **Update the existing `philosophy.tsx` route** and the `_layout.tsx` philosophy nav-link to expose both registers — essays as the featured arc, tiered units as a browse catalog. (Site work — coordinate with whoever is doing site updates after `BIBLE_EXPANSION_PLAN.md` §10 step 4.)
 
-*This plan is the canonical reference for the philosophy axis and concludes the per-domain plan sequence. When uncertain about phil mode, subsection allocation, or essay-vs-unit decisions, check here. When updating, propagate to `OVERVIEW.md` §12 and `BIBLE_EXPANSION_PLAN.md` §6 the same day.*
+*This plan is the canonical reference for the philosophy axis. When uncertain about phil mode, subsection allocation, or essay-vs-unit decisions, check here. When updating, propagate to `OVERVIEW.md` §12 and `BIBLE_EXPANSION_PLAN.md` §6 the same day.*
 
 ---
 
-*With this plan drafted, the five-domain expansion has a complete planning surface: one umbrella + four per-domain plans. The next phase is implementation — UNIT_SPEC and validator patches, OVERVIEW decision-log appends, Physics Wave 1 production, then chem ∥ bio production informed by physics retro, then phil informed by everything else. See `BIBLE_EXPANSION_PLAN.md` §6 for the operational sequence.*
+*The broader cross-domain planning surface now includes the umbrella plan, technical-domain plans, and `LANGUAGE_WORLD_PLAN.md`.*

@@ -41,7 +41,7 @@ algebras with Campbell-Hausdorff in §IV; Part II Lie groups split into LG
 §§1–5 on general / formal groups and LG §§6–8 on analytic / $p$-adic groups +
 cohomology), (b) the **Bourbaki *Groupes et algèbres de Lie* Chs. II–III**
 crossreference (which Serre's lectures both predate and helped seed), (c) the
-Codex's existing shipped units in `content/07-representation-theory/06-lie-
+Babel Bible's existing shipped units in `content/07-representation-theory/06-lie-
 algebraic/`, `03-modern-geometry/03-lie/`, `03-modern-geometry/04-differential-
 forms/03.04.01-lie-algebra.md`, and `03-modern-geometry/13-spectral-sequences/`,
 and (d) the originator literature (Campbell 1898, Baker 1905, Hausdorff 1906,
@@ -213,7 +213,7 @@ Lie algebras to $p$-adic analytic groups.
 
 ---
 
-## §2 Coverage table (Codex vs SLALG)
+## §2 Coverage table (Babel Bible vs SLALG)
 
 Cross-referenced against the current shipped units in:
 - `content/07-representation-theory/06-lie-algebraic/` (9 units: Lie algebra
@@ -227,26 +227,26 @@ Cross-referenced against the current shipped units in:
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| SLALG topic | Codex unit(s) | Status | Note |
+| SLALG topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Lie algebra (definition, ideals, derivations, semidirect product) | `03.04.01 lie-algebra` | ✓ | Standard definition shipped. |
 | Solvable / nilpotent Lie algebras; Lie's theorem; Engel's theorem | — | ✗ | **Gap (medium).** Touched in `07.04.01 cartan-weyl-classification` but no dedicated unit. SLALG §II prereq for the cohomology vanishing arguments. |
 | Universal enveloping algebra $U(\mathfrak{g})$ | `07.06.02 universal-enveloping-algebra` | ✓ | |
 | Poincaré-Birkhoff-Witt theorem | △ (inside `07.06.02`) | △ | Stated and used in `07.06.02`; SLALG §I gives a model proof. Master-tier deepening candidate. |
-| Free Lie algebra $L(X)$; Magnus expansion; primitive-element characterisation | — | ✗ | **Gap (high — SLALG §III centrepiece).** No Codex unit on free Lie algebras or the Hopf-algebraic primitive-element picture. |
+| Free Lie algebra $L(X)$; Magnus expansion; primitive-element characterisation | — | ✗ | **Gap (high — SLALG §III centrepiece).** No Babel Bible unit on free Lie algebras or the Hopf-algebraic primitive-element picture. |
 | Friedrichs criterion (primitive iff $\Delta(x) = x \otimes 1 + 1 \otimes x$) | — | ✗ | **Gap (medium — depends on free Lie algebra unit).** Hopf-algebra machinery. |
 | Campbell-Baker-Hausdorff formula | — | ✗ | **Gap (very high — SLALG §IV centrepiece).** Cited in passing in `03.03.01 lie-group` (exponential map) but no derivation, no statement of the universal formula, no convergence discussion. The single largest gap. |
-| Cohomology of Lie algebras $H^*(\mathfrak{g}, M)$ | — | ✗ | **Gap (very high — SLALG §V centrepiece).** Chevalley-Eilenberg complex absent from the Codex. No dedicated unit. |
+| Cohomology of Lie algebras $H^*(\mathfrak{g}, M)$ | — | ✗ | **Gap (very high — SLALG §V centrepiece).** Chevalley-Eilenberg complex absent from the Babel Bible. No dedicated unit. |
 | Whitehead's lemmas ($H^1 = H^2 = 0$ for semisimple) | — | ✗ | **Gap (high).** Cohomological proof of Weyl's complete reducibility theorem; SLALG's pedagogical bridge from cohomology to representation theory. |
 | Hochschild-Serre spectral sequence for an ideal | — | ✗ | **Gap (high).** Mentioned only at the *topological* Leray-Serre level in `03.13.02 leray-serre`; the *algebraic* Lie-algebra version is not its own unit. |
 | Lie group (smooth manifold + group law) | `03.03.01 lie-group` | ✓ | |
 | Lie-algebra of a Lie group ($T_e G$ with bracket) | △ (in `03.04.01 lie-algebra` + `03.03.01 lie-group`) | △ | Stated; the functor $G \mapsto \mathrm{Lie}(G)$ is sketched but Lie's three theorems are not their own unit. |
 | Exponential map $\exp: \mathfrak{g} \to G$ (real / complex case) | △ (in `03.03.01 lie-group`) | △ | Mentioned at intermediate tier; SLALG's universal-power-series viewpoint is not the framing. **Gap (low-medium — frame deepening only).** |
-| Formal group law $F(X, Y) \in R[\![X, Y]\!]^n$ | — | ✗ | **Gap (very high — SLALG Part II opening; the entire formal-group programme).** No Codex unit. |
+| Formal group law $F(X, Y) \in R[\![X, Y]\!]^n$ | — | ✗ | **Gap (very high — SLALG Part II opening; the entire formal-group programme).** No Babel Bible unit. |
 | Lie functor for formal groups (char 0 equivalence) | — | ✗ | **Gap (high).** The bridge theorem; depends on formal-group unit. |
 | Lubin-Tate formal groups; height; $p$-typical formal groups | — | ✗ | **Gap (low — Master-tier deepening; SLALG mentions but does not develop fully).** Belongs in a Master extension of the formal-group unit. |
 | $p$-adic analytic manifold | — | ✗ | **Gap (medium — prereq for $p$-adic Lie group).** $\mathbb{Q}_p$ and analytic structure on $\mathbb{Q}_p^n$. |
-| $p$-adic Lie group | — | ✗ | **Gap (very high — SLALG Part II centrepiece).** No Codex unit on $p$-adic Lie groups. |
+| $p$-adic Lie group | — | ✗ | **Gap (very high — SLALG Part II centrepiece).** No Babel Bible unit on $p$-adic Lie groups. |
 | $p$-adic exponential and its radius of convergence | — | ✗ | **Gap (high).** The technical heart of SLALG Part II §§6–7. Depends on Campbell-Hausdorff and on $p$-adic analytic manifold. |
 | Lazard's theorem: $p$-adic Lie group $\leftrightarrow$ $\mathbb{Q}_p$-Lie algebra equivalence | — | ✗ | **Gap (high — SLALG's punchline for Part II).** |
 | Pro-$p$ groups (Lazard's later development; SLALG sketch) | — | ✗ | **Gap (low — Master-only pointer).** SLALG predates the uniform-pro-$p$ machinery; pointer unit at most. |
@@ -264,13 +264,13 @@ Cross-referenced against the current shipped units in:
   passing mention in `03.03.01`). Effectively a total gap and the single
   largest gap in this audit.
 - **SLALG Part I §§V–VI** (cohomology, Hochschild-Serre): **~0%**
-  covered. Total gap; only the topological Leray-Serre is in the Codex.
+  covered. Total gap; only the topological Leray-Serre is in the Babel Bible.
 - **SLALG Part II §§1–5** (formal groups, formal Lie functor): **~0%**
   covered. Total gap.
 - **SLALG Part II §§6–8** ($p$-adic analytic groups, $p$-adic exponential,
   Lazard's equivalence): **~0%** covered. Total gap.
 
-**Overall: ~15% of SLALG is covered by the shipped Codex corpus.** The gap
+**Overall: ~15% of SLALG is covered by the shipped Babel Bible corpus.** The gap
 is **substantial and distinct** — SLALG covers material that is *deliberately
 absent* from the other Lie-strand Fast Track books (Fulton-Harris, Hall,
 Helgason 3.17, Knapp). Closing this gap is the only way the Fast Track
@@ -290,7 +290,7 @@ lie-algebra`, `07.06.02 universal-enveloping-algebra`, and `03.13.01
 spectral-sequence` are all shipped. The $p$-adic units will need a brief
 $\mathbb{Q}_p$ / $p$-adic absolute value prereq, but that can be folded
 into the relevant unit as a short notation paragraph rather than a
-dedicated prereq unit (the Codex does not currently have a number-theory
+dedicated prereq unit (the Babel Bible does not currently have a number-theory
 strand, and producing one for two units is overkill).
 
 **Priority 1 — high-leverage, captures SLALG's distinctive content:**
@@ -483,7 +483,7 @@ $U(\mathfrak{g})$ for the universal enveloping algebra (already Codex
 notation); $\mathrm{Lib}(X)$ for the free Lie algebra on $X$ (Codex
 default $L(X)$ is acceptable and is what `07.06.10` should adopt);
 $H^*(\mathfrak{g}, M)$ for Lie-algebra cohomology (use as-is); $L(G)$
-for the Lie algebra of a Lie group $G$ (Codex tends toward $\mathfrak{g}$
+for the Lie algebra of a Lie group $G$ (Babel Bible tends toward $\mathfrak{g}$
 in lowercase fraktur for an abstract Lie algebra and $\mathrm{Lie}(G)$ or
 $\mathfrak{g}$ for the Lie algebra of $G$ — keep current Codex
 convention). For $p$-adic objects: write $\mathbb{Q}_p$ for the $p$-adic
@@ -527,7 +527,7 @@ Record in a §Notation paragraph of `07.06.11` (BCH series ring) and
 - A line-number-level inventory of every named theorem in SLALG (full P1
   audit; deferred until a local PDF is acquired). Coverage estimates in
   §2 are based on the public TOC structure of LNM 1500 plus spot-checks
-  of Codex units. Promote to full P1 audit when PDF is local.
+  of Babel Bible units. Promote to full P1 audit when PDF is local.
 
 - **Serre 3.12 *Complex Semisimple Lie Algebras*** — separate book, separate
   audit. SCSLA covers the classification arc (Cartan subalgebras, root
@@ -536,7 +536,7 @@ Record in a §Notation paragraph of `07.06.11` (BCH series ring) and
   books are disjoint in content and pedagogically complementary. The 3.12
   audit should pick up Cartan-Weyl classification deepenings that `07.04.01`
   partially covers; this 3.13 audit instead picks up the homological /
-  $p$-adic gap that no other Codex unit fills.
+  $p$-adic gap that no other Babel Bible unit fills.
 
 - **Serre 3.14 *A Course in Arithmetic*** — separate book, separate audit.
   Covers Ostrowski, $\mathbb{Q}_p$, quadratic forms, modular forms. The
@@ -563,7 +563,7 @@ Record in a §Notation paragraph of `07.06.11` (BCH series ring) and
 
 - **Lie-algebroid / Lie-groupoid generalisations** (Mackenzie). Adjacent
   to SLALG only at the conceptual level; deferred to a future Mackenzie
-  audit (Codex has local copies of both Mackenzie texts in
+  audit (Babel Bible has local copies of both Mackenzie texts in
   `reference/textbooks-extra/`).
 
 ---
@@ -579,7 +579,7 @@ equivalence-coverage when:
   close ~70% of the SLALG gap and the *entire* Part I cohomological half.
 
 - ≥95% of SLALG's named theorems and major worked computations map to a
-  Codex unit (currently ~15%; after Priority-1 this rises to ~70%;
+  Babel Bible unit (currently ~15%; after Priority-1 this rises to ~70%;
   after Priority-1+2 to ~88%; after Priority-1+2+3 to ~92%; full ≥95%
   requires Priority-4 master deepenings + the exercise pack).
 
@@ -607,10 +607,10 @@ equivalence-coverage when:
   from SLALG (suggested loci: BCH universality in §IV, Whitehead's first
   lemma in §V, Hochschild-Serre five-term sequence in §VI, formal-Lie
   equivalence in Part II §3, $p$-adic exponential convergence in Part II
-  §6); for each, identify the Codex unit that proves it.
+  §6); for each, identify the Babel Bible unit that proves it.
 
 - **4.2 Exercise reproducibility.** Sample 5 random exercises from SLALG;
-  for each, identify the Codex unit(s) sufficient to solve it. SLALG
+  for each, identify the Babel Bible unit(s) sufficient to solve it. SLALG
   exercises (where present in the LNM 1500 reprint) tend to be brief
   technical lemmas rather than open-ended; sampling protocol is
   straightforward.
@@ -618,7 +618,7 @@ equivalence-coverage when:
 - **4.3 Notation comprehension.** Sample 5 fragments of SLALG prose
   (with attention to the Bourbaki conventions and the $p$-adic
   exponential's convergence-radius bookkeeping); paraphrase each into
-  Codex notation per the §4 crosswalk.
+  Babel Bible notation per the §4 crosswalk.
 
 ---
 

@@ -1,6 +1,6 @@
-# Codex — Fast Track Equivalence Plan
+# Babel Bible — Fast Track Equivalence Plan
 
-A scaffold-of-scaffolds. Specifies how Codex achieves *equivalent information transfer* with every book on the Fast Track booklist — not just topic overlap, but full pedagogical equivalence: a Codex reader should be able to do everything a Fast Track reader could do without ever opening the book.
+A scaffold-of-scaffolds. Specifies how Babel Bible achieves *equivalent information transfer* with every book on the Fast Track booklist — not just topic overlap, but full pedagogical equivalence: a Babel Bible reader should be able to do everything a Fast Track reader could do without ever opening the book.
 
 This document does not produce curriculum content directly. It produces the **system** by which curriculum content for each Fast Track book is planned, scaffolded, and verified — so that the work can be tackled agentically across the 72-book corpus.
 
@@ -10,9 +10,9 @@ Read alongside `docs/catalogs/FASTTRACK_BOOKLIST.md`, `docs/plans/CURRICULUM_V0_
 
 ## 1. Mission statement
 
-For every book *B* on the Fast Track, produce a subset *C(B)* of Codex units such that a learner who completes *C(B)* — at the appropriate tier — has **equivalent operational ability** to a learner who completed *B* itself: they can state and prove the book's theorems, solve the book's exercises, recognize the book's notation, apply the book's tools to new problems, and possess the conceptual map the author intended to convey.
+For every book *B* on the Fast Track, produce a subset *C(B)* of Babel Bible units such that a learner who completes *C(B)* — at the appropriate tier — has **equivalent operational ability** to a learner who completed *B* itself: they can state and prove the book's theorems, solve the book's exercises, recognize the book's notation, apply the book's tools to new problems, and possess the conceptual map the author intended to convey.
 
-The metric is not "what fraction of *B*'s topics appear in Codex." That metric is too coarse. The metric is: **can a Codex reader pick up where a *B* reader leaves off, inside *B*'s native subject and adjacent ones, without surprises?**
+The metric is not "what fraction of *B*'s topics appear in Babel Bible." That metric is too coarse. The metric is: **can a Babel Bible reader pick up where a *B* reader leaves off, inside *B*'s native subject and adjacent ones, without surprises?**
 
 If the answer is yes, *B* is **equivalence-covered**. The Fast Track is *equivalence-complete* when all 72 books are equivalence-covered.
 
@@ -24,13 +24,13 @@ A book transfers information at seven distinct layers. Equivalence requires capt
 
 | # | Layer | What the book transfers | How Codex captures it | Equivalence test |
 |---|---|---|---|---|
-| 1 | **Theorem layer** | Every named theorem, proposition, lemma, definition | Each ≥1 Codex unit at Intermediate or Master tier | Reader can state and prove every theorem in the book's TOC |
-| 2 | **Exercise layer** | Each numbered exercise, with the difficulty and the role it plays in later proofs | Codex unit's `## Exercises [Intermediate+]` block + inline answers | Reader can solve every exercise in the book using only Codex content |
+| 1 | **Theorem layer** | Every named theorem, proposition, lemma, definition | Each ≥1 Babel Bible unit at Intermediate or Master tier | Reader can state and prove every theorem in the book's TOC |
+| 2 | **Exercise layer** | Each numbered exercise, with the difficulty and the role it plays in later proofs | Babel Bible unit's `## Exercises [Intermediate+]` block + inline answers | Reader can solve every exercise in the book using only Babel Bible content |
 | 3 | **Worked-example layer** | Concrete computations the author works through | Codex `## Worked example [Beginner]` or inline computations in Intermediate | Reader can reproduce every concrete computation the book performs |
 | 4 | **Notation layer** | The author's notation conventions, often distinctive | Per-book notation crosswalk in `notation/<book>.md`; mentions in unit Master sections | Reader can read any subsequent paper that uses the book's notation |
-| 5 | **Sequencing layer** | What the author builds in chapter *k* and uses in chapter *k+n* | Codex DAG (`manifests/deps.json`) reflects the book's prerequisite chain | Reader can traverse the same prerequisite path Codex provides |
+| 5 | **Sequencing layer** | What the author builds in chapter *k* and uses in chapter *k+n* | Babel Bible DAG (`manifests/deps.json`) reflects the book's prerequisite chain | Reader can traverse the same prerequisite path Codex provides |
 | 6 | **Intuition layer** | Prose-level insights that justify why the math is the *right* math, not just *correct* math | Codex `## Intuition [Beginner]` and Master `## Historical & philosophical context` sections | Reader can explain *why* a definition takes the form it does, not just *what* it is |
-| 7 | **Application layer** | The book's worked applications, examples beyond the core theory | Codex Master `## Connections` sections and dedicated application units | Reader can apply the theory to the same problems the book applies it to |
+| 7 | **Application layer** | The book's worked applications, examples beyond the core theory | Babel Bible Master `## Connections` sections and dedicated application units | Reader can apply the theory to the same problems the book applies it to |
 
 **Equivalence is reached** when all seven layers are demonstrably captured, per book, per chapter.
 
@@ -79,28 +79,28 @@ Every book *B* gets exactly one planning document at `plans/fasttrack/<book-slug
 
 ---
 
-## §2. Codex coverage diff
+## §2. Babel Bible coverage diff
 
 ### 2.1 Theorem coverage
-[Table: book theorem → Codex unit (or "GAP")]
+[Table: book theorem → Babel Bible unit (or "GAP")]
 
 ### 2.2 Exercise coverage
-[Table: book exercise → Codex exercise location (or "GAP")]
+[Table: book exercise → Babel Bible exercise location (or "GAP")]
 
 ### 2.3 Worked-example coverage
-[Table: book example → Codex location (or "GAP")]
+[Table: book example → Babel Bible location (or "GAP")]
 
 ### 2.4 Notation coverage
-[Crosswalk: book notation → Codex notation]
+[Crosswalk: book notation → Babel Bible notation]
 
 ### 2.5 Sequencing coverage
-[Codex DAG paths matching book's chapter dependencies]
+[Babel Bible DAG paths matching book's chapter dependencies]
 
 ### 2.6 Intuition coverage
-[Per chapter: is the book's framing captured in some Codex Beginner/Master section?]
+[Per chapter: is the book's framing captured in some Babel Bible Beginner/Master section?]
 
 ### 2.7 Application coverage
-[Per book application: is it covered in a Codex Connections or applied unit?]
+[Per book application: is it covered in a Babel Bible Connections or applied unit?]
 
 ### 2.8 Coverage scorecard
 | Layer | Captured | Total | % | Status |
@@ -114,7 +114,7 @@ Every book *B* gets exactly one planning document at `plans/fasttrack/<book-slug
 ## §3. Production plan
 
 ### 3.1 New units to produce
-[List of new Codex unit IDs, titles, parent strand, prerequisites, originator/anchor]
+[List of new Babel Bible unit IDs, titles, parent strand, prerequisites, originator/anchor]
 
 ### 3.2 Existing units to deepen
 [For each existing unit: what theorems, exercises, examples to add]
@@ -138,14 +138,14 @@ Every book *B* gets exactly one planning document at `plans/fasttrack/<book-slug
 
 ### 4.1 Book-as-input self-check
 [A test: present the book's TOC to an evaluator agent;
- ask "is everything there in Codex?"; require yes per layer]
+ ask "is everything there in Babel Bible?"; require yes per layer]
 
 ### 4.2 Exercise reproducibility check
 [Sample 10% of book exercises; verify a reader using only Codex
  can solve them]
 
 ### 4.3 Notation comprehension check
-[Sample passages of the book; verify Codex reader can parse the notation]
+[Sample passages of the book; verify Babel Bible reader can parse the notation]
 
 ### 4.4 Equivalence sign-off
 [Plan transitions to status `equivalence-covered` when 4.1, 4.2, 4.3 all pass]
@@ -167,7 +167,7 @@ Each book takes **5 distinct agent passes**, in dependency order. Within a pass,
 **Output:** `plans/fasttrack/<book-slug>.md` with §1 filled in; status `audited`.
 
 **Agent prompt template:**
-> You are auditing the book *<Title>* by *<Author>* (year *<Year>*) for the Codex curriculum. Use WebSearch and WebFetch to assemble: full TOC; named theorems/propositions/lemmas with chapter location; exercise count per chapter with difficulty range; named worked examples; distinctive notation; chapter-to-chapter dependency graph. Your inventory does not need to be exhaustive at the typo level — but it must be complete at the *named-result* level. Use review articles (Bull. AMS, MAA Reviews) and university course pages that adopt the book. Cite every source. Produce §1 of `plans/fasttrack/<book-slug>.md`.
+> You are auditing the book *<Title>* by *<Author>* (year *<Year>*) for the Babel Bible curriculum. Use WebSearch and WebFetch to assemble: full TOC; named theorems/propositions/lemmas with chapter location; exercise count per chapter with difficulty range; named worked examples; distinctive notation; chapter-to-chapter dependency graph. Your inventory does not need to be exhaustive at the typo level — but it must be complete at the *named-result* level. Use review articles (Bull. AMS, MAA Reviews) and university course pages that adopt the book. Cite every source. Produce §1 of `plans/fasttrack/<book-slug>.md`.
 
 **Stop condition:** §1 sections 1.1–1.7 all populated; ≥3 sources cited; plan status set to `audited`.
 
@@ -179,7 +179,7 @@ Each book takes **5 distinct agent passes**, in dependency order. Within a pass,
 **Output:** §2 filled in; status `gap-analysed`.
 
 **Agent prompt template:**
-> You have an audit of *<Title>* at `plans/fasttrack/<book-slug>.md` §1. Open `manifests/deps.json`, `docs/catalogs/CONCEPT_CATALOG.md`, and grep `content/` for relevant theorem and concept names. For each item in the audit's theorem inventory, find a Codex unit that covers it (cite by ID and section heading); for items with no match, mark `GAP`. Repeat for exercises, worked examples, notation, sequencing, intuition, applications. Produce §2 of the per-book plan with the seven coverage tables and the scorecard.
+> You have an audit of *<Title>* at `plans/fasttrack/<book-slug>.md` §1. Open `manifests/deps.json`, `docs/catalogs/CONCEPT_CATALOG.md`, and grep `content/` for relevant theorem and concept names. For each item in the audit's theorem inventory, find a Babel Bible unit that covers it (cite by ID and section heading); for items with no match, mark `GAP`. Repeat for exercises, worked examples, notation, sequencing, intuition, applications. Produce §2 of the per-book plan with the seven coverage tables and the scorecard.
 
 **Stop condition:** §2 scorecard filled with per-layer percentages; status set to `gap-analysed`.
 
@@ -214,7 +214,7 @@ Each book takes **5 distinct agent passes**, in dependency order. Within a pass,
 **Output:** §4 filled in; status `equivalence-covered` (or `production` if returned).
 
 **Agent prompt template:**
-> The per-book plan at `plans/fasttrack/<book-slug>.md` declares N new units shipped. Run the three equivalence verifications (4.1, 4.2, 4.3 in §4 of the per-book plan template). For each, present concrete evidence: e.g., for 4.2, sample 5 random exercises from the book; for each, find the Codex unit that would let a reader solve it; quote the exact paragraph from the unit. If any verification fails, list the specific gap and revert plan status to `production`.
+> The per-book plan at `plans/fasttrack/<book-slug>.md` declares N new units shipped. Run the three equivalence verifications (4.1, 4.2, 4.3 in §4 of the per-book plan template). For each, present concrete evidence: e.g., for 4.2, sample 5 random exercises from the book; for each, find the Babel Bible unit that would let a reader solve it; quote the exact paragraph from the unit. If any verification fails, list the specific gap and revert plan status to `production`.
 
 **Stop condition:** All three verifications pass; status `equivalence-covered`.
 
@@ -254,7 +254,7 @@ These books anchor entire strands. Producing per-book plans for these unblocks ~
 7. **Sternberg Differential Geometry** (1.10) — DG canonical
 8. **Hartshorne Algebraic Geometry** (3.21) — AG canonical
 9. **Fulton-Harris Representation Theory** (3.11) — rep theory canonical
-10. **Lawson-Michelsohn Spin Geometry** (3.35) — spin canonical (already strong in Codex)
+10. **Lawson-Michelsohn Spin Geometry** (3.35) — spin canonical (already strong in Babel Bible)
 11. **Voisin Hodge Theory Vol I** (3.27) — Hodge canonical
 12. **Mumford Curves and their Jacobians** — Riemann surfaces canonical
 
@@ -368,13 +368,13 @@ Each phase parallelises by book; the orchestrator (claude) integrates per-book o
 
 A book *B* transitions to status `equivalence-covered` when, simultaneously:
 
-1. **Theorem layer**: ≥95% of named theorems in *B* are stated and proved in some Codex unit, with explicit citation back to *B*.
+1. **Theorem layer**: ≥95% of named theorems in *B* are stated and proved in some Babel Bible unit, with explicit citation back to *B*.
 2. **Exercise layer**: ≥80% of *B*'s exercises have a Codex equivalent (either an exercise in a unit, or a worked example, or a deferral to a known reference for "compute by hand using technique X").
-3. **Worked-example layer**: ≥90% of *B*'s worked examples are reproduced in some Codex unit's `## Worked example` or Intermediate computation.
-4. **Notation layer**: A `notation/<book>.md` crosswalk exists, mapping every distinctive notation in *B* to Codex notation (or asserting they coincide).
-5. **Sequencing layer**: For every chapter dependency `<i> → <j>` that *B* uses, there is a corresponding `prerequisites` arrow in Codex's DAG between the unit ranges that cover Ch *i* and Ch *j*.
-6. **Intuition layer**: For every chapter, there exists a Codex unit whose Beginner or Master section explains *why* the chapter's concepts are formulated as they are, in language a reader of *B*'s preface would recognize.
-7. **Application layer**: ≥80% of *B*'s applications and worked-out examples-in-the-large are referenced in some Codex Connections section or applied unit.
+3. **Worked-example layer**: ≥90% of *B*'s worked examples are reproduced in some Babel Bible unit's `## Worked example` or Intermediate computation.
+4. **Notation layer**: A `notation/<book>.md` crosswalk exists, mapping every distinctive notation in *B* to Babel Bible notation (or asserting they coincide).
+5. **Sequencing layer**: For every chapter dependency `<i> → <j>` that *B* uses, there is a corresponding `prerequisites` arrow in Babel Bible's DAG between the unit ranges that cover Ch *i* and Ch *j*.
+6. **Intuition layer**: For every chapter, there exists a Babel Bible unit whose Beginner or Master section explains *why* the chapter's concepts are formulated as they are, in language a reader of *B*'s preface would recognize.
+7. **Application layer**: ≥80% of *B*'s applications and worked-out examples-in-the-large are referenced in some Babel Bible Connections section or applied unit.
 
 The Pass-5 verification agent checks all seven thresholds and signs off, or flags specific deficits.
 
@@ -384,7 +384,7 @@ The Pass-5 verification agent checks all seven thresholds and signs off, or flag
 
 The "intelligence of writing from the original geniuses" directive (per Tyler) extends here: where a Fast Track book is *itself* the originator's text (Riemann's *Theorie der Abelschen Functionen* — not Fast Track-listed but referenced; Cartan's 1894 dissertation; Frobenius's papers; Hodge's *Harmonic Integrals* — referenced; Mumford's *GIT*), the book serves both layers: original-genius and modern-textbook.
 
-For these author-as-originator books, equivalence requires more than topic coverage — it requires preserving the original conceptual framing. Every Codex unit citing the originator must *paraphrase or quote* the original prose, not only the modern textbook synthesis.
+For these author-as-originator books, equivalence requires more than topic coverage — it requires preserving the original conceptual framing. Every Babel Bible unit citing the originator must *paraphrase or quote* the original prose, not only the modern textbook synthesis.
 
 This is captured in the per-book plan §1.7 ("Author's distinctive perspective") and verified at Pass 5.
 
@@ -399,7 +399,7 @@ This is captured in the per-book plan §1.7 ("Author's distinctive perspective")
 | Different Fast Track books cover the same concept differently | Each book gets its own crosswalk; conflicting conventions become explicit notation crosswalks |
 | Production agents miss the originator-prose layer | Verification agent (Pass 5) checks Master Historical sections for explicit originator citations |
 | 500 agent invocations is expensive | Run in phases over months; Tier α first delivers 80% of pedagogical value at 18% of total cost |
-| New Codex units conflict with existing units | Same approach as v0.5 supporting batch: agents write disjoint chapters; claude integrates CONCEPT_CATALOG and deps.json sequentially |
+| New Babel Bible units conflict with existing units | Same approach as v0.5 supporting batch: agents write disjoint chapters; claude integrates CONCEPT_CATALOG and deps.json sequentially |
 | Equivalence threshold too strict (95% / 80% / 90%) | Per-book negotiation in Pass 3: if a chapter is genuinely out of scope (e.g., Hartshorne's Ch IV §6 cohomology bound for surfaces with $p_g = 0$ is highly specific and its absence doesn't break later use), document the deferral and don't block on it |
 | Reader can't actually replicate book's exercises | Pass-5 random sampling test; if it fails, route back to Pass 3 with specific exercise call-outs |
 

@@ -1,6 +1,6 @@
-# Codex — Agent Production Playbook
+# Babel Bible — Agent Production Playbook
 
-**Audience:** an AI agent (or a less-experienced human) producing one Codex unit. Read this top-to-bottom before writing anything. It is self-contained: if you follow this playbook plus your dispatch brief, you can produce any unit to **27/27 first-pass** without needing the orchestrator to think strategically for you.
+**Audience:** an AI agent (or a less-experienced human) producing one Babel Bible unit. Read this top-to-bottom before writing anything. It is self-contained: if you follow this playbook plus your dispatch brief, you can produce any unit to **27/27 first-pass** without needing the orchestrator to think strategically for you.
 
 **This playbook captures the operating recipe distilled from 50+ shipped production units across 12 cycles (Cycles 1-12, 2026-05-17 → 2026-05-18). Every recommendation below has empirical backing — it's what actually worked.**
 
@@ -1068,7 +1068,7 @@ If, after the §17.2 thinking checklist, you realise you cannot produce the unit
 
 **None of these is failure.** Honest under-promising beats overconfident shipping. A unit with `tiers_present: [beginner, intermediate]` plus a flagged Master gap is a fine partial result; a unit with `tiers_present: [beginner, intermediate, master]` and a hallucinated Master section is corpus-damaging.
 
-### §17.6 The "smart enough to write Codex" gate
+### §17.6 The "smart enough to write Babel Bible" gate
 
 Some FT topics require expertise beyond what a less-capable model can produce reliably. Concrete examples from this session's corpus (with my honest assessment):
 
@@ -1123,7 +1123,7 @@ If in doubt, **assume T2 and apply the §18.2 triage rules.**
 
 ### §18.2 The cluster-by-cluster triage map
 
-For the current Codex corpus structure (post-Cycle-12 state, 273 queued units), here's the per-cluster guidance:
+For the current Babel Bible corpus structure (post-Cycle-12 state, 273 queued units), here's the per-cluster guidance:
 
 #### Clusters safe for T2 producers (claim freely)
 

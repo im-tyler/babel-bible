@@ -15,7 +15,7 @@ geometric-analysis monographs (Aubin, Schoen-Yau, Hamilton).
 **Purpose of this plan:** lightweight audit-and-gap pass (P1-lite + P2
 + P3-lite of the orchestration protocol) producing a concrete
 punch-list. Output is *the* canonical closing pass on the
-basic-Riemannian-geometry gap in the Codex — a gap previously flagged
+basic-Riemannian-geometry gap in the Babel Bible — a gap previously flagged
 without remedy by three earlier audits (Milnor MMT, Helgason DGLGSS,
 Kobayashi-Nomizu I).
 
@@ -65,7 +65,7 @@ The book's distinctive structure, in roughly the order Jost develops it:
    DGLGSS does Lie-algebraically. Significantly thinner than Helgason
    but sufficient to motivate the comparison-geometry models.
 4. **Spin structures and the Dirac operator (Ch. 7).** Concise
-   introduction; the Codex has this material in `03.09-spin-geometry/`
+   introduction; the Babel Bible has this material in `03.09-spin-geometry/`
    already (Lawson-Michelsohn anchor).
 5. **Morse theory and Floer homology (Ch. 8).** A working-mathematician
    sketch of Morse-on-loop-spaces, Bott periodicity via geodesics,
@@ -114,15 +114,15 @@ Jost-anchored unit batch is therefore: `03.02-manifolds/`,
 
 ---
 
-## §2 Coverage table (Codex vs Jost)
+## §2 Coverage table (Babel Bible vs Jost)
 
 Cross-referenced against the current 313-unit corpus.
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Jost topic | Codex unit(s) | Status | Note |
+| Jost topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Ch. 1 — Riemannian manifold, metric tensor, isometry** | — | ✗ | **Gap.** Metric tensor as a positive-definite section of $S^2 T^* M$; no dedicated unit. The pieces exist in `03.05.03-orthogonal-frame-bundle.md` (frame side) but not the metric-tensor side. |
-| **Ch. 2 — Levi-Civita connection** | — | ✗ | **Gap (critical).** Already on the Milnor MMT punch-list (item 6, `03.03.X1`) **and** the KN-I punch-list (item 12, `03.03.X1`). The single most-cited missing unit in the Codex per the KN-I audit. |
+| **Ch. 2 — Levi-Civita connection** | — | ✗ | **Gap (critical).** Already on the Milnor MMT punch-list (item 6, `03.03.X1`) **and** the KN-I punch-list (item 12, `03.03.X1`). The single most-cited missing unit in the Babel Bible per the KN-I audit. |
 | **Ch. 2 — Geodesics, geodesic equation $\ddot{\gamma}^k + \Gamma^k_{ij}\dot{\gamma}^i\dot{\gamma}^j = 0$** | △ | △ | Geodesic flow appears in `05.02.06-geodesic-flow-hamiltonian.md` from the Hamiltonian-symplectic side; the Riemannian framing is absent. **Gap.** |
 | **Ch. 2 — Exponential map $\exp_p$ at a point** | — | ✗ | **Gap.** Cited downstream without anchor (Cartan-Hadamard, Bonnet-Myers, KN-I audit). |
 | **Ch. 2 — Normal coordinates** | — | ✗ | **Gap.** |
@@ -197,7 +197,7 @@ audit-chain gap shared with Milnor / Helgason / KN-I):**
    anchor; do Carmo Ch. 1 secondary; Lee Ch. 2 secondary. ~1500 words.
    Three-tier.
 2. **`03.03.X1` Levi-Civita connection, geodesics, exponential map,
-   Hopf-Rinow.** **The single most-cited missing unit in the Codex.**
+   Hopf-Rinow.** **The single most-cited missing unit in the Babel Bible.**
    Shared with Milnor (item 6) and KN-I (item 12) punch-lists; this
    audit confirms the Jost framing as the canonical anchor (Jost
    §§2.1–3.1). Includes: fundamental theorem of Riemannian geometry
@@ -383,7 +383,7 @@ should carry originator-prose citations:
   paper of harmonic-map theory; harmonic-map heat flow; existence
   into nonpositively curved targets. Cite in `03.02.0R6`,
   `03.02.0R7`, `03.02.0R8`. **Top-tier originator citation** — no
-  other Codex unit currently anchors this paper.
+  other Babel Bible unit currently anchors this paper.
 - **Hidehiko Yamabe**, "On a deformation of Riemannian structures on
   compact manifolds," *Osaka Math. J.* 12 (1960) 21–37 — the
   Yamabe-problem statement and the (flawed) original proof attempt.
@@ -420,7 +420,7 @@ should carry originator-prose citations:
 - $\tau(u)$ for the tension field of a map; $E(u)$ for the energy.
 - $W^{k,p}(M)$ for Sobolev spaces.
 
-The Codex notation decision (per `docs/specs/UNIT_SPEC.md` §11):
+The Babel Bible notation decision (per `docs/specs/UNIT_SPEC.md` §11):
 adopt Jost's sign convention for $R$ (already aligned with Lee and
 do Carmo) and Jost's $\tau / E$ for harmonic maps. Use $\mathrm{Scal}$
 for scalar curvature consistently (not $R$, which collides with the

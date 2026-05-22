@@ -24,7 +24,7 @@ license caution; cite by ISBN.
 
 This audit works from the well-documented standard structure of the book
 (four numbered chapters, 25 numbered sections + Borel appendix), the
-Codex's existing Hirzebruch citations (`04.05.08-riemann-roch-theorem-for-surfaces.md`,
+Babel Bible's existing Hirzebruch citations (`04.05.08-riemann-roch-theorem-for-surfaces.md`,
 `03.06.04-pontryagin-chern-classes.md`, `03.09.10-atiyah-singer-index-theorem.md`,
 `06.04.01-riemann-roch-compact-riemann-surfaces.md`), the four cited peer
 sources in §1, and the existing Milnor-Stasheff audit plan
@@ -181,9 +181,9 @@ Two additional originator-prose anchors (cited in §4):
 
 ---
 
-## §2 Coverage table (Codex vs Hirzebruch)
+## §2 Coverage table (Babel Bible vs Hirzebruch)
 
-Cross-referenced against the current corpus (313-unit Codex; for this
+Cross-referenced against the current corpus (313-unit Babel Bible; for this
 plan the relevant areas are `03-modern-geometry/06-characteristic-classes/`
 with 4 shipped units, `03-modern-geometry/08-k-theory/` with 7 shipped
 units, `03-modern-geometry/09-spin-geometry/` including the Atiyah-Singer
@@ -193,7 +193,7 @@ and `06.04.01-riemann-roch-compact-riemann-surfaces`).
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Hirzebruch topic | Section | Codex unit(s) | Status | Note |
+| Hirzebruch topic | Section | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | Multiplicative sequences (formal-power-series machinery) | §I.1 | — | ✗ | **Gap (high priority — Hirzebruch's central algebraic machine).** Also a Priority-3 item on the Milnor-Stasheff plan (`03.06.15`). **Shared.** |
 | Bernoulli numbers (coefficients in $L$, $\hat A$) | §I.1, App B parallel | — | ✗ | **Gap.** Also on Milnor-Stasheff plan (Priority-4 unit 12). **Shared.** |

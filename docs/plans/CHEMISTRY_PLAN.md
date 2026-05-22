@@ -1,8 +1,8 @@
-# Codex — Chemistry Plan
+# Babel Bible — Chemistry Plan
 
-**Drafted 2026-05-17.** Per-domain plan for the Chemistry axis of the five-domain expansion. Sibling of `PHYSICS_PLAN.md` (just drafted) and (forthcoming) `BIOLOGY_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md`. Drafted in parallel with `BIOLOGY_PLAN.md` per the umbrella §6 sequence; both will be revised after Physics Wave 1 retro feeds back into the cross-domain link contract.
+**Drafted 2026-05-17; updated 2026-05-22.** Per-domain plan for the Chemistry axis of the cross-domain expansion. Sibling of `PHYSICS_PLAN.md`, `BIOLOGY_PLAN.md`, `PHILOSOPHY_PLAN.md`, and `LANGUAGE_WORLD_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md`.
 
-**Status:** Draft. Locks the three-section structure, hybrid (units + essays) mode, tier anchors, mastery endpoints, math/physics prereq cone, exclusions, coverage scaffold (since no Fast Track equivalent exists), and the seed slate.
+**Status:** Active. Locks the three-section structure, hybrid (units + essays) mode, tier anchors, mastery endpoints, math/physics prereq cone, exclusions, and coverage scaffold. The seed slate has been overtaken by live production: §14–16 now contain a substantial draft corpus whose next priority is source/reviewer/visual hardening.
 
 Read before this plan: `OVERVIEW.md`, `BIBLE_EXPANSION_PLAN.md` (esp. §2.3 chem exclusions and §3 cross-domain contract), `PHYSICS_PLAN.md` (chem's biggest inbound dependency).
 
@@ -393,7 +393,7 @@ Tyler's chem background is **not assumed** at expert level (cf. PHYSICS_PLAN whe
 | The MO theory seed unit (14.05.02) needs §12 QM units that don't exist yet (Physics Wave 1 ships §12.01.02 Stern-Gerlach, but MO theory needs more) | Use `pending_prereqs: true` on the prereq edges into §12; register pending edges in `manifests/deps.json`. Same posture as math waves. |
 | Chem essay accumulation degrades into a "chem blog" rather than a curriculum | §4.2 essay candidate list is finite (≤ 5 for Wave 1+2); each new essay needs explicit "couldn't be a unit because X" justification at review. |
 | Boundary creep: biochem-in-organism units sneak into §15 because authors don't enforce the chem-vs-bio split | Reviewers check §2.2 boundary rules per unit; specifically the citric-acid-cycle test (chem if mechanism only; bio if pathway-in-organism). |
-| Coverage scaffold (ACS + grad chapter lists) is more porous than Fast Track — gaps go undetected | `manifests/production/plan.json` (per `FASTTRACK_COVERAGE_ROADMAP.md` analog) extended with `chem-coverage` view: each scaffold-source chapter mapped to one-or-more Codex units. Unmapped → gap. Audit deliverable. |
+| Coverage scaffold (ACS + grad chapter lists) is more porous than Fast Track — gaps go undetected | `manifests/production/plan.json` (per `FASTTRACK_COVERAGE_ROADMAP.md` analog) extended with `chem-coverage` view: each scaffold-source chapter mapped to one-or-more Babel Bible units. Unmapped → gap. Audit deliverable. |
 
 ---
 
@@ -415,7 +415,7 @@ Tyler's chem background is **not assumed** at expert level (cf. PHYSICS_PLAN whe
 Gated on `BIBLE_EXPANSION_PLAN.md` §10 patches AND Physics Wave 1 retro:
 
 1. **Sourcing pass** — populate `reference/_meta/SOURCES.md` extensions for chem; identify license-permissive primary sources for the first chem units. Same posture as math/physics `NEED_TO_SOURCE.md`.
-2. **Coverage-scaffold manifest** — create `manifests/production/chem-coverage.json` mapping ACS scaffold + grad chapter lists to (eventually) Codex unit IDs. Empty initially; populated as units ship.
+2. **Coverage-scaffold manifest** — create `manifests/production/chem-coverage.json` mapping ACS scaffold + grad chapter lists to (eventually) Babel Bible unit IDs. Empty initially; populated as units ship.
 3. **Reviewer recruitment** — start outreach for the three named reviewer roles (§7). Bandwidth target: 1 hire by start of Wave 2.
 4. **Produce 14.05.02 MO theory manually** — the chem-side equivalent of pilot-unit-#1. Surfaces chem-specific spec gaps before scaling.
 5. **Retro on 14.05.02** — what worked, what's missing in the spec, what the chem-side production rubric needs.

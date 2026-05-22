@@ -18,7 +18,7 @@ is archived at
 (already cited from `03.07.05-yang-mills-action.md`). The book itself
 is sold by Edizioni della Normale (Scuola Normale Superiore Pisa); a
 scanned copy circulates on academic mirrors (Ranicki / Edinburgh maths)
-but is not bundled with the Codex. WebFetch of the canonical Ranicki
+but is not bundled with the Babel Bible. WebFetch of the canonical Ranicki
 mirror returned a 404 in this audit pass; the chapter structure used
 below is reconstructed from the table-of-contents excerpts surfaced by
 WebSearch (researchgate, semanticscholar, scribd, inspirehep) and
@@ -149,7 +149,7 @@ Two further critical originator citations:
 
 ---
 
-## §2 Coverage table (Codex vs Atiyah Pisa lectures)
+## §2 Coverage table (Babel Bible vs Atiyah Pisa lectures)
 
 Cross-referenced against the current corpus. The
 `03-modern-geometry/07-gauge-theory/` chapter has **exactly one shipped
@@ -160,11 +160,11 @@ covers Pontryagin / Chern classes (`03.06.04`) and Chern-Weil
 (`03.06.06`). The Riemann-surfaces chapter (Ch. 6) has the
 Atiyah-Bott Riemann-surface picture sketched in `03.07.05`'s Master tier
 but no dedicated unit. The four-manifold / instanton / ADHM machinery
-is essentially **absent** from the Codex.
+is essentially **absent** from the Babel Bible.
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Atiyah topic | Chapter | Codex unit(s) | Status | Note |
+| Atiyah topic | Chapter | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | Yang-Mills Lagrangian $\tfrac12\|F_A\|^2$ | 1 | `03.07.05` | ✓ | Shipped at all three tiers; gauge invariance proved. |
 | Euler-Lagrange equation $d_A^* F_A = 0$ | 1 | `03.07.05` | ✓ | Derived in Master-tier proof set. |
@@ -177,7 +177,7 @@ is essentially **absent** from the Codex.
 | BPST one-instanton (1975) | 2 | — | ✗ | **Gap.** No worked unit on the explicit $k=1$ instanton; mentioned only in `03.07.05` Historical context. |
 | Quaternionic description of $S^4 \cong \mathbb{HP}^1$ | 2 | — | ✗ | **Gap.** $\mathbb{HP}^1$ is mentioned in `09-spin-geometry` triality unit but not as the conformal compactification of $\mathbb{R}^4$. |
 | Conformal invariance of Yang-Mills in dim 4 | 1–2 | — | ✗ | **Gap.** Foundational: explains why finite action on $\mathbb{R}^4$ ⇔ extension to $S^4$. |
-| Penrose twistor space $\mathbb{CP}^3 \to S^4$ | 3 | — | ✗ | **Gap.** Twistor theory is essentially absent from the Codex. |
+| Penrose twistor space $\mathbb{CP}^3 \to S^4$ | 3 | — | ✗ | **Gap.** Twistor theory is essentially absent from the Babel Bible. |
 | Real structure on $\mathbb{CP}^3$ (twistor) | 3 | — | ✗ | **Gap.** |
 | Ward correspondence (ASD bundles on $S^4$ ↔ holomorphic bundles on $\mathbb{CP}^3$ trivial on lines) | 4 | — | ✗ | **Gap (high priority — the central theorem of Ch. 3–4).** |
 | Holomorphic vs unitary gauge | 4 | — | ✗ | **Gap.** |
@@ -370,7 +370,7 @@ treatment per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10, citing:
   Scuola Normale Superiore Pisa, 1979 — the consolidated monograph.
 
 **Notation crosswalk.** Atiyah uses $A$ for the connection and $F$
-for the curvature (matching the Codex's `03.05.07`–`03.05.09`
+for the curvature (matching the Babel Bible's `03.05.07`–`03.05.09`
 convention). Twistor-side uses $\mathbb{P}^3 = \mathbb{CP}^3$ over
 $\mathbb{C}$ with the standard real structure
 $\sigma : [z_0, z_1, z_2, z_3] \mapsto [\bar{z}_1, -\bar{z}_0,
@@ -412,7 +412,7 @@ equivalence-coverage when:
 
 - The Kobayashi-Nomizu Vol. 2 sibling audit has not regressed
   `03.05.09` / `03.06.04` / `03.06.06` (soft prereq).
-- ≥95% of Atiyah's named theorems in chapters 1–7 map to Codex units
+- ≥95% of Atiyah's named theorems in chapters 1–7 map to Babel Bible units
   (currently ~15–20%; after priority-1 units rises to ~65%; after
   priority-1+2 to ~85%; full ≥95% requires priority-1+2+3 +
   selective priority-4).
@@ -441,7 +441,7 @@ bridge. Priority-3+4 are deepenings.
   `docs/catalogs/FASTTRACK_BOOKLIST.md`: **BUY**.
 - **PDF mirror.** A scanned copy is widely linked from academic
   mirrors (Edinburgh / Ranicki archive; researchgate;
-  inspirehep #150867). Not bundled with the Codex; not licensed for
+  inspirehep #150867). Not bundled with the Babel Bible; not licensed for
   redistribution. Add to `reference/textbooks-extra/` as
   `Atiyah-GeometryOfYangMillsFields-Pisa1979.pdf` if a clean copy is
   obtained, mirroring the pattern of Lawson-Michelsohn and similar

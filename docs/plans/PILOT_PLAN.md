@@ -1,4 +1,4 @@
-# Codex — Pilot Plan
+# Babel Bible — Pilot Plan
 
 **Wave 1.** 10 apex units, all three tiers (originally scoped Master-only; expanded during production once the rendering pipeline supported tier filtering). Apex-first production. Purpose: validate the spec + reveal real failure modes before scaling. Not to be confused with v1 launch.
 

@@ -42,7 +42,7 @@ deferred to a follow-up sourcing pass. This audit works from (a) the
 well-documented public TOC of LRFG (three-part structure as above,
 referenced verbatim in `07.01.07` exercise notes — "Serre §7.4",
 "Serre, *Linear Representations of Finite Groups* Part III (Chapters
-9–10)"); (b) the Codex's 26 shipped `07-representation-theory/` units,
+9–10)"); (b) the Babel Bible's 26 shipped `07-representation-theory/` units,
 of which 9 already cite Serre LRFG by name in their tier-anchor /
 reference blocks; (c) the canonical secondary literature
 (Curtis-Reiner, Isaacs, Alperin, James-Liebeck). A full line-number
@@ -102,7 +102,7 @@ Distinctive contributions, in the order LRFG develops them:
    (Ch. 11–12). **Mackey's irreducibility criterion** (§7.4) and the
    **Artin–Brauer induction theorems** (Chs. 9–10) are the
    load-bearing theorems here — they have no analogous unit in the
-   current Codex, despite being load-bearing for number-theoretic
+   current Babel Bible, despite being load-bearing for number-theoretic
    applications (Artin $L$-functions, the Brauer-Heller-Hasse
    conjecture).
 
@@ -181,7 +181,7 @@ the modern state of the art.
   reference; Vol. I covers ordinary representation theory (corresponding
   to LRFG Parts I–II), Vol. II covers modular and integral representation
   theory (LRFG Part III + much more). Referenced 8 times in shipped
-  Codex units (`07.01.05`, `07.01.07`, `07.01.08`, `07.02.01`).
+  Babel Bible units (`07.01.05`, `07.01.07`, `07.01.08`, `07.02.01`).
 - I. M. Isaacs, *Character Theory of Finite Groups* (Academic Press 1976;
   AMS Chelsea reprint 2006). The 300-page character-theory monograph at
   the same level as LRFG Parts I–II, with substantially more depth on
@@ -211,7 +211,7 @@ the modern state of the art.
 
 ---
 
-## §2 Coverage table (Codex vs LRFG)
+## §2 Coverage table (Babel Bible vs LRFG)
 
 Cross-referenced against the current 26 shipped units of
 `content/07-representation-theory/` (8 in `01-foundations/`, 1 in
@@ -220,7 +220,7 @@ Cross-referenced against the current 26 shipped units of
 ✓ = covered, △ = partial / different framing / present only as
 commentary or exercise, ✗ = not covered.
 
-| LRFG topic | Chapter | Codex unit(s) | Status | Note |
+| LRFG topic | Chapter | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | **PART I — ORDINARY CHARACTERS** | | | | |
 | Group representation, equivalence, sub/quotient | Ch. 1 | `07.01.01` | ✓ | Master tier cites Serre §1 as anchor. |
@@ -234,7 +234,7 @@ commentary or exercise, ✗ = not covered.
 | Tensor product of representations | Ch. 3 | `07.01.06` | ✓ | |
 | Group of a product $G \times H$; reps as tensors | Ch. 3 | — | ✗ | **Gap (low).** Serre §3.2; cleanly stated theorem $\widehat{G \times H} = \widehat{G} \otimes \widehat{H}$. Candidate: §Master extension to `07.01.06`. |
 | Symmetric and alternating squares; $\chi_{\mathrm{Sym}^2}, \chi_{\Lambda^2}$ formulae | Ch. 2 | △ (in `07.01.06`) | △ | **Gap (low).** Touched but explicit formulae missing. Master deepening. |
-| Worked character tables: $C_n, D_n, A_4, S_4, A_5, Q_8, $ Heisenberg | Ch. 5 | — | ✗ | **Gap (medium — defining LRFG content).** No Codex unit. These tables are *the* most-quoted material in LRFG; their absence is a real gap that the Fulton-Harris audit also flagged. Candidate: dedicated `07.02.E1` exercise/worked-tables file (5–6 tables, ~1500 words). |
+| Worked character tables: $C_n, D_n, A_4, S_4, A_5, Q_8, $ Heisenberg | Ch. 5 | — | ✗ | **Gap (medium — defining LRFG content).** No Babel Bible unit. These tables are *the* most-quoted material in LRFG; their absence is a real gap that the Fulton-Harris audit also flagged. Candidate: dedicated `07.02.E1` exercise/worked-tables file (5–6 tables, ~1500 words). |
 | **PART II — INDUCED REPS AND INDUCTION THEOREMS** | | | | |
 | Induced representation $\mathrm{Ind}_H^G$ | Ch. 7 | `07.01.07` | ✓ | Comprehensive unit; cites Serre §7. |
 | Frobenius reciprocity | Ch. 7 | `07.01.08` | ✓ | Categorical + character forms. |
@@ -244,17 +244,17 @@ commentary or exercise, ✗ = not covered.
 | Worked examples: $S_n, A_n, GL_2(\mathbb{F}_q)$ via induction | Ch. 8 | △ (partial in `07.05.01`) | △ | **Gap (medium).** $S_n$ covered via Young symmetrisers (`07.05.01–03`) but not via Serre's induction-from-Young-subgroups approach; $GL_2(\mathbb{F}_q)$ entirely absent. Candidate: dedicated worked-example unit. |
 | **Artin's induction theorem** | Ch. 9 | △ (commentary in `07.01.07`, `07.01.01`) | △ | **Gap (high — anchor missing).** Brauer's theorem is mentioned in `07.01.07` line 412 and `07.01.01` line 377 but Artin's $\mathbb{Q}$-linear version is **not** explicitly stated anywhere. The two are usually paired. Candidate: new unit `07.01.10 artin-induction-theorem`. |
 | **Brauer's induction theorem** | Ch. 10 | △ (commentary only in `07.01.07` line 412, `07.01.01` line 377, `07.01.03` line 405) | △ | **Gap (high — anchor missing).** Stated but never proved; no dedicated unit. The depth of the theorem (integrality via algebraic-integer arguments) is acknowledged but not exposed. Candidate: new unit `07.01.11 brauer-induction-theorem`. |
-| Rationality, the Schur index | Ch. 12 | — | ✗ | **Gap (medium-low).** Not in Codex. The Schur index $m(\chi)$ measures how far a $\mathbb{Q}$-irreducible character is from being $\mathbb{Q}$-representation-realisable. Candidate: short Master-tier unit. |
-| Frobenius-Schur indicator | Ch. 13 | — | ✗ | **Gap (medium).** Not in Codex. The FS indicator $\nu(\chi) \in \{0, +1, -1\}$ classifies irreducibles into real / quaternionic / complex types; load-bearing for the unitary-group / orthogonal-group / symplectic-group cross-link. Candidate: new unit `07.01.12 frobenius-schur-indicator`. |
+| Rationality, the Schur index | Ch. 12 | — | ✗ | **Gap (medium-low).** Not in Babel Bible. The Schur index $m(\chi)$ measures how far a $\mathbb{Q}$-irreducible character is from being $\mathbb{Q}$-representation-realisable. Candidate: short Master-tier unit. |
+| Frobenius-Schur indicator | Ch. 13 | — | ✗ | **Gap (medium).** Not in Babel Bible. The FS indicator $\nu(\chi) \in \{0, +1, -1\}$ classifies irreducibles into real / quaternionic / complex types; load-bearing for the unitary-group / orthogonal-group / symplectic-group cross-link. Candidate: new unit `07.01.12 frobenius-schur-indicator`. |
 | **PART III — MODULAR REPRESENTATIONS** | | | | |
 | Modular representations over $k$, $\mathrm{char}\, k = p \mid |G|$ | Ch. 14 | △ (commentary in `07.01.01`, `07.02.01`, `07.01.03`, `07.05.03`) | △ | **Gap (HIGH — foundational anchor missing).** Modular representation theory is referenced **9+ times across 5 shipped units** as a forward-pointer ("Brauer 1935 launched modular rep theory") but there is **no anchor unit** defining the basic setup ($k = \overline{\mathbb{F}_p}, K = $ field of fractions of Witt vectors, $\mathcal{O} = $ Witt vectors, the $p$-modular triple $(K, \mathcal{O}, k)$). This is the single largest structural gap in the chapter. Candidate: new unit `07.02.02 modular-representation`. |
-| Grothendieck groups $R_K(G), R_k(G), P_k(G)$ | Ch. 14 | — | ✗ | **Gap (high).** The cde-triangle organisational backbone of LRFG Part III. No Codex unit. Candidate: `07.02.03 grothendieck-group-cde-triangle`. |
+| Grothendieck groups $R_K(G), R_k(G), P_k(G)$ | Ch. 14 | — | ✗ | **Gap (high).** The cde-triangle organisational backbone of LRFG Part III. No Babel Bible unit. Candidate: `07.02.03 grothendieck-group-cde-triangle`. |
 | Decomposition map $d: R_K(G) \to R_k(G)$ and decomposition matrix $D$ | Ch. 15 | △ (commentary in `07.02.01`, `07.05.03`) | △ | **Gap (high).** Decomposition matrices are referenced as exposition (`07.02.01` Master tier; `07.05.03` for $S_n$ specifically) but no anchor unit defining the construction. Candidate: §Master section of `07.02.03` or new unit. |
-| Cartan map $c: P_k(G) \to R_k(G)$ and Cartan matrix $C$ | Ch. 15 | — | ✗ | **Gap (high).** No Codex unit. Cartan matrix $C = D^t D$ is the second pillar of the cde-triangle. Candidate: §Master section of `07.02.03`. |
+| Cartan map $c: P_k(G) \to R_k(G)$ and Cartan matrix $C$ | Ch. 15 | — | ✗ | **Gap (high).** No Babel Bible unit. Cartan matrix $C = D^t D$ is the second pillar of the cde-triangle. Candidate: §Master section of `07.02.03`. |
 | **Brauer characters** | Ch. 17 | △ (commentary in `07.01.03` line 415, `07.01.04` line 443, `07.02.01`) | △ | **Gap (HIGH — anchor missing).** Defined only as a sentence ("characters lifted from $p$-roots of unity to $\mathbb{Q}$, evaluated on $p$-regular elements"). No formal definition, no orthogonality relations, no examples. Candidate: new unit `07.02.04 brauer-character`. |
-| Brauer's theorem on modular characters (lifting from elementary subgroups) | Ch. 17 | — | ✗ | **Gap (high).** Modular analogue of Brauer's ordinary induction theorem; no Codex unit. Candidate: §Master section of `07.02.04` or new `07.02.05 brauer-modular-induction`. |
+| Brauer's theorem on modular characters (lifting from elementary subgroups) | Ch. 17 | — | ✗ | **Gap (high).** Modular analogue of Brauer's ordinary induction theorem; no Babel Bible unit. Candidate: §Master section of `07.02.04` or new `07.02.05 brauer-modular-induction`. |
 | Fong-Swan theorem ($p$-solvable: every modular irrep lifts to char 0) | Ch. 17 | — | ✗ | **Gap (medium).** Bridges modular reps of $p$-solvable groups to ordinary reps. Candidate: pointer in `07.02.04` Master tier. |
-| Blocks of $kG$; defect groups | Ch. 18 | △ (commentary in `07.02.01`) | △ | **Gap (medium).** Blocks defined only as a sentence in `07.02.01` Master tier ("decomposition of $kG$ into indecomposable two-sided ideals"); no Codex unit develops the theory. Candidate: new unit `07.02.06 block-theory`. |
+| Blocks of $kG$; defect groups | Ch. 18 | △ (commentary in `07.02.01`) | △ | **Gap (medium).** Blocks defined only as a sentence in `07.02.01` Master tier ("decomposition of $kG$ into indecomposable two-sided ideals"); no Babel Bible unit develops the theory. Candidate: new unit `07.02.06 block-theory`. |
 | Brauer's first/second/third main theorems on blocks | Ch. 18 | — | ✗ | **Gap (medium — survey-level).** Referenced via Alperin's-weight-conjecture commentary in `07.02.01`. Candidate: §Master section of `07.02.06`; full proofs deferred to Alperin / Curtis-Reiner Vol. II audit. |
 
 **Aggregate coverage estimate (REDUCED audit basis).**
@@ -392,10 +392,10 @@ local gap.
    to a prime $p$, $P$ a $p$-group). Statement; full proof requires
    ~10 pages of careful integrality-of-character-values arguments
    (Brauer 1946; Serre's exposition follows Brauer-Tate); the
-   Codex unit should give the statement, the structure of the
+   Babel Bible unit should give the statement, the structure of the
    proof, and a one-page sketch of the integrality lemma. Originator-
    prose section citing Brauer 1946. Three-tier; ~2000 words. LRFG
-   §10 anchor; cited 3 times in shipped Codex units as forward
+   §10 anchor; cited 3 times in shipped Babel Bible units as forward
    reference. **High — load-bearing for number-theoretic
    applications (Artin $L$-functions, the Brauer-Heller-Hasse
    conjecture).**
@@ -602,7 +602,7 @@ to disambiguate.
 - A line-number-level inventory of every named theorem in LRFG (full
   P1 audit; deferred until a local PDF is acquired). Coverage estimates
   in §2 are based on LRFG's well-known three-part chapter structure
-  plus spot-checks of Codex units via the 9+ existing Serre LRFG
+  plus spot-checks of Babel Bible units via the 9+ existing Serre LRFG
   citations.
 - **Serre's two Lie-theoretic siblings** (FT 3.12 *Complex Semisimple
   Lie Algebras* CSLA; FT 3.13 *Lie Algebras and Lie Groups* LALG). Both
@@ -659,7 +659,7 @@ equivalence-coverage when:
   `07.01.11 brauer-induction-theorem`). These close the largest
   structural gaps.
 - ≥95% of LRFG's named theorems and worked examples in chapters
-  1–18 map to a Codex unit (currently ~55%; after Priority-1 this
+  1–18 map to a Babel Bible unit (currently ~55%; after Priority-1 this
   rises to ~85%; after Priority-1+2 to ~92%; full ≥95% requires
   Priority-3 master deepenings plus the Priority-4 character-table
   pack).
@@ -689,7 +689,7 @@ equivalence-coverage when:
 §4):
 
 - **4.1 Book-as-input self-check.** Sample 5 random theorem statements
-  from LRFG; for each, identify the Codex unit that proves it.
+  from LRFG; for each, identify the Babel Bible unit that proves it.
   Particularly stress-test the Part III sample (modular section, which
   is the largest gap).
 - **4.2 Exercise reproducibility.** Sample 5 random exercises from
@@ -699,7 +699,7 @@ equivalence-coverage when:
   to spot-check the punch-list units.
 - **4.3 Notation comprehension.** Sample 5 fragments of LRFG prose
   (one per part: I, II, III; plus two boundary fragments); paraphrase
-  each into the Codex notation system (per §4 crosswalk).
+  each into the Babel Bible notation system (per §4 crosswalk).
 
 ---
 

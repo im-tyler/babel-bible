@@ -18,14 +18,14 @@ as a FREE author-hosted text; canonical reference for chromatic / stable
 homotopy theory.
 
 **Purpose of this plan:** P1 audit stub (reduced — see frontmatter) and gap
-punch-list against the current Codex corpus. Ravenel is the most technically
+punch-list against the current Babel Bible corpus. Ravenel is the most technically
 demanding entry in the Fast Track. It sits *above* May *Concise* (3.38), May
 *Simplicial Objects* (3.40), Adams *Stable Homotopy and Generalised
 Homology*, and Switzer *Algebraic Topology*. The honest assessment recorded
 in this plan is that **a meaningful punch-list against Ravenel is dominated
 by Priority-0 prerequisite gaps**: the units Ravenel *builds on* (Adams
 spectral sequence machinery, formal group laws, MU and BP, the cobar
-complex) do not yet exist in the Codex, and writing them is itself a
+complex) do not yet exist in the Babel Bible, and writing them is itself a
 multi-wave production project. Treating Ravenel as a one-wave target is
 not credible.
 
@@ -256,12 +256,12 @@ plan must replicate, not merely paraphrase):
 
 ---
 
-## §2 Coverage table (Codex vs Ravenel)
+## §2 Coverage table (Babel Bible vs Ravenel)
 
 Cross-referenced against the current 313-unit corpus. ✓ = covered, △ =
 partial / different framing or in passing only, ✗ = not covered.
 
-| Ravenel topic | Codex unit(s) | Status | Note |
+| Ravenel topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Spectrum, stable homotopy category | `03.12.04-spectrum`, `03.08.06-stable-homotopy` | △ | Definitional unit and stable-category overview exist; Ravenel-level computational use is not exercised. |
 | Generalised cohomology theory; Brown representability | `03.12.15-eilenberg-steenrod` (one section) | △ | Pointer only. |
@@ -295,13 +295,13 @@ partial / different framing or in passing only, ✗ = not covered.
 | Tables of $\pi_*^s(S^0)$ | — | ✗ | Not a unit-shaped object; absorb as appendix to a Ravenel-level survey unit if and when shipped. |
 
 **Aggregate coverage estimate:** ~3% of Ravenel's named content has any
-Codex unit, and 0% of his **load-bearing technical apparatus** (Adams SS,
+Babel Bible unit, and 0% of his **load-bearing technical apparatus** (Adams SS,
 $MU$, $BP$, formal group laws, chromatic SS) has a dedicated unit. The
 chromatic perspective exists in the corpus *only* as a one-paragraph
 forward-pointer inside `03.12.04-spectrum`.
 
 This is unsurprising. Ravenel is a research monograph in chromatic
-homotopy theory; the Codex currently has elementary algebraic topology
+homotopy theory; the Babel Bible currently has elementary algebraic topology
 through the Hatcher / Bott-Tu level and a beginning of stable homotopy.
 The gap is structural.
 
@@ -431,7 +431,7 @@ Fast Track entries (Adams *Stable Homotopy*, May *Concise*).
 
 This is the largest punch-list of any Fast Track audit completed to date.
 The reason is that Ravenel sits at the top of a tower of prerequisites
-none of which are currently in the Codex. The punch-list is not padded:
+none of which are currently in the Babel Bible. The punch-list is not padded:
 every entry is named in Ravenel's TOC and is load-bearing.
 
 ---
@@ -478,7 +478,7 @@ originator-prose treatment per
   theory I," *Ann. of Math.* (2) 128 (1988), 207–241 — Items 19, 20.
 
 **Notation crosswalk.** Ravenel's conventions diverge from the modern
-chromatic-homotopy literature in several places that the Codex notation
+chromatic-homotopy literature in several places that the Babel Bible notation
 spec must adjudicate:
 
 - $BP_*$ vs $\pi_*(BP)$ — Ravenel writes $BP_*$ throughout.
@@ -492,7 +492,7 @@ spec must adjudicate:
   $|v_n| = 2(p^n - 1)$.
 - Hopf algebroid: Ravenel writes $(A, \Gamma)$ with $\Gamma = E_*E$;
   modern stack-theoretic accounts (Lurie) write $\mathcal{M}_{fg}$ for
-  the moduli stack — the Codex should record both and bridge in the
+  the moduli stack — the Babel Bible should record both and bridge in the
   Master tier of Item 7.
 
 ---
@@ -517,7 +517,7 @@ spec must adjudicate:
   FT-equivalence on Ravenel.
 - **The cubical / $\infty$-categorical / Lurie reframing.** Ravenel
   works in classical (non-$\infty$-categorical) stable homotopy theory.
-  The Codex's chromatic units should follow Ravenel's classical
+  The Babel Bible's chromatic units should follow Ravenel's classical
   formulation, with $\infty$-categorical reframings deferred to a
   separate Lurie-track plan (when/if Lurie's *Higher Algebra* enters
   the FT).
@@ -532,7 +532,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and AGENTIC_EXECUTION
 §6.6, the book reaches equivalence-coverage when:
 
 - The P0 unit set (Items 1–7) has shipped — strict prerequisite.
-- ≥95% of Ravenel's named theorems in Chapters 1–6 map to Codex units
+- ≥95% of Ravenel's named theorems in Chapters 1–6 map to Babel Bible units
   (currently 0% of load-bearing content; after P0+P1 this rises to ~70%;
   after P0+P1+P2 to ~85%; full ≥95% requires P0+P1+P2+P3).
 - ≥90% of Ravenel's worked computations in Chapters 1–6 are covered or

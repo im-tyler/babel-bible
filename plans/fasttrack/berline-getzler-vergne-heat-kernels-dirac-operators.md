@@ -153,7 +153,7 @@ short-form alternative is Roe's book or Lawson-Michelsohn §III.6+§III.13.
 
 ---
 
-## §2 Coverage table (Codex vs BGV)
+## §2 Coverage table (Babel Bible vs BGV)
 
 Cross-referenced against the current corpus, with `03.09-spin-geometry/`
 already shipped through the Lawson-Michelsohn Cycle 1 audit. The
@@ -166,7 +166,7 @@ adjacent infrastructure but are not in BGV's chapter spine.
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| BGV chapter / topic | Codex unit(s) | Status | Note |
+| BGV chapter / topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Ch. 1 Clifford modules — algebra | `03.09.02` (Clifford algebra), `03.09.05` (spinor bundle), `03.09.14` (Dirac bundle) | ✓ | Lawson-Michelsohn-flavoured but content equivalent. |
 | Ch. 1 Clifford modules — generalised Dirac operator | `03.09.14` (Dirac bundle), `03.09.08` (Dirac operator) | ✓ | "Clifford bundle / generalised Dirac" is exactly the Dirac-bundle unit. |
@@ -175,7 +175,7 @@ adjacent infrastructure but are not in BGV's chapter spine.
 | Ch. 4 The local index theorem (Getzler rescaling, Mehler) | `03.09.20` | ✓ | Shipped. McKean-Singer + Getzler rescaling + Mehler formula all in the Master tier with §Key-theorem proof and §Full-proof-set. |
 | Ch. 5 The exponential map and the index density | `03.09.20` (synchronous-coordinates discussion) | △ | The synchronous-frame setup is touched but not pulled out. The BGV-specific "exponential-map normal-form computation of the index density" is a sub-tier deepening. |
 | Ch. 6 Equivariant index — Kirillov formula | `03.09.21` (family / equivariant / Lefschetz); `03.08.10` (equivariant K-theory, Cycle 7) | △ | `03.09.21` ships the equivariant heat-kernel proof and Lefschetz fixed-point formula. The **Kirillov character formula** (representation as coadjoint-orbit integral, via equivariant cohomology + heat kernel) is **not** in any shipped unit — gap. |
-| Ch. 7 Heat kernel of a Dirac operator (probabilistic / Bismut formula) | — | ✗ | **Gap.** The Bismut 1984 probabilistic / Brownian-bridge construction of the heat kernel of a Dirac operator is not in the Codex. |
+| Ch. 7 Heat kernel of a Dirac operator (probabilistic / Bismut formula) | — | ✗ | **Gap.** The Bismut 1984 probabilistic / Brownian-bridge construction of the heat kernel of a Dirac operator is not in the Babel Bible. |
 | Ch. 8 Family index, superconnections (Bismut) | `03.09.21` §Master sections | △ | The family index theorem is stated and proved at high level in `03.09.21`. **Bismut superconnections** appear only as a Master-tier mention in `03.09.20` and `03.09.21`; no dedicated unit. |
 | Ch. 9 The index bundle of a family | `03.09.21` | △ | Family-index-as-virtual-bundle is in `03.09.21`. The BGV-specific construction of the index bundle from the family Dirac with Bismut superconnection is not. |
 | Ch. 10 Eta invariant; APS index theorem on manifolds with boundary | `03.09.20` §Advanced-results (one-paragraph pointer) | ✗ | **Gap.** No dedicated Eta-invariant unit. APS index theorem mentioned in passing in `03.09.20`'s "Advanced results" but not developed. |
@@ -187,7 +187,7 @@ adjacent infrastructure but are not in BGV's chapter spine.
 | Connection to equivariant K-theory $K_G$ | `03.08.10` | ✓ | Cycle 7 shipped. BGV Ch. 6 (equivariant index lands in $R(G)$, and at $g=e$ recovers the non-equivariant theory) is the natural lateral. |
 
 **Aggregate coverage estimate:** ~70–75% of BGV's chapter-level content
-is already in the Codex at appropriate tier depth via the Lawson-Michelsohn
+is already in the Babel Bible at appropriate tier depth via the Lawson-Michelsohn
 audit (`03.09.20`, `03.09.21`, `03.09.22`) plus Cycle 6 (`03.13.04`) and
 Cycle 7 (`03.08.10`). The gaps are concentrated in: (a) the
 **superconnection formalism** as a topic in its own right (currently
@@ -196,7 +196,7 @@ only one-paragraph mentions); (b) the **Kirillov character formula**
 (Ch. 10); (d) the **probabilistic / Brownian construction** of the heat
 kernel (Ch. 7); (e) the **Mathai-Quillen formalism** (Ch. 1.6 + Ch. 7).
 The probabilistic chapter is the deepest gap pedagogically because no
-adjacent Codex unit covers stochastic-analytic methods.
+adjacent Babel Bible unit covers stochastic-analytic methods.
 
 ---
 
@@ -277,7 +277,7 @@ Cycle 1 closed). `03.09.20`, `03.09.21`, `03.09.22`, `03.06.04`, `03.06.06`,
    probabilistic Mehler formula; the path-integral form of the local
    index theorem. **Master-tier only**; this is a research-tier
    topic. Requires foundational stochastic-calculus content that is
-   not currently in the Codex (Brownian motion on manifolds, Itô
+   not currently in the Babel Bible (Brownian motion on manifolds, Itô
    integration, stochastic parallel transport) — flag this as a
    secondary prerequisite gap. Originator: Bismut 1984 *J. Diff.
    Geom.* 20 (probabilistic proof) and 1984 *Comm. Math. Phys.* 98
@@ -285,7 +285,7 @@ Cycle 1 closed). `03.09.20`, `03.09.21`, `03.09.22`, `03.06.04`, `03.06.06`,
    plus ~6–8 hours of stochastic-calculus prereq content if anyone
    wants the unit to stand alone. **Defer the prereqs to the analysis
    strand**; ship `03.09.27` with explicit "this unit assumes
-   stochastic calculus that the Codex does not yet ship".
+   stochastic calculus that the Babel Bible does not yet ship".
 
 **Priority 3 — Bismut-Lott style deepenings (Master-tier, optional for
 FT equivalence):**
@@ -319,7 +319,7 @@ production estimate (mirroring earlier Lawson-Michelsohn / Bott-Tu
 batches):
 
 - ~3–4 hours per unit; the Master tier for the superconnection unit will
-  run slightly longer because the formalism is novel for the Codex.
+  run slightly longer because the formalism is novel for the Babel Bible.
 - 3 priority-1 units × ~3.5 hours = ~10–11 hours focused production.
 - Priority-2 items 4–5: ~4 hours combined (item 4 is short; item 5 is
   Master-only with the stochastic-prereq caveat).
@@ -370,7 +370,7 @@ batches):
 **Notation crosswalk.** BGV writes $D$ for a generalised Dirac operator
 on a Clifford module $\mathcal E$, $\mathbb A_t$ for the Bismut
 superconnection, $\eta(D)$ for the eta invariant, and uses $\operatorname{Str}$
-consistently for the supertrace. The Codex notation per `03.09.20` /
+consistently for the supertrace. The Babel Bible notation per `03.09.20` /
 `03.09.21` already aligns ($D$, $\operatorname{Str}$, $\not{D}$ when the
 spin case is meant). New units `03.09.23–03.09.27` should adopt BGV's
 $\mathbb A_t$ for the superconnection, $\eta(D)$ for the eta invariant,
@@ -405,7 +405,7 @@ paragraphs.
   belong to the analysis strand, not the spin-geometry strand. The
   probabilistic unit `03.09.27` will be shipped Master-only with a
   visible note that the underlying stochastic calculus is not yet in
-  the Codex.
+  the Babel Bible.
 
 ---
 
@@ -416,7 +416,7 @@ equivalence-coverage when:
 
 - The Lawson-Michelsohn Cycle 1 punch-list units have shipped (strict
   prereq — done; `03.09.20`, `03.09.21`, `03.09.22` are all in place).
-- ≥95% of BGV's named theorems in chapters 1–10 map to Codex units.
+- ≥95% of BGV's named theorems in chapters 1–10 map to Babel Bible units.
   Current state: ~70–75% via the shipped spin-geometry chapter. After
   priority-1 units this rises to ~90%; after priority-1+2 to ≥95%.
   Priority-3+4 are deepenings.

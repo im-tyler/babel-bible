@@ -9,7 +9,7 @@ with) by the end of their second year.
 **Fast Track entry:** *not numbered* — Hartshorne sits in the Fast Track
 booklist as a *peer reference anchor* alongside Vakil (*The Rising Sea*),
 Eisenbud-Harris (*The Geometry of Schemes*), and Mumford (*The Red Book*).
-It is cited by 23 of the 27 algebraic-geometry units in Codex (and by
+It is cited by 23 of the 27 algebraic-geometry units in Babel Bible (and by
 several outside the AG section — Chern-Weil, spin structures, sphere
 bundles all cross-reference Hartshorne) but has never been audited for
 equivalence coverage. Treated here as a peer-anchor parallel to Hatcher,
@@ -122,7 +122,7 @@ B: GAGA, Hodge, Kähler. C: étale cohomology, Weil conjectures.
 
 ---
 
-## §2 Coverage table (Codex vs Hartshorne)
+## §2 Coverage table (Babel Bible vs Hartshorne)
 
 Cross-referenced against the current 27-unit `04-algebraic-geometry/`
 section. ✓ = covered, △ = partial / different framing or depth, ✗ = not
@@ -131,7 +131,7 @@ the Bott-Tu plan punch-list (sheaf cohomology, Čech, etc).
 
 ### Chapter I — Varieties
 
-| Hartshorne topic | Codex unit(s) | Status | Note |
+| Hartshorne topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Affine varieties, Zariski topology | — | ✗ | **Gap.** No standalone unit on classical affine varieties. Codex jumps directly to schemes via `04.02.01`. |
 | Projective varieties | `04.07.01` projective-space | △ | Projective space exists; "projective variety" as a classical-geometry object does not. Hartshorne §I.2. |
@@ -143,7 +143,7 @@ the Bott-Tu plan punch-list (sheaf cohomology, Čech, etc).
 
 ### Chapter II — Schemes
 
-| Hartshorne topic | Codex unit(s) | Status | Note |
+| Hartshorne topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Presheaves, sheaves | `04.01.01` sheaf | ✓ | Covered. Hartshorne §II.1 reference. |
 | Stalks | `04.01.02` stalk | ✓ | Covered. Hartshorne §II.1 reference. |
@@ -168,13 +168,13 @@ the Bott-Tu plan punch-list (sheaf cohomology, Čech, etc).
 | Line bundle, invertible sheaf | `04.05.03` line-bundle | ✓ | Covered. |
 | Sheaf of differentials, $\Omega_{X/Y}$ | `04.08.01` sheaf-of-differentials | ✓ | Covered. Hartshorne §II.8 reference. |
 | Canonical sheaf $\omega_X$ | `04.08.02` canonical-sheaf | ✓ | Covered. Hartshorne §II.8 reference. |
-| Smooth, étale, unramified morphisms | — | ✗ | **Gap (high priority).** Hartshorne §III.10 (smoothness via the differentials), Appendix C (étale). No Codex unit exists. Used implicitly in spin-geometry and moduli units. |
+| Smooth, étale, unramified morphisms | — | ✗ | **Gap (high priority).** Hartshorne §III.10 (smoothness via the differentials), Appendix C (étale). No Babel Bible unit exists. Used implicitly in spin-geometry and moduli units. |
 | Kähler differentials (commutative-algebra side) | `04.08.01` (uses) | △ | The module-theoretic Kähler differentials $\Omega_{B/A}$ is in the sheaf-of-differentials unit; not its own algebra unit. **Adequate** for the AG section; could deepen via a `03-01-*` (commutative algebra) cross-link. |
 | Formal schemes | — | ✗ | Hartshorne §II.9. **Specialty — defer to Tier-γ.** Not load-bearing for the rest of the curriculum. |
 
 ### Chapter III — Cohomology
 
-| Hartshorne topic | Codex unit(s) | Status | Note |
+| Hartshorne topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Derived functors | — | ✗ | **Gap (medium priority).** Hartshorne §III.1. The general derived-functor formalism is used in `04.03.01` but not standalone. (Cross-section with category theory: belongs in `01-foundations/05-category-theory/` as a homological-algebra unit.) |
 | Sheaf cohomology (definition) | `04.03.01` sheaf-cohomology | ✓ | Covered. Hartshorne §III.2 reference. |
@@ -192,7 +192,7 @@ the Bott-Tu plan punch-list (sheaf cohomology, Čech, etc).
 
 ### Chapter IV — Curves
 
-| Hartshorne topic | Codex unit(s) | Status | Note |
+| Hartshorne topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Riemann-Roch theorem for curves | `04.04.01` riemann-roch-curves | ✓ | Covered. Hartshorne §IV.1. **Hartshorne's depth — the cohomology proof via Serre duality, the genus formula, the application to embeddings — is a deepening opportunity.** |
 | Hurwitz's theorem (ramification, genus formula for covers) | — | ✗ | **Gap (medium priority).** Hartshorne §IV.2 anchor. Foundational for curve theory; used implicitly in the moduli-of-curves unit. |
@@ -203,7 +203,7 @@ the Bott-Tu plan punch-list (sheaf cohomology, Čech, etc).
 
 ### Chapter V — Surfaces
 
-| Hartshorne topic | Codex unit(s) | Status | Note |
+| Hartshorne topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Intersection pairing on a surface, $D \cdot D'$ | — | ✗ | **Gap (high priority — load-bearing).** Hartshorne §V.1 anchor. The intersection number on a smooth projective surface; the pairing $\mathrm{Pic}(X) \times \mathrm{Pic}(X) \to \mathbb{Z}$. Used implicitly in `04.07.02` blowup, `04.05.02` picard-group, and the spin-geometry strand. |
 | Adjunction formula, $K_C = (K_X + C)\big|_C$ | `04.08.02` (mention) | △ | **Gap (high priority).** Mentioned in the canonical-sheaf unit; not its own unit. Hartshorne §V.1 anchor. Foundational for genus computations on curves embedded in surfaces. |
@@ -217,7 +217,7 @@ the Bott-Tu plan punch-list (sheaf cohomology, Čech, etc).
 
 ### Appendices A, B, C
 
-| Hartshorne topic | Codex unit(s) | Status | Note |
+| Hartshorne topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Chow groups, intersection theory (general) | — | ✗ | Hartshorne Appendix A. **Survey-level in Hartshorne; defer.** Tier-γ if at all. |
 | GAGA | — | ✗ | Hartshorne Appendix B. **Specialty — defer.** Bridges algebraic and complex-analytic geometry. |
@@ -246,7 +246,7 @@ $\Omega_{X/k}$ versus $\Omega_X$ implicit-base, closed-immersion
 $i: Z \hookrightarrow X$ notation. A `notation/hartshorne.md`
 crosswalk is warranted.
 
-**Sequencing layer**: ~85%. Codex DAG follows Hartshorne's flow
+**Sequencing layer**: ~85%. Babel Bible DAG follows Hartshorne's flow
 (sheaves → schemes → cohomology → divisors → differentials →
 Riemann-Roch). Hartshorne's "schemes-first" choice is mirrored: Codex
 has no classical varieties chapter.
@@ -341,7 +341,7 @@ gaps:**
     *Arithmetic of Elliptic Curves* as cross-anchor. Smooth projective
     curves of genus 1 with a marked point, Weierstrass form, group law,
     $j$-invariant, the moduli space $\mathcal{M}_{1,1}$. Three-tier;
-    ~2500 words. **A glaring absence in the current Codex.** Used as
+    ~2500 words. **A glaring absence in the current Babel Bible.** Used as
     motivation in `04.10.01` moduli-of-curves and in number-theory
     cross-references; deserves a dedicated unit.
 
@@ -489,7 +489,7 @@ in addition to Hartshorne.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, Hartshorne
 is at equivalence-coverage when:
 
-- ≥95% of Hartshorne's named theorems map to Codex units (currently
+- ≥95% of Hartshorne's named theorems map to Babel Bible units (currently
   ~50%; after priority-1 units this rises to ~75%; after priority-1+2
   to ~88%; after priority-3 deepenings + foundations to ~95%).
 - ≥80% of Hartshorne's exercises have a Codex equivalent (currently
@@ -503,7 +503,7 @@ is at equivalence-coverage when:
 - A `notation/hartshorne.md` crosswalk exists.
 - For every chapter dependency in Hartshorne (Ch I → Ch II → Ch III
   → Ch IV → Ch V), there is a corresponding `prerequisites` arrow
-  chain in Codex's DAG.
+  chain in Babel Bible's DAG.
 - Pass-W weaving connects the new units to the existing
   `04-algebraic-geometry/` units, plus the spin-geometry strand
   (`03-09-spin-geometry`), the differential-forms / cohomology strand

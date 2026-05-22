@@ -139,13 +139,13 @@ per the audit protocol):
 
 ---
 
-## §2 Coverage table (Codex vs IMNT)
+## §2 Coverage table (Babel Bible vs IMNT)
 
-Cross-referenced against the current Codex corpus
+Cross-referenced against the current Babel Bible corpus
 (`content/00-precalc/` through `content/20-philosophy/`).
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| IMNT topic | Codex unit(s) | Status | Note |
+| IMNT topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Diophantine equations (Pell, Mordell, Fermat-Catalan, ABC) | — | ✗ | **Gap.** No Diophantine equations chapter. |
 | Number fields, ring of integers, ideal class group | — | ✗ | **Gap.** Algebraic number theory absent. |
@@ -176,10 +176,10 @@ Cross-referenced against the current Codex corpus
 | ABC conjecture, Faltings / Mordell theorem (statements) | — | ✗ | **Gap (low priority — Master pointer).** |
 
 **Aggregate coverage estimate:** **~5%** of IMNT has corresponding
-Codex units (only the elliptic-curves-as-algebraic-curves unit
+Babel Bible units (only the elliptic-curves-as-algebraic-curves unit
 `04.04.03` and the modular-group / Möbius-transformations pointer
 in `06.01.08`). The gap is essentially total. This is unsurprising —
-the Codex has no number-theory chapter; arithmetic geometry has
+the Babel Bible has no number-theory chapter; arithmetic geometry has
 appeared only where it intersects with the algebraic-geometry
 curriculum (Mordell-Weil for elliptic curves, modular group via
 hyperbolic geometry, period mappings via VHS).
@@ -198,7 +198,7 @@ hyperbolic geometry, period mappings via VHS).
   of algebraic geometry. Cheaper to set up (no new chapter
   scaffolding), but mis-classifies number theory as a *subset* of
   algebraic geometry, which is the modern arithmetic-geometry view
-  but not how the Codex sequences other classical disciplines (real
+  but not how the Babel Bible sequences other classical disciplines (real
   analysis is not a sub-chapter of measure theory, etc.).
 
 **Strong recommendation: Option A.** Create `content/21-number-theory/`
@@ -216,7 +216,7 @@ modular forms as automorphic forms on $\mathbb{H}/\Gamma$).
 
 - **Algebraic number theory primer.** Neukirch Ch. 1–3 equivalent —
   number fields, ring of integers, ideal class group, units.
-  Currently absent from the Codex; *required* before any IMNT unit
+  Currently absent from the Babel Bible; *required* before any IMNT unit
   can be written. Tentative unit `21.01.01` through `21.01.05`.
 - **Local fields / $p$-adic numbers.** $\mathbb{Q}_p$ as completion,
   Hensel's lemma, ramification, local-global. Tentative `21.02.01`

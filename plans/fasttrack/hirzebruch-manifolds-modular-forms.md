@@ -240,7 +240,7 @@ Two additional originator-prose anchors (cited in §4):
 
 - **Atiyah, M. F. & Singer, I. M.** — the Atiyah-Singer index theorem
   framework on which the rigorous (non-loop-space) side of the
-  elliptic genus is built. Already shipped in Codex `03.09.10`.
+  elliptic genus is built. Already shipped in Babel Bible `03.09.10`.
 
 - **Hirzebruch, F.,** *Topological Methods in Algebraic Geometry*
   (FT 3.25). Strict prerequisite for the multiplicative-sequence
@@ -249,9 +249,9 @@ Two additional originator-prose anchors (cited in §4):
 
 ---
 
-## §2 Coverage table (Codex vs *Manifolds and Modular Forms*)
+## §2 Coverage table (Babel Bible vs *Manifolds and Modular Forms*)
 
-Cross-referenced against the current 313-unit Codex. Relevant areas:
+Cross-referenced against the current 313-unit Babel Bible. Relevant areas:
 `03-modern-geometry/06-characteristic-classes/` (4 shipped units),
 `03-modern-geometry/08-k-theory/` (7 shipped units),
 `03-modern-geometry/09-spin-geometry/` (22 shipped units including the
@@ -262,14 +262,14 @@ and the Riemann-surfaces theta-function unit
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| H-B-J topic | Lecture / App | Codex unit(s) | Status | Note |
+| H-B-J topic | Lecture / App | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | Multiplicative sequences (recap from FT 3.25) | L1 | — | ✗ | **Gap.** Already on Hirzebruch (3.25) plan as shared Priority-1 unit `03.06.15` and on Milnor-Stasheff plan as Priority-3. **Shared / blocked by sibling.** |
 | Signature, $L$-genus, $\hat A$-genus, Todd genus (recap) | L1 | partial | △ | Named throughout `03.06.04`, `03.09.10`, `04.05.08`. Standalone definitional unit is the shared `03.06.15`. **Shared with FT 3.25 plan.** |
 | Chern character $\mathrm{ch}$, Todd $\mathrm{td}$ — twisted Dirac index | L1, App II | partial | △ | Twisted index $\hat A \cdot \mathrm{ch}(E)$ stated in `03.09.10`; Chern character standalone unit is on the FT 3.25 plan as Priority-1 unit `03.06.18`. **Shared.** |
 | Modular group $\mathrm{SL}_2(\mathbb{Z})$ action on $\mathbb{H}$ | L2 | partial | △ | Möbius-transformation generalities in `06.01.08-mobius-transformations`; no unit framing $\mathrm{SL}_2(\mathbb{Z}) \curvearrowright \mathbb{H}$ as moduli of elliptic curves. **Gap.** |
 | Congruence subgroups $\Gamma_0(N)$, $\Gamma(N)$; level structure | L2 | — | ✗ | **Gap (foundational for the modular-form side).** |
-| Modular forms of weight $k$; ring $M_*(\Gamma)$ | L2 | — | ✗ | **Gap (foundational — no current Codex unit on modular forms).** |
+| Modular forms of weight $k$; ring $M_*(\Gamma)$ | L2 | — | ✗ | **Gap (foundational — no current Babel Bible unit on modular forms).** |
 | Eisenstein series $E_{2k}$; discriminant $\Delta$ | L2 | — | ✗ | **Gap.** |
 | Cusps, cusp forms, $q$-expansion | L2 | — | ✗ | **Gap.** |
 | Weierstrass $\wp$-function and elliptic curves analytically | L3 | partial | △ | Elliptic curves as projective varieties in `04.04.03-elliptic-curves`; no unit on $\wp$ as a doubly-periodic function and Weierstrass equation $y^2 = 4x^3 - g_2 x - g_3$ derivation. **Gap.** |
@@ -303,7 +303,7 @@ forms, elliptic genera, modularity, rigidity, the loop-space heuristic —
 is **almost entirely uncovered**. This is the expected finding for a
 research-level sequel monograph on an originating-topic line: the gap is
 substantial and the modular-forms strand is essentially a **green-field
-addition** to the Codex.
+addition** to the Babel Bible.
 
 ---
 
@@ -507,7 +507,7 @@ batch.
   Chern character, and bordism background. **Hard prereq.**
 - **Milnor-Stasheff Priority-1 batch** (`03.06.07`–`03.06.13`) — the
   characteristic-numbers and Thom-bordism backbone. **Hard prereq.**
-- **Existing Codex units:** `03.09.10` (Atiyah-Singer index theorem,
+- **Existing Babel Bible units:** `03.09.10` (Atiyah-Singer index theorem,
   shipped), `03.09.21` (family/equivariant index, shipped) — both
   prereq for Bott-Taubes rigidity (unit 8).
 - **New `04.11-modular-forms/` chapter spine:** must open chapter
@@ -640,7 +640,7 @@ equivalence-coverage when:
   Priority-1 units 1–2 (`04.11.01` modular forms, `04.11.02` congruence
   subgroups) have shipped.
 - ≥95% of H-B-J's named theorems in Lectures 1–8 + Appendices I–II map
-  to Codex units. Current: ~10%; after Priority-1 batch: ~75%; after
+  to Babel Bible units. Current: ~10%; after Priority-1 batch: ~75%; after
   Priority-1+2: ~88%; full ≥95% requires Priority-3 + selective
   Priority-4.
 - ≥90% of H-B-J's worked computations in Lectures 4–7 have a direct unit

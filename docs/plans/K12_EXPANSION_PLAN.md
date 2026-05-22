@@ -1,6 +1,6 @@
 # Babel Bible — K-12 Expansion Plan
 
-**Drafted 2026-05-20.** Extends Codex from a post-high-school math/physics curriculum into a complete K-12+ education. Adds three new top-level domains: Language, World, Philosophy. Read `OVERVIEW.md` and `BRIEF.md` first.
+**Drafted 2026-05-20.** Extends Babel Bible from a post-high-school math/physics curriculum into a complete K-12+ education. Adds three new top-level domains: Language, World, Philosophy. Read `OVERVIEW.md` and `BRIEF.md` first.
 
 **Status:** Draft. Defines content structure, neutrality principles, section numbering, and concept DAGs. Production follows this plan.
 

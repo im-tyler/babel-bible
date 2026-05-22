@@ -16,7 +16,7 @@ protocol — punch-list of new units + deepenings to reach
 to `donaldson-riemann-surfaces.md`; overlap with Donaldson plan flagged
 so the campaigns share infrastructure rather than double-count.
 
-Codex's `06-riemann-surfaces` ships 22 units (just-shipped `06.04.04`
+Babel Bible's `06-riemann-surfaces` ships 22 units (just-shipped `06.04.04`
 Serre duality already cites Forster §17). Topic-level coverage of
 Forster's core is high; **real gaps are on Forster's distinctively
 analytic spine** — Mittag-Leffler on Riemann surfaces, additive and
@@ -66,14 +66,14 @@ Distinctive Forster choices:
 4. **Cohomology of Stein manifolds (1-d)** — Theorems A and B
    (§§28-30). Donaldson skips Stein theory entirely.
 5. **Behnke-Stein theorem on non-compact RS** (§29). Non-compact ⇒
-   Stein. **Largest Forster-distinctive gap in Codex.**
+   Stein. **Largest Forster-distinctive gap in Babel Bible.**
 6. **Rigorous gluing-patches foundation** (§§1-2). More explicit than
-   Donaldson — chart-atlas, IFT on RS, maximal atlas. Codex unit
+   Donaldson — chart-atlas, IFT on RS, maximal atlas. Babel Bible unit
    doesn't unpack at this level.
 7. **Branched coverings as a category** (§§4-6). Branched extensions
    of $X' \to Y \setminus B$ via local-monodromy criterion;
    identification of $\mathbb{P}^1$ branched covers with finite
-   extensions of $\mathbb{C}(z)$. Not in Codex.
+   extensions of $\mathbb{C}(z)$. Not in Babel Bible.
 8. **Riemann's existence theorem** (§§7-8). Every compact RS arises
    from $P(z, w) = 0$, via Mittag-Leffler. The concrete
    complex-analytic ↔ algebraic-curve bridge.
@@ -91,14 +91,14 @@ Riemann's existence — all Donaldson territory.
 
 ---
 
-## §2 Coverage table (Codex vs Forster)
+## §2 Coverage table (Babel Bible vs Forster)
 
 Cross-referenced against the 22-unit Codex Riemann-surfaces chapter,
 listed below. ✓ = covered at Forster-equivalent depth, △ = topic
-present but Codex unit shallower (typically templated v0.5 Strand-B
+present but Babel Bible unit shallower (typically templated v0.5 Strand-B
 prose), ✗ = not covered.
 
-**Existing Codex units** (`find content/06-riemann-surfaces -name
+**Existing Babel Bible units** (`find content/06-riemann-surfaces -name
 "*.md" | sort`): `06.01.01-holomorphic-function`,
 `06.01.02-cauchy-integral-formula`, `06.01.03-residue-theorem`,
 `06.01.04-analytic-continuation`, `06.01.05-meromorphic-function`,
@@ -115,7 +115,7 @@ prose), ✗ = not covered.
 
 ### Chapter 1 — Covering Spaces (§§1-10)
 
-| Forster topic | Codex unit | Status | Note |
+| Forster topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §1 Definition of RS (chart-atlas, gluing patches) | `06.03.01-riemann-surface` | △ | Definition shipped; Forster's explicit gluing-patches (maximal atlas, equivalence) implicit. Mild depth gap. |
 | §1 Examples — $\mathbb{P}^1$, tori, $P(z,w)=0$, hyperelliptic | partial | △ | Scattered in Master sections; no running-examples unit (overlap with Donaldson item 18). |
@@ -133,7 +133,7 @@ prose), ✗ = not covered.
 Forster's sheaf-theoretic spine begins. **Heavy overlap with Donaldson
 Part II — most items co-owned in the composite batch.**
 
-| Forster topic | Codex unit | Status | Note |
+| Forster topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §11 Differential forms on RS | partial in `06.06.01` | △ | Composite — same gap as Donaldson (Hodge-star / $(p,q)$-form vocabulary). |
 | §12 1-form integration; periods | `06.06.02-period-matrix` | △ | Composite — Donaldson item 16. |
@@ -152,7 +152,7 @@ Part II — most items co-owned in the composite batch.**
 **Forster's distinctive territory.** Donaldson skips this entire block.
 **Zero overlap with Donaldson plan; all gaps owned by Forster plan.**
 
-| Forster topic | Codex unit | Status | Note |
+| Forster topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §23 Sheaf cohomology on non-compact spaces; fine-sheaf acyclicity | — | ✗ | **Gap.** Foundation for §§24-30. |
 | §24 Dolbeault iso $H^1(X, \mathcal{O}) = H^{0,1}_{\bar\partial}(X)$ | — | ✗ | **Gap.** Sheaf $H^1$ ↔ $\bar\partial$. |
@@ -182,7 +182,7 @@ Part II — most items co-owned in the composite batch.**
 - **Notation layer:** ~75% aligned. Forster $X$, $\mathcal{O}$,
   $\mathcal{M}$, $L(D) = H^0(\mathcal{O}(D))$, $I(D) =
   H^1(\mathcal{O}(D))$. $L(D)/I(D)$ Forster-specific.
-- **Sequencing layer:** ~60%. Codex DAG matches Chapter-2 flow;
+- **Sequencing layer:** ~60%. Babel Bible DAG matches Chapter-2 flow;
   Chapter-3 chain (non-compact sheaf ⇒ Theorem B ⇒ Cousin ⇒
   Mittag-Leffler) absent.
 - **Intuition layer:** ~50%. Sheaf intuition partial; Stein intuition
@@ -197,7 +197,7 @@ Part II — most items co-owned in the composite batch.**
 
 Codex covers Forster Chapters 1-2 reasonably at topic level; the
 Donaldson plan handles depth deepenings on the composite block.
-**Forster's distinctive contribution to Codex is Chapter 3 — the
+**Forster's distinctive contribution to Babel Bible is Chapter 3 — the
 Stein / Cousin / Behnke-Stein / Mittag-Leffler / Runge block.** New
 units open `06.04-cohomology/` (already opened by `06.04.04`) and a
 new `06.09-stein-and-cousin/`.
@@ -447,13 +447,13 @@ chapter-wide cleanup (item 21).
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book is
 at equivalence-coverage when:
 
-- ≥95% of Forster's named theorems map to Codex units **at
+- ≥95% of Forster's named theorems map to Babel Bible units **at
   Forster-equivalent proof depth** (currently ~30%; after priority-1,
   ~75%; after priority-1+2, ~92%; with composite Donaldson priority-1
   in parallel, ~96%).
 - ≥80% of Forster's exercises have a Codex equivalent (currently
   ~5%; composite Donaldson+Forster exercise pack closes this).
-- ≥90% of Forster's worked examples reproduced in some Codex unit
+- ≥90% of Forster's worked examples reproduced in some Babel Bible unit
   (currently ~45%; priority-1+2 worked-example sections + composite
   running-examples unit (Donaldson item 18) bring this to ~90%).
 - Notation alignment recorded inline in priority-1 Master sections
@@ -496,5 +496,5 @@ of duplicate Čech / Riemann-Roch work.
 
 **Largest Forster-distinctive gap:** Behnke-Stein (item 3) and the
 chain Theorem A/B → Cousin I/II → Mittag-Leffler on RS. Items 1-7 are
-the single largest topic-level expansion Forster buys Codex; no other
+the single largest topic-level expansion Forster buys Babel Bible; no other
 FT-1.07 anchor (Donaldson, Miranda, Farkas-Kra) supplies them.

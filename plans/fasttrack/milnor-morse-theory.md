@@ -124,12 +124,12 @@ Thom 1949 / Smale 1960s / Witten 1982 / Floer 1988 / Schwarz 1993).
 
 ---
 
-## §2 Coverage table (Codex vs MMT)
+## §2 Coverage table (Babel Bible vs MMT)
 
-Cross-referenced against the current Codex corpus. ✓ = covered,
+Cross-referenced against the current Babel Bible corpus. ✓ = covered,
 △ = partial / different framing, ✗ = not covered.
 
-| MMT topic | Codex unit(s) | Status | Note |
+| MMT topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Critical point, Hessian, non-degeneracy (Morse condition) | `02.05.05-multivariable-taylor-extrema.md` | △ | Classical multivariable extrema only; no manifold Hessian, no Morse-index definition. Touches the Euclidean shadow but not the geometry. |
 | Morse lemma (local normal form) | — | ✗ | **Gap.** Foundational. |
@@ -161,7 +161,7 @@ Cross-referenced against the current Codex corpus. ✓ = covered,
 
 **Aggregate coverage estimate:** ~5–10% of MMT has corresponding Codex
 units. Part I (the foundations) is essentially uncovered. Part II is
-mostly covered (the Codex has Riemannian curvature and connections, but
+mostly covered (the Babel Bible has Riemannian curvature and connections, but
 not Levi-Civita-and-Hopf-Rinow framed). Part III is essentially
 uncovered. Part IV — the Bott periodicity culmination — has a downstream
 unit (`03.08.07`) but its **Morse-theoretic proof is unanchored**: the
@@ -319,7 +319,7 @@ Audin-Damian and Schwarz use slightly different notation:
 $\mathrm{Crit}(f)$, $\mathrm{ind}(p)$ for index, $W^s(p)$ / $W^u(p)$ for
 stable/unstable manifolds (these are absent from MMT, which does not
 introduce gradient-flow stable manifolds explicitly — that is a
-Smale 1960s reformulation). The Codex notation decision (per
+Smale 1960s reformulation). The Babel Bible notation decision (per
 `docs/specs/UNIT_SPEC.md` §11) should: adopt MMT's $f^a$, $\lambda$,
 $\Omega(M; p, q)$, $E$, $L$ verbatim, and **add** the Smale-era
 $W^s$/$W^u$ in unit `03.02.03` as the modern reformulation, with a
@@ -337,7 +337,7 @@ units `03.02.02` and `03.02.03`.
   Deferred to a separate audit. The Morse-complex / Morse-homology
   programme is logically downstream of MMT and substantively distinct
   (gradient flow, transversality, signs, the Morse-Smale-Witten complex);
-  the Codex priority is to anchor classical MMT first and then build the
+  the Babel Bible priority is to anchor classical MMT first and then build the
   complex on top.
 - **Audin-Damian Part II — Floer Homology.** Already partially covered in
   `05.08-floer/` and will get its own audit pass alongside the
@@ -361,7 +361,7 @@ units `03.02.02` and `03.02.03`.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of MMT's named theorems map to Codex units. Current ~5–10%; after
+- ≥95% of MMT's named theorems map to Babel Bible units. Current ~5–10%; after
   priority-1 units rises to ~55%; after priority-1+2 to ~80%; after
   priority-1+2+3 to ~95%; full ≥95% requires priorities 1–3 (priority 4 is
   optional deepening).

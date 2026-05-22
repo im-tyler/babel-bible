@@ -15,7 +15,7 @@ probability and statistics."
 
 **Purpose of this plan:** lightweight audit-and-gap pass (P1-lite + P2 +
 P3-lite of the orchestration protocol) producing a concrete punch-list
-of new units required to bring Codex coverage of Diaconis to the
+of new units required to bring Babel Bible coverage of Diaconis to the
 equivalence threshold (≥95% per
 `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4). This pass works from
 Diaconis's nine-chapter TOC, the standard probabilistic-representation
@@ -120,14 +120,14 @@ reference for the Upper Bound Lemma + the symmetric-group examples.
 
 ---
 
-## §2 Coverage table (Codex vs Diaconis 1988)
+## §2 Coverage table (Babel Bible vs Diaconis 1988)
 
 Cross-referenced against the 29-unit `07-representation-theory/` corpus
 and against `08-stat-mech/` (which is mostly QFT/lattice-gauge flavored,
 not Markov-chain mixing). ✓ = covered, △ = partial / different framing,
 ✗ = not covered.
 
-| Diaconis topic (ch.) | Codex unit(s) | Status | Note |
+| Diaconis topic (ch.) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Group representation, irrep, complete reducibility (ch. 2) | `07.01.01`, `07.02.01` (Maschke) | ✓ | Covered. |
 | Schur's Lemma (ch. 2) | `07.01.02` | ✓ | Covered. |
@@ -136,7 +136,7 @@ not Markov-chain mixing). ✓ = covered, △ = partial / different framing,
 | Fourier transform on a finite group $\hat{f}(\rho) = \sum_g f(g) \rho(g)$ (ch. 2) | — | ✗ | **Gap.** Covered implicitly by `07.01.05` regular-rep + Peter-Weyl `07.07.02`, but no unit named "non-abelian Fourier transform on a finite group." Load-bearing for everything downstream. |
 | Plancherel / Parseval, convolution-becomes-product (ch. 2) | △ via `07.07.02` Peter-Weyl | △ | Peter-Weyl is the compact-Lie analogue. Finite-group case deserves its own unit at $L^2(G) = \bigoplus V_\rho \otimes V_\rho^*$ level. |
 | Random walk on a finite group, driving measure, convolution $P^{*k}$ (ch. 3) | — | ✗ | **Gap.** Foundational. No unit on $X_{k+1} = X_k \xi_k$ with $\xi_k \sim P$. |
-| Total variation distance, mixing time, stationary distribution (ch. 3, 4) | — | ✗ | **Gap.** Markov-chain mixing primitives absent from the Codex. `08-stat-mech/` is QFT-flavored. |
+| Total variation distance, mixing time, stationary distribution (ch. 3, 4) | — | ✗ | **Gap.** Markov-chain mixing primitives absent from the Babel Bible. `08-stat-mech/` is QFT-flavored. |
 | Upper Bound Lemma (Diaconis-Shahshahani 1981) (ch. 3) | — | ✗ | **Gap (high priority — Diaconis's central theorem).** |
 | Random transpositions on $S_n$, $\frac{1}{2}n \log n$ mixing (ch. 3) | — | ✗ | **Gap.** Worked example #1. |
 | Top-in / random-to-top shuffle, $n \log n$ mixing (ch. 3) | — | ✗ | **Gap.** Worked example #2. |
@@ -151,7 +151,7 @@ not Markov-chain mixing). ✓ = covered, △ = partial / different framing,
 | De Finetti / exchangeability connection (ch. 9) | — | ✗ | **Gap (low priority — probability foundations).** Hewitt-Savage 1955 anchor. |
 
 **Aggregate coverage estimate:** ~20–25% of Diaconis 1988 has corresponding
-Codex units, and the covered portion is entirely the *prerequisite*
+Babel Bible units, and the covered portion is entirely the *prerequisite*
 representation theory (ch. 2 + parts of ch. 7). The **probabilistic
 applications half of the book is a total gap** (ch. 3, 4, 5, 6, 8, 9).
 This is unsurprising: `07-representation-theory/` was scoped at finite +
@@ -320,7 +320,7 @@ in `01-foundations/` or a new probability micro-section.
   phenomenon in finite Markov chains" *PNAS*, the 2003 *Bull. AMS*
   survey, and the unpublished *Probability and Algorithms* notes.
   These are deferred — the 1988 monograph remains the canonical entry
-  point and the Codex unit set targets it.
+  point and the Babel Bible unit set targets it.
 - **Abelian random walks** (random walks on $\mathbb{Z}^d$,
   $\mathbb{Z}/n$) are deferred to standard probability texts (Durrett,
   Norris) and do not require Diaconis's machinery. Unit 1 should
@@ -329,7 +329,7 @@ in `01-foundations/` or a new probability micro-section.
   $SU(2)$, etc.). Diaconis touches this briefly in ch. 4 §F but the
   full treatment belongs in a future Saloff-Coste / Stroock pass.
 - **Coupling-from-the-past, Glauber dynamics, mixing on lattice
-  models.** These are LPW (2009) territory; the Codex Diaconis pass
+  models.** These are LPW (2009) territory; the Babel Bible Diaconis pass
   intentionally stops at the finite-group Fourier method.
 - **Free probability and large-$n$ rep theory** (Voiculescu, Biane,
   Borodin-Okounkov). Different programme.
@@ -351,7 +351,7 @@ equivalence-coverage when:
 - All five Priority-1 units have shipped, with originator-prose on the
   Upper Bound Lemma (`07.05.05`) and the riffle theorem (`07.05.07`).
 - ≥95% of Diaconis's named theorems in chapters 2–4 and 7–8 map to
-  Codex units. Currently the pre-existing ch. 2 + ch. 7 coverage gives
+  Babel Bible units. Currently the pre-existing ch. 2 + ch. 7 coverage gives
   ~25%; Priority-1 units lift this to ~75%; Priority-1+2 to ~92%;
   full ≥95% requires Priority-1+2+3.
 - ≥90% of Diaconis's worked examples in chapters 3 + 4 (random

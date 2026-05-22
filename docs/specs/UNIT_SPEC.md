@@ -1,4 +1,4 @@
-# Codex — Unit Specification
+# Babel Bible — Unit Specification
 
 The canonical format for a Codex learning unit. Every produced unit must conform. Used by content producers (human or AI) and by reviewers (rubric keys directly off this spec).
 
@@ -27,6 +27,22 @@ content/01-fundamentals/01-linear-algebra/01.01.03-vector-space.md
 - `<unit-id>` is dotted triple: `section.chapter.ordinal` (e.g., `01.01.03`).
 - `<slug>` is kebab-case, derived from title.
 - Lean artifact lives in `lean/Codex/<Section>/<Chapter>/<Slug>.lean` with the same hierarchy.
+
+### Section-number prefixes
+
+The section prefix is semantic. It tells producers, validators, and reviewers which disciplinary contract applies.
+
+| Prefix range | Domain |
+|---|---|
+| `00`-`08` | Mathematics and mathematical physics |
+| `09`-`13` | Physics proper |
+| `14`-`16` | Chemistry |
+| `17`-`19` | Biology |
+| `20` | Philosophy |
+| `22` | Language |
+| `23` | World / social science |
+
+The shared unit scaffold still applies across domains, but some section names differ by discipline. Math units prove theorems; chemistry units justify mechanisms; biology units explain mechanisms and evidence; philosophy units reconstruct arguments; language units diagnose texts; world units analyze models, institutions, maps, and cases.
 
 ---
 
@@ -72,6 +88,10 @@ estimated_time:
 status: draft  # draft | review | approved | shipped
 produced_by: agent-producer-v1
 reviewed_by: []
+hooks_out:
+  - target: 14.05.02
+    kind: proposed
+    why: "This unit supplies the linear-algebraic eigenvector language used by molecular orbital theory."
 ---
 
 ## Intuition [Beginner]
@@ -137,6 +157,7 @@ reviewed_by: []
 | `concept_catalog_id` | yes | unique id from `docs/catalogs/CONCEPT_CATALOG.md` canonical list; prevents two producers declaring the same concept differently |
 | `estimated_time` | yes | guides learner pacing; Beginner 10–20m, Intermediate 20–45m, Master 45–90m typical |
 | `status` | yes | drives the pipeline (see §12) |
+| `hooks_out` | no | list of non-blocking cross-domain or downstream links. Each entry has `target`, `kind: proposed \| confirmed`, and `why` (≥30 chars). `confirmed` also requires `confirmed_by` and the target must exist as shipped content. |
 
 ---
 
@@ -179,6 +200,21 @@ Every section heading carries a tier marker in square brackets. The marker is lo
 - Full proof, written to the standard of the Intermediate anchor text.
 - Proof uses **Lean syntax-compatible notation** where possible (so Lean formalization below mirrors 1:1).
 
+### Domain-specific Intermediate alternatives
+
+The exact heading `Key theorem with proof` is mandatory only when the unit's central object is a theorem or formal derivation. For other domains, use the discipline's equivalent evidence section:
+
+| Domain | Acceptable Intermediate evidence headings |
+|---|---|
+| Physics | `Key derivation`, `Key theorem with proof`, `Core model` |
+| Chemistry | `Key mechanism`, `Key result`, `Key derivation`, `Core model` |
+| Biology | `Key mechanism`, `Key experiment`, `Core model`, `Evidence pattern` |
+| Philosophy | `Key argument`, `Argument reconstruction`, `Case analysis` |
+| Language | `Key concepts`, `Diagnostics`, `Close reading`, `Rhetorical analysis` |
+| World | `Key concepts`, `Key model`, `Case study`, `Comparative framework`, `Institutional analysis` |
+
+These sections must still do real work. A heading change is not a quality escape hatch: the section must state the central claim, show the reasoning or evidence, and include counterexamples, limitations, or failure modes where appropriate.
+
 ### `## Exercises [Intermediate+]`
 - 5–10 problems, difficulty ladder: 2 easy, 3–5 medium, 2–3 hard.
 - Answer types allowed: numeric, symbolic, multiple-choice, short-answer-with-rubric.
@@ -205,7 +241,7 @@ Every section heading carries a tier marker in square brackets. The marker is lo
 - Not required to be long. Required to be accurate. Cite primary sources in bibliography.
 
 ### `## Bibliography [Master]`
-- Primary-literature references beyond the Codex reference archive.
+- Primary-literature references beyond the Babel Bible reference archive.
 - BibTeX or similar structured format preferred.
 
 ---
@@ -261,19 +297,19 @@ Future format (once Neutron's `marked` extension pipeline is wired): `:::` Pando
 
 ### `lean_status` values
 
-- **`full`**: theorem and all proofs formalized in Mathlib-compatible Lean 4. Compiles clean. The `lean_module` path must exist and be wired into the Codex Lean build.
+- **`full`**: theorem and all proofs formalized in Mathlib-compatible Lean 4. Compiles clean. The `lean_module` path must exist and be wired into the Babel Bible Lean build.
 - **`partial`**: **the theorem statements must compile** (no missing imports, no syntax errors), but proofs may be `sorry`-gated or partial. The `lean_module` path must exist. The named `human_reviewer` verifies the proof gap is actually believed-true.
 - **`none`**: Mathlib doesn't cover this material (common at frontier: spin geometry, QFT, advanced algebraic geometry). Unit ships *without* a `lean_module` path; `lean_mathlib_gap` text describes the specific Mathlib coverage missing; `human_reviewer` is named as the correctness gate. The aggregated `lean_status: none` units form the upstream Mathlib contribution roadmap.
 
 ### `lean_module` path verification
 
-- If `lean_status` is `full` or `partial`, the path declared in `lean_module:` must correspond to an existing file in `lean/` and that file must successfully `lake build` as part of the Codex Lean project.
+- If `lean_status` is `full` or `partial`, the path declared in `lean_module:` must correspond to an existing file in `lean/` and that file must successfully `lake build` as part of the Babel Bible Lean project.
 - If `lean_status: none`, the `lean_module:` field must be absent or empty; declaring a path is a build error.
 
 ### Formalization rules
 
 - Unit must declare `lean_module` if `lean_status != none`.
-- Lean module must build as part of the Codex Lean project. CI enforces.
+- Lean module must build as part of the Babel Bible Lean project. CI enforces.
 - Lean module is not a replacement for the Master-tier proof prose — it is a verification companion.
 - Tactic proofs preferred over term-mode where readability differs.
 
@@ -285,6 +321,8 @@ Future format (once Neutron's `marked` extension pipeline is wired): `:::` Pando
 - Aggregated gaps feed a contribution roadmap upstream to Mathlib — every `lean_status: none` is a formalization target.
 
 This reflects the honest state of Mathlib coverage as of 2026: extensive for undergraduate core, thin-to-absent for graduate physics and advanced geometry. Lean is a correctness accelerator where it applies, not a universal quality gate.
+
+For chemistry, biology, philosophy outside formal logic, language, and world/social-science units, `lean_mathlib_gap` is a **formalization note**, not a promise that Mathlib should eventually formalize the material. It should briefly explain why Lean is not the right primary correctness gate and name the human-review surface instead.
 
 ---
 
@@ -315,6 +353,29 @@ A [vector space][01.01.03] is a set with two operations...
 Renderer resolves `[01.01.03]` to the unit's page at the learner's current tier. Integrator agent validates all cross-refs at integration time.
 
 Broken cross-refs fail the build.
+
+### `hooks_out` cross-domain links
+
+`prerequisites` are blocking inbound dependencies. `hooks_out` are non-blocking outbound links: places this unit should matter later, or places where another domain should notice it.
+
+```yaml
+hooks_out:
+  - target: 17.04.02
+    kind: proposed
+    why: "Chemiosmotic ATP synthesis uses the electrochemical-potential framework introduced here."
+  - target: 20.05.02
+    kind: confirmed
+    confirmed_by: "reviewer-id"
+    why: "The unit-of-selection debate explicitly cites this population-genetic null model."
+```
+
+Rules:
+
+- `target` is a dotted unit ID such as `19.02.01` or an essay ID such as `20.essays.01`.
+- `kind` is `proposed` or `confirmed`.
+- `why` is required and must explain the semantic link in at least 30 characters.
+- `confirmed` requires `confirmed_by` and an existing shipped target.
+- `proposed` links may point to future units; they do not block build, but they feed `manifests/connections.json` and domain backlog audits.
 
 ---
 

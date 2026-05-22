@@ -150,7 +150,7 @@ path but loses the classical viewpoint that older literature still uses.
 
 ---
 
-## §2 Coverage table (Codex vs GJ)
+## §2 Coverage table (Babel Bible vs GJ)
 
 Cross-referenced against the current `03-modern-geometry/12-homotopy/`
 chapter (24 shipped units + the freshly-shipped Cycle-2 entry-point
@@ -164,7 +164,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter I — Simplicial sets
 
-| GJ topic (section) | Codex unit(s) | Status | Note |
+| GJ topic (section) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Simplicial category $\Delta$, presheaves $\Delta^{\mathrm{op}} \to \mathbf{Set}$ (§I.1) | `03.12.25` simplicial-sets-and-geometric-realization | ✓ | Shipped this cycle. Anchored on GJ §I.1. |
 | Yoneda lemma + density theorem $X = \mathrm{colim}_{\Delta^n \to X} \Delta^n$ (§I.1) | `03.12.25` (mention) | △ | Mentioned in the Master tier; full categorical statement is a deepening. |
@@ -181,9 +181,9 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter II — Model categories
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Quillen model-category axioms (§II.1) | — | ✗ | **Gap (P1, foundational).** No Codex unit on model categories at all; this is the largest single piece of the GJ punch-list. |
+| Quillen model-category axioms (§II.1) | — | ✗ | **Gap (P1, foundational).** No Babel Bible unit on model categories at all; this is the largest single piece of the GJ punch-list. |
 | Cofibrantly generated model categories, small-object argument (§II.1, §II.5) | — | ✗ | **Gap (P1).** Foundational technique. |
 | Quillen functor / Quillen adjunction / Quillen equivalence (§II.1) | — | ✗ | **Gap (P1).** |
 | The homotopy category $\mathrm{Ho}(\mathcal{M})$ (§II.1) | — | ✗ | **Gap (P1).** Already a deepening candidate from May 3.38 plan (May's `h𝒯`). |
@@ -194,7 +194,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter III — Classical results and constructions
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Simplicial abelian groups, simplicial $R$-modules (§III.2) | — | ✗ | **Gap. MS-overlap.** |
 | Normalised Moore complex $N(A_\bullet)$ (§III.2) | — | ✗ | **Gap. MS-overlap.** |
@@ -205,7 +205,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter IV — Bisimplicial sets
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Bisimplicial set $X: \Delta^{\mathrm{op}} \times \Delta^{\mathrm{op}} \to \mathbf{Set}$ (§IV.1) | — | ✗ | **Gap (P2).** No Codex bisimplicial content. |
 | Diagonal $\mathrm{diag}: \mathbf{sSet}^{\Delta^{\mathrm{op}}} \to \mathbf{sSet}$ (§IV.1) | — | ✗ | **Gap (P2).** |
@@ -216,7 +216,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter V — Simplicial groups
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Simplicial group, simplicial group action (§V.1) | — | ✗ | **Gap (P2). MS-overlap** with May 3.40 §17. |
 | Every simplicial group is a Kan complex (§V.1) | — | ✗ | **Gap.** Foundational theorem. |
@@ -227,7 +227,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter VI — The homotopy theory of towers
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Postnikov tower of a Kan complex (§VI.3) | — | ✗ | **Gap (P2). MS-overlap.** Codex has Whitehead-tower (`03.12.07`, dual); Postnikov is missing. |
 | $k$-invariants as cohomology classes (§VI.5) | — | ✗ | **Gap. MS-overlap.** |
@@ -236,7 +236,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter VII — Cosimplicial spaces
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Cosimplicial space $X^\bullet: \Delta \to \mathbf{sSet}$, totalisation $\mathrm{Tot}$ (§VII.1) | — | ✗ | **Gap (P3).** |
 | **Bousfield-Kan spectral sequence** $E_2 = \pi^s \pi_t \Rightarrow \pi_{t-s} \mathrm{Tot}(X^\bullet)$ (§VII.6) | — | ✗ | **Gap (P2, distinctive GJ).** Central tool of unstable homotopy theory; absent from May 3.40 entirely. |
@@ -245,7 +245,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Chapter VIII (when present in the 2009 reprint) — Simplicial sheaves and presheaves
 
-| GJ topic | Codex unit(s) | Status | Note |
+| GJ topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Simplicial presheaves on a site, local weak equivalences (§VIII.1) | — | ✗ | **Out of scope** — defer to motivic-homotopy-theory pass (Morel-Voevodsky); see §5. |
 | Jardine local model structure (§VIII.2) | — | ✗ | **Out of scope.** Same. |
@@ -253,7 +253,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 
 ### Aggregate coverage estimate
 
-**Theorem layer.** ~10% of GJ's named theorems map to Codex units. The
+**Theorem layer.** ~10% of GJ's named theorems map to Babel Bible units. The
 freshly-shipped `03.12.25` covers the §I.1-§I.2 foundations and the
 $|\cdot| \dashv \mathrm{Sing}$ adjunction. Everything model-category-theoretic
 (GJ Ch II), every named model-structure result on $\mathbf{sSet}$, the
@@ -281,7 +281,7 @@ crosswalk — these are *GJ's* notations, which Codex inherited).
 sequence, simplicial-group classifying-space machinery are all gaps.
 
 The flag in the task prompt is correct: **expect substantial new-unit
-punch-list. Model-category language is largely absent from Codex.**
+punch-list. Model-category language is largely absent from Babel Bible.**
 
 ---
 
@@ -428,7 +428,7 @@ punch-list. Model-category language is largely absent from Codex.**
   complex (or $S$); $d_i / s_i$ for face/degeneracy. **All match Codex
   conventions** from the May 3.40 crosswalk.
 - GJ uses $\mathrm{Hom}(K, L)$ for the function complex (the internal hom of
-  $\mathbf{sSet}$). Codex's `03.12.25` uses $\mathrm{Map}(K, L)$ informally;
+  $\mathbf{sSet}$). Babel Bible's `03.12.25` uses $\mathrm{Map}(K, L)$ informally;
   reconcile to $\mathrm{Hom}_\mathbf{sSet}(K, L)$ (full notation) in the new
   units 3 and 5.
 - GJ uses $W\bar{G}$ for the classifying simplicial set of a simplicial
@@ -529,7 +529,7 @@ clearly identified originators:
   audit. GJ touches some of this material at the simplicial level (e.g. BK
   spectral sequence) but the *applications* live in May-Ponto.
 - **Model categories beyond the simplicial-set example.** GJ does not
-  develop the general theory in depth (Hovey does). Codex's
+  develop the general theory in depth (Hovey does). Babel Bible's
   model-category units `03.12.31`, `03.12.32`, `03.12.35` should state the
   general theory but illustrate it with $\mathbf{sSet}$ and $\mathbf{Top}$
   only; deeper examples (chain complexes, spectra, operads) live in the
@@ -543,7 +543,7 @@ clearly identified originators:
   in unit `03.12.33`** — only the structure of the proof (anodyne
   extensions + small-object argument) is required at Master tier; the full
   technical proof of the anodyne-extension classification is a "see Gabriel-
-  Zisman 1967 §IV" reference rather than a Codex unit.
+  Zisman 1967 §IV" reference rather than a Babel Bible unit.
 - **Algebraic K-theory of rings via simplicial methods** (Quillen's
   $+$-construction and $Q$-construction). Out of scope; cite Quillen's
   *Higher algebraic K-theory I* (LNM 341, 1973) as the originator pointer

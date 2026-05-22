@@ -600,9 +600,9 @@ What this book offers that peer texts do not:
 
 **The voice.** Lawson and Michelsohn write in a style that is dense, declarative, mathematically frank, and never apologetic. They do not soften the algebra ("the Clifford algebras may at first appear forbidding") and they do not soften the analysis ("the heat-equation method requires patience"). They tell the reader what is happening, prove it, and move on. The proofs are complete — this is not a "main ideas" book — but they are also not over-decorated. When a result requires an explicit calculation (the spinor inner product in signature $(3,5)$, the Lichnerowicz formula in coordinates, the Atiyah-Singer formula evaluated for the $K3$ surface), the calculation is given in full. When a result is a corollary, the corollary is a corollary — one or two sentences, no padding.
 
-What makes Fast Track include it specifically: this is the book that turns a working geometer into a spin-geometer. After Lawson-Michelsohn, a reader can pick up any modern paper on Seiberg-Witten theory, on positive-scalar-curvature obstructions, on calibrated submanifolds, on twistor theory, on Bismut-Quillen anomaly formulas, on spin-cobordism computations, and read it. The book is the gate through which the spin-geometric literature became accessible to graduate students. There is no equivalent of equal scope in print — and the Codex equivalence project must reproduce that scope unit-for-unit.
+What makes Fast Track include it specifically: this is the book that turns a working geometer into a spin-geometer. After Lawson-Michelsohn, a reader can pick up any modern paper on Seiberg-Witten theory, on positive-scalar-curvature obstructions, on calibrated submanifolds, on twistor theory, on Bismut-Quillen anomaly formulas, on spin-cobordism computations, and read it. The book is the gate through which the spin-geometric literature became accessible to graduate students. There is no equivalent of equal scope in print — and the Babel Bible equivalence project must reproduce that scope unit-for-unit.
 
-The book also functions as an originator-text in places. Several Chapter IV results are *due to Lawson*: the enlargeable-manifold obstruction (Gromov-Lawson 1980/1983), the relative index theorem applications, calibrated-geometry foundations (Harvey-Lawson 1982). Citing those results from Lawson-Michelsohn is citing the source — not a textbook synthesis. The Codex Master sections covering these topics should preserve this originator-prose status (per FASTTRACK_EQUIVALENCE_PLAN §10).
+The book also functions as an originator-text in places. Several Chapter IV results are *due to Lawson*: the enlargeable-manifold obstruction (Gromov-Lawson 1980/1983), the relative index theorem applications, calibrated-geometry foundations (Harvey-Lawson 1982). Citing those results from Lawson-Michelsohn is citing the source — not a textbook synthesis. The Babel Bible Master sections covering these topics should preserve this originator-prose status (per FASTTRACK_EQUIVALENCE_PLAN §10).
 
 ---
 
@@ -628,15 +628,15 @@ Additional consulted but not load-bearing:
 
 ---
 
-## §2. Codex coverage diff
+## §2. Babel Bible coverage diff
 
-The diff below was produced by exhaustively grepping `content/` and reading the relevant Codex units against each entry in §1. Status conventions:
+The diff below was produced by exhaustively grepping `content/` and reading the relevant Babel Bible units against each entry in §1. Status conventions:
 
-- **✓ covered** — the result, exercise, example, or convention is materially present in some Codex unit (proved or used) at depth equal to or greater than the book's treatment.
+- **✓ covered** — the result, exercise, example, or convention is materially present in some Babel Bible unit (proved or used) at depth equal to or greater than the book's treatment.
 - **△ partial** — Codex mentions or invokes the item but does not develop it to the book's level (e.g., stated without proof, named but not computed, or treated only as a forward-pointer).
-- **GAP** — no Codex unit covers this. This is honest: the result, exercise pack, example, convention, or framing simply is not in the curriculum.
+- **GAP** — no Babel Bible unit covers this. This is honest: the result, exercise pack, example, convention, or framing simply is not in the curriculum.
 
-Where multiple Codex units share coverage of a single book result, the most authoritative unit is listed first.
+Where multiple Babel Bible units share coverage of a single book result, the most authoritative unit is listed first.
 
 ---
 
@@ -646,7 +646,7 @@ The 126-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 #### Chapter I — Clifford algebra and spin representations
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 1 | Def I.1.1 — Cl(V,q) by universal property | 03.09.02 | "Formal definition" + "Key theorem with proof" | ✓ covered |
 | 2 | Def I.1.2 — T(V)/I_q construction | 03.09.02 | "Formal definition" | ✓ covered |
@@ -689,7 +689,7 @@ The 126-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 #### Chapter II — Spin geometry on manifolds
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 39 | Def II.1.1 — Spin structure on oriented Riemannian bundle | 03.09.04 | "Formal definition" | ✓ covered |
 | 40 | Thm II.1.2 — w₂=0 obstruction; H¹(X;Z/2) torsor | 03.09.04 | "Key theorem with proof" | ✓ covered |
@@ -722,7 +722,7 @@ The 126-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 #### Chapter III — Index theorems
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 67 | Def III.1.1 — Differential operator, principal symbol, formal adjoint | 03.09.07 | "Formal definition" | ✓ covered |
 | 68 | Def III.1.2 — Ellipticity (symbol invertible off zero section) | 03.09.09 | "Formal definition" | ✓ covered |
@@ -761,7 +761,7 @@ The 126-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 #### Chapter IV — Applications
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 101 | Thm IV.1.1 — Â integrality + Rokhlin divisibility | 03.09.10 | Â integrality stated; Rokhlin (×16 in dim 4) not stated | △ partial |
 | 102 | Thm IV.1.2 — Generalised integrality via α-invariant in KO | — | α-invariant only named in 03.09.04 bibliography | GAP |
@@ -786,7 +786,7 @@ The 126-result inventory from §1.2 is mapped row-by-row. Every entry is account
 
 #### Appendices
 
-| # | Book theorem | Codex unit | Section/Heading | Status |
+| # | Book theorem | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 121 | Thm A.1 — Associated bundles via principal bundles + reps | 03.05.01 / 03.09.05 | 03.05.01 "Formal definition" + 09.05 "Formal definition" | ✓ covered |
 | 122 | Thm B.1 — EG → BG; H*(BG) as universal characteristic-class ring | 03.08.04 | "Classifying space" (existence + universal-bundle property; H*(BG) ring structure not explicit) | △ partial |
@@ -807,9 +807,9 @@ Coverage is heaviest in Chapter II §1–§5 (spin structures + Dirac fundamenta
 
 ### §2.2 Exercise coverage
 
-Exercise coverage is estimated by topic-equivalence: for each book §x.y exercise topic group, identify the Codex unit whose `Exercises [Intermediate+]` block (and supporting `Check your understanding [Beginner]` block) drills the same skill.
+Exercise coverage is estimated by topic-equivalence: for each book §x.y exercise topic group, identify the Babel Bible unit whose `Exercises [Intermediate+]` block (and supporting `Check your understanding [Beginner]` block) drills the same skill.
 
-| Book §x.y exercise group | Approx. count | Codex unit's exercise block | Status |
+| Book §x.y exercise group | Approx. count | Babel Bible unit's exercise block | Status |
 |---|---|---|---|
 | §I.1 (Cl algebras: universal property, dim 2ⁿ, Cl_{0,1}, Cl_{1,0}) | ~5–6 | 03.09.02 (7 exercises across all difficulties; matches universal property, dim, Cl_{0,1}≅C, Cl₂≅H) | ✓ ≥80% equivalent |
 | §I.2 (Pin/Spin: Spin(2)=U(1), Spin(3)=SU(2), kernel of Ãd) | ~4–5 | 03.09.03 (5 exercises; covers J²=−1, (uw)⁻¹, Spin(2) circle, kernel) | partial — covers Spin(2)/(3) at the level of computation; explicit Spin(3)=SU(2) quaternion isomorphism is not an exercise |
@@ -846,15 +846,15 @@ Exercise coverage is estimated by topic-equivalence: for each book §x.y exercis
 - partial: **12** of 27 (44%)
 - GAP: **14** of 27 (52%)
 
-Of the estimated **~125–165** book exercises, Codex's existing exercise blocks cover roughly **20–30** at equivalent depth (~15–20%), drill **~40–50** more partially via topic-adjacent exercises (~25–35%), and leave **~70–95** without a Codex exercise equivalent (~50–60%). The largest unmexercised regions are: Clifford classification (chessboard reading), explicit Dirac computations on standard spaces (R^n, S¹, S^n, T^n), heat-kernel exercises, characteristic-class numerics on standard manifolds, and the entirety of Chapter IV.
+Of the estimated **~125–165** book exercises, Babel Bible's existing exercise blocks cover roughly **20–30** at equivalent depth (~15–20%), drill **~40–50** more partially via topic-adjacent exercises (~25–35%), and leave **~70–95** without a Babel Bible exercise equivalent (~50–60%). The largest unmexercised regions are: Clifford classification (chessboard reading), explicit Dirac computations on standard spaces (R^n, S¹, S^n, T^n), heat-kernel exercises, characteristic-class numerics on standard manifolds, and the entirety of Chapter IV.
 
 ---
 
 ### §2.3 Worked-example coverage
 
-The 26 named worked examples from §1.4, mapped to Codex.
+The 26 named worked examples from §1.4, mapped to Babel Bible.
 
-| # | Book worked example | Codex unit | Section/Heading | Status |
+| # | Book worked example | Babel Bible unit | Section/Heading | Status |
 |---|---|---|---|---|
 | 1 | Cl algebra of R^n: explicit basis & multiplication table (§I.1) | 03.09.02 | "Worked example [Beginner]" + "Structure" basis | ✓ covered |
 | 2 | Low-dim Cl algebras (Cl₁≅C, Cl₂≅H, Cl₃≅H⊕H, Cl₄≅H(2)) (§I.3) | 03.09.02 | Beginner worked example covers Cl₂; table covers Cl₁ through Cl₄ but without full computation | partial |
@@ -895,7 +895,7 @@ The four worked examples Codex has at full depth are: the explicit Cl(R^n) compu
 
 ### §2.4 Notation crosswalk
 
-For each notational convention from §1.5, classify Codex's choice as `same`, `differs`, `not fixed`, or `absent`.
+For each notational convention from §1.5, classify Babel Bible's choice as `same`, `differs`, `not fixed`, or `absent`.
 
 | Book convention | Codex convention | Status |
 |---|---|---|
@@ -911,7 +911,7 @@ For each notational convention from §1.5, classify Codex's choice as `same`, `d
 | ∇ for covariant derivative; ∇^𝔖 for spin connection | 03.09.05 uses ∇^S; 03.09.08 uses ∇^S consistently | **same up to fonts** |
 | ∇*∇ = connection Laplacian / rough Laplacian | 03.09.05 / 03.09.08 use (∇^S)*∇^S | **same** |
 | Clifford multiplication by juxtaposition X·ψ or Xψ | 03.09.05 / 03.09.08 use c(ξ)ψ explicitly (functional notation), not juxtaposition | **differs in style — c(·) vs juxtaposition**; LM's juxtaposition compactness is lost |
-| R, Ric, scal — curvature, Ricci, scalar | 03.09.05 uses R for scalar; 03.09.08 uses Scal/4 (so R is not scalar in 08); 03.05.09 uses R for Riemann tensor | **partially differs** — Codex is not internally consistent across spin-geometry units; R is sometimes scalar (LM) and sometimes Riemann (Codex 03.05.09) |
+| R, Ric, scal — curvature, Ricci, scalar | 03.09.05 uses R for scalar; 03.09.08 uses Scal/4 (so R is not scalar in 08); 03.05.09 uses R for Riemann tensor | **partially differs** — Babel Bible is not internally consistent across spin-geometry units; R is sometimes scalar (LM) and sometimes Riemann (Babel Bible 03.05.09) |
 | Â(M) = A-roof genus (Hirzebruch's notation) | 03.06.04 uses Â directly; 03.09.10 uses Â | **same** |
 | L(M), Td(M) for L-genus, Todd | 03.06.04 / 03.09.10 same | **same** |
 | ch(E) for Chern character | 03.06.04 uses ch(E) | **same** |
@@ -933,7 +933,7 @@ For each notational convention from §1.5, classify Codex's choice as `same`, `d
 - partially differs / not fixed: **2** (8%)
 - absent: **4** (15%)
 
-The critical convention — the Clifford sign — is consistent and explicit across Codex spin-geometry units (load-bearing for downstream agreement with LM proofs). The two notational problems are: (i) Codex's spinor bundle is `S` not `𝔖`, costing a one-symbol crosswalk note for any reader cross-referencing LM; (ii) the use of `R` for both scalar curvature and Riemann tensor across different units (LM uses `R` for scalar consistently in the Lichnerowicz formula). The absent symbols (M̂_n, α, KR^{p,q}, i*M_{n+1}) all live in the K-theory / KR / α-invariant region that is itself a content GAP — fixing the symbol depends on producing the unit.
+The critical convention — the Clifford sign — is consistent and explicit across Codex spin-geometry units (load-bearing for downstream agreement with LM proofs). The two notational problems are: (i) Babel Bible's spinor bundle is `S` not `𝔖`, costing a one-symbol crosswalk note for any reader cross-referencing LM; (ii) the use of `R` for both scalar curvature and Riemann tensor across different units (LM uses `R` for scalar consistently in the Lichnerowicz formula). The absent symbols (M̂_n, α, KR^{p,q}, i*M_{n+1}) all live in the K-theory / KR / α-invariant region that is itself a content GAP — fixing the symbol depends on producing the unit.
 
 ---
 
@@ -943,7 +943,7 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 
 #### Chapter-level dependencies
 
-| Book dependency | Codex DAG analogue (deps.json) | Status |
+| Book dependency | Babel Bible DAG analogue (deps.json) | Status |
 |---|---|---|
 | Ch I (Clifford alg) → Ch II (spin geometry) | 03.09.02 → 03.09.04, 03.09.05; 03.09.03 → 03.09.04, 03.09.05 | ✓ present |
 | Ch II → Ch III (index theorems) | 03.09.05 / 03.09.08 → 03.09.10; 03.09.04 → 03.09.10 | ✓ present |
@@ -955,7 +955,7 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 
 #### Within-chapter linear dependencies (Chapter I)
 
-| Book within-chapter edge | Codex DAG edge | Status |
+| Book within-chapter edge | Babel Bible DAG edge | Status |
 |---|---|---|
 | §I.1 → §I.2 (Pin/Spin in Cl) | 03.09.02 → 03.09.03 | ✓ present |
 | §I.2 → §I.3 (Cl_n algebras) | merged inside 03.09.02 | implicit |
@@ -995,7 +995,7 @@ Compare the book's chapter-and-section dependency graph (§1.6) against `manifes
 
 #### Within-chapter linear dependencies (Chapter IV)
 
-All §IV → §IV edges (psc chain IV.4→IV.5→IV.6→IV.7; Kähler chain IV.8→IV.9→IV.10→IV.11; positive mass IV.12) are **absent** because no Ch IV content exists in Codex. The cross-chapter feeds (§II.5,§II.8,§IV.1 → §IV.4 etc.) cannot be tested.
+All §IV → §IV edges (psc chain IV.4→IV.5→IV.6→IV.7; Kähler chain IV.8→IV.9→IV.10→IV.11; positive mass IV.12) are **absent** because no Ch IV content exists in Babel Bible. The cross-chapter feeds (§II.5,§II.8,§IV.1 → §IV.4 etc.) cannot be tested.
 
 #### §2.5 totals
 
@@ -1011,9 +1011,9 @@ The DAG covers the spine that goes Cl alg → spin str → spinor bundle → Dir
 
 ### §2.6 Intuition coverage
 
-The book establishes four chapter-level intuition arcs. For each: is the corresponding intuition explicit in some Codex unit's `Beginner` or `Master` section?
+The book establishes four chapter-level intuition arcs. For each: is the corresponding intuition explicit in some Babel Bible unit's `Beginner` or `Master` section?
 
-| Book intuition arc | Codex location | Status |
+| Book intuition arc | Babel Bible location | Status |
 |---|---|---|
 | **The algebraic Clifford story** — Cl algebras as the natural multiplication on metric spaces; quaternion/complex unification; period-8 emergence; Pin/Spin as products of mirrors | 03.09.02 `Intuition [Beginner]` (vectors-multiply-with-geometry framing); `Visual [Beginner]` (bivector); `Worked example` (Cl₂≅C even part); `Historical & philosophical context [Master]` (Clifford 1878 → ABS 1964 arc); 03.09.03 `Intuition [Beginner]` (mirrors-give-rotations) | ✓ covered — Beginner arc is materially present and explicit; Master historical arc connects to ABS K-theory |
 | **The geometric spin-structure story** — spin as the lift required by fermion physics; w₂ obstruction; spin manifolds as the natural setting for spinors; Levi-Civita lifts uniquely | 03.09.04 `Formal definition` + `Theorem` + `Connection to physics`; 03.09.05 `Intuition [Beginner]` (bundle-of-spinors); 03.06.03 `Intuition [Beginner]` (w₂ obstructs spin); cross-references via `Connections` | △ partial — Master arc is present (the "Connection to physics" 3-step chain in 03.09.04 is clean). Beginner arc is absent in 03.09.04 (Master-only unit; tier_anchors say `beginner: deferred`). The cross-unit coherence is high but the Beginner-level arc lives in 03.09.05, not in the spin-structure unit itself |
@@ -1026,15 +1026,15 @@ The book establishes four chapter-level intuition arcs. For each: is the corresp
 - △ partial: **1** of 4 (25%)
 - GAP: **0** of 4 (0%)
 
-Intuition coverage is the strongest layer of Codex's existing spin-geometry strand. The arcs are internalised; the prose (especially in 03.09.02 and 03.09.10) reaches the master-arc level. The single partial arc is the geometric spin-structure story, where the spin-structure unit itself (03.09.04) is Master-only — its Beginner / Intermediate tiers are deferred — and the Beginner-level intuition for "what a spin structure is" lives in the spinor-bundle unit (03.09.05) instead of the spin-structure unit. This is a tier-level gap, not a content gap, but it does mean a reader entering at the Beginner tier cannot meet spin structures in their dedicated unit.
+Intuition coverage is the strongest layer of Babel Bible's existing spin-geometry strand. The arcs are internalised; the prose (especially in 03.09.02 and 03.09.10) reaches the master-arc level. The single partial arc is the geometric spin-structure story, where the spin-structure unit itself (03.09.04) is Master-only — its Beginner / Intermediate tiers are deferred — and the Beginner-level intuition for "what a spin structure is" lives in the spinor-bundle unit (03.09.05) instead of the spin-structure unit. This is a tier-level gap, not a content gap, but it does mean a reader entering at the Beginner tier cannot meet spin structures in their dedicated unit.
 
 ---
 
 ### §2.7 Application coverage
 
-The book's Chapter IV applications, mapped to whatever Codex Connections / applied units carry them.
+The book's Chapter IV applications, mapped to whatever Babel Bible Connections / applied units carry them.
 
-| Book application | Codex location | Status |
+| Book application | Babel Bible location | Status |
 |---|---|---|
 | §IV.1 — Â-genus integrality on closed spin | 03.09.10 | ✓ covered |
 | §IV.1 — Rokhlin's theorem (×16 divisibility in dim 4) | — | GAP |
@@ -1077,7 +1077,7 @@ The applications layer is where the deepest gap block sits. Codex captures the L
 | Intuition arcs | 3 + 0.5 = 3.5 | 4 | 88% | ✓ |
 | Applications | 2 + 1.5 = 3.5 | 16 | 22% | ✗ |
 
-**Aggregate honest grade: ~35–40% effective coverage** of the book's content. The book's spine (Cl alg → Spin → spinor bundle → Dirac → AS index) is in Codex; everything else is either thin or missing.
+**Aggregate honest grade: ~35–40% effective coverage** of the book's content. The book's spine (Cl alg → Spin → spinor bundle → Dirac → AS index) is in Babel Bible; everything else is either thin or missing.
 
 #### Largest gap blocks (concrete, named)
 
@@ -1085,9 +1085,9 @@ The applications layer is where the deepest gap block sits. Codex captures the L
 2. **Chapter I §I.5 spinor representations across signature mod 8 and the charge-conjugation J-classification.** The signature-by-signature inner-product table (Prop I.5.4) and J²=±1 classification (Prop I.5.5) — load-bearing for §IV.10 Berger holonomy and for any KR-theoretic refinement — are absent.
 3. **Chapter I §I.7 triality on Spin(8) and §I.8 exceptional Lie groups via spinors.** Both completely absent. Triality in particular is referenced from §IV.10 calibrations as a load-bearing feature.
 4. **Chapter I §I.9–§I.10 KR-theory and the (1,1)-periodicity theorem.** Absent. The $\widehat{\mathfrak{M}}_n = M_n / i^* M_{n+1}$ ABS module construction is referenced in 03.08.07 but neither the symbol nor the construction is unit-defined.
-5. **Chapter II §II.6 fundamental elliptic operators (general Dirac bundles, Hodge / d+d* identification).** Absent. The "any Cl(M)-module bundle gives a generalised Dirac" framing — load-bearing for Atiyah-Singer specialisations — is not in any Codex unit.
+5. **Chapter II §II.6 fundamental elliptic operators (general Dirac bundles, Hodge / d+d* identification).** Absent. The "any Cl(M)-module bundle gives a generalised Dirac" framing — load-bearing for Atiyah-Singer specialisations — is not in any Babel Bible unit.
 6. **Chapter II §II.7 Cl_k-linear Dirac operators.** Entirely absent. This is the bridge unit between spin Dirac and the KO-valued α-invariant.
-7. **Chapter II §II.8 Bochner's theorem and Bochner-Weitzenböck for forms.** The Lichnerowicz vanishing is in Codex; the parallel Bochner Ricci-curvature vanishing is not.
+7. **Chapter II §II.8 Bochner's theorem and Bochner-Weitzenböck for forms.** The Lichnerowicz vanishing is in Babel Bible; the parallel Bochner Ricci-curvature vanishing is not.
 8. **Chapter III §III.1–§III.5 analytic foundations.** Sobolev embedding, Rellich-Kondrachov for Sobolev (concrete), pseudodifferential operators, parametrix construction in detail, Hodge decomposition for elliptic complexes, spectral theorem for self-adjoint elliptic are all missing or only mentioned. The current 03.09.07 / 03.09.09 / 03.09.06 trio compresses 5 chapters of book material into 3 short units.
 9. **Chapter III §III.6 heat kernel.** Existence, McKean-Singer (only one-line in 03.09.10), heat-kernel asymptotic expansion, the explicit heat kernel on R^n — entirely absent.
 10. **Chapter III §III.8–§III.10 family / equivariant / Clifford-linear index theorems.** Absent. None of the three index variants is in any unit.
@@ -1102,9 +1102,9 @@ The applications layer is where the deepest gap block sits. Codex captures the L
 
 #### Qualitative summary
 
-Codex's existing spin-geometry strand covers the **conceptual spine** of *Spin Geometry* — Clifford algebras, spin structures, spinor bundles, the Dirac operator, the Lichnerowicz formula, and the Atiyah-Singer index theorem statement — at intuition-and-key-theorem depth (~35–40% of the book overall, ~75–90% of the spine itself). The Beginner / Intermediate / Master tier framing is in place for the central units, the Clifford sign convention is consistent, and the four chapter-level intuition arcs are largely captured.
+Babel Bible's existing spin-geometry strand covers the **conceptual spine** of *Spin Geometry* — Clifford algebras, spin structures, spinor bundles, the Dirac operator, the Lichnerowicz formula, and the Atiyah-Singer index theorem statement — at intuition-and-key-theorem depth (~35–40% of the book overall, ~75–90% of the spine itself). The Beginner / Intermediate / Master tier framing is in place for the central units, the Clifford sign convention is consistent, and the four chapter-level intuition arcs are largely captured.
 
-The gap is in **mass and depth**. The book has 126 named results; Codex covers 34 fully and 39 partially, missing 53. The 26 named worked examples that *are* the book's pedagogy are present in Codex for only 4. The entire analytic-foundations layer of Chapter III (Sobolev / pseudodifferential / parametrix / heat kernel / family-equivariant-Cl_k index variants) is compressed into three thin units that name-drop the machinery without developing it. The entirety of Chapter IV — the Hitchin α-invariant, Gromov-Lawson enlargeable manifolds, the positive-mass theorem, calibrations, parallel spinors on Calabi-Yau, the topology of psc⁺(M) — is absent except for the Lichnerowicz obstruction. The KR-theory / ABS module / Cl_k-linear / triality / exceptional-Lie-group threads are completely missing. Many of these are *originator-prose status* topics (proved by Lawson himself or his immediate collaborators), so there is no shorter route through them than reproducing what the book does.
+The gap is in **mass and depth**. The book has 126 named results; Codex covers 34 fully and 39 partially, missing 53. The 26 named worked examples that *are* the book's pedagogy are present in Babel Bible for only 4. The entire analytic-foundations layer of Chapter III (Sobolev / pseudodifferential / parametrix / heat kernel / family-equivariant-Cl_k index variants) is compressed into three thin units that name-drop the machinery without developing it. The entirety of Chapter IV — the Hitchin α-invariant, Gromov-Lawson enlargeable manifolds, the positive-mass theorem, calibrations, parallel spinors on Calabi-Yau, the topology of psc⁺(M) — is absent except for the Lichnerowicz obstruction. The KR-theory / ABS module / Cl_k-linear / triality / exceptional-Lie-group threads are completely missing. Many of these are *originator-prose status* topics (proved by Lawson himself or his immediate collaborators), so there is no shorter route through them than reproducing what the book does.
 
 Pass 3 (production planning) needs to confront, in roughly decreasing order of impact: (i) the Chapter IV applications block (~12 GAP rows in §2.1, ~12 GAPs in §2.7, and the worked examples that go with them); (ii) the Chapter III analytic-foundations expansion (Sobolev, pseudodifferential, heat kernel, family / equivariant / Cl_k index variants, Lefschetz fixed-point); (iii) the Chapter I deepening (full ABS chessboard + classification proof, KR-theory, ABS module construction, triality, exceptional Lie groups, signature-mod-8 inner-product table, charge conjugation classification); (iv) the Chapter II completion (general Dirac bundles, Cl_k-linear Dirac, Bochner-Weitzenböck for forms, spin cobordism). The exercise-pack and worked-example backfill across these regions, especially the explicit Dirac-on-standard-spaces computations from §II.5, is the load-bearing pedagogical work.
 
@@ -1370,7 +1370,7 @@ Twelve new units, organised by the four chapter-level gap blocks from §2.8. Eac
 
 #### §3.1 summary table
 
-| ID | Title | Closes (§2.1 rows) | Prereqs (Codex) | Time | Lean |
+| ID | Title | Closes (§2.1 rows) | Prereqs (Babel Bible) | Time | Lean |
 |---|---|---|---|---|---|
 | 03.09.11 | Clifford chessboard | 17, 20, 22 | 03.09.02, 03.01.04 | 5.5 h | partial |
 | 03.09.12 | KR-theory (1,1)-periodicity | 38 | 03.09.11, 03.08.07 | 5 h | none |
@@ -1391,7 +1391,7 @@ Twelve new units, organised by the four chapter-level gap blocks from §2.8. Eac
 
 ### §3.2 Existing units to deepen
 
-Six existing units receive deepening passes. Each addition is specified with the LM source section to draw from and the Codex section it lands in.
+Six existing units receive deepening passes. Each addition is specified with the LM source section to draw from and the Babel Bible section it lands in.
 
 #### D1 — `03.09.02 Clifford algebra`
 
@@ -1501,7 +1501,7 @@ A new file at `notation/lawson-michelsohn.md` documents the 26 notation conventi
 
 ## Purpose
 
-This document maps Lawson-Michelsohn's notation to Codex's notation for every
+This document maps Lawson-Michelsohn's notation to Babel Bible's notation for every
 load-bearing convention. Readers cross-referencing LM with Codex consult this
 table; agents producing units within the spin-geometry chapter follow the
 **decision** column.
@@ -1521,8 +1521,8 @@ table; agents producing units within the spin-geometry chapter follow the
 | 9 | Dirac operator symbol | $D$ | $D$ (with $\not\!\partial$ alternate in 03.09.05) | **use Codex** | $D$ is canonical; $\not\!\partial$ remains as a variant signal where the Feynman-slash convention is invoked |
 | 10 | Spin connection | $\nabla^{\mathfrak{S}}$ | $\nabla^S$ | **align Codex to LM** (tied to #7) | $\nabla^{\mathfrak{S}}$ uniformly |
 | 11 | Connection Laplacian | $\nabla^* \nabla$ | $(\nabla^S)^* \nabla^S$ | **use Codex (= LM up to font)** | Aligned |
-| 12 | Clifford multiplication | juxtaposition $X \cdot \psi$ | functional $c(\xi)\psi$ | **document both** | LM compactness is real, but Codex's $c(\cdot)$ disambiguates from inner product; both notations cited interchangeably with explicit $c(X) = X\cdot$ identification |
-| 13 | Riemann curvature $R$, Ricci, scalar | $R$ for Riemann; $R$ for scalar (context); Ric for Ricci | $R$ for Riemann (03.05.09); Scal for scalar (03.09.08); R for scalar in the Lichnerowicz statement (03.09.05) | **document both with disambiguation rule** | Codex is internally inconsistent. Decision: in the spin-geometry chapter, write $\mathrm{Scal}$ for scalar curvature uniformly (Lichnerowicz becomes $D^2 = \nabla^*\nabla + \tfrac{1}{4}\mathrm{Scal}$); in cross-reference notes, mention LM's overloaded $R$ |
+| 12 | Clifford multiplication | juxtaposition $X \cdot \psi$ | functional $c(\xi)\psi$ | **document both** | LM compactness is real, but Babel Bible's $c(\cdot)$ disambiguates from inner product; both notations cited interchangeably with explicit $c(X) = X\cdot$ identification |
+| 13 | Riemann curvature $R$, Ricci, scalar | $R$ for Riemann; $R$ for scalar (context); Ric for Ricci | $R$ for Riemann (03.05.09); Scal for scalar (03.09.08); R for scalar in the Lichnerowicz statement (03.09.05) | **document both with disambiguation rule** | Babel Bible is internally inconsistent. Decision: in the spin-geometry chapter, write $\mathrm{Scal}$ for scalar curvature uniformly (Lichnerowicz becomes $D^2 = \nabla^*\nabla + \tfrac{1}{4}\mathrm{Scal}$); in cross-reference notes, mention LM's overloaded $R$ |
 | 14 | Â-genus | $\hat{A}(M)$ | same | **use Codex (= LM)** | Aligned |
 | 15 | L-genus | $L(M)$ | same | **use Codex (= LM)** | Aligned |
 | 16 | Todd class | $\mathrm{Td}(M)$ | same | **use Codex (= LM)** | Aligned |
@@ -1543,7 +1543,7 @@ table; agents producing units within the spin-geometry chapter follow the
 - **Use Codex (= LM)**: 16 conventions (62%) — already aligned, no agent action needed.
 - **Align Codex to LM**: 5 conventions (#6 $\widetilde{\mathrm{Ad}}$, #7 $\mathfrak{S}$, #8 half-spinor, #10 spin connection, #13 scalar curvature symbol) — Codex updates required across spin-geometry units.
 - **Document both**: 2 conventions (#4 complex Clifford symbol, #12 Clifford multiplication style) — explicit cross-walk note in each unit.
-- **Adopt LM** (Codex was missing): 4 conventions (#23 $\widehat{\mathfrak{M}}_n$, #24 $\alpha$, #25 Thom classes, #26 $KR^{p,q}$) — introduced in the new units.
+- **Adopt LM** (Babel Bible was missing): 4 conventions (#23 $\widehat{\mathfrak{M}}_n$, #24 $\alpha$, #25 Thom classes, #26 $KR^{p,q}$) — introduced in the new units.
 
 The five "align Codex to LM" decisions trigger a notation-update sub-pass within agent decomposition (handled inside Agent A and Agent B; see §3.6). Updates are mechanical edit-replace operations; no content changes.
 
@@ -1680,14 +1680,14 @@ Pass 5 (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit a
 
 #### 4.1 Book-as-input self-check
 
-- **Procedure.** Present the LM TOC (recovered in §1.1) to the verification agent, unit by unit. For each entry in the Pass-2 §2.1 theorem table, the agent runs a Codex grep for the corresponding theorem statement. The output is a refreshed §2.1 table with new ✓/△/GAP marks.
+- **Procedure.** Present the LM TOC (recovered in §1.1) to the verification agent, unit by unit. For each entry in the Pass-2 §2.1 theorem table, the agent runs a Babel Bible grep for the corresponding theorem statement. The output is a refreshed §2.1 table with new ✓/△/GAP marks.
 - **Pass criterion:** ≥ **120 of 126** named theorem rows marked ✓ covered (≥ 95%); ≤ **3 rows** still marked GAP; the remaining ≤ 3 rows marked △ partial **with explicit deepening promised in the next pass**. Aggregate must hit **≥ 95%** as `(✓ + 0.5 × △) / 126`.
 - **Failure mode:** if any of N1–N12 fails to materially close its declared §2.1 rows, the verification agent flags by row number and routes back to Pass 4 for the responsible agent.
 
 #### 4.2 Exercise reproducibility check
 
-- **Procedure.** Sample 15 LM exercises uniformly across chapters (using the inventory from §1.3 + §3.3 as the sampling frame). For each, the verification agent finds the Codex unit a reader would use and quotes the relevant paragraph. The agent then drafts a one-paragraph solution sketch using only Codex prose.
-- **Pass criterion:** ≥ **13 of 15** sampled exercises have a complete solution sketch derivable from Codex prose within 1 page; ≤ 2 require external reference. The 13/15 threshold ≈ 87%, set at the level where a graduate reader can fill the gap from minor reference rather than missing-content.
+- **Procedure.** Sample 15 LM exercises uniformly across chapters (using the inventory from §1.3 + §3.3 as the sampling frame). For each, the verification agent finds the Babel Bible unit a reader would use and quotes the relevant paragraph. The agent then drafts a one-paragraph solution sketch using only Babel Bible prose.
+- **Pass criterion:** ≥ **13 of 15** sampled exercises have a complete solution sketch derivable from Babel Bible prose within 1 page; ≤ 2 require external reference. The 13/15 threshold ≈ 87%, set at the level where a graduate reader can fill the gap from minor reference rather than missing-content.
 - **Failure mode:** if a chapter is systematically under-represented (e.g., 3 of 4 sampled Ch IV exercises fail), Agent E's deliverables are flagged for additional exercise-pack content.
 
 #### 4.3 Notation comprehension check
@@ -1715,7 +1715,7 @@ Pass 5 (per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §4) runs four explicit a
 
 #### 4.5 Standing exceptions (declared up-front, not failures)
 
-The following items are explicit non-targets — they do not count against the ≥ 95% bar because the corresponding LM material is now covered by other Codex units, by intent.
+The following items are explicit non-targets — they do not count against the ≥ 95% bar because the corresponding LM material is now covered by other Babel Bible units, by intent.
 
 - **§II.2 spin cobordism** beyond low dimensions (LM §II.2 Anderson-Brown-Peterson is a research-level survey; Codex covers low-dim values + statement, not the proof). Documented in D3 master section.
 - **§III.16 Cl_k-family index theorem in cohomology**: the cohomological refinement of the Cl_k-family combination. Codex covers Cl_k-linear single-operator (N5) and family index (N11) separately; the joint generalisation is a corollary listed in N5 / N11 master sections without a standalone proof.
@@ -1810,12 +1810,12 @@ Per the brief's hard requirement, four sampled units (one per chapter) confirm o
 
 ### §4.2 Exercise reproducibility check
 
-Sampled 15 LM exercises uniformly across the four chapters per §1.3's inventory. For each, identify the Codex unit a reader would consult and judge whether they can solve the exercise from Codex content alone.
+Sampled 15 LM exercises uniformly across the four chapters per §1.3's inventory. For each, identify the Babel Bible unit a reader would consult and judge whether they can solve the exercise from Babel Bible content alone.
 
-| # | LM source | Exercise | Codex unit | Verdict |
+| # | LM source | Exercise | Babel Bible unit | Verdict |
 |---|---|---|---|---|
-| 1 | §I.1 | Show $\mathrm{Cl}(V, 0) \cong \Lambda^* V$ | `03.09.02` "Structure: Z/2-grading and filtration" gives the gr Cl ≅ Λ* iso explicitly; D1 deepens with reversion | **yes** — full solution from Codex prose |
-| 2 | §I.3 | Verify $\mathrm{Cl}_{r+1,s+1} \cong \mathrm{Cl}_{r,s} \otimes \mathrm{Cl}_{1,1}$ | N1 (`03.09.11`) "Key theorem with proof" gives the bridging identity with a 1-page proof | **yes** — full proof in Codex |
+| 1 | §I.1 | Show $\mathrm{Cl}(V, 0) \cong \Lambda^* V$ | `03.09.02` "Structure: Z/2-grading and filtration" gives the gr Cl ≅ Λ* iso explicitly; D1 deepens with reversion | **yes** — full solution from Babel Bible prose |
+| 2 | §I.3 | Verify $\mathrm{Cl}_{r+1,s+1} \cong \mathrm{Cl}_{r,s} \otimes \mathrm{Cl}_{1,1}$ | N1 (`03.09.11`) "Key theorem with proof" gives the bridging identity with a 1-page proof | **yes** — full proof in Babel Bible |
 | 3 | §I.5 | Construct spinor module via $\Lambda^* W$ for $W$ maximal isotropic | D4 (`03.09.05`) Ex 8 + EP1 Ex 5 give explicit construction with Clifford action by wedge/contraction | **yes** — Codex Ex 5 of EP1 is exactly this LM exercise |
 | 4 | §I.7 | Spin(8) triality $S_3$-action explicitly | N3 (`03.09.13`) "Key theorem (Cartan 1925, existence of triality)" derives outer-automorphism $S_3$ | **yes** — full statement and proof sketch |
 | 5 | §II.1 | Classify spin structures on $T^n$: $2^n$ structures via $H^1(T^n;\mathbb{Z}/2)$ | D3 (`03.09.04`) Ex 2 is exactly this | **yes** — explicit exercise + answer |
@@ -1844,9 +1844,9 @@ The single partial (row 6, $\mathfrak{S}^+ \otimes \mathfrak{S}^-$ in dim 4) is 
 
 ### §4.3 Notation comprehension check
 
-Sampled 5 high-leverage notation conventions from §2.4 and verified that a Codex reader can parse a representative LM passage using only Codex's notation conventions and the inline crosswalk references in the new units' frontmatter / Master sections.
+Sampled 5 high-leverage notation conventions from §2.4 and verified that a Babel Bible reader can parse a representative LM passage using only Babel Bible's notation conventions and the inline crosswalk references in the new units' frontmatter / Master sections.
 
-| # | LM convention | LM passage | Codex location | Verdict |
+| # | LM convention | LM passage | Babel Bible location | Verdict |
 |---|---|---|---|---|
 | 1 | Clifford sign $v^2 = -q(v) \cdot 1$ | LM §I.1.1: "$v \cdot v = -q(v) \cdot 1$" | `03.09.02` "Formal definition" adopts LM convention explicitly; N1 §"Formal definition" reuses; all 12 new units inherit. | **parses** |
 | 2 | Spinor bundle Fraktur $\mathfrak{S}(E)$ | LM §II.3.2: "$\mathfrak{S}(E) = P_{\mathrm{Spin}}(E) \times_{\mathrm{Spin}(n)} \Delta_n$" | D4 (`03.09.05`) crosswalks: "We use $\mathfrak{S}$ uniformly across the spin-geometry chapter from Pass 4 forward; earlier units used italic $S$ — semantically identical." Decision #7 in §3.4 documents the alignment. N4 (`03.09.14`), N7 (`03.09.17`) use $\mathfrak{S}$ throughout. | **parses** |
@@ -1860,7 +1860,7 @@ Sampled 5 high-leverage notation conventions from §2.4 and verified that a Code
 
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md §9.4`, a `notation/<book>.md` crosswalk file was specified in §3.4 of this plan. The standalone file at `notation/lawson-michelsohn.md` was **not produced**; the 26 notation decisions are instead embedded in the new units' Master sections and frontmatter via inline `[notation crosswalk #N]` references (5 units carry such references: `03.09.02`, `03.09.03`, `03.09.11`, `03.09.12`, `03.09.13`). The reader can reconstruct the full mapping from the 26 inline references; §4.3 verified that this is sufficient for parsing in 5/5 sampled cases.
 
-This is a documentation-format gap, not a content gap. The check is: can a reader parse LM passages using Codex notation? Yes (5/5). The verification proceeds; the standalone file is a follow-up cleanup item.
+This is a documentation-format gap, not a content gap. The check is: can a reader parse LM passages using Babel Bible notation? Yes (5/5). The verification proceeds; the standalone file is a follow-up cleanup item.
 
 ---
 
@@ -1918,7 +1918,7 @@ The Pass-4 production batch is a substantial success even though it does not rea
 
 - **+72 theorem rows moved to fully covered** (29 from △, 43 from GAP). The Cl chessboard, the entire psc obstruction chain (Lichnerowicz → Hitchin → Gromov-Lawson → Stolz), the Witten positive-mass proof, Berger holonomy + Wang parallel spinors, Harvey-Lawson calibrations, the heat-kernel proof of Atiyah-Singer, family/equivariant/Lefschetz indices, KR-(1,1) periodicity, Cl_k-linear Dirac, generalised Dirac bundles + universal Bochner-Weitzenböck — all newly present at full Master depth.
 - **All 4 chapter-level intuition arcs at 100%** including the previously-partial geometric spin-structure arc (D3 added Beginner/Intermediate tiers to `03.09.04`).
-- **Notation comprehension at 5/5** — the load-bearing sign convention, Fraktur spinor bundle, twisted adjoint, ABS module quotient, and α-invariant all parse from Codex notation alone.
+- **Notation comprehension at 5/5** — the load-bearing sign convention, Fraktur spinor bundle, twisted adjoint, ABS module quotient, and α-invariant all parse from Babel Bible notation alone.
 - **15/15 sampled exercises reproducible** (14 full + 1 partial), well above the 13/15 threshold.
 - **Master historical originator-prose preserved** in all 4 sampled units across Ch I/II/III/IV, including explicit Lawson-as-originator treatment in N9 (Harvey-Lawson 1982 calibrated geometries, *Acta Math.* 148) and in N6's Gromov-Lawson sub-section.
 - **Validation green:** all 23 spin-geometry units pass 27/27 (5276/5276 site-wide).
@@ -2052,8 +2052,8 @@ This section re-runs Verification 4.1 against the Pass-6 deliverables. Each of t
 
 | Row | LM ref | Target unit | Located at | Content check | Verdict |
 |---|---|---|---|---|---|
-| 103 | IV.2.1 | `03.09.E2-applications-exercises.md` | "Group V — Vector-field problem and spinor cohomology", **Exercise 15 (hard, proof)** | Derives Adams' formula $\rho(n)+1=8a+2^b$ where $n+1=2^{4a+b}\cdot m$; full hint cites Adams 1962 *Vector fields on spheres* (Annals 75); answer gives both halves of the proof: lower bound via Cl-module construction $e_i\cdot x$ orthonormal vector fields on $S^n$, upper bound via Adams' Steenrod / J-homomorphism / Bott obstruction; immersion application via Cohen 1985 *The immersion conjecture* (Annals 122) with $\mathbb{RP}^n\hookrightarrow\mathbb{R}^{2n-\alpha(n)}$; explicitly frames as LM §IV.2 Cl-module bookkeeping. **Load-bearing:** uses Hurwitz-Radon, ABS, Bott periodicity, J-homomorphism — all upstream Codex content. | **✓ covered** |
-| 118 | IV.11.2 | `03.09.E2-applications-exercises.md` | "Group V — Vector-field problem and spinor cohomology", **Exercise 16 (hard, proof)** | States $H^*(M,\mathfrak{S}^+)\oplus H^*(M,\mathfrak{S}^-)\cong\bigoplus_{p,q}H^{p,q}(M)$ on Calabi-Yau; concludes harmonic-spinor count $=\chi(M,\mathcal{O}_M)$; full three-step proof: spin refinement from $c_1=0$ via $K_M^{-1}$ trivial, $D=\sqrt 2(\bar\partial+\bar\partial^*)$ identification, AS / HRR comparison via $\widehat A=\mathrm{Td}$ when $c_1=0$; specialisations to K3 ($\chi=2$) and CY3 ($\chi=0$ but each chirality has one) match parallel-spinor counts of [03.09.18]. **Load-bearing:** consumes spinor-bundle, Dolbeault, AS index from upstream Codex content. | **✓ covered** |
+| 103 | IV.2.1 | `03.09.E2-applications-exercises.md` | "Group V — Vector-field problem and spinor cohomology", **Exercise 15 (hard, proof)** | Derives Adams' formula $\rho(n)+1=8a+2^b$ where $n+1=2^{4a+b}\cdot m$; full hint cites Adams 1962 *Vector fields on spheres* (Annals 75); answer gives both halves of the proof: lower bound via Cl-module construction $e_i\cdot x$ orthonormal vector fields on $S^n$, upper bound via Adams' Steenrod / J-homomorphism / Bott obstruction; immersion application via Cohen 1985 *The immersion conjecture* (Annals 122) with $\mathbb{RP}^n\hookrightarrow\mathbb{R}^{2n-\alpha(n)}$; explicitly frames as LM §IV.2 Cl-module bookkeeping. **Load-bearing:** uses Hurwitz-Radon, ABS, Bott periodicity, J-homomorphism — all upstream Babel Bible content. | **✓ covered** |
+| 118 | IV.11.2 | `03.09.E2-applications-exercises.md` | "Group V — Vector-field problem and spinor cohomology", **Exercise 16 (hard, proof)** | States $H^*(M,\mathfrak{S}^+)\oplus H^*(M,\mathfrak{S}^-)\cong\bigoplus_{p,q}H^{p,q}(M)$ on Calabi-Yau; concludes harmonic-spinor count $=\chi(M,\mathcal{O}_M)$; full three-step proof: spin refinement from $c_1=0$ via $K_M^{-1}$ trivial, $D=\sqrt 2(\bar\partial+\bar\partial^*)$ identification, AS / HRR comparison via $\widehat A=\mathrm{Td}$ when $c_1=0$; specialisations to K3 ($\chi=2$) and CY3 ($\chi=0$ but each chirality has one) match parallel-spinor counts of [03.09.18]. **Load-bearing:** consumes spinor-bundle, Dolbeault, AS index from upstream Babel Bible content. | **✓ covered** |
 
 #### Aggregate count
 

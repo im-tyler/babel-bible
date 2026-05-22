@@ -1,4 +1,4 @@
-# Codex — Editorial Voice
+# Babel Bible — Editorial Voice
 
 The unified prose style every agent must respect when producing units, flows, bridges, and connection prose. Without this document, parallel agents produce stylistically inconsistent output. With it, the curriculum reads as if a single graduate-textbook author wrote the whole thing.
 
@@ -68,7 +68,7 @@ The unit ID — `04.02.02` — is the canonical anchor. Plain language ("the aff
 
 - **Originator**: full first reference uses author + paper title + year. *"Frobenius's 1896 *Über die Charaktere endlicher Gruppen* introduced characters as eigenvalues of the group determinant."* Subsequent references can shorten: *"Frobenius's 1896 paper."*
 - **Modern textbook**: use a recognisable short form once established. *"Hartshorne's §III.7 gives the algebraic-geometric proof."*
-- **Cross-references to other Codex units**: ID-only, as in §3.1.
+- **Cross-references to other Babel Bible units**: ID-only, as in §3.1.
 
 ---
 
@@ -137,7 +137,7 @@ This is the difference between *citing* an originator and *channelling* one. The
 
 ---
 
-## 7. What good Codex prose actually reads like
+## 7. What good Babel Bible prose actually reads like
 
 Reproduced from `04.05.04 Cartier divisor` Master section, unedited:
 
@@ -162,7 +162,7 @@ This is what every Master section aspires to. New units should match this regist
 
 ---
 
-## 8. What bad Codex prose looks like (avoid)
+## 8. What bad Babel Bible prose looks like (avoid)
 
 > "There are many divisors in algebraic geometry. One such divisor is the Cartier divisor. The Cartier divisor was introduced by Pierre Cartier. It has many uses. It is related to line bundles. It is also related to Weil divisors. The Cartier divisor is important."
 

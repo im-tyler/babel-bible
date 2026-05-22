@@ -25,7 +25,7 @@ unit). The §0 prerequisite layer is intentionally thin per the apex-first
 strategy — the Fast Track campaign builds Tier α first (graduate-level
 canonical books) and only fills in the precalculus floor once the apex
 strands are stable. Lang is the canonical single source for that floor.
-Almost every line of his book maps to a missing Codex unit.
+Almost every line of his book maps to a missing Babel Bible unit.
 
 This pass is intentionally not a full P1 audit (which would inventory
 every numbered exercise across Lang's ~470 pages). It works from the
@@ -53,7 +53,7 @@ will be ready for Apostol's epsilon-delta calculus without remediation.
 
 The Codex equivalence target inherits Lang's bet: the §0 precalculus
 units should justify their procedures, not catalog them. A reader who
-has worked through the Codex 00-precalc strand should be able to open
+has worked through the Babel Bible 00-precalc strand should be able to open
 Apostol Vol. 1 Ch. 1 (the integers and the real-number axioms) and
 recognise the territory.
 
@@ -106,13 +106,13 @@ Part V is "extra" trigonometry / complex-number material.
    associativity, commutativity, identity, inverse, distributive) as
    the rules for $\mathbb{Q}$ and $\mathbb{R}$ before any specific
    calculation. This makes Lang a *foundations* book rather than a
-   *procedures* book. Codex's `01.01.01-field` covers the same axioms
+   *procedures* book. Babel Bible's `01.01.01-field` covers the same axioms
    for arbitrary fields; a precalc-tier presentation specialising to
    $\mathbb{R}$ does not exist.
 2. **Order axioms and absolute value as a chapter.** Ch. 2 develops
    the ordering on $\mathbb{R}$, $|x|$, the triangle inequality $|x+y|
    \leq |x| + |y|$, and the distance interpretation — the foundation
-   for the eventual epsilon-delta limit in Apostol. No Codex unit
+   for the eventual epsilon-delta limit in Apostol. No Babel Bible unit
    covers this.
 3. **Quadratic formula proved by completing the square.** Ch. 3
    derives $x = (-b \pm \sqrt{b^2 - 4ac})/(2a)$ from
@@ -144,7 +144,7 @@ Part V is "extra" trigonometry / complex-number material.
    precalc unit on polar / parametric coordinates.
 9. **Function notation in Ch. 14, after coordinate geometry.** Lang
    delays $f : A \to B$ until graphs in the plane are available.
-   Codex's existing `00.02.05-function` matches this — the chapter
+   Babel Bible's existing `00.02.05-function` matches this — the chapter
    slug `02-set-and-function` is already reserved.
 10. **Induction by worked examples first.** Ch. 15 walks through five
     or six induction proofs (sum of first $n$ integers, $2^n > n$,
@@ -155,23 +155,23 @@ Part V is "extra" trigonometry / complex-number material.
 
 ---
 
-## §2 Coverage table (Codex vs Lang)
+## §2 Coverage table (Babel Bible vs Lang)
 
 Cross-referenced against the current 00-precalc chapter (1 unit) and the
 220-unit total corpus. ✓ = covered, △ = partial / different framing or
 depth, ✗ = not covered. **Tier-α-overlap** flags items where the gap
-overlaps with a graduate-tier Codex unit at higher abstraction (e.g.
+overlaps with a graduate-tier Babel Bible unit at higher abstraction (e.g.
 field axioms in `01.01.01`); the precalc unit would be a tier-restricted
 re-presentation, not a duplicate.
 
 ### Part I — Algebra (Chapters 1-5)
 
-| Lang topic | Codex unit(s) | Status | Note |
+| Lang topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Field axioms for $\mathbb{Q}$, $\mathbb{R}$ (closure, associativity, commutativity, identity, inverse, distributive) | `01.01.01` field | △ | **Tier-α-overlap.** Codex's field unit covers arbitrary fields at the algebra-strand depth. A precalc-tier unit specialising to $\mathbb{R}$, with worked examples of how each axiom is used in elementary algebra, does not exist. |
+| Field axioms for $\mathbb{Q}$, $\mathbb{R}$ (closure, associativity, commutativity, identity, inverse, distributive) | `01.01.01` field | △ | **Tier-α-overlap.** Babel Bible's field unit covers arbitrary fields at the algebra-strand depth. A precalc-tier unit specialising to $\mathbb{R}$, with worked examples of how each axiom is used in elementary algebra, does not exist. |
 | Integers, rationals, reals (number-system construction, density of $\mathbb{Q}$ in $\mathbb{R}$, irrationality of $\sqrt{2}$) | — | ✗ | **Gap (high priority).** Lang Ch. 1. Codex assumes $\mathbb{R}$ throughout; no foundational construction. |
-| Order axioms, absolute value, triangle inequality $|x+y| \leq |x| + |y|$ | — | ✗ | **Gap (high priority).** Lang Ch. 2. Foundation for limit machinery; nothing in Codex. |
-| Linear equations $ax + b = c$ in one variable; systems of two linear equations in two variables | — | ✗ | **Gap.** Lang Ch. 3. No Codex unit. |
+| Order axioms, absolute value, triangle inequality $|x+y| \leq |x| + |y|$ | — | ✗ | **Gap (high priority).** Lang Ch. 2. Foundation for limit machinery; nothing in Babel Bible. |
+| Linear equations $ax + b = c$ in one variable; systems of two linear equations in two variables | — | ✗ | **Gap.** Lang Ch. 3. No Babel Bible unit. |
 | Quadratic equations; quadratic formula proved by completing the square; discriminant classification | — | ✗ | **Gap (high priority).** Lang Ch. 3. Load-bearing for everything downstream. |
 | Inequalities: linear, quadratic, sign-chart method | — | ✗ | **Gap (high priority).** Lang Ch. 4. |
 | Distributive law / FOIL / $(a+b)^2$, $(a+b)(a-b)$, sum/difference of cubes | — | ✗ | **Gap.** Lang Ch. 1-3. |
@@ -182,7 +182,7 @@ re-presentation, not a duplicate.
 
 ### Part II — Intuitive Geometry (Chapters 6-8)
 
-| Lang topic | Codex unit(s) | Status | Note |
+| Lang topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Distance, angle measure (degrees and radians), parallel / perpendicular lines | — | ✗ | **Gap.** Lang Ch. 6. |
 | Area formulas (rectangle, triangle, circle, polygon by triangulation); $\pi r^2$ as limit | — | ✗ | **Gap.** Lang Ch. 7. |
@@ -192,7 +192,7 @@ re-presentation, not a duplicate.
 
 ### Part III — Coordinate Geometry (Chapters 9-13)
 
-| Lang topic | Codex unit(s) | Status | Note |
+| Lang topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Cartesian coordinates in $\mathbb{R}^2$; distance formula | — | ✗ | **Gap (high priority).** Lang Ch. 9. |
 | Lines: slope, point-slope form $y - y_0 = m(x - x_0)$, slope-intercept, two-point, parallel / perpendicular conditions | — | ✗ | **Gap (high priority).** Lang Ch. 9. |
@@ -207,7 +207,7 @@ re-presentation, not a duplicate.
 
 ### Part IV — Miscellaneous (Chapters 14-15)
 
-| Lang topic | Codex unit(s) | Status | Note |
+| Lang topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Function $f : A \to B$, domain, codomain, range, graph | `00.02.05` function | ✓ | The single shipped 00-precalc unit. Beginner-tier framing matches Lang Ch. 14. |
 | Composition $f \circ g$, identity function, inverse function | `00.02.05` (mention) | △ | Mentioned in the function unit's Master section; not its own unit. Lang Ch. 14 develops composition as a chapter-level topic. |
@@ -216,7 +216,7 @@ re-presentation, not a duplicate.
 
 ### Part V — Trigonometry (Chapters 16-19)
 
-| Lang topic | Codex unit(s) | Status | Note |
+| Lang topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Right-triangle trigonometry: $\sin$, $\cos$, $\tan$, $\csc$, $\sec$, $\cot$; SOH-CAH-TOA; complementary-angle | — | ✗ | **Gap (high priority).** Lang Ch. 16. |
 | Pythagorean identity $\sin^2\theta + \cos^2\theta = 1$ from right-triangle | — | ✗ | **Gap.** Lang Ch. 16. |
@@ -231,7 +231,7 @@ re-presentation, not a duplicate.
 
 ### Appendix block — Functions and limits (introductory)
 
-| Lang topic | Codex unit(s) | Status | Note |
+| Lang topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Informal limit / continuity / instantaneous-slope motivation | — | ✗ | **Gap (low priority).** Lang Appendix. Sketch-level; Apostol Vol. 1 does this rigorously. Could be a survey-tier pointer unit; not load-bearing. |
 
@@ -259,24 +259,24 @@ irrationality) are absent.
 number systems (matches), $|x|$ for absolute value (matches), $\binom{n}{k}$
 for binomial coefficients (matches). His angle convention is *radian by
 default* in trig identities, *degrees as alternate* in geometric
-applications — Codex's convention here is undeclared because there are
+applications — Babel Bible's convention here is undeclared because there are
 no precalc trig units. A `notation/lang-basic-mathematics.md` crosswalk
 becomes useful once the trig units land.
 
 **Sequencing layer**: ~10%. Lang's prerequisite chain (algebra → geometry →
 coordinate geometry → functions → trigonometry → calculus pointer) is
-the canonical precalc DAG. Codex's 00-precalc DAG is essentially empty.
+the canonical precalc DAG. Babel Bible's 00-precalc DAG is essentially empty.
 
 **Intuition layer**: ~5%. Lang's distinctive intuition (axioms-first
 framing, geometry-from-axioms, identities-from-rotation) is entirely
-absent from Codex.
+absent from Babel Bible.
 
 **Application layer**: ~30%. Lang's applications (the geometric series
 sum via algebra, the $\pi r^2$ via inscribed polygons, the conic
 sections from focus loci) implicitly underpin many Codex tier-α units
 (geometric series in functional-analysis, $\pi$ in residue theorem,
 ellipse / hyperbola in symplectic / Hamiltonian-mechanics units), but
-the *precalc-tier* presentation that Lang gives is not in Codex.
+the *precalc-tier* presentation that Lang gives is not in Babel Bible.
 
 ---
 
@@ -296,7 +296,7 @@ existing `02-set-and-function` is reserved for `00.02.05-function`):
 ### Priority 1 — load-bearing precalc foundations
 
 These are the units a Fast Track reader must control before opening
-Apostol. Without them, every later Codex unit that says "for $x \in
+Apostol. Without them, every later Babel Bible unit that says "for $x \in
 \mathbb{R}$" has an unmoored prerequisite. **Highest priority.**
 
 1. **`00.01.01` Real numbers, integers, rationals.** [NEW] Lang Ch. 1
@@ -604,7 +604,7 @@ Codex-elsewhere uses $\mathbb{N} = \{0, 1, 2, \ldots\}$.
 
 Successor edges from §0 to §1+:
 
-- `00.01.01` → `01.01.01-field` (Codex's algebra-strand field unit)
+- `00.01.01` → `01.01.01-field` (Babel Bible's algebra-strand field unit)
 - `00.04.01` → `02.01.05-metric-space` (the triangle-inequality
   ancestor)
 - `00.05.03` (complex numbers, priority-3) → `06.01.01-holomorphic-function`
@@ -650,13 +650,13 @@ Successor edges from §0 to §1+:
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, *Basic
 Mathematics* is at equivalence-coverage when:
 
-- ≥95% of Lang's named results map to Codex units (currently ~3%; after
+- ≥95% of Lang's named results map to Babel Bible units (currently ~3%; after
   priority-1 this rises to ~80%; after priority-1+2 to ~95%; after
   priority-3 deepenings to ~98%).
 - ≥80% of Lang's exercises have a Codex equivalent (currently ~0%;
   closing this requires the dedicated precalc-exercise-pack pass per
   §5).
-- ≥90% of Lang's worked examples are reproduced in some Codex unit
+- ≥90% of Lang's worked examples are reproduced in some Babel Bible unit
   (currently ~5%; the priority-1+2 batch's required worked-example
   inclusions bring this to ~80%; full coverage requires
   worked-example densification across the new units).
@@ -664,7 +664,7 @@ Mathematics* is at equivalence-coverage when:
   item 29; defer until priority-1 trig units land).
 - For every chapter dependency in Lang (Part I → Part II → Part III →
   Part IV → Part V → Appendix), there is a corresponding
-  `prerequisites` arrow chain in Codex's DAG. The
+  `prerequisites` arrow chain in Babel Bible's DAG. The
   `00.01.01 → 00.03.02 → 00.10.01` (real numbers → quadratic formula →
   conic sections) and `00.01.01 → 00.06.01 → 00.07.01 → 00.08.01 →
   00.11.01` (real numbers → right-triangle trig → unit-circle trig →
@@ -690,7 +690,7 @@ filling it. Most of the work is *new content* at the precalc tier,
 not depth rewrites. The priority-1 batch (12 new units, ~30 hours) is
 the minimum viable §0 strand and is the prerequisite for auditing
 Apostol Vol. 1 honestly — without the Lang precalc floor, Apostol's
-"for $x \in \mathbb{R}$" goes unanswered in Codex.
+"for $x \in \mathbb{R}$" goes unanswered in Babel Bible.
 
 **Composite Lang + Apostol-Vol-1 recommendation.** Defer Apostol Vol. 1's
 audit until the Lang priority-1 batch lands; Apostol's per-book plan

@@ -1,11 +1,11 @@
-# Codex — Master Production Plan
+# Babel Bible — Master Production Plan
 
-_Generated: 2026-05-21T04:12:14.161897+00:00_
+_Generated: 2026-05-21T04:56:19.468399+00:00_
 
 ## Burn-down
 
-- Units shipped: **714**
-- Units queued (gap units from audits): **52**
+- Units shipped: **737**
+- Units queued (gap units from audits): **48**
 - Of which deepenings: **0**
 - Audits completed: **58 / 92**
 - Books unaudited: **0**
@@ -20,20 +20,20 @@ _Generated: 2026-05-21T04:12:14.161897+00:00_
 | 4 | `08.10.07` | Wightman axioms (W1–W7) | P1 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
 | 5 | `08.10.09` | Fermionic Fock space, Pauli exclusion, anticommutators | P2 | chatterjee-qft-lecture-notes, parisi-wu-stochastic-quantization |
 | 6 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
-| 7 | `04.11.12` | Cohomology of a smooth complete toric variety | P3 | fulton-toric-varieties |
-| 8 | `04.11.13` | Toric intersection theory and mixed volumes | P3 | fulton-toric-varieties |
-| 9 | `04.11.14` | Bernstein-Kushnirenko theorem | P3 | fulton-toric-varieties |
-| 10 | `04.11.16` | Reflexive polytope and Batyrev mirror duality (pointer) | P4 | fulton-toric-varieties |
-| 11 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
-| 12 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
-| 13 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
-| 14 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
-| 15 | `04.10.20` | Deformation theory of smooth curves | P1 | joe-harris-moduli-of-curves |
-| 16 | `04.10.22` | Stable curve and Deligne-Mumford stability | P1 | joe-harris-moduli-of-curves |
-| 17 | `04.10.26` | Forgetful and gluing morphisms on $\overline{\mathcal{M}}_{g, n}$ | P2 | joe-harris-moduli-of-curves |
-| 18 | `04.10.29` | Limit linear series (Eisenbud-Harris) | P2 | joe-harris-moduli-of-curves |
-| 19 | `04.10.30` | Hurwitz numbers and the Hurwitz scheme | P3 | joe-harris-moduli-of-curves |
-| 20 | `04.10.32` | ELSV formula: Hurwitz numbers as Hodge integrals | P3 | joe-harris-moduli-of-curves |
+| 7 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
+| 8 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
+| 9 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
+| 10 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
+| 11 | `04.10.20` | Deformation theory of smooth curves | P1 | joe-harris-moduli-of-curves |
+| 12 | `04.10.22` | Stable curve and Deligne-Mumford stability | P1 | joe-harris-moduli-of-curves |
+| 13 | `04.10.26` | Forgetful and gluing morphisms on $\overline{\mathcal{M}}_{g, n}$ | P2 | joe-harris-moduli-of-curves |
+| 14 | `04.10.29` | Limit linear series (Eisenbud-Harris) | P2 | joe-harris-moduli-of-curves |
+| 15 | `04.10.30` | Hurwitz numbers and the Hurwitz scheme | P3 | joe-harris-moduli-of-curves |
+| 16 | `04.10.32` | ELSV formula: Hurwitz numbers as Hodge integrals | P3 | joe-harris-moduli-of-curves |
+| 17 | `04.10.34` | Torelli morphism and Torelli theorem | P4 | joe-harris-moduli-of-curves |
+| 18 | `08.12.01` | Fluctuation-dissipation theorem (Landau-Callen-Welton) | P? | landau-lifshitz-statistical-physics-1 |
+| 19 | `08.11.02` | Debye theory of specific heats of solids | P? | landau-lifshitz-statistical-physics-1 |
+| 20 | `08.11.03` | Real gases — virial expansion and van der Waals | P? | landau-lifshitz-statistical-physics-1 |
 
 ## Audits completed
 

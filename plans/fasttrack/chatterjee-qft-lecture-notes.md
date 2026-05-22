@@ -18,7 +18,7 @@ pack, notation, sequencing, intuition, applications — see
 `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4).
 
 This pass is intentionally not a full P1 audit. Chatterjee is short (130
-pp.) but the entire QFT track is essentially absent from the Codex: the
+pp.) but the entire QFT track is essentially absent from the Babel Bible: the
 existing `08-stat-mech/` chapter is **classical** statistical field theory
 (Ising, RG, lattice gauge as a stat-mech object, Wick *rotation* as a tool
 for stat-mech path integrals — not Wick's theorem for Gaussian fields and
@@ -142,7 +142,7 @@ Peer / supplementary sources cross-referenced for this audit:
 
 ---
 
-## §2 Coverage table (Codex vs Chatterjee)
+## §2 Coverage table (Babel Bible vs Chatterjee)
 
 Cross-referenced against the current 313-unit corpus via
 `find content -name "*.md"` and grep on `fock`, `wightman`, `dyson`,
@@ -158,10 +158,10 @@ incidental (one uses "Fock" as a moduli-space adjective, another mentions
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Chatterjee topic (lecture) | Codex unit(s) | Status | Note |
+| Chatterjee topic (lecture) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Five postulates of QM (L2) | — | ✗ | **Gap.** No Codex unit lists the QM axioms as a closed framework. |
-| Position / momentum operators, essential self-adjointness, Stone's theorem in flight (L3, L4) | — | ✗ | **Gap.** Spectral theorem / unbounded operators are foundations the Codex doesn't yet have an analysis-track unit for. |
+| Five postulates of QM (L2) | — | ✗ | **Gap.** No Babel Bible unit lists the QM axioms as a closed framework. |
+| Position / momentum operators, essential self-adjointness, Stone's theorem in flight (L3, L4) | — | ✗ | **Gap.** Spectral theorem / unbounded operators are foundations the Babel Bible doesn't yet have an analysis-track unit for. |
 | Heisenberg uncertainty principle (L4) | — | ✗ | **Gap.** |
 | Simple harmonic oscillator, Hermite basis (L4) | — | ✗ | **Gap.** |
 | Tensor product of Hilbert spaces, symmetric tensor power (L5–L6) | — | △ | Tensor algebra of vector spaces is in `03.01-tensor-algebra/` but the **Hilbert-space** completion and symmetric/antisymmetric variants are not. |
@@ -207,7 +207,7 @@ QFT track is unaddressed.
 TOC is complete, all 29 lectures were skimmed for content. The
 "Chatterjee deepening-only" hypothesis from the audit prompt is **not**
 supported by the evidence; the book is foundational for the QFT track
-that the Codex doesn't yet have.
+that the Babel Bible doesn't yet have.
 
 ---
 
@@ -218,7 +218,7 @@ production:** Chatterjee assumes (i) the spectral theorem for unbounded
 self-adjoint operators, (ii) Stone's theorem on one-parameter unitary
 groups, (iii) the tempered-distributions calculus on $\mathbb{R}^n$ and
 $\mathbb{R}^{1,3}$, (iv) Schwartz functions and the Fourier transform on
-$\mathcal{S}(\mathbb{R}^n)$. The Codex's `02-analysis/` chapter is
+$\mathcal{S}(\mathbb{R}^n)$. The Babel Bible's `02-analysis/` chapter is
 not yet at the level required. **Recommendation:** the Sternberg
 *Semi-Classical Analysis* audit (related-only free text, not on the canonical FT list) should be sequenced **before**
 Chatterjee production; Sternberg's lectures cover much of the
@@ -350,7 +350,7 @@ estimate (mirroring earlier Brown / Lawson-Michelsohn / Bott-Tu batches):
 
 **Originator-prose target.** Chatterjee is a *pedagogical* originator
 (the rigorous-as-possible mathematicians' on-ramp), not a research
-originator. For the Codex's QFT track, originator-prose treatment per
+originator. For the Babel Bible's QFT track, originator-prose treatment per
 `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10 should cite:
 
 - A. Wightman & L. Gårding, "Fields as operator-valued distributions in
@@ -371,12 +371,12 @@ originator. For the Codex's QFT track, originator-prose treatment per
   consolidation of Chatterjee's pedagogy.
 
 **Notation crosswalk.** Chatterjee uses **physicist conventions** on
-several points where the Codex's mathematician conventions differ; these
+several points where the Babel Bible's mathematician conventions differ; these
 need to be recorded explicitly in each new unit's §Notation paragraph:
 
 | Object | Chatterjee | Codex mathematician convention | Resolution |
 |---|---|---|---|
-| Inner product on $H$ | $(f,g)$, **antilinear in first argument, linear in second** | usually antilinear in second, linear in first (Codex spin-geometry units `03.09.*` follow this) | Chatterjee's convention is the physicists' Dirac-bra-ket convention; record at top of `08.10.01`. Adopt Chatterjee's convention for the QFT track and flag the difference at the boundary with spin-geometry. |
+| Inner product on $H$ | $(f,g)$, **antilinear in first argument, linear in second** | usually antilinear in second, linear in first (Babel Bible spin-geometry units `03.09.*` follow this) | Chatterjee's convention is the physicists' Dirac-bra-ket convention; record at top of `08.10.01`. Adopt Chatterjee's convention for the QFT track and flag the difference at the boundary with spin-geometry. |
 | Adjoint | $A^\dagger$ | $A^*$ in `02-analysis/` | Use $A^\dagger$ throughout the QFT track; flag the synonymy. |
 | Fourier transform | $\hat f(p) = \int dx\, e^{-ixp} f(x)$ (no $1/(2\pi)$ prefactor; sign convention $-ixp$) | Codex `02-analysis/` and `03-differential-forms` use the symmetric $(2\pi)^{-n/2}$ convention | Chatterjee's convention pushes $(2\pi)^3$ factors into the measure and the delta function. Adopt Chatterjee's for the QFT track and record the conversion factor explicitly in `08.10.01`. |
 | Metric signature | $(+,-,-,-)$ "mostly minus" | physics-side variable | Record signature in `08.10.08`; mention $(-,+,+,+)$ "mostly plus" as an alternative used by some texts (Misner-Thorne-Wheeler, e.g.). |
@@ -413,7 +413,7 @@ paragraph of every Priority-1 unit, per `docs/specs/UNIT_SPEC.md` §11.
   inline but no formal exercise set. An exercise pack would be a
   P3-priority-3 follow-up after the priority-1 units ship; we mirror
   the NAT plan's deferral here.
-- Lean formalisation. The Codex's `08-stat-mech/` chapter has
+- Lean formalisation. The Babel Bible's `08-stat-mech/` chapter has
   `lean_status: none` and `lean_mathlib_gap` notes acknowledging
   Mathlib's absence of statistical-mechanics infrastructure. The same
   applies double for QFT — no Mathlib QFT library exists. All new
@@ -433,7 +433,7 @@ equivalence-coverage when:
   representation theory used in L9–L10 and L25. **Soft prereq —
   Chatterjee can ship the Hilbert-space side first.**
 - ≥95% of Chatterjee's named theorems / constructions in L1–L29 map to
-  Codex units. (Currently 0%; after Priority-1 units this rises to
+  Babel Bible units. (Currently 0%; after Priority-1 units this rises to
   ~70% — the scalar QFT track is closed. After Priority-1 + Priority-2
   to ~90% — Dirac + QED closed. Full ≥95% requires Priority-4
   deepenings.)

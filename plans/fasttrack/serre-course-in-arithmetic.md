@@ -21,7 +21,7 @@ is a 115-page *crystalline* introduction connecting the algebra of
 quadratic forms over local fields to the analysis of $L$-functions and
 modular forms — the cleanest single bridge between **3.34 Manin-Panchishkin**
 (arithmetic geometry survey) and the elementary algebra / analysis core
-of the Codex.
+of the Babel Bible.
 
 **Purpose of this plan:** lightweight audit-and-gap pass (P1-lite + P2 +
 P3-lite of the orchestration protocol). Output is a concrete punch-list
@@ -136,7 +136,7 @@ text for both **quadratic forms + local-global** (Chs. I–IV) and
 prerequisite Manin-Panchishkin (FT 3.34) explicitly assumes (see
 IMNT plan §1: "It assumes Serre *A Course in Arithmetic* (3.14) or
 equivalent for the elementary background"). CinA Chs. I–IV have **no
-overlap** with any other FT title at the Codex's coverage scope; CinA
+overlap** with any other FT title at the Babel Bible's coverage scope; CinA
 Chs. V–VII overlap with **IMNT Ch. 6** (Manin-Panchishkin survey) and
 with **Diamond-Shurman** Chs. 1–5 (which is not currently a FT title
 but is cited as a peer source for the IMNT audit).
@@ -173,14 +173,14 @@ the audit protocol):
 
 ---
 
-## §2 Coverage table (Codex vs CinA)
+## §2 Coverage table (Babel Bible vs CinA)
 
-Cross-referenced against the current Codex corpus
+Cross-referenced against the current Babel Bible corpus
 (`content/00-precalc/` through `content/20-philosophy/`; 362 units total
 as of 2026-05-18).
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| CinA topic | Codex unit(s) | Status | Note |
+| CinA topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Finite fields $\mathbb{F}_q$, $\mathbb{F}_q^\times$ cyclic | △ | △ | Touched in `07-representation-theory/` (e.g. character tables of $\mathrm{GL}_2(\mathbb{F}_q)$) but no dedicated number-theoretic unit on finite-field structure. |
 | Quadratic reciprocity (Gauss sums) | — | ✗ | **Gap.** Foundational classical theorem; not covered. |
@@ -188,7 +188,7 @@ as of 2026-05-18).
 | Hensel's lemma | — | ✗ | **Gap.** Hensel 1908 originator-citation expected. |
 | Squares in $\mathbb{Q}_p$ | — | ✗ | **Gap.** |
 | Hilbert symbol $(a, b)_v$, product formula | — | ✗ | **Gap.** |
-| Quadratic forms over a field — equivalence, discriminant, Witt's theorem | — | ✗ | **Gap.** No quadratic-forms unit anywhere in the Codex. |
+| Quadratic forms over a field — equivalence, discriminant, Witt's theorem | — | ✗ | **Gap.** No quadratic-forms unit anywhere in the Babel Bible. |
 | Hasse-Witt invariant $\epsilon(f)$ | — | ✗ | **Gap.** |
 | Hasse-Minkowski theorem | — | ✗ | **Gap.** Hasse 1923-24 originator. The signature local-global theorem. |
 | Meyer's theorem (indefinite forms in $\geq 5$ vars) | — | ✗ | **Gap.** |
@@ -367,7 +367,7 @@ focused — high yield):**
 16. **CinA exercise pack.** ~30 exercises distributed across
     `21.02.*` and `21.04.*` units. CinA's exercises are unusually clean
     and short (the book is a course, not a survey); they are an
-    excellent fit for the Codex's exercise-pack convention. Target ~5
+    excellent fit for the Babel Bible's exercise-pack convention. Target ~5
     exercises per priority-1 unit. ~6 hours total production time after
     the units ship.
 
@@ -495,7 +495,7 @@ equivalence-coverage when:
   quadratic forms, Hasse-Minkowski, Meyer) have shipped.
 - Priority-1 shared units `21.03.02`, `21.04.01`, `21.04.02` have
   shipped (jointly with IMNT — single ship satisfies both audits).
-- ≥95% of CinA's named theorems map to Codex units (currently ~3%;
+- ≥95% of CinA's named theorems map to Babel Bible units (currently ~3%;
   after the 9 Priority-1 CinA-specific units + 3 shared units this
   rises to ~85%; full ≥95% requires Priority-2 theta-functions and
   Ramanujan units).
@@ -574,7 +574,7 @@ source** (the elementary, proof-complete exposition) and **IMNT as the
 secondary supplementary source** (the encyclopaedic survey framing).
 Rationale: CinA proves these results in full at the level the Codex
 beginner + intermediate tiers require; IMNT does not prove them, it
-surveys them. The Codex's three-tier convention requires a primary
+surveys them. The Babel Bible's three-tier convention requires a primary
 proof-complete anchor, which is CinA's role.
 
 Additionally, the **Priority-0 prereq unit `21.02.03` ($p$-adic numbers

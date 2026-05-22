@@ -1,4 +1,4 @@
-# Codex — Wave 3 Plan
+# Babel Bible — Wave 3 Plan
 
 **Wave 3.** Production of the foundational prerequisites that Wave 2's pulled-prereq units declared as `pending_prereqs: true`. Where Wave 1 was the apex (10 units) and Wave 2 the first prereq layer (~30 units), Wave 3 reaches the foundational stratum: smooth manifold, Lie group, differential forms, topological space, normed/metric/inner-product spaces, basic algebra (group, ring, ideal), tensor product, covering space, etc.
 

@@ -33,7 +33,7 @@ landing page; the Ranicki preprint mirror returns 404; Google Books
 preview behind a geo-redirect we can't follow. This audit works from
 (a) the **canonical TOC structure** of EM (Chapters 0–16, well-documented
 in the citation record across Joyce 2000, Tian 2000, Petersen 2016,
-Berger 2003), (b) the Codex's existing Riemannian-geometry footprint
+Berger 2003), (b) the Babel Bible's existing Riemannian-geometry footprint
 (currently 1 unit in `03-modern-geometry/02-manifolds/`, 1 unit in
 `13-gr-cosmology/05-schwarzschild/`), and (c) the originator literature
 (Einstein 1915–16; Calabi 1954/57; Yau 1977/78; Aubin 1976/78;
@@ -143,7 +143,7 @@ them:
 
 EM is **not** a first course in Riemannian geometry. It assumes basic
 manifolds, connections, curvature (Petersen Chs. 1–4, do Carmo,
-Lee, or — in the Codex — Jost FT 3.28); for Chs. 2 and 11 it assumes
+Lee, or — in the Babel Bible — Jost FT 3.28); for Chs. 2 and 11 it assumes
 basic complex geometry (Huybrechts, Griffiths-Harris); for Chs. 7 and
 14 it assumes Lie-group structure theory (Helgason DGLGSS, Knapp). EM
 is the canonical entry point if the goal is the **landscape of
@@ -162,13 +162,13 @@ Yau-Aubin's, not Einstein's. The Codex must respect this split: see §3.
 
 ---
 
-## §2 Coverage table (Codex vs EM)
+## §2 Coverage table (Babel Bible vs EM)
 
 Cross-referenced against the current corpus (Jost / Helgason / KN-I
 audits as upstream baselines). ✓ = covered, △ = partial / different
 framing, ✗ = not covered.
 
-| EM topic | Codex unit(s) | Status | Note |
+| EM topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Riemannian manifold, Levi-Civita connection, curvature tensor | `03.02.01-smooth-manifold.md` | △ (1 of ~12 expected units) | Per Jost FT 3.28 punch-list — the entire Riemannian-foundations gap is upstream. EM is unreadable without it. |
 | Ricci tensor and scalar curvature | — | ✗ | **Gap (upstream blocker).** On Jost FT 3.28 punch-list. |
@@ -202,7 +202,7 @@ framing, ✗ = not covered.
 units. The gap is total. As with Helgason DGLGSS and Brown-Higgins-Sivera
 NAT, this is unsurprising: EM is a research-monograph consolidation, and
 the upstream Riemannian-geometry foundation (Jost FT 3.28 punch-list) is
-itself nearly empty in the Codex. Closing Jost's punch-list is a hard
+itself nearly empty in the Babel Bible. Closing Jost's punch-list is a hard
 prerequisite for any meaningful EM coverage.
 
 ---
@@ -394,7 +394,7 @@ originator-prose treatment per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`
 tensor; $R$ for the full Riemann tensor *and* for the scalar curvature
 (disambiguated by argument); $W$ for the Weyl tensor; $\mathring{r}$
 for the trace-free Ricci; $\rho_g$ for the Ricci form of a Kähler
-metric. The Codex notation decision (per `docs/specs/UNIT_SPEC.md`
+metric. The Babel Bible notation decision (per `docs/specs/UNIT_SPEC.md`
 §11) should: use $\mathrm{Ric}$ for Ricci, $R$ only for scalar curvature
 (disambiguating from the Riemann tensor, which we write $\mathrm{Rm}$
 following Petersen), $W$ for Weyl, $\rho$ for the Ricci form. Record in
@@ -439,7 +439,7 @@ equivalence-coverage when:
   decomposition on Kähler manifolds) has shipped via Griffiths-Harris
   or Huybrechts audit.
 - ≥95% of EM's named theorems in Chs. 0, 1, 2, 4, 7, 10, 11 map to
-  Codex units (currently 0%; after priority-1 units this rises to
+  Babel Bible units (currently 0%; after priority-1 units this rises to
   ~70%; after priority-1+2 to ~88%; full ≥95% requires priority-3
   plus the holonomy-pointer master sections).
 - ≥90% of EM's worked examples (round sphere, $\mathbb{C}P^n$,

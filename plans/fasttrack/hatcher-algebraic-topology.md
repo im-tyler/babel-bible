@@ -6,7 +6,7 @@ Hosted free by the author at `https://pi.math.cornell.edu/~hatcher/AT/ATpage.htm
 **Fast Track entry:** *not numbered* — Hatcher sits in the Fast Track booklist
 as a *peer reference anchor* alongside Brown (1.05), Bott-Tu (1.17), and the
 May trilogy (3.38–3.40). It is the de-facto canonical English-language
-graduate textbook for algebraic topology and is cited by ~21 Codex units
+graduate textbook for algebraic topology and is cited by ~21 Babel Bible units
 (82 inline citations) but has never been audited for equivalence coverage.
 Treated here as a peer-anchor parallel to Brown, with a numbered slot
 deferred until the booklist is revised.
@@ -129,7 +129,7 @@ Localisation and rational homotopy as a survey at the end.
 
 ---
 
-## §2 Coverage table (Codex vs Hatcher)
+## §2 Coverage table (Babel Bible vs Hatcher)
 
 Cross-referenced against the current 217-unit corpus. ✓ = covered, △ =
 partial / different framing or depth, ✗ = not covered. **Brown-overlap**
@@ -137,7 +137,7 @@ flags items where the gap also appears in the Brown plan punch-list.
 
 ### Chapter 0 — Underlying geometric notions
 
-| Hatcher topic | Codex unit(s) | Status | Note |
+| Hatcher topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Homotopy, homotopy type | `03.12.01` homotopy | ✓ | Combined homotopy + homotopy group unit. |
 | Deformation retracts | `02.01.06` (mention) | △ | Mentioned in quotient-topology unit; not its own unit; standard convention. |
@@ -150,7 +150,7 @@ flags items where the gap also appears in the Brown plan punch-list.
 
 ### Chapter 1 — The Fundamental Group
 
-| Hatcher topic | Codex unit(s) | Status | Note |
+| Hatcher topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Fundamental group $\pi_1(X, x_0)$ | `03.12.01` homotopy | ✓ | Combined homotopy-group unit covers $\pi_1$ as the $n = 1$ case. *Brown-plan item 5 — closed.* |
 | Van Kampen's theorem (group form) | `03.12.09` seifert-van-kampen | ✓ | Both group and groupoid forms in one unit. *Brown-plan item 7 — closed.* |
@@ -165,27 +165,27 @@ flags items where the gap also appears in the Brown plan punch-list.
 
 ### Chapter 2 — Homology
 
-| Hatcher topic | Codex unit(s) | Status | Note |
+| Hatcher topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| $\Delta$-complexes (semi-simplicial sets) | — | ✗ | **Gap.** Hatcher §2.1 develops $\Delta$-complexes as a lightweight alternative to full simplicial sets; standard in modern algebraic topology and absent in Codex. |
+| $\Delta$-complexes (semi-simplicial sets) | — | ✗ | **Gap.** Hatcher §2.1 develops $\Delta$-complexes as a lightweight alternative to full simplicial sets; standard in modern algebraic topology and absent in Babel Bible. |
 | Simplicial homology | — | ✗ | **Gap (high priority).** Hatcher §2.1. Codex has *singular cohomology* (`03.04.13`) but no dedicated unit on simplicial homology or its agreement with singular. |
 | Singular homology (chain complex, computations) | `03.04.13` (cohomology side) | △ | **Gap (high priority).** Codex has singular *cohomology* but no separate unit on the chain-level homology theory. The singular-cohomology unit references homology in passing. Hatcher §2.1 is the modern reference. |
 | Eilenberg-Steenrod axioms | `03.04.13` (Master section) | △ | Stated and used in the singular-cohomology unit; no standalone unit. Hatcher §2.3 + Eilenberg-Steenrod 1952 is the canonical pair. |
-| Mayer-Vietoris (singular) | `03.04.07` mayer-vietoris | △ | Codex unit is **de Rham** Mayer-Vietoris; the singular version is mentioned in §Bridge but does not have its own treatment. **Gap-by-framing** rather than gap-by-absence. |
+| Mayer-Vietoris (singular) | `03.04.07` mayer-vietoris | △ | Babel Bible unit is **de Rham** Mayer-Vietoris; the singular version is mentioned in §Bridge but does not have its own treatment. **Gap-by-framing** rather than gap-by-absence. |
 | Excision theorem | `03.04.13` (uses) | △ | **Gap.** Stated as an Eilenberg-Steenrod axiom in the singular-cohomology unit; no standalone unit on the *theorem* (small simplices, barycentric subdivision, CW-pair argument). Hatcher §2.1 is the modern proof reference. |
 | Cellular homology | `03.12.05` (uses, Step 4) | △ | **Gap (high priority).** Used silently in the Eilenberg-MacLane construction (cellular approximation argument) and elsewhere. Hatcher §2.2 is the modern reference. No standalone unit. |
 | CW approximation | `03.12.05` (uses) | △ | **Gap.** Used silently. Hatcher §4.1 is the modern reference. |
 | Cellular approximation theorem | `03.12.05` (uses) | △ | **Gap (high priority).** Same as above; used in `03.12.05` Step 3 ("Verify $\pi_k = 0$ for $k < n$") without ever being stated. *Brown-plan item 9.* |
 | Universal coefficient theorem (homology) | `03.04.13` (mention) | △ | Mentioned in the integer-coefficient singular-cohomology unit; the homology version (Ext + Tor) is not separately developed. |
 | Künneth theorem (homology) | `03.04.12` kunneth | ✓ | Codex has the Künneth unit. Hatcher §3.B reference. |
-| Computations (spheres, projective spaces, surfaces, lens spaces) | various | △ | The standard computations are scattered: $H^*(\mathbb{C}P^n)$ in `03.12.05`, $H^*(S^n)$ implicit. Hatcher's worked-example density exceeds Codex's. **Worked-example layer is partial.** |
+| Computations (spheres, projective spaces, surfaces, lens spaces) | various | △ | The standard computations are scattered: $H^*(\mathbb{C}P^n)$ in `03.12.05`, $H^*(S^n)$ implicit. Hatcher's worked-example density exceeds Babel Bible's. **Worked-example layer is partial.** |
 | Classifying space $K(G, 1) = BG$ | `03.08.04` classifying-space | ✓ | Codex has the classifying-space unit. |
-| Euler characteristic | — | ✗ | **Gap.** Hatcher §2.2, Appendix A. Used in many Codex units without ever being formally introduced. |
+| Euler characteristic | — | ✗ | **Gap.** Hatcher §2.2, Appendix A. Used in many Babel Bible units without ever being formally introduced. |
 | Lefschetz fixed-point theorem | — | ✗ | Hatcher §2.C. Specialty — defer. |
 
 ### Chapter 3 — Cohomology
 
-| Hatcher topic | Codex unit(s) | Status | Note |
+| Hatcher topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Cochains, singular cohomology | `03.04.13` singular-cohomology | ✓ | Codex covers singular cohomology with $\mathbb{Z}$ coefficients via the Bott-Tu / de Rham route. |
 | Universal coefficient theorem (cohomology) | `03.04.13` (mention) | △ | **Gap.** Mentioned but not developed. The Ext + Hom statement is missing. |
@@ -202,7 +202,7 @@ flags items where the gap also appears in the Brown plan punch-list.
 
 ### Chapter 4 — Homotopy Theory
 
-| Hatcher topic | Codex unit(s) | Status | Note |
+| Hatcher topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Higher homotopy groups $\pi_n(X)$ | `03.12.01` homotopy | ✓ | Combined unit. |
 | Long exact sequence of a fibration | `02.01.07` fibration | ✓ | Stated and proved in the fibration unit. |
@@ -220,7 +220,7 @@ flags items where the gap also appears in the Brown plan punch-list.
 
 ### Appendices A, B, C
 
-| Hatcher topic | Codex unit(s) | Status | Note |
+| Hatcher topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | CW complex topology, products | `03.12.10` cw-complex | ✓ | Shipped. |
 | Cofibrations, HEP | `02.01.08` cofibration | ✓ | Shipped. |
@@ -229,14 +229,14 @@ flags items where the gap also appears in the Brown plan punch-list.
 
 ### Aggregate coverage estimate
 
-**Theorem layer**: ~55% of Hatcher's named theorems map to Codex units;
+**Theorem layer**: ~55% of Hatcher's named theorems map to Babel Bible units;
 ~25% are partial / used implicitly without being stated as their own
 theorem; ~20% are absent. After the priority-1+2 punch-list below, this
 rises to ~90%.
 
 **Exercise layer**: not separately audited (P1-lite). Hatcher's ~600+
 exercises are the largest single exercise-layer gap on the Fast Track —
-Codex's exercise packs (`*.E1` files) cover ~3% of Hatcher's exercise
+Babel Bible's exercise packs (`*.E1` files) cover ~3% of Hatcher's exercise
 range. Defer to a dedicated Hatcher-exercise-pack pass.
 
 **Worked-example layer**: ~40% covered; computations of $H^*(S^n)$,
@@ -248,7 +248,7 @@ chapter-2 / chapter-3 worked-example pack Hatcher delivers.
 distinction, simplicial-vs-singular-vs-cellular indexing, and $\Delta$-set
 notation need a `notation/hatcher.md` crosswalk file.
 
-**Sequencing layer**: ~85%; the Codex DAG follows Hatcher's prerequisite
+**Sequencing layer**: ~85%; the Babel Bible DAG follows Hatcher's prerequisite
 flow (homotopy → cohomology → higher homotopy) faithfully where the
 units exist.
 
@@ -353,7 +353,7 @@ units:**
     item 2 above gets pulled into a higher level of detail. Master-only,
     ~800 words.
 16. **`03.12.23` Euler characteristic.** Hatcher §2.2 + Appendix A.
-    Used in many Codex units without ever being introduced.
+    Used in many Babel Bible units without ever being introduced.
     Beginner+Intermediate unit, ~1000 words.
 
 ---
@@ -427,7 +427,7 @@ two books' conventions are compatible.
   *covered by the Brown plan punch-list*, not duplicated here.
 - The figures. Hatcher's pictorial intuition needs a parallel Codex
   pass once the figure-rendering infrastructure exists (currently no
-  Codex unit ships figures); this is a curriculum-wide deferred item.
+  Babel Bible unit ships figures); this is a curriculum-wide deferred item.
 
 ---
 
@@ -436,18 +436,18 @@ two books' conventions are compatible.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, Hatcher is at
 equivalence-coverage when:
 
-- ≥95% of Hatcher's named theorems map to Codex units (currently ~55%;
+- ≥95% of Hatcher's named theorems map to Babel Bible units (currently ~55%;
   after priority-1 units this rises to ~80%; after priority-1+2 to ~92%;
   after priority-3 deepenings to ~95%).
 - ≥80% of Hatcher's exercises have a Codex equivalent (currently ~3%;
   closing this requires the dedicated exercise-pack pass per §5).
-- ≥90% of Hatcher's worked examples are reproduced in some Codex unit
+- ≥90% of Hatcher's worked examples are reproduced in some Babel Bible unit
   (currently ~40%; the priority-1+2 batch + the spin-geometry strand
   bring this to ~85%; the remainder requires worked-example densification
   in `03.04.13`, `03.12.01`, and the new units).
 - A `notation/hatcher.md` crosswalk exists.
 - For every chapter dependency in Hatcher (Ch 1 → Ch 2 → Ch 3 → Ch 4),
-  there is a corresponding `prerequisites` arrow chain in Codex's DAG.
+  there is a corresponding `prerequisites` arrow chain in Babel Bible's DAG.
 - Pass-W weaving connects the new units to the existing
   `03.12-homotopy/`, `03.13-spectral-sequences/`, and `03.04-differential-forms/`
   units via lateral connections.

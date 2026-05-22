@@ -1,4 +1,4 @@
-# Codex — Project Plan
+# Babel Bible — Project Plan
 
 Version 0.1 · 2026-04-18
 
@@ -36,7 +36,7 @@ A single resource that takes a self-taught learner from a minimal prerequisite (
 ### Explicitly out of scope for v1
 
 - Chemistry, biology, CS (defer to v2+)
-- K-8 arithmetic (require basic-algebra entry level; build separate "Codex Foundations" later if needed)
+- K-8 arithmetic (require basic-algebra entry level; build separate "Babel Bible Foundations" later if needed)
 - Credentialing, grading, cohort-style features
 
 ---
@@ -92,7 +92,7 @@ Where did this idea come from? Which mathematicians mattered? What's the
 modern generalization?
 
 ## Bibliography [Master]
-References to primary literature beyond the Codex reference archive.
+References to primary literature beyond the Babel Bible reference archive.
 ```
 
 ### Tier filter rules

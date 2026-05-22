@@ -179,9 +179,9 @@ Distinctive content, organised by the three parts of the volume:
 
 ---
 
-## §2 Coverage table (Codex vs VHCAG-I)
+## §2 Coverage table (Babel Bible vs VHCAG-I)
 
-Cross-referenced against the current Codex corpus.
+Cross-referenced against the current Babel Bible corpus.
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 VHCAG-I material maps primarily to `04-algebraic-geometry/09-hodge/`,
 `04-algebraic-geometry/05-surfaces/` + `05-divisors/`,
@@ -190,7 +190,7 @@ and the missing complex / Kähler differential-geometric prereq layer in
 `03-modern-geometry/02-manifolds/` + `05-bundles/` flagged by the KN-II
 audit.
 
-| VHCAG-I topic | Codex unit(s) | Status | Note |
+| VHCAG-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Part I (Chs. 1–4) — preliminaries** | | | |
 | Complex manifold (atlas, transition functions) | △ | △ | Touched in `06.01.*` (one-variable complex) and `06.07.01` (several variables) without a manifold-level anchor outside the RS chapter. KN-II audit punch-list item `03.02.10` (Complex manifold + Dolbeault complex) shared. |
@@ -227,7 +227,7 @@ audit.
 | $\bar\partial$ Hilbert-space PDE (one-dim) | `06.04.05-dbar-hilbert-pde.md` | ✓ | Shipped with master anchor "Hörmander 1965 + Andreotti-Vesentini 1965 + Hodge 1941 + Demailly + Voisin §5"; covers the one-variable PDE foundation that VHCAG-I Ch. 5 lays out in general. |
 
 **Aggregate coverage estimate:** ~30–35% of VHCAG-I has corresponding
-Codex units. **Part I (preliminaries)** is **~30% covered**: sheaf
+Babel Bible units. **Part I (preliminaries)** is **~30% covered**: sheaf
 cohomology + Chern-Weil + Chern classes are shipped; complex manifold,
 holomorphic vector bundle, Hermitian metric / Chern connection, and the
 general Dolbeault complex are all gaps shared with the KN-II audit
@@ -246,7 +246,7 @@ well-developed, and the gap is for the general-dimensional Kähler case.
 **Lefschetz $(1, 1)$-theorem**, **Akizuki-Nakano**, **Kodaira embedding**,
 and the general theory of **Hodge structures** and **VHS** are gaps.
 
-**Silent VHCAG-I dependencies in the Codex.** Five shipped units cite
+**Silent VHCAG-I dependencies in the Babel Bible.** Five shipped units cite
 VHCAG-I as a master anchor; in each case the load-bearing structural
 fact from Vol I is invoked but not anchored:
 
@@ -564,9 +564,9 @@ should carry originator-prose citations:
 $\Lambda$ for its adjoint (the contraction-with-$\omega$ operator); the
 Codex `04.09.01-hodge-decomposition.md` already uses these conventions.
 VHCAG-I writes $H^{p, q}(X)$ for the Hodge components and $\mathcal{H}^{p, q}$
-for harmonic-form representatives; the Codex follows. VHCAG-I uses
+for harmonic-form representatives; the Babel Bible follows. VHCAG-I uses
 $\Omega^p$ ambiguously for both the sheaf of holomorphic $p$-forms and
-smooth $(p, 0)$-forms; the Codex unit specs (per `docs/specs/UNIT_SPEC.md`
+smooth $(p, 0)$-forms; the Babel Bible unit specs (per `docs/specs/UNIT_SPEC.md`
 §11) should consistently write $\Omega^p_X$ for the sheaf and
 $\mathcal{A}^{p, q}$ for the sheaf of smooth $(p, q)$-forms. VHCAG-I's
 $P^k$ for primitive cohomology is standard. Record these in §Notation
@@ -591,7 +591,7 @@ paragraphs of `04.09.04`, `04.09.06`, and `04.09.08`.
   negative-curvature case, Tian's stability programme, and the
   Donaldson-Tian-Yau / K-stability theory of Kähler-Einstein metrics on
   Fano manifolds are deferred to a dedicated future audit. VHCAG-I itself
-  defers this material to a pointer; the Codex follows. A future
+  defers this material to a pointer; the Babel Bible follows. A future
   *Joyce — Compact Manifolds with Special Holonomy* audit or
   *Tian — Canonical Metrics in Kähler Geometry* audit is the natural
   home for the Calabi-Yau / Kähler-Einstein punch-list.
@@ -605,7 +605,7 @@ paragraphs of `04.09.04`, `04.09.06`, and `04.09.08`.
   results). The production pass should do this when a local PDF is on
   disk.
 - **Exercise-pack production.** VHCAG-I has substantial exercise sections;
-  the Codex exercise-pack production is P3-priority-3 follow-up after
+  the Babel Bible exercise-pack production is P3-priority-3 follow-up after
   the priority-1 + priority-2 units ship.
 - **Saito's mixed Hodge modules and the derived-category Hodge-theoretic
   framework.** Deferred to the Vol II audit + a possible dedicated
@@ -624,7 +624,7 @@ equivalence-coverage when:
 - The KN-II priority-1 units have shipped (strict prereq — the
   Kähler-manifold definition and the complex-bundle / Hermitian / Chern-
   connection layer must exist).
-- ≥95% of VHCAG-I's named theorems in Chs. 5–10 map to Codex units
+- ≥95% of VHCAG-I's named theorems in Chs. 5–10 map to Babel Bible units
   (currently ~25%; after priority-1 units this rises to ~75%; after
   priority-1 + priority-2 to ~90%; full ≥95% requires priority-3 +
   selective priority-4).

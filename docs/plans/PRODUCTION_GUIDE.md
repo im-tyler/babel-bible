@@ -1,4 +1,4 @@
-# Codex — Production Guide
+# Babel Bible — Production Guide
 
 **Audience:** the operator (Tyler), or a future Claude session running the production swarm.
 

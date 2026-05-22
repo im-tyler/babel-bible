@@ -90,7 +90,7 @@ Guillemin-Sternberg):
    recovers symplectic geometry as the quotient by the characteristic
    foliation. This is the *natural* setting for constrained systems and
    for the reduced phase space of a Lie-group action with a non-trivial
-   stabiliser. Codex's symplectic chapter is *exclusively* symplectic;
+   stabiliser. Babel Bible's symplectic chapter is *exclusively* symplectic;
    pre-symplectic is absent.
 2. **The moment map** (introduced here under the name *moment* — French
    "moment cinétique" → English "momentum map"). Souriau's definition is
@@ -165,7 +165,7 @@ Guillemin-Sternberg):
    cocycle (it is its own universal central extension), so mass appears
    instead as a Casimir of the orbit. This is the cleanest single
    statement of why Galilean and Poincaré mechanics look structurally
-   different. Codex's `05.00.06` Galilean-Newtonian setup is a
+   different. Babel Bible's `05.00.06` Galilean-Newtonian setup is a
    templated stub; no Poincaré-symplectic unit exists.
 
 SDS is **not** a first introduction to symplectic geometry or to
@@ -185,7 +185,7 @@ Souriau-Kostant programme on the quantum side).
 
 ---
 
-## §2 Coverage table (Codex vs Souriau)
+## §2 Coverage table (Babel Bible vs Souriau)
 
 Cross-referenced against the 50 shipped units in `05-symplectic/` (per
 the v0.5 Strand-B production, plus the Cycle 4-7 deepenings of the
@@ -202,7 +202,7 @@ gaps the Cannas plan already tracks.
 
 ### Chapter I — Differential geometry foundations (manifolds, forms, Lie groups)
 
-| Souriau topic | Codex unit(s) | Status | Note |
+| Souriau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Smooth manifold, tangent / cotangent bundle, differential forms | `03.01.*`, `03.02.*` | ✓ | Standard foundations; covered fully in `03-modern-geometry/`. |
 | Lie group, Lie algebra, exponential map | `03.03.*`, `03.04.*` | ✓ | Covered in `03-modern-geometry/03-lie/`. |
@@ -210,10 +210,10 @@ gaps the Cannas plan already tracks.
 
 ### Chapter II — Symplectic geometry (pre-symplectic, symplectic, Hamiltonian actions)
 
-| Souriau topic | Codex unit(s) | Status | Note |
+| Souriau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Symplectic manifold, Darboux | `05.01.02`, `05.01.04` | △ | Topic present; Darboux proof is templated. Same gap as Cannas plan item 2. |
-| **Pre-symplectic manifold** (closed 2-form, kernel = characteristic foliation, symplectic reduction $M / \ker\omega$) | — | ✗ | **Gap (Souriau-distinctive).** Souriau's natural framework for constrained systems and reduced phase spaces; modern symplectic books drop it. No Codex unit. |
+| **Pre-symplectic manifold** (closed 2-form, kernel = characteristic foliation, symplectic reduction $M / \ker\omega$) | — | ✗ | **Gap (Souriau-distinctive).** Souriau's natural framework for constrained systems and reduced phase spaces; modern symplectic books drop it. No Babel Bible unit. |
 | Hamiltonian vector field, Poisson bracket | `05.02.01`, `05.02.02` | ✓ | Covered. |
 | Symplectic action of a Lie group | `05.04.01` (mention) | △ | Setup-level fact appears in passing in the moment-map unit; not its own unit. |
 | **Moment map** (Souriau-original definition) | `05.04.01` | △ | Modern Cannas-anchored unit; Souriau's *naming* and historical priority not flagged. Add a sentence in the Master section + originator citation. |
@@ -225,7 +225,7 @@ gaps the Cannas plan already tracks.
 
 ### Chapter III — Mechanics (Galilei / Poincaré symmetry, elementary systems)
 
-| Souriau topic | Codex unit(s) | Status | Note |
+| Souriau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Galilei group, Galilei algebra, central extension by mass (Bargmann extension) | `05.00.06` (stub) | △ | The Galilean-Newtonian setup unit exists but is templated; the Bargmann central extension and the Souriau-cocycle origin of mass are not covered. |
 | Poincaré group, Poincaré algebra | — | ✗ | **Gap.** No symplectic-Poincaré unit. Some adjacent SR content in `10-em-sr/`. |
@@ -236,7 +236,7 @@ gaps the Cannas plan already tracks.
 
 ### Chapter IV — Statistical mechanics on a symplectic $G$-space (Souriau-distinctive)
 
-| Souriau topic | Codex unit(s) | Status | Note |
+| Souriau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Canonical Gibbs ensemble on phase space, partition function $Z(\beta)$ | `11.04.01` canonical-ensemble | ✓ | Covered at the standard Landau-Lifshitz / Pathria level. |
 | **Souriau Gibbs state $\rho_\beta \propto e^{-\langle \beta, \mu(x)\rangle}$ on a symplectic $G$-space**, generalised temperature $\beta \in \mathfrak{g}$ | — | ✗ | **Gap (high priority — Souriau-distinctive).** The headline Chapter-IV result. The generalised-temperature framework. |
@@ -246,13 +246,13 @@ gaps the Cannas plan already tracks.
 
 ### Chapter V — Quantum mechanics (prequantisation, geometric quantisation, Bose-Fermi)
 
-| Souriau topic | Codex unit(s) | Status | Note |
+| Souriau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Prequantum line bundle, connection of curvature $\omega/\hbar$, prequantisation map $f \mapsto -i\hbar \nabla_{X_f} + f$ | — | ✗ | **Gap.** Pointer unit at FT-equivalence; full development is FT 3.09 Woodhouse. |
 | **Souriau-Kostant integrality condition** $[\omega/(2\pi\hbar)] \in H^2(M, \mathbb{Z})$ | — | ✗ | **Gap (medium priority — Souriau-distinctive originator share with Kostant).** Stub-level unit suffices for FT-equivalence; depth deferred to Woodhouse. |
 | Polarisations (real, complex, Kähler), geometric quantisation | — | ✗ | Deferred to FT 3.09 Woodhouse. |
 | **Quantisation of the spin coadjoint orbit $S^2$**, integrality forces $s \in \frac{1}{2}\mathbb{Z}_{\geq 0}$ | — | ✗ | **Gap (Souriau-distinctive).** The classical-symplectic origin of half-integer spin. |
-| **Bose-Fermi alternative from the spin orbit prequantisation** ($s$ integer ⇒ Bose; $s$ half-integer ⇒ Fermi; double-valued representation of the prequantum group) | — | ✗ | **Gap (high priority — Souriau-distinctive headline result of Chapter V).** No comparable Codex content. |
+| **Bose-Fermi alternative from the spin orbit prequantisation** ($s$ integer ⇒ Bose; $s$ half-integer ⇒ Fermi; double-valued representation of the prequantum group) | — | ✗ | **Gap (high priority — Souriau-distinctive headline result of Chapter V).** No comparable Babel Bible content. |
 | Spin-statistics theorem at the QFT level | — | ✗ | Cross-strand to QFT; not Souriau's territory. Defer to Weinberg QFT (FT 2.17). |
 | Bose / Fermi Fock spaces, second quantisation | `12.03.01` bosonic-fock-space | △ | Bosonic case shipped; Fermi case stub-only; the Souriau-cocycle origin of the Bose-Fermi distinction is not the framing. |
 
@@ -266,7 +266,7 @@ gaps the Cannas plan already tracks.
 
 ### Aggregate coverage estimate
 
-**Theorem layer**: ~70% of SDS's named theorems map to Codex units at
+**Theorem layer**: ~70% of SDS's named theorems map to Babel Bible units at
 the *topic level* (modern Cannas-anchored versions); only ~45% are at
 Souriau-distinctive *originator-framing depth*. The remaining 30%
 (Souriau cocycle, non-equivariant moment maps, KKS classification
@@ -300,7 +300,7 @@ generalised temperature $\beta \in \mathfrak{g}$). A `notation/souriau.md`
 crosswalk is recommended for the new Chapter-III / IV units.
 
 **Sequencing layer**: ~70%. Souriau's "symmetry-first" DAG (Lie group →
-coadjoint orbit → mechanics) is the reverse of Codex's current
+coadjoint orbit → mechanics) is the reverse of Babel Bible's current
 "manifold-first → symplectic-form-first → Hamiltonian → moment map → orbit"
 DAG. The DAG itself does not need to change; the *exposition* in
 Master sections should add a Souriau-style symmetry-first
@@ -660,7 +660,7 @@ Landau-Lifshitz per-book audit ships its canonical-ensemble baseline.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book is
 at equivalence-coverage when:
 
-- ≥95% of Souriau's named theorems map to Codex units **at
+- ≥95% of Souriau's named theorems map to Babel Bible units **at
   Souriau-equivalent depth** (currently ~45%; after priority-1
   this rises to ~80%; after priority-1+2 to ~92%; after priority-3
   pointer stubs to ~95%).
@@ -668,7 +668,7 @@ at equivalence-coverage when:
   systems, Poincaré elementary systems, classical spin from $S^2$
   orbit, charged particle in $F$, Souriau Gibbs ensemble for
   rotation / translation, $S^2$-prequantisation half-integer-spin
-  derivation) are reproduced in some Codex unit (currently ~10%;
+  derivation) are reproduced in some Babel Bible unit (currently ~10%;
   the priority-1+2 batch brings this to ~80%).
 - The notation alignment is recorded in `notation/souriau.md` and
   mirrored in the new units' Notation paragraphs.

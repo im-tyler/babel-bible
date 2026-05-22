@@ -1,10 +1,10 @@
-# Codex — Mathlib Gap Roadmap
+# Babel Bible — Mathlib Gap Roadmap
 
 Auto-generated from unit frontmatter (`lean_mathlib_gap` fields). Do not edit by hand; run `scripts/build_mathlib_gaps.py` to regenerate.
 
 **Status:** 205 units flag Mathlib gaps as of last regeneration.
 
-Each entry below corresponds to a Codex unit whose Lean formalisation is blocked or partial because Mathlib does not yet have the required infrastructure. Collectively these form the upstream-contribution roadmap. As Mathlib lands the listed material, the relevant Codex units can be promoted from `lean_status: none` / `partial` to `full`.
+Each entry below corresponds to a Babel Bible unit whose Lean formalisation is blocked or partial because Mathlib does not yet have the required infrastructure. Collectively these form the upstream-contribution roadmap. As Mathlib lands the listed material, the relevant Babel Bible units can be promoted from `lean_status: none` / `partial` to `full`.
 
 ## Conventions
 
@@ -312,7 +312,7 @@ Each entry below corresponds to a Codex unit whose Lean formalisation is blocked
 > layer and Mayer-Vietoris machinery are not yet in place at the level the
 > exercises require. The symbolic computations of degree, Hopf invariant,
 > and Euler class would become formalisable once the de Rham layer
-> (currently `partial` in Codex) is built out and the Thom-isomorphism
+> (currently `partial` in Babel Bible) is built out and the Thom-isomorphism
 > layer (forthcoming N4) is in Mathlib. Until then, the exercise pack
 > remains prose-level pedagogy.
 
@@ -432,7 +432,7 @@ Each entry below corresponds to a Codex unit whose Lean formalisation is blocked
 > algebra, exterior covariant derivative, and the Cartan structure equation
 > Ω = dω + ½[ω∧ω]. The vector-bundle case (curvature as End(E)-valued
 > 2-form) is partially in Mathlib via differential-geometry foundations
-> but not packaged for Codex's downstream uses.
+> but not packaged for Babel Bible's downstream uses.
 
 ### `03.05.10` — Sphere bundle, the global angular form, and the Hopf index theorem
 

@@ -1,8 +1,8 @@
-# Codex — Biology Plan
+# Babel Bible — Biology Plan
 
-**Drafted 2026-05-17.** Per-domain plan for the Biology axis of the five-domain expansion. Sibling of `PHYSICS_PLAN.md` and `CHEMISTRY_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md`. Drafted in parallel with chem per the umbrella §6 sequence; both revised after Physics Wave 1 retro.
+**Drafted 2026-05-17; updated 2026-05-22.** Per-domain plan for the Biology axis of the cross-domain expansion. Sibling of `PHYSICS_PLAN.md`, `CHEMISTRY_PLAN.md`, `PHILOSOPHY_PLAN.md`, and `LANGUAGE_WORLD_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md`.
 
-**Status:** Draft. Locks the three-section structure (matching the three-tree-DAG biology actually has), hybrid mode, tier anchors per tree, mastery endpoints, the cross-domain prereq cone (heavy: chem + physics + math), exclusions, three-spine coverage scaffold, and the Wave 1 seed slate.
+**Status:** Active. Locks the three-section structure (matching the three-tree-DAG biology actually has), hybrid mode, tier anchors per tree, mastery endpoints, the cross-domain prereq cone (heavy: chem + physics + math), exclusions, and three-spine coverage scaffold. The Wave 1 seed slate has been overtaken by live production: §17–19 now contain a substantial draft corpus whose next priority is source/reviewer/visual hardening and breadth completion.
 
 Read before this plan: `OVERVIEW.md`, `BIBLE_EXPANSION_PLAN.md` (esp. §2.4 bio exclusions and §3 cross-domain contract), `CHEMISTRY_PLAN.md` (the densest chem→bio hook surface).
 
@@ -297,13 +297,13 @@ Like chem, bio needs `reference/` expansion. Candidate license-permissive source
 
 ### 5.5 Coverage manifest
 
-`manifests/production/bio-coverage.json` (analog of `chem-coverage.json`, per `CHEMISTRY_PLAN.md` §11) maps the three-spine chapter unions to (eventually) Codex unit IDs. Empty initially.
+`manifests/production/bio-coverage.json` (analog of `chem-coverage.json`, per `CHEMISTRY_PLAN.md` §11) maps the three-spine chapter unions to (eventually) Babel Bible unit IDs. Empty initially.
 
 ---
 
 ## §6 First wave — three seed units + one synthesis essay
 
-Purpose: stress-test the cross-domain link contract on the **densest cross-domain prereq node in any of the five domains** — biology's action-potential unit cites chem, physics, AND math simultaneously.
+Purpose: stress-test the cross-domain link contract on one of the densest cross-domain prereq nodes — biology's action-potential unit cites chem, physics, AND math simultaneously.
 
 | Tree | Seed | Why this one |
 |---|---|---|

@@ -1,10 +1,10 @@
-# Codex — Brief
+# Babel Bible — Brief
 
 One page. Read this first. Everything downstream references it.
 
 ---
 
-## What Codex is
+## What Babel Bible is
 
 A single curriculum that takes a self-taught learner from minimal prerequisites to graduate-level mastery across mathematics and physics. Every unit exists at three depths (Beginner, Intermediate, Master) in a single source document with progressive disclosure. Units are cross-linked into a prerequisite graph. Proofs at Intermediate+ are Lean-verified where Mathlib covers them. Exercises are interactive — answers can be input and checked.
 
@@ -56,16 +56,22 @@ These are *testable*. Every unit's exercises and assessments are designed to evi
 **In scope:**
 - Mathematics: linear algebra, analysis, complex analysis, algebra, topology, differential geometry, algebraic topology, algebraic geometry, number theory, probability.
 - Physics: classical mechanics, EM, SR, GR, quantum mechanics, statistical mechanics, QFT, gauge theory, symplectic geometry, spin geometry.
+- Chemistry: general chemistry, physical chemistry, organic chemistry, inorganic chemistry, spectroscopy, electrochemistry, and chemistry-side biochemistry mechanisms.
+- Biology: molecular/cellular biology, organismal physiology, ecology, evolution, population genetics, and mechanistic origin-of-life biology.
+- Philosophy: synthesis essays plus tiered analytic units in epistemology, ethics, philosophy of science, philosophy of physics, philosophy of biology, and related domains.
+- Language: grammar, writing, literature, rhetoric, and source-grounded literary study.
+- World: economics, civics, geography, history-facing world essays, and social-science foundations.
 - Spine: augmented Fast Track (prereqs + 3 sections).
-- Target size: ~1000–2000 atomic units across all three tiers.
+- Target size: ~1500–3000 atomic units across all three tiers, plus a smaller number of synthesis essays where unit form is the wrong tool.
 
 **Out of scope v1:**
-- Chemistry, biology, computer science (defer to v2+).
-- K–8 arithmetic (require basic algebra entry; build "Codex Foundations" separately if demand emerges).
+- K–8 arithmetic (require basic algebra entry; build "Babel Bible Foundations" separately if demand emerges).
+- Computer science as a standalone sixth technical domain (defer to v2+, though math-adjacent logic/computation may appear where needed).
+- Medicine, clinical pharmacology, empirical psychology, software-tool tutorials, and current-events/news coverage.
 - Credentialing, cohorts, grading, forums, tutor marketplace.
 - Translation / localization (English v1).
 
-## What Codex is *not*
+## What Babel Bible is *not*
 
 - Not a Khan Academy replacement. Khan is K–12-focused and intentionally simple. Codex goes past where Khan stops and maintains rigor.
 - Not a textbook replacement at Master tier. Codex supplements Lang / Hartshorne with interactivity and Lean-verified proofs; serious learners still want the original texts as reference.
@@ -83,5 +89,5 @@ Authors and reviewers producing or gating content must be able to:
 
 - v0.1 — this scaffold + 10 pilot units (Shilov §1.1–§1.3 territory).
 - v0.5 — full Section 1 (fundamentals) all three tiers.
-- v1.0 — full math+physics spine (Fast Track + pre-calc ramp).
-- v2+ — chemistry, biology, CS expansions (separate scope discussions).
+- v1.0 — cross-domain mastery spine: math/physics depth plus first-class chemistry, biology, philosophy, language, and world sections.
+- v2+ — standalone computer science, medicine/clinical tracks, psychology/cognitive science, K–8 foundations, localization, and credentialing.

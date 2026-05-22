@@ -109,7 +109,7 @@ Distinctive Apostol-Vol-2 choices:
    defined intrinsically as the linear map $df_p : \mathbb{R}^n \to
    \mathbb{R}^m$ such that $f(p+h) = f(p) + df_p(h) + o(|h|)$. The
    Jacobian matrix is then the matrix of $df_p$ in standard bases.
-   Critical for Codex's eventual development of derivatives on manifolds.
+   Critical for Babel Bible's eventual development of derivatives on manifolds.
 7. **Implicit and inverse function theorems with full proofs.** Chapter 9
    proves both rigorously (contraction mapping argument, in
    finite-dimensional form). These are the two theorems every working
@@ -133,9 +133,9 @@ Distinctive Apostol-Vol-2 choices:
     largely **out of scope** for the FT spine.
 12. **Worked-example density.** Apostol's 800 pages contain ~150 fully
     worked examples and ~2400 exercises. The exercise layer is the
-    largest single layer-2 gap on the Codex side.
+    largest single layer-2 gap on the Babel Bible side.
 
-**Pedagogical position in the Codex curriculum.** Apostol Vol 2 is the
+**Pedagogical position in the Babel Bible curriculum.** Apostol Vol 2 is the
 *foundation* book — every subsequent Tier-α / β book assumes the reader
 has the linear-algebra and multi-variable-calculus operational competence
 the book delivers. **Closing the Apostol Vol 2 equivalence gap is
@@ -150,11 +150,11 @@ that up). Operational, not foundational on those three.
 
 ---
 
-## §2 Coverage table (Codex vs Apostol Vol 2)
+## §2 Coverage table (Babel Bible vs Apostol Vol 2)
 
-Cross-referenced against the Codex content tree (`find content -name
+Cross-referenced against the Babel Bible content tree (`find content -name
 "*.md" | sort`). ✓ = covered at Apostol-equivalent depth, △ = topic
-present but Codex unit shallower (typically templated v0.5 prose, or
+present but Babel Bible unit shallower (typically templated v0.5 prose, or
 covered tangentially in a different framing), ✗ = not covered.
 
 The **status convention** in the rightmost-column note matches peer
@@ -171,12 +171,12 @@ as **named units**, though it is silently used everywhere downstream
 (in tangent spaces, bundle structure groups, representation theory,
 symplectic linear algebra).
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Real / complex vector space (axioms) | `01.01.03-vector-space` | △ | Templated unit shipped; covers the axioms. Apostol Ch. 1 reference. |
 | Subspace, span, linear independence, basis | `01.01.03-vector-space` (mentioned) | △ | Mentioned inside the vector-space unit; not its own unit. **Gap (medium priority — should be its own unit).** |
 | Dimension theorem, $\dim(U+V) + \dim(U \cap V) = \dim U + \dim V$ | — | ✗ | **Gap.** Apostol Ch. 1 §1.13. |
-| Linear transformation (definition, kernel, image) | — | ✗ | **Gap (high priority).** Apostol Ch. 2. *No standalone Codex unit on linear maps* — silently assumed in `03.02.01-smooth-manifold` (tangent map), `03.05.04-vector-bundle-connection` (parallel transport), and throughout `07.*`. |
+| Linear transformation (definition, kernel, image) | — | ✗ | **Gap (high priority).** Apostol Ch. 2. *No standalone Babel Bible unit on linear maps* — silently assumed in `03.02.01-smooth-manifold` (tangent map), `03.05.04-vector-bundle-connection` (parallel transport), and throughout `07.*`. |
 | Rank-nullity theorem | — | ✗ | **Gap (high priority).** Apostol Ch. 2 §2.7. Foundational. |
 | Matrix of a linear map (in fixed bases); change of basis | — | ✗ | **Gap (high priority).** Apostol Ch. 2 §2.13-2.16. |
 | Matrix multiplication, inverse, transpose, similarity | — | ✗ | **Gap (high priority).** Apostol Ch. 2 §2.17-2.21. Operational vocabulary used everywhere downstream. |
@@ -185,7 +185,7 @@ symplectic linear algebra).
 | Diagonalisability; condition for diagonalisability | — | ✗ | **Gap.** Apostol Ch. 4 §4.10-4.13. |
 | Cayley-Hamilton theorem | — | ✗ | **Gap (medium).** Apostol Ch. 4 §4.16. |
 | Minimal polynomial, generalised eigenspaces, Jordan canonical form | — | ✗ | **Gap (medium).** Apostol Ch. 4 §4.20 + Ch. 7 (used in matrix exponentials). Note: Apostol gives a partial Jordan-form treatment; Hoffman-Kunze fills it. |
-| Inner product space, Gram-Schmidt, orthogonal projection | `02.11.07-inner-product-space` | △ | Codex unit covers the **infinite-dimensional / Hilbert** framing; Apostol's finite-dimensional treatment + Gram-Schmidt + projection is implicit but not dedicated. |
+| Inner product space, Gram-Schmidt, orthogonal projection | `02.11.07-inner-product-space` | △ | Babel Bible unit covers the **infinite-dimensional / Hilbert** framing; Apostol's finite-dimensional treatment + Gram-Schmidt + projection is implicit but not dedicated. |
 | Orthogonal / unitary operators, $O(n)$ / $U(n)$ as automorphism groups | `03.03.03-orthogonal-group` | △ | Group-theoretic / Lie-group framing of $O(n)$ is in `03.03.03`; the linear-algebraic treatment (orthogonal operator preserves inner product) is not explicit. |
 | Spectral theorem (symmetric / Hermitian operators, finite-dim) | `02.11.03-unbounded-self-adjoint` | △ | Codex covers the **unbounded / functional-analysis** version; Apostol's clean finite-dimensional spectral theorem is missing. **High priority — load-bearing.** |
 | Principal-axes theorem for quadratic forms | `01.01.15-bilinear-quadratic-form` | △ | Templated unit on bilinear / quadratic forms; the principal-axes / diagonalisation result is in scope but not detailed. |
@@ -199,7 +199,7 @@ the Arnold *Mathematical Methods of Classical Mechanics* audit
 as deferred to a future Arnold *ODEs* / Apostol Vol 2 batch; Apostol Vol 2
 is the place where it gets created.
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | First-order linear ODE, integrating factor | — | ✗ | **Gap (high priority).** Apostol Ch. 6 §6.7. |
 | Existence / uniqueness for linear ODEs | — | ✗ | **Gap.** Apostol Ch. 6 §6.6. (General Picard-Lindelöf is in Arnold *ODEs*; Apostol covers the linear case rigorously.) |
@@ -217,7 +217,7 @@ gap.** Pieces appear scattered (`03.02.01-smooth-manifold` mentions tangent
 maps, `03.04.04-exterior-derivative` uses partial derivatives) but none
 of the foundational multi-variable calculus is shipped as named units.
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Limits, continuity for $f : \mathbb{R}^n \to \mathbb{R}^m$ | — | ✗ | **Gap.** Apostol Ch. 8 §8.2-8.4. |
 | Partial derivative; existence vs. continuity | — | ✗ | **Gap (high priority).** Apostol Ch. 8 §8.5-8.6. Foundational. |
@@ -233,13 +233,13 @@ of the foundational multi-variable calculus is shipped as named units.
 
 ### Part 4 — Multi-variable Integral Calculus (Chapters 10-12)
 
-This is where the Codex 03-modern-geometry chapter has substantial overlap.
+This is where the Babel Bible 03-modern-geometry chapter has substantial overlap.
 The differential-forms / Stokes machinery in `03.04.*` covers the modern
 abstract version of these theorems; what's missing is the **classical
 $\mathbb{R}^n$-flavoured presentation** (Riemann integral, Fubini,
 classical Green/Stokes/divergence in components).
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Line integral $\int_\gamma P\,dx + Q\,dy$ | — | ✗ | **Gap.** Apostol Ch. 10 §10.4-10.10. The classical-form line integral — Codex `03.04.02-differential-forms` has the abstract 1-form integration but not the classical $P\,dx + Q\,dy$ presentation. |
 | Path-independence, conservative fields, scalar potentials | — | ✗ | **Gap.** Apostol Ch. 10 §10.14-10.18. The proper-1-form / closed-vs-exact discussion; in modern language, the de Rham cohomology question $H^1_{dR}$. Codex `03.04.06-de-rham-cohomology` has the abstract version. |
@@ -255,9 +255,9 @@ classical Green/Stokes/divergence in components).
 
 ### Part 5 — Probability and Numerical Analysis (Chapters 13-15, 16)
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| $\sigma$-algebra, probability as a set function (Kolmogorov axioms) | — | ✗ | **Out of scope (P4).** Apostol Ch. 13. Pre-measure-theoretic probability. Defer until measure-theory chapter exists in Codex. |
+| $\sigma$-algebra, probability as a set function (Kolmogorov axioms) | — | ✗ | **Out of scope (P4).** Apostol Ch. 13. Pre-measure-theoretic probability. Defer until measure-theory chapter exists in Babel Bible. |
 | Conditional probability, independence, Bayes | — | ✗ | **Out of scope (P4).** Apostol Ch. 13. |
 | Random variable, distribution function, expectation, variance | — | ✗ | **Out of scope (P4).** Apostol Ch. 14. |
 | Discrete distributions (binomial, Poisson, geometric) | — | ✗ | **Out of scope (P4).** Apostol Ch. 14 §14.10. |
@@ -270,14 +270,14 @@ classical Green/Stokes/divergence in components).
 ### Aggregate coverage estimate
 
 - **Theorem layer:** ~15% of Apostol Vol 2's named theorems map to
-  Codex units. Concentrated almost entirely on the **vector-calculus
+  Babel Bible units. Concentrated almost entirely on the **vector-calculus
   end** (Stokes / Green / divergence in `03.04.05`, integration in
   `03.04.03`) and a *small* slice of linear algebra (`01.01.03`,
   `01.01.15`, `02.11.03`, `02.11.07`). After priority-1: ~55%. After
   priority-1+2: ~80%. After priority-3 (out-of-scope cuts honoured):
   ~85% modulo deliberate-out-of-scope probability and numerical
   analysis.
-- **Exercise layer:** ~1%. Apostol's ~2400 exercises vs. Codex's
+- **Exercise layer:** ~1%. Apostol's ~2400 exercises vs. Babel Bible's
   effectively-zero coverage on the linear-algebra and multi-variable
   side. **Closing this requires a dedicated exercise-pack pass after
   the theorem-layer batch lands** — likely the largest single
@@ -293,12 +293,12 @@ classical Green/Stokes/divergence in components).
   basis). Aligned with modern Codex conventions; no `notation/apostol-vol2.md`
   needed if the new units adopt the modern $df_p$ / $J_f$ / $\det A$
   conventions.
-- **Sequencing layer:** ~10%. Codex DAG has no linear-algebra spine;
+- **Sequencing layer:** ~10%. Babel Bible DAG has no linear-algebra spine;
   the new units must build a fresh DAG segment in 01-foundations and
   02-analysis (multivariable-differentiation, ODE).
 - **Intuition layer:** ~10%. Apostol's geometric / kinematic intuition
   for line integrals, gradient flow, eigenvalue interpretation as
-  scaling-along-eigenvector is essentially absent in Codex.
+  scaling-along-eigenvector is essentially absent in Babel Bible.
 - **Application layer:** ~30%. The vector-calculus applications (work,
   flux, conservative fields, Maxwell-equation precursors) are partly
   covered in `08.*` stat-mech / lattice-gauge units; the linear-algebra
@@ -529,7 +529,7 @@ the existing manifold-form Stokes machinery.
     spherical coordinates; relation to differential-forms version
     (cross-link to `03.04.03-integration-on-manifolds`). **Load-bearing
     operationally — used silently in physics applications throughout
-    Codex.**
+    Babel Bible.**
 
 20. **`02.10.05` Surface integral and parametric surfaces.** [NEW].
     Apostol Ch. 12 §12.1-12.10 anchor. Three-tier; ~1500 words.
@@ -720,7 +720,7 @@ cites originator + Apostol):
 **Notation crosswalk.** Apostol's notation is mostly aligned with
 modern Codex conventions ($\mathbb{R}^n$, $\nabla f$, $J_f$, $\det A$,
 $\langle \cdot, \cdot \rangle$). Distinctive: bold $\mathbf{a}$ for
-vectors (Codex prefers italic $a$ except in physics contexts); $|A|$
+vectors (Babel Bible prefers italic $a$ except in physics contexts); $|A|$
 sometimes interchangeable with $\det A$. No `notation/apostol-vol2.md`
 strictly needed; alignment can be handled in each new unit's notation
 discussion.
@@ -806,7 +806,7 @@ batch.
 - **Full Jordan-form proof** (Apostol gives partial; Hoffman-Kunze
   / Lang fill it). Item 25 is priority-3 / optional.
 - **Functional analysis** (Banach / Hilbert space theory in
-  infinite dimensions). Codex's `02.11.*` already covers this, at
+  infinite dimensions). Babel Bible's `02.11.*` already covers this, at
   greater depth than Apostol Vol 2 reaches. No deepening required
   on that side.
 - **Differential forms / manifold-form Stokes** (Apostol Ch. 12 stays
@@ -828,7 +828,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, Apostol Vol 2
 is at equivalence-coverage when:
 
 - ≥95% of Apostol Vol 2's named theorems (in Chapters 1-12) map to
-  Codex units **at Apostol-equivalent proof depth** (currently ~15%;
+  Babel Bible units **at Apostol-equivalent proof depth** (currently ~15%;
   after priority-1 this rises to ~55%; after priority-1+2 to ~80%;
   after priority-3 deepenings to ~92% — modulo deliberate-out-of-scope
   Chapters 13-16).
@@ -839,7 +839,7 @@ is at equivalence-coverage when:
   densification. Realistic path-to-≥80% needs an explicit follow-up
   Apostol-Vol-2-exercise-pack pass beyond items 27-30.
 - ≥90% of Apostol Vol 2's worked examples (Chapters 1-12) are
-  reproduced in some Codex unit. Currently ~5%; the priority-1+2
+  reproduced in some Babel Bible unit. Currently ~5%; the priority-1+2
   batch's mandatory worked-example inclusions (matrix computations,
   Jacobian computations, ODE solutions, change-of-variables in polar
   / cylindrical / spherical, Lagrange-multiplier examples) bring this
@@ -851,7 +851,7 @@ is at equivalence-coverage when:
 - For every chapter dependency in Apostol Vol 2 (Ch. 1 → Ch. 2 →
   Ch. 3 → Ch. 4 → Ch. 5; Ch. 5 → Ch. 6 → Ch. 7; Ch. 1-5 → Ch. 8-9;
   Ch. 8-9 → Ch. 10-12), there is a corresponding `prerequisites`
-  arrow chain in Codex's DAG. The linear-algebra → multi-variable-
+  arrow chain in Babel Bible's DAG. The linear-algebra → multi-variable-
   differentiation → vector-calculus chain in particular must be
   unbroken after the priority-1+2 batch.
 - Pass-W weaving connects the new units (`01.01.04-12`,

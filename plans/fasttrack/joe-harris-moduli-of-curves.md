@@ -32,7 +32,7 @@ moduli space of curves*, Deligne-Mumford 1969 *Publ. Math. IHES* 36,
 ACGH-II = Arbarello-Cornalba-Griffiths 2011 *Geometry of Algebraic
 Curves II* GMW 268, the Faber-Pandharipande tautological-relations
 literature, and Hain's *Lectures on Moduli Spaces of Riemann Surfaces*
-PCMI 2011), together with the Codex's already-shipped
+PCMI 2011), together with the Babel Bible's already-shipped
 `04.10.01-moduli-of-curves` and `06.08.03-moduli-of-riemann-surfaces`
 units (which **already name-check every major HM topic**). Mark as
 **REDUCED** in the audit log; a full P1 inventory at line-number
@@ -46,7 +46,7 @@ of `brown-higgins-sivera-nonabelian-algebraic-topology.md`,
 `griffiths-harris-geometry-algebraic-curves.md`, and
 `mumford-geometric-invariant-theory.md`.
 
-The audit surface is **highly focused** — Codex's
+The audit surface is **highly focused** — Babel Bible's
 `04-algebraic-geometry/10-moduli/` chapter ships only two units
 (`04.10.01-moduli-of-curves`, `04.10.02-git`), and
 `06-riemann-surfaces/08-vhs/06.08.03-moduli-of-riemann-surfaces.md` mirrors
@@ -240,12 +240,12 @@ chooses HM, with mapping-class-group pointers as a Master-tier deepening.
 
 ---
 
-## §2 Coverage table (Codex vs HM)
+## §2 Coverage table (Babel Bible vs HM)
 
 Cross-referenced against the current corpus.
 ✓ = covered, △ = partial / mentioned-but-not-anchored, ✗ = not covered.
 
-| HM topic | Codex unit(s) | Status | Note |
+| HM topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Moduli space $\mathcal{M}_g$ as coarse moduli (functor + GIT) | `04.10.01-moduli-of-curves`, `06.08.03-moduli-of-riemann-surfaces` | ✓ | Both units are substantive (master-tier). Riemann's $3g - 3$ count covered. |
 | $\mathcal{M}_g$ as Deligne-Mumford *stack* | `04.10.01` (caveat box), `06.08.03` (master tier) | △ | Mentioned; **no dedicated unit on Deligne-Mumford stacks**. Foundational gap. |
@@ -547,7 +547,7 @@ of the Hodge bundle (sometimes $\lambda_1$ for it, $\lambda_a$ for
 higher Chern classes), $\kappa_a$ for the Mumford-Morita-Miller classes,
 $\psi_i$ for the cotangent classes at marked points, $\delta = \sum\Delta_i$
 for the total boundary class, $\mathbb{E}$ for the Hodge bundle. ACGH-II
-follows the same convention. The Codex's existing `04.10.01` and
+follows the same convention. The Babel Bible's existing `04.10.01` and
 `06.08.03` units already adopt this notation throughout; the new HM
 units **must preserve consistency**. Record in a §Notation paragraph of
 `04.10.24` and `04.10.25`.
@@ -640,7 +640,7 @@ equivalence-coverage when:
   Eisenbud-Harris 1986, Kodaira-Spencer 1958, ELSV 2001) appear at
   least once in the corpus with at least one unit per originator
   carrying the full prose.
-- ≥95% of HM's named theorems in chapters 1–6 map to a Codex unit
+- ≥95% of HM's named theorems in chapters 1–6 map to a Babel Bible unit
   (currently ~5% anchor + ~90% mention; after priority-1 this rises
   to ~55% anchor; priority-1+2 to ~80% anchor; full ≥95% requires
   priority-1+2+3).

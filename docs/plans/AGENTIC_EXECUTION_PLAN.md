@@ -1,4 +1,4 @@
-# Codex — Agentic Execution Plan
+# Babel Bible — Agentic Execution Plan
 
 Drafted 2026-05-17. Operational sibling to `FASTTRACK_COVERAGE_ROADMAP.md`
 (which says *what* to cover next) and `FASTTRACK_EQUIVALENCE_PLAN.md`
@@ -27,7 +27,7 @@ Read alongside:
 
 ## §1 Mission
 
-Push the Codex corpus toward Fast Track equivalence-completeness on all 93
+Push the Babel Bible corpus toward Fast Track equivalence-completeness on all 93
 books at the **highest sustainable throughput** consistent with **zero
 relaxation** of the existing quality gates. Specifically:
 
@@ -433,7 +433,7 @@ template in plans/fasttrack/brown-higgins-sivera-nonabelian-algebraic-topology.m
 
 Required sections:
   §1 What the book is for — distinctive perspective, 5-8 numbered points
-  §2 Coverage table — every named theorem/concept mapped to a Codex unit
+  §2 Coverage table — every named theorem/concept mapped to a Babel Bible unit
      or "GAP" with priority
   §3 Gap punch-list — priority-ordered new units to write, with three-
      tier estimates and notation crosswalk requirements

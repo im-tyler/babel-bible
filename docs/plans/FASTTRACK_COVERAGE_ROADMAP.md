@@ -1,4 +1,4 @@
-# Codex — Fast Track Coverage Roadmap
+# Babel Bible — Fast Track Coverage Roadmap
 
 Drafted 2026-05-17. Successor to the ad-hoc batch plans
 (`WAVE_3_PLAN.md`, `WAVE_4_PLAN.md`). Defines the **forward push** from
@@ -21,7 +21,7 @@ Read alongside:
   Michelsohn; plus four substitute/adjacent: Arnold *Math Methods*, Cannas
   da Silva *Symplectic*, Forster *Riemann Surfaces*, Hatcher *Algebraic
   Topology*).
-- **Books with shipped Codex units (source_audits in plan.json):** 11.
+- **Books with shipped Babel Bible units (source_audits in plan.json):** 11.
 - **Total shipped units:** 313 across 9 sections (00–08).
 - **Books not yet audited:** 79 of 93.
 
@@ -168,7 +168,7 @@ at realistic 50% capacity.
 
 - **M1 (end of Wave 5):** Section 2 has 4 plan stubs; total stubs 24/93
   (26%).
-- **M2 (end of Wave 6):** Total stubs 34/93 (37%). Every Codex section
+- **M2 (end of Wave 6):** Total stubs 34/93 (37%). Every Babel Bible section
   (07, 08 especially) has an anchoring §2 or §3 book audited.
 - **M3 (end of Wave 10):** **All 93 books plan-stubbed.** This is the
   coverage-map milestone — from here, every unit Codex produces can be
@@ -199,7 +199,7 @@ Pick a Wave 5 book and ship its plan stub:
   `reference/fasttrack-texts/02-quantum-stat/`, short text, opens Section 2.
 - **Highest leverage:** §2.10 Landau Stat Phys 1 — retroactively anchors
   the existing 22 stat-mech units, instantly closes coverage on one whole
-  Codex section.
+  Babel Bible section.
 
 Recommendation: ship **Chatterjee first** (lowest cost to validate the
 Wave 5 cadence), then **Landau Stat Phys 1** second (highest leverage

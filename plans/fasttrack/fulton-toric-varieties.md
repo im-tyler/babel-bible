@@ -103,7 +103,7 @@ standard order:
   chapters 1–3 verbatim; CLS chapters 5–6 expand Fulton chapter 3;
   CLS chapters 8–9 cover Fulton chapter 4; CLS chapters 12–13 cover
   Fulton chapter 5. CLS is the natural cross-reference for any
-  Fulton-anchored Codex unit.
+  Fulton-anchored Babel Bible unit.
 - **Oda, *Convex Bodies and Algebraic Geometry* (Springer Ergebnisse 15,
   1988)** — the predecessor monograph (in print before Fulton), with a
   more thorough treatment of the lattice-and-polytope side and explicit
@@ -133,7 +133,7 @@ group, line bundles).
 
 ---
 
-## §2 Coverage table (Codex vs ITV)
+## §2 Coverage table (Babel Bible vs ITV)
 
 Cross-referenced against the current 313-unit corpus (specifically
 `04-algebraic-geometry/` — 40 units — and `05-symplectic/moment-reduction/`
@@ -141,9 +141,9 @@ Cross-referenced against the current 313-unit corpus (specifically
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| ITV topic | Codex unit(s) | Status | Note |
+| ITV topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Algebraic torus $(\mathbb{C}^*)^n$, character lattice $M$, cocharacter lattice $N$ | — | ✗ | **Gap.** Nothing in the Codex defines the algebraic torus, its character/cocharacter lattices, or the duality $M = \mathrm{Hom}(N, \mathbb{Z})$. Foundational for ITV. |
+| Algebraic torus $(\mathbb{C}^*)^n$, character lattice $M$, cocharacter lattice $N$ | — | ✗ | **Gap.** Nothing in the Babel Bible defines the algebraic torus, its character/cocharacter lattices, or the duality $M = \mathrm{Hom}(N, \mathbb{Z})$. Foundational for ITV. |
 | Rational polyhedral cone, strongly convex cone, dual cone $\sigma^\vee$ | — | ✗ | **Gap.** Convex-geometry primitive; not covered. Borders on `00-precalc` / `01-foundations` but the lattice-rational version is its own topic. |
 | Affine toric variety $U_\sigma = \operatorname{Spec} \mathbb{C}[\sigma^\vee \cap M]$ | — | ✗ | **Gap (high priority — ITV's central building block).** |
 | Fan $\Sigma$ in $N_\mathbb{R}$ and the toric variety $X_\Sigma$ | — | ✗ | **Gap (high priority — ITV's central object).** |
@@ -366,7 +366,7 @@ Batyrev 1994.
 **Notation crosswalk.** ITV uses $N$ for the cocharacter lattice and $M$
 for the character lattice, with $N_\mathbb{R} = N \otimes \mathbb{R}$ and
 similarly for $M_\mathbb{R}$; cones live in $N_\mathbb{R}$ and polytopes in
-$M_\mathbb{R}$. CLS adopts the same convention. The Codex notation
+$M_\mathbb{R}$. CLS adopts the same convention. The Babel Bible notation
 decision (per `docs/specs/UNIT_SPEC.md` §11) should adopt
 $(N, M, N_\mathbb{R}, M_\mathbb{R})$ throughout the `04.11.*` series, with
 $\sigma$ for cones, $\Sigma$ for fans, $X_\Sigma$ for the toric variety,
@@ -412,7 +412,7 @@ explicit.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of ITV's named theorems in chapters 1–5 map to Codex units.
+- ≥95% of ITV's named theorems in chapters 1–5 map to Babel Bible units.
   Currently ~5% (Delzant + general Picard partial coverage). After
   priority-1 ships: ~50%. After priority-1+2: ~80%. After priority-1+2+3:
   ~92%. After priority-1+2+3+4: ≥95%.
@@ -486,5 +486,5 @@ Context, and the Bibliography entry `@article{Danilov1978Toric, ...}`.
 This is the natural Codex-side anchor to which ITV-derived units should
 back-link, and the Delzant unit's existing master paragraph can be
 extended with one-line cross-pointers to `04.11.04`, `04.11.10`,
-`04.11.11`, and `04.11.15` once those ship. No other Codex unit
+`04.11.11`, and `04.11.15` once those ship. No other Babel Bible unit
 currently mentions toric / fan / Demazure / Batyrev material.

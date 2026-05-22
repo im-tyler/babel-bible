@@ -174,21 +174,21 @@ periods, and a (planned) survey unit on the mirror conjecture proper.
 
 ---
 
-## §2 Coverage table (Codex vs TGMS)
+## §2 Coverage table (Babel Bible vs TGMS)
 
 Cross-referenced against the current 313-unit corpus (specifically
 `04-algebraic-geometry/` — 40 units — and `05-symplectic/` — adjacent).
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| TGMS topic | Codex unit(s) | Status | Note |
+| TGMS topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Tropical semiring $(\mathbb{R} \cup \{\infty\}, \min, +)$; tropical polynomial; tropical hypersurface | — | ✗ | **Gap.** No semiring / (min,+) infrastructure exists in the Codex. Foundational for all of TGMS. |
+| Tropical semiring $(\mathbb{R} \cup \{\infty\}, \min, +)$; tropical polynomial; tropical hypersurface | — | ✗ | **Gap.** No semiring / (min,+) infrastructure exists in the Babel Bible. Foundational for all of TGMS. |
 | Tropical curve (balanced rational metric graph); tropical line; tropical $\mathbb{P}^2$ | — | ✗ | **Gap.** |
 | Newton polytope of a polynomial; non-archimedean amoeba | — | ✗ | **Gap.** Connects forward to Newton-polytope mention in Bernstein-Kushnirenko (Fulton 3.32 punch-list `04.11.14`). |
 | Kapranov's theorem (tropical variety = support of the initial-ideal fan = image of non-archimedean valuation) | — | ✗ | **Gap. Originator-prose theorem.** |
 | Bieri-Groves theorem (tropical variety as polyhedral complex of pure dimension) | — | ✗ | **Gap. Connects to dimension theory of `04.06.*` coherent sheaves.** |
-| A-model (Gromov-Witten side); B-model (periods of holomorphic forms) | — | ✗ | **Gap.** No Gromov-Witten content anywhere in the Codex; no period-integral content beyond a brief Hodge-decomposition reference at `04.09.01`. |
+| A-model (Gromov-Witten side); B-model (periods of holomorphic forms) | — | ✗ | **Gap.** No Gromov-Witten content anywhere in the Babel Bible; no period-integral content beyond a brief Hodge-decomposition reference at `04.09.01`. |
 | Mirror symmetry conjecture (physicists' form: Candelas-de la Ossa-Green-Parkes 1991 quintic prediction) | — | ✗ | **Gap. Survey-level pointer unit needed before any TGMS unit.** |
 | Log structure (Kato 1989); log smooth morphism | — | ✗ | **Gap. Foundational for Lecture 3 onward.** |
 | Log Calabi-Yau space; trivial log canonical bundle | — | ✗ | **Gap.** |
@@ -211,7 +211,7 @@ Cross-referenced against the current 313-unit corpus (specifically
 **Aggregate coverage estimate:** ~0% of TGMS has corresponding Codex
 units. The gap is total. This is unsurprising — TGMS is a research-level
 monograph on a programme (Gross-Siebert 2003–2011) that postdates the
-core algebraic-geometry foundations the Codex currently covers.
+core algebraic-geometry foundations the Babel Bible currently covers.
 
 **Distinctive Codex situation.** TGMS sits at the apex of three
 prerequisite stacks:
@@ -472,7 +472,7 @@ the period-correct setup.
 manifold with polyhedral decomposition, $\mathscr{S}$ for the structure
 (slab functions + scattering walls), $\Delta \subset B$ for the singular
 locus of the integral affine structure, and $X_0$ for the special fibre
-of a toric degeneration. The Codex notation decision (per
+of a toric degeneration. The Babel Bible notation decision (per
 `docs/specs/UNIT_SPEC.md` §11) should adopt these unchanged. The toric
 notation $(N, M, N_\mathbb{R}, M_\mathbb{R}, \sigma, \Sigma, X_\Sigma,
 U_\sigma)$ from Fulton 3.32 carries over to TGMS lectures 4–6; the
@@ -480,7 +480,7 @@ tropical lectures 1–2 use $\mathbb{R}^n$ and $\mathbb{R} \cup \{\infty\}$
 directly. **Conflict to resolve:** TGMS Lecture 10 (SYZ) writes $B$ for
 the SYZ base — same letter as the tropical-manifold base in Lectures
 4–9. This is intentional: the SYZ base **is** the tropical manifold
-in the Gross-Siebert picture. The Codex units should make this
+in the Gross-Siebert picture. The Babel Bible units should make this
 identification explicit in `04.12.08` (dual intersection complex /
 tropical manifold) and again in `04.12.10` (SYZ statement).
 
@@ -507,7 +507,7 @@ tropical manifold) and again in `04.12.10` (SYZ statement).
   explicitly out of scope; future Fast Track entry candidate.
 - **Gromov-Witten theory of Calabi-Yau threefolds.** The A-side that
   mirror symmetry ultimately computes. TGMS Lecture 2 surveys it
-  briefly; the Codex needs a Gromov-Witten chapter independently
+  briefly; the Babel Bible needs a Gromov-Witten chapter independently
   before that survey can land. Deferred to a separate Fast Track audit
   (Cox-Katz, *Mirror Symmetry and Algebraic Geometry*, FT 3.??).
 - **Symplectic / Floer-theoretic mirror symmetry** (Kontsevich's
@@ -536,7 +536,7 @@ equivalence-coverage when:
   Calabi-Yau), special-Lagrangian-torus-fibration unit in
   `05-symplectic/lagrangian/`, and `04.12.00`/`04.13.??` (log
   structure).
-- ≥95% of TGMS's named theorems in Lectures 1–10 map to Codex units.
+- ≥95% of TGMS's named theorems in Lectures 1–10 map to Babel Bible units.
   Currently 0%. After priority-1 ships: ~55%. After priority-1+2:
   ~75%. After priority-1+2+3: ~85%. After priority-1+2+3+4: ≥95%.
 - ≥90% of TGMS's worked computations have a direct unit or are

@@ -32,7 +32,7 @@ present). AMS title; not author-hosted; not in Anna's Archive surface mirror.
 This audit works from (a) the **public TOC structure** of AMS GSM 34
 (well-documented, table of contents stable across the 1978 and 2001 editions
 except for added errata + Helgason's own "Solutions to Exercises" appendix
-folded in for the 2001 reprint), (b) the Codex's existing 26 shipped units of
+folded in for the 2001 reprint), (b) the Babel Bible's existing 26 shipped units of
 `content/07-representation-theory/` plus 3 shipped Lie-group units of
 `content/03-modern-geometry/03-lie/`, and (c) the originator literature
 (Cartan 1926–27, Iwasawa 1949, Harish-Chandra 1953–68). A full line-number
@@ -152,7 +152,7 @@ should pair DGLGSS with Goodman-Wallach or Onishchik-Vinberg.
   (highest weights, branching rules, Schur-Weyl-Brauer dualities)
   woven through. The Goodman-Wallach symmetric-pair material is
   much shorter than Helgason but is the natural entry point for a
-  reader who has shipped the FH (3.11) Codex units and wants the
+  reader who has shipped the FH (3.11) Babel Bible units and wants the
   real-form extension before tackling Helgason directly.
 - R. Carter, G. Segal, I. Macdonald, *Lectures on Lie Groups and Lie
   Algebras* (LMS Student Texts 32, Cambridge 1995, ISBN
@@ -169,7 +169,7 @@ should pair DGLGSS with Goodman-Wallach or Onishchik-Vinberg.
 
 ---
 
-## §2 Coverage table (Codex vs DGLGSS)
+## §2 Coverage table (Babel Bible vs DGLGSS)
 
 Cross-referenced against the current shipped units of
 `content/07-representation-theory/` (26 units across 7 subdirs),
@@ -179,21 +179,21 @@ relevant for symmetric-space prerequisites
 ✓ = covered, △ = partial / different framing / coverage in a unit body
 but not the explicit DGLGSS treatment, ✗ = not covered.
 
-| DGLGSS topic (chapter:section) | Codex unit(s) | Status | Note |
+| DGLGSS topic (chapter:section) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Differentiable manifolds, tangent vectors, vector fields (I §§1–3) | `03.02.*` manifolds strand | ✓ | Standard manifold material. |
 | Tensor fields, exterior algebra (I §§5–7) | `03.01.*` tensor-algebra + `03.04.*` differential-forms | ✓ | |
 | Affine connection, parallel transport (I §§8–10) | TBD in `03.02-manifolds/` (or 03.04) | △ | Codex has Riemannian + Levi-Civita pieces but a standalone "affine connection" unit may need a dedicated check. **Gap (low — prereq, may already be in 03.02).** |
 | Riemannian metric, Riemannian connection, geodesics (I §§11–14) | TBD | △ | Likely partial; verify against `03-modern-geometry/02-manifolds/` once PDF is local. |
 | Exponential map of a manifold, normal coordinates (I §§15) | TBD | △ | Pre-Lie-group exp map; verify against shipped units. |
-| Hopf-Rinow completeness (I §§16) | — | ✗ | **Gap (low).** Foundational Riemannian-geometry theorem; not currently a Codex unit. Pre-requisite for symmetric-space global structure. |
+| Hopf-Rinow completeness (I §§16) | — | ✗ | **Gap (low).** Foundational Riemannian-geometry theorem; not currently a Babel Bible unit. Pre-requisite for symmetric-space global structure. |
 | Lie group, Lie algebra of a Lie group (II §§1–2) | `03.03.01` lie-group | ✓ | Direct correspondent. |
 | Exponential map of a Lie group, Baker-Campbell-Hausdorff (II §§3–5) | — | △ | **Gap (medium).** No dedicated Lie-group-exp / BCH unit. Touched in passing in `03.03.01`. Candidate: `03.03.04` lie-group-exponential-map (with BCH master-tier extension). |
 | Adjoint representation, $\mathrm{Ad}$ and $\mathrm{ad}$ (II §§5) | — | △ | **Gap (low).** Referenced inside `07.06.*` but not a standalone unit; folds into `03.03.04` or a new `03.03.05`. |
 | Killing form, semisimplicity, Cartan's criterion (II §§6, III §§1) | — (referenced in `07.06.03` root-system master) | △ | **Gap (medium).** Killing form has no dedicated unit despite being load-bearing for every classification result. Candidate: `07.06.10` killing-form-and-cartan-criterion. |
 | Semisimple Lie algebras over $\mathbb{C}$, root-space decomposition (III §§4–5) | `07.06.03 root-system`, `07.06.04 weyl-group`, `07.06.05 dynkin-diagram`, `07.04.01 cartan-weyl-classification` | ✓ | Codex covers the complex-semisimple case via the FH route. |
 | Compact real form of a complex semisimple Lie algebra (III §§6–7) | — | ✗ | **Gap (high).** Foundational: every complex semisimple Lie algebra has a compact real form unique up to conjugation. **Originator: Weyl 1925.** Candidate: `07.04.02` compact-real-form. |
-| Cartan involution $\theta$ on a real semisimple Lie algebra (III §§7, V §§1) | — | ✗ | **Gap (very high — load-bearing).** No Codex unit. Candidate: `07.04.03` cartan-involution. |
+| Cartan involution $\theta$ on a real semisimple Lie algebra (III §§7, V §§1) | — | ✗ | **Gap (very high — load-bearing).** No Babel Bible unit. Candidate: `07.04.03` cartan-involution. |
 | Cartan decomposition $\mathfrak{g} = \mathfrak{k} \oplus \mathfrak{p}$ (V §§1) | — | ✗ | **Gap (very high — the central algebraic object).** Candidate: `07.04.04` cartan-decomposition. |
 | Real forms of a complex semisimple Lie algebra; Cartan classification (III §§7, X §§6) | △ (mentioned in `07.04.01` as "Cartan-Weyl" but real forms not explicit) | △→✗ | **Gap (very high).** `07.04.01` covers the complex classification; the real-form classification (compact, split, intermediate) is absent. Candidate: `07.04.05` real-forms-classification. |
 | Orthogonal symmetric Lie algebra (IV §§1) | — | ✗ | **Gap (high).** The algebraic abstraction Helgason works with throughout. Candidate: `07.04.06` orthogonal-symmetric-lie-algebra. |
@@ -227,7 +227,7 @@ but not the explicit DGLGSS treatment, ✗ = not covered.
 - **Chapter IV–V (orthogonal symmetric Lie algebras, Riemannian
   symmetric spaces, Cartan decomposition, duality):** **~0% covered.**
   This is the book's load-bearing core and is a complete gap in the
-  Codex.
+  Babel Bible.
 - **Chapter VI (Iwasawa, restricted roots):** **~0% covered.**
 - **Chapter VIII (Hermitian symmetric spaces, bounded domains):**
   **~0% covered.**
@@ -237,11 +237,11 @@ but not the explicit DGLGSS treatment, ✗ = not covered.
   missing half.)
 - **Spherical functions (IV §§5–6, X §§3–4):** **~0% covered.**
 
-**Overall: ~15–20% of DGLGSS covered by existing Codex units, almost all
+**Overall: ~15–20% of DGLGSS covered by existing Babel Bible units, almost all
 of that being the Chapter III complex-Lie-algebra prerequisites that
 Codex already ships via the FH (3.11) route.** The symmetric-space half
 of DGLGSS (chapters IV–X, the namesake material) is **a complete gap**.
-This is unsurprising — the Codex has shipped the FH "complex
+This is unsurprising — the Babel Bible has shipped the FH "complex
 classification" units and the Hall-/Knapp-flavoured Lie-group-as-manifold
 units, but has not yet entered the real-form / symmetric-space sector
 at all. **The gap closure is new-unit-heavy, not deepening-heavy**, the
@@ -539,7 +539,7 @@ $M_u$) for its compact dual. Helgason's classification labels
   third volume, covering the Helgason-Fourier transform and conjectures
   on eigenfunctions. **These two volumes should each receive their
   own audit plan when commissioned. Cross-references to GTM 113 are
-  acceptable in the Codex `07.04.12 spherical-function` master tier,
+  acceptable in the Babel Bible `07.04.12 spherical-function` master tier,
   but the deep harmonic-analysis content stays in the GTM 113 plan.**
 - **Knapp's *Lie Groups Beyond an Introduction*.** Substantial overlap
   with DGLGSS Chapters II–VI; deferred to its own audit. Note that
@@ -600,15 +600,15 @@ equivalence-coverage when:
 
 - **4.1 Book-as-input self-check.** Sample 5 random theorem statements
   from DGLGSS (likely from Chapters IV, V, VI); for each, identify
-  the Codex unit that proves it.
+  the Babel Bible unit that proves it.
 - **4.2 Exercise reproducibility.** Sample 5 random exercises from
   DGLGSS (Helgason's exercises are detailed and his *Solutions to
   Exercises* appendix in the 2001 reprint is itself a 70-page
   document; bias the sampling toward exercises with solutions
-  in the appendix); for each, identify the Codex unit(s) sufficient
+  in the appendix); for each, identify the Babel Bible unit(s) sufficient
   to solve it.
 - **4.3 Notation comprehension.** Sample 5 fragments of Helgason
-  prose; paraphrase each into the Codex notation system (per §4
+  prose; paraphrase each into the Babel Bible notation system (per §4
   crosswalk). The $\mathfrak{p}$ / parabolic-$\mathfrak{p}$ collision
   is a known stumbling block — flag any tested paraphrase that
   mishandles it.
@@ -623,7 +623,7 @@ equivalence-coverage when:
   Surfaces*, Courant *Differential and Integral Calculus* Vols 1 + 2,
   Donaldson *Riemann Surfaces*, Mackenzie *Lie Groupoids and Algebroids*
   Vols, Landau-Lifshitz Vols 1, 2, 6, 8, and an unrelated ODE epdf).
-  No Helgason title anywhere in the Codex `reference/` tree.
+  No Helgason title anywhere in the Babel Bible `reference/` tree.
 - **Commercial source.** AMS GSM 34 (2001 corrected reprint).
   Available at `https://bookstore.ams.org/gsm-34/` (BUY). ISBN
   978-0-8218-2848-9. Also available as the original Academic Press

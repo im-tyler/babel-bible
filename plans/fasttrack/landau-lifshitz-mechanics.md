@@ -35,7 +35,7 @@ Hamiltonian, canonical transformations, Hamilton-Jacobi, action-angle,
 adiabatic invariants — with opposite editorial choices (Landau:
 physicist-coordinates-first, examples-driven, 169 pp; Arnold:
 geometer-manifolds-first, theorem-driven, 500+ pp). **The Arnold batch
-(items 1-7, 11-13) has already shipped the Codex equivalents of Landau
+(items 1-7, 11-13) has already shipped the Babel Bible equivalents of Landau
 Chapters I-II and VII.** This Landau plan does not double-count those
 units; it itemises *Landau-distinctive* deepenings and the
 worked-example layer Landau is canonically known for.
@@ -161,16 +161,16 @@ developments, not Landau's territory.
 
 ---
 
-## §2 Coverage table (Codex vs Landau Vol 1)
+## §2 Coverage table (Babel Bible vs Landau Vol 1)
 
-Cross-referenced against the current Codex corpus (49 units in
+Cross-referenced against the current Babel Bible corpus (49 units in
 `05-symplectic/`, including the Arnold-MM substitute batch already
 shipped). ✓ = covered at Landau-equivalent depth, △ = topic present but
 Landau-distinctive examples / framing not captured, ✗ = not covered.
 
 ### Chapter I — Equations of Motion (§§1-5, 12 pp.)
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Generalised coordinates, configuration space | (touched in `05.00.01`) | △ | Coordinate-language framing not isolated; Arnold-MM substitute uses $TM$. |
 | Principle of least action (§2) | `05.00.02-hamilton-principle` | △ | Unit exists (Arnold-MM batch); Landau's two-page derivation is the canonical short proof — anchor citation needed. |
@@ -179,17 +179,17 @@ Landau-distinctive examples / framing not captured, ✗ = not covered.
 
 ### Chapter II — Conservation Laws (§§6-10, 12 pp.)
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Energy conservation from time-translation (§6) | (covered in `05.00.04` Noether) | △ | Noether-anchored; Landau's coordinate-language derivation is one paragraph and worth quoting in the Beginner tier. |
 | Momentum conservation from space-translation (§7) | `05.00.04` Noether | △ | Same. |
 | Centre of mass (§8) | — | ✗ | **Gap.** Trivially derivable but not isolated as a unit. |
 | Angular momentum (§9) | (touched in `05.00.04`) | △ | Noether-rotational-symmetry. Worked formula $\mathbf{M} = \sum \mathbf{r}_a \times \mathbf{p}_a$ not isolated. |
-| **Mechanical similarity / virial theorem** (§10) | — | ✗ | **Gap (Landau-distinctive).** No Codex unit. Kepler III, Bertrand's theorem flavour, isolated as own technique. |
+| **Mechanical similarity / virial theorem** (§10) | — | ✗ | **Gap (Landau-distinctive).** No Babel Bible unit. Kepler III, Bertrand's theorem flavour, isolated as own technique. |
 
 ### Chapter III — Integration of the Equations of Motion (§§11-15, 17 pp.)
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Motion in 1D, quadrature by energy conservation (§11) | — | ✗ | **Gap.** Foundational physics example. |
 | Period of oscillation from potential (§12) | — | ✗ | Gap. Worked example of inversion technique. |
@@ -199,7 +199,7 @@ Landau-distinctive examples / framing not captured, ✗ = not covered.
 
 ### Chapter IV — Collisions Between Particles (§§16-20, 14 pp.)
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Disintegration / decay (§16) | — | ✗ | Gap. Physicist-required, math-curriculum-absent. |
 | Elastic collisions (§17) | — | ✗ | Gap. |
@@ -209,9 +209,9 @@ Landau-distinctive examples / framing not captured, ✗ = not covered.
 
 ### Chapter V — Small Oscillations (§§21-30, 32 pp.)
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
-| 1D harmonic oscillator (§21) | scattered in Codex examples | △ | Not isolated as own unit. |
+| 1D harmonic oscillator (§21) | scattered in Babel Bible examples | △ | Not isolated as own unit. |
 | Forced oscillations, resonance (§22) | — | ✗ | Gap. |
 | Coupled oscillators / normal modes (§23) | — | ✗ | **Gap.** Standard physics, Codex-absent. |
 | Molecular vibrations (§24) | — | ✗ | Gap. Application example. |
@@ -224,7 +224,7 @@ Landau-distinctive examples / framing not captured, ✗ = not covered.
 
 ### Chapter VI — Motion of a Rigid Body (§§31-39, 33 pp.)
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Angular velocity (§31) | — | ✗ | Gap. |
 | Inertia tensor (§32) | — | ✗ | **Gap.** Physicist-canonical. |
@@ -238,10 +238,10 @@ Landau-distinctive examples / framing not captured, ✗ = not covered.
 
 ### Chapter VII — The Canonical Equations (§§40-52, 32 pp.)
 
-Bulk of Codex's existing symplectic chapter lives here. Most items
+Bulk of Babel Bible's existing symplectic chapter lives here. Most items
 shipped by the Arnold-MM batch.
 
-| Landau topic | Codex unit | Status | Note |
+| Landau topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Hamilton's equations (§40) | `05.02.01-hamiltonian-vector-field` | △ | Shipped (Arnold-MM); Landau's coordinate-form derivation worth a Beginner-tier anchor. |
 | **The Routhian (§41)** | — | ✗ | **Gap (Landau-distinctive).** Hybrid Lagrangian-Hamiltonian for cyclic coords. |
@@ -282,13 +282,13 @@ shipped by the Arnold-MM batch.
 - **Sequencing layer:** ~50%. Codex orders Lagrangian → Hamiltonian →
   canonical → HJ; Landau orders identically *except* he postpones
   Hamiltonian to Ch. VII (after small oscillations and rigid body).
-  Codex's ordering matches Arnold's, not Landau's.
+  Babel Bible's ordering matches Arnold's, not Landau's.
 - **Intuition layer:** ~25%. Landau's physicist-intuition (resonance,
-  scattering, similarity, virial) is largely absent from Codex's
+  scattering, similarity, virial) is largely absent from Babel Bible's
   geometer-flavoured symplectic chapter.
 - **Application layer:** ~15%. Kepler, Rutherford, Lagrange's top,
   Coriolis force, normal-mode molecular vibrations — all standard
-  physics examples, absent from Codex.
+  physics examples, absent from Babel Bible.
 
 After priority-1 batch: theorem layer ~60%, application ~50%.
 After priority-1+2: ~80%, ~75%. Priority-3 brings to ~92%, ~88%.
@@ -381,7 +381,7 @@ Recommended slot ranges:
    Master: Rutherford formula
    $d\sigma = (\alpha/4 E)^2 \sin^{-4}(\theta/2)\, d\Omega$ from
    hyperbolic orbits in central field, with CM-to-lab boost. **First
-   collision-theory unit in Codex; downstream prereq for `02.*`
+   collision-theory unit in Babel Bible; downstream prereq for `02.*`
    Section-2 QM scattering.**
 
 7. **`05.00.11` Small oscillations and normal modes.** Landau Ch. V
@@ -399,7 +399,7 @@ Recommended slot ranges:
    effective-potential method, $U_\text{eff} = U + \langle f^2
    \rangle / 4 m \omega^2$, inverted-pendulum stabilisation.
    **Landau-Kapitza originator-prose mandatory; canonical
-   physics-pedagogy example absent from Arnold and Codex.**
+   physics-pedagogy example absent from Arnold and Babel Bible.**
 
 9. **`05.00.13` Rigid-body dynamics — inertia tensor and Eulerian
    angles.** Landau Ch. VI §§31-35 anchor; Euler 1765 *Theoria motus
@@ -500,7 +500,7 @@ Noether tradition. Joint originator-citations:
 the Master sections of each new unit:
 
 - **Lagrangian:** Landau writes $L(q, \dot q, t)$ as a function on
-  coordinate patches; Codex Master-tier writes $L : TM \to \mathbb{R}$.
+  coordinate patches; Babel Bible Master-tier writes $L : TM \to \mathbb{R}$.
   Pin the equivalence $L_\text{Landau}(q, \dot q, t) =
   L_\text{Codex}|_{\text{chart}}(q, v, t)$.
 - **Angular momentum symbol:** Landau $\mathbf{M}$, Codex $J$ /
@@ -510,7 +510,7 @@ the Master sections of each new unit:
   $H = \sum p \dot q - L$ (eq. 40.2); Arnold and Cannas agree. No
   conflict.
 - **Sign convention on symplectic form:** Landau does not introduce
-  $\omega$ explicitly. Codex's choice $\omega = dp \wedge dq =
+  $\omega$ explicitly. Babel Bible's choice $\omega = dp \wedge dq =
   -d(p\, dq)$ matches Arnold; Landau's
   $\sum dp_i \wedge dq_i$ (implicit in §45) is the same.
 - **Russian physicist conventions:** Landau writes
@@ -606,7 +606,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, *Mechanics*
 is at equivalence-coverage when:
 
 - ≥95% of Landau's named results (and worked formulae) in
-  Chapters I-VII map to Codex units **at Landau-equivalent
+  Chapters I-VII map to Babel Bible units **at Landau-equivalent
   pedagogical depth** (currently ~40%; after priority-1 ~60%; after
   priority-1+2 ~80%; after priority-1+2+3 ~92%; after priority-4
   ~95%). Items 4 (exponential adiabatic), 8 (Kapitza), and 9 (rigid
@@ -621,7 +621,7 @@ is at equivalence-coverage when:
   `notation/landau.md` needed.
 - DAG: for every Lagrangian → conservation-law → integrable chain in
   Landau Chs. I-III (least action → Noether → reduced mass → central
-  field → Kepler), an unbroken prerequisite chain in Codex's DAG.
+  field → Kepler), an unbroken prerequisite chain in Babel Bible's DAG.
   Currently breaks at `05.00.09` (worked Lagrangian examples) — item
   5 closes it.
 - Pass-W weaving connects new units to existing `05.00-*`,

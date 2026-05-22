@@ -29,7 +29,7 @@ Newstead 1978, Hoskins's *Moduli Problems and Geometric Invariant
 Theory* lecture notes (Berlin/Bonn 2015), Mukai *An Introduction to
 Invariants and Moduli* (Cambridge 2003), Schmitt *Geometric
 Invariant Theory and Decorated Principal Bundles* (EMS 2008), and
-the Codex's already-shipped `04.10.02-git` unit (which is the
+the Babel Bible's already-shipped `04.10.02-git` unit (which is the
 densest in-corpus reference for the book). Mark as **REDUCED** in
 the audit log; full P1 inventory at line-number granularity deferred
 until a PDF is acquired.
@@ -41,7 +41,7 @@ reach the equivalence threshold
 structure of `brown-higgins-sivera-nonabelian-algebraic-topology.md`
 and `griffiths-harris-geometry-algebraic-curves.md`.
 
-The audit surface is **focused** — Codex's
+The audit surface is **focused** — Babel Bible's
 `04-algebraic-geometry/10-moduli/` chapter ships only two units
 (`04.10.01-moduli-of-curves`, `04.10.02-git`), both of which already
 **name-check** every major GIT result. `04.10.02-git` is a substantive
@@ -148,12 +148,12 @@ already partially shipped at `05.04.01-moment-map` and
 
 ---
 
-## §2 Coverage table (Codex vs GIT)
+## §2 Coverage table (Babel Bible vs GIT)
 
 Cross-referenced against the current corpus.
 ✓ = covered, △ = partial / mentioned-but-not-anchored, ✗ = not covered.
 
-| GIT topic | Codex unit(s) | Status | Note |
+| GIT topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Reductive algebraic group; complete reducibility | — | ✗ | **Gap.** Mentioned in `04.10.02-git` master-tier Ex. 4, but no anchor unit. Would live in `03-modern-geometry/03-lie-groups/` (`03.03.0R` or similar) or in algebraic-geometry chapter. |
 | Hilbert-Nagata-Mumford finite generation of invariants | `04.10.02-git` (master tier, Advanced Results) | △ | Mentioned in proof outline of GIT theorem; no dedicated unit on the finite-generation theorem itself. |
@@ -361,11 +361,11 @@ generation) should carry originator-prose treatment citing:
 for the (semi)stable / unstable loci, $X /\!/_L G$ for the GIT
 quotient (or $X /\!/ G$ when the linearisation is implicit),
 $\mu^L(x, \lambda)$ for the Hilbert-Mumford function. Newstead and
-Hoskins follow MFK. The Codex's `04.10.02-git` already adopts MFK
+Hoskins follow MFK. The Babel Bible's `04.10.02-git` already adopts MFK
 notation throughout; the new units should preserve this. Kempf-Ness
 uses $\Phi$ or $\|v\|^2$ for the norm-squared moment map (real
 side); Kirwan uses $\mu : X \to \mathfrak{k}^*$ for the moment map
-(matching the Codex's `05.04.01-moment-map` notation). Record in a
+(matching the Babel Bible's `05.04.01-moment-map` notation). Record in a
 §Notation paragraph of `04.10.03` and `04.10.04`.
 
 ---
@@ -391,7 +391,7 @@ side); Kirwan uses $\mu : X \to \mathfrak{k}^*$ for the moment map
   exercises in derived units should come from Newstead 1978 and
   Mukai 2003 (which both have explicit exercises).
 - **Cubical / derived / non-reductive deepenings** beyond the
-  pointer units `04.10.14` and `04.10.15`. The Codex is not
+  pointer units `04.10.14` and `04.10.15`. The Babel Bible is not
   committing to a parallel derived-GIT track.
 - **K-stability analytic proof details** (YTD conjecture). The
   pointer unit `04.10.13` states the theorem and sketches the
@@ -419,7 +419,7 @@ equivalence-coverage when:
   Kempf 1978, Kempf-Ness 1979, Kirwan 1984, Haboush 1975, Seshadri
   1967) appear at least once in the corpus, with at least one
   unit per originator carrying the prose.
-- ≥95% of GIT's named theorems in chapters 1–8 map to a Codex unit
+- ≥95% of GIT's named theorems in chapters 1–8 map to a Babel Bible unit
   (currently ~25% anchor + ~70% mention; after priority-1 this rises
   to ~75% anchor; priority-1+2 to ~90% anchor; full ≥95% requires
   priority-1+2+3).

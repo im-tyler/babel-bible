@@ -178,7 +178,7 @@ Theory*.
 
 ---
 
-## §2 Coverage table (Codex vs MP)
+## §2 Coverage table (Babel Bible vs MP)
 
 Cross-referenced against the current `03-modern-geometry/12-homotopy/`
 chapter (24 shipped units + the freshly-shipped Cycle-2
@@ -193,21 +193,21 @@ Goerss-Jardine 3.41 punch-list (shared P1 batch recommendation).
 
 ### Part 1 — Preliminaries: basic homotopy theory and nilpotent spaces (Ch 1-4)
 
-| MP topic (chapter) | Codex unit(s) | Status | Note |
+| MP topic (chapter) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Cofibrations and fibrations (Ch 1) | `02.01.07` fibration, `02.01.08` cofibration | ✓ | Already shipped. MP Ch 1 is a brisk review at *Concise* §6-7 depth; Codex matches. |
 | Mapping cone, mapping path space, Puppe sequence cofiber / fiber form (Ch 1) | `03.12.03` suspension, `02.01.08` (mention) | △ | Puppe sequences flagged as a P2 gap in the MC plan (items 8-9); same gap here. |
 | **Homotopy colimits and homotopy limits, $\mathrm{hocolim}$ / $\mathrm{holim}$** (Ch 2) | — | ✗ | **Gap (P1, foundational; GJ-overlap).** Bousfield-Kan construction. Already on GJ punch-list as `03.12.37`. Joint produce. |
 | **$\lim^1$ exact sequence for a tower** (Ch 2) | — | ✗ | **Gap (P2; MC-overlap).** Already on the May-Concise punch-list (item 16). Needed for the cosimplicial completion in Part 3. |
-| **Nilpotent groups and nilpotent spaces** (Ch 3) | — | ✗ | **Gap (P1, MP-distinctive).** The central class of spaces for the rest of the book; no Codex unit. |
+| **Nilpotent groups and nilpotent spaces** (Ch 3) | — | ✗ | **Gap (P1, MP-distinctive).** The central class of spaces for the rest of the book; no Babel Bible unit. |
 | Postnikov tower of a nilpotent space (Ch 3) | △ | △ | `03.12.05` eilenberg-maclane has a Master pointer to Postnikov; full Postnikov-tower unit is a P2 gap (also flagged on the GJ plan as `03.12.40`). MP Ch 3 specialises to the nilpotent case where the $k$-invariants are central — the MP-distinctive refinement. |
 | Detection theorems for nilpotent groups / nilpotent spaces (Ch 4) | — | ✗ | **Gap (P3).** Technical lemmata; needed inside Parts 2-3 but optional as standalone units. |
 
 ### Part 2 — Localisation of spaces at sets of primes (Ch 5-9)
 
-| MP topic (chapter) | Codex unit(s) | Status | Note |
+| MP topic (chapter) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| **Localisation of abelian groups, nilpotent groups, nilpotent spaces at $T$** (Ch 5) | — | ✗ | **Gap (P1, MP-distinctive; load-bearing).** The book's central construction; no Codex unit. |
+| **Localisation of abelian groups, nilpotent groups, nilpotent spaces at $T$** (Ch 5) | — | ✗ | **Gap (P1, MP-distinctive; load-bearing).** The book's central construction; no Babel Bible unit. |
 | **Characterisations of $T$-local spaces** (Ch 6) | — | ✗ | **Gap (P1).** The standard equivalent definitions: $T$-local $\pi_n$, $T$-local cohomology, $T$-local fundamental class. |
 | **Fracture theorems for localisation** (Ch 7) | — | ✗ | **Gap (P1).** Nilpotent space $\simeq$ pullback of $X_{(p)}$ along $X_\mathbb{Q}$. The signature theorem of Part 2. |
 | Rationalisation $X \to X_\mathbb{Q}$ as the $T = \emptyset$ case (Ch 8) | △ | △ | `03.12.06` sullivan-minimal-models covers rational homotopy from the differential-forms side; the **Bousfield-style $X \to X_\mathbb{Q}$** as a functor is a deepening / sibling unit. Originator-split: Sullivan 1977 (forms) vs Quillen 1969 (model categories) vs Bousfield 1975 (localisation functor). |
@@ -215,7 +215,7 @@ Goerss-Jardine 3.41 punch-list (shared P1 batch recommendation).
 
 ### Part 3 — Completion of spaces at sets of primes (Ch 10-13)
 
-| MP topic (chapter) | Codex unit(s) | Status | Note |
+| MP topic (chapter) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Completion of abelian groups, $p$-completion of nilpotent spaces** $X^\wedge_p$ (Ch 10) | — | ✗ | **Gap (P1, MP-distinctive).** The Bousfield-Kan cosimplicial $\mathbb{F}_p$-resolution; central construction of Part 3. |
 | **Characterisations of $p$-complete spaces** (Ch 11) | — | ✗ | **Gap (P1).** Equivalent definitions via $\mathbb{F}_p$-cohomology iso, etc. |
@@ -224,7 +224,7 @@ Goerss-Jardine 3.41 punch-list (shared P1 batch recommendation).
 
 ### Part 4 — An introduction to model category theory (Ch 14-19)
 
-| MP topic (chapter) | Codex unit(s) | Status | Note |
+| MP topic (chapter) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Quillen model-category axioms (three-axiom + five-axiom forms)** (Ch 14) | — | ✗ | **Gap (P1, foundational; GJ-overlap).** Already on GJ punch-list as `03.12.31`. **Largest single gap.** |
 | **Cofibrantly generated model categories, small-object argument** (Ch 15) | — | ✗ | **Gap (P1; GJ-overlap).** Foundational. Already a P4 deepening on GJ; promote to P1 in the joint batch. |
@@ -237,7 +237,7 @@ Goerss-Jardine 3.41 punch-list (shared P1 batch recommendation).
 
 ### Part 5 — Bialgebras and Hopf algebras (Ch 20-24)
 
-| MP topic (chapter) | Codex unit(s) | Status | Note |
+| MP topic (chapter) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Bialgebra, Hopf algebra, antipode (Ch 20) | △ | △ | Codex may have Hopf-algebra units in `01.10-*` or `01.04-*` category-theory / algebra chapters; need to verify. If absent: P2 gap. |
 | Connected Hopf algebras, Milnor-Moore theorem (Ch 21) | — | ✗ | **Gap (P2).** Classification of connected co-commutative Hopf algebras over a field of char 0 as $U(L)$ for a graded Lie algebra. Load-bearing for rational $H$-space classification (Ch 9). |
@@ -247,7 +247,7 @@ Goerss-Jardine 3.41 punch-list (shared P1 batch recommendation).
 
 ### Aggregate coverage estimate
 
-**Theorem layer.** ~5% of MP's named theorems map to Codex units. The
+**Theorem layer.** ~5% of MP's named theorems map to Babel Bible units. The
 freshly-shipped `03.12.25` covers the $|\cdot| \dashv \mathrm{Sing}$
 adjunction and announces the Quillen equivalence; `03.12.06`
 sullivan-minimal-models covers rational homotopy from the
@@ -584,10 +584,10 @@ content has clearly identified originators:
   inside Parts 2-3 (where the fracture theorems split across many
   named results) and Part 5 (Hopf-algebra machinery).
 - **Detailed proofs of the Bousfield-localisation existence theorems**
-  (`03.12.48`). The Codex unit should state the existence theorem
+  (`03.12.48`). The Babel Bible unit should state the existence theorem
   (after Hirschhorn) and sketch the small-object-argument proof; the
   full technical proof of the locally-presentable hypothesis is a
-  "see Hirschhorn Ch 4-5" reference rather than a Codex unit.
+  "see Hirschhorn Ch 4-5" reference rather than a Babel Bible unit.
 - **The exercise pack.** Defer to a P4 dedicated pass after the
   priority-1+2 unit batch closes.
 - **Figures and large commutative diagrams.** Curriculum-wide
@@ -691,7 +691,7 @@ unit already shipped.
   Model Categories*, Chicago Lectures in Mathematics, University of
   Chicago Press, 2012 (xxviii + 514 pp.).
 - **Comparison reading for P1 production.** Since MP itself is
-  paywalled and no PDF is currently in the Codex reference tree,
+  paywalled and no PDF is currently in the Babel Bible reference tree,
   the P1 batch should be produced against:
   - **Hovey, *Model Categories* (1999)** — model-category foundations;
     MP Ch 14-17 substitute.
@@ -737,7 +737,7 @@ unit already shipped.
 - **Goerss-Jardine (FT 3.41), Cycle 7.** Direct sibling. GJ-3.41
   shares 6 of the 11 MP P1+P2 units (`03.12.31`-`03.12.34`,
   `03.12.37`, `03.12.38`). The GJ audit flagged model categories as
-  the largest single missing abstraction layer in Codex; this audit
+  the largest single missing abstraction layer in Babel Bible; this audit
   endorses that flag. **Coordinate P1 batch dispatch.**
 - **Just-shipped `03.12.25` simplicial-sets-and-geometric-realization
   (Cycle 2).** The just-shipped entry-point unit *announces* the
@@ -747,7 +747,7 @@ unit already shipped.
   (shared with GJ) supply the development. **Add a forward-reference
   arrow from `03.12.25` to `03.12.33`/`03.12.34` once the latter
   ship.**
-- **Sullivan-minimal-models `03.12.06` (already shipped).** Codex's
+- **Sullivan-minimal-models `03.12.06` (already shipped).** Babel Bible's
   existing rational-homotopy unit. MP Part 2 Ch 8-9 supplies the
   Bousfield / Quillen 1969 / Sullivan 1974 originator framing that
   `03.12.06` currently lacks; the P3 deepening (item 15) closes

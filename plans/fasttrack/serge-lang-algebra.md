@@ -42,7 +42,7 @@ Noether normalisation, Nullstellensatz) are not re-derived inconsistently.
 This pass is intentionally **focused on Parts I–III** of Lang (Groups,
 Rings, Modules, Fields/Galois, Linear/Semisimple). Part IV (Homological
 algebra Ch. XX–XXI) is **deferred to the 3.02 Gel'fand–Manin audit** —
-the two books cover the same ground and the Codex should treat Gel'fand–
+the two books cover the same ground and the Babel Bible should treat Gel'fand–
 Manin as the primary homological-algebra reference, not Lang's
 appendix. Lang's commutative-algebra material in Ch. IX–X (Noetherian
 rings, integral extensions, Krull dimension, localisation) overlaps the
@@ -78,7 +78,7 @@ Distinctive editorial choices, in roughly the order Lang develops them:
    defers categorical language to a late chapter) and with Aluffi (which
    builds categories *first* in a more leisurely way). Codex implication:
    Lang notation crosswalk must be explicit about when a "universal
-   property" is in play, because the Codex follows Aluffi's slower
+   property" is in play, because the Babel Bible follows Aluffi's slower
    category-first style in foundations units but graduate § targets
    adopt Lang's terse functorial framing.
 
@@ -149,7 +149,7 @@ Distinctive editorial choices, in roughly the order Lang develops them:
   PIDs. [ref: TODO_REF Dummit-Foote 2004]
 - Paolo Aluffi, *Algebra: Chapter 0*, AMS Graduate Studies in
   Mathematics 104, 2009. Category-first reorganisation of the same
-  material; the closest single text to the Codex's own pedagogical
+  material; the closest single text to the Babel Bible's own pedagogical
   style. Used here for cross-checking notation when Lang's categorical
   framing is too compressed. [ref: TODO_REF Aluffi 2009]
 - Nicolas Bourbaki, *Algèbre*, Chapters 1–10, Hermann then Springer
@@ -161,26 +161,26 @@ Distinctive editorial choices, in roughly the order Lang develops them:
 - M. F. Atiyah, I. G. Macdonald, *Introduction to Commutative Algebra*,
   Addison-Wesley 1969 (reprinted Westview/CRC 1994). The compact
   commutative-algebra reference; Lang Ch. IX–X covers the same material
-  in a different order. Used to anchor the Codex's commutative-algebra
+  in a different order. Used to anchor the Babel Bible's commutative-algebra
   prep for Hartshorne. [ref: TODO_REF Atiyah-Macdonald 1969]
 
 The Codex equivalence target inherits Lang's bet: graduate-tier units
 should be terse, functorial, and self-consistent across the three
 parallel theories (groups, rings, modules). A reader who has worked
-through the Codex `01.02.*` and `01.01.*` strands should be able to open
+through the Babel Bible `01.02.*` and `01.01.*` strands should be able to open
 Hartshorne Ch. I, Fulton–Harris §1, or Serre *Lie Algebras and Lie
 Groups* Part I and recognise the territory without further preparation.
 
 ---
 
-## §2 Coverage table (Codex vs Lang)
+## §2 Coverage table (Babel Bible vs Lang)
 
 Cross-referenced against the current ~313-unit corpus.
 ✓ = covered, △ = partial / different framing or shipped under a
 neighbouring directory, ✗ = not covered. Lang chapter numbers refer to
 the GTM 211 third edition.
 
-| Lang topic | Lang loc. | Codex unit(s) | Status | Note |
+| Lang topic | Lang loc. | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | Categories and functors | Ch. I §11 (and appendix) | — | ✗ | **Gap.** Codex has implicit category use but no foundational category-theory unit; deferred to a separate `01.02.0X` category-theory stub (see §3 P-1). |
 | Group, subgroup, homomorphism | Ch. I §1–3 | `01.02.01-group.md` | ✓ | Shipped. Beginner/Intermediate/Master. Master tier cites Lang §I anchor. |
@@ -235,7 +235,7 @@ the GTM 211 third edition.
 | Finite free resolutions, $\mathrm{Ext}$, $\mathrm{Tor}$ | Ch. XXI | △ | △ | `04.03.06-derived-functors-and-ext.md` exists for the sheaf-theoretic angle; pure-algebra version deferred to 3.02. |
 
 **Aggregate coverage estimate (Parts I–III only, the in-scope chapters):**
-~12% of Lang's named theorems in Ch. I–XVIII have a Codex unit that
+~12% of Lang's named theorems in Ch. I–XVIII have a Babel Bible unit that
 covers them at any tier. Of those, half are △ (covered under a
 neighbouring directory with a different framing — e.g., Maschke under
 rep-theory uses representation-language exclusively, not algebra-side
@@ -260,8 +260,8 @@ The following four downstream books currently sit on Lang's prerequisite
 shelf with no enforced gate: 3.11 Fulton–Harris (rep-theory units in
 `07-*` already produced), 3.21 Hartshorne (alg-geom units in `04-*`
 already produced), 3.13 Serre Lie groups, 3.34 Manin number theory.
-Each of these has shipped Codex units that implicitly cite Lang theorems
-*not yet covered in the Codex.* Continuity gate: the P-1 Lang units
+Each of these has shipped Babel Bible units that implicitly cite Lang theorems
+*not yet covered in the Babel Bible.* Continuity gate: the P-1 Lang units
 below should ship before further `04.*` or `07.*` units are added,
 or those new units must declare `pending_prereqs: true`.
 
@@ -387,7 +387,7 @@ or those new units must declare `pending_prereqs: true`.
     - `01.01.15-bilinear-quadratic-form.md` — Master-tier Witt
       cancellation and Witt decomposition.
     - `01.02.01-group.md` — add §Notation paragraph crosswalking Lang's
-      categorical framing (Ch. I §11) with the Codex's slower exposition.
+      categorical framing (Ch. I §11) with the Babel Bible's slower exposition.
 
 ### Priority 3 — Master-tier survey pointers (low priority)
 
@@ -534,7 +534,7 @@ equivalence-coverage when:
 - Existing `04.02.07-nullstellensatz-and-dimension-theory.md` is
   cross-linked from `01.02.17` (Hilbert basis) and `01.02.18` (Noether
   normalisation).
-- ≥95% of Lang's named theorems in Ch. I–XVIII map to Codex units
+- ≥95% of Lang's named theorems in Ch. I–XVIII map to Babel Bible units
   (currently ~12%; after Priority-1 units this rises to ~75%; after
   Priority-1 + 2 to ~92%; full ≥95% requires Priority-3 selective
   pickups + the rep-theory cross-links from item 22).

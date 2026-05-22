@@ -8,7 +8,7 @@ Volume 2 by Arbarello-Cornalba-Griffiths (GMW 268, 2011); Volume 2 is
 **out of scope** here and will be audited separately if/when its
 content (moduli of curves, second-order deformation, Witten conjecture,
 intersection theory on $\overline{\mathcal{M}}_g$) is brought into the
-Codex's algebraic-curves campaign.
+Babel Bible's algebraic-curves campaign.
 
 **Fast Track entry:** 3.22, paired with Hartshorne (3.21) and Joe Harris
 *Moduli of Curves* (3.30) as the algebraic-geometry curves trio.
@@ -36,7 +36,7 @@ the equivalence threshold (`docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`
 §3.4). Mirrors the structure of `donaldson-riemann-surfaces.md` and
 `brown-higgins-sivera-nonabelian-algebraic-topology.md`.
 
-The audit surface is **mixed** — Codex's algebraic-geometry chapter
+The audit surface is **mixed** — Babel Bible's algebraic-geometry chapter
 (`04-algebraic-geometry/`) and Riemann-surfaces chapter
 (`06-riemann-surfaces/`) jointly ship ~45 curve-relevant units;
 Riemann-Roch, divisors, Abel-Jacobi, Jacobi inversion, theta function,
@@ -172,20 +172,20 @@ Distinctive ACGH-I editorial choices:
    Lazarsfeld 1986 *Brill-Noether-Petri without degenerations*. The
    former proves Petri's conjecture by degeneration to nodal curves;
    the latter by Mukai-Lazarsfeld vector bundles on K3 surfaces. Both
-   absent from Codex.
+   absent from Babel Bible.
 5. **Riemann singularity theorem as the bridge.** Chapter VI
    identifies $\mathrm{Sing}(\Theta) = W^1_{g-1}$ via the multiplicity
    formula $\mathrm{mult}_p \theta = h^0(L_p)$. This is the
    load-bearing observation that links theta functions to
    Brill-Noether geometry, and the input to Andreotti-Mayer and the
-   Schottky problem. Codex's `06.06.08-schottky-problem` cites this
+   Schottky problem. Babel Bible's `06.06.08-schottky-problem` cites this
    in passing but does not develop it.
 6. **Theta function via geometry, not analysis.** ACGH-I's theta
    function is a holomorphic section of the line bundle
    $\mathcal{O}_{J(C)}(\Theta)$ where $\Theta$ is defined geometrically
    as the Abel-Jacobi image of $\mathrm{Sym}^{g-1}(C)$, with the
    analytic formula $\theta(z, \tau) = \sum_{n \in \mathbb{Z}^g}
-   \exp(\pi i n^T \tau n + 2\pi i n^T z)$ as a *consequence*. Codex's
+   \exp(\pi i n^T \tau n + 2\pi i n^T z)$ as a *consequence*. Babel Bible's
    `06.06.05-theta-function` is currently the analytic-formula-first
    templated stub (v0.5 Strand C/D); ACGH-I's geometric framing
    would require a full rewrite.
@@ -213,7 +213,7 @@ limit linear series at length). Volume 2 (ACG 2011) picks up there.
 
 ---
 
-## §2 Coverage table (Codex vs ACGH-I)
+## §2 Coverage table (Babel Bible vs ACGH-I)
 
 Cross-referenced against the curves-relevant subset of the corpus
 (`04-algebraic-geometry/04-curves/`, `04-algebraic-geometry/04-riemann-roch/`,
@@ -221,12 +221,12 @@ Cross-referenced against the curves-relevant subset of the corpus
 `04-algebraic-geometry/10-moduli/`, `06-riemann-surfaces/05-divisors-bundles/`,
 `06-riemann-surfaces/06-jacobians/`, plus the `06.04-riemann-roch-rs/`
 and `06.04-cohomology/` units). ✓ = covered at ACGH-I-equivalent depth,
-△ = topic present but Codex unit shallower / different framing, ✗ = not
+△ = topic present but Babel Bible unit shallower / different framing, ✗ = not
 covered.
 
 ### Chapter I — Preliminaries
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Divisor, line bundle on a curve, equivalence | `06.05.01-divisor-riemann-surface`; `06.05.02-holomorphic-line-bundle`; `04.05.01-weil-divisor`; `04.05.03-line-bundle`; `04.05.04-cartier-divisor` | ✓ | Shipped (some templated; Donaldson plan flags `06.05.01` for deepening). |
 | Picard group $\mathrm{Pic}(C)$, $\mathrm{Pic}^d(C)$, degree map | `04.05.02-picard-group` | △ | Shipped; structure $\mathrm{Pic}^d \cong \mathrm{Pic}^0 \cong J(C)$ partial — Donaldson plan item 13 calls for deepening. |
@@ -240,7 +240,7 @@ covered.
 
 ### Chapter II — Determinantal varieties
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Degeneracy loci of a map of vector bundles | — | ✗ | **Gap.** No dedicated unit anywhere in `04.*` or `03.*`. |
 | Porteous formula / Thom-Porteous class | — | ✗ | **Gap.** |
@@ -249,7 +249,7 @@ covered.
 
 ### Chapter III — Introduction to special divisors
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Special divisor**, $\ell(K - D) > 0$ | mentioned in `04.04.01-riemann-roch-curves` (Clifford prose) | △ | Defined in passing in the RR unit; no dedicated unit. |
 | **Brill-Noether number** $\rho(g, r, d) := g - (r+1)(g - d + r)$ | mentioned in `04.04.01`, `06.06.06`, `06.06.08` | △ | Formula appears three times across the corpus but is never anchored in its own unit. **Foundational symbol with no home.** |
@@ -260,10 +260,10 @@ covered.
 
 ### Chapter IV — Brill-Noether on a general curve
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Brill-Noether existence theorem** (Kempf 1971, Kleiman-Laksov 1972) | mentioned in `06.06.06-jacobi-inversion` | ✗ | **Gap (high priority).** Statement cited; proof / dedicated unit absent. The Porteous-class / degeneracy-locus proof is entirely absent (Ch. II gap above). |
-| **Brill-Noether dimension theorem** (Griffiths-Harris 1980) | mentioned in `06.06.06`, `06.06.08` | ✗ | **Gap (high priority).** Codex's most-cited unanchored result — used silently by `06.06.08`. |
+| **Brill-Noether dimension theorem** (Griffiths-Harris 1980) | mentioned in `06.06.06`, `06.06.08` | ✗ | **Gap (high priority).** Babel Bible's most-cited unanchored result — used silently by `06.06.08`. |
 | **Brill-Noether smoothness theorem** | — | ✗ | **Gap.** |
 | **Petri map** $\mu_0 : H^0(L) \otimes H^0(K \otimes L^{-1}) \to H^0(K)$ | — | ✗ | **Gap.** Foundational local invariant; absent. |
 | **Gieseker-Petri theorem** (Gieseker 1982) | — | ✗ | **Gap (high priority).** Petri general curves; the modern proof of the Brill-Noether dimension theorem. |
@@ -271,7 +271,7 @@ covered.
 
 ### Chapter V — Basic results
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Clifford's theorem** | mentioned in `04.04.01-riemann-roch-curves` | △ | Statement and hyperelliptic-equality case present in commentary; equality characterisation depth is templated. |
 | **Martens' theorem** | — | ✗ | **Gap.** |
@@ -284,7 +284,7 @@ covered.
 
 ### Chapter VI — Geometric theory of theta
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Riemann theta function on $J(C)$ | `06.06.05-theta-function` | △ | Shipped but **v0.5 Strand C/D templated** — analytic formula only, no geometric framing, no theta-divisor identification. **High-priority rewrite.** |
 | **Theta divisor** $\Theta \subset J(C)$ | mentioned in `06.06.08-schottky-problem`, `06.08.02-vhs-jacobian` | △ | Used by `06.06.08`'s Schottky / Andreotti-Mayer development; no dedicated unit anchoring the divisor itself. |
@@ -296,7 +296,7 @@ covered.
 
 ### Chapter VII — Existence / connectedness for $W^r_d$
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Detailed proof of Brill-Noether existence (Kempf / Kleiman-Laksov via Porteous) | — | ✗ | **Gap.** Master-tier; depends on Ch. II determinantal infrastructure. |
 | Fulton-Lazarsfeld connectedness theorem | — | ✗ | **Gap (specialist).** |
@@ -304,7 +304,7 @@ covered.
 
 ### Chapter VIII — Enumerative geometry
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Chern classes on $W^r_d$ | — | ✗ | **Gap.** |
 | Castelnuovo number / number of $g^r_d$'s | — | ✗ | **Gap (specialist).** |
@@ -312,7 +312,7 @@ covered.
 
 ### Appendices
 
-| ACGH-I topic | Codex unit(s) | Status | Note |
+| ACGH-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Universal Jacobian / universal Picard | mentioned in `06.08.02-vhs-jacobian` | △ | Cited; not anchored. |
 | Hilbert scheme of curves | — | ✗ | **Gap.** Defer to FT 3.30 (Joe Harris). |
@@ -325,7 +325,7 @@ covered.
   determinantal infrastructure** (absent), (b) the **Chapter III–IV
   Brill-Noether-loci block** (statements scattered as
   commentary across `06.06.06`, `06.06.08`, `04.04.01`; no
-  dedicated units; the Codex *uses* Brill-Noether $W^r_d$ in
+  dedicated units; the Babel Bible *uses* Brill-Noether $W^r_d$ in
   `06.06.08` without anchoring it), (c) the **Chapter V Martens /
   Mumford / gonality block** (absent), and (d) the **Chapter VI
   Riemann-vanishing / Riemann-singularity / theta-divisor block**
@@ -334,7 +334,7 @@ covered.
   unanchored**). After priority-1: topic ~75%, proof-depth ~55%.
   After priority-1+2: ~92% topic-level, ~80% proof-depth.
 - **Exercise layer:** ACGH-I has long, intricate, often-multi-part
-  exercises (especially Ch. III–V); Codex's templated 7-block is
+  exercises (especially Ch. III–V); Babel Bible's templated 7-block is
   essentially zero overlap. Defer to dedicated exercise-pack pass.
 - **Worked-example layer:** ~40%. Codex covers low-genus
   hyperelliptic / elliptic / canonical examples; ACGH-I's running
@@ -347,7 +347,7 @@ covered.
   ACGH-I-specific). Recommend pinning $C$ for new
   ACGH-anchored units and consolidating the $\rho$ / $W^r_d$ symbols
   with a `notation/griffiths-harris.md`.
-- **Sequencing layer:** ~50%. Codex DAG has no Brill-Noether spine;
+- **Sequencing layer:** ~50%. Babel Bible DAG has no Brill-Noether spine;
   the chain Petri map → Porteous → $W^r_d$ existence → dimension →
   Riemann singularity → theta-divisor needs to be built.
 - **Intuition layer:** ~30%. Special-divisor intuition (why
@@ -744,7 +744,7 @@ is at equivalence-coverage when:
   ~5%; closing this requires the dedicated ACGH-I-exercise-pack
   pass per §5).
 - ≥90% of ACGH-I's worked examples (hyperelliptic, trigonal,
-  canonical, Castelnuovo) are reproduced in some Codex unit
+  canonical, Castelnuovo) are reproduced in some Babel Bible unit
   (currently ~40%; the priority-1+2 batch's required
   worked-example rewrites bring this to ~75%; full ≥90% requires
   the Donaldson plan item 18 "standard examples" unit plus the
@@ -760,7 +760,7 @@ is at equivalence-coverage when:
   `notation/griffiths-harris.md` (item 20).
 - For every chapter dependency in ACGH-I (Ch. III → Ch. IV → Ch. V;
   Ch. VI → Ch. VII), there is a corresponding `prerequisites`
-  arrow chain in Codex's DAG.
+  arrow chain in Babel Bible's DAG.
 - Pass-W weaving connects the new units (`04.04.04-18`, `06.06.10`)
   to the existing `04.04.01` (Riemann-Roch), `04.04.02`
   (Hurwitz), `04.04.03` (elliptic), `04.05.*` (divisors / Picard),
@@ -798,7 +798,7 @@ mandatory — Porteous can be inline.
 **Largest single ACGH-I-distinctive gap:** the **Brill-Noether
 spine** (items 1–5: linear systems, $\rho$, $W^r_d$, existence,
 dimension, Petri). Without these, the algebraic-curves section
-of Codex carries unanchored symbols that already appear in
+of Babel Bible carries unanchored symbols that already appear in
 shipped units. **Closing this is the highest-leverage curve-theory
 audit deliverable available in the campaign window.**
 

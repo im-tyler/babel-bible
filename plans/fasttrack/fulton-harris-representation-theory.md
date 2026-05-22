@@ -28,7 +28,7 @@ sequencing, intuition, applications — see
 cover image at `reference/fast-track/images/Fulton-Harris-Rep-Theory-...jpg`).
 Springer preview is gated; Google Books preview is gated. This audit works
 from (a) the **public TOC structure** of GTM 129 (well-documented and
-referenced by the Fast Track source page §3.11), (b) the Codex's existing
+referenced by the Fast Track source page §3.11), (b) the Babel Bible's existing
 26 shipped units in `content/07-representation-theory/`, and (c) the
 originator literature. A full line-number audit is deferred until a PDF is
 acquired. This is consistent with the audit-stub convention used for
@@ -157,7 +157,7 @@ synthesis.
 
 ---
 
-## §2 Coverage table (Codex vs FH)
+## §2 Coverage table (Babel Bible vs FH)
 
 Cross-referenced against the current 26 shipped units of
 `content/07-representation-theory/` plus prerequisites pulled in from
@@ -165,7 +165,7 @@ Cross-referenced against the current 26 shipped units of
 ✓ = covered, △ = partial / different framing / coverage on inspection
 of the unit body but not the explicit FH worked example, ✗ = not covered.
 
-| FH topic | Codex unit(s) | Status | Note |
+| FH topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Group representation, equivalence, sub/quotient | `07.01.01` group-representation | ✓ | Master tier cites FH and Serre as anchors. |
 | Schur's lemma | `07.01.02` schur-lemma | ✓ | Direct correspondent. |
@@ -183,14 +183,14 @@ of the unit body but not the explicit FH worked example, ✗ = not covered.
 | Specht modules / Young symmetrisers | `07.05.03` specht-module | ✓ | |
 | Frobenius character formula for $S_n$ | △ (referenced in `07.05.02`) | △ | **Gap (medium-low).** Mentioned but no dedicated unit; FH §4 gives a complete proof. Candidate: `07.05.04` frobenius-character-formula. |
 | Schur-Weyl duality $\mathrm{GL}_d \times S_n$ on $V^{\otimes n}$ | △ (stated in `07.05.01`, `07.05.02`) | △ | **Gap (high).** Codex states it; FH §6 gives the full proof. Candidate: `07.05.04` schur-weyl-duality (or fold into the `07.05.04` slot). |
-| Schur functors, polynomial reps of $\mathrm{GL}_n$ | — | ✗ | **Gap (medium).** FH §6 + Appendix C. No Codex unit. Candidate: `07.05.05` schur-functor. |
+| Schur functors, polynomial reps of $\mathrm{GL}_n$ | — | ✗ | **Gap (medium).** FH §6 + Appendix C. No Babel Bible unit. Candidate: `07.05.05` schur-functor. |
 | Littlewood-Richardson rule | — | ✗ | **Gap (medium-low).** FH §A.1 states it; full proof referenced to Macdonald. Candidate: short pointer unit `07.05.06` littlewood-richardson. |
 | RSK correspondence | — | ✗ | **Gap (low).** Not in FH proper (referred to Sagan/Macdonald); Codex skip is consistent with FH but a master-tier deepening would close the Sagan-coverage hole. |
 | Lie algebra representation | `07.06.01` lie-algebra-representation | ✓ | |
 | Universal enveloping algebra; PBW | `07.06.02` universal-enveloping-algebra | ✓ | |
 | Casimir element | — (touched in `07.06.07`) | △ | **Gap (medium).** FH §6 uses the Casimir constantly; Codex references it in passing. Candidate: short unit `07.06.10` casimir-element. |
 | $\mathfrak{sl}_2 \mathbb{C}$ rep theory worked out | △ (in `07.03.01` and `07.06.06`) | △ | **Gap (high — pedagogical centrepiece of FH).** Codex has highest-weight theory and Verma modules abstractly, but no dedicated $\mathfrak{sl}_2$ unit walking through the $V_n$ classification, ladder operators, and the character $\chi_n(t) = (t^{n+1} - t^{-n-1})/(t - t^{-1})$. Candidate: `07.06.11` sl2-representations. |
-| $\mathfrak{sl}_3 \mathbb{C}$ rep theory worked out (the hexagonal-weight pictures) | — | ✗ | **Gap (very high — the FH centrepiece).** No Codex unit. Without this, a Codex reader cannot reproduce the FH §§11–13 visual programme. Candidate: `07.06.12` sl3-representations. |
+| $\mathfrak{sl}_3 \mathbb{C}$ rep theory worked out (the hexagonal-weight pictures) | — | ✗ | **Gap (very high — the FH centrepiece).** No Babel Bible unit. Without this, a Babel Bible reader cannot reproduce the FH §§11–13 visual programme. Candidate: `07.06.12` sl3-representations. |
 | Root system | `07.06.03` root-system | ✓ | |
 | Weyl group | `07.06.04` weyl-group | ✓ | |
 | Dynkin diagram and the $A$/$B$/$C$/$D$ classification | `07.06.05` dynkin-diagram | ✓ | |
@@ -200,7 +200,7 @@ of the unit body but not the explicit FH worked example, ✗ = not covered.
 | Weyl character formula | `07.06.07` weyl-character-formula | ✓ | |
 | Weyl dimension formula | `07.06.08` weyl-dimension-formula | ✓ | |
 | Borel-Weil theorem (geometric realisation) | `07.06.09` borel-weil-theorem | ✓ | Goes *beyond* FH (FH does not cover the geometric realisation; this is FH-equivalent + Knapp/Bump deepening). |
-| Steinberg formula / Kostant multiplicity | — | △ | **Gap (low — Master deepening).** FH §25; no Codex unit. Candidate: §Master extension to `07.06.07`. |
+| Steinberg formula / Kostant multiplicity | — | △ | **Gap (low — Master deepening).** FH §25; no Babel Bible unit. Candidate: §Master extension to `07.06.07`. |
 | Compact Lie group representation | `07.07.01` compact-lie-group-representation | ✓ | |
 | Peter-Weyl theorem | `07.07.02` peter-weyl-theorem | ✓ | |
 | Haar measure | `07.07.03` haar-measure | ✓ | |
@@ -273,7 +273,7 @@ distinctive. This is exactly the pattern the stub task predicted
    pedagogical centrepiece and is the **single largest gap.** Three-tier;
    master tier includes the dimension formula via the hexagonal-Weyl
    count. ~2500 words. **High pedagogical leverage; closes a worked-
-   example gap that no other Codex unit fills.**
+   example gap that no other Babel Bible unit fills.**
 
 3. **`07.05.04` Schur-Weyl duality.** Standalone unit. $\mathrm{GL}_d
    \times S_n$ acting on $V^{\otimes n}$; the bimodule decomposition
@@ -443,7 +443,7 @@ explicitly note the $L(\lambda)$ correspondence in a §Notation paragraph.
 - A line-number-level inventory of every named theorem in FH (full P1
   audit; deferred until a local PDF is acquired). Coverage estimates
   in §2 are based on FH's well-known chapter structure plus
-  spot-checks of Codex units.
+  spot-checks of Babel Bible units.
 - **Serre's three slim books** (FT 3.12 *Trees*, 3.13 *A Course in
   Arithmetic — Linear Reps fragment*, 3.15 *Linear Representations of
   Finite Groups*). Per the stub spec, those are deferred to their own
@@ -458,7 +458,7 @@ explicitly note the $L(\lambda)$ correspondence in a §Notation paragraph.
   matrix-Lie-group-first ordering rather than Lie-algebra-first.
 - **The infinite-dimensional rep theory of non-compact Lie groups**
   (Harish-Chandra, Mackey, Kirillov orbit method). FH excludes this
-  by design; the Codex follows FH.
+  by design; the Babel Bible follows FH.
 - **Modular representation theory** (Brauer characters, blocks,
   decomposition matrices). FH excludes; Codex follows.
 - **Algebraic groups in positive characteristic** (Jantzen *Representations
@@ -479,7 +479,7 @@ equivalence-coverage when:
   `07.06.12 sl3`, `07.05.04 schur-weyl-duality`). These close the
   largest pedagogical gap.
 - ≥95% of FH's named theorems and major worked examples in chapters
-  1–26 map to a Codex unit (currently ~65%; after Priority-1 this
+  1–26 map to a Babel Bible unit (currently ~65%; after Priority-1 this
   rises to ~85%; after Priority-1+2 to ~92%; full ≥95% requires
   Priority-3 master deepenings).
 - ≥90% of FH's worked computations have a direct unit or are
@@ -497,7 +497,7 @@ equivalence-coverage when:
 §4):
 
 - **4.1 Book-as-input self-check.** Sample 5 random theorem statements
-  from FH; for each, identify the Codex unit that proves it.
+  from FH; for each, identify the Babel Bible unit that proves it.
 - **4.2 Exercise reproducibility.** Sample 5 random exercises from
   FH (likely from §§3, 4, 11, 13, 22); for each, identify the Codex
   unit(s) sufficient to solve it. Note: FH exercises are notoriously
@@ -505,7 +505,7 @@ equivalence-coverage when:
   sampling protocol should bias toward computational rather than
   open-ended exercises.
 - **4.3 Notation comprehension.** Sample 5 fragments of FH prose;
-  paraphrase each into the Codex notation system (per §4 crosswalk).
+  paraphrase each into the Babel Bible notation system (per §4 crosswalk).
 
 ---
 

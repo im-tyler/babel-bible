@@ -6,7 +6,7 @@ Theory of Analytic Functions of One Complex Variable* (3rd ed., McGraw-Hill,
 
 **Fast Track entry:** 1.04. The canonical graduate complex-analysis
 text — the **single-complex-variable anchor** of the FT analysis spine.
-Already cited by `tier_anchors` on five existing Codex units
+Already cited by `tier_anchors` on five existing Babel Bible units
 (`06.01.01-holomorphic-function`, `06.01.06-riemann-mapping-theorem`,
 and others — see §2). Paired downstream with FT 1.07 (Donaldson /
 Forster / Miranda Riemann-surfaces); Ahlfors prepares the
@@ -26,7 +26,7 @@ nominally present; **the entire Ahlfors back half — gamma function,
 zeta function, Weierstrass factorization (only the corollary use in
 Cousin II shipped), normal families / Montel, Schwarz-Christoffel,
 Picard's theorems, harmonic-function theory, hyperbolic / Schwarz-Pick
-geometry — is absent from Codex.**
+geometry — is absent from Babel Bible.**
 
 The work is dominated by **(a) deepenings** of the five templated
 06.01.x stubs (highest priority — they currently fail equivalence at
@@ -90,42 +90,42 @@ flagged):
 1. **Geometric throughout.** Conformality drives Ch. 2-3; the
    Schwarz-Pick hyperbolic metric on the disc is woven into Schwarz
    lemma so Picard, Schottky, Bloch, Riemann mapping all become
-   hyperbolic-isometry / contraction arguments. **Codex: zero
+   hyperbolic-isometry / contraction arguments. **Babel Bible: zero
    hyperbolic-metric content.**
 2. **Riemann sphere from Chapter 1.** $\mathbb{C}_\infty = S^2$ in
    §1.4; chordal metric immediately. Möbius transformations are
-   *chordal isometries* (up to rotation). **Codex: no Riemann-sphere
+   *chordal isometries* (up to rotation). **Babel Bible: no Riemann-sphere
    unit.**
 3. **Möbius transformations as a category.** $\mathrm{PSL}_2(\mathbb{C})
    \curvearrowright \mathbb{C}_\infty$, cross-ratio, classification
    (parabolic / elliptic / loxodromic / hyperbolic). Bridge to
-   hyperbolic geometry. **Codex: absent.**
+   hyperbolic geometry. **Babel Bible: absent.**
 4. **Cauchy's theorem in homological form.** Cycles, winding
    numbers, Dixon proof. **Codex `06.01.02` is templated — no proof,
    no Dixon.**
 5. **Argument principle + Rouché in one section** as residue
-   corollaries on $f'/f$. **Codex: absent.**
+   corollaries on $f'/f$. **Babel Bible: absent.**
 6. **Schwarz lemma → Schwarz-Pick → hyperbolic geometry.**
-   Foundational for Picard. **Codex: absent.**
-7. **Phragmén-Lindelöf** for unbounded domains. **Codex: absent.**
+   Foundational for Picard. **Babel Bible: absent.**
+7. **Phragmén-Lindelöf** for unbounded domains. **Babel Bible: absent.**
 8. **Harmonic functions + Dirichlet (Poisson / Perron).** Half of
    why complex analysis matters in PDE / fluid / EM applications.
-   **Codex: zero harmonic content.**
-9. **Weierstrass factorization on $\mathbb{C}$.** Codex's
+   **Babel Bible: zero harmonic content.**
+9. **Weierstrass factorization on $\mathbb{C}$.** Babel Bible's
    `06.09.05-cousin-ii` mentions the RS-corollary; the **plane
    theorem absent**.
 10. **Gamma function $\Gamma(z)$ — full development.** Single
-    most-cited example of analytic continuation. **Codex: absent.**
+    most-cited example of analytic continuation. **Babel Bible: absent.**
 11. **Riemann zeta $\zeta(s)$**, analytic continuation, functional
-    equation. **Codex: absent.**
+    equation. **Babel Bible: absent.**
 12. **Normal families / Montel.** Used for Riemann mapping (Ch. 6)
-    and Picard (Ch. 8). **Codex: absent.**
+    and Picard (Ch. 8). **Babel Bible: absent.**
 13. **Schwarz-Christoffel** for polygons. PDE / fluid / EM tool.
-    **Codex: absent.**
+    **Babel Bible: absent.**
 14. **Picard little + great.** Capstone of one-complex-variable.
-    **Codex: absent.**
-15. **Schottky / Bloch.** Quantitative Picard. **Codex: absent.**
-16. **Weierstrass $\wp$ + modular function $\lambda / j$.** Codex's
+    **Babel Bible: absent.**
+15. **Schottky / Bloch.** Quantitative Picard. **Babel Bible: absent.**
+16. **Weierstrass $\wp$ + modular function $\lambda / j$.** Babel Bible's
     `06.06.05-theta-function` is templated; **no $\wp$ unit, no
     modular-form unit**.
 17. **Monodromy theorem** (Ch. 8 §1). **Codex `06.01.04` is templated
@@ -142,9 +142,9 @@ Forster / Miranda).
 
 ---
 
-## §2 Coverage table (Codex vs Ahlfors)
+## §2 Coverage table (Babel Bible vs Ahlfors)
 
-Existing Codex units relevant to Ahlfors, from
+Existing Babel Bible units relevant to Ahlfors, from
 `find content -name "*.md" | sort`:
 
 - **`06.01-complex-analysis/`** (6 units, 5 templated):
@@ -172,7 +172,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 1 — Complex Numbers
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §1.1-1.2 Complex algebra, polar form, roots of unity | — | ✗ | **Gap.** Belongs in `00-precalc` or new `06.01.00`. |
 | §1.3 The complex plane as a metric space | partial in `02.01.05-metric-space` | △ | Generic metric-space coverage; complex specifics absent. |
@@ -181,7 +181,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 2 — Complex Functions
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §2.1 Topology of $\mathbb{C}$, limits, sequences | partial in `02.01.05` | △ | Generic. |
 | §2.1 Analytic functions, Cauchy-Riemann | `06.01.01-holomorphic-function` | △ | Definition shipped at depth; CR equations not unpacked at Ahlfors's level (real-and-imaginary-part decomposition; harmonic conjugate). |
@@ -194,7 +194,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 3 — Analytic Functions as Mappings
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §3.1 Elementary conformal mapping (Möbius + elementary functions in detail) | — | ✗ | Cross-references Ch 2 + new Möbius unit; depth gap. |
 | §3.2 **Harmonic functions; Laplacian; mean-value property** | — | ✗ | **Gap (P1 — Ahlfors-distinctive).** Codex has zero harmonic-function content. |
@@ -206,7 +206,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 4 — Complex Integration
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §4.1 **General Cauchy's theorem (homological version, Dixon proof)** | partial in `06.01.02` | △ | **Templated; DEEPEN essential.** Ahlfors's homological framing absent. |
 | §4.1 Cycles, winding numbers, homology in domains | — | ✗ | **Gap (P1).** |
@@ -221,7 +221,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 5 — Series and Product Developments
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §5.1 Power series, radius of convergence | — | ✗ | **Gap (P2).** Foundational; might fit under `00-precalc/02.07-series` or new unit. |
 | §5.1 **Taylor and Laurent series** | partial in `06.01.05` Master | △ | Templated mention; expansion theorem not stated at depth. |
@@ -234,7 +234,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 6 — Conformal Mapping, Dirichlet's Problem
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §6.1 **Riemann mapping theorem (proof via normal families)** | `06.01.06-riemann-mapping-theorem` (templated) | △ | **Templated stub — DEEPEN essential.** Currently no proof, no statement at Ahlfors depth. |
 | §6.1 Boundary behaviour (Carathéodory) | — | ✗ | **Gap (P3).** |
@@ -244,7 +244,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 7 — Elliptic Functions
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §7.1 Doubly-periodic functions; period lattice | partial via `06.06.02-period-matrix` | △ | RS-generalised; classical $\mathbb{C}/\Lambda$ unit absent. |
 | §7.2 **Weierstrass $\wp$ function**; differential equation $(\wp')^2 = 4\wp^3 - g_2 \wp - g_3$ | — | ✗ | **Gap (P1).** |
@@ -254,7 +254,7 @@ unit shallower / templated, ✗ = not covered.
 
 ### Chapter 8 — Global Analytic Functions
 
-| Ahlfors topic | Codex unit | Status | Note |
+| Ahlfors topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | §8.1 Analytic continuation along curves | partial in `06.01.04` (templated) | △ | **Templated; DEEPEN essential.** Curve-continuation explicit; monodromy not stated. |
 | §8.1 **Monodromy theorem** | — | ✗ | **Gap (P1).** Belongs in `06.01.04` deepening. |
@@ -299,7 +299,7 @@ unit shallower / templated, ✗ = not covered.
 ## §3 Gap punch-list (P3-lite — units to write or deepen, priority-ordered)
 
 The shape of this audit differs from peer surfaces audits: Ahlfors is
-**the prerequisite**, not the surface. Codex's `06.01-complex-analysis/`
+**the prerequisite**, not the surface. Babel Bible's `06.01-complex-analysis/`
 chapter currently fails equivalence on two axes — (a) five of six
 shipped units are **templated v0.5 Strand C/D stubs** without genuine
 prose (DEEPEN required), and (b) Ahlfors's **back-half block** (Ch 5-8)
@@ -676,7 +676,7 @@ plane prequel to the Donaldson uniformization deepening; co-cite.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book
 is at equivalence-coverage when:
 
-- ≥95% of Ahlfors's named theorems map to Codex units **at
+- ≥95% of Ahlfors's named theorems map to Babel Bible units **at
   Ahlfors-equivalent proof depth** (currently ~12% — five of six
   shipped units are templated; after Batch A 5 deepenings, ~35%;
   after priority-1 (Batches A-E), ~85%; after priority-1+2,
@@ -685,7 +685,7 @@ is at equivalence-coverage when:
   ~3% — the templated 7-block on five of six units; closing this
   requires items 29-30 plus the future v0.7 comprehensive
   complex-analysis exercise pack).
-- ≥90% of Ahlfors's worked examples reproduced in some Codex unit
+- ≥90% of Ahlfors's worked examples reproduced in some Babel Bible unit
   (currently ~10% — the contour-integration tour and the sphere /
   Möbius worked maps absent; priority-1 deepenings + items 29-30
   bring this to ~90%).

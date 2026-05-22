@@ -7,7 +7,7 @@ Library 1996 (ISBN 0-471-15733-3). The canonical English-language reference
 for connection-theoretic differential geometry.
 
 **Fast Track entry:** 3.18 (KN Vol. I is the cited anchor for
-connection-and-curvature units across the Codex modern-geometry chapter;
+connection-and-curvature units across the Babel Bible modern-geometry chapter;
 KN Vol. II is its own Fast Track entry 3.19, deferred to a separate audit).
 
 **Purpose of this plan:** lightweight audit-and-gap pass (P1-lite + P2 +
@@ -152,14 +152,14 @@ classes) → Bleecker / Donaldson-Kronheimer (gauge theory) → Joyce
 
 ---
 
-## §2 Coverage table (Codex vs KN-I)
+## §2 Coverage table (Babel Bible vs KN-I)
 
-Cross-referenced against the current Codex corpus. ✓ = covered,
+Cross-referenced against the current Babel Bible corpus. ✓ = covered,
 △ = partial / different framing, ✗ = not covered. KN-I material maps
 primarily to `03-modern-geometry/02-manifolds/`, `03-lie/`, `05-bundles/`,
 `07-gauge-theory/`, and adjacent.
 
-| KN-I topic | Codex unit(s) | Status | Note |
+| KN-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Ch. I — manifold prerequisites** | | | |
 | Smooth manifold, atlas, charts | `03.02.01-smooth-manifold.md` | ✓ | Single Codex manifold unit. Anchored on Lee. KN-I Ch. I §1 covered. |
@@ -190,7 +190,7 @@ primarily to `03-modern-geometry/02-manifolds/`, `03-lie/`, `05-bundles/`,
 | Exponential map $\exp_p$ at a point; normal coordinates | — | ✗ | **Gap.** Cited downstream (Cartan-Hadamard, Bonnet-Myers) without anchor. |
 | Geodesic completeness | — | ✗ | **Gap.** |
 | **Ch. IV — Riemannian connections** | | | |
-| Levi-Civita connection (existence + uniqueness) | — | ✗ | **Gap.** This is the most-cited missing unit in the Codex: `03.09.18-berger-holonomy.md` invokes it without anchor; the Milnor audit lists it as priority-2 item `03.03.X1`. KN-I §IV is the canonical anchor. |
+| Levi-Civita connection (existence + uniqueness) | — | ✗ | **Gap.** This is the most-cited missing unit in the Babel Bible: `03.09.18-berger-holonomy.md` invokes it without anchor; the Milnor audit lists it as priority-2 item `03.03.X1`. KN-I §IV is the canonical anchor. |
 | Sectional curvature | — | ✗ | **Gap.** |
 | Ricci tensor, scalar curvature | — | ✗ | **Gap.** |
 | Hopf-Rinow theorem | — | ✗ | **Gap.** Shared with the Milnor audit punch-list. |
@@ -201,7 +201,7 @@ primarily to `03-modern-geometry/02-manifolds/`, `03-lie/`, `05-bundles/`,
 | Myers-Steenrod (isometry group is a Lie group) | — | ✗ | **Gap.** |
 | **Ch. VII — holonomy** | | | |
 | Holonomy group $\mathrm{Hol}(\omega, u)$; restricted holonomy $\mathrm{Hol}^0$ | △ | △ | `03.09.18-berger-holonomy.md` is shipped and *uses* the holonomy group as its central object, but it imports it without a definitional anchor unit. The Berger classification unit therefore has a load-bearing prerequisite gap. |
-| Ambrose-Singer theorem (Lie algebra of $\mathrm{Hol}^0$ = curvature span) | — | ✗ | **Gap.** Foundational holonomy theorem; absent from the Codex. |
+| Ambrose-Singer theorem (Lie algebra of $\mathrm{Hol}^0$ = curvature span) | — | ✗ | **Gap.** Foundational holonomy theorem; absent from the Babel Bible. |
 | Holonomy reduction theorem | — | ✗ | **Gap.** |
 | Berger's classification of Riemannian holonomy | `03.09.18-berger-holonomy.md` | △ | Shipped, but as a **downstream** unit in the spin-geometry chapter; the upstream KN-I Ch. VII apparatus (Ambrose-Singer, restricted holonomy, reduction) is absent. |
 | **Ancillary / gauge-theory bridge** | | | |
@@ -226,7 +226,7 @@ Chapter VII (holonomy) has the *downstream* classification unit
 (`03.09.18`) but the *upstream* apparatus (Ambrose-Singer, restricted
 holonomy, holonomy reduction) is missing.
 
-**Silent KN-I dependencies in the Codex.** The audit reveals a
+**Silent KN-I dependencies in the Babel Bible.** The audit reveals a
 cluster of units that cite KN-I as their master anchor but whose load-
 bearing prerequisites are uncovered:
 
@@ -248,7 +248,7 @@ bearing prerequisites are uncovered:
 5. **`03.07.05-yang-mills-action.md`** — the **entire** gauge-theory
    chapter is one unit whose Master tier cites Atiyah-Bott and
    Donaldson-Kronheimer; both anchor texts assume KN-I Ch. II–III + Ch. VII
-   as prerequisites that the Codex does not supply at present.
+   as prerequisites that the Babel Bible does not supply at present.
 6. **`03.09.18-berger-holonomy.md`** — cites Berger 1955 directly,
    bypasses KN-I Ch. VII (Ambrose-Singer / holonomy reduction). The
    **definition** of the holonomy group is invoked without an anchor.
@@ -335,7 +335,7 @@ as silently load-bearing.
     Hopf-Rinow.** Shared with the Milnor audit (`milnor-morse-theory.md`
     punch-list item 6). KN-I §IV.1–§IV.4 anchor; do Carmo *Riemannian
     Geometry* Ch. 2–7 secondary anchor. ~2500 words. Three-tier.
-    **Single most-cited missing unit in the Codex.**
+    **Single most-cited missing unit in the Babel Bible.**
 
 **Priority 2 — Ch. IV–V Riemannian completions and Ch. VII holonomy:**
 
@@ -505,7 +505,7 @@ $F = \Omega$ aliases in `03.07.05-yang-mills-action.md` and in
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of KN-I's named theorems in Chs. I–VII map to Codex units.
+- ≥95% of KN-I's named theorems in Chs. I–VII map to Babel Bible units.
   Current ~20–25%; after priority-0 patches rises to ~40%; after
   priority-0+1 to ~75%; after priority-0+1+2 to ~92%; full ≥95%
   requires priority-3 (priority-4 is weaving, not new units).

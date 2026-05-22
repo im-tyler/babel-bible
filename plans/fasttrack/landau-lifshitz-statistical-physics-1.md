@@ -185,7 +185,7 @@ Distinctive contributions, in roughly the order Vol 5 develops them:
    **mandatory originator-prose** with citation to the 1937 papers.
 
 These eight contributions are the distinctive Landau-canonical
-material that the Codex `08-stat-mech/` chapter must capture to
+material that the Babel Bible `08-stat-mech/` chapter must capture to
 reach FT-equivalence for Vol 5. The book also covers two further
 strands deferred to Vol 9:
 
@@ -195,7 +195,7 @@ strands deferred to Vol 9:
   *Physical Kinetics*; not in scope).
 
 Density of theorem layer vs. existing Codex `08-stat-mech/` chapter:
-the **22 shipped Codex units** are weighted heavily toward
+the **22 shipped Babel Bible units** are weighted heavily toward
 **field-theoretic / lattice / RG** topics (Wilson-Fisher RG,
 beta function, block-spin decimation, Wick rotation, lattice gauge,
 path integral, gaussian field, conformal criticality). Landau Vol 5
@@ -221,7 +221,7 @@ territory.
 
 ---
 
-## §2 Coverage table (Codex vs Landau Vol 5)
+## §2 Coverage table (Babel Bible vs Landau Vol 5)
 
 Cross-referenced against the current 22-unit `08-stat-mech/` chapter
 plus the broader corpus. ✓ = covered at Landau-equivalent depth, △ =
@@ -230,7 +230,7 @@ captured, ✗ = not covered.
 
 ### Chapter I — The Fundamental Principles of Statistics (§§1–7, ~30 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Statistical distribution function $\rho(p,q)$ (§1) | — | ✗ | **Gap.** No phase-space-density unit exists; the shipped `partition` block jumps directly to Boltzmann weights. Foundational for the microcanonical-first sequencing. |
 | Liouville's theorem (§3) | `05.02.07-liouville-volume` (Vol 1 shipped) | △ | **Cross-chapter shipped** in symplectic mechanics; needs lateral reference from a new stat-mech unit. Landau's *statistical-mechanics* application (probability density preserved along the flow) is the new context. |
@@ -240,12 +240,12 @@ captured, ✗ = not covered.
 
 ### Chapter II — Thermodynamic Quantities (§§8–27, ~50 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Temperature, pressure as derivatives of entropy (§§9–10) | — | ✗ | **Gap.** $1/T = \partial S/\partial E$; thermodynamic-quantities-as-Lagrange-multipliers framing absent. |
 | Adiabatic process and adiabatic invariant connection (§11) | (`05.09.02-adiabatic-invariants` Vol 1 shipped) | △ | Cross-chapter reference; thermodynamic-adiabatic distinct from mechanical-adiabatic; needs disambiguating unit. |
 | Free energy $F = E - TS = -T \ln Z$ (§15) | `08.01.04-free-energy` | △ | **Shipped**; Landau's thermodynamic-Legendre-transform derivation worth an explicit Beginner-tier anchor. |
-| Gibbs free energy $\Phi$, enthalpy $W$ (§§14, 16) | — | ✗ | **Gap.** The Legendre-transform square (Born square) is not in the Codex. |
+| Gibbs free energy $\Phi$, enthalpy $W$ (§§14, 16) | — | ✗ | **Gap.** The Legendre-transform square (Born square) is not in the Babel Bible. |
 | Maxwell relations (implicit §16) | — | ✗ | **Gap.** Cross-derivative identities; mnemonic / Born-square deferred but useful. |
 | Thermodynamic inequalities and stability (§§21–22) | — | ✗ | **Gap.** $C_V > 0$, $(\partial P/\partial V)_T < 0$ from concavity of $F$. Landau-distinctive: stability criteria as second-derivative conditions. |
 | Nernst's theorem / Third law (§23) | — | ✗ | **Gap.** $S \to 0$ as $T \to 0$ for quantum systems with non-degenerate ground state. |
@@ -253,7 +253,7 @@ captured, ✗ = not covered.
 
 ### Chapter III — The Gibbs Distribution (§§28–36, ~30 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Canonical Gibbs distribution from subsystem (§28) | `08.01.03-boltzmann-distribution` | △ | **Shipped** as Boltzmann distribution and canonical ensemble; Landau's *subsystem-of-a-microcanonical-bath* derivation is the canonical originator-derivation and is not in the Master tier of the shipped unit. |
 | Maxwell distribution of molecular velocities (§29) | — | ✗ | **Gap.** Worked example; physicist-foundational. |
@@ -263,17 +263,17 @@ captured, ✗ = not covered.
 
 ### Chapter IV — Ideal Gases (§§37–52, ~35 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Boltzmann distribution of independent particles (§37) | (covered) | ✓ | Touched in `08.01.03`. |
 | Equipartition theorem (§44) | — | ✗ | **Gap.** Each quadratic degree of freedom contributes $\tfrac{1}{2}T$ to $\langle E \rangle$. |
-| Classical ideal monatomic gas — $E = \tfrac{3}{2}NT$, $PV = NT$ (§§40–41) | — | ✗ | **Gap.** The textbook physicist worked example absent from Codex. |
+| Classical ideal monatomic gas — $E = \tfrac{3}{2}NT$, $PV = NT$ (§§40–41) | — | ✗ | **Gap.** The textbook physicist worked example absent from Babel Bible. |
 | Diatomic / polyatomic rotational and vibrational degrees of freedom (§§44–49) | — | ✗ | **Gap.** Temperature-dependent specific heat from internal modes. |
 | Chemical reactions in gases — law of mass action (§§101–106; in Ch. IX) | — | ✗ | **Gap.** Equilibrium constant from $\mu_i = 0$ summed with stoichiometric coefficients. Physicist-canonical, mathematician-absent. |
 
 ### Chapter V — The Fermi and the Bose Distributions (§§53–62, ~25 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Quantum-statistical state counting (§53) | — | ✗ | **Gap.** Indistinguishability postulate and the two statistics. |
 | Fermi-Dirac distribution (§55) | — | ✗ | **Gap (Landau-canonical, FT-foundational).** |
@@ -283,7 +283,7 @@ captured, ✗ = not covered.
 
 ### Chapter VI — Solids (§§63–70, ~30 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Debye theory of specific heats (§§64–66) | — | ✗ | **Gap (Landau-canonical).** $T^3$ law at low temperature; Debye temperature; phonon partition function. Originator: Debye 1912. |
 | Einstein model of crystalline solid (§64) | — | ✗ | **Gap.** Predecessor to Debye; Einstein 1907. |
@@ -291,7 +291,7 @@ captured, ✗ = not covered.
 
 ### Chapter VII — Non-Ideal Gases (§§71–84, ~40 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Virial expansion / Mayer cluster expansion (§§74–76) | — | ✗ | **Gap.** Second virial coefficient $B_2(T)$ from pair potential. |
 | Van der Waals equation (§76 + §82) | — | ✗ | **Gap (Landau-canonical).** Liquid-gas isotherms, Maxwell construction. |
@@ -299,11 +299,11 @@ captured, ✗ = not covered.
 
 ### Chapter VIII — Phases of Matter / Chapter IX — Solutions (§§81–110, ~50 pp.)
 
-Phase equilibrium, Clausius-Clapeyron, triple point, solutions, osmotic pressure, mass-action. **All ✗ in Codex.** These are physicist-thermodynamics topics with no analogue in the field-theory-flavored `08-stat-mech/` chapter. Most are below FT-equivalence priority (Goldenfeld / Reif cover them; Kardar Vol I does not isolate them as load-bearing). Treated as Priority-4 deepenings only.
+Phase equilibrium, Clausius-Clapeyron, triple point, solutions, osmotic pressure, mass-action. **All ✗ in Babel Bible.** These are physicist-thermodynamics topics with no analogue in the field-theory-flavored `08-stat-mech/` chapter. Most are below FT-equivalence priority (Goldenfeld / Reif cover them; Kardar Vol I does not isolate them as load-bearing). Treated as Priority-4 deepenings only.
 
 ### Chapter XII — Fluctuations (§§110–128, ~50 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Gaussian fluctuation distribution (§§110–112) | (touched in `08.06.01-gaussian-field`) | △ | Codex has Gaussian *field*; Landau has Gaussian *thermodynamic-fluctuation*. Related but distinct framings. |
 | Density and energy fluctuations of an ideal gas (§§114–115) | — | ✗ | **Gap.** Worked example: $\langle (\Delta N)^2 \rangle = N$ (Poisson). |
@@ -314,7 +314,7 @@ Phase equilibrium, Clausius-Clapeyron, triple point, solutions, osmotic pressure
 
 ### Chapter XIV — Phase Transitions of the Second Kind (§§143–148, ~30 pp.)
 
-| Landau topic | Codex unit(s) | Status | Note |
+| Landau topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Order parameter and symmetry classification (§§142–143) | (touched in `08.02.02-spontaneous-symmetry-breaking`) | △ | SSB unit covers the Goldstone-mode side; Landau-symmetry-classification (allowed transitions by little-group analysis) is distinct and Landau-distinctive. |
 | **Landau phenomenological expansion** $F = F_0 + a(T)\eta^2 + b\eta^4 + \cdots$ (§144) | (touched in `08.02.01-mean-field`) | △ | **Mean-field unit shipped**; Landau's *expansion-in-the-order-parameter* framing is the *originator* of mean-field, and the unit cites Onsager but not the 1937 Landau paper. Originator-prose anchor needed. |
@@ -334,7 +334,7 @@ Phase equilibrium, Clausius-Clapeyron, triple point, solutions, osmotic pressure
   absent (Maxwell distribution, ideal-gas thermodynamics, Sommerfeld
   expansion, Debye $T^3$, virial coefficients, van der Waals,
   fluctuation Poisson distribution, Nyquist formula) — not present
-  in Codex.
+  in Babel Bible.
 - **Notation layer:** ~60%. Major crosswalk concerns:
   - Landau writes $T$ for temperature in energy units (i.e. $k_B = 1$);
     Codex follows this convention in some units, uses $\beta = 1/(k_B T)$
@@ -351,7 +351,7 @@ Phase equilibrium, Clausius-Clapeyron, triple point, solutions, osmotic pressure
   → ensembles → ideal gas → quantum gas → real gas → fluctuations →
   phase transitions. The two orderings reflect different editorial
   intents (field-theoretic-RG vs. thermodynamic-physicist) — neither
-  is wrong, but the Codex sequencing **does not motivate** the
+  is wrong, but the Babel Bible sequencing **does not motivate** the
   ensembles from physical subsystem arguments, which is the
   Landau-distinctive pedagogical move.
 - **Intuition layer:** ~20%. Physicist-intuition (fluctuation around
@@ -360,7 +360,7 @@ Phase equilibrium, Clausius-Clapeyron, triple point, solutions, osmotic pressure
   almost entirely absent from the geometer-flavored shipped chapter.
 - **Application layer:** ~10%. Debye, Einstein, Sommerfeld,
   Bose-Einstein condensation, Nyquist, van der Waals — none of these
-  Landau-canonical applications has a Codex unit.
+  Landau-canonical applications has a Babel Bible unit.
 
 After priority-1 batch: theorem layer ~55%, framing-depth ~45%,
 application ~50%. After priority-1+2: ~80% / ~75% / ~75%. Priority-3
@@ -404,7 +404,7 @@ Recommended slot ranges:
    microcanonical mother system (Landau §28, §35). **Originator-prose
    target**: paraphrase Gibbs 1902 Ch. I directly. **The single most
    important deepening in this audit** — it provides the
-   microcanonical-first scaffolding the Codex chapter currently
+   microcanonical-first scaffolding the Babel Bible chapter currently
    lacks.
 
 2. **`08.10.01` Thermodynamic potentials and Maxwell relations.**
@@ -718,7 +718,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9,
 *Statistical Physics, Part 1* is at equivalence-coverage when:
 
 - ≥95% of Landau's named results (and worked formulae) in
-  Chapters I–IX, XII, XIV map to Codex units **at Landau-equivalent
+  Chapters I–IX, XII, XIV map to Babel Bible units **at Landau-equivalent
   pedagogical depth** (currently ~30%; after priority-1 ~55%; after
   priority-1+2 ~80%; after priority-1+2+3 ~90%; after priority-4
   ~95%). Items 4 (FDT), 5 (Landau 1937 phenomenological theory),
@@ -735,7 +735,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9,
   paragraphs suffice).
 - DAG: for every microcanonical → canonical → grand-canonical → ideal
   gas → Bose/Fermi gas chain in Landau Chs. I–V, an unbroken
-  prerequisite chain in Codex's DAG. Currently breaks at `08.01.05`
+  prerequisite chain in Babel Bible's DAG. Currently breaks at `08.01.05`
   (microcanonical) — item 1 closes it.
 - Pass-W weaving connects new units to existing `08.01-*`, `08.02-*`,
   `08.05-*`, `08.06-*`, and laterally to `05.02.07` Liouville Vol 1

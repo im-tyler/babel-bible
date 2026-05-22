@@ -31,7 +31,7 @@ The audit surface here is **larger than any prior Fast Track audit so
 far.** The Codex has substantial machinery for the *pure-math half* of
 WQGR (Lie groups, Lie algebras, representation theory, symplectic
 geometry, Clifford algebras, spin geometry) — that infrastructure is at
-~50% of what Woit assumes. But the Codex has **no chapter for the
+~50% of what Woit assumes. But the Babel Bible has **no chapter for the
 quantum-mechanics half**: no Hilbert-space axioms, no Schrödinger
 equation, no Heisenberg algebra, no Stone–von Neumann, no metaplectic
 representation, no harmonic-oscillator quantization, no
@@ -152,16 +152,16 @@ Peer sources triangulating Woit's distinctive editorial move:
 
 ---
 
-## §2 Coverage table (Codex vs WQGR)
+## §2 Coverage table (Babel Bible vs WQGR)
 
 Cross-referenced against the current 313-unit corpus.
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| WQGR chapter / topic | Codex unit(s) | Status | Note |
+| WQGR chapter / topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Ch. 1 — Axioms of QM (state, observable, dynamics, Born rule) | — | ✗ | **Gap.** No Codex unit on Hilbert-space axioms. |
+| Ch. 1 — Axioms of QM (state, observable, dynamics, Born rule) | — | ✗ | **Gap.** No Babel Bible unit on Hilbert-space axioms. |
 | Ch. 2 — $U(1)$ and its representations; charge operator | `07.01.01-group-representation` | △ | Group-rep definition present; $U(1)$ classification by integer weight + physical interpretation as charge — not covered. |
-| Ch. 3 — Two-state systems; Pauli matrices; commutation relations | — | ✗ | **Gap.** Pauli matrices nowhere in Codex. |
+| Ch. 3 — Two-state systems; Pauli matrices; commutation relations | — | ✗ | **Gap.** Pauli matrices nowhere in Babel Bible. |
 | Ch. 4 — Linear algebra review (vector spaces, duals, inner products, orthogonal/unitary groups) | `01.01.*`, `03.03.03-orthogonal-group` | ✓ | Codex linear algebra and $O(n)$ coverage adequate. |
 | Ch. 5 — Lie algebras and Lie algebra representations | `03.04.01-lie-algebra`, `07.06.01-lie-algebra-representation`, `07.06.02-universal-enveloping-algebra`, `05.01.01-symplectic-vector-space` (adjacent) | △ | Abstract Lie algebra + rep present; Woit's explicit complexification / skew-vs-self-adjoint dictionary not covered. |
 | Ch. 6 — Rotation and spin groups in 3 and 4D; quaternions; $\mathrm{Spin}(3) \cong SU(2)$ | `03.09.03-spin-group`, `03.03.03-orthogonal-group` | △ | Spin group present at the abstract Clifford level; the explicit quaternion / $SU(2)$ double cover / 4D version not unit-level. |
@@ -169,17 +169,17 @@ Cross-referenced against the current 313-unit corpus.
 | Ch. 8 — Representations of $SU(2)$ and $SO(3)$; weight decomposition; raising/lowering; spherical harmonics; Casimir | `07.06.03-root-system`, `07.06.06-verma-module`, `07.06.07-weyl-character-formula` (general); — (specifically $SU(2)$) | △ | The general highest-weight theory is shipped; the explicit $SU(2)$ worked example with raising/lowering and spherical-harmonic decomposition of $L^2(S^2)$ is not. |
 | Ch. 9 — Tensor products, entanglement, addition of spin; characters | `07.01.06-tensor-product-of-representations`, `07.01.03-character` | △ | Tensor-product-of-reps present; the QM-flavored entanglement / Clebsch-Gordan / addition-of-angular-momentum framing missing. |
 | Ch. 10 — Momentum and the free particle; representations of $\mathbb{R}$ and $\mathbb{R}^3$ | — | ✗ | **Gap.** |
-| Ch. 11 — Fourier analysis; distributions; Schwartz space | `02.*` partial | △ | Schwartz/tempered distributions not yet a Codex unit; Fourier transform on $\mathbb{R}^n$ partially covered in analysis chapter (verify). |
+| Ch. 11 — Fourier analysis; distributions; Schwartz space | `02.*` partial | △ | Schwartz/tempered distributions not yet a Babel Bible unit; Fourier transform on $\mathbb{R}^n$ partially covered in analysis chapter (verify). |
 | Ch. 12 — Position operator; Dirac notation; Heisenberg uncertainty; propagators; Green's functions | — | ✗ | **Gap.** |
 | Ch. 13 — **Heisenberg Lie algebra; Heisenberg group; Schrödinger representation** | — | ✗ | **Gap (CRITICAL — load-bearing for the entire Woit edifice).** |
 | Ch. 14 — Poisson bracket and symplectic geometry; classical mechanics on phase space | `05.02.02-poisson-bracket`, `05.01.02-symplectic-manifold` | ✓ | Codex symplectic chapter covers this well. |
-| Ch. 15 — Hamiltonian vector fields, moment map | `05.02.01-hamiltonian-vector-field`, `05.04.01-moment-map` | ✓ | Codex coverage adequate. |
+| Ch. 15 — Hamiltonian vector fields, moment map | `05.02.01-hamiltonian-vector-field`, `05.04.01-moment-map` | ✓ | Babel Bible coverage adequate. |
 | Ch. 16 — Quadratic polynomials and the symplectic group; $Sp(2d, \mathbb{R})$ | `05.01.03-symplectic-group` | △ | Symplectic group present; the explicit identification of quadratic Hamiltonians with $\mathfrak{sp}(2d,\mathbb{R})$ via the moment map is not. |
 | Ch. 17 — **Canonical quantization; Groenewold–van Hove no-go theorem; quantization and symmetries** | — | ✗ | **Gap (CRITICAL — Woit's pedagogical pivot point).** No-go theorem entirely absent. |
 | Ch. 18 — Semidirect products; Euclidean group $E(n)$; semidirect-product Lie algebras | — | ✗ | **Gap.** Codex covers product Lie groups but not semidirect products as a unit. |
 | Ch. 19 — **Quantum free particle as a representation of $E(2), E(3)$** | — | ✗ | **Gap.** |
 | Ch. 20 — Representations of semidirect products; intertwining operators; metaplectic representation introduced | — | ✗ | **Gap (CRITICAL — first appearance of the metaplectic rep).** |
-| Ch. 21 — Central potentials; $\mathfrak{so}(4)$ symmetry of the Coulomb potential; hydrogen atom | — | ✗ | **Gap.** The Pauli–Fock $\mathfrak{so}(4)$ derivation of the hydrogen spectrum is iconic; absent from Codex. |
+| Ch. 21 — Central potentials; $\mathfrak{so}(4)$ symmetry of the Coulomb potential; hydrogen atom | — | ✗ | **Gap.** The Pauli–Fock $\mathfrak{so}(4)$ derivation of the hydrogen spectrum is iconic; absent from Babel Bible. |
 | Ch. 22 — Harmonic oscillator; creation / annihilation operators; Bargmann–Fock representation | — | ✗ | **Gap (CRITICAL).** |
 | Ch. 23 — Coherent states; harmonic-oscillator propagator; Bargmann transform | — | ✗ | **Gap.** |
 | Ch. 24–25 — Metaplectic representation in detail; $SU(1,1)$ and Bogoliubov transformations; arbitrary $d$ | — | ✗ | **Gap.** No metaplectic-rep machinery anywhere. |
@@ -331,7 +331,7 @@ the new units):
   context-dependently. Codex convention should mirror.
 - WQGR notation for the Heisenberg algebra: $\mathfrak{h}_{2d+1}$ with
   basis $\{q_j, p_j, c\}$ and central element $c$. Adopt this; record
-  cross-reference to the (rare) Codex notation in `03.11.01-central-
+  cross-reference to the (rare) Babel Bible notation in `03.11.01-central-
   extension`.
 
 ---
@@ -427,11 +427,11 @@ equivalence-coverage when:
 - The Priority 0 structural decision (new chapter directory) is recorded.
 - Priority-1 units 1–15 have all shipped.
 - ≥95% of WQGR's named theorems in chapters 1–34 (non-relativistic half)
-  map to Codex units (currently ~12%; after priority-1 units this rises
+  map to Babel Bible units (currently ~12%; after priority-1 units this rises
   to ~65%; after priority-1+2 to ~85%; full ≥95% requires priority-3 +
   selective priority-4).
 - ≥80% of WQGR's chapters 35–48 (Lagrangian + relativistic + Standard
-  Model survey) map to Codex units or are referenced from a pointer unit.
+  Model survey) map to Babel Bible units or are referenced from a pointer unit.
 - ≥90% of WQGR's worked computations in chapters 1–34 have a direct unit
   or are exercised in a referenced unit. The signature computations —
   $SU(2)$ spectrum / spherical harmonics, harmonic-oscillator spectrum

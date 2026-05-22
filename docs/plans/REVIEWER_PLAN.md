@@ -1,4 +1,4 @@
-# Codex — Reviewer Plan
+# Babel Bible — Reviewer Plan
 
 The bottleneck for scale is not content production — it is expert review. ~30 min expert time × ~1500 units = ~750 hours = ~4.5 person-months of full-time domain-expert review to reach v1. No single founder can cover this across all subjects at Master tier. This document specifies who reviews, how, and with what incentives.
 

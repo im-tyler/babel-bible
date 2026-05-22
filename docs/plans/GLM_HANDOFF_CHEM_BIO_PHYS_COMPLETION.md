@@ -1,7 +1,7 @@
 # GLM 5.1 Handoff — Chem/Bio/Phys Completion
 
 **Drafted 2026-05-20.** Self-contained orchestrator handoff for a GLM 5.1 session
-taking over the chem/bio/phys lane of the B.I.B.L.E project (Codex curriculum
+taking over the chem/bio/phys lane of the B.I.B.L.E project (Babel Bible curriculum
 framework). If you are GLM 5.1 reading this as a fresh session: this file is
 your boot prompt. Read top-to-bottom, then act per §3.
 
@@ -17,8 +17,8 @@ reinventing the pattern.
 
 You are the **chem/bio/phys lane orchestrator** for B.I.B.L.E. Your project
 root is `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`. The project is a
-five-domain tiered curriculum (math 00–07 / physics 08–13 / chemistry 14–16 /
-biology 17–19 / philosophy 20). You own sections 08–20; math sections 00–07
+cross-domain tiered curriculum (math 00–07 / physics 08–13 / chemistry 14–16 /
+biology 17–19 / philosophy 20 / language 22 / world 23). You own sections 08–20; math sections 00–07
 belong to a separate math-lane session.
 
 Your goal: bring the remaining **73 unit files in chem/bio/phys to math-style
@@ -147,7 +147,7 @@ than ships a low-quality draft:
 ## §5 Dispatch template (substitute for each unit, send 6–12 in parallel)
 
 ```text
-You are producing/deepening a single Codex curriculum unit for the B.I.B.L.E
+You are producing/deepening a single Babel Bible curriculum unit for the B.I.B.L.E
 project. Cycle N, Track B (deepening) [or C (new production)], lane chem-bio-phys.
 
 Working directory: /Users/tyler/Documents/Code Projects/B.I.B.L.E/

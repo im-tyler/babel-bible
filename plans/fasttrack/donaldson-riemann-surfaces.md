@@ -68,7 +68,7 @@ Distinctive Donaldson choices:
    operator, harmonic 1-forms, Dirichlet energy, Hodge decomposition.
    Where Forster develops everything via sheaves and Mittag-Leffler,
    Donaldson develops everything via **PDE on a Riemannian surface**
-   with compatible complex structure. Codex's existing chapter is
+   with compatible complex structure. Babel Bible's existing chapter is
    sheaf-/divisor-theoretic in the Forster tradition; the load-bearing
    PDE / harmonic theory is not present.
 2. **Sheaf cohomology of holomorphic line bundles via Čech.** Ch. 8-9
@@ -76,13 +76,13 @@ Distinctive Donaldson choices:
    Riemann-Roch. Codex has the line-bundle unit but no genuine
    Čech-cohomology unit; the sheaf-cohomology layer is missing.
 3. **Serre duality on curves, proved.** Ch. 9: $H^1(M, L) \cong H^0(M,
-   K \otimes L^{-1})^*$ via Hodge theory from Ch. 5-7. Codex's
+   K \otimes L^{-1})^*$ via Hodge theory from Ch. 5-7. Babel Bible's
    Riemann-Roch unit treats Serre duality as a black box; no dedicated
    Serre-duality unit exists.
 4. **Riemann-Roch with full proof.** Ch. 9 proves $\dim H^0(L) - \dim
    H^1(L) = \deg L + 1 - g$ using sheaf cohomology + Serre duality +
    the long exact sequence for $\mathcal{O}(L) \to \mathcal{O}(L+P)
-   \to \mathbb{C}_P$. Codex's RR unit states the result with intuition
+   \to \mathbb{C}_P$. Babel Bible's RR unit states the result with intuition
    but does not carry out the inductive divisor-bumping proof.
 5. **Uniformisation via PDE.** Ch. 7 proves the universal cover is
    $\mathbb{P}^1$, $\mathbb{C}$, or $\mathbb{D}$ via Dirichlet-energy /
@@ -104,7 +104,7 @@ Distinctive Donaldson choices:
    topic-level gap on Donaldson's side.**
 9. **Hodge decomposition for curves.** Ch. 5 / Ch. 11. $H^1(M,
    \mathbb{C}) = H^{1,0} \oplus H^{0,1}$ via harmonic 1-form theory.
-   Structural input for period matrix and bilinear relations. Codex's
+   Structural input for period matrix and bilinear relations. Babel Bible's
    holomorphic-1-form unit has the definition but does not carry
    out the Hodge decomposition explicitly.
 10. **Modern algebraic-curves outlook.** 2011 textbook with awareness
@@ -122,16 +122,16 @@ depth, no Deligne-Mumford, no Mumford GIT — points to Mumford / Hubbard).
 
 ---
 
-## §2 Coverage table (Codex vs Donaldson)
+## §2 Coverage table (Babel Bible vs Donaldson)
 
 Cross-referenced against the 21-unit Codex Riemann-surfaces chapter
 (`find content/06-riemann-surfaces -name "*.md" | sort`). ✓ = covered
-at Donaldson-equivalent depth, △ = topic present but Codex unit
+at Donaldson-equivalent depth, △ = topic present but Babel Bible unit
 shallower (typically templated v0.5 Strand-B prose), ✗ = not covered.
 
 ### Part I — Preliminaries (Ch. 1-2)
 
-| Donaldson topic | Codex unit | Status | Note |
+| Donaldson topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Holomorphic functions on $\mathbb{C}$, Cauchy theorem, Liouville | `06.01.01-holomorphic-function`; `06.01.02-cauchy-integral-formula` | ✓ | Both shipped at the right depth; Donaldson's Ch. 1 is review. |
 | Meromorphic functions, residue theorem | `06.01.05-meromorphic-function`; `06.01.03-residue-theorem` | ✓ | Both shipped. |
@@ -145,9 +145,9 @@ shallower (typically templated v0.5 Strand-B prose), ✗ = not covered.
 ### Part II — Basic Theory (Ch. 3-7)
 
 This is where Donaldson's distinctive PDE / differential-geometric
-approach lives. Codex coverage thins here.
+approach lives. Babel Bible coverage thins here.
 
-| Donaldson topic | Codex unit | Status | Note |
+| Donaldson topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Differential forms on a Riemann surface; Hodge star $\star$; $d, \bar\partial, \partial$ operators | `06.06.01-holomorphic-one-form` (partial) | △ | The holomorphic-1-form unit defines $\omega \in \Omega^{1,0}$ but does not develop the full $(p,q)$-form / Hodge-star machinery. Donaldson Ch. 3 gives this as the working vocabulary for everything that follows. **Foundational depth gap.** |
 | Harmonic 1-forms, Hodge decomposition $H^1(M, \mathbb{C}) = \mathcal{H}^{1,0} \oplus \mathcal{H}^{0,1}$ | partial in `06.06.01` | △ | Holomorphic-1-form unit mentions $\dim H^0(M, \Omega^1) = g$ but does not carry out the Hodge decomposition. **Donaldson Ch. 5; depth gap, high priority.** |
@@ -160,7 +160,7 @@ approach lives. Codex coverage thins here.
 
 ### Part III — Deeper Theory (Ch. 8-14)
 
-| Donaldson topic | Codex unit | Status | Note |
+| Donaldson topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Holomorphic line bundles on a Riemann surface, transition functions | `06.05.02-holomorphic-line-bundle` | △ | Shipped, Donaldson cited (Donaldson Ch. 8). The cocycle definition is present; the **bundle-theoretic translation of Riemann-Roch** ($\dim H^0(L) - \dim H^1(L) = \deg L + 1 - g$ as a statement about line bundles, equivalent to the divisor form) is partly there. Depth assessment: roughly Donaldson-equivalent at definition level, shallower at Riemann-Roch-translation level. |
 | Divisor on a Riemann surface, principal divisor, divisor class group, $\mathrm{Pic}(M)$ | `06.05.01-divisor-riemann-surface` | △ | Divisor unit shipped; the equivalence "$\mathrm{Pic}(M) = \mathrm{Cl}(M) = \mathrm{Div}(M)/\mathrm{PrinDiv}(M)$" is stated but the structure of $\mathrm{Pic}(M)$ as $\mathrm{Pic}^0(M) \oplus \mathbb{Z}$ (via degree) and the identification $\mathrm{Pic}^0(M) \cong J(M)$ is not developed cleanly. Donaldson Ch. 10 has this. |
@@ -174,10 +174,10 @@ approach lives. Codex coverage thins here.
 | **Riemann's bilinear relations** | — | ✗ | **Gap.** Donaldson Ch. 11. The integrality / symmetry / positivity conditions on the period matrix that characterise Jacobians among complex tori. |
 | **Schottky's theorem / Schottky problem** | — | ✗ | **Gap (priority-2/3).** Donaldson Ch. 12. Classifies Jacobians among principally polarised abelian varieties. The Schottky problem in $g \geq 4$. |
 | **Gauss-Manin connection** (variation of periods over moduli) | — | ✗ | **Gap (priority-2, large topic).** Donaldson Ch. 12-13. Variation of Hodge structure for the universal family of Riemann surfaces; the flat connection encoding period variation. **Largest single Donaldson-distinctive topic-level gap.** |
-| Embedding of curves in projective space; very-ample line bundles; canonical embedding for $g \geq 2$ non-hyperelliptic | — | ✗ | **Gap.** Donaldson Ch. 10. Codex's projective-geometry coverage in `04.*` is general; the curves-specific Kodaira-style criterion is not present. |
+| Embedding of curves in projective space; very-ample line bundles; canonical embedding for $g \geq 2$ non-hyperelliptic | — | ✗ | **Gap.** Donaldson Ch. 10. Babel Bible's projective-geometry coverage in `04.*` is general; the curves-specific Kodaira-style criterion is not present. |
 | Moduli of Riemann surfaces / Teichmüller theory pointers | — | ✗ | Pointer-level only in Donaldson; defer. |
 
-### Several-variables (Ch. 7 several-variables — Codex's existing chapter section)
+### Several-variables (Ch. 7 several-variables — Babel Bible's existing chapter section)
 
 Codex has two units in `07-several-variables/` (`06.07.01-holomorphic-several-variables`, `06.07.02-hartogs-phenomenon`) which are *not* part of Donaldson's narrative — Donaldson is strictly one-variable. These units are anchored from Hörmander / Krantz, not Donaldson, and require no Donaldson-equivalence work.
 
@@ -190,16 +190,16 @@ Codex has two units in `07-several-variables/` (`06.07.01-holomorphic-several-va
   Riemann vanishing, Schottky), (d) Gauss-Manin / VHS block (absent).
   After priority-1: topic ~92%, proof-depth ~70%. After
   priority-1+2: ~93% proof-depth.
-- **Exercise layer:** Donaldson's ~80 exercises vs. Codex's templated
+- **Exercise layer:** Donaldson's ~80 exercises vs. Babel Bible's templated
   7-block. Defer to dedicated exercise-pack pass.
 - **Worked-example layer:** ~40%. Donaldson runs four standard examples
   (Riemann sphere, torus, hyperelliptic, plane curves) systematically;
   Codex uses them as one-off references.
-- **Notation layer:** ~80% aligned. Donaldson uses $M$ (Codex mixes
+- **Notation layer:** ~80% aligned. Donaldson uses $M$ (Babel Bible mixes
   $M / X / \Sigma$ — chapter-wide cleanup issue, not Donaldson-specific),
   $K$, $g$, $\mathcal{O}(L)$, $J(M)$, $\Pi$, $\theta$. No
   `notation/donaldson.md` needed.
-- **Sequencing layer:** ~75%. Codex DAG follows Forster flow; needs new
+- **Sequencing layer:** ~75%. Babel Bible DAG follows Forster flow; needs new
   edges harmonic 1-forms → Hodge decomp → Serre duality → Riemann-Roch.
 - **Intuition layer:** ~50%. Sheaf-/divisor-theoretic intuition decent;
   differential-geometric / PDE intuition essentially absent.
@@ -521,7 +521,7 @@ cites originator + Donaldson):
 **Notation crosswalk.** Mostly aligned (per §2). No
 `notation/donaldson.md` needed; existing `tier_anchors` citing
 `Donaldson Ch. N` is sufficient. Pin $M$ as the Riemann-surface symbol
-for new Donaldson-anchored units (Codex currently mixes $M / X /
+for new Donaldson-anchored units (Babel Bible currently mixes $M / X /
 \Sigma$ — chapter-wide cleanup is a separate maintenance pass).
 
 **DAG edges to add.** New prerequisites for the priority-1+2 batch:
@@ -559,7 +559,7 @@ these heavy units are produced once and serve both equivalences.
 
 - Line-number-level inventory of every theorem / exercise across
   Donaldson's 14 chapters. Defer unless priority-1+2 expands.
-- Donaldson's ~80 exercises vs. Codex's templated 7-block. Dedicated
+- Donaldson's ~80 exercises vs. Babel Bible's templated 7-block. Dedicated
   Donaldson-exercise-pack pass (`06.E1`/`06.E2`) is P3 follow-up after
   the theorem-layer batch closes.
 - **Forster-distinctive** sheaf machinery beyond Čech (acyclicity,
@@ -591,7 +591,7 @@ these heavy units are produced once and serve both equivalences.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book is
 at equivalence-coverage when:
 
-- ≥95% of Donaldson's named theorems map to Codex units **at
+- ≥95% of Donaldson's named theorems map to Babel Bible units **at
   Donaldson-equivalent proof depth** (currently ~35%; after priority-1
   this rises to ~70%; after priority-1+2 to ~93%; after priority-3
   deepenings to ~96%).
@@ -606,7 +606,7 @@ at equivalence-coverage when:
   sections (no separate `notation/donaldson.md` needed).
 - For every chapter dependency in Donaldson (Part II Ch. 5 → Ch. 6 →
   Ch. 7; Ch. 8 → Ch. 9 → Ch. 10; Ch. 11 → Ch. 12 → Ch. 13), there is
-  a corresponding `prerequisites` arrow chain in Codex's DAG. The
+  a corresponding `prerequisites` arrow chain in Babel Bible's DAG. The
   Hodge-decomp → Serre-duality → Riemann-Roch chain in particular
   must be unbroken after the priority-1 batch.
 - Pass-W weaving connects the new units (`06.04.02-06`, `06.06.06-09`,
@@ -642,4 +642,4 @@ Riemann-Roch units are deepenings of templated v0.5-Strand-B prose.
 **Largest single Donaldson-distinctive gap:** Gauss-Manin / VHS block
 (items 10-11). Codex has zero coverage; foundational for any future
 algebraic-geometry / Hodge-theory expansion. Producing items 10-11
-is the single largest topic-level expansion Donaldson buys for Codex.
+is the single largest topic-level expansion Donaldson buys for Babel Bible.

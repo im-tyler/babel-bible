@@ -149,9 +149,9 @@ deferred per §5 below.
 
 ---
 
-## §2 Coverage table (Codex vs Arnold ODE)
+## §2 Coverage table (Babel Bible vs Arnold ODE)
 
-Cross-referenced against the current Codex corpus (~313 units across
+Cross-referenced against the current Babel Bible corpus (~313 units across
 nine chapters). Codex has substantial Hamiltonian / symplectic content
 in `05-symplectic/` (49 units shipped, including
 `05.02.01-hamiltonian-vector-field`, `05.02.07-liouville-volume`,
@@ -166,11 +166,11 @@ proof) but no contraction-mapping unit per se. The
 flow unit.
 
 ✓ = covered at Arnold-equivalent depth, △ = topic present in some
-form but Codex unit shallower / framed differently, ✗ = not covered.
+form but Babel Bible unit shallower / framed differently, ✗ = not covered.
 
 ### Chapter 1 — Basic Concepts (phase space, vector field, flow)
 
-| Arnold topic | Codex unit(s) | Status | Note |
+| Arnold topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Phase space, state of a process | — | ✗ | **Gap.** Foundational definition; absent. |
 | Vector field on $\mathbb{R}^n$ / on a manifold | — | ✗ | **Gap (high priority — load-bearing for whole curriculum).** |
@@ -182,7 +182,7 @@ form but Codex unit shallower / framed differently, ✗ = not covered.
 
 ### Chapter 2 — Basic Theorems (existence, uniqueness, dependence)
 
-| Arnold topic | Codex unit(s) | Status | Note |
+| Arnold topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Existence theorem (Peano / Picard) | — | ✗ | **Gap (high priority).** |
 | Uniqueness theorem (Picard-Lindelöf, Lipschitz) | — | ✗ | **Gap (high priority).** |
@@ -193,7 +193,7 @@ form but Codex unit shallower / framed differently, ✗ = not covered.
 
 ### Chapter 3 — Linear Systems
 
-| Arnold topic | Codex unit(s) | Status | Note |
+| Arnold topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Linear system $\dot x = A x$ with constant $A$ | — | ✗ | **Gap.** |
 | Matrix exponential $e^{At}$ as one-parameter group | partial: spectral theorem in `02.11.*` | △ | Operator-exponential exists abstractly; ODE framing absent. |
@@ -205,7 +205,7 @@ form but Codex unit shallower / framed differently, ✗ = not covered.
 
 ### Chapter 4 — Proofs of the Main Theorems
 
-| Arnold topic | Codex unit(s) | Status | Note |
+| Arnold topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Contraction-mapping principle (Banach fixed-point) | — | ✗ | **Gap (load-bearing across analysis).** `02.11.04-banach-spaces` provides the ambient setting only. |
 | Picard iteration as fixed point of integral operator | — | ✗ | Gap; subsumed by existence unit above. |
@@ -214,7 +214,7 @@ form but Codex unit shallower / framed differently, ✗ = not covered.
 
 ### Chapter 5 — Differential Equations on Manifolds
 
-| Arnold topic | Codex unit(s) | Status | Note |
+| Arnold topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Smooth manifold (definition) | `03.02.01-smooth-manifold` | ✓ | Already shipped. |
 | Tangent vector / tangent space at a point | — | ✗ | Gap (already a known cross-strand gap). |
@@ -468,7 +468,7 @@ modern-geometric expositor.
 
 **Notation crosswalk.** Arnold's notation:
 
-- $v$ for vector field (Codex symplectic chapter uses $X$ for vector
+- $v$ for vector field (Babel Bible symplectic chapter uses $X$ for vector
   field, $X_H$ for Hamiltonian; **standardise on $X$ generically and
   $v$ when Arnold-specific framing is invoked**).
 - $g^t$ for phase flow (adopt directly — no Codex conflict).
@@ -572,7 +572,7 @@ first-integral / Noether. Production discipline:
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book
 is at equivalence-coverage when:
 
-- ≥95% of Arnold's named theorems map to Codex units **at Arnold-
+- ≥95% of Arnold's named theorems map to Babel Bible units **at Arnold-
   equivalent proof depth** (currently ~5%; after priority-1 ~55%;
   after priority-1+2 ~85%; after priority-3 ~93%; priority-1+2+3+4
   ~96%). The phase-flow → linear-classification → Poincaré-

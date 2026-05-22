@@ -32,7 +32,7 @@ The audit surface here is **the largest of any Fast Track book audited
 so far**. Where Cannas, Hatcher, Donaldson all sit in chapters where
 Codex already ships ~20 units in the same neighbourhood, *Apostol Vol. I*
 sits squarely in single-variable calculus and elementary real analysis
-— a region where Codex's `02-analysis/` chapter currently ships only
+— a region where Babel Bible's `02-analysis/` chapter currently ships only
 *topology* (`02.01.*`, 7 units) and *functional analysis* (`02.11.*`,
 7 units). The entire interior of `02-analysis/` between chapters 01 and
 11 — the reals, sequences, series, Riemann integration, differentiation,
@@ -53,7 +53,7 @@ has either worked through directly or substituted with an equivalent
 honors-track sequence (Spivak's *Calculus*, Courant & John Vol. I) — it
 is **not** an analysis textbook in the Rudin / Pugh sense, but it is
 also **not** a computational textbook in the Stewart / Thomas sense.
-It occupies the precise pedagogical slot that Codex's existing
+It occupies the precise pedagogical slot that Babel Bible's existing
 `02-analysis/01-topology` chapter assumes the reader has already
 crossed: the bridge from "I can compute integrals and derivatives" to
 "I can read a real-analysis textbook."
@@ -207,7 +207,7 @@ exercise gap is currently 100%.
    construct $\mathbb{R}$ from $\mathbb{Q}$; he axiomatises it and then
    derives every property. This is the cleanest pedagogical choice for
    a first-year textbook and is the **standard convention assumed by
-   every later Codex unit that quotes "the completeness of $\mathbb{R}$"**.
+   every later Babel Bible unit that quotes "the completeness of $\mathbb{R}$"**.
 2. **Integration before differentiation.** Apostol Part 2 Ch. 1 is
    the integral; Ch. 4 is the derivative. The motivation is that the
    integral of a step function is **manifestly** a finite sum — there
@@ -253,9 +253,9 @@ exercise gap is currently 100%.
 
 ---
 
-## §2 Coverage table (Codex vs Apostol)
+## §2 Coverage table (Babel Bible vs Apostol)
 
-Cross-referenced against the current ~217-unit Codex corpus
+Cross-referenced against the current ~217-unit Babel Bible corpus
 (`find content -name "*.md" | sort`). ✓ = covered at Apostol-equivalent
 depth, △ = topic present elsewhere but not at calculus-textbook depth,
 ✗ = not covered.
@@ -274,16 +274,16 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 1 — Introduction (Apostol Chs. 1-4)
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Historical introduction (Eudoxus, Archimedes, Newton, Leibniz) | — | △ | Codex has no dedicated calculus-history unit; partial coverage in `02.04.*` (Riemann integration, when written) Master / Historical sections will subsume. |
 | Set-theoretic vocabulary, Cartesian product, function as graph | `00.02.05` function | △ | The function unit is shipped; missing companion units on union/intersection/Cartesian product (likely deferred to other §0 books). Apostol Ch. 2 is brief; partial coverage acceptable. |
 | **Field axioms (10) for $\mathbb{R}$** | `01.01.01` field | △ | The field unit is general (any field); a calculus-specific unit listing the ordered-field axioms exactly as Apostol enumerates them does not exist. |
 | **Order axioms** | — | ✗ | **Gap.** No standalone unit; the ordered-field structure appears in `01.01.01` only by passing mention. |
-| **Completeness axiom (least upper bound)** | — | ✗ | **Gap (foundational).** Apostol's Axiom 11. **Load-bearing for every later real-analysis unit in Codex.** Currently no unit anywhere in Codex states the LUB axiom as the defining property of $\mathbb{R}$. |
+| **Completeness axiom (least upper bound)** | — | ✗ | **Gap (foundational).** Apostol's Axiom 11. **Load-bearing for every later real-analysis unit in Babel Bible.** Currently no unit anywhere in Babel Bible states the LUB axiom as the defining property of $\mathbb{R}$. |
 | Archimedean property, density of $\mathbb{Q}$, integer part | — | ✗ | **Gap.** Apostol Ch. 3 §3.10-3.13. Foundational. |
 | Existence of $n$-th roots, $\mathbb{R}$ uncountable | — | ✗ | **Gap.** |
-| **Mathematical induction (both forms)**, well-ordering | — | ✗ | **Gap.** Apostol Ch. 4. Foundational. **Used implicitly throughout Codex.** |
+| **Mathematical induction (both forms)**, well-ordering | — | ✗ | **Gap.** Apostol Ch. 4. Foundational. **Used implicitly throughout Babel Bible.** |
 | Summation $\Sigma$ notation, telescoping sums | — | ✗ | Generally used silently; not its own unit. Acceptable as part of an induction unit. |
 | Bernoulli inequality | — | ✗ | Standard — appears in Apostol Ch. 4 exercise; will be a worked example in the induction unit. |
 | Binomial theorem | — | ✗ | **Gap.** Apostol Ch. 4. Foundational; used throughout calculus and combinatorics. |
@@ -291,7 +291,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 1 — The integral (step functions, Darboux)
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Integral of a step function as a finite sum** | — | ✗ | **Gap (foundational).** The pedagogical entry point Apostol uses. |
 | Properties of the step-function integral (linearity, additivity over partitions, monotonicity) | — | ✗ | **Gap.** |
@@ -303,7 +303,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 2 — Applications of integration
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Area between curves | — | ✗ | **Gap (medium).** Standard worked-example territory; can fold into a single applications-of-integration unit. |
 | Volume by slicing / disks / shells | — | ✗ | **Gap (medium).** |
@@ -314,21 +314,21 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 3 — Continuous functions
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Limit of a function ($\varepsilon$-$\delta$) | `02.01.02` continuous-map (general) | △ | The continuous-map unit is **topological-space general** — limits in metric / real-line setting are not its specific subject. Calculus-textbook depth is missing. |
 | Continuity at a point, on an interval | `02.01.02` (general) | △ | Same. |
 | Algebra of continuous functions, composition | `02.01.02` (general) | △ | Same. |
-| **Intermediate value theorem** (Bolzano) | — | ✗ | **Gap (high priority).** The single most-cited theorem of single-variable calculus. **Used silently throughout Codex — every existence-of-a-zero argument relies on it.** |
+| **Intermediate value theorem** (Bolzano) | — | ✗ | **Gap (high priority).** The single most-cited theorem of single-variable calculus. **Used silently throughout Babel Bible — every existence-of-a-zero argument relies on it.** |
 | **Boundedness theorem** ($f$ continuous on $[a,b]$ ⇒ bounded) | — | ✗ | **Gap (high priority).** |
-| **Extreme value theorem** (Weierstrass) | — | ✗ | **Gap (high priority).** Used in optimisation, Lagrange multipliers, every "attains its supremum" appeal across Codex. |
+| **Extreme value theorem** (Weierstrass) | — | ✗ | **Gap (high priority).** Used in optimisation, Lagrange multipliers, every "attains its supremum" appeal across Babel Bible. |
 | **Uniform continuity** on a compact interval (Heine-Cantor) | `02.01.02` (general topological framing — partial) | △ | The general topological compactness-implies-uniform-continuity is implicit in the metric-space unit; Apostol's specific calculus-level statement and its application to integrability of continuous functions is not present. |
 
 ### Part 2 Ch. 4 — Differential calculus
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| **Derivative** (definition as a limit) | — | ✗ | **Gap (foundational).** No single-variable derivative unit anywhere in Codex. |
+| **Derivative** (definition as a limit) | — | ✗ | **Gap (foundational).** No single-variable derivative unit anywhere in Babel Bible. |
 | **Algebra of derivatives** (sum, product, quotient, chain rule) | — | ✗ | **Gap (foundational).** |
 | **Chain rule** | — | ✗ | **Gap (foundational).** |
 | Implicit differentiation | — | ✗ | **Gap.** |
@@ -342,7 +342,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 5 — FTC and techniques of integration
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **First fundamental theorem of calculus** ($F(x) = \int_a^x f$ ⇒ $F' = f$) | — | ✗ | **Gap (foundational).** |
 | **Second fundamental theorem of calculus** ($\int_a^b F' = F(b) - F(a)$) | — | ✗ | **Gap (foundational).** |
@@ -355,7 +355,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 6 — Logarithm, exponential, inverse trig (Apostol's signature analytical construction)
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **$\log x = \int_1^x dt/t$ as definition** | — | ✗ | **Gap (high priority — Apostol signature).** |
 | Properties of $\log$ ($\log(xy) = \log x + \log y$, etc.) from FTC | — | ✗ | **Gap.** |
@@ -367,7 +367,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 7 — Polynomial approximations (Taylor)
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Taylor's formula with Lagrange remainder** | — | ✗ | **Gap (high priority).** |
 | Taylor's formula with **integral remainder** | — | ✗ | **Gap.** |
@@ -377,7 +377,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 8 — Elementary differential equations
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **First-order linear ODE, integrating factor** | — | ✗ | **Gap.** |
 | **Separable ODE** | — | ✗ | **Gap.** |
@@ -387,7 +387,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 9 — Complex numbers
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Construction of $\mathbb{C}$, real and imaginary parts | — | ✗ | **Gap.** No standalone "$\mathbb{C}$ as $\mathbb{R}^2$" unit; Codex `06-riemann-surfaces/01-*` units assume the reader has this. |
 | Polar form, modulus, argument | — | ✗ | **Gap.** |
@@ -397,7 +397,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 10 — Sequences, series, improper integrals (return)
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **$\varepsilon$-definition of sequence convergence** | — | ✗ | **Gap (foundational).** |
 | **Monotone convergence theorem** | — | ✗ | **Gap (foundational).** |
@@ -413,7 +413,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Ch. 11 — Sequences and series of functions
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Pointwise vs uniform convergence** | — | ✗ | **Gap (foundational).** |
 | **Weierstrass M-test** | — | ✗ | **Gap.** |
@@ -424,7 +424,7 @@ Codex `00-precalc/` currently ships exactly one unit
 
 ### Part 2 Chs. 12-16 — Vector algebra / linear algebra prelude
 
-These chapters are the Vol. II handoff. Codex's `01-foundations/01-linear-algebra/`
+These chapters are the Vol. II handoff. Babel Bible's `01-foundations/01-linear-algebra/`
 ships `01.01.01` field, `01.01.03` vector-space, and `01.01.15`
 bilinear-quadratic-form. Vector algebra in Apostol Ch. 12 (dot product,
 norm, Cauchy-Schwarz, projections, linear independence, bases) overlaps
@@ -432,7 +432,7 @@ with `01.01.03` vector-space and is partially covered there. **The full
 Apostol-Vol.-II audit (FT 0.3) will cover these chapters in depth; this
 plan defers them.** A single line item:
 
-| Apostol topic | Codex unit(s) | Status | Note |
+| Apostol topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Vector algebra (Ch. 12), analytic geometry (Ch. 13), vector calculus prelude (Ch. 14), linear spaces (Ch. 15), linear transformations (Ch. 16) | various `01.01.*` | △ | Defer to **Apostol Vol. II** plan. |
 
@@ -458,7 +458,7 @@ the Bachmann-Landau-style $o$-notation Apostol uses for Taylor; the
 distinction between $\log$ and $\ln$) are not currently catalogued.
 A `notation/apostol-vol1.md` crosswalk file should be produced.
 
-**Sequencing layer**: ~0% reflected in Codex DAG today; the Apostol
+**Sequencing layer**: ~0% reflected in Babel Bible DAG today; the Apostol
 prerequisite chain (sets → reals → step-function integral → continuity
 → derivative → FTC → log/exp → Taylor → ODE → series → uniform
 convergence) is genuinely not represented because the units do not
@@ -568,7 +568,7 @@ corpus. They are foundational and currently absent.
     intermediate value theorem (Bolzano), boundedness theorem,
     extreme value theorem (Weierstrass), uniform continuity on a
     compact interval (Heine-Cantor). **Used silently across the
-    entire Codex corpus.** Apostol Part 2 Ch. 3. Originator:
+    entire Babel Bible corpus.** Apostol Part 2 Ch. 3. Originator:
     **Bolzano 1817** (IVT); **Weierstrass 1860s lectures** (EVT).
 11. **`02.04.03` Integrability of continuous functions on $[a,b]$.**
     [NEW] Three-tier; ~1200 words. Riemann-integrability of every
@@ -846,7 +846,7 @@ The "$\log = \ln$" alignment is the most-cited entry.
   Rudin *RCA*, etc.).
 - **Multivariable calculus** — Apostol Vol. II audit (FT 0.3).
 - **The figures.** Apostol's text is figure-heavy; the figure-rendering
-  infrastructure does not yet exist in Codex. Pictorial intuition
+  infrastructure does not yet exist in Babel Bible. Pictorial intuition
   must be reproduced in prose for now. Curriculum-wide deferred item.
 
 ---
@@ -856,7 +856,7 @@ The "$\log = \ln$" alignment is the most-cited entry.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, Apostol
 Vol. I is at equivalence-coverage when:
 
-- ≥95% of Apostol Vol. I's named theorems map to Codex units
+- ≥95% of Apostol Vol. I's named theorems map to Babel Bible units
   (currently ~3-5%; after priority-1 units (1-14) this rises to
   ~70%; after priority-1+2 (1-23) to ~90%; after priority-3 (24-29)
   to ~95%; after priority-4 deepenings (30-34) the qualitative gap
@@ -872,7 +872,7 @@ Vol. I is at equivalence-coverage when:
 - For every chapter dependency in Apostol Vol. I (Sets / induction
   → Reals → Integral → Continuity → Derivative → FTC → Log/Exp /
   Trig → Taylor → ODE / Complex / Series → Uniform convergence),
-  there is a corresponding `prerequisites` arrow chain in Codex's
+  there is a corresponding `prerequisites` arrow chain in Babel Bible's
   DAG between the relevant `00.03.*`, `02.02-10.*` units. Building
   the units automatically builds the chain since the prereqs are
   encoded in each unit's front-matter.
@@ -891,7 +891,7 @@ foundation (`02.01.*`) cross-cites the new calculus foundation
 (`02.02-10.*`) cleanly. The exercise pack is a separate large pass.
 
 **Strategic note: this is the highest-leverage Fast Track audit so
-far.** Every later analysis-flavoured unit in Codex
+far.** Every later analysis-flavoured unit in Babel Bible
 (`02.11-functional-analysis`, `06-riemann-surfaces`, the entire
 analytical content of `03-modern-geometry` and `04-algebraic-geometry`)
 implicitly assumes the Apostol Vol. I foundation. Closing this gap

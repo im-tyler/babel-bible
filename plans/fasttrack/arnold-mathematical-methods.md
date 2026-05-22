@@ -125,7 +125,7 @@ Distinctive Arnold choices:
    Arnold-distinctive.
 7. **Variational principle of least action.** Chapter 3 §13: a path is
    a motion iff it is a critical point of
-   $S[q] = \int L(q, \dot q, t)\, dt$. **Codex's `03.04.08`
+   $S[q] = \int L(q, \dot q, t)\, dt$. **Babel Bible's `03.04.08`
    variational-calculus covers Euler-Lagrange formalism in the
    differential-forms setting, but Hamilton's principle as the
    foundational principle of mechanics is not articulated as its own
@@ -140,7 +140,7 @@ Distinctive Arnold choices:
    variation. Foundational for geometric / Berry phase, quasi-static
    thermodynamics.
 10. **Newton's equations dispatched as setup.** Ch. 1-2 are 60 pages.
-    Per Arnold's framing, Codex's lack of a Newtonian-mechanics unit is
+    Per Arnold's framing, Babel Bible's lack of a Newtonian-mechanics unit is
     a **deferrable gap** — content is covered by the geometric units;
     only pedagogical setup is missing.
 11. **Examples-driven.** Each chapter ends with worked computations:
@@ -159,16 +159,16 @@ McDuff-Salamon programme.
 
 ---
 
-## §2 Coverage table (Codex vs Arnold)
+## §2 Coverage table (Babel Bible vs Arnold)
 
-Cross-referenced against the current 235-unit Codex corpus.
+Cross-referenced against the current 235-unit Babel Bible corpus.
 ✓ = covered at Arnold-equivalent depth, △ = topic present but Codex
 unit shallower than Arnold's chapter (typically templated v0.5
 Strand-B prose), ✗ = not covered.
 
 ### Part I — Newtonian Mechanics (Ch. 1-2)
 
-| Arnold topic | Codex unit | Status | Note |
+| Arnold topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Galilean group, Galilean relativity | — | ✗ | **Deferred per Arnold's framing**: setup, not load-bearing. |
 | Newton's equation as 2nd-order ODE on $M$ | — | ✗ | Setup. Could live in future `09.*` math-physics chapter. |
@@ -179,7 +179,7 @@ Strand-B prose), ✗ = not covered.
 
 ### Part II — Lagrangian Mechanics (Ch. 3-5)
 
-| Arnold topic | Codex unit | Status | Note |
+| Arnold topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Variational principle (Hamilton's least action) | `03.04.08` variational-calculus | △ | Euler-Lagrange machinery is in `03.04.08`; **least action as foundational principle of mechanics** is not articulated as own unit. |
 | Euler-Lagrange equations, derivation | `03.04.08` (mention) | △ | Differential-forms / calculus-of-variations setting. Mechanics-first framing — Lagrangian on $TM$ as equations of motion — not covered. |
@@ -192,9 +192,9 @@ Strand-B prose), ✗ = not covered.
 
 ### Part III — Hamiltonian Mechanics (Ch. 6-10)
 
-Bulk of Codex's existing symplectic chapter lives here.
+Bulk of Babel Bible's existing symplectic chapter lives here.
 
-| Arnold topic | Codex unit | Status | Note |
+| Arnold topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | Symplectic vector space, symplectic form | `05.01.01` symplectic-vector-space | △ | Templated; Cannas-plan depth gap. |
 | Symplectic manifold, Darboux's theorem | `05.01.02`, `05.01.04` darboux-theorem | △ | Same Darboux depth gap as Cannas plan. |
@@ -209,13 +209,13 @@ Bulk of Codex's existing symplectic chapter lives here.
 | Integrable system (Liouville) | `05.02.03` integrable-system | △ | Templated; depth gap. |
 | Action-angle variables (local statement) | `05.02.04` action-angle-coordinates | △ | Templated. **On Cannas priority-1 deepening list.** |
 | **Liouville-Arnold theorem** (compact level set ⇒ torus, global action-angle) | `05.02.04` (claimed) | △ | Title invokes "action-angle"; theorem not actually proved. **On Cannas priority-1 deepening list.** |
-| **KAM theorem** (Kolmogorov-Arnold-Moser, persistence of diophantine tori) | — | ✗ | **Gap (priority-1, apex unit).** Not in Codex anywhere. Largest topic-level gap. |
+| **KAM theorem** (Kolmogorov-Arnold-Moser, persistence of diophantine tori) | — | ✗ | **Gap (priority-1, apex unit).** Not in Babel Bible anywhere. Largest topic-level gap. |
 | **Adiabatic invariants** | — | ✗ | **Gap (priority-2).** Arnold §52. |
 | Perturbation theory (Lindstedt series, Birkhoff normal form) | — | ✗ | Gap. Arnold §51 + Appendix 7. Setup for KAM. |
 
 ### Appendices — Arnold-distinctive material
 
-| Appendix | Codex unit | Status | Note |
+| Appendix | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | App. 1: Riemannian curvature | `03.05.09` curvature; cross-strand `03.*` | △ | Topic present; Arnold's mechanics-flavoured exposition not separately reproduced. |
 | App. 2: Geodesics on Lie groups; Euler-Arnold equations on $\mathrm{Diff}_{\mathrm{vol}}$ | — | ✗ | Gap. Arnold's celebrated ideal-fluid-as-geodesic observation. **Arnold-distinctive.** |
@@ -228,7 +228,7 @@ Bulk of Codex's existing symplectic chapter lives here.
 
 ### Topics Arnold covers as remarks / pointers (no equivalence-coverage required)
 
-| Topic | Codex unit | Note |
+| Topic | Babel Bible unit | Note |
 |---|---|---|
 | Arnold conjecture (fixed-point lower bound) | `05.08.01` arnold-conjecture | ✓ Codex has the unit; Floer downstream in `05.08.02-04`. |
 | Symplectic topology (Gromov non-squeezing) | `05.07.01-02` | ✓ Cannas / McDuff-Salamon territory. |
@@ -238,7 +238,7 @@ Bulk of Codex's existing symplectic chapter lives here.
 - **Theorem layer:** ~55% topic-level, ~30% Arnold-equivalent
   proof-depth. After priority-1: ~65%; priority-1+2: ~85%; +
   priority-3 + Cannas-deferred: ~93%.
-- **Exercise layer:** Arnold's ~250 Problems vs. Codex's templated
+- **Exercise layer:** Arnold's ~250 Problems vs. Babel Bible's templated
   7-question block. Defer to dedicated exercise-pack pass.
 - **Worked-example layer:** ~20% covered. Kepler, oscillator, Lagrange
   top, ellipsoidal geodesics absent.
@@ -533,7 +533,7 @@ moment map is Noether-conserved quantity for group action.
 
 - Line-number Problem inventory across three Parts and eight
   Appendices. Defer unless punch-list expands.
-- Arnold's ~250 Problems vs. Codex's templated 7-problem block.
+- Arnold's ~250 Problems vs. Babel Bible's templated 7-problem block.
   Dedicated Arnold-exercise-pack family (`05.00.E1` Lagrangian,
   `05.02.E1` Hamiltonian, `05.09.E1` perturbation) is P3-priority
   follow-up.
@@ -551,7 +551,7 @@ moment map is Noether-conserved quantity for group action.
 - Topological methods in hydrodynamics (FT 1.12). Item 19 is stub;
   full Arnold-Khesin coverage is its own per-book plan.
 - Statistical mechanics / ergodic theory beyond Poincaré recurrence.
-  Lives in Codex `08-stat-mech/`.
+  Lives in Babel Bible `08-stat-mech/`.
 - Geometric quantisation (Kostant-Souriau). Arnold mentions in
   passing (App. 3); deferred to a future plan.
 - `notation/arnold.md` standalone file. Crosswalk decisions in §4 are
@@ -567,7 +567,7 @@ moment map is Noether-conserved quantity for group action.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book
 is at equivalence-coverage when:
 
-- ≥95% of Arnold's named theorems map to Codex units **at
+- ≥95% of Arnold's named theorems map to Babel Bible units **at
   Arnold-equivalent proof depth** (currently ~30%; after priority-1
   ~65%; after priority-1+2 ~85%; after priority-3 + Cannas-deferred
   ~93%; after priority-4 ~96%). KAM (item 1) is the single largest
@@ -582,7 +582,7 @@ is at equivalence-coverage when:
 - For every chapter dependency in Arnold (Part II → Part III via
   Legendre; §47 → §49 via Hamilton-Jacobi as integrability tool;
   §50 → App. 8 via action-angle as unperturbed system for KAM), there
-  is a corresponding `prerequisites` arrow chain in Codex's DAG. The
+  is a corresponding `prerequisites` arrow chain in Babel Bible's DAG. The
   Lagrangian → Legendre → Hamiltonian chain in particular must be
   unbroken after the priority-1 batch.
 - Pass-W weaving connects the new units (`05.00.01-04`, `05.02.06-09`,

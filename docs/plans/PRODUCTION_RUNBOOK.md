@@ -1,16 +1,16 @@
-# Codex Production Runbook
+# Babel Bible Production Runbook
 
 **For AI agents producing curriculum units. Read this fully ONCE per session. Almost everything you need is here.**
 
-You are producing tiered curriculum units for the Codex (Babel Bible) project at `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`. Your job: write the next units in the queue (§7), validate them, and report back. Don't deviate from this runbook unless explicitly instructed.
+You are producing tiered curriculum units for the Babel Bible (Babel Bible) project at `/Users/tyler/Documents/Code Projects/B.I.B.L.E/`. Your job: write the next units in the queue (§7), validate them, and report back. Don't deviate from this runbook unless explicitly instructed.
 
 ---
 
 ## §1 Mission and scope
 
-**The project.** A five-domain curriculum: math (§00–08, 313 units shipped — don't touch these), physics (§09–13), chemistry (§14–16), biology (§17–19), philosophy (§20). Each tiered unit covers one concept across Beginner / Intermediate / Master tiers in a single markdown file.
+**The project.** A cross-domain curriculum: math (§00–08, 313 units shipped — don't touch these), physics (§09–13), chemistry (§14–16), biology (§17–19), philosophy (§20), language (§22), and world/social science (§23). Each tiered unit covers one concept across Beginner / Intermediate / Master tiers in a single markdown file.
 
-**Your scope.** Produce tiered units in §09–19 (and occasionally §20 analytic-phil units). Match the quality of the existing pattern-setter unit at:
+**Your scope.** Produce tiered units in §09–23 as assigned. Match the quality of the existing pattern-setter unit at:
 
 ```
 content/09-classical-mech/04-hamiltonian/09.04.02-hamiltons-equations.md

@@ -18,7 +18,7 @@ preliminary author PDF above resolves the question.
 
 **Purpose of this plan:** P1-lite audit-and-gap pass mirroring
 `plans/fasttrack/brown-higgins-sivera-nonabelian-algebraic-topology.md`.
-Produces a priority-ordered punch-list of new Codex units required for
+Produces a priority-ordered punch-list of new Babel Bible units required for
 FT-equivalence coverage. Stops short of a line-number P1 inventory; the
 book is 186 pp. of dense survey-level prose and a fuller inventory is a
 follow-up. This pass uses the TOC, the Freed-Hopkins program structure,
@@ -119,13 +119,13 @@ the only self-contained low-prerequisite entry point.
 
 ---
 
-## §2 Coverage table (Codex vs Freed)
+## §2 Coverage table (Babel Bible vs Freed)
 
-Cross-referenced against the current Codex corpus
+Cross-referenced against the current Babel Bible corpus
 (`content/` tree, May 2026 audit snapshot).
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Freed topic | Codex unit(s) | Status | Note |
+| Freed topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Symmetric monoidal categories (Appendix A) | — | ✗ | **Gap.** Some monoidal-functor language scattered (RT, K-theory) but no dedicated unit; needed as prerequisite glue for any TQFT pass. |
 | Picard groupoids / Picard category (App. A.4) | — | ✗ | **Gap.** Needed for invertible-TQFT classification. |
@@ -142,7 +142,7 @@ Cross-referenced against the current Codex corpus
 | Classification of 2d oriented TQFTs ↔ commutative Frobenius algebras (Lect. 4.2) | — | ✗ | **Gap (high priority — the canonical first non-trivial example).** |
 | Classification of 1d TQFTs (Lect. 4.4) | — | ✗ | **Gap.** Easy warm-up example. |
 | 2d area-dependent theories (Lect. 4.3) | — | ✗ | **Gap.** |
-| Higher categories — definitions and examples (Lect. 5.1, 5.2) | — | ✗ | **Gap.** No bicategory / $(\infty,n)$-category unit anywhere in Codex. |
+| Higher categories — definitions and examples (Lect. 5.1, 5.2) | — | ✗ | **Gap.** No bicategory / $(\infty,n)$-category unit anywhere in Babel Bible. |
 | Extended TQFTs (Lect. 5.3) | — | ✗ | **Gap.** |
 | Cobordism hypothesis (Baez–Dolan–Lurie) (Lect. 5.6) | — | ✗ | **Gap (high priority — Master-tier pointer unit minimum).** |
 | Invertible field theories (Lect. 6.2) | — | ✗ | **Gap.** Central object of the Freed–Hopkins program. |
@@ -154,11 +154,11 @@ Cross-referenced against the current Codex corpus
 | Short-range entangled lattice systems / SPT phases (Lect. 9.1) | — | ✗ | **Gap.** Physics-side endpoint. |
 | Long-range limit Yang–Mills + Chern–Simons (Lect. 9.2) | △ | △ | `03.07-gauge-theory/` covers Yang–Mills geometry but not Chern–Simons TQFT. **Gap on the CS side.** |
 | Differential cohomology (Lect. 9.4) | — | ✗ | **Gap.** Cheeger–Simons, Deligne cohomology. |
-| 10-fold way for free electrons (Lect. 10.1) | △ | △ | `03.09.12-kr-theory.md` covers $KR$-theory and Altland–Zirnbauer's 10-fold way is a $KR$ application; check whether the Codex unit mentions phase classes. |
+| 10-fold way for free electrons (Lect. 10.1) | △ | △ | `03.09.12-kr-theory.md` covers $KR$-theory and Altland–Zirnbauer's 10-fold way is a $KR$ application; check whether the Babel Bible unit mentions phase classes. |
 | Anomalies as invertible field theories (Lect. 11) | — | ✗ | **Gap.** Pfaffians of Dirac operators connects to `03.09.10-atiyah-singer-index-theorem.md`. |
 
 **Aggregate coverage estimate:** ~3% of Freed has a directly
-corresponding Codex unit. The two △ rows on bordism (Pontryagin–Thom
+corresponding Babel Bible unit. The two △ rows on bordism (Pontryagin–Thom
 sketch inside the spectrum unit) and the Spin / $KR$ rows from
 `03-modern-geometry/09-spin-geometry/` are the only material connections.
 The TQFT track is a near-total gap. This is expected: Codex has invested
@@ -351,7 +351,7 @@ Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
 - ≥95% of Freed's stated theorems / classifications in lectures 1–11
-  map to Codex units. Currently ~3%; after priority-1 this rises to
+  map to Babel Bible units. Currently ~3%; after priority-1 this rises to
   ~50%; after priority-1+2 to ~70%; after priority-1+2+3 to ~90%;
   priority-4 grafts and one CFT lateral-connection edit close the gap
   to ≥95%.

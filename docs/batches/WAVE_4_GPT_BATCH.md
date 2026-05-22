@@ -1,4 +1,4 @@
-# Codex Wave 4 — Strand A (Algebra / Foundations) — gpt-codex session batch
+# Babel Bible Wave 4 — Strand A (Algebra / Foundations) — gpt-codex session batch
 
 This is your batch. The claude session is concurrently producing Strand B (homotopy, covering space, exterior derivative, Stokes' theorem, Stiefel-Whitney classes), so coordinate by working only in the directories listed below — they are disjoint from Strand B's work.
 
@@ -60,7 +60,7 @@ After all five: run `cd site && npm run build` (from the codex repo root) to con
 Same as previous waves:
 
 - **Sign convention**: Lawson-Michelsohn $v^2 = -q(v)$ throughout (relevant if any unit touches Clifford-related material — these algebra-foundation units mostly don't).
-- **Citation syntax**: `[ref: source locator]` for external; `[NN.NN.NN]` for cross-refs to other Codex units. `TODO_REF` placeholder when source not in `reference/`.
+- **Citation syntax**: `[ref: source locator]` for external; `[NN.NN.NN]` for cross-refs to other Babel Bible units. `TODO_REF` placeholder when source not in `reference/`.
 - **No emojis anywhere.**
 - **Lean status honesty**: Mathlib has comprehensive coverage at this foundational layer (`Field`, `TensorProduct`, `Algebra`, `Ideal`). Use `lean_status: full` for these where the full content can be stated and proved against Mathlib (for `Function` it's basic logic, for `Field` it's `Field` typeclass, for `TensorProduct` it's `TensorProduct.tprod`, etc.).
 

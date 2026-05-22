@@ -1,4 +1,4 @@
-# Codex — Quality Rubric
+# Babel Bible — Quality Rubric
 
 Per-tier pass/fail checklists. Distilled from `docs/pilot-lessons.md` after pilot unit #1 (Clifford algebra). The checklist is the rubric — there is no "holistic vibes" gate. Reviewers tick boxes; failed boxes block ship.
 
@@ -36,7 +36,8 @@ If a check is ambiguous in a specific case, write a comment in `manifests/units/
 - [ ] `lean_status` consistency:
   - If `full` or `partial`: `lean_module` non-empty, file exists at `lean/<lean_module-as-path>.lean`, file compiles via `lake build`.
   - If `partial`: theorem-statement scan finds no syntax errors (statements compile even if proofs are `sorry`).
-  - If `none`: `lean_module` absent/empty AND `lean_mathlib_gap` non-empty AND `human_reviewer` non-empty for any present tier ≥ Intermediate.
+  - If `none`: `lean_module` absent/empty AND `lean_mathlib_gap` / formalization note non-empty AND `human_reviewer` non-empty for any present tier ≥ Intermediate. For math/physics/formal-logic units the note must name a real Mathlib gap; for chemistry, biology, philosophy outside formal logic, language, and world units it may instead explain why human review is the primary correctness gate.
+- [ ] `hooks_out[]`, if present, is well-formed: each entry has `target`, `kind: proposed | confirmed`, and `why` ≥30 chars. `confirmed` hooks require `confirmed_by` and an existing shipped target.
 - [ ] No `[Master]`-marked content appears inside a `[Beginner]` or `[Intermediate+]` section (no leakage).
 - [ ] All notation symbols used in formal sections (`\nabla`, `\otimes`, custom macros) appear in `_meta/NOTATION.md` OR are introduced inline with a definition.
 - [ ] Reading-level: no `[Beginner]` paragraph exceeds 120 words; no paragraph anywhere exceeds 250 words.
@@ -91,9 +92,23 @@ Run only if `intermediate ∈ tiers_present`.
 ### Human-judgment
 
 - [ ] **Anchor match:** Intermediate sections feel comparable to `tier_anchors.intermediate` (e.g., Axler / Apostol / Griffiths). Reviewer confirms after reading the anchor section.
-- [ ] **Proof correctness:** The proof in `## Key theorem` is mathematically correct (Lean-verified counts as automated; human reviewer otherwise).
+- [ ] **Evidence correctness:** The central Intermediate evidence section is correct for the discipline. In math this is proof correctness; in physics it is derivation/model correctness; in chemistry it is mechanism/selectivity/thermodynamic/kinetic correctness; in biology it is mechanism/evidence correctness; in philosophy it is argument reconstruction; in language it is grammatical/literary/rhetorical analysis; in world it is model/case/source/institutional analysis.
 - [ ] **Exercise quality:** Exercises *test the concept*, not memorisation. At least 2 exercises require synthesis beyond direct application of stated results.
 - [ ] **Counterexample coverage:** Where the formal definition has common slip-up failure modes, they are flagged. **At Intermediate tier**, an explicit `### Counterexamples to common slips` subsection with bullet list is encouraged (pedagogically useful). **At Master tier**, fold into running prose with positive formulations — bullet lists at Master fail the LM prose standard (§M).
+
+### Domain-specific Intermediate section names
+
+The automated validator accepts domain-appropriate alternatives to `## Key theorem with proof [Intermediate+]`, per `UNIT_SPEC.md`:
+
+| Domain | Accepted evidence section |
+|---|---|
+| Math | `Key theorem`, `Key result`, `Key derivation` |
+| Physics | `Key derivation`, `Core model`, `Key theorem` |
+| Chemistry | `Key mechanism`, `Key result`, `Key derivation`, `Core model` |
+| Biology | `Key mechanism`, `Key experiment`, `Evidence pattern`, `Core model` |
+| Philosophy | `Key argument`, `Argument reconstruction`, `Case analysis` |
+| Language | `Key concepts`, `Diagnostics`, `Close reading`, `Rhetorical analysis` |
+| World | `Key concepts`, `Key model`, `Case study`, `Comparative framework`, `Institutional analysis` |
 
 ---
 
@@ -116,6 +131,8 @@ Run only if `master ∈ tiers_present`.
 - [ ] **Network coherence:** Cross-references in `## Connections` actually represent real curriculum dependencies — not just topical word association. The reviewer can articulate why each connection matters.
 - [ ] **Historical accuracy:** Citations in `## Historical & philosophical context` are correct (year, journal, attribution). Reviewer spot-checks at least one.
 - [ ] **Mathlib gap roadmap (if `lean_status: none`):** `lean_mathlib_gap` is precise enough that a Lean contributor could file an issue or PR against Mathlib using its language directly. Vague gaps fail.
+
+For non-formal domains, replace the Mathlib-gap-roadmap check with a **review-surface note** check: the note names what a human reviewer must verify (source fidelity, mechanism correctness, argument reconstruction, model assumptions, historical claims, or case interpretation).
 
 ### Master prose standard (LM-calibrated)
 
@@ -170,6 +187,16 @@ After dual-agent review of pilot units #1–#3 and an LM-editorial-writer benchm
 
 Items 9–11 are partially automated via the expanded prohibited-phrasings list. Items 12–14 require human review at Master tier.
 
+### Humanities and Social-Science Prose Addendum
+
+The Lawson-Michelsohn calibration remains useful for mathematical Master prose, but language/world/philosophy units often need a different kind of precision. At Master tier in §20, §22, and §23, reviewers additionally check:
+
+- [ ] Claims about traditions, texts, institutions, and historical events are attributed and dated.
+- [ ] Contested questions are presented as contested; the unit names at least two live positions where the literature requires it.
+- [ ] Examples do not smuggle in ideology as neutral description. Normative claims are marked as normative or assigned to a named framework.
+- [ ] Literary and historical interpretations distinguish primary text, translator/editor choice, and later critical interpretation.
+- [ ] Current or unstable factual claims carry dated sources and avoid pretending that 2024/2025 figures are timeless.
+
 ### From Wave 2 production (parallel-session foundational units)
 
 The parallel-session reports across Phase 2.1–2.3 surfaced consistent failure modes for foundational pulled-prereq units:
@@ -177,7 +204,7 @@ The parallel-session reports across Phase 2.1–2.3 surfaced consistent failure 
 15. **Hidden prerequisite leakage** — defining a foundational unit by silently invoking a not-yet-shipped prereq (e.g., defining Banach spaces with an undefined "norm" or vector bundles with an undefined "smooth manifold"). Catch: at production time, list the unit's pending prereqs explicitly in the introduction and define ad-hoc whatever's needed locally rather than hand-waving.
 16. **Sign-convention drift across foundational units** — when one unit assumes LM convention and a downstream unit assumes the opposite, errors propagate silently. Catch: every unit that uses a sign convention must state it in its formal definition section.
 17. **Theme duplication between adjacent units** — e.g., bilinear/quadratic-form material duplicated between `01.01.15` and Clifford `03.09.02`. Catch: the upstream foundational unit owns the basic theory; the downstream unit cites and specializes.
-18. **Self-contained vs. pulled-prereq tension** — a foundational unit must be self-contained enough that a learner can read it without prior Codex units, but referenced enough that downstream units can cite it cleanly. Catch: the formal-definition section is self-contained; the connections/historical sections do the integration.
+18. **Self-contained vs. pulled-prereq tension** — a foundational unit must be self-contained enough that a learner can read it without prior Babel Bible units, but referenced enough that downstream units can cite it cleanly. Catch: the formal-definition section is self-contained; the connections/historical sections do the integration.
 
 ---
 

@@ -1,4 +1,4 @@
-# Codex — Continuity & Connection Scaffold
+# Babel Bible — Continuity & Connection Scaffold
 
 A fifth-layer scaffold above flows. Specifies the connective-tissue infrastructure that lets parallel agents produce curriculum content while preserving continuity of thought between ideas — the moments where one concept dissolves into another, where two seemingly distinct results turn out to be the same theorem in different clothing, where a chapter ends with the reader feeling that the next chapter is *necessary*, not merely next.
 
@@ -56,7 +56,7 @@ Agents must recognise nine kinds of connection between ideas. Each has its own p
 | 8 | **Recurrence** | "We have seen this pattern before — in P, with the roles played by Q." | Functoriality of cohomology recurs in topology, AG, group cohomology |
 | 9 | **Bridging theorem** | "Theorem T identifies X with Y under hypotheses H." | Hodge decomposition links algebra (Dolbeault) and topology (singular) |
 
-Every Codex unit's `## Connections [Master]` section should classify each connection it draws by these nine types. Every flow's `bridge_after` field should explicitly invoke one or more of them. The taxonomy is the agent's vocabulary for talking about how ideas hang together — without it, agents fall back on "this relates to that" which carries no information.
+Every Babel Bible unit's `## Connections [Master]` section should classify each connection it draws by these nine types. Every flow's `bridge_after` field should explicitly invoke one or more of them. The taxonomy is the agent's vocabulary for talking about how ideas hang together — without it, agents fall back on "this relates to that" which carries no information.
 
 ---
 
@@ -311,7 +311,7 @@ Continuity verification is run as part of every release gate. Curriculum cannot 
 
 ## 12. The five-layer stack — finalised
 
-Codex's full architecture, with continuity as the binding agent:
+Babel Bible's full architecture, with continuity as the binding agent:
 
 ```
 ╔═════════════════════════════════════════════════════════════════════╗
@@ -338,7 +338,7 @@ Codex's full architecture, with continuity as the binding agent:
 ╚═════════════════════════════════════════════════════════════════════╝
 ```
 
-Layer 4 binds the other four. Without Layer 4, parallel agent production yields edited-anthology output — competent in pieces, fractured in totality. With Layer 4, every unit is in conversation with every other unit, every bridge advances a flow's argument, every connection is a named object recurring through the curriculum. This is the prerequisite for Tyler's directive: agents can work autonomously, in parallel, across the 64-book Fast Track corpus, without intervention — *and produce a continuous teaching*.
+Layer 4 binds the other domains. Without Layer 4, parallel agent production yields edited-anthology output — competent in pieces, fractured in totality. With Layer 4, every unit is in conversation with every other unit, every bridge advances a flow's argument, every connection is a named object recurring through the curriculum. This is the prerequisite for Tyler's directive: agents can work autonomously, in parallel, across the 64-book Fast Track corpus, without intervention — *and produce a continuous teaching*.
 
 ---
 

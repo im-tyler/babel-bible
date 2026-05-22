@@ -13,7 +13,7 @@ Cycle 4 — see `plans/fasttrack/kobayashi-nomizu-foundations-vol1.md`).
 KN-II picks up where KN-I leaves off and assumes the entire Vol. I apparatus
 (principal bundles, connections, curvature, holonomy, Cartan structural
 equations) as prerequisite. The two volumes are routinely cited together
-as **"KN-I + KN-II"**; the Codex Fast Track lists them as separate entries
+as **"KN-I + KN-II"**; the Babel Bible Fast Track lists them as separate entries
 because the audit + production effort is substantively distinct.
 
 **Purpose of this plan:** lightweight audit-and-gap pass (P1-lite + P2 +
@@ -156,7 +156,7 @@ Distinctive content, organised by the five chapters of the volume:
    lecture notes 1949** (circulated as a mimeograph; later collected in
    *Œuvres scientifiques*), which extended Chern's curvature recipe to all
    principal $G$-bundles via invariant polynomials — this is the work that
-   the Codex unit `03.06.06-chern-weil-homomorphism.md` is named after.
+   the Babel Bible unit `03.06.06-chern-weil-homomorphism.md` is named after.
 7. **Editorial signature.** KN-II is uncompromisingly **bundle-and-curvature
    first** in the same spirit as KN-I. Complex manifolds are introduced
    via the almost-complex / integrability route (not via local holomorphic
@@ -202,9 +202,9 @@ sequence is KN-II → Voisin (deep Hodge theory) → Donaldson-Kronheimer
 
 ---
 
-## §2 Coverage table (Codex vs KN-II)
+## §2 Coverage table (Babel Bible vs KN-II)
 
-Cross-referenced against the current Codex corpus. ✓ = covered,
+Cross-referenced against the current Babel Bible corpus. ✓ = covered,
 △ = partial / different framing, ✗ = not covered. KN-II material maps
 primarily to `03-modern-geometry/02-manifolds/`,
 `03-modern-geometry/05-bundles/`,
@@ -212,7 +212,7 @@ primarily to `03-modern-geometry/02-manifolds/`,
 `05-symplectic/almost-complex/` chapter, the
 `04-algebraic-geometry/09-hodge/` chapter, and adjacent.
 
-| KN-II topic | Codex unit(s) | Status | Note |
+| KN-II topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Ch. VIII — submanifolds** | | | |
 | Isometric immersion, second fundamental form $\mathrm{II}$ | — | ✗ | **Gap.** No anchor unit. Cited downstream (e.g. in `05-symplectic/lagrangian/` Lagrangian-submanifold framing) without a definitional unit. |
@@ -221,7 +221,7 @@ primarily to `03-modern-geometry/02-manifolds/`,
 | Ricci equation (normal-bundle curvature) | — | ✗ | **Gap.** |
 | Totally geodesic / minimal / totally umbilical submanifolds | — | ✗ | **Gap.** Cited informally in symplectic units (Lagrangian = totally null + half-dim) without an anchor. |
 | **Ch. IX — complex and almost-complex manifolds** | | | |
-| Almost-complex structure $J: TM \to TM$, $J^2 = -\mathrm{id}$ | `05.06.01-almost-complex.md` | △ | Shipped in the **symplectic** chapter (not the manifolds chapter), framed as "almost-complex structure on a symplectic manifold". KN-II frames $J$ as a manifold-level structure independent of any symplectic form; the Codex framing is narrower. |
+| Almost-complex structure $J: TM \to TM$, $J^2 = -\mathrm{id}$ | `05.06.01-almost-complex.md` | △ | Shipped in the **symplectic** chapter (not the manifolds chapter), framed as "almost-complex structure on a symplectic manifold". KN-II frames $J$ as a manifold-level structure independent of any symplectic form; the Babel Bible framing is narrower. |
 | Nijenhuis tensor $N_J$ | △ (inside `05.06.03`) | △ | Mentioned in `05.06.03-newlander-nirenberg.md` as the integrability obstruction. No dedicated unit; not anchored to a manifold-level $J$. |
 | Type decomposition $TM \otimes \mathbb{C} = T^{1,0} \oplus T^{0,1}$ | — | ✗ | **Gap.** Foundational; not anchored as its own unit. |
 | Newlander-Nirenberg integrability theorem | `05.06.03-newlander-nirenberg.md` | ✓ | Shipped; master anchor Newlander-Nirenberg 1957, Hörmander, Huybrechts, Voisin. Good coverage. |
@@ -278,7 +278,7 @@ equations, no second fundamental form. Chapter X (homogeneous spaces) is
 canonical-connection unit. Chapter XI (transformations) is **~0% covered**:
 no Bochner technique, no Kähler-isometry framework.
 
-**Silent KN-II dependencies in the Codex.** The audit reveals a cluster
+**Silent KN-II dependencies in the Babel Bible.** The audit reveals a cluster
 of units that cite KN-II as their master anchor (directly or implicitly)
 but whose load-bearing prerequisites are uncovered:
 
@@ -290,7 +290,7 @@ but whose load-bearing prerequisites are uncovered:
 2. **`04.09.01-hodge-decomposition.md`** — covers the algebraic-geometric
    framing of Hodge decomposition; the KN-II **Kähler-manifold proof** via
    Kähler identities is the load-bearing differential-geometric route and
-   has no anchor in the Codex.
+   has no anchor in the Babel Bible.
 3. **`04.09.02-kodaira-vanishing.md`** — cites Kodaira 1954 directly; the
    prerequisite **holomorphic bundle** and **Hermitian metric / Chern
    connection** layer is missing.
@@ -553,7 +553,7 @@ should carry originator-prose citations:
 - $h$ for a Hermitian metric on a complex vector bundle; $\nabla^h$ for
   the Chern connection.
 - $\omega$ for the Kähler form (reused from KN-I where $\omega$ is the
-  connection 1-form — **notation clash** to flag in the Codex; resolve
+  connection 1-form — **notation clash** to flag in the Babel Bible; resolve
   by writing $\omega_K$ for the Kähler form when in the same paragraph
   as the connection 1-form, or by using $\omega^{\mathrm{conn}}$ for the
   latter, as Tu does).
@@ -569,7 +569,7 @@ Tu uses identical notation to KN-II in the bundle / curvature register;
 Tu adopts the $\omega \leftrightarrow A$, $\Omega \leftrightarrow F$
 aliases to bridge to the gauge-theory notation in
 `03.07.05-yang-mills-action.md` (already recorded in the KN-I plan §4).
-The Codex notation decision (per `docs/specs/UNIT_SPEC.md` §11) should:
+The Babel Bible notation decision (per `docs/specs/UNIT_SPEC.md` §11) should:
 adopt KN-II's complex-geometry notation verbatim; resolve the $\omega$
 notation clash by reserving $\omega$ for the Kähler form inside the
 complex / Kähler units (`03.02.11`, `03.02.12`) and writing $\omega^{\mathrm{conn}}$
@@ -621,7 +621,7 @@ explicitly. Record in a §Notation paragraph of each affected unit.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of KN-II's named theorems in Chs. VIII–XII map to Codex units.
+- ≥95% of KN-II's named theorems in Chs. VIII–XII map to Babel Bible units.
   Current ~25–30%; after priority-1 rises to ~65%; after priority-1+2
   to ~85%; after priority-1+2+3 to ~93%; full ≥95% requires
   priority-4 weaving (no new units, only cross-references).

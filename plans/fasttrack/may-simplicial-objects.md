@@ -118,14 +118,14 @@ Peer-source corroboration:
 
 ---
 
-## §2 Coverage table (Codex vs SOAT)
+## §2 Coverage table (Babel Bible vs SOAT)
 
 Cross-referenced against the current `03-modern-geometry/12-homotopy/`
 chapter (24 shipped units + `03.12.22-delta--complex-semi-simplicial-set`
 currently in production / live queue).
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| SOAT topic (chapter, section) | Codex unit(s) | Status | Note |
+| SOAT topic (chapter, section) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Simplicial category $\Delta^*$, face / degeneracy operators (§1) | `03.12.22` (in queue) | △ | The queued $\Delta$-complex unit covers semi-simplicial sets; the *full* simplicial category with degeneracies is a separate gap. |
 | Simplicial identities and normal form $\mu = \delta_{i_1}\cdots\sigma_{j_t}$ (§1) | — | ✗ | **Gap.** Foundational; needed before anything else. |
@@ -156,7 +156,7 @@ currently in production / live queue).
 | Acyclic models theorem (§28) | — | ✗ | **Gap (P2).** Method, not just statement. |
 | Eilenberg-Zilber theorem (§29) | △ | △ | Mentioned in `03.12.11` Synthesis; not its own unit. The chain-level shuffle / Alexander-Whitney maps are missing. |
 
-**Aggregate coverage estimate:** ~5% of SOAT has corresponding Codex units
+**Aggregate coverage estimate:** ~5% of SOAT has corresponding Babel Bible units
 (only the topological $K(\pi, n)$, topological Hurewicz, and partial
 mentions of Dold-Kan / Eilenberg-Zilber). This is a near-total gap.
 Closing it is the largest single piece of the simplicial-methods curriculum.
@@ -265,7 +265,7 @@ models (4 units):**
     adjunction.** SOAT §25-26. Kan's loop-group construction; adjunction
     with the bar construction. Master-only deepening; ~1500 words.
 13. **Exercise pack `03.12.E2-simplicial-objects-exercises`.** SOAT is
-    sparse on exercises (it is a *Lectures* volume) but a Codex exercise
+    sparse on exercises (it is a *Lectures* volume) but a Babel Bible exercise
     pack should include: the simplicial-set $\Delta^n$ and its
     non-degenerate simplices; computation of $\pi_n(\Delta^n / \partial\Delta^n)$;
     verification that $\mathrm{Sing}(X)$ is Kan; explicit

@@ -1,4 +1,4 @@
-# Codex — Notation Glossary
+# Babel Bible — Notation Glossary
 
 The project-wide notation glossary. Every formal symbol introduced in any unit's Intermediate+ or Master section appears here. Validator (`scripts/validate_unit.py`) checks that any symbol used in a unit either appears here or is defined inline in that unit.
 

@@ -1,4 +1,4 @@
-# Codex v0.5 — Supporting Units batch — gpt-codex assignment
+# Babel Bible v0.5 — Supporting Units batch — gpt-codex assignment
 
 This is your third v0.5 batch, after Strands B (Symplectic) and E (Statistical field theory) — both shipped clean. This batch is *supporting units* beneath the v0.5 apex strands. Concurrent with claude, who is producing Strand A's 22 supporting units plus Strand D's 07.01/07.02/07.05 supporting (10 units) — disjoint chapter directories, no collision risk.
 

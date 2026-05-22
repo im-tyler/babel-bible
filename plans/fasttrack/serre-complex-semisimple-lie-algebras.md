@@ -31,7 +31,7 @@ cover image at
 which the Fast Track source page reuses across multiple Serre slots). The
 1966 French original is not author-hosted; Springer 1987/2001 reprint is
 commercial. This audit works from (a) the well-documented public TOC of
-CSLA, (b) the Codex's 26 shipped `07-representation-theory/` units (which
+CSLA, (b) the Babel Bible's 26 shipped `07-representation-theory/` units (which
 already cite Serre 1966 by name in `07.04.01` and `07.06.05`), and (c) the
 canonical secondary literature (Humphreys, Bourbaki, Carter, Knapp). A
 full line-number audit is deferred until a PDF is acquired. This is
@@ -167,13 +167,13 @@ presentation at the centre.
 
 ---
 
-## §2 Coverage table (Codex vs CSLA)
+## §2 Coverage table (Babel Bible vs CSLA)
 
 Cross-referenced against the current 26 shipped units of
 `content/07-representation-theory/`. ✓ = covered, △ = partial /
 different framing, ✗ = not covered.
 
-| CSLA topic | Codex unit(s) | Status | Note |
+| CSLA topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Lie algebra; bracket; structure constants | `03.04.01` lie-algebra | ✓ | Foundational unit in 03 differential-forms strand. |
 | Subalgebra, ideal, derived series, lower central series | `03.04.01` (and `07.06.01`) | △ | Touched but no standalone solvable / nilpotent unit. **Gap (low).** |
@@ -182,11 +182,11 @@ different framing, ✗ = not covered.
 | Solvable radical $\mathrm{rad}(\mathfrak{g})$; semisimple = $\mathrm{rad} = 0$ | △ (mentioned in `07.04.01`) | △ | **Gap (low).** Folded into prose; no standalone unit. |
 | Levi-Malcev decomposition | — | ✗ | **Gap (low).** CSLA states without proof; Codex omits entirely. Master deepening candidate. |
 | **Killing form $\kappa(X, Y) = \mathrm{tr}(\mathrm{ad}\, X \circ \mathrm{ad}\, Y)$** | — (referenced in `07.06.03`, `07.06.04`, `07.04.01`, `07.03.01`) | △ | **Gap (HIGH).** Killing form is referenced in 4+ units but has *no standalone unit*. CSLA Ch. II is built on it. Candidate: `07.06.10` killing-form. |
-| Cartan's criterion for semisimplicity ($\kappa$ non-degenerate ⇔ ss) | — | ✗ | **Gap (HIGH).** Cornerstone result; no Codex unit. Candidate: §Master section of `07.06.10` or new unit `07.06.16` cartan-criterion-semisimplicity. |
+| Cartan's criterion for semisimplicity ($\kappa$ non-degenerate ⇔ ss) | — | ✗ | **Gap (HIGH).** Cornerstone result; no Babel Bible unit. Candidate: §Master section of `07.06.10` or new unit `07.06.16` cartan-criterion-semisimplicity. |
 | Weyl complete-reducibility theorem | — | △ | **Gap (medium).** Referenced inside `07.03.01` highest-weight and `07.06.06` verma-module but no standalone proof unit. CSLA Ch. II §6 anchor. |
 | Casimir element | — | △ | **Gap (medium).** Same as Fulton-Harris audit punch-list item 7 (`07.06.10` slot — note: see notation collision below). |
 | **Cartan subalgebra (CSA): definition, existence, conjugacy** | — (mentioned in `07.06.03`, `07.04.01`) | △ | **Gap (HIGH).** CSLA Ch. III is the *whole* CSA story; Codex has no standalone CSA unit. Candidate: `07.06.17` cartan-subalgebra. |
-| Regular elements; conjugacy of CSAs via regular elements | — | ✗ | **Gap (HIGH).** Serre's distinctive proof — Zariski-density of regular elements. No Codex coverage. Master section of `07.06.17`. |
+| Regular elements; conjugacy of CSAs via regular elements | — | ✗ | **Gap (HIGH).** Serre's distinctive proof — Zariski-density of regular elements. No Babel Bible coverage. Master section of `07.06.17`. |
 | Root-space decomposition $\mathfrak{g} = \mathfrak{h} \oplus \bigoplus \mathfrak{g}_\alpha$ | △ (stated in `07.06.03` and `07.04.01`) | △ | **Gap (medium-high).** Stated; not derived as its own unit. Candidate: §Master deepening of `07.06.03` OR new unit `07.06.18` root-space-decomposition. |
 | Root system (abstract, in Euclidean space) | `07.06.03` root-system | ✓ | Direct correspondent. |
 | Weyl group | `07.06.04` weyl-group | ✓ | |
@@ -216,14 +216,14 @@ different framing, ✗ = not covered.
   everything; minor gaps in simple-system / Cartan-matrix detail.
 - **Ch. VI (Serre relations, structure theorem):** ~10% — referenced
   by name; no standalone unit. **The signature CSLA content is
-  underrepresented in the Codex.**
+  underrepresented in the Babel Bible.**
 - **Ch. VII (highest-weight reps, Weyl character formula):** ~85% —
   Codex has `07.03.01`, `07.06.06`, `07.06.07`, `07.06.08` all shipped.
 - **Ch. VIII (compact real forms, unitarian trick):** ~30% — touched
   only.
 
 **Overall: ~55% of CSLA covered.** Higher than the 0% Brown-Higgins-Sivera
-baseline because the Codex's `07-representation-theory/` already covers
+baseline because the Babel Bible's `07-representation-theory/` already covers
 the *output* of CSLA's classification programme (root systems, Weyl
 group, Dynkin diagrams, highest-weight reps). Lower than the 65%
 Fulton-Harris coverage because CSLA's *foundational chapters* (Killing
@@ -272,7 +272,7 @@ examples; CSLA's gap is missing supporting theorems).
    anchor; Kac *Infinite-Dim Lie Algebras* §1.3 anchor (the same
    presentation extended to Kac-Moody). Three-tier; Master tier
    includes the existence-and-uniqueness proof. ~2500 words. **This is
-   the Codex's single largest *intellectual* gap on the Lie-algebra
+   the Babel Bible's single largest *intellectual* gap on the Lie-algebra
    side — the Serre presentation is *cited* in `07.04.01` and `07.06.05`
    but never written out.** Originator-prose section citing Serre 1966
    directly.
@@ -432,7 +432,7 @@ Fulton-Harris vs Humphreys split for the Cartan-Weyl generators:**
 - **Carter:** $e_i, f_i, h_i$ for Serre generators throughout
   (lowercase) to match the Kac-Moody literature.
 
-**Codex notation decision.** Adopt the Serre / CSLA / Carter convention:
+**Babel Bible notation decision.** Adopt the Serre / CSLA / Carter convention:
 $e_i, f_i, h_i$ for the Serre generators attached to simple roots
 $\alpha_i$ (lowercase to match Kac-Moody convention and to disambiguate
 from group elements). For the $\mathfrak{sl}_2$-triple attached to a
@@ -440,7 +440,7 @@ general root $\alpha$, write $(e_\alpha, f_\alpha, h_\alpha)$. Record
 this in a §Notation paragraph of `07.06.20` and cross-reference in
 `07.06.18`, `07.06.10`, `07.06.17`. **This is a deliberate departure
 from Fulton-Harris notation** (where $X_\alpha, Y_\alpha$ are used) —
-the Codex follows the modern Carter / Kac convention which is the de
+the Babel Bible follows the modern Carter / Kac convention which is the de
 facto standard for current Lie-theory research.
 
 **Cross-strand weaving (Pass-W).** New units should link laterally to:
@@ -466,7 +466,7 @@ facto standard for current Lie-theory research.
   audit; deferred until a local PDF is acquired). Coverage estimates in
   §2 are based on CSLA's well-known chapter structure (the 8-chapter
   organisation is canonical and reproduced in every secondary source)
-  plus spot-checks of the 26 Codex units.
+  plus spot-checks of the 26 Babel Bible units.
 - **Serre's *Lie Algebras and Lie Groups* (FT 3.13 sibling).** Per the
   stub spec, deferred to its own dedicated audit. Note that 3.13 covers
   *p-adic Lie groups* and *Campbell-Hausdorff homological algebra* —
@@ -510,7 +510,7 @@ equivalence-coverage when:
   `07.06.17 cartan-subalgebra`, `07.06.20 serre-relations`,
   `07.06.18 root-space-decomposition`). These close the foundational
   gap.
-- ≥95% of CSLA's named theorems in Ch. I–VIII map to a Codex unit
+- ≥95% of CSLA's named theorems in Ch. I–VIII map to a Babel Bible unit
   (currently ~55%; after Priority-1 this rises to ~85%; after
   Priority-1+2 to ~92%; full ≥95% requires Priority-3 master
   deepenings).
@@ -531,13 +531,13 @@ equivalence-coverage when:
 - **4.1 Book-as-input self-check.** Sample 5 random theorem statements
   from CSLA (e.g., Engel's theorem, Cartan's criterion for
   semisimplicity, CSA conjugacy, Serre's theorem, Weyl character
-  formula); for each, identify the Codex unit that proves it.
+  formula); for each, identify the Babel Bible unit that proves it.
 - **4.2 Exercise reproducibility.** CSLA is exercise-light — sample
   exercises should be drawn from the Humphreys / Fulton-Harris
   exercise corpus on the same topics. For each, identify the Codex
   unit(s) sufficient to solve it.
 - **4.3 Notation comprehension.** Sample 5 fragments of CSLA prose;
-  paraphrase each into the Codex notation system (per §4 crosswalk).
+  paraphrase each into the Babel Bible notation system (per §4 crosswalk).
   Particular attention to the Serre-generator notation in CSLA Ch. VI.
 
 ---

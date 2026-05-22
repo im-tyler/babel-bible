@@ -133,7 +133,7 @@ overlap Milnor-Stasheff):
 
 ---
 
-## §2 Coverage table (Codex vs Milnor-Stasheff)
+## §2 Coverage table (Babel Bible vs Milnor-Stasheff)
 
 Cross-referenced against the current corpus. The existing
 `03-modern-geometry/06-characteristic-classes/` chapter has **four shipped
@@ -147,20 +147,20 @@ exotic-sphere arc almost entirely as a gap.
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| Milnor-Stasheff topic | Section | Codex unit(s) | Status | Note |
+| Milnor-Stasheff topic | Section | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|---|
 | Smooth manifolds, tangent bundles | §1–§2 | `03.02.01`+ | ✓ | Standard prereq. |
 | Vector bundles, sections, frames | §2–§3 | `03.05.02`, `03.05.03`, `03.05.08` | ✓ | Real, complex, frame bundle all covered. |
 | Stiefel-Whitney axioms ($w_i$) | §4 | `03.06.03` | △ | Axioms stated; "Master tier" anchors §4–§9. Whitney product, dimension, naturality covered. Whitney duality $w(TM)w(\nu)=1$ partial — referenced but not proved in unit. |
 | Stiefel-Whitney numbers $w_I[M]$ | §4, §16 | — | ✗ | **Gap** — number invariants and pairing with $[M] \in H_n(M; \mathbb{Z}/2)$ not in any unit. |
-| Grassmannians $G_n(\mathbb{R}^k)$, $G_n(\mathbb{R}^\infty)$ | §5–§6 | `03.08.04`, `03.08.05` | △ | Classifying space and universal bundle treated abstractly; the Grassmannian model and Schubert-cell cohomology calculation are **not** in the Codex. |
+| Grassmannians $G_n(\mathbb{R}^k)$, $G_n(\mathbb{R}^\infty)$ | §5–§6 | `03.08.04`, `03.08.05` | △ | Classifying space and universal bundle treated abstractly; the Grassmannian model and Schubert-cell cohomology calculation are **not** in the Babel Bible. |
 | Cohomology ring $H^*(BO(n); \mathbb{Z}/2) = \mathbb{Z}/2[w_1, \ldots, w_n]$ | §7 | — | ✗ | **Gap** — the central calculation of the topological side. Master-tier needed. |
 | Existence + uniqueness of $w_i$ via Grassmannian | §5–§8 | — | ✗ | **Gap** — the proof that closes the axiomatic loop. |
 | Obstruction $w_1$ = orientability | §4, §9 | `03.06.03` (Beginner) | △ | Stated, not proved. |
 | Obstruction $w_2$ = spin | §4 + cross-ref §III.13 of L-M | `03.06.03`, `03.09.04` | ✓ | Covered across spin units. |
 | Thom space, Thom class $U$ | §8, §10 | `03.04.09` (de Rham version) | △ | de Rham Thom shipped; singular-cohomology Thom class and Thom isomorphism $\Phi: H^k(B) \to H^{k+n}(E, E_0)$ **not** in a dedicated unit. |
 | Euler class $e(E)$ of an oriented bundle | §9 | `03.05.10` (sphere bundle) + `03.04.09` (de Rham) | △ | Touched in sphere-bundle and Thom units; **no dedicated singular-cohomology Euler-class unit**. Master-tier worked computations missing. |
-| Steenrod squares $\mathrm{Sq}^i$ | §8 (used) | — | ✗ | **Gap** — Steenrod squares are not in the Codex at all. Needed for the Wu formula and the $w_i = \mathrm{Sq}^i(U)$ identity. |
+| Steenrod squares $\mathrm{Sq}^i$ | §8 (used) | — | ✗ | **Gap** — Steenrod squares are not in the Babel Bible at all. Needed for the Wu formula and the $w_i = \mathrm{Sq}^i(U)$ identity. |
 | $w_i = \mathrm{Sq}^i(U)$ identity | §8 | — | ✗ | **Gap** — depends on the Steenrod-square gap above. |
 | Wu formula | §11 | — | ✗ | **Gap.** Master-tier. |
 | Whitney duality theorem | §4, §11 | — | ✗ | **Gap.** Worked example of immersion obstruction missing. |
@@ -175,8 +175,8 @@ exotic-sphere arc almost entirely as a gap.
 | Oriented bordism $\Omega_*^{\mathrm{SO}}$ and Pontryagin detection | §18 | — | ✗ | **Gap.** Same status. |
 | Pontryagin-Thom construction | §18 | — | ✗ | **Gap.** Master-tier survey unit. |
 | Hirzebruch signature theorem | §19 | `03.06.04` (mentioned) + `03.09.10` (named consequence) | △ | Named and computed for $\mathbb{CP}^2$ in `03.06.04`; the **$L$-polynomial / Hirzebruch genus** machinery and the statement at master tier are **partial**. Lawson-Michelsohn plan flags this as `△ partial` too (corr III.13.4). |
-| $L$-genus, $\hat{A}$-genus, Todd genus as multiplicative sequences | §19 + Appendix B | partial | △ | $\hat{A}$ and $L$ appear in `03.09.10` and Lawson-Michelsohn-plan rows; **multiplicative-sequence formalism** is not a dedicated Codex unit. |
-| Bernoulli numbers (Appendix B) | App B | — | ✗ | **Gap** — used by the $L$- and $\hat{A}$-genera but never defined in the Codex. |
+| $L$-genus, $\hat{A}$-genus, Todd genus as multiplicative sequences | §19 + Appendix B | partial | △ | $\hat{A}$ and $L$ appear in `03.09.10` and Lawson-Michelsohn-plan rows; **multiplicative-sequence formalism** is not a dedicated Babel Bible unit. |
+| Bernoulli numbers (Appendix B) | App B | — | ✗ | **Gap** — used by the $L$- and $\hat{A}$-genera but never defined in the Babel Bible. |
 | Combinatorial Pontryagin classes and exotic spheres | §20 | — | ✗ | **Gap.** Master-tier survey unit (Milnor 1956 exotic 7-sphere). |
 | Cohomology + cup-product review | App A | `03.12.16`, `03.12.17` | ✓ | Poincaré duality and cap product shipped. |
 
@@ -343,7 +343,7 @@ treatments):
 - **Thom isomorphism + bordism:** Thom 1954 (above).
 
 **Notation crosswalk.** Milnor-Stasheff's notation is the *de facto
-standard* and the Codex should adopt it verbatim:
+standard* and the Babel Bible should adopt it verbatim:
 
 - $w_i(E) \in H^i(B; \mathbb{Z}/2)$ — Stiefel-Whitney classes (real bundles).
 - $c_i(E) \in H^{2i}(B; \mathbb{Z})$ — Chern classes (complex bundles).
@@ -396,7 +396,7 @@ for existing units; new units should preserve it.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of Milnor-Stasheff's named theorems in §1–§19 map to Codex units.
+- ≥95% of Milnor-Stasheff's named theorems in §1–§19 map to Babel Bible units.
   Current: ~55%; after Priority-1 units (1–7): ~85%; after Priority-1+2:
   ~92%; full ≥95% requires Priority-3 + selective Priority-4.
 - ≥90% of Milnor-Stasheff's worked computations through §19 have a

@@ -47,7 +47,7 @@ renormalization plus bound-state QED. The shipped Section 2 chapter
 (`12.02.01`, Cycle 9) and bosonic Fock space (`12.03.01`, Cycle 10) — i.e.
 the *non-relativistic* QM substrate and the most elementary half of WQTFV1
 Ch. 4–5. **The relativistic, Poincaré-rep-theoretic, S-matrix, renormalization
-sides are ~0% covered** in the Codex as of 2026-05-17. Coordinate the
+sides are ~0% covered** in the Babel Bible as of 2026-05-17. Coordinate the
 Weinberg unit production with the Woit 2.02 punch-list, since several
 critical-priority units — Poincaré-group representations, Wigner
 classification, free Dirac / Klein-Gordon quantization — are claimed by both
@@ -190,7 +190,7 @@ Peer sources triangulating Weinberg's distinctive editorial move:
 
 ---
 
-## §2 Coverage table (Codex vs WQTFV1)
+## §2 Coverage table (Babel Bible vs WQTFV1)
 
 Cross-referenced against the current corpus as of 2026-05-17. The shipped
 `12-quantum/` chapter contains three units: `12.01.02` (Stern-Gerlach),
@@ -206,7 +206,7 @@ during P3 planning.**
 
 ✓ = covered, △ = partial / different framing, ✗ = not covered.
 
-| WQTFV1 chapter / topic | Codex unit(s) | Status | Note |
+| WQTFV1 chapter / topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Ch. 1** — Historical introduction (Dirac 1927, Jordan-Wigner 1928, Heisenberg-Pauli 1929–30, Fermi 1932, Tomonaga-Schwinger-Feynman-Dyson 1947–49) | — | ✗ | **Gap.** Optional / historical; possible chapter intro. |
 | **Ch. 2.1** — Inhomogeneous Lorentz group / Poincaré group; Lie algebra | `03.03.03-orthogonal-group`, `03.04.01-lie-algebra` adjacent | △ | Orthogonal/Lie machinery present; the Poincaré group as a semi-direct product $ISO(3,1) = \mathbb{R}^{1,3} \rtimes O(3,1)$ not a unit. **Shared with Woit Ch. 40.** |
@@ -234,7 +234,7 @@ during P3 planning.**
 | **Ch. 13** — Infrared effects; Bloch-Nordsieck; Kinoshita-Lee-Nauenberg | — | ✗ | **Gap.** |
 | **Ch. 14** — Bound states in external fields; Bethe-Salpeter equation; Lamb shift; hyperfine structure | — | ✗ | **Gap.** Bethe 1947 Lamb-shift originator-citation. |
 
-**Aggregate coverage estimate:** **~5% of WQTFV1 has corresponding Codex units**
+**Aggregate coverage estimate:** **~5% of WQTFV1 has corresponding Babel Bible units**
 (partial credit on Ch. 2.1, 5.7, 7, 8, 9 via the geometric / rep-theoretic
 prerequisites, plus the freshly-landed `12.03.01` covering the *output* of
 Weinberg Ch. 4 even if not its *derivation*). The relativistic, S-matrix,
@@ -281,7 +281,7 @@ bound-state QED (Ch. 14).
   (the Minkowski-space / Lorentz-group units).
 - **Coordinate ID assignment with the Woit FT 2.02 punch-list** before
   writing the seven shared units above. The Woit plan assumes a new
-  `09-quantum-mechanics/` directory; the Codex has since shipped `12-quantum/`
+  `09-quantum-mechanics/` directory; the Babel Bible has since shipped `12-quantum/`
   instead. Decide whether the seven shared units land at `09.*` or `12.*`,
   retrofit the Woit plan accordingly. (Recommendation: use `12.*` to match
   the shipped directory.)
@@ -467,7 +467,7 @@ production. Fits a focused 3–4 week window with the production team that
 has been shipping Section 2 in Cycles 9–10.
 
 **Originator-prose targets.** WQTFV1 has multiple originator-prose anchors;
-the Codex should carry originator-prose treatment per
+the Babel Bible should carry originator-prose treatment per
 `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §10 in the following:
 
 - Units 1, 2, 25 — anchor on Wigner 1939 *Ann. Math.* 40, 149 (Poincaré
@@ -541,7 +541,7 @@ equivalence-coverage when:
   space) as a deployed unit, not just in-flight (current uncertainty per
   filesystem audit).
 - ≥95% of WQTFV1's named theorems and worked calculations in chapters
-  2–6 map to Codex units (currently ~0%; after priority-1 units this
+  2–6 map to Babel Bible units (currently ~0%; after priority-1 units this
   rises to ~75%; after priority-1+2 to ~88%; full ≥95% requires
   priority-3 + selective priority-4).
 - ≥90% of WQTFV1's worked computations in chapters 2–11 have a direct

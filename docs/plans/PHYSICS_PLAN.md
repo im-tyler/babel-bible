@@ -1,8 +1,8 @@
-# Codex — Physics Plan
+# Babel Bible — Physics Plan
 
-**Drafted 2026-05-17.** Per-domain plan for the Physics axis of the five-domain expansion. Sibling of (forthcoming) `CHEMISTRY_PLAN.md`, `BIOLOGY_PLAN.md`, `PHILOSOPHY_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md` for cross-domain mechanics. Companion to `FASTTRACK_COVERAGE_ROADMAP.md` — that plan tracks Fast Track booklist coverage on the math/physics axis; this plan structures the physics-proper namespace it feeds into.
+**Drafted 2026-05-17. Updated 2026-05-22.** Per-domain plan for the Physics axis of the cross-domain expansion. Sibling of `CHEMISTRY_PLAN.md`, `BIOLOGY_PLAN.md`, `PHILOSOPHY_PLAN.md`, and `LANGUAGE_WORLD_PLAN.md`. Subordinate to `BIBLE_EXPANSION_PLAN.md` for cross-domain mechanics. Companion to `FASTTRACK_COVERAGE_ROADMAP.md` — that plan tracks Fast Track booklist coverage on the math/physics axis; this plan structures the physics-proper namespace it feeds into.
 
-**Status:** Draft. Locks the five-branch structure, section numbers, tier anchors, mastery endpoints, math prereq cone, and the seed-unit slate. Does not produce units (production happens after the validator + UNIT_SPEC patches in `BIBLE_EXPANSION_PLAN.md` §10 land).
+**Status:** Active plan. Locks the physics branch structure, section numbers, tier anchors, mastery endpoints, math prereq cone, and the seed-unit slate. Production now happens under the shared validator/spec contract in `UNIT_SPEC.md` and `QUALITY_RUBRIC.md`.
 
 Read in this order before this plan: `OVERVIEW.md` (canonical); `BIBLE_EXPANSION_PLAN.md` (cross-domain contract); `FASTTRACK_COVERAGE_ROADMAP.md` (math/physics depth push). This plan does not restate them — it builds on them.
 
@@ -459,7 +459,7 @@ Track A and Track B will overlap: a single physics unit can simultaneously satis
 | Does §03 math-physics border get reorganized once §09–13 are populated? (E.g., do Yang-Mills / Dirac operator move to §12?) | Probably never — `BIBLE_EXPANSION_PLAN.md` §3.1 already locked "no renumber" | Listed here for completeness; the answer is no |
 | Should "condensed matter" become its own §14 section? | After §12 reaches ~30 units and §11 reaches ~15 — if condensed-matter weight justifies it | Premature; treat as application stack inside §11 + §12 for now |
 | Whether to introduce a "computational physics" subsection or units | After Wave 3 at earliest | Tooling pedagogy is a different teaching mode; decide later |
-| How to handle physics topics that have *no* mainstream textbook at master tier (e.g., research-frontier topological QFT, holography) | Per-unit, when those units come up | Most v1 production won't hit this — the apex Codex pilot already explored that territory in §03 |
+| How to handle physics topics that have *no* mainstream textbook at master tier (e.g., research-frontier topological QFT, holography) | Per-unit, when those units come up | Most v1 production won't hit this — the apex Babel Bible pilot already explored that territory in §03 |
 
 ---
 

@@ -224,16 +224,16 @@ Physics* (FT 1.14) for the gauge-theory / GR application layer.
 
 ---
 
-## §2 Coverage table (Codex vs LDG)
+## §2 Coverage table (Babel Bible vs LDG)
 
-Cross-referenced against the current Codex corpus. ✓ = covered,
+Cross-referenced against the current Babel Bible corpus. ✓ = covered,
 △ = partial / different framing, ✗ = not covered. LDG material maps
 primarily to `03-modern-geometry/02-manifolds/`, `03-lie/`,
 `04-differential-forms/`, `05-bundles/`, and `05-classical-mechanics/`.
 **Heavy overlap with the KN-I (FT 3.18) audit is flagged explicitly**;
 shared punch-list items should ship once.
 
-| LDG topic | Codex unit(s) | Status | Note (overlap with KN-I audit) |
+| LDG topic | Babel Bible unit(s) | Status | Note (overlap with KN-I audit) |
 |---|---|---|---|
 | **Ch. I — calculus on $\mathbb{R}^n$ and ODE existence** | | | |
 | Inverse / implicit function theorem | — | ✗ | **Gap.** Standard prerequisite; on the Apostol-multivariable audit. |
@@ -245,7 +245,7 @@ shared punch-list items should ship once.
 | Submersion / immersion / embedding | — | ✗ | **Gap.** On the Milnor MMT punch-list. |
 | Tangent / cotangent bundle | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 1** (`03.02.02`). |
 | Regular value theorem | — | ✗ | **Gap.** Shared with the Milnor audit. |
-| Partitions of unity | — | ✗ | **Gap.** Foundational; nothing in the Codex. |
+| Partitions of unity | — | ✗ | **Gap.** Foundational; nothing in the Babel Bible. |
 | Whitney embedding (weak, $M^n \hookrightarrow \mathbb{R}^{2n+1}$) | — | ✗ | **Gap.** Sternberg gives the easy version; strong Whitney $M^n \hookrightarrow \mathbb{R}^{2n}$ is a Milnor topic. Cite Whitney 1936 originator. |
 | **Ch. III — vector fields, Lie groups (early)** | | | |
 | Lie bracket $[X, Y]$, Lie derivative | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 2** (`03.02.03`). |
@@ -266,7 +266,7 @@ shared punch-list items should ship once.
 | de Rham cohomology | `03.04.06-de-rham-cohomology.md` | ✓ | Shipped. |
 | de Rham theorem $H^k_{\mathrm{dR}} \cong H^k(M; \mathbb{R})$ | △ | △ | Covered in `03.04.11-cech-de-rham.md` via Čech-de Rham; LDG sketches a more direct singular-cohomology bridge. |
 | **Ch. V — Riemannian connections and Cartan structural equations** | | | |
-| Riemannian metric, Levi-Civita connection | — | ✗ | **Gap.** **Shared with KN-I priority-1 punch-list item 12** (`03.03.X1`). Single most-cited missing unit in the Codex. |
+| Riemannian metric, Levi-Civita connection | — | ✗ | **Gap.** **Shared with KN-I priority-1 punch-list item 12** (`03.03.X1`). Single most-cited missing unit in the Babel Bible. |
 | Moving frame / orthonormal coframe | — | ✗ | **Gap.** *Distinctive to LDG.* The KN-I audit punch-list does not separately call out the moving-frame construction; LDG's Ch. V is the canonical anchor. |
 | Connection 1-forms $\omega^i_j$ in a moving frame | — | ✗ | **Gap.** *Distinctive to LDG.* |
 | First structural equation $\mathrm{d}\theta^i + \omega^i_j \wedge \theta^j = \Theta^i$ | — | ✗ | **Gap.** **Shared with KN-I priority-1 punch-list item 10** (`03.05.14`, torsion + structural equations) and **punch-list item 11** (`03.05.15`, soldering form). The moving-frame side should be added to those units as the Beginner tier. |
@@ -568,7 +568,7 @@ should carry originator-prose citations:
 - LDG writes $G^{(k)}$ for the $k$-th prolongation of $\mathfrak{g}
   \subseteq \mathfrak{gl}(n, \mathbb{R})$; nothing analogous in KN-I.
 
-The Codex notation decision (per `docs/specs/UNIT_SPEC.md` §11) should:
+The Babel Bible notation decision (per `docs/specs/UNIT_SPEC.md` §11) should:
 **adopt KN-I's** $\omega$, $\Omega$, $\Theta$, $\theta$ verbatim as the
 Master-tier presentation; **introduce LDG's** $\omega^i_j$, $\Omega^i_j$,
 $\Theta^i$, $\theta^i$, $(e_i)$ as the Beginner-tier presentation in
@@ -625,7 +625,7 @@ adopt LDG's $G^{(k)}$ notation verbatim — there is no KN-I counterpart.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of LDG's named theorems in Chs. I–VI map to Codex units. Ch.
+- ≥95% of LDG's named theorems in Chs. I–VI map to Babel Bible units. Ch.
   VII is **scoped out** (covered by Cannas + Arnold audits). Current
   ~30%; after priority-0+1 rises to ~75%; after priority-0+1+2 to
   ~93%; full ≥95% requires priority-3.

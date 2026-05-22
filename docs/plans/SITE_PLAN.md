@@ -1,4 +1,4 @@
-# Codex — Site Build Plan
+# Babel Bible — Site Build Plan
 
 The rendering layer. Reads `content/`, produces a learner-facing site. Built on Neutron (TS) with markdown + math + tier filtering. Persists state to Nucleus once we wire that in (later).
 
@@ -23,8 +23,8 @@ Read `OVERVIEW.md` §10 (platform strategy) and `docs/specs/UNIT_SPEC.md` (canon
 ## 2. Routes
 
 ```
-/                                — Codex landing
-/about                           — what Codex is, who it's for, tier model
+/                                — Babel Bible landing
+/about                           — what Babel Bible is, who it's for, tier model
 /units                           — full unit index (filterable)
 /u/[id]                          — single unit page (e.g. /u/03.09.02)
 /concepts                        — browse concept catalog

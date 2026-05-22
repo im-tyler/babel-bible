@@ -1,12 +1,12 @@
-# Codex — Overview
+# Babel Bible — Overview
 
 This is the single load-bearing document. Everything else (PROJECT_PLAN, BRIEF, UNIT_SPEC, QUALITY_RUBRIC, DEPENDENCY_MAP, PILOT_PLAN) supports or details parts of this. Read this first; read this when in doubt.
 
 ---
 
-## 1. What Codex is
+## 1. What Babel Bible is
 
-A curriculum that takes a self-taught learner from high-school algebra to graduate-level mastery across mathematics and physics. Every unit exists at three depths (Beginner / Intermediate / Master) in one source document with progressive disclosure. Units are cross-linked into a prerequisite graph. Proofs at Intermediate+ are Lean-verified where Mathlib covers them. Exercises are interactive — auto-checkable where possible, human-reviewable where not. Built to supersede Fast Track, 't Hooft, Rigetti, and every other existing roadmap by being structurally better in ways printed books physically cannot be.
+A curriculum that takes a self-taught learner from high-school algebra to graduate-level mastery across mathematics, physics, chemistry, biology, philosophy, language, and world/social-science foundations. Every unit exists at three depths (Beginner / Intermediate / Master) in one source document with progressive disclosure. Units are cross-linked into a prerequisite graph. Proofs at Intermediate+ are Lean-verified where Mathlib covers them; argument, mechanism, source, and case-analysis units are human-reviewed where formalization is not the right gate. Exercises are interactive — auto-checkable where possible, human-reviewable where not. Built to supersede single-roadmap self-study lists by being structurally better in ways printed books physically cannot be.
 
 ---
 
@@ -37,7 +37,7 @@ These are fixed. Changing any of them is a scope discussion, not an implementati
 3. **Lean 4 is ground truth where Mathlib covers — *flagged* elsewhere, not a gate.** At Intermediate+, any formalizable theorem with Mathlib coverage must be formalized (`lean_status: full`). Where Mathlib is thin or absent (most of spin geometry, QFT, advanced algebraic geometry, most of physics), the unit ships with `lean_status: none` + a named human reviewer who signed off. This means Lean is a correctness *accelerator* where it applies and a *contribution roadmap* for the Mathlib gaps it reveals — it is not a universal quality gate. At the top of Fast Track, expect `lean_status: none` to dominate until Mathlib catches up or we contribute formalizations upstream.
 4. **References must resolve.** Every `[ref: source locator]` citation points at a real file in `reference/`. Build-time check; unresolved = build fail.
 5. **Mastery is operationalized, not vibes.** Per-tier endpoints (see §2) are testable. Exercises evidence the endpoint.
-6. **Scope v1 = math + physics only.** No chemistry, biology, CS. No K–8 arithmetic. Locked until v2.
+6. **Scope v1 = cross-domain Babel Bible.** Math and physics remain the technical spine, but chemistry (§14–16), biology (§17–19), philosophy (§20), language (§22), and world/social science (§23) are first-class v1 domains. Standalone computer science, medicine/clinical tracks, empirical psychology, K–8 arithmetic, localization, and credentialing remain v2+ scope.
 7. **Cross-links across the whole graph.** A QFT unit can reference the vector-space unit directly. Users navigate the graph, not a linear table of contents.
 8. **Content is tool-agnostic.** Markdown + Lean + structured YAML. Rendering/UI is a view layer, swappable. Platform choice (Astro / Neutron / etc.) does not affect content correctness.
 
@@ -99,13 +99,14 @@ The overview does not lock this. `docs/plans/PILOT_PLAN.md` records the pilot's 
 ### Review roles
 
 - **Mathematical reviewer** — verifies correctness. Lean compile = pass where Mathlib covers. Domain expert otherwise (~30 min per unit budget).
+- **Domain reviewer** — verifies chemistry, biology, philosophy, language, and world/social-science content where Lean is irrelevant. The reviewer checks mechanisms, evidence, source interpretation, argument reconstruction, historical claims, and case framing against the relevant anchor literature.
 - **Pedagogical reviewer** — verifies tier-appropriate pedagogy against rubric. Each tier has its own checklist (Beginner: no undefined notation, reading level ≤ grade 10, visual present. Intermediate: formal def + theorem + 5–10 exercises. Master: Lean where Mathlib covers, historical context with primary citations.)
 - **Integrator** — resolves cross-refs, updates dependency graph, checks notation glossary.
 - **Copy editor** — prose quality.
 
 ### Reviewer bandwidth is the actual bottleneck
 
-At ~30 min expert review per unit × ~1500 units = ~750 hours of domain-expert time. That is 4.5 person-months of pure review work. No current reviewer roster supports this. Tyler alone cannot review all topics at Master-tier fluency.
+At ~30 min expert review per unit × ~1500 units = ~750 hours of domain-expert time before the newer domains are counted. With chemistry, biology, philosophy, language, and world included, reviewer bandwidth becomes the central scaling constraint. Tyler alone cannot review all topics at Master-tier fluency.
 
 **Reviewer strategy is a Phase 1 deliverable, not an afterthought.** See `docs/plans/REVIEWER_PLAN.md` for the concrete plan (who reviews, incentives, escalation when no expert is available, LLM-augmented review with human spot-check policy). Without this solved, Master-tier scaling stalls no matter how fast production runs.
 
@@ -115,7 +116,7 @@ At ~30 min expert review per unit × ~1500 units = ~750 hours of domain-expert t
 - Every cross-ref `[unit-id]` points at an existing published unit (or an allow-listed pending one for top-down mode).
 - Notation used without a glossary entry flagged.
 - Tier section markers well-formed; no `[Master]` content in `[Beginner]` sections.
-- Lean modules compile as part of the Codex Lean project.
+- Lean modules compile as part of the Babel Bible Lean project.
 - Frontmatter schema valid (all required fields present).
 
 ### Per-tier rubrics
@@ -183,7 +184,21 @@ codex/
 │   ├── 05-symplectic/
 │   ├── 06-riemann-surfaces/
 │   ├── 07-representation-theory/
-│   └── 08-stat-mech/
+│   ├── 08-stat-mech/
+│   ├── 09-classical-mech/        # physics proper
+│   ├── 10-em-sr/
+│   ├── 11-stat-mech-physics/
+│   ├── 12-quantum/
+│   ├── 13-gr-cosmology/
+│   ├── 14-genchem-pchem/         # chemistry
+│   ├── 15-orgchem/
+│   ├── 16-inorgchem/
+│   ├── 17-mol-cell-bio/          # biology
+│   ├── 18-organismal-bio/
+│   ├── 19-eco-evo-bio/
+│   ├── 20-philosophy/
+│   ├── 22-language/
+│   └── 23-world/
 ├── _meta/
 │   └── NOTATION.md               # project-wide notation glossary
 ├── style/
@@ -213,9 +228,9 @@ codex/
 - v1.5: spaced-repetition scheduling + accounts.
 - v2.0: personalized paths, mastery-gating.
 
-**Framework commitment (2026-04-23):** built on **Neutron (TS framework)** + **Nucleus (database)** — both Tyler's own. Codex is a load-bearing consumer of both, which means Codex drives their requirements and Codex uncovers their bugs. No Astro/Next interim scaffold; go direct.
+**Framework commitment (2026-04-23):** built on **Neutron (TS framework)** + **Nucleus (database)** — both Tyler's own. Babel Bible is a load-bearing consumer of both, which means Codex drives their requirements and Codex uncovers their bugs. No Astro/Next interim scaffold; go direct.
 
-**Known Neutron/Nucleus dependencies Codex imposes:**
+**Known Neutron/Nucleus dependencies Babel Bible imposes:**
 - **Nucleus leak must be fixed before Phase 2c** (persistence layer for unit manifests and learner progress). Currently tracked as an open Neutron bug; blocker for any agent-scale production.
 - Markdown + YAML rendering pipeline in Neutron must support: tier-marked sections (§4 of OVERVIEW), `[ref:]` and `[unit-id]` citation syntaxes (UNIT_SPEC §8–9), exercise fence (`::: exercise`) rendering, Lean code blocks with WASM evaluation (later).
 - Build-time reference-resolution (unresolved citation = build fail) needs to live in the Neutron build step.
@@ -234,7 +249,7 @@ codex/
 - Lean ground truth at Intermediate+ where Mathlib covers
 - Build-time reference-resolution
 - Mastery operational definitions
-- Scope v1 = math + physics
+- Scope v1 = cross-domain Babel Bible: math, physics, chemistry, biology, philosophy, language, and world/social science
 - Cross-link graph architecture
 - Tool-agnostic content
 
@@ -244,6 +259,8 @@ codex/
 - **Which 10 specific apex (or leaf) units seed the pilot** — in `docs/plans/PILOT_PLAN.md`
 - **Whether v1 ships Master-only and tiers backfill later, or all-tiers-at-once** — recorded per unit via `tiers_present`
 - **Specific Mathlib target modules to prioritize contributing to** — emerges from `lean_status: none` flags in produced units
+- **Exact coverage boundaries inside language/world** — recorded in `docs/plans/LANGUAGE_WORLD_PLAN.md` and revised as content matures
+- **Whether some philosophy/language/world subsections split into their own top-level domains** — defer until the current §20/§22/§23 namespaces are saturated
 - **Platform for v0.1 pilot rendering** (Astro / Next / minimal custom)
 - **Interactivity milestones calendar** (v0.5 through v2.0)
 - **Agent swarm vendor / orchestration runtime** (whichever Tyler is using)
@@ -258,10 +275,10 @@ Chronological record of scope-affecting decisions, so future contributors can un
 
 | Date | Decision | Rationale |
 |---|---|---|
-| 2026-04-17 | Project named `codex` | Latin for bound book of knowledge; distinct from existing project names |
+| 2026-04-17 | Project named `babel-bible` | Latin for bound book of knowledge; distinct from existing project names |
 | 2026-04-17 | Reference archive scope = 11 sources (9 in-scope + 1 excluded + 1 future) | Math/physics coverage; Rowlands CS and Reading Feynman excluded from production |
 | 2026-04-18 | Three tiers via progressive disclosure (not 2) | Matches existing textbook literature anchors; UI filter keeps production cost ~1.3× not 3× |
-| 2026-04-18 | Interactivity is core, not optional | Without it Codex is just a better textbook; interaction is the structural advantage |
+| 2026-04-18 | Interactivity is core, not optional | Without it Babel Bible is just a better textbook; interaction is the structural advantage |
 | 2026-04-22 | Framework-first: Neutron + Codex co-develop | Codex drives Neutron requirements; avoids stack context-switching |
 | 2026-04-22 | Content stays tool-agnostic | Platform choice can change without rewriting units |
 | 2026-04-22 | Production order is flexible per wave (top-down / bottom-up / mixed) | Invariants don't constrain order; pilot can start anywhere in the DAG |
@@ -293,6 +310,9 @@ Chronological record of scope-affecting decisions, so future contributors can un
 | 2026-04-27 | `manifests/deps.json` seeded with pending-prereq edges from unit #1 | DAG growth bookkeeping is now real, not theoretical |
 | 2026-04-27 | `content/_meta/NOTATION.md` seeded with notation introduced by unit #1 | Glossary populated; validator can now check unregistered-symbol usage |
 | 2026-04-27 | `docs/catalogs/CONCEPT_CATALOG.md` expanded with 5 prereq concepts unit #1 declares | Resolves DAG free-degrees for the spin-geometry branch |
+| 2026-05-22 | v1 scope updated to match the live repo: chemistry (§14–16), biology (§17–19), philosophy (§20), language (§22), and world/social science (§23) are first-class alongside math and physics | The content tree and site already contain these domains; treating them as v2 would make the specs and validators lie about the project surface |
+| 2026-05-22 | Non-math domains use domain-appropriate Intermediate/Master evidence: mechanism and derivation for science, argument reconstruction for philosophy, syntactic/literary analysis for language, and case/model/source analysis for world | A universal "key theorem with proof" gate is too narrow; rigor must be preserved by matching the review object to the discipline |
+| 2026-05-22 | Language/world get a dedicated plan and rubric overlay rather than being folded into philosophy or treated as informal extras | The repo contains substantial §22/§23 unit sets and essays; they need source, exercise, and review standards of their own |
 
 ---
 

@@ -1,4 +1,4 @@
-# Codex — v0.5 Lateral Expansion Plan
+# Babel Bible — v0.5 Lateral Expansion Plan
 
 **v0.x scope is complete**: 66 units, fully closed DAG, spin-geometry strand (Wave 1) traversable from leaf to apex with three tiers. **v0.5 is the first lateral expansion**: producing additional apex strands beyond spin geometry to reach Fast Track parity.
 

@@ -1,4 +1,4 @@
-# Codex Completion Roadmap
+# Babel Bible Completion Roadmap
 
 **Drafted 2026-05-20** after Cycle 4 ship + Layer A structural cleanup. The destination: every Fast Track book has a complete coverage shell of math-style units, every cross-domain chapter (phys/chem/bio/phil) meets the §5.1 contract, and every skipped_units entry is closed. This document quantifies the gap, sequences the cycles, and sets realistic expectations.
 

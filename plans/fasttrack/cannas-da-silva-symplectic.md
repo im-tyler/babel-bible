@@ -88,7 +88,7 @@ Distinctive Cannas choices, in roughly the order she develops them:
    parallel applications of the same path-of-symplectic-forms argument.
    This deformation-theoretic framing is Cannas's signature pedagogical
    move and is what makes the "local forms" section feel uniformly
-   organised. Codex's existing Darboux unit (`05.01.04`) does *not*
+   organised. Babel Bible's existing Darboux unit (`05.01.04`) does *not*
    currently use Moser's trick — it gives a generic Cartan-formula
    sketch — and the Weinstein theorems are not present at all.
 2. **Generating functions before Arnold conjecture.** Lecture 9 shows
@@ -112,13 +112,13 @@ Distinctive Cannas choices, in roughly the order she develops them:
    Delzant unit.
 5. **Atiyah-Guillemin-Sternberg convexity proved.** Lecture 27 walks
    through the convexity-of-image proof for moment maps of compact-torus
-   actions. Codex's moment-map unit mentions convexity in passing but
+   actions. Babel Bible's moment-map unit mentions convexity in passing but
    doesn't prove it.
 6. **Marsden-Weinstein-Meyer in the regular case.** Lecture 23 / 26 of
    the Hamiltonian-actions part proves the regular reduction theorem
    carefully — symplectic structure descends to $M /\!/ G = \mu^{-1}(0) / G$
    when $0$ is a regular value of $\mu$ and $G$ acts freely on
-   $\mu^{-1}(0)$. Codex's reduction unit (`05.04.02`) states the result
+   $\mu^{-1}(0)$. Babel Bible's reduction unit (`05.04.02`) states the result
    but the proof is the templated generic Cartan-formula argument.
 7. **Duistermaat-Heckman.** Lecture 30 ends with the
    Duistermaat-Heckman theorem on the variation of symplectic volume
@@ -129,13 +129,13 @@ Distinctive Cannas choices, in roughly the order she develops them:
    states the Cauchy-Riemann equation for a smooth map
    $u : (\Sigma, j) \to (M, J)$ and gives the energy-area identity.
    Cannas does *not* develop the moduli space; she points to
-   McDuff-Salamon for that. Codex's pseudoholomorphic-curve unit
+   McDuff-Salamon for that. Babel Bible's pseudoholomorphic-curve unit
    (`05.06.02`) is currently at Cannas's level (statement-only, no
    moduli) and that's appropriate; the deepening would be McDuff-Salamon
    territory, not Cannas.
 9. **Examples-first throughout.** Each lecture leads with concrete
    examples ($T^*X$, $S^2$ as Kähler, $\mathbb{C}P^n$, coadjoint orbits)
-   before the general theory. Codex's units mostly follow the
+   before the general theory. Babel Bible's units mostly follow the
    reverse order; the "Worked example [Beginner]" sections are
    currently templated and could be replaced with Cannas's actual
    examples.
@@ -143,16 +143,16 @@ Distinctive Cannas choices, in roughly the order she develops them:
 The book ends before serious symplectic *topology* (no Floer, no
 Gromov-Witten beyond the energy-area identity, no Hofer geometry).
 Cannas points the reader to McDuff-Salamon for those — so the Floer
-strand of Codex (`05.08.*`) is *not* a Cannas equivalence target;
+strand of Babel Bible (`05.08.*`) is *not* a Cannas equivalence target;
 it's covered by the McDuff-Salamon entry whenever that book is audited.
 
 ---
 
-## §2 Coverage table (Codex vs Cannas)
+## §2 Coverage table (Babel Bible vs Cannas)
 
 Cross-referenced against the 21-unit Codex symplectic chapter and the
 220-unit total corpus. ✓ = covered at Cannas-equivalent depth,
-△ = topic present but Codex unit shallower than Cannas's lecture
+△ = topic present but Babel Bible unit shallower than Cannas's lecture
 (typically the templated v0.5 Strand-B prose),
 ✗ = not covered. The symplectic chapter has a uniform v0.5 Strand-B
 templated-prose problem: the "Key theorem with proof" in nearly every
@@ -163,7 +163,7 @@ theorem, the entry below is △.
 
 ### Part I — Symplectic Manifolds (Lectures 1-6)
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Symplectic linear algebra ($V$, $\omega$, isotropic / coisotropic / Lagrangian / symplectic subspaces, symplectic bases) | `05.01.01` symplectic-vector-space | △ | Definitions present; Cannas's full subspace-classification table (the four types) and the standard-basis existence proof are not built out; Master section is templated. |
 | Symplectic manifold (definition, $T^*X$ as canonical example, $\omega = -d\theta$, Liouville form $\theta = p\,dq$) | `05.01.02` symplectic-manifold; `05.02.05` cotangent-bundle | △ | Both units exist; cotangent-bundle unit covers $T^*X$ but doesn't actually compute $\omega = \sum dp_i \wedge dq_i$ as the canonical Darboux model; the Liouville one-form is mentioned but its naturality property ($\alpha^*\theta = \alpha$ for any 1-form $\alpha:X \to T^*X$) is missing. |
@@ -172,7 +172,7 @@ theorem, the entry below is △.
 
 ### Part II — Symplectomorphisms (Lectures 7-9)
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Lagrangian submanifold (definition, half-dim isotropic) | `05.05.01` lagrangian-submanifold | △ | Definition present; the canonical examples (zero section of $T^*X$, graph of a closed 1-form, graph of a symplectomorphism in $M^- \times M$) are not all worked. |
 | Graph criterion: $\alpha:X \to T^*X$ is a section, $\alpha$ is Lagrangian iff $d\alpha = 0$ | `05.05.01` (mention) | △ | Stated as the unit's "Key theorem" but the templated proof doesn't carry it out. |
@@ -181,7 +181,7 @@ theorem, the entry below is △.
 
 ### Part III — Local Forms (Lectures 10-12) — **Cannas's signature section**
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Isotopies and time-dependent vector fields, $\frac{d}{dt}\rho_t^*\omega_t = \rho_t^*(\mathcal{L}_{V_t}\omega_t + \frac{d\omega_t}{dt})$ | — | ✗ | **Gap.** Cannas Lecture 10. The base identity Moser's trick rests on. Used silently in `05.01.04` Darboux but never stated as its own lemma. |
 | **Moser's trick** (path method): given a path $\omega_t$ of symplectic forms with $\frac{d\omega_t}{dt} = d\beta_t$ exact, find $V_t$ with $\iota_{V_t}\omega_t + \beta_t = 0$, integrate to get $\rho_t^*\omega_t = \omega_0$ | — | ✗ | **Gap (high priority).** Cannas Lecture 11. **The most-load-bearing missing technique in the whole symplectic chapter.** Used implicitly in (and mis-proved by) the Darboux unit. |
@@ -192,9 +192,9 @@ theorem, the entry below is △.
 
 ### Part IV — Contact Manifolds (Lectures 13-14)
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Contact form, contact structure $\xi = \ker \alpha$, $\alpha \wedge (d\alpha)^n \neq 0$ | — | ✗ | **Gap (high priority — entire missing topic).** No contact unit anywhere in Codex. |
+| Contact form, contact structure $\xi = \ker \alpha$, $\alpha \wedge (d\alpha)^n \neq 0$ | — | ✗ | **Gap (high priority — entire missing topic).** No contact unit anywhere in Babel Bible. |
 | Reeb vector field $R_\alpha$ | — | ✗ | **Gap.** |
 | Symplectisation $(M \times \mathbb{R}, d(e^t \alpha))$ | — | ✗ | **Gap.** |
 | Contactisation $M \times \mathbb{R}$ for an exact symplectic $M$ | — | ✗ | **Gap.** |
@@ -202,16 +202,16 @@ theorem, the entry below is △.
 
 ### Part V — Compatible Almost Complex Structures (Lectures 15-17)
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Compatible $J$ exists, contractibility of $\mathcal{J}(\omega)$ | `05.06.01` almost-complex | △ | **Existence stated, contractibility not.** Polar decomposition proof not carried out. |
-| Integrable $J$, Newlander-Nirenberg statement | — | ✗ | **Gap.** Cannas Lecture 16. Standard cross-strand topic; Codex's complex-geometry chapter (`04.*`) may cover Newlander-Nirenberg but it's not currently linked from the symplectic side. |
+| Integrable $J$, Newlander-Nirenberg statement | — | ✗ | **Gap.** Cannas Lecture 16. Standard cross-strand topic; Babel Bible's complex-geometry chapter (`04.*`) may cover Newlander-Nirenberg but it's not currently linked from the symplectic side. |
 | Pseudoholomorphic curve, Cauchy-Riemann equation $du \circ j = J \circ du$, energy-area identity | `05.06.02` pseudoholomorphic-curve | △ | Definition present; energy-area identity stated as the "Key theorem" but proof is templated. Cannas's depth here is exactly statement-level + energy identity, so this unit *could* be at Cannas-equivalent depth with a non-templated rewrite. |
-| Kähler manifold, Hodge identities, Kähler form | `04.05.*` (complex geometry strand, cross-link) | △ | Cannas's Part VI is brief; the substantive Kähler exposition lives in Voisin / Griffiths-Harris and the Codex `04.*` strand. Cross-link rather than dedicated symplectic-Kähler unit suffices for Cannas equivalence. |
+| Kähler manifold, Hodge identities, Kähler form | `04.05.*` (complex geometry strand, cross-link) | △ | Cannas's Part VI is brief; the substantive Kähler exposition lives in Voisin / Griffiths-Harris and the Babel Bible `04.*` strand. Cross-link rather than dedicated symplectic-Kähler unit suffices for Cannas equivalence. |
 
 ### Part VII — Hamiltonian Mechanics (Lectures 22-24)
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Hamiltonian vector field, $\iota_{X_H}\omega = dH$, conservation of energy | `05.02.01` hamiltonian-vector-field | △ | Definition + identity present; the worked example is templated. |
 | Poisson bracket, Jacobi identity, $\{H, \cdot\} = X_H$ derivation | `05.02.02` poisson-bracket | △ | Definition present; Jacobi is stated, derivation property worked. |
@@ -220,12 +220,12 @@ theorem, the entry below is △.
 
 ### Part VIII — Hamiltonian Group Actions (Lectures 25-30) — **Cannas's largest section**
 
-| Cannas topic | Codex unit(s) | Status | Note |
+| Cannas topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Symplectic and Hamiltonian $G$-action, fundamental vector field | `05.04.01` moment-map (mention); `05.03.01` coadjoint-orbit (mention) | △ | The setup-level facts (action by symplectomorphisms, fundamental vector field $X^\sharp$) appear in passing across these two units but are not developed cleanly. |
 | Moment map (definition, three conditions: $d\mu^X = \iota_{X^\sharp}\omega$, equivariance, additivity) | `05.04.01` moment-map | △ | Definition present; the three-condition characterisation is stated as the "Key theorem" but the templated proof does not actually establish the equivariance or the additivity-of-moments-of-Hamiltonians lemma. |
 | Coadjoint orbit, Kirillov-Kostant-Souriau form | `05.03.01` coadjoint-orbit | △ | Topic present; KKS form mentioned; the proof that KKS is symplectic and the moment map for the $G$-action on $\mathcal{O}_\xi$ is the inclusion is templated. |
-| **Marsden-Weinstein-Meyer reduction (regular case)**: $0$ regular value of $\mu$, $G$ acts freely on $\mu^{-1}(0)$, then $M /\!/ G = \mu^{-1}(0) / G$ is symplectic with the descended form | `05.04.02` symplectic-reduction | △ | The unit exists; the **regular** case is what Cannas actually proves (vs. the singular case which needs stratifications). The current Codex unit's proof is templated. **Depth-gap, high priority.** |
+| **Marsden-Weinstein-Meyer reduction (regular case)**: $0$ regular value of $\mu$, $G$ acts freely on $\mu^{-1}(0)$, then $M /\!/ G = \mu^{-1}(0) / G$ is symplectic with the descended form | `05.04.02` symplectic-reduction | △ | The unit exists; the **regular** case is what Cannas actually proves (vs. the singular case which needs stratifications). The current Babel Bible unit's proof is templated. **Depth-gap, high priority.** |
 | Reduction examples ($S^2$ from $\mathbb{C}^2$, $\mathbb{C}P^n$ from $\mathbb{C}^{n+1}$, complex Grassmannians) | — | △ | Cannas's worked examples in Lecture 26 are absent from the reduction unit. The Beginner "Worked example" slot in `05.04.02` is the templated phase-plane example. |
 | **Atiyah-Guillemin-Sternberg convexity theorem**: image of moment map for compact-torus action on a connected compact symplectic $M$ is the convex hull of the images of the fixed points | — | ✗ | **Gap (high priority).** Cannas Lecture 27. One of the two named global theorems in Hamiltonian-actions (the other is Delzant). |
 | **Symplectic toric manifold**: compact symplectic $2n$-manifold with effective Hamiltonian $T^n$-action; the moment polytope | — | ✗ | **Gap (high priority).** Cannas Lectures 28-29. |
@@ -238,11 +238,11 @@ theorem, the entry below is △.
 |---|---|---|
 | KAM theorem (mentioned as motivation in §22) | — | Pointer-only in Cannas; Arnold is the primary reference. Defer to Arnold's per-book plan. |
 | Floer homology (mentioned as the proof tool for Arnold conjecture, §9 / §17) | `05.08.02` floer-homology | △ | Cannas only states; depth here is McDuff-Salamon. The Codex Floer chapter exists but is McDuff-Salamon / Floer-paper-anchored, not Cannas-anchored. |
-| Gromov non-squeezing (mentioned in §17 as the headline rigidity theorem) | `05.07.01` non-squeezing; `05.07.02` symplectic-capacity | △ | Cannas only states; Codex units are McDuff-Salamon-anchored. Cross-link sufficient for Cannas equivalence. |
+| Gromov non-squeezing (mentioned in §17 as the headline rigidity theorem) | `05.07.01` non-squeezing; `05.07.02` symplectic-capacity | △ | Cannas only states; Babel Bible units are McDuff-Salamon-anchored. Cross-link sufficient for Cannas equivalence. |
 
 ### Aggregate coverage estimate
 
-**Theorem layer**: ~75% of Cannas's named theorems map to Codex units at
+**Theorem layer**: ~75% of Cannas's named theorems map to Babel Bible units at
 the *topic level*; but only ~40% are at Cannas-equivalent *proof depth*.
 The remaining 25% (Moser's trick, Weinstein neighbourhoods, Arnold-Liouville
 proof, Atiyah-Guillemin-Sternberg, Delzant, Duistermaat-Heckman, contact
@@ -253,7 +253,7 @@ rises to ~80%; after priority-2 to ~90% proof-depth.
 **Exercise layer**: not separately audited. Cannas's "Homework" sections
 (typically 4-6 problems per lecture, ~150 total) are standard symplectic
 exercises (compute moment map for an action, verify Jacobi identity, work
-out the integrable system on $T^*S^n$). Codex's symplectic exercise pack
+out the integrable system on $T^*S^n$). Babel Bible's symplectic exercise pack
 is the same templated 7-question block on every unit (the "what is the
 dimension if $n=4$" / "rewrite $\Phi^*\omega = \omega$" / "Cartan formula"
 set repeated 21 times); the actual Cannas-style exercises are not
@@ -261,7 +261,7 @@ shipped. Defer to a dedicated symplectic-exercise-pack pass after the
 priority-1+2 batch lands.
 
 **Worked-example layer**: ~25% covered. Cannas leads each lecture with a
-worked example; Codex's units share a single templated phase-plane example
+worked example; Babel Bible's units share a single templated phase-plane example
 across all 21 units. **The worked-example layer is the single largest
 exercise/example gap in the symplectic chapter.**
 
@@ -269,10 +269,10 @@ exercise/example gap in the symplectic chapter.**
 symplectic form, $\theta$ for the Liouville one-form, $X^\sharp$ for the
 fundamental vector field of a $G$-action, $\mu$ for the moment map,
 $M /\!/ G$ for symplectic reduction, $\Delta$ for the moment polytope.
-Codex's units mostly match. A `notation/cannas.md` crosswalk is
+Babel Bible's units mostly match. A `notation/cannas.md` crosswalk is
 optional given the mostly-aligned conventions.
 
-**Sequencing layer**: ~85%. The Codex DAG follows Cannas's prerequisite
+**Sequencing layer**: ~85%. The Babel Bible DAG follows Cannas's prerequisite
 flow (linear → manifold → Hamiltonian VFs → moment map → reduction)
 faithfully. Missing edges: Moser's trick → Darboux, Weinstein
 neighbourhood → Floer setup, contact prerequisites for any future
@@ -491,7 +491,7 @@ for the exercise/example layer.
     homology.
 
 20. **`05.06.03` Newlander-Nirenberg integrability.** Cannas Lecture
-    16 mentions; the actual treatment lives in the Codex complex
+    16 mentions; the actual treatment lives in the Babel Bible complex
     geometry chapter. Optional cross-link unit; Master-only,
     ~700 words. Could be filed as `04.05.*` instead; depends on where
     the cross-strand DAG settles.
@@ -604,7 +604,7 @@ deepening (item 7) covers both books with one rewrite.
   problem in Cannas's 30 lectures. (Would take the full P1 audit;
   deferred unless the priority-1+2 punch-list expands.)
 - The Cannas Homework / exercise pack (~150 problems across 30
-  lectures). Currently the Codex symplectic exercise pack is the
+  lectures). Currently the Babel Bible symplectic exercise pack is the
   templated 7-question block on every unit. A dedicated
   `05.E1`/`05.E2` Cannas-exercise-pack family is a P3-priority follow-up
   after the priority-1+2 theorem-layer batch closes.
@@ -621,7 +621,7 @@ deepening (item 7) covers both books with one rewrite.
   flow as a worked Hamiltonian system) is deferred to the Arnold
   per-book plan.
 - Voisin / Griffiths-Harris Kähler material. Cannas's Part VI Kähler
-  block is brief; Codex's `04.05.*` complex-geometry chapter is the
+  block is brief; Babel Bible's `04.05.*` complex-geometry chapter is the
   primary equivalence target. Cross-link rather than duplicate.
 - Equivariant cohomology beyond the Duistermaat-Heckman corollary.
   The general theory (Atiyah-Bott / Berline-Vergne localisation,
@@ -647,14 +647,14 @@ deepening (item 7) covers both books with one rewrite.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book is
 at equivalence-coverage when:
 
-- ≥95% of Cannas's named theorems map to Codex units **at
+- ≥95% of Cannas's named theorems map to Babel Bible units **at
   Cannas-equivalent proof depth** (currently ~40%; after priority-1
   this rises to ~75%; after priority-1+2 to ~92%; after priority-3
   deepenings to ~95%).
 - ≥80% of Cannas's Homework problems have a Codex equivalent (currently
   ~5% — the templated 7-problem block; closing this requires the
   dedicated Cannas-exercise-pack pass per §5).
-- ≥90% of Cannas's worked examples are reproduced in some Codex unit
+- ≥90% of Cannas's worked examples are reproduced in some Babel Bible unit
   (currently ~25%; the priority-1+2 batch's required worked-example
   rewrites bring this to ~60%; the remainder requires the optional
   worked-example densification pass).
@@ -662,7 +662,7 @@ at equivalence-coverage when:
   sections (no separate `notation/cannas.md` needed).
 - For every chapter dependency in Cannas (Part I → III → VII → VIII;
   V → III; II → III), there is a corresponding `prerequisites` arrow
-  chain in Codex's DAG. The Moser-Weinstein-reduction-toric chain in
+  chain in Babel Bible's DAG. The Moser-Weinstein-reduction-toric chain in
   particular must be unbroken after the priority-1 batch.
 - Pass-W weaving connects the new units (`05.01.05`, `05.05.02`,
   `05.04.03`, `05.04.04`, `05.10.01-03`) to the existing

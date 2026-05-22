@@ -149,7 +149,7 @@ are:
 - **S. M. Carroll, *Spacetime and Geometry: An Introduction to General
   Relativity*, Pearson 2003.** Modern pedagogical GR; covers
   differential-geometric prerequisites in Ch. 2-3 in a style closer to
-  the Codex's existing `03-modern-geometry/` strand than LL's index
+  the Babel Bible's existing `03-modern-geometry/` strand than LL's index
   calculus.
 
 A fifth optional cross-check, useful for the EM-as-gauge-theory bridge
@@ -159,31 +159,31 @@ in fibre-bundle language.
 
 ---
 
-## §2 Coverage table (Codex vs CTF)
+## §2 Coverage table (Babel Bible vs CTF)
 
 Cross-referenced against the current 313-unit corpus (`manifests/`
 inventory at audit time). ✓ = covered, △ = partial / different framing,
 ✗ = not covered.
 
-| CTF chapter / topic | Codex unit(s) | Status | Note |
+| CTF chapter / topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Ch. 1 — Principle of relativity; Lorentz transformations; invariant interval | `05.00.06-galilean-newtonian-setup` (Galilean limit only); `04.05.09-hodge-index-theorem` (mentions Minkowski signature in algebraic-geometry analogy) | △ | **Gap.** Minkowski space, Lorentz group, invariant interval, four-vectors are not first-class objects. Galilean-Lorentzian contraction is mentioned in passing in `05.00.06` line 218 but not developed. |
-| Ch. 2 — Relativistic mechanics; four-momentum; mass-shell; $E = mc^2$ | — | ✗ | **Gap.** Free relativistic particle action $S = -mc \int ds$ is not in the Codex. `05.00.04-noether-theorem` has a $\mathbb{R}^4$ scalar-field example with Lagrangian density but no relativistic point particle. |
+| Ch. 2 — Relativistic mechanics; four-momentum; mass-shell; $E = mc^2$ | — | ✗ | **Gap.** Free relativistic particle action $S = -mc \int ds$ is not in the Babel Bible. `05.00.04-noether-theorem` has a $\mathbb{R}^4$ scalar-field example with Lagrangian density but no relativistic point particle. |
 | Ch. 3 — Charges in EM fields; gauge invariance; field-particle interaction | `03.04.08-variational-calculus` (covers EL on fibre bundles, abstractly); `05.00.04-noether-theorem` (covers Noether currents abstractly) | △ | **Gap.** No unit treats the EM 4-potential $A_\mu$, the field tensor $F_{\mu\nu}$, or the minimal coupling $-(e/c) A_\mu dx^\mu$ explicitly. |
 | Ch. 4 — EM field equations; Maxwell's equations from action; stress-energy | `03.07.05-yang-mills-action` (abelian case is EM, but framed as gauge theory not as CTF builds it); `05.00.04-noether-theorem` (line 273 has scalar-field stress-energy example) | △ | **Gap.** Maxwell's equations from $-(1/16\pi c) \int F_{\mu\nu} F^{\mu\nu} d^4x$, the EM stress-energy tensor in physicist's index notation, Poynting vector, and conservation laws are not directly covered. |
-| Ch. 5 — Constant EM fields; Coulomb law; magnetic dipole; multipole expansion | — | ✗ | **Gap.** Standard EM problems (point charge, dipole, multipole) absent from Codex. |
+| Ch. 5 — Constant EM fields; Coulomb law; magnetic dipole; multipole expansion | — | ✗ | **Gap.** Standard EM problems (point charge, dipole, multipole) absent from Babel Bible. |
 | Ch. 6 — Electromagnetic waves; plane waves; polarisation; energy flux | — | ✗ | **Gap.** Plane-wave solutions of Maxwell, polarisation, wave-zone fields absent. |
 | Ch. 7 — Propagation of light; geometric optics; eikonal; Doppler; aberration | — | ✗ | **Gap.** Eikonal limit, light-cone propagation, optical phenomena absent. |
 | Ch. 8 — Field of moving charges; Liénard-Wiechert potentials; retarded potentials | — | ✗ | **Gap.** Retarded Green's function, Liénard-Wiechert formulas absent. |
 | Ch. 9 — Radiation of EM waves; Larmor formula; multipole radiation; synchrotron | — | ✗ | **Gap.** Larmor formula, multipole radiation, accelerated-charge spectrum absent. |
-| Ch. 10 — Particle in a gravitational field; metric tensor; geodesic equation; equivalence principle | `05.02.06-geodesic-flow-hamiltonian` (Riemannian geodesic flow as a Hamiltonian system; not Lorentzian, no equivalence-principle framing) | △ | **Gap.** Lorentzian metric, equivalence principle, Christoffel symbols, geodesic equation as EL of $-mc \int ds$ on curved background are not in the Codex. Riemannian (positive-definite) geodesic flow is covered; the Lorentzian extension is not. |
-| Ch. 11 — Gravitational field equations; Riemann curvature; Einstein-Hilbert action | `03.05.09-curvature` (curvature of a connection on a vector bundle; pure mathematical setup); `03.07.05-yang-mills-action` (action principle for gauge connections, abelian and non-abelian; not metric-based) | △ | **Gap.** Riemann curvature of a Lorentzian metric, Ricci tensor and Ricci scalar, Bianchi identities, Einstein-Hilbert action $S = -(c^3/16\pi G) \int R \sqrt{-g} d^4x$, and the Einstein field equations $G_{\mu\nu} = 8\pi G T_{\mu\nu}/c^4$ are not in the Codex. The Codex has connection-curvature for *vector* bundles but not the Levi-Civita connection of a Lorentzian metric and its specific curvature tensors. |
+| Ch. 10 — Particle in a gravitational field; metric tensor; geodesic equation; equivalence principle | `05.02.06-geodesic-flow-hamiltonian` (Riemannian geodesic flow as a Hamiltonian system; not Lorentzian, no equivalence-principle framing) | △ | **Gap.** Lorentzian metric, equivalence principle, Christoffel symbols, geodesic equation as EL of $-mc \int ds$ on curved background are not in the Babel Bible. Riemannian (positive-definite) geodesic flow is covered; the Lorentzian extension is not. |
+| Ch. 11 — Gravitational field equations; Riemann curvature; Einstein-Hilbert action | `03.05.09-curvature` (curvature of a connection on a vector bundle; pure mathematical setup); `03.07.05-yang-mills-action` (action principle for gauge connections, abelian and non-abelian; not metric-based) | △ | **Gap.** Riemann curvature of a Lorentzian metric, Ricci tensor and Ricci scalar, Bianchi identities, Einstein-Hilbert action $S = -(c^3/16\pi G) \int R \sqrt{-g} d^4x$, and the Einstein field equations $G_{\mu\nu} = 8\pi G T_{\mu\nu}/c^4$ are not in the Babel Bible. The Codex has connection-curvature for *vector* bundles but not the Levi-Civita connection of a Lorentzian metric and its specific curvature tensors. |
 | Ch. 12 — Field of gravitating bodies; Schwarzschild; Reissner-Nordström; Kerr | — | ✗ | **Gap.** No exact solutions of Einstein's equations. |
 | Ch. 13 — Gravitational waves; weak-field limit; quadrupole formula | — | ✗ | **Gap.** Linearised gravity, transverse-traceless gauge, quadrupole radiation formula absent. |
 | Ch. 14 — Relativistic cosmology; FLRW; Friedmann equations; cosmological constant | — | ✗ | **Gap.** Cosmological solutions, scale factor, redshift, $\Lambda$CDM are absent. |
 
 **Aggregate coverage estimate:** ~5-10% of CTF has corresponding or
-neighbouring Codex units; the rest is uncovered. The Codex has the
+neighbouring Babel Bible units; the rest is uncovered. The Codex has the
 *mathematical* infrastructure for several CTF chapters (variational
 calculus on bundles, abstract Noether theorem, abstract curvature of a
 connection, Riemannian geodesic flow) but none of the *physical content*
@@ -196,7 +196,7 @@ prerequisite for the relativistic-mechanics units (3 + 4 below).
 
 ## §3 Gap punch-list (P3-lite — units to write, priority-ordered)
 
-The natural Codex location for CTF content is a new sub-strand within
+The natural Babel Bible location for CTF content is a new sub-strand within
 `03-modern-geometry/` (provisionally `03.14-relativity/` or
 `03.15-classical-field-theory/` — directory name to be confirmed during
 P3 setup against `docs/specs/UNIT_SPEC.md`'s strand convention) for SR
@@ -375,7 +375,7 @@ Vol 1 priority-1 prereqs as a strict requirement). Realistic production
 estimate, mirroring earlier batches:
 
 - ~3.5-4.5 hours per CTF unit. CTF units skew higher than the corpus
-  average because (a) the index calculus is unfamiliar to the Codex's
+  average because (a) the index calculus is unfamiliar to the Babel Bible's
   current differential-geometry idiom, (b) master tier requires
   explicit cross-walks to bundle-theoretic framings already in
   `03-modern-geometry/`, and (c) physical interpretation paragraphs
@@ -415,7 +415,7 @@ indices $\mu, \nu, \ldots$ for 4-tensors and latin indices $i, j, \ldots$
 for 3-tensors, the **Einstein summation convention**, and the
 $\eta_{\mu\nu} = \mathrm{diag}(+1, -1, -1, -1)$ metric.
 
-The Codex's existing `03-modern-geometry/` strand uses **$(-,+,+,+)$ in
+The Babel Bible's existing `03-modern-geometry/` strand uses **$(-,+,+,+)$ in
 several places** — `03.09.02-clifford-algebra` line 658 explicitly
 records the LM (Lawson-Michelsohn) convention as $(-,+,+,+)$ in the
 spin-geometry treatment, and notes "the physics literature works in
@@ -493,7 +493,7 @@ equivalence-coverage when:
 - The Vol 1 *Mechanics* priority-1 units have shipped (strict prereq for
   units 3, 4 — the action-principle framing).
 - ≥95% of CTF's named theorems / formula-derivations across Ch. 1-14 map
-  to Codex units. Currently ~5-10%; after priority-1 (units 1-9) this
+  to Babel Bible units. Currently ~5-10%; after priority-1 (units 1-9) this
   rises to ~55-60% (covers SR foundations, EM action principle, GR
   action principle but not all worked solutions); after priority-1+2
   (adding units 10-14) to ~85% (adds Liénard-Wiechert, Larmor,

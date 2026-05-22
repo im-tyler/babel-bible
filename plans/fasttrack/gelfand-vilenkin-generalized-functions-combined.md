@@ -192,9 +192,9 @@ sibling FT plans; ≥3 sources required):
 
 ---
 
-## §2 Coverage table (Codex vs Gel'fand series, by volume)
+## §2 Coverage table (Babel Bible vs Gel'fand series, by volume)
 
-Cross-referenced against the current Codex corpus. The home chapters are
+Cross-referenced against the current Babel Bible corpus. The home chapters are
 `02-analysis/11-functional-analysis/` for distribution theory (Vols. 1–4)
 and `07-representation-theory/` for rep theory + automorphic forms
 (Vols. 5–6); a new sub-chapter `02-analysis/13-distributions/` (or
@@ -205,7 +205,7 @@ and should be created as part of priority-1 production.
 
 ### Vol. 1 — *Properties and Operations* (FT 2.04)
 
-| Gel'fand Vol. 1 topic | Codex unit(s) | Status | Note |
+| Gel'fand Vol. 1 topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Definition of generalised function as continuous linear functional on $K = \mathcal{D}(\Omega)$ | — | ✗ | **Gap (foundational).** |
 | Order of a distribution, support, singular support | — | ✗ | **Gap.** |
@@ -219,12 +219,12 @@ and should be created as part of priority-1 production.
 | Principal-value, finite-part regularisations (Hadamard, Riesz) | — | ✗ | **Gap.** |
 
 **Vol. 1 aggregate coverage estimate:** ~0%. The gap is total. Several
-existing Codex units (listed above) silently invoke Vol. 1 content without
+existing Babel Bible units (listed above) silently invoke Vol. 1 content without
 a unit to anchor it.
 
 ### Vol. 2 — *Spaces of Fundamental and Generalized Functions* (FT 2.05)
 
-| Gel'fand Vol. 2 topic | Codex unit(s) | Status | Note |
+| Gel'fand Vol. 2 topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Locally convex topological vector spaces | — | ✗ | **Gap.** `02.11.04-banach-spaces.md` covers Banach only. |
 | Seminorms, gauges, Minkowski functionals | — | ✗ | **Gap.** |
@@ -239,7 +239,7 @@ a unit to anchor it.
 
 ### Vol. 3 — *Theory of Differential Equations* (FT 2.06)
 
-| Gel'fand Vol. 3 topic | Codex unit(s) | Status | Note |
+| Gel'fand Vol. 3 topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Linear PDE with constant coefficients | — | ✗ | **Gap.** Codex has *no* PDE chapter; `02-analysis/12-ode/` is ODE only. |
 | Fundamental solutions (Malgrange-Ehrenpreis theorem) | — | ✗ | **Gap.** |
@@ -247,17 +247,17 @@ a unit to anchor it.
 | Cauchy problem for linear PDE in distributional form | — | ✗ | **Gap.** |
 | Sobolev spaces $H^s(\mathbb{R}^n)$, $H^s(\Omega)$ | — | ✗ | **Gap.** Silently invoked in `03.09-spin-geometry/` for the index theorem (Sobolev embeddings, elliptic regularity). |
 | Elliptic regularity | △ | △ | Stated as a fact in `03.09.22-pseudodifferential.md`; no foundational unit. |
-| Wave-front set (Hörmander 1971; *not* in Gel'fand Vol. 3, but the immediate successor microlocal-analysis theory the Codex should pointer-link) | — | ✗ | **Gap (Master-tier pointer).** |
+| Wave-front set (Hörmander 1971; *not* in Gel'fand Vol. 3, but the immediate successor microlocal-analysis theory the Babel Bible should pointer-link) | — | ✗ | **Gap (Master-tier pointer).** |
 
-**Vol. 3 aggregate coverage estimate:** ~0%. The Codex's lack of a PDE
+**Vol. 3 aggregate coverage estimate:** ~0%. The Babel Bible's lack of a PDE
 chapter is the single largest gap touched by this audit; Vol. 3 cannot
 ship until a PDE foundation is laid.
 
 ### Vol. 4 — *Applications of Harmonic Analysis* (FT 2.07)
 
-| Gel'fand Vol. 4 topic | Codex unit(s) | Status | Note |
+| Gel'fand Vol. 4 topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Fourier transform on $\mathcal{S}, \mathcal{S}', L^1, L^2$ | — | ✗ | **Gap.** No Fourier-analysis chapter exists in the Codex. |
+| Fourier transform on $\mathcal{S}, \mathcal{S}', L^1, L^2$ | — | ✗ | **Gap.** No Fourier-analysis chapter exists in the Babel Bible. |
 | Plancherel theorem on $\mathbb{R}^n$ | — | ✗ | **Gap.** |
 | Paley-Wiener theorem (Schwartz version for compactly supported distributions) | — | ✗ | **Gap.** |
 | Bochner theorem | — | ✗ | **Gap.** |
@@ -271,7 +271,7 @@ theorem is in place).
 
 ### Vol. 5 — *Integral Geometry and Representation Theory* (FT 2.08)
 
-| Gel'fand Vol. 5 topic | Codex unit(s) | Status | Note |
+| Gel'fand Vol. 5 topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Radon transform on $\mathbb{R}^n$ | — | ✗ | **Gap.** |
 | John transform; X-ray transform | — | ✗ | **Gap.** |
@@ -290,11 +290,11 @@ unitary side is absent.
 
 ### Vol. 6 — *Representation Theory and Automorphic Forms* (FT 2.09)
 
-| Gel'fand Vol. 6 topic | Codex unit(s) | Status | Note |
+| Gel'fand Vol. 6 topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Automorphic forms on the upper half-plane | — | ✗ | **Gap.** `06.06-jacobians/` touches modular curves implicitly; no $\Gamma$-invariant function theory. |
 | Hecke theory; Hecke $L$-functions | — | ✗ | **Gap.** |
-| $p$-adic numbers $\mathbb{Q}_p$ | — | ✗ | **Gap.** No $p$-adic content in the Codex. |
+| $p$-adic numbers $\mathbb{Q}_p$ | — | ✗ | **Gap.** No $p$-adic content in the Babel Bible. |
 | Adeles $\mathbb{A}$ and ideles $\mathbb{I}$ of $\mathbb{Q}$ | — | ✗ | **Gap.** |
 | Tate's thesis: $\zeta(s)$ as a $GL_1(\mathbb{A})$ integral | — | ✗ | **Gap.** Originator: Tate 1950 PhD thesis. |
 | Adelic $GL_2$ automorphic representations | — | ✗ | **Gap.** |
@@ -304,14 +304,14 @@ unitary side is absent.
 **Vol. 6 aggregate coverage estimate:** ~0%.
 
 **Aggregate series coverage estimate:** ~0–2% of the six-volume series has
-corresponding Codex units. **This is the largest single coverage gap in
-the FT corpus** and is unsurprising — the Codex's `02-analysis/`
+corresponding Babel Bible units. **This is the largest single coverage gap in
+the FT corpus** and is unsurprising — the Babel Bible's `02-analysis/`
 chapter currently has no measure theory, no Lebesgue integration beyond a
 casual mention, no Fourier analysis, no PDE, and no distribution theory.
 Closing this gap requires net-new sub-chapters within `02-analysis/`
 before Vol. 1 of Gel'fand can ship.
 
-**Existing Codex units that silently depend on Gel'fand-style distribution
+**Existing Babel Bible units that silently depend on Gel'fand-style distribution
 theory (load-bearing gap):**
 
 1. `12.03.01-bosonic-fock-space-and-second-quantisation.md` — the
@@ -860,5 +860,5 @@ volume-title confirmation only, no free PDF surface. Punch-list
 inventory built from the publicly visible volume TOC, the canonical
 peer-reference network (Schwartz, Hörmander, Reed-Simon, Stein-Shakarchi,
 Helgason, Bump), and the silent-dependency analysis of the current
-Codex corpus listed in §2. Re-audit queued upon acquisition of AMS
+Babel Bible corpus listed in §2. Re-audit queued upon acquisition of AMS
 Chelsea reprint set.

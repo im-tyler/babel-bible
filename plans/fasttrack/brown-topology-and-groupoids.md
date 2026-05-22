@@ -61,12 +61,12 @@ squarely in the algebraic-topology-via-homotopy track.
 
 ---
 
-## §2 Coverage table (Codex vs Brown)
+## §2 Coverage table (Babel Bible vs Brown)
 
 Cross-referenced against the current 213-unit corpus. ✓ = covered, △ =
 partial / different framing, ✗ = not covered.
 
-| Brown topic | Codex unit(s) | Status | Note |
+| Brown topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Topological space (definition, examples) | `02.01.01` topological-space | ✓ | Codex has this. |
 | Continuous map | `02.01.02` continuous-map | ✓ | |
@@ -90,7 +90,7 @@ partial / different framing, ✗ = not covered.
 | Cubical / double groupoid | — | ✗ | **Gap (low priority — pointer in §1 §8 of Brown is enough for FT equivalence).** |
 
 **Aggregate coverage estimate:** ~30% of Brown's book has corresponding
-Codex units. The gap is concentrated in early-and-middle chapters: $\pi_1$
+Babel Bible units. The gap is concentrated in early-and-middle chapters: $\pi_1$
 and the groupoid version, Seifert-van Kampen, identification topology,
 function spaces and fibration / cofibration. The end-of-book HDT material
 is correctly out of FT scope (Brown himself flags it as a survey).
@@ -115,7 +115,7 @@ is correctly out of FT scope (Brown himself flags it as a survey).
 4. **`02.01.09` Fibration (Hurewicz / Serre).** Foundational for the
    Leray-Serre spectral sequence in `03.13.02`. Brown §13 anchor; Hatcher
    §4.2; Bott-Tu §17.
-5. **`03.12.00` Fundamental group.** Currently the Codex homotopy chapter
+5. **`03.12.00` Fundamental group.** Currently the Babel Bible homotopy chapter
    skips $\pi_1$. Brown §6; Hatcher §1.1. Three-tier; Beginner uses
    loops-on-circle pictures.
 6. **`03.12.0a` Fundamental groupoid $\pi_1(X, A)$.** Brown §6 (his
@@ -174,7 +174,7 @@ Brown 1968 *Elements of Modern Topology* in addition to the 2006 expansion.
 
 **Notation crosswalk.** Brown writes $\pi X$ for the fundamental groupoid
 on the entire space and $\pi_1(X, A)$ for the groupoid on a chosen subset
-$A$. Some sources write $\Pi_1$. The Codex notation decision (per
+$A$. Some sources write $\Pi_1$. The Babel Bible notation decision (per
 `docs/specs/UNIT_SPEC.md` §11) is: use $\pi_1(X, A)$ for the groupoid on
 $A$ and $\pi_1(X, x_0)$ for the group at a basepoint. The new unit on
 fundamental groupoids should record this in a §Notation paragraph.
@@ -200,7 +200,7 @@ fundamental groupoids should record this in a §Notation paragraph.
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4, the book is at
 equivalence-coverage when:
 
-- ≥95% of Brown's named theorems map to Codex units (currently ~30%; after
+- ≥95% of Brown's named theorems map to Babel Bible units (currently ~30%; after
   priority-1 units this rises to ~85%; after priority-1+2 to ~95%).
 - ≥90% of Brown's worked examples have either a direct unit or are
   referenced from a unit that covers them.

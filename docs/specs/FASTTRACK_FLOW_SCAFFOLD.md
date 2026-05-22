@@ -1,8 +1,8 @@
-# Codex — Pedagogical Flow Scaffold
+# Babel Bible — Pedagogical Flow Scaffold
 
 A second-order scaffold folded on top of the equivalence plan. Where `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` captures *what* each Fast Track book teaches, this document captures *how* — the specific pedagogical sequence, the inter-chapter bridges, the pause-and-motivate moments, the difficulty ramps, the way each author attenuates a reader from foundations to apex.
 
-A Codex unit is a reference object: definitions, theorems, exercises, examples, three tiers. A *flow* is a teaching object: an ordered traversal of units, annotated with the rhetorical scaffolding an author would use to bring a learner up the conceptual ladder. Multiple flows traverse the same underlying units; each preserves a distinct pedagogical voice.
+A Babel Bible unit is a reference object: definitions, theorems, exercises, examples, three tiers. A *flow* is a teaching object: an ordered traversal of units, annotated with the rhetorical scaffolding an author would use to bring a learner up the conceptual ladder. Multiple flows traverse the same underlying units; each preserves a distinct pedagogical voice.
 
 Read alongside `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`, `docs/specs/UNIT_SPEC.md`, `docs/plans/SITE_PLAN.md`.
 
@@ -45,7 +45,7 @@ The flow scaffold makes attenuation an explicit, externalisable artifact — rec
 
 ### 3.1 Author flows
 
-Replicate a specific book's pedagogical trajectory. One flow per book chapter — or per book, for shorter books. The reader following the flow walks Codex units in the order the author chose, with bridge prose that reproduces the author's chapter-to-chapter transitions, pause moments at the same places the author would pause.
+Replicate a specific book's pedagogical trajectory. One flow per book chapter — or per book, for shorter books. The reader following the flow walks Babel Bible units in the order the author chose, with bridge prose that reproduces the author's chapter-to-chapter transitions, pause moments at the same places the author would pause.
 
 Examples:
 - `flow:hartshorne-ch1` — Hartshorne Ch I (Varieties), the classical-variety pre-game before schemes
@@ -71,7 +71,7 @@ Examples:
 
 Walk across multiple strands to reproduce a meta-curriculum. The Fast Track booklist's ordering is itself a synthesis flow: it specifies a sequence of *books* across topics, with implicit cross-strand bridges (read Apostol II, *then* Sternberg, *then* Bott-Tu).
 
-Codex's master synthesis flow is `flow:fasttrack-canonical` — the Fast Track translated into unit-level steps with bridges between books.
+Babel Bible's master synthesis flow is `flow:fasttrack-canonical` — the Fast Track translated into unit-level steps with bridges between books.
 
 Examples:
 - `flow:fasttrack-canonical` — the Fast Track booklist as a unit-level walk
@@ -90,7 +90,7 @@ Examples:
 - `flow:theme-character-variety` — character of a representation, character of a Lie algebra rep, Weyl character formula, Lefschetz character formula, Borel-Weil
 - `flow:theme-genus` — genus on curves, of Riemann surfaces, arithmetic genus on schemes, geometric genus, irregularity, Hodge numbers as generalised genera
 
-**Goal**: a reader interested in a specific concept can walk every Codex appearance of it, with the connective tissue that ties them together.
+**Goal**: a reader interested in a specific concept can walk every Babel Bible appearance of it, with the connective tissue that ties them together.
 
 ---
 
@@ -194,7 +194,7 @@ connections_outward:
 
 Each step has:
 - **n**: position in the sequence
-- **unit**: which Codex unit
+- **unit**: which Babel Bible unit
 - **tier**: which tier to engage at this position
 - **section_anchor**: which part of the source book this step covers (for traceability)
 - **why**: explicit motivational pose — *why does the author put this concept here?*
@@ -216,11 +216,11 @@ A flow is generated from a per-book equivalence plan. The protocol mirrors the e
 
 **Input:** Per-book equivalence plan (§1 audit + §2 coverage diff) + book source if accessible.
 **Tools:** Read, WebSearch (for course pages that adopt the book and include their own ordering), WebFetch.
-**Task:** Produce the ordered `steps` list for an author flow — which Codex units, in which order, at which tier, anchored to which book section.
+**Task:** Produce the ordered `steps` list for an author flow — which Babel Bible units, in which order, at which tier, anchored to which book section.
 **Output:** Skeleton of `flows/<book-slug>-ch<n>.md` with a populated `steps` list (no bridges yet, no pause annotations).
 
 **Agent prompt template:**
-> You have the per-book audit at `plans/fasttrack/<book>.md`. Read §1.6 (sequencing graph) and §2.1 (theorem coverage diff). For each chapter the audit identifies, produce an ordered list of Codex units that cover that chapter. The order matches the author's section sequence within the chapter, not the DAG-default order. For each step, specify the unit ID, the section_anchor (book chapter/section), and the tier. Output a YAML steps list. Do not write bridges or pause annotations — that's Pass B.
+> You have the per-book audit at `plans/fasttrack/<book>.md`. Read §1.6 (sequencing graph) and §2.1 (theorem coverage diff). For each chapter the audit identifies, produce an ordered list of Babel Bible units that cover that chapter. The order matches the author's section sequence within the chapter, not the DAG-default order. For each step, specify the unit ID, the section_anchor (book chapter/section), and the tier. Output a YAML steps list. Do not write bridges or pause annotations — that's Pass B.
 
 ### Pass B — Bridge-prose agent
 
@@ -230,7 +230,7 @@ A flow is generated from a per-book equivalence plan. The protocol mirrors the e
 **Output:** Filled-in flow markdown.
 
 **Agent prompt template:**
-> You have a flow skeleton at `flows/<flow-id>.md` and the per-book audit at `plans/fasttrack/<book>.md`. For each step, write three fields: (1) `why` — why does the author put this concept here, in this order? Refer to §1.7 of the audit (distinctive perspective). (2) `read_strategy` — which parts of the Codex unit to focus on at this stage. (3) `bridge_after` — the prose transition to the next step, in the author's voice. Write 80–150 words per bridge. The bridge should answer "what is the reader now equipped to do, and what will the author build next?"
+> You have a flow skeleton at `flows/<flow-id>.md` and the per-book audit at `plans/fasttrack/<book>.md`. For each step, write three fields: (1) `why` — why does the author put this concept here, in this order? Refer to §1.7 of the audit (distinctive perspective). (2) `read_strategy` — which parts of the Babel Bible unit to focus on at this stage. (3) `bridge_after` — the prose transition to the next step, in the author's voice. Write 80–150 words per bridge. The bridge should answer "what is the reader now equipped to do, and what will the author build next?"
 
 ### Pass C — Pause-and-motivate agent
 
@@ -241,9 +241,9 @@ A flow is generated from a per-book equivalence plan. The protocol mirrors the e
 
 ### Pass D — Flow verification agent
 
-**Input:** Final flow + the per-book equivalence plan + Codex DAG.
+**Input:** Final flow + the per-book equivalence plan + Babel Bible DAG.
 **Tools:** Read, Bash (validate flow constraints).
-**Task:** Verify (i) every step's `unit` references a shipped Codex unit; (ii) the order respects the DAG (no step requires a unit that comes later); (iii) every section_anchor in the source book is covered by some step; (iv) bridges actually transition (last bridge mentions next step's content).
+**Task:** Verify (i) every step's `unit` references a shipped Babel Bible unit; (ii) the order respects the DAG (no step requires a unit that comes later); (iii) every section_anchor in the source book is covered by some step; (iv) bridges actually transition (last bridge mentions next step's content).
 **Output:** Sign-off or specific failure call-outs.
 
 ### Pass E — Cross-flow weaving agent
@@ -372,7 +372,7 @@ For the same reasons we'd pilot the equivalence plan on Lawson-Michelsohn, the f
 
 Why:
 - Lawson-Michelsohn is Tier α and we already have ≥80% of the unit content
-- Codex's spin-geometry strand was the original Wave-1 pilot, so the unit set is well-developed
+- Babel Bible's spin-geometry strand was the original Wave-1 pilot, so the unit set is well-developed
 - Part I is the foundation; the flow scaffolding pattern proved here transfers to Parts II–IV directly
 - We can verify "voice test" (test 5) since Lawson-Michelsohn has a well-known prose style
 
@@ -427,7 +427,7 @@ In wall time (with parallelism, 8–12 agents at once): ~3–5 weeks of producti
 
 A curriculum without flows is a textbook with chapter headings but no chapters — readable as a list, not as a teaching. The unit/DAG/equivalence layers give Codex a complete reference; the flow layer gives Codex a *teacher*. Together, they let a learner choose: I want the book's voice (author flow), I want the strand's coherence (strand flow), I want to follow the meta-curriculum (synthesis flow), I want to chase a thread (themed flow). All four serve different purposes; all four exist on top of the same units.
 
-This is what the original authors were doing when they wrote the books — choosing one specific path through their domain's DAG and orchestrating attenuation along it. Codex's flow scaffold makes that choice explicit, multiplied across authors, combinable across themes, browsable on demand. **The flows are the bridge from "Codex has the right material" to "Codex teaches the way the great books teach."**
+This is what the original authors were doing when they wrote the books — choosing one specific path through their domain's DAG and orchestrating attenuation along it. Babel Bible's flow scaffold makes that choice explicit, multiplied across authors, combinable across themes, browsable on demand. **The flows are the bridge from "Codex has the right material" to "Codex teaches the way the great books teach."**
 
 ---
 

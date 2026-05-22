@@ -1,8 +1,8 @@
-# Babel Bible — Five-Domain Expansion Plan
+# Babel Bible — Cross-Domain Expansion Plan
 
-**Drafted 2026-05-17.** Successor to the implicit "math+physics only" scope (`OVERVIEW.md` §3 invariant 6, `BRIEF.md` §Scope v1) which is hereby revised. Sibling of `FASTTRACK_COVERAGE_ROADMAP.md` — that plan governs depth of the math/physics axis; this plan governs the lateral expansion across all five domains the site already advertises in its nav: **Math · Physics · Chemistry · Biology · Philosophy**.
+**Drafted 2026-05-17; updated 2026-05-22.** Successor to the implicit "math+physics only" scope (`OVERVIEW.md` §3 invariant 6, `BRIEF.md` §Scope v1) which is hereby revised. Sibling of `FASTTRACK_COVERAGE_ROADMAP.md` — that plan governs depth of the math/physics axis; this plan governs the lateral expansion across the domains the site and content tree now expose: **Math · Physics · Chemistry · Biology · Philosophy · Language · World**.
 
-**Status:** Draft. Locks the high-level structure; each domain gets its own per-domain plan (`PHYSICS_PLAN.md`, `CHEMISTRY_PLAN.md`, `BIOLOGY_PLAN.md`, `PHILOSOPHY_PLAN.md`) authored sequentially in the order defined in §6 below.
+**Status:** Active. Locks the high-level structure. Technical domains have per-domain plans (`PHYSICS_PLAN.md`, `CHEMISTRY_PLAN.md`, `BIOLOGY_PLAN.md`, `PHILOSOPHY_PLAN.md`); language/world hardening is governed by `LANGUAGE_WORLD_PLAN.md`.
 
 Read `OVERVIEW.md` (the canonical reference) first. This plan refines §11 ("what's fixed vs what's open") by moving "scope v1 = math + physics only" from Fixed to Decided-otherwise.
 
@@ -12,8 +12,8 @@ Read `OVERVIEW.md` (the canonical reference) first. This plan refines §11 ("wha
 
 It does three things and only three things:
 
-1. **Revises the v1 scope** from "math + physics only" to "math + physics + chemistry + biology + philosophy". Decision logged in §9; OVERVIEW Decision Log to be amended on the same date.
-2. **Defines the cross-domain link contract** — the rules by which a unit in one domain references a unit (or pending-unit slot) in another domain. This is the load-bearing new piece. Without it the five-domain expansion is five parallel curricula that share a header bar; with it, the cross-coherence becomes a structural property of the build, not a wish.
+1. **Revises the v1 scope** from "math + physics only" to "math + physics + chemistry + biology + philosophy + language + world". Decision logged in §9 and propagated to `OVERVIEW.md`.
+2. **Defines the cross-domain link contract** — the rules by which a unit in one domain references a unit (or pending-unit slot) in another domain. This is the load-bearing new piece. Without it the expansion is a set of parallel curricula that share a header bar; with it, the cross-coherence becomes a structural property of the build, not a wish.
 3. **Orders the per-domain plans** and names what each one must answer before its first unit ships.
 
 What this plan does *not* do:
@@ -24,7 +24,7 @@ What this plan does *not* do:
 
 ---
 
-## §2 Five-domain map
+## §2 Domain map
 
 Each domain answers seven questions. Filled here at the high level; per-domain plans flesh out the details.
 
@@ -63,7 +63,7 @@ Each domain answers seven questions. Filled here at the high level; per-domain p
 | Lean stance | `lean_status: none` everywhere; no Mathlib coverage. Human reviewer or computational-chem-package-verified (e.g., DFT result) where the claim is computational. |
 | Cross-domain role | Cites *into* physics (QM, thermo, EM) and math (linear algebra, group theory for crystallography). Emits hooks *out* to bio (biochem, enzyme kinetics, metabolism) and phil (emergence at the molecular scale). |
 | Excludes (lives elsewhere) | Materials science → physics (condensed-matter subarea of §09–13). Geochemistry / atmospheric chem / cosmochemistry → not in scope v1. Nuclear chem / particle-physics overlap → physics, not chem. Biochemistry **mechanism** (e.g., enzyme kinetics, redox chemistry, polymer reactions) belongs to chem; biochemistry **as it operates in specific organisms or pathways** (e.g., the citric acid cycle in *S. cerevisiae*) belongs to bio. Chemical engineering / process scale-up → not in scope v1. |
-| Current state | Route stub only. No units, no essays. |
+| Current state | 36 units exist across §14–16, plus a chemistry essay in `site/src/content/chemistry/`. The stronger units are already deep; the main debt is source resolution, reviewer status, placeholder visuals, and a few older scaffold units. |
 
 ### 2.4 Biology
 
@@ -76,21 +76,45 @@ Each domain answers seven questions. Filled here at the high level; per-domain p
 | Lean stance | `lean_status: none` everywhere; reviewer-attested. (Note: certain pop-dyn / epidemiology models *are* mathematically tractable and could carry `partial` Lean status if Mathlib covers the relevant ODE / probability tooling.) |
 | Cross-domain role | Cites *into* chem (biochem, enzyme mechanism), physics (electrochem, optics, thermo, stat mech of biopolymers), math (probability, dynamical systems, graph theory). Emits hooks *out* to phil (consciousness, agency, life). |
 | Excludes (lives elsewhere) | Biochemistry **mechanism** → chem. Biochemistry **as it operates in specific organisms / systems** → bio. Medicine / pharmacology / clinical applications → not in scope v1. Psychology and cognitive science → not in scope v1 (philosophy of mind covers the conceptual overlap; empirical psych deferred to v2+). Neuroscience: cellular/molecular → bio; cognitive/computational/consciousness → phil and v2+. Bioinformatics methods → math; bioinformatics-specific tooling → not in scope v1. Public health / epidemiology models → math (probability, dyn-sys); domain-specific epidemiology → v2+. |
-| Current state | Route stub only. No units, no essays. |
+| Current state | 40 units exist across §17–19, plus a biology essay in `site/src/content/biology/`. Molecular/cell and eco/evo are already substantial; the main debt is source resolution, reviewer status, and breadth completion. |
 
 ### 2.5 Philosophy
 
 | Aspect | Setting |
 |---|---|
-| Authoring mode | **Currently essays only** (6 essays in `site/src/content/philosophy/`). **May change.** The reflexivity / disclosure / practice essays are written as long-form synthesis; this works for foundational orienting material but does not operationalize mastery. `PHILOSOPHY_PLAN.md` decides whether philosophy gets *additional* tiered units (e.g., for analytic-philosophy topics where exercises and definitions matter: logic, philosophy-of-mathematics arguments, philosophy-of-science methodology) or stays essay-only. |
-| Prereq topology | Largely flat. Essays can be read in any order, though some sequencing is editorially recommended. Tiered units (if introduced) would have their own micro-DAGs. |
-| Anchor literature per tier | Deferred to `PHILOSOPHY_PLAN.md`. |
-| Mastery endpoint per tier | Deferred. If essay-only: no formal endpoint. If unit-augmented: tier-anchored as elsewhere. |
+| Authoring mode | **Hybrid.** Long-form synthesis essays remain in `site/src/content/philosophy/`; tiered analytic-philosophy units now live under `content/20-philosophy/`. Essays carry orientation and reflexive synthesis; tiered units carry definitions, argument reconstruction, cases, exercises, and reviewer-checkable mastery. |
+| Prereq topology | Essays are mostly flat. Tiered units use light DAGs by subfield: epistemology/logic first, then philosophy of science, ethics, political philosophy, philosophy of language/aesthetics, mind, mathematics, physics, chemistry, and biology as needed. |
+| Anchor literature per tier | Controlled by `PHILOSOPHY_PLAN.md`; unit-level frontmatter must name beginner, intermediate, and master anchors. |
+| Mastery endpoint per tier | Beginner: distinguish core positions and cases. Intermediate: reconstruct arguments and counterexamples. Master: map live position space without presenting one school as canonical. |
 | Lean stance | `lean_status: none` everywhere except formal logic / set theory / Gödel-class material, which *could* carry Lean status via Mathlib's logic libraries. |
-| Cross-domain role | **Receives** hooks from all four other domains (interpretation of QM, philosophy of biology, philosophy of mathematics, philosophy of mind). **Emits** hooks back into the other four as "see also: what does this mechanism imply for X" footers. |
-| Current state | 6 essays exist (`01-reflexivity` through `06-realization`). Site route live. No tiered units. |
+| Cross-domain role | **Receives** hooks from math, physics, chemistry, biology, language, and world content. **Emits** hooks back into those domains as "see also: what does this mechanism imply for X" footers. |
+| Current state | 6 site essays exist (`01-reflexivity` through `06-realization`) and tiered §20 units are now live in draft/review form. Main debt is reviewer naming and source hardening before any analytic unit is marked shipped. |
 
-### 2.6 Unit vs essay decision criteria (for hybrid domains)
+### 2.6 Language
+
+| Aspect | Setting |
+|---|---|
+| Authoring mode | Tiered units plus literary/source essays. Units teach grammar, writing, rhetoric, and close-reading skills; essays guide extended works or critical traditions. |
+| Prereq topology | Mostly shallow skill graph: grammar foundations feed writing and literature, but many literature units/essays can be entered independently. |
+| Anchor literature per tier | B: elementary grammar/writing instruction · I: Huddleston & Pullum / Williams / standard composition and literary-analysis texts · M: linguistics handbooks, rhetoric, critical theory, primary literary scholarship. |
+| Mastery endpoint per tier | B: identify and use forms correctly · I: diagnose, revise, and analyze real passages · M: compare theories, interpret source texts, and situate claims historically. |
+| Lean stance | `lean_status: none` except formal semantics/logic crossover. Human review is the correctness gate. |
+| Cross-domain role | Receives from philosophy of language/logic; emits to world essays, rhetoric, literary history, and source interpretation. |
+| Current state | 50 draft units under §22 plus language essays in `site/src/content/language/`; broad coverage, substantial source/schema hardening needed. |
+
+### 2.7 World
+
+| Aspect | Setting |
+|---|---|
+| Authoring mode | Tiered units for economics/civics/geography concepts plus synthesis essays for historical and social-science controversies. |
+| Prereq topology | Shallow within each strand; economics has the strongest internal order, civics/geography are more modular. |
+| Anchor literature per tier | B: civic/geography/econ primers · I: standard intro texts and official institutional/geospatial sources · M: primary legal/constitutional/economic sources, historiography, comparative politics, GIS/geodesy, and social-science literature. |
+| Mastery endpoint per tier | B: explain institutions, models, and maps in plain language · I: apply models and compare cases · M: evaluate assumptions, source quality, historical interpretations, and institutional tradeoffs. |
+| Lean stance | `lean_status: none` except occasional formal economics/game-theory crossover. Human review is the correctness gate. |
+| Cross-domain role | Receives math/statistics links for economics and geography; emits philosophy hooks on justice, institutions, evidence, and social explanation. |
+| Current state | 57 draft units under §23 plus world essays in `site/src/content/world/`; broad coverage, substantial source/schema hardening needed. |
+
+### 2.8 Unit vs essay decision criteria (for hybrid domains)
 
 Chem and bio are hybrid (units + essays). Without explicit criteria authors guess, and essays accumulate faster than units because no validator gates their proliferation. Decision rule:
 
@@ -114,7 +138,7 @@ The single most important section. The cross-coherence goal — "everything cros
 
 ### 3.1 Two kinds of cross-references
 
-`UNIT_SPEC.md` already supports `[ref: source-locator]` (citation into the external reference archive) and `[unit-id]` (cross-link within Codex). The latter is the load-bearing primitive. Cross-domain linking uses the same syntax — `[03.02.01]` (math), `[09.02.04]` (physics), `[10.03.07]` (chem), etc. — with the section-number prefix conveying domain.
+`UNIT_SPEC.md` already supports `[ref: source-locator]` (citation into the external reference archive) and `[unit-id]` (cross-link within Babel Bible). The latter is the load-bearing primitive. Cross-domain linking uses the same syntax — `[03.02.01]` (math), `[09.02.04]` (physics), `[10.03.07]` (chem), etc. — with the section-number prefix conveying domain.
 
 Section-number prefixes (locked as part of this plan):
 
@@ -125,6 +149,8 @@ Section-number prefixes (locked as part of this plan):
 | `14.–16.` | Chemistry (gen / orgo / pchem-inorg) |
 | `17.–19.` | Biology (mol-cell / organismal / eco-evo) |
 | `20.–20.` | Philosophy (if it gets units) |
+| `22.–22.` | Language (grammar / writing / literature) |
+| `23.–23.` | World (economics / civics / geography) |
 
 **Routing rule (locked).** Physics units are addressable in three places, and this is **not** a bug to be fixed by renumbering:
 
@@ -197,7 +223,7 @@ Non-blocking `proposed` hooks can accumulate forever if no one harvests them. Th
 
 1. **Per-domain plan absorption.** At drafting time, each per-domain plan queries `manifests/connections.json` for `kind: proposed` edges where `target` is in its domain. These become **suggested first units** in the plan's backlog. Not mandatory ("you must build everything other domains proposed"), but the per-domain plan must explicitly list each proposed inbound hook and decide per hook: *accept* (queue for production), *reject* (the proposing unit's `why` doesn't survive scrutiny — proposing author edits or removes the hook), or *defer* (mark `priority: low` and leave for later waves).
 2. **Quarterly staleness sweep.** A periodic scan of long-lived `proposed` hooks: if a hook has been `proposed` for > 6 months with no movement, surface it for promote/reject/retire review. Mechanical reminder, not enforcement.
-3. **The cross-domain audit step (§6 step 9).** First formal place this happens across all five domains simultaneously.
+3. **The cross-domain audit step (§6 step 9).** First formal place this happens across all active domains simultaneously.
 
 ---
 
@@ -260,10 +286,10 @@ Sequence chosen to validate the cross-domain link contract on the highest-levera
 | 7 | `CHEMISTRY_PLAN.md` + `BIOLOGY_PLAN.md` (parallel, both informed by physics retro) | after #6 | first chem/bio units |
 | 8 | First 5 chem + 5 bio units | after #7 | cross-domain audit |
 | 9 | Cross-domain audit pass: review `manifests/connections.json` for missing edges | after #8 | `PHILOSOPHY_PLAN.md` |
-| 10 | `PHILOSOPHY_PLAN.md` (decides essay-only vs unit-augmented, informed by what cross-refs the other four want to send into phil) | after #9 | philosophy rebuild if needed |
+| 10 | `PHILOSOPHY_PLAN.md` (decides essay-only vs unit-augmented, informed by what cross-refs the other domains want to send into phil) | after #9 | philosophy rebuild if needed |
 
 Rationale for putting philosophy last:
-- Philosophy's role is to **receive** hooks more than emit them. We learn what shape phil needs to be by seeing what the other four point at.
+- Philosophy's role is to **receive** hooks more than emit them. We learn what shape phil needs to be by seeing what the other domains point at.
 - The existing 6 essays aren't blocking anything; they continue to serve readers while the plan is finalized.
 
 ---
@@ -315,7 +341,8 @@ Rationale for putting philosophy last:
 
 | Date | Decision | Rationale |
 |---|---|---|
-| 2026-05-17 | v1 scope expanded from "math + physics" to "math + physics + chemistry + biology + philosophy" | Cross-domain coherence is the project's distinct thesis; math+physics alone cannot demonstrate it. Site nav already advertised the five domains; this aligns scope with the surface. |
+| 2026-05-17 | v1 scope expanded from "math + physics" to "math + physics + chemistry + biology + philosophy" | Cross-domain coherence is the project's distinct thesis; math+physics alone cannot demonstrate it. Site nav already advertised those then-current domains; this aligned scope with the surface at the time. |
+| 2026-05-22 | v1 scope expanded again to include language (§22) and world/social science (§23), matching the live content tree | These sections already contain substantial draft units and essays; treating them as informal extras makes the quality system inaccurate. Detailed hardening rules live in `docs/plans/LANGUAGE_WORLD_PLAN.md`. |
 | 2026-05-17 | Cross-domain link contract introduced: `hooks_out` field with two states (`proposed` / `confirmed`); cross-domain `prerequisites` follow existing `pending_prereqs` mechanism rather than a stricter parallel rule; section-number-prefix table locks domain identity with a routing rule for the fragmented physics namespace (§03 math-physics border units + §08 math-flavor stat-mech + §09–13 physics proper) | Mechanical enforcement prevents the cross-coherence goal from degrading to lip service. Two-state hooks separate "author declared it" from "receiving-domain reviewer signed off"; the original `pending/shipped` binary conflated those. Aligning cross-domain prereqs with the existing pending mechanism avoids author confusion. |
 | 2026-05-17 | Philosophy essay IDs retrofitted to `20.essays.NN` so cross-refs can target them | Without IDs, other domains have no validated way to `hooks_out` to existing essays. |
 | 2026-05-17 | Chem and bio adopt hybrid authoring (tiered units + synthesis essays); phil mode decided in `PHILOSOPHY_PLAN.md` | Essays alone can't operationalize mastery; tiered-units alone can't carry trans-disciplinary syntheses. Hybrid covers both. |
@@ -336,4 +363,4 @@ Rationale for putting philosophy last:
 4. Retrofit IDs on the 6 philosophy essays (`20.essays.01` … `20.essays.06`) and update the philosophy route to surface them so the validator can resolve cross-refs.
 5. Draft `docs/plans/PHYSICS_PLAN.md` — the first per-domain plan. Must include: the harvested backlog of `hooks_out → physics` proposed edges from `manifests/connections.json` (empty at first; populated as math units start declaring them).
 
-*This plan is the canonical reference for the five-domain expansion. When uncertain about cross-domain mechanics, check here. When updating, propagate to OVERVIEW §12 the same day.*
+*This plan is the canonical reference for cross-domain expansion. When uncertain about cross-domain mechanics, check here. When updating, propagate to OVERVIEW §12 the same day.*

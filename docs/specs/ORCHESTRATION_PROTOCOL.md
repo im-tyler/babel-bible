@@ -1,4 +1,4 @@
-# Codex — Orchestration Protocol (Layer 5)
+# Babel Bible — Orchestration Protocol (Layer 5)
 
 The execution layer. Specifies the state machine, integration mechanics, failure recovery, batch coordination, quality sampling, cost ledger, and watchdog protocols that turn the four-layer scaffold (units / DAG / equivalence / flows / continuity) into a *running* autonomous system. Without this layer, the scaffolds remain plans; with it, they become executable across the 64-book Fast Track campaign without human intervention.
 
@@ -170,7 +170,7 @@ The integration agent is **always single-threaded across batches**. Multiple pro
 In the current setup (claude as operator), the integration role is filled by the operator manually editing the shared files. In an automated setup, it's a dedicated agent task with prompt template:
 
 ```
-You are the integration agent for Codex.
+You are the integration agent for Babel Bible.
 Inputs:
 - A batch of recently-returned agent outputs at <paths>
 - The campaign ledger at manifests/campaign.json
@@ -230,11 +230,11 @@ Each pass has explicit recovery rules. The operator detects failures via the led
 
 ### Pass 2 — Gap analysis failure
 
-- **Symptom**: Agent can't reconcile audit theorem inventory against shipped Codex.
+- **Symptom**: Agent can't reconcile audit theorem inventory against shipped Babel Bible.
 - **Recovery**:
   - Most often resolved by operator-side regrep (the agent missed a unit). Operator manually grep the codebase, re-dispatch with hint.
-  - If genuinely no Codex coverage: this is the *expected* state for unfilled books; not a failure.
-- **Escalation**: only if Codex grep shows clear coverage but agent's gap report doesn't reflect it (agent reading failure).
+  - If genuinely no Babel Bible coverage: this is the *expected* state for unfilled books; not a failure.
+- **Escalation**: only if Babel Bible grep shows clear coverage but agent's gap report doesn't reflect it (agent reading failure).
 
 ### Pass 3 — Production plan failure
 
@@ -371,7 +371,7 @@ Why Lawson-Michelsohn:
 | Pass | Estimated time | Notes |
 |---|---|---|
 | P1 audit | 30–60 min | Background agent; web research |
-| P2 gap analysis | 30 min | Read audit + Codex; produce coverage diff |
+| P2 gap analysis | 30 min | Read audit + Babel Bible; produce coverage diff |
 | P3 production plan | 30 min | Decompose into 2–4 production agents |
 | P4 production (parallel) | 1–2 hours | 2–4 agents producing ~10 units total |
 | P5 verification | 30 min | Per-book equivalence sign-off |
