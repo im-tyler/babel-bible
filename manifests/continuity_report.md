@@ -8,7 +8,7 @@ _Generated: $(date)_
 | Metric | Avg | Threshold | Status |
 |---|---|---|---|
 | Backward-reference density (per 1000w) | 9.63 | 8.0 | ✓ |
-| Forward-promise density (per 1000w) | 1.98 | 3.0 | ✗ |
+| Forward-promise density (per 1000w) | 1.97 | 3.0 | ✗ |
 | Lateral connections (per Master section) | 4.93 | 3 | ✓ |
 | Synthesis claims (Intermediate) | 2.75 | 2 | ✓ |
 | Synthesis claims (Master) | 3.84 | 4 | ✗ |
@@ -16,7 +16,7 @@ _Generated: $(date)_
 
 ## Failures
 
-- forward_density: 1.98 < 3.0
+- forward_density: 1.97 < 3.0
 - synthesis_master: 3.84 < 4
 
 ## Lowest 10 units by backward-reference density
