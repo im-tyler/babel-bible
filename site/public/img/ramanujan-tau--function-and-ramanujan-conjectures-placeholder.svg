@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ramanujan tau function and Ramanujan conjectures</title>
+  <desc id="desc">A schematic placeholder diagram showing the q-expansion of the modular discriminant and the Ramanujan-Petersson bound circle.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <g fill="none" stroke="#2d5a3d" stroke-width="3">
+    <line x1="80" y1="240" x2="640" y2="240"/>
+    <line x1="80" y1="60" x2="80" y2="260"/>
+  </g>
+  <g fill="#8a4a8a">
+    <circle cx="140" cy="232" r="6"/>
+    <circle cx="220" cy="248" r="7"/>
+    <circle cx="300" cy="218" r="9"/>
+    <circle cx="380" cy="252" r="6"/>
+    <circle cx="460" cy="200" r="11"/>
+    <circle cx="540" cy="248" r="5"/>
+  </g>
+  <g fill="none" stroke="#444" stroke-width="2" stroke-dasharray="6 4">
+    <path d="M80 180 Q200 120 360 120 Q520 120 640 180"/>
+    <path d="M80 300 Q200 360 360 360 Q520 360 640 300"/>
+  </g>
+  <text x="360" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">tau(n) coefficients of Delta within the Ramanujan-Petersson envelope</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#222">Ramanujan tau function</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hilbert symbol and the product formula</title>
+  <desc id="desc">A schematic placeholder showing the places of the rational numbers as a row of slots, one labelled infinity for the Archimedean absolute value and the rest labelled 2, 3, 5, 7, 11 for the p-adic places, with a plus or minus one printed below each slot and the product of all signs equalling plus one.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <text x="360" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">The places of Q and the Hilbert symbol (a, b)_v</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">
+    <rect x="60" y="120" width="80" height="80" fill="#fff" stroke="#5a3d6f" stroke-width="3"/>
+    <text x="100" y="170" text-anchor="middle">∞</text>
+    <text x="100" y="225" text-anchor="middle" fill="#d68a3a" font-size="24">+1</text>
+    <rect x="160" y="120" width="80" height="80" fill="#fff" stroke="#5a3d6f" stroke-width="3"/>
+    <text x="200" y="170" text-anchor="middle">2</text>
+    <text x="200" y="225" text-anchor="middle" fill="#d68a3a" font-size="24">−1</text>
+    <rect x="260" y="120" width="80" height="80" fill="#fff" stroke="#5a3d6f" stroke-width="3"/>
+    <text x="300" y="170" text-anchor="middle">3</text>
+    <text x="300" y="225" text-anchor="middle" fill="#d68a3a" font-size="24">+1</text>
+    <rect x="360" y="120" width="80" height="80" fill="#fff" stroke="#5a3d6f" stroke-width="3"/>
+    <text x="400" y="170" text-anchor="middle">5</text>
+    <text x="400" y="225" text-anchor="middle" fill="#d68a3a" font-size="24">+1</text>
+    <rect x="460" y="120" width="80" height="80" fill="#fff" stroke="#5a3d6f" stroke-width="3"/>
+    <text x="500" y="170" text-anchor="middle">7</text>
+    <text x="500" y="225" text-anchor="middle" fill="#d68a3a" font-size="24">+1</text>
+    <rect x="560" y="120" width="80" height="80" fill="#fff" stroke="#5a3d6f" stroke-width="3"/>
+    <text x="600" y="170" text-anchor="middle">11</text>
+    <text x="600" y="225" text-anchor="middle" fill="#d68a3a" font-size="24">−1</text>
+  </g>
+  <text x="360" y="285" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#5a3d6f">a = 7, b = 11: (+1)(−1)(+1)(+1)(+1)(−1) = +1</text>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#222">∏_v (a, b)_v = +1</text>
+</svg>

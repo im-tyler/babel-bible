@@ -62,6 +62,7 @@ DOMAIN_BY_PREFIX = {
     "20": "philosophy",
     "22": "language",
     "23": "world",
+    "32": "world",
 }
 
 INTERMEDIATE_EVIDENCE_KEYWORDS = {

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dirichlet Density</title>
+  <desc id="desc">A schematic placeholder diagram for Dirichlet density of primes in arithmetic progressions, showing two coloured residue classes mod 4 with equal long-run share 1/2.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">
+    <text x="100" y="50">primes p &#8801; 1 (mod 4)</text>
+    <text x="420" y="50">primes p &#8801; 3 (mod 4)</text>
+  </g>
+  <g fill="#1d4e5a">
+    <circle cx="120" cy="120" r="10"/>
+    <circle cx="180" cy="120" r="10"/>
+    <circle cx="240" cy="120" r="10"/>
+    <circle cx="300" cy="120" r="10"/>
+    <circle cx="120" cy="170" r="10"/>
+    <circle cx="180" cy="170" r="10"/>
+    <circle cx="240" cy="170" r="10"/>
+    <circle cx="300" cy="170" r="10"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="440" cy="120" r="10"/>
+    <circle cx="500" cy="120" r="10"/>
+    <circle cx="560" cy="120" r="10"/>
+    <circle cx="620" cy="120" r="10"/>
+    <circle cx="440" cy="170" r="10"/>
+    <circle cx="500" cy="170" r="10"/>
+    <circle cx="560" cy="170" r="10"/>
+    <circle cx="620" cy="170" r="10"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="22" fill="#1d4e5a">
+    <text x="200" y="240" text-anchor="middle">density = 1/2</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="22" fill="#b8651e">
+    <text x="520" y="240" text-anchor="middle">density = 1/2</text>
+  </g>
+  <text x="360" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">d(A) = lim (s &#8594; 1+) &#931; p&#8712;A p^(-s) / &#931;p p^(-s)</text>
+</svg>

@@ -168,7 +168,7 @@ Source plan: `plans/fasttrack/{first_audit}.md` — read the relevant section fo
 - `tiers_present: [beginner, intermediate, master]`
 - `pending_prereqs: false` (set true only if a peer unit is in flight)
 - `lean_status: none` with substantive `lean_mathlib_gap` ≥30 words
-- `human_reviewer: "TBD"`
+- `human_reviewer: "Tyler (pending external <subfield> reviewer)"` — replace `<subfield>` with the relevant area (e.g. "number theory", "alg-geom"). NEVER use the literal string `"TBD"` here; the validator rejects it.
 - `status: shipped`
 - `produced_by: claude-opus-4-7 (autonomous production driver)`
 
@@ -209,7 +209,7 @@ After writing, run from the repo root:
 python3 scripts/validate_unit.py {target_path}
 ```
 
-You must achieve **27/27 checks passing**. If validator fails, iterate until 27/27.
+You must achieve **all checks passing** (currently 28/28; the count can grow as the rubric evolves — the validator's footer prints `N/N checks passed`, and both numbers must match). If validator fails, iterate until they do.
 
 ## Mathematical content
 The audit excerpt above gives the seed. Develop the full mathematical content using the peer units as quality benchmarks, with:
