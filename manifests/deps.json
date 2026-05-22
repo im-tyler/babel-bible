@@ -5566,6 +5566,46 @@
       "from": "04.05.12",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "32.04.01",
+      "to": "32.08.01",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.02",
+      "to": "04.10.13",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.03",
+      "to": "04.10.13",
+      "state": "shipped"
+    },
+    {
+      "from": "04.05.05",
+      "to": "04.10.13",
+      "state": "shipped"
+    },
+    {
+      "from": "04.08.02",
+      "to": "04.10.13",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.04",
+      "to": "04.10.13",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.13",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.13",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -5754,6 +5794,7 @@
     "04.10.01",
     "04.10.02",
     "04.10.11",
+    "04.10.13",
     "04.10.14",
     "04.11.11",
     "04.11.12",
@@ -5937,7 +5978,8 @@
     "21.07.02",
     "21.09.01",
     "21.09.02",
-    "21.10.01"
+    "21.10.01",
+    "32.08.01"
   ],
   "_notes": {
     "01.01.03": "vector space — Wave 2 Phase 2.1 unit #1, SHIPPED",
@@ -6164,6 +6206,7 @@
     "20.02.02": "Rights: natural, human, and legal — Wave 1 philosophy seed (ethics), SHIPPED 2026-05-21",
     "32.02.01": "Mesopotamia and the Fertile Crescent — Wave 1 world-history seed, SHIPPED 2026-05-22",
     "32.04.01": "Indus Valley Civilization and Vedic India — Wave 1 world-history seed, SHIPPED 2026-05-22",
-    "32.07.01": "Roman Republic and Empire: from founding myths to the fall and beyond — Wave 1 world-history seed, SHIPPED 2026-05-22"
+    "32.07.01": "Roman Republic and Empire: from founding myths to the fall and beyond — Wave 1 world-history seed, SHIPPED 2026-05-22",
+    "32.08.01": "Classical India: Mauryan Empire, Gupta Golden Age, and South Indian Kingdoms — Wave 1 world-history seed, SHIPPED 2026-05-22"
   }
 }
