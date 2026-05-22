@@ -1,13 +1,13 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-22T23:09:51.238566+00:00_
+_Generated: 2026-05-22T23:11:39.862021+00:00_
 
 ## Burn-down
 
-- Units shipped: **926**
-- Units queued (gap units from audits): **99**
+- Units shipped: **929**
+- Units queued (gap units from audits): **123**
 - Of which deepenings: **4**
-- Audits completed: **65 / 92**
+- Audits completed: **67 / 92**
 - Books unaudited: **0**
 
 ## Next 20 queued units (topological order)
@@ -76,6 +76,7 @@ _Generated: 2026-05-22T23:09:51.238566+00:00_
 | kobayashi-nomizu-foundations-vol2 | 6 | 4 | 1 | 0 | 11 |
 | landau-lifshitz-classical-theory-of-fields | 0 | 0 | 0 | 0 | 0 |
 | landau-lifshitz-mechanics | 0 | 0 | 0 | 0 | 0 |
+| landau-lifshitz-quantum-electrodynamics | 0 | 0 | 0 | 0 | 0 |
 | landau-lifshitz-quantum-mechanics | 0 | 0 | 0 | 0 | 0 |
 | landau-lifshitz-statistical-physics-1 | 0 | 0 | 0 | 0 | 0 |
 | lars-ahlfors-complex-analysis | 0 | 0 | 0 | 0 | 0 |
@@ -103,6 +104,7 @@ _Generated: 2026-05-22T23:09:51.238566+00:00_
 | tom-m-apostol-calculus-vol-single | 0 | 0 | 0 | 0 | 0 |
 | voisin-hodge-theory-volume-1 | 3 | 3 | 0 | 0 | 6 |
 | weinberg-quantum-theory-of-fields-vol1 | 5 | 0 | 0 | 0 | 5 |
+| whitney-geometric-integration-theory | 9 | 1 | 0 | 0 | 10 |
 | woit-quantum-theory-groups-representations | 7 | 1 | 1 | 0 | 9 |
 
 ## Books unaudited (top 20 by FT entry)
