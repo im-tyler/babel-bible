@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">K-stability and the Yau-Tian-Donaldson Conjecture</title>
+  <desc id="desc">A schematic placeholder diagram for K-stability and the Yau-Tian-Donaldson conjecture: a Fano variety on one side, a Kahler-Einstein metric envelope on the other, and a test configuration as a degeneration arrow with the sign of the Donaldson-Futaki invariant attached.</desc>
+  <rect width="720" height="360" fill="#f5f1e9"/>
+  <circle cx="180" cy="170" r="76" fill="none" stroke="#2f5f89" stroke-width="10"/>
+  <path d="M150 170 Q180 110 210 170 Q180 230 150 170 Z" fill="none" stroke="#2f5f89" stroke-width="4"/>
+  <text x="180" y="278" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#2f5f89">Fano variety X</text>
+  <path d="M260 170 L460 170" fill="none" stroke="#7a4f9a" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <text x="360" y="148" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#7a4f9a">test configuration</text>
+  <text x="360" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#7a4f9a">DF &gt; 0</text>
+  <ellipse cx="560" cy="170" rx="90" ry="62" fill="none" stroke="#2f5f89" stroke-width="10" stroke-dasharray="6 8"/>
+  <circle cx="560" cy="170" r="6" fill="#2f5f89"/>
+  <text x="560" y="278" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#2f5f89">Kahler-Einstein metric</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7a4f9a"/>
+    </marker>
+  </defs>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">K-stability and the Yau-Tian-Donaldson conjecture</text>
+</svg>

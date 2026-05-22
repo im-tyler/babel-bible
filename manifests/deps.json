@@ -5068,6 +5068,11 @@
       "state": "pending"
     },
     {
+      "from": "32.06.01",
+      "to": "32.07.01",
+      "state": "shipped"
+    },
+    {
       "from": "01.01.01",
       "to": "21.02.01",
       "state": "shipped"
@@ -5416,6 +5421,41 @@
       "from": "21.02.08",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "04.06.02",
+      "to": "04.10.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.06",
+      "to": "04.10.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.02",
+      "to": "04.10.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.04.01",
+      "to": "04.10.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.08.02",
+      "to": "04.10.11",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.11",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "04.10.11",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -5601,6 +5641,7 @@
     "04.09.02",
     "04.10.01",
     "04.10.02",
+    "04.10.11",
     "04.11.11",
     "04.11.12",
     "04.11.13",
@@ -6009,6 +6050,7 @@
     "21.06.01": "Modularity theorem (statement) and BSD conjecture — Cycle 14 Manin IMNT modularity-BSD chapter-opener, Wiles 1995 + BCDT 2001 + Birch-Swinnerton-Dyer 1965 originators, SHIPPED 2026-05-20",
     "20.02.02": "Rights: natural, human, and legal — Wave 1 philosophy seed (ethics), SHIPPED 2026-05-21",
     "32.02.01": "Mesopotamia and the Fertile Crescent — Wave 1 world-history seed, SHIPPED 2026-05-22",
-    "32.04.01": "Indus Valley Civilization and Vedic India — Wave 1 world-history seed, SHIPPED 2026-05-22"
+    "32.04.01": "Indus Valley Civilization and Vedic India — Wave 1 world-history seed, SHIPPED 2026-05-22",
+    "32.07.01": "Roman Republic and Empire: from founding myths to the fall and beyond — Wave 1 world-history seed, SHIPPED 2026-05-22"
   }
 }

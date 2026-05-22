@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Non-reductive GIT</title>
+  <desc id="desc">A schematic placeholder diagram for the non-reductive geometric invariant theory construction of a quotient by a unipotent or parabolic group via a reductive envelope.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <rect x="60" y="80" width="240" height="200" fill="none" stroke="#5a3d6f" stroke-width="6"/>
+  <text x="180" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">X with U-action</text>
+  <text x="180" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5a3d6f">unipotent orbits</text>
+  <path d="M 320 180 L 400 180" stroke="#d68a3a" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <text x="360" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#d68a3a">envelope</text>
+  <rect x="420" y="80" width="240" height="200" fill="none" stroke="#5a3d6f" stroke-width="6" stroke-dasharray="6 8"/>
+  <text x="540" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">X //_L^+ G^+</text>
+  <text x="540" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5a3d6f">reductive quotient</text>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Non-reductive GIT via reductive envelope</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d68a3a"/>
+    </marker>
+  </defs>
+</svg>
