@@ -4419,7 +4419,7 @@
       "audit_position": 4,
       "prereqs": [],
       "successors": [],
-      "status": "queued"
+      "status": "shipped"
     },
     "08.11.02": {
       "id": "08.11.02",
