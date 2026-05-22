@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-22T19:24:38.333612+00:00_
+_Generated: 2026-05-22T21:26:32.907587+00:00_
 
 ## Burn-down
 
-- Units shipped: **863**
-- Units queued (gap units from audits): **38**
+- Units shipped: **902**
+- Units queued (gap units from audits): **16**
 - Of which deepenings: **0**
 - Audits completed: **58 / 92**
 - Books unaudited: **0**
@@ -19,21 +19,17 @@ _Generated: 2026-05-22T19:24:38.333612+00:00_
 | 3 | `08.10.10` | Dirac field $\psi$ and the Dirac adjoint $\bar\psi$ | P2 | chatterjee-qft-lecture-notes |
 | 4 | `03.06.24` | Bott-Taubes rigidity theorem | P1 | hirzebruch-manifolds-modular-forms |
 | 5 | `03.06.26` | Pointer: elliptic cohomology | P1 | hirzebruch-manifolds-modular-forms |
-| 6 | `04.05.11` | Worked Hirzebruch-Riemann-Roch computations | P1 | hirzebruch-topological-methods |
-| 7 | `04.05.12` | Pointer: Grothendieck-Riemann-Roch (GRR) | P3 | hirzebruch-topological-methods |
-| 8 | `04.10.20` | Deformation theory of smooth curves | P1 | joe-harris-moduli-of-curves |
-| 9 | `04.10.22` | Stable curve and Deligne-Mumford stability | P1 | joe-harris-moduli-of-curves |
-| 10 | `04.10.26` | Forgetful and gluing morphisms on $\overline{\mathcal{M}}_{g, n}$ | P2 | joe-harris-moduli-of-curves |
-| 11 | `04.10.29` | Limit linear series (Eisenbud-Harris) | P2 | joe-harris-moduli-of-curves |
-| 12 | `04.10.30` | Hurwitz numbers and the Hurwitz scheme | P3 | joe-harris-moduli-of-curves |
-| 13 | `04.10.32` | ELSV formula: Hurwitz numbers as Hodge integrals | P3 | joe-harris-moduli-of-curves |
-| 14 | `04.10.34` | Torelli morphism and Torelli theorem | P4 | joe-harris-moduli-of-curves |
-| 15 | `08.12.01` | Fluctuation-dissipation theorem (Landau-Callen-Welton) | P? | landau-lifshitz-statistical-physics-1 |
-| 16 | `08.11.02` | Debye theory of specific heats of solids | P? | landau-lifshitz-statistical-physics-1 |
-| 17 | `08.11.03` | Real gases — virial expansion and van der Waals | P? | landau-lifshitz-statistical-physics-1 |
-| 18 | `08.12.02` | Equilibrium fluctuations of thermodynamic quantities | P? | landau-lifshitz-statistical-physics-1 |
-| 19 | `21.06.02` | Sato-Tate conjecture | P3 | manin-introduction-modern-number-theory |
-| 20 | `21.09.01` | Arakelov geometry / arithmetic surfaces (survey) | P3 | manin-introduction-modern-number-theory |
+| 6 | `04.10.29` | Limit linear series (Eisenbud-Harris) | P2 | joe-harris-moduli-of-curves |
+| 7 | `04.10.30` | Hurwitz numbers and the Hurwitz scheme | P3 | joe-harris-moduli-of-curves |
+| 8 | `04.10.32` | ELSV formula: Hurwitz numbers as Hodge integrals | P3 | joe-harris-moduli-of-curves |
+| 9 | `04.10.34` | Torelli morphism and Torelli theorem | P4 | joe-harris-moduli-of-curves |
+| 10 | `08.12.01` | Fluctuation-dissipation theorem (Landau-Callen-Welton) | P? | landau-lifshitz-statistical-physics-1 |
+| 11 | `08.11.02` | Debye theory of specific heats of solids | P? | landau-lifshitz-statistical-physics-1 |
+| 12 | `08.11.03` | Real gases — virial expansion and van der Waals | P? | landau-lifshitz-statistical-physics-1 |
+| 13 | `08.12.02` | Equilibrium fluctuations of thermodynamic quantities | P? | landau-lifshitz-statistical-physics-1 |
+| 14 | `03.12.48` | Bousfield localisation of a model category | P3 | may-ponto-more-concise |
+| 15 | `08.10.02` | Fokker-Planck equation and equilibrium distribution | P1 | parisi-wu-stochastic-quantization |
+| 16 | `08.10.08` | Langevin updates and lattice numerics | P3 | parisi-wu-stochastic-quantization |
 
 ## Audits completed
 

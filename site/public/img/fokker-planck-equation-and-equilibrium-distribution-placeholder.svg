@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Fokker-Planck Equation and Equilibrium Distribution</title>
+  <desc id="desc">A schematic placeholder showing a probability density evolving from a delta-like initial condition toward a Gaussian equilibrium under Langevin dynamics in a quadratic potential well.</desc>
+  <rect width="720" height="360" fill="#fbf5ee"/>
+  <defs>
+    <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3a6a4f"/>
+    </marker>
+  </defs>
+  <g stroke="#c66a3a" stroke-width="3" fill="none">
+    <path d="M80 260 Q360 -40 640 260"/>
+  </g>
+  <g stroke="#3a6a4f" stroke-width="3" fill="none">
+    <path d="M340 260 Q360 100 380 260"/>
+    <path d="M260 260 Q360 150 460 260" opacity="0.7"/>
+    <path d="M180 260 Q360 200 540 260" opacity="0.45"/>
+  </g>
+  <g stroke="#222" stroke-width="2" fill="none" marker-end="url(#ar2)">
+    <path d="M150 90 L260 130"/>
+    <path d="M260 130 L400 180"/>
+  </g>
+  <text x="120" y="80" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">t = 0</text>
+  <text x="430" y="170" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">t → ∞</text>
+  <text x="360" y="290" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#3a6a4f">p_eq(x) = Z⁻¹ exp(−V(x)/T)</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Fokker-Planck Equation and Equilibrium Distribution</text>
+</svg>

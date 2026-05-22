@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hurwitz Numbers and the Hurwitz Scheme</title>
+  <desc id="desc">A schematic placeholder diagram showing a branched cover of the projective line with three marked branch points and the associated factorisation in the symmetric group.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g fill="none" stroke="#1f6f8b" stroke-width="3">
+    <path d="M 80 90 C 200 60, 380 60, 520 90 C 560 100, 600 100, 640 90"/>
+    <path d="M 80 140 C 200 110, 380 110, 520 140 C 560 150, 600 150, 640 140"/>
+    <path d="M 80 190 C 200 160, 380 160, 520 190 C 560 200, 600 200, 640 190"/>
+  </g>
+  <g fill="#c74b50" stroke="#c74b50" stroke-width="2">
+    <circle cx="220" cy="85" r="4"/>
+    <circle cx="220" cy="135" r="4"/>
+    <circle cx="220" cy="185" r="4"/>
+    <circle cx="380" cy="85" r="4"/>
+    <circle cx="380" cy="135" r="4"/>
+    <circle cx="540" cy="85" r="4"/>
+    <circle cx="540" cy="135" r="4"/>
+    <circle cx="540" cy="185" r="4"/>
+  </g>
+  <g fill="none" stroke="#1f6f8b" stroke-width="4">
+    <path d="M 80 290 L 640 290"/>
+  </g>
+  <g fill="#c74b50" stroke="#c74b50" stroke-width="2">
+    <circle cx="220" cy="290" r="6"/>
+    <circle cx="380" cy="290" r="6"/>
+    <circle cx="540" cy="290" r="6"/>
+  </g>
+  <g font-family="serif" font-size="16" fill="#1f1f1f">
+    <text x="660" y="140" text-anchor="start">C</text>
+    <text x="660" y="294" text-anchor="start">P^1</text>
+    <text x="210" y="318" text-anchor="middle">mu_1</text>
+    <text x="370" y="318" text-anchor="middle">mu_2</text>
+    <text x="530" y="318" text-anchor="middle">mu_3</text>
+  </g>
+  <g fill="none" stroke="#7a7a7a" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="220" y1="200" x2="220" y2="280"/>
+    <line x1="380" y1="200" x2="380" y2="280"/>
+    <line x1="540" y1="200" x2="540" y2="280"/>
+  </g>
+  <g font-family="serif" font-size="14" fill="#444" font-style="italic">
+    <text x="40" y="50">degree-d cover</text>
+    <text x="40" y="350">base P^1 with branch points</text>
+  </g>
+</svg>

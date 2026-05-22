@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Limit linear series</title>
+  <desc id="desc">A schematic placeholder diagram for limit linear series on a compact-type nodal curve.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g fill="none" stroke="#1f6f8b" stroke-width="6">
+    <path d="M80 200 Q200 60 320 200 Q340 220 360 200"/>
+    <path d="M360 200 Q380 180 400 200 Q520 340 640 200"/>
+  </g>
+  <g fill="#f2b134">
+    <circle cx="360" cy="200" r="10"/>
+  </g>
+  <g fill="#222" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="180" y="120" text-anchor="middle">(L_1, V_1) on C_1</text>
+    <text x="540" y="290" text-anchor="middle">(L_2, V_2) on C_2</text>
+    <text x="360" y="240" text-anchor="middle">p</text>
+  </g>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">a_i(V_1, p) + a_{r-i}(V_2, p) >= d</text>
+</svg>

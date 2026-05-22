@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Torelli Morphism</title>
+  <desc id="desc">A schematic placeholder diagram for the Torelli morphism, showing the moduli space of curves on the left mapping to the moduli space of principally polarised abelian varieties on the right.</desc>
+  <rect width="720" height="360" fill="#fbf5ee"/>
+  <ellipse cx="170" cy="170" rx="120" ry="80" fill="none" stroke="#3a6a4f" stroke-width="6"/>
+  <ellipse cx="550" cy="170" rx="120" ry="80" fill="none" stroke="#c66a3a" stroke-width="6"/>
+  <text x="170" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#3a6a4f">M_g</text>
+  <text x="550" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#c66a3a">A_g</text>
+  <circle cx="170" cy="180" r="6" fill="#3a6a4f"/>
+  <circle cx="550" cy="180" r="6" fill="#c66a3a"/>
+  <path d="M 290 170 L 430 170" stroke="#222" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#222"/>
+    </marker>
+  </defs>
+  <text x="360" y="155" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-style="italic" fill="#222">tau</text>
+  <text x="170" y="225" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#3a6a4f">[C]</text>
+  <text x="550" y="225" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#c66a3a">[J(C), Theta]</text>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Torelli Morphism</text>
+</svg>
