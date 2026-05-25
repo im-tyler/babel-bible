@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-25T21:19:26.754396+00:00_
+_Generated: 2026-05-25T21:34:17.664404+00:00_
 
 ## Burn-down
 
-- Units shipped: **1107**
-- Units queued (gap units from audits): **86**
+- Units shipped: **1110**
+- Units queued (gap units from audits): **83**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-25T21:19:26.754396+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `04.03.22` | Cyclic homology and Connes' long exact sequence | P1 | gelfand-manin-homological-algebra |
-| 2 | `13.09.04` | Existence of Hadamard states via the FNW deformation argument | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 3 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 4 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 5 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 6 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 7 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 8 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 9 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 10 | `03.12.51` | Massey products and the formality condition | P1 | griffiths-morgan-rational-homotopy |
-| 11 | `12.16.03` | Vacuum polarization at one loop and the Uehling potential | P? | landau-lifshitz-quantum-electrodynamics |
-| 12 | `12.12.03` | Compton scattering and the Klein-Nishina formula | P? | landau-lifshitz-quantum-electrodynamics |
-| 13 | `12.12.04` | Møller scattering ($e^- e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
-| 14 | `12.12.05` | Bhabha scattering ($e^+ e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
-| 15 | `12.12.06` | Bethe-Heitler bremsstrahlung and pair production | P? | landau-lifshitz-quantum-electrodynamics |
-| 16 | `12.11.02` | Klein-Gordon equation in external EM field; Coulomb and uniform-magnetic cases | P? | landau-lifshitz-quantum-electrodynamics |
-| 17 | `12.11.04` | Klein paradox | P? | landau-lifshitz-quantum-electrodynamics |
-| 18 | `12.16.04` | Lamb shift from one-loop QED | P? | landau-lifshitz-quantum-electrodynamics |
-| 19 | `12.16.05` | Infrared divergences and the Bloch-Nordsieck cancellation in QED | P? | landau-lifshitz-quantum-electrodynamics |
-| 20 | `12.11.05` | Furry's theorem and charge-conjugation symmetry of QED | P? | landau-lifshitz-quantum-electrodynamics |
+| 1 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 2 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 3 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 4 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 5 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 6 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 7 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 8 | `03.12.51` | Massey products and the formality condition | P1 | griffiths-morgan-rational-homotopy |
+| 9 | `12.16.03` | Vacuum polarization at one loop and the Uehling potential | P? | landau-lifshitz-quantum-electrodynamics |
+| 10 | `12.12.04` | Møller scattering ($e^- e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
+| 11 | `12.12.05` | Bhabha scattering ($e^+ e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
+| 12 | `12.12.06` | Bethe-Heitler bremsstrahlung and pair production | P? | landau-lifshitz-quantum-electrodynamics |
+| 13 | `12.11.02` | Klein-Gordon equation in external EM field; Coulomb and uniform-magnetic cases | P? | landau-lifshitz-quantum-electrodynamics |
+| 14 | `12.11.04` | Klein paradox | P? | landau-lifshitz-quantum-electrodynamics |
+| 15 | `12.16.04` | Lamb shift from one-loop QED | P? | landau-lifshitz-quantum-electrodynamics |
+| 16 | `12.16.05` | Infrared divergences and the Bloch-Nordsieck cancellation in QED | P? | landau-lifshitz-quantum-electrodynamics |
+| 17 | `12.11.05` | Furry's theorem and charge-conjugation symmetry of QED | P? | landau-lifshitz-quantum-electrodynamics |
+| 18 | `12.12.02` | Coulomb gauge vs Lorenz gauge in QED | P? | landau-lifshitz-quantum-electrodynamics |
+| 19 | `12.07.04` | WKB approximation and Bohr-Sommerfeld quantisation | P? | landau-lifshitz-quantum-mechanics |
+| 20 | `12.09.03` | Hartree-Fock self-consistent field method | P? | landau-lifshitz-quantum-mechanics |
 
 ## Audits completed
 

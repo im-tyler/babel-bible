@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Vacuum polarization at one loop and the Uehling potential</title>
+  <desc id="desc">Schematic of the one-loop QED vacuum polarisation diagram: a virtual photon converts into an electron-positron loop and reannihilates, producing a transverse self-energy whose UV divergence renormalises the photon wave-function and whose finite part dresses the static Coulomb potential into the Uehling potential responsible for ~27 MHz of the hydrogen Lamb shift.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <path d="M60 180 Q 90 160 120 180 Q 150 200 180 180 Q 210 160 240 180" fill="none" stroke="#b3601f" stroke-width="4" stroke-dasharray="10 6"/>
+  <path d="M480 180 Q 510 160 540 180 Q 570 200 600 180 Q 630 160 660 180" fill="none" stroke="#b3601f" stroke-width="4" stroke-dasharray="10 6"/>
+  <path d="M240 180 C 240 100, 480 100, 480 180" fill="none" stroke="#2d5a3d" stroke-width="6"/>
+  <path d="M240 180 C 240 260, 480 260, 480 180" fill="none" stroke="#2d5a3d" stroke-width="6"/>
+  <g fill="#b3601f">
+    <circle cx="240" cy="180" r="7"/>
+    <circle cx="480" cy="180" r="7"/>
+  </g>
+  <text x="60" y="210" font-family="Inter, Arial, sans-serif" font-size="20" fill="#b3601f">gamma (q)</text>
+  <text x="620" y="210" font-family="Inter, Arial, sans-serif" font-size="20" fill="#b3601f">gamma (q)</text>
+  <text x="360" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#2d5a3d">e- (k)</text>
+  <text x="360" y="280" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#2d5a3d">e+ (k + q)</text>
+  <text x="360" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Pi^mu-nu (q) = (q^2 g^mu-nu - q^mu q^nu) Pi(q^2)</text>
+  <text x="360" y="345" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#444">Uehling (1935): V(r) = - Z alpha / r [1 + (2 alpha / 3 pi) chi(2 m r) + ...]</text>
+</svg>

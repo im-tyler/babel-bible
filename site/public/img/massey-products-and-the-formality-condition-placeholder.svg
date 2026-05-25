@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Massey Products and the Formality Condition</title>
+  <desc id="desc">Three interlocked rings depicting the Borromean configuration — three closed curves with no two pairwise linked but the union nontrivial — annotated with the triple Massey product symbol indicating higher-order linking.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <g fill="none" stroke-width="6">
+    <circle cx="290" cy="170" r="80" stroke="#2d5a3d"/>
+    <circle cx="430" cy="170" r="80" stroke="#8a4a8a"/>
+    <circle cx="360" cy="250" r="80" stroke="#b8662b"/>
+  </g>
+  <text x="360" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">Borromean rings: pairwise unlinked, triply linked</text>
+  <text x="360" y="320" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#222">Triple Massey product ⟨a, b, c⟩ ≠ 0</text>
+</svg>
