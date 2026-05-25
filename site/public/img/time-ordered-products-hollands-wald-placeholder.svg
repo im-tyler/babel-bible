@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Time-Ordered Products and Hollands-Wald Renormalisation on Curved Spacetimes</title>
+  <desc id="desc">A schematic placeholder diagram for time-ordered products of Wick polynomials on a globally hyperbolic curved spacetime. Two interaction vertices x and y are placed on a curved spacetime sheet, each carrying a Wick polynomial normal-ordered phi to the fourth. The time-ordered product T of the two Wick polynomials is a distribution on M times M, defined off the total diagonal by causal factorisation in terms of lower-order time-ordered products via the Bogoliubov recursion, and extended across the diagonal by the Epstein-Glaser inductive construction adapted to curved spacetime by Brunetti-Fredenhagen 2000 and Hollands-Wald 2002 via the Hörmander scaling-degree theorem and Hadamard parametrix subtraction. The renormalisation freedom is a finite-dimensional family of local covariant counterterms classified by Hollands-Wald 2003 as polynomials in the curvature invariants of the appropriate scaling dimension; at dimension 4 in four spacetime dimensions, the counterterm basis is the Riemann-squared, Ricci-squared, scalar-curvature-squared, and box-of-scalar-curvature monomials. The eight Hollands-Wald axioms — locality / causality, general covariance under isometric embeddings, microlocal spectrum condition, scaling, Leibniz, unitarity, smooth metric dependence, and the principle of perturbative agreement — characterise the time-ordered products uniquely up to this counterterm freedom.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <text x="40" y="36" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">Epstein-Glaser 1973 / Brunetti-Fredenhagen 2000 / Hollands-Wald 2001-2003: T(:phi^{n_1}(x_1): ... :phi^{n_k}(x_k):).</text>
+  <text x="40" y="56" font-family="Inter, Arial, sans-serif" font-size="13" fill="#444">Inductive Bogoliubov recursion off the diagonal; extension across the diagonal by Hörmander scaling-degree.</text>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2">
+    <path d="M120 110 Q360 90 600 110"/>
+    <path d="M120 290 Q360 310 600 290"/>
+    <line x1="120" y1="110" x2="120" y2="290"/>
+    <line x1="600" y1="110" x2="600" y2="290"/>
+  </g>
+  <text x="360" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">globally hyperbolic (M, g)</text>
+  <g fill="none" stroke="#888" stroke-width="1.4" stroke-dasharray="4 3">
+    <path d="M250 200 C 290 170 350 175 380 200"/>
+    <path d="M380 200 C 410 225 460 230 500 200"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="250" cy="200" r="6"/>
+    <circle cx="500" cy="200" r="6"/>
+  </g>
+  <text x="244" y="188" font-family="Inter, Arial, sans-serif" font-size="13" fill="#b8651e">x</text>
+  <text x="504" y="188" font-family="Inter, Arial, sans-serif" font-size="13" fill="#b8651e">y</text>
+  <text x="250" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#444">:phi^4(x):_H</text>
+  <text x="500" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#444">:phi^4(y):_H</text>
+  <g fill="none" stroke="#b8651e" stroke-width="2">
+    <rect x="100" y="244" width="520" height="58" rx="6"/>
+  </g>
+  <text x="360" y="266" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#b8651e">T(:phi^4(x):_H, :phi^4(y):_H) extended across diagonal {x = y}</text>
+  <text x="360" y="288" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#b8651e">freedom: c_1 R^2 + c_2 R_munu R^munu + c_3 R_munurhsigma R^munurhsigma + c_4 box R (dim 4)</text>
+  <text x="40" y="332" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666">Hollands-Wald axioms: causality, covariance, microlocal-spectrum, scaling, Leibniz, unitarity, smooth-metric, perturbative agreement.</text>
+  <text x="40" y="350" font-family="Inter, Arial, sans-serif" font-size="12" fill="#888">Epstein-Glaser 1973 Ann. IHP 19 211; Hollands-Wald 2001/2002/2003 Comm. Math. Phys. 223/231/237.</text>
+</svg>

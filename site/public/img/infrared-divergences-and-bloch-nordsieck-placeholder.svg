@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Infrared divergences and the Bloch-Nordsieck cancellation</title>
+  <desc id="desc">Schematic of the Bloch-Nordsieck cancellation: a virtual one-loop QED vertex correction diverges as log(photon mass), the real soft-photon bremsstrahlung integrated up to a detector resolution Delta E carries the matching divergence with the opposite sign, and the inclusive sum elastic plus soft-photon emission is finite and depends only on the physical ratio Delta E over E.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+
+  <text x="60" y="40" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222" font-weight="bold">Virtual one-loop</text>
+  <text x="280" y="40" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222" font-weight="bold">Real soft emission</text>
+  <text x="520" y="40" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222" font-weight="bold">Inclusive sum</text>
+
+  <line x1="60" y1="120" x2="220" y2="120" stroke="#444" stroke-width="2"/>
+  <path d="M 100 120 Q 140 70 180 120" fill="none" stroke="#b3601f" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="60" y="160" font-family="Inter, Arial, sans-serif" font-size="13" fill="#444">virtual photon (mass regulator mu_gamma)</text>
+  <text x="60" y="195" font-family="Inter, Arial, sans-serif" font-size="14" fill="#b3601f">F_1(0) - 1 ~ -(alpha/2pi) log(m/mu_gamma) log(-q^2/m^2)</text>
+  <text x="60" y="218" font-family="Inter, Arial, sans-serif" font-size="12" fill="#444">[Sudakov double log; diverges as mu_gamma to 0]</text>
+
+  <line x1="280" y1="120" x2="440" y2="120" stroke="#444" stroke-width="2"/>
+  <path d="M 360 120 L 410 75" stroke="#b3601f" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="412" y="72" font-family="Inter, Arial, sans-serif" font-size="12" fill="#b3601f">soft gamma, omega &lt; Delta E</text>
+  <text x="280" y="160" font-family="Inter, Arial, sans-serif" font-size="13" fill="#444">e- to e- plus soft photon (bremsstrahlung)</text>
+  <text x="280" y="195" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">+ (alpha/pi) log(m/mu_gamma) log(Delta E/m)</text>
+  <text x="280" y="218" font-family="Inter, Arial, sans-serif" font-size="12" fill="#444">[same divergence, OPPOSITE sign]</text>
+
+  <rect x="510" y="95" width="170" height="80" fill="none" stroke="#2d5a3d" stroke-width="2"/>
+  <text x="520" y="120" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">sigma_incl(Delta E)</text>
+  <text x="520" y="140" font-family="Inter, Arial, sans-serif" font-size="13" fill="#2d5a3d">= sigma_elastic</text>
+  <text x="520" y="158" font-family="Inter, Arial, sans-serif" font-size="13" fill="#2d5a3d">+ sigma_soft gamma + ...</text>
+  <text x="510" y="195" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">FINITE, mu_gamma-independent</text>
+
+  <text x="360" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222" font-weight="bold">Bloch-Nordsieck theorem (1937)</text>
+  <text x="360" y="290" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">log(mu_gamma) cancels order by order in alpha;</text>
+  <text x="360" y="310" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">all-orders form: sigma_incl = sigma_tree * (Delta E / E)^((2 alpha / pi) f(theta))</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666">[Yennie-Frautschi-Suura 1961 exponentiation; KLN 1962-1964 generalisation to collinear / non-Abelian]</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Klein Paradox</title>
+  <desc id="desc">A schematic placeholder diagram for the Klein paradox: a relativistic charged wave incident on a step potential V0 greater than 2m, with reflected and transmitted branches and a pair-production indication at the boundary.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <line x1="60" y1="280" x2="660" y2="280" stroke="#222" stroke-width="2"/>
+  <line x1="360" y1="280" x2="360" y2="60" stroke="#222" stroke-width="2"/>
+  <line x1="360" y1="120" x2="660" y2="120" stroke="#222" stroke-width="2"/>
+  <text x="200" y="270" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">V = 0</text>
+  <text x="510" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">V = V0 &gt; 2m</text>
+  <path d="M80 220 Q120 180 160 220 T240 220 T320 220" fill="none" stroke="#2d5a3d" stroke-width="3"/>
+  <polygon points="320,220 308,212 308,228" fill="#2d5a3d"/>
+  <text x="180" y="200" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">incident e-</text>
+  <path d="M320 240 Q280 200 240 240 T160 240 T80 240" fill="none" stroke="#8a4a8a" stroke-width="3"/>
+  <polygon points="80,240 92,232 92,248" fill="#8a4a8a"/>
+  <text x="180" y="262" font-family="Inter, Arial, sans-serif" font-size="14" fill="#8a4a8a">reflected e-</text>
+  <path d="M400 160 Q440 200 480 160 T560 160 T640 160" fill="none" stroke="#b86a2d" stroke-width="3"/>
+  <polygon points="640,160 628,152 628,168" fill="#b86a2d"/>
+  <text x="520" y="140" font-family="Inter, Arial, sans-serif" font-size="14" fill="#b86a2d">transmitted: positron current</text>
+  <circle cx="360" cy="200" r="6" fill="#b22"/>
+  <text x="370" y="205" font-family="Inter, Arial, sans-serif" font-size="14" fill="#b22">e+ e- pair</text>
+  <text x="360" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">Klein paradox: V0 &gt; 2m drives vacuum pair production at the step</text>
+</svg>
