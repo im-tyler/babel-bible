@@ -62,9 +62,19 @@ DOMAIN_BY_PREFIX = {
     "20": "philosophy",
     "22": "language",
     "23": "world",
+    "24": "logic",
+    "25": "computer-science",
+    "26": "statistics",
+    "27": "earth-science",
+    "28": "astronomy",
     "29": "psychology",
     "30": "sociology",
+    "31": "anthropology",
     "32": "world",
+    "33": "history-of-science",
+    "34": "music-art",
+    "35": "health-medicine",
+    "36": "media-literacy",
 }
 
 INTERMEDIATE_EVIDENCE_KEYWORDS = {

@@ -1,12 +1,12 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-22T23:14:42.757073+00:00_
+_Generated: 2026-05-25T00:41:12.582521+00:00_
 
 ## Burn-down
 
-- Units shipped: **930**
-- Units queued (gap units from audits): **122**
-- Of which deepenings: **4**
+- Units shipped: **998**
+- Units queued (gap units from audits): **80**
+- Of which deepenings: **2**
 - Audits completed: **67 / 92**
 - Books unaudited: **0**
 
@@ -14,26 +14,26 @@ _Generated: 2026-05-22T23:14:42.757073+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `03.07.17` | Chern-Simons functional on a 3-manifold | P1 | donaldson-floer-homology-yang-mills |
-| 2 | `03.07.18` | Configuration space and slice theorem on $\mathcal{B}^*(Y)$ | P1 | donaldson-floer-homology-yang-mills |
-| 3 | `03.07.19` | Spectral flow and the Floer grading mod 8 | P1 | donaldson-floer-homology-yang-mills |
-| 4 | `03.07.20` | Uhlenbeck compactness for ASD equations on cylinders | P1 | donaldson-floer-homology-yang-mills |
-| 5 | `03.07.21` | Gluing theorem for instanton trajectories | P1 | donaldson-floer-homology-yang-mills |
-| 6 | `03.07.22` | Orientations on instanton trajectory moduli | P1 | donaldson-floer-homology-yang-mills |
-| 7 | `03.07.23` | Instanton Floer homology $HF_*(Y)$ | P1 | donaldson-floer-homology-yang-mills |
-| 8 | `03.07.24` | Relative Donaldson invariants for 4-manifolds with boundary | P2 | donaldson-floer-homology-yang-mills |
-| 9 | `03.07.25` | Donaldson-Floer surgery exact triangle | P2 | donaldson-floer-homology-yang-mills |
-| 10 | `03.07.26` | Atiyah-Floer conjecture | P2 | donaldson-floer-homology-yang-mills |
-| 11 | `03.07.27` | Polyfolds (Hofer-Wysocki-Zehnder) | P3 | donaldson-floer-homology-yang-mills |
-| 12 | `03.07.28` | Monopole-instanton Floer equivalence (Kronheimer-Mrowka) | P3 | donaldson-floer-homology-yang-mills |
-| 13 | `24.01.00` | Numerical-PDE chapter README + notation crosswalk | P? | douglas-arnold-feec |
-| 14 | `24.01.01` | Sobolev spaces $H^s$ and $W^{k,p}$ | P? | douglas-arnold-feec |
-| 15 | `24.01.02` | Sobolev spaces of differential forms $H\Lambda^k$ | P? | douglas-arnold-feec |
-| 16 | `24.01.03` | Weak / variational formulation of elliptic PDE | P? | douglas-arnold-feec |
-| 17 | `24.01.04` | Babuška-Brezzi (inf-sup) condition for saddle-point problems | P? | douglas-arnold-feec |
-| 18 | `03.04.15` | Hodge Laplacian on a Riemannian manifold | P1 | douglas-arnold-feec |
-| 19 | `24.02.01` | Classical conforming FEM — Galerkin, Céa, Bramble-Hilbert | P1 | douglas-arnold-feec |
-| 20 | `24.02.02` | Mixed FEM for the Poisson equation (Raviart-Thomas) | P1 | douglas-arnold-feec |
+| 1 | `04.03.16` | Six-functor formalism — adjunctions and base change | P1 | gelfand-manin-homological-algebra |
+| 2 | `04.03.17` | Derived tensor product $\otimes^L$ and Tor in derived categories | P1 | gelfand-manin-homological-algebra |
+| 3 | `04.03.18` | $t$-structure on a triangulated category — heart and truncations | P1 | gelfand-manin-homological-algebra |
+| 4 | `04.03.19` | Pointer — perverse sheaves $\mathrm{Perv}(X)$ | P1 | gelfand-manin-homological-algebra |
+| 5 | `04.03.20` | Hochschild homology and cohomology | P1 | gelfand-manin-homological-algebra |
+| 6 | `04.03.21` | Hochschild-Kostant-Rosenberg theorem | P1 | gelfand-manin-homological-algebra |
+| 7 | `04.03.22` | Cyclic homology and Connes' long exact sequence | P1 | gelfand-manin-homological-algebra |
+| 8 | `01.02.35` | Dold-Kan correspondence | P2 | gelfand-manin-homological-algebra |
+| 9 | `02.14.01` | Wave-front set of a distribution | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 10 | `02.14.02` | Pseudo-differential operators on a manifold | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 11 | `02.14.03` | Propagation of singularities along Hamiltonian flow | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 12 | `13.09.01` | Globally hyperbolic Lorentzian manifolds | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 13 | `13.09.02` | Klein-Gordon equation on a globally hyperbolic spacetime | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 14 | `12.14.01` | CCR algebra, Weyl algebra, and quasi-free states | P1 | gerard-microlocal-qft-curved-spacetimes, landau-lifshitz-quantum-mechanics |
+| 15 | `13.09.03` | Hadamard states via the wave-front-set criterion (Radzikowski) | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 16 | `13.09.04` | Existence of Hadamard states via the FNW deformation argument | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 17 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 18 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 19 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 20 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
 
 ## Audits completed
 

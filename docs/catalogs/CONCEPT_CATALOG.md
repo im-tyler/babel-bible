@@ -7632,3 +7632,289 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Giddens, Sociology; Macionis, Sociology; Bourdieu and Passeron, Reproduction in Education, Society and Culture; Herman and Chomsky, Manufacturing Consent; Durkheim, The Elementary Forms of Religious Life (abridged)"
   - master: "primary sources: Bourdieu 1977/1984, Herman and Chomsky 1988, Durkheim 1912, Weber 1905, Marx and Engels 1848, Parsons 1955, Coontz 1992, Willis 1977, Bowles and Gintis 1976, Anyon 1980, Lareau 2003, Mahmood 2005, Casanova 1994, Berger 1967, Inkeles 1964, McLuhan 1964, Postman 1985, Sunstein 2001; secondary: Giddens, Macionis, Ritzer, Appadurai, Couldry and Hepp"
 - **notes**: Social institutions — family (diverse family structures globally — nuclear is ONE form not THE form, polyandry in Tibet, matrilineal systems Mosuo/Akan/Minangkabau, extended family systems across most of the world, polygamy, arranged marriage, same-sex families, communes, historical variation, Coontz on the myth of the traditional family), education (hidden curriculum, tracking, school-to-prison pipeline, Bourdieu's cultural capital, education as liberation AND reproduction of inequality, comparative systems Finland vs US vs Japan vs developing countries, Freire, Bowles and Gintis, Willis, Anyon), religion (secularization thesis AND its failures, fundamentalism across religions, religion as social control AND as community/movement, Civil Rights Movement as church-led, liberation theology, anti-apartheid, Durkheim, Weber, Marx), media (media ownership concentration, framing, Herman and Chomsky propaganda model, social media as new institution, misinformation, Al Jazeera, CGTN, Global South media ecosystems, Couldry and Hepp deep mediatization). MULTI-PERSPECTIVE: Family: nuclear family as one form among many, not default. Education: both opportunity AND gatekeeping; comparative systems reflect different values (Finland=equity, Japan=conformity, US=competition). Religion: both oppressive AND liberating. Media: propaganda model AND counterargument that diverse media exists; non-Western media (Al Jazeera, CGTN, Global South). No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.solar-system-planets-moons
+
+- **title**: The solar system: planets, moons, and small bodies
+- **unit**: `28.01.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 1-8; Freedman and Kaufmann, Universe (10e), Ch. 1-7"
+  - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 1-3, 10-12; de Pater and Lissauer, Planetary Sciences (2e), Ch. 1-5"
+  - master: "primary sources: Copernicus 1543, Kepler 1609/1619, Newton 1687, Titius 1766, Bode 1772, Kuiper 1951, Tombaugh 1930, Cassini/Huygens mission data 2004-2017, Voyager mission data 1977-present; secondary: Beatty, Petersen, and Chaikin, The New Solar System; Taylor, Solar System Evolution"
+- **notes**: Solar system inventory (Sun, eight planets classified as terrestrial or Jovian, dwarf planets, asteroid belt, Kuiper Belt, Oort Cloud), orbital mechanics (Kepler's laws derived from Newton's gravitation, Titius-Bode relation and its limitations), comparative planetology (density, composition, magnetic fields, atmospheric evolution), moons and ring systems (tidal heating, synchronous rotation, Roche limit), small bodies (asteroids spectral types S/C/M, comets and their orbits, meteoroids/meteors/meteorites), formation (nebular hypothesis, solar nebula condensation sequence, core accretion model for giant planets, Nice model for late heavy bombardment and migration). MULTI-PERSPECTIVE: Geocentric versus heliocentric as paradigm shift; Indigenous astronomical knowledge systems; planetary science as interdisciplinary (geology, atmospheric science, chemistry). No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.stars-stellar-evolution-hr-diagram
+
+- **title**: Stars and stellar evolution
+- **unit**: `28.02.01`
+- **prerequisites**: `astronomy.solar-system-planets-moons` (28.01.01)
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 10-14; Freedman and Kaufmann, Universe (10e), Ch. 8-13"
+  - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 5-9, 13-16; Prialnik, An Introduction to the Theory of Stellar Structure and Evolution (2e)"
+  - master: "primary sources: Hertzsprung 1911, Russell 1913, Eddington 1926, Chandrasekhar 1931, Bethe 1939, Baade and Zwicky 1934, Oppenheimer and Snyder 1939, Burbidge et al. 1957, Cameron 1957; secondary: Kippenhahn and Weigert, Stellar Structure and Evolution; Hansen, Kawaler, and Trimble, Stellar Interiors"
+- **notes**: Stellar properties (magnitude system apparent/absolute, distance modulus, spectral classification OBAFGKM, luminosity classes I-V), Hertzsprung-Russell diagram (main sequence, giants, supergiants, white dwarfs; luminosity-temperature-radius relation), stellar structure (hydrostatic equilibrium, energy transport radiation/convection, nuclear fusion pp-chain and CNO cycle), stellar evolution (low-mass versus high-mass tracks, red giant and asymptotic giant branch, helium flash, planetary nebulae, supernovae Type Ia and Type II), stellar remnants (white dwarfs, Chandrasekhar limit, neutron stars, pulsars, black holes, Schwarzschild radius), binary star systems (mass transfer, accretion, novae). No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.galaxies-milky-way-classification
+
+- **title**: Galaxies and the Milky Way
+- **unit**: `28.03.01`
+- **prerequisites**: `astronomy.stars-stellar-evolution-hr-diagram` (28.02.01)
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 15-17; Freedman and Kaufmann, Universe (10e), Ch. 14-16"
+  - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 17-19, 24-25; Sparke and Gallagher, Galaxies in the Universe (2e)"
+  - master: "primary sources: Herschel 1785, Hubble 1926/1936, Shapley 1918, Oort 1932, Zwicky 1933, Rubin and Ford 1970, Veilleux and Osterbrock 1987; secondary: Binney and Merrifield, Galactic Astronomy; Binney and Tremaine, Galactic Dynamics"
+- **notes**: Milky Way structure (disk, bulge, halo, spiral arms identified by H II regions and O/B stars, differential rotation, Oort constants), galaxy classification (Hubble tuning-fork diagram: ellipticals E0-E7, lenticulars S0, spirals Sa-Sd and SBa-SBd, irregulars Irr; limitations of Hubble scheme; de Vaucouleurs extension), galaxy properties (Tully-Fisher relation for spirals, Faber-Jackson relation for ellipticals, fundamental plane), active galactic nuclei (Seyfert galaxies, radio galaxies, quasars, unified model with accretion disk and jets), galaxy interactions and mergers (tidal tails, starburst galaxies, Toomre sequences), dark matter evidence (galaxy rotation curves, velocity dispersion in clusters, gravitational lensing). No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.cosmology-big-bang-expansion-fate
+
+- **title**: Cosmology: the Big Bang, expansion, and fate of the universe
+- **unit**: `28.04.01`
+- **prerequisites**: `astronomy.galaxies-milky-way-classification` (28.03.01)
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 18-22; Freedman and Kaufmann, Universe (10e), Ch. 17-20"
+  - intermediate: "Ryden, Introduction to Cosmology (2e); Dodelson, Modern Cosmology, Ch. 1-8"
+  - master: "primary sources: Hubble 1929, Friedmann 1922/1924, Lemaitre 1927/1931, Gamow 1948, Penzias and Wilson 1965, Mather et al. 1990 (COBE), Perlmutter et al. 1999, Riess et al. 1998, Spergel et al. 2003 (WMAP), Planck Collaboration 2018; secondary: Weinberg, The First Three Minutes; Kolb and Turner, The Early Universe; Liddle, An Introduction to Modern Cosmology"
+- **notes**: Observational foundations (Hubble's law and expansion, cosmic microwave background radiation and its blackbody spectrum, Big Bang nucleosynthesis light-element abundances), Friedmann equations from general relativity (scale factor, critical density, density parameters Omega_m/Omega_Lambda/Omega_r), geometry of the universe (flat, open, closed; relation to total density parameter), cosmic timeline (inflation, quark-gluon plasma, nucleosynthesis, recombination, dark ages, first stars and reionization, galaxy formation), dark energy and accelerated expansion (Type Ia supernovae as standard candles, cosmological constant versus quintessence), fate scenarios (Big Freeze, Big Rip, Big Crunch depending on dark energy equation of state), multiverse and anthropic considerations. No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.exoplanets-detection-habitability
+
+- **title**: Exoplanets: detection methods and habitability
+- **unit**: `28.05.01`
+- **prerequisites**: `astronomy.solar-system-planets-moons` (28.01.01), `astronomy.stars-stellar-evolution-hr-diagram` (28.02.01)
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 7, 24; Seager, Exoplanets"
+  - intermediate: "Perryman, The Exoplanet Handbook (2e); Deeg and Belmonte, Handbook of Exoplanets"
+  - master: "primary sources: Mayor and Queloz 1995, Marcy and Butler 1996, Charbonneau et al. 2000, Borucki et al. 2011 (Kepler), Batalha et al. 2013, Gillon et al. 2017 (TRAPPIST-1); secondary: Seager, Exoplanet Atmospheres; Kasting, How to Find a Habitable Planet"
+- **notes**: Detection methods (radial velocity/Doppler spectroscopy with planet mass m sin i, transit photometry with planet radius and orbital period, direct imaging for wide-orbit giant planets, microlensing for free-floating and distant planets, astrometry with Gaia, transit timing variations), exoplanet demographics from Kepler (Hot Jupiters, super-Earths, mini-Neptunes, radius gap/Fulton gap, occurrence rates), planetary system architectures (resonant chains, compact systems, comparison to solar system), habitability (circumstellar habitable zone and its dependence on stellar type, atmospheric composition as biosignature, tidal locking of M-dwarf planets, runaway greenhouse versus runaway glaciation, galactic habitable zone), Drake equation and its terms, Fermi paradox. No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.space-exploration-history-future
+
+- **title**: Space exploration: history and future
+- **unit**: `28.06.01`
+- **prerequisites**: `astronomy.solar-system-planets-moons` (28.01.01)
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 7; essays by Sagan and Dyson"
+  - intermediate: "Siddiqi, Challenge to Apollo; Launius, Historical Dimensions of the Space Age"
+  - master: "primary sources: Tsiolkovsky 1903, Goddard 1919, Oberth 1923, Von Braun, Korolev, JFK Rice speech 1962, Apollo mission transcripts, Rogers Commission 1986, CAIB 2003; secondary: Burrows, This New Ocean; McDougall, The Heavens and the Earth; Logsdon, John F. Kennedy and the Race to the Moon"
+- **notes**: Rocketry fundamentals (Tsiolkovsky rocket equation, staging, specific impulse, orbital mechanics: Hohmann transfer, gravity assists, Lagrange points), history (V-2 and origins of rocketry, Sputnik and the Space Race, Vostok/Mercury/Gemini/Apollo programs, Apollo 11 Moon landing 1969, Space Shuttle program, Mir and Skylab, International Space Station, Chinese space program Shenzhou/Tiangong), planetary exploration (Viking, Voyager Grand Tour, Cassini-Huygens, Mars rovers Spirit/Opportunity/Curiosity/Perseverance, New Horizons Pluto flyby, JWST), private spaceflight (SpaceX reusable rockets and Starship, Blue Origin, Rocket Lab), future directions (Moon base Artemis program, Mars crewed missions, asteroid mining, space debris Kessler syndrome, interstellar probes Breakthrough Starshot). MULTI-PERSPECTIVE: Space race as Cold War competition AND scientific achievement; space access inequality between Global North and Global South; ethical questions about planetary protection and space resource extraction. No Lean formalisation; human-review-only at all tiers.
+
+### anthropology.anthropology-four-fields-holism
+
+- **title**: Anthropology: the four fields and holism
+- **unit**: `31.01.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 1-2; Haviland et al., Cultural Anthropology (15e), Ch. 1"
+  - intermediate: "Kottak, Anthropology: The Exploration of Human Diversity (15e); Harris, The Rise of Anthropological Theory"
+  - master: "primary sources: Boas 1896/1911, Malinowski 1922, Radcliffe-Brown 1952, Evans-Pritchard 1950, Geertz 1973, Hymes 1969, Asad 1973, Clifford and Marcus 1986; secondary: Kuper, Anthropology and Anthropologists; Stocking, Victorian Anthropology"
+- **notes**: Four-field model (cultural anthropology, archaeological anthropology, biological/physical anthropology, linguistic anthropology) originating with Boas in American anthropology; holism as the discipline's distinguishing commitment to studying humanity in full biological, cultural, linguistic, and temporal dimension; the comparative method and cultural relativism as foundational methodological principles; etic versus emic perspectives; the science-humanities tension within the discipline; anthropology versus sociology (holism vs specialization, small-scale vs industrial societies, fieldwork tradition vs survey methods); applied versus academic anthropology. MULTI-PERSPECTIVE: Boasian four-field model as specifically American tradition contrasted with British social anthropology and French structuralist traditions; Indigenous critiques of anthropology as colonial enterprise; postcolonial reconfiguration of the discipline. No Lean formalisation; human-review-only at all tiers.
+
+### anthropology.cultural-anthropology-ethnography-fieldwork
+
+- **title**: Cultural anthropology: ethnography and fieldwork
+- **unit**: `31.02.01`
+- **prerequisites**: `anthropology.anthropology-four-fields-holism` (31.01.01)
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 3-4, 7-8; Spradley, The Ethnographic Interview"
+  - intermediate: "Malinowski, Argonauts of the Western Pacific; Geertz, The Interpretation of Cultures; Marcus and Fischer, Anthropology as Cultural Critique"
+  - master: "primary sources: Malinowski 1922, Mead 1928, Evans-Pritchard 1940, Leach 1954, Geertz 1973, Clifford and Marcus 1986, Abu-Lughod 1991, Gupta and Ferguson 1997, Ortner 2006; secondary: Sanjek, Fieldnotes; Hammersley and Atkinson, Ethnography: Principles in Practice"
+- **notes**: Participant observation as the signature method; ethnographic fieldwork process (site selection, rapport building, data collection through interviews and observation, field notes, analysis and writing); ethnography as product versus process; key informants and gatekeepers; unstructured, semi-structured, and structured interviewing; surveys and questionnaires in cultural anthropology; genealogical method; life histories; visual anthropology and photography; ethical obligations (AAA Code of Ethics, informed consent, reciprocity, do no harm, anonymity and confidentiality); reflexivity and positionality (the anthropologist's identity shapes what they see); Writing Culture debate of the 1980s and the crisis of representation; feminist anthropology and the gendered nature of fieldwork; multi-sited ethnography for a globalized world; native anthropology and autoethnography. No Lean formalisation; human-review-only at all tiers.
+
+### anthropology.archaeology-material-culture-excavation
+
+- **title**: Archaeology: material culture and excavation
+- **unit**: `31.03.01`
+- **prerequisites**: `anthropology.anthropology-four-fields-holism` (31.01.01)
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 5-6; Renfrew and Bahn, Archaeology: Theories, Methods, and Practice (6e), Ch. 1-5"
+  - intermediate: "Renfrew and Bahn, Archaeology (6e); Fagan, In the Beginning; Thomas, Archaeology (5e)"
+  - master: "primary sources: Pitt-Rivers 1887, Wheeler 1954, Binford 1962/1968, Clarke 1968, Hodder 1982/1991, Schiffer 1976, Trigger 1989/2006, Leone 1986; secondary: Johnson, Archaeological Theory; Gamble, Archaeology: The Basics"
+- **notes**: Archaeological method (survey: pedestrian, aerial, remote sensing including LiDAR and ground-penetrating radar; excavation: grid systems, stratigraphy and the law of superposition, Harris matrices, context recording; laboratory analysis), dating methods (relative: stratigraphy, seriation, typology; absolute: radiocarbon C-14 with calibration curves, potassium-argon, thermoluminescence, dendrochronology, obsidian hydration), archaeological theory (culture-historical approach, processual/New Archaeology and Binford's systemic view, post-processual and contextual archaeology with Hodder, cognitive-processual), material culture analysis (lithics, ceramics seriation and attribute analysis, metallurgy, faunal and botanical remains, use-wear analysis), cultural resource management and heritage legislation (NAGPRA, UNESCO World Heritage), public archaeology, pseudoarchaeology critique (ancient aliens, lost civilizations). No Lean formalisation; human-review-only at all tiers.
+
+### anthropology.biological-anthropology-evolution-hominins
+
+- **title**: Biological anthropology: evolution and hominins
+- **unit**: `31.04.01`
+- **prerequisites**: `anthropology.anthropology-four-fields-holism` (31.01.01)
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 2, 9-12; Jurmain et al., Introduction to Physical Anthropology (15e), Ch. 1-11"
+  - intermediate: "Larsen, Our Origins: Discovering Physical Anthropology (5e); Boyd and Silk, How Humans Evolved (9e)"
+  - master: "primary sources: Darwin 1859/1871, Mendel 1866, Wallace 1858, Huxley 1863, Johanson and White 1979, Leakey 1959, White et al. 2009 (Ardipithecus), Berger et al. 2015 (Homo naledi); secondary: Stringer and Andrews, The Complete World of Human Evolution; Tattersall, The Fossil Trail"
+- **notes**: Evolutionary theory (natural selection, adaptation, genetic drift, gene flow, mutation; modern synthesis; population genetics: Hardy-Weinberg equilibrium, fitness, selection coefficients), primate biology and behavior (prosimians, monkeys, apes; primate taxonomy; comparative anatomy; social structures; tool use in chimpanzees and other primates), hominin evolution ( Sahelanthropus tchadensis 7 Mya, Orrorin tugenensis, Ardipithecus ramidus 4.4 Mya, Australopithecus afarensis Lucy 3.2 Mya, A. africanus, Paranthropus robustus/boisei, Homo habilis, H. erectus/ergaster, H. heidelbergensis, H. neanderthalensis with Denisovan and Neanderthal introgression in modern humans, H. sapiens), key transitions (bipedalism and its anatomical signatures, brain expansion, tool traditions Oldowan/Acheulean/Mousterian/Aurignacian, control of fire, language origins, symbolic behavior and cave art), human variation (clines, race as social construct with genetic evidence against biological race, Bergmann's and Allen's rules, sickle-cell and malaria, lactase persistence), forensic anthropology basics. No Lean formalisation; human-review-only at all tiers.
+
+### anthropology.linguistic-anthropology-language-culture
+
+- **title**: Linguistic anthropology: language, culture, and society
+- **unit**: `31.05.01`
+- **prerequisites**: `anthropology.anthropology-four-fields-holism` (31.01.01)
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 4, 15; Ottenheimer, The Anthropology of Language (4e)"
+  - intermediate: "Duranti, Linguistic Anthropology (2e); Foley, Anthropological Linguistics; Salzmann et al., Language, Culture, and Society (5e)"
+  - master: "primary sources: Saussure 1916, Sapir 1921/1929, Whorf 1956, Boas 1911, Hymes 1962/1974, Gumperz 1982, Searle 1969, Austin 1962, Hill 2008; secondary: Ahearn, Living Language; Kroskrity, Regimes of Language"
+- **notes**: Core concepts (descriptive linguistics: phonetics/phonology, morphology, syntax, semantics; historical linguistics: language families, comparative method, glottochronology; sociolinguistics), linguistic relativity (Sapir-Whorf hypothesis strong and weak versions; evidence from color terminology Berlin and Kay, spatial frames of reference Levinson, grammatical gender Boroditsky; critique and current status), language and identity (code-switching, diglossia, language and ethnicity, language and gender, African American Vernacular English as rule-governed system), language contact and change (pidgins, creoles, creole continuum, borrowing, language death and endangerment with UNESCO estimates of 50-90% of languages disappearing this century, language revitalization movements), ethnography of communication (Hymes' SPEAKING model, speech events and acts, communicative competence versus linguistic competence), performance and verbal art (storytelling, oral traditions, verbal dueling, glossolalia), language and power (language ideologies, standard language ideology, linguistic discrimination, language policy). No Lean formalisation; human-review-only at all tiers.
+
+### anthropology.applied-anthropology-globalization-ethics
+
+- **title**: Applied anthropology: globalization, ethics, and decolonization
+- **unit**: `31.06.01`
+- **prerequisites**: `anthropology.anthropology-four-fields-holism` (31.01.01), `anthropology.cultural-anthropology-ethnography-fieldwork` (31.02.01)
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 18-22; Ervin, Applied Anthropology (2e)"
+  - intermediate: "Podolefsky and Brown, Applying Cultural Anthropology; Nolan, Anthropology in Practice"
+  - master: "primary sources: Boas 1919, Mead 1928/1942, Hymes 1969, Asad 1973, Clifford 1983, Escobar 1995, Gupta and Ferguson 1997, Smith 1999/2021, Harrison 2010, Mendez 2019; secondary: Kuper, Anthropology and Anthropologists; Tilley and Gordon, Anthropology and Decolonization"
+- **notes**: Applied anthropology domains (development anthropology and critiques of top-down development; medical anthropology: disease versus illness, explanatory models, ethnomedicine, global health disparities, structural violence per Farmer; environmental anthropology: political ecology, Traditional Ecological Knowledge, climate change impacts on Indigenous communities; forensic anthropology and human rights; business and organizational anthropology; educational anthropology; urban anthropology), globalization (transnationalism, diaspora, migration, cultural hybridization, McDonaldization, world-systems theory applied to culture, digital anthropology and virtual communities), ethics (AAA Code of Ethics principles: do no harm, be open, obtain informed consent, weigh competing obligations, make results accessible, protect and preserve records; historical violations: colonial complicity, Project Camelot, Havasupai Tribe DNA case), decolonizing anthropology (critique of anthropology as product of colonialism, calls for re-centering Indigenous epistemologies, community-based participatory research, collaborative and Indigenous archaeology, repatriation and NAGPRA, citational politics and whose scholarship gets recognized, open access and who controls anthropological knowledge), future of the discipline (public anthropology, engaged anthropology, digital methods, interdisciplinary convergence). No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.human-body-organ-systems-homeostasis
+
+- **title**: The human body: organ systems and homeostasis
+- **unit**: `35.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Marieb and Hoehn, Human Anatomy and Physiology (11e), Ch. 1-3; Saladin, Anatomy and Physiology (8e), Ch. 1-3"
+  - intermediate: "Guyton and Hall, Textbook of Medical Physiology (14e); Costanzo, Physiology (6e); Boron and Boulpaep, Medical Physiology (3e)"
+  - master: "primary sources: Bernard 1865, Cannon 1932, Bernard 1878; secondary: Noble 2008, Strange 2005, Modell et al. 2015"
+- **notes**: Overview of the eleven organ systems (integumentary, skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic/immune, respiratory, digestive, urinary, reproductive) with emphasis on homeostasis as the unifying principle. Negative and positive feedback loops. Set points and regulated variables. Levels of structural organization from chemical to organismal. The cell as the basic unit of life. Tissue types (epithelial, connective, muscle, nervous). Body cavities and membranes. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.infectious-disease-immunity-vaccines
+
+- **title**: Infectious disease, immunity, and vaccines
+- **unit**: `35.02.01`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "Marieb and Hoehn, Human Anatomy and Physiology (11e), Ch. 21-22; OpenStax Microbiology, Ch. 1-5"
+  - intermediate: "Janeway et al., Immunobiology (9e); Murray et al., Medical Microbiology (8e); Plotkin et al., Vaccines (7e)"
+  - master: "primary sources: Jenner 1798, Pasteur 1885, Koch 1882, von Behring 1890, Burnet 1957, Tonegawa 1983; secondary: Silverstein 2009, Smith 2011, Riedel 2005"
+- **notes**: Pathogens (bacteria, viruses, fungi, parasites), modes of transmission, the immune system (innate and adaptive), antigens and antibodies, B cells and T cells, immunological memory, vaccine types (live attenuated, inactivated, subunit, mRNA, viral vector), herd immunity, vaccine hesitancy, antimicrobial resistance, historical pandemics, epidemic vs pandemic vs endemic. MULTI-PERSPECTIVE: Global vaccine access inequity, cultural variation in vaccine acceptance, colonialism and medical exploitation, traditional healing alongside biomedicine. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.chronic-disease-cardiovascular-diabetes-cancer
+
+- **title**: Chronic disease: cardiovascular, diabetes, and cancer
+- **unit**: `35.03.01`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "OpenStax Anatomy and Physiology, Ch. 17, 19-20; WHO Global Health Observatory data; CDC chronic disease fact sheets"
+  - intermediate: "Harrison's Principles of Internal Medicine (21e), Ch. 253-256, 329-340; Kumar et al., Robbins and Cotran Pathologic Basis of Disease (10e)"
+  - master: "primary sources: Virchow 1858, Fermi and Fermi 1937, Doll and Hill 1950, Framingham Heart Study 1948-present, Hanahan and Weinberg 2000/2011; secondary: Mukherjee 2010, Leszczynski 2019"
+- **notes**: Leading causes of global mortality. Cardiovascular disease (atherosclerosis, hypertension, myocardial infarction, stroke, risk factors, prevention). Diabetes mellitus (Type 1, Type 2, gestational, pathophysiology of insulin resistance, complications, management). Cancer (hallmarks, oncogenes and tumor suppressors, staging, treatment modalities, screening). Risk factor modification, social determinants of health, global burden. MULTI-PERSPECTIVE: Health disparities across race, class, and geography; food deserts and chronic disease; cultural attitudes toward screening and treatment; palliative care vs aggressive treatment across cultures. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.nutrition-macronutrients-micronutrients-diet
+
+- **title**: Nutrition: macronutrients, micronutrients, and diet
+- **unit**: `35.04.01`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "OpenStax Anatomy and Physiology, Ch. 23-24; Whitney and Rolfes, Understanding Nutrition (16e), Ch. 1-6"
+  - intermediate: "Gropper and Smith, Advanced Nutrition and Human Metabolism (7e); Ross et al., Modern Nutrition in Health and Disease (11e)"
+  - master: "primary sources: Lavoisier 1783, Atwater 1896, McCollum 1913, Goldberger 1914, Keys 1950, Yudkin 1972; secondary: Nestle 2007, Pollan 2006, Taubes 2007, Scrinis 2013"
+- **notes**: Macronutrients (carbohydrates, proteins, lipids), micronutrients (vitamins, minerals), energy balance, basal metabolic rate, BMI and its limitations, dietary reference intakes, global malnutrition (undernutrition and overnutrition), eating disorders, food politics, dietary patterns across cultures, the nutrition transition, gut microbiome. MULTI-PERSPECTIVE: Cultural food traditions as legitimate nutritional knowledge; food sovereignty; indigenous food systems; critique of BMI; diet culture and its harms; global food inequality. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.mental-health-disorders-stigma-treatment
+
+- **title**: Mental health: disorders, stigma, and treatment
+- **unit**: `35.05.01`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "OpenStax Psychology, Ch. 14-15; NAMI educational materials; WHO Mental Health Atlas"
+  - intermediate: "APA DSM-5-TR; Barlow and Durand, Abnormal Psychology (8e); Gabbard, Psychodynamic Psychiatry in Clinical Practice (5e)"
+  - master: "primary sources: Pinel 1801, Kraepelin 1883, Freud 1917, Beck 1967, Seligman 1975, Kessler 2005, WHO 2022 World Mental Health Report; secondary: Shorter 1997, Harrington 2019, Horwitz and Wakefield 2007"
+- **notes**: Mental health vs mental illness, biopsychosocial model, diagnostic systems (DSM-5-TR, ICD-11), categories of disorders (anxiety, mood, psychotic, personality, substance use, eating, neurodevelopmental), stigma (public, self, institutional), treatment modalities (psychotherapy, pharmacotherapy, combination), the recovery movement, global mental health burden, cultural concepts of distress. MULTI-PERSPECTIVE: Anti-psychiatry critique; cross-cultural variations in mental illness expression; neurodiversity paradigm; trauma-informed care; racism in psychiatric diagnosis; involuntary treatment debates; intersectionality in mental health access. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.public-health-epidemiology-health-systems
+
+- **title**: Public health, epidemiology, and health systems
+- **unit**: `35.06.01`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "Schneider, Introduction to Public Health (6e), Ch. 1-6; OpenStax Epidemiology; WHO World Health Reports"
+  - intermediate: "Gordis, Epidemiology (6e); Shi and Singh, Delivering Health Care in America (8e); Turnock, Public Health: What It Is and How It Works (7e)"
+  - master: "primary sources: Snow 1855, Farr 1885, Flexner 1910, WHO Constitution 1948, Beveridge 1942, Declaration of Alma-Ata 1978, Ottesen et al. 2019; secondary: Porter 1997, Brandt and Gardner 2000, Berridge 2016"
+- **notes**: Public health vs clinical medicine, core functions (assessment, policy development, assurance), epidemiological measures (incidence, prevalence, mortality rates, morbidity), study designs (cohort, case-control, cross-sectional, RCT), outbreak investigation, health systems (Beveridge, Bismarck, national health insurance, out-of-pocket models), social determinants of health, health equity, environmental health, occupational health, global health governance. MULTI-PERSPECTIVE: Colonial legacy in global health; structural adjustment and health; community-based participatory research; health as a human right vs commodity; WHO reform debates. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.pharmacology-drugs-action-ethics
+
+- **title**: Pharmacology: how drugs work and pharmaceutical ethics
+- **unit**: `35.07.01`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "OpenStax Anatomy and Physiology, Ch. 1 (homeostasis review), Katzung, Basic and Clinical Pharmacology (14e), Ch. 1-3"
+  - intermediate: "Katzung, Basic and Clinical Pharmacology (14e); Brunton et al., Goodman and Gilman's The Pharmacological Basis of Therapeutics (13e); Rang et al., Rang and Dale's Pharmacology (9e)"
+  - master: "primary sources: Ehrlich 1913, Clark 1933, Goldstein 1974, Vmax and Km kinetics literature, Thalidomide tragedy documentation, Kefauver-Harris Amendment 1962; secondary: Greene and Podolsky 2012, Daemmrich 2004, Marks 1997"
+- **notes**: Pharmacokinetics (ADME: absorption, distribution, metabolism, excretion), pharmacodynamics (dose-response, receptors, agonists and antagonists, therapeutic index), drug development pipeline, clinical trial phases, FDA/regulatory approval, generic vs brand-name drugs, the opioid crisis, pharmaceutical pricing and access, drug resistance, drug interactions, personalized medicine, pharmaceutical ethics (informed consent in trials, placebo ethics, access to medicines, patent law and TRIPS). MULTI-PERSPECTIVE: Global pharmaceutical inequality; traditional medicines and intellectual property; colonial exploitation of indigenous pharmacological knowledge; Big Pharma critique alongside acknowledgment of pharmaceutical innovation. No Lean formalisation; human-review-only at all tiers.
+
+### health-medicine.future-medicine-genomics-ai-global-health
+
+- **title**: The future of medicine: genomics, AI, and global health
+- **unit**: `35.08.01`
+- **prerequisites**: [`health-medicine.public-health-epidemiology-health-systems` (35.06.01)]
+- **tier_anchors**:
+  - beginner: "National Human Genome Research Institute educational materials; Topol, Deep Medicine (2019); WHO guidance on AI in health"
+  - intermediate: "Strachan and Read, Human Molecular Genetics (5e); Topol, The Creative Destruction of Medicine (2012); WHO digital health guidelines"
+  - master: "primary sources: Watson and Crick 1953, Human Genome Project 2001, Doudna and Charpentier 2012, Topol 2019, WHO 2021 AI ethics guidance; secondary: Mukherjee 2016, Regalado 2023, Zuboff 2019"
+- **notes**: Genomics and personalized medicine (whole genome sequencing, pharmacogenomics, CRISPR gene editing, gene therapy, epigenetics), artificial intelligence in medicine (diagnostic imaging, clinical decision support, drug discovery, natural language processing for clinical notes), wearable health technology, telemedicine, digital health records, global health challenges (pandemic preparedness, antimicrobial resistance, climate change and health, health workforce migration, neglected tropical diseases), bioethics of emerging technologies, health equity in the age of AI. MULTI-PERSPECTIVE: Genetic privacy and discrimination; AI bias in healthcare; digital divide in telemedicine; global health neocolonialism; equitable access to gene therapies; disability rights critique of genetic selection. No Lean formalisation; human-review-only at all tiers.
+
+### media-literacy.media-foundations-history-theory
+
+- **title**: Media foundations: history and theory
+- **unit**: `36.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Baran, Introduction to Mass Communication (10e), Ch. 1-4; Campbell et al., Media and Culture (12e), Ch. 1-2"
+  - intermediate: "McQuail, Mass Communication Theory (7e); Baran and Davis, Mass Communication Theory (7e); Croteau and Hoynes, Media/Society (6e)"
+  - master: "primary sources: Innis 1950, McLuhan 1962/1964, Habermas 1962, Lasswell 1948, Shannon and Weaver 1949, Gerbner 1976, Hall 1973/1980, Noam Chomsky 1988; secondary: Peters 1999, Couldry 2012, Napoli 2019"
+- **notes**: History of media from oral tradition through print, telegraph, radio, television, and the internet. Media theory traditions: mass society theory, limited effects paradigm, uses and gratifications, agenda-setting, framing, cultivation analysis, encoding/decoding (Hall), media ecology (McLuhan, Innis), political economy of media, cultural studies. The concept of media literacy: what it is, why it matters, how it develops. MULTI-PERSPECTIVE: Non-Western media histories; indigenous media; Global South media systems; media and colonialism; postcolonial media theory. No Lean formalisation; human-review-only at all tiers.
+
+### media-literacy.news-journalism-verification-source-evaluation
+
+- **title**: News and journalism: verification and source evaluation
+- **unit**: `36.01.01`
+- **prerequisites**: [`media-literacy.media-foundations-history-theory` (36.01.01)]
+- **tier_anchors**:
+  - beginner: "Kovach and Rosenstiel, The Elements of Journalism (4e); Silverman, Verified; IFCN fact-checking principles"
+  - intermediate: "Ward, The Invention of Journalism Ethics; Silverman, Verification Handbook; Herman and Chomsky, Manufacturing Consent (selected chapters)"
+  - master: "primary sources: Lippmann 1922, Hutchins Commission 1947, Herman and Chomsky 1988, Sunstein 2001, Carlsson and Paine 2010; secondary: Schudson 1978/2014, Ward 2015, McChesney 2013"
+- **notes**: The role of journalism in democratic societies. News values and news judgement. The verification discipline: sourcing, corroboration, documentation. Source evaluation frameworks (CRAAP test, SIFT method, lateral reading). Types of sources (primary, secondary, tertiary). Anonymous sourcing and its ethics. Fact-checking organizations and methods. The distinction between news reporting, analysis, opinion, and propaganda. Press freedom and its threats globally. MULTI-PERSPECTIVE: Non-Western journalism traditions; journalism under authoritarianism; community journalism; citizen journalism; indigenous media as news sources; global press freedom variations. No Lean formalisation; human-review-only at all tiers.
+
+### media-literacy.propaganda-persuasion-rhetorical-analysis
+
+- **title**: Propaganda and persuasion: rhetorical analysis
+- **unit**: `36.03.01`
+- **prerequisites**: [`media-literacy.media-foundations-history-theory` (36.01.01)]
+- **tier_anchors**:
+  - beginner: "Aristotle, Rhetoric (abridged); Jowett and O'Donnell, Propaganda and Persuasion (7e), Ch. 1-3"
+  - intermediate: "Aristotle, Rhetoric; Burke, A Rhetoric of Motives; Perelman and Olbrechts-Tyteca, The New Rhetoric; Jowett and O'Donnell, Propaganda and Persuasion (7e)"
+  - master: "primary sources: Aristotle Rhetoric, Burke 1950, Perelman and Olbrechts-Tyteca 1969, Ellul 1962, Lippmann 1922, Bernays 1928, Arendt 1951; secondary: Sproule 1997, Cunningham 2002, Stanley 2015"
+- **notes**: Rhetoric from Aristotle to the present: ethos, pathos, logos, kairos. Propaganda definitions and typologies. The propaganda model (Herman and Chomsky). Persuasion techniques and logical fallacies. Rhetorical analysis as a method. Political propaganda across regimes. Advertising as persuasion. Public relations and spin. The role of propaganda in war and conflict. Deception vs persuasion. Censorship and self-censorship. MULTI-PERSPECTIVE: Propaganda across political systems not just Western enemies; propaganda in social movements; liberation propaganda; advertising across cultures; propaganda and religion. No Lean formalisation; human-review-only at all tiers.
+
+### media-literacy.digital-literacy-algorithms-filter-bubbles
+
+- **title**: Digital literacy: algorithms, filter bubbles, and echo chambers
+- **unit**: `36.04.01`
+- **prerequisites**: [`media-literacy.media-foundations-history-theory` (36.01.01)]
+- **tier_anchors**:
+  - beginner: "Caulfield, Web Literacy for Student Fact-Checkers; Wu, The Curse of Bigness; IFLA How to Spot Fake News"
+  - intermediate: "Pariser, The Filter Bubble; Tufekci, Twitter and Tear Gas; Gillespie, Custodians of the Internet"
+  - master: "primary sources: Pariser 2011, Sunstein 2001/2017, Bakshy et al. 2015, Vosoughi et al. 2018, Noble 2018, Eubanks 2018, Zuboff 2019; secondary: Gillespie 2018, Napoli 2019, Cohen and Fung 2022"
+- **notes**: How algorithms shape information access. Recommendation systems, personalization, and their effects. Filter bubbles and echo chambers: evidence and debate. Social media platform architecture and its influence on discourse. Misinformation, disinformation, and malinformation. Bot networks, astroturfing, and computational propaganda. Digital literacy skills: reverse image search, checking metadata, understanding URL structure, lateral reading. Platform governance and content moderation. Data mining and surveillance capitalism. MULTI-PERSPECTIVE: Algorithmic bias and racial/gender inequity; digital divide globally; platform colonialism; non-Western platform ecosystems (WeChat, VK, etc.); cultural variation in trust of digital information. No Lean formalisation; human-review-only at all tiers.
+
+### media-literacy.visual-literacy-images-data-visualization
+
+- **title**: Visual literacy: images, data visualization, and manipulation
+- **unit**: `36.05.01`
+- **prerequisites**: [`media-literacy.media-foundations-history-theory` (36.01.01)]
+- **tier_anchors**:
+  - beginner: "Berger, Ways of Seeing (1972); Cairo, The Truthful Art; IFLA visual literacy guidelines"
+  - intermediate: "Cairo, The Truthful Art and How Charts Lie; Tufte, The Visual Display of Quantitative Information; Barthes, Image-Music-Text"
+  - master: "primary sources: Barthes 1957/1977, Berger 1972, Tufte 1983/1997, Cairo 2016/2019, Haraway 1988; secondary: Mitchell 2005, Mirzoeff 1999/2015, Rose 2016"
+- **notes**: Visual literacy as a skill: reading, interpreting, and critically evaluating visual information. Semiotics of images (signifier/signified, denotation/connotation, Barthes' three messages). Data visualization literacy: reading charts, graphs, and maps critically (truncated axes, cherry-picked scales, misleading proportions). Image manipulation: deepfakes, AI-generated images, staged photographs, selective cropping. The ethics of photojournalism. Infographics and their rhetorical function. Visual persuasion in advertising. Maps as arguments. MULTI-PERSPECTIVE: Visual culture across traditions; non-Western visual semiotics; indigenous visual sovereignty; cultural specificity of visual symbols; global variations in data visualization conventions. No Lean formalisation; human-review-only at all tiers.
+
+### media-literacy.media-ethics-responsible-consumption-production
+
+- **title**: Media ethics: responsible consumption and production
+- **unit**: `36.06.01`
+- **prerequisites**: [`media-literacy.media-foundations-history-theory` (36.01.01)]
+- **tier_anchors**:
+  - beginner: "Society of Professional Journalists Code of Ethics; Potter, Media Literacy (9e), Ch. 12-14; MediaSmarts educational resources"
+  - intermediate: "Christians et al., Media Ethics (11e); Ward, Ethics and the Media; Potter, Media Literacy (9e)"
+  - master: "primary sources: Habermas 1962/1989, McLuhan 1964, Postman 1985, Sunstein 2001, Couldry and Mejias 2019, Balkin 2018; secondary: Christians et al. 2021, Wilkins and Christians 2020, Ferrer-Conill et al. 2022"
+- **notes**: Ethical frameworks for media: utilitarian, deontological, virtue ethics, care ethics, communitarian approaches. Ethical issues in media production: truth and accuracy, minimizing harm, independence, accountability. Ethical issues in media consumption: attention economy, screen time, media addiction, information hygiene. The attention economy and surveillance capitalism. Platform ethics and content moderation. Intellectual property, fair use, and remix culture. Media and democracy. Media activism and counter-media. The future of media ethics in an AI-generated content landscape. MULTI-PERSPECTIVE: Ethics across cultures; non-Western media ethics traditions; indigenous media ethics; global South perspectives on intellectual property; cultural relativism vs universal media ethics. No Lean formalisation; human-review-only at all tiers.
