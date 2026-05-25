@@ -6390,7 +6390,7 @@
       "audit_position": 9,
       "prereqs": [],
       "successors": [],
-      "status": "queued"
+      "status": "shipped"
     },
     "12.11.04": {
       "id": "12.11.04",

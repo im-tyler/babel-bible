@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Wick Polynomials in Curved Spacetime via Hadamard Parametrix Subtraction</title>
+  <desc id="desc">A schematic placeholder diagram for Wick polynomials on a curved spacetime, defined by point-splitting and Hadamard parametrix subtraction. Two spacetime points x and y are shown converging along a null geodesic on a curved cylinder representing a globally hyperbolic spacetime (M, g). The two-point function of the chosen Hadamard state and the geometry-determined Hadamard parametrix H(x, y) are subtracted at coincidence, leaving a smooth coincidence-limit value used to define the renormalised Wick power normal-ordered phi squared at x. The Hollands-Wald axioms (locality, covariance, scaling, Leibniz, smooth dependence on the metric) classify the remaining renormalisation freedom by a finite-dimensional family of local covariant counterterms; the renormalised stress-energy tensor is obtained from the same point-split subtraction applied to derivatives of the two-point function. No state-dependent choice survives the subtraction at leading order: the Hadamard parametrix is the same for every Hadamard state.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <text x="40" y="36" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">Brunetti-Fredenhagen-Köhler 1996 / Hollands-Wald 2001: :φ²(x):_H from coincidence limit y → x.</text>
+  <text x="40" y="56" font-family="Inter, Arial, sans-serif" font-size="13" fill="#444">Subtract the local Hadamard parametrix H(x, y) from the state two-point function ω₂(x, y); take y → x.</text>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2">
+    <path d="M180 110 Q360 90 540 110"/>
+    <path d="M180 300 Q360 320 540 300"/>
+    <line x1="180" y1="110" x2="180" y2="300"/>
+    <line x1="540" y1="110" x2="540" y2="300"/>
+  </g>
+  <text x="360" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">globally hyperbolic (M, g)</text>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2" stroke-dasharray="6 4">
+    <path d="M280 200 Q360 195 440 200"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="300" cy="200" r="5"/>
+    <circle cx="420" cy="200" r="5"/>
+  </g>
+  <text x="296" y="190" font-family="Inter, Arial, sans-serif" font-size="13" fill="#b8651e">x</text>
+  <text x="424" y="190" font-family="Inter, Arial, sans-serif" font-size="13" fill="#b8651e">y</text>
+  <g fill="none" stroke="#666" stroke-width="2">
+    <path d="M420 200 L362 200" marker-end="url(#arrow3)"/>
+  </g>
+  <text x="390" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#666">y → x</text>
+  <g fill="none" stroke="#b8651e" stroke-width="2">
+    <rect x="120" y="240" width="480" height="56" rx="6"/>
+  </g>
+  <text x="360" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#b8651e">:φ²(x):_H := lim_{y → x} [ ω₂(x, y) − H(x, y) ]</text>
+  <text x="360" y="282" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#b8651e">H(x, y) = (8π²)⁻¹ U(x, y)/σ(x, y) + V(x, y) log σ(x, y) (local, state-independent)</text>
+  <text x="40" y="336" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666">Hollands-Wald axioms: locality, covariance, scaling, Leibniz, smooth metric dependence.</text>
+  <text x="40" y="352" font-family="Inter, Arial, sans-serif" font-size="12" fill="#888">BFK 1996 Comm. Math. Phys. 180 633; Hollands-Wald 2001/2002/2003 Comm. Math. Phys. 223/231/237.</text>
+  <defs>
+    <marker id="arrow3" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#666"/>
+    </marker>
+  </defs>
+</svg>

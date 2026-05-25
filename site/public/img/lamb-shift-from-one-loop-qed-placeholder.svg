@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lamb shift from one-loop QED</title>
+  <desc id="desc">Energy-level schematic of the hydrogen n=2 manifold showing the Dirac-Coulomb degeneracy between 2S_{1/2} and 2P_{1/2}, the +1058 MHz Lamb-shift splitting measured by Lamb and Retherford in 1947, and the breakdown into three one-loop contributions: electron self-energy +1052 MHz, vertex / anomalous magnetic moment +68 MHz, vacuum polarisation (Uehling) -27 MHz.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+
+  <text x="60" y="40" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222" font-weight="bold">Dirac-Coulomb (1928)</text>
+  <text x="280" y="40" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222" font-weight="bold">QED one-loop (1947-1949)</text>
+  <text x="540" y="40" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222" font-weight="bold">Experiment</text>
+
+  <line x1="60" y1="180" x2="220" y2="180" stroke="#2d5a3d" stroke-width="4"/>
+  <text x="60" y="170" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">2S_{1/2} = 2P_{1/2}  (degenerate, j=1/2)</text>
+  <line x1="60" y1="120" x2="220" y2="120" stroke="#b3601f" stroke-width="4"/>
+  <text x="60" y="110" font-family="Inter, Arial, sans-serif" font-size="14" fill="#b3601f">2P_{3/2}  (j=3/2)</text>
+
+  <line x1="280" y1="160" x2="440" y2="160" stroke="#2d5a3d" stroke-width="4"/>
+  <text x="280" y="150" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">2S_{1/2}  (shifted up)</text>
+  <line x1="280" y1="200" x2="440" y2="200" stroke="#8a4a8a" stroke-width="4"/>
+  <text x="280" y="220" font-family="Inter, Arial, sans-serif" font-size="14" fill="#8a4a8a">2P_{1/2}</text>
+  <text x="450" y="185" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">+1058 MHz</text>
+
+  <line x1="540" y1="160" x2="660" y2="160" stroke="#2d5a3d" stroke-width="4"/>
+  <line x1="540" y1="200" x2="660" y2="200" stroke="#8a4a8a" stroke-width="4"/>
+  <text x="540" y="150" font-family="Inter, Arial, sans-serif" font-size="14" fill="#2d5a3d">2S_{1/2}</text>
+  <text x="540" y="220" font-family="Inter, Arial, sans-serif" font-size="14" fill="#8a4a8a">2P_{1/2}</text>
+  <text x="540" y="245" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">1057.845 MHz</text>
+  <text x="540" y="262" font-family="Inter, Arial, sans-serif" font-size="12" fill="#666">(Lamb-Retherford 1947)</text>
+
+  <text x="360" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">Decomposition: self-energy +1052 MHz, vertex (a_e) +68 MHz, Uehling -27 MHz</text>
+  <text x="360" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">Bethe 1947 NR log; Schwinger / French-Weisskopf / Kroll-Lamb 1949 covariant</text>
+</svg>
