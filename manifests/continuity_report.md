@@ -1,7 +1,7 @@
 # Codex — Continuity Report
 _Generated: $(date)_
 
-**Units measured:** 1130
+**Units measured:** 1131
 
 ## Aggregate metrics
 
