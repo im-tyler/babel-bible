@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Perverse Sheaves Perv(X) — Heart of the Middle-Perversity t-Structure</title>
+  <desc id="desc">A schematic placeholder showing the bounded constructible derived category D^b_c(X) of a complex algebraic variety X split by the middle-perversity t-structure into the two halves pD^{le 0} and pD^{ge 0}, with their intersection Perv(X) drawn as an abelian Artinian Noetherian heart whose simple objects are intersection cohomology complexes IC complexes attached to (stratum, irreducible local system) pairs, together with an arrow indicating the BBD decomposition theorem Rf_* IC_X equals a direct sum of shifted IC complexes for a proper morphism f.</desc>
+  <rect width="720" height="360" fill="#f5f4ec"/>
+  <g stroke="#2a4f6a" stroke-width="2.5" fill="none">
+    <line x1="60" y1="240" x2="660" y2="240"/>
+  </g>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="80" y="265">D^b_c(X)</text>
+    <text x="615" y="265">stratified</text>
+  </g>
+  <g stroke="#b04d20" stroke-width="2" fill="none">
+    <path d="M155 240 L155 220"/>
+    <path d="M255 240 L255 220"/>
+    <path d="M350 240 L350 215"/>
+    <path d="M450 240 L450 220"/>
+    <path d="M540 240 L540 220"/>
+  </g>
+  <g fill="#b04d20" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="180" y="205" text-anchor="middle">^pD^{≤ 0}</text>
+    <text x="500" y="205" text-anchor="middle">^pD^{≥ 0}</text>
+    <text x="350" y="200" text-anchor="middle" fill="#2a4f6a" font-size="22">Perv(X) = ^pD^{≤ 0} ∩ ^pD^{≥ 0}</text>
+    <text x="350" y="225" text-anchor="middle" fill="#444" font-size="14">(abelian, Artinian, Noetherian)</text>
+  </g>
+  <g stroke="#2a4f6a" stroke-width="2" fill="none">
+    <path d="M90 130 L290 130" marker-end="url(#arrowhead)"/>
+    <path d="M320 130 L640 130" marker-end="url(#arrowhead)"/>
+  </g>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="60" y="135">Rf_* IC_X</text>
+    <text x="305" y="135" text-anchor="middle">≅</text>
+    <text x="650" y="135" text-anchor="end">⊕ IC_{Z_i}(L_i)[d_i]</text>
+  </g>
+  <text x="360" y="80" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">BBD decomposition theorem (proper f: X → Y, X smooth)</text>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#2a4f6a"/>
+    </marker>
+  </defs>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Perverse Sheaves Perv(X): heart of the middle-perversity t-structure</text>
+</svg>

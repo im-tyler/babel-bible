@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Beltrami Fields and ABC Chaotic Streamlines</title>
+  <desc id="desc">A schematic placeholder diagram of the 3-torus partitioned into KAM islands and a chaotic sea, with elliptic and hyperbolic stagnation points of the symmetric ABC flow.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g fill="none" stroke="#1f6f8b" stroke-width="3">
+    <rect x="60" y="40" width="600" height="280"/>
+  </g>
+  <g fill="none" stroke="#1f6f8b" stroke-width="2" opacity="0.6">
+    <ellipse cx="180" cy="120" rx="40" ry="28"/>
+    <ellipse cx="180" cy="120" rx="28" ry="18"/>
+    <ellipse cx="180" cy="120" rx="16" ry="10"/>
+    <ellipse cx="540" cy="120" rx="40" ry="28"/>
+    <ellipse cx="540" cy="120" rx="28" ry="18"/>
+    <ellipse cx="540" cy="120" rx="16" ry="10"/>
+    <ellipse cx="180" cy="240" rx="40" ry="28"/>
+    <ellipse cx="180" cy="240" rx="28" ry="18"/>
+    <ellipse cx="180" cy="240" rx="16" ry="10"/>
+    <ellipse cx="540" cy="240" rx="40" ry="28"/>
+    <ellipse cx="540" cy="240" rx="28" ry="18"/>
+    <ellipse cx="540" cy="240" rx="16" ry="10"/>
+  </g>
+  <g fill="none" stroke="#c1666b" stroke-width="1.2" opacity="0.7">
+    <path d="M260 90 Q320 60 380 120 T460 90 Q420 160 360 180 T280 220 Q340 270 400 240 T480 270"/>
+    <path d="M280 140 Q340 180 280 220 Q220 260 280 300"/>
+    <path d="M440 60 Q380 100 440 140 Q500 180 440 220"/>
+    <path d="M300 100 Q360 130 420 100 Q360 170 300 200"/>
+  </g>
+  <g fill="#1f6f8b">
+    <circle cx="180" cy="120" r="5"/>
+    <circle cx="540" cy="120" r="5"/>
+    <circle cx="180" cy="240" r="5"/>
+    <circle cx="540" cy="240" r="5"/>
+  </g>
+  <g fill="#c1666b">
+    <rect x="356" y="56" width="8" height="8"/>
+    <rect x="356" y="296" width="8" height="8"/>
+    <rect x="56" y="176" width="8" height="8"/>
+    <rect x="656" y="176" width="8" height="8"/>
+  </g>
+  <text x="360" y="345" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">ABC flow on T^3: KAM islands (circles) and chaotic sea (curves)</text>
+</svg>
