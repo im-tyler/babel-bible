@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Dirac equation in a Coulomb field — relativistic hydrogen levels</title>
+  <desc id="desc">Energy-level diagram comparing non-relativistic hydrogen (single n level) with Dirac hydrogen fine structure (j-split levels). The 2s and 2p levels split into 2s_{1/2}, 2p_{1/2} (degenerate in Dirac theory) and 2p_{3/2} above; the Lamb shift lifts the residual 2s_{1/2}-2p_{1/2} degeneracy by QED corrections not captured by the Dirac equation alone.</desc>
+  <rect width="960" height="540" fill="#f8faf7"/>
+
+  <text x="480" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#23424a" font-weight="bold">Hydrogen n = 2 level structure</text>
+
+  <!-- left column: non-relativistic -->
+  <text x="180" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#23424a">Schrödinger</text>
+  <line x1="100" y1="290" x2="260" y2="290" stroke="#264653" stroke-width="6"/>
+  <text x="180" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#264653">2s, 2p (degenerate)</text>
+  <text x="180" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#23424a">E = -13.6/4 eV</text>
+
+  <!-- middle column: Dirac (Sommerfeld) -->
+  <text x="480" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#23424a">Dirac (Sommerfeld)</text>
+  <line x1="400" y1="220" x2="560" y2="220" stroke="#2a9d8f" stroke-width="6"/>
+  <text x="570" y="225" text-anchor="start" font-family="Arial, sans-serif" font-size="16" fill="#2a9d8f">2p_{3/2}  (j = 3/2)</text>
+  <line x1="400" y1="320" x2="560" y2="320" stroke="#e76f51" stroke-width="6"/>
+  <text x="570" y="325" text-anchor="start" font-family="Arial, sans-serif" font-size="16" fill="#e76f51">2s_{1/2}, 2p_{1/2}  (j = 1/2)</text>
+  <text x="480" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#23424a">fine structure ~ (Zα)^4 mc^2 / n^3</text>
+
+  <!-- right column: QED with Lamb shift -->
+  <text x="800" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#23424a">QED (with Lamb shift)</text>
+  <line x1="720" y1="220" x2="880" y2="220" stroke="#2a9d8f" stroke-width="6"/>
+  <text x="710" y="225" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#2a9d8f">2p_{3/2}</text>
+  <line x1="720" y1="310" x2="880" y2="310" stroke="#e76f51" stroke-width="6"/>
+  <text x="710" y="315" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#e76f51">2s_{1/2}</text>
+  <line x1="720" y1="332" x2="880" y2="332" stroke="#e9c46a" stroke-width="6"/>
+  <text x="710" y="337" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#e9c46a">2p_{1/2}</text>
+  <path d="M820 313 L820 330" stroke="#23424a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="800" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#23424a">Lamb shift ≈ 1058 MHz</text>
+
+  <!-- connecting arrows -->
+  <path d="M270 290 C300 290 360 250 395 220" fill="none" stroke="#264653" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowgrey)"/>
+  <path d="M270 290 C300 290 360 310 395 320" fill="none" stroke="#264653" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowgrey)"/>
+  <path d="M560 220 H715" fill="none" stroke="#264653" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowgrey)"/>
+  <path d="M560 320 H715 L715 310" fill="none" stroke="#264653" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowgrey)"/>
+  <path d="M560 320 H700 L700 332 L715 332" fill="none" stroke="#264653" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowgrey)"/>
+
+  <text x="480" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#23424a">E_{n,j} = mc^2 [1 + (Zα)^2 / (n - j - 1/2 + √((j+1/2)^2 - (Zα)^2))^2]^{-1/2}</text>
+  <text x="480" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#23424a">Sommerfeld 1916 / Darwin 1928 / Gordon 1928 — depends on j, not ℓ separately</text>
+  <text x="480" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8a8a8a">point-nucleus catastrophe at Zα = 1 (Z ≈ 137); regularised by finite nucleus + vacuum polarisation</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#23424a"/>
+    </marker>
+    <marker id="arrowgrey" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#264653"/>
+    </marker>
+  </defs>
+</svg>

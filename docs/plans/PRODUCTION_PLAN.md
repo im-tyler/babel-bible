@@ -1,39 +1,39 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-25T20:35:28.814328+00:00_
+_Generated: 2026-05-25T20:58:40.005919+00:00_
 
 ## Burn-down
 
-- Units shipped: **1101**
-- Units queued (gap units from audits): **89**
+- Units shipped: **1104**
+- Units queued (gap units from audits): **88**
 - Of which deepenings: **2**
-- Audits completed: **71 / 92**
+- Audits completed: **72 / 92**
 - Books unaudited: **0**
 
 ## Next 20 queued units (topological order)
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `05.14.08` | Fast dynamo problem and Arnold cat-map dynamo | P? | arnold-hydrodynamics |
-| 2 | `04.03.21` | Hochschild-Kostant-Rosenberg theorem | P1 | gelfand-manin-homological-algebra |
-| 3 | `04.03.22` | Cyclic homology and Connes' long exact sequence | P1 | gelfand-manin-homological-algebra |
-| 4 | `13.09.03` | Hadamard states via the wave-front-set criterion (Radzikowski) | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 5 | `13.09.04` | Existence of Hadamard states via the FNW deformation argument | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 6 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 7 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 8 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 9 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 10 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 11 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 12 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 13 | `12.16.02` | One-loop QED vertex function and the anomalous magnetic moment | P? | landau-lifshitz-quantum-electrodynamics |
-| 14 | `12.16.01` | Electron self-energy and mass renormalization at one loop | P? | landau-lifshitz-quantum-electrodynamics |
-| 15 | `12.16.03` | Vacuum polarization at one loop and the Uehling potential | P? | landau-lifshitz-quantum-electrodynamics |
-| 16 | `12.11.03` | Dirac equation in a Coulomb field; relativistic hydrogen and the Sommerfeld fine-structure formula | P? | landau-lifshitz-quantum-electrodynamics |
-| 17 | `12.12.03` | Compton scattering and the Klein-Nishina formula | P? | landau-lifshitz-quantum-electrodynamics |
-| 18 | `12.12.04` | Møller scattering ($e^- e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
-| 19 | `12.12.05` | Bhabha scattering ($e^+ e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
-| 20 | `12.12.06` | Bethe-Heitler bremsstrahlung and pair production | P? | landau-lifshitz-quantum-electrodynamics |
+| 1 | `04.03.21` | Hochschild-Kostant-Rosenberg theorem | P1 | gelfand-manin-homological-algebra |
+| 2 | `04.03.22` | Cyclic homology and Connes' long exact sequence | P1 | gelfand-manin-homological-algebra |
+| 3 | `13.09.03` | Hadamard states via the wave-front-set criterion (Radzikowski) | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 4 | `13.09.04` | Existence of Hadamard states via the FNW deformation argument | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 5 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 6 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 7 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 8 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 9 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 10 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 11 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 12 | `12.16.01` | Electron self-energy and mass renormalization at one loop | P? | landau-lifshitz-quantum-electrodynamics |
+| 13 | `12.16.03` | Vacuum polarization at one loop and the Uehling potential | P? | landau-lifshitz-quantum-electrodynamics |
+| 14 | `12.12.03` | Compton scattering and the Klein-Nishina formula | P? | landau-lifshitz-quantum-electrodynamics |
+| 15 | `12.12.04` | Møller scattering ($e^- e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
+| 16 | `12.12.05` | Bhabha scattering ($e^+ e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
+| 17 | `12.12.06` | Bethe-Heitler bremsstrahlung and pair production | P? | landau-lifshitz-quantum-electrodynamics |
+| 18 | `12.11.02` | Klein-Gordon equation in external EM field; Coulomb and uniform-magnetic cases | P? | landau-lifshitz-quantum-electrodynamics |
+| 19 | `12.11.04` | Klein paradox | P? | landau-lifshitz-quantum-electrodynamics |
+| 20 | `12.16.04` | Lamb shift from one-loop QED | P? | landau-lifshitz-quantum-electrodynamics |
 
 ## Audits completed
 
@@ -100,6 +100,7 @@ _Generated: 2026-05-25T20:35:28.814328+00:00_
 | serre-course-in-arithmetic | 3 | 1 | 0 | 0 | 4 |
 | serre-lie-algebras-and-lie-groups | 4 | 1 | 0 | 0 | 5 |
 | serre-linear-representations-finite-groups | 0 | 2 | 0 | 0 | 2 |
+| shifrin-multivariable | 4 | 2 | 2 | 0 | 8 |
 | shilov-linear-algebra | 0 | 0 | 0 | 0 | 0 |
 | souriau-structure-dynamical-systems | 0 | 0 | 0 | 0 | 0 |
 | sternberg-curvature-mathematics-physics | 5 | 3 | 3 | 4 | 15 |

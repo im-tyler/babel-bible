@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">One-loop QED vertex function and the anomalous magnetic moment</title>
+  <desc id="desc">Schematic of the one-loop QED vertex correction: incoming and outgoing electron lines exchange a virtual photon while the external photon attaches at the dressed vertex, producing the Schwinger correction $a_e = \alpha/(2\pi)$.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <line x1="80" y1="280" x2="280" y2="180" stroke="#2d5a3d" stroke-width="6"/>
+  <line x1="640" y1="280" x2="440" y2="180" stroke="#2d5a3d" stroke-width="6"/>
+  <line x1="280" y1="180" x2="440" y2="180" stroke="#2d5a3d" stroke-width="6"/>
+  <path d="M280 180 C 300 130, 340 100, 360 80 C 380 100, 420 130, 440 180" fill="none" stroke="#8a4a8a" stroke-width="4" stroke-dasharray="10 6"/>
+  <path d="M360 80 Q 380 40 440 60 Q 460 40 480 80" fill="none" stroke="#b3601f" stroke-width="4" stroke-dasharray="8 6"/>
+  <g fill="#2d5a3d">
+    <circle cx="280" cy="180" r="7"/>
+    <circle cx="440" cy="180" r="7"/>
+    <circle cx="360" cy="180" r="7"/>
+  </g>
+  <text x="60" y="305" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">e^-(p)</text>
+  <text x="610" y="305" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">e^-(p')</text>
+  <text x="500" y="70" font-family="Inter, Arial, sans-serif" font-size="20" fill="#b3601f">gamma (q)</text>
+  <text x="200" y="120" font-family="Inter, Arial, sans-serif" font-size="18" fill="#8a4a8a">virtual gamma (k)</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">F_2(0) = alpha / (2 pi) (Schwinger 1948)</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hochschild-Kostant-Rosenberg Theorem</title>
+  <desc id="desc">A schematic placeholder showing the antisymmetrisation map epsilon from Kähler differentials Omega^n_{A/k} to the Hochschild complex C_n(A, A) inducing the HKR isomorphism HH_n(A, A) cong Omega^n_{A/k} for a smooth commutative k-algebra in characteristic zero, with the polynomial-algebra worked example k[x_1, ..., x_d] producing the polyvector field HH^n cong wedge^n Der.</desc>
+  <rect width="720" height="360" fill="#f5f4ec"/>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="40" y="60">Smooth commutative A/k, char k = 0</text>
+    <text x="40" y="120">Antisymmetrisation ε: Ω^n_{A/k} → C_n(A, A)</text>
+    <text x="40" y="160">a₀ da₁ ∧ ... ∧ daₙ ↦ (1/n!) Σ sgn(σ) a₀ ⊗ a_σ(1) ⊗ ... ⊗ a_σ(n)</text>
+    <text x="40" y="220">HKR: HH_n(A, A) ≅ Ω^n_{A/k}</text>
+    <text x="40" y="260">HH^n(A, A) ≅ ⋀^n Der_k(A, A) (polyvector fields)</text>
+  </g>
+  <g stroke="#b04d20" stroke-width="3" fill="none">
+    <path d="M40 185 L660 185" marker-end="url(#arrowhead)"/>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#b04d20"/>
+    </marker>
+  </defs>
+  <text x="360" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">Hochschild-Kostant-Rosenberg Theorem</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hadamard States via the Wave-Front-Set Criterion</title>
+  <desc id="desc">A schematic placeholder diagram for Radzikowski's wave-front-set characterisation of Hadamard states: two spacetime points x and y connected by a null geodesic, with cotangent covectors k_x at x and k_y at y related by parallel transport, k_x in the closed future light cone.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2" stroke-dasharray="6 4">
+    <line x1="80" y1="280" x2="640" y2="280"/>
+  </g>
+  <text x="650" y="285" font-family="Inter, Arial, sans-serif" font-size="18" fill="#1d4e5a">Σ</text>
+  <g fill="none" stroke="#b8651e" stroke-width="3">
+    <line x1="200" y1="240" x2="520" y2="80"/>
+  </g>
+  <text x="360" y="155" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#b8651e">null geodesic γ</text>
+  <g fill="#1d4e5a">
+    <circle cx="200" cy="240" r="7"/>
+    <circle cx="520" cy="80" r="7"/>
+  </g>
+  <text x="190" y="260" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">x</text>
+  <text x="530" y="75" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">y</text>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2">
+    <path d="M200 240 L260 200" marker-end="url(#arrow1)"/>
+    <path d="M520 80 L580 40" marker-end="url(#arrow2)"/>
+  </g>
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#1d4e5a"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#1d4e5a"/>
+    </marker>
+  </defs>
+  <text x="265" y="195" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1d4e5a">k_x ∈ V̄⁺</text>
+  <text x="585" y="35" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1d4e5a">k_y (∥ transport of k_x)</text>
+  <text x="80" y="50" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">WF(ω₂) = {(x, k_x; y, -k_y) : (x, k_x) ∼ (y, k_y), k_x ∈ V̄⁺_x}</text>
+  <text x="80" y="330" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666">Radzikowski 1996 CMP 179</text>
+</svg>
