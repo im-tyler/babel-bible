@@ -224,7 +224,7 @@
       "audit_position": 8,
       "prereqs": [],
       "successors": [],
-      "status": "queued"
+      "status": "shipped"
     },
     "05.15.01": {
       "id": "05.15.01",
