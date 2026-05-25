@@ -57,11 +57,34 @@ export default function PhilosophyIndex({ data }: { data: any }) {
           intuition, Intermediate for the formal arguments, Master for graduate-level depth with
           primary-source citations.
         </p>
-        <p class="muted">
-          Looking for the synthesizing project — the four-pyramid axial model, the symbols across
-          contemplative traditions, the six chapters on reflexivity and disclosure? That lives at{" "}
-          <a href="/synthesis">/synthesis</a>.
-        </p>
+      </section>
+
+      <section class="page-narrow">
+        <a
+          href="/synthesis"
+          style="
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            padding: 1.25rem 1.5rem;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 6px;
+            background: rgba(255,255,255,0.02);
+            margin-top: 0.5rem;
+          "
+        >
+          <div style="font-size: 0.85rem; opacity: 0.7; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 0.35rem;">
+            Companion project →
+          </div>
+          <div style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.35rem;">
+            Synthesis
+          </div>
+          <div style="opacity: 0.8; line-height: 1.5;">
+            The synthesizing frame — the four-pyramid axial model, symbols across contemplative
+            traditions, and six chapters on reflexivity, disclosure, and practice. Held alongside
+            the academic discipline, not under it.
+          </div>
+        </a>
       </section>
 
       {data.chapters.length > 0 && (

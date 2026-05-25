@@ -135,7 +135,6 @@ export default function RootLayout({ children }: { children: any }) {
             <a href="/chemistry">Chemistry</a>
             <a href="/biology">Biology</a>
             <a href="/philosophy">Philosophy</a>
-            <a href="/synthesis">Synthesis</a>
             <a href="/language">Language</a>
             <a href="/world">World</a>
           </nav>
