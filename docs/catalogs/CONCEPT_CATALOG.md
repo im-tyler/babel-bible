@@ -147,6 +147,116 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Lang *Basic Mathematics* Ch. 4; Strogatz-style number-line-region picture
 - **notes**: An inequality in one real variable replaces the equals sign in an equation by one of $<, \leq, >, \geq$. The solution set is a region of the number line rather than a finite set of points. The basic manipulation rules match those for equations except that multiplying or dividing both sides by a negative number reverses the direction of the inequality, since the order on $\mathbb{R}$ is incompatible with multiplication by negatives in the opposite sense from addition. A linear inequality $ax + b \leq c$ has solution set $\{x : x \leq (c - b)/a\}$ when $a > 0$ (and $\{x : x \geq (c - b)/a\}$ when $a < 0$), a half-line in either case. A quadratic inequality $ax^2 + bx + c \leq 0$ is solved by sign analysis: factor as $a(x - r_1)(x - r_2)$ when the discriminant $\Delta = b^2 - 4ac$ is non-negative, then read the sign of the product in each of the three regions cut off by the roots. The solution set is a closed interval when $a > 0$ and $\Delta > 0$, the complement of an open interval when $a < 0$ and $\Delta > 0$, a single point when $\Delta = 0$, and either the entire line or the empty set when $\Delta < 0$. Named load-bearing inequalities at this tier: the triangle inequality $|x + y| \leq |x| + |y|$ on $\mathbb{R}$, the arithmetic-mean-geometric-mean inequality $(x_1 + \cdots + x_n)/n \geq (x_1 \cdots x_n)^{1/n}$ for non-negative reals with equality iff all $x_i$ coincide, and the Cauchy-Schwarz inequality $|u \cdot v| \leq \|u\| \|v\|$ for vectors in a real or complex inner-product space with equality iff the vectors are linearly dependent. The standard proof of Cauchy-Schwarz observes that the quadratic $t \mapsto \|u - tv\|^2$ is non-negative everywhere, hence its discriminant in $t$ is non-positive — a direct invocation of the discriminant trichotomy from `foundations.quadratic-formula`. Master-tier scope: Hölder's inequality $\sum |x_i y_i| \leq (\sum |x_i|^p)^{1/p} (\sum |y_i|^q)^{1/q}$ for conjugate exponents $1/p + 1/q = 1$ (with Cauchy-Schwarz as the case $p = q = 2$); Minkowski's inequality $(\sum |x_i + y_i|^p)^{1/p} \leq (\sum |x_i|^p)^{1/p} + (\sum |y_i|^p)^{1/p}$ supplying the triangle inequality on $\ell^p$ and $L^p$; Jensen's inequality $\phi(\mathbb{E}[X]) \leq \mathbb{E}[\phi(X)]$ for $\phi$ convex (generalising AM-GM via $\phi = -\log$); the isoperimetric inequality on $\mathbb{R}^2$ (and Lévy-Gromov on manifolds); polynomial inequalities and the Tarski-Seidenberg theorem (1948) on the decidability of the first-order theory of $\mathbb{R}$ via quantifier elimination over real-closed fields; semi-algebraic sets as a category. Originators: Cauchy 1821 *Cours d'analyse* (the original finite-sum form of the inequality, in the language of bilinear sums); Schwarz 1885 (the inner-product generalisation used in his minimal-surfaces work); Hölder 1889 (the eponymous inequality, generalising Cauchy-Schwarz to conjugate exponents); Minkowski 1896 (the triangle inequality in $\ell^p$); Jensen 1906 (the convex-function inequality and its probabilistic formulation); Tarski 1948 (the decision procedure for the elementary theory of $\mathbb{R}$). Foundational floor for the metric-space triangle inequality (`metric-spaces.metric-space`), the $L^p$-norm theory (`functional-analysis.lp-spaces`), inner-product geometry (`functional-analysis.hilbert-space` — the Cauchy-Schwarz inequality is the reason the angle $\cos\theta = \langle u, v \rangle / (\|u\| \|v\|)$ takes values in $[-1, 1]$), and concentration inequalities in probability (`probability.concentration`).
 
+### foundations.chain-complex-abelian-category
+
+- **title**: Chain complex in an abelian category
+- **unit**: `01.02.30`
+- **prerequisites**: `foundations.exact-sequence-snake-lemma`
+- **tier_anchors**:
+  - master: Gelfand-Manin *Methods of Homological Algebra* Ch. II §§1-2; Weibel Ch. 1; Cartan-Eilenberg 1956
+  - intermediate: cochain complexes in an abelian category, Ch(A), bounded variants, cohomology objects, long exact sequence
+  - beginner: a chain of objects and arrows where doing two steps in a row gives zero
+- **notes**: Defines chain and cochain complexes in an abelian category, the category of complexes, morphisms of complexes, bounded variants, cohomology objects as kernel modulo image, quasi-isomorphisms, and the long exact cohomology sequence associated to a short exact sequence of complexes. Serves as the foundation for chain homotopy, mapping cones, derived categories, Ext, Tor, and sheaf cohomology.
+
+### foundations.chain-homotopy-homotopy-category-k-a
+
+- **title**: Chain homotopy and the homotopy category K(A)
+- **unit**: `01.02.31`
+- **prerequisites**: `foundations.chain-complex-abelian-category`
+- **tier_anchors**:
+  - master: Gelfand-Manin *Methods of Homological Algebra* Ch. II §§3-4; Weibel §1.4; Verdier's triangulated-category origin
+  - intermediate: chain homotopy f-g=ds+sd, homotopy category K(A), shift functor, bounded homotopy categories
+  - beginner: two maps of complexes can differ by a controlled deformation and still act the same on cohomology
+- **notes**: Defines chain homotopy between maps of complexes, proves chain-homotopic maps induce the same cohomology maps, constructs the homotopy category K(A), introduces bounded variants and the shift sign convention, distinguishes homotopy equivalence from quasi-isomorphism, and prepares mapping cones, triangulated categories, and derived categories.
+
+### foundations.mapping-cone-chain-map-distinguished-triangle
+
+- **title**: Mapping cone of a chain map and the distinguished triangle
+- **unit**: `01.02.32`
+- **prerequisites**: `foundations.chain-complex-abelian-category`, `foundations.chain-homotopy-homotopy-category-k-a`
+- **tier_anchors**:
+  - master: Gelfand-Manin *Methods of Homological Algebra* Ch. II §5; Weibel §1.5; Verdier distinguished triangles
+  - intermediate: Cone(f), shifted source, block differential, long exact cohomology sequence, standard triangle
+  - beginner: a cone turns one map of complexes into a new complex measuring what the map misses
+- **notes**: Defines the mapping cone of a cochain map with the standard shifted-source convention and block differential, proves the cone long exact sequence, identifies the standard cone triangle, explains cone acyclicity as the criterion for quasi-isomorphisms, and distinguishes algebraic mapping cones from topological mapping cones.
+
+### foundations.abelian-category-grothendieck-axioms-ab1-ab5
+
+- **title**: Abelian category and Grothendieck axioms AB1-AB5
+- **unit**: `01.02.33`
+- **prerequisites**: `foundations.exact-sequence-snake-lemma`, `foundations.chain-complex-abelian-category`
+- **tier_anchors**:
+  - master: Grothendieck 1957 Tohoku; Gelfand-Manin Ch. II §6; Weibel Appendix A.4
+  - intermediate: preadditive, additive, preabelian, abelian; AB1-AB5; Grothendieck categories and enough injectives
+  - beginner: a setting where kernels, quotients, exact sequences, and cohomology behave like modules
+- **notes**: Defines preadditive, additive, preabelian, and abelian categories; states the image equals coimage condition; organizes the Grothendieck AB1-AB5 axioms; defines Grothendieck categories via AB5 plus a generator; gives examples including modules, sheaves, and quasi-coherent sheaves; and states Grothendieck's enough-injectives theorem as the foundation for derived functors and sheaf cohomology.
+
+### alg-geom.triangulated-category-verdier-axioms-tr1-tr4
+
+- **title**: Triangulated category - Verdier axioms TR1-TR4 and the octahedral axiom
+- **unit**: `04.03.10`
+- **prerequisites**: `foundations.chain-homotopy-homotopy-category-k-a`, `foundations.mapping-cone-chain-map-distinguished-triangle`, `foundations.abelian-category-grothendieck-axioms-ab1-ab5`
+- **tier_anchors**:
+  - master: Verdier thesis; Gelfand-Manin Ch. III §§1-2; Weibel Ch. 10; Kashiwara-Schapira Ch. 10
+  - intermediate: shift functor, distinguished triangles, Verdier axioms TR1-TR4, cone triangles, two-of-three lemma
+  - beginner: triangles replace short exact sequences in homotopy and derived categories
+- **notes**: Defines triangulated categories as additive categories with shift and distinguished triangles, states Verdier axioms TR1-TR4 including the octahedral axiom, explains cone triangles in K(A) and D(A), proves a two-of-three isomorphism lemma for morphisms of triangles, and positions triangles as the exactness language behind derived categories and total derived functors.
+
+### alg-geom.derived-category-localisation-quasi-isomorphisms
+
+- **title**: Derived category D(A) - localisation at quasi-isomorphisms
+- **unit**: `04.03.11`
+- **prerequisites**: `foundations.abelian-category-grothendieck-axioms-ab1-ab5`, `alg-geom.triangulated-category-verdier-axioms-tr1-tr4`
+- **tier_anchors**:
+  - master: Verdier derived categories; Gabriel-Zisman calculus of fractions; injective/projective resolution models
+  - intermediate: quasi-isomorphism, localization K(A)[qis^-1], universal property, bounded derived categories
+  - beginner: make complexes with the same cohomology become equivalent
+- **notes**: Defines quasi-isomorphisms, constructs the derived category as the localization of the homotopy category at quasi-isomorphisms, states the localization universal property, introduces bounded derived categories, explains roofs as morphisms after localization, proves cone detection of quasi-isomorphisms, and records injective/projective resolution models for bounded derived categories.
+
+### alg-geom.derived-functors-rf-lf-via-derived-categories
+
+- **title**: Derived functors RF and LF via derived categories
+- **unit**: `04.03.12`
+- **prerequisites**: `foundations.abelian-category-grothendieck-axioms-ab1-ab5`, `alg-geom.triangulated-category-verdier-axioms-tr1-tr4`, `alg-geom.derived-category-localisation-quasi-isomorphisms`
+- **tier_anchors**:
+  - master: Gelfand-Manin Ch. III §§4-5; Weibel Ch. 10 §§5-8; derived-category universal property
+  - intermediate: total right and left derived functors, F-acyclic/injective/projective resolutions, H^i(RF)
+  - beginner: extend a non-exact functor to complexes after replacing objects by good resolutions
+- **notes**: Defines total right and left derived functors as functors between derived categories, explains computation by injective, projective, flat, or acyclic resolutions, proves recovery of classical derived functors as cohomology objects of the total derived functor, records triangulated functoriality and the long exact sequence from triangles, and coordinates with the classical derived-functor/Ext unit.
+
+### alg-geom.grothendieck-spectral-sequence
+
+- **title**: Grothendieck spectral sequence
+- **unit**: `04.03.13`
+- **prerequisites**: `foundations.abelian-category-grothendieck-axioms-ab1-ab5`, `alg-geom.derived-functors-rf-lf-via-derived-categories`
+- **tier_anchors**:
+  - master: Grothendieck Tohoku §2.4; Gelfand-Manin Ch. III §6; Weibel Ch. 5 §8
+  - intermediate: E2^{p,q}=R^pG(R^qF(X)) => R^{p+q}(G∘F)(X), acyclicity hypotheses, Leray example
+  - beginner: when two non-exact functors are composed, their derived corrections assemble into a spectral sequence
+- **notes**: States the Grothendieck spectral sequence for a composite of left-exact functors between abelian categories with enough injectives, records the acyclicity hypothesis that F sends injectives to G-acyclic objects, explains the filtered abutment to R^{p+q}(GF)(X), proves the theorem using a Cartan-Eilenberg resolution of F(I^bullet), derives the five-term exact sequence, and identifies Leray as the sheaf-cohomology specialization.
+
+### alg-geom.spectral-sequence-filtered-complex
+
+- **title**: Spectral sequence of a filtered complex
+- **unit**: `04.03.14`
+- **prerequisites**: `foundations.chain-complex-in-abelian-category`, `homotopy.spectral-sequence.filtered-complex`
+- **tier_anchors**:
+  - master: Cartan-Eilenberg filtered complexes; Weibel §§5.4-5.5; McCleary §2.2; convergence under bounded filtrations
+  - intermediate: E_0^{p,q}=gr_F^p C^{p+q}, E_1^{p,q}=H^{p+q}(gr_F^p C), convergence to filtered cohomology
+  - beginner: a filtration lets one compute a complex by layers, with successive pages correcting earlier approximations
+- **notes**: Gives the filtered-complex construction of a spectral sequence for a decreasing filtration by subcomplexes, identifies the E0 and E1 pages, records the page-r differential bidegree (r,1-r), proves convergence under boundedness to the associated graded of the induced filtration on cohomology, explains double complexes as filtered total complexes, and records edge maps, extension problems, and convergence refinements.
+
+### alg-geom.leray-spectral-sequence-sheaf-form
+
+- **title**: Sheaf cohomology - Leray spectral sequence (general form)
+- **unit**: `04.03.15`
+- **prerequisites**: `alg-geom.sheaf-cohomology`, `alg-geom.derived-functors-rf-lf-via-derived-categories`, `alg-geom.grothendieck-spectral-sequence`, `alg-geom.spectral-sequence-filtered-complex`
+- **tier_anchors**:
+  - master: Leray 1946; Grothendieck Tohoku derived-functor form; Godement and Hartshorne sheaf-cohomology treatments
+  - intermediate: E_2^{p,q}=H^p(Y,R^qf_*F) => H^{p+q}(X,F), proof by Grothendieck spectral sequence
+  - beginner: cohomology on X can be computed by first pushing a sheaf to Y and then taking cohomology on Y
+- **notes**: States the general sheaf-theoretic Leray spectral sequence for a continuous map f:X→Y, identifies it as the Grothendieck spectral sequence for Γ_X=Γ_Y∘f_*, verifies the acyclicity hypothesis using injective/flabby sheaves and preservation of flabbiness by direct image, records collapse criteria and the five-term exact sequence, distinguishes this general sheaf form from Leray-Serre, and links the result to higher direct images and base change.
+
 ### linalg.field
 
 - **title**: Field
@@ -2008,6 +2118,368 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Tong *Gauge Theory* §2; Donaldson-Kronheimer §2
   - beginner: visual curvature-energy account analogous to 3Blue1Brown / Strogatz pacing
 - **notes**: Defines $\operatorname{YM}(A)=\frac12\|F_A\|_{L^2}^2$, proves gauge invariance, derives $d_A^*F_A=0$, relates four-dimensional self-duality to Yang-Mills, and separates metric-dependent action from Chern-Weil topological classes.
+
+### gauge-theory.asd-equation
+
+- **title**: Anti-self-dual (ASD) equation on a 4-manifold
+- **unit**: `03.07.06`
+- **prerequisites**: `gauge-theory.yang-mills.action`, `diffgeo.connection.curvature`, `char-classes.chern-weil.homomorphism`, `char-classes.pontryagin-chern.definitions`
+- **tier_anchors**:
+  - master: Atiyah *Geometry of Yang-Mills Fields* Ch. 1; Donaldson-Kronheimer §2.1; Freed-Uhlenbeck §3; Atiyah-Hitchin-Singer 1978 *Self-duality in four-dimensional Riemannian geometry*
+  - intermediate: Donaldson-Kronheimer §2.1; Freed-Uhlenbeck §3
+  - beginner: visual four-dimensional curvature-splitting account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Defines the Hodge-star split $\Omega^2=\Omega^2_+\oplus\Omega^2_-$ on oriented Riemannian four-manifolds, states $F_A^+=0$, proves ASD connections satisfy $d_A^*F_A=0$ by the Bianchi identity, records conformal invariance, and introduces the ASD deformation complex used by instanton moduli spaces.
+
+### gauge-theory.conformal-compactification-finite-action-instantons
+
+- **title**: Conformal compactification and finite-action instantons
+- **unit**: `03.07.08`
+- **prerequisites**: `gauge-theory.asd-equation`, `gauge-theory.bpst-instanton-bogomolny`, `gauge-theory.yang-mills.action`, `diffgeo.connection.curvature`
+- **tier_anchors**:
+  - master: Uhlenbeck 1982 *Removable singularities in Yang-Mills fields*; Uhlenbeck 1982 *Connections with Lp bounds on curvature*; Freed-Uhlenbeck §3-4; Donaldson-Kronheimer §4.4
+  - intermediate: Atiyah *Geometry of Yang-Mills Fields* Ch. 1; Freed-Uhlenbeck §3; Donaldson-Kronheimer §4
+  - beginner: sphere compactification account of finite-action instantons analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Identifies $\mathbb{R}^4$ with $S^4\setminus\{\infty\}$ by stereographic projection, proves four-dimensional conformal invariance of the Yang-Mills action, states Uhlenbeck removable singularities for finite-action Yang-Mills fields, and explains why finite-action ASD instantons on Euclidean four-space extend over infinity as smooth instantons on $S^4$.
+
+### gauge-theory.chern-simons-functional-3-manifold
+
+- **title**: Chern-Simons functional on a 3-manifold
+- **unit**: `03.07.17`
+- **prerequisites**: `char-classes.chern-simons-transgression`, `gauge-theory.asd-equation`, `gauge-theory.yang-mills.action`, `diffgeo.connection.curvature`
+- **tier_anchors**:
+  - master: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 1-3; Floer 1988 *An instanton-invariant for 3-manifolds*; Chern-Simons 1974 *Characteristic forms and geometric invariants*
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 1-3; Floer 1988
+  - beginner: Morse-function-on-gauge-fields account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Defines $\operatorname{CS}(A)=\frac{1}{8\pi^2}\int_Y\operatorname{tr}(A\wedge dA+\frac23A^3)$, proves its first variation pairs with curvature so critical points are flat connections, records the integer gauge-shift formula, and identifies negative gradient flow with the ASD equation on $\mathbb{R}\times Y$.
+
+### gauge-theory.configuration-space-slice-b-star-y
+
+- **title**: Configuration space and slice theorem on $\mathcal{B}^*(Y)$
+- **unit**: `03.07.18`
+- **prerequisites**: `gauge-theory.chern-simons-functional-3-manifold`, `diffgeo.connection.connection`, `diffgeo.connection.curvature`, `bundle.principal-bundle`
+- **tier_anchors**:
+  - master: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 2; Atiyah-Bott 1983; Donaldson-Kronheimer §4.2; Freed-Uhlenbeck §3
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 2; Donaldson-Kronheimer §4.2
+  - beginner: quotient-by-redundant-gauge-directions account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Defines the affine connection space $\mathcal A(P)$, the gauge group $\mathcal G(P)$, the quotient $\mathcal B(P)$, the irreducible locus $\mathcal B^*(P)$, and the local Coulomb slice $d_A^*a=0$; proves the slice theorem at an irreducible connection using the invertibility of $d_A^*d_A$ and the Banach implicit function theorem.
+
+### gauge-theory.spectral-flow-floer-grading-mod-8
+
+- **title**: Spectral flow and the Floer grading mod 8
+- **unit**: `03.07.19`
+- **prerequisites**: `gauge-theory.chern-simons-functional-3-manifold`, `gauge-theory.configuration-space-slice-b-star-y`, `spin-geometry.eta-invariant-aps-index`
+- **tier_anchors**:
+  - master: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 4; Floer 1988 §3; Atiyah-Patodi-Singer 1976 *Spectral flow and the index of elliptic operators*
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 4; APS spectral-flow/index theorem
+  - beginner: signed eigenvalue-crossing account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Defines spectral flow for a path of self-adjoint Fredholm Hessians of Chern-Simons, relates it to the APS index of $\frac{d}{dt}+K_t$ on a cylinder, and uses its reduction modulo eight to define the relative grading of instanton Floer generators.
+
+### gauge-theory.uhlenbeck-compactness-asd-cylinders
+
+- **title**: Uhlenbeck compactness for ASD equations on cylinders
+- **unit**: `03.07.20`
+- **prerequisites**: `gauge-theory.asd-equation`, `gauge-theory.conformal-compactification-finite-action-instantons`, `gauge-theory.chern-simons-functional-3-manifold`, `gauge-theory.configuration-space-slice-b-star-y`
+- **tier_anchors**:
+  - master: Uhlenbeck 1982 *Connections with Lp bounds on curvature*; Uhlenbeck 1982 *Removable singularities in Yang-Mills fields*; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 5; Donaldson-Kronheimer §4
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 5; Donaldson-Kronheimer §4
+  - beginner: broken-gradient-line and curvature-bubble compactness account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: States compactness for bounded-energy ASD trajectories on $\mathbb R\times Y$ modulo gauge: subsequences converge to broken trajectories with finitely many $S^4$ instanton bubbles; records energy quantization by $8\pi^2$ and explains how this compactification supplies boundary strata for Floer moduli spaces.
+
+### gauge-theory.gluing-instanton-trajectories
+
+- **title**: Gluing theorem for instanton trajectories
+- **unit**: `03.07.21`
+- **prerequisites**: `gauge-theory.uhlenbeck-compactness-asd-cylinders`, `gauge-theory.spectral-flow-floer-grading-mod-8`, `gauge-theory.configuration-space-slice-b-star-y`, `gauge-theory.chern-simons-functional-3-manifold`
+- **tier_anchors**:
+  - master: Taubes 1982/1984 gluing papers; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 5; Donaldson-Kronheimer §7
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 5; Donaldson-Kronheimer §7
+  - beginner: broken-trajectory plus long-neck gluing account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Constructs a pre-glued ASD trajectory from a broken pair $\alpha\to\gamma\to\beta$, estimates the self-dual curvature error as exponentially small in the neck length, solves the correction equation using a uniform right inverse and contraction mapping, and identifies broken trajectories as boundary collars of compactified moduli spaces.
+
+### gauge-theory.orientations-instanton-trajectory-moduli
+
+- **title**: Orientations on instanton trajectory moduli
+- **unit**: `03.07.22`
+- **prerequisites**: `gauge-theory.gluing-instanton-trajectories`, `gauge-theory.uhlenbeck-compactness-asd-cylinders`, `gauge-theory.spectral-flow-floer-grading-mod-8`, `gauge-theory.configuration-space-slice-b-star-y`
+- **tier_anchors**:
+  - master: Donaldson 1987 *The orientation of Yang-Mills moduli spaces and 4-manifold topology*; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 5 and Furuta appendix; Donaldson-Kronheimer §7
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 5; Donaldson 1987 orientation theorem
+  - beginner: signed-count and oriented-boundary account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Defines determinant lines of the Fredholm linearized ASD operators, coherent orientation systems compatible with gluing, signed counts of zero-dimensional trajectory moduli spaces, and the boundary-sign cancellation that makes the instanton Floer differential square to zero over integer coefficients.
+
+### gauge-theory.instanton-floer-homology
+
+- **title**: Instanton Floer homology $HF_*(Y)$
+- **unit**: `03.07.23`
+- **prerequisites**: `gauge-theory.chern-simons-functional-3-manifold`, `gauge-theory.configuration-space-slice-b-star-y`, `gauge-theory.spectral-flow-floer-grading-mod-8`, `gauge-theory.uhlenbeck-compactness-asd-cylinders`, `gauge-theory.gluing-instanton-trajectories`, `gauge-theory.orientations-instanton-trajectory-moduli`
+- **tier_anchors**:
+  - master: Floer 1988 *An instanton-invariant for 3-manifolds*; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 6; Donaldson-Kronheimer §7; Fintushel-Stern 1990 examples
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 6; Floer 1988
+  - beginner: Chern-Simons Morse-homology account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Defines the instanton Floer chain group generated by irreducible perturbed-flat $\mathrm{SU}(2)$ connections, the mod-eight spectral-flow grading, the signed trajectory-count differential, the proof that $\partial^2=0$ from compactness/gluing/orientations, invariance under metric and perturbation via continuation maps, and the basic Poincare homology sphere computation.
+
+### gauge-theory.relative-donaldson-invariants
+
+- **title**: Relative Donaldson invariants for 4-manifolds with boundary
+- **unit**: `03.07.24`
+- **prerequisites**: `gauge-theory.instanton-floer-homology`, `gauge-theory.uhlenbeck-compactness-asd-cylinders`, `gauge-theory.gluing-instanton-trajectories`, `gauge-theory.orientations-instanton-trajectory-moduli`, `gauge-theory.asd-moduli-space`
+- **tier_anchors**:
+  - master: Donaldson 1990 *Polynomial invariants for smooth four-manifolds*; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 7; Donaldson-Kronheimer §7
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 7; Donaldson-Kronheimer §7
+  - beginner: four-manifold-with-boundary as Floer-state account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Assigns a relative Donaldson chain or class in $HF_*(Y)$ to a four-manifold with boundary $Y$ by counting cylindrical-end ASD moduli spaces, proves the relative chain is a cycle, and states the neck-stretching gluing formula pairing relative classes to recover closed Donaldson invariants.
+
+### gauge-theory.donaldson-floer-surgery-exact-triangle
+
+- **title**: Donaldson-Floer surgery exact triangle
+- **unit**: `03.07.25`
+- **prerequisites**: `gauge-theory.instanton-floer-homology`, `gauge-theory.relative-donaldson-invariants`
+- **tier_anchors**:
+  - master: Floer 1990 *Instanton homology, surgery, and knots*; Braam-Donaldson 1995; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 7
+  - intermediate: Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 7; Floer 1990
+  - beginner: exact-triangle surgery account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: States the long exact triangle for a Dehn-surgery triple, identifies maps with two-handle cobordism maps, explains the mapping-cone proof pattern, and records how exactness constrains instanton Floer groups of related surgeries.
+
+### gauge-theory.atiyah-floer-conjecture
+
+- **title**: Atiyah-Floer conjecture
+- **unit**: `03.07.26`
+- **prerequisites**: `gauge-theory.instanton-floer-homology`, `symplectic-geometry.lagrangian-submanifold`, `symplectic-geometry.floer-homology`
+- **tier_anchors**:
+  - master: Atiyah 1988; Dostoglou-Salamon 1994; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 1 and Ch. 7
+  - intermediate: Goldman 1984 surface character varieties; Donaldson *Floer Homology Groups in Yang-Mills Theory* Ch. 1
+  - beginner: gauge-flow versus Lagrangian-intersection dictionary analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: States the conjectural isomorphism between instanton Floer homology of a Heegaard-split three-manifold and Lagrangian Floer homology of the two handlebody restriction images in the surface character variety, including the Goldman symplectic form, generator correspondence, adiabatic-limit bridge, and singularity/reducible caveats.
+
+### gauge-theory.polyfolds-hofer-wysocki-zehnder
+
+- **title**: Polyfolds (Hofer-Wysocki-Zehnder)
+- **unit**: `03.07.27`
+- **prerequisites**: `gauge-theory.atiyah-floer-conjecture`
+- **tier_anchors**:
+  - master: Hofer-Wysocki-Zehnder polyfold Fredholm theory; Fabert-Fish-Golovko-Wehrheim survey
+- **notes**: Master-level pointer to polyfold theory as a unified Fredholm, compactness, gluing, and transversality framework for compactified moduli spaces in Floer, symplectic, contact, and gauge-theoretic settings; explains scale smoothness, sc-Fredholm sections, abstract perturbations, and why the framework is relevant to instanton and Atiyah-Floer analytic problems.
+
+### gauge-theory.monopole-instanton-floer-equivalence-kronheimer-mrowka
+
+- **title**: Monopole-instanton Floer equivalence (Kronheimer-Mrowka)
+- **unit**: `03.07.28`
+- **prerequisites**: `gauge-theory.instanton-floer-homology`, `gauge-theory.atiyah-floer-conjecture`
+- **tier_anchors**:
+  - master: Kronheimer-Mrowka *Monopoles and Three-Manifolds*; Kronheimer-Mrowka 2010 *Knots, sutures, and excision*; modern Floer-equivalence web
+- **notes**: Master-level comparison pointer explaining monopole Floer foundations, Kronheimer-Mrowka sutured monopole and instanton Floer theories, excision, knot and contact applications, and the corrected status of the instanton-monopole relationship as a comparison landscape rather than a blanket theorem identifying every variant.
+
+### numerical-pde.chapter-readme-notation-crosswalk
+
+- **title**: Numerical-PDE chapter README and notation crosswalk
+- **unit**: `24.01.00`
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther FEEC notation; Arnold CBMS FEEC chapter structure; Bott-Tu compatible differential-form conventions
+- **notes**: Opens the numerical-PDE and FEEC chapter, records the subchapter plan, fixes notation for Sobolev spaces, Sobolev differential forms, discrete form spaces, polynomial differential forms, cochain projections, bilinear forms, and FEEC-specific symbols, and states the sequencing principle from continuous stability to discrete stability.
+
+### numerical-pde.sobolev-spaces-h-s-and-w-k-p
+
+- **title**: Sobolev spaces $H^s$ and $W^{k,p}$
+- **unit**: `24.01.01`
+- **prerequisites**: `functional-analysis.banach-space`, `functional-analysis.normed-vector-space`, `functional-analysis.inner-product-space`, `functional-analysis.hilbert-space`
+- **tier_anchors**:
+  - master: Sobolev 1936; Adams-Fournier *Sobolev Spaces*; Evans *Partial Differential Equations* Ch. 5; compact embeddings on bounded Lipschitz domains
+  - intermediate: weak derivatives, $W^{k,p}$ and $H^k$ definitions, trace and embedding statements
+  - beginner: weak smoothness and finite-element tent-function intuition analogous to Strogatz pacing
+- **notes**: Defines weak derivatives, $W^{k,p}(\Omega)$, $H^k(\Omega)$, and fractional $H^s$ spaces; proves completeness and Hilbert structure in the $p=2$ case; states trace, extension, Sobolev embedding, and Rellich-Kondrachov compactness results; and explains why Sobolev spaces are the energy setting for weak PDEs and finite elements.
+
+### numerical-pde.sobolev-spaces-of-differential-forms-h-lambda-k
+
+- **title**: Sobolev spaces of differential forms $H\Lambda^k$
+- **unit**: `24.01.02`
+- **prerequisites**: `numerical-pde.sobolev-spaces-h-s-and-w-k-p`, `differential-forms.differential-forms`, `differential-forms.exterior-derivative`
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther 2006; Arnold FEEC; Hilbert complex formulation of $H\Lambda^k$
+  - intermediate: $L^2\Lambda^k$, weak exterior derivative, graph norm, $H(\operatorname{curl})$, $H(\operatorname{div})$
+  - beginner: gradient-curl-divergence as one form-valued Sobolev sequence
+- **notes**: Defines $L^2\Lambda^k$ and $H\Lambda^k$ as the domain of the weak exterior derivative with graph norm, identifies the three-dimensional proxy sequence $H^1\to H(\operatorname{curl})\to H(\operatorname{div})\to L^2$, proves the Hilbert-complex property $d^2=0$, and explains tangential/normal trace distinctions behind FEEC-conforming finite elements.
+
+### numerical-pde.weak-variational-formulation-elliptic-pde
+
+- **title**: Weak / variational formulation of elliptic PDE
+- **unit**: `24.01.03`
+- **prerequisites**: `numerical-pde.sobolev-spaces-h-s-and-w-k-p`, `functional-analysis.banach-space`, `functional-analysis.hilbert-space`
+- **tier_anchors**:
+  - master: Galerkin 1915; Lax-Milgram 1954; Evans weak elliptic theory; Brenner-Scott FEM foundations
+  - intermediate: variational problem $a(u,v)=F(v)$, continuity, coercivity, Lax-Milgram, Galerkin approximation
+  - beginner: energy-balance and test-function intuition for weak PDEs
+- **notes**: Defines weak variational problems on Hilbert spaces, derives the Dirichlet Poisson weak form, states continuity and coercivity, proves Lax-Milgram and Poisson coercivity via Poincare/Friedrichs inequality, introduces Galerkin approximation and orthogonality, and prepares the transition to conforming FEM and saddle-point stability.
+
+### numerical-pde.babuska-brezzi-inf-sup-condition-saddle-point-problems
+
+- **title**: Babuška-Brezzi (inf-sup) condition for saddle-point problems
+- **unit**: `24.01.04`
+- **prerequisites**: `numerical-pde.weak-variational-formulation-elliptic-pde`, `functional-analysis.compact-operators`, `functional-analysis.hilbert-space`
+- **tier_anchors**:
+  - master: Babuška 1971; Brezzi 1974; Brezzi-Fortin mixed methods; Boffi-Brezzi-Fortin applications
+  - intermediate: saddle-point block form, kernel coercivity, continuous and discrete inf-sup conditions, Fortin criterion
+  - beginner: constraint-stability intuition for mixed methods
+- **notes**: States the Babuška-Brezzi theorem for Hilbert-space saddle-point problems, defines the inf-sup condition and coercivity on the constraint kernel, explains multiplier uniqueness and discrete mesh-independent stability, proves the Fortin criterion, and positions inf-sup theory as the pre-FEEC stability framework for mixed methods.
+
+### differential-forms.hodge-laplacian-riemannian-manifold
+
+- **title**: Hodge Laplacian on a Riemannian manifold
+- **unit**: `03.04.15`
+- **prerequisites**: `differential-forms.exterior-derivative`, `topology.de-rham-cohomology`, `alg-geom.hodge-decomposition`
+- **tier_anchors**:
+  - master: Hodge 1941; elliptic Hodge theorem on compact oriented Riemannian manifolds; Arnold FEEC Lecture 1
+  - intermediate: Hodge star, codifferential, $\Delta=d\delta+\delta d$, harmonic forms, Hodge decomposition
+  - beginner: exact, coexact, and harmonic parts as the analytic split of form fields
+- **notes**: Defines the Hodge star, codifferential, and Hodge Laplacian on differential forms, states the harmonic representative theorem for de Rham cohomology, proves the energy identity and harmonic iff closed-coclosed criterion, and bridges smooth Hodge theory to FEEC mixed formulations of the Hodge Laplacian.
+
+### numerical-pde.classical-conforming-fem-galerkin-cea-bramble-hilbert
+
+- **title**: Classical conforming FEM — Galerkin, Céa, Bramble-Hilbert
+- **unit**: `24.02.01`
+- **prerequisites**: `numerical-pde.weak-variational-formulation-elliptic-pde`, `numerical-pde.sobolev-spaces-h-s-and-w-k-p`
+- **tier_anchors**:
+  - master: Courant 1943; Céa 1964; Bramble-Hilbert 1970; Ciarlet finite element framework
+  - intermediate: conforming Galerkin method, Galerkin orthogonality, Céa's lemma, interpolation and Bramble-Hilbert estimates
+  - beginner: mesh-based piecewise-polynomial approximation of weak PDEs
+- **notes**: Defines conforming Galerkin FEM for coercive weak problems, proves Galerkin orthogonality and Céa's lemma, explains local polynomial approximation through Bramble-Hilbert estimates, connects interpolation estimates to Sobolev error rates, and positions classical scalar FEM as the baseline before mixed FEM and FEEC.
+
+### numerical-pde.mixed-fem-poisson-raviart-thomas
+
+- **title**: Mixed FEM for the Poisson equation (Raviart-Thomas)
+- **unit**: `24.02.02`
+- **prerequisites**: `numerical-pde.classical-conforming-fem-galerkin-cea-bramble-hilbert`, `numerical-pde.babuska-brezzi-inf-sup-condition-saddle-point-problems`, `numerical-pde.sobolev-spaces-of-differential-forms-h-lambda-k`
+- **tier_anchors**:
+  - master: Raviart-Thomas 1977; Brezzi-Douglas-Marini 1985; Brezzi-Fortin mixed methods; Arnold-Falk-Winther FEEC identification
+  - intermediate: mixed Poisson in $H(\operatorname{div})\times L^2$, Raviart-Thomas spaces, divergence inf-sup, commuting projection
+  - beginner: flux-first locally conservative approximation on a mesh
+- **notes**: Derives the mixed first-order Poisson system with flux and scalar unknowns, states the $H(\operatorname{div})\times L^2$ weak form, explains Raviart-Thomas normal-flux conformity, proves the Babuška-Brezzi stability pattern, records local conservation and commuting-projection arguments, and connects RT/BDM spaces to FEEC polynomial differential forms.
+
+### numerical-pde.whitney-forms-mathcal-w-k
+
+- **title**: Whitney forms $\mathcal{W}^k$
+- **unit**: `24.03.01`
+- **prerequisites**: `numerical-pde.chapter-readme-notation-crosswalk`, `numerical-pde.classical-conforming-fem-galerkin-cea-bramble-hilbert`, `differential-forms.differential-forms`, `topology.singular-cohomology`
+- **tier_anchors**:
+  - master: Whitney *Geometric Integration Theory*; Arnold-Falk-Winther FEEC; Bossavit/Hiptmair computational electromagnetism
+  - intermediate: barycentric Whitney form formula, simplex integration degrees of freedom, Whitney map, de Rham map, $dW=W\delta$
+  - beginner: mesh cochains turned into finite element differential forms
+- **notes**: Defines Whitney $k$-forms on oriented simplices using barycentric coordinates, explains orientation signs and integration duality, proves compatibility of the Whitney map with simplicial coboundary and exterior derivative, identifies degree-zero forms with tent functions and one-forms with lowest-order edge elements, and positions Whitney forms as the lowest-order FEEC family.
+
+### numerical-pde.nedelec-first-kind-edge-elements-p-r-minus-lambda-1
+
+- **title**: Nédélec first-kind edge elements and $\mathcal{P}_r^-\Lambda^1$
+- **unit**: `24.03.02`
+- **prerequisites**: `numerical-pde.whitney-forms-mathcal-w-k`, `numerical-pde.mixed-fem-poisson-raviart-thomas`, `numerical-pde.sobolev-spaces-of-differential-forms-h-lambda-k`
+- **tier_anchors**:
+  - master: Nédélec 1980; Hiptmair computational electromagnetism; Arnold-Falk-Winther FEEC identification with trimmed polynomial one-forms
+  - intermediate: Nédélec first-kind space, edge tangential moments, $H(\operatorname{curl})$ conformity, $\mathcal P_r^-\Lambda^1$
+  - beginner: edge-based finite elements for tangential circulation and curl problems
+- **notes**: Defines lowest-order and higher-order first-kind Nédélec edge elements, records edge tangential moments and $H(\operatorname{curl})$ conformity, identifies the family with trimmed polynomial one-forms in FEEC, proves the tangential trace assembly principle, and connects Nédélec spaces to Whitney forms, Raviart-Thomas spaces, and Maxwell discretization.
+
+### numerical-pde.polynomial-differential-form-spaces-p-r-lambda-k-p-r-minus-lambda-k
+
+- **title**: Polynomial differential form spaces $\mathcal{P}_r\Lambda^k$ and $\mathcal{P}_r^-\Lambda^k$
+- **unit**: `24.03.03`
+- **prerequisites**: `numerical-pde.whitney-forms-mathcal-w-k`, `numerical-pde.nedelec-first-kind-edge-elements-p-r-minus-lambda-1`, `numerical-pde.mixed-fem-poisson-raviart-thomas`, `differential-forms.exterior-derivative`
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther 2006 polynomial differential form families; Koszul complex; Lagrange/RT/BDM/Nédélec unification
+  - intermediate: full and trimmed polynomial form spaces, Koszul operator, exterior derivative compatibility, classical element identification table
+  - beginner: finite element families organized by form degree and polynomial degree
+- **notes**: Defines full polynomial differential forms $\mathcal P_r\Lambda^k$ and trimmed spaces $\mathcal P_r^-\Lambda^k$, introduces the Koszul operator, states the corrected nesting $\mathcal P_r^-\Lambda^k\subset\mathcal P_r\Lambda^k\subset\mathcal P_{r+1}^-\Lambda^k$, proves exterior-derivative compatibility, and identifies Lagrange, Raviart-Thomas, BDM, and Nédélec families as special cases.
+
+### numerical-pde.discrete-de-rham-complex-feec-subcomplex-axiom
+
+- **title**: Discrete de Rham complex and the FEEC subcomplex axiom
+- **unit**: `24.03.04`
+- **prerequisites**: `numerical-pde.whitney-forms-mathcal-w-k`, `numerical-pde.polynomial-differential-form-spaces-p-r-lambda-k-p-r-minus-lambda-k`, `topology.de-rham-cohomology`
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther FEEC subcomplex axiom; discrete de Rham cohomology; Whitney/de Rham maps
+  - intermediate: finite-dimensional subcomplex $\Lambda_h^\bullet\subset H\Lambda^\bullet$, full and trimmed FEEC sequences, discrete cohomology
+  - beginner: finite element spaces linked by gradient-curl-divergence without breaking the chain
+- **notes**: Defines finite element de Rham subcomplexes, states the FEEC closure axiom $d\Lambda_h^k\subset\Lambda_h^{k+1}$, presents the full and trimmed polynomial-form sequences, defines discrete cohomology, proves that Whitney and polynomial FEEC spaces form subcomplexes, and explains why preserving $d^2=0$ and topology is a stability mechanism.
+
+### numerical-pde.bounded-cochain-projection-commuting-diagram
+
+- **title**: Bounded cochain projection and the commuting diagram
+- **unit**: `24.03.05`
+- **prerequisites**: `numerical-pde.sobolev-spaces-of-differential-forms-h-lambda-k`, `numerical-pde.polynomial-differential-form-spaces-p-r-lambda-k-p-r-minus-lambda-k`, `numerical-pde.discrete-de-rham-complex-feec-subcomplex-axiom`
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther bounded cochain projections; Schoberl commuting quasi-interpolation; Falk-Winther local bounded cochain projections
+  - intermediate: cochain projection $\pi_h^k$, projection property, commuting identity $d\pi_h^k=\pi_h^{k+1}d$, mesh-uniform boundedness
+  - beginner: stable projection from continuous fields to mesh fields that preserves derivatives
+- **notes**: Defines bounded cochain projections from $H\Lambda^k$ onto finite element subcomplexes, states the commuting diagram with the exterior derivative, proves that closed and exact forms project to closed and exact discrete forms, explains why smoothed projections are needed for low-regularity forms, and positions the projection as the FEEC analogue of a Fortin operator.
+
+### numerical-pde.feec-convergence-theorem-arnold-falk-winther
+
+- **title**: FEEC convergence theorem (Arnold-Falk-Winther)
+- **unit**: `24.03.06`
+- **prerequisites**: `numerical-pde.sobolev-spaces-of-differential-forms-h-lambda-k`, `numerical-pde.babuska-brezzi-inf-sup-condition-saddle-point-problems`, `differential-forms.hodge-laplacian-riemannian-manifold`, `numerical-pde.polynomial-differential-form-spaces-p-r-lambda-k-p-r-minus-lambda-k`, `numerical-pde.discrete-de-rham-complex-feec-subcomplex-axiom`, `numerical-pde.bounded-cochain-projection-commuting-diagram`
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther 2006 FEEC convergence theorem; AFW 2010 Hodge-theory-to-stability narrative
+  - intermediate: discrete Poincare-Friedrichs inequality, bounded cochain projection, mixed Hodge Laplacian stability, a priori error estimate
+  - beginner: structure-preserving finite elements converge because the mesh complex preserves the PDE complex
+- **notes**: States the FEEC convergence pattern for mixed Hodge Laplacian problems, explains how finite element subcomplexes and bounded cochain projections imply discrete Poincare inequalities and stability, gives a representative a priori error estimate, tracks harmonic/cohomology terms, and identifies the theorem as the load-bearing synthesis behind compatible FEM for scalar, curl, divergence, and Hodge-Laplacian problems.
+
+### numerical-pde.mixed-fem-hodge-laplacian
+
+- **title**: Mixed FEM for the Hodge Laplacian
+- **unit**: `24.04.01`
+- **prerequisites**: `differential-forms.hodge-laplacian-riemannian-manifold`, `numerical-pde.babuska-brezzi-inf-sup-condition-saddle-point-problems`, `numerical-pde.bounded-cochain-projection-commuting-diagram`, `numerical-pde.feec-convergence-theorem-arnold-falk-winther`
+- **tier_anchors**:
+  - master: Arnold-Falk-Winther FEEC mixed Hodge Laplacian; Hilbert complex saddle-point formulation; discrete harmonic forms and block solvers
+  - intermediate: mixed weak formulation, auxiliary variable $\sigma=d^*u$, harmonic side condition, finite element subcomplex discretization
+  - beginner: solve form-valued Laplace equations while preserving exact, coexact, and harmonic pieces
+- **notes**: Applies FEEC to the mixed Hodge Laplacian, deriving the first-order saddle-point formulation with auxiliary and harmonic variables, explaining the discrete finite element subcomplex and harmonic side condition, describing block matrix/solver structure, and invoking the FEEC convergence theorem for stability and a priori error control.
+
+### numerical-pde.maxwell-equations-feec-edge-elements
+
+- **title**: Maxwell equations and FEEC edge elements
+- **unit**: `24.04.02`
+- **prerequisites**: `numerical-pde.nedelec-first-kind-edge-elements-p-r-minus-lambda-1`, `numerical-pde.feec-convergence-theorem-arnold-falk-winther`, `numerical-pde.mixed-fem-hodge-laplacian`, `electromagnetism.maxwell-equations-differential-form`
+- **tier_anchors**:
+  - master: Maxwell 1865 electromagnetic field theory; Nedelec 1980 edge elements; Hiptmair 2002 computational electromagnetism; AFW FEEC Maxwell framing
+  - intermediate: time-harmonic Maxwell curl-curl weak form, H(curl), Nedelec edge spaces, gradient kernel, discrete de Rham complex, discrete compactness
+  - beginner: edge-element simulation of electromagnetic waves without false modes
+- **notes**: Applies FEEC to time-harmonic Maxwell equations by identifying electric fields with the one-form/H(curl) slot, discretizing with Nedelec edge elements, preserving the gradient-curl-div de Rham sequence, explaining the gradient kernel and spurious-mode problem, and using bounded cochain projections/discrete compactness as the stability mechanism.
+
+### numerical-pde.linearised-elasticity-afw-symmetric-tensor-mixed-elements
+
+- **title**: Linearised elasticity via AFW symmetric-tensor mixed elements
+- **unit**: `24.04.03`
+- **prerequisites**: `numerical-pde.feec-convergence-theorem-arnold-falk-winther`, `numerical-pde.mixed-fem-hodge-laplacian`, `classical-mechanics.continuum-mechanics`
+- **tier_anchors**:
+  - master: Arnold-Winther 2002 mixed finite elements for elasticity; Arnold-Falk-Winther 2007 weakly imposed symmetry; symmetric-tensor-valued FEEC and elasticity complex
+  - intermediate: Hellinger-Reissner mixed elasticity, stress in H(div; S), displacement in L2, Babuška-Brezzi stability, elasticity complex
+  - beginner: mesh methods for elastic solids that keep stress balance and symmetry under control
+- **notes**: Applies FEEC-style compatible finite element design to linear elasticity, introducing the stress-displacement Hellinger-Reissner formulation, the symmetric stress constraint, the elasticity complex with symmetric gradient/compatibility/divergence operators, and the AFW stability mechanism using compatible tensor-valued spaces and Fortin/cochain projections.
+
+### numerical-pde.smooth-feec-pointer-falk-neilan
+
+- **title**: Smooth FEEC pointer (Falk-Neilan)
+- **unit**: `24.04.04`
+- **prerequisites**: `numerical-pde.discrete-de-rham-complex-feec-subcomplex-axiom`, `numerical-pde.bounded-cochain-projection-commuting-diagram`, `numerical-pde.feec-convergence-theorem-arnold-falk-winther`
+- **tier_anchors**:
+  - master: Falk-Neilan 2013 Stokes complexes; Neilan 2015 three-dimensional smooth de Rham complexes; high-continuity FEEC
+- **notes**: Pointer unit for smooth FEEC: high-continuity finite element complexes, Stokes complexes, pointwise mass conservation, smooth commuting projections, and the extension of FEEC compatibility beyond standard low-continuity element families.
+
+### numerical-pde.isogeometric-exterior-calculus-pointer
+
+- **title**: Isogeometric exterior calculus pointer
+- **unit**: `24.04.05`
+- **prerequisites**: `numerical-pde.discrete-de-rham-complex-feec-subcomplex-axiom`, `numerical-pde.bounded-cochain-projection-commuting-diagram`, `numerical-pde.feec-convergence-theorem-arnold-falk-winther`
+- **tier_anchors**:
+  - master: Buffa-Rivas-Sangalli-Vazquez 2011 isogeometric discrete differential forms; Hughes-Cottrell-Bazilevs isogeometric analysis
+- **notes**: Pointer unit for spline/NURBS-based de Rham complexes, explaining how FEEC compatibility extends to CAD-derived geometry, tensor-product spline spaces, degree/continuity shifts, Piola transforms, and commuting projections.
+
+### numerical-pde.virtual-element-exterior-calculus-pointer
+
+- **title**: Virtual element exterior calculus pointer
+- **unit**: `24.04.06`
+- **prerequisites**: `numerical-pde.discrete-de-rham-complex-feec-subcomplex-axiom`, `numerical-pde.bounded-cochain-projection-commuting-diagram`, `numerical-pde.feec-convergence-theorem-arnold-falk-winther`
+- **tier_anchors**:
+  - master: Beirao da Veiga-Brezzi-Marini-Russo 2018 virtual element exterior calculus; polygonal/polyhedral compatible complexes
+- **notes**: Pointer unit for virtual element exterior calculus, covering compatible de Rham complexes on polygonal and polyhedral meshes, implicit local spaces, computable projections, stabilization, and VEM's extension of FEEC principles to general mesh cells.
 
 ### physics.cft.basics
 
@@ -6572,6 +7044,50 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Popper 1935, Kuhn 1962, Lakatos 1970, Feyerabend 1975, van Fraassen 1980"
 - **notes**: The demarcation problem (what counts as science), logical positivism and its collapse, Popper's falsificationism and the asymmetry between verification and falsification, conventionalist stratagems, Kuhn's paradigms and scientific revolutions (normal science, anomaly, crisis, incommensurability), Lakatos's research programmes (hard core, protective belt, progressive vs degenerating problemshifts), Feyerabend's epistemological anarchism, the Duhem-Quine thesis (holism about confirmation), underdetermination (transient and permanent), scientific realism vs anti-realism (instrumentalism, constructive empiricism, structural realism, entity realism, selective realism), and values in science (the value-free ideal, inductive risk, feminist epistemology, situated knowledges, social objectivity). No Lean formalisation; human-review-only at I/M tier.
 
+### philosophy.confucianism-ethics-society
+
+- **title**: Confucianism: ethics, society, and the exemplary person
+- **unit**: `20.10.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Any intro to Eastern philosophy; Confucius, The Analects (trans. Slingerland or Ames & Rosemont)"
+  - intermediate: "The Analects full text; Fingarette, Confucius: The Secular as Sacred; Tu Wei-ming, Confucian Thought"
+  - master: "primary sources: Analects, Mencius, Xunzi, Great Learning, Doctrine of the Mean; Zhu Xi commentaries; secondary: Fingarette, Tu, Hall & Ames, Nivison, Rosemont, Angle"
+- **notes**: Confucianism on its own terms: ren (benevolence), li (ritual/propriety), xiao (filial piety), junzi (exemplary person), zhong (loyalty), shu (reciprocity). The Analects as text. Confucian education philosophy. Influence on East Asian societies (China, Korea, Japan, Vietnam). Parallels and divergences with Western virtue ethics (Aristotle). Critiques: rigid hierarchy, patriarchal structure, suppression of individual expression, instrumentalization for state power. Neo-Confucianism (Zhu Xi, Wang Yangming). Modern relevance in East Asian business, governance, and education. Presented as a living philosophical tradition with genuine insights and genuine problems, not as 'the Eastern version of Aristotle'. Multi-perspective: Confucianism from insider, critical, feminist, and comparative perspectives. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.buddhism-four-noble-truths-eightfold-path
+
+- **title**: Buddhism: the Four Noble Truths, the Eightfold Path, and the question of suffering
+- **unit**: `20.11.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Any intro to Buddhism; Rahula, What the Buddha Taught; Gethin, The Foundations of Buddhism"
+  - intermediate: "Gethin, Foundations; Harvey, An Introduction to Buddhist Ethics; selected suttas"
+  - master: "primary sources: Dhammacakkappavattana Sutta, Kalama Sutta, Heart Sutra, Diamond Sutra; secondary: Gethin, Harvey, Siderits, Garfield, Lopez, Wright"
+- **notes**: Buddhism on its own terms: the Buddha (Siddhartha Gautama), Four Noble Truths (dukkha, samudaya, nirodha, magga), Eightfold Path, anicca (impermanence), anatta (non-self), dependent origination (pratityasamutpada), nirvana. Theravada, Mahayana, and Vajrayana traditions. Zen Buddhism. Mindfulness and meditation as practice. Buddhist ethics (ahimsa, compassion, karuna, metta). Buddhism and science dialogue. Socially engaged Buddhism (Thich Nhat Hanh, the Dalai Lama, Sarvodaya). Buddhism in the West (adaptation vs appropriation, mindfulness commodification). Critiques: social passivity debates, the problem of evil in Buddhism, gender inequality in monastic orders, Buddhist nationalism in Myanmar and Sri Lanka. No exoticization or mystification. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.advaita-vedanta-hindu-philosophy
+
+- **title**: Advaita Vedanta and Hindu philosophy: Brahman, Atman, and the question of reality
+- **unit**: `20.12.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Any intro to Hindu philosophy; Radhakrishnan, Indian Philosophy vol. 1; Deutsch, Advaita Vedanta"
+  - intermediate: "Deutsch, Advaita Vedanta; Potter, Encyclopedia of Indian Philosophies; selected Upanishads and Bhagavad Gita"
+  - master: "primary sources: Principal Upanishads, Brahma Sutras, Bhagavad Gita, Shankara commentaries; secondary: Deutsch, Potter, Indich, Hacker, Halbfass, King"
+- **notes**: Hindu philosophy on its own terms: the Vedas and Upanishads, Brahman (ultimate reality) and Atman (self), maya (illusion/appearance), karma and rebirth, dharma, the Bhagavad Gita (Arjuna's dilemma, karma yoga, bhakti yoga, jnana yoga). Shankara's non-dualism (advaita). Six schools of Hindu philosophy (Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, Vedanta) overview. Yoga as philosophical system (Patanjali's Yoga Sutras) not exercise. Hindu ethics. The caste system as social construction with philosophical rationalization — distinguished from the philosophical core. Hindu philosophy's contributions to world thought: zero, infinity, linguistics (Panini), logic (Navya-Nyaya). Presented without exoticization. Critiques: caste, gender, Brahminical authority. No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.daoism-wuwei-natural-harmony
+
+- **title**: Daoism: wu wei, the Dao, and natural harmony
+- **unit**: `20.13.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Any intro to Daoism; Laozi, Daodejing (trans. Ames & Waterman or Ivanhoe); Zhuangzi selections"
+  - intermediate: "Daodejing full text; Zhuangzi Inner Chapters; Ivanhoe, Readings in Classical Chinese Philosophy"
+  - master: "primary sources: Daodejing, Zhuangzi, Liezi, Huainanzi; secondary: Ames, Ivanhoe, Kupperman, Schwartz, Graham, LaFargue"
+- **notes**: Daoism on its own terms: Laozi and the Daodejing, wu wei (non-action/effortless action), the Dao (the Way), de (virtue/power), yin-yang, qi. Zhuangzi and radical freedom (the butterfly dream, the useless tree). Daoism vs Confucianism: spontaneity vs social order as competing responses to the same social conditions. Daoist influence on Chinese art (landscape painting, poetry), medicine (Traditional Chinese Medicine, acupuncture), and martial arts (taiji, qigong). Environmental philosophy in Daoism. Religious Daoism vs philosophical Daoism distinction problematized. Daoism in the modern world: deep ecology, management theory, appropriation concerns. Critiques: political quietism, the problem of advice (if the Dao cannot be spoken of, what is the Daodejing doing?), historicity of Laozi. No exoticization or mystification. No Lean formalisation; human-review-only at I/M tier.
+
 ### literature.catcher-in-the-rye-salinger
 
 - **title**: Reading guide: The Catcher in the Rye (Salinger)
@@ -6817,12 +7333,272 @@ These entries register live draft units so the validator can distinguish "unknow
 
 - **title**: The Cold War: US, Soviet, Chinese, and Non-Aligned Perspectives
 - **unit**: `32.24.01`
-- **prerequisites**: `world-history.decolonization` (32.23.01)
+- **prerequisites**: `world-history.world-war-two-global-theaters` (32.22.01)
+- **tier_anchors**:
+  - beginner: "Westad, The Cold War; Gaddis, The Cold War; any world history textbook Cold War chapters"
+  - intermediate: "Westad, The Cold War; Gaddis, The Cold War; NSC-68; Khrushchev Secret Speech"
+  - master: "primary sources: NSC-68, Khrushchev Secret Speech, Cuban Missile Crisis correspondence, Sino-Soviet split documents, NAM Bandung declarations, Detente agreements, Reagan-Gorbachev Reykjavik transcripts; secondary: Westad, Gaddis, Zubok, Chen Jian, Odd Arne Westad"
+- **notes**: The Cold War from US, Soviet, Chinese, and Non-Aligned perspectives. No Lean formalisation; human-review-only at all tiers.
+
+### world-history.mongol-empire-legacy
+
+- **title**: The Mongol Empire and its legacy
+- **unit**: `32.13.01`
+- **prerequisites**: `world-history.ancient-china-shang-through-han` (32.05.01), `world-history.islamic-golden-age-caliphates` (32.10.01)
+- **tier_anchors**:
+  - beginner: "Weatherford, Genghis Khan and the Making of the Modern World; any world history textbook"
+  - intermediate: "Morgan, The Mongols; Rossabi, Khubilai Khan; The Secret History of the Mongols (abridged)"
+  - master: "primary sources: The Secret History of the Mongols, Juvaini Tarikh-i Jahangushay, Rashid al-Din Jami al-Tawarikh, Marco Polo Il Milione, Carpini and Rubruck mission accounts, Yuanshi, Russian Primary Chronicle, Korean Koryo-sa; secondary: Morgan, Rossabi, Weatherford, May, Manz, Jackson"
+- **notes**: The Mongol Empire (1206-1294 CE) — the largest contiguous land empire in history. Genghis Khan's unification of Mongol tribes, military campaigns across Eurasia, the four khanates (Yuan, Ilkhanate, Golden Horde, Chagatai). Massive destruction (30-40M killed, cities annihilated) AND the Pax Mongolica (Silk Road trade, technology transfer, cultural exchange). MULTI-PERSPECTIVE: Mongol sources (Secret History of the Mongols) alongside accounts of conquered peoples in Persian, Chinese, Russian, Korean, and Arabic. No Lean formalisation; human-review-only at all tiers.
+
+### world-history.age-of-exploration-multiple-perspectives
+
+- **title**: Age of Exploration: Multiple Perspectives
+- **unit**: `32.14.01`
+- **prerequisites**: `world-history.medieval-europe-crusades` (32.11.01), `world-history.americas-olmec-maya-inca-aztec` (32.09.01)
+- **tier_anchors**:
+  - beginner: "Crosby, The Columbian Exchange; any world history textbook Age of Exploration chapters"
+  - intermediate: "Crosby, The Columbian Exchange; Thornton, Africa and Africans; Fernandez-Armesto, Pathfinders; primary sources: Columbus journals (abridged), de las Casas Short Account (excerpts)"
+  - master: "primary sources: Columbus Diario, de las Casas Short Account, Afonso I letters, Barros Decadas, Ming Shilu Zheng He entries, Florentine Codex Bk. 12, Guaman Poma, Diaz del Castillo; secondary: Crosby, Thornton, Fernandez-Armesto, Pagden, Seed, Dussel, Blaut, Waley-Cohen, Restall"
+- **notes**: Age of Exploration from European, Indigenous American, African, and Asian perspectives. Columbus, the Columbian Exchange (biological and cultural consequences), Zheng He's voyages, Portuguese and Spanish colonization, the impact on Indigenous civilizations. MULTI-PERSPECTIVE: European explorers AND the peoples they encountered; Dussel's critique of the "discovery" narrative; African agency in the Atlantic world; Chinese maritime exploration. No Lean formalisation; human-review-only at all tiers.
+
+### world-history.colonialism-imperialism-colonizer-colonized
+
+- **title**: Colonialism and imperialism: colonizer and colonized
+- **unit**: `32.15.01`
+- **prerequisites**: `world-history.age-of-exploration-multiple-perspectives` (32.14.01)
+- **tier_anchors**:
+  - beginner: "Cannadine, Ornamentalism; any world history textbook colonialism chapters"
+  - intermediate: "Cannadine, Ornamentalism; Achebe, Things Fall Apart; Hochschild, King Leopold's Ghost"
+  - master: "primary sources: Las Casas Short Account, Nzinga letters, EIC records, Ba Subramanyam 1857 diary, Morel Red Rubber, Williams Capitalism and Slavery, Casement Report, Berlin Conference Act 1885, Herero petition; secondary: Cain/Hopkins, Pakenham, Hochschild, Mamdani, Fanon, Cesaire"
+- **notes**: Colonialism and imperialism from both colonizer and colonized perspectives. British, French, Belgian, Dutch, and other colonial systems. Settler colonialism vs extractive colonialism. Impact on colonized peoples: economic exploitation, cultural destruction, resistance movements. MULTI-PERSPECTIVE: Cannadine on how British saw their empire alongside Achebe, Fanon, and Cesaire on the experience of the colonized. No Lean formalisation; human-review-only at all tiers.
+
+### world-history.enlightenment-revolutions
+
+- **title**: Enlightenment and Revolutions: American, French, Haitian, and Latin American
+- **unit**: `32.17.01`
+- **prerequisites**: `world-history.colonialism-imperialism-colonizer-colonized` (32.15.01)
+- **tier_anchors**:
+  - beginner: "any world history textbook; Paine, Common Sense; Locke, Second Treatise (excerpts)"
+  - intermediate: "Locke, Second Treatise; Rousseau, Social Contract (excerpts); Paine, Common Sense and Rights of Man; Dubois, Avengers of the New World; Lynch, The Spanish American Revolutions"
+  - master: "primary sources: Locke Second Treatise, Rousseau Social Contract, Montesquieu Spirit of the Laws, Voltaire Letters on England, Declaration of Independence, Declaration of the Rights of Man and Citizen, Haitian Constitution of 1805, Bolivar Jamaica Letter, Louverture Constitution of 1801; secondary: Dubois, James, Popkin, Armitage, Lynch, Hunt"
+- **notes**: Enlightenment thought and the revolutions it inspired: American, French, Haitian, and Latin American independence movements. Locke, Rousseau, Montesquieu. The Haitian Revolution as the only successful slave revolt in history, often omitted from standard accounts. MULTI-PERSPECTIVE: Enlightenment ideals of liberty alongside the reality of slavery and colonialism; Haitian Revolution centered rather than marginalized; Bolivar and Latin American independence; the limits of Enlightenment universalism. No Lean formalisation; human-review-only at all tiers.
+
+### world-history.industrial-revolution-global-consequences
+
+- **title**: Industrial Revolution and its global consequences
+- **unit**: `32.18.01`
+- **prerequisites**: `world-history.enlightenment-revolutions` (32.17.01)
+- **tier_anchors**:
+  - beginner: "Hobsbawm, The Industrial Revolution; Allen, The Industrial Revolution in Global Perspective"
+  - intermediate: "Allen, The Industrial Revolution in Global Perspective; Hobsbawm, Industry and Empire; Marx and Engels, The Communist Manifesto (selections)"
+  - master: "primary sources: Factory Commission reports 1832-33, Sadler Report, Engels Condition of the Working Class in England, testimony before Parliament, Qing edicts on opium, Marx Capital Vol. 1 selections, Parliamentary debates on Corn Laws and Navigation Acts; secondary: Allen, Hobsbawm, Pomeranz, Parthasarathi, Beckert, Headrick, Bayly"
+- **notes**: Industrial Revolution from multiple perspectives. British ingenuity and technological progress alongside experiences of Indian textile workers whose industry was destroyed, Chinese populations subjected to Opium Wars, African communities reshaped by extractive commerce, and British factory workers including children. The Great Divergence debate (Pomeranz, Parthasarathi). Global consequences: deindustrialization of colonized economies, environmental degradation, persistent inequality between industrial and non-industrial nations. MULTI-PERSPECTIVE: Progress and suffering as simultaneous truths. No Lean formalisation; human-review-only at all tiers.
+
+### world-history.meiji-japan-qing-collapse-scramble-for-africa
+
+- **title**: Meiji Japan, Qing collapse, and the Scramble for Africa
+- **unit**: `32.19.01`
+- **prerequisites**: `world-history.industrial-revolution-global-consequences` (32.18.01), `world-history.colonialism-imperialism-colonizer-colonized` (32.15.01)
+- **tier_anchors**:
+  - beginner: "Beasley, The Meiji Restoration; Spence, The Search for Modern China; Pakenham, The Scramble for Africa"
+  - intermediate: "Beasley, The Meiji Restoration; Spence, The Search for Modern China; Pakenham, The Scramble for Africa; Hobsbawm, The Age of Empire"
+  - master: "primary sources: Meiji Charter Oath 1868, Iwakura Mission report, Treaty of Shimonoseki 1895, Treaty of Portsmouth 1905, General Act of Berlin Conference 1885, Emperor Guangxu edicts, Boxer Protocol 1901, Menelik II letter to European powers, Samori Toure correspondence, Yaa Asantewaa speech to Ashanti chiefs, Cetshwayo testimony 1879, Hong Xiuquan Taiping declarations; secondary: Beasley, Spence, Pakenham, Hobsbawm, Mamdani, Wesseling, Aldrich, Jansen, Hane, Platt"
+- **notes**: Three converging transformations in the second half of the 19th century: Japan's Meiji Restoration (rapid modernization, cultural suppression, militarist ideology), China's Qing collapse (Opium Wars, Taiping Rebellion, century of humiliation), and the Scramble for Africa (European partition, African resistance, Ethiopia's victory at Adwa). These events form a connected web driven by industrial power. MULTI-PERSPECTIVE: Meiji modernization as achievement AND cost; Qing collapse from Chinese and Taiping rebel perspectives; African resistance with African leaders as strategic actors. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.introduction-psychology-research-methods
+
+- **title**: Introduction to psychology and research methods
+- **unit**: `29.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Gray, Psychology (8e), Ch. 1-2; Gazzaniga and Heatherton, Psychological Science, Ch. 1-2"
+  - intermediate: "Myers and Hansen, Experimental Psychology (7e); Cohen et al., Applied Multiple Regression/Correlation Analysis"
+  - master: "primary sources: Wundt 1874, James 1890, Freud 1900, Watson 1913, Skinner 1938, Milgram 1963, Open Science Collaboration 2015, Henrich et al. 2010; secondary: Hergenhahn, Henley, Fancher"
+- **notes**: Foundational unit for the psychology section. What psychology is and is not, brief history (Wundt, James, Freud, behaviorism, cognitivism, biological revolution), the scientific method in psychology, research designs (experimental, correlational, observational, case study, longitudinal), ethics in research (Milgram, Zimbardo, Belmont Report, IRBs), statistics basics (descriptive, inferential, p-values, effect sizes, replication crisis), WEIRD sample problem. Multi-perspective coverage: psychoanalysis, behaviorism, and cognitivism as each having genuine insights and limitations; psychology used for both liberation (civil rights era prejudice research) and oppression (eugenics, scientific racism, CIA torture research); replication crisis as self-correction, not just failure; WEIRD bias means most universal findings are actually findings about American college students. Sets up shared vocabulary for all subsequent units. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.sensation-perception
+
+- **title**: Sensation and perception: how the brain constructs reality from sensory data
+- **unit**: `29.03.01`
+- **prerequisites**: `psychology.introduction` (29.01.01)
+- **tier_anchors**:
+  - beginner: "Goldstein, Sensation and Perception intro chapters; any introductory psychology textbook sensation/perception section"
+  - intermediate: "Goldstein 2018; Sekuler & Blake 2006; Gregory 1997; Coren, Ward & Enns 2004"
+  - master: "primary sources: Weber 1834, Fechner 1860, Helmholtz 1867, Gibson 1979, Marr 1982, Winawer et al. 2007, Segall, Campbell & Herskovits 1966, Regier, Kay & Cook 2005"
+- **notes**: Sensation and perception — the seven senses (vision, hearing, touch, taste, smell, vestibular, proprioception), threshold concepts (absolute threshold, difference threshold, Weber's Law, Fechner's Law, Stevens' Power Law), signal detection theory (d-prime, criterion, ROC curves), perception theories (Gestalt principles, constructivist/Helmholtz, ecological/Gibson, Marr's computational framework), perceptual constancies (size, shape, colour, lightness), depth perception (binocular disparity, monocular cues), visual illusions (Mueller-Lyer, Ponzo, Ames room, Ebbinghaus, McGurk effect), synesthesia and multimodal perception, Bayesian and predictive-coding models, cultural influences on perception (carpentered-world hypothesis, Mueller-Lyer cross-cultural variation, colour perception and linguistic relativity via Winawer et al. 2007 Russian blues, Nisbett scene-perception differences, non-Western aesthetic principles — Japanese wabi-sabi, Islamic geometric art, Australian Aboriginal art), disability perspectives (blindness and cross-modal plasticity, deafness and visual enhancement, social model of disability). MULTI-PERSPECTIVE: perception presented as ACTIVE construction not passive reception. Cultural differences: the Mueller-Lyer illusion is less effective in cultures without carpentered corners (Segall et al. 1966). Colour perception varies by language (Winawer et al. 2007: Russian sinij/goluboj boundary effects). Non-Western aesthetic principles: Japanese ma and wabi-sabi, Islamic geometric art, Aboriginal Dreaming art. Disability: blind and deaf experience as different not deficient — cross-modal plasticity, enhanced non-visual modalities, sign language as complete linguistic system, social model of disability. Covers cognitive penetration debate (Fodor vs Churchland). No Lean formalisation; human-review-only at all tiers.
+
+### psychology.developmental-psychology-lifespan
+
+- **title**: Developmental psychology across the lifespan
+- **unit**: `29.06.01`
+- **prerequisites**: `psychology.introduction-psychology-research-methods` (29.01.01)
+- **tier_anchors**:
+  - beginner: "Berk, Development Through the Lifespan; Siegler et al., Developmental Science"
+  - intermediate: "Berk; Siegler; Piaget original works; Vygotsky Mind in Society; Ainsworth attachment papers; Erikson Childhood and Society"
+  - master: "primary sources: Piaget 1936/1952, 1937/1954, 1945/1962, 1970; Vygotsky 1934/1962, 1978; Bowlby 1969, 1973, 1980; Ainsworth et al. 1978; Erikson 1950, 1968; Kohlberg 1981; Gilligan 1982; Kuhn 1962; Chomsky 1957, 1959, 1965; Kubler-Ross 1969; Baltes 1987; secondary: Berk, Siegler, Cole, Rogoff, Rogoff Chavajay, Rogoff Paradise, Gauvain, Bronfenbrenner, Super and Harkness, Keller, Weisner, Greenfield, Nielsen and Haun"
+- **notes**: Developmental psychology across the full lifespan. Prenatal development (germinal, embryonic, fetal periods; teratogens; maternal health). Piaget's four stages (sensorimotor, preoperational, concrete operational, formal operational) with critiques: children are more capable than Piaget credited, object permanence earlier, horizontal decalage, underestimation of social context. Vygotsky's sociocultural theory: zone of proximal development, scaffolding, cultural tools, private speech, emphasis on social and cultural factors in cognitive development. Attachment theory: Bowlby's ethological approach, Ainsworth's Strange Situation, secure/insecure/anxious/avoidant/disorganized patterns, cross-cultural attachment variation. Erikson's eight psychosocial stages. Moral development: Kohlberg's six stages AND Gilligan's critique that his model is biased toward male reasoning patterns, women tend to use ethics of care rather than justice. Language development: Chomsky's LAD and universal grammar vs learning theory (Tomasello, usage-based). Adolescence: identity formation (Marcia's statuses), brain development (prefrontal cortex maturation). Adult development: emerging adulthood, intimacy, career, midlife. Aging: cognitive changes, wisdom, life satisfaction, socioemotional selectivity theory, positive aging perspective. Death and dying: Kubler-Ross stages, critiques, cross-cultural death practices. MULTI-PERSPECTIVE: Piaget is Western and individualistic; Vygotsky presented as equally important for social context of learning. Gilligan's feminist critique of Kohlberg. Parenting across cultures: Western authoritative style is NOT universal; children develop well under many parenting styles. Neurodiversity: autism and ADHD as differences not deficits. Non-nuclear family structures across cultures. Positive aging not just decline. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.cognition-intelligence
+
+- **title**: Cognition and intelligence: thinking, reasoning, and the measurement of mind
+- **unit**: `29.05.01`
+- **prerequisites**: `psychology.learning-memory` (29.04.01)
+- **tier_anchors**:
+  - beginner: "Kahneman, Thinking, Fast and Slow; any intro cognitive psychology textbook"
+  - intermediate: "Kahneman & Tversky collected works; Sternberg, Handbook of Intelligence; Gardner, Frames of Mind"
+  - master: "primary sources: Binet 1905, Terman 1916, Spearman 1904, Thurstone 1938, Kahneman & Tversky 1974/1979/1982, Gardner 1983, Sternberg 1985, Steele & Aronson 1995, Nisbett et al. 2012"
+- **notes**: Cognition (thinking, reasoning, decision-making, problem-solving, creativity, language and thought) and intelligence (history of testing, g-factor, multiple intelligences, triarchic theory, heritability, emotional intelligence, AI). Heuristics and biases: availability, representativeness, anchoring, conjunction fallacy, base rate fallacy. Prospect theory: reference dependence, loss aversion, certainty effect. Problem-solving: algorithms, means-end analysis, insight, functional fixedness. Creativity: divergent vs convergent thinking, Wallas stages, threshold theory. Sapir-Whorf hypothesis: strong form (linguistic determinism, rejected) vs weak form (linguistic relativity, supported). Evidence from spatial reasoning, color perception, time metaphors. Intelligence testing: Binet (educational tool, not measure of innate worth), Terman and Stanford-Binet, Army testing misuse for eugenics and immigration restriction, Spearman's g-factor, Thurstone's primary mental abilities. Gardner's multiple intelligences (eight types). Sternberg's triarchic theory (analytical, creative, practical). MULTI-PERSPECTIVE on race and IQ: (1) historical misuse of testing for eugenics and scientific racism, (2) IQ scores differ between US racial groups BUT this is explained by environmental factors, (3) scientific consensus: no evidence for genetic racial differences in intelligence, (4) stereotype threat (Steele & Aronson 1995) as direct evidence that testing situation impairs performance, (5) IQ tests are culturally specific, (6) Flynn effect demonstrates environmental sensitivity, (7) heritability within groups does not imply heritability between groups (Lewontin 1970). Also: Turkheimer et al. 2003 on SES-dependent heritability, gene-environment correlation, adoption studies. Intelligence as culturally constructed: Western IQ tests measure skills valued in industrialized literate societies. Emotional intelligence (Salovey & Mayer 1990). AI and intelligence: Turing Test, Chinese Room, what current AI systems do and do not demonstrate about intelligence. No Lean formalisation; human-review-only at I/M tier.
+
+### psychology.cross-cultural-indigenous-psychology
+
+- **title**: Cross-cultural and Indigenous psychology
+- **unit**: `29.12.01`
+- **prerequisites**: `psychology.social-psychology` (29.07.01); `psychology.personality` (29.08.01)
+- **tier_anchors**:
+  - beginner: "Heine, Cultural Psychology (4e); Nisbett, The Geography of Thought; Henrich, The WEIRDest People in the World"
+  - intermediate: "Heine; Markus and Kitayama 1991; Nisbett et al. 2001; Hofstede 2001; Berry et al., Cross-Cultural Psychology (4e)"
+  - master: "primary sources: Hofstede 1980, Markus and Kitayama 1991, Nisbett et al. 2001, Henrich et al. 2010, Fanon 1952/1961, Martin-Baro 1994, Enriquez 1992, Sinha 1997, Kim and Berry 1993, Heine 2015/2020; secondary: Heine, Berry, Moghaddam, Ratner, Greenfield"
+- **notes**: Cross-cultural and Indigenous psychology — the capstone unit that problematizes the entire discipline. Covers: WEIRD problem revisited in full; individualism vs collectivism (Triandis, Hofstede); cultural dimensions theory (Hofstede's six dimensions AND critiques: IBM sample, essentializing cultures, Western categories, nation-state mapping); independent vs interdependent self-construal (Markus and Kitayama 1991); analytic vs holistic thinking (Nisbett et al. 2001 — framed-line task, underwater scenes, categorisation); Indigenous psychology movements: Filipino (Enriquez, kapwa, pakikiramdam), Indian (Sinha, anatman, dharma, seva, yogic psychology), Chinese (Hwang, Yang, ren, yuan, mianzi, guanxi), Maori (whakapapa, whanau, te whare tapa wha, wairua), African (Ubuntu); acculturation (Berry's four strategies) and bicultural identity (cultural frame switching); cultural trauma and collective memory (transatlantic slave trade, Indigenous residential schools, Holocaust, partition of India); decolonizing psychology: Fanon's psychiatric practice and analysis of colonialism's psychological effects (Black Skin White Masks, Wretched of the Earth), liberation psychology (Martin-Baro), Indigenous knowledge and epistemological pluralism; universalism vs cultural relativism (moderate universalism). MULTI-PERSPECTIVE: This unit presents the argument that most of "psychology" is actually "American psychology" generalized to the world. Indigenous psychologies presented not as "alternative" but as EQUALLY VALID frameworks. Hofstede's dimensions: useful AND criticized. Fanon as psychiatrist who analyzed colonialism. Martin-Baro and liberation psychology. Cultural differences as REAL and MEANINGFUL, not deviations from a Western norm. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.motivation-emotion
+
+- **title**: Motivation and emotion: drives, needs, feelings, and the forces that shape behaviour
+- **unit**: `29.11.01`
+- **prerequisites**: `psychology.introduction-psychology-research-methods` (29.01.01)
+- **tier_anchors**:
+  - beginner: "Gray, Psychology (8e), Ch. 10-11; Reeve, Understanding Motivation and Emotion; any introductory psychology textbook motivation/emotion chapters"
+  - intermediate: "Reeve, Understanding Motivation and Emotion (7e); Deci and Ryan, Self-Determination Theory; Ekman, Emotions Revealed; Lazarus, Emotion and Adaptation"
+  - master: "primary sources: Hull 1943, Maslow 1943/1954, Deci 1971, Deci and Ryan 1985/2000, Ekman 1972/1992, Schachter and Singer 1962, James 1884, Cannon 1927, Lazarus 1966/1991, Masters and Johnson 1966, Kinsey 1948/1953, McClelland 1961, Salovey and Mayer 1990; secondary: Reeve, Nisbett and Masuda, Mesquita and Frijda, Russell, Barrett"
+- **notes**: Motivation (drive theory, arousal theory, Maslow's hierarchy, self-determination theory, intrinsic vs extrinsic motivation) and emotion (James-Lange, Cannon-Bard, Schachter-Singer, Lazarus, basic emotions debate, emotional intelligence, emotion regulation). Hunger and eating: set-point theory, leptin/ghrelin, cultural factors in body image, eating disorders as cultural phenomenon. Sexual motivation: Kinsey's continuum, Masters and Johnson's sexual response cycle, sexual orientation as natural variation, history of pathologisation and declassification of homosexuality. Achievement motivation (McClelland). MULTI-PERSPECTIVE: Maslow's hierarchy is culturally biased — assumes individualistic self-actualisation as pinnacle; collectivist cultures may prioritise belonging and community. Ekman's universal emotions presented with critiques: forced-choice methodology inflated agreement, many emotions don't translate across cultures, Barrett's constructed emotion alternative. Cultural display rules vary enormously. Hunger/eating: Western thin ideal vs cultures valuing fuller bodies; Becker's Fiji study; eating disorders shaped by cultural norms. Sexual orientation: spectrum not binary, history of pathologisation, conversion therapy harms, non-Western gender/sexuality categories. Emotion regulation strategies vary by culture (suppression less costly in cultures that value restraint). No Lean formalisation; human-review-only at all tiers.
+
+### psychology.neuroscience-brain-behavior
+
+- **title**: Neuroscience: brain and behaviour
+- **unit**: `29.02.01`
+- **prerequisites**: `psychology.introduction-psychology-research-methods` (29.01.01); `cell-biology.cellular-electrophysiology` (17.09.01)
+- **tier_anchors**:
+  - beginner: "Gazzaniga, Ivry, and Mangun, Cognitive Neuroscience: The Biology of the Mind; Bear, Connors, and Paradiso, Neuroscience: Exploring the Brain"
+  - intermediate: "Kandel, Schwartz, Jessell, Siegelbaum, and Hudspeth, Principles of Neural Science 6th ed.; Purves et al., Neuroscience 6th ed."
+  - master: "primary sources: Hodgkin and Huxley 1952, Hubel and Wiesel 1959/1962, Sperry 1961/1968, Bliss and Lomo 1973, Meaney and Szyf 2005; review journals: Nature Reviews Neuroscience, Trends in Neurosciences"
+- **notes**: Neuroscience basics — neurons, synapses, action potentials, neurotransmitters, brain anatomy (lobes, limbic system, brainstem), methods of studying the brain (fMRI, EEG, PET, lesion studies, TMS), neuroplasticity, split-brain research, nature-nurture debate (genes vs environment, epigenetics, gene-environment interaction), gut-brain axis, consciousness and the brain. MULTI-PERSPECTIVE: neuromania critique (everything reduced to brain scans), history of unethical experiments (lobotomies presented as treatment, Moniz Nobel Prize), nature vs nurture with emphasis on gene-environment interaction and epigenetics dissolving the dichotomy. WEIRD populations and animal model generalisability limitations. Hodgkin-Huxley model as quantitative foundation. Consciousness: hard problem, GWT, IIT, higher-order theories. No Lean formalisation; human-review-only at I/M tier.
+
+### psychology.personality-theories-assessment
+
+- **title**: Personality theories and assessment
+- **unit**: `29.08.01`
+- **prerequisites**: `psychology.introduction-psychology-research-methods` (29.01.01)
+- **tier_anchors**:
+  - beginner: "Gray, Psychology (8e), Ch. 14; any introductory psychology textbook personality chapter"
+  - intermediate: "McCrae and Costa, Personality in Adulthood; Eysenck, Dimensions of Personality; Freud, New Introductory Lectures on Psychoanalysis; Rogers, On Becoming a Person; Bandura, Social Learning Theory"
+  - master: "primary sources: Freud 1923/1960, 1905/1953, 1936, 1940/1949; Allport 1937; Cattell 1946; Eysenck 1947; Maslow 1943/1954; Rogers 1951/1961; Rotter 1966; Bandura 1977/1986; McCrae and Costa 1987/2003; Seligman 1975; McCrae and Terracciano 2005; Gurven et al. 2013; De Raad et al. 2010; Church 2000; Markus and Kitayama 1991; Triandis 1995; Nisbett 2003; Hatch 2015 (ame); Ho 1994 (filial piety); Gade 2012 (ubuntu); Hathaway and McKinley 1943 (MMPI); Rorschach 1921; Costa and McCrae 1992 (NEO-PI); secondary: Pervin, Cervone and John, Funder, Mischel"
+- **notes**: Personality — psychodynamic (Freud: id/ego/superego, defense mechanisms, psychosexual stages — presented as historically important but not empirically supported), humanistic (Maslow, Rogers — self-actualization, unconditional positive regard), trait theories (Big Five/OCEAN, Eysenck), social-cognitive (Bandura, Rotter, learned helplessness), biological basis of personality (twin studies, heritability), personality assessment (MMPI, Rorschach controversy, NEO-PI), personality across cultures (Big Five mostly replicates but not perfectly — Gurven et al. Tsimane study, De Raad et al. only three factors fully replicate), indigenous personality concepts (Japanese amae, Chinese filial piety, African ubuntu, Indian gunas), personality disorders preview (DSM clusters, dimensional vs categorical debate, cultural bias in diagnosis). MULTI-PERSPECTIVE: Freud as historically foundational but largely unsupported by modern evidence — cover WHY he was influential not just dismiss him. Big Five: most empirically supported model AND developed in Western contexts — cross-cultural research shows it mostly replicates but not perfectly. Indigenous personality concepts presented as genuine alternative frameworks not curiosities. Humanistic psychology's Western individualism — self-actualization is a culturally specific concept. Personality tests used in hiring can discriminate. Heritability is population statistic not individual destiny. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.psychological-disorders-diagnosis-controversy
+
+- **title**: Psychological disorders: diagnosis, controversy, and the limits of classification
+- **unit**: `29.09.01`
+- **prerequisites**: `psychology.neuroscience-brain-behavior` (29.02.01); `psychology.developmental-psychology-lifespan` (29.06.01)
+- **tier_anchors**:
+  - beginner: "Comer, Abnormal Psychology; Nolen-Hoeksema, Abnormal Psychology; any introductory psychology textbook abnormal psychology chapter"
+  - intermediate: "Comer; Nolen-Hoeksema; APA DSM-5-TR; Horwitz, Creating Mental Illness; Kirk and Kutchins, The Selling of DSM"
+  - master: "primary sources: DSM-I 1952 through DSM-5-TR 2022; Spitzer 1973 homosexuality declassification; Rosenhan 1973; Kirk and Kutchins 1992; Horwitz 2002; Wakefield 1992 harmful dysfunction; Frances 2013 Saving Normal; Hacking 1995 Mad Travelers; Kleinman 1988 Rethinking Psychiatry; Kawa and Giordano 2012; Gone and Kirmayer 2020; Walker and Druss 2023; Robins and Guze 1970; Kendell and Jablensky 2003; Reed et al. 2019 ICD-11; secondary: Comer, Nolen-Hoeksema, Insel, Shorter, Scull, Grob"
+- **notes**: Psychological disorders — history of mental illness treatment (asylums, moral treatment, lobotomy, deinstitutionalisation), DSM system (editions I through 5-TR, reliability vs validity, comorbidity, medicalisation, pharmaceutical industry influence), anxiety disorders (GAD, panic, phobias, OCD), mood disorders (major depression, bipolar I and II), schizophrenia (positive, negative, cognitive symptoms), eating disorders (anorexia, bulimia, binge-eating, cross-cultural presentation), substance use disorders (addiction neurobiology, Rat Park, opioid crisis), trauma and PTSD (Criterion A debate, complex PTSD), neurodiversity (autism, ADHD — medical model AND neurodiversity paradigm, double empathy problem, diagnostic disparities by gender and race), cultural-bound syndromes (koro, amok, susto, hikikomori, ataque de nervios, taijin kyofusho — mental illness shaped by culture, Western diagnoses are also culturally bound), cultural approaches to healing (shamanism, community healing, family-based treatment vs individual therapy, integration question). MULTI-PERSPECTIVE: DSM presented critically — useful tool AND medicalises normal variation AND influenced by pharma. Homosexuality as disorder until 1973 as cautionary tale about scientific consensus. Neurodiversity: medical model (real difficulties) AND neurodiversity paradigm (natural variation, society should accommodate). Cultural-bound syndromes: evidence mental illness is shaped by culture, not exotic conditions. Most diagnostic criteria developed studying White Western populations. ICD-11 as alternative global system. Anti-psychiatry movement: valid critiques of social control AND overreached. RDoC, dimensional approaches, network theory as future directions. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.social-psychology-groups-prejudice
+
+- **title**: Social psychology: social influence, group dynamics, prejudice, and relationships
+- **unit**: `29.07.01`
+- **prerequisites**: `psychology.introduction-psychology-research-methods` (29.01.01)
+- **tier_anchors**:
+  - beginner: "Aronson, The Social Animal; Myers, Social Psychology; any introductory psychology textbook social psychology chapters"
+  - intermediate: "Aronson, Wilson, and Akert, Social Psychology; Cialdini, Influence; Hogg and Vaughan, Social Psychology"
+  - master: "primary sources: Asch 1951, Milgram 1963, Sherif 1936, Zimbardo 1971, Tajfel 1970, Allport 1954, Clark and Clark 1947, Steele and Aronson 1995, Darley and Latane 1968, Bond and Smith 1996, Cialdini 1984, Sherif 1954/1961; secondary: Aronson, Myers, Hogg and Vaughan, Fiske, Brown"
+- **notes**: Social psychology — social influence (conformity, compliance, obedience: Asch, Milgram, Zimbardo), group dynamics (social facilitation, social loafing, groupthink, deindividuation, Sherif's Robbers Cave, realistic conflict theory), prejudice and discrimination (stereotypes, ingroup/outgroup, Tajfel's minimal group paradigm, implicit bias, stereotype threat, intergroup contact theory, jigsaw classroom), attraction and relationships (proximity, similarity, physical attractiveness, Sternberg's triangular theory, attachment theory applied to adult relationships, online dating), altruism and prosocial behavior (bystander effect, Darley and Latane, situational vs dispositional factors). MULTI-PERSPECTIVE: Classic experiments (Milgram, Zimbardo) presented with ethical critiques AND replication concerns. Cultural variation: collectivist vs individualist conformity patterns (Bond and Smith meta-analysis). Prejudice from both majority and minority perspectives. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.therapy-treatment-approaches
+
+- **title**: Therapy and treatment approaches
+- **unit**: `29.10.01`
+- **prerequisites**: `psychology.psychological-disorders-diagnosis-controversy` (29.09.01)
+- **tier_anchors**:
+  - beginner: "Comer and Comer, Abnormal Psychology (11e), Ch. 15-16; any introductory psychology textbook treatment chapters"
+  - intermediate: "Barlow, Clinical Handbook of Psychological Disorders (6e); Roth and Pilling, Competence Frameworks; Lambert, Bergin and Garfield's Handbook of Psychotherapy and Behavior Change (7e, 2021)"
+  - master: "primary sources: Freud 1905/1912, Rogers 1951/1957, Beck 1963/1979, Ellis 1962, Seligman 1995, Kaptchuk 2001, Wampold 2001/2015, Cuijpers et al. 2013/2019, DeRubeis et al. 2005, Holloway 2014, Griner and Smith 2006, Metzl 2009, Washington 2006; secondary: Shedler 2010, Prochaska and Norcross 2018"
+- **notes**: Therapy and treatment approaches — psychodynamic therapy (Freud's psychoanalysis and modern psychodynamic approaches), humanistic therapy (Rogers' client-centered therapy, unconditional positive regard), cognitive-behavioral therapy (Beck's cognitive therapy, Ellis's REBT, CBT for anxiety and depression, exposure therapy), third-wave approaches (ACT, DBT, mindfulness-based), biomedical treatments (psychopharmacology, ECT, TMS, psilocybin research), couples and family therapy, group therapy, evidence-based practice and the dodo bird verdict, common factors vs specific ingredients, cultural competence in therapy, the placebo effect, barriers to treatment access. MULTI-PERSPECTIVE: Biomedical model AND its critique. Cultural variation in healing. Evidence-based practice AND concern about manualized treatment losing therapeutic relationship. Psychodynamic therapy's evidence base (Shedler). No Lean formalisation; human-review-only at all tiers.
+
+ - **prerequisites**: `world-history.decolonization` (32.23.01)
 - **tier_anchors**:
   - beginner: "Gaddis, The Cold War; Westad, The Cold War; any world history textbook Cold War chapters"
   - intermediate: "Gaddis, The Cold War; Westad, The Global Cold War; Kennedy, The Rise and Fall of the Great Powers (Cold War sections)"
   - master: "primary sources: Truman Doctrine speech, Marshall Plan text, Long Telegram (Kennan), Novikov Telegram, NSC-68, Khrushchev Secret Speech, Castro letters to Khrushchev, Ho Chi Minh declarations, Bandung Conference final communique, Non-Aligned Movement founding documents, Reagan Brandenburg Gate speech, Gorbachev perestroika writings, Berlin Wall graffiti and oral testimonies; secondary: Gaddis, Westad, Judt, Applebaum, Grossman, Hirsch, Prados, Logan, Luthi, Westad Global Cold War, Kalb, Beschloss"
 - **notes**: The Cold War from US, Soviet, Chinese, and Non-Aligned perspectives. Truman Doctrine, Marshall Plan, Berlin Blockade, Korean War (four perspectives: American, North Korean, South Korean, Chinese), Cuban Missile Crisis (three perspectives: American, Soviet, Cuban), Vietnam War (American AND Vietnamese perspectives), Sino-Soviet split (three-way Cold War, Mao vs Khrushchev, Nixon exploits split), Non-Aligned Movement (Tito, Nehru, Nasser, Nkrumah, Sukarno), proxy wars with human cost in Global South (Angola, Mozambique, Nicaragua, Afghanistan), nuclear arms race, detente, Reagan and Gorbachev, fall of Berlin Wall, dissolution of Soviet Union. MULTI-PERSPECTIVE: US containment/domino theory genuinely believed; Soviet security after 27M WWII deaths AND ideological anti-imperialism while being imperialist in Eastern Europe; Chinese independent revolution; Non-Aligned countries forced to choose. Cold War's end: Western "victory for freedom" vs Russian economic collapse/humiliation. Cold War effects still alive: North Korea, Cuba embargo, Russian resentment, Chinese party's study of Soviet collapse. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.sociological-imagination-methods
+
+- **title**: The sociological imagination and research methods
+- **unit**: `30.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology (9e), Ch. 1-2; Conley, You May Ask Yourself, Ch. 1"
+  - intermediate: "Giddens; Merton 1968; Mills 1959; Weber 1904/1949; Durkheim 1895"
+  - master: "primary sources: Mills 1959, Weber 1904, Durkheim 1895, Merton 1968, Bourdieu 1977, Comte 1830-1842; secondary: Giddens, Conley, Ritzer"
+- **notes**: Foundational unit for the sociology section. The sociological imagination (Mills), founding figures and perspectives (structural-functionalism, conflict theory, symbolic interactionism, feminist theory), research methods (surveys, interviews, participant observation, content analysis, ethnography, secondary data), ethics in research, the relationship between sociology and other social sciences. MULTI-PERSPECTIVE: sociology emerged from both European and non-European intellectual traditions; founding figures include women and non-Western thinkers often excluded from canons; feminist, postcolonial, and critical race perspectives as fundamental frameworks not add-ons. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.culture-society-global-perspective
+
+- **title**: Culture and society: a global perspective
+- **unit**: `30.02.01`
+- **prerequisites**: `sociology.sociological-imagination-methods` (30.01.01)
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology (9e), Ch. 3; Conley, You May Ask Yourself, Ch. 3; Ferrante, Sociology: A Global Perspective"
+  - intermediate: "Giddens; Geertz 1973; Sapir 1929; Whorf 1956; Durkheim 1912; Berger and Luckmann 1966"
+  - master: "primary sources: Geertz 1973, Sapir 1929, Whorf 1956, Durkheim 1912, Benedict 1934, Boas 1911, Hall 1959/1966, Said 1978, Appadurai 1996, Tomlinson 1999; secondary: Giddens, Ferrante, Erickson"
+- **notes**: Culture and society — material and non-material culture, cultural universals vs cultural relativism, ethnocentrism vs cultural relativism, subcultures and countercultures, cultural diffusion and globalization, cultural imperialism vs cultural hybridity, language and culture (Sapir-Whorf), religion as cultural institution (Christianity, Islam, Hinduism, Buddhism, Judaism, Sikhism, Indigenous spiritual traditions, secularism — all presented equally), culture shock, cultural appropriation vs cultural exchange. MULTI-PERSPECTIVE: All world religions and belief systems presented equally — no religion is "normal" and others "exotic." Cultural appropriation: present the concept AND the critique that it can be over-applied. Cultural imperialism: Western media dominance AND pushback (Nollywood, K-pop, Bollywood). Indigenous cultures as living contemporary cultures, not relics. Secularism/atheism as a worldview alongside religions. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.deviance-social-control
+
+- **title**: Deviance and social control
+- **unit**: `30.06.01`
+- **prerequisites**: `sociology.social-stratification-inequality` (30.04.01)
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology, Ch. 7; Conley, You May Ask Yourself, Ch. 6; Newman, Sociology: Exploring the Architecture of Everyday Life"
+  - intermediate: "Becker, Outsiders; Alexander, The New Jim Crow; Goffman, Stigma; Garland, Punishment and Modern Society"
+  - master: "primary sources: Becker 1963, Durkheim 1895, Merton 1938, Lemert 1951, Scheff 1966, Alexander 2010, Goffman 1963, Foucault 1975, Reiman and Leighton 2013, Sudbury 2005, Wacquant 2009, Western 2006, Clear 2007, Braithwaite 1989, Zimbardo 2007; secondary: Giddens, Conley, Newman, Chambliss, Quinney, Garland"
+- **notes**: Deviance and social control — what counts as deviant changes across time and culture, homosexuality as "deviant" until recently, labeling theory (Becker), criminal justice system disparities (racial profiling, sentencing disparities), the war on drugs as social control (Alexander), white-collar crime (often more harmful but less punished), restorative justice vs punitive justice, the prison-industrial complex, mental health and criminalization, how different societies handle deviance differently. MULTI-PERSPECTIVE: functionalist (Durkheim — deviance serves social functions), conflict (Marxist — deviance defined by powerful to control powerless), symbolic interactionist (labeling theory — deviance is a social construction), feminist (gendered nature of deviance and social control). Cross-cultural comparison of justice systems. Prison-industrial complex as racialized social control. White-collar crime costs exceed street crime but receives less punishment. Mental health criminalization. Restorative justice in Indigenous communities. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.globalization-social-movements
+
+- **title**: Globalization and social movements
+- **unit**: `30.07.01`
+- **prerequisites**: `sociology.race-ethnicity-gender` (30.05.01)
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology, Ch. 16; Steger, Globalization: A Very Short Introduction; Tilly, Social Movements, 1768-2004"
+  - intermediate: "Steger, Globalization; Tarrow, Power in Movement; Castells, Networks of Outrage and Hope; McAdam, Political Process and the Development of Black Insurgency"
+  - master: "primary sources: Tilly 2004, Castells 2012, McAdam 1982, Snow et al. 1986, Tarrow 2011, Steger 2013/2020, Piven and Cloward 1977, Melucci 1989, Touraine 1981, Keck and Sikkink 1998, Della Porta and Tarrow 2005, Maathai 2006, Klein 2014, Cordero-Guzman 2015; secondary: Giddens, Stiglitz, Sen, Appadurai, Barber"
+- **notes**: Globalization and social movements — anti-globalization movement, Arab Spring, Occupy, Black Lives Matter, #MeToo, climate activism (Greta Thunberg AND Global South activists who preceded her), LGBTQ+ rights globally (progressive in some countries, criminalized in others), labor movements, indigenous rights movements (Standing Rock, Amazon defenders), digital activism, how social media changes social movements. Cover movements from multiple countries, not just Western ones. MULTI-PERSPECTIVE: globalization as economic integration AND cultural homogenization AND resistance. Social movements as democratic participation AND destabilizing forces. Digital activism as democratization AND surveillance risk. Climate justice from Global South AND Global North perspectives. LGBTQ+ rights as universal human rights AND cultural imperialism debate. Labor movements in industrialized AND developing nations. Indigenous movements as land rights AND environmental stewardship. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.urbanization-demography-population
+
+- **title**: Urbanization and demography
+- **unit**: `30.08.01`
+- **prerequisites**: `sociology.race-ethnicity-gender` (30.05.01)
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology, Ch. 14-15; Davis, Planet of Slums; Lefebvre, Right to the City (excerpt)"
+  - intermediate: "Davis 2006, Lefebvre 1968, Harvey 2012, UN-Habitat reports, Massey and Denton 1993, Florida 2002, Wirth 1938, Park and Burgess 1925"
+  - master: "primary sources: Lefebvre 1968, Harvey 2008/2012, Davis 2006, Wirth 1938, Park 1915, Burgess 1925, Hoyt 1939, Harris and Ullman 1945, Castells 1972, Massey and Denton 1993, Florida 2002, Zukin 2010, Roy 2005, Robinson 2006, Mbembe and Nuttall 2004, Glaeser 2011; secondary: UN-Habitat, World Bank Urbanization Reviews, Population Reference Bureau"
+- **notes**: Urbanization and demography — rural-to-urban migration globally, megacities (most are in the Global South, not the West), slums and informal settlements (1 billion people live in them), gentrification, suburbanization, population growth and decline (Japan's aging, Africa's youth boom), migration patterns (climate refugees, economic migration, forced displacement), demographic transition theory, urban planning and its colonial legacies, right to the city (Lefebvre). MULTI-PERSPECTIVE: urbanization as opportunity AND displacement. Megacities in Global South as dynamic AND precarious. Slums as communities of resilience AND sites of deprivation. Gentrification as revitalization AND displacement. Population growth as demographic dividend AND resource pressure. Climate migration as adaptation AND crisis. Colonial legacies in urban planning. Right to the city as framework. Demographic transition theory as useful AND Western-biased. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.social-stratification.social-stratification-class-race-gender
+
+- **title**: Social stratification: class, race, gender, caste, and global inequality
+- **unit**: `30.04.01`
+- **prerequisites**: `sociology.intro-sociological-thinking` (30.01.01 — foundational concepts: social construction, institutions, power)
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology; Conley, You May Ask Yourself; any introductory sociology textbook stratification chapters"
+  - intermediate: "Marx, Capital Vol. I; Weber, Economy and Society; Crenshaw, 'Mapping the Margins' (1989); Alexander, The New Jim Crow (2010)"
+  - master: "primary sources: Marx 1867, Weber 1922, Du Bois 1903, Crenshaw 1989, Alexander 2010, Ambedkar 1936, Piketty 2014; secondary: Mills 1956, Wilson 1987, Omi and Winant 2014"
+- **notes**: Social stratification from multiple axes: class (Marx vs Weber, social mobility, the 1%, global inequality, working poor), race (social construct with genetic evidence, systemic racism, redlining, mass incarceration as racial control per Alexander, environmental racism), gender (pay gap, glass ceiling, #MeToo, intersectionality per Crenshaw), caste (India and Ambedkar, Japan burakumin), global stratification (Global North vs South, neocolonialism, sweatshop labour). MULTI-PERSPECTIVE: class from perspectives of all classes including the wealthy; race as social construct WITH real consequences; intersectionality as essential; caste from Dalit perspectives; global stratification honestly; critique of sociology for studying down rather than up. No Lean formalisation; human-review-only at all tiers.
 
 ### number-theory.hasse-minkowski-theorem
 
@@ -6834,3 +7610,25 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: Serre 1973 Ch. IV; Cassels 1978 Ch. 6; Borevich-Shafarevich 1966 Ch. 1 §7
   - beginner: Serre 1973 Ch. IV §3 informal opening; Conway 1997 *The Sensual (Quadratic) Form* (MAA Carus Monograph 26) Ch. 1-3 informal opening
 - **notes**: The Hasse-Minkowski theorem is the prototype local-global statement of modern number theory. **Statement**: a non-degenerate quadratic form $f \in \mathbb{Q}[x_1, \ldots, x_n]$ represents zero non-trivially over $\mathbb{Q}$ iff it represents zero non-trivially over every completion $\mathbb{Q}_v$, where $v$ ranges over the rational places $\{\infty, 2, 3, 5, 7, \ldots\}$. The same statement holds with "represents zero" replaced by "represents $a$" for any fixed $a \in \mathbb{Q}^\times$, and with "is equivalent to $g$" for any two non-degenerate quadratic forms over $\mathbb{Q}$. **Proof structure** (Serre Ch. IV §3): case-by-case on $n$. **Case $n = 2$**: $f \sim a x^2 + b y^2$ represents zero iff $-b/a$ is a square in $\mathbb{Q}$, and the structure of $\mathbb{Q}^\times / (\mathbb{Q}^\times)^2$ via unique factorisation gives the local-global identity for squares directly. **Case $n = 3$** (the heart of the matter): $f \sim x^2 - a y^2 - b z^2$ after diagonalisation; representing zero is equivalent to the Hilbert symbol $(a, b) = 1$ over $\mathbb{Q}$, and the **Hilbert product formula** $\prod_v (a, b)_v = 1$ together with the local-global hypothesis forces $(a, b) = 1$ globally; **Dirichlet's theorem on primes in arithmetic progressions** is the load-bearing input in a key reduction step. **Case $n = 4$**: reduce to $n = 3$ via $f \sim g \oplus h$ with $g, h$ binary; the form represents zero iff $g$ and $-h$ represent a common value, reduced to three-variable problems via a counting argument on represented values. **Case $n \geq 5$**: induction reduces to $n = 4$; the indefinite case is then **Meyer's theorem (1884)** — every indefinite quadratic form in $\geq 5$ variables over $\mathbb{Q}$ represents zero. **Failure of local-global for higher degree**: Selmer's 1951 cubic $3 x^3 + 4 y^3 + 5 z^3 = 0$ has rational points over every $\mathbb{Q}_v$ but no non-zero rational point — the canonical counterexample. The obstruction is captured by the **Brauer-Manin obstruction** (Manin 1971 ICM). **Statement over number fields**: Hasse-Minkowski generalises to any global field $K$ via the place set of $K$. **Originator chain**: Legendre 1785 *Mém. Acad. Sci. Paris* (three-variable case, historical seed); Gauss 1801 *Disquisitiones* §V (genus theory); Minkowski 1890 *J. reine angew. Math.* 106 (rational forms, equivalence local-global); Hasse 1923 *J. reine angew. Math.* 152 (representation local-global, modern statement); Hasse 1924 *J. reine angew. Math.* 153 (full theorem and Meyer); Witt 1937 *J. reine angew. Math.* 176 (Witt cancellation); Cassels-Fröhlich 1967 (modern adelic treatment); Selmer 1951 *Acta Math.* 85 (cubic counterexample); Manin 1971 ICM (Brauer-Manin obstruction). Forward-connects to [21.03.02] Dirichlet $L$-functions, [21.05.01] $\ell$-adic Galois representations, and Langlands-programme generalisations. Lean status: `none`. Mathlib has `Mathlib.NumberTheory.Padics` covering $\mathbb{Q}_p$ and Hensel's lemma, and quadratic-form infrastructure in `Mathlib.LinearAlgebra.QuadraticForm`, but the Hilbert symbol, the global product formula, and the case-by-case Hasse-Minkowski proof are absent as named objects.
+
+### sociology.socialization-identity-formation
+
+- **title**: Socialization and Identity Formation
+- **unit**: `30.03.01`
+- **prerequisites**: `sociology.culture` (30.02.01)
+- **tier_anchors**:
+  - beginner: "Berger, Invitation to Sociology; Conley, You May Ask Yourself; any introductory sociology textbook socialization chapter"
+  - intermediate: "Berger and Luckmann, The Social Construction of Reality; Mead, Mind, Self, and Society; Cooley, Human Nature and the Social Order; Goffman, The Presentation of Self in Everyday Life"
+  - master: "primary sources: Mead 1934, Cooley 1902, Goffman 1959, Berger and Luckmann 1966, Durkheim 1893/1897, Parsons 1951, Bourdieu 1977, West and Zimmerman 1987, Hughes 2011; secondary: Charon, Berger, hooks, Tatum, Dune and Sparks, Naeem"
+- **notes**: Socialization and identity formation — agents of socialization (family, school, peers, media, religion), primary and secondary socialization, resocialization (total institutions, military, prison), gender socialization (Western binary AND cultures with third/fourth gender categories: Two-Spirit, hijra, fa'afafine, muxhe; non-binary and transgender identities; social construction of gender), racial/ethnic socialization (how racial identity develops, code-switching, BIPOC families' "the talk," White families' silence about race as itself socialization), socialization across cultures (collectivist vs individualist societies produce different selves, communal child-rearing in African cultures, extended families in South Asia), the self (Mead's I and Me, play/game/generalized other stages, Cooley's looking-glass self, Goffman's dramaturgical analysis AND its limits). MULTI-PERSPECTIVE: Gender socialization covers Western binary AND non-Western gender categories. Racial socialization covers BIPOC preparation for racism AND White silence about race. Socialization in non-nuclear family structures (extended families, communal child-rearing). Goffman presented alongside critique that not all social life is performance. Postcolonial critique of socialization theory's Western assumptions. No Lean formalisation; human-review-only at all tiers.
+
+### sociology.institutions-family-education-religion-media
+
+- **title**: Social institutions: family, education, religion, and media
+- **unit**: `30.05.01`
+- **prerequisites**: `sociology.social-stratification-inequality` (30.04.01)
+- **tier_anchors**:
+  - beginner: "Giddens, Sociology (8e), Ch. 8-11, 15; Macionis, Sociology (16e), Ch. 12-16; any introductory sociology textbook social institutions chapters"
+  - intermediate: "Giddens, Sociology; Macionis, Sociology; Bourdieu and Passeron, Reproduction in Education, Society and Culture; Herman and Chomsky, Manufacturing Consent; Durkheim, The Elementary Forms of Religious Life (abridged)"
+  - master: "primary sources: Bourdieu 1977/1984, Herman and Chomsky 1988, Durkheim 1912, Weber 1905, Marx and Engels 1848, Parsons 1955, Coontz 1992, Willis 1977, Bowles and Gintis 1976, Anyon 1980, Lareau 2003, Mahmood 2005, Casanova 1994, Berger 1967, Inkeles 1964, McLuhan 1964, Postman 1985, Sunstein 2001; secondary: Giddens, Macionis, Ritzer, Appadurai, Couldry and Hepp"
+- **notes**: Social institutions — family (diverse family structures globally — nuclear is ONE form not THE form, polyandry in Tibet, matrilineal systems Mosuo/Akan/Minangkabau, extended family systems across most of the world, polygamy, arranged marriage, same-sex families, communes, historical variation, Coontz on the myth of the traditional family), education (hidden curriculum, tracking, school-to-prison pipeline, Bourdieu's cultural capital, education as liberation AND reproduction of inequality, comparative systems Finland vs US vs Japan vs developing countries, Freire, Bowles and Gintis, Willis, Anyon), religion (secularization thesis AND its failures, fundamentalism across religions, religion as social control AND as community/movement, Civil Rights Movement as church-led, liberation theology, anti-apartheid, Durkheim, Weber, Marx), media (media ownership concentration, framing, Herman and Chomsky propaganda model, social media as new institution, misinformation, Al Jazeera, CGTN, Global South media ecosystems, Couldry and Hepp deep mediatization). MULTI-PERSPECTIVE: Family: nuclear family as one form among many, not default. Education: both opportunity AND gatekeeping; comparative systems reflect different values (Finland=equity, Japan=conformity, US=competition). Religion: both oppressive AND liberating. Media: propaganda model AND counterargument that diverse media exists; non-Western media (Al Jazeera, CGTN, Global South). No Lean formalisation; human-review-only at all tiers.

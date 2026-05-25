@@ -62,6 +62,8 @@ DOMAIN_BY_PREFIX = {
     "20": "philosophy",
     "22": "language",
     "23": "world",
+    "29": "psychology",
+    "30": "sociology",
     "32": "world",
 }
 
@@ -83,6 +85,15 @@ INTERMEDIATE_EVIDENCE_KEYWORDS = {
     "philosophy": [
         "key argument", "argument reconstruction", "case analysis",
         "key theorem", "key concepts",
+    ],
+    "psychology": [
+        "key mechanism", "key experiment", "key model", "key result",
+        "core model", "evidence pattern",
+    ],
+    "sociology": [
+        "key concepts", "key model", "case study", "comparative framework",
+        "institutional analysis", "academic perspectives", "social theory",
+        "key argument", "competing perspectives",
     ],
     "language": [
         "key concepts", "diagnostics", "close reading",
