@@ -676,26 +676,20 @@ units without invented sub-chapter numbering.
     originators of the chiral anomaly); Stora 1983 + Zumino 1984
     descent-equation formalism.
 
-### Priority 4 — depth-completion and weaving (optional)
+**Priority 4 — depth-completion and weaving (optional):**
 
-12. **DEEPEN `13.04.01-einstein-field-equations.md` with explicit
-    cross-link to `13.04.02` (Einstein-Hilbert variation), `13.04.03`
-    (Palatini), and `13.02.03` (Cartan tetrad).** [DEEPEN] Master-tier
+12. **`13.04.01` Deepen Einstein-field-equations unit with cross-links to `13.04.02`, `13.04.03`, and `13.02.03`.** [DEEPEN] Master-tier
     weaving addition, ~400 words. Single paragraph each pointing to
     the variational, first-order, and tetrad formulations as
     alternative routes to the same field equations. **No new unit ID.**
 
-13. **DEEPEN `03.07.05-yang-mills-action.md` with the explicit
-    EM-as-$U(1)$-Yang-Mills passage** via cross-link to `03.07.29`.
-    [DEEPEN] Master-tier addition, ~300 words. Single paragraph
+13. **`03.07.05` Deepen Yang-Mills-action unit with the explicit EM-as-$U(1)$-Yang-Mills passage.** [DEEPEN] Master-tier addition, ~300 words. Cross-link to `03.07.29`. Single paragraph
     connecting the abstract Yang-Mills functional to the special case
     $G = U(1)$ recovering electromagnetism. **No new unit ID.**
 
-14. **ENRICH `03.06.06-chern-weil-homomorphism.md` and
-    `03.06.04-pontryagin-chern-classes.md` with explicit Sternberg-
-    Curvature originator-prose paragraph** noting Sternberg's
-    physics-convention $i/2\pi$ factors and citing *Curvature* Ch. 14
-    as a peer pedagogical anchor. [ENRICH] ~150 words each. **No new
+14. **`03.06.06` Enrich Chern-Weil-homomorphism and Pontryagin-Chern-classes units with Sternberg-Curvature originator-prose paragraph.** [ENRICH] Cross-anchor `03.06.04` as well; note Sternberg's
+    physics-convention $i/2\pi$ factors and cite *Curvature* Ch. 14
+    as a peer pedagogical anchor. ~150 words each. **No new
     unit ID.**
 
 15. **`03.02.18` Petrov classification of Lorentzian 4-curvature.**
