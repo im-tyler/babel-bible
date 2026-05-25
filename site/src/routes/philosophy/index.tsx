@@ -4,21 +4,45 @@ export function head() {
   return {
     title: "Philosophy — Babel Bible",
     description:
-      "The synthesizing section. Where what the sciences have shown meets what the contemplative traditions have said, and the two get held in one frame.",
+      "The academic discipline of philosophy: epistemology, ethics, aesthetics, consciousness, philosophy of science and mathematics, democratic theory, and eastern philosophy.",
   };
 }
 
 export async function loader() {
-  const chapters = await getCollection("philosophy");
-  const sorted = [...chapters].sort((a: any, b: any) => a.data.order - b.data.order);
-  return {
-    chapters: sorted.map((c: any) => ({
-      slug: c.data.slug,
-      order: c.data.order,
-      title: c.data.title,
-      subtitle: c.data.subtitle ?? null,
-    })),
-  };
+  const units = await getCollection("units");
+  const philUnits = units
+    .filter((u: any) => {
+      const id = u.data.id ?? "";
+      return id.startsWith("20.") && !id.includes("essays");
+    })
+    .map((u: any) => ({
+      id: u.data.id,
+      title: u.data.title,
+      chapter: u.data.chapter,
+      tiers_present: u.data.tiers_present,
+      status: u.data.status,
+    }))
+    .sort((a: any, b: any) => a.id.localeCompare(b.id));
+
+  const byChapter = new Map<string, typeof philUnits>();
+  for (const u of philUnits) {
+    const key = u.chapter || "uncategorized";
+    if (!byChapter.has(key)) byChapter.set(key, []);
+    byChapter.get(key)!.push(u);
+  }
+  const chapters = Array.from(byChapter.entries())
+    .map(([key, units]) => ({ key, units }))
+    .sort((a, b) => (a.units[0]?.id ?? "").localeCompare(b.units[0]?.id ?? ""));
+
+  return { chapters, total: philUnits.length };
+}
+
+function prettyChapter(key: string): string {
+  if (!key) return "Uncategorized";
+  return key
+    .replace(/^phil-of-/i, "philosophy of ")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 export default function PhilosophyIndex({ data }: { data: any }) {
@@ -27,83 +51,54 @@ export default function PhilosophyIndex({ data }: { data: any }) {
       <section class="page-narrow" style="padding-top: 0;">
         <h1>Philosophy</h1>
         <p class="lede">
-          The final section. Math gives us what can be said exactly; the sciences give us how the
-          world behaves; philosophy is where we ask what to do with that — what counts as knowing,
-          what counts as a self, and what the contemplative traditions across cultures have been
-          pointing at when they describe the same shape from different angles.
+          The academic discipline — epistemology, ethics, aesthetics, consciousness, philosophy of
+          science and mathematics, democratic theory, and the eastern traditions read as
+          philosophy rather than religion. Each unit speaks at three levels: Beginner for
+          intuition, Intermediate for the formal arguments, Master for graduate-level depth with
+          primary-source citations.
+        </p>
+        <p class="muted">
+          Looking for the synthesizing project — the four-pyramid axial model, the symbols across
+          contemplative traditions, the six chapters on reflexivity and disclosure? That lives at{" "}
+          <a href="/synthesis">/synthesis</a>.
         </p>
       </section>
 
-      <section class="page-narrow">
-        <h2>Chapters</h2>
-        <ol class="unit-list">
-          {data.chapters.map((c: any) => (
-            <li>
-              <a href={`/philosophy/${c.slug}`}>
-                <strong>Chapter {c.order}.</strong> {c.title}
-              </a>
-              {c.subtitle && <span class="muted"> — {c.subtitle}</span>}
-            </li>
+      {data.chapters.length > 0 && (
+        <section class="page-narrow">
+          <h2>Units</h2>
+          <p class="muted">{data.total} philosophy units, grouped by chapter.</p>
+          {data.chapters.map((ch: any) => (
+            <div style="margin-top: 1.5rem;">
+              <h3 style="margin-bottom: 0.5rem;">{prettyChapter(ch.key)}</h3>
+              <ol class="unit-list">
+                {ch.units.map((u: any) => (
+                  <li>
+                    <a href={`/u/${u.id}`}>
+                      <code>{u.id}</code> — {u.title}
+                    </a>
+                    {u.status && (
+                      <>
+                        {" "}
+                        <span class={`badge badge--${u.status}`}>{u.status}</span>
+                      </>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            </div>
           ))}
-        </ol>
-      </section>
+        </section>
+      )}
 
       <section class="page-narrow">
-        <h2>Structure</h2>
-        <p class="muted">
-          The four-pyramid axial model. Illness and Reality share the same form — one inverted, one
-          upright; stability is orientation, not shape. The Eightfold Path sits inside the Ego
-          pyramid as eight footings between Reality and Life.
+        <h2>Coverage</h2>
+        <p>
+          Ten chapters following the standard analytic / continental / comparative breakdown — see{" "}
+          <a href="/plans/PHILOSOPHY_PLAN">the philosophy plan</a> for the chapter-by-chapter
+          roadmap and primary-source spine.
         </p>
       </section>
-
-      <div
-        style="
-          position: relative;
-          width: 100%;
-          height: 82vh;
-          margin-top: 1rem;
-          border: 1px solid rgba(255,255,255,0.08);
-          border-radius: 4px;
-          overflow: hidden;
-          background: #08080d;
-        "
-      >
-        <iframe
-          src="/pyramid/index.html"
-          title="Structure"
-          style="width:100%;height:100%;border:0;display:block;"
-          loading="lazy"
-        />
-      </div>
-
-      <section class="page-narrow" style="margin-top: 2.5rem;">
-        <h2>Symbols</h2>
-        <p class="muted">
-          The same structural shape encoded across the contemplative traditions. Swap between them
-          using the buttons at the top of the viewer.
-        </p>
-      </section>
-
-      <div
-        style="
-          position: relative;
-          width: 100%;
-          height: 82vh;
-          margin-top: 1rem;
-          border: 1px solid rgba(255,255,255,0.08);
-          border-radius: 4px;
-          overflow: hidden;
-          background: #08080d;
-        "
-      >
-        <iframe
-          src="/pyramid/symbols.html"
-          title="Symbols"
-          style="width:100%;height:100%;border:0;display:block;"
-          loading="lazy"
-        />
-      </div>
     </article>
   );
 }

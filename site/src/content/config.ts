@@ -56,6 +56,7 @@ export const collections = {
   biology: defineCollection({ schema: essaySchema }),
   chemistry: defineCollection({ schema: essaySchema }),
   philosophy: defineCollection({ schema: essaySchema }),
+  synthesis: defineCollection({ schema: essaySchema }),
   language: defineCollection({ schema: essaySchema }),
   world: defineCollection({ schema: essaySchema }),
 };

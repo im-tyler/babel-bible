@@ -25,6 +25,8 @@ declare module "@neutron-build/core" {
     | `/sources/${string}`
     | "/specs"
     | `/specs/${string}`
+    | "/synthesis"
+    | `/synthesis/${string}`
     | `/u/${string}`
     | "/units"
     | "/world"
