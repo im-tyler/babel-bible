@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Arnold Cat-Map Dynamo on the 3-Torus</title>
+  <desc id="desc">A schematic showing the Arnold cat map A = ((2,1),(1,1)) acting on the unit square (left), the stretching of a magnetic flux tube along the unstable eigenvector of A (centre), and the suspension on T^3 = T^2 x S^1 producing exponential magnetic-field growth at rate log((3+sqrt 5)/2) (right).</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g font-family="serif" font-size="13" fill="#1a1a1a">
+    <text x="90" y="28" font-weight="bold">Cat map A on T²</text>
+    <text x="320" y="28" font-weight="bold">Flux-tube stretching</text>
+    <text x="540" y="28" font-weight="bold">Suspension on T³</text>
+  </g>
+  <g transform="translate(40,50)" fill="none" stroke="#1f6f8b" stroke-width="2">
+    <rect x="0" y="0" width="180" height="180"/>
+    <path d="M0 180 L60 0" stroke-dasharray="4 3" opacity="0.6"/>
+    <path d="M0 120 L120 0" stroke-dasharray="4 3" opacity="0.6"/>
+    <path d="M0 60 L180 0" stroke-dasharray="4 3" opacity="0.6"/>
+    <path d="M60 180 L180 60" stroke-dasharray="4 3" opacity="0.6"/>
+    <path d="M120 180 L180 120" stroke-dasharray="4 3" opacity="0.6"/>
+    <g stroke="#c0392b" stroke-width="3">
+      <line x1="90" y1="90" x2="148" y2="54" marker-end="url(#arrow)"/>
+      <line x1="90" y1="90" x2="124" y2="146" marker-end="url(#arrow)"/>
+    </g>
+  </g>
+  <g transform="translate(40,50)" font-family="serif" font-size="11" fill="#c0392b">
+    <text x="155" y="50">u₊</text>
+    <text x="130" y="160">u₋</text>
+  </g>
+  <g transform="translate(40,240)" font-family="serif" font-size="11" fill="#1a1a1a">
+    <text x="0" y="0">λ₊ = (3+√5)/2 ≈ 2.618</text>
+    <text x="0" y="16">λ₋ = (3−√5)/2 ≈ 0.382</text>
+  </g>
+  <g transform="translate(260,50)" fill="none" stroke="#1f6f8b" stroke-width="2">
+    <rect x="0" y="0" width="180" height="180"/>
+    <ellipse cx="90" cy="90" rx="50" ry="14" fill="#fcd34d" fill-opacity="0.35" stroke="#b45309" transform="rotate(-30 90 90)"/>
+    <ellipse cx="90" cy="90" rx="78" ry="9" fill="#fcd34d" fill-opacity="0.55" stroke="#b45309" transform="rotate(-30 90 90) translate(0 25)"/>
+    <ellipse cx="90" cy="90" rx="110" ry="6" fill="#fcd34d" fill-opacity="0.75" stroke="#b45309" transform="rotate(-30 90 90) translate(0 50)"/>
+  </g>
+  <g transform="translate(260,240)" font-family="serif" font-size="11" fill="#1a1a1a">
+    <text x="0" y="0">|B(t)| ∝ exp(t · log λ₊)</text>
+    <text x="0" y="16">flux conserved; cross-section thins</text>
+  </g>
+  <g transform="translate(480,50)" fill="none" stroke="#1f6f8b" stroke-width="2">
+    <path d="M30 90 Q90 30 150 90 Q210 150 150 180 Q90 210 30 150 Q-30 90 30 90 Z" opacity="0.5"/>
+    <circle cx="90" cy="120" r="60" stroke-dasharray="3 3" opacity="0.4"/>
+    <path d="M30 120 Q90 0 150 120 Q90 240 30 120 Z" stroke="#7c3aed"/>
+    <g stroke="#c0392b" stroke-width="2.5">
+      <path d="M90 60 Q140 90 90 120 Q40 150 90 180" fill="none"/>
+    </g>
+  </g>
+  <g transform="translate(480,240)" font-family="serif" font-size="11" fill="#1a1a1a">
+    <text x="0" y="0">B(x,y,z) = e^{2πikz} (b₁,b₂,0)</text>
+    <text x="0" y="16">γ(η) → log λ₊ &gt; 0 as η → 0⁺</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+</svg>

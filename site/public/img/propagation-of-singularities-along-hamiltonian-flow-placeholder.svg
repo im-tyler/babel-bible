@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Propagation of singularities along Hamiltonian flow</title>
+  <desc id="desc">A schematic spacetime diagram showing a singular point at the origin with two null-geodesic rays carrying the singularity outward along the light cone; arrows indicate the direction of the Hamiltonian flow on the characteristic variety.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <line x1="60" y1="300" x2="660" y2="300" stroke="#222" stroke-width="2"/>
+  <line x1="360" y1="40" x2="360" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="670" y="305" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">x</text>
+  <text x="345" y="35" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">t</text>
+  <line x1="360" y1="300" x2="620" y2="60" stroke="#5a3d6f" stroke-width="3" stroke-dasharray="2 6"/>
+  <line x1="360" y1="300" x2="100" y2="60" stroke="#5a3d6f" stroke-width="3" stroke-dasharray="2 6"/>
+  <circle cx="360" cy="300" r="7" fill="#222"/>
+  <g stroke="#d68a3a" stroke-width="5" fill="#d68a3a" stroke-linecap="round">
+    <line x1="400" y1="263" x2="520" y2="152"/>
+    <polygon points="520,152 510,168 528,160"/>
+    <line x1="320" y1="263" x2="200" y2="152"/>
+    <polygon points="200,152 218,160 210,168"/>
+  </g>
+  <text x="530" y="135" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d68a3a">null geodesic x = t</text>
+  <text x="100" y="135" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d68a3a">x = -t</text>
+  <text x="370" y="320" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">singular source</text>
+  <text x="360" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">WF(u) propagates along bicharacteristics of p(x, &#958;) = &#958;&#8320;&#178; - &#958;&#8321;&#178;</text>
+</svg>
