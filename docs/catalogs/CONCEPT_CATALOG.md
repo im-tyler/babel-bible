@@ -191,6 +191,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: a setting where kernels, quotients, exact sequences, and cohomology behave like modules
 - **notes**: Defines preadditive, additive, preabelian, and abelian categories; states the image equals coimage condition; organizes the Grothendieck AB1-AB5 axioms; defines Grothendieck categories via AB5 plus a generator; gives examples including modules, sheaves, and quasi-coherent sheaves; and states Grothendieck's enough-injectives theorem as the foundation for derived functors and sheaf cohomology.
 
+### foundations.dold-kan-correspondence
+
+- **title**: Dold-Kan correspondence
+- **unit**: `01.02.35`
+- **prerequisites**: `foundations.chain-complex-abelian-category`, `foundations.abelian-category-grothendieck-axioms-ab1-ab5`, `topology.simplicial-set`
+- **tier_anchors**:
+  - master: Dold 1958 *Ann. Math.* 68 "Homology of symmetric products and other functors of complexes"; Kan 1958 *Proc. NAS* "Functors involving c.s.s. complexes"; Goerss-Jardine *Simplicial Homotopy Theory* Ch. III §2; Weibel Ch. 8 §4; Gelfand-Manin *Methods of Homological Algebra* Ch. I §§6-7
+  - intermediate: normalised-chain functor $N : s\mathrm{Ab} \to \mathrm{Ch}_{\ge 0}(\mathrm{Ab})$, inverse Kan extension $K$, equivalence of categories, Eilenberg-Zilber theorem as corollary
+  - beginner: a simplicial abelian group and a non-negatively graded chain complex are two presentations of the same algebraic data
+- **notes**: States the equivalence $N : s\mathrm{Ab} \xrightarrow{\sim} \mathrm{Ch}_{\ge 0}(\mathrm{Ab})$ between simplicial abelian groups and non-negatively graded chain complexes, with inverse $K$ built as a Kan extension. The normalised chain complex $N_n A = \bigcap_{i=0}^{n-1} \ker d_i$ with differential $d_n$ records the non-degenerate algebraic content of a simplicial abelian group, splitting off the degenerate part via the Eilenberg-MacLane operator. Eilenberg-Zilber-Cartier $N(A \otimes B) \simeq NA \otimes NB$ (lax monoidal with the shuffle map; quasi-isomorphism via Eilenberg-Zilber) follows as a corollary. The correspondence is the bridge between simplicial homotopy theory and homological algebra, and underlies the monoidal Quillen equivalence between simplicial commutative rings and connective $\mathbb{E}_\infty$-algebras (Schwede-Shipley 2003) over an unbounded base.
+
 ### alg-geom.triangulated-category-verdier-axioms-tr1-tr4
 
 - **title**: Triangulated category - Verdier axioms TR1-TR4 and the octahedral axiom
@@ -256,6 +267,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: E_2^{p,q}=H^p(Y,R^qf_*F) => H^{p+q}(X,F), proof by Grothendieck spectral sequence
   - beginner: cohomology on X can be computed by first pushing a sheaf to Y and then taking cohomology on Y
 - **notes**: States the general sheaf-theoretic Leray spectral sequence for a continuous map f:X→Y, identifies it as the Grothendieck spectral sequence for Γ_X=Γ_Y∘f_*, verifies the acyclicity hypothesis using injective/flabby sheaves and preservation of flabbiness by direct image, records collapse criteria and the five-term exact sequence, distinguishes this general sheaf form from Leray-Serre, and links the result to higher direct images and base change.
+
+### alg-geom.six-functor-formalism-adjunctions-base-change
+
+- **title**: Six-functor formalism - adjunctions and base change
+- **unit**: `04.03.16`
+- **prerequisites**: `alg-geom.higher-direct-images-base-change`, `alg-geom.derived-category-localisation-quasi-isomorphisms`, `alg-geom.derived-functors-rf-lf-via-derived-categories`, `alg-geom.leray-spectral-sequence-sheaf-form`
+- **tier_anchors**:
+  - master: Grothendieck-Verdier SGA 4 Exposés XVII-XVIII; Deligne SGA 4½; Hartshorne Residues and Duality; Kashiwara-Schapira Sheaves on Manifolds; Lurie Higher Algebra §6.4 and Spectral Algebraic Geometry Ch. 3
+  - intermediate: Gelfand-Manin Methods of Homological Algebra Ch. IV Appendix on the six-functor formalism; Iversen Cohomology of Sheaves Ch. III-VII; Hartshorne Residues and Duality Ch. III
+  - beginner: four functors attached to a continuous map and how they fit together via adjunction and base change
+- **notes**: Six operations (f^*, f_*, f_!, f^!, ⊗^L, RHom) attached to a morphism of locally compact Hausdorff spaces or finite-type schemes with two adjunctions (f^* ⊣ f_*) and (f_! ⊣ f^!), the projection formula Rf_!(F ⊗^L Lf^* G) ≅ Rf_! F ⊗^L G, the base-change isomorphism g^* Rf_! ≅ Rf'_! g'^* across a Cartesian square, and the Grothendieck duality identification f^!(O_Y) = ω^•_{X/Y} for the relative dualising complex; for proper f the duality formula f^! ≅ D_X ∘ Lf^* ∘ D_Y. Originated in Grothendieck's 1958 letter to Serre; formalised in SGA 4 (étale) and Hartshorne Residues and Duality (coherent); topological version by Iversen and Kashiwara-Schapira; ∞-categorical lift by Lurie. Foundational input to the BBD decomposition theorem, Deligne's Weil II, proper-base-change in étale cohomology, Verdier and Grothendieck duality, prismatic and condensed cohomology, geometric Langlands.
 
 ### linalg.field
 
@@ -1827,6 +1849,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Reed-Simon Vol. 1 §VI Theorems VI.10–VI.13
   - beginner: Strogatz — Infinite Powers (analogous level)
 - **notes**: Bounded operators with finite-dimensional kernel, closed range, finite-dimensional cokernel. Index = $\dim \ker - \dim \mathrm{coker}$ is the central invariant. Atkinson: Fredholm iff invertible modulo compacts. Stable under compact and small-norm perturbations. Foundation for the Atiyah-Singer index theorem.
+
+### microlocal-analysis.wave-front-set
+
+- **title**: Wave-front set of a distribution
+- **prerequisites**: `functional-analysis.banach-space`, `diffgeo.smooth-manifold`, `functional-analysis.hilbert-space`
+- **tier_anchors**:
+  - master: Hörmander *The Analysis of Linear Partial Differential Operators* Vol. I §8; Gérard *Microlocal Analysis of Quantum Fields on Curved Spacetimes* Ch. 1–2; Duistermaat *Fourier Integral Operators* Ch. 1
+  - intermediate: Friedlander-Joshi *Introduction to the Theory of Distributions* §11; Hörmander Vol. I §8.1–§8.2
+  - beginner: a refinement of the singular support that records both *where* a distribution fails to be smooth and *in which conormal directions* it fails
+- **notes**: For $u \in \mathcal{D}'(X)$ on an open $X \subseteq \mathbb{R}^n$, the **wave-front set** $\mathrm{WF}(u) \subset T^*X \setminus 0$ is the closed conic subset whose complement consists of points $(x_0, \xi_0)$ at which there is a cutoff $\varphi \in C_c^\infty(X)$ with $\varphi(x_0) \neq 0$ and an open conic neighbourhood $V \ni \xi_0$ such that $\widehat{\varphi u}(\xi)$ decays rapidly on $V$. Equivalent characterisations via Fourier-Bros-Iagolnitzer (FBI) wave-packet transforms; equivalent intrinsic definition on a manifold via cotangent localisation. Projection $\pi_X : \mathrm{WF}(u) \to X$ recovers the singular support $\mathrm{singsupp}(u)$. Examples: $\mathrm{WF}(\delta_0) = \{0\} \times (\mathbb{R}^n \setminus 0)$ (all conormal directions at the origin); $\mathrm{WF}(H) = \{(0, \xi) : \xi \neq 0\}$ for the Heaviside function $H$ on $\mathbb{R}$; $\mathrm{WF}(1/(x + i0))$ is the positive ray $\{(0, \xi) : \xi > 0\}$ on $\mathbb{R}$. Functorial properties: $\mathrm{WF}(Pu) \subseteq \mathrm{WF}(u)$ for any $\Psi$DO $P$, with equality on the non-characteristic set (pseudolocality and elliptic regularity); $\mathrm{WF}(f^* u)$ controlled by the conormal-to-graph pullback of $\mathrm{WF}(u)$ when the pullback is admissible (Hörmander 1971). Hörmander's product theorem: the pointwise product $u v$ of two distributions extends to $\mathcal{D}'(X)$ when $\mathrm{WF}(u) + \mathrm{WF}(v)$ misses the zero section of $T^*X$, with $\mathrm{WF}(uv) \subseteq \mathrm{WF}(u) \cup \mathrm{WF}(v) \cup (\mathrm{WF}(u) + \mathrm{WF}(v))$. Propagation of singularities (Hörmander 1971; Duistermaat-Hörmander 1972): for a properly supported $\Psi$DO $P$ with real principal symbol $p$, $\mathrm{WF}(u) \setminus \mathrm{WF}(Pu)$ is contained in $p^{-1}(0)$ and is invariant under the Hamiltonian flow of $p$. Originators: M. Sato 1969 (singular spectrum / analytic wave-front set in the hyperfunction framework, RIMS Kyoto preprint, published as Sato-Kawai-Kashiwara 1973 Lect. Notes Math. 287); L. Hörmander 1971 (*Acta Math.* 127 79–183, "Fourier integral operators I") — the $C^\infty$ wave-front set as we use it. Foundational floor for pseudo-differential calculus on manifolds, propagation-of-singularities theorems, Fourier integral operators, the Hadamard-state criterion (Radzikowski 1996) in algebraic QFT on curved spacetimes, and microlocal solutions to linear PDE generally.
 
 ### char-classes.chern-weil.homomorphism
 
@@ -4947,6 +4979,39 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Schutz, *A First Course in General Relativity*, 2e (2009), Ch. 12
   - beginner: Hartle, *Gravity: An Introduction to Einstein's General Relativity* (2003), Ch. 18-19
 - **notes**: (to be filled during production)
+
+### general-relativity.black-holes
+
+- **title**: Black holes
+- **unit**: `13.06.01`
+- **prerequisites**: `general-relativity.schwarzschild-solution`, `general-relativity.orbits-schwarzschild`
+- **tier_anchors**:
+  - master: Wald, *General Relativity* (1984); Hawking and Ellis, *The Large Scale Structure of Space-Time* (1973)
+  - intermediate: Carroll, *Spacetime and Geometry* (2019), Ch. 6
+  - beginner: Hartle, *Gravity* (2003), Ch. 13-14
+- **notes**: Black holes as exact solutions of Einstein's equations; Schwarzschild and Kerr metrics; event horizons, singularities, and Penrose diagrams; Hawking radiation and black hole thermodynamics; the information paradox.
+
+### general-relativity.globally-hyperbolic-lorentzian-manifolds
+
+- **title**: Globally hyperbolic Lorentzian manifolds
+- **unit**: `13.09.01`
+- **prerequisites**: `general-relativity.tensors-smooth-manifolds`, `general-relativity.geodesics-parallel-transport`, `general-relativity.schwarzschild-solution`
+- **tier_anchors**:
+  - master: Hawking and Ellis, *The Large Scale Structure of Space-Time* (Cambridge, 1973), Ch. 6; Wald, *General Relativity* (1984), Ch. 8; Bernal and Sánchez, *Comm. Math. Phys.* 257 (2005) 43; Gérard, *Microlocal Analysis of Quantum Fields on Curved Spacetimes* (EMS, 2019), Ch. 5
+  - intermediate: O'Neill, *Semi-Riemannian Geometry* (Academic, 1983), Ch. 14; Bär-Ginoux-Pfäffle, *Wave Equations on Lorentzian Manifolds and Quantization* (EMS, 2007), Ch. 1
+  - beginner: Penrose, *The Road to Reality* (Cape, 2004), Ch. 17 (selected sections on causal structure)
+- **notes**: Lorentzian manifold $(M, g)$ with signature $(-, +, +, +)$ and time orientation; causal classification of tangent vectors (timelike/null/spacelike); chronological and causal future/past sets $I^\pm(p), J^\pm(p)$; strong causality. Geroch 1970 *J. Math. Phys.* 11 437: global hyperbolicity ($J^+(p) \cap J^-(q)$ compact for all $p, q$, together with strong causality) is equivalent to the existence of a Cauchy hypersurface — a topological codimension-1 hypersurface $\Sigma \subset M$ met exactly once by every inextendible timelike curve. Bernal-Sánchez 2003 *Comm. Math. Phys.* 243 461 and 2005 *Comm. Math. Phys.* 257 43 smooth refinement: there exists a smooth spacelike Cauchy hypersurface, and $M$ is diffeomorphic to $\mathbb{R} \times \Sigma$ with metric splitting $g = -\beta^2 dt^2 + h_t$ in adapted coordinates, where $\beta : M \to \mathbb{R}_{>0}$ is the lapse function and $h_t$ a smoothly $t$-varying Riemannian metric on $\Sigma$. Worked examples: Minkowski $(\mathbb{R}^{1,3}, \eta)$ is globally hyperbolic with $t = \text{const}$ Cauchy hyperplanes; Schwarzschild exterior is globally hyperbolic; FLRW is globally hyperbolic. Non-examples: anti-de Sitter spacetime fails (timelike conformal boundary, information leaks in finite proper time); Reissner-Nordström and Kerr interiors past Cauchy horizons fail strong causality; Gödel spacetime contains closed timelike curves. Originators: Leray 1953 (causal-domain notion for hyperbolic systems); Geroch 1970 (existence-of-Cauchy-surface theorem); Hawking-Ellis 1973 (textbook consolidation); Bernal-Sánchez 2003 + 2005 (smooth splitting). Foundational for well-posedness of the Klein-Gordon Cauchy problem on curved spacetime and the microlocal / Hadamard-state programme (Radzikowski 1996; Gérard 2019). Lean status: `none` — Mathlib has Riemannian metric and smooth-manifold infrastructure but no Lorentzian signature, no causal structure, no Cauchy-surface formalism.
+
+### quantum-mechanics.identical-particles
+
+- **title**: Identical particles and many-body quantum mechanics
+- **unit**: `12.09.01`
+- **prerequisites**: `quantum-mechanics.angular-momentum-su2`, `quantum-mechanics.hilbert-space-formalism`
+- **tier_anchors**:
+  - master: Fetter and Walecka, *Quantum Theory of Many-Particle Systems* (2003); Abrikosov, Gorkov, Dzyaloshinski, *Methods of Quantum Field Theory in Statistical Physics* (1975)
+  - intermediate: Sakurai, *Modern Quantum Mechanics* (2020), Ch. 7
+  - beginner: Griffiths, *Introduction to Quantum Mechanics* (2018), Ch. 5
+- **notes**: Symmetrization and antisymmetrization postulates; Slater determinants; Pauli exclusion principle; second quantization; Hartree-Fock method; Bose-Einstein condensation; BCS superconductivity.
 
 
 ## Chemistry (§14–16)

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Six-Functor Formalism — Adjunctions and Base Change</title>
+  <desc id="desc">A schematic placeholder diagram showing a Cartesian square with the four functors f^*, f_*, f_!, f^! on a morphism f and their base-change isomorphism along a pullback square.</desc>
+  <rect width="720" height="360" fill="#f5f4ec"/>
+  <g stroke="#2a4f6a" stroke-width="2.5" fill="none">
+    <rect x="120" y="80" width="200" height="200"/>
+    <rect x="400" y="80" width="200" height="200"/>
+  </g>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="22">
+    <text x="135" y="105">X'</text>
+    <text x="305" y="105" text-anchor="end">X</text>
+    <text x="135" y="275">S'</text>
+    <text x="305" y="275" text-anchor="end">S</text>
+    <text x="415" y="105">f^*</text>
+    <text x="585" y="105" text-anchor="end">f_*</text>
+    <text x="415" y="275">f_!</text>
+    <text x="585" y="275" text-anchor="end">f^!</text>
+  </g>
+  <g stroke="#b04d20" stroke-width="2" fill="none">
+    <path d="M165 130 L275 130" marker-end="url(#arrowhead)"/>
+    <path d="M165 230 L275 230" marker-end="url(#arrowhead)"/>
+    <path d="M165 145 L165 215" marker-end="url(#arrowhead)"/>
+    <path d="M275 145 L275 215" marker-end="url(#arrowhead)"/>
+    <path d="M445 130 L555 130" marker-end="url(#arrowhead)"/>
+    <path d="M445 230 L555 230" marker-end="url(#arrowhead)"/>
+    <path d="M445 145 L445 215" marker-end="url(#arrowhead)"/>
+    <path d="M555 145 L555 215" marker-end="url(#arrowhead)"/>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#b04d20"/>
+    </marker>
+  </defs>
+  <text x="360" y="190" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" fill="#2a4f6a">≅</text>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#222">Six-Functor Formalism: Adjunctions and Base Change</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dold-Kan Correspondence</title>
+  <desc id="desc">A schematic placeholder diagram of the Dold-Kan correspondence: a simplicial abelian group on the left with face-and-degeneracy arrows, an equivalence arrow in the middle, and a non-negatively graded chain complex on the right with its differential.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g fill="#5a3d6f" font-family="Inter, Arial, sans-serif">
+    <circle cx="100" cy="80" r="10"/>
+    <circle cx="100" cy="160" r="10"/>
+    <circle cx="100" cy="240" r="10"/>
+    <circle cx="100" cy="320" r="10"/>
+    <text x="120" y="86" font-size="18" fill="#222">A_0</text>
+    <text x="120" y="166" font-size="18" fill="#222">A_1</text>
+    <text x="120" y="246" font-size="18" fill="#222">A_2</text>
+    <text x="120" y="326" font-size="18" fill="#222">A_3</text>
+  </g>
+  <g stroke="#5a3d6f" stroke-width="2" fill="none">
+    <path d="M105 95 L105 145" marker-end="url(#arrow1)"/>
+    <path d="M115 145 L115 95" marker-end="url(#arrow1)"/>
+    <path d="M105 175 L105 225" marker-end="url(#arrow1)"/>
+    <path d="M115 225 L115 175" marker-end="url(#arrow1)"/>
+    <path d="M105 255 L105 305" marker-end="url(#arrow1)"/>
+    <path d="M115 305 L115 255" marker-end="url(#arrow1)"/>
+  </g>
+  <defs>
+    <marker id="arrow1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a3d6f"/>
+    </marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d68a3a"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif">
+    <path d="M270 180 L450 180" stroke="#222" stroke-width="3" fill="none" marker-end="url(#arrow1)" marker-start="url(#arrow1)"/>
+    <text x="360" y="170" text-anchor="middle" font-size="20" fill="#222">N</text>
+    <text x="360" y="205" text-anchor="middle" font-size="20" fill="#222">K</text>
+  </g>
+  <g fill="#d68a3a" font-family="Inter, Arial, sans-serif">
+    <circle cx="600" cy="80" r="10"/>
+    <circle cx="600" cy="160" r="10"/>
+    <circle cx="600" cy="240" r="10"/>
+    <circle cx="600" cy="320" r="10"/>
+    <text x="620" y="86" font-size="18" fill="#222">N_0 A</text>
+    <text x="620" y="166" font-size="18" fill="#222">N_1 A</text>
+    <text x="620" y="246" font-size="18" fill="#222">N_2 A</text>
+    <text x="620" y="326" font-size="18" fill="#222">N_3 A</text>
+  </g>
+  <g stroke="#d68a3a" stroke-width="2" fill="none">
+    <path d="M600 150 L600 95" marker-end="url(#arrow2)"/>
+    <path d="M600 230 L600 175" marker-end="url(#arrow2)"/>
+    <path d="M600 310 L600 255" marker-end="url(#arrow2)"/>
+  </g>
+  <text x="360" y="340" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#222">Dold-Kan correspondence</text>
+</svg>

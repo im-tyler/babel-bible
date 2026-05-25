@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Wave-front set of a distribution</title>
+  <desc id="desc">A schematic placeholder showing a singular point with a fan of conormal directions in cotangent space.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <line x1="60" y1="300" x2="660" y2="300" stroke="#222" stroke-width="2"/>
+  <line x1="360" y1="40" x2="360" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="670" y="305" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">x</text>
+  <text x="345" y="35" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">&#958;</text>
+  <circle cx="360" cy="300" r="8" fill="#5a3d6f"/>
+  <g stroke="#d68a3a" stroke-width="4" fill="none" stroke-linecap="round">
+    <line x1="360" y1="300" x2="420" y2="80"/>
+    <line x1="360" y1="300" x2="500" y2="120"/>
+    <line x1="360" y1="300" x2="540" y2="200"/>
+    <line x1="360" y1="300" x2="300" y2="80"/>
+    <line x1="360" y1="300" x2="220" y2="120"/>
+    <line x1="360" y1="300" x2="180" y2="200"/>
+  </g>
+  <text x="360" y="345" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">WF(&#948;&#8320;) = {0} &#215; (&#8477;&#8319; \ 0)</text>
+</svg>
