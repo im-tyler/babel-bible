@@ -8503,3 +8503,501 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Grau, Rush"
   - master: "Burnham, Youngblood, Benjamin"
 - **notes**: Computer art history. Video art. Net art. Interactive installation. Generative art. VR/AR. AI art. NFTs. Manovich's five principles. Post-digital condition.
+
+### astronomy.solar-system-planets-moons
+
+- **title**: The solar system: planets, moons, and small bodies
+- **unit**: `28.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 1-7"
+  - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 1-2, 7-8"
+  - master: "Newton 1687 Principia; Laplace 1796 Exposition du Systeme du Monde; Safronov 1969; Lissauer 1993"
+- **notes**: Structure and composition of the solar system. Terrestrial and jovian planets. Moons, rings, asteroids, comets, Kuiper belt objects, and the Oort cloud. Formation via the nebular hypothesis. Solar system dynamics including Kepler's laws, orbital resonances, and tidal interactions. Comparative planetology. The Nice model and late heavy bombardment. Current exploration missions and open questions.
+
+### astronomy.stars-stellar-evolution-hr-diagram
+
+- **title**: Stars and stellar evolution
+- **unit**: `28.02.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 10-14"
+  - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 3-5, 10-13"
+  - master: "Eddington 1926 Internal Constitution of the Stars; Chandrasekhar 1931; Bethe 1939; Burbidge, Burbidge, Fowler, Hoyle 1957"
+- **notes**: Properties of stars: luminosity, temperature, mass, radius, and composition. The Hertzsprung-Russell diagram as the organising tool for stellar classification. Main-sequence stars, giants, supergiants, and white dwarfs. Stellar nucleosynthesis: hydrogen burning (pp-chain and CNO cycle), helium burning, and advanced burning stages. Stellar evolution from protostar to end state: low-mass stars become white dwarfs, high-mass stars become neutron stars or black holes. Binary stars and mass transfer. Variable stars and the period-luminosity relation. Stellar clusters as evolutionary laboratories.
+
+### astronomy.galaxies-milky-way-classification
+
+- **title**: Galaxies and the Milky Way
+- **unit**: `28.03.01`
+- **prerequisites**: [`astronomy.stars-stellar-evolution-hr-diagram`]
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 15-18"
+  - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 14, 24-25"
+  - master: "Hubble 1926; Shapley 1918; Oort 1927; Rubin 1978; Sandage 1961"
+- **notes**: Galaxy morphology and the Hubble tuning-fork classification: ellipticals, spirals, barred spirals, lenticulars, and irregulars. The Milky Way: structure, spiral arms, stellar populations, central black hole (Sgr A*), and rotation curve. Dark matter evidence from galaxy rotation curves, velocity dispersions, and gravitational lensing. Galaxy interactions, mergers, and the role of environment. Active galactic nuclei and quasars. Galaxy clusters and large-scale structure. The local group and beyond.
+
+### astronomy.cosmology-big-bang-expansion-fate
+
+- **title**: Cosmology: the Big Bang, expansion, and fate of the universe
+- **unit**: `28.04.01`
+- **prerequisites**: [`astronomy.galaxies-milky-way-classification`]
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 19-22"
+  - intermediate: "Ryden, Introduction to Cosmology (2e); Dodelson, Modern Cosmology"
+  - master: "Friedmann 1922; Lemaitre 1927; Hubble 1929; Gamow 1948; Penzias and Wilson 1965; Riess et al. 1998; Perlmutter et al. 1999"
+- **notes**: Observational foundations: Hubble's law, the cosmic microwave background, big bang nucleosynthesis, and large-scale structure. The Friedmann equations and the expansion of the universe. Cosmic inflation: motivation, mechanisms, and predictions. The composition of the universe: ordinary matter, dark matter, and dark energy. The cosmological constant problem. The fate of the universe: heat death, big rip, big crunch, and the role of dark energy equation of state. The cosmic horizon and the observable universe. The anthropic principle and multiverse speculation.
+
+### astronomy.exoplanets-detection-habitability
+
+- **title**: Exoplanets: detection methods and habitability
+- **unit**: `28.05.01`
+- **prerequisites**: [`astronomy.solar-system-planets-moons`, `astronomy.stars-stellar-evolution-hr-diagram`]
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 7 supplement; Seager, Exoplanet Atmospheres"
+  - intermediate: "Perryman, The Exoplanet Handbook (2e); Deeg and Belmonte, Handbook of Exoplanets"
+  - master: "Mayor and Queloz 1995; Marcy and Butler 1996; Charbonneau et al. 2000; Borucki et al. 2011"
+- **notes**: Detection methods: radial velocity (Doppler spectroscopy), transit photometry, direct imaging, microlensing, astrometry, and timing methods. The transit method in detail: light curves, transit depth, duration, and the information extracted. Exoplanet demographics from Kepler, TESS, and ground-based surveys. Hot Jupiters, super-Earths, mini-Neptunes, and the radius valley. Habitable zones and the conditions for liquid water. Atmospheric characterization via transmission spectroscopy, emission spectroscopy, and direct imaging. Biosignatures and the search for life. The Drake equation and Fermi paradox. Future missions: JWST, HabEx, LUVOIR, and the prospect of detecting signs of life.
+
+### astronomy.space-exploration-history-future
+
+- **title**: Space exploration: history and future
+- **unit**: `28.06.01`
+- **prerequisites**: [`astronomy.solar-system-planets-moons`]
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 7; NASA mission archives"
+  - intermediate: "Siddiqi, Challenge to Apollo; Logsdon, John F. Kennedy and the Race to the Moon"
+  - master: "Tsiolkovsky 1903; Goddard 1919; Oberth 1923; Von Braun; Korolev; O'Neill 1977"
+- **notes**: History of spaceflight from early rocketry through the Space Age. The space race: Sputnik, Vostok, Mercury, Gemini, Apollo. Planetary exploration: Viking, Voyager, Cassini-Huygens, Mars rovers, New Horizons. Space stations: Skylab, Mir, ISS. The Space Shuttle era. Commercial spaceflight and New Space: SpaceX, Blue Origin, Rocket Lab. Current and planned missions: Artemis, Mars sample return, Europa Clipper, Dragonfly. Space policy, international cooperation, and space law. Challenges of human spaceflight: radiation, microgravity, life support. Futures: lunar bases, Mars colonization, asteroid mining, interstellar probes. Ethical considerations of planetary protection and space debris.
+
+### anthropology.anthropology-four-fields-holism
+
+- **title**: Anthropology: the four fields and holism
+- **unit**: `31.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 1-2"
+  - intermediate: "Kottak, Anthropology: Appreciating Human Diversity (19e), Ch. 1-2; Harris, The Rise of Anthropological Theory"
+  - master: "Boas 1911 The Mind of Primitive Man; Malinowski 1922 Argonauts; Evans-Pritchard 1950"
+- **notes**: The four-field approach in American anthropology: cultural anthropology, biological (physical) anthropology, archaeology, and linguistic anthropology. Holism as the discipline's defining methodological commitment. History of the discipline from antiquity through the Enlightenment to the professionalisation of anthropology in the 19th and 20th centuries. Key founders: Boas, Malinowski, Radcliffe-Brown, Mead, Evans-Pritchard. The science-humanities tension within anthropology. Anthropological ethics and the legacy of colonialism. Comparison with anthropology traditions in Britain, France, and elsewhere. The relevance of anthropology in a globalised world.
+
+### anthropology.cultural-anthropology-ethnography-fieldwork
+
+- **title**: Cultural anthropology: ethnography and fieldwork
+- **unit**: `31.02.01`
+- **prerequisites**: [`anthropology.anthropology-four-fields-holism`]
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 3-6, 10-12"
+  - intermediate: "Geertz, The Interpretation of Cultures (1973); Marcus and Fischer, Anthropology as Cultural Critique (1986)"
+  - master: "Malinowski 1922 Argonauts of the Western Pacific; Evans-Pritchard 1940 The Nuer; Geertz 1973; Clifford and Marcus 1986 Writing Culture"
+- **notes**: Participant observation as the signature method of cultural anthropology. The ethnographic method: fieldwork, field notes, thick description, and ethnographic writing. Culture concept: definitions from Tylor through Geertz to contemporary post-structural approaches. Key theoretical frameworks: functionalism, structural-functionalism, symbolic anthropology, interpretive anthropology, structuralism, political economy, and postmodernism. Topics: kinship and marriage, religion and ritual, economics and exchange, political organisation, social stratification, gender and sexuality, race and ethnicity, globalisation and transnationalism. Reflexivity and the crisis of representation in the 1980s. Multi-sited ethnography and digital ethnography. Ethical considerations in cross-cultural research.
+
+### anthropology.archaeology-material-culture-excavation
+
+- **title**: Archaeology: material culture and excavation
+- **unit**: `31.03.01`
+- **prerequisites**: [`anthropology.anthropology-four-fields-holism`]
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 3-4, 7-8"
+  - intermediate: "Renfrew and Bahn, Archaeology: Theories, Methods, and Practice (8e); Fagan, In the Beginning"
+  - master: "Wheeler 1954 Archaeology from the Earth; Binford 1962; Clarke 1968 Analytical Archaeology; Hodder 1986 Reading the Past"
+- **notes**: Archaeological method and theory. Excavation techniques: survey, grid systems, stratigraphy, and the Harris matrix. Dating methods: relative (stratigraphy, typology, seriation) and absolute (radiocarbon, dendrochronology, thermoluminescence, potassium-argon, obsidian hydration). Material culture analysis: lithics, ceramics, metals, faunal remains, botanical remains, and organic residues. The processual-postprocessual debate. Formation processes and taphonomy. Cultural resource management and heritage law. Major archaeological discoveries and their significance. Public archaeology and community engagement. Digital archaeology: GIS, remote sensing, LiDAR, and 3D modelling. Pseudoarchaeology and the responsibility to the public. Repatriation and NAGPRA.
+
+### anthropology.biological-anthropology-evolution-hominins
+
+- **title**: Biological anthropology: evolution and hominins
+- **unit**: `31.04.01`
+- **prerequisites**: [`anthropology.anthropology-four-fields-holism`]
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 2, 5-6"
+  - intermediate: "Larsen, Our Origins: Discovering Physical Anthropology (5e); Jurmain et al., Introduction to Physical Anthropology (15e)"
+  - master: "Darwin 1859 On the Origin of Species; Darwin 1871 The Descent of Man; Leakey family excavations; Johanson and White 1979; Tattersall"
+- **notes**: Evolutionary theory as the foundation of biological anthropology. Darwinian natural selection, Mendelian genetics, and the modern synthesis. Molecular genetics: DNA, genes, and the molecular clock. Population genetics: Hardy-Weinberg equilibrium, genetic drift, gene flow, mutation, and natural selection. Primate evolution and primate behaviour. The hominin fossil record from Sahelanthropus through Australopithecus to Homo. Key transitions: bipedalism, brain expansion, tool use, language, and control of fire. The Out-of-Africa model versus multiregional continuity. Ancient DNA and what it has revealed about human migrations and admixture with Neanderthals and Denisovans. Human biological variation: adaptation, acclimatisation, and the race concept. Forensic anthropology.
+
+### anthropology.linguistic-anthropology-language-culture
+
+- **title**: Linguistic anthropology: language, culture, and society
+- **unit**: `31.05.01`
+- **prerequisites**: [`anthropology.anthropology-four-fields-holism`]
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 4, 9"
+  - intermediate: "Duranti, Linguistic Anthropology (2e); Foley, Anthropological Linguistics"
+  - master: "Sapir 1921 Language; Whorf 1956; Boas 1911 Handbook of American Indian Languages; Hymes 1962; Austin 1962; Searle 1969"
+- **notes**: Language as a uniquely human capacity and as a cultural system. Descriptive linguistics: phonetics, phonology, morphology, syntax, and semantics. Historical linguistics: language families, comparative method, glottochronology, and language change. The Sapir-Whorf hypothesis: linguistic relativity and linguistic determinism. Language in social context: sociolinguistics, discourse analysis, and the ethnography of communication. Language and identity: gender, ethnicity, class, and nation. Multilingualism, code-switching, and language contact. Language endangerment and revitalisation. The politics of language: language policy, linguistic rights, and language death. Nonverbal communication. Language acquisition and socialisation. Writing systems and literacy. Performance, poetics, and verbal art.
+
+### anthropology.applied-anthropology-globalization-ethics
+
+- **title**: Applied anthropology: globalization, ethics, and decolonization
+- **unit**: `31.06.01`
+- **prerequisites**: [`anthropology.cultural-anthropology-ethnography-fieldwork`, `anthropology.archaeology-material-culture-excavation`, `anthropology.biological-anthropology-evolution-hominins`, `anthropology.linguistic-anthropology-language-culture`]
+- **tier_anchors**:
+  - beginner: "Ember and Ember, Anthropology (13e), Ch. 1-2, 25-27"
+  - intermediate: "Eriksen, Globalization: The Key Concepts; Farmer, Pathologies of Power"
+  - master: "Boas 1911; Malinowski 1929; AAA Ethics Code 2012; Asad 1973; Smith 1999 Decolonizing Methodologies; Trouillot 2003 Global Transformations"
+- **notes**: Applied and practicing anthropology in the contemporary world. Globalization and its anthropological study: economic restructuring, migration, diaspora, and transnationalism. Development anthropology: critiques of the development industry, participatory approaches, and indigenous knowledge. Medical anthropology: disease ecology, ethnomedicine, medical pluralism, and the political economy of health. Environmental anthropology: human ecology, political ecology, and climate change. Business and organisational anthropology. Anthropology of policy and institutions. Ethics: informed consent, community-based participatory research, and the Belmont Report. Decolonization of anthropology: challenging Eurocentric frameworks, indigenous methodologies, and repatriation. Public anthropology and engaged scholarship. The future of the discipline.
+
+### earth-science.plate-tectonics-continental-drift
+
+- **title**: Plate tectonics and continental drift
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 1-2; Grotzinger and Jordan, Understanding Earth (8e), Ch. 2"
+  - intermediate: "Kearey, Klepeis, and Vine, Global Tectonics (3e); Condie, Plate Tectonics and Crustal Evolution (4e)"
+  - master: "Wegener 1912; Vine and Matthews 1963; McKenzie and Parker 1967; Morgan 1968"
+- **notes**: Continental drift hypothesis, seafloor spreading, plate boundaries, mantle convection, Wilson cycle, paleomagnetism, hot spots, orogenesis.
+
+### earth-science.minerals-rocks-rock-cycle
+
+- **title**: Minerals, rocks, and the rock cycle
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 3-4; Grotzinger and Jordan, Understanding Earth (8e), Ch. 3-5"
+  - intermediate: "Klein and Dutrow, Manual of Mineral Science (23e); Best, Igneous and Metamorphic Petrology (2e)"
+  - master: "Bowen 1928; Turner and Verhoogen 1960; primary literature on experimental petrology"
+- **notes**: Mineral properties and classification, silicate structures, igneous processes, sedimentary environments, metamorphic facies, rock cycle, Bowen's reaction series, weathering.
+
+### earth-science.earthquakes-volcanoes-geologic-hazards
+
+- **title**: Earthquakes, volcanoes, and geologic hazards
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 5-6; Grotzinger and Jordan, Understanding Earth (8e), Ch. 6-7"
+  - intermediate: "Stein and Wysession, An Introduction to Seismology (2e); Sigurdsson et al., Encyclopedia of Volcanoes (2e)"
+  - master: "Reid 1910 elastic rebound; Richter 1935; Aki 1966; volcanic hazard primary literature"
+- **notes**: Seismic waves, fault mechanics, earthquake magnitude and intensity, volcanic types, eruption dynamics, tsunami mechanics, hazard assessment, risk mitigation.
+
+### earth-science.atmosphere-weather-climate-basics
+
+- **title**: Atmosphere, weather, and climate basics
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 11-13; Ahrens and Jackson, Meteorology Today (12e)"
+  - intermediate: "Wallace and Hobbs, Atmospheric Science (3e); Holton and Hakim, An Introduction to Dynamic Meteorology (5e)"
+  - master: "Lorenz 1963; Bjerknes 1904; Charney 1947; primary literature on numerical weather prediction"
+- **notes**: Atmospheric composition and structure, solar radiation, heat transfer, pressure and wind, moisture and clouds, weather systems, fronts, climate zones.
+
+### earth-science.oceanography-currents-tides-marine-ecosystems
+
+- **title**: Oceanography: currents, tides, and marine ecosystems
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 10; Garrison, Oceanography: An Invitation to Marine Science (9e)"
+  - intermediate: "Knauss, Introduction to Physical Oceanography (2e); Thurman and Trujillo, Essentials of Oceanography (13e)"
+  - master: "Stommel 1948; Munk 1950; Ekman 1905; primary literature on thermohaline circulation"
+- **notes**: Ocean basin structure, seawater chemistry, thermohaline circulation, surface currents, tides and tidal forces, waves, marine ecosystems, coastal processes.
+
+### earth-science.hydrology-water-cycle-groundwater
+
+- **title**: Hydrology: the water cycle and groundwater
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 7-9; Grotzinger and Jordan, Understanding Earth (8e), Ch. 11"
+  - intermediate: "Fetter, Applied Hydrogeology (4e); Dingman, Physical Hydrology (3e)"
+  - master: "Hubbert 1940; Theis 1935; Darcy 1856; primary literature on aquifer mechanics"
+- **notes**: Water cycle, infiltration, groundwater flow, aquifers and confining layers, Darcy's law, wells and pumping, water quality, water resource management.
+
+### earth-science.climate-change-evidence-impacts-mitigation
+
+- **title**: Climate change: evidence, impacts, and mitigation
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "IPCC AR6 WG1 Summary for Policymakers; Tarbuck and Lutgens, Earth Science (15e), Ch. 16"
+  - intermediate: "IPCC AR6 WG1 Full Report; Hartmann et al., Global Physical Climatology (2e)"
+  - master: "Arrhenius 1896; Callendar 1938; Keeling 1960; primary literature on climate sensitivity"
+- **notes**: Greenhouse effect, radiative forcing, paleoclimate proxies, ice cores, climate models, impacts on ecosystems and society, mitigation strategies, adaptation.
+
+### earth-science.earth-history-geologic-time-scale
+
+- **title**: Earth history and the geologic time scale
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth Science (15e), Ch. 17-18; Grotzinger and Jordan, Understanding Earth (8e), Ch. 8-9"
+  - intermediate: "Stanley, Earth System History (4e); Gradstein et al., The Geologic Time Scale 2020"
+  - master: "Smith 1815; Lyell 1830-33; Holmes 1913; primary literature on radioisotope dating"
+- **notes**: Geologic time scale, relative and absolute dating, fossils and evolution, major geologic eons, mass extinctions, Pangaea and supercontinent cycles, stratigraphy.
+
+### logic.propositional-logic-truth-tables
+
+- **title**: Propositional logic and truth tables
+- **unit**: `24.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - master: "Whitehead and Russell, Principia Mathematica (1910); Post 1921; Lukasiewicz and Tarski 1930"
+  - intermediate: "Enderton, A Mathematical Introduction to Logic (2e), Ch. 1; Mendelson, Introduction to Mathematical Logic (6e), Ch. 1"
+  - beginner: "Hurley, A Concise Introduction to Logic (13e), Ch. 6; Copi and Cohen, Introduction to Logic (14e), Ch. 1-2"
+- **notes**: Propositional logic as a formal system: syntax of well-formed formulas, truth-table semantics, tautologies and contradictions, logical equivalence and consequence, functional completeness (Post's theorem), DNF and CNF normal forms, compactness theorem for propositional logic, Sheffer stroke and Peirce arrow. Connections to Boolean algebra (Stone representation), digital circuits (Shannon 1938), and SAT solving. Historical development from Stoic logic through Boole, Frege, Post, and Wittgenstein.
+
+### logic.predicate-logic-quantifiers
+
+- **title**: Predicate logic and quantifiers
+- **unit**: `24.02.01`
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: "Frege, Begriffsschrift (1879); Tarski 1936; Lowenheim 1915; Skolem 1920"
+  - intermediate: "Enderton, A Mathematical Introduction to Logic (2e), Ch. 2; Mendelson, Introduction to Mathematical Logic (6e), Ch. 2"
+  - beginner: "Hurley, A Concise Introduction to Logic (13e), Ch. 8; Copi and Cohen, Introduction to Logic (14e), Ch. 8-9"
+- **notes**: First-order logic: terms, formulas, free and bound variables, quantifiers (universal and existential), interpretations and satisfaction, soundness and completeness (Godel 1929), compactness, Lowenheim-Skolem theorems, undecidability (Church 1936), quantifier negation equivalences, nested quantifiers, Tarski's undefinability theorem, quantifier elimination, many-sorted and second-order logic. Connections to mathematics, computer science, linguistics, and AI.
+
+### logic.informal-fallacies-argument-analysis
+
+- **title**: Informal fallacies and argument analysis
+- **unit**: `24.03.01`
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: "Aristotle, On Sophistical Refutations; Locke, Essay Concerning Human Understanding; pragma-dialectics"
+  - intermediate: "Hamblin, Fallacies (1970); Woods and Walton, Fallacies: Selected Papers (1989)"
+  - beginner: "Hurley, A Concise Introduction to Logic (13e), Ch. 3-4; Copi and Cohen, Introduction to Logic (14e), Ch. 3-4"
+- **notes**: Taxonomy of informal fallacies: fallacies of relevance (ad hominem, appeal to authority, appeal to emotion, straw man), fallacies of ambiguity (equivocation, amphiboly, composition, division), fallacies of presumption (begging the question, false dilemma, slippery slope, hasty generalization, post hoc). Argument reconstruction, principle of charity, formal fallacies (affirming the consequent, denying the antecedent). Hamblin's critique, Walton's argumentation schemes, pragma-dialectical approach, cognitive psychology of fallacies.
+
+### logic.deductive-reasoning-syllogisms
+
+- **title**: Deductive reasoning and syllogisms
+- **unit**: `24.04.01`
+- **prerequisites**: `logic.propositional-logic-truth-tables`, `logic.predicate-logic-quantifiers`
+- **tier_anchors**:
+  - master: "Aristotle, Prior Analytics Book I; Corcoran 1974; Smiley 1973"
+  - intermediate: "Aristotle, Prior Analytics; Lukasiewicz, Aristotle's Syllogistic (1957)"
+  - beginner: "Hurley, A Concise Introduction to Logic (13e), Ch. 5; Copi and Cohen, Introduction to Logic (14e), Ch. 5-6"
+- **notes**: Categorical propositions (A, E, I, O), Venn diagram analysis, categorical syllogisms, mood and figure, distribution of terms, rules for validity, 15 valid forms, Aristotle's reduction to first figure, square of opposition, existential import, conditional and disjunctive syllogisms (modus ponens, modus tollens), modal syllogisms, modern reconstruction (Lukasiewicz, Corcoran, Smiley), syllogistic as monadic fragment of predicate logic.
+
+### logic.inductive-reasoning-analogy-causation
+
+- **title**: Inductive reasoning, analogy, and causation
+- **unit**: `24.05.01`
+- **prerequisites**: `logic.informal-fallacies-argument-analysis`, `logic.deductive-reasoning-syllogisms`
+- **tier_anchors**:
+  - master: "Hume, An Enquiry Concerning Human Understanding (1748); Hempel 1965; Goodman 1983; Pearl 2009"
+  - intermediate: "Hacking, An Introduction to Probability and Inductive Logic (2001); Mill, A System of Logic (1843)"
+  - beginner: "Hurley, A Concise Introduction to Logic (13e), Ch. 10-12; Copi and Cohen, Introduction to Logic (14e), Ch. 12-13"
+- **notes**: Inductive generalization, statistical syllogism, analogical argument, causal reasoning, Mill's five methods (agreement, difference, joint, residues, concomitant variation), necessary and sufficient conditions, Hume's problem of induction, Goodman's grue paradox, Bayesian confirmation theory, Hempel's paradoxes, Pearl's causal revolution (causal Bayesian networks, do-calculus), confounding variables, randomized controlled trials. Connections to scientific method, statistics, and machine learning.
+
+### logic.decision-theory-bayesian-reasoning
+
+- **title**: Decision theory and Bayesian reasoning
+- **unit**: `24.06.01`
+- **prerequisites**: `logic.inductive-reasoning-analogy-causation`
+- **tier_anchors**:
+  - master: "Bayes 1763; Laplace 1812; de Finetti 1937; von Neumann and Morgenstern 1944; Savage 1954"
+  - intermediate: "Jeffrey, The Logic of Decision (2e, 1983); Savage, The Foundations of Statistics (1954)"
+  - beginner: "Hacking, An Introduction to Probability and Inductive Logic (2001), Ch. 1-10; Kahneman, Thinking, Fast and Slow (2011), Ch. 21-28"
+- **notes**: Expected value and expected utility, Bayes' theorem, prior and posterior probability, likelihood, base rate fallacy, decision matrices and trees, Dutch book argument, Savage's representation theorem, subjective probability (Ramsey, de Finetti), Jeffrey conditionalization, conjugate priors, computational Bayesian methods (MCMC), game theory basics, Ellsberg paradox and ambiguity aversion. Connections to statistics, AI, law, and medicine.
+
+### logic.cognitive-biases-rationality
+
+- **title**: Cognitive biases and rationality
+- **unit**: `24.07.01`
+- **prerequisites**: `logic.decision-theory-bayesian-reasoning`
+- **tier_anchors**:
+  - master: "Tversky and Kahneman 1974, 1981, 1992; Gigerenzer, Adaptive Thinking (2000); Kahneman and Tversky, Prospect Theory (1979)"
+  - intermediate: "Tversky and Kahneman, Judgment Under Uncertainty (1974); Stanovich, Rationality and the Reflective Mind (2011)"
+  - beginner: "Kahneman, Thinking, Fast and Slow (2011), Ch. 1-12; Ariely, Predictably Irrational (2008)"
+- **notes**: Dual-process theory (System 1/System 2), availability heuristic, anchoring, confirmation bias, framing effect, loss aversion, planning fallacy, Dunning-Kruger effect, sunk cost fallacy, representativeness heuristic, conjunction fallacy, prospect theory (Kahneman-Tversky 1979), fourfold pattern of risk attitudes, certainty effect, endowment effect, status quo bias, debiasing strategies, nudges (Thaler-Sunstein), ecological rationality (Gigerenzer), individual differences in rationality (Stanovich).
+
+### logic.critical-thinking-media-science-everyday
+
+- **title**: Critical thinking in media, science, and everyday life
+- **unit**: `24.08.01`
+- **prerequisites**: `logic.informal-fallacies-argument-analysis`, `logic.inductive-reasoning-analogy-causation`, `logic.cognitive-biases-rationality`
+- **tier_anchors**:
+  - master: "Dewey, How We Think (1910); McPeck, Critical Thinking and Education (1981); Ennis, A Taxonomy of Critical Thinking Dispositions and Abilities (1987)"
+  - intermediate: "Paul and Elder, Critical Thinking: Tools for Taking Charge (2014), Ch. 1-10; Browne and Keeley, Asking the Right Questions (12e)"
+  - beginner: "Paul and Elder, Critical Thinking: Tools for Taking Charge (2014); Hurley, A Concise Introduction to Logic (13e), Ch. 1-2"
+ - **notes**: Paul-Elder framework (eight elements of thought, nine intellectual standards), media literacy, scientific reasoning and evidence hierarchy, argument mapping, replication crisis, disinformation and post-truth landscape, SIFT method for online evaluation, PERMA framework for scientific literacy, metacognition and intellectual humility, collective intelligence, critical thinking across cultures. Connections to education, professional practice, citizenship, and personal well-being.
+
+### media-literacy.media-foundations-history-theory
+
+- **title**: Media foundations: history and theory
+- **unit**: `36.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Potter, Media Literacy (9e), Ch. 1-3; Baran, Introduction to Mass Communication (10e), Ch. 1-2"
+  - intermediate: "McQuail, Mass Communication Theory (7e); Habermas, The Structural Transformation of the Public Sphere"
+  - master: "primary sources: McLuhan 1962/1964, Innis 1950/1951, Habermas 1962, Adorno and Horkheimer 1944, Lasswell 1927; secondary: Postman 1985, Couldry and Hepp 2017"
+- **notes**: History of media from oral tradition through print, broadcast, and digital. Key theorists: McLuhan, Innis, Habermas, Adorno, Hall. Communication models: transmission, ritual, encoding/decoding, uses and gratifications. Media effects paradigms: hypodermic needle, limited effects, cultivation, agenda-setting, framing, priming. Political economy of media. Semiotics and media analysis.
+
+### media-literacy.news-journalism-verification-source-evaluation
+
+- **title**: News and journalism: verification and source evaluation
+- **unit**: `36.02.01`
+- **prerequisites**: `media-literacy.media-foundations-history-theory`
+- **tier_anchors**:
+  - beginner: "Kovach and Rosenstiel, The Elements of Journalism (4e), Ch. 1-5; Potter, Media Literacy (9e), Ch. 7-8"
+  - intermediate: "Ward, The Invention of Journalism Ethics; Herman and Chomsky, Manufacturing Consent, Ch. 1-2"
+  - master: "primary sources: Lippmann 1922, Hutchins Commission 1947, Herman and Chomsky 1988, Kovach and Rosenstiel 2014; secondary: Schudson 1978/2003, Zelizer 2004, Nielsen 2016"
+- **notes**: Journalism as discipline of verification. Source evaluation methods including CRAAP test. Inverted pyramid structure. Press freedom and legal frameworks. Propaganda model. Fact-checking methodologies. Anonymous sources. Crisis of local journalism. Lateral reading as verification strategy.
+
+### media-literacy.propaganda-persuasion-rhetorical-analysis
+
+- **title**: Propaganda and persuasion: rhetorical analysis
+- **unit**: `36.03.01`
+- **prerequisites**: `media-literacy.media-foundations-history-theory`
+- **tier_anchors**:
+  - beginner: "Jowett and O'Donnell, Propaganda and Persuasion (7e), Ch. 1-4; Potter, Media Literacy (9e), Ch. 5-6"
+  - intermediate: "Aristotle, Rhetoric; Ellul, Propaganda; Jowett and O'Donnell, Ch. 5-8"
+  - master: "primary sources: Aristotle Rhetoric, Lasswell 1927, Ellul 1965, Arendt 1951, Orwell 1946; secondary: Jowett and O'Donnell 2019, Taylor 2003, Jack 1989"
+- **notes**: Aristotle's rhetorical triangle (ethos, pathos, logos). Propaganda techniques: name-calling, glittering generalities, transfer, testimonial, plain folks, card stacking, bandwagon, fear appeals. Logical fallacies. Jowett and O'Donnell ten-step analysis framework. Ellul's typology. Information warfare and computational propaganda. Deepfakes and synthetic media.
+
+### media-literacy.digital-literacy-algorithms-filter-bubbles
+
+- **title**: Digital literacy: algorithms, filter bubbles, and echo chambers
+- **unit**: `36.04.01`
+- **prerequisites**: `media-literacy.media-foundations-history-theory`
+- **tier_anchors**:
+  - beginner: "Potter, Media Literacy (9e), Ch. 9-11; Rheingold and Weeks, Net Smart (2012), Ch. 1-3"
+  - intermediate: "Pariser, The Filter Bubble (2011); Sunstein, #Republic (2017); Tufekci, Twitter and Tear Gas (2017)"
+  - master: "primary sources: Pariser 2011, Sunstein 2001/2017, Bucher 2018, Gillespie 2018, Zuboff 2019; secondary: Couldry and Mejias 2019, Yeung 2018, Fourcade and Healy 2017"
+- **notes**: Algorithmic curation and personalization. Filter bubbles and echo chambers. Collaborative and content-based filtering. Attention economy. Algorithmic polarization and rabbit holing. Surveillance capitalism and behavioral surplus. Platform governance and algorithmic accountability. Misinformation dynamics. Digital literacy pedagogies: CRAAP test, lateral reading, SIFT method.
+
+### media-literacy.visual-literacy-images-data-visualization
+
+- **title**: Visual literacy: images, data visualization, and manipulation
+- **unit**: `36.05.01`
+- **prerequisites**: `media-literacy.media-foundations-history-theory`
+- **tier_anchors**:
+  - beginner: "Barry, Visual Communication (2019), Ch. 1-4; Cairo, The Truthful Art (2016), Ch. 1-4"
+  - intermediate: "Kress and van Leeuwen, Reading Images (2e); Tufte, The Visual Display of Quantitative Information; Cairo, How Charts Lie (2019)"
+  - master: "primary sources: Barthes 1977, Tufte 1983/1990, Kress and van Leeuwen 2006, Cairo 2016/2019; secondary: Mirzoeff 2015, Rose 2016, Elkins 2003"
+- **notes**: Image analysis and visual rhetoric. Data visualization principles: Tufte's lie factor, data-ink ratio, chart types. Barthes's semiotics of images. Truncated axes, 3D distortion, misleading charts. Cropping and context removal. Deepfakes and AI-generated images. Maps as visual arguments. Cognitive science of visual misperception. Color theory in advertising.
+
+### media-literacy.media-ethics-responsible-consumption-production
+
+- **title**: Media ethics: responsible consumption and production
+- **unit**: `36.06.01`
+- **prerequisites**: `media-literacy.media-foundations-history-theory`
+- **tier_anchors**:
+  - beginner: "Potter, Media Literacy (9e), Ch. 12-13; Ward, Ethics and the Media (2011), Ch. 1-3"
+  - intermediate: "Ward, Ethics and the Media; Couldry and Mejias, The Costs of Connection, Ch. 1-4"
+  - master: "primary sources: Habermas 1990, Rawls 1971, Mill 1859, Kant 1785; secondary: Ward 2011, Couldry and Mejias 2019, Gillespie 2018, Moore and Tambini 2018"
+- **notes**: Ethical frameworks: deontological, consequentialist, virtue, care ethics. Privacy and consent. Representation and symbolic annihilation. SPJ Code of Ethics. Intellectual property and fair use. Digital citizenship. Algorithmic media ethics: moral crumple zones, transparency, informed consent, distributive justice. Platform governance. Global media ethics. AI in media.
+
+### computer-science.computational-thinking-algorithms
+
+- **title**: Computational thinking and algorithms
+- **unit**: `25.01.01`
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: Knuth TAOCP Vol. 1 Ch. 1; Turing 1936; Hopcroft, Motwani, Ullman Ch. 1-3
+  - intermediate: Cormen et al. Ch. 2-4; Kleinberg and Tardos Ch. 1-2
+  - beginner: Sipser Ch. 0-1; Cormen et al. Ch. 1-2
+- **notes**: Decomposition, pattern recognition, abstraction, and algorithmic design. Covers algorithm correctness, loop invariants, binary search, Euclidean algorithm, and the Church-Turing thesis. Foundational unit for the entire CS chapter.
+
+### computer-science.data-structures-arrays-trees-graphs
+
+- **title**: Data structures: arrays, trees, and graphs
+- **unit**: `25.02.01`
+- **prerequisites**: `computer-science.computational-thinking-algorithms`
+- **tier_anchors**:
+  - master: Knuth TAOCP Vol. 1 Ch. 2; Tarjan, Data Structures and Network Algorithms; Okasaki, Purely Functional Data Structures
+  - intermediate: Cormen et al. Ch. 10-12, 22-23; Skiena Ch. 3-4
+  - beginner: Cormen et al. Ch. 10; Sedgewick and Wayne Ch. 1-2
+- **notes**: Arrays, linked lists, stacks, queues, hash tables, balanced BSTs, heaps, graphs, and their representations. Amortized analysis of dynamic arrays. Foundation for algorithms and database units.
+
+### computer-science.algorithmic-complexity-big-o
+
+- **title**: Algorithmic complexity and Big-O notation
+- **unit**: `25.03.01`
+- **prerequisites**: `computer-science.computational-thinking-algorithms`
+- **tier_anchors**:
+  - master: Arora and Barak Ch. 1-3; Papadimitriou Ch. 1-2
+  - intermediate: Cormen et al. Ch. 3-4; Kleinberg and Tardos Ch. 2
+  - beginner: Cormen et al. Ch. 2-3; Sedgewick and Wayne Ch. 1
+- **notes**: Asymptotic notation (Big-O, Omega, Theta), the master theorem, sorting lower bound, P vs NP, NP-completeness, fine-grained complexity, and parameterized complexity.
+
+### computer-science.programming-paradigms-functional-oop
+
+- **title**: Programming paradigms: functional, OOP, and beyond
+- **unit**: `25.04.01`
+- **prerequisites**: `computer-science.computational-thinking-algorithms`
+- **tier_anchors**:
+  - master: Pierce, TAPL; Barendregt, The Lambda Calculus; Milner, Tofte, Harper, Definition of Standard ML
+  - intermediate: Pierce, TAPL Ch. 1-5; Abadi and Cardelli Ch. 1-2
+  - beginner: Abelson and Sussman Ch. 1-2; Bloch, Effective Java Ch. 1-3
+- **notes**: Imperative, functional, object-oriented, declarative, logic, and reactive paradigms. Lambda calculus, type systems, Church-Rosser theorem, monads, design patterns, and the Curry-Howard correspondence.
+
+### computer-science.operating-systems-processes-memory
+
+- **title**: Operating systems: processes and memory
+- **unit**: `25.05.01`
+- **prerequisites**: `computer-science.computational-thinking-algorithms`, `computer-science.programming-paradigms-functional-oop`
+- **tier_anchors**:
+  - master: Corbet, Rubini, Kroah-Hartman, Linux Device Drivers; Bovet and Cesati, Understanding the Linux Kernel
+  - intermediate: Silberschatz et al. Ch. 5-9; Tanenbaum and Bos Ch. 2-3
+  - beginner: Silberschatz et al. Ch. 1-4; Bryant and O'Hallaron Ch. 8-9
+- **notes**: Processes, scheduling, virtual memory, page tables, concurrency primitives, context switching, Banker's algorithm, real-time scheduling, lock-free data structures, containers, and namespaces.
+
+### computer-science.computer-networks-internet-architecture
+
+- **title**: Computer networks and internet architecture
+- **unit**: `25.06.01`
+- **prerequisites**: `computer-science.operating-systems-processes-memory`
+- **tier_anchors**:
+  - master: Clark 1988; RFC 791, 793, 2616; Varghese, Network Algorithmics
+  - intermediate: Kurose and Ross Ch. 4-6; Tanenbaum and Wetherall Ch. 3-5
+  - beginner: Kurose and Ross Ch. 1-3; Peterson and Davie Ch. 1-2
+- **notes**: TCP/IP stack, DNS, TCP congestion control (AIMD), routing algorithms, BGP, SDN, CDNs, QUIC, and IoT protocols.
+
+### computer-science.databases-relational-nosql
+
+- **title**: Databases: relational, NoSQL, and data modeling
+- **unit**: `25.07.01`
+- **prerequisites**: `computer-science.data-structures-arrays-trees-graphs`, `computer-science.programming-paradigms-functional-oop`
+- **tier_anchors**:
+  - master: Codd 1970; Gray and Reuter, Transaction Processing; Stonebraker and Cetintemel 2005
+  - intermediate: Ramakrishnan and Gehrke Ch. 5-12; Date Ch. 4-9
+  - beginner: Ramakrishnan and Gehrke Ch. 1-4; Silberschatz et al. Ch. 1-3
+- **notes**: Relational model, SQL, normalization, ACID transactions, indexing, query optimization, CAP theorem, NoSQL databases, LSM-trees, vector databases, and NewSQL.
+
+### computer-science.cybersecurity-encryption-privacy
+
+- **title**: Cybersecurity, encryption, and privacy
+- **unit**: `25.08.01`
+- **prerequisites**: `computer-science.computer-networks-internet-architecture`, `computer-science.databases-relational-nosql`
+- **tier_anchors**:
+  - master: Goldreich, Foundations of Cryptography; Boneh and Shoup; Anderson, Security Engineering
+  - intermediate: Stallings Ch. 4-10; Katz and Lindell Ch. 2-6
+  - beginner: Stallings Ch. 1-3; Anderson Ch. 1-3
+- **notes**: Symmetric and asymmetric encryption, hash functions, digital signatures, RSA, Diffie-Hellman, TLS, zero-knowledge proofs, homomorphic encryption, post-quantum cryptography, and multi-party computation.
+
+### computer-science.artificial-intelligence-machine-learning
+
+- **title**: Artificial intelligence and machine learning
+- **unit**: `25.09.01`
+- **prerequisites**: `computer-science.algorithmic-complexity-big-o`, `computer-science.data-structures-arrays-trees-graphs`, `computer-science.databases-relational-nosql`
+- **tier_anchors**:
+  - master: Goodfellow, Bengio, Courville, Deep Learning; Vapnik; Sutton and Barto
+  - intermediate: Bishop Ch. 2-5; Goodfellow et al. Ch. 1-6
+  - beginner: Russell and Norvig Ch. 1-6; Bishop Ch. 1
+- **notes**: Supervised, unsupervised, and reinforcement learning. Neural networks, backpropagation, overfitting, VC dimension, transformers, generative models, RLHF, and foundation models.
+
+### computer-science.software-engineering-design-patterns
+
+- **title**: Software engineering and design patterns
+- **unit**: `25.10.01`
+- **prerequisites**: `computer-science.programming-paradigms-functional-oop`, `computer-science.data-structures-arrays-trees-graphs`, `computer-science.algorithmic-complexity-big-o`
+- **tier_anchors**:
+  - master: Brooks, The Mythical Man-Month; Fowler, PEAA; Raymond, The Cathedral and the Bazaar
+  - intermediate: Gamma et al., Design Patterns; Martin, Clean Code; Fowler, Refactoring
+  - beginner: Sommerville Ch. 1-4; Gamma et al. Ch. 1-2
+- **notes**: SDLC, Agile, GoF design patterns, SOLID principles, TDD, CI/CD, version control, microservices, DDD, DevOps, and technical debt.
+
+### computer-science.distributed-systems-consensus
+
+- **title**: Distributed systems and consensus
+- **unit**: `25.11.01`
+- **prerequisites**: `computer-science.computer-networks-internet-architecture`, `computer-science.databases-relational-nosql`, `computer-science.cybersecurity-encryption-privacy`
+- **tier_anchors**:
+  - master: Lamport 1998; Ongaro and Ousterhout 2014; Gray and Lorie
+  - intermediate: Kleppmann Ch. 8-12; Cachin, Guerraoui, Rodrigues Ch. 4-6
+  - beginner: Tanenbaum and Van Steen Ch. 1-3; Kleppmann Ch. 5-7
+- **notes**: Partial failure, CAP theorem, replication, consistency models, Raft, Paxos, FLP impossibility, Byzantine fault tolerance, CRDTs, consistent hashing, and sharding.
+
+### computer-science.computing-ethics-society-impact
+
+- **title**: Computing ethics and societal impact
+- **unit**: `25.12.01`
+- **prerequisites**: `computer-science.artificial-intelligence-machine-learning`, `computer-science.software-engineering-design-patterns`, `computer-science.distributed-systems-consensus`
+- **tier_anchors**:
+  - master: Floridi, The Fourth Revolution; Zuboff, Surveillance Capitalism; Noble, Algorithms of Oppression
+  - intermediate: Floridi, Philosophy of Information Ch. 1-5; Vallor, Technology and the Virtues Ch. 1-4
+  - beginner: Quinn, Ethics for the Information Age Ch. 1-4; Stallings, Ethics in IT Ch. 1-3
+- **notes**: Privacy, algorithmic bias, accessibility, digital divide, fairness definitions, differential privacy, surveillance capitalism, autonomous weapons, right to explanation, and professional codes of ethics.
