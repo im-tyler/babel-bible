@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Klein-Gordon Equation on a Globally Hyperbolic Spacetime</title>
+  <desc id="desc">A schematic placeholder diagram for the Klein-Gordon Cauchy problem on a globally hyperbolic spacetime: Cauchy surface with initial data, retarded and advanced light cones, and the Pauli-Jordan commutator support.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g fill="none" stroke="#1d4e5a" stroke-width="3">
+    <line x1="80" y1="200" x2="640" y2="200"/>
+  </g>
+  <text x="650" y="205" font-family="Inter, Arial, sans-serif" font-size="20" fill="#1d4e5a">Σ</text>
+  <g fill="none" stroke="#b8651e" stroke-width="3">
+    <path d="M360 200 L260 60 M360 200 L460 60"/>
+    <path d="M360 200 L260 340 M360 200 L460 340"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="360" cy="200" r="7"/>
+  </g>
+  <text x="360" y="50" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#b8651e">J⁺(supp f)</text>
+  <text x="360" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#b8651e">J⁻(supp f)</text>
+  <text x="380" y="195" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">(φ₀, φ₁) on Σ</text>
+  <text x="370" y="220" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">supp f</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">CCR Algebra, Weyl Algebra, and Quasi-Free States</title>
+  <desc id="desc">A schematic placeholder diagram for CCR Algebra, Weyl Algebra, and Quasi-Free States.</desc>
+  <rect width="720" height="360" fill="#fbf5ee"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3a6a4f"/></marker></defs>
+  <g stroke="#3a6a4f" stroke-width="4" fill="none" marker-end="url(#ar)">
+    <path d="M150 170 L290 90"/>
+    <path d="M150 170 L290 250"/>
+    <path d="M310 90 L450 170"/>
+    <path d="M310 250 L450 170"/>
+    <path d="M470 170 L590 170"/>
+  </g>
+  <g fill="#c66a3a">
+    <circle cx="150" cy="170" r="16"/>
+    <circle cx="300" cy="90" r="16"/>
+    <circle cx="300" cy="250" r="16"/>
+    <circle cx="460" cy="170" r="16"/>
+    <circle cx="600" cy="170" r="16"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#222" text-anchor="middle">
+    <text x="150" y="200">(V, sigma)</text>
+    <text x="300" y="75">phi(v)</text>
+    <text x="300" y="275">W(v)</text>
+    <text x="460" y="200">omega_eta</text>
+    <text x="600" y="200">GNS</text>
+  </g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">CCR Algebra, Weyl Algebra, and Quasi-Free States</text>
+</svg>

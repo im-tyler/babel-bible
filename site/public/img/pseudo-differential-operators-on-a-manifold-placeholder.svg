@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Pseudo-differential operator and its principal symbol</title>
+  <desc id="desc">A schematic showing the cotangent bundle T*M over a manifold M, with a level set of the principal symbol drawn as a curve in the fibre; the operator quantises this symbol.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <line x1="60" y1="300" x2="660" y2="300" stroke="#222" stroke-width="2"/>
+  <text x="670" y="305" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">M</text>
+  <path d="M 80 300 Q 200 250 360 270 T 660 280" stroke="#5a3d6f" stroke-width="3" fill="none"/>
+  <text x="80" y="240" font-family="Inter, Arial, sans-serif" font-size="18" fill="#5a3d6f">T*M fibre</text>
+  <line x1="200" y1="300" x2="200" y2="80" stroke="#888" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="360" y1="300" x2="360" y2="80" stroke="#888" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="520" y1="300" x2="520" y2="80" stroke="#888" stroke-width="1" stroke-dasharray="4 4"/>
+  <ellipse cx="200" cy="160" rx="50" ry="70" stroke="#d68a3a" stroke-width="3" fill="none"/>
+  <ellipse cx="360" cy="160" rx="60" ry="80" stroke="#d68a3a" stroke-width="3" fill="none"/>
+  <ellipse cx="520" cy="160" rx="55" ry="75" stroke="#d68a3a" stroke-width="3" fill="none"/>
+  <text x="360" y="50" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#d68a3a">level sets of a(x, &#958;)</text>
+  <text x="360" y="345" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">a(x, D) u(x) = (2&#960;)^{-n} &#8747; e^{i x&#183;&#958;} a(x, &#958;) &#251;(&#958;) d&#958;</text>
+</svg>

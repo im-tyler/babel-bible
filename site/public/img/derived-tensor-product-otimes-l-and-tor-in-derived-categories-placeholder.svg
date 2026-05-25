@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Derived Tensor Product and Tor</title>
+  <desc id="desc">A schematic placeholder showing a flat resolution P_bullet of M mapping into M, then tensoring with N, and the cohomology of the resulting complex assembling into Tor_i(M, N).</desc>
+  <rect width="720" height="360" fill="#f5f4ec"/>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="40" y="80">... → P_2 → P_1 → P_0 → M → 0</text>
+    <text x="40" y="160">⊗ N</text>
+    <text x="40" y="220">... → P_2 ⊗ N → P_1 ⊗ N → P_0 ⊗ N</text>
+    <text x="40" y="300">H_i = Tor_i^R(M, N)</text>
+  </g>
+  <g stroke="#b04d20" stroke-width="2" fill="none">
+    <path d="M40 175 L660 175" marker-end="url(#arrowhead)"/>
+    <path d="M40 235 L660 235" marker-end="url(#arrowhead)"/>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#b04d20"/>
+    </marker>
+  </defs>
+  <text x="360" y="340" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">Derived Tensor Product ⊗^L and Tor</text>
+</svg>
