@@ -290,6 +290,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: derived tensor product packages all the Tor groups into one object on the derived category
 - **notes**: Derived tensor product M ⊗^L N defined via flat resolution P_• → M with M ⊗^L N := P_• ⊗ N, independent of resolution choice up to quasi-isomorphism. Bifunctor ⊗^L : D^-(R) × D^-(R) → D^-(R) which is associative and symmetric up to canonical natural isomorphism, with the universal property characterising it as the total left derived functor of ⊗. Tor recovery: Tor_i^R(M, N) = H_{-i}(M ⊗^L N) in cohomological indexing, or H_i in homological indexing. Adjunction ⊗^L ⊣ RHom in the derived sense. Worked example Z/m ⊗^L Z/n over Z recovers Tor_1^Z(Z/m, Z/n) = Z/gcd(m,n). Projection formula in the six-functor language f_!(F ⊗^L f^* G) ≅ f_! F ⊗^L G is the geometric face. Originated in Cartan-Eilenberg 1956 for the classical Tor; Verdier 1963 thesis put it in the derived-category framework; Grothendieck SGA 6 used it for the intersection theory on schemes.
 
+### alg-geom.t-structure-heart-and-truncations
+
+- **title**: t-Structure on a triangulated category - heart and truncations
+- **unit**: `04.03.18`
+- **prerequisites**: `alg-geom.triangulated-category-verdier-axioms-tr1-tr4`, `alg-geom.derived-category-localisation-quasi-isomorphisms`, `alg-geom.derived-functors-rf-lf-via-derived-categories`
+- **tier_anchors**:
+  - master: Beilinson-Bernstein-Deligne 1982 Faisceaux pervers (Astérisque 100); Verdier 1996 Catégories dérivées; Bondal-Kapranov 1989; Bondal-Orlov 2001 Compositio Math. 125; Gelfand-Manin Methods of Homological Algebra Ch. IV
+  - intermediate: Gelfand-Manin Methods of Homological Algebra Ch. IV §4; Kashiwara-Schapira Categories and Sheaves Ch. 10 §1; Stacks Project Tag 0FNI
+  - beginner: a t-structure splits a triangulated category into negative and positive halves with an abelian overlap (the heart)
+- **notes**: A t-structure on a triangulated category D is a pair (D^≤0, D^≥0) of full strict subcategories satisfying three BBD axioms: shift stability (D^≤-1 ⊂ D^≤0, D^≥1 ⊂ D^≥0), orthogonality Hom(D^≤0, D^≥1) = 0, and existence of a truncation triangle A → X → B → A[1] for every X ∈ D with A ∈ D^≤0 and B ∈ D^≥1. Truncation functors τ_≤n, τ_≥n are adjoint to inclusions. Heart D^♡ = D^≤0 ∩ D^≥0 is an abelian category (BBD §1.3.6) with short exact sequences = distinguished triangles whose three terms lie in D^♡. Cohomological functor H^n_t = τ_≤0 τ_≥0 [n] : D → D^♡ produces long exact sequences. Standard t-structure on D(A) has heart A; perverse t-structure on D^b_c(X) for a complex algebraic variety X has heart Perv(X). Beilinson reconstruction: D^b(Perv(X)) ≃ D^b_c(X) — the perverse cohomology recovers all constructible cohomological information. Bondal-Orlov reconstruction: smooth projective X with ω_X ample or anti-ample is recovered from D^b(Coh(X)) as a k-linear triangulated category. Originated in BBD 1982 (axioms, perverse application); Verdier 1996 (standard t-structure); Bondal-Kapranov 1989 (Serre functors, reconstruction framework); Bondal-Orlov 2001 (variety reconstruction). Foundational input to perverse sheaves, BBD decomposition theorem, intersection cohomology, Bridgeland stability, geometric Langlands.
+
 ### linalg.field
 
 - **title**: Field
