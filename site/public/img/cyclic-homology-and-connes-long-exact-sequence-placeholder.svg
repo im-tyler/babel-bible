@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cyclic homology and Connes' SBI long exact sequence</title>
+  <desc id="desc">A schematic placeholder showing the cyclic action tau on Hochschild chains, the Connes-Tsygan bicomplex with vertical b and horizontal 1 minus tau, the SBI long exact sequence HH_n to HC_n to HC_{n-2} to HH_{n-1}, the periodic cyclic homology HP_* as the inverse limit under S, and the HKR cyclic identification HC_n cong Omega^n / d Omega^{n-1} plus de Rham cohomology in lower degrees for a smooth commutative algebra in characteristic zero.</desc>
+  <rect width="720" height="360" fill="#f5f4ec"/>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="40" y="55">Cyclic action τ on A ⊗ A^⊗n: cyclic refinement of Hochschild</text>
+    <text x="40" y="95">Connes-Tsygan bicomplex: vertical b, horizontal 1 - τ, N, B</text>
+    <text x="40" y="135">SBI: ... → HH_n → HC_n → HC_{n-2} → HH_{n-1} → ...</text>
+    <text x="40" y="180">Periodic cyclic homology HP_* = ⟵lim_S HC_*  (ℤ/2-graded)</text>
+    <text x="40" y="225">HKR cyclic (Connes 1985 IHES 62, char k = 0, smooth A):</text>
+    <text x="40" y="255">HC_n(A) ≅ Ω^n_A / dΩ^(n-1)_A  ⊕  H^(n-2)_dR(A)  ⊕  H^(n-4)_dR(A)  ⊕ ...</text>
+    <text x="40" y="285">HP_n(A) ≅ ⊕_{i ≡ n (2)} H^i_dR(A/k) — noncommutative de Rham</text>
+  </g>
+  <g stroke="#b04d20" stroke-width="3" fill="none">
+    <path d="M40 150 L660 150" marker-end="url(#arrowhead)"/>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#b04d20"/>
+    </marker>
+  </defs>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#222">Cyclic homology and Connes' SBI long exact sequence</text>
+</svg>

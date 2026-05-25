@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Compton scattering — s- and u-channel tree diagrams and the Klein-Nishina angular distribution</title>
+  <desc id="desc">Two QED tree-level Feynman diagrams for the elastic process gamma + electron to gamma + electron: an s-channel diagram with an electron propagator carrying momentum p + k between the absorption and emission vertices, and a u-channel diagram with an electron propagator carrying momentum p - k' from the emission vertex backward to the absorption vertex. A polar plot below sketches the differential cross section in the lab frame at three photon energies: the symmetric Thomson lobe (omega much less than m) with forward-backward symmetry 1 plus cos^2 theta, the intermediate-energy lobe at omega comparable to m showing forward suppression, and the strongly forward-peaked high-energy lobe (omega much greater than m). The Klein-Nishina formula and the Thomson limit are displayed.</desc>
+  <rect width="960" height="540" fill="#f8faf7"/>
+
+  <text x="480" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#23424a" font-weight="bold">Compton scattering — tree-level QED</text>
+  <text x="480" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#23424a">γ(k) + e⁻(p) → γ(k′) + e⁻(p′),  Mandelstam s = (p+k)², u = (p-k′)²</text>
+
+  <!-- s-channel diagram -->
+  <text x="200" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#23424a" font-weight="bold">s-channel</text>
+  <!-- incoming photon (wavy) -->
+  <path d="M60 130 q10 -8 20 0 q10 8 20 0 q10 -8 20 0 q10 8 20 0" fill="none" stroke="#e76f51" stroke-width="2.2"/>
+  <text x="80" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">γ (k)</text>
+  <!-- incoming electron (solid line w/ arrow) -->
+  <line x1="60" y1="220" x2="140" y2="180" stroke="#264653" stroke-width="2.2" marker-end="url(#fermarrow)"/>
+  <text x="80" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#264653">e⁻ (p)</text>
+  <!-- vertex 1 -->
+  <circle cx="140" cy="180" r="3" fill="#23424a"/>
+  <!-- internal electron line (s-channel) -->
+  <line x1="140" y1="180" x2="260" y2="180" stroke="#264653" stroke-width="2.2" marker-end="url(#fermarrow)"/>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#264653">e⁻ (p + k)</text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8a8a8a">∝ 1/(s − m²)</text>
+  <!-- vertex 2 -->
+  <circle cx="260" cy="180" r="3" fill="#23424a"/>
+  <!-- outgoing photon (wavy) -->
+  <path d="M260 180 q10 -8 20 0 q10 8 20 0 q10 -8 20 0 q10 8 20 0" fill="none" stroke="#e76f51" stroke-width="2.2"/>
+  <text x="350" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">γ (k′)</text>
+  <!-- outgoing electron -->
+  <line x1="260" y1="180" x2="340" y2="220" stroke="#264653" stroke-width="2.2" marker-end="url(#fermarrow)"/>
+  <text x="350" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#264653">e⁻ (p′)</text>
+
+  <!-- u-channel diagram -->
+  <text x="600" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#23424a" font-weight="bold">u-channel (crossed)</text>
+  <!-- incoming photon -->
+  <path d="M460 130 q10 -8 20 0 q10 8 20 0 q10 -8 20 0 q10 8 20 0" fill="none" stroke="#e76f51" stroke-width="2.2"/>
+  <text x="480" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">γ (k)</text>
+  <!-- incoming electron -->
+  <line x1="460" y1="220" x2="540" y2="180" stroke="#264653" stroke-width="2.2" marker-end="url(#fermarrow)"/>
+  <text x="480" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#264653">e⁻ (p)</text>
+  <!-- first vertex emits outgoing photon -->
+  <circle cx="540" cy="180" r="3" fill="#23424a"/>
+  <path d="M540 180 q-3 -18 -16 -28 q-13 -10 -22 -28" fill="none" stroke="#e76f51" stroke-width="2.2"/>
+  <text x="490" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">γ (k′)</text>
+  <!-- internal line -->
+  <line x1="540" y1="180" x2="660" y2="180" stroke="#264653" stroke-width="2.2" marker-end="url(#fermarrow)"/>
+  <text x="600" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#264653">e⁻ (p − k′)</text>
+  <text x="600" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8a8a8a">∝ 1/(u − m²)</text>
+  <!-- second vertex absorbs incoming photon (crossed) -->
+  <circle cx="660" cy="180" r="3" fill="#23424a"/>
+  <!-- outgoing electron -->
+  <line x1="660" y1="180" x2="740" y2="220" stroke="#264653" stroke-width="2.2" marker-end="url(#fermarrow)"/>
+  <text x="750" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#264653">e⁻ (p′)</text>
+  <!-- incoming photon stub going into vertex 2 -->
+  <path d="M740 130 q-10 8 -20 0 q-10 -8 -20 0 q-10 8 -10 25 q5 18 -10 25" fill="none" stroke="#e76f51" stroke-width="2.2"/>
+  <text x="760" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8a8a8a">(crossing of γ legs)</text>
+
+  <!-- Amplitude expression -->
+  <text x="480" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#23424a">𝓜 = −e² ū(p′)[ε̸′* (p̸+k̸+m)/(s−m²) ε̸ + ε̸ (p̸−k̸′+m)/(u−m²) ε̸′*] u(p)</text>
+
+  <!-- Polar lobes -->
+  <g transform="translate(160 430)">
+    <text x="0" y="-90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2a9d8f">Thomson (ω ≪ m)</text>
+    <!-- symmetric lobe 1 + cos^2 -->
+    <path d="M-70 0 C-60 -40 -30 -55 0 -55 C30 -55 60 -40 70 0 C60 40 30 55 0 55 C-30 55 -60 40 -70 0 Z" fill="none" stroke="#2a9d8f" stroke-width="2"/>
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="3 2"/>
+    <text x="85" y="4" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#8a8a8a">→ θ = 0</text>
+  </g>
+
+  <g transform="translate(400 430)">
+    <text x="0" y="-90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e9c46a">ω ≈ m</text>
+    <!-- forward-suppressed lobe -->
+    <path d="M-80 0 C-70 -30 -40 -45 0 -45 C40 -45 50 -25 60 0 C50 25 40 45 0 45 C-40 45 -70 30 -80 0 Z" fill="none" stroke="#e9c46a" stroke-width="2"/>
+    <line x1="-90" y1="0" x2="80" y2="0" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="3 2"/>
+  </g>
+
+  <g transform="translate(640 430)">
+    <text x="0" y="-90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">ω ≫ m</text>
+    <!-- backward-suppressed, forward-peaked -->
+    <path d="M-90 0 C-80 -15 -40 -28 0 -30 C35 -22 20 -10 18 0 C20 10 35 22 0 30 C-40 28 -80 15 -90 0 Z" fill="none" stroke="#e76f51" stroke-width="2"/>
+    <line x1="-100" y1="0" x2="60" y2="0" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="3 2"/>
+  </g>
+
+  <!-- Klein-Nishina formula block -->
+  <text x="480" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#23424a">dσ/dcos θ = (πα²/m²) (ω′/ω)² [ω′/ω + ω/ω′ − sin²θ],  ω′ = ω / (1 + (ω/m)(1 − cos θ))</text>
+  <text x="480" y="367" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8a8a8a">Klein-Nishina 1929 (Z. Phys. 52, 853);  Thomson limit ω ≪ m:  σ_T = (8π/3) α²/m² ≈ 6.65 × 10⁻²⁹ m²</text>
+
+  <text x="480" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#23424a">Compton 1923 — wavelength shift λ′ − λ = (h/m_e c)(1 − cos θ), Compton wavelength h/m_e c ≈ 2.426 pm</text>
+
+  <defs>
+    <marker id="fermarrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#264653"/>
+    </marker>
+  </defs>
+</svg>

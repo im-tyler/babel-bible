@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Electron self-energy and mass renormalization at one loop</title>
+  <desc id="desc">Schematic of the one-loop QED electron self-energy diagram: a single electron line emits and reabsorbs a virtual photon, producing a UV-divergent self-energy whose divergence is absorbed into the renormalised mass and wave-function counterterms via the on-shell conditions Sigma(m) = 0 and d Sigma / d slash p|_{slash p = m} = 0.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <line x1="60" y1="180" x2="240" y2="180" stroke="#2d5a3d" stroke-width="6"/>
+  <line x1="240" y1="180" x2="480" y2="180" stroke="#2d5a3d" stroke-width="6"/>
+  <line x1="480" y1="180" x2="660" y2="180" stroke="#2d5a3d" stroke-width="6"/>
+  <path d="M240 180 C 260 120, 300 80, 360 70 C 420 80, 460 120, 480 180" fill="none" stroke="#8a4a8a" stroke-width="4" stroke-dasharray="10 6"/>
+  <g fill="#2d5a3d">
+    <circle cx="240" cy="180" r="7"/>
+    <circle cx="480" cy="180" r="7"/>
+  </g>
+  <text x="60" y="210" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">e^-(p)</text>
+  <text x="610" y="210" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">e^-(p)</text>
+  <text x="320" y="210" font-family="Inter, Arial, sans-serif" font-size="20" fill="#2d5a3d">slash(p) + slash(k) + m</text>
+  <text x="300" y="55" font-family="Inter, Arial, sans-serif" font-size="20" fill="#8a4a8a">virtual gamma (k, p-k)</text>
+  <text x="360" y="265" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">- i Sigma_2(p)  =  - i ( delta m  +  ( slash p - m ) delta_2  +  finite )</text>
+  <text x="360" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#b3601f">Sigma(m) = 0     d Sigma / d slash p |_{slash p = m} = 0     Z_1 = Z_2 (Ward)</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#444">on-shell renormalisation conditions: mass shift delta m, residue Z_2</text>
+</svg>

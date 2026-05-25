@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Existence of Hadamard States via the FNW Deformation Argument</title>
+  <desc id="desc">A schematic placeholder diagram for the Fulling-Narcowich-Wald 1981 deformation argument: a one-parameter family of globally hyperbolic metrics g_s connects an ultrastatic spacetime (M, g_0) on the left, where the explicit mode-decomposition ground state is Hadamard, to a target globally hyperbolic spacetime (M, g_1) on the right. The Hadamard wave-front-set property is preserved by propagation of singularities along the deformation, so the pulled-back state on the target spacetime is Hadamard.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2" stroke-dasharray="6 4">
+    <line x1="80" y1="240" x2="280" y2="240"/>
+    <line x1="440" y1="240" x2="640" y2="240"/>
+  </g>
+  <text x="80" y="260" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">Σ₀ (Cauchy slice, g₀)</text>
+  <text x="440" y="260" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">Σ₁ (Cauchy slice, g₁)</text>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2">
+    <line x1="100" y1="240" x2="100" y2="120"/>
+    <line x1="140" y1="240" x2="140" y2="120"/>
+    <line x1="180" y1="240" x2="180" y2="120"/>
+    <line x1="220" y1="240" x2="220" y2="120"/>
+    <line x1="260" y1="240" x2="260" y2="120"/>
+  </g>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2">
+    <path d="M460 240 Q480 180 510 130"/>
+    <path d="M500 240 Q520 190 545 130"/>
+    <path d="M540 240 Q560 200 580 130"/>
+    <path d="M580 240 Q595 200 610 130"/>
+    <path d="M620 240 Q625 195 630 130"/>
+  </g>
+  <text x="180" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">ultrastatic (M, g₀)</text>
+  <text x="540" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#1d4e5a">target (M, g₁)</text>
+  <g fill="none" stroke="#b8651e" stroke-width="3">
+    <path d="M285 180 L435 180" marker-end="url(#arrow1)"/>
+  </g>
+  <text x="360" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#b8651e">deformation g_s, s ∈ [0,1]</text>
+  <text x="360" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666">propagation of singularities</text>
+  <defs>
+    <marker id="arrow1" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#b8651e"/>
+    </marker>
+  </defs>
+  <text x="80" y="40" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">FNW 1981 / Junker 1996: every globally hyperbolic (M, g) admits a Hadamard state.</text>
+  <text x="80" y="60" font-family="Inter, Arial, sans-serif" font-size="13" fill="#444">Strategy: start from ground state ω₀ on ultrastatic (M, g₀); deform g_s to g₁; WF(ω_s) preserved.</text>
+  <text x="80" y="335" font-family="Inter, Arial, sans-serif" font-size="13" fill="#666">Fulling-Narcowich-Wald 1981 Ann. Phys. 136 243</text>
+</svg>
