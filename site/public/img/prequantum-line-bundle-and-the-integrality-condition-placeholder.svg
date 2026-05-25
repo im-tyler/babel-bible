@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Prequantum line bundle and the integrality condition</title>
+  <desc id="desc">A schematic placeholder diagram showing a symplectic base manifold M with a Hermitian line bundle L of curvature minus i omega over hbar, gated by the integrality condition [omega/(2 pi hbar)] in H^2(M; Z).</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d4e5a"/></marker></defs>
+  <g stroke="#1d4e5a" stroke-width="4" fill="none">
+    <path d="M120 250 Q260 200 400 240 Q540 280 620 240" />
+    <path d="M150 100 L150 220" marker-end="url(#ar)"/>
+    <path d="M300 90 L300 220" marker-end="url(#ar)"/>
+    <path d="M450 95 L450 230" marker-end="url(#ar)"/>
+    <path d="M580 90 L580 230" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="150" cy="232" r="8"/>
+    <circle cx="300" cy="223" r="8"/>
+    <circle cx="450" cy="237" r="8"/>
+    <circle cx="580" cy="244" r="8"/>
+  </g>
+  <text x="630" y="260" font-family="Inter, Arial, sans-serif" font-size="20" fill="#1d4e5a">M, &#969;</text>
+  <text x="130" y="80" font-family="Inter, Arial, sans-serif" font-size="20" fill="#1d4e5a">L</text>
+  <text x="360" y="55" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">F = -i&#969;/&#8463; &#160;&#8660;&#160; [&#969;/(2&#960;&#8463;)] &#8712; H&#178;(M; &#8484;)</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Prequantum line bundle and the integrality condition</text>
+</svg>
