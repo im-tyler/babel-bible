@@ -7831,7 +7831,7 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Snow 1855, Farr 1885, Flexner 1910, WHO Constitution 1948, Beveridge 1942, Declaration of Alma-Ata 1978, Ottesen et al. 2019; secondary: Porter 1997, Brandt and Gardner 2000, Berridge 2016"
 - **notes**: Public health vs clinical medicine, core functions (assessment, policy development, assurance), epidemiological measures (incidence, prevalence, mortality rates, morbidity), study designs (cohort, case-control, cross-sectional, RCT), outbreak investigation, health systems (Beveridge, Bismarck, national health insurance, out-of-pocket models), social determinants of health, health equity, environmental health, occupational health, global health governance. MULTI-PERSPECTIVE: Colonial legacy in global health; structural adjustment and health; community-based participatory research; health as a human right vs commodity; WHO reform debates. No Lean formalisation; human-review-only at all tiers.
 
-### health-medicine.pharmacology-drugs-action-ethics
+### health-medicine.pharmacology-how-drugs-work-ethics
 
 - **title**: Pharmacology: how drugs work and pharmaceutical ethics
 - **unit**: `35.07.01`
@@ -7918,3 +7918,588 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Christians et al., Media Ethics (11e); Ward, Ethics and the Media; Potter, Media Literacy (9e)"
   - master: "primary sources: Habermas 1962/1989, McLuhan 1964, Postman 1985, Sunstein 2001, Couldry and Mejias 2019, Balkin 2018; secondary: Christians et al. 2021, Wilkins and Christians 2020, Ferrer-Conill et al. 2022"
 - **notes**: Ethical frameworks for media: utilitarian, deontological, virtue ethics, care ethics, communitarian approaches. Ethical issues in media production: truth and accuracy, minimizing harm, independence, accountability. Ethical issues in media consumption: attention economy, screen time, media addiction, information hygiene. The attention economy and surveillance capitalism. Platform ethics and content moderation. Intellectual property, fair use, and remix culture. Media and democracy. Media activism and counter-media. The future of media ethics in an AI-generated content landscape. MULTI-PERSPECTIVE: Ethics across cultures; non-Western media ethics traditions; indigenous media ethics; global South perspectives on intellectual property; cultural relativism vs universal media ethics. No Lean formalisation; human-review-only at all tiers.
+
+
+###############################################################################
+# Chapter 26: Statistics & Probability
+###############################################################################
+
+### statistics.descriptive-statistics-central-tendency-variability
+
+- **title**: Descriptive statistics: central tendency and variability
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Introduction to the Practice of Statistics (9e), Ch. 1"
+  - intermediate: "Wasserman, All of Statistics, Ch. 1-2"
+  - master: "primary sources: Quetelet 1835, Galton 1889, Pearson 1895, Tukey 1977; secondary: Stigler, Hald"
+- **notes**: Measures of central tendency (mean, median, mode) and variability (range, variance, standard deviation, IQR). Five-number summaries, box plots, histograms, skewness, kurtosis. Bessel's correction, computational formulas. Chebyshev's inequality. Robust statistics and the mean-median trade-off.
+
+### statistics.probability-theory-rules-distributions
+
+- **title**: Probability theory: rules and distributions
+- **prerequisites**: `statistics.descriptive-statistics-central-tendency-variability`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 4; Freedman, Pisani, and Purves, Ch. 13-15"
+  - intermediate: "Wasserman, All of Statistics, Ch. 1-2; Ross, A First Course in Probability"
+  - master: "primary sources: Pascal and Fermat 1654, Bernoulli 1713, Bayes 1763, Kolmogorov 1933"
+- **notes**: Sample spaces, events, axioms of probability. Conditional probability, independence, Bayes' theorem. Discrete distributions (Bernoulli, binomial, Poisson, geometric). Continuous distributions (uniform, normal, exponential). Law of total probability.
+
+### statistics.random-variables-expected-value
+
+- **title**: Random variables and expected value
+- **prerequisites**: `statistics.probability-theory-rules-distributions`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 4; Freedman, Pisani, and Purves, Ch. 16-17"
+  - intermediate: "Ross, A First Course in Probability, Ch. 4-5; Casella and Berger, Ch. 2"
+  - master: "primary sources: Bernoulli 1713, Chebyshev 1867, Markov 1900, Khinchin 1929"
+- **notes**: Discrete and continuous random variables. PMF, PDF, CDF. Expected value, variance, standard deviation. Functions of random variables. Joint distributions, marginal and conditional distributions. Covariance and correlation. Moment-generating functions.
+
+### statistics.sampling-distributions-central-limit-theorem
+
+- **title**: Sampling distributions and the Central Limit Theorem
+- **prerequisites**: `statistics.random-variables-expected-value`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 5; Freedman, Pisani, and Purves, Ch. 18-20"
+  - intermediate: "Wasserman, All of Statistics, Ch. 2-5; Casella and Berger, Ch. 5"
+  - master: "primary sources: de Moivre 1733, Laplace 1810, Lyapunov 1901, Lindeberg 1922, Feller 1945"
+- **notes**: Sampling distributions of the mean and proportion. Standard error. Law of large numbers (weak and strong). Central Limit Theorem (statement, proof sketch, applications). Student's t-distribution. Chi-square distribution. F-distribution.
+
+### statistics.hypothesis-testing-p-values-confidence-intervals
+
+- **title**: Hypothesis testing, p-values, and confidence intervals
+- **prerequisites**: `statistics.sampling-distributions-central-limit-theorem`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 6-7; Freedman, Pisani, and Purves, Ch. 26-29"
+  - intermediate: "Wasserman, All of Statistics, Ch. 6-10; Casella and Berger, Ch. 7-8"
+  - master: "primary sources: Fisher 1925, Neyman and Pearson 1928-33, ASA Statement 2016"
+- **notes**: Null and alternative hypotheses. Test statistics and p-values. Type I and Type II errors. Significance level and power. Confidence intervals and their interpretation. One-sample and two-sample t-tests. Chi-square tests. Effect sizes. Multiple testing problem.
+
+### statistics.correlation-regression-analysis
+
+- **title**: Correlation and regression analysis
+- **prerequisites**: `statistics.descriptive-statistics-central-tendency-variability`, `statistics.hypothesis-testing-p-values-confidence-intervals`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 2-3; Freedman, Pisani, and Purves, Ch. 8-12"
+  - intermediate: "Wasserman, All of Statistics, Ch. 13-14; James, Witten, Hastie, Tibshirani, Ch. 3"
+  - master: "primary sources: Galton 1886, Pearson 1896, Fisher 1922, Gauss 1809 (least squares)"
+- **notes**: Scatter plots and correlation. Pearson correlation coefficient. Least squares regression line. Coefficient of determination R-squared. Residuals and residual plots. Multiple regression. Assumptions and diagnostics. Extrapolation dangers. Confounding in observational data.
+
+### statistics.bayesian-statistics-prior-posterior
+
+- **title**: Bayesian statistics: prior and posterior
+- **prerequisites**: `statistics.hypothesis-testing-p-values-confidence-intervals`
+- **tier_anchors**:
+  - beginner: "Kruschke, Doing Bayesian Data Analysis, Ch. 1-5; McElreath, Statistical Rethinking, Ch. 1-4"
+  - intermediate: "Gelman et al., Bayesian Data Analysis (3e), Ch. 1-3; Robert, The Bayesian Choice, Ch. 1-3"
+  - master: "primary sources: Bayes 1763, Laplace 1774, Jeffreys 1939, de Finetti 1937, Savage 1954"
+- **notes**: Bayes' theorem applied to parameter estimation. Prior, likelihood, posterior. Conjugate priors. Credible intervals. Bayes factors. Computational methods (MCMC, grid approximation). Comparison with frequentist inference. Subjective versus objective probability.
+
+### statistics.nonparametric-methods-resampling
+
+- **title**: Nonparametric methods and resampling
+- **prerequisites**: `statistics.hypothesis-testing-p-values-confidence-intervals`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 14; Wasserman, All of Nonparametric Statistics, Ch. 1-3"
+  - intermediate: "Hollander, Wolfe, and Chicken, Nonparametric Statistical Methods, Ch. 1-5; Efron and Tibshirani, An Introduction to the Bootstrap"
+  - master: "primary sources: Wilcoxon 1945, Mann and Whitney 1947, Efron 1979, Pitman 1937"
+- **notes**: Rank-based tests (Wilcoxon signed-rank, Mann-Whitney U, Kruskal-Wallis). Sign test. Bootstrap methods (percentile, BCa). Permutation tests. Kernel density estimation. When to use nonparametric methods. Efficiency loss versus robustness gain.
+
+### statistics.experimental-design-anova
+
+- **title**: Experimental design and ANOVA
+- **prerequisites**: `statistics.hypothesis-testing-p-values-confidence-intervals`, `statistics.correlation-regression-analysis`
+- **tier_anchors**:
+  - beginner: "Moore, McCabe, and Craig, Ch. 8-9; Freedman, Pisani, and Purves, Ch. 23-25"
+  - intermediate: "Montgomery, Design and Analysis of Experiments (9e), Ch. 1-5; Wasserman, All of Statistics, Ch. 13"
+  - master: "primary sources: Fisher 1925 (ANOVA), Yates 1937 (factorial designs), Cochran and Cox 1950"
+- **notes**: Principles of experimental design (randomisation, replication, blocking, control). One-way ANOVA. F-test. Post-hoc comparisons (Tukey, Bonferroni). Two-way ANOVA. Factorial designs. Repeated measures. Interaction effects. Power analysis. Confounding and covariates.
+
+### statistics.statistical-literacy-misuse-data-ethics
+
+- **title**: Statistical literacy, misuse, and data ethics
+- **prerequisites**: `statistics.hypothesis-testing-p-values-confidence-intervals`
+- **tier_anchors**:
+  - beginner: "Wheelan, Naked Statistics, Ch. 1-6; Huff, How to Lie with Statistics"
+  - intermediate: "Best, Damned Lies and Statistics; Bailer, Statistical Programming; ASA Ethical Guidelines"
+  - master: "primary sources: Huff 1954, Ioannidis 2005, ASA Statement on p-values 2016, Gelman and Loken 2014"
+- **notes**: Common statistical fallacies. Simpson's paradox. Base rate neglect. Confusing correlation with causation. Cherry-picking and p-hacking. Data dredging. Misleading graphs and visualisations. The replication crisis. Data ethics: privacy, consent, bias in algorithms, responsible reporting. ASA principles.
+
+###############################################################################
+# Chapter 27: Earth Science
+###############################################################################
+
+### earth-science.plate-tectonics-continental-drift
+
+- **title**: Plate tectonics and continental drift
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth: An Introduction to Physical Geology (13e), Ch. 1-2; Grotzinger and Jordan, Understanding Earth (8e), Ch. 1-2"
+  - intermediate: "Kearey, Klepeis, and Vine, Global Tectonics (3e), Ch. 1-4; Condie, Plate Tectonics and Crustal Evolution"
+  - master: "primary sources: Wegener 1912/1915, Hess 1962, Vine and Matthews 1963, Wilson 1965, Morgan 1968; secondary: Oreskes, Plate Tectonics: An Insider's History"
+- **notes**: Continental drift hypothesis. Seafloor spreading. Types of plate boundaries (divergent, convergent, transform). Evidence for plate tectonics (paleomagnetism, fossil distribution, seafloor age, earthquake patterns). Mantle convection mechanisms. Hotspots and mantle plumes. Supercontinent cycle. Plate tectonic reconstruction.
+
+### earth-science.minerals-rocks-rock-cycle
+
+- **title**: Minerals, rocks, and the rock cycle
+- **prerequisites**: `earth-science.plate-tectonics-continental-drift`
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth (13e), Ch. 3-5; Grotzinger and Jordan, Understanding Earth (8e), Ch. 3-5"
+  - intermediate: "Klein and Philpotts, Earth Materials, Ch. 1-10; Blatt and Tracy, Petrology"
+  - master: "primary sources: Hutton 1788, Lyell 1830-33, Bowen 1928; secondary: Young, Mind over Magma"
+- **notes**: Mineral properties and classification (silicates, carbonates, oxides, sulfides). Rock-forming minerals. Igneous rocks (intrusive and extrusive, Bowen's reaction series). Sedimentary rocks (clastic, chemical, organic). Metamorphic rocks (foliated and non-foliated). The rock cycle. Weathering and erosion. Lithification. Metamorphism and metamorphic grade.
+
+### earth-science.earthquakes-volcanoes-geologic-hazards
+
+- **title**: Earthquakes, volcanoes, and geologic hazards
+- **prerequisites**: `earth-science.plate-tectonics-continental-drift`
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth (13e), Ch. 6-7; Grotzinger and Jordan, Understanding Earth (8e), Ch. 6-7"
+  - intermediate: "Stein and Wysession, An Introduction to Seismology, Ch. 1-5; Sigurdsson et al., Encyclopedia of Volcanoes"
+  - master: "primary sources: Richter 1935, Gutenberg and Richter 1942, Wilson 1973, Buffett 2000; secondary: Bolt, Earthquakes"
+- **notes**: Seismic waves (P, S, surface). Earthquake measurement (Richter scale, moment magnitude). Fault types (normal, reverse/thrust, strike-slip). Locating earthquakes. Volcano types (shield, composite/stratovolcano, cinder cone). Magma composition and eruption style. Tsunami generation. Landslides and mass wasting. Hazard assessment and mitigation.
+
+### earth-science.atmosphere-weather-climate-basics
+
+- **title**: Atmosphere, weather, and climate basics
+- **prerequisites**: none
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, The Atmosphere (14e), Ch. 1-6; Ahrens and Henson, Meteorology Today (12e), Ch. 1-6"
+  - intermediate: "Wallace and Hobbs, Atmospheric Science (3e), Ch. 1-4; Holton and Hakim, An Introduction to Dynamic Meteorology, Ch. 1-3"
+  - master: "primary sources: Torricelli 1643, Fahrenheit 1724, Celsius 1742, Hadley 1735, Coriolis 1835, Bjerknes 1904, Rossby 1939; secondary: Nebeker, Calculating the Weather"
+- **notes**: Atmospheric composition and structure (troposphere, stratosphere, mesosphere, thermosphere). Solar radiation and energy balance. Temperature, pressure, and wind. Humidity and precipitation. Air masses and fronts. Cloud formation and types. Weather systems (cyclones, anticyclones, thunderstorms, tornadoes). Weather versus climate. Atmospheric circulation cells.
+
+### earth-science.oceanography-currents-tides-marine-ecosystems
+
+- **title**: Oceanography: currents, tides, and marine ecosystems
+- **prerequisites**: `earth-science.atmosphere-weather-climate-basics`
+- **tier_anchors**:
+  - beginner: "Garrison, Oceanography: An Invitation to Marine Science (9e), Ch. 1-8; Trujillo and Thurman, Essentials of Oceanography (13e), Ch. 1-6"
+  - intermediate: "Knauss, Introduction to Physical Oceanography, Ch. 1-8; Thurman and Trujillo, Introductory Oceanography"
+  - master: "primary sources: Maury 1855, Ekman 1905, Sverdrup 1947, Stommel 1948, Munk 1950; secondary: Deacon, Scientists and the Sea"
+- **notes**: Ocean basin structure. Physical properties of seawater (salinity, temperature, density). Surface currents and thermohaline circulation. Tides (spring, neap, tidal forces). Waves and wave dynamics. El Nino-Southern Oscillation. Coastal processes. Marine ecosystems (intertidal, neritic, oceanic, benthic). Ocean acidification. Deep-sea hydrothermal vents.
+
+### earth-science.hydrology-water-cycle-groundwater
+
+- **title**: Hydrology: the water cycle and groundwater
+- **prerequisites**: `earth-science.atmosphere-weather-climate-basics`
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth (13e), Ch. 11-12; Grotzinger and Jordan, Understanding Earth (8e), Ch. 11"
+  - intermediate: "Fetter, Applied Hydrogeology (4e), Ch. 1-6; Freeze and Cherry, Groundwater, Ch. 1-5"
+  - master: "primary sources: Perrault 1674, Mariotte 1686, Darcy 1856, Theis 1935, Hubbert 1940; secondary: Biswas, History of Hydrology"
+- **notes**: The hydrologic cycle (evaporation, condensation, precipitation, runoff, infiltration). Groundwater flow (porosity, permeability, aquifers, aquitards). Darcy's law. Water table and potentiometric surface. Springs and wells. Groundwater contamination and remediation. Watersheds and drainage basins. Surface water (rivers, lakes, wetlands). Water resources and management. Flooding.
+
+### earth-science.climate-change-evidence-impacts-mitigation
+
+- **title**: Climate change: evidence, impacts, and mitigation
+- **prerequisites**: `earth-science.atmosphere-weather-climate-basics`, `earth-science.hydrology-water-cycle-groundwater`
+- **tier_anchors**:
+  - beginner: "IPCC, Climate Change 2021: The Physical Science Basis (Summary for Policymakers); Archer, Global Warming: Understanding the Forecast"
+  - intermediate: "Hartmann et al., IPCC AR6 WGI Chapters 1-7; Pierrehumbert, Principles of Planetary Climate, Ch. 1-3"
+  - master: "primary sources: Fourier 1824, Tyndall 1861, Arrhenius 1896, Keeling 1960, Callendar 1938, Revelle and Suess 1957, IPCC 1990-2021"
+- **notes**: Greenhouse effect mechanism. Evidence for climate change (temperature records, ice cores, sea level, extreme events). Carbon cycle and CO2. Radiative forcing and climate sensitivity. Climate models. Impacts (sea-level rise, ecosystem disruption, food security, health). Mitigation strategies (renewable energy, carbon capture, policy). Adaptation. Climate justice.
+
+### earth-science.earth-history-geologic-time-scale
+
+- **title**: Earth history and the geologic time scale
+- **prerequisites**: `earth-science.plate-tectonics-continental-drift`, `earth-science.minerals-rocks-rock-cycle`
+- **tier_anchors**:
+  - beginner: "Tarbuck and Lutgens, Earth (13e), Ch. 8-10; Grotzinger and Jordan, Understanding Earth (8e), Ch. 8-10"
+  - intermediate: "Stanley, Earth System History (4e), Ch. 1-6; Berry, The Growth of a Geological Time Scale"
+  - master: "primary sources: Hutton 1788, Smith 1815, Lyell 1830-33, Holmes 1913, Patterson 1956; secondary: Rudwick, Bursting the Limits of Time"
+- **notes**: Relative dating (superposition, cross-cutting relationships, fossil succession). Absolute dating (radiometric methods, half-life). The geologic time scale (eons, eras, periods, epochs). Major events in Earth history: formation, Hadean, Archean, Proterozoic, Phanerozoic. Mass extinctions (Ordovician, Devonian, Permian, Triassic, Cretaceous). Evolution of atmosphere and oceans. Continental reconstruction through time. Anthropocene debate.
+
+### logic.propositional-logic-truth-tables
+
+- **title**: Propositional logic and truth tables
+- **unit**: 24.01.01
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: Frege Begriffsschrift 1879; Post 1921; Wittgenstein Tractatus 1922
+  - intermediate: Enderton Mathematical Introduction to Logic Ch. 1
+  - beginner: Hurley Concise Introduction to Logic Ch. 6
+- **notes**: Truth-functional connectives, truth tables, tautology, contradiction, contingent propositions, logical equivalence, De Morgan's laws, semantic entailment, functional completeness, normal forms (CNF, DNF), soundness and completeness of propositional logic, compactness theorem.
+
+### logic.predicate-logic-quantifiers
+
+- **title**: Predicate logic and quantifiers
+- **unit**: 24.02.01
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: Frege Begriffsschrift 1879; Tarski 1936; Gödel completeness 1930
+  - intermediate: Enderton Ch. 2
+  - beginner: Hurley Ch. 8
+- **notes**: First-order logic, universal and existential quantifiers, predicates, variables, scope, bound and free variables, interpretation, model, validity, Gödel's completeness theorem, Löwenheim-Skolem theorem.
+
+### logic.informal-fallacies-argument-analysis
+
+- **title**: Informal fallacies and argument analysis
+- **unit**: 24.03.01
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: Aristotle Sophistical Refutations; Hamblin Fallacies 1970
+  - intermediate: Hurley Ch. 3-4
+  - beginner: Hurley Ch. 1-2
+- **notes**: Formal vs informal fallacies, ad hominem, straw man, appeal to authority, false dilemma, slippery slope, begging the question, equivocation, composition and division.
+
+### logic.deductive-reasoning-syllogisms
+
+- **title**: Deductive reasoning and syllogisms
+- **unit**: 24.04.01
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: Aristotle Prior Analytics; Lukasiewicz Aristotle's Syllogistic 1957
+  - intermediate: Hurley Ch. 5
+  - beginner: Aristotle's categorical propositions
+- **notes**: Categorical propositions, square of opposition, Venn diagrams, categorical syllogisms, figure and mood, validity testing, enthymemes, sorites.
+
+### logic.inductive-reasoning-analogy-causation
+
+- **title**: Inductive reasoning, analogy, and causation
+- **unit**: 24.05.01
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: Mill A System of Logic 1843; Hume Treatise 1739; Salmon Causality and Explanation 1998
+  - intermediate: Hurley Ch. 10-12
+  - beginner: Patterns of inductive reasoning
+- **notes**: Inductive generalization, analogical reasoning, Mill's methods, causal reasoning, hypothesis testing, induction problem.
+
+### logic.decision-theory-bayesian-reasoning
+
+- **title**: Decision theory and Bayesian reasoning
+- **unit**: 24.06.01
+- **prerequisites**: `logic.propositional-logic-truth-tables`
+- **tier_anchors**:
+  - master: Bayes 1763; Savage Foundations of Statistics 1954; von Neumann and Morgenstern Theory of Games 1944
+  - intermediate: Introduction to probability and decision theory
+  - beginner: Probability as degree of belief
+- **notes**: Probability axioms, conditional probability, Bayes' theorem, prior and posterior, expected utility, decision matrices, game theory basics, rational choice.
+
+### logic.cognitive-biases-rationality
+
+- **title**: Cognitive biases and rationality
+- **unit**: 24.07.01
+- **prerequisites**: `logic.decision-theory-bayesian-reasoning`
+- **tier_anchors**:
+  - master: Kahneman and Tversky 1974; Kahneman Thinking Fast and Slow 2011; Stanovich Rationality and the Reflective Mind 2011
+  - intermediate: Heuristics and biases program
+  - beginner: Common thinking errors
+- **notes**: Availability heuristic, representativeness, anchoring, confirmation bias, framing effects, loss aversion, Dunning-Kruger, debiasing strategies, dual-process theory.
+
+### logic.critical-thinking-media-science-everyday
+
+- **title**: Critical thinking in media, science, and everyday life
+- **unit**: 24.08.01
+- **prerequisites**: `logic.informal-fallacies-argument-analysis`
+- **tier_anchors**:
+  - master: Paul and Elder Critical Thinking 2006; McPeck Critical Thinking and Education 1981
+  - intermediate: Applied argument analysis
+  - beginner: Practical reasoning skills
+- **notes**: Media literacy, scientific reasoning, pseudoscience detection, argument reconstruction, evidence evaluation, source credibility, practical reasoning.
+
+### computer-science.computational-thinking-algorithms
+
+- **title**: Computational thinking and algorithms
+- **unit**: 25.01.01
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: Knuth Art of Computer Programming Vol. 1; Turing 1936; Cormen et al. Introduction to Algorithms
+  - intermediate: Algorithm design paradigms
+  - beginner: Step-by-step problem solving
+- **notes**: What is an algorithm, pseudocode, sequential vs parallel, correctness, termination, flowcharts, decomposition, pattern recognition, abstraction.
+
+### computer-science.data-structures-arrays-trees-graphs
+
+- **title**: Data structures: arrays, trees, and graphs
+- **unit**: 25.02.01
+- **prerequisites**: `computer-science.computational-thinking-algorithms`
+- **tier_anchors**:
+  - master: Knuth Vol. 1; Cormen et al. Ch. 10-12; Tarjan Data Structures and Network Algorithms 1983
+  - intermediate: Core data structures and operations
+  - beginner: Organizing information
+- **notes**: Arrays, linked lists, stacks, queues, hash tables, binary trees, balanced trees (AVL, red-black), heaps, graphs, adjacency representations, BFS, DFS.
+
+### computer-science.algorithmic-complexity-big-o
+
+- **title**: Algorithmic complexity and Big-O notation
+- **unit**: 25.03.01
+- **prerequisites**: `computer-science.computational-thinking-algorithms`
+- **tier_anchors**:
+  - master: Hartmanis and Stearns 1965; Cobham 1964; Arora and Barak Computational Complexity
+  - intermediate: Time and space analysis
+  - beginner: How fast is fast enough
+- **notes**: Big-O, Big-Omega, Big-Theta, amortized analysis, P, NP, NP-completeness, Cook-Levin theorem, polynomial reduction.
+
+### computer-science.programming-paradigms-functional-oop
+
+- **title**: Programming paradigms: functional, OOP, and beyond
+- **unit**: 25.04.01
+- **prerequisites**: `computer-science.computational-thinking-algorithms`
+- **tier_anchors**:
+  - master: McCarthy 1960; Church lambda calculus 1936; Dahl and Nygaard Simula 1967; Abelson and Sussman SICP
+  - intermediate: Comparing paradigms
+  - beginner: Different ways to organize code
+- **notes**: Imperative, functional, object-oriented, logic programming, type systems, higher-order functions, inheritance, polymorphism, encapsulation.
+
+### computer-science.operating-systems-processes-memory
+
+- **title**: Operating systems: processes and memory
+- **unit**: 25.05.01
+- **prerequisites**: `computer-science.data-structures-arrays-trees-graphs`
+- **tier_anchors**:
+  - master: Silberschatz et al. Operating System Concepts; Tanenbaum Modern Operating Systems; Ritchie and Thompson UNIX 1974
+  - intermediate: OS mechanisms
+  - beginner: What manages your computer
+- **notes**: Process management, scheduling, threads, concurrency, memory management, virtual memory, paging, file systems, I/O, kernel vs user mode.
+
+### computer-science.computer-networks-internet-architecture
+
+- **title**: Computer networks and internet architecture
+- **unit**: 25.06.01
+- **prerequisites**: `computer-science.operating-systems-processes-memory`
+- **tier_anchors**:
+  - master: Cerf and Kahn TCP/IP 1974; Tanenbaum and Wetherall Computer Networks; Peterson and Davie Computer Networks
+  - intermediate: Network layers and protocols
+  - beginner: How computers talk to each other
+- **notes**: OSI model, TCP/IP, HTTP, DNS, routing, switching, packet switching, reliable transport, congestion control, network security basics.
+
+### computer-science.databases-relational-nosql
+
+- **title**: Databases: relational, NoSQL, and data modeling
+- **unit**: 25.07.01
+- **prerequisites**: `computer-science.data-structures-arrays-trees-graphs`
+- **tier_anchors**:
+  - master: Codd 1970 relational model; Silberschatz et al. Database System Concepts; Stonebraker and Cetintemel 2005
+  - intermediate: SQL and relational algebra
+  - beginner: Organizing data systematically
+- **notes**: Relational model, SQL, normalization, ACID, transactions, indexing, joins, NoSQL (document, key-value, graph, column-family), CAP theorem, data modeling.
+
+### computer-science.cybersecurity-encryption-privacy
+
+- **title**: Cybersecurity, encryption, and privacy
+- **unit**: 25.08.01
+- **prerequisites**: `computer-science.computer-networks-internet-architecture`
+- **tier_anchors**:
+  - master: Diffie and Hellman 1976; Rivest Shamir Adleman 1978; Schneier Applied Cryptography; NIST standards
+  - intermediate: Cryptographic primitives and protocols
+  - beginner: Keeping information safe
+- **notes**: Symmetric encryption, public-key cryptography, hashing, digital signatures, TLS, authentication, access control, threat modeling, privacy principles, vulnerabilities.
+
+### computer-science.artificial-intelligence-machine-learning
+
+- **title**: Artificial intelligence and machine learning
+- **unit**: 25.09.01
+- **prerequisites**: `computer-science.algorithmic-complexity-big-o`
+- **tier_anchors**:
+  - master: Turing 1950; Russell and Norvig AI: A Modern Approach; Goodfellow et al. Deep Learning; Vapnik Statistical Learning Theory
+  - intermediate: ML algorithms and evaluation
+  - beginner: Teaching computers to learn
+- **notes**: Search, knowledge representation, neural networks, supervised learning, unsupervised learning, reinforcement learning, deep learning, NLP, computer vision, ethics of AI.
+
+### computer-science.software-engineering-design-patterns
+
+- **title**: Software engineering and design patterns
+- **unit**: 25.10.01
+- **prerequisites**: `computer-science.programming-paradigms-functional-oop`
+- **tier_anchors**:
+  - master: Brooks Mythical Man-Month 1975; Gamma et al. Design Patterns 1994; Fowler Refactoring 1999
+  - intermediate: Software development practices
+  - beginner: Building reliable software
+- **notes**: Requirements, design, testing, version control, agile, design patterns (singleton, observer, factory, strategy, etc.), code smells, refactoring, CI/CD, software lifecycle.
+
+### computer-science.distributed-systems-consensus
+
+- **title**: Distributed systems and consensus
+- **unit**: 25.11.01
+- **prerequisites**: `computer-science.computer-networks-internet-architecture`
+- **tier_anchors**:
+  - master: Lamport 1978 and 1998; Fischer Lynch Paterson 1985; CAP theorem Brewer 2000; Kleppmann Designing Data-Intensive Applications
+  - intermediate: Distributed algorithms
+  - beginner: Computers working together
+- **notes**: Consensus, Paxos, Raft, Byzantine generals, CAP theorem, consistency models, distributed transactions, replication, partition tolerance, clock synchronization.
+
+### computer-science.computing-ethics-society-impact
+
+- **title**: Computing ethics and societal impact
+- **unit**: 25.12.01
+- **prerequisites**: none
+- **tier_anchors**:
+  - master: Wiener Cybernetics 1948; Weizenbaum Computer Power and Human Reason 1976; Floridi Philosophy of Information; ACM Code of Ethics
+  - intermediate: Ethical frameworks for technology
+  - beginner: Technology and responsibility
+- **notes**: Privacy, surveillance, algorithmic bias, digital divide, intellectual property, open source, autonomous systems, AI ethics, sustainability, professional responsibility.
+
+### history-of-science.ancient-science-mesopotamia-greece-china-india
+
+- **title**: Ancient science: Mesopotamia, Greece, China, and India
+- **unit**: `33.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "McClellan and Dorn, Science and Technology in World History (3e), Ch. 1-4"
+  - intermediate: "Lloyd, Greek Science after Aristotle; Sivin, Science in Ancient China"
+  - master: "Neugebauer, Needham, Pingree, Lloyd"
+- **notes**: Cross-cultural survey of proto-scientific traditions in Mesopotamia, Greece, China, and India. Independent discovery of Pythagorean theorem across civilizations. Plimpton 322. Sulba Sutras. Nine Chapters. Needham Question.
+
+### history-of-science.islamic-golden-age-medieval-europe
+
+- **title**: Islamic Golden Age and medieval European science
+- **unit**: `33.02.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "McClellan and Dorn, Science and Technology in World History (3e), Ch. 5-7"
+  - intermediate: "Sabra, Lindberg"
+  - master: "Sabra, Rashed, Saliba, Lindberg, Grant"
+- **notes**: Translation movements (Greek to Arabic, Arabic to Latin). Al-Khwarizmi and algebra. Ibn al-Haytham and optics. Maragha school. Tusi couple. Scholasticism and universities.
+
+### history-of-science.scientific-revolution-copernicus-newton
+
+- **title**: The Scientific Revolution: Copernicus to Newton
+- **unit**: `33.03.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Kuhn, The Copernican Revolution, Ch. 1-5"
+  - intermediate: "Westfall, Shapin"
+  - master: "Primary sources: Copernicus, Kepler, Galileo, Newton"
+- **notes**: Copernican heliocentrism, Kepler's laws, Galileo's telescopic observations and trial, Newton's Principia. V-I cadence as central concept. Mechanical philosophy. Royal Society.
+
+### history-of-science.industrial-revolution-chemistry-electromagnetism
+
+- **title**: Industrial Revolution, chemistry, and electromagnetism
+- **unit**: `33.04.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "McClellan and Dorn, Ch. 11-14"
+  - intermediate: "Knight, Cantor and Hodge"
+  - master: "Primary sources: Lavoisier, Dalton, Faraday, Maxwell, Mendeleev"
+- **notes**: Lavoisier and quantitative chemistry. Dalton's atomic theory. Periodic table. Faraday and electromagnetic induction. Maxwell's equations. Science-technology feedback loop.
+
+### history-of-science.relativity-quantum-revolution
+
+- **title**: The relativity and quantum revolutions
+- **unit**: `33.05.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Kragh, Quantum Generations, Ch. 1-4"
+  - intermediate: "Pais, Kuhn"
+  - master: "Primary sources: Planck, Einstein, Bohr, Heisenberg, Schrodinger"
+- **notes**: Special and general relativity. Quantum mechanics. Uncertainty principle. Manhattan Project. QED. Interpretation debates (Copenhagen, many-worlds).
+
+### history-of-science.genetics-dna-molecular-biology-revolution
+
+- **title**: Genetics, DNA, and the molecular biology revolution
+- **unit**: `33.06.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Mukherjee, The Gene, Ch. 1-6"
+  - intermediate: "Judson, Keller"
+  - master: "Primary sources: Mendel, Watson and Crick, Sanger"
+- **notes**: Mendel's laws. Chromosomal theory. Avery and DNA. Watson-Crick double helix. Central dogma. Human Genome Project. CRISPR.
+
+### history-of-science.digital-revolution-computing-internet
+
+- **title**: The digital revolution: computing and the internet
+- **unit**: `33.07.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Isaacson, The Innovators, Ch. 1-8"
+  - intermediate: "Ceruzzi, Abbate"
+  - master: "Primary sources: Turing 1936, Shannon 1948, von Neumann 1945"
+- **notes**: Turing machines. Stored-program computer. Transistor. ARPANET. TCP/IP. World Wide Web. Personal computing. AI history.
+
+### history-of-science.contemporary-science-challenges-open-science
+
+- **title**: Contemporary science: challenges, open science, and the future
+- **unit**: `33.08.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Nielsen, Reinventing Discovery"
+  - intermediate: "Mirowski, Zimring"
+  - master: "Ioannidis 2005, Open Science Collaboration 2015"
+- **notes**: Replication crisis. p-hacking. Open science movement. Preregistration. Science policy. Climate science and public trust. COVID-19.
+
+### music-art.music-fundamentals-rhythm-melody-harmony
+
+- **title**: Music fundamentals: rhythm, melody, and harmony
+- **unit**: `34.01.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Copland, What to Listen for in Music"
+  - intermediate: "Piston, Harmony"
+  - master: "Rameau, Schoenberg, Forte, Lewin"
+- **notes**: Rhythm, melody, harmony, timbre, dynamics. Major/minor scales. Intervals. Chords. V-I cadence. Equal temperament. Pentatonic scale. Pythagoras and music-mathematics connection.
+
+### music-art.music-history-western-world-traditions
+
+- **title**: Music history: Western and world traditions
+- **unit**: `34.02.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Taruskin and Gibbs, Oxford History (College Ed.), Ch. 1-6"
+  - intermediate: "Grout and Palisca, Nettl"
+  - master: "Rameau, Adorno, Taruskin"
+- **notes**: Western periods: Medieval through Contemporary. Indian raga and tala. Chinese musical traditions. West African polyrhythm. Arabic maqam. Jazz. Sonata form. Ethnomusicology.
+
+### music-art.visual-art-elements-principles-composition
+
+- **title**: Visual art: elements, principles, and composition
+- **unit**: `34.03.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Gombrich, Lauer"
+  - intermediate: "Arnheim, Itten"
+  - master: "Alberti, Kandinsky, Klee"
+- **notes**: Seven elements: line, shape, form, space, value, color, texture. Principles of design. Linear perspective. Golden ratio. Color theory.
+
+### music-art.art-history-cave-paintings-to-contemporary
+
+- **title**: Art history: cave paintings to contemporary
+- **unit**: `34.04.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Gombrich, Honour and Fleming"
+  - intermediate: "Stokstad, Kleiner"
+  - master: "Vasari, Greenberg, Krauss"
+- **notes**: Paleolithic through contemporary art. Egyptian, Greek, Roman, Medieval, Renaissance, Baroque, 19th century, modernism, postmodernism. Canon debates. Feminist art history.
+
+### music-art.film-photography-visual-storytelling
+
+- **title**: Film and photography as visual storytelling
+- **unit**: `34.05.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Barsam, Sontag"
+  - intermediate: "Bordwell, Bazin"
+  - master: "Eisenstein, Mulvey, Deleuze"
+- **notes**: Photography as document and interpretation. Film language: mise-en-scene, cinematography, editing, sound. Eisenstein vs. Bazin. Montage theory. Kuleshov effect. Genre theory.
+
+### music-art.architecture-design-built-environment
+
+- **title**: Architecture and design of the built environment
+- **unit**: `34.06.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Roth, Ching"
+  - intermediate: "Kostof, Pevsner"
+  - master: "Vitruvius, Alberti, Le Corbusier"
+- **notes**: Structural systems (post-and-beam through digital fabrication). Vitruvian triad. Gothic cathedrals. Renaissance. Modernism. Parametric design. Sustainability. Phenomenology of architecture.
+
+### music-art.aesthetics-theory-taste-judgment-culture
+
+- **title**: Aesthetics theory: taste, judgment, and culture
+- **unit**: `34.07.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Eaton, Dewey"
+  - intermediate: "Kant, Beardsley"
+  - master: "Plato, Aristotle, Hume, Kant, Danto"
+- **notes**: Kantian aesthetics. Sublime. Hume's standard of taste. Institutional theory. Danto's indiscernibles. Bourdieu's Distinction. Philosophy of music. Environmental aesthetics.
+
+### music-art.digital-media-art-technology-creation
+
+- **title**: Digital media, art, and technology
+- **unit**: `34.08.01`
+- **prerequisites**: []
+- **tier_anchors**:
+  - beginner: "Manovich, Paul"
+  - intermediate: "Grau, Rush"
+  - master: "Burnham, Youngblood, Benjamin"
+- **notes**: Computer art history. Video art. Net art. Interactive installation. Generative art. VR/AR. AI art. NFTs. Manovich's five principles. Post-digital condition.
