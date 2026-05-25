@@ -1,45 +1,46 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-25T19:23:14.474449+00:00_
+_Generated: 2026-05-25T19:57:22.750613+00:00_
 
 ## Burn-down
 
-- Units shipped: **1082**
-- Units queued (gap units from audits): **82**
+- Units shipped: **1092**
+- Units queued (gap units from audits): **76**
 - Of which deepenings: **2**
-- Audits completed: **68 / 92**
+- Audits completed: **69 / 92**
 - Books unaudited: **0**
 
 ## Next 20 queued units (topological order)
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `05.12.01` | Lagrangian Grassmannian and the universal Maslov class | P? | arnold-dubrovin-symplectic |
-| 2 | `05.12.03` | Legendrian singularities and wave-front evolution | P? | arnold-dubrovin-symplectic |
-| 3 | `05.11.01` | Prequantum line bundle and the integrality condition | P? | arnold-dubrovin-symplectic |
-| 4 | `05.11.03` | Polarisation, half-densities, and metaplectic correction | P? | arnold-dubrovin-symplectic |
-| 5 | `05.12.04` | Lagrangian and Legendrian cobordism | P? | arnold-dubrovin-symplectic |
-| 6 | `05.09.09` | Finite-gap integration and theta-function solutions | P? | arnold-dubrovin-symplectic, olver-lie-groups-differential-equations |
-| 7 | `05.09.10` | KP hierarchy, Sato Grassmannian, $\tau$-functions | P? | arnold-dubrovin-symplectic, olver-lie-groups-differential-equations |
-| 8 | `05.07.04` | Eliashberg-Gromov $C^0$-rigidity of $\mathrm{Symp}$ | P? | arnold-dubrovin-symplectic |
-| 9 | `04.03.17` | Derived tensor product $\otimes^L$ and Tor in derived categories | P1 | gelfand-manin-homological-algebra |
-| 10 | `04.03.18` | $t$-structure on a triangulated category — heart and truncations | P1 | gelfand-manin-homological-algebra |
-| 11 | `04.03.19` | Pointer — perverse sheaves $\mathrm{Perv}(X)$ | P1 | gelfand-manin-homological-algebra |
-| 12 | `04.03.20` | Hochschild homology and cohomology | P1 | gelfand-manin-homological-algebra |
-| 13 | `04.03.21` | Hochschild-Kostant-Rosenberg theorem | P1 | gelfand-manin-homological-algebra |
-| 14 | `04.03.22` | Cyclic homology and Connes' long exact sequence | P1 | gelfand-manin-homological-algebra |
-| 15 | `02.14.02` | Pseudo-differential operators on a manifold | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 16 | `02.14.03` | Propagation of singularities along Hamiltonian flow | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 17 | `13.09.02` | Klein-Gordon equation on a globally hyperbolic spacetime | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 18 | `12.14.01` | CCR algebra, Weyl algebra, and quasi-free states | P1 | gerard-microlocal-qft-curved-spacetimes, landau-lifshitz-quantum-mechanics |
-| 19 | `13.09.03` | Hadamard states via the wave-front-set criterion (Radzikowski) | P1 | gerard-microlocal-qft-curved-spacetimes |
-| 20 | `13.09.04` | Existence of Hadamard states via the FNW deformation argument | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 1 | `05.12.04` | Lagrangian and Legendrian cobordism | P? | arnold-dubrovin-symplectic |
+| 2 | `05.09.10` | KP hierarchy, Sato Grassmannian, $\tau$-functions | P? | arnold-dubrovin-symplectic, olver-lie-groups-differential-equations |
+| 3 | `05.14.07` | Beltrami fields, ABC flows, and chaotic streamlines | P? | arnold-hydrodynamics |
+| 4 | `05.14.08` | Fast dynamo problem and Arnold cat-map dynamo | P? | arnold-hydrodynamics |
+| 5 | `05.15.01` | Wasserstein metric and Otto's calculus | P? | arnold-hydrodynamics |
+| 6 | `05.15.02` | Korteweg / Madelung quantum hydrodynamics | P? | arnold-hydrodynamics |
+| 7 | `04.03.18` | $t$-structure on a triangulated category — heart and truncations | P1 | gelfand-manin-homological-algebra |
+| 8 | `04.03.19` | Pointer — perverse sheaves $\mathrm{Perv}(X)$ | P1 | gelfand-manin-homological-algebra |
+| 9 | `04.03.20` | Hochschild homology and cohomology | P1 | gelfand-manin-homological-algebra |
+| 10 | `04.03.21` | Hochschild-Kostant-Rosenberg theorem | P1 | gelfand-manin-homological-algebra |
+| 11 | `04.03.22` | Cyclic homology and Connes' long exact sequence | P1 | gelfand-manin-homological-algebra |
+| 12 | `02.14.03` | Propagation of singularities along Hamiltonian flow | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 13 | `13.09.03` | Hadamard states via the wave-front-set criterion (Radzikowski) | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 14 | `13.09.04` | Existence of Hadamard states via the FNW deformation argument | P1 | gerard-microlocal-qft-curved-spacetimes |
+| 15 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 16 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 17 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 18 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 19 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 20 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
 
 ## Audits completed
 
 | Audit | P1 | P2 | P3 | P4 | Total |
 |---|---|---|---|---|---|
 | arnold-dubrovin-symplectic | 0 | 0 | 0 | 0 | 0 |
+| arnold-hydrodynamics | 0 | 0 | 0 | 0 | 0 |
 | arnold-mathematical-methods | 0 | 0 | 0 | 0 | 0 |
 | arnold-ordinary-differential-equations | 0 | 0 | 0 | 0 | 0 |
 | atiyah-geometry-yang-mills-fields | 3 | 1 | 1 | 0 | 5 |

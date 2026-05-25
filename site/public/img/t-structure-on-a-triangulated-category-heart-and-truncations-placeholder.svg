@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">t-Structure on a Triangulated Category — Heart and Truncations</title>
+  <desc id="desc">A schematic placeholder showing a horizontal axis indexed by integers with the subcategories D^{le 0} on the left, D^{ge 0} on the right, the heart D^{le 0} cap D^{ge 0} sitting at the centre as an abelian category, and the truncation triangle tau^{le 0} X to X to tau^{ge 1} X above.</desc>
+  <rect width="720" height="360" fill="#f5f4ec"/>
+  <g stroke="#2a4f6a" stroke-width="2.5" fill="none">
+    <line x1="60" y1="240" x2="660" y2="240"/>
+  </g>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="18">
+    <text x="80" y="265">...</text>
+    <text x="155" y="265">-2</text>
+    <text x="245" y="265">-1</text>
+    <text x="350" y="265" text-anchor="middle">0</text>
+    <text x="450" y="265">1</text>
+    <text x="540" y="265">2</text>
+    <text x="615" y="265">...</text>
+  </g>
+  <g stroke="#b04d20" stroke-width="2" fill="none">
+    <path d="M75 240 L75 230"/>
+    <path d="M165 240 L165 230"/>
+    <path d="M255 240 L255 230"/>
+    <path d="M350 240 L350 220"/>
+    <path d="M450 240 L450 230"/>
+    <path d="M540 240 L540 230"/>
+    <path d="M615 240 L615 230"/>
+  </g>
+  <g fill="#b04d20" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="180" y="205" text-anchor="middle">D^{≤ 0}</text>
+    <text x="500" y="205" text-anchor="middle">D^{≥ 0}</text>
+    <text x="350" y="200" text-anchor="middle" fill="#2a4f6a" font-size="22">heart = D^{≤ 0} ∩ D^{≥ 0}</text>
+    <text x="350" y="225" text-anchor="middle" fill="#444" font-size="14">(abelian)</text>
+  </g>
+  <g stroke="#2a4f6a" stroke-width="2" fill="none">
+    <path d="M90 130 L290 130" marker-end="url(#arrowhead)"/>
+    <path d="M320 130 L420 130" marker-end="url(#arrowhead)"/>
+    <path d="M450 130 L640 130" marker-end="url(#arrowhead)"/>
+  </g>
+  <g fill="#2a4f6a" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="60" y="135">τ^{≤ 0} X</text>
+    <text x="305" y="135" text-anchor="middle">X</text>
+    <text x="435" y="135" text-anchor="middle">τ^{≥ 1} X</text>
+    <text x="650" y="135">(τ^{≤ 0} X)[1]</text>
+  </g>
+  <text x="360" y="80" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#222">truncation triangle</text>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#2a4f6a"/>
+    </marker>
+  </defs>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">t-Structure: Heart and Truncations</text>
+</svg>

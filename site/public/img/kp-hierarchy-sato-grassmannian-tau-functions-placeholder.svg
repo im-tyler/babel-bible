@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">KP Hierarchy, Sato Grassmannian, and Tau-Functions</title>
+  <desc id="desc">A schematic placeholder diagram for the Sato Grassmannian as a sea of subspaces, with the tau-function evaluated at a moving point under KP time flows.</desc>
+  <rect width="720" height="360" fill="#f5f1e9"/>
+  <g stroke="#2f5f89" stroke-width="1.5" fill="none" opacity="0.35">
+    <path d="M80 80 L640 80"/><path d="M80 140 L640 140"/><path d="M80 200 L640 200"/><path d="M80 260 L640 260"/>
+    <path d="M120 60 L120 280"/><path d="M220 60 L220 280"/><path d="M320 60 L320 280"/>
+    <path d="M420 60 L420 280"/><path d="M520 60 L520 280"/><path d="M620 60 L620 280"/>
+  </g>
+  <ellipse cx="360" cy="180" rx="240" ry="110" fill="none" stroke="#7a4f9a" stroke-width="3" stroke-dasharray="6 4" opacity="0.7"/>
+  <path d="M140 240 Q260 100 380 200 T620 140" fill="none" stroke="#c64f3a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="140" cy="240" r="9" fill="#2f5f89"/>
+  <circle cx="380" cy="200" r="9" fill="#7a4f9a"/>
+  <circle cx="620" cy="140" r="9" fill="#c64f3a"/>
+  <text x="140" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">W at t=0</text>
+  <text x="380" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">e^(Σt_n z^n) W</text>
+  <text x="620" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">later t</text>
+  <text x="360" y="340" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">KP Hierarchy, Sato Grassmannian, Tau-Functions</text>
+</svg>

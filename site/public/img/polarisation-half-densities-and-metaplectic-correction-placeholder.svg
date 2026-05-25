@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Polarisation, half-densities, and metaplectic correction</title>
+  <desc id="desc">A schematic diagram showing a symplectic manifold M foliated by Lagrangian leaves of a polarisation P, with polarised sections of the prequantum line bundle tensored by a half-density bundle and a metaplectic double cover above.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1d4e5a"/></marker>
+  </defs>
+  <g stroke="#1d4e5a" stroke-width="3" fill="none">
+    <path d="M80 270 L640 270"/>
+    <path d="M80 270 Q200 250 360 270 Q520 290 640 270"/>
+  </g>
+  <g stroke="#b8651e" stroke-width="2" fill="none" stroke-dasharray="6 4">
+    <path d="M140 270 L140 200"/>
+    <path d="M220 270 L220 195"/>
+    <path d="M300 270 L300 200"/>
+    <path d="M380 270 L380 195"/>
+    <path d="M460 270 L460 200"/>
+    <path d="M540 270 L540 195"/>
+    <path d="M620 270 L620 200"/>
+  </g>
+  <g fill="#b8651e">
+    <circle cx="140" cy="270" r="5"/>
+    <circle cx="220" cy="270" r="5"/>
+    <circle cx="300" cy="270" r="5"/>
+    <circle cx="380" cy="270" r="5"/>
+    <circle cx="460" cy="270" r="5"/>
+    <circle cx="540" cy="270" r="5"/>
+    <circle cx="620" cy="270" r="5"/>
+  </g>
+  <g stroke="#1d4e5a" stroke-width="3" fill="none">
+    <path d="M80 150 L640 150"/>
+    <path d="M80 110 L640 110"/>
+  </g>
+  <text x="650" y="155" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1d4e5a">Sp(2n)</text>
+  <text x="650" y="115" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1d4e5a">Mp(2n)</text>
+  <text x="650" y="275" font-family="Inter, Arial, sans-serif" font-size="18" fill="#1d4e5a">M, &#969;</text>
+  <text x="80" y="195" font-family="Inter, Arial, sans-serif" font-size="16" fill="#b8651e">P (Lagrangian)</text>
+  <text x="360" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#222">&#915;<tspan font-size="14" dy="6">P</tspan><tspan dy="-6">(L &#8855; |&#923;|</tspan><tspan font-size="14" dy="-6">1/2</tspan><tspan dy="6">) &#8594; Mp(2n) double cover</tspan></text>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Polarisation, half-densities, and metaplectic correction</text>
+</svg>

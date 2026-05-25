@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Legendrian Singularities and Wave-Front Evolution</title>
+  <desc id="desc">A semicubic cusp on a wave front advancing outward from a Legendrian source, with the A2 cusp profile 4 p cubed minus 27 q squared equals zero highlighted on the silhouette.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g stroke="#5a3d6f" stroke-width="1" fill="none" opacity="0.25">
+    <line x1="60" y1="200" x2="660" y2="200"/>
+    <line x1="360" y1="40" x2="360" y2="340"/>
+  </g>
+  <g fill="none" stroke="#3a7d4d" stroke-width="1.5" opacity="0.55">
+    <path d="M 80 200 Q 220 60 360 60 Q 500 60 640 200"/>
+    <path d="M 110 200 Q 230 100 360 100 Q 490 100 610 200"/>
+    <path d="M 150 200 Q 240 140 360 140 Q 480 140 570 200"/>
+  </g>
+  <text x="600" y="80" font-family="Inter, Arial, sans-serif" font-size="13" fill="#3a7d4d">expanding fronts</text>
+  <path d="M 360 200 Q 380 230 410 248 Q 380 270 360 300 Q 340 270 310 248 Q 340 230 360 200 Z" fill="#d68a3a" fill-opacity="0.18" stroke="#d68a3a" stroke-width="2.5"/>
+  <text x="425" y="276" font-family="Inter, Arial, sans-serif" font-size="14" fill="#d68a3a">A₂ cusp: 4p³ − 27q² = 0</text>
+  <g stroke="#222" stroke-width="2.5" fill="none">
+    <path d="M 360 200 L 372 224 L 360 248 L 348 224 Z"/>
+  </g>
+  <text x="368" y="216" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222">cusp point</text>
+  <rect x="40" y="40" width="200" height="60" fill="none" stroke="#5a3d6f" stroke-width="1.5"/>
+  <text x="140" y="65" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222">Λ ⊂ J¹(M), α|Λ = 0</text>
+  <text x="140" y="86" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#555">Legendrian, dim Λ = n</text>
+  <rect x="480" y="40" width="200" height="60" fill="none" stroke="#5a3d6f" stroke-width="1.5"/>
+  <text x="580" y="65" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222">W(Λ) = π(Λ)</text>
+  <text x="580" y="86" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#555">wave front in M × ℝ</text>
+  <g stroke="#5a3d6f" stroke-width="1.5" fill="#5a3d6f">
+    <line x1="240" y1="70" x2="476" y2="70" marker-end="url(#a)"/>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a3d6f"/>
+    </marker>
+  </defs>
+  <text x="358" y="64" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5a3d6f">front projection π</text>
+</svg>
