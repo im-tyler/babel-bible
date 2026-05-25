@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Coulomb gauge vs Lorenz gauge in QED — gauge choices and photon degrees of freedom</title>
+  <desc id="desc">Side-by-side diagram of the two canonical gauge choices in QED. Left column: Coulomb gauge with the transverse condition div(A) = 0; two physical transverse photon polarisations, instantaneous Coulomb potential A_0; manifestly unitary; not manifestly Lorentz covariant; preferred for atomic-physics bound-state calculations. Right column: Lorenz/Feynman gauge with the covariant condition partial_mu A^mu = 0; four photon modes including unphysical longitudinal and time-like polarisations cancelled by the Gupta-Bleuler condition or by Faddeev-Popov ghosts; manifestly Lorentz covariant; preferred for high-energy scattering. Photon propagators on each side; equivalence theorem at bottom asserts physical S-matrix elements identical in both gauges.</desc>
+  <rect width="960" height="540" fill="#f8faf7"/>
+
+  <text x="480" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#23424a" font-weight="bold">Gauge choice in QED: Coulomb vs Lorenz</text>
+  <text x="480" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5a6a73">$A_\mu \to A_\mu + \partial_\mu \Lambda$ — same physics, two book-keeping conventions</text>
+
+  <!-- Coulomb column -->
+  <rect x="40" y="92" width="400" height="370" fill="#ffffff" stroke="#2a9d8f" stroke-width="2" rx="6"/>
+  <text x="240" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#2a9d8f" font-weight="bold">Coulomb gauge</text>
+  <text x="240" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#23424a">div(A) = 0  (radiation / transverse gauge)</text>
+
+  <text x="60" y="178" font-family="Arial, sans-serif" font-size="14" fill="#23424a" font-weight="bold">Photon degrees of freedom</text>
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="13" fill="#23424a">• 2 transverse modes (physical)</text>
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="13" fill="#23424a">• A_0 = Coulomb potential (instantaneous, not propagating)</text>
+
+  <text x="60" y="252" font-family="Arial, sans-serif" font-size="14" fill="#23424a" font-weight="bold">Photon propagator</text>
+  <text x="60" y="280" font-family="Courier New, monospace" font-size="13" fill="#264653">D_ij(k) = -i (delta_ij - k_i k_j / |k|^2) / k^2</text>
+  <text x="60" y="300" font-family="Courier New, monospace" font-size="13" fill="#264653">D_00(k) =  i / |k|^2     (instantaneous)</text>
+
+  <text x="60" y="332" font-family="Arial, sans-serif" font-size="14" fill="#23424a" font-weight="bold">Trade-offs</text>
+  <text x="60" y="354" font-family="Arial, sans-serif" font-size="13" fill="#2a9d8f">+ Manifestly unitary (positive-definite Hilbert space)</text>
+  <text x="60" y="374" font-family="Arial, sans-serif" font-size="13" fill="#2a9d8f">+ Coulomb interaction explicit (atomic physics)</text>
+  <text x="60" y="394" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">− Lorentz covariance hidden (frame-specific split)</text>
+  <text x="60" y="414" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">− No ghosts but loop calculations are awkward</text>
+
+  <text x="240" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5a6a73">Preferred for: hydrogen, Lamb shift, low-energy QED</text>
+
+  <!-- Lorenz column -->
+  <rect x="520" y="92" width="400" height="370" fill="#ffffff" stroke="#e76f51" stroke-width="2" rx="6"/>
+  <text x="720" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e76f51" font-weight="bold">Lorenz gauge family</text>
+  <text x="720" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#23424a">∂_μ A^μ = 0  (covariant gauge, parameter ξ)</text>
+
+  <text x="540" y="178" font-family="Arial, sans-serif" font-size="14" fill="#23424a" font-weight="bold">Photon degrees of freedom</text>
+  <text x="540" y="200" font-family="Arial, sans-serif" font-size="13" fill="#23424a">• 4 covariant modes (manifestly Lorentz-covariant)</text>
+  <text x="540" y="220" font-family="Arial, sans-serif" font-size="13" fill="#23424a">• Unphysical timelike + longitudinal — Gupta-Bleuler 1950</text>
+
+  <text x="540" y="252" font-family="Arial, sans-serif" font-size="14" fill="#23424a" font-weight="bold">Photon propagator (xi-family)</text>
+  <text x="540" y="280" font-family="Courier New, monospace" font-size="13" fill="#264653">D_μν = -i [g_μν - (1 − ξ) k_μ k_ν / k^2] / k^2</text>
+  <text x="540" y="300" font-family="Courier New, monospace" font-size="13" fill="#264653">ξ = 1 Feynman; ξ = 0 Landau</text>
+
+  <text x="540" y="332" font-family="Arial, sans-serif" font-size="14" fill="#23424a" font-weight="bold">Trade-offs</text>
+  <text x="540" y="354" font-family="Arial, sans-serif" font-size="13" fill="#2a9d8f">+ Manifestly Lorentz covariant (simple loop algebra)</text>
+  <text x="540" y="374" font-family="Arial, sans-serif" font-size="13" fill="#2a9d8f">+ Faddeev-Popov procedure generalises to non-abelian</text>
+  <text x="540" y="394" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">− Indefinite-metric Hilbert space (Gupta-Bleuler subsidiary)</text>
+  <text x="540" y="414" font-family="Arial, sans-serif" font-size="13" fill="#e76f51">− Unphysical modes cancelled by Ward identity</text>
+
+  <text x="720" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5a6a73">Preferred for: scattering amplitudes, renormalisation, loops</text>
+
+  <!-- equivalence bar -->
+  <rect x="40" y="478" width="880" height="46" fill="#23424a" rx="6"/>
+  <text x="480" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f8faf7" font-weight="bold">Gauge equivalence theorem: physical S-matrix elements are identical in any consistent gauge</text>
+  <text x="480" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#bcd3d1">Ward-Takahashi identity ⇒ ξ-dependence cancels in on-shell amplitudes; Faddeev-Popov 1967; BRST 1974-75</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Bunch-Davies State on de Sitter Spacetime</title>
+  <desc id="desc">A schematic placeholder diagram for the Bunch-Davies vacuum on de Sitter: a hyperboloid representing de Sitter space, the static patch wedge of an inertial observer, the exponentially expanding flat slicing in conformal time, and the Gibbons-Hawking temperature T = H over 2 pi observed by a static-patch observer.</desc>
+  <rect width="720" height="360" fill="#f7f3ea"/>
+  <g fill="none" stroke="#1d4e5a" stroke-width="2">
+    <ellipse cx="360" cy="200" rx="220" ry="40"/>
+    <path d="M140 200 Q140 80 360 60 Q580 80 580 200"/>
+    <path d="M140 200 Q140 320 360 340 Q580 320 580 200"/>
+  </g>
+  <text x="360" y="30" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1d4e5a">de Sitter dS_4: R = 12 H^2, isometry SO(4,1)</text>
+  <g fill="none" stroke="#b8651e" stroke-width="2.5">
+    <line x1="280" y1="200" x2="280" y2="80"/>
+    <line x1="440" y1="200" x2="440" y2="80"/>
+    <line x1="280" y1="80" x2="440" y2="80"/>
+  </g>
+  <text x="360" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#b8651e">static patch (observer wedge)</text>
+  <g fill="#1d4e5a">
+    <circle cx="360" cy="200" r="5"/>
+  </g>
+  <text x="370" y="215" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222">static observer</text>
+  <text x="80" y="270" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">flat slicing: ds^2 = -dt^2 + e^{2Ht}(dx^2 + dy^2 + dz^2)</text>
+  <text x="80" y="290" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">conformal time: eta = -e^{-Ht}/H, modes u_k = (1/sqrt(2k))(1 + i/(k eta)) e^{-i k eta}</text>
+  <text x="80" y="310" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">Bunch-Davies: unique de-Sitter-invariant Hadamard state</text>
+  <text x="80" y="330" font-family="Inter, Arial, sans-serif" font-size="14" fill="#b8651e">Gibbons-Hawking 1977: T_dS = H/(2 pi k_B)</text>
+  <text x="640" y="350" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#666">Bunch-Davies 1978 Proc. Roy. Soc. A 360</text>
+</svg>

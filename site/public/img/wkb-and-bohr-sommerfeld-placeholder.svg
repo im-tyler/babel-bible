@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">WKB and Bohr-Sommerfeld</title>
+  <desc id="desc">A schematic placeholder showing a potential well V(x) with two classical turning points a and b, a horizontal energy line E, and an oscillatory wavefunction sketched between the turning points with decaying exponential tails outside.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <g stroke="#2d5a3d" stroke-width="3" fill="none">
+    <path d="M80 260 Q200 60 360 260 Q520 60 640 260"/>
+  </g>
+  <g stroke="#8a4a8a" stroke-width="2" fill="none" stroke-dasharray="6 4">
+    <path d="M80 180 L640 180"/>
+  </g>
+  <g stroke="#1e3a5f" stroke-width="2" fill="none">
+    <path d="M200 180 Q220 150 240 180 Q260 210 280 180 Q300 150 320 180 Q340 210 360 180 Q380 150 400 180 Q420 210 440 180 Q460 150 480 180"/>
+    <path d="M80 200 Q120 195 200 180"/>
+    <path d="M480 180 Q560 195 640 200"/>
+  </g>
+  <g fill="#222" font-family="Inter, Arial, sans-serif" font-size="20">
+    <text x="200" y="295" text-anchor="middle">a</text>
+    <text x="480" y="295" text-anchor="middle">b</text>
+    <text x="660" y="186" text-anchor="start">E</text>
+    <text x="100" y="80" text-anchor="start">V(x)</text>
+  </g>
+  <text x="360" y="335" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">WKB and Bohr-Sommerfeld</text>
+</svg>
