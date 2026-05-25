@@ -2863,6 +2863,16 @@ Before adding a concept to the catalog:
   - beginner: phase-space and paired-direction intuition
 - **notes**: A numerical invariant measuring symplectic size. Central theorem: capacity monotonicity under symplectic embeddings. Used in the v0.5 symplectic geometry strand for Hamiltonian dynamics, reduction, rigidity, and Floer-theoretic constructions.
 
+### symplectic-geometry.eliashberg-gromov-c0-rigidity
+
+- **title**: Eliashberg-Gromov $C^0$-rigidity of $\mathrm{Symp}$
+- **prerequisites**: `05.07.01`, `05.07.02`, `05.06.02`
+- **tier_anchors**:
+  - master: Eliashberg 1981 *Funct. Anal. Appl.* 15 (announcement); Gromov 1985 *Invent. Math.* 82; Hofer 1990 *Proc. R. Soc. Edinburgh* 115A; Ekeland-Hofer 1989 *Math. Z.* 200; Müller-Oh 2007 *J. Symplectic Geom.* 5; Buhovsky 2008 *J. Symplectic Geom.* 6; Humilière-Leclercq-Seyfaddini 2015; Buhovsky-Opshtein 2016
+  - intermediate: McDuff-Salamon Ch. 12; Hofer-Zehnder *Symplectic Invariants and Hamiltonian Dynamics* §5
+  - beginner: McDuff-Salamon §12.2 informal; Hofer-Zehnder §5 introductory pages
+- **notes**: The symplectomorphism group $\mathrm{Symp}(M, \omega)$ is closed in $\mathrm{Diff}(M)$ with respect to the $C^0$-topology — a $C^0$-limit of symplectomorphisms (when smooth and bijective) is itself a symplectomorphism, even though the defining condition $\phi^*\omega = \omega$ is a $C^1$ derivative condition. Proved independently by Eliashberg (1981 announcement) and Gromov (1985, capacity-based proof using pseudoholomorphic curves); alternative proof via Hofer displacement-energy capacity (Hofer 1990). The Müller-Oh closure $\mathrm{Sympeo}(M, \omega) := \overline{\mathrm{Symp}}^{C^0} \subset \mathrm{Homeo}(M)$ defines the $C^0$-symplectic-topology category. Foundation for $C^0$-Hamiltonian dynamics, $C^0$-Lagrangian rigidity (Buhovsky-Opshtein 2016), Poisson-bracket $\frac{2}{3}$-Hölder rigidity (Buhovsky 2008), and reduction of symplectic homeomorphisms (Humilière-Leclercq-Seyfaddini 2015). Contrasts sharply with the volume-preserving category, where $C^0$-limits of volume-preserving maps need not be volume-preserving.
+
 ### symplectic-geometry.arnold-conjecture
 
 - **title**: Arnold conjecture and Floer homology setup
