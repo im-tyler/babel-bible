@@ -77,14 +77,10 @@ export function head() {
         // so users don't see a flash of wrong theme/tier.
         content: `(function(){
           try {
-            var t = localStorage.getItem('codex_tier');
-            document.documentElement.dataset.tierActive =
-              (t==='beginner'||t==='intermediate'||t==='master') ? t : 'master';
             var th = localStorage.getItem('codex_theme');
             document.documentElement.dataset.theme =
               (th==='dark'||th==='calm'||th==='light') ? th : 'dark';
           } catch (e) {
-            document.documentElement.dataset.tierActive = 'master';
             document.documentElement.dataset.theme = 'dark';
           }
         })();`,
@@ -101,24 +97,16 @@ const TOGGLE_INIT = `
         b.getAttribute('data-' + group + '-set') === value);
     });
   }
-  function setTier(v) {
-    document.documentElement.dataset.tierActive = v;
-    try { localStorage.setItem('codex_tier', v); } catch (e) {}
-    syncActive('tier', v);
-  }
   function setTheme(v) {
     document.documentElement.dataset.theme = v;
     try { localStorage.setItem('codex_theme', v); } catch (e) {}
     syncActive('theme', v);
   }
   document.addEventListener('click', function (e) {
-    var tt = e.target && e.target.closest && e.target.closest('[data-tier-set]');
-    if (tt) { setTier(tt.getAttribute('data-tier-set')); return; }
     var th = e.target && e.target.closest && e.target.closest('[data-theme-set]');
     if (th) { setTheme(th.getAttribute('data-theme-set')); return; }
   });
   // Sync initial active classes from doc-element flags set pre-paint.
-  syncActive('tier', document.documentElement.dataset.tierActive || 'master');
   syncActive('theme', document.documentElement.dataset.theme || 'dark');
 })();
 `;
@@ -143,20 +131,6 @@ export default function RootLayout({ children }: { children: any }) {
               <button type="button" class="theme-toggle__btn" data-theme-set="dark" title="Dark">D</button>
               <button type="button" class="theme-toggle__btn" data-theme-set="calm" title="Calm (sepia)">C</button>
               <button type="button" class="theme-toggle__btn" data-theme-set="light" title="Light">L</button>
-            </div>
-            <div class="tier-toggle" role="group" aria-label="Reading tier">
-              <button type="button" class="tier-toggle__btn" data-tier-set="beginner" title="Beginner — intuition + visuals">
-                <span class="tier-toggle__full">Beginner</span>
-                <span class="tier-toggle__short" aria-hidden="true">B</span>
-              </button>
-              <button type="button" class="tier-toggle__btn" data-tier-set="intermediate" title="Intermediate — proofs + exercises">
-                <span class="tier-toggle__full">Intermediate</span>
-                <span class="tier-toggle__short" aria-hidden="true">I</span>
-              </button>
-              <button type="button" class="tier-toggle__btn" data-tier-set="master" title="Master — full graduate-level depth">
-                <span class="tier-toggle__full">Master</span>
-                <span class="tier-toggle__short" aria-hidden="true">M</span>
-              </button>
             </div>
           </div>
         </div>
