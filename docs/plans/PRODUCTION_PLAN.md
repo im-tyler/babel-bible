@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-25T21:34:17.664404+00:00_
+_Generated: 2026-05-26T20:04:39.407106+00:00_
 
 ## Burn-down
 
-- Units shipped: **1110**
-- Units queued (gap units from audits): **83**
+- Units shipped: **1126**
+- Units queued (gap units from audits): **67**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-25T21:34:17.664404+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `13.09.05` | Hadamard states by pseudo-differential calculus (Gérard-Wrochna) | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 2 | `13.09.06` | Wick polynomials in curved spacetime via Hadamard parametrix subtraction | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 3 | `13.09.07` | Time-ordered products and Hollands-Wald renormalisation on curved spacetimes | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 4 | `13.09.08` | Bunch-Davies state on de Sitter spacetime | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 5 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 6 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 7 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 8 | `03.12.51` | Massey products and the formality condition | P1 | griffiths-morgan-rational-homotopy |
-| 9 | `12.16.03` | Vacuum polarization at one loop and the Uehling potential | P? | landau-lifshitz-quantum-electrodynamics |
-| 10 | `12.12.04` | Møller scattering ($e^- e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
-| 11 | `12.12.05` | Bhabha scattering ($e^+ e^-$) | P? | landau-lifshitz-quantum-electrodynamics |
-| 12 | `12.12.06` | Bethe-Heitler bremsstrahlung and pair production | P? | landau-lifshitz-quantum-electrodynamics |
-| 13 | `12.11.02` | Klein-Gordon equation in external EM field; Coulomb and uniform-magnetic cases | P? | landau-lifshitz-quantum-electrodynamics |
-| 14 | `12.11.04` | Klein paradox | P? | landau-lifshitz-quantum-electrodynamics |
-| 15 | `12.16.04` | Lamb shift from one-loop QED | P? | landau-lifshitz-quantum-electrodynamics |
-| 16 | `12.16.05` | Infrared divergences and the Bloch-Nordsieck cancellation in QED | P? | landau-lifshitz-quantum-electrodynamics |
-| 17 | `12.11.05` | Furry's theorem and charge-conjugation symmetry of QED | P? | landau-lifshitz-quantum-electrodynamics |
-| 18 | `12.12.02` | Coulomb gauge vs Lorenz gauge in QED | P? | landau-lifshitz-quantum-electrodynamics |
-| 19 | `12.07.04` | WKB approximation and Bohr-Sommerfeld quantisation | P? | landau-lifshitz-quantum-mechanics |
-| 20 | `12.09.03` | Hartree-Fock self-consistent field method | P? | landau-lifshitz-quantum-mechanics |
+| 1 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
+| 2 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 3 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 4 | `12.09.03` | Hartree-Fock self-consistent field method | P? | landau-lifshitz-quantum-mechanics |
+| 5 | `12.15.01` | Time-reversal symmetry and Kramers' degeneracy | P? | landau-lifshitz-quantum-mechanics |
+| 6 | `12.09.05` | Diatomic molecule and the Born-Oppenheimer approximation | P? | landau-lifshitz-quantum-mechanics |
+| 7 | `12.09.02` | Exchange interaction and the helium atom | P? | landau-lifshitz-quantum-mechanics |
+| 8 | `12.09.04` | Multi-electron atomic structure and LS coupling | P? | landau-lifshitz-quantum-mechanics |
+| 9 | `12.07.03` | Variational method (Rayleigh-Ritz) in quantum mechanics | P? | landau-lifshitz-quantum-mechanics |
+| 10 | `12.08.02` | Born approximation and the Lippmann-Schwinger equation | P? | landau-lifshitz-quantum-mechanics |
+| 11 | `12.08.03` | Partial-wave expansion and phase shifts | P? | landau-lifshitz-quantum-mechanics |
+| 12 | `12.07.05` | Stark and Zeeman effects in LL3 framing | P? | landau-lifshitz-quantum-mechanics |
+| 13 | `12.02.03` | Density matrix and pure / mixed states | P? | landau-lifshitz-quantum-mechanics |
+| 14 | `12.15.02` | Parity, discrete-symmetry groups, and the Wigner-Eckart theorem | P? | landau-lifshitz-quantum-mechanics |
+| 15 | `12.08.04` | Inelastic collisions and the distorted-wave Born approximation | P? | landau-lifshitz-quantum-mechanics |
+| 16 | `03.03.10` | Lie groupoid: source, target, smooth composition | P1 | mackenzie-lie-groupoids-vol1 |
+| 17 | `03.05.21` | Gauge groupoid of a principal bundle: $\frac{P \times P}{G} \rightrightarrows M$ | P1 | mackenzie-lie-groupoids-vol1 |
+| 18 | `03.04.16` | Lie algebroid: anchor, bracket, Leibniz law | P1 | mackenzie-lie-groupoids-vol1 |
+| 19 | `03.05.22` | Atiyah algebroid $\mathrm{At}(P) = TP/G$ of a principal bundle | P1 | mackenzie-lie-groupoids-vol1 |
+| 20 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
 
 ## Audits completed
 
