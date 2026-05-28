@@ -115,7 +115,7 @@ After each cycle ships, run a Pass-W agent (dispatch + brief in this session's c
 
 ### 4.7 Tip-of-Forgejo discipline
 
-Push after every cycle / wave-batch close. Forgejo remote is `http://100.108.123.49:49152/Tyler/codex.git`, branch `main`. Session B and math-lane sessions sync through here — push promptly to avoid divergence.
+Push after every cycle / wave-batch close. Forgejo remote is `http://100.108.123.49:49152/Tyler/babel-bible.git`, branch `main`. Session B and math-lane sessions sync through here — push promptly to avoid divergence.
 
 ## §5 Quality gates (don't compromise)
 
