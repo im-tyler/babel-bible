@@ -1956,6 +1956,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Strogatz — Infinite Powers (analogous level)
 - **notes**: Bounded operators with finite-dimensional kernel, closed range, finite-dimensional cokernel. Index = $\dim \ker - \dim \mathrm{coker}$ is the central invariant. Atkinson: Fredholm iff invertible modulo compacts. Stable under compact and small-norm perturbations. Foundation for the Atiyah-Singer index theorem.
 
+### functional-analysis.hahn-banach-theorem
+
+- **title**: Hahn-Banach theorem (analytic and geometric forms)
+- **prerequisites**: `functional-analysis.banach-space`, `functional-analysis.normed-vector-space`, `linalg.vector-space`
+- **tier_anchors**:
+  - master: Brezis §1; Rudin Functional Analysis §3; Conway §III; Bohnenblust-Sobczyk 1938
+  - intermediate: Brezis Functional Analysis §1; Conway A Course in Functional Analysis §III
+  - beginner: extending a length measurement from a sub-line to a whole space without making it bigger
+- **notes**: Analytic form: every bounded linear functional on a subspace of a normed vector space extends to the whole space with the same operator norm; proof for the real case via Zorn's lemma on the family of sublinear-dominated extensions, separable case via countable dependent choice. Complex Hahn-Banach (Bohnenblust-Sobczyk 1938) reduces to the real case by writing $f(x) = u(x) - i u(ix)$ with $u = \operatorname{Re} f$ and extending $u$. Geometric forms separate disjoint convex sets by closed (first form: one open) or strictly (second form: one compact, one closed) by a continuous linear functional, proven via the Minkowski functional of a convex set. Corollaries: $X^* \neq \{0\}$ whenever $X$ has a non-zero vector; the dual-norm formula $\|x\| = \sup_{\|f\| \leq 1} |f(x)|$; density of a subspace iff its annihilator is zero; supporting hyperplanes at boundary points of closed convex sets; isometric embedding $J : X \to X^{**}$ and the notion of reflexivity; quotient duality $(X/Y)^* \cong Y^\perp$; Mazur's theorem on weakly closed convex sets. Applications to Lagrangian duality and Slater's condition, von Neumann / Sion minimax theorems, fundamental theorem of asset pricing, and best-approximation in reflexive Banach spaces. Choice-strength: Pincus 1972 proved Hahn-Banach is equivalent to the Boolean prime ideal theorem over ZF + DC and strictly weaker than the axiom of choice; Foreman-Wehrung 1991 showed Hahn-Banach implies the existence of a non-Lebesgue-measurable subset of $\mathbb{R}$. Kantorovich extension generalises to ordered vector spaces (Riesz spaces with the decomposition property), driving Krein-Rutman, the GNS construction on $C^*$-algebras, and linear programming duality. Foundational floor for the open mapping theorem, Banach-Steinhaus, weak topologies and reflexivity (Banach-Alaoglu, Eberlein-Smulian, Kakutani), convex analysis, and the entire duality theory of normed spaces.
+
+### functional-analysis.open-mapping-closed-graph
+
+- **title**: Open mapping and closed graph theorems
+- **prerequisites**: `functional-analysis.banach-space`, `functional-analysis.normed-vector-space`, `functional-analysis.hahn-banach-theorem`
+- **tier_anchors**:
+  - master: Brezis §2; Rudin Functional Analysis §2; Conway §III; Banach-Schauder 1932
+  - intermediate: Brezis Functional Analysis §2; Conway A Course in Functional Analysis §III
+  - beginner: a surjective continuous linear map between complete spaces never squashes open sets to nothing
+- **notes**: Open mapping theorem (Banach-Schauder 1932): a bounded linear surjection between Banach spaces is an open map, proved via the Baire category theorem applied to the image of the unit ball. Bounded inverse corollary: a bounded linear bijection between Banach spaces has bounded inverse, hence any two complete norms on the same vector space are either equivalent or fully incomparable. Closed graph theorem: a linear map $T : X \to Y$ between Banach spaces is bounded iff its graph $\Gamma(T) = \{(x, Tx)\}$ is closed in $X \times Y$, proved by treating $\Gamma(T)$ as a Banach space and applying bounded inverse to the projection. Banach-Steinhaus / uniform boundedness principle (Steinhaus 1919, Banach-Steinhaus 1927): a pointwise bounded family of bounded operators from a Banach space is uniformly bounded in operator norm, proved by the same Baire mechanism on closed level sets. Together with Hahn-Banach, these are the four pillars of Banach-space theory. Counterexamples in incomplete spaces sharpen the role of completeness: differentiation on polynomials has closed graph but is unbounded; the identity from $c_{00}$ with $\ell^1$ norm to $c_{00}$ with $\ell^\infty$ norm has unbounded inverse. Application to Fourier series: Du Bois-Reymond's theorem that there exist continuous periodic functions whose Fourier series diverges at a point, via the unboundedness of Lebesgue constants $L_n \sim (4/\pi^2) \log n$ and Banach-Steinhaus condensation of singularities. Hellinger-Toeplitz theorem (1910): an everywhere-defined symmetric operator on a Hilbert space is bounded, forcing position, momentum, and the Hamiltonian in quantum mechanics to be defined on dense subspaces. Sobolev embeddings $H^s \hookrightarrow C^0$ and trace theorems $\gamma : H^1 \to H^{1/2}(\partial\Omega)$ use closed graph for the continuity step. Closability of unbounded operators and the closure $\overline{T}$ as the smallest closed extension. F-space and Frechet space generalisations (complete metrisable / locally convex F-spaces): same Baire-based proofs go through, covering Schwartz space $\mathcal{S}(\mathbb{R}^n)$, $C^\infty(\Omega)$, and holomorphic-function spaces. Foundational floor for spectral theory of compact and unbounded operators, weak / weak-* topology theory, distribution theory, Sobolev-space PDE estimates, and the rigorous formulation of quantum-mechanical observables.
+
 ### microlocal-analysis.wave-front-set
 
 - **title**: Wave-front set of a distribution
@@ -4734,6 +4754,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
+### special-relativity.four-velocity-four-momentum
+
+- **title**: Four-velocity, four-momentum, and the relativistic energy-momentum identity
+- **unit**: `10.05.03`
+- **prerequisites**: `electromagnetism.special-relativity-lorentz`, `electromagnetism.relativistic-dynamics`
+- **tier_anchors**:
+  - master: Misner-Thorne-Wheeler, *Gravitation* (Freeman, 1973), §2; Weinberg, *Gravitation and Cosmology* (Wiley, 1972), §2; Landau-Lifshitz Vol. 2 *The Classical Theory of Fields*, 4e (Pergamon, 1980), §6-9
+  - intermediate: Rindler, *Introduction to Special Relativity*, 2e (Oxford UP, 1991), §4; Hartle, *Gravity* (Pearson, 2003), §5
+  - beginner: Hartle, *Gravity* (Pearson, 2003), §4-5; Resnick, *Introduction to Special Relativity* (Wiley, 1968)
+- **notes**: The four-velocity $u^\mu = dx^\mu/d\tau = \gamma(c, \mathbf{v})$ and four-momentum $p^\mu = m u^\mu = (E/c, \mathbf{p})$ promote velocity and momentum to Lorentz-covariant objects on Minkowski spacetime. The Minkowski-norm constancy $\eta_{\mu\nu} u^\mu u^\nu = -c^2$ for any timelike worldline forces $p^\mu p_\mu = -m^2 c^2$, equivalent to the **energy-momentum identity** $E^2 = |\mathbf{p}|^2 c^2 + m^2 c^4$. Special cases: rest energy $E = mc^2$ ($\mathbf{p}=0$); massless particles $E = |\mathbf{p}|c$ ($m=0$, light-cone four-momentum); low-speed kinetic-energy expansion $K = (\gamma-1) m c^2 \approx \tfrac{1}{2} m v^2 + \tfrac{3}{8} m v^4/c^2$. Four-acceleration $\alpha^\mu = du^\mu/d\tau$ is Minkowski-orthogonal to $u^\mu$. Master tier: Noether-current interpretation of $p^\mu$ as the conserved charge of spacetime translation symmetry [Noether 1918 *Nachr. Königl. Ges. Wiss. Göttingen*]; de Broglie-Einstein relation $p^\mu = \hbar k^\mu$ for photons; Pauli-Lubanski four-vector $W^\mu = -\tfrac{1}{2}\varepsilon^{\mu\nu\rho\sigma} p_\nu J_{\rho\sigma}$ and Wigner 1939 *Ann. Math.* 40 classification of unitary irreps of the Poincaré group by $(m, s)$; Mandelstam invariants $s + t + u = \sum m_i^2 c^4$ for $2\to 2$ scattering [Mandelstam 1958 *Phys. Rev.* 112, 1344]; Thomas precession [Thomas 1926 *Nature* 117, 514] reconciling spin-orbit fine structure with relativistic kinematics; relativistic action principle $S = -mc^2\int d\tau$ identifying classical worldlines with extremal proper time; rapidity additivity for collinear boosts $\phi = \tanh^{-1}(v/c)$ realising the boost subgroup as $\mathrm{SO}(1,1)$; stress-energy tensor $T^{\mu\nu}$ of a continuous medium with $\partial_\mu T^{\mu\nu} = 0$ generalising point-particle four-momentum conservation. Compton scattering wavelength shift $\Delta\lambda = (h/m_e c)(1-\cos\theta)$ derived from four-momentum conservation. Two-body decay kinematics via Källén triangle function $\lambda(M^2, m_1^2, m_2^2)$. Originator chain: Einstein 1905 *Annalen* 17 + 18 (Lorentz transformations + $E = mc^2$); Einstein 1907 *Jahrb. Rad. Elek.* 4 (rest-energy formulation); Minkowski 1908 Cologne (four-vector unification); Noether 1918; Thomas 1926; Wigner 1939; Lubanski 1942; Mandelstam 1958. Modern applications: collider invariant-mass spectroscopy (J/$\psi$ 1974, Higgs 2012), Dirac equation as operator-level factorisation of $p^\mu p_\mu = -m^2 c^2$, general-relativistic geodesic motion in curved spacetime, cosmological photon redshift in FLRW backgrounds. Lean status: `none` — Mathlib lacks Minkowski metric, Poincaré-group Lie group, Pauli-Lubanski operator, and Wigner-classification representation theory.
+
+
 ### electromagnetism.covariant-em-faraday-tensor
 
 - **title**: Covariant electrodynamics — Faraday tensor
@@ -4840,6 +4872,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Schroeder, *Thermal Physics* (2000), Ch. 7
   - beginner: Susskind, *The Theoretical Minimum: Statistical Mechanics* (2013), Lecture 10
 - **notes**: (to be filled during production)
+
+
+### stat-mech-physics.blackbody-planck-stefan-boltzmann-wien
+
+- **title**: Blackbody radiation: Planck distribution, Stefan-Boltzmann law, Wien displacement law
+- **unit**: `11.05.03`
+- **prerequisites**: `statistical-mechanics.bose-einstein-distribution`, `statistical-mechanics.canonical-ensemble`, `quantum-mechanics.bosonic-fock-space-second-quantisation`
+- **tier_anchors**:
+  - master: Pathria & Beale, *Statistical Mechanics*, 4e (Elsevier, 2021), §7.3; Landau & Lifshitz, *Statistical Physics, Part 1*, 3e (Pergamon, 1980), §63; Mandel & Wolf, *Optical Coherence and Quantum Optics* (Cambridge, 1995), §13
+  - intermediate: Griffiths & Schroeter, *Introduction to Quantum Mechanics*, 3e (Cambridge, 2018), §5.4; Reif, *Fundamentals of Statistical and Thermal Physics* (McGraw-Hill, 1965), §9.13–9.14
+  - beginner: Eisberg & Resnick, *Quantum Physics of Atoms, Molecules, Solids, Nuclei, and Particles*, 2e (Wiley, 1985), Ch. 1
+- **notes**: Closes a P1 gap in the v1 stat-mech-physics domain — the first Planck / Stefan-Boltzmann / Wien unit anywhere in Babel Bible despite 38 quantum mechanics units already shipped. Derives the Planck spectral energy density from the canonical ensemble for the EM cavity (mode counting $g(\omega) = V\omega^2/\pi^2 c^3$ times the Bose-Einstein occupation at $\mu = 0$), integrates to the Stefan-Boltzmann law $j = \sigma T^4$ with $\sigma = 2\pi^5 k_B^4/(15 h^3 c^2)$, and maximises in wavelength to obtain Wien displacement $\lambda_{\max} T = b$ via the transcendental root $x = 5(1 - e^{-x}) \approx 4.96511$. Master section covers Kirchhoff 1859 universality, photon-gas equation of state $P = u/3$ with $\mu = 0$, cosmological adiabatic relation $T \propto V^{-1/3}$, Einstein 1916 detailed-balance derivation of $A/B = 8\pi h\nu^3/c^3$, and the COBE-FIRAS measurement of the CMB blackbody at $T = 2.72548 \pm 0.00057$ K. Originator chain: Kirchhoff 1859 → Stefan 1879 → Boltzmann 1884 → Wien 1893, 1896 → Rayleigh 1900–Jeans 1905 → Planck 1900 → Einstein 1905, 1916 → Bose 1924 → Penzias-Wilson 1965 → COBE-FIRAS 1994.
 
 
 ### statistical-mechanics.ising-phase-transitions
@@ -7205,6 +7249,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: For an odd prime $p$ and $a \in \mathbb{Z}$, the **Legendre symbol** $\left(\frac{a}{p}\right)$ is $+1$ if $a$ is a non-zero square modulo $p$, $-1$ if $a$ is a non-square in $\mathbb{F}_p^\times$, and $0$ if $p \mid a$. It is multiplicative, depends only on $a \bmod p$, and is the unique non-trivial homomorphism $\mathbb{F}_p^\times \to \{\pm 1\}$ extended to $\mathbb{Z}$ by zero. **Euler's criterion** identifies the symbol with the $(p-1)/2$-th power: $\left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p$. The **quadratic Gauss sum** is $g_a = \sum_{x \in \mathbb{F}_p} \zeta_p^{a x^2}$ where $\zeta_p = e^{2\pi i / p}$; equivalently $g_a = \sum_{t \in \mathbb{F}_p} \left(\frac{t}{p}\right) \zeta_p^{a t}$. **Signature identity (Gauss 1801, sign by Gauss 1805)**: $g_1^2 = (-1)^{(p-1)/2} p = p^*$, where $p^* = p$ for $p \equiv 1 \pmod 4$ and $p^* = -p$ for $p \equiv 3 \pmod 4$; the sign refinement $g_1 = +\sqrt p$ or $+i\sqrt p$ follows by Poisson summation / theta-function symmetry. **Quadratic reciprocity (Gauss 1801)**: for distinct odd primes $p, q$, $\left(\frac{p}{q}\right) \left(\frac{q}{p}\right) = (-1)^{(p-1)(q-1)/4}$. **Gauss-sum proof**: work in the cyclotomic ring $\mathbb{Z}[\zeta_p]$ and its quotient modulo $q$. Two computations of $g^q \pmod q$: first, $g^q = g \cdot (g^2)^{(q-1)/2} = g \cdot (p^*)^{(q-1)/2} \equiv \left(\frac{p^*}{q}\right) g \pmod q$ by Euler's criterion at $q$; second, $g^q \equiv \sigma_q(g) = \left(\frac{q}{p}\right) g \pmod q$ via the Frobenius identity $\sigma_q(g) = \left(\frac{q}{p}\right) g$ (proved by re-indexing the Legendre-weighted sum and using multiplicativity). Equating and cancelling $g$ (a unit mod $q$ since $g^2 = p^*$ is invertible) gives $\left(\frac{p^*}{q}\right) = \left(\frac{q}{p}\right)$, which unpacks to reciprocity using the supplementary law $\left(\frac{-1}{q}\right) = (-1)^{(q-1)/2}$. **Supplementary laws**: $\left(\frac{-1}{p}\right) = (-1)^{(p-1)/2}$ direct from Euler's criterion; $\left(\frac{2}{p}\right) = (-1)^{(p^2 - 1)/8}$ via the Gauss sum $h = \zeta_8 + \zeta_8^{-1} \in \mathbb{Z}[i]$ with $h^2 = 2$. **Cyclotomic-field interpretation**: $\sqrt{p^*} \in \mathbb{Q}(\zeta_p)$, and $\mathbb{Q}(\sqrt{p^*})$ is the unique quadratic subfield of $\mathbb{Q}(\zeta_p)$, fixed by the index-$2$ subgroup of squares in $\mathrm{Gal}(\mathbb{Q}(\zeta_p) / \mathbb{Q}) = (\mathbb{Z}/p)^\times$. The Frobenius-eigenvalue identity $\sigma_q(g) = \left(\frac{q}{p}\right) g$ is the residue-class-field shadow of the Artin map at $q$ for the abelian extension $\mathbb{Q}(\zeta_p) / \mathbb{Q}$, restricted to the quadratic subfield. **Generalisations**: Hilbert symbol $(a, b)_v$ and the product formula $\prod_v (a, b)_v = 1$ (Hilbert 1897); Artin reciprocity for abelian extensions of any number field (Artin 1927); Stickelberger relations and Iwasawa-theoretic refinements of cyclotomic class groups [21.07.01]; root-number / Gauss-sum factor in functional equations of Dirichlet $L$-functions [21.03.02]; non-abelian Langlands reciprocity [21.03.03]. **Worked examples**: $\left(\frac{3}{17}\right) = -1$ (by reciprocity reduces to $\left(\frac{2}{3}\right) = -1$); $\left(\frac{5}{29}\right) = +1$ (reduces to $\left(\frac{4}{5}\right) = +1$). **Originator chain**: Euler 1740s-1783 (empirical statement); Legendre 1785, 1798 (symbol and incomplete proof); Gauss 1796 / 1801 (first complete proof in *Disquisitiones*, six total lifetime proofs); Jacobi 1837 (cubic reciprocity); Eisenstein 1844 (lattice-point proof) + 1845 (Gauss-sum proof); Kummer 1859 (higher reciprocity); Hilbert 1897 (Hilbert symbol, product formula); Takagi 1920 (class field theory); Artin 1927 (general Artin reciprocity); Tate 1950 (idelic reformulation); Lemmermeyer 2000 (224 proofs catalogued). Lean status: `none` — Mathlib's `Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity` ships `ZMod.quadratic_reciprocity` via the Zolotarev / permutation-sign route, but the Gauss-sum route requires the quadratic Gauss sum as a named element of $\mathbb{Z}[\zeta_p]$, the identity $g_1^2 = p^*$, the Frobenius identity in $\mathbb{Z}[\zeta_p]/(q)$, and the supplementary law via the $\zeta_8$-Gauss sum; all absent. Reviewer-gated.
 
 
+### number-theory.pell-equation-continued-fractions
+
+- **title**: Pell equation and continued fractions
+- **unit**: `21.01.08`
+- **prerequisites**: `number-theory.divisibility-gcd-euclidean-algorithm`, `number-theory.primes-fundamental-theorem-of-arithmetic`
+- **tier_anchors**:
+  - master: Brahmagupta 628 CE *Brāhmasphuṭasiddhānta* ch. 18 §§64-75 (originator: the **samasa-bhavana** composition $(x_1, y_1, N_1) \diamond (x_2, y_2, N_2) = (x_1 x_2 + D y_1 y_2, x_1 y_2 + x_2 y_1, N_1 N_2)$ for $x^2 - D y^2 = N$); Bhaskara II 1150 CE *Bījagaṇita* §§71-90 (**chakravala** cyclic algorithm); Brouncker-Wallis 1657-58 *Commercium Epistolicum*; Euler 1765 *Novi Comm. Acad. Petrop.* 11, 28-66 (continued-fraction algorithm for $\sqrt D$, mis-attribution to Pell); Lagrange 1770 *Mém. Acad. Berlin* 24, 165-310 (first European proof of Pell solvability via periodicity of $\sqrt D$); Dirichlet 1837 + Dirichlet-Dedekind 1894 *Vorlesungen* §§80-100 (pigeonhole proof); Liouville 1844 *C. R. Acad. Sci.* 18, 883 (Liouville approximation bound); Thue 1909 *Crelle* 135, 284 (exponent $n/2 + 1 + \varepsilon$); Siegel 1921 *Math. Z.* 10, 173 (exponent $2 \sqrt n + \varepsilon$); Roth 1955 *Mathematika* 2, 1 (sharp exponent $2 + \varepsilon$; Fields Medal 1958); Hardy-Wright 2008 6e §§10-11; Khinchin 1964 *Continued Fractions*; Lang 1962 *Diophantine Geometry* Ch. VII
+  - intermediate: Hardy-Wright 2008 *An Introduction to the Theory of Numbers* 6e §§10.1-10.12, §§11.1-11.8; Niven-Zuckerman-Montgomery 1991 5e §§7.7-7.8; Khinchin 1964 *Continued Fractions* §§II.10-13
+  - beginner: Burton 2010 *Elementary Number Theory* 7e §14.4 (hand-computation of fundamental solutions for small $D$, multiplication law $(x_1 + y_1 \sqrt D)^n$); Khan Academy 'Number theory — Pell equation' module; Stillwell 2010 *Mathematics and Its History* 3e §5.4 (Brahmagupta and Bhaskara II on Pell with cattle-style examples)
+- **notes**: The **Pell equation** $x^2 - D y^2 = 1$ for non-square positive integer $D$ has infinitely many positive-integer solutions, forming an infinite cyclic semigroup generated by the fundamental solution $(x_1, y_1)$: every solution is $(x_n, y_n)$ given by $(x_1 + y_1 \sqrt D)^n = x_n + y_n \sqrt D$. The fundamental solution is read off the continued-fraction expansion of $\sqrt D = [a_0; \overline{a_1, \ldots, a_\ell}]$ at the convergent $(p_{\ell - 1}, q_{\ell - 1})$ when the period $\ell$ is even, or at $(p_{2 \ell - 1}, q_{2 \ell - 1})$ when $\ell$ is odd (Euler 1765, Lagrange 1770). **Lagrange's periodicity theorem** (1770): the continued fraction of every quadratic irrational is eventually periodic; **Galois** (1828) sharpened to purely periodic iff $\alpha > 1$ and $-1 < \bar\alpha < 0$ (**reduced**). The convergent identity $p_{\ell - 1}^2 - D q_{\ell - 1}^2 = (-1)^\ell$ yields both Pell and **negative-Pell** $x^2 - D y^2 = -1$ solutions; the negative-Pell criterion is that the period $\ell$ is odd. **Brahmagupta's composition principle** (628 CE *Brāhmasphuṭasiddhānta*): the samasa-bhavana $(x_1, y_1, N_1) \diamond (x_2, y_2, N_2) = (x_1 x_2 + D y_1 y_2, x_1 y_2 + x_2 y_1, N_1 N_2)$ is the embryonic form of norm multiplicativity in $\mathbb{Z}[\sqrt D]$; this is the multiplication law for Pell solutions. **Bhaskara II's chakravala** (1150 CE *Bījagaṇita*): the cyclic algorithm that produces the fundamental Pell solution in $O(\log D)$ iterations on average — Hankel 1874 called it "the finest thing achieved in the theory of numbers before Lagrange". Bhaskara's worked example for $D = 61$ produced $(1766319049, 226153980)$ in the 12th century without paper, re-found by Brouncker in 1657 in response to Fermat's challenge. **Dirichlet's pigeonhole proof** (1837): bypassing continued fractions, the infinitely-many Dirichlet approximations $(p, q)$ with $|p - q \sqrt D| < 1/q$ bound the values $p^2 - D q^2$, so some non-zero $N$ is hit infinitely often; pigeonhole on residues mod $|N|$ gives two pairs whose Brahmagupta-quotient is a Pell solution. The pigeonhole proof generalises directly to the **Dirichlet unit theorem** (1846) giving rank $r_1 + r_2 - 1$ for the unit group of any number field, with Pell as the rank-$1$ real-quadratic case. **Liouville approximation bound** (1844): algebraic $\alpha$ of degree $n \geq 2$ admits $|\alpha - p/q| > c(\alpha) q^{-n}$ for all rationals $p/q$ — used to construct the first explicit transcendental numbers $\sum_k 10^{-k!}$. Pell convergents saturate Liouville for $n = 2$, since $|\sqrt D - p_n/q_n| < 1/q_n^2$. **Thue-Siegel-Roth tower**: Thue 1909 improved the Liouville exponent $n$ to $n/2 + 1 + \varepsilon$; Siegel 1921 to $2 \sqrt n + \varepsilon$; Roth 1955 to the sharp $2 + \varepsilon$ (Fields Medal 1958). Roth's theorem is ineffective; Baker 1966-67 gave effective bounds via linear forms in logarithms (Fields Medal 1970). Originator chain: Brahmagupta 628 CE (composition principle); Jayadeva c. 1000 CE + Bhaskara II 1150 CE (chakravala); Fermat 1657 (challenge to English mathematicians); Brouncker-Wallis 1657-58 (continued-fraction solution); Euler 1765 (continued-fraction algorithm + Pell misattribution); Lagrange 1770 (first European proof via periodicity); Galois 1828 (purely-periodic characterisation); Dirichlet 1837-46 (pigeonhole proof + unit theorem); Liouville 1844 (approximation bound + first transcendentals); Thue 1909, Siegel 1921, Roth 1955 (improvements to optimal exponent $2 + \varepsilon$); Baker 1966-67 (effective bounds). Applied: Pell convergents as best rational approximations to $\sqrt D$ in computer algebra systems; continued-fraction factorisation CFRAC (Brillhart-Morrison 1975); LLL lattice reduction (1982) generalising continued fractions to higher-dimensional lattices, foundational for cryptanalysis of low-exponent RSA (Coppersmith 1996), NTRU (1996), and post-quantum LWE/SIS cryptosystems. Lean status: `none` — Mathlib has `Mathlib.NumberTheory.Pell` (fundamental solution, cyclic structure), `Mathlib.NumberTheory.Zsqrtd.Basic` ($\mathbb{Z}[\sqrt d]$ with norm multiplicativity), `Mathlib.Analysis.SpecialFunctions.ContinuedFractions` (convergents + best-approximation); pedagogical-module gaps are Lagrange's periodicity theorem for quadratic irrationals with the Galois purely-periodic characterisation, the explicit algorithm reading the fundamental Pell solution off the period-closing convergent, Dirichlet's pigeonhole proof bypassing continued fractions, the chakravala algorithm with constructive termination, the negative-Pell odd-period criterion, and the Liouville bound + Thue-Siegel-Roth tower.
+
+
 ### number-theory.hilbert-symbol-product-formula
 
 - **title**: Hilbert symbol $(a, b)_v$ and the product formula
@@ -9541,3 +9597,1484 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: Floridi, Philosophy of Information Ch. 1-5; Vallor, Technology and the Virtues Ch. 1-4
   - beginner: Quinn, Ethics for the Information Age Ch. 1-4; Stallings, Ethics in IT Ch. 1-3
 - **notes**: Privacy, algorithmic bias, accessibility, digital divide, fairness definitions, differential privacy, surveillance capitalism, autonomous weapons, right to explanation, and professional codes of ethics.
+
+### measure-theory.sigma-algebra-borel
+
+- **title**: σ-algebra, measurable space, and the Borel σ-algebra
+- **unit**: `02.07.01`
+- **prerequisites**: `analysis.topological-space`, `analysis.continuous-map`, `analysis.real-number-axioms`
+- **tier_anchors**:
+  - master: Halmos 1950 Measure Theory §I; Bogachev 2007 Measure Theory Vol. 1 §1.1-1.4; Rudin Real and Complex Analysis 3e §1
+  - intermediate: Folland Real Analysis 2e §1.2; Royden Real Analysis §3
+  - beginner: Tao Analysis II §7; informal "what can Riemann not integrate?" framing
+- **notes**: Anchors the new sub-chapter 02.07 measure theory. Formal definition of σ-algebra, generated σ-algebra, Borel σ-algebra on ℝ as the smallest containing open intervals. Cardinality of Borel σ-algebra is the continuum; Borel hierarchy; Lebesgue σ-algebra strictly larger (cardinality 2^continuum). Vitali non-measurable set as motivation; role of axiom of choice (Vitali 1905, Solovay 1970). Includes generated σ-algebras, product σ-algebra, measurable functions.
+
+### measure-theory.outer-measure-caratheodory
+
+- **title**: Lebesgue outer measure and the Carathéodory construction
+- **unit**: `02.07.02`
+- **prerequisites**: `measure-theory.sigma-algebra-borel`, `analysis.topological-space`, `analysis.real-number-axioms`
+- **tier_anchors**:
+  - master: Halmos 1950 Measure Theory §II; Bogachev 2007 Measure Theory Vol. 1 §1.5; Federer 1969 Geometric Measure Theory §2.10 Carathéodory's criterion
+  - intermediate: Folland Real Analysis 2e §1.4-1.5; Royden 4e §2.4-2.5
+  - beginner: Tao Analysis II §7; concrete length-from-covers motivation
+- **notes**: Second unit in sub-chapter 02.07. Defines outer measure $\mu^* : \mathcal{P}(X) \to [0, \infty]$ via the three axioms (empty-zero, monotonicity, countable sub-additivity). Constructs Lebesgue outer measure $m^*$ on $\mathbb{R}^n$ as the infimum of total box-volume over countable open-box covers. Proves $m^*([a, b]) = b - a$ via Heine-Borel compactness. Defines Carathéodory measurability ($A$ slices every test set additively) and proves the Carathéodory extension theorem: $\mathcal{M}(\mu^*)$ is a sigma-algebra and $\mu^*|_{\mathcal{M}(\mu^*)}$ is a complete measure. Lebesgue sigma-algebra $\mathcal{L} = \mathcal{M}(m^*)$; $(\mathbb{R}^n, \mathcal{L}, m)$ as canonical measure space; $\mathcal{L}$ strictly contains $\mathcal{B}(\mathbb{R}^n)$ and is its completion under null sets; cardinality $|\mathcal{L}| = 2^{2^{\aleph_0}}$ via subsets of the Cantor set. Translation-invariance and the uniqueness theorem: $m$ is the unique translation-invariant Borel measure with $m([0,1]^n) = 1$. Worked examples: Cantor set has measure zero but cardinality continuum; fat Cantor set with positive measure; Vitali non-measurable set under AC. Master tier: Hahn-Kolmogorov extension theorem (Kolmogorov 1933) as the foundational existence+uniqueness result; Hausdorff measures and Hausdorff dimension (Cantor set: $\log 2/\log 3$); Lebesgue regularity (outer-approximation by opens, inner by compacts); Banach-Tarski paradox (Banach-Tarski 1924); Solovay 1970 consistency of "every set is Lebesgue-measurable" under ZF+DC. Originator chain: Lebesgue 1902 *Annali di Mat.* 7 (outer/inner measure on $\mathbb{R}$), Carathéodory 1914 (slice-additivity criterion), Carathéodory 1918 *Vorlesungen* (abstract framework), Kolmogorov 1933 (probability foundations), Saks 1937 (modern exposition), Solovay 1970 *Ann. Math.* 92 (consistency). Lean status: full — Mathlib provides `MeasureTheory.OuterMeasure`, `OuterMeasure.caratheodory`, `OuterMeasure.ofFunction`, and `MeasureTheory.volume` for Lebesgue measure on real Euclidean space.
+
+### measure-theory.measurable-functions-egorov-lusin
+
+- **title**: Measurable functions, simple functions, Egorov's theorem, and Lusin's theorem
+- **unit**: `02.07.03`
+- **prerequisites**: `measure-theory.sigma-algebra-borel`, `measure-theory.outer-measure-caratheodory`, `analysis.continuous-map`
+- **tier_anchors**:
+  - master: Halmos 1950 Measure Theory §III; Bogachev 2007 Measure Theory Vol. 1 §2.1-2.3
+  - intermediate: Folland Real Analysis 2e §2.1; Royden-Fitzpatrick Real Analysis 4e §3.3-3.6
+  - beginner: Tao Analysis II §7; staircase-approximation pictures
+- **notes**: Third unit in sub-chapter 02.07. Defines $(\mathcal{M}, \mathcal{N})$-measurable functions via the pre-image-of-measurable-set condition; specialises to Borel-measurable real-valued functions characterised by $\{f > a\} \in \mathcal{M}$ for the generating ray family. Closure under sums, products, scalar multiples, $\max$, $\min$, $|\cdot|$, $\sup$, $\inf$, $\limsup$, $\liminf$, pointwise limits. Almost-everywhere equivalence and completeness. Simple functions $\varphi = \sum c_i \chi_{A_i}$ with disjoint measurable level sets; canonical representation. Simple-function approximation theorem: every non-negative measurable $f$ is the pointwise increasing limit of simple functions via the dyadic recipe $\varphi_n(x) = k/2^n$ on $f^{-1}([k/2^n, (k+1)/2^n))$ for $k < n \cdot 2^n$ with cap at $n$, uniform for bounded $f$. Egorov's theorem (Egorov 1911, Severini 1910): on $\mu(X) < \infty$, a.e. convergence implies uniform convergence off a set of arbitrarily small measure; full proof via $E_{m,k} = \bigcup_{n \geq m} \{|f_n - f| \geq 1/k\}$ and measure-theoretic continuity of decreasing sequences; counterexample $f_n = \chi_{[n, n+1]}$ on $\mathbb{R}$ shows finite-measure hypothesis is irreducible. Lusin's theorem (Lusin 1912): measurable function on $\mathbb{R}^n$ is continuous on a closed set whose complement has arbitrarily small measure; proof reduces to simple functions via Egorov, then uses inner regularity plus Tietze extension. Master tier: Littlewood's three principles (Littlewood 1944) — every measurable set is nearly a finite union of intervals, every measurable function is nearly continuous (Lusin), every a.e.-convergent sequence is nearly uniformly convergent (Egorov). Modes of convergence (a.e., in measure, in $L^p$, uniform) with Riesz subsequence theorem. Vitali-Carathéodory enveloping theorem (Carathéodory 1918): integrable $f$ sandwiched between semicontinuous $u \leq f \leq v$ with $\int(v - u) < \varepsilon$. Pettis measurability (Pettis 1938 *Trans. AMS* 44): for Banach-valued $f$, strong measurability equivalent to weak measurability plus essential separability; opens Bochner integral and Banach-valued probability. Existence of non-Borel Lebesgue-measurable functions via characteristic function of non-Borel subset of the Cantor set. Luzin's $N$-property and absolute continuity (Banach theorem). Originator chain: Lebesgue 1904 *Leçons* (measurability framework), Egorov 1911 *C. R. Acad. Sci. Paris* 152, Lusin 1912 *C. R. Acad. Sci. Paris* 154, Carathéodory 1918 *Vorlesungen* (abstract systematisation), Pettis 1938 *Trans. AMS* 44 (Banach-valued), Halmos 1950 (modern monograph), Bogachev 2007 (encyclopaedic reference). Lean status: full — Mathlib provides `Measurable`, `MeasureTheory.SimpleFunc`, `SimpleFunc.approx`, `MeasureTheory.Egorov`.
+
+
+### measure-theory.lebesgue-integral-monotone-convergence
+
+- **title**: Lebesgue integral construction and the monotone convergence theorem
+- **unit**: `02.07.04`
+- **prerequisites**: `measure-theory.sigma-algebra-borel`, `measure-theory.outer-measure-caratheodory`, `measure-theory.measurable-functions-egorov-lusin`
+- **tier_anchors**:
+  - master: Halmos 1950 Measure Theory §IV; Bogachev 2007 Measure Theory Vol. 1 §2.4-2.6; Rudin Real and Complex Analysis 3e §1
+  - intermediate: Folland Real Analysis 2e §2.2; Royden Real Analysis 4e §4
+  - beginner: Tao Analysis II §8; the Dirichlet-function picture and the staircase under a non-negative curve
+- **notes**: Fourth unit in sub-chapter 02.07. The three-step Lebesgue construction: (1) for a non-negative simple function $\varphi = \sum_i c_i \chi_{A_i}$ in canonical disjoint-level-set form, $\int \varphi \, d\mu = \sum_i c_i \mu(A_i)$ with the convention $0 \cdot \infty = 0$; (2) for non-negative measurable $f$, $\int f \, d\mu = \sup\{\int \varphi \, d\mu : 0 \leq \varphi \leq f, \varphi \text{ simple}\}$, and $f$ is integrable when this is finite; (3) for signed measurable $f$, decompose $f = f^+ - f^-$ and set $\int f = \int f^+ - \int f^-$ when at least one piece is finite; $f \in L^1$ when both are finite. Linearity, monotonicity, and absolute value estimate. The monotone convergence theorem (Beppo Levi 1906 *Rend. Lincei* (5) 15, 775): for $0 \leq f_1 \leq f_2 \leq \cdots$ measurable with pointwise sup $f$, $\int f = \lim_n \int f_n$. Full proof via the cumulative-set decomposition $E_n = \{f_n \geq \alpha \varphi\}$ for $\alpha \in (0, 1)$ and a simple $\varphi \leq f$; measure-theoretic continuity of increasing sequences (no finite-measure hypothesis needed) carries $\mu(A_i \cap E_n) \to \mu(A_i)$. Worked examples: $\int_0^1 \chi_\mathbb{Q} \, dm = 0$; $\int_0^1 x \, dm = 1/2$ via dyadic simple-function approximation; $\int_0^\infty e^{-x} \, dm = 1$ via truncations; $\Gamma(n) = (n-1)!$ via MCT and integration by parts on truncations. Master tier: Fatou's lemma (Fatou 1906 *Acta Math.* 30, 335) as $\liminf$ telescoping of MCT; dominated convergence theorem (Lebesgue 1908 *Leçons* 2e) via two Fatou applications to $g - f_n$ and $g + f_n$; Vitali convergence theorem (Vitali 1907 *Rend. Circ. Mat. Palermo* 23) sharpening DCT in finite-measure case via uniform integrability; absolute continuity of the integral; Lebesgue criterion for Riemann-integrability (continuous a.e.); $\sin(x)/x$ on $[0, \infty)$ improper-Riemann-integrable but not Lebesgue-integrable; Henstock-Kurzweil gauge integral (Henstock 1961 *Proc. LMS* (3) 11, 402; Kurzweil 1957) strictly containing both Lebesgue and improper-Riemann; Daniell integral (Daniell 1918 *Ann. Math.* 19, 279) as positive linear functional on a vector lattice with continuity property, equivalent via Daniell-Stone representation theorem to measure-theoretic Lebesgue; Bochner integral (Bochner 1933 *Fund. Math.* 20, 262) for Banach-valued strongly measurable functions with $\int \|f\|_E \, d\mu < \infty$; Itô integral (Itô 1944 *Proc. Imp. Acad. Tokyo* 20, 519) as $L^2$-isometry-based stochastic integral against Brownian motion. Originator chain: Lebesgue 1902 *Annali di Mat.* 7 (thesis, integration framework + criterion for Riemann-integrability), Beppo Levi 1906 (MCT), Fatou 1906 (Fatou lemma), Vitali 1907 (uniform integrability), Lebesgue 1908 (DCT + monograph), Daniell 1918 (functional-analytic foundation), Bochner 1933 (Banach-valued), Itô 1944 (stochastic), Henstock 1961 + Kurzweil 1957 (gauge integral), Halmos 1950 (modern monograph), Bogachev 2007 (encyclopaedic). Lean status: full — Mathlib provides `MeasureTheory.lintegral`, `MeasureTheory.lintegral_iSup` (MCT), `MeasureTheory.lintegral_liminf_le` (Fatou), `MeasureTheory.tendsto_integral_of_dominated_convergence` (DCT), and `MeasureTheory.Integrable`.
+
+### quantum.spherical-harmonics-legendre-polynomials
+
+- **title**: Spherical harmonics and Legendre polynomials
+- **unit**: `12.05.02`
+- **prerequisites**: `quantum-mechanics.angular-momentum-su2`, `quantum-mechanics.hilbert-space-formalism`
+- **tier_anchors**:
+  - master: Sakurai & Napolitano, Modern Quantum Mechanics, 3e (Cambridge, 2017), Ch. 3; Edmonds, Angular Momentum in Quantum Mechanics (Princeton UP, 1957), §2; Varshalovich, Moskalev & Khersonskii, Quantum Theory of Angular Momentum (World Scientific, 1988), §5
+  - intermediate: Shankar, Principles of Quantum Mechanics, 2e (Plenum, 1994), §12.6; Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (Cambridge, 2018), §4.1-4.3
+  - beginner: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (2018), §4.1.2; 3Blue1Brown spherical-harmonics visualisation
+- **notes**: Spherical harmonics $Y_\ell^m(\theta,\phi)$ as the joint eigenfunctions of $L^2$ and $L_z$ with eigenvalues $\hbar^2\ell(\ell+1)$ and $\hbar m$; integer $\ell \geq 0$ and $m \in \{-\ell,\ldots,\ell\}$ enforced by single-valuedness on $\mathbb{R}^3$. Legendre polynomials $P_\ell$ via Rodrigues formula $P_\ell(x) = (1/2^\ell\ell!)\,d^\ell/dx^\ell\,(x^2-1)^\ell$, orthogonality $\int_{-1}^1 P_\ell P_{\ell'}dx = 2\delta_{\ell\ell'}/(2\ell+1)$, three-term recursion, generating function $1/\sqrt{1-2xt+t^2} = \sum P_\ell(x) t^\ell$ (the multipole expansion). Associated Legendre $P_\ell^m$; complex and real spherical harmonics; Condon-Shortley phase. Addition theorem and Funk-Hecke formula. Master tier: spherical harmonics as boundary values of homogeneous harmonic polynomials of degree $\ell$ on $\mathbb{R}^3$ (Laplace-Fischer decomposition, $\dim = 2\ell+1$); Peter-Weyl decomposition $L^2(S^2) = \bigoplus_\ell V_\ell$ via $S^2 = \mathrm{SO}(3)/\mathrm{SO}(2)$; Wigner D-matrices; spin-weighted spherical harmonics for tensor fields (LIGO ringdown templates, CMB E/B-mode polarisation). Originator chain: Laplace 1782 *Théorie des attractions des sphéroïdes*, Legendre 1785 *Mém. Math. Phys. Acad. Roy. Sci.* 10, Rodrigues 1816, Peter-Weyl 1927 *Math. Ann.* 97, Goldberg-Macfarlane-Newman-Rohrlich-Sudarshan 1967 *J. Math. Phys.* 8.
+
+
+### gr-cosmology.black-hole-thermodynamics-area-theorem
+
+- **title**: Black hole thermodynamics: the four laws, Bekenstein-Hawking entropy, and the area theorem
+- **unit**: `13.06.03`
+- **prerequisites**: `general-relativity.black-holes`, `general-relativity.schwarzschild-solution`, `general-relativity.einstein-field-equations`, `thermodynamics.first-and-second-laws`
+- **tier_anchors**:
+  - master: Wald, *General Relativity* (Chicago UP, 1984), §12.5; Wald, *Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics* (Chicago UP, 1994); Bardeen-Carter-Hawking, *Comm. Math. Phys.* 31 (1973) 161; Hawking, *Comm. Math. Phys.* 43 (1975) 199; Hawking and Ellis, *The Large Scale Structure of Space-Time* (Cambridge UP, 1973), §9
+  - intermediate: Carroll, *Spacetime and Geometry* (Pearson, 2004), Ch. 9; Hartle, *Gravity* (Pearson, 2003), Ch. 15-16
+  - beginner: Hawking, *A Brief History of Time* (Bantam, 1988), Ch. 7-8; Susskind, *The Black Hole War* (Little, Brown, 2008)
+- **notes**: The four laws of black-hole mechanics (Bardeen-Carter-Hawking 1973) and their identification with the four laws of thermodynamics through Hawking's 1974-75 derivation of thermal radiation at temperature $T_H = \hbar\kappa/(2\pi k_B c)$ from a Schwarzschild background. Surface gravity $\kappa$ on a Killing horizon defined by $\xi^b\nabla_b\xi^a = \kappa\xi^a$; Schwarzschild value $\kappa = c^4/(4GM)$ giving $T_H \approx 6.2 \times 10^{-8}\,\text{K}\,(M_\odot/M)$. Bekenstein-Hawking entropy $S_{BH} = k_B c^3 A/(4G\hbar)$, equivalently $A/(4\ell_P^2)$ in Planck units; solar-mass value $\sim 10^{77} k_B$. Area theorem (Hawking 1971): the total horizon area is non-decreasing in classical general relativity assuming the null energy condition and cosmic censorship; proven via Raychaudhuri's focusing equation applied to the null geodesic congruence generating the horizon. Originator chain: Bekenstein 1972-73 (information-theoretic motivation, Bekenstein bound $S \leq 2\pi k_B R E/(\hbar c)$); Hawking 1971 (area theorem); Bardeen-Carter-Hawking 1973 (four laws); Hawking 1974-75 (thermal radiation, fixing the proportionality $S = A/4$); Hawking 1976 (information paradox). Generalised second law $\Delta S_{\text{gen}} = \Delta(S_{\text{matter}} + S_{BH}) \geq 0$ (Frolov-Page 1993, Wall 2009). Holographic principle ('t Hooft 1993, Susskind 1995, Maldacena 1998 AdS/CFT). Wald 1993 / Iyer-Wald 1994 Noether-charge entropy formula extends $S = A/4$ to higher-derivative gravity. Modern Page-curve and entanglement-wedge / quantum-extremal-surface developments (Page 1993, Penington 2020, Almheiri et al. 2020) provide semiclassical evidence for unitarity. Lean status: `none` — Mathlib lacks Lorentzian geometry, Killing horizons, Raychaudhuri's equation, and the causal-structure infrastructure needed for the area-theorem proof.
+
+### number-theory.divisibility-gcd-bezout
+
+- **title**: Divisibility, GCD, Bézout's identity, and the Euclidean algorithm
+- **unit**: `21.01.01`
+- **prerequisites**: `00.01.01`, `00.12.01`
+- **tier_anchors**:
+  - master: Euclid c. 300 BCE Elements VII; Hardy-Wright 2008 6e §§I-II; Lang 2002 Algebra GTM 211 II.1; Knuth 1997 TAOCP Vol. 2 §4.5.2
+  - intermediate: Ireland-Rosen 1990 §1; Apostol 1976 §1; Niven-Zuckerman-Montgomery 1991 5e Ch. 1
+  - beginner: Burton 2010 Elementary Number Theory §2; Khan Academy modular arithmetic
+- **notes**: Anchors the new sub-chapter 21.01 elementary number theory. Foundational unit: divisibility in ℤ, gcd existence + uniqueness, Bézout's identity via well-ordering, Euclidean algorithm correctness + termination, complexity O(log min(a,b)) via Lamé 1844 Fibonacci worst case, extended Euclidean for modular inverses, generalization to PIDs + Euclidean domains, binary GCD (Stein 1967). Euclid VII.1-2 is the originator.
+
+### em-sr.conductors-capacitance-energy
+
+- **title**: Conductors, capacitance, and electrostatic energy
+- **unit**: `10.01.03`
+- **prerequisites**: `em-sr.coulombs-law-gauss`, `em-sr.laplace-equation-bvp`
+- **tier_anchors**:
+  - master: Jackson 1999 Classical Electrodynamics 3e §1.11, §2.1-2.4, §2.6; Landau-Lifshitz Vol. 8 §§2-3; Purcell-Morin 2013 3e §3
+  - intermediate: Griffiths 2013 Introduction to Electrodynamics 4e §2.4-2.5
+  - beginner: Hewitt Conceptual Physics §22; Khan Academy; 3Blue1Brown
+- **notes**: Closes the ch10 EM widening at the conductor stage. Conductors as equipotential bodies; surface charge with E = σ/ε₀ normal; capacitance C = Q/V; parallel-plate C = ε₀A/d; coaxial + spherical capacitor closed forms; electrostatic energy U = (ε₀/2)∫E² dV = ½∑Q_iV_i; capacitance matrix as positive-definite Dirichlet-to-Neumann map; Thomson's variational principle for equilibrium charge distribution; Polya-Szegő isoperimetric inequalities for capacitance.
+
+### em-sr.dielectrics-polarization-displacement
+
+- **title**: Dielectrics, polarization P, and the electric displacement D
+- **unit**: `10.01.04`
+- **prerequisites**: `em-sr.coulombs-law-gauss`, `em-sr.laplace-equation-bvp`, `em-sr.conductors-capacitance-energy`
+- **tier_anchors**:
+  - master: Jackson 1999 Classical Electrodynamics 3e §4, §6.7; Landau-Lifshitz Vol. 8 §§7-13; Onsager 1936 J. Am. Chem. Soc. 58, 1486
+  - intermediate: Griffiths 2013 Introduction to Electrodynamics 4e §4 (Electric fields in matter)
+  - beginner: Hewitt Conceptual Physics §22; Khan Academy 'Dielectrics in capacitors'; 3Blue1Brown dipole visuals
+- **notes**: Continues the ch10 EM widening into dielectric materials. Polarization P as dipole moment per unit volume; bound-charge identities $\rho_b = -\nabla\cdot\mathbf{P}$ and $\sigma_b = \mathbf{P}\cdot\hat{\mathbf{n}}$; electric displacement $\mathbf{D} = \epsilon_0\mathbf{E} + \mathbf{P}$ with $\nabla\cdot\mathbf{D} = \rho_\text{free}$; linear dielectrics $\mathbf{P} = \epsilon_0\chi_e\mathbf{E}$, $\kappa = 1 + \chi_e$; transmission boundary conditions ($D_n$ continuous when no free surface charge, $E_\parallel$ continuous); energy $U = \tfrac{1}{2}\int\mathbf{D}\cdot\mathbf{E}\,d^3 r$; dielectric BVP $\nabla\cdot(\epsilon\nabla V) = -\rho_\text{free}$ as divergence-form elliptic operator. Master tier: dielectric sphere in uniform field with $\mathbf{p} = 4\pi\epsilon_0 R^3 (\kappa-1)/(\kappa+2) \mathbf{E}_\infty$; Clausius-Mossotti relation with Lorentz cavity field; Onsager 1936 polar-dielectric refinement with reaction-field cavity, $(\kappa-1)(2\kappa+1)/(9\kappa) = n\alpha/(3\epsilon_0) + np^2/(9\epsilon_0 k_B T)$; Kirkwood 1939 correlation factor $g$ for short-range orientational correlations; Landau-Devonshire ferroelectric transition $F = F_0 + \tfrac{1}{2}\alpha(T-T_c)P^2 + \tfrac{1}{4}\beta P^4$; Maxwell relation $\kappa(\omega) = n(\omega)^2$ at optical frequencies; piezoelectric / pyroelectric / electrocaloric effects. Originator chain: Faraday 1837 (introduced "dielectric"); Mossotti 1850; Clausius 1879; Curie brothers 1880 (piezoelectricity); Debye 1929; Onsager 1936; Kirkwood 1939; Devonshire 1949.
+
+### em-sr.multipole-expansion-electrostatic-potential
+
+- **title**: Multipole expansion of the electrostatic potential
+- **unit**: `10.01.05`
+- **prerequisites**: `em-sr.coulombs-law-gauss`, `em-sr.laplace-equation-bvp`, `em-sr.conductors-capacitance-energy`, `em-sr.dielectrics-polarization-displacement`, `quantum.spherical-harmonics-legendre-polynomials`
+- **tier_anchors**:
+  - master: Jackson 1999 Classical Electrodynamics 3e §4.1-4.3; Landau-Lifshitz Vol. 8 §§41-46; Bocchieri-Loinger 1957 Nuovo Cimento 5, 1224
+  - intermediate: Griffiths 2013 Introduction to Electrodynamics 4e §3.4 + §4.1
+  - beginner: Griffiths §3.4 informal; Khan Academy 'electric dipole'; 3Blue1Brown dipole-field visualisations
+- **notes**: Closes the ch10 EM widening into the far-field characterisation of localised sources. Multipole expansion of $\phi = (1/4\pi\epsilon_0)\int \rho/|\mathbf{r}-\mathbf{r}'|\,d^3 r'$ in three equivalent forms: Cartesian ($Q$, $\mathbf{p}$, $Q_{ij}$ traceless symmetric), Legendre ($\sum_\ell r'^\ell P_\ell(\cos\gamma)/r^{\ell+1}$), and spherical harmonic ($q_{\ell,m} = \int r'^\ell Y_\ell^{m*}\rho$). Origin-dependence theorem: lowest non-vanishing $2^\ell$-pole is origin-independent. Irreducibility under $SO(3)$: $(2\ell+1)$-dimensional spherical components carry weight-$\ell$ irrep, $\mathrm{Sym}^2\mathbb{R}^3 = \mathbf{1}\oplus\mathbf{5}$. Energy in external field $U = Q\phi - \mathbf{p}\cdot\mathbf{E} - (1/6)\sum Q_{ij}\partial_i E_j$; torque $\boldsymbol{\tau} = \mathbf{p}\times\mathbf{E}$. Master tier: Larmor 1897 $P = \mu_0\omega^4 p_0^2/(12\pi c)$ for oscillating dipole; magnetic multipole expansion with $\mathbf{m} = (1/2)\int\mathbf{r}\times\mathbf{J}\,d^3 r$; nuclear electromagnetic multipoles with Wigner-Eckart constraint $\ell\le 2J$ and parity selection; deuteron quadrupole $Q = +0.286$ efm$^2$ as proof of nuclear tensor force; gravitational $J_\ell$ (Earth $J_2 \approx 1.083\times 10^{-3}$) driving sun-synchronous orbit precession; CMB anisotropies $\delta T(\theta,\phi) = \sum a_{\ell m} Y_\ell^m$ with quadrupole-anomaly observation; King-Smith-Vanderbilt 1993 Berry-phase polarization in crystals; Hansen 1935 vector spherical harmonics for radiative multipoles; gravitational-wave quadrupole radiation. Originator chain: Legendre 1785 (gravity); Laplace 1782 (planetary potential); Kelvin 1845 (electrostatic multipoles); Maxwell 1873; Larmor 1897 (radiation); Hansen 1935 (vector spherical harmonics); Bohr-Mottelson 1953 (nuclear collective model); Jackson 1962-1999 (modern systematic treatment).
+
+### number-theory.primes-fundamental-theorem-arithmetic-infinitude
+
+- **title**: Primes, the fundamental theorem of arithmetic, and the infinitude of primes
+- **unit**: `21.01.02`
+- **prerequisites**: `number-theory.divisibility-gcd-bezout`, `induction.mathematical-induction`
+- **tier_anchors**:
+  - master: Euclid c. 300 BCE Elements IX Prop. 20; Hardy-Wright 2008 6e §§I-II, XXII; Apostol 1976 §§1-2; Lang 2002 Algebra GTM 211 II.5; Tenenbaum 2015 §I; Euler 1737 Comm. Acad. Sci. Petropolitanae 9; Furstenberg 1955 Amer. Math. Monthly 62
+  - intermediate: Ireland-Rosen 1990 §§1.1-1.3; Apostol 1976 §§1.4-1.7; Niven-Zuckerman-Montgomery 1991 5e Ch. 1-2
+  - beginner: Burton 2010 Elementary Number Theory 7e §3; Khan Academy prime factorisation
+- **notes**: Second unit in sub-chapter 21.01 elementary number theory. Definition of prime / composite / sieve of Eratosthenes; fundamental theorem of arithmetic via strong induction (existence) and Euclid's Lemma from [21.01.01] Bézout (uniqueness); Euclid's infinitude proof via $N = p_1 \cdots p_n + 1$; Euler's analytic proof via the Euler product $\zeta(s) = \prod_p (1 - p^{-s})^{-1}$ and divergence of $\sum 1/p$; Furstenberg's topological proof. Chebyshev bounds 1852 via central binomial $\binom{2n}{n}$ and Kummer valuation; Bertrand's postulate (Bertrand 1845, Chebyshev 1852, Erdős 1932); Mertens 1874 theorems with Meissel-Mertens constant $M = 0.2614972\ldots$; prime number theorem (Hadamard 1896, de la Vallée Poussin 1896); Riemann hypothesis statement and its arithmetic equivalent $|\pi(x) - \mathrm{Li}(x)| = O(\sqrt x \ln x)$; Dirichlet 1837 on primes in arithmetic progressions with equidistribution density $1/\varphi(q)$; twin primes (Polignac 1849, Brun 1919 sieve and Brun's constant $B_2$, Zhang 2014, Maynard 2015, Polymath8b to 246); Goldbach (1742, Helfgott 2013 ternary); Mersenne and Fermat primes; RSA cryptosystem (Rivest-Shamir-Adleman 1978) as canonical application. Lean status: partial — Mathlib supplies `Nat.Prime`, `Nat.exists_infinite_primes`, `Nat.factorization`, the UFM framework.
+
+### number-theory.congruences-crt-znz
+
+- **title**: Congruences, the Chinese remainder theorem, and the ring structure of ℤ/nℤ
+- **unit**: `21.01.03`
+- **prerequisites**: `number-theory.divisibility-gcd-bezout`, `number-theory.primes-fundamental-theorem-arithmetic-infinitude`
+- **tier_anchors**:
+  - master: Sun Zi c. 4th-5th c. CE Sunzi Suanjing (originator); Qin Jiushao 1247 Da Yan procedure; Gauss 1801 Disquisitiones Arithmeticae arts. 1-89; Hardy-Wright 2008 6e §§V-VI; Lang 2002 Algebra GTM 211 II.2; Niven-Zuckerman-Montgomery 1991 5e §2; Shamir 1979 CACM 22; Schönhage-Strassen 1971 Computing 7
+  - intermediate: Ireland-Rosen 1990 §3; Apostol 1976 §5; Niven-Zuckerman-Montgomery 1991 5e §2
+  - beginner: Burton 2010 Elementary Number Theory 7e §4; Khan Academy modular arithmetic
+- **notes**: Third unit in sub-chapter 21.01 elementary number theory. Congruences $a \equiv b \pmod n$ as equivalence relation compatible with $+$ and $\times$ (Gauss 1801 originated the notation); ring structure on $\mathbb{Z}/n\mathbb{Z}$; group of units $(\mathbb{Z}/n)^\times$ of order $\varphi(n)$ via Bézout; field iff $n$ prime; CRT in the two-modulus form $\mathbb{Z}/(n_1 n_2) \cong \mathbb{Z}/n_1 \times \mathbb{Z}/n_2$ when $\gcd(n_1, n_2) = 1$, multi-modulus form via induction, explicit idempotent $1 = u n_2 + v n_1$ and solution formula $x = \sum a_i N_i u_i$. Worked five-modulus CRT example. Fermat-Euler theorem $a^{\varphi(n)} \equiv 1 \pmod n$ (Fermat 1640 prime case, Euler 1736 general); Wilson's theorem $(p-1)! \equiv -1 \pmod p$; multiplicativity of $\varphi$ via CRT and closed form $\varphi(n) = n \prod_{p \mid n}(1 - 1/p)$. Structure of $(\mathbb{Z}/n)^\times$ (Gauss 1801 arts. 49-89): cyclic for $n \in \{1, 2, 4, p^e, 2p^e\}$ with $p$ odd; $(\mathbb{Z}/2^e)^\times \cong \mathbb{Z}/2 \times \mathbb{Z}/2^{e-2}$ for $e \geq 3$; general $(\mathbb{Z}/n)^\times$ as a product of cyclic groups via CRT decomposition. Carmichael function $\lambda(n)$ as group exponent (Carmichael 1910); Carmichael numbers. Quadratic reciprocity statement (Gauss 1801 art. 130) as $\mathrm{GL}_1$ specialisation of Artin reciprocity. General CRT for commutative rings: $R/(I_1 \cap \cdots \cap I_k) \cong \prod R/I_i$ for pairwise-coprime ideals (Lang 2002 II.2). Originator chain: Sun Zi c. 4th-5th c. CE *Sunzi Suanjing* (originator example "things in unknown number"); Brahmagupta 628 *Brahmasphuṭasiddhānta* Kuṭṭaka algorithm independent discovery; Qin Jiushao 1247 *Shushu Jiuzhang* Da Yan general algorithm; Gauss 1801 modern formulation; Dedekind 1871 ideal-theoretic reformulation; Carmichael 1910; Reed-Solomon 1960 polynomial CRT codes; Schönhage-Strassen 1971 CRT-NTT fast multiplication; Rivest-Shamir-Adleman 1978 RSA + CRT decryption speedup; Shamir 1979 secret sharing; Asmuth-Bloom 1983 CRT secret sharing. Applications: RSA CRT-decryption ($4\times$ speedup in TLS), Reed-Solomon codes (CDs/DVDs/QR codes/RAID-6/deep-space), Shamir-Asmuth-Bloom secret sharing, Schönhage-Strassen integer multiplication in GMP/Magma. Lean status: partial — Mathlib supplies `ZMod n`, `ZMod.chineseRemainder`, `ZMod.unitsEquivCoprime`, `Nat.totient`, `Nat.totient_mul`, `Ideal.quotientInfRingEquivPiQuotient`; lacks unified prime-power structure of $(\mathbb{Z}/p^k)^\times$, Carmichael function, CRT-RSA decryption, Asmuth-Bloom, Schönhage-Strassen NTT.
+
+### number-theory.fermat-euler-wilson-theorems
+
+- **title**: Fermat's little theorem, Euler's theorem, and Wilson's theorem
+- **unit**: `21.01.04`
+- **prerequisites**: `number-theory.divisibility-gcd-bezout`, `number-theory.primes-fundamental-theorem-arithmetic-infinitude`, `number-theory.congruences-crt-znz`
+- **tier_anchors**:
+  - master: Fermat 1640 letter to Frénicle (originator, no proof); Euler 1736 *Comm. Acad. Sci. Petrop.* 8 (first FLT proof); Euler 1763 *Novi Comm. Acad. Sci. Petrop.* 8 (totient generalisation); Lagrange 1771 *Nouv. Mém. Acad. Berlin* 2 (first Wilson proof); Gauss 1801 *Disquisitiones Arithmeticae* arts. 50-83; Hardy-Wright 2008 6e §VI; Carmichael 1910 *Bull. AMS* 16; Korselt 1899; Alford-Granville-Pomerance 1994 *Annals* 140; Miller 1976 *J. Comput. Syst. Sci.* 13; Rabin 1980 *J. Number Th.* 12; Agrawal-Kayal-Saxena 2004 *Annals* 160; Rivest-Shamir-Adleman 1978 *CACM* 21
+  - intermediate: Ireland-Rosen 1990 §§3.2, 4; Apostol 1976 §5; Niven-Zuckerman-Montgomery 1991 5e §2
+  - beginner: Burton 2010 *Elementary Number Theory* 7e §5; Khan Academy modular exponentiation
+- **notes**: Fourth unit in sub-chapter 21.01 elementary number theory, sitting on top of the CRT and unit-group structure of [21.01.03]. Fermat's little theorem $a^{p-1} \equiv 1 \pmod p$ for $p$ prime and $\gcd(a, p) = 1$, equivalently $a^p \equiv a \pmod p$ for every integer $a$ (Fermat 1640 letter to Frénicle de Bessy, first proof Euler 1736 by induction $(a+1)^p \equiv a^p + 1 \pmod p$). Euler's generalisation $a^{\varphi(n)} \equiv 1 \pmod n$ for $\gcd(a, n) = 1$ (Euler 1763), proved by Lagrange's theorem on $(\mathbb{Z}/n)^\times$. Wilson's theorem $(p-1)! \equiv -1 \pmod p$ (Wilson stated 1770 via Waring, Lagrange 1771 first proof) via the pairing argument: only self-inverse elements of $\mathbb{F}_p^\times$ are $\pm 1$. Converse of Wilson: $(n-1)! \equiv -1 \pmod n$ iff $n$ is prime — a perfect primality criterion but exponential-time. Polynomial-identity form $x^{p-1} - 1 = \prod_{a=1}^{p-1}(x - a)$ in $\mathbb{F}_p[x]$. Necklace / Burnside-counting proof. Carmichael function $\lambda(n)$ as group exponent of $(\mathbb{Z}/n)^\times$ (Carmichael 1910) with $\lambda(n) \mid \varphi(n)$; tight bound for cryptographic key strength. Korselt's criterion (1899): composite $n$ satisfies $a^{n-1} \equiv 1 \pmod n$ for all coprime $a$ iff $n$ squarefree and $(p-1) \mid (n-1)$ for every $p \mid n$. Smallest Carmichael number $561 = 3 \cdot 11 \cdot 17$; Alford-Granville-Pomerance 1994 *Annals* 140, 703 — infinitely many Carmichael numbers with $C(x) > x^{2/7}$. Miller 1976 (GRH-conditional deterministic test) and Rabin 1980 (randomised) primality testing via strong pseudoprimes; ≤ 1/4 false-positive rate per random base. AKS deterministic polynomial-time primality (Agrawal-Kayal-Saxena 2004 *Annals* 160, 781) via polynomial-identity criterion $(x + a)^n \equiv x^n + a \pmod{n, x^r - 1}$. Gauss's generalised Wilson: $\prod_{\gcd(a, n)=1} a \equiv -1 \pmod n$ for $n \in \{4, p^e, 2p^e\}$ ($p$ odd) else $+1$, controlled by the size of the order-2 subgroup of $(\mathbb{Z}/n)^\times$. RSA correctness (Rivest-Shamir-Adleman 1978 *CACM* 21): decryption $M^{ed} \equiv M \pmod N$ via Euler with $ed \equiv 1 \pmod{\varphi(N)}$. Shor 1994 quantum factoring motivates post-quantum transition. Lean status: `none` — Mathlib supplies `ZMod.pow_card_sub_one_eq_one`, `ZMod.pow_totient`, `ZMod.wilsons_lemma`, `Nat.totient_prime_pow`, `orderOf_dvd_card`; lacks unified Carmichael function with prime-power formula, Korselt's criterion, Miller-Rabin and AKS primality tests, Gauss's generalised Wilson product.
+
+### stat-mech-physics.bose-einstein-condensation
+
+- **title**: Bose-Einstein condensation and the critical temperature
+- **unit**: `11.05.04`
+- **prerequisites**: `stat-mech-physics.bose-einstein-distribution`, `stat-mech-physics.canonical-ensemble`, `stat-mech-physics.first-and-second-laws-of-thermodynamics`
+- **tier_anchors**:
+  - master: Pathria-Beale 2021 Statistical Mechanics 4e §7.1-7.2; Landau-Lifshitz Vol. 5 §62; Pitaevskii-Stringari 2016 §3-5; Pethick-Smith 2008 §2-7
+  - intermediate: Reif 1965 §9.7-9.10; Griffiths-Schroeter 2018 §5.4
+  - beginner: Eisberg-Resnick 1985 Ch. 11; Cornell-Wieman 2001 Nobel lecture
+- **notes**: Continues the ch11 stat-mech quantum-statistics widening after the Planck blackbody unit. Critical temperature $k_B T_c = (2\pi\hbar^2/m)(n/\zeta(3/2))^{2/3}$ for an ideal 3D Bose gas; condensate fraction $N_0/N = 1 - (T/T_c)^{3/2}$; phase-space-density criterion $n\lambda_T^3 \geq \zeta(3/2) \approx 2.612$. Thermal de Broglie wavelength, polylogarithm $g_{3/2}$, saturation at $z = 1$. Harmonic-trap critical formula $k_B T_c = \hbar\omega(N/\zeta(3))^{1/3}$ with cubic condensate fraction. Heat-capacity discontinuity at $T_c$ (third-order Ehrenfest transition). Bogoliubov 1947 weakly-interacting spectrum $E(p) = \sqrt{\varepsilon_p(\varepsilon_p + 2nU_0)}$, sound speed $c = \sqrt{nU_0/m}$, Landau superfluid criterion. Gross-Pitaevskii 1961 nonlinear Schrödinger equation, healing length, Thomas-Fermi profile, quantised vortices with circulation $h k/m$, Abrikosov triangular lattice. Mermin-Wagner-Hohenberg theorem prohibits ideal 2D BEC; BKT transition at $d = 2$. BEC-BCS crossover at unitarity (Eagles 1969, Leggett 1980, Nozières-Schmitt-Rink 1985). Photon BEC (Klaers et al. 2010 *Nature* 468, 545), magnon BEC, exciton-polariton BEC. Originator chain: Bose 1924, Einstein 1924-25, London 1938, Bogoliubov 1947, Gross 1961, Pitaevskii 1961, Anderson-Ensher-Matthews-Wieman-Cornell 1995 *Science* 269, Davis-Mewes-Andrews-van Druten-Durfee-Kurn-Ketterle 1995 *Phys. Rev. Lett.* 75, Cornell-Ketterle-Wieman 2001 Nobel Prize.
+
+### stat-mech-physics.fermi-gas-heat-capacity-pauli-paramagnetism
+
+- **title**: Fermi gas: heat capacity, electron specific heat, and Pauli paramagnetism
+- **unit**: `11.05.05`
+- **prerequisites**: `statistical-mechanics.fermi-dirac-electron-gas`, `stat-mech-physics.canonical-ensemble`, `stat-mech-physics.first-and-second-laws-of-thermodynamics`
+- **tier_anchors**:
+  - master: Landau-Lifshitz Vol. 5 *Statistical Physics, Part 1*, 3e (1980), §57-59; Pathria-Beale *Statistical Mechanics*, 4e (2021), §8; Ashcroft-Mermin *Solid State Physics* (1976), Ch. 2-3 and Ch. 31; Abrikosov-Gorkov-Dzyaloshinski *Methods of Quantum Field Theory in Statistical Physics* (Dover, 1975), §3
+  - intermediate: Reif *Fundamentals of Statistical and Thermal Physics* (1965), §11; Ashcroft-Mermin (1976), Ch. 2 (Drude) and Ch. 13 (Sommerfeld)
+  - beginner: Eisberg-Resnick *Quantum Physics*, 2e (1985), Ch. 11; popular accounts of "why metals conduct"
+- **notes**: Closes the quantum-statistics quartet (11.05.02-11.05.05) by deriving the Sommerfeld electronic specific heat $C_V = (\pi^2/2)(N k_B)(T/T_F) = \gamma T$ with $\gamma = (\pi^2/3) k_B^2 g(E_F)$, the Pauli paramagnetic susceptibility $\chi_P = \mu_B^2 g(E_F)$ temperature-independent at low $T$, and the Landau-Peierls diamagnetic correction $\chi_{\rm dia} = -\chi_P/3$. Sommerfeld 1928 *Z. Phys.* 47 resolved the missing-heat-capacity puzzle of the Drude 1900 model by replacing Maxwell-Boltzmann with Fermi-Dirac statistics; Bloch 1928 *Z. Phys.* 52 extended via band theory to crystalline solids; Pauli 1927 derived $\chi_P$; Landau-Peierls 1930-33 computed orbital diamagnetism via Landau-level quantisation. Master tier covers de Haas-van Alphen 1930 oscillations and Onsager 1952 Fermi-surface tomography; Stoner 1938 itinerant-ferromagnetism criterion $U g(E_F) \geq 1$; Wiedemann-Franz-Lorenz $\kappa/(\sigma T) = (\pi^2/3)(k_B/e)^2 = L_0 \approx 2.44 \times 10^{-8}$ W·Ohm/K$^2$; Landau 1957 *Sov. Phys. JETP* 3 Fermi-liquid theory with quasiparticle renormalisation $m^*/m$ and Landau parameters $F_l^{s,a}$; Wilson-Sommerfeld ratio $R_W = 1$ for free electrons; BCS 1957 *Phys. Rev.* 108 gap formula $T_c \sim \omega_D \exp[-1/(g(E_F) V)]$; heavy-fermion compounds (CeAl$_3$, UPt$_3$, YbRh$_2$Si$_2$) with $m^*/m \sim 10^2$-$10^3$; von Klitzing 1980 *PRL* 45 integer quantum Hall effect. Worked example: copper $\gamma \approx 0.51$ mJ/(mol·K$^2$) (predicted free-electron) vs $0.695$ measured, giving $m^*/m \approx 1.36$. Sommerfeld-Debye plot $C_V/T$ vs $T^2$ separates electronic ($\gamma$) and lattice ($\beta T^3$) contributions. Originator chain: Drude 1900 to Sommerfeld 1928 to Bloch 1928 to Pauli 1927 to Landau-Peierls 1930-33 to de Haas-van Alphen 1930 to Onsager 1952 to Stoner 1938 to Landau 1957 to BCS 1957 to Pippard 1957 to von Klitzing 1980.
+
+### quantum-information.entanglement-schmidt-decomposition
+
+- **title**: Entanglement, Schmidt decomposition, and entanglement entropy
+- **unit**: `12.17.02`
+- **prerequisites**: `quantum-information.density-matrix-pure-mixed-states`, `quantum.hilbert-space-formalism`, `quantum.operators-observables-hermiticity`
+- **tier_anchors**:
+  - master: Nielsen & Chuang 2010 §11; Wilde 2017 *Quantum Information Theory* 2e §5-6; Watrous 2018 *Theory of Quantum Information* §6; Horodecki-Horodecki-Horodecki-Horodecki 2009 *Rev. Mod. Phys.* 81, 865 *Quantum entanglement*
+  - intermediate: Nielsen & Chuang 2010 §2.5 + §11.3; Preskill *Lecture Notes on Quantum Computation* Ch. 4
+  - beginner: Nielsen & Chuang 2010 §2.5 informal opening; Susskind & Friedman 2014 *Quantum Mechanics: The Theoretical Minimum* §6-7
+- **notes**: Second unit of the 12.17 quantum-information sub-chapter. Separable vs entangled pure states; Schmidt decomposition theorem (Schmidt 1907 *Math. Ann.* 63 originated in integral-equation theory) as SVD of the bipartite coefficient matrix $M_{ab}$; Schmidt rank $k = $ count of non-zero Schmidt coefficients; Schmidt eigenvalues $\{\lambda_i\}$ = spectrum of reduced density matrices $\rho_A$ and $\rho_B$ (equal-spectrum symmetry); entanglement entropy $E(|\psi\rangle) = S(\rho_A) = S(\rho_B) = -\sum_i \lambda_i \log \lambda_i$; bounds $0 \leq E \leq \log \min(d_A, d_B)$ with saturation at separable / maximally entangled extremes; Bell basis on two qubits $|\Phi^\pm\rangle, |\Psi^\pm\rangle$; three-qubit GHZ vs W as distinct SLOCC classes (Dür-Vidal-Cirac 2000); mixed-state separability $\rho_{AB} = \sum_i p_i \rho_A^{(i)} \otimes \rho_B^{(i)}$; PPT criterion (Peres 1996 *PRL* 77, 1413 + Horodecki³ 1996 *Phys. Lett. A* 223, 1) necessary in all dimensions and sufficient iff $d_A d_B \leq 6$; bound entanglement (Horodecki³ 1998) for $d_A d_B \geq 8$; Wootters concurrence formula (1998 *PRL* 80, 2245) for two-qubit entanglement of formation; hierarchy $E_D \leq E_C \leq E_F \leq E_R$; Nielsen LOCC majorisation theorem (1999 *PRL* 83, 436); BBPS LOCC monotonicity (1996 *PRA* 53, 2046); quantum teleportation (BBCJPW 1993 *PRL* 70, 1895) consuming 1 ebit + 2 classical bits for 1 qubit; superdense coding (Bennett-Wiesner 1992 *PRL* 69, 2881); Hastings area law (2007 *J. Stat. Mech.* P08024) for gapped 1D ground states; Calabrese-Cardy (2004 *J. Stat. Mech.* P06002) log-corrections $S_L = (c/3)\log L$ at conformal criticality; Ryu-Takayanagi (2006 *PRL* 96, 181602) holographic entanglement entropy $S(\rho_A) = \mathrm{Area}(\gamma_A)/4G_N$; Raussendorf-Briegel measurement-based computation on cluster states (2001 *PRL* 86, 5188). Originator chain: Schmidt 1907 (integral-equation theory) → EPR 1935 + Schrödinger 1935 Verschränkung → BBCJPW 1993 teleportation → Peres 1996 + Horodecki³ 1996 PPT → BBPS 1996 LOCC + Wootters 1998 concurrence → Nielsen 1999 majorisation → Calabrese-Cardy 2004 + Ryu-Takayanagi 2006 → Hastings 2007 area law → Horodecki⁴ 2009 *Rev. Mod. Phys.* review → modern monographs Nielsen-Chuang 2010 / Wilde 2017 / Watrous 2018. Lean status: `none` — Mathlib has tensor products and SVD adjacents but no unified quantum-information setting with Schmidt decomposition, partial trace, separability predicate, PPT, concurrence, or LOCC majorisation theory.
+
+### quantum-information.density-matrix-pure-mixed-states
+
+- **title**: Density matrix, pure states, and mixed states
+- **unit**: `12.17.01`
+- **prerequisites**: `quantum.hilbert-space-formalism`, `quantum.operators-observables-hermiticity`
+- **tier_anchors**:
+  - master: Nielsen & Chuang 2010 §2.4 + §8; Wilde 2017 *Quantum Information Theory* 2e §4-5; Watrous 2018 *Theory of Quantum Information* §2; Holevo 2019 *Quantum Systems, Channels, Information* 2e §1; Bengtsson-Życzkowski 2017 *Geometry of Quantum States* 2e Ch. 8-9
+  - intermediate: Nielsen & Chuang 2010 §2.4; Preskill *Lecture Notes on Quantum Computation* Ch. 2
+  - beginner: Susskind & Friedman 2014 *Quantum Mechanics: The Theoretical Minimum* §7; Nielsen & Chuang 2010 §2.4 informal opening
+- **notes**: Anchor unit of the new sub-chapter 12.17 quantum-information. Density operator ρ as Hermitian positive-semidefinite trace-one element of B(H); three equivalent characterisations (axiomatic D1-D3, ensemble form, spectral form, purification form); pure vs mixed dichotomy (rank 1 / ρ² = ρ / purity 1 vs lower rank); Bloch ball parametrisation for qubits; Born rule tr(ρP); von Neumann equation iℏ dρ/dt = [H, ρ]; partial trace and reduced density matrices; Bell-state worked example showing pure global state with maximally mixed marginals; Hughston-Jozsa-Wootters ensemble classification (Schrödinger 1936 + HJW 1993); Gleason's theorem axiomatic justification (Gleason 1957); Stinespring dilation (Stinespring 1955); Kraus operator-sum representation (Kraus 1971); von Neumann entropy + Lieb-Ruskai strong subadditivity (1973); negative conditional entropy with Horodecki-Oppenheim-Winter 2005 state-merging interpretation; trace distance, fidelity, Bures metric, Fuchs-van de Graaf; POVMs + Naimark dilation. Companion unit 12.02.03 (pending) treats the density matrix in the formalism chapter context. Originator chain: Landau 1927 (Z. Phys. damping problem) + von Neumann 1927 (Gött. Nachr. thermodynamic ensembles) → von Neumann 1932 (Mathematische Grundlagen) → Gleason 1957 axiomatic → Stinespring 1955 + Kraus 1971 channels → Lieb-Ruskai 1973 strong subadditivity → HJW 1993 ensemble classification → modern monographs Nielsen-Chuang 2010 / Wilde 2017 / Watrous 2018 / Holevo 2019 / Bengtsson-Życzkowski 2017. Lean status: `partial` — Mathlib has Hermiticity, PosSemidef, trace; lacks unified DensityMatrix predicate, partial-trace operation, Stinespring/Kraus, Gleason, von Neumann entropy, strong subadditivity.
+
+### gr-cosmology.solar-system-tests-gr
+
+- **title**: Solar-system tests of general relativity: perihelion precession, light bending, Shapiro time delay, gravitational redshift, frame-dragging
+- **unit**: `13.05.03`
+- **prerequisites**: `general-relativity.schwarzschild-solution`, `general-relativity.orbits-schwarzschild`, `general-relativity.einstein-field-equations`
+- **tier_anchors**:
+  - master: Misner-Thorne-Wheeler, *Gravitation* (Freeman, 1973), §§40-43; Will, *Theory and Experiment in Gravitational Physics*, 2e (Cambridge UP, 2018), §§3-9; Wald, *General Relativity* (Chicago UP, 1984), §§6-7
+  - intermediate: Hartle, *Gravity*, 1e (Pearson, 2003), §10-12; Carroll, *Spacetime and Geometry*, 1e (Pearson, 2004), §7
+  - beginner: Wheeler-Thorne, *Gravitation* (Princeton UP, 2017), §1; popular accounts of Eddington 1919
+- **notes**: The five classical tests of general relativity and their century-long confirmation programme. (1) Mercury's perihelion precession: GR prediction $\Delta\phi = 6\pi G M_\odot/[c^2 a(1-e^2)] = 42.98''/$century matches Le Verrier's 1859 anomalous residual; Einstein 1915 *Sitzungsber. Preuss. Akad. Wiss.* 47, 831 derived this from the Schwarzschild orbit equation $u'' + u = M/L^2 + 3Mu^2$ via secular-resonance perturbation theory. (2) Light bending: $\Delta\phi = 4 G M_\odot/(b c^2) = 1.75''$ at the solar limb; the Dyson-Eddington-Davidson 1919 eclipse expedition reported $1.61 \pm 0.30''$ from Príncipe and $1.98 \pm 0.30''$ from Sobral [DED 1920 *Phil. Trans. R. Soc. A* 220, 291], making Einstein internationally famous. (3) Gravitational redshift: $\Delta\nu/\nu = g h/c^2 = 2.46 \times 10^{-15}$ over 22.5 m vertical, measured 1959 by Pound-Rebka via the Mössbauer effect on $^{57}$Fe 14.4 keV [PRL 3, 439]. (4) Shapiro time delay: $\Delta T = (4 G M_\odot/c^3)\ln(4 r_1 r_2/b^2) \approx 200\,\mu$s past Sun; first measured 1968-71 by Mariner 6/7 radar ranging (Shapiro 1964 PRL 13, 789); tightest current PPN bound $\gamma - 1 = (2.1 \pm 2.3) \times 10^{-5}$ from Cassini 2003 *Nature* 425, 374. (5) Frame-dragging (Lense-Thirring 1918 *Phys. Z.* 19, 156): rotating mass drags inertial frames at $\Omega_{LT} = (G/c^2 r^3)[3(\mathbf{J}\cdot\hat r)\hat r - \mathbf{J}]$; Gravity Probe B 2011 measured $-37.2 \pm 7.2$ mas/yr at LEO altitude, matching the GR prediction $-39.2$ mas/yr [Everitt et al. PRL 106, 221101]. PPN framework due to Will-Nordtvedt 1972 [ApJ 177, 757] brackets every metric theory with 10 dimensionless parameters; GR has $\gamma = \beta = 1$, all others zero, with modern bounds $|\gamma - 1| < 10^{-5}$ (Cassini), $|\beta - 1| < 10^{-4}$ (Mercury MESSENGER + LLR), $|\eta| < 4 \times 10^{-4}$ (LLR). Hulse-Taylor PSR B1913+16 (1974 discovery, 1993 Nobel) indirectly confirms GR's quadrupole-formula gravitational-wave-emission prediction via the binary orbital-period decay $\dot P_b = -2.4 \times 10^{-12}$ s/s. Double pulsar PSR J0737-3039 A/B passes five PPN-independent consistency checks at $0.05\%$ [Kramer et al. 2006 *Science* 314, 97; 2021 *PRX* 11, 041050]. Direct GW detection: GW150914 [Abbott et al. 2016 PRL 116, 061102]; multi-messenger GW170817 [Abbott et al. 2017 PRL 119, 161101] bounds $|c_{GW} - c|/c < 3 \times 10^{-15}$. EHT shadow imaging of M87* [Akiyama et al. 2019 ApJL 875, L1] and Sgr A* (2022) extends tests to the strong-field regime. Lean status: `none` — Mathlib lacks the Lorentzian-geometry stack.
+
+### algebra.ring-homomorphism-ideal
+
+- **title**: Ring, ring homomorphism, and ideal
+- **unit**: `01.02.06`
+- **prerequisites**: `algebra.group`, `linalg.field`, `foundations.real-numbers`
+- **tier_anchors**:
+  - master: Dedekind 1871 supplement XI; Hilbert 1890 Math. Ann. 36; Noether 1921 Math. Ann. 83; Krull 1928; Grothendieck 1960 EGA I; Lang Algebra 3e §II.1-II.3; Atiyah-Macdonald §1; Eisenbud §0-1
+  - intermediate: Dummit-Foote 3e §7.1-7.5; Artin Algebra 2e §11
+  - beginner: Pinter A Book of Abstract Algebra Ch. 17-18; Allenby Rings, Fields and Groups Ch. 6
+- **notes**: Anchor unit of the ch01.02 ring-theory middle layer, opening the sequence 01.02.06-15 (rings, ideals, modules, polynomial rings, PID/UFD, Galois). Definition of a (commutative) ring as an abelian additive group plus associative distributive multiplication with identity; subrings, ring homomorphisms, two-sided ideals, kernels, quotient rings R/I. First isomorphism theorem for rings R/ker(phi) iso im(phi) via the well-defined induced map. Principal ideal (a) = {ra : r in R}; prime and maximal ideals characterised by R/p domain and R/m field. Ideals of Z are exactly nZ; ideals of k[x] for k a field are exactly (p(x)), with maximal ones at irreducible p(x); maximal ideals of Z[x] are (p, f(x)) with p prime and f irreducible mod p. Operations on ideals: I + J, I cap J, IJ, radical sqrt(I) and the binomial-expansion proof that the radical is an ideal. Master tier: Krull's theorem (every commutative ring has a maximal ideal via Zorn) [Krull]; Hilbert basis theorem [Hilbert 1890]; Nakayama's lemma; Krull's principal ideal theorem (Hauptidealsatz) [Krull 1928]; Wedderburn-Artin classification of semisimple Artinian rings [Wedderburn 1908]; Cohen structure theorem for complete local Noetherian rings [Cohen 1946]; Spec(R) and the Zariski topology with V(I) closed sets [Grothendieck 1960 EGA I]; Hilbert's Nullstellensatz identifying maximal ideals of k[x_1,...,x_n] with points of k^n for algebraically closed k [Hilbert 1893]. Originator chain: Kummer's ideal numbers 1846; Dedekind 1871 supplement XI to Dirichlet's Vorlesungen 4e (introducing ideals); Hilbert 1890 + 1893 (basis theorem + Nullstellensatz); Noether 1921 (Noetherian rings + abstract ideal theory); Krull 1928 (dimension theory); Zariski 1937-1947 (Zariski topology, varieties over arbitrary fields); Grothendieck 1960 (schemes). Lean status: `none` — Mathlib has Ring/CommRing/Ideal/IsPrime/IsMaximal/RingHom.ker/Ideal.Quotient and the first iso theorem; project needs a pedagogically structured walkthrough plus Spec bridge.
+
+### gr-cosmology.hawking-radiation
+
+- **title**: Hawking radiation: Bogoliubov derivation, thermal spectrum, and black-hole evaporation
+- **unit**: `13.06.04`
+- **prerequisites**: `gr-cosmology.black-hole-thermodynamics-area-theorem`, `gr-cosmology.black-holes`, `gr-cosmology.schwarzschild-solution`, `quantum.bosonic-fock-space-second-quantisation`
+- **tier_anchors**:
+  - master: Hawking, *Comm. Math. Phys.* 43 (1975) 199; Wald, *Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics* (Chicago UP, 1994); Birrell-Davies, *Quantum Fields in Curved Space* (Cambridge UP, 1982), §8; Parker-Toms, *Quantum Field Theory in Curved Spacetime* (Cambridge UP, 2009)
+  - intermediate: Carroll, *Spacetime and Geometry* (Pearson, 2004), §9.5; Hartle, *Gravity* (Pearson, 2003), §17
+  - beginner: Hawking, *A Brief History of Time* (Bantam, 1988), §7-8; Susskind, *The Black Hole War* (Little, Brown, 2008)
+- **notes**: The quantum-mechanical evaporation of black holes via thermal radiation at the Hawking temperature $T_H = \hbar\kappa/(2\pi k_B c) = \hbar c^3/(8\pi G M k_B)$, with lifetime $\tau = (5120\pi G^2/\hbar c^4) M^3$ scaling cubically in initial mass. Three independent derivations: (1) Bogoliubov transformation between in-modes on past null infinity and out-modes on future null infinity (Hawking 1975 *Comm. Math. Phys.* 43, 199), using the logarithmic redshift $u \approx -(1/\kappa)\ln(v_H - v)$ of horizon-skimming null geodesics to produce the factor $|\beta_{\omega\omega'}|^2/|\alpha_{\omega\omega'}|^2 = e^{-2\pi\omega/\kappa}$ that yields the Planck distribution; (2) Euclidean / conical-deficit smoothness of the Wick-rotated Schwarzschild metric at the horizon, forcing Euclidean-time period $\beta = 8\pi GM/\hbar$ (Gibbons-Hawking 1977 *Phys. Rev. D* 15, 2752); (3) Parikh-Wilczek 2000 *Phys. Rev. Lett.* 85, 5042 WKB tunnelling with action equal to the Bekenstein-Hawking entropy change. Three canonical states: Boulware (regular at infinity, singular at horizon), Unruh (collapse-appropriate, thermal on future horizon), Hartle-Hawking (eternal-Kruskal-appropriate, thermal on both horizons; Hartle-Hawking 1976 *Phys. Rev. D* 13, 2188). Greybody factors (Page 1976 *Phys. Rev. D* 13, 198) for spins 0, 1/2, 1, 2 modulate the asymptotic spectrum. Page curve (Page 1993 *PRL* 71, 3743) and the 1976 information paradox: under unitary evaporation the radiation's von Neumann entropy must peak at the Page time $t_{\text{Page}} \sim M^3$ and decrease back to zero. AMPS 2013 firewall paradox; Penington 2020 / Almheiri-Hartman-Maldacena-Shaghoulian-Tajdini 2020 island formula derivation of the Page curve from quantum-extremal surfaces with non-empty interior islands. Equivalence-principle relation to the Unruh effect (Unruh 1976 *Phys. Rev. D* 14, 870): $T_U = \hbar a/(2\pi c k_B)$. Connection to the Bunch-Davies / Gibbons-Hawking temperature on de Sitter $T_{dS} = H/(2\pi)$. Observational constraints from non-detection of evaporating primordial black holes (Carr et al. 2010 *Phys. Rev. D* 81, 104019). Lean status: `none` — Mathlib lacks Lorentzian metrics, the Klein-Gordon equation on a Lorentzian manifold, the CCR Weyl algebra over Cauchy data, the Bogoliubov-coefficient formalism, and the Hadamard state apparatus.
+
+### algebra.polynomial-ring-pid-ufd-euclidean
+
+- **title**: Polynomial rings, PIDs, UFDs, and Euclidean domains
+- **unit**: `01.02.07`
+- **prerequisites**: `algebra.ring-homomorphism-ideal`, `algebra.group`, `linalg.field`
+- **tier_anchors**:
+  - master: Gauss 1801 *Disquisitiones Arithmeticae*; Kummer 1846 *J. reine angew. Math.* 35; Dedekind 1871 supplement XI; Hilbert 1890 *Math. Ann.* 36; Eisenstein 1850 *J. reine angew. Math.* 39; Motzkin 1949 *Bull. AMS* 55; Auslander-Buchsbaum 1959 *Proc. Natl. Acad. Sci. USA* 45; Lang *Algebra* 3e §II.5, V; Atiyah-Macdonald §1, 6, 10; Eisenbud §0-4
+  - intermediate: Dummit-Foote 3e §8-9; Artin *Algebra* 2e §11.3, 12
+  - beginner: Pinter *A Book of Abstract Algebra* Ch. 18-19; Allenby *Rings, Fields and Groups* Ch. 7
+- **notes**: The structural hierarchy of integral domains: Euclidean domain (division-with-remainder via a norm function) implies principal ideal domain (every ideal is principal) implies unique factorisation domain (factorisation into irreducibles is unique up to ordering and units). The three canonical Euclidean domains are the integers Z with N(n) = |n|, the polynomial ring k[x] over a field with N(p) = deg(p), and the Gaussian integers Z[i] with N(a + bi) = a^2 + b^2, joined by the Eisenstein integers Z[omega]. Each containment is strict: Z[x] is a UFD (by Gauss's lemma) but not a PID (the ideal (2, x) needs two generators); Z[(1 + sqrt(-19))/2] is a PID (class number 1 by Minkowski bound) but not Euclidean (Motzkin 1949 universal-side-divisor obstruction). In a UFD, prime equals irreducible; in general only prime implies irreducible (Z[sqrt(-5)] has 6 = 2*3 = (1 + sqrt(-5))(1 - sqrt(-5)) with all factors irreducible but not prime). Master tier: Gauss's lemma (UFD lifts to D[x] via content-primitive multiplicativity) [Gauss 1801]; Eisenstein's criterion for irreducibility [Eisenstein 1850]; class group Cl(O_K) measures UFD/PID failure for Dedekind domains, with Cl(Z[sqrt(-5)]) = Z/2 generated by the non-principal prime (2, 1 + sqrt(-5)); Minkowski bound and finiteness of class groups; Hilbert basis theorem [Hilbert 1890] propagating Noetherian-ness from R to R[x_1,...,x_n]; Auslander-Buchsbaum theorem (regular local rings are UFDs) [Auslander-Buchsbaum 1959]; Hilbert Nullstellensatz [Hilbert 1893] identifying maximal ideals of k[x_1,...,x_n] with points of k^n for algebraically closed k; Cohen-Seidenberg going-up and going-down for integral extensions. Originator chain: Gauss 1801 (unique factorisation in Z + Gauss's lemma for Z[x]); Kummer 1846 (failure of UFD in Z[zeta_p], ideal numbers); Eisenstein 1850 (irreducibility criterion); Dedekind 1871 (ideal-theoretic UFD restoration); Hilbert 1890+1893 (basis theorem + Nullstellensatz); Noether 1921 (Noetherian rings); Motzkin 1949 (PID-but-not-Euclidean); Auslander-Buchsbaum 1959 (regular local rings are UFDs). Modern applications: number theory (class groups, Iwasawa theory, Mazur-Wiles 1984), algebraic geometry (Hartshorne Ch I-II), lattice cryptography (NTRU, Ring-LWE over Z[x]/(f)), computer algebra (Buchberger 1965 Gröbner bases making Hilbert basis theorem effective). Lean status: `none` — Mathlib has EuclideanDomain, IsPrincipalIdealRing, UniqueFactorizationMonoid, Polynomial.UniqueFactorizationMonoid, Polynomial.Irreducible, and the implication chain; project needs a structured walkthrough plus the Motzkin obstruction, class-group formalisation, and Auslander-Buchsbaum.
+
+### em-sr.poynting-maxwell-stress-tensor
+
+- **title**: Energy and momentum in the electromagnetic field: Poynting vector, Maxwell stress tensor, conservation laws
+- **unit**: `10.03.03`
+- **prerequisites**: `em-sr.faradays-law-electromagnetic-induction`, `em-sr.maxwell-differential-forms`, `em-sr.coulomb-gauss`
+- **tier_anchors**:
+  - master: Jackson, *Classical Electrodynamics*, 3e (Wiley 1999), §6.7-§6.8 + §12.10; Landau-Lifshitz Vol. 2 *The Classical Theory of Fields*, 4e (Pergamon 1980), §31-34; Minkowski 1908 *Nachr. Königl. Ges. Wiss. Göttingen* covariant T^{μν}; Belinfante 1940 *Physica* 7, 449 symmetrisation
+  - intermediate: Griffiths, *Introduction to Electrodynamics*, 4e (Cambridge UP 2013), §8 conservation laws
+  - beginner: Griffiths §8.1; Khan Academy 'Poynting vector'; Feynman Lectures Vol II §27
+- **notes**: Master-tier development of electromagnetic energy and momentum from Maxwell's equations. Energy density $u = (\epsilon_0/2)|E|^2 + |B|^2/(2\mu_0)$ and Poynting vector $S = (1/\mu_0) E \times B$ obey Poynting's theorem $\partial u/\partial t + \nabla \cdot S = -J \cdot E$ (Poynting 1884 *Phil. Trans. R. Soc.* 175, 343). Momentum density $g = \epsilon_0 (E \times B) = S/c^2$; Maxwell stress tensor $T_{ij} = \epsilon_0(E_i E_j - \delta_{ij}|E|^2/2) + (1/\mu_0)(B_i B_j - \delta_{ij}|B|^2/2)$ encodes tension-along-field-lines + pressure-between-them (Faraday's lines-of-force picture made precise; Maxwell 1873 Vol 2 Ch. XVIII). Radiation pressure $P = |S|/c$ (absorber) and $2|S|/c$ (reflector) predicted by Maxwell 1873 Ch. XX, measured 1900 by Lebedev *Annalen* 6, 433-458 (torsion balance with platinum vanes) and confirmed 1903 by Nichols-Hull *Phys. Rev.* (1) 17, 26. Covariant four-tensor $T^{\mu\nu}_{\rm EM} = (1/\mu_0)[F^{\mu\alpha}F^\nu{}_\alpha - (1/4)\eta^{\mu\nu}F_{\alpha\beta}F^{\alpha\beta}]$ symmetric and traceless (conformal invariance of source-free EM in 4D); divergence $\partial_\mu T^{\mu\nu} = -F^{\nu\alpha} J_\alpha$ expresses four-momentum conservation (Minkowski 1908). Belinfante-Rosenfeld 1940 symmetrisation of canonical Noether stress tensor; identification with Hilbert metric stress tensor. Feynman disk paradox (Feynman Lectures II §17.4, II §27.6): static crossed E×B fields carry angular momentum even when nothing moves. Abraham-Lorentz radiation reaction $F_{\rm rad} = (\mu_0 q^2/6\pi c)\dot a$; Larmor formula $P = \mu_0 q^2 |a|^2/(6\pi c)$ derived from Poynting flux of accelerating-charge far-field. Abraham-Minkowski controversy on momentum of light in dielectrics resolved by Barnett 2010 *PRL* 104, 070401 (kinetic vs canonical momentum). Modern applications: solar sails (IKAROS 2010, LightSail-2 2019, Breakthrough Starshot concept), optical tweezers (Ashkin et al. 1986 *Opt. Lett.* 11, 288; Ashkin 2018 Nobel), laser cooling (Chu-Cohen-Tannoudji-Phillips 1997 Nobel). Lean status: `none` — Mathlib lacks Maxwell equations, Faraday tensor, Poynting vector, stress tensor, and the covariant electromagnetic stress-energy formalism.
+
+
+### quantum.addition-angular-momenta-clebsch-gordan
+
+- **title**: Addition of angular momenta and Clebsch-Gordan coefficients
+- **unit**: `12.05.03`
+- **prerequisites**: `quantum-mechanics.angular-momentum-su2`, `quantum.spherical-harmonics-legendre-polynomials`, `quantum-mechanics.hilbert-space-formalism`, `representation-theory.sl-2-c-representations`
+- **tier_anchors**:
+  - master: Sakurai & Napolitano, Modern Quantum Mechanics, 3e (Cambridge, 2017), §3.8; Landau & Lifshitz, Quantum Mechanics, 3e (Pergamon, 1977), §31; Edmonds, Angular Momentum in Quantum Mechanics (Princeton UP, 1957), §3; Varshalovich-Moskalev-Khersonskii, Quantum Theory of Angular Momentum (World Scientific, 1988), §8
+  - intermediate: Griffiths & Schroeter, Introduction to Quantum Mechanics, 3e (Cambridge, 2018), §4.4; Shankar, Principles of Quantum Mechanics, 2e (Plenum, 1994), §15
+  - beginner: Griffiths & Schroeter §4.4; 3Blue1Brown spin-coupling animations
+- **notes**: The combination of two angular momenta $j_1$ and $j_2$ into a total angular momentum $J$. The Clebsch-Gordan series $D^{(j_1)} \otimes D^{(j_2)} \cong \bigoplus_{J = |j_1 - j_2|}^{j_1 + j_2} D^{(J)}$ for $\mathrm{SU}(2)$; dimension check $(2j_1+1)(2j_2+1) = \sum_J (2J+1)$; selection rules $M = m_1 + m_2$ and triangle inequality. Worked tables for $j_1 = j_2 = 1/2$ (triplet $J=1$ symmetric + singlet $J=0$ antisymmetric) and $j_1 = 1$, $j_2 = 1/2$ (gives $J = 3/2$ and $J = 1/2$, the $p_{3/2}$ / $p_{1/2}$ fine-structure levels). Master tier: Racah closed-form via finite alternating factorial sums; Wigner 3-$j$ and 6-$j$ symbols with 24- and 144-element symmetry groups; Biedenharn-Elliott pentagon identity for recoupling; Wigner-Eckart theorem factoring spherical-tensor matrix elements into geometric Clebsch-Gordan times reduced matrix element; Schwinger two-boson realisation of $\mathrm{SU}(2)$ irreps; Littlewood-Richardson rule as the $\mathrm{SU}(n)$ generalisation via Young tableaux. Physics applications: atomic LS-coupling fine structure, nuclear shell model magic numbers (Mayer-Jensen 1949), isospin $\mathrm{SU}(2)$ doublets (Heisenberg 1932), eightfold-way $\mathrm{SU}(3)$ flavour multiplets and the $\Omega^-$ prediction (Gell-Mann 1961 CTSL-20), Standard Model electroweak structure, quantum-information entanglement and Bell states. Originator chain: Clebsch 1872 *Theorie der binären algebraischen Formen* (binary forms); Gordan 1875 *Math. Ann.* 9 (Clebsch-Gordan series); Wigner 1931 *Gruppentheorie* (transfer to QM angular momentum); Racah 1942-1949 *Phys. Rev.* 62-63 (closed form + 6-$j$ symbols); Schwinger 1952 NYO-3071 (boson construction). Lean status: `none` — Mathlib has the abstract representation-theory scaffolding but lacks the explicit Condon-Shortley basis, Racah closed form, 3-$j$/6-$j$ tables, Biedenharn-Elliott identity, and Wigner-Eckart factorisation in pedagogical form.
+
+### gr-cosmology.kerr-black-hole-ergosphere-penrose-process
+
+- **title**: Kerr black hole, ergosphere, and the Penrose process
+- **unit**: `13.05.04`
+- **prerequisites**: `gr-cosmology.schwarzschild-solution`, `gr-cosmology.orbits-schwarzschild`, `gr-cosmology.solar-system-tests-gr`, `gr-cosmology.einstein-field-equations`, `gr-cosmology.black-holes`
+- **tier_anchors**:
+  - master: Wald, *General Relativity* (Chicago UP, 1984), §12.3; Chandrasekhar, *The Mathematical Theory of Black Holes* (Oxford UP, 1983), §50-55; Misner-Thorne-Wheeler, *Gravitation* (Freeman, 1973), §33; O'Neill, *The Geometry of Kerr Black Holes* (Peters, 1995)
+  - intermediate: Carroll, *Spacetime and Geometry* (Pearson, 2004), §6.4-6.5; Hartle, *Gravity* (Pearson, 2003), §15
+  - beginner: Hartle, *Gravity* (Pearson, 2003), §15-16; popular accounts of Cygnus X-1 and Event Horizon Telescope images of M87* (2019) and Sgr A* (2022)
+- **notes**: The rotating-black-hole metric of Kerr 1963 *Phys. Rev. Lett.* 11, 237 and its consequences for black-hole astrophysics. Two-parameter family $(M, J = aM)$ generalising Schwarzschild ($a = 0$). Boyer-Lindquist 1967 *J. Math. Phys.* 8, 265 coordinates with $\Sigma = r^2 + a^2 \cos^2\theta$, $\Delta = r^2 - 2Mr + a^2$. Outer/inner horizons at $r_\pm = M \pm \sqrt{M^2 - a^2}$; extremal limit $|a| = M$ with $r_+ = r_- = M$. Ergosphere $r_+ < r < r_s(\theta) = M + \sqrt{M^2 - a^2 \cos^2\theta}$ where $g_{tt} > 0$ and no static observers exist; equatorial ergosphere extends to $r_s = 2M$. ZAMO frame-dragging angular velocity $\omega = -g_{t\phi}/g_{\phi\phi}$ reaching $\Omega_H = a/(2 M r_+)$ on the horizon. Ring singularity at $r = 0$, $\theta = \pi/2$ (1-dimensional, in equatorial plane). Penrose process (Penrose 1969 *Riv. Nuovo Cim.* 1, 252): particle enters ergosphere with energy $E_0 > 0$, splits into two fragments, one falls in with negative Killing energy $E_1 < 0$ (allowed because $\xi^a = \partial_t$ is spacelike inside the ergosphere), the other escapes with $E_2 = E_0 - E_1 > E_0$. Christodoulou irreducible-mass theorem (1970 *PRL* 25, 1596): $M^2 = M_{\rm irr}^2 + J^2/(4 M_{\rm irr}^2)$ with $M_{\rm irr}^2 = A/(16\pi)$, $A = 8\pi M r_+$ non-decreasing; maximum extractable energy is $M(1 - 1/\sqrt 2) \approx 0.293 M$ for extremal Kerr. Carter 1968 *Phys. Rev.* 174, 1559 separability via Killing tensor and fourth conserved Carter constant $Q$ making Kerr geodesics integrable. Robinson 1975 *PRL* 34, 905 uniqueness: any stationary axisymmetric vacuum BH with non-degenerate horizon is Kerr. Press-Teukolsky 1972 *Nature* 238, 211 superradiance: bosonic wave with $\omega < m \Omega_H$ amplified on reflection (extracting rotational energy); fermions do not superradiate (Wald 1974). Blandford-Znajek 1977 *MNRAS* 179, 433 electromagnetic Penrose process: magnetic-field-anchored plasma extracts rotational energy as Poynting flux, driving AGN jets, microquasars, GRBs. Bañados-Silk-West 2009 *PRL* 103, 111102 collisional Penrose: ultra-high centre-of-mass-energy collisions near extremal-Kerr horizon. ISCO from $6M$ (Schwarzschild) to $M$ (extremal prograde) or $9M$ (extremal retrograde); accretion efficiency from 5.72% to 42.3% (vs 0.7% for nuclear fusion). Surface gravity $\kappa = \sqrt{M^2 - a^2}/(2 M r_+) \to 0$ as $|a| \to M$ (third law). Vishveshwara 1970 *Nature* 227, 936 quasinormal modes; ringdown spectrum determined by $(M, a)$ alone (no-hair test in LIGO data). M87* imaged 2019 ($M = 6.5 \times 10^9 M_\odot$, $a/M \approx 0.9$); Sgr A* imaged 2022 ($M = 4.15 \times 10^6 M_\odot$, $a/M = 0.94 \pm 0.07$). Cosmic censorship (Penrose 1973) prevents $|a| > M$ formation. Lean status: `none` — Mathlib lacks Lorentzian geometry, Petrov classification, Killing-tensor framework, null-energy-condition apparatus.
+
+### measure-theory.fatou-lemma-dominated-convergence
+
+- **title**: Fatou's lemma and the dominated convergence theorem
+- **unit**: `02.07.05`
+- **prerequisites**: `measure-theory.outer-measure-caratheodory`, `measure-theory.measurable-functions-egorov-lusin`, `measure-theory.lebesgue-integral-monotone-convergence`
+- **tier_anchors**:
+  - master: Halmos 1950 Measure Theory §IV; Bogachev 2007 Measure Theory Vol. 1 §2.7; Rudin Real and Complex Analysis 3e §1.34-1.40
+  - intermediate: Folland Real Analysis 2e §2.3; Royden Real Analysis 4e §4.4-4.5
+  - beginner: Tao Analysis II §8.4; the running-bump picture and the dominated-integrable envelope
+- **notes**: Fifth unit in sub-chapter 02.07. The two limit theorems that organise every convergence-of-integrals question in Lebesgue integration. Fatou's lemma (Fatou 1906 *Acta Math.* 30, 335): for non-negative measurable $f_n$, $\int \liminf_n f_n \, d\mu \leq \liminf_n \int f_n \, d\mu$; proof via MCT applied to $g_n = \inf_{k \geq n} f_k \uparrow \liminf_n f_n$. Strict inequality in the running-bump example $f_n = n \chi_{[0, 1/n]}$ on $[0, 1]$: left side $0$, right side $1$. Dominated convergence theorem (Lebesgue 1908 *Leçons* 2e): if $f_n \to f$ a.e. and $|f_n| \leq g$ a.e. for some $g \in L^1$, then $f \in L^1$ and $\int f_n \to \int f$, with $L^1$-convergence $\int |f_n - f| \to 0$. Proof via Fatou applied to $g + f_n$ (giving $\int f \leq \liminf \int f_n$) and $g - f_n$ (giving $\limsup \int f_n \leq \int f$); the sandwich identifies the limit. Bounded convergence as the $\mu(X) < \infty$, $g = M$ constant special case. Master tier: reverse Fatou with upper envelope $f_n \leq g$; Pratt's lemma (Pratt 1960 *Trans. AMS* 94, 392) for variable dominators $g_n \to g$, $h_n \to h$ in $L^1$ with $g_n \leq f_n \leq h_n$; Vitali convergence theorem (Vitali 1907 *Rend. Circ. Mat. Palermo* 23, 137) — on finite-measure space, $\int f_n \to \int f$ iff $f_n \to f$ in measure AND $\{f_n\}$ uniformly integrable; de la Vallée Poussin criterion (de la Vallée Poussin 1915 *Trans. AMS* 16, 435): UI iff $\exists$ convex increasing $\varphi$ with $\varphi(t)/t \to \infty$ and $\sup_n \int \varphi(|f_n|) < \infty$; Dunford-Pettis theorem (Dunford-Pettis 1940 *Trans. AMS* 47, 323) — bounded + UI in $L^1$ iff relatively weakly compact; Bochner DCT (Bochner 1933 *Fund. Math.* 20, 262) for Banach-valued strongly measurable functions with $\|f_n\|_E \leq g \in L^1$. Applications: differentiation-under-the-integral-sign (Leibniz rule for parameter integrals); differentiation of $\Gamma(s) = \int_0^\infty x^{s-1} e^{-x} \, dm$ under integral on $\{s > 0\}$; Riemann-Lebesgue lemma via $L^1$-approximation by simple functions of bounded support plus DCT; characteristic-function continuity in probability (Lévy's continuity theorem) feeding the central limit theorem. Originator chain: Fatou 1906 (lemma in trigonometric-series context), Vitali 1907 (uniform integrability), Lebesgue 1908 (DCT monograph), de la Vallée Poussin 1915 (UI criterion), Bochner 1933 (Banach-valued), Dunford-Pettis 1940 (weak compactness), Pratt 1960 (variable dominators). Lean status: full — Mathlib provides `MeasureTheory.lintegral_liminf_le` (Fatou), `MeasureTheory.tendsto_lintegral_of_dominated_convergence` (lower-Lebesgue DCT), `MeasureTheory.tendsto_integral_of_dominated_convergence` (Bochner DCT), `MeasureTheory.UniformIntegrable`.
+
+
+### measure-theory.lp-spaces-holder-minkowski-completeness
+
+- **title**: L^p spaces — Hölder, Minkowski, and Riesz-Fischer completeness
+- **unit**: `02.07.06`
+- **prerequisites**: `measure-theory.lebesgue-integral-monotone-convergence`, `measure-theory.fatou-lemma-dominated-convergence`, `functional-analysis.banach-spaces`
+- **tier_anchors**:
+  - master: Bogachev 2007 *Measure Theory* Vol. 1 §4.1-4.6; Rudin *Real and Complex Analysis* 3e §3; Brezis *Functional Analysis* (Springer 2010) §4
+  - intermediate: Folland *Real Analysis* 2e §6; Royden *Real Analysis* 4e §7
+  - beginner: Tao *Analysis II* §10; informal motivation as norms of measurable functions
+- **notes**: Sixth unit in sub-chapter 02.07. The $L^p$-space architecture for $p \in [1, \infty]$ as Banach spaces of measurable functions modulo a.e.-equivalence, with $\|f\|_p = (\int |f|^p \, d\mu)^{1/p}$ for finite $p$ and $\|f\|_\infty = \operatorname{ess\,sup} |f|$. Two key inequalities: Hölder (Hölder 1889 *Nachr. Göttingen* 1889, 38; generalised to $L^p$ by Riesz 1910 *Math. Ann.* 69, 449) giving $\int |fg| \leq \|f\|_p \|g\|_q$ for conjugate exponents $1/p + 1/q = 1$; and Minkowski (Minkowski 1896 *Geometrie der Zahlen*; generalised by Riesz 1910) giving the triangle inequality $\|f + g\|_p \leq \|f\|_p + \|g\|_p$. Riesz-Fischer completeness (Riesz 1907 *C. R. Paris* 144, 615; Fischer 1907 *C. R. Paris* 144, 1022) for $L^2$, extended to $L^p$ by Riesz 1910: every Cauchy sequence in $L^p$ converges in $L^p$-norm to a function in $L^p$, proof via subsequence extraction with $\|f_{n_{k+1}} - f_{n_k}\|_p \leq 2^{-k}$, Minkowski-bounded envelope $G_K = |f_{n_1}| + \sum_{k=1}^K |f_{n_{k+1}} - f_{n_k}|$, MCT giving $G \in L^p$, then DCT applied to $|f_{n_K} - f|^p \leq (2G)^p$. $L^2$ Hilbert structure with inner product $\langle f, g \rangle = \int f \bar{g} \, d\mu$, Bessel-Parseval. Embedding $L^q \subseteq L^p$ for $p \leq q$ on finite-measure space (Hölder with constant). Master tier: duality theorem $(L^p)^* \cong L^q$ for $1 \leq p < \infty$ on $\sigma$-finite via Radon-Nikodym (Riesz 1910); $(L^1)^* = L^\infty$ on $\sigma$-finite; $(L^\infty)^*$ strictly larger than $L^1$ (Banach limits). Reflexivity for $1 < p < \infty$ via Clarkson 1936 *Trans. AMS* 40, 396 uniform-convexity inequality plus Milman-Pettis. Banach-Alaoglu + Eberlein-Šmulian giving weak-compactness of bounded sequences in $L^p$ for $p > 1$. Density: $C_c(\mathbb{R}^n)$ dense in $L^p(\mathbb{R}^n)$ for $p < \infty$; $C_c^\infty$ dense via mollification (Friedrichs 1944 *Trans. AMS* 55, 132). Hausdorff-Young inequality (Young 1912, Hausdorff 1923 *Math. Z.* 16, 163) for Fourier transform $\mathcal{F}: L^p \to L^q$ with $1 \leq p \leq 2$; sharp constant Beckner 1975 *Ann. Math.* 102, 159. Lorentz spaces $L^{p,q}$ (Lorentz 1950); Riesz-Thorin and Marcinkiewicz interpolation theorems. Sobolev embeddings $W^{k,p} \hookrightarrow L^q$. Distribution theory framework (Schwartz 1950). Originator chain: Hölder 1889, Minkowski 1896, Riesz-Fischer 1907, Young 1912, Riesz 1910 (general $L^p$ and duality), Hausdorff 1923, Clarkson 1936, Schwartz 1950, Beckner 1975. Lean status: full — Mathlib provides `MeasureTheory.Lp`, `MeasureTheory.snorm`, `MeasureTheory.Lp.norm_def`, `MeasureTheory.snorm_add_le` (Minkowski), `MeasureTheory.ENNReal.lintegral_mul_le_Lp_mul_Lq` (Hölder), `MeasureTheory.Lp.completeSpace` (Riesz-Fischer Banach-space instance).
+
+
+### measure-theory.fubini-tonelli-product-measures
+
+- **title**: Fubini-Tonelli theorem and product measures
+- **unit**: `02.07.07`
+- **prerequisites**: `measure-theory.lebesgue-integral-monotone-convergence`, `measure-theory.fatou-lemma-dominated-convergence`, `measure-theory.lp-spaces-holder-minkowski-completeness`
+- **tier_anchors**:
+  - master: Bogachev 2007 *Measure Theory* Vol. 1 §3.3-3.4; Rudin *Real and Complex Analysis* 3e §8; Halmos 1950 *Measure Theory* §35-36
+  - intermediate: Folland *Real Analysis* 2e §2.5; Royden *Real Analysis* 4e §20
+  - beginner: Tao *Analysis II* §8.5; informal motivation as iterated areas and volumes
+- **notes**: Seventh unit in sub-chapter 02.07. The Fubini-Tonelli architecture for product measures and iterated integration on $\sigma$-finite product spaces $(X \times Y, \mathcal{M} \otimes \mathcal{N}, \mu \otimes \nu)$. Product $\sigma$-algebra $\mathcal{M} \otimes \mathcal{N}$ generated by measurable rectangles $A \times B$; product measure $\mu \otimes \nu$ constructed via Carathéodory extension applied to the algebra of finite disjoint unions of measurable rectangles, with the rectangle formula $(\mu \otimes \nu)(A \times B) = \mu(A) \nu(B)$ extending uniquely to $\mathcal{M} \otimes \mathcal{N}$ under $\sigma$-finiteness via the Hahn-Kolmogorov uniqueness theorem. **Tonelli's theorem** (Tonelli 1909 *Rend. Acc. Lincei* 18, 246): for non-negative $\mathcal{M} \otimes \mathcal{N}$-measurable $f : X \times Y \to [0, \infty]$, the product and iterated integrals coincide $\int_{X \times Y} f \, d(\mu \otimes \nu) = \int_X \int_Y f \, d\nu \, d\mu = \int_Y \int_X f \, d\mu \, d\nu$ as elements of $[0, \infty]$, unconditionally (no integrability hypothesis needed). **Fubini's theorem** (Fubini 1907 *Rend. Acc. Lincei* 16, 608): for $f \in L^1(\mu \otimes \nu)$, the sections $f_x, f^y$ are integrable for $\mu$-a.e. $x$ and $\nu$-a.e. $y$, the iterated integrals exist and equal the product integral. **Combined Fubini-Tonelli strategy**: apply Tonelli to $|f|$ for absolute-integrability check, then Fubini to signed $f$. Standard-machine proof: indicators of rectangles → indicators of measurable sets (via monotone class theorem) → non-negative simple functions (linearity) → non-negative measurable functions (MCT). **Counterexamples without $\sigma$-finiteness**: on $[0,1]^2$ with Lebesgue $\times$ counting, the diagonal indicator $\chi_\Delta$ has iterated integrals $1$ and $0$; Sierpiński 1920 *Fund. Math.* 1, 112 gave a CH-dependent counterexample with both iterated integrals existing as Lebesgue integrals but unequal. **Completion subtleties** (Folland 2e Theorem 2.39): the completion $\overline{\mu \otimes \nu}$ is strictly larger than $\mathcal{M} \otimes \mathcal{N}$ in general; section measurability holds $\mu$-a.e. rather than for all $x$; Lebesgue measure on $\mathbb{R}^{m+n}$ is the completion of the product of lower-dimensional Lebesgue measures. **Applications**: (i) convolution Banach-algebra structure $L^1(\mathbb{R}^n) * L^1(\mathbb{R}^n) \subseteq L^1(\mathbb{R}^n)$ with $\|f * g\|_1 \leq \|f\|_1 \|g\|_1$ via Tonelli on $|f(x-y)||g(y)|$ plus translation-invariance; (ii) Young inequality $\|f * g\|_r \leq \|f\|_p \|g\|_q$ for $1/p + 1/q = 1 + 1/r$ via Riesz-Thorin interpolation; sharp constant Brascamp-Lieb 1976 *Adv. Math.* 20, 151; (iii) Cavalieri / layer-cake formula $\int_X f^p \, d\mu = p \int_0^\infty t^{p-1} \mu(\{f > t\}) \, dt$, foundational to weak-$L^p$ and Lorentz spaces; (iv) Gaussian integral $\int e^{-x^2} \, dx = \sqrt{\pi}$ via Cartesian-vs-polar Tonelli computation; (v) volume of $n$-ball $\operatorname{vol}(B^n) = \pi^{n/2}/\Gamma(n/2+1)$; (vi) Plancherel and Fourier inversion via triple-integral Fubini; (vii) Frullani's integral $\int_0^\infty (e^{-ax} - e^{-bx})/x \, dx = \ln(b/a)$; (viii) probability product-measure characterisation of independence and expectation factorisation $\mathbb{E}[fg] = \mathbb{E}[f] \mathbb{E}[g]$ for independent integrable $f, g$. Originator chain: Cavalieri 1635 (geometric forerunner via indivisibles); Cauchy 1814 (continuous functions on rectangles); Lebesgue 1902 (bounded measurable, bounded rectangles); Fubini 1907 (general absolutely integrable); Tonelli 1909 (non-negative measurable); Carathéodory 1918 (axiomatic product-measure framework); Sierpiński 1920 (CH-counterexample); Halmos 1950 (modern textbook treatment with monotone-class proof). Lean status: partial — Mathlib provides `MeasureTheory.Measure.prod`, `MeasureTheory.lintegral_prod` (Tonelli), `MeasureTheory.integral_prod` (Fubini), `MeasureTheory.Measure.prod_apply` (rectangle formula), `MeasureTheory.SigmaFinite`; Sierpiński counterexamples and the CH-dependent constructions are not formalised.
+
+
+### measure-theory.absolute-continuity-radon-nikodym
+
+- **title**: Absolute continuity and the Radon-Nikodym theorem
+- **unit**: `02.07.08`
+- **prerequisites**: `measure-theory.lebesgue-integral-monotone-convergence`, `measure-theory.fatou-lemma-dominated-convergence`, `measure-theory.lp-spaces-holder-minkowski-completeness`, `measure-theory.fubini-tonelli-product-measures`
+- **tier_anchors**:
+  - master: Bogachev 2007 *Measure Theory* Vol. 1 §3.2; Rudin *Real and Complex Analysis* 3e §6-7 (von Neumann Hilbert-space proof)
+  - intermediate: Folland *Real Analysis* 2e §3.2; Royden *Real Analysis* 4e §18
+  - beginner: Tao *Analysis II* §8.6; informal motivation as densities of one measure against another
+- **notes**: Eighth unit in sub-chapter 02.07. The Lebesgue-Radon-Nikodym architecture for absolute continuity and density representations of one measure against another on $\sigma$-finite measure spaces. **Absolute continuity** $\nu \ll \mu$: every $\mu$-null measurable set is also $\nu$-null. **Mutual singularity** $\nu \perp \mu$: the measures are concentrated on disjoint measurable sets ($\mu(A) = 0$ and $\nu(A^c) = 0$ for some measurable $A$). **Lebesgue decomposition theorem** (Lebesgue 1904 *Leçons sur l'intégration* §VII; abstract version Radon 1913, Nikodym 1930): every $\sigma$-finite measure $\nu$ splits uniquely as $\nu = \nu_a + \nu_s$ with $\nu_a \ll \mu$ and $\nu_s \perp \mu$. **Radon-Nikodym theorem** (Radon 1913 *Sitzungsber. Wien* 122, 1295; Nikodym 1930 *Fund. Math.* 15, 131): under $\nu \ll \mu$ and $\sigma$-finiteness, there exists a non-negative $\mathcal{M}$-measurable density $f = d\nu/d\mu$, unique up to $\mu$-a.e. equality, with $\nu(E) = \int_E f \, d\mu$ for every measurable $E$. **Von Neumann's Hilbert-space proof** (von Neumann 1940 *Bull. AMS* 46, 376): form $\lambda = \mu + \nu$ and the Hilbert space $L^2(\lambda)$, apply Riesz representation to the bounded functional $T(u) = \int u \, d\nu$ to get $g \in L^2(\lambda)$ with $T(u) = \int u g \, d\lambda$ and $0 \leq g \leq 1$, decompose by $A = \{g < 1\}$ and $B = \{g = 1\}$, and identify $d\nu_a/d\mu = g/(1 - g)$ on $A$ and $0$ on $B$; the singular part is concentrated on $B$. **Hahn-Jordan decomposition** (Hahn 1921 *Ann. Sc. Norm. Sup. Pisa* 9, 429): every signed measure splits canonically as $\lambda = \lambda^+ - \lambda^-$ with positive and negative parts supported on disjoint Hahn-set partition. **Signed Radon-Nikodym** (Folland 2e Theorem 3.8): for signed $\lambda \ll \mu$, the density $d\lambda/d\mu \in L^1_{\text{loc}}(\mu)$ exists via Hahn-Jordan and the unsigned theorem. **$\sigma$-finiteness necessity**: counterexample with $\mu = $ counting measure on $\mathbb{R}$ (not $\sigma$-finite) and $\nu = $ Lebesgue measure: $\nu \ll \mu$ vacuously but no Borel density exists. **Chain rule** (Folland 2e Theorem 3.7): $d\lambda/d\nu = (d\lambda/d\mu)(d\mu/d\nu)$ for $\lambda \ll \mu \ll \nu$ ($\sigma$-finite). **Change of variables** (Folland 2e Theorem 3.9): $\int g \, d\nu = \int g f \, d\mu$ for non-negative measurable $g$ and $f = d\nu/d\mu$. **Applications**: (i) conditional expectation $\mathbb{E}[X \mid \mathcal{G}]$ as Radon-Nikodym derivative of $\nu(E) = \int_E X \, d\mathbb{P}$ against $\mathbb{P}|_\mathcal{G}$ (Kolmogorov 1933 *Grundbegriffe*), the foundational construction of modern probability theory; (ii) **$(L^p)^* \cong L^q$ duality** (Riesz 1910 *Math. Ann.* 69, 449) for $1 \leq p < \infty$ on $\sigma$-finite spaces, with Radon-Nikodym as load-bearing step in the surjectivity; (iii) **Doob martingale convergence theorem** (Doob 1940 *Trans. AMS* 47, 455; Doob 1953 *Stochastic Processes* Ch. VII) as time-asymptotic Radon-Nikodym: uniformly integrable martingales $M_n$ converge a.s. and in $L^1$ to $M_\infty = d\nu_\infty/d\mathbb{P}|_{\mathcal{F}_\infty}$; (iv) **Girsanov change of measure** (Girsanov 1960 *Theory Probab. Appl.* 5, 285) via exponential-martingale Radon-Nikodym derivative, foundational in stochastic analysis and risk-neutral pricing (Black-Scholes 1973); (v) probability density functions and likelihood ratios in statistical hypothesis testing (Neyman-Pearson lemma); (vi) **Kullback-Leibler divergence** $D_{KL}(\nu \| \mu) = \int \log(d\nu/d\mu) \, d\nu$ as the integral of the log-density, foundational in information theory; (vii) Jacobian determinants as Radon-Nikodym derivatives in differential geometry (pullback-pushforward of measures under smooth maps). Originator chain: Lebesgue 1904 (decomposition for monotone functions on intervals); Radon 1913 (abstract framework, Lebesgue-measure background); Hahn 1921 (signed-measure decomposition); Nikodym 1930 (general $\sigma$-finite background); von Neumann 1940 (Hilbert-space proof); Halmos 1950, Rudin 1966, Folland 1984 (textbook codification); Doob 1953 (martingale applications); Girsanov 1960 (stochastic analysis applications). Lean status: partial — Mathlib provides `MeasureTheory.Measure.AbsolutelyContinuous` (notation `≪`), `MeasureTheory.Measure.MutuallySingular` (notation `⟂ₘ`), `MeasureTheory.Measure.haveLebesgueDecomposition_of_sigmaFinite`, `MeasureTheory.Measure.singularPart`, `MeasureTheory.Measure.rnDeriv`, `MeasureTheory.lintegral_rnDeriv_mul` (change of variables); the von Neumann Hilbert-space proof is not explicitly reconstructed in Mathlib (Mathlib follows a more direct Hahn-Jordan decomposition argument), but the resulting density and Lebesgue decomposition are fully formalised.
+
+
+### pde.laplace-equation-harmonic-functions
+
+- **title**: Laplace equation, harmonic functions, mean-value property, and maximum principle
+- **unit**: `02.13.01`
+- **prerequisites**: `multivariable-calculus.multi-variable-limit-continuity`, `multivariable-calculus.mean-value-theorem`, `multivariable-calculus.chain-rule`, `measure-theory.lebesgue-integral-monotone-convergence`, `differential-forms.stokes-theorem`
+- **tier_anchors**:
+  - master: Gilbarg-Trudinger, *Elliptic PDE of Second Order*, 2e (Springer 2001), §2-3; Evans, *PDE*, 2e (AMS GSM 19, 2010), §2.2-2.4; Han-Lin, *Elliptic PDE* (AMS/Courant 2011), §1
+  - intermediate: Evans §2.2; Strauss, *PDE: An Introduction*, 2e (Wiley 2008), §6; John, *PDE*, 4e (Springer 1982), §4
+  - beginner: Strauss §1, §6; physics-anchored steady-state heat conduction
+- **notes**: Anchor unit of the analysis-side PDE chapter `02.13`. The Laplace equation $\Delta u = 0$ governs equilibrium phenomena (steady-state heat, electrostatic and gravitational potentials in source-free regions, soap-film shape, ideal-fluid velocity potential). Solutions are harmonic functions; examples include linear functions, $x^2 - y^2$, $\log r$ on $\mathbb{R}^2 \setminus \{0\}$, $r^{2-n}$ on $\mathbb{R}^n \setminus \{0\}$ for $n \geq 3$. Mean-value property (Gauss 1840): value at centre equals sphere/ball average. Weak and strong maximum principles. Liouville's theorem for bounded harmonic functions on $\mathbb{R}^n$. Fundamental solution $\Phi(x)$, Newtonian potential giving $-\Delta u = f$, Green function and Poisson kernel on the ball, Poisson integral solving the Dirichlet problem. Real-analyticity and Cauchy estimates; Harnack inequality; Hopf boundary point lemma; removable singularities (Painlevé); Schwarz reflection; Perron method (Perron 1923) and Wiener criterion (Wiener 1924) for boundary regularity; Dirichlet principle and Weyl's lemma (Hilbert 1900, Weyl 1940); Brownian-motion characterisation (Kakutani 1944); Hodge decomposition for forms on Riemannian manifolds. Originator chain: Laplace 1782 *Mém. Acad. Sci. Paris* (gravitational potential); Poisson 1813 *Bull. Soc. Philom. Paris* 3 (with sources); Gauss 1840 *Allgemeine Lehrsätze* (mean-value); Earnshaw 1842 *Trans. Camb. Phil. Soc.* 7 (maximum principle in electrostatics); Weierstrass 1870 (Dirichlet-principle gap); Hilbert 1900 *Nachr. Königl. Ges. Wiss. Göttingen* (problem 20); Perron 1923 *Math. Z.* 18; Wiener 1924 *J. Math. Phys.* 3; Hodge 1941; Weyl 1940 *Duke Math. J.* 7; Kakutani 1944 *Proc. Imp. Acad. Tokyo* 20. Lean status: `none` — Mathlib lacks a unified harmonic-function API (no `IsHarmonic` predicate, no Poisson kernel, no Green function, no Perron solution, no Wiener criterion, no Weyl lemma, no Brownian-motion characterisation).
+
+### pde.heat-equation-heat-kernel-duhamel
+
+- **title**: Heat equation, heat kernel, and Duhamel's principle
+- **unit**: `02.13.03`
+- **prerequisites**: `measure-theory.lebesgue-integral-monotone-convergence`, `pde.laplace-equation-harmonic-functions`, `pde.poisson-equation-fundamental-solution-newtonian-potential`
+- **tier_anchors**:
+  - master: Evans, *PDE*, 2e (AMS GSM 19, 2010), §2.3; John, *PDE*, 4e (Springer 1982), §7; Friedman, *Partial Differential Equations of Parabolic Type* (Prentice-Hall 1964); Lieberman, *Second Order Parabolic Differential Equations* (World Scientific 1996); Stroock-Varadhan, *Multidimensional Diffusion Processes* (Springer 1979)
+  - intermediate: Evans §2.3; Strauss, *PDE: An Introduction*, 2e (Wiley 2008), §2-§3; John §7
+  - beginner: Strauss §2-§3; physics-anchored diffusion of heat in a metal bar; Fourier 1822 *Théorie analytique de la chaleur*
+- **notes**: Third unit of the analysis-side PDE chapter `02.13`. The heat equation $u_t - \Delta u = 0$ is the prototype parabolic PDE: time derivative equals spatial Laplacian, modelling heat conduction (Fourier 1822), molecular diffusion (Einstein 1905), Brownian motion (Wiener 1923), and infinite-dimensional smoothing in general. Heat kernel $\Phi(x, t) = (4 \pi t)^{-n/2} \exp(-|x|^2 / (4 t))$ for $t > 0$: Gaussian fundamental solution with conserved unit mass, semigroup property $\Phi(\cdot, t) * \Phi(\cdot, s) = \Phi(\cdot, t + s)$, and approximation-to-the-identity behaviour as $t \to 0^+$. Cauchy problem on $\mathbb{R}^n$ solved by convolution $u = \Phi(\cdot, t) * g$; smoothing (any $L^p$ data become real-analytic for $t > 0$); infinite propagation speed (heat kernel strictly positive everywhere for $t > 0$); $L^\infty$ contraction $\|u(\cdot, t)\|_\infty \leq \|g\|_\infty$. Maximum principle on bounded parabolic cylinders $U_T = U \times (0, T]$: max on parabolic boundary $\Gamma_T = (\bar U \times \{0\}) \cup (\partial U \times [0, T])$; energy method $\frac{d}{dt} \|u\|_{L^2}^2 = -2 \|\nabla u\|_{L^2}^2 \leq 0$ giving uniqueness for Dirichlet problem. Duhamel principle for inhomogeneous problem: $u(x, t) = \Phi(\cdot, t) * g + \int_0^t \Phi(\cdot, t - s) * f(\cdot, s) \, ds$. Master tier: derivation of heat kernel via Fourier transform (Fourier 1822); Tikhonov 1935 *Mat. Sbornik* 42 non-uniqueness counterexample (no uniqueness without growth condition); Widder 1944 *Trans. AMS* 55 uniqueness theorem in growth class $|u| \leq C e^{a |x|^2}$ with $a < 1/(4T)$; backward uniqueness via Phragmén-Lindelöf; ill-posedness of backward heat equation; strong maximum principle (Nirenberg); parabolic Harnack inequality (Moser 1964 *Comm. Pure Appl. Math.* 17); Aronson 1967 *Bull. AMS* 73 two-sided Gaussian bounds for divergence-form parabolic fundamental solutions; Nash-De Giorgi-Moser regularity (Nash 1958 *Amer. J. Math.* 80; De Giorgi 1957 *Mem. Accad. Sci. Torino* 3; Moser 1964); parabolic Schauder estimates; Brownian-motion connection (Einstein 1905 *Ann. Phys.* 17; Wiener 1923 *J. Math. Phys.* 2) with heat kernel as transition density; Feynman-Kac formula (Kac 1949 *Trans. AMS* 65) representing solutions of heat equation with potential as path integrals against Wiener measure; Wick rotation $t \to i t$ connecting heat equation to Schrödinger equation. Originator chain: Fourier 1822 *Théorie analytique de la chaleur* (named equation, Fourier-series solution); Sturm 1836 + Liouville 1836 *J. Math. Pures Appl.* 1 (Sturm-Liouville theory for eigenvalue problems); Einstein 1905 (Brownian-motion connection); Wiener 1923 (rigorous Wiener measure construction); Tikhonov 1935 (non-uniqueness); Widder 1944 (Gaussian-growth uniqueness); Kac 1949 (Feynman-Kac); De Giorgi 1957 + Nash 1958 (rough-coefficient regularity); Moser 1964 (parabolic Harnack); Aronson 1967 (Gaussian bounds). Lean status: `none` — Mathlib has Gaussian-density machinery and Fourier-transform infrastructure but lacks a unified parabolic-PDE namespace, the heat-kernel-solves-IVP theorem, the Duhamel formula, the parabolic maximum principle, the energy-method uniqueness theorem, the Tikhonov-Widder uniqueness pair, the parabolic Harnack inequality, the heat-kernel-as-Brownian-transition-density formal connection, and the Feynman-Kac formula.
+
+### pde.poisson-equation-fundamental-solution-newtonian-potential
+
+- **title**: Poisson equation, fundamental solution, and Newtonian potential
+- **unit**: `02.13.02`
+- **prerequisites**: `multivariable-calculus.chain-rule`, `measure-theory.lebesgue-integral-monotone-convergence`, `pde.laplace-equation-harmonic-functions`
+- **tier_anchors**:
+  - master: Gilbarg-Trudinger, *Elliptic PDE of Second Order*, 2e (Springer 2001), §3-4; Evans, *PDE*, 2e (AMS GSM 19, 2010), §2.2; Folland, *Introduction to PDE*, 2e (Princeton UP 1995), §2
+  - intermediate: Evans §2.2.1; Strauss, *PDE: An Introduction*, 2e (Wiley 2008), §6; John, *PDE*, 4e (Springer 1982), §4
+  - beginner: Strauss §6; physics-anchored gravitational and electrostatic potential
+- **notes**: Second unit of the analysis-side PDE chapter `02.13`. The Poisson equation $-\Delta u = f$ is the source-driven extension of the Laplace equation: Newtonian gravity gives $\Delta \Phi = 4\pi G \rho$, electrostatics gives $\Delta V = -\rho / \varepsilon_0$. Fundamental solution $\Phi(x) = -\log|x| / (2\pi)$ for $n = 2$ and $\Phi(x) = 1/((n - 2) |S^{n-1}| |x|^{n-2})$ for $n \geq 3$; flux normalisation $-\int_{\partial B_r} \partial_\nu \Phi \, dS = 1$ for every $r > 0$; distributional identity $-\Delta \Phi = \delta_0$ in $\mathcal{D}'(\mathbb{R}^n)$. Newtonian potential $u = \Phi * f$ for $f \in C^2_c(\mathbb{R}^n)$: explicit verification that $u \in C^2$ and $-\Delta u = f$ via differentiation under the integral plus Green's-identity singularity excision on $\partial B_\varepsilon(x)$. Worked example: gravitational potential of a uniform-density sphere recovering Newton's shell theorem (outside $u = GM/r$, inside quadratic in $r$). Image-charge method on the half-space, Green-function representation formula. Master tier: Riesz potentials $I_\alpha = (-\Delta)^{-\alpha/2}$ with semigroup law $I_\alpha I_\beta = I_{\alpha + \beta}$ (Riesz 1923 *Acta Sci. Math. Szeged* 6); Hardy-Littlewood-Sobolev inequality $\|I_\alpha f\|_{L^q} \leq C \|f\|_{L^p}$ with $1/q = 1/p - \alpha/n$ (Hardy-Littlewood 1928 *Math. Z.* 27; Sobolev 1938 *Mat. Sb.* 4); Calderón-Zygmund $L^p$ regularity $\|\partial_i \partial_j u\|_{L^p} \leq C \|f\|_{L^p}$ for $1 < p < \infty$ (Calderón-Zygmund 1952 *Acta Math.* 88); Schauder Hölder estimates (Schauder 1934); Helmholtz decomposition $F = \nabla u + V$; layer potentials (single and double layer) reducing Dirichlet problem to second-kind Fredholm integral equation (Fredholm 1900 *Kongl. Vetenskaps-Akademiens Förhandlinger* 57); boundary element method; Hörmander-Ehrenpreis-Malgrange theorem on existence of fundamental solution for every non-zero constant-coefficient operator (Ehrenpreis 1954 *Amer. J. Math.* 76; Malgrange 1955 *Ann. Inst. Fourier* 6); modern applications (gravitational lensing, semiconductor capacitance, CFD pressure equation, molecular-dynamics Ewald summation, FFT-based cosmological $N$-body Poisson solvers). Originator chain: Newton 1687 (gravitational potential implicit); Poisson 1813 *Bull. Soc. Philom. Paris* 3 (named equation); Gauss 1840 *Allgemeine Lehrsätze* (mean-value, potential-theory foundations); Riesz 1923 (fractional potentials); Fredholm 1900 (integral equations); Hardy-Littlewood 1928, Sobolev 1938 (HLS inequality); Schwartz 1950 *Théorie des Distributions* (distributional foundations); Calderón-Zygmund 1952 (singular integrals); Ehrenpreis-Malgrange 1954-55 (general constant-coefficient existence). Lean status: `none` — Mathlib lacks the fundamental-solution apparatus, distributional derivatives, Riesz potentials, Hardy-Littlewood-Sobolev, Calderón-Zygmund operators, and layer-potential machinery.
+
+### pde.wave-equation-dalembert-spherical-means-huygens
+
+- **title**: Wave equation, d'Alembert solution, spherical means, and Huygens principle
+- **unit**: `02.13.04`
+- **prerequisites**: `pde.laplace-equation-harmonic-functions`, `pde.poisson-equation-fundamental-solution-newtonian-potential`, `pde.heat-equation-heat-kernel-duhamel`
+- **tier_anchors**:
+  - master: Evans, *PDE*, 2e (AMS GSM 19, 2010), §2.4; John, *PDE*, 4e (Springer 1982), §5; Hadamard, *Lectures on Cauchy's Problem in Linear PDE* (Yale UP 1923); Courant-Hilbert, *Methods of Mathematical Physics II* (Interscience 1962), §VI; Sogge, *Lectures on Non-Linear Wave Equations*, 2e (International Press 2008)
+  - intermediate: Evans §2.4; Strauss, *PDE: An Introduction*, 2e (Wiley 2008), §2, §9; John §5
+  - beginner: Strauss §1, §2, §9; physics-anchored vibrating string and expanding pond ripple; d'Alembert 1747 *Mémoires de l'Académie de Berlin*
+- **notes**: Fourth unit of the analysis-side PDE chapter `02.13`. The wave equation $u_{tt} - c^2 \Delta u = 0$ is the prototype hyperbolic PDE: second time derivative equals wave-speed-squared times spatial Laplacian, modelling vibrating strings (d'Alembert 1747), sound waves (Lagrange 1759), electromagnetic radiation (Maxwell 1865, Kirchhoff 1882), gravitational waves (Einstein 1916), and dispersive wave packets in modern Strichartz theory (Strichartz 1977). d'Alembert formula in one space dimension: $u(x, t) = \tfrac{1}{2}[f(x - c t) + f(x + c t)] + \frac{1}{2 c} \int_{x - c t}^{x + c t} g(y) \, dy$, decomposing the solution into right-moving and left-moving travelling waves plus an integral of the initial velocity over the domain of dependence. Cauchy problem on $\mathbb{R}^n$: well-posed with two pieces of initial data (initial position and initial velocity); domain of dependence $\{|x - x_0| \leq c t_0\}$ and finite propagation speed; energy conservation $E(t) = \tfrac{1}{2} \int (u_t^2 + c^2 |\nabla u|^2) \, dx$ constant in time, giving uniqueness by an energy-cone argument. Kirchhoff formula in three dimensions (Kirchhoff 1882): $u(x, t) = \partial_t[t \fint_{\partial B_{c t}(x)} f \, dS] + t \fint_{\partial B_{c t}(x)} g \, dS$, with the displacement determined entirely by data on the spherical wavefront. Poisson formula in two dimensions (Poisson 1818; Hadamard 1923 method of descent): area integral over the disk $B_{c t}(x)$ with the singular weight $1/\sqrt{c^2 t^2 - |y - x|^2}$. **Sharp Huygens principle**: holds in every odd dimension $n \geq 3$ (clean wavefront propagation), fails in every even dimension $n \geq 2$ (wake tail). Master tier: Euler-Poisson-Darboux equation for the spherical mean and the substitution $V = r M$ reducing the 3D case to a 1D wave equation on the half-line; explicit derivation of the Kirchhoff formula via odd reflection; Hadamard's method of descent deriving the 2D Poisson formula from the 3D Kirchhoff formula; regularity loss in even dimensions (loss of $n/2$ derivatives in even $n$, loss of $(n - 1)/2$ in odd $n$); energy method for uniqueness and finite propagation speed (Friedrichs-Lewy 1928); Duhamel principle for the inhomogeneous wave equation as a continuous superposition of impulsively-velocity-forced homogeneous solutions; eigenfunction expansion on bounded domains $u(x, t) = \sum_k [a_k \cos(c \sqrt{\lambda_k} t) + b_k \sin(c \sqrt{\lambda_k} t)/(c \sqrt{\lambda_k})] \varphi_k(x)$; Strichartz estimates (Strichartz 1977 *Duke Math. J.* 44) for dispersive decay; Lorentz invariance of the wave operator and connection to special relativity (Einstein 1905); semilinear wave equation $u_{tt} - \Delta u = |u|^p$ with the Strauss exponent $p_c(n)$ separating blowup (small $p$) from global existence (large $p$), with $p_c(3) = 1 + \sqrt{2}$ (John 1979 *Manuscripta Math.* 28; Strauss 1981); Christodoulou-Klainerman 1993 global stability of Minkowski space; LIGO-Virgo 2015 observation of gravitational waves as a vindication of the wave-equation paradigm at the cosmological scale. Originator chain: d'Alembert 1747 *Mém. Acad. Berlin* 3 (named equation, 1D formula); Euler 1748, Bernoulli 1755 (discontinuous and series representations); Lagrange 1759 (acoustic 3D extension); Poisson 1818 *Mém. Acad. Sci. France* 3 (spherical means, 2D formula); Kirchhoff 1882 *Ann. Phys. Chem.* 18 (cleanest 3D formula); Hadamard 1923 (method of descent, Huygens classification, well-posedness); Friedrichs-Lewy 1928 (energy method, CFL condition); Strichartz 1977 (dispersive estimates); John 1979 (semilinear blowup); Klainerman 1985 (vector-field method); Christodoulou-Klainerman 1993 (Minkowski stability). Lean status: `none` — Mathlib has Gaussian-density and Fourier-transform infrastructure but lacks a unified hyperbolic-PDE namespace, the d'Alembert formula, the Kirchhoff and Poisson representation formulas, the spherical-means apparatus, the Euler-Poisson-Darboux equation, the Huygens principle, the energy-method uniqueness theorem, the finite-propagation-speed theorem, the Duhamel principle for the wave equation, separation of variables on bounded domains, Strichartz estimates, the Lorentz-invariance structure connecting to special relativity, and the semilinear wave-equation blowup theory of John 1979.
+
+### number-theory.primitive-roots-znz-units
+
+- **title**: Primitive roots and the structure of $(\mathbb{Z}/n\mathbb{Z})^\times$
+- **unit**: `21.01.05`
+- **prerequisites**: `number-theory.fermat-euler-wilson-theorems`, `number-theory.congruences-chinese-remainder-znz`, `number-theory.primes-fundamental-theorem-arithmetic-infinitude`, `algebra.group`
+- **tier_anchors**:
+  - master: Gauss 1801 *Disquisitiones Arithmeticae* arts. 53-94 (originator: definition of order, polynomial-root bound, existence of primitive roots modulo every odd prime, lift to prime powers and to $2 p^k$, cyclicity classification, index calculus); Artin 1927 (letter to Hasse: primitive-root density conjecture, Artin constant $C_A = 0.3739558\ldots$); Hooley 1967 *J. reine angew. Math.* 225 (Artin's conjecture under GRH via Kummer-cyclotomic Chebotarev); Gupta-Murty 1984 *Invent. Math.* 78 (unconditional positive proportion); Heath-Brown 1986 *Quart. J. Math.* (2) 37 (at least one of three multiplicatively independent integers is a primitive root for infinitely many primes); Diffie-Hellman 1976 *IEEE TIT* IT-22 (public-key cryptography); ElGamal 1985 *IEEE TIT* IT-31; Shanks 1971 (baby-step giant-step); Pohlig-Hellman 1978 *IEEE TIT* IT-24; Adleman 1979 *FOCS 20* (index-calculus, sub-exponential DLP); Shor 1994 *FOCS 35* / 1997 *SIAM J. Comput.* 26 (quantum polynomial-time DLP); Lucas 1878 *Amer. J. Math.* 1; Hardy-Wright 2008 6e §§VI-VIII
+  - intermediate: Ireland-Rosen 1990 *A Classical Introduction to Modern Number Theory* (Springer GTM 84) §4; Apostol 1976 *Introduction to Analytic Number Theory* §§6-7
+  - beginner: Burton 2010 *Elementary Number Theory* 7e §8; Khan Academy 'Primitive roots' module
+- **notes**: A **primitive root modulo $n$** is a generator of the cyclic unit group $(\mathbb{Z}/n\mathbb{Z})^\times$ when this group is cyclic — an element of order exactly $\varphi(n)$. The signature theorem (Gauss 1801): $(\mathbb{Z}/p)^\times$ is cyclic for every prime $p$, with exactly $\varphi(p - 1)$ primitive roots, proved by the polynomial-degree bound $|x^d - 1$ roots$| \leq d$ in $\mathbb{F}_p[T]$ combined with the totient summation $\sum_{d \mid p - 1} \varphi(d) = p - 1$ forcing equality in the divisor count. Full cyclicity classification (Gauss 1801 arts. 53-89): $(\mathbb{Z}/n)^\times$ is cyclic iff $n \in \{1, 2, 4, p^k, 2 p^k\}$ for $p$ an odd prime; in particular $(\mathbb{Z}/2^k)^\times \cong \mathbb{Z}/2 \times \mathbb{Z}/2^{k - 2}$ for $k \geq 3$ generated by $-1$ and $5$ is the lone structural exception. Hensel lifting (Exercise 6, Proposition 2): a primitive root modulo $p$ lifts to one modulo $p^k$ for $p$ odd, with the explicit replacement $g \mapsto g + p$ used when $g^{p - 1} \equiv 1 \pmod{p^2}$. **Discrete logarithm** (Gauss's index calculus): for $n$ admitting a primitive root $g$, the map $\mathrm{ind}_g : (\mathbb{Z}/n)^\times \to \mathbb{Z}/\varphi(n)\mathbb{Z}$ is a group isomorphism, converting multiplicative congruences into additive linear congruences. Master tier: Artin's primitive-root conjecture (positive density of primes for which a given non-square non-$(-1)$ integer is a primitive root; Artin constant $\prod_p (1 - 1/(p(p - 1))) = 0.3739558\ldots$); Hooley 1967 conditional proof under GRH; Gupta-Murty 1984 + Heath-Brown 1986 unconditional progress. Discrete-logarithm algorithms: baby-step giant-step (Shanks 1971, $O(\sqrt N)$); Pohlig-Hellman (1978, CRT reduction to prime-power subgroups); index calculus (Adleman 1979, sub-exponential $L_p[1/2, c]$, refined to $L_p[1/3, c]$ via number field sieve). Cryptographic applications: Diffie-Hellman key exchange 1976; ElGamal encryption 1985; DSA digital signatures 1991; ECDH and ECDSA via elliptic-curve groups. Shor 1994 quantum polynomial-time DLP via quantum Fourier transform period-finding $\to$ post-quantum cryptography programme (NIST FIPS 203 ML-KEM + FIPS 204 ML-DSA, August 2024 standardisation). Lucas 1878 primality test via primitive-root certificate; Pratt 1975 PRIMES in NP via recursive Lucas certificate; Lucas-Lehmer test for Mersenne primes underlies every record-holding prime since 1952. Lean status: `partial` — Mathlib has the abstract scaffolding (`ZMod.isCyclic` for primes, `IsPrimitiveRoot`, `ZMod.unitsEquivCoprime`, `orderOf`); pedagogical-module gaps are the full cyclicity classification via Hensel lifting, the $(\mathbb{Z}/2^k)^\times$ structure, the $\varphi(p - 1)$ Möbius count, the DLP algorithms, and the Artin/Hooley density theorems.
+
+### classical-mech.two-body-kepler-rutherford
+
+- **title**: Two-body central-force problem, Kepler orbits, and Rutherford scattering
+- **unit**: `09.01.04`
+- **prerequisites**: `classical-mech.kinematics-position-velocity-acceleration`, `classical-mech.newtons-laws-of-motion`, `classical-mechanics.conservation-laws`
+- **tier_anchors**:
+  - master: Goldstein, Poole & Safko, *Classical Mechanics*, 3e (Addison-Wesley, 2002), §3 (full Kepler treatment, Laplace-Runge-Lenz vector); Landau & Lifshitz, *Mechanics*, 3e (Pergamon, 1976), §11-19; Arnold, *Mathematical Methods of Classical Mechanics*, 2e (Springer GTM 60, 1989), §8 (Bertrand's theorem; integrability)
+  - intermediate: Taylor, *Classical Mechanics* (University Science Books, 2005), §8; Goldstein, Poole & Safko, *Classical Mechanics*, 3e, §3
+  - beginner: Halliday-Resnick-Walker, *Fundamentals of Physics*, 10e (Wiley, 2014), Ch. 13 (gravitation, Kepler's laws); Khan Academy lessons on Kepler's laws
+- **notes**: The two-body central-force problem with inverse-square law $V = -k/r$, the paradigmatic integrable system of classical mechanics. Reduction to a one-body effective problem via centre-of-mass coordinates $\mathbf{R} = (m_1\mathbf{r}_1 + m_2\mathbf{r}_2)/M$ and reduced mass $\mu = m_1 m_2/M$. Conservation of $\mathbf{L} = \mu \mathbf{r} \times \dot{\mathbf{r}}$ from centrality confines motion to a plane; conservation of energy $E = \tfrac{1}{2}\mu \dot{r}^2 + L^2/(2\mu r^2) + V(r)$ reduces to one-dimensional radial motion in the effective potential. The Binet equation $u'' + u = \mu k/L^2$ (where $u = 1/r$) linearises for the inverse-square law, yielding the conic-section orbit $r(\theta) = p/(1 + e \cos\theta)$ with semi-latus rectum $p = L^2/(\mu k)$ and eccentricity $e = \sqrt{1 + 2EL^2/(\mu k^2)}$. Kepler's three laws (1609, 1619): elliptical orbits (e < 1, E < 0); equal areas in equal times ($dA/dt = L/(2\mu)$); $T^2 = (4\pi^2 \mu/k) a^3$. Bound/marginal/unbound classification by sign of E: ellipse / parabola / hyperbola. Laplace-Runge-Lenz vector $\mathbf{A} = \mathbf{p} \times \mathbf{L} - \mu k \hat{\mathbf{r}}$ provides extra conservation closing all bound orbits; algebra of $(\mathbf{L}, \mathbf{A}/\sqrt{-2\mu E})$ is $\mathfrak{so}(4)$ (Pauli 1926 *Z. Phys.* 36, 336; Bargmann 1936 *Z. Phys.* 99, 576). Bertrand 1873 *Comptes Rendus* 77, 849: closed bound orbits occur only for Kepler $V = -k/r$ and harmonic oscillator $V = \tfrac{1}{2}kr^2$. Kepler equation $M = E - e \sin E$ relates mean anomaly (time) to eccentric anomaly; basis of every ephemeris computation. Rutherford 1911 *Phil. Mag.* (6) 21, 669: repulsive Coulomb hyperbola with scattering relation $b = (k/(2E))\cot(\theta/2)$, differential cross section $d\sigma/d\Omega = (k/(4E))^2/\sin^4(\theta/2)$ — the discovery of the atomic nucleus. Bohr 1913 *Phil. Mag.* (6) 26, 1 added angular-momentum quantisation $L = n\hbar$ producing the hydrogen spectrum $E_n = -13.6 {\rm eV}/n^2$, the first quantum-mechanical atomic theory. Restricted three-body problem: Euler 1767 collinear Lagrange points L1-L3 (saddles), Lagrange 1772 equilateral L4-L5 (stable for mass ratio < 0.0385); Hill radius $r_H = a(m/3M)^{1/3}$; Roche 1849 tidal-disruption limit $d_{\rm Roche} \approx 2.44 R_p(\rho_p/\rho_s)^{1/3}$. Relativistic perihelion precession $6\pi GM/(c^2 a (1-e^2))$ per orbit gives Mercury's 43"/century anomaly (Einstein 1915). Yarkovsky-O'Keefe-Radzievskii-Paddack effect: thermal-photon recoil $\sim 10^{-10} {\rm m/s}^2$ on near-Earth asteroids, measured directly for 6489 Golevka (2003) and 101955 Bennu (OSIRIS-REx). Modern descendants: gravitational-wave inspirals (LIGO/Virgo post-Newtonian expansions), pulsar timing (Hulse-Taylor PSR B1913+16), Hohmann/Lambert spacecraft trajectories, Coulomb logarithm in plasma transport. Lean status: `none` — Mathlib has ODE existence but no Kepler-orbit framework, no conic-section parameterisation by $(E, L)$, no LRL vector formalism.
+
+### quantum-information.bell-inequalities-chsh-tsirelson
+
+- **title**: Bell inequalities, CHSH inequality, and the Tsirelson bound
+- **unit**: `12.17.03`
+- **prerequisites**: `quantum-information.density-matrix-pure-mixed-states`, `quantum-information.entanglement-schmidt-decomposition`, `quantum.operators-observables-hermiticity`, `quantum-mechanics.angular-momentum-su2`
+- **tier_anchors**:
+  - master: Bell, On the Einstein-Podolsky-Rosen paradox, *Physics* 1 (1964), 195-200; Clauser-Horne-Shimony-Holt, *Phys. Rev. Lett.* 23 (1969), 880; Cirel'son, *Lett. Math. Phys.* 4 (1980), 93; Brunner-Cavalcanti-Pironio-Scarani-Wehner, *Rev. Mod. Phys.* 86 (2014), 419
+  - intermediate: Nielsen & Chuang, *Quantum Computation and Quantum Information*, 10th anniv. ed. (Cambridge UP, 2010), §2.6; Preskill, *Lecture Notes on Quantum Computation*, Caltech Ph219, Ch. 4
+  - beginner: Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (Basic Books, 2014), §6; Mermin, *Physics Today* 38 (1985), no. 4, 38-47 — "Is the moon there when nobody looks?"
+- **notes**: Third unit of the 12.17 quantum-information sub-chapter. Bell's 1964 *Physics* 1, 195 derivation that local-hidden-variable (LHV) theories satisfy inequalities that quantum mechanics violates; CHSH 1969 *PRL* 23, 880 form $S = E(a, b) + E(a, b') + E(a', b) - E(a', b')$ with classical bound $|S| \leq 2$ via pointwise factorisation $A(B + B') + A'(B - B')$ with one summand vanishing on $\pm 1$-valued outcomes; quantum CHSH operator $\mathcal{S} = A \otimes B + A \otimes B' + A' \otimes B - A' \otimes B'$ for dichotomic Hermitian observables $A, A', B, B'$ with $A^2 = A'^2 = I$ and $B^2 = B'^2 = I$; Tsirelson 1980 *Lett. Math. Phys.* 4, 93 bound $\|\mathcal{S}\| \leq 2 \sqrt{2}$ via operator identity $\mathcal{S}^2 = 4 I - [A, A'] \otimes [B, B']$ plus commutator bound $\|[X, X']\| \leq 2$; Bell-state saturation $\langle \Phi^+ | \mathcal{S} | \Phi^+ \rangle = 2 \sqrt{2}$ with $A = \sigma_z$, $A' = \sigma_x$, $B = (\sigma_z + \sigma_x)/\sqrt{2}$, $B' = (\sigma_z - \sigma_x)/\sqrt{2}$ (Pauli axes at $0$, $45$, $90$, $135$ degrees on the qubit Bloch sphere); Werner-state threshold $p^* = 1/\sqrt{2}$ for CHSH violation; experimental story EPR 1935 *PR* 47, 777 thought experiment → Bell 1964 derivation → Freedman-Clauser 1972 *PRL* 28, 938 first photon test → Aspect-Grangier-Roger 1982 *PRL* 49, 91 + Aspect-Dalibard-Roger 1982 *PRL* 49, 1804 locality-closing → Rowe et al. 2001 *Nature* 409, 791 detection-loophole closing via Be$^+$ ions → 2015 loophole-free trifecta: Hensen et al. *Nature* 526, 682 (Delft NV centres, 1.3 km separation), Giustina et al. *PRL* 115, 250401 (Vienna photons), Shalm et al. *PRL* 115, 250402 (NIST Boulder photons) at $> 8\sigma$ confidence → 2022 Nobel Prize Aspect, Clauser, Zeilinger. Mermin 1990 *PRL* 65, 1838 GHZ paradox three-qubit deterministic LHV contradiction. Mermin-Peres magic square (1990) perfect-strategy quantum pseudo-telepathy game with no LHV. KCBS 2008 *PRL* 101, 020403 single-particle contextuality. Cleve-Hoyer-Toner-Watrous 2004 *J. Comput. Syst. Sci.* 69, 137 systematic theory of quantum games. Ekert 1991 *PRL* 67, 661 device-independent quantum key distribution from CHSH violation. Popescu-Rohrlich 1994 *Found. Phys.* 24, 379 PR-box correlations $p(a, b | x, y) = (1/2) \mathbb{1}[a \oplus b = x \cdot y]$ saturating algebraic $S = 4$ while respecting no-signalling. Pawlowski et al. 2009 *Nature* 461, 1101 information-causality principle implies Tsirelson bound. Hall 2010 *PRL* 105, 250404 measurement-independence loophole. Handsteiner et al. 2017 *PRL* 118, 060401 cosmic Bell test with quasar randomness for setting choices. Slofstra 2019 *Forum Math. Pi* 7, e1 quantum correlation set not closed. Ji-Natarajan-Vidick-Wright-Yuen 2020 MIP* = RE refutes Connes embedding conjecture. Brunner-Cavalcanti-Pironio-Scarani-Wehner 2014 *RMP* 86, 419 modern review. Originator chain: EPR 1935 (thought experiment) → Bohr 1935 reply → Bell 1964 inequality → CHSH 1969 testable form → Cirel'son 1980 quantum upper bound → Aspect 1981-82 first decisive violation → Rowe et al. 2001 detection-loophole → Hensen / Giustina / Shalm 2015 loophole-free trifecta → 2022 Nobel → MIP* = RE 2020 structural depth. Lean status: `none` — Mathlib has tensor products, Pauli matrices, and spectral theorem but no unified Bell-correlation framework with CHSH operator, LHV bound, Tsirelson bound proof, no-signalling polytope, PR boxes, or MIP* structural results.
+
+
+### stat-mech-physics.photon-phonon-debye-model
+
+- **title**: Photon gas, phonon gas, and the Debye model of solids
+- **unit**: `11.05.06`
+- **prerequisites**: `stat-mech-physics.bose-einstein-distribution`, `stat-mech-physics.blackbody-planck-stefan-boltzmann-wien`, `stat-mech-physics.bose-einstein-condensation`
+- **tier_anchors**:
+  - master: Landau & Lifshitz *Statistical Physics, Part 1* 3e §64-65; Pathria-Beale *Statistical Mechanics* 4e §7.3-7.4; Born-Huang *Dynamical Theory of Crystal Lattices* (Oxford 1954); Kittel *Introduction to Solid State Physics* 8e §4-5; Ziman *Electrons and Phonons* (Oxford 1960)
+  - intermediate: Reif §10; Ashcroft-Mermin Ch. 22-23; Pathria-Beale §7.3-7.4; Kittel §5
+  - beginner: Eisberg-Resnick *Quantum Physics* §11; Ashcroft-Mermin §23
+- **notes**: Sixth unit in sub-chapter 11.05. Two paradigmatic ideal gases of massless bosons with $\mu = 0$: photon gas (cavity electromagnetism, dispersion $\omega = ck$, two polarisations, unbounded spectrum) and phonon gas (lattice vibrations, dispersion $\omega = v_s k$ in Debye approximation, three polarisations per atom, cutoff $\omega_D = v_s(6\pi^2 N/V)^{1/3}$ enforcing total-mode count $3N$). Both follow Bose-Einstein occupation $n(\omega) = 1/(e^{\hbar\omega/k_BT} - 1)$. Photon thermodynamics: Stefan-Boltzmann $u = aT^4$ with $a = \pi^2 k_B^4/(15\hbar^3 c^3) \approx 7.566 \times 10^{-16}$ J/(m$^3$·K$^4$); equation of state $PV = U/3$; entropy $S = (4/3) U/T$; photon number $N \propto VT^3$. Phonon thermodynamics: Debye function $D(x) = (3/x^3)\int_0^x y^3/(e^y - 1) dy$; energy $U = 3 N k_B T\,D(T_D/T)$; high-$T$ limit Dulong-Petit $C_V \to 3 N k_B$; low-$T$ Debye $T^3$ law $C_V = (12\pi^4/5) N k_B (T/T_D)^3$. Worked tabulations: copper ($T_D \approx 343$ K), diamond ($2230$ K), silicon ($645$ K), lead ($105$ K), aluminium ($428$ K). Master tier: Einstein 1907 model ($C_V \propto (\omega_E/T)^2 e^{-\omega_E/T}$ at low $T$, exponentially small — wrong) vs Debye 1912 ($T^3$ correct); Born-von Karman 1912 exact lattice dispersion (acoustic + optical branches, first Brillouin zone, zone-boundary deviations); Grüneisen 1908 thermal expansion $\alpha V = \gamma C_V \kappa_T$ from anharmonic $-d\ln\omega/d\ln V \neq 0$; Peierls 1929 Umklapp scattering theory $\kappa \propto 1/T$ at $T \gtrsim T_D$, $\kappa$ limited by Casimir boundary scattering at low $T$; Callaway 1959 relaxation-time model; Bloch 1928 electron-phonon coupling and resistivity $\rho \propto T^5$ at $T \ll T_D$; BCS 1957 phonon-mediated superconductivity $T_c \approx 1.14\Theta_D \exp[-1/(g(E_F) V_{\rm att})]$; CMB photon-gas measurement Mather et al. 1994 *ApJ* 420, 439 at $T_0 = 2.7255$ K; Klaers et al. 2010 *Nature* 468, 545 photonic BEC in dye-filled microcavity (out-of-equilibrium, effective $\mu > 0$); Demokritov et al. 2006 magnon BEC; Kushwaha-Halevi-Dobrzynski-Djafari-Rouhani 1993 phononic crystals; Slack 1995 / Snyder-Toberer 2008 thermoelectric skutterudites and clathrates with Einstein-mode rattler atoms. Originator chain: Stefan 1879 (empirical $T^4$ law) → Boltzmann 1884 (thermodynamic derivation) → Planck 1900 (quantum hypothesis + spectral form) → Einstein 1907 (first quantum heat capacity) → Grüneisen 1908 (thermal expansion) → Debye 1912 (correct $T^3$ low-$T$ law) → Born-von Karman 1912 (exact lattice dispersion) → Bloch 1928 (electron-phonon) → Peierls 1929 (Umklapp transport) → BCS 1957 (phonon-mediated SC) → Callaway 1959 (relaxation-time transport) → Mather 1994 (COBE CMB blackbody) → Klaers 2010 (microcavity photon BEC). Lean status: `none` — Mathlib has $\zeta(2), \zeta(3), \zeta(4)$ and Lebesgue integration but lacks the photon-mode density derivation, Stefan-Boltzmann integral with controlled bounds, Debye-cutoff $3N$-mode-counting construction, Debye function with high-$T$ Dulong-Petit and low-$T$ $T^3$ limits, Born-von Karman lattice dynamics, Grüneisen relation, Peierls Umklapp transport, BCS gap equation, and bosonic Fock-space phonon ladder algebra.
+
+### harmonic-analysis.fourier-transform-plancherel
+
+- **title**: Fourier transform on R^n and the Plancherel theorem
+- **unit**: `02.10.04`
+- **prerequisites**: `harmonic-analysis.fourier-series-riemann-lebesgue`, `measure-theory.lp-spaces-holder-minkowski-completeness`, `measure-theory.fubini-tonelli-product-measures`
+- **tier_anchors**:
+  - master: Stein-Weiss *Introduction to Fourier Analysis on Euclidean Spaces* (Princeton 1971) §I-V; Hörmander *The Analysis of Linear Partial Differential Operators I* §7; Reed-Simon *Methods of Modern Mathematical Physics II* §IX; Grafakos *Classical Fourier Analysis* 3e §2-5
+  - intermediate: Stein-Shakarchi *Fourier Analysis* I §5; Folland *Real Analysis* 2e §8.3-8.4; Katznelson §VI; Stein-Weiss *Introduction to Fourier Analysis on Euclidean Spaces* §I
+  - beginner: Stein-Shakarchi *Fourier Analysis* I §5-6; Bracewell *The Fourier Transform and Its Applications* 3e §1-4; physical intuition from spectrograms and linear-system impulse responses
+- **notes**: For $f \in L^1(\mathbb{R}^n)$, the **Fourier transform** is $\hat{f}(\xi) = \int_{\mathbb{R}^n} f(x) e^{-2 \pi i \xi \cdot x} \, dx$ ($\pi$-convention, making Parseval $\|\hat{f}\|_{L^2} = \|f\|_{L^2}$ unitary without auxiliary $2\pi$-factors). The map $\mathcal{F} : L^1 \to L^\infty$ is bounded with $\|\hat{f}\|_\infty \leq \|f\|_1$. **Basic identities**: linearity, translation ($\widehat{\tau_a f}(\xi) = e^{-2\pi i \xi \cdot a} \hat{f}(\xi)$), modulation, dilation ($\widehat{D_\lambda f}(\xi) = \lambda^{-n} \hat{f}(\lambda^{-1} \xi)$), conjugation. **Riemann-Lebesgue on $\mathbb{R}^n$**: $\hat{f} \in C_0(\mathbb{R}^n)$ for $f \in L^1$, proved by density of step functions plus direct computation on indicators of rectangles. **Gaussian self-transform**: $G(x) = e^{-\pi |x|^2}$ satisfies $\hat{G} = G$, proved by completing the square plus contour shifting. **Schwartz space** $\mathcal{S}(\mathbb{R}^n)$: smooth $f$ with $\sup |x^\alpha \partial^\beta f| < \infty$ for every multi-index pair $(\alpha, \beta)$ — Fréchet space (Schwartz 1950). **Fourier inversion on Schwartz** (Theorem 3): $f(x) = \int \hat{f}(\xi) e^{2\pi i \xi \cdot x} \, d\xi$ pointwise; proof via Gaussian regularization, Fubini, and the approximate-identity convergence $f * G_t \to f$ as $t \to 0^+$. **Plancherel theorem** (Plancherel 1910 *Rend. Circ. Mat. Palermo* 30, 289): the Fourier transform extends to a unitary isomorphism $\mathcal{F} : L^2(\mathbb{R}^n) \to L^2(\mathbb{R}^n)$ via density of Schwartz space plus Riesz-Fischer completeness of $L^2$. **Hausdorff-Young inequality** (Young 1912; Hausdorff 1923): $\|\hat{f}\|_{L^{p'}} \leq \|f\|_{L^p}$ for $p \in [1, 2]$ by Riesz-Thorin interpolation between $L^1 \to L^\infty$ and $L^2 \to L^2$ endpoints; sharp constants by Beckner 1975 with Gaussian extremizers. **Convolution theorem**: $\widehat{f * g} = \hat{f} \cdot \hat{g}$ for $f, g \in L^1(\mathbb{R}^n)$, proved by Fubini-Tonelli. **Differentiation-multiplication duality** on Schwartz: $\widehat{\partial^\alpha f} = (2\pi i \xi)^\alpha \hat{f}$ (integration by parts) and $\widehat{x^\alpha f} = (-2\pi i)^{-|\alpha|} \partial^\alpha \hat{f}$ (differentiation under the integral). **Tempered distributions** $\mathcal{S}'(\mathbb{R}^n)$ (Schwartz 1950): Fourier transform extends to a continuous self-map by duality $\langle \hat{T}, \varphi \rangle = \langle T, \hat{\varphi} \rangle$; includes $\hat{\delta}_0 = 1$, $\hat{1} = \delta_0$. **Applications to linear PDEs**: heat $\partial_t u = \Delta u$ becomes $\partial_t \hat{u} = -4\pi^2 |\xi|^2 \hat{u}$ with multiplier $e^{-4\pi^2 |\xi|^2 t}$ and Gauss-Weierstrass kernel $K_t(x) = (4\pi t)^{-n/2} e^{-|x|^2/(4t)}$; wave $\partial_t^2 u = \Delta u$ becomes $\partial_t^2 \hat{u} = -4\pi^2 |\xi|^2 \hat{u}$ with $\cos(2\pi |\xi| t)$ and $\sin(2\pi |\xi| t)/(2\pi |\xi|)$ multipliers; Schrödinger $i \partial_t u = -\Delta u$ with $e^{-4\pi^2 i |\xi|^2 t}$ multiplier. **Poisson summation formula**: for $f \in \mathcal{S}(\mathbb{R})$, $\sum_n f(n) = \sum_k \hat{f}(k)$; proved by Fourier-series expansion of the periodization $F(x) = \sum_n f(x + n)$ and evaluation at $x = 0$. Applications: theta-function functional equation, Shannon sampling, Selberg trace formula, $L$-function functional equations. **Heisenberg uncertainty principle** (Heisenberg 1927; Kennard 1927): $\|x f\|_{L^2} \cdot \|\xi \hat{f}\|_{L^2} \geq 1/(4\pi)$ for $L^2$-normalized $f$, with Gaussians as the unique extremizers; proved by Cauchy-Schwarz applied to $\int x f \bar{f'}$, integration by parts, and Plancherel + differentiation-rule conversion. **Paley-Wiener support theorem** (Paley-Wiener 1934 *AMS Colloq. Publ.* 19): $f \in L^2(\mathbb{R})$ has $\hat{f}$ supported in $[-R, R]$ iff $f$ extends to an entire function of exponential type at most $2\pi R$ — band-limited functions are entire. Originator chain: Fourier 1822 (Fourier-integral representation for heat equation on infinite bar, heuristic); Cauchy 1816 + Poisson 1820 (Fourier-integral solutions of wave equations); Plancherel 1910 (the $L^2$-isometry theorem); Young 1912 + Hausdorff 1923 (Hausdorff-Young inequality); Heisenberg 1927 + Kennard 1927 (uncertainty principle); M. Riesz 1927 (Riesz-Thorin interpolation framework); Bochner 1932 (Bochner integration, Bochner's positive-measure theorem); Wiener 1933 (Wiener algebra, Tauberian theorems); Paley-Wiener 1934 (Paley-Wiener support theorem); Schwartz 1950 (tempered distributions, modern test-function framework); Beckner 1975 (sharp Hausdorff-Young constants); Hörmander 1990 (microlocal analysis, Fourier integral operators). The endpoint is the modern harmonic-analytic framework on locally compact abelian groups (Pontryagin 1934, Cartan-Godement 1947) subsuming Fourier series ($\mathbb{T} \leftrightarrow \mathbb{Z}$), Fourier transform ($\mathbb{R}^n \leftrightarrow \mathbb{R}^n$), and discrete Fourier transform ($\mathbb{Z}/N \leftrightarrow \mathbb{Z}/N$) under a single Plancherel theorem. Lean status: `partial` — Mathlib provides `Real.fourierIntegral`, `Real.fourierIntegralInv`, `Real.zero_at_infty_fourierIntegral` (Riemann-Lebesgue), `SchwartzMap` with Fréchet structure and seminorms, `SchwartzMap.fourierTransformCLM` (Schwartz isomorphism), `SchwartzMap.fourierInversion`, `MeasureTheory.fourier_isometryL2` (Plancherel), `Real.fourierIntegralL2` (unitary $L^2$-extension), `Real.fourierIntegral_convolution_eq_mul` (convolution theorem), `Real.fourierIntegral_iteratedDeriv_eq_mul_pow` (differentiation duality), `Real.tsum_eq_tsum_fourierIntegral` (Poisson summation for Schwartz), `MeasureTheory.heisenberg_uncertainty`; pedagogical-module gaps are the Fourier transform on tempered distributions `SchwartzMap.Dual` as a continuous self-map (contributor branch only), Riesz-Thorin interpolation for the intermediate Hausdorff-Young inequalities $L^p \to L^{p'}$, the Paley-Wiener support theorem (not in Mathlib as of 2026), the Paley-Wiener-Schwartz extension to tempered distributions, sharp Hausdorff-Young constants (Beckner 1975) with Gaussian extremizers, the Bochner positive-measure characterization, and the Wiener Tauberian theorems.
+
+### quantum-information.quantum-teleportation-superdense-coding
+
+- **title**: Quantum teleportation and superdense coding
+- **unit**: `12.17.07`
+- **prerequisites**: `quantum-information.density-matrix-pure-mixed-states`, `quantum-information.entanglement-schmidt-decomposition`, `quantum-information.bell-inequalities-chsh-tsirelson`, `quantum.hilbert-space-formalism`
+- **tier_anchors**:
+  - master: Nielsen & Chuang, *Quantum Computation and Quantum Information*, 10th anniv. ed. (Cambridge UP, 2010), §1.3 + §12; Wilde, *Quantum Information Theory*, 2e (Cambridge UP, 2017), §8; Bennett, Brassard, Crépeau, Jozsa, Peres & Wootters, *Phys. Rev. Lett.* 70 (1993), 1895
+  - intermediate: Nielsen & Chuang, *Quantum Computation and Quantum Information*, 10th anniv. ed. (Cambridge UP, 2010), §1.3 + §2.3; Preskill, *Lecture Notes on Quantum Computation*, Caltech Ph219, Ch. 4
+  - beginner: Nielsen & Chuang, *Quantum Computation and Quantum Information*, 10th anniv. ed. (Cambridge UP, 2010), §1.3-1.4; Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (Basic Books, 2014), §7
+- **notes**: Seventh unit of the 12.17 quantum-information sub-chapter. Bennett-Brassard-Crépeau-Jozsa-Peres-Wootters (1993) *PRL* 70, 1895 quantum teleportation: Alice with unknown $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$ and shared Bell pair $|\Phi^+\rangle$ with Bob; Bell-basis measurement on Alice's two qubits projects onto $\{|\Phi^+\rangle, |\Phi^-\rangle, |\Psi^+\rangle, |\Psi^-\rangle\}$ with uniform probability $1/4$; Bob's qubit collapses to $\{I, Z, X, X Z\} |\psi\rangle$ correspondingly; Alice sends $2$ classical bits encoding outcome; Bob applies inverse Pauli correction; Bob's qubit recovers $|\psi\rangle$ exactly. Resource ledger: $1$ ebit + $2$ cbits transmit $1$ qubit. Bennett-Wiesner (1992) *PRL* 69, 2881 superdense coding (dual protocol): $1$ ebit + $1$ qubit transmit $2$ cbits via encoding $\{(0,0), (0,1), (1,0), (1,1)\} \to \{I, Z, X, X Z\}$ generating orthogonal Bell states. Holevo bound (Holevo 1973 *Probl. Inform. Trans.* 9, 177) caps no-entanglement qubit-channel capacity at $1$ cbit/qubit; superdense coding beats this bound by consuming ebit. No-signalling property: Bob's reduced density matrix is $I/2$ (maximally mixed) until classical bits arrive, by Pauli twirl identity $(1/4)\sum_P P |\psi\rangle\langle\psi| P = I/2$. No-cloning respected: Alice's original qubit projects to $I/2$ after Bell measurement, no copy created. Experimental story: Bouwmeester-Pan-Mattle-Eibl-Weinfurter-Zeilinger (1997) *Nature* 390, 575 first photon teleportation Vienna ($25\%$ success postselected single-outcome); Boschi-Branca-De Martini-Hardy-Popescu (1998) *PRL* 80, 1121 complete-Bell-measurement variant Rome; Braunstein-Kimble (1998) *PRL* 80, 869 continuous-variable theory + Furusawa-Sorensen-Braunstein-Fuchs-Kimble-Polzik (1998) *Science* 282, 706 first CV teleportation Caltech at $F = 0.58$ above classical bound $0.5$; Riebe et al. (2004) *Nature* 429, 734 Innsbruck + Barrett et al. (2004) *Nature* 429, 737 NIST Boulder first deterministic atomic-ion teleportations; Ren et al. (2017) *Nature* 549, 70 ground-to-Micius-satellite teleportation $1400$ km from Tibet; Yin et al. (2017) *Science* 356, 1140 satellite-based entanglement distribution $1200$ km. Zukowski-Zeilinger-Horne-Ekert (1993) *PRL* 71, 4287 entanglement swapping: Bell measurement on shared bipartite Bell-pair chain entangles Alice and Charlie despite no direct interaction; primitive of quantum repeaters Briegel-Dür-Cirac-Zoller (1998) *PRL* 81, 5932 breaking exponential fibre-loss scaling. Gottesman-Chuang (1999) *Nature* 402, 390 teleportation through modified Bell pairs $(U \otimes I)|\Phi^+\rangle$ implements arbitrary unitary $U$, founding measurement-based quantum computation. Raussendorf-Briegel (2001) *PRL* 86, 5188 one-way quantum computer on cluster states. Devetak-Harrow-Winter (2004) *PRL* 93, 230504 mother-of-all-protocols resource-theoretic unification. Kimble (2008) *Nature* 453, 1023 quantum internet vision; Wehner-Elkouss-Hanson (2018) *Science* 362, 6412 quantum-internet architectural layers. Device-independent teleportation certifies security from CHSH violation [12.17.03]. Originator chain: Bennett-Wiesner 1992 superdense → BBCJPW 1993 teleportation + ZZHE 1993 swapping → Bouwmeester 1997 first experiment → Boschi 1998 + Furusawa 1998 → Gottesman-Chuang 1999 MBQC → Riebe/Barrett 2004 deterministic → Devetak-Harrow-Winter 2004 mother protocol → Ren/Yin 2017 Micius satellite → Wehner-Elkouss-Hanson 2018 quantum internet. Lean status: `none` — Mathlib has tensor products + Pauli matrices + unitary group but no formal teleportation framework with Bell basis, Bell measurement, state-rewriting identity, Pauli-correction unitaries, fidelity certificate, superdense encoding, and Holevo bound.
+
+### number-theory.quadratic-residues-legendre-symbol
+
+- **title**: Quadratic residues, the Legendre symbol, and Euler's criterion
+- **unit**: `21.01.06`
+- **prerequisites**: `number-theory.congruences-crt-znz`, `number-theory.fermat-euler-wilson-theorems`, `number-theory.primitive-roots-znz-units`
+- **tier_anchors**:
+  - master: Gauss 1801 *Disquisitiones Arithmeticae* arts. 95-152 (originator: definitions of quadratic residue and non-residue, Legendre symbol, Euler's criterion, Gauss's lemma, the two supplementary laws, the first complete proof of quadratic reciprocity — the theorema aureum); Euler 1744 *Comm. Acad. Petrop.* 14, 151 (special-case conjectures of reciprocity for divisors of $p a^2 + q b^2$); Legendre 1798 *Essai sur la théorie des nombres* (statement of the law and partial proof); Jacobi 1837 *J. reine angew. Math.* 30, 166 (Jacobi symbol and Jacobi reciprocity); Eisenstein 1844 *J. reine angew. Math.* 27, 289 (cubic and biquadratic reciprocity); Hilbert 1897 *Jahresber. DMV* 4, 175 (Hilbert symbol, product formula, 9th problem); Takagi 1920 *J. Coll. Sci. Tokyo* 41, 1 (class field theory for abelian extensions); Artin 1927 *Hamb. Abh.* 5, 353 (Artin reciprocity, modern formulation); Tonelli 1891 *Göttinger Nachr.*; Shanks 1972 *Proc. Manitoba* (Tonelli-Shanks square-root algorithm); Goldwasser-Micali 1982 *STOC* 365 (probabilistic encryption from quadratic-residuosity); Lemmermeyer 2000 *Reciprocity Laws* (300+ proofs of QR catalogued); Hardy-Wright 2008 6e §§V-VII
+  - intermediate: Ireland-Rosen 1990 *A Classical Introduction to Modern Number Theory* (Springer GTM 84, 2e) §5 (Legendre symbol, Euler's criterion, Gauss's lemma, the two supplementary laws); Apostol 1976 *Introduction to Analytic Number Theory* §9
+  - beginner: Burton 2010 *Elementary Number Theory* 7e §9 (quadratic residues, Legendre symbol, Euler's criterion with worked tables modulo small primes); Khan Academy 'Modular arithmetic' module
+- **notes**: A **quadratic residue modulo a prime $p$** is a nonzero residue that is the square of some integer modulo $p$; the **Legendre symbol** $(a/p) \in \{-1, 0, +1\}$ records the quadratic-residue status of $a$. **Euler's criterion** (Euler 1748, Gauss 1801 art. 106) is the signature theorem: $(a/p) \equiv a^{(p - 1)/2} \pmod p$, proved by exhibiting $g^{(p - 1)/2} = -1$ for a primitive root $g$ of $(\mathbb{Z}/p)^\times$ and using the cyclic structure from [21.01.05]. The squaring homomorphism $\sigma_p : (\mathbb{Z}/p)^\times \to (\mathbb{Z}/p)^\times$, $x \mapsto x^2$, has kernel $\{\pm 1\}$ and image $\mathrm{QR}_p$ of index $2$, so exactly $(p - 1)/2$ nonzero residues are squares. The Legendre symbol is the unique non-identity character $(\mathbb{Z}/p)^\times \to \{\pm 1\}$ with multiplicative property $(ab/p) = (a/p)(b/p)$. **Gauss's lemma** (art. 106): $(a/p) = (-1)^\mu$ where $\mu$ counts the residues of $\{a, 2a, \ldots, ((p - 1)/2) a\}$ exceeding $p/2$. **First supplementary law**: $(-1/p) = +1$ iff $p \equiv 1 \pmod 4$ (Fermat-Euler characterisation of sums of two squares). **Second supplementary law**: $(2/p) = (-1)^{(p^2 - 1)/8}$, i.e., $+1$ iff $p \equiv \pm 1 \pmod 8$. **Quadratic reciprocity** (Gauss 1801, theorema aureum): $(p/q)(q/p) = (-1)^{((p - 1)/2)((q - 1)/2)}$ for distinct odd primes — full proof and 300+ historical proofs catalogued in [21.01.07] and Lemmermeyer 2000. Originator chain: Euler 1744 (special-case conjectures via $p a^2 + q b^2$); Legendre 1798 (statement, incomplete proof depending on Dirichlet's theorem); Gauss 1801 arts. 125-152 (first complete proof via induction, plus seven more proofs in *Werke* II); Jacobi 1837 (Jacobi symbol generalisation, binary $O((\log n)^2)$ algorithm); Eisenstein 1844-47 (cubic/biquadratic reciprocity in $\mathbb{Z}[\zeta_3]$, $\mathbb{Z}[i]$; lattice-point-counting proof of QR); Hilbert 1897 *Zahlbericht* (Hilbert symbol, product formula, 9th problem); Takagi 1920 (class field theory for abelian extensions); Artin 1927 (Artin reciprocity, Frobenius-isomorphism formulation). The non-abelian generalisation is the Langlands programme. Applied: Tonelli 1891 + Shanks 1972 modular-square-root algorithm — standard in ECDSA, EdDSA, BLS12-381; Goldwasser-Micali 1982 founding semantically-secure public-key encryption from quadratic-residuosity assumption (modern provable-security paradigm); quadratic sieve (Pomerance 1985) second-fastest classical integer factorisation. Lean status: `none` — Mathlib has `ZMod.legendreSym`, `ZMod.euler_criterion`, `ZMod.quadraticReciprocity`, `ZMod.legendreSym_two`, `ZMod.legendreSym_neg_one`; pedagogical-module gaps are the Tonelli-Shanks constructive algorithm, the binary Jacobi-symbol algorithm, Goldwasser-Micali security reduction, the Hilbert-symbol bridge and Artin reciprocity for $\mathbb{Q}(\sqrt{p^*})/\mathbb{Q}$, Eisenstein lattice-point proof, cubic/biquadratic reciprocity.
+
+
+### harmonic-analysis.fourier-series-riemann-lebesgue
+
+- **title**: Fourier series and the Riemann-Lebesgue lemma
+- **unit**: `02.10.01`
+- **prerequisites**: `measure-theory.lebesgue-integral-monotone-convergence`, `measure-theory.fatou-lemma-dominated-convergence`, `measure-theory.lp-spaces-holder-minkowski-completeness`, `functional-analysis.inner-product-space`
+- **tier_anchors**:
+  - master: Zygmund *Trigonometric Series* (Cambridge 3e 2002) Ch. I-VIII; Katznelson *An Introduction to Harmonic Analysis* 3e Ch. I-II; Stein-Shakarchi *Fourier Analysis* I (Princeton 2003) §4-6
+  - intermediate: Stein-Shakarchi *Fourier Analysis* I §2-3; Katznelson §I; Folland *Real Analysis* 2e §8.5
+  - beginner: Stein-Shakarchi *Fourier Analysis* I §1-2; physical motivation from Fourier 1822 *Théorie analytique de la chaleur* and the vibrating string
+- **notes**: Anchor unit of sub-chapter 02.10 (harmonic analysis). For $f \in L^1([-\pi, \pi])$ extended $2\pi$-periodically, the **Fourier coefficients** in complex-exponential form are $\hat{f}(n) = (2\pi)^{-1} \int_{-\pi}^{\pi} f(x) e^{-i n x} \, dx$ for $n \in \mathbb{Z}$, and the **Fourier series** is the formal expansion $f(x) \sim \sum_{n} \hat{f}(n) e^{i n x}$. Equivalent sine-cosine form: $a_n = \pi^{-1} \int_{-\pi}^{\pi} f \cos(n x) \, dx$, $b_n = \pi^{-1} \int_{-\pi}^{\pi} f \sin(n x) \, dx$. Worked examples: the sawtooth $f(x) = x$ has $b_n = 2 (-1)^{n+1}/n$ (sine-only by oddness); the square wave $g(x) = \pm 1$ has Fourier series $(4/\pi) \sum_{n \, \text{odd}} \sin(n x)/n$. **Riemann-Lebesgue lemma** (Riemann 1854 *Habilitationsschrift*; Lebesgue 1903 *Ann. ENS* (3) 20, 453): for $f \in L^1([-\pi, \pi])$, $\hat{f}(n) \to 0$ as $|n| \to \infty$; proof via density of step functions in $L^1$, direct computation $b_n(\chi_{[a, b]}) = (\cos(n a) - \cos(n b))/(\pi n)$ on indicators, plus triangle inequality. **Dirichlet kernel** $D_N(x) = \sum_{|n| \leq N} e^{i n x} = \sin((N + 1/2) x)/\sin(x/2)$ giving convolution representation $S_N f = f * D_N$; sign-changing, with Lebesgue constants $L_N = \|D_N\|_{L^1}/(2\pi) \sim (4/\pi^2) \log N$. **Fejér kernel** $F_N(x) = (N+1)^{-1} \sum_{k \leq N} D_k(x) = (N+1)^{-1} (\sin((N+1) x/2)/\sin(x/2))^2 \geq 0$ giving Cesàro means $\sigma_N f = f * F_N$. **Bessel inequality** $\sum_{|n| \leq N} |\hat{f}(n)|^2 \leq \|f\|_{L^2}^2/(2\pi)$ (Bessel 1828, abstract Hilbert form Hilbert 1906). **$L^2$-convergence**: $\|S_N f - f\|_{L^2} \to 0$ for $f \in L^2(\mathbb{T})$ via completeness of trigonometric system. **Parseval identity**: $\sum_n |\hat{f}(n)|^2 = (2\pi)^{-1} \|f\|_{L^2}^2$; sawtooth application yields Basel $\sum 1/n^2 = \pi^2/6$. **Dirichlet pointwise convergence** (Dirichlet 1829 *J. reine angew. Math.* 4, 157): piecewise $C^1$ implies $S_N f(x_0) \to (f(x_0^+) + f(x_0^-))/2$ at every $x_0$; proof via small-$t$/large-$t$ splitting of the Dirichlet convolution integral plus localised Riemann-Lebesgue. **Fejér's theorem** (Fejér 1900 *C. R. Acad. Sci. Paris* 131, 984): for $f \in C(\mathbb{T})$, $\sigma_N f \to f$ uniformly; proof uses non-negativity of $F_N$ as an approximate identity. Density corollary: trigonometric polynomials dense in $C(\mathbb{T})$ and in $L^p(\mathbb{T})$ for $p < \infty$. Master tier: **Du Bois-Reymond counterexample** (1876 *Abh. Bayer. Akad.* 12, 1): continuous $f$ with $S_N f(0)$ unbounded, modern proof via Banach-Steinhaus on Lebesgue constants $L_N \to \infty$; **Kolmogorov divergence** (1923 *C. R. Paris* 178, 303; sharpened 1926 *Fund. Math.* 7) gives $f \in L^1$ with everywhere-divergent Fourier series. **Carleson-Hunt theorem** (Carleson 1966 *Acta Math.* 116, 135; Hunt 1968 *Proc. Conf. Edwardsville*): $L^p(\mathbb{T})$ Fourier series converge almost everywhere for $p > 1$; resolves Luzin's 1915 conjecture via time-frequency wave-packet decomposition. **Hardy-Littlewood maximal estimate** (1928 *Acta Math.* 54, 81) bounds $S^* f$ on $L^p$ for $p > 1$. **M. Riesz conjugate function theorem** (1927 *Math. Z.* 27, 218): Hilbert transform $L^p$-bounded for $p \in (1, \infty)$, foundational to Calderón-Zygmund 1952. **Plancherel bridge** (1910 *Rend. Circ. Mat. Palermo* 30, 289): Fourier series on $\mathbb{T}$ extends to Fourier transform on $\mathbb{R}$ as unitary $L^2(\mathbb{R}) \to L^2(\mathbb{R})$ isomorphism. Unified harmonic-analytic framework: Pontryagin duality on locally compact abelian groups subsumes Fourier series ($\mathbb{T} \leftrightarrow \mathbb{Z}$), Fourier transform ($\mathbb{R} \leftrightarrow \mathbb{R}$), discrete Fourier transform ($\mathbb{Z}/N \leftrightarrow \mathbb{Z}/N$). Modern Lacey-Thiele (2000 *Math. Res. Lett.* 7, 361) reformulation of Carleson as bilinear-maximal estimate. Originator chain: Fourier 1807-1822 (heuristic claim, heat equation); Dirichlet 1829 (first convergence proof, Dirichlet kernel); Riemann 1854 (Riemann integral, vanishing-coefficients precursor); Du Bois-Reymond 1876 (divergence counterexample); Fejér 1900 (Cesàro summability); Lebesgue 1903 (Lebesgue integral, full Riemann-Lebesgue); Hilbert 1906 + Riesz-Fischer 1907 (Hilbert-space framework); Plancherel 1910 (Fourier transform on $\mathbb{R}$); Kolmogorov 1923 (negative $L^1$-result); M. Riesz 1927 (Hilbert transform); Hardy-Littlewood 1928 (maximal estimate); Carleson 1966 + Hunt 1968 (a.e.-convergence $L^p$, $p > 1$); Lacey-Thiele 2000 (modern time-frequency proof). Lean status: `partial` — Mathlib provides `MeasureTheory.fourier`, `MeasureTheory.fourierCoeff`, `MeasureTheory.fourierSeries`, `MeasureTheory.fourierSeries_l2_convergesTo` ($L^2$-completeness), `MeasureTheory.dirichletKernel`, `MeasureTheory.fejerKernel`, `Real.zero_at_infty_fourierIntegral` (Riemann-Lebesgue for $\mathbb{R}$); pedagogical-module gaps are Dirichlet pointwise convergence under $C^1$-regularity, Fejér uniform convergence for continuous $f$, Du Bois-Reymond counterexample via Banach-Steinhaus, Kolmogorov $L^1$-divergence, Carleson-Hunt almost-everywhere convergence (no formalisation in Mathlib as of 2026).
+
+### number-theory.quadratic-reciprocity
+
+- **title**: Quadratic reciprocity (Gauss's theorema aureum)
+- **unit**: `21.01.07`
+- **prerequisites**: `number-theory.fermat-euler-wilson-theorems`, `number-theory.primitive-roots-znz-units`, `number-theory.quadratic-residues-legendre-symbol`
+- **tier_anchors**:
+  - master: Gauss 1801 *Disquisitiones Arithmeticae* arts. 125-152 (originator: first complete proof of quadratic reciprocity by induction, the theorema aureum); Gauss 1808 *Theorematis arithmetici demonstratio nova* (third proof via Gauss's lemma and absolute-residue counting); Gauss 1818 *Werke* II, 47-64 (fourth/fifth/sixth proofs including the Gauss-sum proof); Eisenstein 1845 *J. reine angew. Math.* 28, 246 (geometric lattice-point counting proof — canonical textbook proof); Eisenstein 1844 *Crelle* 27, 289 (cubic and biquadratic reciprocity in $\mathbb{Z}[\zeta_3]$ and $\mathbb{Z}[i]$); Dirichlet 1854 / Dedekind 1894 *Vorlesungen über Zahlentheorie* (Gauss-sum proof using cyclotomic fields); Hilbert 1897 *Jahresber. DMV* 4, 175 (Hilbert symbol and the product formula); Hilbert 1900 ICM Paris (9th problem on general reciprocity); Takagi 1920 *J. Coll. Sci. Tokyo* 41, 1 (class field theory for abelian extensions); Artin 1927 *Hamb. Abh.* 5, 353 (Artin reciprocity, modern formulation); Furtwängler 1909 *Math. Ann.* 67, 1 (Eisenstein reciprocity for $\ell$-th power residue symbol); Lemmermeyer 2000 *Reciprocity Laws: From Euler to Eisenstein* (catalogue of 300+ independent proofs); Ireland-Rosen 1990 *A Classical Introduction to Modern Number Theory* §§5-6; Serre 1973 *A Course in Arithmetic* Ch. I §3
+  - intermediate: Ireland-Rosen 1990 *A Classical Introduction to Modern Number Theory* (Springer GTM 84, 2e) §5.2-5.3 (statement of QR, proof via Gauss's lemma and Eisenstein's lattice-point counting, the Jacobi-symbol generalisation); Apostol 1976 *Introduction to Analytic Number Theory* §9.6-9.7; Niven-Zuckerman-Montgomery 1991 *An Introduction to the Theory of Numbers* 5e §3.2-3.3
+  - beginner: Burton 2010 *Elementary Number Theory* 7e §9.3 (statement of quadratic reciprocity with worked examples, supplementary laws restated, step-by-step computation via the reciprocity flip); Khan Academy 'Modular arithmetic — quadratic reciprocity' module
+- **notes**: The **law of quadratic reciprocity** (Gauss 1801, the **theorema aureum**) states that for distinct odd primes $p, q$, $(p/q)(q/p) = (-1)^{((p - 1)/2)((q - 1)/2)}$; equivalently, $(p/q) = (q/p)$ unless $p \equiv q \equiv 3 \pmod 4$, in which case $(p/q) = -(q/p)$. Together with the two **supplementary laws** $(-1/p) = (-1)^{(p - 1)/2}$ and $(2/p) = (-1)^{(p^2 - 1)/8}$ from [21.01.06], reciprocity gives a complete algorithm for computing any Legendre symbol $(a/p)$ in $O((\log p)^2)$ bit operations — far faster than searching for square roots. Gauss discovered the law in April 1796 as a $19$-year-old (mathematical diary entry of 19 April 1796: "Per inductionem inveni 24 Mart. 1796"), produced eight independent proofs over his lifetime, and called it the **theorema aureum** — the golden theorem. By 2026, more than $345$ independent proofs are known (Lemmermeyer 2000 running count). The canonical modern textbook proof is **Eisenstein's geometric lattice-point counting** (Eisenstein 1845): count integer points strictly under the line of slope $q/p$ inside the rectangle $[1, (p - 1)/2] \times [1, (q - 1)/2]$ in two ways, with $\mu(q, p) \equiv \sum_{j} \lfloor j q / p \rfloor \pmod 2$ from Gauss's lemma controlling $(q/p)$ via columns and the symmetric sum controlling $(p/q)$ via rows; the two sums add to $((p - 1)/2)((q - 1)/2)$. Alternative routes: **Gauss-sum proof** via $\tau(\chi_p)^2 = (-1)^{(p - 1)/2} p$ and the Frobenius modulo $q$ in $\mathbb{Z}[\zeta_p]$; **Hilbert-symbol product-formula proof** via $\prod_v (p, q)_v = 1$ at the places of $\mathbb{Q}$ (Serre 1973). The **Jacobi-symbol extension** $(a/n) = \prod_i (a/p_i)^{e_i}$ for $n$ odd positive composite satisfies the same reciprocity law $(m/n)(n/m) = (-1)^{((m - 1)/2)((n - 1)/2)}$ for $m, n$ odd coprime positive, enabling the **binary Jacobi-symbol algorithm** that computes $(a/n)$ in $O((\log n)^2)$ time without factoring $n$ (used in OpenSSL, GMP, every cryptographic library). Originator chain: Euler 1744 (special-case conjectures via divisors of $p a^2 + q b^2$); Legendre 1798 (statement, incomplete proof depending on the unproven Dirichlet theorem); Gauss 1801 arts. 125-152 (first complete proof by induction, plus seven more proofs in *Werke* II); Jacobi 1837 (Jacobi-symbol generalisation, binary algorithm); Eisenstein 1844-45 (cubic and biquadratic reciprocity in $\mathbb{Z}[\zeta_3]$ and $\mathbb{Z}[i]$; lattice-point-counting proof of QR); Dirichlet 1854 / Dedekind 1894 (Gauss-sum proof); Hilbert 1897 *Zahlbericht* (Hilbert symbol and product formula); Hilbert 1900 9th problem (general reciprocity); Furtwängler 1909 (Eisenstein reciprocity for $\ell$-th powers); Takagi 1920 (class field theory for abelian extensions); Artin 1927 (Artin reciprocity, Frobenius-isomorphism formulation). The non-abelian generalisation is the Langlands programme (Langlands 1967; Wiles-Taylor 1995 modularity theorem as the first non-abelian Langlands reciprocity). Applied: binary Jacobi-symbol algorithm in primality testing (Solovay-Strassen 1977) and elliptic-curve point decompression (ECDSA, EdDSA, BLS12-381); Goldwasser-Micali 1982 founding semantically-secure public-key encryption from quadratic-residuosity; Pomerance 1985 quadratic sieve (second-fastest classical integer-factorisation algorithm) using smooth values of $f(x) = x^2 - n$ and the Legendre-symbol multiplicative structure. Lean status: `none` — Mathlib has `ZMod.quadraticReciprocity`, `ZMod.quadraticReciprocity_one_mod_four`, `ZMod.quadraticReciprocity_three_mod_four_three_mod_four`, `ZMod.legendreSym_two`, `ZMod.legendreSym_neg_one`, `ZMod.jacobiSym`, `ZMod.jacobiSym_quadraticReciprocity`, `gaussSum_sq`; pedagogical-module gaps are the constructive Eisenstein lattice-point proof, the binary Jacobi-symbol algorithm with constructive output, the Hilbert-symbol product formula, cubic/biquadratic reciprocity in cyclotomic integers, and the Artin reciprocity map for $\mathbb{Q}(\sqrt{p^*})/\mathbb{Q}$ with the Frobenius identification $\mathrm{Frob}_q \mapsto (p^*/q)$.
+
+
+### quantum.adiabatic-theorem
+
+- **title**: Adiabatic theorem and Berry phase preview
+- **unit**: `12.07.07`
+- **prerequisites**: `quantum.hilbert-space-formalism` (12.02.01), `quantum.operators-observables-hermiticity` (12.02.02), `quantum.time-dependent-perturbation-theory` (12.07.02)
+- **tier_anchors**:
+  - master: Born & Fock 1928 *Z. Phys.* 51, 165 (originator: first proof of the adiabatic theorem via eigenstate-amplitude expansion and integration by parts on oscillating exponentials); Kato 1950 *J. Phys. Soc. Japan* 5, 435 (rigorous projector-formalism proof with parallel-transport auxiliary Hamiltonian $H_K(s) = H(s) + (i\hbar/T)[P_n'(s), P_n(s)]$); Berry 1984 *Proc. R. Soc. A* 392, 45 (the geometric phase: spin-1/2 in a rotating field gives half the solid angle, curvature formula via inverse-squared gap sum); Simon 1983 *Phys. Rev. Lett.* 51, 2167 (identification of Berry connection with natural geometric connection on spectral line bundle); Wilczek & Zee 1984 *Phys. Rev. Lett.* 52, 2111 (non-abelian Berry connection for degenerate subspaces, $U(d)$ gauge structure, holonomy as path-ordered exponential); Landau 1932 *Phys. Z. Sowjetunion* 2, 46 + Zener 1932 *Proc. R. Soc. A* 137, 696 (Landau-Zener formula $P_{\rm LZ} = \exp(-2\pi\Delta^2/\hbar\alpha)$ for two-level avoided crossing); Hagedorn 1988/1993 *Comm. Math. Phys.* 152, 1 + Nenciu 1993 *Comm. Math. Phys.* 152, 479 (super-adiabatic theorem: $e^{-cT}$ error for analytic Hamiltonians); Farhi-Goldstone-Gutmann-Sipser 2000 arXiv:quant-ph/0001106 (adiabatic quantum computation); Aharonov-van Dam-Kempe-Landau-Lloyd-Regev 2007 (equivalence to gate-based quantum circuits); Zanardi-Rasetti 1999 *Phys. Lett. A* 264, 94 (holonomic quantum computation); TKNN 1982 *Phys. Rev. Lett.* 49, 405 (Hall conductance as Berry-curvature integral over Brillouin zone); Messiah *Quantum Mechanics* Vol. II Ch. XVII; Teufel 2003 *Adiabatic Perturbation Theory in Quantum Dynamics* (Springer LNM 1821 canonical monograph); Kato 1966 *Perturbation Theory for Linear Operators*; Bornemann 1998 *Homogenization in Time* (Springer LNM 1687)
+  - intermediate: Griffiths & Schroeter 2018 *Introduction to Quantum Mechanics* 3e Ch. 11.1-11.2; Sakurai & Napolitano 2017 *Modern Quantum Mechanics* 2e Ch. 5.6 (adiabatic theorem statement, Berry phase definition, spin-1/2 worked example, Landau-Zener mention)
+  - beginner: Griffiths & Schroeter 2018 *Introduction to Quantum Mechanics* 3e Ch. 11.1 opening (the slowly stretched box and adiabatic following)
+- **notes**: Develops the adiabatic theorem of Born-Fock 1928 with the modern Kato 1950 projector-formalism proof: for a slowly varying self-adjoint Hamiltonian $H(s)$ with isolated non-degenerate eigenvalue $E_n(s)$ separated by a spectral gap $g > 0$, the system prepared in the n-th instantaneous eigenstate stays in the n-th instantaneous eigenstate up to an $O(1/T)$ error where $T$ is the total protocol time. The Kato auxiliary Hamiltonian $H_K(s) = H(s) + (i\hbar/T)[P_n'(s), P_n(s)]$ generates a parallel-transport propagator $U_K$ that intertwines the eigenprojector: $P_n(s) U_K(s, 0) = U_K(s, 0) P_n(0)$. The true Schrodinger propagator differs from $U_K$ by an $O(1/T)$ operator, with the constant depending on $\|H'\|^2/g^2$ and $\|H''\|/g^2$. The Born-Fock decomposition $|\psi(s)\rangle = e^{i\phi_n^{\rm dyn} + i\gamma_n^{\rm geom}}|n(s)\rangle + O(1/T)$ separates the dynamical phase $\phi_n^{\rm dyn} = -(1/\hbar)\int E_n dt'$ from the geometric Berry phase $\gamma_n^{\rm geom} = i\int\langle n|dn/ds'\rangle ds'$. Berry 1984 identified the latter as a gauge-invariant holonomy of the natural $U(1)$ connection on the spectral line bundle over parameter space, with curvature $\mathbf{B}_n(\mathbf{R}) = i\sum_{m\neq n}\langle n|\nabla H|m\rangle\times\langle m|\nabla H|n\rangle/(E_m - E_n)^2$ (inverse-squared gap sum, with Dirac-monopole singularities at degeneracies). The prototype is spin-1/2 in a rotating magnetic field: Berry phase equals minus half the solid angle subtended on the unit sphere, $\gamma = -\Omega/2$, with the spinor sign flip under a full rotation as the topological signature. Wilczek-Zee 1984 generalised to degenerate subspaces with non-abelian $U(d)$ connection $A_{ab,\mu} = i\langle n_a|\partial_\mu n_b\rangle$, gauge transformation $A_\mu \to U^\dagger A_\mu U + iU^\dagger\partial_\mu U$, and holonomy as path-ordered exponential $\mathcal{P}\exp(i\oint A_\mu dR^\mu) \in U(d)$. The Landau-Zener 1932 formula $P_{\rm LZ} = \exp(-2\pi\Delta^2/\hbar\alpha)$ governs the non-adiabatic transition at an avoided crossing of two-level Hamiltonian $H(t) = \alpha t\sigma_z + \Delta\sigma_x$ with minimum gap $2\Delta$ and sweep velocity $\alpha$: slow-sweep limit gives perfect adiabatic following, fast-sweep gives the diabatic sudden limit. Applications: molecular Born-Oppenheimer approximation (Born-Oppenheimer 1927) with electron-to-nucleus mass ratio $m_e/M_{\rm nuc}$ as the small parameter, with first-correction molecular Aharonov-Bohm phase at conical intersections (Mead-Truhlar 1979); adiabatic quantum computation (Farhi-Goldstone-Gutmann-Sipser 2000) interpolating $H(s) = (1-s)H_0 + sH_P$ with runtime $T \sim 1/g_{\min}^2$, equivalent to gate-based circuit model (Aharonov-van Dam-Kempe-Landau-Lloyd-Regev 2007), implemented in D-Wave annealer; holonomic quantum computation (Zanardi-Rasetti 1999) with non-abelian Berry holonomy as gate primitive, intrinsic timing-error robustness; integer quantum Hall conductance as Berry-curvature integral over Brillouin zone (Thouless-Kohmoto-Nightingale-den Nijs 1982); topological insulator $\mathbb{Z}_2$ invariants (Kane-Mele 2005, Bernevig-Hughes-Zhang 2006); open-system generalisation (Sarandy-Lidar 2005, Albash-Lidar 2012) requiring protocol time exceed both inverse gap and bath equilibration; super-adiabatic theorem (Nenciu 1993, Hagedorn 1988/1993) upgrading $O(1/T)$ to $e^{-cT}$ for analytic Hamiltonians, the analytic analogue of Nekhoroshev's classical exponential-stability theorem. Originator chain: Ehrenfest 1916 (classical adiabatic invariance) → Born-Fock 1928 (first quantum proof) → Born-Oppenheimer 1927 (molecular approximation) → Landau 1932 + Zener 1932 (avoided-crossing formula) → Kato 1950 (rigorous projector proof) → Simon 1983 (geometric reformulation) → Berry 1984 (geometric phase) → Wilczek-Zee 1984 (non-abelian holonomy) → Aharonov-Anandan 1987 (non-adiabatic cyclic phase) → Nenciu 1993 + Hagedorn 1988/93 (super-adiabatic) → Farhi-Goldstone-Gutmann 2000 (adiabatic quantum computation) → Aharonov et al. 2007 (equivalence to gate model). Lean status: `none` — Mathlib has the unperturbed unitary exponential, the spectral theorem for bounded normal operators on finite-dimensional Hilbert space, the resolvent and contour-integral representations of eigenprojectors, and continuous operator-valued functions, but lacks the time-dependent Schrodinger propagator $U(s, 0)$ as solution of an operator-valued Volterra equation, the Kato auxiliary Hamiltonian with parallel-transport intertwining, the $O(1/T)$ operator-norm bound, and the Berry phase as path integral of $i\langle n|dn\rangle$. A first deliverable would be the finite-dimensional adiabatic theorem from the analytic-perturbation-theory infrastructure already in Mathlib; the operator-norm bound for compact self-adjoint $H(s)$ and the full Berry-connection differential-geometric apparatus sit at higher altitude awaiting Hilbert-bundle, connection-on-vector-bundle, and Stokes-theorem-on-manifolds infrastructure development.
+
+
+### quantum.berry-phase-geometric-phase
+
+- **title**: Berry phase and the geometric phase
+- **unit**: `12.07.08`
+- **prerequisites**: `quantum.adiabatic-theorem` (12.07.07), `quantum.hilbert-space-formalism` (12.02.01), `quantum.angular-momentum-operators-su2` (12.05.01)
+- **tier_anchors**:
+  - master: Berry 1984 *Proc. R. Soc. A* 392, 45 (originator: geometric phase identification, gap-resolved curvature formula, spin-1/2 half-solid-angle prototype); Simon 1983 *Phys. Rev. Lett.* 51, 2167 (bundle-theoretic reformulation as natural connection on spectral line bundle); Wilczek & Zee 1984 *Phys. Rev. Lett.* 52, 2111 (non-abelian $U(d)$ holonomy on degenerate subspaces); Pancharatnam 1956 *Proc. Indian Acad. Sci. A* 44, 247 (optical precursor: half-area-of-triangle on Poincare sphere of polarisations, 30 years before Berry); Aharonov & Bohm 1959 *Phys. Rev.* 115, 485 (precursor: electron loop around flux tube picks up $e\Phi/\hbar$ phase, the first observed Berry phase); Mead & Truhlar 1979 *J. Chem. Phys.* 70, 2284 (molecular Aharonov-Bohm: $\pi$ Berry phase around conical intersection of adiabatic electronic surfaces); Longuet-Higgins 1958 *Proc. R. Soc. A* 244, 1 (sign theorem for adiabatic real eigenstates, the Jahn-Teller precursor); Aharonov & Anandan 1987 *Phys. Rev. Lett.* 58, 1593 (non-adiabatic cyclic phase on $\mathbb{CP}^N$ via tautological line bundle); TKNN 1982 *Phys. Rev. Lett.* 49, 405 (integer Hall conductance as first Chern number of Bloch line bundle over Brillouin zone); Karplus & Luttinger 1954 *Phys. Rev.* 95, 1154 (anomalous Hall effect from band-structure Berry curvature, predating Berry by 30 years); Kane & Mele 2005 *Phys. Rev. Lett.* 95, 146802 + Bernevig-Hughes-Zhang 2006 *Science* 314, 1757 + Fu-Kane-Mele 2007 *Phys. Rev. Lett.* 98, 106803 ($\mathbb{Z}_2$ topological insulators); Schnyder-Ryu-Furusaki-Ludwig 2008 *Phys. Rev. B* 78, 195125 + Kitaev 2009 *AIP Conf. Proc.* 1134, 22 (periodic table of topological phases via K-theory); Zanardi & Rasetti 1999 *Phys. Lett. A* 264, 94 (holonomic quantum computation using non-abelian Berry holonomy as gate primitive with intrinsic timing-error robustness); Shapere & Wilczek (eds.) 1989 *Geometric Phases in Physics* (World Scientific canonical reprint volume); Bohm-Mostafazadeh-Koizumi-Niu-Zwanziger 2003 *The Geometric Phase in Quantum Systems* (Springer textbook); Nakahara 2003 *Geometry, Topology, and Physics* 2e (mathematical-geometric foundations); Xiao-Chang-Niu 2010 *Rev. Mod. Phys.* 82, 1959 (review of Berry-phase effects on electronic properties)
+  - intermediate: Berry 1984 *Proc. R. Soc. A* 392, 45-57 (the originating paper, accessible derivation and spin-1/2 worked example); Sakurai & Napolitano 2017 *Modern Quantum Mechanics* 2e Ch. 5.6 (textbook treatment with Berry phase and curvature formula); Griffiths & Schroeter 2018 *Introduction to Quantum Mechanics* 3e Ch. 11.2 (Berry phase as $\oint i\langle n|dn\rangle$ with spin-1/2 worked example yielding half solid angle)
+  - beginner: Berry 1984 *Proc. R. Soc. A* 392, 45 (the originating paper, opening pages); Griffiths & Schroeter 2018 *Introduction to Quantum Mechanics* 3e Ch. 11.2 (gentle introduction with Foucault-pendulum analogue and spin-1/2 sign-flip example)
+- **notes**: Develops the Berry geometric phase as the holonomy of the natural $U(1)$ connection on the spectral line bundle over the parameter manifold of a Hamiltonian. The **Berry connection** on a smooth manifold $\mathcal{M}$ of control parameters is the real one-form $\mathbf{A}_n(\mathbf{R}) = i\langle n(\mathbf{R})|d n(\mathbf{R})\rangle$ defined from a smooth family $|n(\mathbf{R})\rangle$ of normalised eigenstates of $H(\mathbf{R})$ with isolated non-degenerate eigenvalue $E_n(\mathbf{R})$. The connection is gauge-dependent: under $|n\rangle\to e^{i\alpha(\mathbf{R})}|n\rangle$, $\mathbf{A}_n\to\mathbf{A}_n - d\alpha$. The **Berry phase** $\gamma_n(C) = \oint_C\mathbf{A}_n$ around a closed loop $C$ is gauge-invariant (under single-valued phase choice) and decomposes the total adiabatic phase as $|\psi(T)\rangle = e^{i\phi^{\rm dyn} + i\gamma_n(C)}|n(\mathbf{R}(T))\rangle + O(1/T)$ alongside the dynamical phase $\phi^{\rm dyn} = -(1/\hbar)\int E_n dt'$. The **Berry curvature** $F_n = d\mathbf{A}_n$ is the gauge-invariant two-form; by Stokes's theorem $\gamma_n(\partial S) = \int_S F_n$. The **gap-resolved curvature formula** $F_{n,\mu\nu} = i\sum_{m\neq n}[\langle n|\partial_\mu H|m\rangle\langle m|\partial_\nu H|n\rangle - (\mu\leftrightarrow\nu)]/(E_n - E_m)^2$ exhibits Dirac-monopole singularities at level degeneracies. The prototype is **spin-1/2 in a rotating magnetic field**: parameter space $S^2$ of field directions, ground-state connection $\mathbf{A}_- = -\sin^2(\theta/2)\, d\phi$, curvature $F_- = -(\sin\theta/2)\, d\theta\wedge d\phi$ (half the sphere's area form), and **half-solid-angle Berry phase** $\gamma_-(C) = -\Omega(C)/2$ for any loop $C$ bounding solid angle $\Omega$. The total Chern number $C_1 = (1/2\pi)\int_{S^2}F_- = -1$ identifies the ground-state line bundle as the non-trivial Hopf bundle, with the chart-singularity at the south pole reflecting a Dirac monopole of charge $1/2$ at the level-crossing point $\mathbf{B} = 0$. The spinor sign flip $e^{-i\pi\hat{\mathbf{n}}\cdot\boldsymbol{\sigma}} = -I$ under a full rotation is the topological signature. The **Wilczek-Zee** generalisation for $d$-fold degenerate eigenspaces gives matrix-valued connection $A_{ab,\mu} = i\langle n_a|\partial_\mu n_b\rangle$ with $U(d)$ gauge transformation $A_\mu\to U^\dagger A_\mu U + iU^\dagger\partial_\mu U$ and **path-ordered holonomy** $\mathcal{P}\exp(i\oint A_\mu dR^\mu)\in U(d)$ as the non-abelian Berry phase. **Pancharatnam's** 1956 analysis of polarised-light interference on the Poincare sphere gave the half-area-of-triangle formula 30 years before Berry, the **optical precursor**. The **Aharonov-Bohm phase** (1959) is the Berry phase of an electron loop around a flux tube, identified retrospectively as the first observed Berry phase. The **molecular Aharonov-Bohm effect** (Mead-Truhlar 1979) is the $\pi$ Berry phase around a conical intersection of adiabatic electronic surfaces, observed in molecular spectra near conical intersections; the **Longuet-Higgins sign theorem** (1958) is the corresponding sign flip of real adiabatic wavefunctions. The **Aharonov-Anandan** 1987 generalisation removes the adiabatic restriction, giving the geometric phase of any cyclic quantum evolution as the holonomy of the natural Hermitian connection on the tautological line bundle over $\mathbb{CP}^N$ via the Fubini-Study metric. **TKNN 1982** identified the integer quantum Hall conductance with $C_1 = (1/2\pi)\int_{T^2}F_n\in\mathbb{Z}$, the first Chern number of the Bloch line bundle over the Brillouin-zone torus, launching topological band theory; the **anomalous Hall effect** (Karplus-Luttinger 1954, modernised by Sundaram-Niu 1999) is the Berry-curvature contribution to semiclassical Bloch dynamics. **Topological insulators** classified by $\mathbb{Z}_2$ Berry-phase invariants (Kane-Mele 2005, Bernevig-Hughes-Zhang 2006, Fu-Kane-Mele 2007) and the **periodic table of topological phases** (Schnyder-Ryu-Furusaki-Ludwig 2008, Kitaev 2009) generalise to all symmetry classes via K-theory. **Holonomic quantum computation** (Zanardi-Rasetti 1999) uses the Wilczek-Zee non-abelian holonomy as gate primitive with intrinsic timing-error robustness, demonstrated experimentally in trapped ions, NV centres in diamond, and superconducting qubits, with non-adiabatic variants (Sjoqvist 2012) removing the slow-protocol bottleneck. Originator chain: Pancharatnam 1956 (optical) → Aharonov-Bohm 1959 (gauge precursor) → Longuet-Higgins 1958 (sign theorem) → Mead-Truhlar 1979 (molecular Aharonov-Bohm) → Simon 1983 (bundle reformulation) → Berry 1984 (geometric phase) → Wilczek-Zee 1984 (non-abelian holonomy) → Aharonov-Anandan 1987 (non-adiabatic cyclic phase) → TKNN 1982 (integer Hall as Chern number) → Kane-Mele 2005 + Bernevig-Hughes-Zhang 2006 + Fu-Kane-Mele 2007 ($\mathbb{Z}_2$ topological insulators) → Schnyder-Ryu-Furusaki-Ludwig 2008 + Kitaev 2009 (periodic table) → Zanardi-Rasetti 1999 (holonomic quantum computation). Lean status: `none` — Mathlib has the finite-dimensional spectral theorem, analytic perturbation theory of resolvents and eigenprojectors, smooth one-parameter families of bounded operators, and scoped differential-forms-on-manifolds infrastructure, but lacks the synthesis as the spectral-line-bundle picture: the eigenstate map as a section of a smooth complex line bundle, the Berry connection as a $u(1)$-valued one-form, the curvature as its exterior derivative, the gauge-invariant loop integral, and the Chern-number integrality via the Dolbeault index theorem (well beyond Mathlib's current cohomology infrastructure). A first deliverable would be the finite-dimensional Berry phase: for a smooth family $|n(\mathbf{R})\rangle$ of normalised eigenvectors of an $N\times N$ Hermitian matrix parametrised by $\mathbf{R}$, define $\mathbf{A}_n = i\langle n|dn\rangle$, prove gauge invariance of $\oint_C\mathbf{A}_n$ under single-valued phase redefinitions, and verify the spin-1/2 half-solid-angle worked computation. The Wilczek-Zee non-abelian generalisation, the TKNN integer-band invariant, and the topological-phases classification sit at higher altitudes awaiting Hilbert-bundle, connection-on-vector-bundle, Stokes-theorem-on-manifolds, and K-theory infrastructure development.
+
+---
+
+## Backfill (2026-05-28) — minimal entries
+
+These entries were appended in bulk to satisfy the validator's `concept_catalog_id` existence check. Each one points back to its unit; expand to the full Format above when the concept is next touched.
+
+### foundations.real-exponents
+
+- **title**: Real exponents and exponential function
+- **unit**: `00.05.01`
+- **notes**: stub — see unit `00.05.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.logarithms
+
+- **title**: Logarithms as inverses of exponentials
+- **unit**: `00.05.02`
+- **notes**: stub — see unit `00.05.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.complex-numbers
+
+- **title**: Complex numbers (introductory)
+- **unit**: `00.05.03`
+- **notes**: stub — see unit `00.05.03` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.right-triangle-trig
+
+- **title**: Right-triangle trigonometry
+- **unit**: `00.06.01`
+- **notes**: stub — see unit `00.06.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.inverse-trig
+
+- **title**: Inverse trigonometric functions
+- **unit**: `00.06.02`
+- **notes**: stub — see unit `00.06.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.law-of-sines-cosines
+
+- **title**: Law of sines and law of cosines
+- **unit**: `00.06.03`
+- **notes**: stub — see unit `00.06.03` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.unit-circle-trig
+
+- **title**: Unit-circle trigonometry
+- **unit**: `00.07.01`
+- **notes**: stub — see unit `00.07.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.trig-identities-sum-difference
+
+- **title**: Trigonometric identities: sum, difference, and double-angle
+- **unit**: `00.07.02`
+- **notes**: stub — see unit `00.07.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.trig-identities
+
+- **title**: Trigonometric identities (addition formulas)
+- **unit**: `00.08.01`
+- **notes**: stub — see unit `00.08.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.law-sines-cosines
+
+- **title**: Law of sines and law of cosines
+- **unit**: `00.08.02`
+- **notes**: stub — see unit `00.08.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.cartesian-coordinates
+
+- **title**: Cartesian coordinates and distance in the plane
+- **unit**: `00.09.01`
+- **notes**: stub — see unit `00.09.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.polar-coordinates
+
+- **title**: Polar coordinates and parametric curves
+- **unit**: `00.11.01`
+- **notes**: stub — see unit `00.11.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.conic-parametrisations
+
+- **title**: Conic-section parametrisations and intersections
+- **unit**: `00.11.02`
+- **notes**: stub — see unit `00.11.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.mathematical-induction
+
+- **title**: Mathematical induction
+- **unit**: `00.12.01`
+- **notes**: stub — see unit `00.12.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.binomial-theorem
+
+- **title**: Binomial theorem and Pascal's triangle
+- **unit**: `00.12.02`
+- **notes**: stub — see unit `00.12.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.plane-geometry
+
+- **title**: Plane geometry (distance, area, pi)
+- **unit**: `00.13.01`
+- **notes**: stub — see unit `00.13.01` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.solid-geometry
+
+- **title**: Solid geometry (volume)
+- **unit**: `00.13.02`
+- **notes**: stub — see unit `00.13.02` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.group-action
+
+- **title**: Group action, orbit-stabiliser, class equation
+- **unit**: `01.02.03`
+- **notes**: stub — see unit `01.02.03` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.sylow-theorems
+
+- **title**: Sylow theorems
+- **unit**: `01.02.04`
+- **notes**: stub — see unit `01.02.04` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.solvable-nilpotent-jordan-holder
+
+- **title**: Solvable group, nilpotent group, Jordan-Holder theorem
+- **unit**: `01.02.05`
+- **notes**: stub — see unit `01.02.05` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.localisation-commutative-ring
+
+- **title**: Localisation of a commutative ring
+- **unit**: `01.02.08`
+- **notes**: stub — see unit `01.02.08` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.nakayama-lemma
+
+- **title**: Nakayama's lemma
+- **unit**: `01.02.16`
+- **notes**: stub — see unit `01.02.16` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.hilbert-basis-noetherian
+
+- **title**: Hilbert basis theorem; Noetherian rings and modules
+- **unit**: `01.02.17`
+- **notes**: stub — see unit `01.02.17` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.tensor-exterior-symmetric-algebra
+
+- **title**: Tensor algebra, exterior algebra, symmetric algebra
+- **unit**: `01.02.19`
+- **notes**: stub — see unit `01.02.19` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.free-group-presentation
+
+- **title**: Free group, free product, group presentation
+- **unit**: `01.02.20`
+- **notes**: stub — see unit `01.02.20` for full prerequisites, tier anchors, and bibliography.
+
+### foundations.krull-dimension
+
+- **title**: Krull dimension; Krull's principal ideal theorem
+- **unit**: `01.02.22`
+- **notes**: stub — see unit `01.02.22` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.darboux-integral
+
+- **title**: Step-function integral and the Darboux integral
+- **unit**: `02.04.01`
+- **notes**: stub — see unit `02.04.01` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.integrability-continuous
+
+- **title**: Integrability of continuous functions on [a,b]
+- **unit**: `02.04.03`
+- **notes**: stub — see unit `02.04.03` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.fundamental-theorem-calculus
+
+- **title**: Fundamental theorems of calculus (FTC1 and FTC2)
+- **unit**: `02.04.04`
+- **notes**: stub — see unit `02.04.04` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.improper-integrals
+
+- **title**: Improper integrals and the comparison test
+- **unit**: `02.04.06`
+- **notes**: stub — see unit `02.04.06` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.mean-value-theorem
+
+- **title**: Mean value theorem (Rolle, Lagrange, Cauchy)
+- **unit**: `02.05.02`
+- **notes**: stub — see unit `02.05.02` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.logarithm-integral
+
+- **title**: Logarithm as an integral
+- **unit**: `02.06.01`
+- **notes**: stub — see unit `02.06.01` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.nth-order-linear-ode
+
+- **title**: n-th-order linear ODE with constant coefficients
+- **unit**: `02.06.02`
+- **notes**: stub — see unit `02.06.02` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.systems-ode-matrix-exponential
+
+- **title**: Systems of linear ODEs and the matrix exponential
+- **unit**: `02.06.03`
+- **notes**: stub — see unit `02.06.03` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.hyperbolic-functions
+
+- **title**: Hyperbolic functions
+- **unit**: `02.06.04`
+- **notes**: stub — see unit `02.06.04` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.second-order-ode
+
+- **title**: Second-order linear ODEs with constant coefficients
+- **unit**: `02.08.02`
+- **notes**: stub — see unit `02.08.02` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.surface-integral-parametric-surfaces
+
+- **title**: Surface integral and parametric surfaces
+- **unit**: `02.10.05`
+- **notes**: stub — see unit `02.10.05` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.topological-manifold
+
+- **title**: Topological manifold
+- **unit**: `03.02.01`
+- **notes**: stub — see unit `03.02.01` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.smooth-structure-atlases
+
+- **title**: Smooth structure and atlases
+- **unit**: `03.02.02`
+- **notes**: stub — see unit `03.02.02` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.smooth-maps-manifolds
+
+- **title**: Smooth maps between manifolds
+- **unit**: `03.02.03`
+- **notes**: stub — see unit `03.02.03` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.frobenius-theorem
+
+- **title**: Frobenius theorem
+- **unit**: `03.02.04`
+- **notes**: stub — see unit `03.02.04` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.sectional-ricci-scalar-curvature
+
+- **title**: Sectional curvature, Ricci tensor, scalar curvature
+- **unit**: `03.02.05`
+- **notes**: stub — see unit `03.02.05` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.constant-curvature-killing-hopf
+
+- **title**: Constant-curvature spaces and Killing-Hopf
+- **unit**: `03.02.06`
+- **notes**: stub — see unit `03.02.06` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.killing-fields
+
+- **title**: Killing fields and infinitesimal isometries
+- **unit**: `03.02.07`
+- **notes**: stub — see unit `03.02.07` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.myers-steenrod
+
+- **title**: Myers-Steenrod theorem
+- **unit**: `03.02.08`
+- **notes**: stub — see unit `03.02.08` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.almost-complex-structure
+
+- **title**: Almost-complex structure (manifold-level)
+- **unit**: `03.02.09`
+- **notes**: stub — see unit `03.02.09` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.complex-manifold-dolbeault
+
+- **title**: Complex manifold and the Dolbeault complex
+- **unit**: `03.02.10`
+- **notes**: stub — see unit `03.02.10` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.kahler-identities-hodge
+
+- **title**: Kahler identities and the Hodge decomposition (Kahler version)
+- **unit**: `03.02.12`
+- **notes**: stub — see unit `03.02.12` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.isometric-immersion-second-fundamental
+
+- **title**: Isometric immersion and the second fundamental form
+- **unit**: `03.02.13`
+- **notes**: stub — see unit `03.02.13` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.gauss-codazzi-ricci
+
+- **title**: Gauss, Codazzi, and Ricci equations
+- **unit**: `03.02.14`
+- **notes**: stub — see unit `03.02.14` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.bochner-technique
+
+- **title**: Bochner technique and curvature vanishing theorems
+- **unit**: `03.02.15`
+- **notes**: stub — see unit `03.02.15` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.formal-group-law
+
+- **title**: Formal group law
+- **unit**: `03.03.04`
+- **notes**: stub — see unit `03.03.04` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.lie-third-theorem
+
+- **title**: Lie's third theorem (statement, simply-connected case)
+- **unit**: `03.03.06`
+- **notes**: stub — see unit `03.03.06` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.general-fibre-bundle
+
+- **title**: General fibre bundle
+- **unit**: `03.05.00`
+- **notes**: stub — see unit `03.05.00` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.vertical-subbundle
+
+- **title**: Vertical subbundle and fundamental vector fields
+- **unit**: `03.05.06`
+- **notes**: stub — see unit `03.05.06` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.horizontal-lift-parallel-transport
+
+- **title**: Horizontal lift and parallel transport
+- **unit**: `03.05.11`
+- **notes**: stub — see unit `03.05.11` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.reduction-structure-group
+
+- **title**: Reduction of structure group; reduction of a connection
+- **unit**: `03.05.12`
+- **notes**: stub — see unit `03.05.12` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.associated-bundle-induced-connection
+
+- **title**: Associated bundle and induced connection
+- **unit**: `03.05.13`
+- **notes**: stub — see unit `03.05.13` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.torsion-cartan-structural-equations
+
+- **title**: Torsion tensor and the two Cartan structural equations
+- **unit**: `03.05.14`
+- **notes**: stub — see unit `03.05.14` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.linear-connection-frame-bundle-soldering-form
+
+- **title**: Linear connection via the frame bundle; soldering form
+- **unit**: `03.05.15`
+- **notes**: stub — see unit `03.05.15` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.holonomy-group
+
+- **title**: Holonomy group and restricted holonomy
+- **unit**: `03.05.16`
+- **notes**: stub — see unit `03.05.16` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.ambrose-singer-holonomy
+
+- **title**: Ambrose-Singer holonomy theorem
+- **unit**: `03.05.17`
+- **notes**: stub — see unit `03.05.17` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.holonomy-reduction
+
+- **title**: Holonomy reduction theorem
+- **unit**: `03.05.18`
+- **notes**: stub — see unit `03.05.18` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.holomorphic-vector-bundle
+
+- **title**: Holomorphic vector bundle
+- **unit**: `03.05.19`
+- **notes**: stub — see unit `03.05.19` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.hermitian-metric-chern-connection
+
+- **title**: Hermitian metric on a complex bundle; Chern connection
+- **unit**: `03.05.20`
+- **notes**: stub — see unit `03.05.20` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.simplicial-set-delta
+
+- **title**: Simplicial set and the simplicial category Delta
+- **unit**: `03.12.24`
+- **notes**: stub — see unit `03.12.24` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.functorial-cw-approximation
+
+- **title**: Functorial CW approximation Gamma X = |S_*X|
+- **unit**: `03.12.26`
+- **notes**: stub — see unit `03.12.26` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.puppe-cofiber-sequence
+
+- **title**: Puppe cofiber sequence
+- **unit**: `03.12.27`
+- **notes**: stub — see unit `03.12.27` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.puppe-fiber-sequence
+
+- **title**: Puppe fiber sequence
+- **unit**: `03.12.28`
+- **notes**: stub — see unit `03.12.28` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.thom-space-thom-isomorphism
+
+- **title**: Thom space and Thom isomorphism
+- **unit**: `03.12.29`
+- **notes**: stub — see unit `03.12.29` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.minimal-complex-minimal-fibration
+
+- **title**: Minimal complex and minimal fibration
+- **unit**: `03.12.30`
+- **notes**: stub — see unit `03.12.30` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.bisimplicial-set-diagonal-realisation-lemma
+
+- **title**: Bisimplicial set, diagonal, and the realisation lemma
+- **unit**: `03.12.36`
+- **notes**: stub — see unit `03.12.36` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.simplicial-group-wbar-classifying-functor
+
+- **title**: Simplicial group and the W-bar classifying functor
+- **unit**: `03.12.39`
+- **notes**: stub — see unit `03.12.39` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.bialgebra-hopf-milnor-moore
+
+- **title**: Bialgebra, Hopf algebra, and the Milnor-Moore theorem
+- **unit**: `03.12.49`
+- **notes**: stub — see unit `03.12.49` for full prerequisites, tier anchors, and bibliography.
+
+### cohomology.hypercohomology-complex-of-sheaves
+
+- **title**: Hypercohomology of a complex of sheaves
+- **unit**: `03.04.14`
+- **notes**: stub — see unit `03.04.14` for full prerequisites, tier anchors, and bibliography.
+
+### characteristic-classes.kostant-weil-prequantum
+
+- **title**: Kostant-Weil isomorphism and prequantum line bundle
+- **unit**: `03.06.08`
+- **notes**: stub — see unit `03.06.08` for full prerequisites, tier anchors, and bibliography.
+
+### characteristic-classes.dixmier-douady-class
+
+- **title**: Dixmier-Douady class and $H^3(M, \mathbb{Z})$
+- **unit**: `03.06.09`
+- **notes**: stub — see unit `03.06.09` for full prerequisites, tier anchors, and bibliography.
+
+### gauge-theory.moduli-asd-connections-s4
+
+- **title**: Moduli space of ASD connections $\mathcal{M}_k(S^4)$
+- **unit**: `03.07.09`
+- **notes**: stub — see unit `03.07.09` for full prerequisites, tier anchors, and bibliography.
+
+### gauge-theory.adhm-construction
+
+- **title**: ADHM construction (Atiyah-Drinfeld-Hitchin-Manin)
+- **unit**: `03.07.10`
+- **notes**: stub — see unit `03.07.10` for full prerequisites, tier anchors, and bibliography.
+
+### gauge-theory.twistor-space-ward
+
+- **title**: Penrose twistor space and the Ward correspondence
+- **unit**: `03.07.11`
+- **notes**: stub — see unit `03.07.11` for full prerequisites, tier anchors, and bibliography.
+
+### gauge-theory.penrose-transform-linear
+
+- **title**: Penrose transform at linear level
+- **unit**: `03.07.14`
+- **notes**: stub — see unit `03.07.14` for full prerequisites, tier anchors, and bibliography.
+
+### gauge-theory.b-field-as-gerbe-connection
+
+- **title**: $B$-field as a gerbe connection
+- **unit**: `03.07.16`
+- **notes**: stub — see unit `03.07.16` for full prerequisites, tier anchors, and bibliography.
+
+### k-theory.thom-isomorphism
+
+- **title**: Thom isomorphism in K-theory
+- **unit**: `03.08.03`
+- **notes**: stub — see unit `03.08.03` for full prerequisites, tier anchors, and bibliography.
+
+### k-theory.equivariant-and-representation-ring
+
+- **title**: Equivariant K-theory $K_G(X)$ and $R(G)$
+- **unit**: `03.08.10`
+- **notes**: stub — see unit `03.08.10` for full prerequisites, tier anchors, and bibliography.
+
+### k-theory.j-group-and-j-homomorphism
+
+- **title**: The group $J(X)$ and the $J$-homomorphism
+- **unit**: `03.08.11`
+- **notes**: stub — see unit `03.08.11` for full prerequisites, tier anchors, and bibliography.
+
+### spin-geometry.bismut-superconnection
+
+- **title**: Bismut superconnection
+- **unit**: `03.09.23`
+- **notes**: stub — see unit `03.09.23` for full prerequisites, tier anchors, and bibliography.
+
+### spin-geometry.kirillov-character-formula
+
+- **title**: Kirillov character formula via the equivariant index
+- **unit**: `03.09.25`
+- **notes**: stub — see unit `03.09.25` for full prerequisites, tier anchors, and bibliography.
+
+### spin-geometry.mathai-quillen-formalism
+
+- **title**: Mathai-Quillen formalism and universal Thom forms
+- **unit**: `03.09.26`
+- **notes**: stub — see unit `03.09.26` for full prerequisites, tier anchors, and bibliography.
+
+### topology.delta-complex
+
+- **title**: $\Delta$-complex / semi-simplicial set
+- **unit**: `03.12.22`
+- **notes**: stub — see unit `03.12.22` for full prerequisites, tier anchors, and bibliography.
+
+### homotopy.quillen-functor-and-equivalence
+
+- **title**: Quillen functor and Quillen equivalence
+- **unit**: `03.12.32`
+- **notes**: stub — see unit `03.12.32` for full prerequisites, tier anchors, and bibliography.
+
+### spectral-sequences.atiyah-hirzebruch
+
+- **title**: Atiyah-Hirzebruch spectral sequence
+- **unit**: `03.13.04`
+- **notes**: stub — see unit `03.13.04` for full prerequisites, tier anchors, and bibliography.
+
+### alg-geom.clifford-theorem
+
+- **title**: Clifford's theorem with equality
+- **unit**: `04.04.09`
+- **notes**: stub — see unit `04.04.09` for full prerequisites, tier anchors, and bibliography.
+
+### alg-geom.martens-mumford-theorem
+
+- **title**: Martens' theorem and Mumford's strengthening
+- **unit**: `04.04.10`
+- **notes**: stub — see unit `04.04.10` for full prerequisites, tier anchors, and bibliography.
+
+### alg-geom.gonality
+
+- **title**: Gonality of a curve
+- **unit**: `04.04.11`
+- **notes**: stub — see unit `04.04.11` for full prerequisites, tier anchors, and bibliography.
+
+### alg-geom.determinantal-porteous
+
+- **title**: Determinantal varieties and the Porteous formula
+- **unit**: `04.04.13`
+- **notes**: stub — see unit `04.04.13` for full prerequisites, tier anchors, and bibliography.
+
+### alg-geom.fulton-lazarsfeld-connectedness
+
+- **title**: Fulton-Lazarsfeld connectedness theorem
+- **unit**: `04.04.15`
+- **notes**: stub — see unit `04.04.15` for full prerequisites, tier anchors, and bibliography.
+
+### alg-geom.lazarsfeld-k3-petri
+
+- **title**: Lazarsfeld's K3-vector-bundle proof of Petri
+- **unit**: `04.04.16`
+- **notes**: stub — see unit `04.04.16` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.exponential-accuracy-adiabatic
+
+- **title**: Exponential accuracy of the adiabatic invariant
+- **unit**: `05.09.07`
+- **notes**: stub — see unit `05.09.07` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.prequantisation-spin-coadjoint
+
+- **title**: Prequantisation of the spin coadjoint orbit
+- **unit**: `05.11.02`
+- **notes**: stub — see unit `05.11.02` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.routhian
+
+- **title**: The Routhian
+- **unit**: `05.02.10`
+- **notes**: stub — see unit `05.02.10` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.maupertuis-principle
+
+- **title**: Maupertuis' principle and abbreviated action
+- **unit**: `05.02.11`
+- **notes**: stub — see unit `05.02.11` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.galilei-bargmann
+
+- **title**: Galilei group and Bargmann central extension
+- **unit**: `05.00.07`
+- **notes**: stub — see unit `05.00.07` for full prerequisites, tier anchors, and bibliography.
+
+### classical-mechanics.mechanical-similarity-virial
+
+- **title**: Mechanical similarity / virial theorem
+- **unit**: `05.00.08`
+- **notes**: stub — see unit `05.00.08` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.worked-lagrangian-examples
+
+- **title**: Worked Lagrangian examples
+- **unit**: `05.00.09`
+- **notes**: stub — see unit `05.00.09` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.scattering-rutherford
+
+- **title**: Scattering and Rutherford formula
+- **unit**: `05.00.10`
+- **notes**: stub — see unit `05.00.10` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.small-oscillations-normal-modes
+
+- **title**: Small oscillations and normal modes
+- **unit**: `05.00.11`
+- **notes**: stub — see unit `05.00.11` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.non-inertial-frame-coriolis
+
+- **title**: Motion in a non-inertial frame / Coriolis force
+- **unit**: `05.00.14`
+- **notes**: stub — see unit `05.00.14` for full prerequisites, tier anchors, and bibliography.
+
+### symplectic.souriau-cocycle
+
+- **title**: Souriau cocycle and non-equivariant moment maps
+- **unit**: `05.04.07`
+- **notes**: stub — see unit `05.04.07` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.normal-families-montel
+
+- **title**: Normal families and Montel's theorem
+- **unit**: `06.01.14`
+- **notes**: stub — see unit `06.01.14` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.riemann-zeta
+
+- **title**: Riemann zeta function zeta(s)
+- **unit**: `06.01.16`
+- **notes**: stub — see unit `06.01.16` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.weierstrass-factorization
+
+- **title**: Weierstrass factorization theorem
+- **unit**: `06.01.17`
+- **notes**: stub — see unit `06.01.17` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.mittag-leffler
+
+- **title**: Mittag-Leffler theorem on C
+- **unit**: `06.01.18`
+- **notes**: stub — see unit `06.01.18` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.schwarz-christoffel
+
+- **title**: Schwarz-Christoffel formula
+- **unit**: `06.01.19`
+- **notes**: stub — see unit `06.01.19` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.picard-little
+
+- **title**: Picard's little theorem
+- **unit**: `06.01.20`
+- **notes**: stub — see unit `06.01.20` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.picard-great
+
+- **title**: Picard's great theorem
+- **unit**: `06.01.21`
+- **notes**: stub — see unit `06.01.21` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.phragmen-lindelof
+
+- **title**: Phragmen-Lindelof principle
+- **unit**: `06.01.22`
+- **notes**: stub — see unit `06.01.22` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.schwarz-reflection
+
+- **title**: Schwarz reflection principle
+- **unit**: `06.01.23`
+- **notes**: stub — see unit `06.01.23` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.dirichlet-perron
+
+- **title**: Dirichlet problem on the disc + Perron's method
+- **unit**: `06.01.24`
+- **notes**: stub — see unit `06.01.24` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.weierstrass-p-function
+
+- **title**: Weierstrass p-function
+- **unit**: `06.01.25`
+- **notes**: stub — see unit `06.01.25` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.modular-function-j-invariant
+
+- **title**: Modular function and j-invariant
+- **unit**: `06.01.26`
+- **notes**: stub — see unit `06.01.26` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.power-series-laurent-series
+
+- **title**: Power series and Laurent series
+- **unit**: `06.01.27`
+- **notes**: stub — see unit `06.01.27` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.winding-number
+
+- **title**: Index / winding number of a closed curve
+- **unit**: `06.01.28`
+- **notes**: stub — see unit `06.01.28` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.schottky-bloch
+
+- **title**: Schottky's and Bloch's theorems
+- **unit**: `06.01.29`
+- **notes**: stub — see unit `06.01.29` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.riemann-hurwitz-meromorphic
+
+- **title**: Riemann-Hurwitz for plane meromorphic / sphere maps
+- **unit**: `06.01.30`
+- **notes**: stub — see unit `06.01.30` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.mittag-leffler-on-rs
+
+- **title**: Mittag-Leffler on RS
+- **unit**: `06.09.06`
+- **notes**: stub — see unit `06.09.06` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.runge-approximation-on-rs
+
+- **title**: Runge approximation on RS
+- **unit**: `06.09.07`
+- **notes**: stub — see unit `06.09.07` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.stein-manifolds-survey
+
+- **title**: Survey: Cartan-Serre Stein theory in higher dim
+- **unit**: `06.09.08`
+- **notes**: stub — see unit `06.09.08` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.non-abelian-fourier-transform
+
+- **title**: Non-abelian Fourier transform on a finite group
+- **unit**: `07.01.09`
+- **notes**: stub — see unit `07.01.09` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.artin-induction
+
+- **title**: Artin's induction theorem
+- **unit**: `07.01.10`
+- **notes**: stub — see unit `07.01.10` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.brauer-induction
+
+- **title**: Brauer's induction theorem
+- **unit**: `07.01.11`
+- **notes**: stub — see unit `07.01.11` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.frobenius-schur-indicator
+
+- **title**: Frobenius-Schur indicator
+- **unit**: `07.01.12`
+- **notes**: stub — see unit `07.01.12` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.grothendieck-groups-cde
+
+- **title**: Grothendieck groups and the cde-triangle
+- **unit**: `07.02.03`
+- **notes**: stub — see unit `07.02.03` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.brauer-character
+
+- **title**: Brauer character
+- **unit**: `07.02.04`
+- **notes**: stub — see unit `07.02.04` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.block-theory-kG
+
+- **title**: Block theory of kG
+- **unit**: `07.02.06`
+- **notes**: stub — see unit `07.02.06` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.compact-real-form
+
+- **title**: Compact real form of a complex semisimple Lie algebra
+- **unit**: `07.04.02`
+- **notes**: stub — see unit `07.04.02` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.cartan-involution
+
+- **title**: Cartan involution
+- **unit**: `07.04.03`
+- **notes**: stub — see unit `07.04.03` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.orthogonal-symmetric-lie-algebra
+
+- **title**: Orthogonal symmetric Lie algebra
+- **unit**: `07.04.06`
+- **notes**: stub — see unit `07.04.06` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.riemannian-symmetric-space
+
+- **title**: Riemannian symmetric space
+- **unit**: `07.04.07`
+- **notes**: stub — see unit `07.04.07` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.restricted-root-system
+
+- **title**: Restricted root system
+- **unit**: `07.04.08`
+- **notes**: stub — see unit `07.04.08` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.iwasawa-decomposition
+
+- **title**: Iwasawa decomposition G=KAN
+- **unit**: `07.04.09`
+- **notes**: stub — see unit `07.04.09` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.bruhat-decomposition
+
+- **title**: Bruhat decomposition
+- **unit**: `07.04.10`
+- **notes**: stub — see unit `07.04.10` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.spherical-function-gk
+
+- **title**: Spherical function on G/K
+- **unit**: `07.04.12`
+- **notes**: stub — see unit `07.04.12` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.hermitian-symmetric-space
+
+- **title**: Hermitian symmetric space
+- **unit**: `07.04.14`
+- **notes**: stub — see unit `07.04.14` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.schur-weyl-duality
+
+- **title**: Schur-Weyl duality
+- **unit**: `07.05.04`
+- **notes**: stub — see unit `07.05.04` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.random-walk-upper-bound
+
+- **title**: Random walk on a finite group; Upper Bound Lemma
+- **unit**: `07.05.05`
+- **notes**: stub — see unit `07.05.05` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.riffle-shuffle
+
+- **title**: Riffle shuffle and the 7-shuffle theorem
+- **unit**: `07.05.07`
+- **notes**: stub — see unit `07.05.07` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.cutoff-phenomenon
+
+- **title**: Cutoff phenomenon
+- **unit**: `07.05.08`
+- **notes**: stub — see unit `07.05.08` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.strong-stationary-time
+
+- **title**: Strong stationary time; coupling argument
+- **unit**: `07.05.09`
+- **notes**: stub — see unit `07.05.09` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.murnaghan-nakayama
+
+- **title**: Murnaghan-Nakayama rule
+- **unit**: `07.05.10`
+- **notes**: stub — see unit `07.05.10` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.spectral-analysis-permutation-data
+
+- **title**: Spectral analysis of permutation-valued data
+- **unit**: `07.05.11`
+- **notes**: stub — see unit `07.05.11` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.metrics-on-symmetric-group
+
+- **title**: Metrics on S_n
+- **unit**: `07.05.12`
+- **notes**: stub — see unit `07.05.12` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.partially-ranked-data
+
+- **title**: Models for partially ranked data on S_n/S_{n-k}
+- **unit**: `07.05.13`
+- **notes**: stub — see unit `07.05.13` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.de-finetti-exchangeability
+
+- **title**: De Finetti / exchangeability and the symmetric group
+- **unit**: `07.05.14`
+- **notes**: stub — see unit `07.05.14` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.casimir-element
+
+- **title**: Casimir element
+- **unit**: `07.06.10`
+- **notes**: stub — see unit `07.06.10` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.sl2-irreducible-representations
+
+- **title**: Representations of $\mathfrak{sl}_2 \mathbb{C}$
+- **unit**: `07.06.11`
+- **notes**: stub — see unit `07.06.11` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.sl3-irreducible-representations
+
+- **title**: Representations of $\mathfrak{sl}_3 \mathbb{C}$
+- **unit**: `07.06.12`
+- **notes**: stub — see unit `07.06.12` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.engel-lie-theorem
+
+- **title**: Engel's theorem + Lie's theorem
+- **unit**: `07.06.14`
+- **notes**: stub — see unit `07.06.14` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.cartan-criterion
+
+- **title**: Cartan's criterion for solvability and semisimplicity
+- **unit**: `07.06.16`
+- **notes**: stub — see unit `07.06.16` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.cartan-subalgebra
+
+- **title**: Cartan subalgebra
+- **unit**: `07.06.17`
+- **notes**: stub — see unit `07.06.17` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.root-space-decomposition
+
+- **title**: Root-space decomposition
+- **unit**: `07.06.18`
+- **notes**: stub — see unit `07.06.18` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.cartan-matrix
+
+- **title**: Cartan matrix
+- **unit**: `07.06.19`
+- **notes**: stub — see unit `07.06.19` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.serre-relations
+
+- **title**: Serre relations and Serre's theorem
+- **unit**: `07.06.20`
+- **notes**: stub — see unit `07.06.20` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.casimir-element
+
+- **title**: Casimir element
+- **unit**: `07.06.21`
+- **notes**: stub — see unit `07.06.21` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.weyl-complete-reducibility
+
+- **title**: Weyl complete-reducibility theorem
+- **unit**: `07.06.22`
+- **notes**: stub — see unit `07.06.22` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.weyl-integration-formula
+
+- **title**: Weyl integration formula
+- **unit**: `07.07.04`
+- **notes**: stub — see unit `07.07.04` for full prerequisites, tier anchors, and bibliography.
+

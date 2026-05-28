@@ -32,25 +32,7 @@ function cleanLeanGap(s: string | undefined): string | null {
   return cleaned || null;
 }
 
-// The reviewer value sometimes carries internal scheduling jargon
-// ("… per BIOLOGY_PLAN.md §6"). Strip it; hide the section entirely when the
-// value is just a placeholder ("TBD — … cluster reviewer").
-function reviewerLabel(raw: any): string | null {
-  let v = String(raw || "").trim();
-  if (!v || /^(tbd|todo|tbc|pending|unassigned|none|n\/a)\b/i.test(v)) return null;
-  // Cut at internal scheduling / triage jargon ("per X_PLAN §9 — top
-  // recruitment priority; Yellow at intermediate …").
-  v = v.split(/\s+per\s+|\s+—\s+|\s+--\s+|;|\s*§|\b[A-Z][A-Z_]*_PLAN\b/)[0].trim();
-  // Re-balance a parenthesis left open by the cut.
-  const opens = (v.match(/\(/g) || []).length;
-  const closes = (v.match(/\)/g) || []).length;
-  if (opens > closes) v += ")".repeat(opens - closes);
-  v = v.replace(/\s+\)/g, ")").replace(/\(\s*\)/g, "").trim();
-  return v || null;
-}
-
 export default function UnitMeta({ unit }: { unit: any }) {
-  const reviewer = reviewerLabel(unit.human_reviewer);
   return (
     <aside class="unit-meta">
       <section>
@@ -136,13 +118,6 @@ export default function UnitMeta({ unit }: { unit: any }) {
               <pre class="lean-gap">{cleanLeanGap(unit.lean_mathlib_gap)}</pre>
             </details>
           )}
-        </section>
-      )}
-
-      {reviewer && (
-        <section>
-          <h3>Reviewer</h3>
-          <p>{reviewer}</p>
         </section>
       )}
 

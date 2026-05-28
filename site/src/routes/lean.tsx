@@ -17,7 +17,6 @@ interface Row {
   lean_status: string;
   lean_module?: string;
   lean_mathlib_gap?: string;
-  human_reviewer?: string;
 }
 
 interface SectionGroup {
@@ -37,7 +36,6 @@ export async function loader() {
     lean_status: u.data.lean_status || "unspecified",
     lean_module: u.data.lean_module,
     lean_mathlib_gap: u.data.lean_mathlib_gap,
-    human_reviewer: u.data.human_reviewer,
   }));
 
   const totals: Record<string, number> = { full: 0, partial: 0, none: 0, stub: 0, unspecified: 0 };
@@ -79,7 +77,7 @@ export default function LeanPage({ data }: { data: any }) {
           Each Babel Bible unit declares a Lean status. <strong>full</strong> means the proof is checked
           end-to-end. <strong>partial</strong> means statements compile but Mathlib gaps gate the
           proofs. <strong>none</strong> means Mathlib coverage is too thin to state the theorem
-          formally; the unit ships with a named human reviewer.
+          formally; the unit ships in prose only.
         </p>
         <div class="stats-row" style="margin-top: 1rem;">
           <div class="stat-card">

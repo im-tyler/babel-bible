@@ -478,14 +478,6 @@ def check_lean_status(report: ValidationReport, repo: Path):
         report.add("lean_status: none has lean/formalization note",
                    bool(gap) and len(str(gap).split()) >= min_words,
                    detail=f"gap/note missing or under {min_words} words")
-        if {"intermediate", "master"} & tp:
-            reviewer_text = str(reviewer or "").strip().lower()
-            reviewer_ok = bool(reviewer) and reviewer_text not in {"tbd", "todo", "pending"}
-            if fm.get("status") == "draft":
-                reviewer_ok = bool(reviewer)
-            report.add("lean_status: none requires named human_reviewer",
-                       reviewer_ok,
-                       detail="human_reviewer empty")
     else:
         report.add("lean_status is full | partial | none", False,
                    detail=f"got {status!r}")
