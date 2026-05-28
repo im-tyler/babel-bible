@@ -1,6 +1,4 @@
 import { getCollection } from "@neutron-build/core";
-import { listAudits } from "../lib/audits";
-import { loadBooklist, totalBooks } from "../lib/booklist";
 
 export function head() {
   return {
@@ -12,12 +10,8 @@ export function head() {
 
 export async function loader() {
   const units = await getCollection("units");
-  const audits = listAudits();
-  const chapters = loadBooklist();
   return {
     unitCount: units.length,
-    auditCount: audits.length,
-    bookCount: totalBooks(chapters),
   };
 }
 
@@ -37,8 +31,9 @@ export default function About({ data }: { data: any }) {
       <section class="page-narrow">
         <h2>The three tiers</h2>
         <p>
-          Pick a tier in the header. Each unit packs all three depths into one source file; the
-          tier toggle changes which sections render.
+          Every unit is written at all three depths, and they run in sequence down the page —
+          from the intuitive picture to the graduate-level treatment. Read top-to-bottom for the
+          full arc, or skip to the depth you want; each tier's sections are labelled.
         </p>
         <ul>
           <li>
@@ -66,25 +61,20 @@ export default function About({ data }: { data: any }) {
         <h2>How units work</h2>
         <p>
           A unit is one concept — one theorem cluster, one technique. All three tiers live in the
-          same markdown source. Section markers (<code>[Beginner]</code>,{" "}
-          <code>[Intermediate+]</code>, <code>[Master]</code>) gate visibility; the toggle in the
-          header is the user-facing switch.
+          same markdown source, in labelled sections (<code>Intuition [Beginner]</code>,{" "}
+          <code>Formal definition [Intermediate+]</code>, <code>Advanced results [Master]</code>)
+          that run in sequence down the page.
         </p>
         <p>
-          Cross-references like <code>[04.04.03]</code> link to other units at your current tier.
-          Citations like <code>[ref: source locator]</code> open a side panel with full source
-          metadata. Mathlib-formalisation status is declared per unit and aggregated on the Lean
-          page below.
-        </p>
-        <p>
-          v0.1 is apex-first: Master-tier graduate content seeded at the top of the curriculum
-          first (spin geometry, QFT, algebraic topology). Beginner and Intermediate tiers exist as
-          place-holders for apex units; they fill in as the prerequisite chain reaches them.
+          Cross-references like <code>[04.04.03]</code> link to other units; if the target hasn't
+          shipped yet, the reference shows as pending rather than breaking. Inline citations open a
+          side panel with the source detail. Where Mathlib covers a result, the unit's Lean
+          formalisation status is declared and aggregated on the Lean page below.
         </p>
         <p class="muted">
-          If you arrived hoping for accessible introductions to graduate-level material, you are
-          early. v1 is the right time to come back. v0.x is for graduate readers who want a
-          single cross-linked reference.
+          The curriculum is still filling in: some units are complete across all three tiers,
+          others run deeper at one depth than another, and some citations are still being verified.
+          What's published builds and cross-links cleanly.
         </p>
       </section>
 
@@ -110,16 +100,13 @@ export default function About({ data }: { data: any }) {
       <section class="page-narrow">
         <h2>Where the material comes from</h2>
         <p>
-          Every Master-tier unit cites primary literature with page references. Where a published
-          source isn't available we cite first-principles reasoning. The booklist below is the
-          canonical anchor set; the connections registry is the cross-unit synthesis layer.
+          Master-tier units cite primary literature with page references; where a citation is still
+          being verified it's marked pending rather than dropped. The connections registry tracks
+          cross-unit synthesis claims; the Lean status page records which units are formalised in
+          Mathlib.
         </p>
       </section>
       <div class="hub-grid">
-        <a href="/sources" class="hub-card">
-          <div class="hub-card-name">Sources / booklist</div>
-          <div class="hub-card-meta">{data.bookCount} primary texts, sourcing status, {data.auditCount} per-book audit punch-lists.</div>
-        </a>
         <a href="/connections" class="hub-card">
           <div class="hub-card-name">Connections</div>
           <div class="hub-card-meta">Cross-unit synthesis claims — duals, equivalences, foundations, bridging theorems.</div>
@@ -131,17 +118,16 @@ export default function About({ data }: { data: any }) {
       </div>
 
       <section class="page-narrow">
-        <h2>Project &amp; contributors</h2>
+        <h2>How it's produced</h2>
         <p>
-          Babel Bible ships through automated quality gates and a human reviewer pipeline. The
-          production plan, reviewer protocol, and house-style specs are all public.
+          Babel Bible is written by an automated pipeline: each unit is drafted by language models
+          working against the canonical literature of its field, then run through quality gates and
+          human review before it ships. Cross-references are validated at build time and Lean proofs
+          are machine-checked where Mathlib covers the result. The production plan, reviewer
+          protocol, and house-style specs are all public.
         </p>
       </section>
       <div class="hub-grid">
-        <a href="/production" class="hub-card">
-          <div class="hub-card-name">Production</div>
-          <div class="hub-card-meta">Live readout — shipped, queued, audits done, books unaudited.</div>
-        </a>
         <a href="/specs" class="hub-card">
           <div class="hub-card-name">Specs</div>
           <div class="hub-card-meta">Unit format, quality rubric, continuity scaffold, orchestration protocol.</div>

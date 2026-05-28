@@ -1,14 +1,20 @@
 // Canonical section ordering, display labels, and domain grouping.
 // `section` (frontmatter value) → SectionInfo. Sections are grouped under
-// one of seven Domains for homepage / nav presentation.
+// one of 13 Domains for homepage / nav presentation.
 
 export type DomainKey =
   | "mathematics"
   | "physics"
   | "chemistry"
   | "biology"
+  | "health"
+  | "earth-and-space"
+  | "computing"
   | "philosophy"
+  | "mind-and-society"
   | "language"
+  | "arts"
+  | "history"
   | "world";
 
 export type SectionInfo = {
@@ -28,19 +34,31 @@ export type DomainInfo = {
 
 export const DOMAINS: DomainInfo[] = [
   { key: "mathematics", order: 1, label: "Mathematics",
-    blurb: "Foundations through algebraic geometry, symplectic structures, and representation theory." },
+    blurb: "Foundations through algebraic geometry, symplectic structures, representation theory, logic, and numerical analysis." },
   { key: "physics",     order: 2, label: "Physics",
     blurb: "Classical mechanics through QFT, statistical mechanics, and general relativity." },
   { key: "chemistry",   order: 3, label: "Chemistry",
     blurb: "General, physical, organic, and inorganic — built on the quantum-mechanical core." },
   { key: "biology",     order: 4, label: "Biology",
     blurb: "Molecular and cellular through organismal, ecological, and evolutionary biology." },
-  { key: "philosophy",  order: 5, label: "Philosophy",
+  { key: "health",      order: 5, label: "Health & medicine",
+    blurb: "Clinical and applied physiology, public health, and the biology of disease." },
+  { key: "earth-and-space", order: 6, label: "Earth & space",
+    blurb: "Earth systems, planetary science, and astronomy from observation to cosmology." },
+  { key: "computing",   order: 7, label: "Computing",
+    blurb: "Computer science: algorithms, systems, languages, theory of computation." },
+  { key: "philosophy",  order: 8, label: "Philosophy",
     blurb: "The methods and history of thought that shape every other domain." },
-  { key: "language",    order: 6, label: "Language",
+  { key: "mind-and-society", order: 9, label: "Mind & society",
+    blurb: "Psychology, sociology, and anthropology — how minds and groups work." },
+  { key: "language",    order: 10, label: "Language",
     blurb: "Grammar, writing, and the techniques that move literature." },
-  { key: "world",       order: 7, label: "World",
-    blurb: "Economics, civics, and geography — how the human world is structured." },
+  { key: "arts",        order: 11, label: "Arts",
+    blurb: "Music, visual art, and the structures of aesthetic practice." },
+  { key: "history",     order: 12, label: "History",
+    blurb: "World history and the history of science — how knowledge and societies developed." },
+  { key: "world",       order: 13, label: "World",
+    blurb: "Economics, civics, geography, and media literacy — how the human world is structured." },
 ];
 
 export const DOMAIN_BY_KEY = new Map<DomainKey, DomainInfo>(
@@ -60,10 +78,14 @@ export const SECTIONS: SectionInfo[] = [
   { key: "stat-mech",             order: 5.5,  label: "Statistical field theory",         anchor: "stat-mech",             domain: "mathematics" },
   { key: "riemann-surfaces",      order: 6,    label: "Riemann surfaces",                 anchor: "riemann-surfaces",      domain: "mathematics" },
   { key: "representation-theory", order: 7,    label: "Representation theory",            anchor: "representation-theory", domain: "mathematics" },
+  { key: "logic",                 order: 7.5,  label: "Logic",                            anchor: "logic",                 domain: "mathematics" },
+  { key: "statistics",            order: 7.8,  label: "Statistics",                       anchor: "statistics",            domain: "mathematics" },
+  { key: "numerical-pde",         order: 8,    label: "Numerical analysis & PDE",         anchor: "numerical-pde",         domain: "mathematics" },
 
   // ── Physics ──
   { key: "classical-mech",        order: 9,    label: "Classical mechanics",              anchor: "classical-mech",        domain: "physics" },
   { key: "quantum-theory",        order: 9.4,  label: "Quantum theory foundations",       anchor: "quantum-theory",        domain: "physics" },
+  { key: "quantum-mechanics",     order: 9.5,  label: "Quantum mechanics",                anchor: "quantum-mechanics",     domain: "physics" },
   { key: "em-sr",                 order: 10,   label: "Electromagnetism & special relativity", anchor: "em-sr",            domain: "physics" },
   { key: "stat-mech-physics",     order: 11,   label: "Statistical mechanics",            anchor: "stat-mech-physics",     domain: "physics" },
   { key: "thermodynamics",        order: 11.2, label: "Thermodynamics",                   anchor: "thermodynamics",        domain: "physics" },
@@ -80,18 +102,41 @@ export const SECTIONS: SectionInfo[] = [
   { key: "organismal-bio",        order: 18,   label: "Organismal biology",               anchor: "organismal-bio",        domain: "biology" },
   { key: "eco-evo-bio",           order: 19,   label: "Ecology & evolution",              anchor: "eco-evo-bio",           domain: "biology" },
 
+  // ── Health & medicine ──
+  { key: "health-medicine",       order: 19.5, label: "Health & medicine",                anchor: "health-medicine",       domain: "health" },
+
+  // ── Earth & space ──
+  { key: "earth-science",         order: 19.7, label: "Earth science",                    anchor: "earth-science",         domain: "earth-and-space" },
+  { key: "astronomy",             order: 19.8, label: "Astronomy",                        anchor: "astronomy",             domain: "earth-and-space" },
+
+  // ── Computing ──
+  { key: "computer-science",      order: 19.9, label: "Computer science",                 anchor: "computer-science",      domain: "computing" },
+
   // ── Philosophy ──
   { key: "philosophy",            order: 20,   label: "Philosophy",                       anchor: "philosophy",            domain: "philosophy" },
+
+  // ── Mind & society ──
+  { key: "psychology",            order: 21,   label: "Psychology",                       anchor: "psychology",            domain: "mind-and-society" },
+  { key: "sociology",             order: 21.5, label: "Sociology",                        anchor: "sociology",             domain: "mind-and-society" },
+  { key: "anthropology",          order: 21.7, label: "Anthropology",                     anchor: "anthropology",          domain: "mind-and-society" },
 
   // ── Language ──
   { key: "grammar",               order: 22.1, label: "Grammar",                          anchor: "grammar",               domain: "language" },
   { key: "writing",               order: 22.2, label: "Writing",                          anchor: "writing",               domain: "language" },
   { key: "literature",            order: 22.3, label: "Literature techniques",            anchor: "literature",            domain: "language" },
 
+  // ── Arts ──
+  { key: "music-art",             order: 22.5, label: "Music & art",                      anchor: "music-art",             domain: "arts" },
+
+  // ── History ──
+  { key: "world-history",         order: 22.7, label: "World history",                    anchor: "world-history",         domain: "history" },
+  { key: "history-of-science",    order: 22.9, label: "History of science",               anchor: "history-of-science",    domain: "history" },
+
   // ── World ──
   { key: "economics",             order: 23.1, label: "Economics",                        anchor: "economics",             domain: "world" },
   { key: "civics",                order: 23.2, label: "Civics",                           anchor: "civics",                domain: "world" },
   { key: "geography",             order: 23.3, label: "Geography",                        anchor: "geography",             domain: "world" },
+  { key: "media-literacy",        order: 23.4, label: "Media literacy",                   anchor: "media-literacy",        domain: "world" },
 ];
 
 export const MATH_SECTION_KEYS = new Set(

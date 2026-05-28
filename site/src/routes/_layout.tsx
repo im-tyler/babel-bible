@@ -49,7 +49,7 @@ export function head() {
     openGraph: {
       type: "website",
       title: "Babel Bible — a self-study curriculum across the sciences and humanities",
-      description: "Three-tier curriculum spanning math, physics, chemistry, biology, philosophy, language, and the social world. Beginner / Intermediate / Master in one source.",
+      description: "A multi-domain curriculum across the sciences and humanities — mathematics, physics, chemistry, biology, computing, philosophy, language, history, and more. Every concept at three depths in one source.",
     },
     twitter: {
       card: "summary_large_image" as const,
@@ -153,16 +153,12 @@ export default function RootLayout({ children }: { children: any }) {
               <a href="/dag">Dependency map</a>
             </div>
             <div>
-              <p class="footer-heading">Sources</p>
-              <a href="/sources">Booklist</a>
+              <p class="footer-heading">Reference</p>
               <a href="/connections">Connections</a>
               <a href="/lean">Lean status</a>
             </div>
             <div>
-              <p class="footer-heading">Project</p>
-              <a href="/production">Production</a>
-              <a href="/specs">Specs</a>
-              <a href="/plans">Plans</a>
+              <p class="footer-heading">Site</p>
               <a href="/about">About</a>
             </div>
           </div>

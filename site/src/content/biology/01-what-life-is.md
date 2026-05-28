@@ -180,4 +180,29 @@ The honest closing is therefore not a definition but a recognition. Life is the 
 
 *Cross-references.* This essay synthesizes across the action-potential unit [`17.09.02`] (cellular information-processing), the muscle-contraction unit [`18.04.02`] (purposive cellular action), the Hardy-Weinberg unit [`19.02.01`] (the Darwinian lens at the population level), the canonical-ensemble unit [`11.04.01`] (the thermodynamic foundation), the chemical-bond essay [`14.essays.01`] (the structural parallel: a central object exceeded by its pictures), and the reflexivity essay [`20.essays.01`] (the seer-seen structure mapped onto biology's lens-multiplicity). The §15 organic-chemistry chapter and the §19.15 origin-of-life unit (when produced) are the chemistry-side and the deep-history-side companions of the chemical-lens discussion.
 
-*Citation status.* All references are `pending+pointer:` — the `reference/` archive carries no biology material as of Wave 1 bio production. The citations are author/year placeholders to be resolved during the biology-side sourcing pass (`BIOLOGY_PLAN.md §5.4`). Sources to obtain: Schrödinger 1944 (*What Is Life?*); Prigogine 1977 (Nobel lecture) and Prigogine and Stengers 1984 (*Order Out of Chaos*); Smith and Morowitz 2016 (*The Origin and Nature of Life on Earth*); Eigen 1971 ("Self-organization of matter and the evolution of biological macromolecules"); Eigen and Schuster 1979 (*The Hypercycle*); Kauffman 1993 (*The Origins of Order*); Gilbert 1986 ("The RNA world"); Segré et al. 2001 (compositional lipid genome); Wächtershäuser 1988 (pyrite-pulled prebiotic metabolism); Russell and Martin 2004 (alkaline hydrothermal vents); Maturana and Varela 1972, 1980, 1987 (the autopoiesis trilogy); Luisi 2006 (*The Emergence of Life*); Hidalgo 2015 (*Why Information Grows*); Floridi 2011 (*The Philosophy of Information*); Dennett 1987 (*The Intentional Stance*), 1995 (*Darwin's Dangerous Idea*); Pittendrigh 1958 ("Adaptation, natural selection, and behavior"); Mayr 1961, 1988 (philosophy-of-biology papers, esp. "Cause and effect in biology"); Hamilton 1964 (inclusive fitness papers); Deacon 2012 (*Incomplete Nature*); Nagel 1974 ("What Is It Like to Be a Bat?"); Tononi 2008 (integrated-information theory paper); Baars 1988 (*A Cognitive Theory of Consciousness*); Dehaene 2014 (*Consciousness and the Brain*); Ladyman and Wiesner 2020 (*What Is a Complex System?*); Alberts et al. 2014 (*Molecular Biology of the Cell*, 6th ed.); Urry et al. 2020 (Campbell *Biology*); Joyce 1994 (NASA exobiology working-group definition of life).
+## Works cited
+
+- Schrödinger, E. (1944), *What Is Life?*
+- Prigogine, I. (1977), Nobel lecture; Prigogine, I. & Stengers, I. (1984), *Order Out of Chaos*.
+- Smith, E. & Morowitz, H. (2016), *The Origin and Nature of Life on Earth*.
+- Eigen, M. (1971), "Self-organization of matter and the evolution of biological macromolecules"; Eigen, M. & Schuster, P. (1979), *The Hypercycle*.
+- Kauffman, S. (1993), *The Origins of Order*.
+- Gilbert, W. (1986), "The RNA world".
+- Segré, D. et al. (2001), on the compositional lipid genome.
+- Wächtershäuser, G. (1988), on pyrite-pulled prebiotic metabolism; Russell, M. & Martin, W. (2004), on alkaline hydrothermal vents.
+- Maturana, H. & Varela, F. (1972, 1980, 1987), the autopoiesis trilogy.
+- Luisi, P. L. (2006), *The Emergence of Life*.
+- Hidalgo, C. (2015), *Why Information Grows*.
+- Floridi, L. (2011), *The Philosophy of Information*.
+- Dennett, D. C. (1987), *The Intentional Stance*; (1995), *Darwin's Dangerous Idea*.
+- Pittendrigh, C. (1958), "Adaptation, natural selection, and behavior".
+- Mayr, E. (1961, 1988), philosophy-of-biology papers, esp. "Cause and effect in biology".
+- Hamilton, W. D. (1964), the inclusive-fitness papers.
+- Deacon, T. (2012), *Incomplete Nature*.
+- Nagel, T. (1974), "What Is It Like to Be a Bat?"
+- Tononi, G. (2008), on integrated-information theory.
+- Baars, B. (1988), *A Cognitive Theory of Consciousness*; Dehaene, S. (2014), *Consciousness and the Brain*.
+- Ladyman, J. & Wiesner, K. (2020), *What Is a Complex System?*
+- Alberts, B. et al. (2014), *Molecular Biology of the Cell* (6th ed.).
+- Urry, L. et al. (2020), Campbell *Biology*.
+- Joyce, G. (1994), the NASA exobiology working-group definition of life.

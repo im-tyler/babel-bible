@@ -20,9 +20,6 @@ declare module "@neutron-build/core" {
     | "/physics"
     | "/plans"
     | `/plans/${string}`
-    | "/production"
-    | "/sources"
-    | `/sources/${string}`
     | "/specs"
     | `/specs/${string}`
     | "/synthesis"

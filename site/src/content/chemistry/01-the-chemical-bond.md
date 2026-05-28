@@ -172,4 +172,18 @@ What a chemist *means* when they say "the bond between these two atoms" is somet
 
 *Cross-references.* This essay synthesizes across `14.05.02 MO theory for homonuclear diatomics` (the MO picture in technical detail), `15.04.02 SN1 vs SN2 mechanism` (the bond-during-transition-state question), `03.09.02 Clifford algebra` (the symmetry language for orbitals), and the philosophical essays in §20 (the pictures-vs-disclosure structure). It pairs with the broader chemistry-section discussions of `14.02 Chemical bonding I` and `14.05 Chemical bonding II`, and with anticipated future essays on chemistry's autonomy from physics and on the role of effective theories in scientific practice. Outbound hooks to `20.essays.NN` (philosophy synthesis space) are proposed but not pinned to specific essays; the resolution will happen during the cross-domain audit at end of Wave 1.
 
-*Citation status.* All references in this essay are `pending+pointer:` — the `reference/` archive carries no chemistry material as of Wave 1 chem production, and the citations here are author/year placeholders to be resolved during the chemistry-side sourcing pass (`CHEMISTRY_PLAN.md §5.3`). The key sources to obtain are: Lewis 1916 (*The Atom and the Molecule*); Lewis 1923 (*Valence and the Structure of Atoms and Molecules*); Pauling 1939 (*The Nature of the Chemical Bond*); Mulliken's 1930s papers on MO theory; Lennard-Jones 1929 on the LCAO method; Coulson 1952 (*Valence*); Bader 1990 (*Atoms in Molecules: A Quantum Theory*); Reed, Curtiss, and Weinhold 1988 on NBO analysis; Hendry 2017 (*The Metaphysics of Chemistry*, or related work); Scerri 2007 (*The Periodic Table: Its Story and Its Significance*); Bensaude-Vincent and Stengers 1996 (*A History of Chemistry*); Worrall 1989 on structural realism; Ladyman and Ross 2007 (*Every Thing Must Go*).
+## Works cited
+
+- Lewis, G. N. (1916), *The Atom and the Molecule*.
+- Lewis, G. N. (1923), *Valence and the Structure of Atoms and Molecules*.
+- Pauling, L. (1939), *The Nature of the Chemical Bond*.
+- Mulliken, R. S. (1932), foundational papers on molecular-orbital theory.
+- Lennard-Jones, J. E. (1929), on the LCAO method.
+- Coulson, C. A. (1952), *Valence*.
+- Bader, R. F. W. (1990), *Atoms in Molecules: A Quantum Theory*.
+- Reed, A. E., Curtiss, L. A. & Weinhold, F. (1988), on natural bond orbital (NBO) analysis.
+- Hendry, R. F. (2017), *The Metaphysics of Chemistry*.
+- Scerri, E. (2007), *The Periodic Table: Its Story and Its Significance*.
+- Bensaude-Vincent, B. & Stengers, I. (1996), *A History of Chemistry*.
+- Worrall, J. (1989), on structural realism.
+- Ladyman, J. & Ross, D. (2007), *Every Thing Must Go*.

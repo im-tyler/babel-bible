@@ -113,11 +113,6 @@ function renderRefBody(source: string, locator: string): string {
       `<p class="cite-panel__archive"><strong>In archive:</strong> <code>${escapeHtml(meta.archive_path)}</code></p>`,
     );
   }
-  if (source === "TODO_REF") {
-    lines.push(
-      `<p class="cite-panel__pending">⏳ This citation is pending source acquisition. See <code>NEED_TO_SOURCE.md</code>.</p>`,
-    );
-  }
   return lines.join("\n");
 }
 
@@ -125,7 +120,7 @@ function renderUnitBody(unitId: string, isPending: boolean): string {
   if (isPending) {
     return `
       <p class="cite-panel__source-name">Cross-reference: <code>${escapeHtml(unitId)}</code></p>
-      <p class="cite-panel__pending">⏳ Unit not yet shipped. Reserved id; will become a working link once produced.</p>
+      <p class="cite-panel__pending">This unit is not yet published. The id is reserved and will link once it ships.</p>
     `;
   }
   return `

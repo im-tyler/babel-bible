@@ -142,13 +142,14 @@
       .replace(/'/g, "&#39;");
   }
 
+  // Resolved source: `data-ref-source` is a registered key in SOURCE_META.
   function renderRefBody(source, locator) {
     const meta = SOURCE_META[source];
     if (!meta) {
+      // Unregistered key — show what we have as a plain citation.
       return (
         '<p class="cite-panel__source-name">' + escapeHtml(source) + "</p>" +
-        (locator ? '<p class="cite-panel__locator">' + escapeHtml(locator) + "</p>" : "") +
-        '<p class="cite-panel__muted">No metadata registered for this source.</p>'
+        (locator ? '<p class="cite-panel__locator">' + escapeHtml(locator) + "</p>" : "")
       );
     }
     const out = [];
@@ -159,10 +160,14 @@
       out.push('<p class="cite-panel__license"><strong>License:</strong> ' + escapeHtml(meta.license) + "</p>");
     if (meta.attribution)
       out.push('<p class="cite-panel__attribution"><strong>Cite as:</strong> ' + escapeHtml(meta.attribution) + "</p>");
-    if (meta.archive_path)
-      out.push('<p class="cite-panel__archive"><strong>In archive:</strong> <code>' + escapeHtml(meta.archive_path) + "</code></p>");
-    if (source === "TODO_REF")
-      out.push('<p class="cite-panel__pending">⏳ This citation is pending source acquisition. See <code>NEED_TO_SOURCE.md</code>.</p>');
+    return out.join("\n");
+  }
+
+  // Free-form / pending citation: `data-ref-cite` is the reader-facing text.
+  function renderCiteBody(cite, isPending) {
+    const out = ['<p class="cite-panel__source-name">' + escapeHtml(cite) + "</p>"];
+    if (isPending)
+      out.push('<p class="cite-panel__pending">Primary source — the full bibliographic reference is being verified.</p>');
     return out.join("\n");
   }
 
@@ -170,7 +175,7 @@
     if (isPending) {
       return (
         '<p class="cite-panel__source-name">Cross-reference: <code>' + escapeHtml(unitId) + "</code></p>" +
-        '<p class="cite-panel__pending">⏳ Unit not yet shipped. Reserved id; will become a working link once produced.</p>'
+        '<p class="cite-panel__pending">This unit is not yet published. The id is reserved and will link once it ships.</p>'
       );
     }
     return (
@@ -224,9 +229,12 @@
       const refEl = target.closest(".ref");
       if (refEl) {
         e.preventDefault();
-        const source = refEl.dataset.refSource || "unknown";
-        const locator = refEl.dataset.refLocator || "";
-        open("Citation", renderRefBody(source, locator));
+        const d = refEl.dataset;
+        if (d.refSource) {
+          open("Source", renderRefBody(d.refSource, d.refLocator || ""));
+        } else {
+          open("Source", renderCiteBody(d.refCite || "", !!d.refPending));
+        }
         return;
       }
       const unitEl = target.closest(".unit-ref");

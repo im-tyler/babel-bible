@@ -1,6 +1,56 @@
 // Sidebar metadata for a unit: prereqs, references, lean module, etc.
 
+// Internal pointers (`docs/…`, `NEED_TO_SOURCE.md#…`) must never surface as
+// a reader-facing citation.
+const isInternalPath = (s: string) =>
+  /NEED_TO_SOURCE|docs\//.test(s) || /\.md(#|$)/.test(s);
+const cleanRef = (s: string | undefined): string | null =>
+  s && !isInternalPath(s) ? s : null;
+
+// The locator field sometimes carries internal sourcing notes like
+// "§I.1 (canonical anchor — pending in docs/catalogs/NEED_TO_SOURCE.md #75)".
+// Strip those parentheticals; if nothing reader-useful is left, hide locator.
+function cleanLocator(s: string | undefined): string | null {
+  if (!s) return null;
+  const cleaned = s
+    .replace(/\s*\([^)]*(?:NEED_TO_SOURCE|docs\/catalogs|docs\/plans|pending in archive)[^)]*\)/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  return cleaned || null;
+}
+
+// Strip internal scheduling jargon from the rendered `lean_mathlib_gap`
+// (multi-line YAML often contains "per X_PLAN §N" pointers).
+function cleanLeanGap(s: string | undefined): string | null {
+  if (!s) return null;
+  const cleaned = s
+    .replace(/\s*per\s+`?[A-Z][A-Z_]*_PLAN(?:\.md)?`?\s*§?[\d.]*\.?/g, ".")
+    .replace(/\s*per\s+`?docs\/plans\/[^\s`]+`?\s*§?[\d.]*\.?/gi, ".")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+\./g, ".")
+    .trim();
+  return cleaned || null;
+}
+
+// The reviewer value sometimes carries internal scheduling jargon
+// ("… per BIOLOGY_PLAN.md §6"). Strip it; hide the section entirely when the
+// value is just a placeholder ("TBD — … cluster reviewer").
+function reviewerLabel(raw: any): string | null {
+  let v = String(raw || "").trim();
+  if (!v || /^(tbd|todo|tbc|pending|unassigned|none|n\/a)\b/i.test(v)) return null;
+  // Cut at internal scheduling / triage jargon ("per X_PLAN §9 — top
+  // recruitment priority; Yellow at intermediate …").
+  v = v.split(/\s+per\s+|\s+—\s+|\s+--\s+|;|\s*§|\b[A-Z][A-Z_]*_PLAN\b/)[0].trim();
+  // Re-balance a parenthesis left open by the cut.
+  const opens = (v.match(/\(/g) || []).length;
+  const closes = (v.match(/\)/g) || []).length;
+  if (opens > closes) v += ")".repeat(opens - closes);
+  v = v.replace(/\s+\)/g, ")").replace(/\(\s*\)/g, "").trim();
+  return v || null;
+}
+
 export default function UnitMeta({ unit }: { unit: any }) {
+  const reviewer = reviewerLabel(unit.human_reviewer);
   return (
     <aside class="unit-meta">
       <section>
@@ -52,43 +102,47 @@ export default function UnitMeta({ unit }: { unit: any }) {
         </dl>
       </section>
 
-      <section>
-        <h3>References</h3>
-        <ul class="ref-list">
-          {unit.references.map((r: any, i: number) => (
-            <li key={i}>
-              <strong>{r.source}</strong>
-              {r.pending && <span class="badge badge--pending"> pending</span>}
-              <br />
-              <code>{r.path}</code>
-              {r.locator && <span class="muted"> · {r.locator}</span>}
-              {r.pointer && (
-                <span class="muted">
-                  {" "}· see {r.pointer}
-                </span>
-              )}
-            </li>
-          ))}
-        </ul>
-      </section>
+      {unit.references.length > 0 && (
+        <section>
+          <h3>References</h3>
+          <ul class="ref-list">
+            {unit.references.map((r: any, i: number) => {
+              // Lead with the human-readable citation. `r.source` is an
+              // internal key (e.g. "mcclellan2015", "TODO_REF") and is not
+              // shown to readers; nor are internal pointers like
+              // `docs/catalogs/NEED_TO_SOURCE.md#…` that sit in `path`.
+              const cite = cleanRef(r.pointer) || cleanRef(r.path)
+                || (r.source && r.source !== "TODO_REF" ? r.source : null);
+              const loc = cleanLocator(r.locator);
+              return (
+                <li key={i}>
+                  {cite ? <span>{cite}</span> : <span class="muted">Source pending</span>}
+                  {loc && <span class="muted"> · {loc}</span>}
+                  {r.pending && <span class="muted"> · source being verified</span>}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       {unit.lean_module && (
         <section>
           <h3>Lean module</h3>
           <code>{unit.lean_module}</code>
-          {unit.lean_status === "partial" && unit.lean_mathlib_gap && (
+          {unit.lean_status === "partial" && cleanLeanGap(unit.lean_mathlib_gap) && (
             <details>
               <summary>Mathlib gap</summary>
-              <pre class="lean-gap">{unit.lean_mathlib_gap}</pre>
+              <pre class="lean-gap">{cleanLeanGap(unit.lean_mathlib_gap)}</pre>
             </details>
           )}
         </section>
       )}
 
-      {unit.human_reviewer && (
+      {reviewer && (
         <section>
           <h3>Reviewer</h3>
-          <p>{unit.human_reviewer}</p>
+          <p>{reviewer}</p>
         </section>
       )}
 
