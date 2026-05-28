@@ -144,7 +144,16 @@ export default function RootLayout({ children }: { children: any }) {
             <div>
               <p class="footer-brand">Babel Bible</p>
               <p class="muted">A self-study curriculum across the sciences and humanities. Three tiers, one source.</p>
-              <p class="footer-note">Built with <a href="https://neutron.build" target="_blank" rel="noopener noreferrer">Neutron</a>.</p>
+              <div class="footer-credits">
+                <div class="footer-credit">
+                  <span class="footer-credit__label">Built with</span>
+                  <a class="footer-credit__name" href="https://neutron.build" target="_blank" rel="noopener noreferrer">Neutron</a>
+                </div>
+                <div class="footer-credit">
+                  <span class="footer-credit__label">Deployed on</span>
+                  <a class="footer-credit__name" href="https://teploy.co" target="_blank" rel="noopener noreferrer">Teploy</a>
+                </div>
+              </div>
             </div>
             <div>
               <p class="footer-heading">Browse</p>
