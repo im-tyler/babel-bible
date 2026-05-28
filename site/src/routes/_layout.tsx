@@ -151,7 +151,7 @@ export default function RootLayout({ children }: { children: any }) {
                 </div>
                 <div class="footer-credit">
                   <span class="footer-credit__label">Deployed on</span>
-                  <a class="footer-credit__name" href="https://teploy.co" target="_blank" rel="noopener noreferrer">Teploy</a>
+                  <a class="footer-credit__name" href="https://teploy.com" target="_blank" rel="noopener noreferrer">Teploy</a>
                 </div>
               </div>
             </div>
