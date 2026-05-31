@@ -566,6 +566,36 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: a system of reversible arrows between points where each arrow remembers where it starts and ends
 - **notes**: Definition of a Lie groupoid $G \rightrightarrows M$: manifold of arrows over manifold of objects, smooth source/target submersions $s,t$, smooth associative partial multiplication on composable pairs $G \times_M G$, unit embedding $u : M \hookrightarrow G$, smooth inversion $i$. Structure identities, isotropy groups $G_x$ as Lie groups, orbits, transitivity. Standard examples: pair groupoid $M \times M$, fundamental groupoid $\Pi(M)$, action groupoid $G \ltimes M$, gauge groupoid $(P \times P)/G$, identity/unit groupoid, bundle of groups. Frontier for Lie algebroid theory; not yet in Mathlib.
 
+### lie-groups.lie-algebroid
+
+- **title**: Lie algebroid (anchor, bracket, Leibniz law)
+- **prerequisites**: `lie-groups.lie-groupoid`, `bundle.vector-bundle`, `lie-algebra.lie-algebra`, `diff-geom.frobenius-theorem`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. 3; Crainic-Fernandes *Integrability of Lie brackets* (Ann. Math. 157, 2003)
+  - intermediate: a vector bundle whose sections carry a Lie bracket and an anchor to vector fields satisfying the Leibniz law
+  - beginner: the infinitesimal version of a system of arrows — directions you can move in at each point, that bracket like vector fields
+- **notes**: Definition of a Lie algebroid $A \to M$: a vector bundle, a Lie bracket $[\cdot,\cdot]$ on $\Gamma(A)$, and an anchor bundle map $\rho : A \to TM$ satisfying the Leibniz rule $[X, fY] = f[X,Y] + (\rho(X)f)\,Y$. The anchor is automatically a bracket homomorphism $\rho([X,Y]) = [\rho X, \rho Y]$ (derivable from Jacobi + Leibniz). Standard examples: tangent algebroid $TM$ (anchor = identity), a Lie algebra over a point, the bundle of Lie algebras (isotropy), the action algebroid $\mathfrak{g} \ltimes M$, the Atiyah algebroid $TP/G$ of a principal bundle, the cotangent algebroid $T^\ast M$ of a Poisson manifold (anchor = $\pi^\sharp$). The Lie functor: $A = \ker(ds)|_M$ with anchor $dt$ of a Lie groupoid. Integrability obstruction (Crainic-Fernandes) — Lie's third theorem fails. Frontier; not yet in Mathlib.
+
+### bundle.gauge-groupoid
+
+- **title**: Gauge groupoid of a principal bundle
+- **prerequisites**: `lie-groups.lie-groupoid`, `bundle.principal-bundle`, `algebra.group-action`, `lie-groups.lie-group`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. 1 §1.7; Ehresmann 1959
+  - intermediate: the transitive Lie groupoid $(P \times P)/G \rightrightarrows M$ built from a principal $G$-bundle, with isotropy the structure group
+  - beginner: the system of fibre-to-fibre symmetries of a principal bundle, packaged as reversible arrows over the base
+- **notes**: The gauge groupoid (Ehresmann's *groupoïde des automorphismes*) of a principal $G$-bundle $P \to M$: arrow manifold $(P \times P)/G$ with diagonal $G$-action $h \cdot (p, q) = (ph, qh)$, source $[(p,q)] \mapsto \pi(q)$, target $[(p,q)] \mapsto \pi(p)$, composition by the fibre $G$-action, units $[(p,p)]$. Proof it is a Lie groupoid and transitive; isotropy at each $x$ isomorphic to the structure group $G$. Mackenzie's correspondence: transitive Lie groupoids $\leftrightarrow$ principal bundles (the gauge groupoid is the flagship transitive example, inverse to $P = s^{-1}(x_0)$). Bisections $\leftrightarrow$ gauge transformations. Atiyah sequence $0 \to (P \times \mathfrak g)/G \to TP/G \to TM \to 0$ as the infinitesimal/algebroid shadow; connections $\leftrightarrow$ splittings. Worked examples: frame bundle $\to$ linear-frame gauge groupoid; product bundle $M \times G \to$ pair-groupoid-times-$G$. Frontier for Lie algebroid theory; not in Mathlib.
+
+### lie-groups.action-lie-groupoid
+
+- **title**: Action Lie groupoid and action Lie algebroid
+- **prerequisites**: `lie-groups.lie-groupoid`, `algebra.group-action`, `lie-groups.lie-group`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. 1 §1.5 + Ch. 3 §1.4; Moerdijk-Mrcun *Introduction to Foliations and Lie Groupoids* Ch. 5
+  - intermediate: the action groupoid $G \ltimes M \rightrightarrows M$ of a Lie group action, with arrows $(g,x) : x \to g\cdot x$, and its infinitesimal counterpart the action algebroid $\mathfrak g \ltimes M$
+  - beginner: package a symmetry that moves points of a space into reversible arrows, one arrow for each group element and each starting point
+- **notes**: For a smooth left action $G \times M \to M$ the **action (or translation) groupoid** $G \ltimes M \rightrightarrows M$ has arrow manifold $G \times M$, arrows $(g,x) : x \to g\cdot x$, source $s(g,x)=x$, target $t(g,x)=g\cdot x$, composition $(h, g\cdot x)(g,x) = (hg, x)$, units $(e,x)$, inversion $(g,x)^{-1}=(g^{-1}, g\cdot x)$. Proof it is a Lie groupoid (source is a projection, target a submersion since $x \mapsto g\cdot x$ is a diffeomorphism for fixed $g$). Isotropy at $x$ = stabiliser $G_x$; groupoid orbits = action orbits; transitive iff the action is transitive, in which case $G \ltimes M \cong$ gauge groupoid of $G \to G/G_x$. The **action (or transformation) Lie algebroid** $\mathfrak g \ltimes M = M \times \mathfrak g \to M$ is the trivial bundle with fibre $\mathfrak g$, anchor $\rho(x,\xi) = \xi_M(x)$ the fundamental (infinitesimal-generator) vector field, and bracket extending the $\mathfrak g$-bracket on constant sections by the Leibniz rule. Anchor is a bracket morphism $\Leftrightarrow$ $\xi \mapsto \xi_M$ is a Lie-algebra homomorphism (for a left action with the standard sign, an anti-homomorphism; a right action or sign flip makes it a homomorphism). Worked example: $\mathrm{SO}(2)$ on $\mathbb R^2$ with generator $\partial_\theta = x\,\partial_y - y\,\partial_x$. Differentiating $G \ltimes M$ yields $\mathfrak g \ltimes M$. Frontier for Lie algebroid theory; not in Mathlib.
+
 ### spin-geometry.structure.spin-structure
 
 - **title**: Spin structure on an oriented Riemannian manifold
@@ -783,6 +813,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Cannas §22; McDuff-Salamon Ch. 9
   - beginner: Arnold *Mathematical Methods of Classical Mechanics* §47 informal
 - **notes**: Graph of symplectomorphism $\phi : T^*M \to T^*M$ as a Lagrangian in $T^*M \times T^*M \cong T^*(M \times M)$. Type-1 generating function $F : M \times M \to \mathbb{R}$. Four classical types (physics literature). Generating function for exact Lagrangian = scalar potential $S : M \to \mathbb{R}$. Hörmander 1971 GFQI: every closed Lagrangian admits a generating function quadratic at infinity. Sikorav-Viterbo theorem: GFQIs for Hamiltonian-isotopic Lagrangians are equivalent up to stabilisation/fibre-change/constants — gives spectral invariants. Discrete action principle: critical points = fixed points / Lagrangian intersections. Conley-Zehnder used GFQI for the torus Arnold conjecture (1983).
+
+### symplectic-geometry.jet-bundle
+
+- **title**: Jet bundle and total derivative
+- **prerequisites**: `symplectic-geometry.cotangent-bundle`, `bundle.fibre-bundle`, `diffgeo.smooth-manifold`
+- **tier_anchors**:
+  - master: Olver *Applications of Lie Groups to Differential Equations* (2nd ed., 1993) Ch. 2, 4-5; Saunders *The Geometry of Jet Bundles* (1989); Anderson *The Variational Bicomplex* (manuscript)
+  - intermediate: Olver Ch. 2; Saunders Ch. 4-6
+  - beginner: Olver §2.3 informal (Taylor-data picture)
+- **notes**: $k$-jet equivalence relation (sections agreeing to order $k$ at a point), the jet bundle $J^k(X, U)$ of a fibred / trivial bundle $X \times U$, jet coordinates $(x^i, u^\alpha, u^\alpha_J)$ for multi-indices $|J| \le k$, prolongation $\mathrm{pr}^{(k)} f$ of a section. Contact / Cartan ideal $\theta^\alpha = du^\alpha - u^\alpha_i\, dx^i$ characterising holonomic sections. Total derivative $D_i = \partial_{x^i} + \sum u^\alpha_{J,i}\, \partial_{u^\alpha_J}$ and the identity $D_i(\mathrm{pr}\, f) = \mathrm{pr}(\partial_i f)$. Prolongation of a vector field via $D_J(Q^\alpha)$ where $Q$ is the characteristic. PDE as a subvariety of $J^k$ and its prolongation. Master application: variational bicomplex / Euler operator (Anderson, Olver Ch. 4-5). Originators: Ehresmann 1951 (jets, C. R. Acad. Sci.); Olver 1986/1993; Saunders 1989.
 
 ### symplectic-geometry.delzant-theorem
 

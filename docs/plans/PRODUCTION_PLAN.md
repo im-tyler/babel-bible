@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-31T03:41:33.552010+00:00_
+_Generated: 2026-05-31T03:51:25.969182+00:00_
 
 ## Burn-down
 
-- Units shipped: **1186**
-- Units queued (gap units from audits): **46**
+- Units shipped: **1190**
+- Units queued (gap units from audits): **42**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-31T03:41:33.552010+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `12.09.04` | Multi-electron atomic structure and LS coupling | P? | landau-lifshitz-quantum-mechanics |
-| 2 | `12.15.02` | Parity, discrete-symmetry groups, and the Wigner-Eckart theorem | P? | landau-lifshitz-quantum-mechanics |
-| 3 | `12.08.04` | Inelastic collisions and the distorted-wave Born approximation | P? | landau-lifshitz-quantum-mechanics |
-| 4 | `03.03.10` | Lie groupoid: source, target, smooth composition | P1 | mackenzie-lie-groupoids-vol1 |
-| 5 | `03.05.21` | Gauge groupoid of a principal bundle: $\frac{P \times P}{G} \rightrightarrows M$ | P1 | mackenzie-lie-groupoids-vol1 |
-| 6 | `03.04.16` | Lie algebroid: anchor, bracket, Leibniz law | P1 | mackenzie-lie-groupoids-vol1 |
-| 7 | `03.05.22` | Atiyah algebroid $\mathrm{At}(P) = TP/G$ of a principal bundle | P1 | mackenzie-lie-groupoids-vol1 |
-| 8 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
-| 9 | `03.04.17` | Lie functor: differentiating a Lie groupoid to its Lie algebroid | P1 | mackenzie-lie-groupoids-vol1 |
-| 10 | `03.04.18` | Pradines integration theorem and Mackenzie's transitive integrability | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
-| 11 | `03.03.11` | Action Lie groupoid $G \ltimes M$ and action Lie algebroid $\mathfrak{g} \ltimes M$ | P2 | mackenzie-lie-groupoids-vol1 |
-| 12 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
-| 13 | `03.03.12` | Bisection group of a Lie groupoid; gauge transformations as bisections | P2 | mackenzie-lie-groupoids-vol1 |
-| 14 | `03.03.13` | Groupoid as a small category with all morphisms invertible (pure algebra) | P3 | mackenzie-lie-groupoids-vol1 |
-| 15 | `05.05.05` | Jet bundle $J^k(X, U)$ and total derivative | P? | olver-lie-groups-differential-equations |
-| 16 | `05.05.06` | Prolongation of vector fields and the infinitesimal symmetry criterion | P? | olver-lie-groups-differential-equations |
-| 17 | `05.05.07` | Group-invariant solutions and symmetry reduction | P? | olver-lie-groups-differential-equations |
-| 18 | `05.05.08` | Noether's second theorem and the Bianchi identity | P? | olver-lie-groups-differential-equations |
-| 19 | `05.05.09` | Generalised symmetries (Lie-Bäcklund) and recursion operators | P? | olver-lie-groups-differential-equations |
-| 20 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
+| 1 | `03.05.21` | Gauge groupoid of a principal bundle: $\frac{P \times P}{G} \rightrightarrows M$ | P1 | mackenzie-lie-groupoids-vol1 |
+| 2 | `03.04.16` | Lie algebroid: anchor, bracket, Leibniz law | P1 | mackenzie-lie-groupoids-vol1 |
+| 3 | `03.05.22` | Atiyah algebroid $\mathrm{At}(P) = TP/G$ of a principal bundle | P1 | mackenzie-lie-groupoids-vol1 |
+| 4 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
+| 5 | `03.04.17` | Lie functor: differentiating a Lie groupoid to its Lie algebroid | P1 | mackenzie-lie-groupoids-vol1 |
+| 6 | `03.04.18` | Pradines integration theorem and Mackenzie's transitive integrability | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
+| 7 | `03.03.11` | Action Lie groupoid $G \ltimes M$ and action Lie algebroid $\mathfrak{g} \ltimes M$ | P2 | mackenzie-lie-groupoids-vol1 |
+| 8 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
+| 9 | `03.03.12` | Bisection group of a Lie groupoid; gauge transformations as bisections | P2 | mackenzie-lie-groupoids-vol1 |
+| 10 | `03.03.13` | Groupoid as a small category with all morphisms invertible (pure algebra) | P3 | mackenzie-lie-groupoids-vol1 |
+| 11 | `05.05.05` | Jet bundle $J^k(X, U)$ and total derivative | P? | olver-lie-groups-differential-equations |
+| 12 | `05.05.06` | Prolongation of vector fields and the infinitesimal symmetry criterion | P? | olver-lie-groups-differential-equations |
+| 13 | `05.05.07` | Group-invariant solutions and symmetry reduction | P? | olver-lie-groups-differential-equations |
+| 14 | `05.05.08` | Noether's second theorem and the Bianchi identity | P? | olver-lie-groups-differential-equations |
+| 15 | `05.05.09` | Generalised symmetries (Lie-Bäcklund) and recursion operators | P? | olver-lie-groups-differential-equations |
+| 16 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
+| 17 | `05.09.11` | Master symmetries and the Fuchssteiner construction | P? | olver-lie-groups-differential-equations |
+| 18 | `05.05.10` | Lie's classification of second-order ODEs and the symmetry algorithm for ODEs | P? | olver-lie-groups-differential-equations |
+| 19 | `05.09.12` | Casimir functions of degenerate Poisson structures (pointer) | P? | olver-lie-groups-differential-equations |
+| 20 | `03.04.20` | Surface integrals of 2-forms; flux of a vector field through an oriented surface | P1 | shifrin-multivariable |
 
 ## Audits completed
 
