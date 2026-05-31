@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-31T04:11:35.006058+00:00_
+_Generated: 2026-05-31T04:23:37.216779+00:00_
 
 ## Burn-down
 
-- Units shipped: **1198**
-- Units queued (gap units from audits): **34**
+- Units shipped: **1202**
+- Units queued (gap units from audits): **30**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-31T04:11:35.006058+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
-| 2 | `03.04.18` | Pradines integration theorem and Mackenzie's transitive integrability | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
-| 3 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
-| 4 | `03.03.13` | Groupoid as a small category with all morphisms invertible (pure algebra) | P3 | mackenzie-lie-groupoids-vol1 |
-| 5 | `05.05.07` | Group-invariant solutions and symmetry reduction | P? | olver-lie-groups-differential-equations |
-| 6 | `05.05.08` | Noether's second theorem and the Bianchi identity | P? | olver-lie-groups-differential-equations |
-| 7 | `05.05.09` | Generalised symmetries (Lie-Bäcklund) and recursion operators | P? | olver-lie-groups-differential-equations |
-| 8 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
-| 9 | `05.09.11` | Master symmetries and the Fuchssteiner construction | P? | olver-lie-groups-differential-equations |
-| 10 | `05.05.10` | Lie's classification of second-order ODEs and the symmetry algorithm for ODEs | P? | olver-lie-groups-differential-equations |
-| 11 | `05.09.12` | Casimir functions of degenerate Poisson structures (pointer) | P? | olver-lie-groups-differential-equations |
-| 12 | `03.04.20` | Surface integrals of 2-forms; flux of a vector field through an oriented surface | P1 | shifrin-multivariable |
-| 13 | `03.04.21` | Closed and exact forms; Poincaré lemma; the angle 1-form | P1 | shifrin-multivariable |
-| 14 | `01.01.06` | Systems of linear equations and the Kronecker-Capelli theorem | P? | shilov-linear-algebra |
-| 15 | `01.01.10` | Adjoint operator and isometry on a finite-dim inner-product space | P? | shilov-linear-algebra |
-| 16 | `01.01.14` | Rayleigh quotient and the Courant-Fischer min-max characterisation of eigenvalues | P? | shilov-linear-algebra |
-| 17 | `01.01.16` | Invariant subspaces and the primary decomposition | P? | shilov-linear-algebra |
-| 18 | `01.01.17` | Change of basis and the transformation laws | P? | shilov-linear-algebra |
-| 19 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
-| 20 | `01.01.19` | Simultaneous diagonalisation of two quadratic forms and the generalised eigenvalue problem | P? | shilov-linear-algebra |
+| 1 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
+| 2 | `05.05.08` | Noether's second theorem and the Bianchi identity | P? | olver-lie-groups-differential-equations |
+| 3 | `05.05.09` | Generalised symmetries (Lie-Bäcklund) and recursion operators | P? | olver-lie-groups-differential-equations |
+| 4 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
+| 5 | `05.09.11` | Master symmetries and the Fuchssteiner construction | P? | olver-lie-groups-differential-equations |
+| 6 | `05.05.10` | Lie's classification of second-order ODEs and the symmetry algorithm for ODEs | P? | olver-lie-groups-differential-equations |
+| 7 | `05.09.12` | Casimir functions of degenerate Poisson structures (pointer) | P? | olver-lie-groups-differential-equations |
+| 8 | `03.04.20` | Surface integrals of 2-forms; flux of a vector field through an oriented surface | P1 | shifrin-multivariable |
+| 9 | `03.04.21` | Closed and exact forms; Poincaré lemma; the angle 1-form | P1 | shifrin-multivariable |
+| 10 | `01.01.06` | Systems of linear equations and the Kronecker-Capelli theorem | P? | shilov-linear-algebra |
+| 11 | `01.01.10` | Adjoint operator and isometry on a finite-dim inner-product space | P? | shilov-linear-algebra |
+| 12 | `01.01.14` | Rayleigh quotient and the Courant-Fischer min-max characterisation of eigenvalues | P? | shilov-linear-algebra |
+| 13 | `01.01.16` | Invariant subspaces and the primary decomposition | P? | shilov-linear-algebra |
+| 14 | `01.01.17` | Change of basis and the transformation laws | P? | shilov-linear-algebra |
+| 15 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
+| 16 | `01.01.19` | Simultaneous diagonalisation of two quadratic forms and the generalised eigenvalue problem | P? | shilov-linear-algebra |
+| 17 | `13.04.02` | Einstein-Hilbert action and variational derivation of the Einstein equations | P1 | sternberg-curvature-mathematics-physics |
+| 18 | `13.04.03` | Palatini first-order variational formulation of general relativity | P1 | sternberg-curvature-mathematics-physics |
+| 19 | `13.02.03` | Cartan tetrad and spin-connection formulation of general relativity | P1 | sternberg-curvature-mathematics-physics |
+| 20 | `13.04.04` | Stress-energy tensor as functional derivative of the matter action | P1 | sternberg-curvature-mathematics-physics |
 
 ## Audits completed
 
