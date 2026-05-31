@@ -576,6 +576,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: the infinitesimal version of a system of arrows — directions you can move in at each point, that bracket like vector fields
 - **notes**: Definition of a Lie algebroid $A \to M$: a vector bundle, a Lie bracket $[\cdot,\cdot]$ on $\Gamma(A)$, and an anchor bundle map $\rho : A \to TM$ satisfying the Leibniz rule $[X, fY] = f[X,Y] + (\rho(X)f)\,Y$. The anchor is automatically a bracket homomorphism $\rho([X,Y]) = [\rho X, \rho Y]$ (derivable from Jacobi + Leibniz). Standard examples: tangent algebroid $TM$ (anchor = identity), a Lie algebra over a point, the bundle of Lie algebras (isotropy), the action algebroid $\mathfrak{g} \ltimes M$, the Atiyah algebroid $TP/G$ of a principal bundle, the cotangent algebroid $T^\ast M$ of a Poisson manifold (anchor = $\pi^\sharp$). The Lie functor: $A = \ker(ds)|_M$ with anchor $dt$ of a Lie groupoid. Integrability obstruction (Crainic-Fernandes) — Lie's third theorem fails. Frontier; not yet in Mathlib.
 
+### lie-groups.lie-functor
+
+- **title**: Lie functor (differentiating a Lie groupoid to its Lie algebroid)
+- **prerequisites**: `lie-groups.lie-groupoid`, `lie-groups.lie-algebroid`, `lie-groups.lie-group`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. III §3 + Ch. IV §1; Moerdijk-Mrcun *Introduction to Foliations and Lie Groupoids* Ch. 6
+  - intermediate: the construction $G \rightrightarrows M \mapsto A(G) = \ker(ds)|_M$ with anchor $dt$ and bracket of right-invariant source-fibre vector fields, functorial in groupoid morphisms
+  - beginner: the rule that turns a global system of arrows into its infinitesimal shadow, the way a Lie group turns into its Lie algebra
+- **notes**: The Lie functor from Lie groupoids to Lie algebroids. From $G \rightrightarrows M$ build $A(G) = \ker(ds)|_M = T^s_M G$ (tangent to source fibres along the units), anchor $\rho = dt|_A : A \to TM$, bracket via right-invariant vector fields on the $s$-fibres ($\Gamma(A) \cong$ right-invariant fields; bracket of right-invariant fields is right-invariant; restrict to units). Prove the bracket is well-defined and satisfies Leibniz + Jacobi, so $A(G)$ is a Lie algebroid. Functoriality: a groupoid morphism $\varphi : G \to H$ induces an algebroid morphism $A(\varphi)$. Examples table: pair groupoid $M \times M \mapsto TM$, action groupoid $G \ltimes M \mapsto \mathfrak g \ltimes M$, gauge groupoid $\mapsto$ Atiyah algebroid $TP/G$, Lie group $G \mapsto \mathfrak g$ (recovers the classical Lie functor). Lie's theorems for groupoids: Lie I and Lie II hold, Lie III fails (Crainic-Fernandes integrability obstruction). Pradines 1967; Mackenzie 1987/2005; Moerdijk-Mrcun 2003; Crainic-Fernandes 2003. Frontier for Lie algebroid theory; not in Mathlib.
+
 ### bundle.gauge-groupoid
 
 - **title**: Gauge groupoid of a principal bundle
@@ -585,6 +595,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: the transitive Lie groupoid $(P \times P)/G \rightrightarrows M$ built from a principal $G$-bundle, with isotropy the structure group
   - beginner: the system of fibre-to-fibre symmetries of a principal bundle, packaged as reversible arrows over the base
 - **notes**: The gauge groupoid (Ehresmann's *groupoïde des automorphismes*) of a principal $G$-bundle $P \to M$: arrow manifold $(P \times P)/G$ with diagonal $G$-action $h \cdot (p, q) = (ph, qh)$, source $[(p,q)] \mapsto \pi(q)$, target $[(p,q)] \mapsto \pi(p)$, composition by the fibre $G$-action, units $[(p,p)]$. Proof it is a Lie groupoid and transitive; isotropy at each $x$ isomorphic to the structure group $G$. Mackenzie's correspondence: transitive Lie groupoids $\leftrightarrow$ principal bundles (the gauge groupoid is the flagship transitive example, inverse to $P = s^{-1}(x_0)$). Bisections $\leftrightarrow$ gauge transformations. Atiyah sequence $0 \to (P \times \mathfrak g)/G \to TP/G \to TM \to 0$ as the infinitesimal/algebroid shadow; connections $\leftrightarrow$ splittings. Worked examples: frame bundle $\to$ linear-frame gauge groupoid; product bundle $M \times G \to$ pair-groupoid-times-$G$. Frontier for Lie algebroid theory; not in Mathlib.
+
+### lie-groups.bisection-group
+
+- **title**: Bisection group of a Lie groupoid; gauge transformations as bisections
+- **prerequisites**: `lie-groups.lie-groupoid`, `bundle.gauge-groupoid`, `lie-groups.lie-group`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. I §2 + Ch. V §3; Schmeding-Wockel *The Lie group of bisections of a Lie groupoid* (Ann. Glob. Anal. Geom. 48, 2015)
+  - intermediate: the group $\mathrm{Bis}(G)$ of smooth sections $\sigma : M \to G$ of the source with $t \circ \sigma$ a diffeomorphism, multiplied by $(\sigma \star \tau)(x) = \sigma(t\tau(x))\,\tau(x)$
+  - beginner: a way to pick one arrow over every point at once, coherently enough that the picks form a group
+- **notes**: A **bisection** of a Lie groupoid $G \rightrightarrows M$ is a smooth map $\sigma : M \to G$ with $s \circ \sigma = \mathrm{id}_M$ and $t \circ \sigma \in \mathrm{Diff}(M)$ (equivalently a section of $s$ whose image $\sigma(M)$ meets each $t$-fibre transversally in one point). The **bisection group** $\mathrm{Bis}(G)$ has product $(\sigma \star \tau)(x) = \sigma(t(\tau(x)))\,\tau(x)$, unit the unit section $u : x \mapsto 1_x$, inverse $\sigma^{-1}(x) = \sigma(\bar\sigma^{-1}(x))^{-1}$ where $\bar\sigma = t\circ\sigma$. Prove associativity, units, inverses. The map $\beta : \mathrm{Bis}(G) \to \mathrm{Diff}(M)$, $\sigma \mapsto t\circ\sigma$, is a group homomorphism. Left/right translation $L_\sigma, R_\sigma : G \to G$ by a bisection are diffeomorphisms of the arrow manifold. For the gauge groupoid $(P\times P)/G$, $\mathrm{Bis} \cong$ the group of $G$-bundle automorphisms covering diffeomorphisms of $M$, and the kernel of $\beta$ (base-identity bisections) $\cong$ the gauge group $\mathrm{Gau}(P)$ of equivariant automorphisms covering $\mathrm{id}_M$ (cross-ref bundle.gauge-groupoid). The Lie algebra of $\mathrm{Bis}(G)$ is $\Gamma(A)$, sections of the Lie algebroid $A = \ker(ds)|_M$; bisections integrate algebroid sections via flows of right-invariant vector fields, connecting to the Lie functor. Local bisections and the source-connected case. Examples: $\mathrm{Bis}(M\times M) \cong \mathrm{Diff}(M)$ (pair groupoid); bisections of an action groupoid $G \ltimes M$ as $G$-valued maps with diffeomorphism constraint. Schmeding-Wockel 2015: $\mathrm{Bis}(G)$ is an infinite-dimensional (Fréchet/regular) Lie group when $M$ is compact. Historical: Ehresmann 1959, Mackenzie 1987/2005, Kumar, Rybicki, Schmeding-Wockel. Frontier for Lie groupoid theory; not in Mathlib.
+
+### bundle.atiyah-algebroid
+
+- **title**: Atiyah algebroid of a principal bundle
+- **prerequisites**: `bundle.gauge-groupoid`, `lie-groups.lie-algebroid`, `bundle.principal-bundle`, `diffgeo.connection.connection`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. III §3; Atiyah 1957 *Complex analytic connections in fibre bundles* (Trans. AMS 85)
+  - intermediate: the Lie algebroid $\mathrm{At}(P) = TP/G \to M$ whose sections are $G$-invariant vector fields on $P$, sitting in the Atiyah sequence $0 \to \mathrm{ad}(P) \to TP/G \to TM \to 0$
+  - beginner: the infinitesimal version of the gauge groupoid — the invariant directions you can move a principal bundle in, packaged so that moving the base and twisting the fibre are two pieces of one object
+- **notes**: The Atiyah algebroid $\mathrm{At}(P) = TP/G \to M$ of a principal $G$-bundle $P \to M$: sections are the $G$-invariant vector fields on $P$, anchor $\pi_\ast : TP/G \to TM$ the descent of $d\pi$, kernel the adjoint bundle $\mathrm{ad}(P) = (P \times \mathfrak g)/G$. The Atiyah short exact sequence $0 \to \mathrm{ad}(P) \to \mathrm{At}(P) \to TM \to 0$ (prove exactness from constant-rank $d\pi$). Bracket on $\Gamma(\mathrm{At}(P))$ = bracket of invariant vector fields, closed because $[X,Y]$ is invariant when $X,Y$ are. Principal connections $\leftrightarrow$ right-splittings $\sigma : TM \to \mathrm{At}(P)$ of the sequence (bijection proof); curvature $F(X,Y) = \sigma[X,Y] - [\sigma X, \sigma Y] \in \Gamma(\mathrm{ad}(P))$ measures the failure of $\sigma$ to be a bracket morphism. It is the Lie algebroid of the gauge groupoid $(P \times P)/G$. Chern-Weil / characteristic-class shadow via the curvature. Worked examples: product bundle $M \times G$ gives $\mathrm{At} = TM \oplus (M \times \mathfrak g)$ and the flat connection; frame-bundle case. Historical roots: Atiyah 1957 (holomorphic obstruction), Kostant, Ehresmann 1959, Mackenzie 1987/2005. Frontier for Lie algebroid theory; not in Mathlib.
 
 ### lie-groups.action-lie-groupoid
 
@@ -823,6 +853,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Olver Ch. 2; Saunders Ch. 4-6
   - beginner: Olver §2.3 informal (Taylor-data picture)
 - **notes**: $k$-jet equivalence relation (sections agreeing to order $k$ at a point), the jet bundle $J^k(X, U)$ of a fibred / trivial bundle $X \times U$, jet coordinates $(x^i, u^\alpha, u^\alpha_J)$ for multi-indices $|J| \le k$, prolongation $\mathrm{pr}^{(k)} f$ of a section. Contact / Cartan ideal $\theta^\alpha = du^\alpha - u^\alpha_i\, dx^i$ characterising holonomic sections. Total derivative $D_i = \partial_{x^i} + \sum u^\alpha_{J,i}\, \partial_{u^\alpha_J}$ and the identity $D_i(\mathrm{pr}\, f) = \mathrm{pr}(\partial_i f)$. Prolongation of a vector field via $D_J(Q^\alpha)$ where $Q$ is the characteristic. PDE as a subvariety of $J^k$ and its prolongation. Master application: variational bicomplex / Euler operator (Anderson, Olver Ch. 4-5). Originators: Ehresmann 1951 (jets, C. R. Acad. Sci.); Olver 1986/1993; Saunders 1989.
+
+### symplectic-geometry.prolongation-symmetry-criterion
+
+- **title**: Prolongation of vector fields and the infinitesimal symmetry criterion
+- **prerequisites**: `symplectic-geometry.jet-bundle`, `ode.phase-flow-one-parameter-group`, `lie-theory.lie-group`
+- **tier_anchors**:
+  - master: Olver *Applications of Lie Groups to Differential Equations* (2nd ed., 1993) §2.3-§2.4; Ovsiannikov *Group Analysis of Differential Equations* (1982); Bluman-Kumei *Symmetries and Differential Equations* (1989)
+  - intermediate: Olver §2.3-§2.4 (prolongation formula, determining equations); Hydon *Symmetry Methods for Differential Equations* (2000)
+  - beginner: Olver §2.3 informal (a symmetry moves solutions to solutions)
+- **notes**: One-parameter symmetry group of a PDE system and its infinitesimal generator $v = \xi^i\partial_{x^i} + \phi^\alpha\partial_{u^\alpha}$; prolongation $\mathrm{pr}^{(k)}v = v + \sum_{|J|\le k}\phi^\alpha_J\partial_{u^\alpha_J}$ with $\phi^\alpha_J = D_J(\phi^\alpha - \xi^i u^\alpha_i) + \xi^i u^\alpha_{J,i}$ and characteristic $Q^\alpha = \phi^\alpha - \xi^i u^\alpha_i$, proved from the total-derivative machinery of `symplectic-geometry.jet-bundle`. Lie's infinitesimal symmetry criterion: $\mathrm{pr}^{(k)}v[\Delta_\nu] = 0$ whenever $\Delta = 0$, equivalent to invariance of the equation; determining equations as an overdetermined linear PDE system for $\xi, \phi$. Worked: heat equation $u_t = u_{xx}$ (scaling + Galilean symmetries) and the harmonic oscillator symmetry algebra. Forward-ref Noether. Originators: Lie 1881 (Arch. for Math.); Olver 1986/1993; Ovsiannikov 1982; Bluman-Kumei 1989.
 
 ### symplectic-geometry.delzant-theorem
 
