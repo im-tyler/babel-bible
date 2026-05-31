@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-31T03:08:07.808000+00:00_
+_Generated: 2026-05-31T03:19:21.382395+00:00_
 
 ## Burn-down
 
-- Units shipped: **1174**
-- Units queued (gap units from audits): **58**
+- Units shipped: **1178**
+- Units queued (gap units from audits): **54**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-31T03:08:07.808000+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `13.09.09` | Unruh effect via the Bisognano-Wichmann theorem | P2 | gerard-microlocal-qft-curved-spacetimes |
-| 2 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 3 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
-| 4 | `12.09.03` | Hartree-Fock self-consistent field method | P? | landau-lifshitz-quantum-mechanics |
-| 5 | `12.15.01` | Time-reversal symmetry and Kramers' degeneracy | P? | landau-lifshitz-quantum-mechanics |
-| 6 | `12.09.05` | Diatomic molecule and the Born-Oppenheimer approximation | P? | landau-lifshitz-quantum-mechanics |
-| 7 | `12.09.02` | Exchange interaction and the helium atom | P? | landau-lifshitz-quantum-mechanics |
-| 8 | `12.09.04` | Multi-electron atomic structure and LS coupling | P? | landau-lifshitz-quantum-mechanics |
-| 9 | `12.07.03` | Variational method (Rayleigh-Ritz) in quantum mechanics | P? | landau-lifshitz-quantum-mechanics |
-| 10 | `12.08.02` | Born approximation and the Lippmann-Schwinger equation | P? | landau-lifshitz-quantum-mechanics |
-| 11 | `12.08.03` | Partial-wave expansion and phase shifts | P? | landau-lifshitz-quantum-mechanics |
-| 12 | `12.07.05` | Stark and Zeeman effects in LL3 framing | P? | landau-lifshitz-quantum-mechanics |
-| 13 | `12.02.03` | Density matrix and pure / mixed states | P? | landau-lifshitz-quantum-mechanics |
-| 14 | `12.15.02` | Parity, discrete-symmetry groups, and the Wigner-Eckart theorem | P? | landau-lifshitz-quantum-mechanics |
-| 15 | `12.08.04` | Inelastic collisions and the distorted-wave Born approximation | P? | landau-lifshitz-quantum-mechanics |
-| 16 | `03.03.10` | Lie groupoid: source, target, smooth composition | P1 | mackenzie-lie-groupoids-vol1 |
-| 17 | `03.05.21` | Gauge groupoid of a principal bundle: $\frac{P \times P}{G} \rightrightarrows M$ | P1 | mackenzie-lie-groupoids-vol1 |
-| 18 | `03.04.16` | Lie algebroid: anchor, bracket, Leibniz law | P1 | mackenzie-lie-groupoids-vol1 |
-| 19 | `03.05.22` | Atiyah algebroid $\mathrm{At}(P) = TP/G$ of a principal bundle | P1 | mackenzie-lie-groupoids-vol1 |
-| 20 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
+| 1 | `13.09.10` | Hartle-Hawking and Unruh states on Schwarzschild | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 2 | `13.09.11` | Quantum energy inequalities (Fewster) | P3 | gerard-microlocal-qft-curved-spacetimes |
+| 3 | `12.09.05` | Diatomic molecule and the Born-Oppenheimer approximation | P? | landau-lifshitz-quantum-mechanics |
+| 4 | `12.09.02` | Exchange interaction and the helium atom | P? | landau-lifshitz-quantum-mechanics |
+| 5 | `12.09.04` | Multi-electron atomic structure and LS coupling | P? | landau-lifshitz-quantum-mechanics |
+| 6 | `12.08.02` | Born approximation and the Lippmann-Schwinger equation | P? | landau-lifshitz-quantum-mechanics |
+| 7 | `12.08.03` | Partial-wave expansion and phase shifts | P? | landau-lifshitz-quantum-mechanics |
+| 8 | `12.07.05` | Stark and Zeeman effects in LL3 framing | P? | landau-lifshitz-quantum-mechanics |
+| 9 | `12.02.03` | Density matrix and pure / mixed states | P? | landau-lifshitz-quantum-mechanics |
+| 10 | `12.15.02` | Parity, discrete-symmetry groups, and the Wigner-Eckart theorem | P? | landau-lifshitz-quantum-mechanics |
+| 11 | `12.08.04` | Inelastic collisions and the distorted-wave Born approximation | P? | landau-lifshitz-quantum-mechanics |
+| 12 | `03.03.10` | Lie groupoid: source, target, smooth composition | P1 | mackenzie-lie-groupoids-vol1 |
+| 13 | `03.05.21` | Gauge groupoid of a principal bundle: $\frac{P \times P}{G} \rightrightarrows M$ | P1 | mackenzie-lie-groupoids-vol1 |
+| 14 | `03.04.16` | Lie algebroid: anchor, bracket, Leibniz law | P1 | mackenzie-lie-groupoids-vol1 |
+| 15 | `03.05.22` | Atiyah algebroid $\mathrm{At}(P) = TP/G$ of a principal bundle | P1 | mackenzie-lie-groupoids-vol1 |
+| 16 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
+| 17 | `03.04.17` | Lie functor: differentiating a Lie groupoid to its Lie algebroid | P1 | mackenzie-lie-groupoids-vol1 |
+| 18 | `03.04.18` | Pradines integration theorem and Mackenzie's transitive integrability | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
+| 19 | `03.03.11` | Action Lie groupoid $G \ltimes M$ and action Lie algebroid $\mathfrak{g} \ltimes M$ | P2 | mackenzie-lie-groupoids-vol1 |
+| 20 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
 
 ## Audits completed
 
