@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-05-31T04:01:39.941442+00:00_
+_Generated: 2026-05-31T04:11:35.006058+00:00_
 
 ## Burn-down
 
-- Units shipped: **1194**
-- Units queued (gap units from audits): **38**
+- Units shipped: **1198**
+- Units queued (gap units from audits): **34**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-05-31T04:01:39.941442+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `03.05.22` | Atiyah algebroid $\mathrm{At}(P) = TP/G$ of a principal bundle | P1 | mackenzie-lie-groupoids-vol1 |
-| 2 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
-| 3 | `03.04.17` | Lie functor: differentiating a Lie groupoid to its Lie algebroid | P1 | mackenzie-lie-groupoids-vol1 |
-| 4 | `03.04.18` | Pradines integration theorem and Mackenzie's transitive integrability | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
-| 5 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
-| 6 | `03.03.12` | Bisection group of a Lie groupoid; gauge transformations as bisections | P2 | mackenzie-lie-groupoids-vol1 |
-| 7 | `03.03.13` | Groupoid as a small category with all morphisms invertible (pure algebra) | P3 | mackenzie-lie-groupoids-vol1 |
-| 8 | `05.05.06` | Prolongation of vector fields and the infinitesimal symmetry criterion | P? | olver-lie-groups-differential-equations |
-| 9 | `05.05.07` | Group-invariant solutions and symmetry reduction | P? | olver-lie-groups-differential-equations |
-| 10 | `05.05.08` | Noether's second theorem and the Bianchi identity | P? | olver-lie-groups-differential-equations |
-| 11 | `05.05.09` | Generalised symmetries (Lie-Bäcklund) and recursion operators | P? | olver-lie-groups-differential-equations |
-| 12 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
-| 13 | `05.09.11` | Master symmetries and the Fuchssteiner construction | P? | olver-lie-groups-differential-equations |
-| 14 | `05.05.10` | Lie's classification of second-order ODEs and the symmetry algorithm for ODEs | P? | olver-lie-groups-differential-equations |
-| 15 | `05.09.12` | Casimir functions of degenerate Poisson structures (pointer) | P? | olver-lie-groups-differential-equations |
-| 16 | `03.04.20` | Surface integrals of 2-forms; flux of a vector field through an oriented surface | P1 | shifrin-multivariable |
-| 17 | `03.04.21` | Closed and exact forms; Poincaré lemma; the angle 1-form | P1 | shifrin-multivariable |
-| 18 | `01.01.06` | Systems of linear equations and the Kronecker-Capelli theorem | P? | shilov-linear-algebra |
-| 19 | `01.01.10` | Adjoint operator and isometry on a finite-dim inner-product space | P? | shilov-linear-algebra |
-| 20 | `01.01.14` | Rayleigh quotient and the Courant-Fischer min-max characterisation of eigenvalues | P? | shilov-linear-algebra |
+| 1 | `03.05.23` | Connection on a principal bundle as splitting of the Atiyah algebroid | P1 | mackenzie-lie-groupoids-vol1 |
+| 2 | `03.04.18` | Pradines integration theorem and Mackenzie's transitive integrability | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
+| 3 | `03.04.19` | Cotangent algebroid of a Poisson manifold; pointer to symplectic groupoids | P1 | mackenzie-lie-groupoids-vol1, shifrin-multivariable |
+| 4 | `03.03.13` | Groupoid as a small category with all morphisms invertible (pure algebra) | P3 | mackenzie-lie-groupoids-vol1 |
+| 5 | `05.05.07` | Group-invariant solutions and symmetry reduction | P? | olver-lie-groups-differential-equations |
+| 6 | `05.05.08` | Noether's second theorem and the Bianchi identity | P? | olver-lie-groups-differential-equations |
+| 7 | `05.05.09` | Generalised symmetries (Lie-Bäcklund) and recursion operators | P? | olver-lie-groups-differential-equations |
+| 8 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
+| 9 | `05.09.11` | Master symmetries and the Fuchssteiner construction | P? | olver-lie-groups-differential-equations |
+| 10 | `05.05.10` | Lie's classification of second-order ODEs and the symmetry algorithm for ODEs | P? | olver-lie-groups-differential-equations |
+| 11 | `05.09.12` | Casimir functions of degenerate Poisson structures (pointer) | P? | olver-lie-groups-differential-equations |
+| 12 | `03.04.20` | Surface integrals of 2-forms; flux of a vector field through an oriented surface | P1 | shifrin-multivariable |
+| 13 | `03.04.21` | Closed and exact forms; Poincaré lemma; the angle 1-form | P1 | shifrin-multivariable |
+| 14 | `01.01.06` | Systems of linear equations and the Kronecker-Capelli theorem | P? | shilov-linear-algebra |
+| 15 | `01.01.10` | Adjoint operator and isometry on a finite-dim inner-product space | P? | shilov-linear-algebra |
+| 16 | `01.01.14` | Rayleigh quotient and the Courant-Fischer min-max characterisation of eigenvalues | P? | shilov-linear-algebra |
+| 17 | `01.01.16` | Invariant subspaces and the primary decomposition | P? | shilov-linear-algebra |
+| 18 | `01.01.17` | Change of basis and the transformation laws | P? | shilov-linear-algebra |
+| 19 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
+| 20 | `01.01.19` | Simultaneous diagonalisation of two quadratic forms and the generalised eigenvalue problem | P? | shilov-linear-algebra |
 
 ## Audits completed
 

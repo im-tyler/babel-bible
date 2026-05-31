@@ -566,6 +566,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: a system of reversible arrows between points where each arrow remembers where it starts and ends
 - **notes**: Definition of a Lie groupoid $G \rightrightarrows M$: manifold of arrows over manifold of objects, smooth source/target submersions $s,t$, smooth associative partial multiplication on composable pairs $G \times_M G$, unit embedding $u : M \hookrightarrow G$, smooth inversion $i$. Structure identities, isotropy groups $G_x$ as Lie groups, orbits, transitivity. Standard examples: pair groupoid $M \times M$, fundamental groupoid $\Pi(M)$, action groupoid $G \ltimes M$, gauge groupoid $(P \times P)/G$, identity/unit groupoid, bundle of groups. Frontier for Lie algebroid theory; not yet in Mathlib.
 
+### lie-groups.groupoid-category
+
+- **title**: Groupoid as a small category with all morphisms invertible
+- **prerequisites**: `algebra.group`, `lie-groups.lie-group`, `lie-groups.lie-groupoid`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. I; Brown *Topology and Groupoids* Ch. 6–11; Higgins *Categories and Groupoids*
+  - intermediate: a small category in which every morphism is an isomorphism, equivalently a set of arrows with partial composition, units, and inverses
+  - beginner: reversible arrows between points, composing only when endpoints match, with a do-nothing arrow at every point
+- **notes**: The purely algebraic/categorical theory of groupoids, underpinning the Lie groupoid (which is this plus smooth structure). Two equivalent definitions: (1) a small category in which every morphism is an isomorphism; (2) the "object set $G_0$, arrow set $G_1$, source/target, partial multiplication, units, inverses" axioms. Equivalence of the two definitions. Vertex/isotropy group $G(x,x)$ is a group; orbit equivalence relation; vertex groups along an orbit are isomorphic via conjugation by a connecting arrow; structure theorem for transitive (connected) groupoids $G \cong G(x,x) \times \text{Pair}(\text{orbit})$; general groupoid as a disjoint union over orbits of (vertex group) $\times$ (pair groupoid). Examples: a group = one-object groupoid; pair groupoid of a set; fundamental groupoid $\Pi_1(X)$; action groupoid of a group action; equivalence relations = groupoids with at most one arrow between any two objects. Brandt 1927 (originator), Ehresmann 1957, Brown 1968/2006, Higgins 1971. Mathlib has `CategoryTheory.Groupoid`; the smooth/topological enrichment is the gap.
+
 ### lie-groups.lie-algebroid
 
 - **title**: Lie algebroid (anchor, bracket, Leibniz law)
@@ -585,6 +595,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: the construction $G \rightrightarrows M \mapsto A(G) = \ker(ds)|_M$ with anchor $dt$ and bracket of right-invariant source-fibre vector fields, functorial in groupoid morphisms
   - beginner: the rule that turns a global system of arrows into its infinitesimal shadow, the way a Lie group turns into its Lie algebra
 - **notes**: The Lie functor from Lie groupoids to Lie algebroids. From $G \rightrightarrows M$ build $A(G) = \ker(ds)|_M = T^s_M G$ (tangent to source fibres along the units), anchor $\rho = dt|_A : A \to TM$, bracket via right-invariant vector fields on the $s$-fibres ($\Gamma(A) \cong$ right-invariant fields; bracket of right-invariant fields is right-invariant; restrict to units). Prove the bracket is well-defined and satisfies Leibniz + Jacobi, so $A(G)$ is a Lie algebroid. Functoriality: a groupoid morphism $\varphi : G \to H$ induces an algebroid morphism $A(\varphi)$. Examples table: pair groupoid $M \times M \mapsto TM$, action groupoid $G \ltimes M \mapsto \mathfrak g \ltimes M$, gauge groupoid $\mapsto$ Atiyah algebroid $TP/G$, Lie group $G \mapsto \mathfrak g$ (recovers the classical Lie functor). Lie's theorems for groupoids: Lie I and Lie II hold, Lie III fails (Crainic-Fernandes integrability obstruction). Pradines 1967; Mackenzie 1987/2005; Moerdijk-Mrcun 2003; Crainic-Fernandes 2003. Frontier for Lie algebroid theory; not in Mathlib.
+
+### lie-groups.pradines-integration
+
+- **title**: Pradines integration theorem and Mackenzie transitive integrability
+- **prerequisites**: `lie-groups.lie-algebroid`, `lie-groups.lie-functor`, `lie-groups.lie-groupoid`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. IV §3–§4; Crainic-Fernandes *Integrability of Lie brackets* (Ann. Math. 157, 2003)
+  - intermediate: when a Lie algebroid is the algebroid of a Lie groupoid — Lie I and Lie II hold, Lie III fails, the transitive obstruction is uniform discreteness of the monodromy groups
+  - beginner: the question of whether an infinitesimal system of arrows can be grown back into a global one, and the surprise that sometimes it cannot
+- **notes**: The integrability problem for Lie algebroids. Lie I: a source-simply-connected integrating groupoid is unique if it exists. Lie II: algebroid morphisms integrate over s-simply-connected source. Pradines (1966) claimed Lie III holds for algebroids; Almeida-Molino (1985) gave a transitive counterexample (a transitive algebroid whose monodromy is dense, hence non-integrable). Transitive case (Mackenzie): a transitive Lie algebroid integrates iff its monodromy groups are uniformly discrete, obstruction read off the curvature/Chern-Weil of the adjoint sequence. General solution (Crainic-Fernandes 2003): the Weinstein groupoid $\mathcal{G}(A)$ of $A$-paths mod $A$-homotopy; monodromy groups $\mathcal{N}_x(A) \subseteq Z(\mathfrak{g}_x)$; integrable iff monodromy is locally uniformly discrete. Worked example: $TM$ integrates to the pair / fundamental groupoid; a bundle of Lie algebras integrates to a bundle of Lie groups. Pradines 1966 C.R. 263; Almeida-Molino 1985 C.R. 300; Mackenzie 1987/2005; Crainic-Fernandes 2003. Frontier; not in Mathlib.
 
 ### bundle.gauge-groupoid
 
@@ -615,6 +635,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: the Lie algebroid $\mathrm{At}(P) = TP/G \to M$ whose sections are $G$-invariant vector fields on $P$, sitting in the Atiyah sequence $0 \to \mathrm{ad}(P) \to TP/G \to TM \to 0$
   - beginner: the infinitesimal version of the gauge groupoid — the invariant directions you can move a principal bundle in, packaged so that moving the base and twisting the fibre are two pieces of one object
 - **notes**: The Atiyah algebroid $\mathrm{At}(P) = TP/G \to M$ of a principal $G$-bundle $P \to M$: sections are the $G$-invariant vector fields on $P$, anchor $\pi_\ast : TP/G \to TM$ the descent of $d\pi$, kernel the adjoint bundle $\mathrm{ad}(P) = (P \times \mathfrak g)/G$. The Atiyah short exact sequence $0 \to \mathrm{ad}(P) \to \mathrm{At}(P) \to TM \to 0$ (prove exactness from constant-rank $d\pi$). Bracket on $\Gamma(\mathrm{At}(P))$ = bracket of invariant vector fields, closed because $[X,Y]$ is invariant when $X,Y$ are. Principal connections $\leftrightarrow$ right-splittings $\sigma : TM \to \mathrm{At}(P)$ of the sequence (bijection proof); curvature $F(X,Y) = \sigma[X,Y] - [\sigma X, \sigma Y] \in \Gamma(\mathrm{ad}(P))$ measures the failure of $\sigma$ to be a bracket morphism. It is the Lie algebroid of the gauge groupoid $(P \times P)/G$. Chern-Weil / characteristic-class shadow via the curvature. Worked examples: product bundle $M \times G$ gives $\mathrm{At} = TM \oplus (M \times \mathfrak g)$ and the flat connection; frame-bundle case. Historical roots: Atiyah 1957 (holomorphic obstruction), Kostant, Ehresmann 1959, Mackenzie 1987/2005. Frontier for Lie algebroid theory; not in Mathlib.
+
+### bundle.atiyah-connection-splitting
+
+- **title**: Connection on a principal bundle as splitting of the Atiyah algebroid
+- **prerequisites**: `bundle.atiyah-algebroid`, `diffgeo.connection.connection`, `lie-groups.lie-algebroid`
+- **tier_anchors**:
+  - master: Mackenzie *General Theory of Lie Groupoids and Lie Algebroids* Ch. V §1–§2; Atiyah-Bott 1982 *The Yang-Mills equations over Riemann surfaces* (Phil. Trans. R. Soc. A 308) §2
+  - intermediate: a principal connection presented as a right-splitting $\sigma : TM \to \mathrm{At}(P)$ of the Atiyah sequence $0 \to \mathrm{ad}(P) \to \mathrm{At}(P) \to TM \to 0$, with curvature the bracket defect $F(X,Y) = \sigma[X,Y] - [\sigma X, \sigma Y]$
+  - beginner: a connection is a clean rule that lifts each base direction to one invariant infinitesimal move with no leftover twist; curvature measures how badly those lifts fail to combine
+- **notes**: A principal connection on $P \to M$ is the same datum as a right-splitting $\sigma : TM \to \mathrm{At}(P)$ of the Atiyah sequence (equivalently a left-splitting / projection $\omega : \mathrm{At}(P) \to \mathrm{ad}(P)$, the connection form), bijectively matched with $G$-invariant horizontal distributions and with connection one-forms $\omega \in \Omega^1(P, \mathfrak g)^G$. Curvature is the bracket defect $F(X,Y) = \sigma[X,Y] - [\sigma X, \sigma Y] \in \Gamma(\mathrm{ad}(P))$; prove it agrees with the standard $\Omega = d\omega + \tfrac12[\omega,\omega]$. Bianchi identity as $d_\nabla F = 0$ (algebroid $d$-closedness). Flat connection $\Leftrightarrow$ $\sigma$ a Lie-algebroid morphism $\Leftrightarrow$ horizontal distribution integrable (Frobenius). Worked examples: product bundle $M \times G$ (canonical flat splitting), Levi-Civita connection on the frame bundle as a splitting, a connection on the Hopf bundle $S^3 \to S^2$. Sources: Atiyah 1957 (Trans. AMS 85), Atiyah-Bott 1982 (Phil. Trans. R. Soc. A 308), Mackenzie 1987/2005, Kobayashi-Nomizu 1963. Frontier for Lie algebroid theory; not in Mathlib.
 
 ### lie-groups.action-lie-groupoid
 
@@ -863,6 +893,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Olver §2.3-§2.4 (prolongation formula, determining equations); Hydon *Symmetry Methods for Differential Equations* (2000)
   - beginner: Olver §2.3 informal (a symmetry moves solutions to solutions)
 - **notes**: One-parameter symmetry group of a PDE system and its infinitesimal generator $v = \xi^i\partial_{x^i} + \phi^\alpha\partial_{u^\alpha}$; prolongation $\mathrm{pr}^{(k)}v = v + \sum_{|J|\le k}\phi^\alpha_J\partial_{u^\alpha_J}$ with $\phi^\alpha_J = D_J(\phi^\alpha - \xi^i u^\alpha_i) + \xi^i u^\alpha_{J,i}$ and characteristic $Q^\alpha = \phi^\alpha - \xi^i u^\alpha_i$, proved from the total-derivative machinery of `symplectic-geometry.jet-bundle`. Lie's infinitesimal symmetry criterion: $\mathrm{pr}^{(k)}v[\Delta_\nu] = 0$ whenever $\Delta = 0$, equivalent to invariance of the equation; determining equations as an overdetermined linear PDE system for $\xi, \phi$. Worked: heat equation $u_t = u_{xx}$ (scaling + Galilean symmetries) and the harmonic oscillator symmetry algebra. Forward-ref Noether. Originators: Lie 1881 (Arch. for Math.); Olver 1986/1993; Ovsiannikov 1982; Bluman-Kumei 1989.
+
+### symplectic-geometry.group-invariant-solutions
+
+- **title**: Group-invariant solutions and symmetry reduction
+- **prerequisites**: `symplectic-geometry.prolongation-symmetry-criterion`, `symplectic-geometry.jet-bundle`, `ode.phase-flow-one-parameter-group`
+- **tier_anchors**:
+  - master: Olver *Applications of Lie Groups to Differential Equations* (2nd ed., 1993) §3.1-§3.4; Ovsiannikov *Group Analysis of Differential Equations* (1982); Bluman-Cole *Similarity Methods for Differential Equations* (1974)
+  - intermediate: Olver §3.1-§3.4 (group invariants, invariant solutions, optimal systems); Bluman-Kumei *Symmetries and Differential Equations* (1989) Ch. 4
+  - beginner: Olver §3.1 informal (a symmetry-respecting solution depends on fewer variables)
+- **notes**: A $G$-invariant solution is a solution whose graph is fixed by a subgroup $H \subseteq G$ of the symmetry group; built from the joint invariants of the prolonged $H$-action, found by integrating the characteristic system $dx^i/\xi^i = du^\alpha/\phi^\alpha$. Reduction of the number of independent variables (PDE $\to$ PDE/ODE) via the similarity ansatz; reduction of order of an ODE by a one-parameter symmetry through canonical coordinates straightening $v$ to $\partial_s$. Classification of inequivalent reductions by the optimal system of subalgebras under the adjoint action of $G$ on $\mathfrak{g}$. Worked: heat equation scaling reduction to the Boltzmann variable $\eta = x/\sqrt{t}$ and the source/error-function solution; first-order scaling-symmetry reduction by canonical coordinates; Burgers / porous-medium traveling wave $u(x,t) = U(x - ct)$. Originators: Lie 1895 (reduction by symmetry); Birkhoff 1950 (dimensional/similarity); Olver 1986/1993; Barenblatt 1979 (self-similar intermediate asymptotics); Bluman-Cole 1969 (nonclassical method).
 
 ### symplectic-geometry.delzant-theorem
 
