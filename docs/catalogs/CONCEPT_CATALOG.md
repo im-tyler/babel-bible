@@ -458,6 +458,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: the largest and smallest stretch factors of a symmetric matrix, read off the unit circle as the high and low points of the Rayleigh quotient
 - **notes**: For a self-adjoint (Hermitian/symmetric) operator $A$ on a finite-dimensional inner-product space, the **Rayleigh quotient** is $R(v) = \langle A v, v \rangle / \langle v, v \rangle$ for $v \neq 0$. Its range is the interval $[\lambda_{\min}, \lambda_{\max}]$ between the least and greatest eigenvalues, attained at the corresponding eigenvectors, giving the **extremal characterisation** $\lambda_{\max} = \max_v R(v)$ and $\lambda_{\min} = \min_v R(v)$. The critical points of $R$ on the unit sphere are exactly the eigenvectors of $A$, and the critical values are the eigenvalues (the gradient condition $\nabla R(v) = 0$ rearranges to $A v = R(v) v$). The **Courant-Fischer min-max theorem** characterises every eigenvalue (ordered $\lambda_1 \ge \cdots \ge \lambda_n$) without reference to lower eigenvectors: $\lambda_k = \max_{\dim S = k} \min_{0 \neq v \in S} R(v) = \min_{\dim S = n-k+1} \max_{0 \neq v \in S} R(v)$, proved by a dimension-count intersection argument (any $k$-dimensional $S$ meets the span of the bottom $n-k+1$ eigenvectors). Consequences: the **Cauchy interlacing theorem** $\lambda_{k+1}(A) \le \mu_k \le \lambda_k(A)$ relating the eigenvalues of $A$ to those of a principal submatrix (or a rank-one perturbation / compression), and **Weyl's inequalities** $\lambda_{i+j-1}(A+B) \le \lambda_i(A) + \lambda_j(B)$ for sums of Hermitian matrices. The min-max principle is the variational backbone of the Rayleigh-Ritz method (pointer to `quantum-mechanics.variational-method-rayleigh-ritz`) and extends to the discrete spectrum below the essential spectrum for semibounded self-adjoint operators on Hilbert space (Courant-Fischer / Glazman lemma), governing Sturm-Liouville and PDE eigenvalue problems. Originators: Rayleigh (1877, *The Theory of Sound*, the quotient as a frequency estimate for vibrating systems); Fischer (1905, *Monatsh. Math. Phys.* 16, the min-max formula); Weyl (1912, *Math. Ann.* 71, eigenvalue asymptotics and the perturbation inequalities); Courant (1920, *Math. Z.* 7, the min-max principle for PDE eigenvalues and nodal domains); Ritz (1909, *J. reine angew. Math.* 135, the trial-subspace algorithm); Shilov (1971, *Linear Algebra*).
 
+### linear-algebra.invariant-subspaces-primary-decomposition
+
+- **title**: Invariant subspaces and the primary decomposition
+- **unit**: `01.01.16`
+- **prerequisites**: `linear-algebra.linear-transformation-rank-nullity`, `linear-algebra.eigenvalue-eigenvector`, `linear-algebra.spectral-theorem-normal-operators`
+- **tier_anchors**:
+  - master: Shilov *Linear Algebra* Ch. 6–7; Hoffman-Kunze *Linear Algebra* Ch. 6–7 (annihilating polynomials, primary decomposition, cyclic decomposition) + §7.5 (Jordan and rational forms); Lang *Algebra* Ch. XIV (modules over a PID); Jacobson *Basic Algebra I* Ch. 3
+  - intermediate: Shilov *Linear Algebra* Ch. 6–7; Hoffman-Kunze *Linear Algebra* §6.7–§6.8 (invariant direct sums and the primary decomposition theorem)
+  - beginner: breaking a transformation into independent slabs it never mixes — one slab per eigenvalue or repeated-root factor
+- **notes**: A subspace $W \subseteq V$ is **$T$-invariant** if $T(W) \subseteq W$; the zero subspace and the whole space are invariant for every $T$, as are $\ker T$, $\operatorname{im} T$, every eigenspace $\ker(T - \lambda I)$, and every generalised eigenspace $\ker(T - \lambda I)^k$. An invariant subspace gives a **restriction** $T|_W$ and an **induced operator** $\overline{T}$ on $V/W$; in an adapted basis the matrix of $T$ is block upper-triangular, and block-diagonal when a *complementary invariant subspace* $U$ with $V = W \oplus U$ exists. The **primary decomposition theorem**: if the minimal polynomial factors as $m_T(t) = \prod_i p_i(t)^{e_i}$ into distinct monic irreducible prime powers, then $V = \bigoplus_i \ker p_i(T)^{e_i}$, each summand is $T$-invariant with induced minimal polynomial $p_i^{e_i}$, and the projections $P_i$ are polynomials in $T$ (proved by the coprimeness / Bézout identity $\sum_i g_i f_i = 1$ with $f_i = m_T / p_i^{e_i}$, realising the Chinese remainder isomorphism $K[t]/(m_T) \cong \prod_i K[t]/(p_i^{e_i})$ on the module $V$). Over an algebraically closed field the components are the **generalised eigenspaces** $\ker(T - \lambda_i I)^{m_i}$ and the decomposition recovers the Cayley-Hamilton divisibility $m_T \mid \chi_T$. Refinements: the **Jordan-Chevalley** split $T = S + N$ with $S = \sum_i \lambda_i P_i$ semisimple, $N$ nilpotent, both polynomials in $T$, unique (pointer to `linear-algebra.jordan-canonical-form`); the **cyclic / rational canonical form** decomposing each primary component into $T$-cyclic subspaces $K[t]/(p_i^d)$ with companion-matrix blocks, valid over any field (Frobenius); and the **module-over-$K[t]$ structure-theorem** viewpoint (Lang, Jacobson). Originators: Jordan (1870, *Traité des substitutions*); Frobenius (1878, *J. reine angew. Math.* 84, minimal polynomial, invariant factors, rational canonical form); Krull (1935, *Idealtheorie*, the ideal-theoretic frame); Shilov (1971, *Linear Algebra*); Hoffman-Kunze (1971, the coprime-annihilator proof).
+
 ### linear-algebra.singular-value-decomposition
 
 - **title**: Singular value decomposition (finite-dim)
@@ -2529,6 +2540,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Tong *Gauge Theory* §2; Donaldson-Kronheimer §2
   - beginner: visual curvature-energy account analogous to 3Blue1Brown / Strogatz pacing
 - **notes**: Defines $\operatorname{YM}(A)=\frac12\|F_A\|_{L^2}^2$, proves gauge invariance, derives $d_A^*F_A=0$, relates four-dimensional self-duality to Yang-Mills, and separates metric-dependent action from Chern-Weil topological classes.
+
+### gauge-theory.electromagnetism-u1-yang-mills-dictionary
+
+- **title**: Electromagnetism as a U(1) Yang-Mills theory — the geometric dictionary
+- **unit**: `03.07.29`
+- **prerequisites**: `bundle.principal-bundle`, `diffgeo.connection.connection`, `diffgeo.connection.curvature`, `gauge-theory.yang-mills.action`, `char-classes.chern-weil.homomorphism`, `char-classes.pontryagin-chern.definitions`
+- **tier_anchors**:
+  - master: Sternberg *Curvature in Mathematics and Physics* Ch. 16; Wu-Yang 1975 *Phys. Rev.* D 12; Frankel *The Geometry of Physics* §16-20
+  - intermediate: Sternberg *Curvature in Mathematics and Physics* Ch. 16; Baez-Muniain *Gauge Fields, Knots and Gravity* Part II
+  - beginner: visual potential / loop-holonomy account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Builds the geometric dictionary identifying classical electromagnetism with a $U(1)$ principal connection: the four-potential $A=A_\mu\,dx^\mu$ is the local connection one-form, the field strength $F=dA$ is its curvature (the $[A,A]$ term vanishing because $U(1)$ is abelian), gauge transformations $A\mapsto A+d\lambda$ are the principal-bundle gauge freedom, the homogeneous Maxwell equations $dF=0$ are the Bianchi identity, and the inhomogeneous equations $d{\star}F={\star}J$ are the abelian Yang-Mills equation $d_A^*F=J$ that extremises $S=-\tfrac14\int F\wedge{\star}F$. Proves charge quantisation through the Dirac monopole as a non-product $U(1)$ bundle over $S^2$ with first Chern number $\frac{1}{2\pi}\int_{S^2}F\in\mathbb{Z}$, and identifies the Aharonov-Bohm phase as the holonomy of the connection. Worked: $dF=0\Leftrightarrow(\nabla\!\cdot\!B=0,\ \partial_t B+\nabla\times E=0)$; the two-hemisphere monopole connection with transition function and $\int_{S^2}F=4\pi g$; the solenoid holonomy.
 
 ### gauge-theory.asd-equation
 
@@ -5688,6 +5710,30 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Carroll, *Spacetime and Geometry* (2004), Ch. 4; Wald, *General Relativity* (1984), §E.1
   - beginner: Hartle, *Gravity* (2003), Ch. 21 (action principle, conceptual)
 - **notes**: (to be filled during production)
+
+
+### general-relativity.cartan-tetrad-spin-connection
+
+- **title**: Cartan tetrad and spin-connection formulation of general relativity
+- **unit**: `13.02.03`
+- **prerequisites**: `general-relativity.tensors-smooth-manifolds`, `general-relativity.geodesics-parallel-transport`, `diffgeo.differential-forms`
+- **tier_anchors**:
+  - master: Sternberg, *Curvature in Mathematics and Physics* (2012), Ch. 21; Misner-Thorne-Wheeler, *Gravitation* (1973), §14; Carroll, *Spacetime and Geometry* (2004), §3.4
+  - intermediate: Carroll, *Spacetime and Geometry* (2004), Appendix J (vielbeins); Nakahara, *Geometry, Topology and Physics* (2003), Ch. 7
+  - beginner: Hartle, *Gravity* (2003), conceptual (local inertial frames); Wald, *General Relativity* (1984), §3.4
+- **notes**: Orthonormal-frame (tetrad/vierbein) and spin-connection first-order formulation. Cartan's two structure equations; torsion-free condition recovers Levi-Civita; required to couple spinors to gravity; Palatini/Einstein-Cartan action (cross-ref 13.04.02, 13.04.03).
+
+
+### general-relativity.palatini-first-order-formulation
+
+- **title**: Palatini first-order (metric-affine) variational formulation of general relativity
+- **unit**: `13.04.03`
+- **prerequisites**: `general-relativity.einstein-hilbert-action`, `general-relativity.einstein-field-equations`, `general-relativity.geodesics-parallel-transport`
+- **tier_anchors**:
+  - master: Sternberg, *Curvature in Mathematics and Physics* (2012), Ch. 20 §3; Palatini 1919, *Rend. Circ. Mat. Palermo* 43; Ferraris-Francaviglia-Reina 1982
+  - intermediate: Wald, *General Relativity* (1984), Appendix E; Misner-Thorne-Wheeler, *Gravitation* (1973), §21.2
+  - beginner: Hartle, *Gravity* (2003), Ch. 21 (action principle, conceptual)
+- **notes**: First-order metric-affine alternative to the second-order Einstein-Hilbert metric variation (13.04.02). Connection treated as an independent field; metric compatibility emerges as a field equation rather than an input. Covers the projective ambiguity and the f(R) inequivalence.
 
 
 ### general-relativity.schwarzschild-solution
