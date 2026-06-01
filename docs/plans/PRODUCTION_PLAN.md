@@ -1,12 +1,12 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-01T18:13:30.621505+00:00_
+_Generated: 2026-06-01T18:25:27.668757+00:00_
 
 ## Burn-down
 
-- Units shipped: **1230**
-- Units queued (gap units from audits): **2**
-- Of which deepenings: **2**
+- Units shipped: **1232**
+- Units queued (gap units from audits): **0**
+- Of which deepenings: **0**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
 
@@ -14,8 +14,6 @@ _Generated: 2026-06-01T18:13:30.621505+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
-| 2 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
 
 ## Audits completed
 
