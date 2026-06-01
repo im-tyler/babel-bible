@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-01T03:35:43.715697+00:00_
+_Generated: 2026-06-01T03:44:19.591490+00:00_
 
 ## Burn-down
 
-- Units shipped: **1226**
-- Units queued (gap units from audits): **6**
+- Units shipped: **1229**
+- Units queued (gap units from audits): **3**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -16,10 +16,7 @@ _Generated: 2026-06-01T03:35:43.715697+00:00_
 |---|---|---|---|---|
 | 1 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
 | 2 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
-| 3 | `03.07.32` | Anomalies via descent equations and the Atiyah-Singer index theorem | P3 | sternberg-curvature-mathematics-physics |
-| 4 | `03.02.18` | Petrov classification of Lorentzian 4-curvature | P4 | sternberg-curvature-mathematics-physics |
-| 5 | `02.13.07` | Rectifiable currents (GIT-Whitney's prefiguration) | P1 | whitney-geometric-integration-theory |
-| 6 | `02.13.11` | Slicing of currents | P2 | whitney-geometric-integration-theory |
+| 3 | `02.13.11` | Slicing of currents | P2 | whitney-geometric-integration-theory |
 
 ## Audits completed
 
