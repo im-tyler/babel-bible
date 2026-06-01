@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-01T03:14:17.915133+00:00_
+_Generated: 2026-06-01T03:24:06.395733+00:00_
 
 ## Burn-down
 
-- Units shipped: **1218**
-- Units queued (gap units from audits): **14**
+- Units shipped: **1222**
+- Units queued (gap units from audits): **10**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -15,19 +15,15 @@ _Generated: 2026-06-01T03:14:17.915133+00:00_
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
 | 1 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
-| 2 | `01.01.17` | Change of basis and the transformation laws | P? | shilov-linear-algebra |
-| 3 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
-| 4 | `01.01.19` | Simultaneous diagonalisation of two quadratic forms and the generalised eigenvalue problem | P? | shilov-linear-algebra |
-| 5 | `13.04.04` | Stress-energy tensor as functional derivative of the matter action | P1 | sternberg-curvature-mathematics-physics |
-| 6 | `03.02.16` | Weyl tensor and conformally flat metrics | P2 | sternberg-curvature-mathematics-physics |
-| 7 | `03.02.17` | Lorentzian Hopf-Rinow and global hyperbolicity (introductory pseudo-Riemannian geometry) | P2 | sternberg-curvature-mathematics-physics |
-| 8 | `03.07.30` | Aharonov-Bohm effect and holonomy of $U(1)$ connections | P3 | sternberg-curvature-mathematics-physics |
-| 9 | `03.07.31` | BRST cohomology and Faddeev-Popov-ghost quantisation of gauge theories | P3 | sternberg-curvature-mathematics-physics |
-| 10 | `03.07.32` | Anomalies via descent equations and the Atiyah-Singer index theorem | P3 | sternberg-curvature-mathematics-physics |
-| 11 | `03.02.18` | Petrov classification of Lorentzian 4-curvature | P4 | sternberg-curvature-mathematics-physics |
-| 12 | `02.13.05` | Whitney deformation theorem | P1 | whitney-geometric-integration-theory |
-| 13 | `02.13.07` | Rectifiable currents (GIT-Whitney's prefiguration) | P1 | whitney-geometric-integration-theory |
-| 14 | `02.13.11` | Slicing of currents | P2 | whitney-geometric-integration-theory |
+| 2 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
+| 3 | `01.01.19` | Simultaneous diagonalisation of two quadratic forms and the generalised eigenvalue problem | P? | shilov-linear-algebra |
+| 4 | `03.02.17` | Lorentzian Hopf-Rinow and global hyperbolicity (introductory pseudo-Riemannian geometry) | P2 | sternberg-curvature-mathematics-physics |
+| 5 | `03.07.31` | BRST cohomology and Faddeev-Popov-ghost quantisation of gauge theories | P3 | sternberg-curvature-mathematics-physics |
+| 6 | `03.07.32` | Anomalies via descent equations and the Atiyah-Singer index theorem | P3 | sternberg-curvature-mathematics-physics |
+| 7 | `03.02.18` | Petrov classification of Lorentzian 4-curvature | P4 | sternberg-curvature-mathematics-physics |
+| 8 | `02.13.05` | Whitney deformation theorem | P1 | whitney-geometric-integration-theory |
+| 9 | `02.13.07` | Rectifiable currents (GIT-Whitney's prefiguration) | P1 | whitney-geometric-integration-theory |
+| 10 | `02.13.11` | Slicing of currents | P2 | whitney-geometric-integration-theory |
 
 ## Audits completed
 
