@@ -961,6 +961,36 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: NAT §7.1 informal (the 2-truncation picture)
 - **notes**: The fundamental crossed complex $C(X_*) = \Pi X_*$ of a filtered space $X_*$: a sequence $\cdots \to C_3 \to C_2 \xrightarrow{\delta_2} C_1 \rightrightarrows C_0$ with $C(X_*)_0 = X_0$, $C(X_*)_1 = \pi_1(X_1, X_0)$ a groupoid over the base-point set, and $C(X_*)_n = \pi_n(X_n, X_{n-1}, *)$ for $n \ge 2$ (modules for $n \ge 3$, a crossed module at $\delta_2$). Axioms: CC1 ($\delta_{n-1}\delta_n = 0$, from the long-exact-sequence identity $\partial\circ j = 0$ on consecutive filtration pairs), CC2 ($C_1$-equivariance of $\delta_n$), CC3 ($\delta_2$ is a Whitehead crossed module), CC4 (the $C_1$-action descends to a $\pi_1 C$-module structure for $n \ge 3$). The functor $\Pi \colon \mathsf{FTop} \to \mathsf{Crs}$; the free crossed resolution on skeleta; homology $H_n(C) \cong H_n(\widetilde X)$ as $\mathbb{Z}[\pi_1 X]$-modules. Tensor product $C \otimes D$ and internal hom $\mathrm{CRS}(D, E)$ making $\mathsf{Crs}$ monoidal closed, with $\Pi(X_* \otimes Y_*) \cong \Pi X_* \otimes \Pi Y_*$ on CW filtrations (NAT §9). The central object of NAT's higher homotopy van Kampen programme. Originators: Whitehead 1949 (homotopy systems); Brown-Higgins 1981. No Lean: Mathlib has no crossed complex or fundamental-crossed-complex functor.
 
+### topology.classifying-space-crossed-complex
+
+- **title**: Classifying space of a crossed complex
+- **prerequisites**: `topology.crossed-complex`, `topology.eilenberg-maclane`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §11; Brown-Higgins 1991 *The classifying space of a crossed complex*; Grothendieck 1983 *Pursuing Stacks*
+  - intermediate: NAT §11 (the cubical/simplicial nerve $N\mathcal{C}$ and $B\mathcal{C} = |N\mathcal{C}|$; the homotopy classification $[X, B\mathcal{C}] \cong [\Pi X_*, \mathcal{C}]$)
+  - beginner: NAT §11 informal (algebra becomes a space; $BG$ and $K(A,n)$ as the simplest cases)
+- **notes**: The classifying-space functor $B \colon \mathsf{Crs} \to \mathsf{Top}$ sending a crossed complex $\mathcal{C}$ to the geometric realisation $B\mathcal{C} = |N\mathcal{C}|$ of its cubical (or simplicial) nerve $N\mathcal{C}$, where $(N\mathcal{C})_n = \mathsf{Crs}(\Pi I^n_*, \mathcal{C})$. Central homotopy-classification theorem (Brown-Higgins 1991): for a CW complex $X$ with skeletal filtration $X_*$ there is a natural bijection $[X, B\mathcal{C}] \cong [\Pi X_*, \mathcal{C}]$ between homotopy classes of maps and homotopy classes of crossed-complex morphisms; thus $B\mathcal{C}$ represents crossed-complex cohomology. Special cases: $B$ of a group $G$ in degree 1 is $BG = K(G,1)$; $B$ of an abelian group $A$ in degree $n$ is the Eilenberg-MacLane space $K(A,n)$, recovering $[X, K(A,n)] \cong H^n(X; A)$; a crossed module gives a homotopy 2-type. Pointer to the wider programme: $\infty$-groupoid models of homotopy types, Grothendieck's homotopy hypothesis (*Pursuing Stacks* 1983), and homotopy type theory. NAT §11 anchor. No Lean: Mathlib has no crossed-complex nerve or classifying-space functor, only simplicial $K(G,n)$ fragments.
+
+### topology.cubical-omega-groupoid
+
+- **title**: Cubical $\omega$-groupoid $\rho(X_*)$ of a filtered space
+- **prerequisites**: `topology.crossed-complex`, `topology.filtered-space`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* Part III (§13-§14); Brown-Higgins 1981 *On the algebra of cubes*; Brown-Higgins 1981 *The equivalence of $\infty$-groupoids and crossed complexes*
+  - intermediate: NAT §13 (the cubical singular complex $R(X_*)$, compositions $+_i$, connections $\Gamma_i$, and $\rho(X_*) = R(X_*)/\simeq$)
+  - beginner: NAT Part III informal (cubes compose along faces; connections turn a corner)
+- **notes**: The cubical singular complex $R(X_*)$ of a filtered space, whose $n$-cubes are filtered maps $I^n_* \to X_*$ from the $n$-cube with skeletal filtration, and its quotient $\rho(X_*) = R(X_*)/\simeq$ by filtered homotopy rel vertices. $\rho(X_*)$ is a cubical $\omega$-groupoid with connections: faces $\partial_i^\pm$, degeneracies $\varepsilon_i$, $n$ partial compositions $+_i$ (defined when faces match, associative, with interchange $(a +_i b) +_j (c +_i d) = (a +_j c) +_i (b +_j d)$), and connections $\Gamma_i^\pm$ (extra degeneracies giving folding/turning, satisfying the cubical and transport laws). Central Brown-Higgins equivalence of categories $\gamma \colon (\omega\text{-groupoids with connections}) \xrightarrow{\sim} \mathsf{Crs}$ with inverse $\lambda$ (the fundamental cubical $\omega$-groupoid corresponds to the fundamental crossed complex, $\gamma\rho \cong \Pi$). The cubical side carries the easy subdivision/colimit proofs (multiple compositions of small cubes), the crossed-complex side carries computability; together they power the HvKT. Originators: R. Brown and P.J. Higgins, *On the algebra of cubes*, J. Pure Appl. Algebra 21 (1981) 233-260, and *The equivalence of $\infty$-groupoids and crossed complexes*, Cahiers Top. Géom. Diff. 22 (1981) 371-386. No Lean: Mathlib has no cubical sets with connections, no $\omega$-groupoids, and no $\rho$ functor.
+
+### topology.higher-homotopy-van-kampen
+
+- **title**: Higher Homotopy Seifert-van Kampen theorem
+- **prerequisites**: `topology.crossed-complex`, `topology.seifert-van-kampen`, `topology.relative-homotopy-group`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §8.1 (the HvKT for crossed complexes); Brown-Higgins 1981 *Colimit theorems for relative homotopy groups*; Brown 1967 (the groupoid case it generalises)
+  - intermediate: Brown-Higgins-Sivera §8.1; the cubical $\rho$ functor of §8.2-§8.3
+  - beginner: NAT §8.1 informal (gluing in higher dimensions; the $\pi_2$ of a mapping cone)
+- **notes**: The flagship theorem of the Brown-Higgins programme. The fundamental crossed complex functor $\Pi \colon \mathsf{FTop} \to \mathsf{Crs}$ preserves certain colimits: if a filtered space $X_*$ is the union of the interiors of filtered subspaces $U_*, V_*$ with $U_* \cap V_*$ satisfying the connectivity condition, then $\Pi X_*$ is the pushout of $\Pi U_*, \Pi V_*$ over $\Pi(U_* \cap V_*)$ in $\mathsf{Crs}$. Proof via the cubical homotopy $\omega$-groupoid $\rho X_*$, where the colimit argument runs by subdivision of cubes (multiple compositions in $\rho$, then a deformation into the subspaces). Canonical computation: $\pi_2$ of the mapping cone $S^1 \cup_2 D^2$ (real projective plane skeleton), giving the free crossed module $\delta_2 \colon \mathbb{Z}[\mathbb{Z}/2] \to \mathbb{Z}$ with $\delta_2(r) = t^2$ and the nonzero $\pi_2 = \mathbb{Z}$ as a $\mathbb{Z}[\mathbb{Z}/2]$-module that abelian homology misses. Recovers ordinary van Kampen as the 1-truncation; relative Hurewicz and a piece of Blakers-Massey as corollaries. Originators: R. Brown and P.J. Higgins, *Colimit theorems for relative homotopy groups*, J. Pure Appl. Algebra 22 (1981) 11-41. No Lean: Mathlib's van Kampen is 1-dimensional and there is no crossed-complex colimit theorem.
+
 ### topology.free-crossed-resolution
 
 - **title**: Free crossed resolution of a group
