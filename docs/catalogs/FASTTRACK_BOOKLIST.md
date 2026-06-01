@@ -2,7 +2,7 @@
 
 Source: https://sheafification.com/the-fast-track/
 Compiled: 2026-04-17
-Total: ~80 primary texts + supplementary materials
+Total: 93 primary texts (4 prereqs + 21 Section 1 + 20 Section 2 + 48 Section 3) + supplementary materials
 
 ## Sourcing Status Legend
 
@@ -33,6 +33,7 @@ Total: ~80 primary texts + supplementary materials
 | 1.03 | The Classical Theory of Fields | Landau, Lifshitz | SR, EM, GR | BUY |
 | 1.04 | Complex Analysis | Lars Ahlfors | Contour integration, residues | BUY |
 | 1.05 | Topology and Groupoids | Ronald Brown | Algebraic topology, groupoids | **FREE** (author PDF) |
+| 1.05a | Nonabelian Algebraic Topology | Brown, Higgins, Sivera | Crossed complexes, cubical homotopy groupoids, Higher Homotopy van Kampen | **FREE** (author PDF) |
 | 1.06 | Riemann Surfaces | Ahlfors, Sario | Homology, Riemann surface theory | BUY |
 | 1.07 | Riemann Surfaces | Simon Donaldson | Modern: theta functions, bundles, Gauss-Manin | BUY |
 | 1.08 | Lie Groupoids and Lie Algebroids in Diff Geometry | Kirill Mackenzie | Lie groupoids, geometric structures | BUY |

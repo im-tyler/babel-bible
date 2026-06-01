@@ -166,8 +166,10 @@ def parse_booklist() -> list[dict]:
     rows = []
     text = BOOKLIST.read_text(encoding="utf-8")
     # Match table rows like: | 1.05 | Topology and Groupoids | Ronald Brown | ... |
+    # Allow a trailing letter suffix on the FT id (e.g. 1.05a) so suffixed
+    # catalogue additions are not silently dropped from books_total.
     for m in re.finditer(
-        r"^\|\s*([\d\.]+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|",
+        r"^\|\s*(\d[\d\.]*[a-z]?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|",
         text, re.M,
     ):
         ft = m.group(1).strip()
