@@ -469,6 +469,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: breaking a transformation into independent slabs it never mixes — one slab per eigenvalue or repeated-root factor
 - **notes**: A subspace $W \subseteq V$ is **$T$-invariant** if $T(W) \subseteq W$; the zero subspace and the whole space are invariant for every $T$, as are $\ker T$, $\operatorname{im} T$, every eigenspace $\ker(T - \lambda I)$, and every generalised eigenspace $\ker(T - \lambda I)^k$. An invariant subspace gives a **restriction** $T|_W$ and an **induced operator** $\overline{T}$ on $V/W$; in an adapted basis the matrix of $T$ is block upper-triangular, and block-diagonal when a *complementary invariant subspace* $U$ with $V = W \oplus U$ exists. The **primary decomposition theorem**: if the minimal polynomial factors as $m_T(t) = \prod_i p_i(t)^{e_i}$ into distinct monic irreducible prime powers, then $V = \bigoplus_i \ker p_i(T)^{e_i}$, each summand is $T$-invariant with induced minimal polynomial $p_i^{e_i}$, and the projections $P_i$ are polynomials in $T$ (proved by the coprimeness / Bézout identity $\sum_i g_i f_i = 1$ with $f_i = m_T / p_i^{e_i}$, realising the Chinese remainder isomorphism $K[t]/(m_T) \cong \prod_i K[t]/(p_i^{e_i})$ on the module $V$). Over an algebraically closed field the components are the **generalised eigenspaces** $\ker(T - \lambda_i I)^{m_i}$ and the decomposition recovers the Cayley-Hamilton divisibility $m_T \mid \chi_T$. Refinements: the **Jordan-Chevalley** split $T = S + N$ with $S = \sum_i \lambda_i P_i$ semisimple, $N$ nilpotent, both polynomials in $T$, unique (pointer to `linear-algebra.jordan-canonical-form`); the **cyclic / rational canonical form** decomposing each primary component into $T$-cyclic subspaces $K[t]/(p_i^d)$ with companion-matrix blocks, valid over any field (Frobenius); and the **module-over-$K[t]$ structure-theorem** viewpoint (Lang, Jacobson). Originators: Jordan (1870, *Traité des substitutions*); Frobenius (1878, *J. reine angew. Math.* 84, minimal polynomial, invariant factors, rational canonical form); Krull (1935, *Idealtheorie*, the ideal-theoretic frame); Shilov (1971, *Linear Algebra*); Hoffman-Kunze (1971, the coprime-annihilator proof).
 
+### linear-algebra.change-of-basis-transformation-laws
+
+- **title**: Change of basis and the transformation laws
+- **unit**: `01.01.17`
+- **prerequisites**: `linear-algebra.subspace-basis-dimension`, `linear-algebra.linear-transformation-rank-nullity`
+- **tier_anchors**:
+  - master: Shilov *Linear Algebra* Ch. 4–5; Hoffman-Kunze *Linear Algebra* §3.4 and Ch. 5–6 (similarity, equivalence, congruence); Halmos *Finite-Dimensional Vector Spaces* §§37–47; Lang *Algebra* Ch. XIII; Bourbaki *Algèbre* Ch. II
+  - intermediate: Shilov *Linear Algebra* Ch. 4; Hoffman-Kunze *Linear Algebra* §3.4; Axler *Linear Algebra Done Right* §3.C–§3.F
+  - beginner: re-describing the same arrow and the same motion when you switch rulers — 3Blue1Brown *Essence of Linear Algebra* Ch. 13 (change of basis)
+- **notes**: Given two ordered bases $B, B'$ of an $n$-dimensional $K$-vector space $V$, the **change-of-basis matrix** $P = P_{B \leftarrow B'} \in GL_n(K)$ has $j$-th column $[b'_j]_B$, the new basis vector $b'_j$ in old coordinates. The **coordinate transformation law** $[v]_{B'} = P^{-1}[v]_B$: basis vectors transform by $P$, coordinates transform **contravariantly** by $P^{-1}$ (the inverse is the load-bearing point — coordinates move opposite to the rulers). The **operator transformation law** $[T]_{B'} = P^{-1}[T]_B P$ makes the matrices of one operator in different bases a single **similarity** (conjugacy) class; rank, determinant, trace, characteristic polynomial, minimal polynomial, and elementary divisors are **similarity invariants** (det and trace invariance proved by multiplicativity and the cyclic trace identity). The **dual / cobasis** transforms **contragrediently** by $P^{\mathsf T}$ (covector coordinates are **covariant**), so contractions $\omega_i v^i$ are basis-independent — the bridge to the upper/lower index conventions of tensor analysis. Three distinct relations on $M_n(K)$: **equivalence** $A \mapsto QAP$ (matrix of a map; invariant = rank; normal form $\operatorname{diag}(I_r, 0)$), **similarity** $A \mapsto P^{-1}AP$ (matrix of an operator; invariants = the spectrum data; normal form = Jordan/rational), **congruence** $A \mapsto P^{\mathsf T}AP$ (matrix of a bilinear/quadratic form; invariant over $\mathbb{R}$ = the signature by Sylvester's law of inertia; normal form $\operatorname{diag}(I_p, -I_q, 0)$). The three coincide exactly when $P$ is orthogonal, the case of the spectral / principal-axes theorem. Distinguish the **passive** change of basis (re-description; $P$) from an **active** linear map (motion of $V$; $T$). Groupoid view: bases are objects, change-of-basis matrices are the (invertible) morphisms, $GL_n(K)$ is the vertex group acting simply transitively, and invariants are the natural quantities. Originators: Grassmann (1844, *Ausdehnungslehre*, basis-independent linear extension); Cayley (1858, *Memoir on the Theory of Matrices*, the matrix calculus making $P^{-1}AP$ an operation); Sylvester (1851/1852, the law of inertia and the signature as congruence invariant); Halmos (1958, the modern finite-dimensional packaging); Shilov (1971, the transition-matrix development).
+
 ### linear-algebra.singular-value-decomposition
 
 - **title**: Singular value decomposition (finite-dim)
@@ -2551,6 +2562,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Sternberg *Curvature in Mathematics and Physics* Ch. 16; Baez-Muniain *Gauge Fields, Knots and Gravity* Part II
   - beginner: visual potential / loop-holonomy account analogous to 3Blue1Brown / Strogatz pacing
 - **notes**: Builds the geometric dictionary identifying classical electromagnetism with a $U(1)$ principal connection: the four-potential $A=A_\mu\,dx^\mu$ is the local connection one-form, the field strength $F=dA$ is its curvature (the $[A,A]$ term vanishing because $U(1)$ is abelian), gauge transformations $A\mapsto A+d\lambda$ are the principal-bundle gauge freedom, the homogeneous Maxwell equations $dF=0$ are the Bianchi identity, and the inhomogeneous equations $d{\star}F={\star}J$ are the abelian Yang-Mills equation $d_A^*F=J$ that extremises $S=-\tfrac14\int F\wedge{\star}F$. Proves charge quantisation through the Dirac monopole as a non-product $U(1)$ bundle over $S^2$ with first Chern number $\frac{1}{2\pi}\int_{S^2}F\in\mathbb{Z}$, and identifies the Aharonov-Bohm phase as the holonomy of the connection. Worked: $dF=0\Leftrightarrow(\nabla\!\cdot\!B=0,\ \partial_t B+\nabla\times E=0)$; the two-hemisphere monopole connection with transition function and $\int_{S^2}F=4\pi g$; the solenoid holonomy.
+
+### gauge-theory.aharonov-bohm-holonomy-flat-u1
+
+- **title**: Aharonov-Bohm effect and holonomy of U(1) connections
+- **unit**: `03.07.30`
+- **prerequisites**: `gauge-theory.electromagnetism-u1-yang-mills-dictionary`, `diffgeo.connection.parallel-transport`, `derham.closed-exact-forms`
+- **tier_anchors**:
+  - master: Sternberg *Curvature in Mathematics and Physics* Ch. 18 §3; Aharonov-Bohm 1959 *Phys. Rev.* 115; Wu-Yang 1975 *Phys. Rev.* D 12
+  - intermediate: Sternberg *Curvature in Mathematics and Physics* Ch. 18; Nakahara *Geometry, Topology and Physics* §10
+  - beginner: visual loop-phase / encircled-flux account analogous to 3Blue1Brown / Strogatz pacing
+- **notes**: Develops the Aharonov-Bohm effect as the holonomy $\mathrm{hol}(\gamma)=\exp\!\big(i\oint_\gamma A\big)$ of a flat ($F=dA=0$) $U(1)$ connection on a non-simply-connected region. Proves that flat-connection holonomy depends only on the homotopy/homology class of the loop and factors through a homomorphism $\pi_1\to U(1)$ (via Stokes: homotopic loops cobound a surface on which $F=0$). Computes the solenoid phase $\exp(ie\Phi/\hbar)\neq 1$ despite $B=0$ along the electron path, identifies the gauge-invariant Wilson loop $W(\gamma)=\oint_\gamma A\bmod 2\pi$ as the physical observable, and relates the phase to the period of a closed-not-exact form and to $H^1$ of the region. Worked: solenoid AB phase; Wilson loop as gauge-invariant holonomy; double-slit fringe displacement. Master pointers: nonabelian Wilson loop, Ambrose-Singer reconstruction, flux quantisation in superconductors, lattice gauge theory.
 
 ### gauge-theory.asd-equation
 
@@ -5734,6 +5756,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Wald, *General Relativity* (1984), Appendix E; Misner-Thorne-Wheeler, *Gravitation* (1973), §21.2
   - beginner: Hartle, *Gravity* (2003), Ch. 21 (action principle, conceptual)
 - **notes**: First-order metric-affine alternative to the second-order Einstein-Hilbert metric variation (13.04.02). Connection treated as an independent field; metric compatibility emerges as a field equation rather than an input. Covers the projective ambiguity and the f(R) inequivalence.
+
+
+### general-relativity.hilbert-stress-energy-tensor
+
+- **title**: Stress-energy tensor as functional derivative of the matter action
+- **unit**: `13.04.04`
+- **prerequisites**: `general-relativity.einstein-hilbert-action`, `general-relativity.einstein-field-equations`, `general-relativity.tensors-smooth-manifolds`
+- **tier_anchors**:
+  - master: Sternberg, *Curvature in Mathematics and Physics* (2012), Ch. 20; Misner-Thorne-Wheeler, *Gravitation* (1973), §21.3; Wald, *General Relativity* (1984), Appendix E
+  - intermediate: Carroll, *Spacetime and Geometry* (2004), §4.3; Wald, *General Relativity* (1984), §E.1
+  - beginner: Hartle, *Gravity* (2003), Ch. 22 (the source of curvature, conceptual)
+- **notes**: The Hilbert (metric) stress-energy tensor T_{μν} = −(2/√−g) δS_m/δg^{μν}. Automatically symmetric and gauge-free; covariant conservation from diffeomorphism invariance (Noether, cross-ref 05.05.08); contrast with the canonical Noether tensor and the Belinfante-Rosenfeld improvement. Worked tensors for scalar, electromagnetic, and perfect-fluid matter; the conformal trace condition.
 
 
 ### general-relativity.schwarzschild-solution
@@ -10858,6 +10892,12 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **title**: Isometric immersion and the second fundamental form
 - **unit**: `03.02.13`
 - **notes**: stub — see unit `03.02.13` for full prerequisites, tier anchors, and bibliography.
+
+### diff-geom.weyl-tensor-conformally-flat
+
+- **title**: Weyl tensor and conformally flat metrics
+- **unit**: `03.02.16`
+- **notes**: stub — see unit `03.02.16` for full prerequisites, tier anchors, and bibliography.
 
 ### diff-geom.gauss-codazzi-ricci
 
