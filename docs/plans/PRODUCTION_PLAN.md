@@ -1,6 +1,6 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-01T18:25:27.668757+00:00_
+_Generated: 2026-06-01T21:05:32.926499+00:00_
 
 ## Burn-down
 
