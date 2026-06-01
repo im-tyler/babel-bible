@@ -951,6 +951,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: Brown-Higgins-Sivera §2.1 informal
 - **notes**: Abstract crossed module: a homomorphism $\partial : M \to P$ with a $P$-action on $M$ satisfying CM1 ($\partial(p \cdot m) = p\,\partial(m)\,p^{-1}$) and CM2, the Peiffer identity ($\partial(m) \cdot m' = m m' m^{-1}$). Canonical topological example: $\Pi_2(X, A, x_0) = \big(\partial : \pi_2(X, A, x_0) \to \pi_1(A, x_0)\big)$ with the $\pi_1(A)$-action (Whitehead 1949), free on the 2-cells when $X = A \cup (\text{2-cells})$. Consequences: $\operatorname{im}\partial \trianglelefteq P$, $\ker\partial$ central in $M$ and a $\operatorname{coker}\partial$-module, $[M,M] \subseteq$ Peiffer subgroup. Worked computation: $\pi_2$ of a mapping cone, simply-connected (abelian, Hurewicz) vs non-simply-connected ($\mathbb{Z}[\pi_1]$-module, free crossed module) cases. Originator: J.H.C. Whitehead 1949; Brown-Spencer 1976 equivalence with internal categories in groups.
 
+### topology.crossed-complex
+
+- **title**: Crossed complex of a filtered space
+- **prerequisites**: `topology.relative-homotopy-group`, `topology.crossed-module`, `topology.filtered-space`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §7.1 and §9 (the fundamental crossed complex $\Pi X_*$, the tensor product and monoidal closed structure); Brown-Higgins 1981 *Colimit theorems for relative homotopy groups*
+  - intermediate: Brown-Higgins-Sivera §7.1 (the crossed-complex axioms); Whitehead 1949 *Combinatorial homotopy II*
+  - beginner: NAT §7.1 informal (the 2-truncation picture)
+- **notes**: The fundamental crossed complex $C(X_*) = \Pi X_*$ of a filtered space $X_*$: a sequence $\cdots \to C_3 \to C_2 \xrightarrow{\delta_2} C_1 \rightrightarrows C_0$ with $C(X_*)_0 = X_0$, $C(X_*)_1 = \pi_1(X_1, X_0)$ a groupoid over the base-point set, and $C(X_*)_n = \pi_n(X_n, X_{n-1}, *)$ for $n \ge 2$ (modules for $n \ge 3$, a crossed module at $\delta_2$). Axioms: CC1 ($\delta_{n-1}\delta_n = 0$, from the long-exact-sequence identity $\partial\circ j = 0$ on consecutive filtration pairs), CC2 ($C_1$-equivariance of $\delta_n$), CC3 ($\delta_2$ is a Whitehead crossed module), CC4 (the $C_1$-action descends to a $\pi_1 C$-module structure for $n \ge 3$). The functor $\Pi \colon \mathsf{FTop} \to \mathsf{Crs}$; the free crossed resolution on skeleta; homology $H_n(C) \cong H_n(\widetilde X)$ as $\mathbb{Z}[\pi_1 X]$-modules. Tensor product $C \otimes D$ and internal hom $\mathrm{CRS}(D, E)$ making $\mathsf{Crs}$ monoidal closed, with $\Pi(X_* \otimes Y_*) \cong \Pi X_* \otimes \Pi Y_*$ on CW filtrations (NAT §9). The central object of NAT's higher homotopy van Kampen programme. Originators: Whitehead 1949 (homotopy systems); Brown-Higgins 1981. No Lean: Mathlib has no crossed complex or fundamental-crossed-complex functor.
+
+### topology.free-crossed-resolution
+
+- **title**: Free crossed resolution of a group
+- **prerequisites**: `topology.crossed-module`, `foundations.free-group-presentation`, `alg-geom.derived-functors-ext`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §10; Brown-Huebschmann 1982 *Identities among relations*; J.H.C. Whitehead 1949 *Combinatorial homotopy II*
+  - intermediate: Brown-Higgins-Sivera §10.1-10.3; Brown-Huebschmann 1982
+  - beginner: Brown-Higgins-Sivera §10 informal
+- **notes**: Given a presentation $\langle X \mid R \rangle$ of a group $G$, the free crossed resolution is a free aspherical crossed complex $\cdots \to C_3 \to C_2 \xrightarrow{\partial_2} C_1$ with $C_1 = F(X)$ the free group on the generators, $C_2 = C(R)$ the free crossed module on the relators (with $\partial_2$ sending a relator to the word it spells), and $C_n$ for $n \geq 3$ free $\mathbb{Z}G$-modules. The kernel $\pi_2 = \ker\partial_2$ is the *module of identities among relations*. The resolution compares with the bar resolution / standard free resolution of $\mathbb{Z}$ over $\mathbb{Z}G$ and computes $H_n(G)$ in low degrees. Worked computation: $\mathbb{Z}/n = \langle x \mid x^n \rangle$ has cyclic module of identities; the free-abelian group $\langle x, y \mid [x,y]\rangle$ has trivial module of identities (aspherical presentation). Originator: Whitehead 1949; Brown-Huebschmann 1982.
+
 ### topology.hurewicz-theorem
 
 - **title**: Hurewicz theorem
