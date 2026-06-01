@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-01T03:44:19.591490+00:00_
+_Generated: 2026-06-01T03:54:17.354708+00:00_
 
 ## Burn-down
 
-- Units shipped: **1229**
-- Units queued (gap units from audits): **3**
+- Units shipped: **1230**
+- Units queued (gap units from audits): **2**
 - Of which deepenings: **2**
 - Audits completed: **73 / 92**
 - Books unaudited: **0**
@@ -16,7 +16,6 @@ _Generated: 2026-06-01T03:44:19.591490+00:00_
 |---|---|---|---|---|
 | 1 | `05.09.08` | Infinite-dimensional Poisson manifolds and Hamiltonian evolution equations | P? | olver-lie-groups-differential-equations |
 | 2 | `01.01.18` | Linear manifolds, hyperplanes, and affine subspaces | P? | shilov-linear-algebra |
-| 3 | `02.13.11` | Slicing of currents | P2 | whitney-geometric-integration-theory |
 
 ## Audits completed
 
