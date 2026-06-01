@@ -447,6 +447,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: the mirror-image map $T^*$ that moves an operator from one side of the dot product to the other; isometries as the rigid motions fixing the origin
 - **notes**: The **adjoint** $T^* : V \to V$ of a linear operator on a finite-dimensional inner-product space $(V, \langle \cdot, \cdot \rangle)$ over $F \in \{\mathbb{R}, \mathbb{C}\}$ is the unique operator satisfying $\langle T v, w \rangle = \langle v, T^* w \rangle$ for all $v, w \in V$. Existence and uniqueness come from the **Riesz representation theorem**: for fixed $v$, the map $w \mapsto \langle T v, w \rangle$ is (conjugate-)linear, hence represented by a unique vector $T^* w$. In an orthonormal basis the matrix of $T^*$ is the **conjugate transpose** (Hermitian transpose) $\overline{A}^\top = A^*$ of the matrix $A$ of $T$; over $\mathbb{R}$ this is the ordinary transpose. Algebraic identities: $(T^*)^* = T$, $(S + T)^* = S^* + T^*$, $(ST)^* = T^* S^*$ (order-reversing), $(\lambda T)^* = \bar\lambda T^*$ (conjugate-(semi)linear). Orthogonality of the four fundamental subspaces: $\ker T^* = (\operatorname{im} T)^\perp$ and $\operatorname{im} T^* = (\ker T)^\perp$, the inner-product-space refinement of rank-nullity. **Self-adjoint** operators ($T = T^*$) have real eigenvalues and mutually orthogonal eigenspaces. An **isometry** (or **orthogonal** operator over $\mathbb{R}$, **unitary** over $\mathbb{C}$) is an operator $U$ with $\langle U v, U w \rangle = \langle v, w \rangle$ for all $v, w$; the three equivalent characterisations $U^* U = I$, $\langle U v, U w \rangle = \langle v, w \rangle$, and $\|U v\| = \|v\|$ are linked by the **polarisation identity**. Isometries carry orthonormal bases to orthonormal bases, form the **orthogonal group** $O(n)$ / **unitary group** $U(n)$, have $|\det U| = 1$, and have eigenvalues on the unit circle. Master-tier scope: the spectral theorem for self-adjoint/normal operators as a downstream consequence (pointer to `linear-algebra.spectral-theorem-normal-operators`); the **polar decomposition** $T = U|T|$ with $|T| = (T^* T)^{1/2}$; the **Cartan-Dieudonné theorem** (every isometry of an $n$-dimensional space is a product of at most $n$ reflections). Originators: Hilbert (1906, *Nachr. Gött.*, the adjoint and symmetric operators in integral-equation theory); Riesz (1907, *Comptes Rendus* 144, the representation theorem for linear functionals); Schmidt (1908, *Rend. Circ. Mat. Palermo* 25, the geometric inner-product/orthogonality framework); Halmos (1958, *Finite-Dimensional Vector Spaces*, the canonical finite-dimensional packaging); Shilov (1971, *Linear Algebra*).
 
+### linear-algebra.rayleigh-quotient-courant-fischer
+
+- **title**: Rayleigh quotient and the Courant-Fischer min-max characterisation of eigenvalues
+- **unit**: `01.01.14`
+- **prerequisites**: `linear-algebra.spectral-theorem-normal-operators`, `linear-algebra.adjoint-operator-isometry`, `linear-algebra.gram-schmidt-inner-product-space`
+- **tier_anchors**:
+  - master: Shilov *Linear Algebra* Ch. 10 §10.2–§10.3 (extremal properties of eigenvalues); Horn-Johnson *Matrix Analysis* §4.2 (Rayleigh-Ritz, Courant-Fischer) + §4.3 (interlacing, Weyl); Parlett *The Symmetric Eigenvalue Problem* Ch. 10–11; Reed-Simon *Methods of Modern Mathematical Physics* Vol. IV §XIII.1 (min-max for self-adjoint operators)
+  - intermediate: Horn-Johnson *Matrix Analysis* §4.2; Strang *Introduction to Linear Algebra* Ch. 6; Axler *Linear Algebra Done Right* §7.B
+  - beginner: the largest and smallest stretch factors of a symmetric matrix, read off the unit circle as the high and low points of the Rayleigh quotient
+- **notes**: For a self-adjoint (Hermitian/symmetric) operator $A$ on a finite-dimensional inner-product space, the **Rayleigh quotient** is $R(v) = \langle A v, v \rangle / \langle v, v \rangle$ for $v \neq 0$. Its range is the interval $[\lambda_{\min}, \lambda_{\max}]$ between the least and greatest eigenvalues, attained at the corresponding eigenvectors, giving the **extremal characterisation** $\lambda_{\max} = \max_v R(v)$ and $\lambda_{\min} = \min_v R(v)$. The critical points of $R$ on the unit sphere are exactly the eigenvectors of $A$, and the critical values are the eigenvalues (the gradient condition $\nabla R(v) = 0$ rearranges to $A v = R(v) v$). The **Courant-Fischer min-max theorem** characterises every eigenvalue (ordered $\lambda_1 \ge \cdots \ge \lambda_n$) without reference to lower eigenvectors: $\lambda_k = \max_{\dim S = k} \min_{0 \neq v \in S} R(v) = \min_{\dim S = n-k+1} \max_{0 \neq v \in S} R(v)$, proved by a dimension-count intersection argument (any $k$-dimensional $S$ meets the span of the bottom $n-k+1$ eigenvectors). Consequences: the **Cauchy interlacing theorem** $\lambda_{k+1}(A) \le \mu_k \le \lambda_k(A)$ relating the eigenvalues of $A$ to those of a principal submatrix (or a rank-one perturbation / compression), and **Weyl's inequalities** $\lambda_{i+j-1}(A+B) \le \lambda_i(A) + \lambda_j(B)$ for sums of Hermitian matrices. The min-max principle is the variational backbone of the Rayleigh-Ritz method (pointer to `quantum-mechanics.variational-method-rayleigh-ritz`) and extends to the discrete spectrum below the essential spectrum for semibounded self-adjoint operators on Hilbert space (Courant-Fischer / Glazman lemma), governing Sturm-Liouville and PDE eigenvalue problems. Originators: Rayleigh (1877, *The Theory of Sound*, the quotient as a frequency estimate for vibrating systems); Fischer (1905, *Monatsh. Math. Phys.* 16, the min-max formula); Weyl (1912, *Math. Ann.* 71, eigenvalue asymptotics and the perturbation inequalities); Courant (1920, *Math. Z.* 7, the min-max principle for PDE eigenvalues and nodal domains); Ritz (1909, *J. reine angew. Math.* 135, the trial-subspace algorithm); Shilov (1971, *Linear Algebra*).
+
 ### linear-algebra.singular-value-decomposition
 
 - **title**: Singular value decomposition (finite-dim)
@@ -935,6 +946,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Olver §3.1-§3.4 (group invariants, invariant solutions, optimal systems); Bluman-Kumei *Symmetries and Differential Equations* (1989) Ch. 4
   - beginner: Olver §3.1 informal (a symmetry-respecting solution depends on fewer variables)
 - **notes**: A $G$-invariant solution is a solution whose graph is fixed by a subgroup $H \subseteq G$ of the symmetry group; built from the joint invariants of the prolonged $H$-action, found by integrating the characteristic system $dx^i/\xi^i = du^\alpha/\phi^\alpha$. Reduction of the number of independent variables (PDE $\to$ PDE/ODE) via the similarity ansatz; reduction of order of an ODE by a one-parameter symmetry through canonical coordinates straightening $v$ to $\partial_s$. Classification of inequivalent reductions by the optimal system of subalgebras under the adjoint action of $G$ on $\mathfrak{g}$. Worked: heat equation scaling reduction to the Boltzmann variable $\eta = x/\sqrt{t}$ and the source/error-function solution; first-order scaling-symmetry reduction by canonical coordinates; Burgers / porous-medium traveling wave $u(x,t) = U(x - ct)$. Originators: Lie 1895 (reduction by symmetry); Birkhoff 1950 (dimensional/similarity); Olver 1986/1993; Barenblatt 1979 (self-similar intermediate asymptotics); Bluman-Cole 1969 (nonclassical method).
+
+### symplectic-geometry.lie-classification-second-order-odes
+
+- **title**: Lie's classification of second-order ODEs and the symmetry algorithm for ODEs
+- **prerequisites**: `symplectic-geometry.prolongation-symmetry-criterion`, `symplectic-geometry.group-invariant-solutions`, `symplectic-geometry.jet-bundle`
+- **tier_anchors**:
+  - master: Lie *Vorlesungen über Differentialgleichungen mit bekannten infinitesimalen Transformationen* (Lie-Scheffers 1891, originator); Olver *Applications of Lie Groups to Differential Equations* (2nd ed., 1993) §3.5; Ibragimov *Elementary Lie Group Analysis and Ordinary Differential Equations* (1999)
+  - intermediate: Olver §3.5 (the symmetry algorithm, dimension bounds, the four 2D types); Bluman-Anco *Symmetry and Integration Methods for Differential Equations* (2002) Ch. 4
+  - beginner: Olver §3.5 informal (a second-order ODE has 0, 1, 2, 3, or 8 symmetries, and 8 means it is secretly $u''=0$)
+- **notes**: The computational symmetry algorithm for an ODE: write $v = \xi\partial_x + \eta\partial_u$, prolong to the equation order, impose $\mathrm{pr}\,v(\Delta) = 0$ on $\Delta = 0$, split by powers of the derivative coordinates to get the overdetermined linear determining equations, solve for $\xi, \eta$. Lie's dimension theorem: a second-order ODE $u'' = F(x,u,u')$ admits a point-symmetry algebra of dimension $0,1,2,3$, or $8$, never $4$ through $7$; dimension $8$ ($= \mathfrak{sl}(3,\mathbb{R})$) holds iff the equation is linearisable / equivalent to $u'' = 0$. Lie's classification of the four canonical 2D symmetry-algebra types (abelian vs non-abelian crossed with transversal vs non-transversal realisation), and the integration of a second-order ODE by two quadratures when it admits a 2D solvable symmetry algebra, using the correct ordering of generators for a non-abelian algebra. Worked: $u'' = 0$ has the full $\mathfrak{sl}(3,\mathbb{R})$; symmetry algebra of a concrete equation by the algorithm; integration by canonical coordinates of a 2D-symmetry equation. Originators: Lie 1891 (Lie-Scheffers); Olver 1986/1993; Ibragimov 1999; Bluman-Anco 2002.
 
 ### symplectic-geometry.noethers-second-theorem
 
@@ -2308,6 +2329,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Shifrin — Multivariable Mathematics §8.1–8.3; Spivak Ch. 5
   - beginner: flow-through-a-net flux pictures (Shifrin Ch. 8)
 - **notes**: Surface integral of a 2-form as the integral of its pullback over a parameter domain; the flux 2-form omega_F = iota_F(dx wedge dy wedge dz) = F^1 dy^dz + F^2 dz^dx + F^3 dx^dy; vector surface element n dA = (Phi_u x Phi_v) du dv; invariance under orientation-preserving reparametrisation via the Jacobian; divergence theorem as d omega_F = (div F) dV; the 4*pi flux of the inverse-square field and its cohomological reading as the generator of H^2(S^2); non-orientable (Mobius) obstruction.
+
+### diffgeo.closed-exact-poincare-lemma
+
+- **title**: Closed and exact forms, the Poincare lemma, and the angle 1-form
+- **prerequisites**: `diffgeo.exterior-derivative`, `diffgeo.differential-forms`, `topology.de-rham-cohomology`
+- **tier_anchors**:
+  - master: Spivak — Calculus on Manifolds Ch. 4; Bott-Tu §I.4; Shifrin Ch. 8 §8.5
+  - intermediate: Shifrin — Multivariable Mathematics §8.5; Spivak Ch. 4
+  - beginner: conservative-field / potential-function pictures (Shifrin Ch. 8)
+- **notes**: Closed forms (d omega = 0) versus exact forms (omega = d eta); exact implies closed because d^2 = 0; the Poincare lemma on a star-shaped open set via the explicit cochain homotopy operator K with d K omega + K d omega = omega; the angle 1-form theta = (x dy - y dx)/(x^2 + y^2) on R^2 minus the origin as the canonical closed-but-not-exact form with period 2*pi around the unit circle, giving H^1(R^2 minus 0) = R; winding number as the period; the d-complex grad/curl/div in R^3 and the conservative-vector-field criterion.
 
 ### diffgeo.variational-calculus
 
@@ -5644,6 +5675,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: Wald, General Relativity (1984), Ch. 4; Weinberg, Gravitation and Cosmology (1972), Ch. 7
   - intermediate: Schutz, A First Course in General Relativity, 2e (2009), Ch. 8
   - beginner: Hartle, Gravity: An Introduction to Einstein's General Relativity (2003), Ch. 8
+- **notes**: (to be filled during production)
+
+
+### general-relativity.einstein-hilbert-action
+
+- **title**: Einstein-Hilbert action and variational derivation of the Einstein equations
+- **unit**: `13.04.02`
+- **prerequisites**: `general-relativity.einstein-field-equations`, `general-relativity.tensors-smooth-manifolds`
+- **tier_anchors**:
+  - master: Sternberg, *Curvature in Mathematics and Physics* (2012), Ch. 12; Wald, *General Relativity* (1984), Appendix E; Hilbert 1915, *Die Grundlagen der Physik*
+  - intermediate: Carroll, *Spacetime and Geometry* (2004), Ch. 4; Wald, *General Relativity* (1984), §E.1
+  - beginner: Hartle, *Gravity* (2003), Ch. 21 (action principle, conceptual)
 - **notes**: (to be filled during production)
 
 
