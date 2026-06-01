@@ -801,6 +801,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: visual extension of derivative to forms
 - **notes**: Unique linear operator $d : \Omega^k \to \Omega^{k+1}$ characterised by action on functions, linearity, graded Leibniz, $d^2 = 0$. Local formula. Naturality (commutes with pullback). Cartan magic formula. Poincaré lemma. Maurer-Cartan equation on Lie groups. Covariant exterior derivative on bundle-valued forms.
 
+### topology.filtered-space
+
+- **title**: Filtered space
+- **prerequisites**: `topology.cw-complex`, `topology.topological-space`, `topology.quotient-topology`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §B.7; Hatcher §0 (CW skeletal filtration)
+  - intermediate: NAT §B.7 (the category FTop, filtered maps); Hatcher §0
+  - beginner: CW skeletal-filtration picture
+- **notes**: A space $X$ with a nested sequence of subspaces $X_0 \subseteq X_1 \subseteq \cdots \subseteq X$ exhausting $X$ ($X = \bigcup_n X_n$, or $X = \operatorname{colim}_n X_n$ with the colimit topology). Running example: the skeletal filtration of a CW complex, $X_n = X^{(n)}$. Filtered maps (preserving the filtration degree by degree), the category $\mathsf{FTop}$ of filtered spaces, the constant filtration, a based space as a filtration concentrated in degree $0$. The connectivity condition $\phi$ (each $X_0 \to X_n$ surjective on $\pi_0$, and the relative homotopy vanishing $\pi_i(X_n, X_{n-1}, v) = 0$ for $i < n$) that singles out *connected* filtered spaces — the input class for which NAT's higher homotopy van Kampen theorem and the equivalence with crossed complexes / cubical $\omega$-groupoids hold. No Lean formalisation: Mathlib lacks the category of filtered spaces and the connectivity predicate.
+
 ### topology.homotopy
 
 - **title**: Homotopy and homotopy group
@@ -920,6 +930,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - intermediate: Cannas §27; Audin §IV
   - beginner: Cannas §27 informal
 - **notes**: For closed connected $(M, \omega)$ with Hamiltonian $T = T^k$ action and moment map $\mu : M \to \mathfrak{t}^*$: (i) $\mu(M)$ is a convex polytope; (ii) $\mu(M) = \mathrm{conv}(\mu(M^T))$; (iii) every fibre $\mu^{-1}(c)$ is connected. Atiyah's proof: Morse-Bott analysis of $\mu^\xi$, even index/coindex via weight-space decomposition, level-set connectedness via even-index attaching, induction on rank. Examples: $S^2$ height function, $\mathbb{CP}^n$ standard polytope, coadjoint orbits / Schur-Horn permutohedron. Originators: Atiyah 1982 *Convexity and commuting Hamiltonians*; Guillemin-Sternberg 1982 *Convexity properties of the moment mapping*.
+
+### topology.relative-homotopy-group
+
+- **title**: Relative homotopy group $\pi_n(X, A, x_0)$
+- **prerequisites**: `topology.homotopy`, `topology.fundamental-groupoid`, `topology.cw-complex`
+- **tier_anchors**:
+  - master: Hatcher §4.1; Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §B.1.6; J.H.C. Whitehead 1949 *Combinatorial homotopy II*
+  - intermediate: Hatcher §4.1; May *A Concise Course* Ch. 9
+  - beginner: Hatcher §4.1 informal
+- **notes**: $\pi_n(X, A, x_0)$ as homotopy classes of maps of triples $(D^n, S^{n-1}, s_0) \to (X, A, x_0)$. Group structure for $n \geq 2$, abelian for $n \geq 3$ (Eckmann-Hilton on the relative cube). Boundary map $\partial : \pi_n(X, A, x_0) \to \pi_{n-1}(A, x_0)$. Long exact sequence of the pair $\cdots \to \pi_n(A) \to \pi_n(X) \to \pi_n(X, A) \xrightarrow{\partial} \pi_{n-1}(A) \to \cdots$. Action of $\pi_1(A, x_0)$; the compression criterion ($\alpha$ relative-trivial iff it compresses into $A$ rel $S^{n-1}$). Foundational for the Higher Homotopy van Kampen theorem and crossed modules/crossed complexes. Originator: J.H.C. Whitehead 1949-50.
+
+### topology.crossed-module
+
+- **title**: Whitehead's crossed module of a pair
+- **prerequisites**: `topology.relative-homotopy-group`, `topology.fundamental-group`, `algebra.group-action`
+- **tier_anchors**:
+  - master: Brown-Higgins-Sivera *Nonabelian Algebraic Topology* §2.1; Brown-Spencer 1976 *G-groupoids, crossed modules and the fundamental groupoid of a topological group*; J.H.C. Whitehead 1949 *Combinatorial homotopy II*
+  - intermediate: Brown-Higgins-Sivera §2.1; Brown *Topology and Groupoids* §A.7
+  - beginner: Brown-Higgins-Sivera §2.1 informal
+- **notes**: Abstract crossed module: a homomorphism $\partial : M \to P$ with a $P$-action on $M$ satisfying CM1 ($\partial(p \cdot m) = p\,\partial(m)\,p^{-1}$) and CM2, the Peiffer identity ($\partial(m) \cdot m' = m m' m^{-1}$). Canonical topological example: $\Pi_2(X, A, x_0) = \big(\partial : \pi_2(X, A, x_0) \to \pi_1(A, x_0)\big)$ with the $\pi_1(A)$-action (Whitehead 1949), free on the 2-cells when $X = A \cup (\text{2-cells})$. Consequences: $\operatorname{im}\partial \trianglelefteq P$, $\ker\partial$ central in $M$ and a $\operatorname{coker}\partial$-module, $[M,M] \subseteq$ Peiffer subgroup. Worked computation: $\pi_2$ of a mapping cone, simply-connected (abelian, Hurewicz) vs non-simply-connected ($\mathbb{Z}[\pi_1]$-module, free crossed module) cases. Originator: J.H.C. Whitehead 1949; Brown-Spencer 1976 equivalence with internal categories in groups.
 
 ### topology.hurewicz-theorem
 
