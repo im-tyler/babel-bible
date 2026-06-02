@@ -12343,6 +12343,36 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - beginner: TBD
 - **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
 
+### complex-analysis.coherent-analytic-sheaves-oka
+
+- **title**: Coherent analytic sheaves and Oka's coherence theorem
+- **prerequisites**: `complex-analysis.analytic-sets-local-parametrisation`, `complex-analysis.weierstrass-preparation-division`
+- **tier_anchors**:
+  - master: Gunning *Introduction to Holomorphic Functions of Several Variables* Vol. III §J; Grauert–Remmert *Coherent Analytic Sheaves* §2–4
+  - intermediate: Gunning–Rossi *Analytic Functions of Several Complex Variables* Ch. IV; Hörmander *An Introduction to Complex Analysis in Several Variables* §7.5
+  - beginner: deferred
+- **notes**: Producer-registered (06.10.20). Sheaf of ${}_n\mathcal{O}$-modules; coherence as locally finite type plus locally finitely generated relation sheaf; Oka's coherence theorem that ${}_n\mathcal{O}$ is coherent over itself (proved by Weierstrass division); Cartan's theorem that the ideal sheaf of an analytic set is coherent. Contrast with the algebraic coherent sheaf (`04.06.02`) where coherence is automatic on a Noetherian scheme but is a theorem in the analytic category.
+
+### complex-analysis.cartan-theorems-a-b
+
+- **title**: Cartan Theorems A and B in $\mathbb{C}^n$ (with proof)
+- **prerequisites**: `complex-analysis.coherent-analytic-sheaves-oka`, `complex-analysis.dbar-l2-estimates`, `complex-analysis.levi-problem`, `complex-analysis.cousin-problems-cn`
+- **tier_anchors**:
+  - master: Cartan Séminaire ENS 1951–53 (originator); Gunning *Introduction to Holomorphic Functions of Several Variables* Vol. III (Theorems A and B); Grauert–Remmert *Theory of Stein Spaces* §IV–§V
+  - intermediate: Hörmander *An Introduction to Complex Analysis in Several Variables* §7.2–§7.4; Gunning–Rossi *Analytic Functions of Several Complex Variables* Ch. VIII
+  - beginner: Krantz *Function Theory of Several Complex Variables* §7; Gunning–Rossi Ch. VIII opening
+- **notes**: Producer-registered (06.10.21). For $\mathcal{F}$ coherent analytic on a Stein open $\Omega \subseteq \mathbb{C}^n$: Theorem B ($H^q(\Omega,\mathcal{F})=0$ for $q\ge 1$) proved via $\bar\partial$-$L^2$ solvability for the structure sheaf and dévissage through coherent free resolutions, then Theorem A (global sections generate every stalk) via Nakayama. Deduces Cousin I/II and Oka's principle as corollaries. DEEPEN of the survey `06.09.08`; load-bearing payoff of Gunning Vol. III.
+
+### complex-analysis.complex-space-coherence
+
+- **title**: Complex spaces and coherence on them
+- **prerequisites**: `complex-analysis.local-ring-analytic-set-remmert-stein`, `complex-analysis.coherent-analytic-sheaves-oka`, `complex-analysis.cartan-theorems-a-b`
+- **tier_anchors**:
+  - master: Grauert–Remmert *Coherent Analytic Sheaves* (Grundlehren 265) §I–§II; Grauert–Remmert *Theory of Stein Spaces* (Grundlehren 236); Cartan Séminaire ENS 1951/52 (originator); Grauert 1960 (direct-image coherence)
+  - intermediate: Grauert–Remmert *Coherent Analytic Sheaves* §I.1; Gunning *Introduction to Holomorphic Functions of Several Variables* Vol. III (complex spaces)
+  - beginner: Gunning Vol. III complex-space sections; Grauert–Remmert *Theory of Stein Spaces* §0–§1 (informal)
+- **notes**: Producer-registered (06.10.22). Ringed and locally ringed spaces; a **complex space** $(X,\mathcal{O}_X)$ as a locally ringed $\mathbb{C}$-space locally isomorphic to an analytic-set model $(V,\mathcal{O}_V)$, $\mathcal{O}_V=\iota^{-1}(\mathcal{O}_\Delta/\mathcal{I})$ in a polydisc, with reduced/non-reduced (nilpotent-bearing) structure sheaf; morphisms = holomorphic maps; coherence of $\mathcal{O}_X$ via Oka transported across the finite embedding; reduction by the nilradical sheaf; normal complex spaces and normalisation by integral closure ($\nu:\tilde X\to X$ coherent); the analytic spectrum $\operatorname{Specan}$ as the analytic mirror of $\operatorname{Spec}$; Cartan A/B globalised to Stein complex spaces; pointer to Grauert's proper direct-image coherence and Serre GAGA. Analytic counterpart of the scheme `04.02.01` / coherent sheaf `04.06.02`. Gunning-only NEW; closes Gunning Vol. III complex-space arc.
+
 ### stat-mech.brownian-wiener-feynman-kac
 
 - **title**: Brownian motion, the Wiener measure, and the path integral
@@ -12383,6 +12413,16 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - beginner: TBD
 - **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
 
+### stat-mech.lattice-fermions-doubling-problem
+
+- **title**: Lattice fermions and the doubling problem
+- **prerequisites**: `stat-mech.wilson-lattice-gauge`, `stat-mech.fermionic-fock-space-pauli-anticommutators`, `stat-mech.grassmann-integration-ising-free-fermions`
+- **tier_anchors**:
+  - master: "Itzykson & Drouffe, *Statistical Field Theory*, Vol. 1, Ch. 6 (lattice fermions, doublers, Wilson and staggered fermions); Nielsen & Ninomiya, *Nucl. Phys. B* 185, 20 (1981) and 193, 173 (1981) (no-go theorem); Montvay & Münster, *Quantum Fields on a Lattice* (Cambridge, 1994), Ch. 4"
+  - intermediate: "Rothe, *Lattice Gauge Theories: An Introduction*, 4th ed. (World Scientific, 2012), Ch. 4 (naive lattice fermions, doubling, Nielsen-Ninomiya); Smit, *Introduction to Quantum Fields on a Lattice* (Cambridge, 2002), Ch. 4-5"
+  - beginner: "Gattringer & Lang, *Quantum Chromodynamics on the Lattice* (Springer, 2010), Ch. 5 (intuitive picture of doublers and the Wilson term)"
+- **notes**: Discretising the Dirac operator with a symmetric finite difference produces $2^d$ fermion species ("doublers") from the extra zeros of the periodic lattice dispersion $\sum_\mu \gamma_\mu \sin(p_\mu a)$ at the Brillouin-zone corners. Nielsen-Ninomiya no-go theorem: locality + translation invariance + Hermiticity + exact chiral symmetry forces a vanishing net chirality, so doublers are unavoidable for any naively chiral lattice action. Wilson fermions add a momentum-dependent mass term (the Wilson term) that lifts the doublers to the cutoff scale at the cost of explicit chiral-symmetry breaking; staggered (Kogut-Susskind) fermions spin-diagonalise the action to reduce $16 \to 4$ "tastes" while retaining a remnant $U(1)$ chiral symmetry; pointer to Ginsparg-Wilson / overlap fermions (a lattice-deformed chiral symmetry evading the no-go) as the modern resolution. Originators: Wilson 1974/1977, Kogut-Susskind 1975 (*Phys. Rev. D* 11, 395), Nielsen-Ninomiya 1981, Ginsparg-Wilson 1982.
+
 ### stat-mech.grassmann-integration-ising-free-fermions
 
 - **title**: Grassmann integration and the 2D Ising model as free fermions
@@ -12392,3 +12432,25 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - intermediate: TBD
   - beginner: TBD
 - **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### stat-mech.matrix-model-topological-expansion
+
+- **title**: Matrix models and the topological expansion
+- **prerequisites**: `stat-mech.large-n-limit`
+- **tier_anchors**:
+  - master: "'t Hooft 1974 (Nucl. Phys. B 72:461); Brezin-Itzykson-Parisi-Zuber 1978 (Commun. Math. Phys. 59:35); Itzykson-Drouffe Vol. 2"
+  - intermediate: "Double-line / ribbon graphs and the genus grading of U(N) matrix integrals"
+  - beginner: "Counting how many ways a ribbon glues into a surface"
+- **notes**: 't Hooft's 1/N topological expansion. Feynman diagrams of a U(N) matrix model organised by the genus g of the surface a ribbon graph tiles, with index-loop power counting N^(2-2g) and planar (g=0) dominance at large N. Link to random triangulated surfaces / 2D quantum gravity; the Gaussian and one-matrix models solved by orthogonal polynomials (pointer). Survey / pointer unit forward to a future dedicated statistical-field-theory entry. Prereq stat-mech.large-n-limit (08.14.03).
+
+
+### stat-mech.pfaffian-dimer-model
+
+- **title**: The Pfaffian and the dimer model
+- **unit**: `08.14.05`
+- **prerequisites**: `stat-mech.grassmann-integration-ising-free-fermions`
+- **tier_anchors**:
+  - master: "Kasteleyn *Physica* 27, 1209 (1961); Kasteleyn *J. Math. Phys.* 4, 287 (1963); Temperley-Fisher *Phil. Mag.* 6, 1061 (1961); Fisher *J. Math. Phys.* 7, 1776 (1966); Itzykson-Drouffe Vol. 1 Ch. 2"
+  - intermediate: "Kenyon *Lectures on Dimers* §3-4; Itzykson-Drouffe Vol. 1 Ch. 2 §2.4"
+  - beginner: "Kenyon *Lectures on Dimers* §1; Itzykson-Drouffe Vol. 1 Ch. 2 (intuitive picture)"
+- **notes**: The Pfaffian $\mathrm{Pf}(A)$ of a $2m \times 2m$ antisymmetric matrix is the signed sum over perfect matchings of $\{1,\dots,2m\}$, satisfying $\mathrm{Pf}(A)^2 = \det A$. Kasteleyn's theorem: for a planar graph carrying a Kasteleyn orientation (odd number of clockwise edges on every bounded face), the weighted count of perfect matchings (dimer coverings) equals $|\mathrm{Pf}(K)|$ of the signed adjacency (Kasteleyn) matrix. The square-lattice close-packed dimer model is solved in closed form: a periodic Kasteleyn orientation diagonalises $K$ in Fourier modes with squared singular values $4(\sin^2\theta + \sin^2\phi)$, giving the free energy per site $G/\pi$ with $G$ Catalan's constant (Kasteleyn 1961, Temperley-Fisher 1961). The Ising–dimer correspondence (Fisher 1966) maps the planar Ising high-temperature loop expansion to a close-packed dimer covering of a decorated lattice, so $Z_{\mathrm{Ising}} \propto |\mathrm{Pf}(\tilde K)|$; this $\tilde K$ is exactly the antisymmetric operator of the Berezin integral $\int e^{\frac12 \psi^T \tilde K \psi} = \mathrm{Pf}(\tilde K)$ in 08.14.02, so the dimer count and the free-fermion partition function are one Pfaffian. On the torus the count becomes a signed sum of four Pfaffians (spin structures), the lattice ancestor of the four fermion sectors of the critical Ising CFT. Prereq stat-mech.grassmann-integration-ising-free-fermions (08.14.02); laterally references the determinant (01.01.07) and combinatorial counting (00.12.02).

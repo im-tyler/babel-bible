@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T05:36:51.314252+00:00_
+_Generated: 2026-06-02T05:57:35.801275+00:00_
 
 ## Burn-down
 
-- Units shipped: **1307**
-- Units queued (gap units from audits): **8**
+- Units shipped: **1313**
+- Units queued (gap units from audits): **2**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**
 - Books unaudited: **0**
@@ -16,12 +16,6 @@ _Generated: 2026-06-02T05:36:51.314252+00:00_
 |---|---|---|---|---|
 | 1 | `06.11.05` | Capacity and harmonic measure of the ideal boundary | P? | ahlfors-sario-riemann-surfaces |
 | 2 | `06.11.06` | Extremal length and the modulus of curve families | P? | ahlfors-sario-riemann-surfaces |
-| 3 | `06.10.20` | Coherent analytic sheaves and Oka's coherence theorem | P? | gunning-holomorphic-functions-several-variables |
-| 4 | `06.10.21` | Cartan Theorems A and B in $\mathbb{C}^n$ (with proof) | P? | gunning-holomorphic-functions-several-variables |
-| 5 | `06.10.22` | Complex spaces and coherence on them | P? | gunning-holomorphic-functions-several-variables |
-| 6 | `08.14.04` | Lattice fermions and the doubling problem | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 7 | `08.14.05` | The Pfaffian and the dimer model | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 8 | `08.14.06` | Pointer: matrix models and the topological expansion | P? | itzykson-drouffe-statistical-field-theory-vol1 |
 
 ## Audits completed
 

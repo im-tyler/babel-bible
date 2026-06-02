@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lattice Fermions and the Doubling Problem</title>
+  <desc id="desc">A schematic placeholder diagram for Lattice Fermions and the Doubling Problem.</desc>
+  <rect width="720" height="360" fill="#f4f4ec"/>
+  <g fill="none" stroke="#5a3d6f" stroke-width="6">
+    <rect x="100" y="80" width="180" height="180"/>
+    <rect x="270" y="80" width="180" height="180"/>
+    <rect x="440" y="80" width="180" height="180"/>
+  </g>
+  <g fill="none" stroke="#d68a3a" stroke-width="4">
+    <path d="M190 170 Q280 50 360 170"/>
+    <path d="M360 170 Q450 290 530 170"/>
+  </g>
+  <g fill="#5a3d6f">
+    <circle cx="190" cy="170" r="9"/>
+    <circle cx="360" cy="170" r="9"/>
+    <circle cx="530" cy="170" r="9"/>
+  </g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Lattice Fermions and the Doubling Problem</text>
+</svg>
