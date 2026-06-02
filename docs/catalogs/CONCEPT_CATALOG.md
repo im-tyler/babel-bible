@@ -1501,6 +1501,16 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: groups acting linearly on vector spaces
 - **notes**: Homomorphism $\rho : G \to \mathrm{GL}(V)$ equivalently a $kG$-module structure on $V$. Subrepresentations, irreducibility, semisimplicity, intertwiners. Direct sum, tensor product, dual, Hom. Maschke's theorem (complete reducibility in char 0 or coprime to $|G|$). Characters, orthogonality relations. Regular representation. Frobenius reciprocity. Connections to modular and categorical representation theory.
 
+### rep-theory.su2-so3-double-cover-spin
+
+- **title**: Representations of SU(2) and SO(3), the double cover, spin, and projective representations
+- **prerequisites**: `rep-theory.compact-lie-group-representation`, `rep-theory.sl2-irreducible-representations`
+- **tier_anchors**:
+  - master: Sternberg *Group Theory and Physics* §5–§6; Weyl *The Theory of Groups and Quantum Mechanics* (1931) Ch. III–IV; Wigner (1931/1959); Bargmann 1954 (Ann. Math. 59) on ray representations
+  - intermediate: Sternberg §5.2–§5.5; Hall *Quantum Theory for Mathematicians* §16–§17; Bröcker–tom Dieck §II
+  - beginner: the belt trick; one full rotation gives a minus sign, two give the identity
+- **notes**: The irreducible representations $D^{(j)} = \mathrm{Sym}^{2j}(\mathbb{C}^2)$ of $SU(2)$ of dimension $2j+1$; the covering homomorphism $\varphi : SU(2) \to SO(3)$ with kernel $\{\pm I\}$ from the adjoint action on $\mathfrak{su}(2)$. Descent criterion $D^{(j)}(-I) = (-1)^{2j}$: integer spin descends to $SO(3)$, half-integer spin is genuinely projective. Clebsch-Gordan series $D^{(j_1)} \otimes D^{(j_2)} = \bigoplus_{j=|j_1-j_2|}^{j_1+j_2} D^{(j)}$, multiplicity one. Character $\chi_j(a) = \sin((2j+1)a/2)/\sin(a/2)$. Wigner's theorem and projective representations classified by $\pi_1(SO(3)) = \mathbb{Z}/2$ and $H^2(SO(3); U(1))$. Frobenius-Schur indicator $(-1)^{2j}$ (orthogonal vs symplectic type, Kramers degeneracy). Base case of the Weyl character formula and of the $\mathrm{Spin}(n) \to SO(n)$ covers.
+
 ### rep-theory.symmetric-group-representation
 
 - **title**: Symmetric group representation
@@ -3611,6 +3621,16 @@ Before adding a concept to the catalog:
   - beginner: lattice-state and weighted-probability intuition
 - **notes**: A linear operator that advances a lattice model one slice at a time. Central theorem: largest eigenvalue controls thermodynamic free energy. Used in the v0.5 statistical field theory strand for lattice models, criticality, renormalisation, and Euclidean field theory.
 
+### stat-mech.six-vertex-bethe-ansatz
+
+- **title**: The six-vertex (ice-type) model and the Bethe ansatz
+- **prerequisites**: `08.03.02`, `08.01.02`, `08.03.01`
+- **tier_anchors**:
+  - master: Baxter Ch. 8 §8.5–8.10; Lieb 1967; Bethe 1931
+  - intermediate: row-to-row transfer matrix, coordinate Bethe ansatz, Bethe equations
+  - beginner: the ice rule, the six allowed vertices, residual entropy of ice
+- **notes**: Lieb's exact solution of the ice/KDP/F vertex models via the coordinate Bethe ansatz for the transfer-matrix eigenvector. Central results: the Bethe equations with anisotropy $\Delta=(a^2+b^2-c^2)/(2ab)$, the residual entropy of square ice $W=(4/3)^{3/2}$, and the line of critical points for $-1<\Delta<1$. Originator-prose carriers: Bethe 1931, Lieb 1967, Pauling 1935; Baxter Ch. 8 anchor. Root unit of the `08.13` exactly-solved-models chapter alongside `08.13.01` (Yang–Baxter).
+
 ### stat-mech.real-space-rg
 
 - **title**: Renormalisation group (real-space block decimation)
@@ -4171,6 +4191,17 @@ Before adding a concept to the catalog:
   - intermediate: local definitions, canonical theorem, and proof
   - beginner: visual local-data intuition
 - **notes**: Supporting v0.5 Riemann-surface and complex-analysis unit.
+
+### complex-analysis.domains-of-holomorphy
+
+- **title**: Domains of holomorphy and holomorphic convexity
+- **unit**: `06.10.01`
+- **prerequisites**: `complex-analysis.holomorphic-several-variables`, `complex-analysis.hartogs-phenomenon`, `complex-analysis.holomorphic-function`, `complex-analysis.analytic-continuation`
+- **tier_anchors**:
+  - master: Cartan–Thullen 1932 (Math. Ann. 106); Krantz Ch. 2; Hörmander §2.5–2.6; Range Ch. II
+  - intermediate: Krantz §2.1–2.5; Hörmander §2.5–2.6
+  - beginner: Krantz Ch. 2 informal; Range Ch. II intro
+- **notes**: Foundational unit of the several-complex-variables chapter `06.10`. Domain of holomorphy, holomorphically convex hull $\hat K_\Omega$, and the Cartan–Thullen equivalence (domain of holomorphy ⟺ holomorphically convex ⟺ radius equality), with Hartogs phenomenon as motivation.
 
 ### complex-analysis.hartogs-phenomenon
 
@@ -11774,3 +11805,14 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `07.07.04`
 - **notes**: stub — see unit `07.07.04` for full prerequisites, tier anchors, and bibliography.
 
+
+### physics.molecular-vibrations-selection-rules-symmetry
+
+- **title**: Molecular vibrations and spectroscopic selection rules via symmetry
+- **unit**: `12.05.07`
+- **prerequisites**: `mechanics.small-oscillations-normal-modes` (05.00.11), `chemistry.symmetry-group-theory-chemistry` (16.02.01), `representation-theory.character-orthogonality` (07.01.04), `representation-theory.tensor-product` (07.01.06), `physics.fermi-golden-rule` (12.07.02)
+- **tier_anchors**:
+  - master: Sternberg — Group Theory and Physics, Chs. 3–4; Wilson, Decius & Cross — Molecular Vibrations
+  - intermediate: Bishop — Group Theory and Chemistry, Ch. 6–7; Tinkham — Group Theory and Quantum Mechanics, Ch. 4
+  - beginner: Cotton — Chemical Applications of Group Theory, Ch. 6; Crash Course Chemistry — IR spectroscopy
+- **notes**: The 3N Cartesian displacement representation of an N-atom molecule under its point group, the geometric character formula chi(R) = N_unmoved(R)(±1 + 2 cos theta_R), reduction into normal-mode symmetry species via the orthogonality reduction formula, subtraction of translations and rotations, and the totally-symmetric-component selection rule for transition-moment integrals giving IR (transforms as x,y,z) and Raman (transforms as quadratics) activity. Worked H2O (C2v) and CO2 (Dinfh, mutual exclusion) reductions; SALC projection and FG-matrix block-diagonalisation; symmetric-square treatment of overtones. Originator chain: Bethe 1929, Wigner 1931, Wilson-Decius-Cross 1955, Sternberg 1994.
