@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T00:49:17.716482+00:00_
+_Generated: 2026-06-02T00:59:30.014646+00:00_
 
 ## Burn-down
 
-- Units shipped: **1248**
-- Units queued (gap units from audits): **33**
+- Units shipped: **1252**
+- Units queued (gap units from audits): **29**
 - Of which deepenings: **0**
 - Audits completed: **79 / 93**
 - Books unaudited: **0**
@@ -14,26 +14,26 @@ _Generated: 2026-06-02T00:49:17.716482+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `08.13.03` | The eight-vertex model (Baxter 1971) | P? | baxter-exactly-solved-models |
-| 2 | `08.13.04` | The corner transfer matrix | P? | baxter-exactly-solved-models |
-| 3 | `08.13.05` | The hard-hexagon model (Baxter 1980) | P? | baxter-exactly-solved-models |
-| 4 | `08.13.07` | The spherical model (Berlin-Kac) | P? | baxter-exactly-solved-models |
-| 5 | `08.13.08` | The Ising model on the Bethe lattice | P? | baxter-exactly-solved-models |
-| 6 | `06.10.03` | Pseudoconvexity and the Levi form | P? | krantz-several-complex-variables |
-| 7 | `06.10.05` | Solution of the Levi problem | P? | krantz-several-complex-variables |
-| 8 | `06.10.06` | Bochner-Martinelli kernel and formula | P? | krantz-several-complex-variables |
-| 9 | `06.10.07` | Cauchy-Fantappiè and Henkin-Ramirez kernels | P? | krantz-several-complex-variables |
-| 10 | `06.10.08` | Bergman kernel and Bergman metric | P? | krantz-several-complex-variables |
-| 11 | `06.10.09` | Szegő kernel and Fefferman boundary asymptotics | P? | krantz-several-complex-variables |
-| 12 | `06.10.11` | Cousin I/II and the Levi problem in $\mathbb{C}^n$ | P? | krantz-several-complex-variables |
-| 13 | `06.10.12` | Invariant metrics: Carathéodory, Kobayashi, Bergman | P? | krantz-several-complex-variables |
-| 14 | `06.10.14` | Weierstrass preparation and division | P? | krantz-several-complex-variables |
-| 15 | `06.10.16` | Wong-Rosay theorem and boundary rigidity | P? | krantz-several-complex-variables |
-| 16 | `03.02.20` | Handles, surgery, and the cobordism category | P? | milnor-h-cobordism |
-| 17 | `03.02.21` | Rearrangement and self-indexing Morse functions | P? | milnor-h-cobordism |
-| 18 | `03.02.22` | The Whitney trick and handle cancellation | P? | milnor-h-cobordism |
-| 19 | `03.02.23` | The h-cobordism theorem | P? | milnor-h-cobordism |
-| 20 | `03.02.24` | The generalised Poincaré conjecture in high dimensions | P? | milnor-h-cobordism |
+| 1 | `08.13.04` | The corner transfer matrix | P? | baxter-exactly-solved-models |
+| 2 | `08.13.05` | The hard-hexagon model (Baxter 1980) | P? | baxter-exactly-solved-models |
+| 3 | `08.13.07` | The spherical model (Berlin-Kac) | P? | baxter-exactly-solved-models |
+| 4 | `08.13.08` | The Ising model on the Bethe lattice | P? | baxter-exactly-solved-models |
+| 5 | `06.10.06` | Bochner-Martinelli kernel and formula | P? | krantz-several-complex-variables |
+| 6 | `06.10.07` | Cauchy-Fantappiè and Henkin-Ramirez kernels | P? | krantz-several-complex-variables |
+| 7 | `06.10.08` | Bergman kernel and Bergman metric | P? | krantz-several-complex-variables |
+| 8 | `06.10.09` | Szegő kernel and Fefferman boundary asymptotics | P? | krantz-several-complex-variables |
+| 9 | `06.10.11` | Cousin I/II and the Levi problem in $\mathbb{C}^n$ | P? | krantz-several-complex-variables |
+| 10 | `06.10.12` | Invariant metrics: Carathéodory, Kobayashi, Bergman | P? | krantz-several-complex-variables |
+| 11 | `06.10.14` | Weierstrass preparation and division | P? | krantz-several-complex-variables |
+| 12 | `06.10.16` | Wong-Rosay theorem and boundary rigidity | P? | krantz-several-complex-variables |
+| 13 | `03.02.20` | Handles, surgery, and the cobordism category | P? | milnor-h-cobordism |
+| 14 | `03.02.21` | Rearrangement and self-indexing Morse functions | P? | milnor-h-cobordism |
+| 15 | `03.02.22` | The Whitney trick and handle cancellation | P? | milnor-h-cobordism |
+| 16 | `03.02.23` | The h-cobordism theorem | P? | milnor-h-cobordism |
+| 17 | `03.02.24` | The generalised Poincaré conjecture in high dimensions | P? | milnor-h-cobordism |
+| 18 | `03.02.27` | Levi-Civita connection, exponential map, gradient flow | P? | milnor-h-cobordism |
+| 19 | `03.02.28` | Pointer: surgery theory and the surgery exact sequence | P? | milnor-h-cobordism |
+| 20 | `03.15.03` | Compactness: broken trajectories | P? | schwarz-morse-homology |
 
 ## Audits completed
 

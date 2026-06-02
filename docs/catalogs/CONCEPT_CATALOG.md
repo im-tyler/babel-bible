@@ -1511,6 +1511,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: the belt trick; one full rotation gives a minus sign, two give the identity
 - **notes**: The irreducible representations $D^{(j)} = \mathrm{Sym}^{2j}(\mathbb{C}^2)$ of $SU(2)$ of dimension $2j+1$; the covering homomorphism $\varphi : SU(2) \to SO(3)$ with kernel $\{\pm I\}$ from the adjoint action on $\mathfrak{su}(2)$. Descent criterion $D^{(j)}(-I) = (-1)^{2j}$: integer spin descends to $SO(3)$, half-integer spin is genuinely projective. Clebsch-Gordan series $D^{(j_1)} \otimes D^{(j_2)} = \bigoplus_{j=|j_1-j_2|}^{j_1+j_2} D^{(j)}$, multiplicity one. Character $\chi_j(a) = \sin((2j+1)a/2)/\sin(a/2)$. Wigner's theorem and projective representations classified by $\pi_1(SO(3)) = \mathbb{Z}/2$ and $H^2(SO(3); U(1))$. Frobenius-Schur indicator $(-1)^{2j}$ (orthogonal vs symplectic type, Kramers degeneracy). Base case of the Weyl character formula and of the $\mathrm{Spin}(n) \to SO(n)$ covers.
 
+### rep-theory.mackey-imprimitivity-induced-representations
+
+- **title**: Mackey theory of induced representations and systems of imprimitivity
+- **unit**: `07.07.07`
+- **prerequisites**: `rep-theory.induced-representation` (07.01.07), `rep-theory.frobenius-reciprocity` (07.01.08), `rep-theory.lie-algebra-representation` (07.06.01), `rep-theory.haar-measure` (07.07.03), `rep-theory.wigner-poincare-classification` (07.07.06), `quantum-mechanics.free-particle-e3-representation` (09.03.03)
+- **tier_anchors**:
+  - master: Mackey *Imprimitivity for representations of locally compact groups I* (Proc. Natl. Acad. Sci. 35, 1949); Mackey *Induced representations of locally compact groups I* (Ann. Math. 55, 1952); Mackey *Induced Representations of Groups and Quantum Mechanics* (1968); Folland *Abstract Harmonic Analysis* Ch. 6
+  - intermediate: Sternberg *Group Theory and Physics* Ch. 9; Hall *Quantum Theory for Mathematicians* Ch. 17 §17.2–17.4
+  - beginner: build representations of a big group from a subgroup by spreading a representation over the coset space and letting the group permute the copies
+- **notes**: The general machine specialised by the Wigner classification (`07.07.06`) and the $E(3)$ free particle (`09.03.03`). Induced representation $\mathrm{Ind}_H^G(\sigma)$ on $L^2$ covariant sections over $G/H$ with quasi-invariant measure and Radon–Nikodym cocycle $\lambda(g,\dot x)$. System of imprimitivity: a unitary representation $U$ plus a projection-valued measure $P$ on $G/H$ with covariance $U(g)P(E)U(g)^{-1}=P(gE)$. The imprimitivity theorem: $U$ carries a system of imprimitivity based on $G/H$ iff $U\cong\mathrm{Ind}_H^G(\sigma)$, with $\sigma$ unique. The Mackey machine for regular semidirect products $G=A\rtimes H$ ($A$ abelian): irreducibles $\leftrightarrow$ pairs (orbit $\mathcal{O}\subseteq\widehat A$, irrep $\sigma$ of the little group $H_\chi$), via diagonalising $A$ (SNAG) into a system of imprimitivity. Mackey subgroup theorem and irreducibility/intertwining criterion over double cosets; transitivity of induction; projective (cocycle) refinement recovering Stone–von Neumann and the metaplectic representation. Originator chain: Frobenius 1898 (finite induction), Mackey 1949/1952/1953/1968; regularity / type-I analysed by Glimm and Effros.
+
 ### rep-theory.wigner-poincare-classification
 
 - **title**: Wigner's classification of the unitary irreducible representations of the Poincaré group
@@ -3662,6 +3673,16 @@ Before adding a concept to the catalog:
   - beginner: the ice rule, the six allowed vertices, residual entropy of ice
 - **notes**: Lieb's exact solution of the ice/KDP/F vertex models via the coordinate Bethe ansatz for the transfer-matrix eigenvector. Central results: the Bethe equations with anisotropy $\Delta=(a^2+b^2-c^2)/(2ab)$, the residual entropy of square ice $W=(4/3)^{3/2}$, and the line of critical points for $-1<\Delta<1$. Originator-prose carriers: Bethe 1931, Lieb 1967, Pauling 1935; Baxter Ch. 8 anchor. Root unit of the `08.13` exactly-solved-models chapter alongside `08.13.01` (Yang–Baxter).
 
+### stat-mech.eight-vertex-model
+
+- **title**: The eight-vertex model (Baxter 1971)
+- **prerequisites**: `08.13.01`, `08.13.02`, `08.03.02`, `08.03.01`
+- **tier_anchors**:
+  - master: Baxter Ch. 10 §10.1–10.7; Baxter 1971 PRL 26:832; Baxter 1972 Ann. Phys. 70:193
+  - intermediate: even-arrow rule, four weight classes $a,b,c,d$, the $TQ$ relation
+  - beginner: the eight allowed vertices, the broken arrow-conservation, the new weight $d$
+- **notes**: Baxter's exact solution of the eight-vertex model — the apex of the exactly-solved-models chapter and the origin of the commuting-transfer-matrix / star–triangle programme. The model relaxes the ice rule to the even rule (an even number of in-arrows), admitting two extra vertices of weight $d$; arrow number is no longer conserved, so the Bethe ansatz of `08.13.02` fails and Baxter instead diagonalises the transfer matrix via a commuting family and the matrix functional equation $T(u)Q(u)=\phi(u-\eta)Q(u+2\eta)+\phi(u+\eta)Q(u-2\eta)$ ($TQ$ relation), with an elliptic-theta parametrisation of the weights. Central results: free energy by the inversion relation; continuously varying (non-universal) critical exponents controlled by the crossing parameter, the integrable counterexample to universality; the free-fermion and Ising decoupling points. Originator-prose carrier: Baxter 1971, 1972. Apex unit of the `08.13` chapter atop `08.13.01` and `08.13.02`; laterally references the theta functions of `06.06.05`.
+
 ### stat-mech.real-space-rg
 
 - **title**: Renormalisation group (real-space block decimation)
@@ -4244,6 +4265,28 @@ Before adding a concept to the catalog:
   - intermediate: Krantz §2.6; Hörmander §2.6
   - beginner: Krantz Ch. 2 informal; Range Ch. III intro
 - **notes**: Several-complex-variables analogue of subharmonicity. Plurisubharmonic (PSH) function as upper semicontinuous, subharmonic on every complex line; the complex Hessian / Levi form $\geq 0$ characterisation for $C^2$ functions; sub-mean-value and maximum principles; $\log|f|$ and $|z|^2$ as examples; $-\log d(z,\partial\Omega)$ and PSH exhaustion functions feeding pseudoconvexity. Bridge from `06.10.01` (holomorphic convexity) toward `06.10.03` (pseudoconvexity) and the Levi problem.
+
+### complex-analysis.pseudoconvexity-levi-form
+
+- **title**: Pseudoconvexity and the Levi form
+- **unit**: `06.10.03`
+- **prerequisites**: `complex-analysis.plurisubharmonic-functions`, `complex-analysis.domains-of-holomorphy`, `complex-analysis.holomorphic-several-variables`, `complex-analysis.dirichlet-problem-perron`, `complex-analysis.holomorphic-function`
+- **tier_anchors**:
+  - master: Levi 1910 / Oka 1942 (originators); Krantz Ch. 2 §2.6; Hörmander §2.6; Range Ch. III
+  - intermediate: Krantz §2.6; Hörmander §2.6
+  - beginner: Krantz Ch. 2 informal; Range Ch. III intro
+- **notes**: Several-complex-variables geometric convexity. Three equivalent notions: Hartogs pseudoconvexity ($-\log d(z,\partial\Omega)$ plurisubharmonic), existence of a continuous PSH exhaustion, and (for $C^2$ boundary) Levi pseudoconvexity — the Levi form $\sum_{j,k} \partial^2\rho/\partial z_j\partial\bar z_k\, w_j\bar w_k \ge 0$ on the complex tangent space of a defining function $\rho$. The easy half of the Levi problem: every domain of holomorphy is pseudoconvex. Builds on `06.10.02` (PSH) and `06.10.01` (holomorphic convexity); feeds the $\bar\partial$ $L^2$-theory and the full Levi problem.
+
+### complex-analysis.levi-problem
+
+- **title**: Solution of the Levi problem
+- **unit**: `06.10.05`
+- **prerequisites**: `complex-analysis.domains-of-holomorphy`, `complex-analysis.plurisubharmonic-functions`, `complex-analysis.holomorphic-several-variables`, `complex-analysis.analytic-continuation`
+- **tier_anchors**:
+  - master: Oka 1953 / Bremermann 1954 / Norguet 1954 (originators); Krantz Ch. 4; Hörmander §4.2; Range Ch. IV
+  - intermediate: Krantz §4.2; Hörmander §4.2; Range Ch. IV
+  - beginner: Krantz Ch. 4 informal; Range Ch. IV intro
+- **notes**: The structural centrepiece of several-complex-variables theory: every pseudoconvex domain in $\mathbb{C}^n$ is a domain of holomorphy, closing the equivalence chain domain of holomorphy ⟺ holomorphically convex ⟺ pseudoconvex (Cartan–Thullen + Oka–Bremermann–Norguet). The Hörmander $L^2$ proof — local Levi-polynomial peak $1/h$, cut-off, $\bar\partial$-correction against a singular plurisubharmonic weight, globalise — mechanises the original Oka coherence argument. Builds on `06.10.01` (holomorphic convexity), `06.10.02` (PSH weights), `06.10.03` (pseudoconvexity / Levi form), and the $\bar\partial$ $L^2$-theory of `06.10.04`; generalises to Grauert's Stein-manifold theorem.
 
 ### complex-analysis.hartogs-phenomenon
 
