@@ -1,0 +1,46 @@
+.lede {
+  max-width: var(--prose-max);
+  font-size: var(--fs-400);
+  color: var(--text-dim);
+  margin-bottom: var(--space-8);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.card {
+  padding: var(--space-5);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.body {
+  margin: var(--space-4) 0 var(--space-3);
+  color: var(--text);
+  font-size: var(--fs-200);
+}
+
+.example {
+  margin: 0;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border);
+  color: var(--text-faint);
+  font-size: var(--fs-200);
+  font-style: italic;
+}
+
+.rule {
+  max-width: var(--prose-max);
+  padding: var(--space-6);
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+}
+.rule h2 { margin-top: 0; }
+.rule p { margin-bottom: 0; color: var(--text-dim); }
+.rule strong { color: var(--text); }

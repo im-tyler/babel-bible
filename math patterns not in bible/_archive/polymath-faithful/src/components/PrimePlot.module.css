@@ -1,0 +1,23 @@
+.figure {
+  margin: var(--space-6) 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+}
+.svg { display: block; width: 100%; height: auto; }
+.grid { stroke: var(--border); stroke-width: 1; }
+.axis { stroke: var(--border-strong); stroke-width: 1.5; }
+.pi { fill: none; stroke: var(--accent); stroke-width: 2; }
+.liLine { fill: none; stroke: var(--accent-warm); stroke-width: 2; stroke-dasharray: 5 4; }
+.axisLabel { fill: var(--text-faint); font-family: var(--font-mono); font-size: 11px; }
+.legend {
+  display: flex;
+  gap: var(--space-5);
+  margin-top: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--fs-200);
+  color: var(--text-dim);
+}
+.key { display: inline-flex; align-items: center; gap: var(--space-2); }
+.dash { width: 18px; height: 0; border-top: 2px solid; }

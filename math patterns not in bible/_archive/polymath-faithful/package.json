@@ -1,0 +1,36 @@
+{
+  "name": "site",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "neutron-ts dev",
+    "build": "neutron-ts build",
+    "build:vercel": "neutron-ts build --preset vercel",
+    "start": "neutron-ts start",
+    "preview": "neutron-ts preview",
+    "release:check": "neutron-ts release-check --preset vercel",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@neutron-build/cli": "link:../../Neutron/typescript/packages/neutron-cli",
+    "@neutron-build/core": "link:../../Neutron/typescript/packages/neutron",
+    "decimal.js": "^10.6.0",
+    "katex": "^0.17.0",
+    "leaflet": "^1.9.4",
+    "preact": "^10.25.4",
+    "preact-render-to-string": "^6.7.0",
+    "three": "^0.184.0",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.4",
+    "@types/katex": "^0.16.8",
+    "@types/leaflet": "^1.9.21",
+    "@types/three": "^0.184.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^4.1.8"
+  }
+}
