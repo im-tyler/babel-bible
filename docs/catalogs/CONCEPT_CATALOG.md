@@ -4679,6 +4679,17 @@ Before adding a concept to the catalog:
   - beginner: symmetry-as-linear-action intuition
 - **notes**: Supporting v0.5 Lie-algebraic and compact-Lie representation unit.
 
+### rep-theory.free-lie-algebra
+
+- **title**: Free Lie algebra, Hall basis, and Magnus's theorem
+- **unit**: `07.06.13`
+- **prerequisites**: `07.06.02`, `03.04.01`, `03.12.49`
+- **tier_anchors**:
+  - master: Magnus 1937; Witt 1937; Serre Lie Algebras and Lie Groups Part I Ch IV; Reutenauer 1993 Free Lie Algebras
+  - intermediate: universal property, Friedrichs/Dynkin-Specht-Wever criterion, Witt dimension formula
+  - beginner: the most unconstrained Lie algebra built from a set of letters
+- **notes**: Supporting Serre Part I free-Lie-algebra gap; feeds BCH (07.06.15).
+
 ### rep-theory.dynkin-diagram
 
 - **title**: Dynkin diagram
@@ -5945,6 +5956,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Folland, G. B., *Quantum Field Theory: A Tourist Guide for Mathematicians* (AMS Math. Surveys 149, 2008), Ch. 4 (Fock spaces, bosonic and fermionic); Hall, B. C., *Quantum Theory for Mathematicians* (Springer GTM 267, 2013), Ch. 19 (systems of identical particles, antisymmetric tensor products, Slater determinants); Chatterjee, S., *Introduction to Quantum Field Theory for Mathematicians*, Stanford lecture notes (2022), Lecture 2 (Fock spaces); Berezin, F. A., *The Method of Second Quantization* (Academic Press, 1966), Part II (fermionic case)
   - beginner: Sakurai & Napolitano, *Modern Quantum Mechanics*, 2nd ed. (Pearson/Cambridge, 2011), Ch. 7 (identical particles and second quantisation); Griffiths, *Introduction to Quantum Mechanics*, 2nd ed. (Pearson, 2005), Ch. 5 §5.2 (identical particles, bosons and fermions, Pauli exclusion); Susskind & Friedman, *Quantum Mechanics: The Theoretical Minimum* (Basic Books, 2014), Lecture 7 (entanglement) and Lecture 10 (particle statistics in passing)
 - **notes**: (to be filled during production)
+
+
+### quantum-mechanics.cluster-decomposition-connected-s-matrix
+
+- **title**: Cluster decomposition and the connected S-matrix
+- **unit**: `12.13.03`
+- **prerequisites**: `quantum-mechanics.bosonic-fock-space-second-quantisation` (12.13.01), `quantum-mechanics.crossing-symmetry-cpt-theorem` (12.06.04 — S-matrix, in/out states, Lorentz invariance), `stat-mech.phi-4-dyson-series` (08.10.03 — Dyson series / linked-cluster framing)
+- **tier_anchors**:
+  - master: Weinberg, S., *The Quantum Theory of Fields, Vol. 1: Foundations* (Cambridge, 1995), Ch. 4 (cluster decomposition principle, the connected S-matrix, the theorem that one delta function forces creation/annihilation operators); Wichmann, E. H. & Crichton, J. H., *Phys. Rev.* 132, 2788 (1963) (the cluster-decomposition / connected-amplitude analysis Weinberg's argument rests on)
+  - intermediate: Weinberg, S., *The Quantum Theory of Fields, Vol. 1* (Cambridge, 1995), §4.3–4.4 (connectedness structure, the single-delta condition, polynomial Hamiltonians in a and a-dagger); Brown, L. S., *Quantum Field Theory* (Cambridge, 1992), Ch. 6 (linked-cluster and connected generating functionals)
+  - beginner: Weinberg, S., *The Quantum Theory of Fields, Vol. 1* (Cambridge, 1995), §4.1 (informal statement: distant experiments give uncorrelated results); Zee, A., *Quantum Field Theory in a Nutshell*, 2nd ed. (Princeton, 2010), §I.4 (locality and why fields)
+- **notes**: The cluster decomposition principle — distant experiments give uncorrelated results — formalised as factorisation of the S-matrix, $S_{\alpha\beta} \to S_{\alpha_1\beta_1} S_{\alpha_2\beta_2}$, when two groups of particles are separated by a large spatial distance. The connected S-matrix $S^c_{\alpha\beta}$ is defined recursively by subtracting all partitions into clusters, $S = \sum_{\text{partitions}} \prod S^c$; cluster decomposition is equivalent to the connected parts falling off with separation. Weinberg's central theorem (QTF v1 Ch. 4): cluster decomposition holds if and only if each connected S-matrix element carries a *single* momentum-conservation delta $\delta^3(\sum \mathbf{p})$ (no extra disconnected deltas); this in turn forces the interaction Hamiltonian to be a normal-ordered polynomial in creation and annihilation operators $H = \sum \int d^3q\, a^\dagger \cdots a \cdots$ with a smooth coefficient carrying exactly that one delta — the derivation of "why fields?", i.e. local fields built from $a, a^\dagger$ are the unique route to a Lorentz-invariant, cluster-decomposable S-matrix [12.13.01]. Justifies the interaction density $\mathcal{H}(x)$ as a local function of fields with $[\mathcal{H}(x), \mathcal{H}(y)] = 0$ at spacelike separation, and connects to the linked-cluster theorem (connected vacuum diagrams exponentiate the disconnected ones). Companion to the Wightman cluster axiom of `12.05.04` (which states cluster decomposition as one reconstruction axiom, not the S-matrix derivation) and the stat-mech linked-cluster cumulant framing of `08.10.03`. Lean status: `none`; Mathlib has no S-matrix, no connected-amplitude combinatorics, and no Fock-space interaction-Hamiltonian apparatus.
 
 
 ### quantum-mechanics.particle-in-a-box
@@ -12451,6 +12474,12 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `07.06.14`
 - **notes**: stub — see unit `07.06.14` for full prerequisites, tier anchors, and bibliography.
 
+### rep-theory.campbell-baker-hausdorff-formula
+
+- **title**: The Campbell–Baker–Hausdorff formula
+- **unit**: `07.06.15`
+- **notes**: stub — see unit `07.06.15` for full prerequisites, tier anchors, and bibliography.
+
 ### rep-theory.cartan-criterion
 
 - **title**: Cartan's criterion for solvability and semisimplicity
@@ -12493,11 +12522,23 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `07.06.22`
 - **notes**: stub — see unit `07.06.22` for full prerequisites, tier anchors, and bibliography.
 
+### rep-theory.lie-algebra-cohomology-whitehead
+
+- **title**: Lie algebra cohomology and Whitehead's lemmas
+- **unit**: `07.06.23`
+- **notes**: stub — see unit `07.06.23` for full prerequisites, tier anchors, and bibliography. The Chevalley-Eilenberg cochain complex $C^n=\mathrm{Hom}(\Lambda^n\mathfrak g,M)$ and cohomology $H^\bullet(\mathfrak g,M)$, with the low-degree dictionary ($H^0$ invariants, $H^1$ outer derivations, $H^2$ abelian/central extensions), Whitehead's first and second lemmas (vanishing of $H^1,H^2$ for a finite-dimensional module over a semisimple $\mathfrak g$ in characteristic zero, via the Casimir contraction), the cohomological re-proof of Weyl complete reducibility [07.06.22] and Levi's theorem, the de Rham comparison $H^\bullet(\mathfrak g,\mathbb R)\cong H^\bullet_{\mathrm{dR}}(G)$ for compact $G$, and the derived-functor identification $H^n=\mathrm{Ext}^n_{U(\mathfrak g)}(k,M)$. Fills a genuine gap: the CE machinery existed only as a special-case corollary inside the Lie-algebroid unit [03.04.22], and Whitehead's lemmas only as a footnote in [07.06.22]. Forward to the Hochschild-Serre spectral sequence [07.06.24].
+
 ### rep-theory.weyl-integration-formula
 
 - **title**: Weyl integration formula
 - **unit**: `07.07.04`
 - **notes**: stub — see unit `07.07.04` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.hochschild-serre-spectral-sequence
+
+- **title**: The Hochschild-Serre spectral sequence for a Lie-algebra ideal
+- **unit**: `07.06.24`
+- **notes**: stub — see unit `07.06.24` for full prerequisites, tier anchors, and bibliography.
 
 
 ### physics.molecular-vibrations-selection-rules-symmetry
@@ -13131,3 +13172,15 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **title**: The Cartan model for the minimal model of a homogeneous space
 - **unit**: `03.12.50`
 - **notes**: stub — see unit `03.12.50` for full prerequisites, tier anchors, and bibliography. The CARTAN / KOSZUL-COMPLEX construction of the Sullivan minimal model [03.12.06] of a homogeneous space $G/H$ for $H\subseteq G$ a closed connected subgroup of a compact connected Lie group. INPUT: the map of classifying spaces $BH\to BG$ [03.08.04] and the induced restriction $i^*:H^*(BG;\mathbb Q)\to H^*(BH;\mathbb Q)$ on Borel cohomology (polynomial algebras on the transgressions of the primitives of $G$, $H$; cf. the Borel-Hirzebruch presentation $H^*(G/T;\mathbb Q)=\mathbb Q[t]/(\mathrm{sym}^+)$ of [03.06.20]). MODEL: the relative Koszul complex $\big(H^*(BH)\otimes\Lambda(\bar y_1,\dots,\bar y_r),\,d\bar y_i=i^*(y_i)\big)$ with $\deg\bar y_i=\deg y_i-1$ is a (in general non-minimal) commutative model of $G/H$; $\Lambda(\bar y_i)$ is the exterior algebra on the primitives of $H^*(G;\mathbb Q)$ and $d$ sends each odd primitive of degree $2k-1$ to the image in $H^*(BH)$ of the corresponding universal class — the LERAY-SERRE TRANSGRESSION [03.13.02] of the bundle $G\to G/H\to BH$. FORMALITY of homogeneous spaces (Cartan 1950; Sullivan-Vigué-Poirrier 1976): $G/H$ is FORMAL, its rational homotopy type read off from the regular sequence $i^*(y_1),\dots,i^*(y_r)$ in $H^*(BH)$. POINCARÉ POLYNOMIAL from the Koszul homology. DICHOTOMY: EQUAL RANK ($\mathrm{rk}\,H=\mathrm{rk}\,G$, e.g. $G/T$, flag manifolds) — $i^*$ injective, $H^*(G/H;\mathbb Q)=H^*(BH)/(i^*H^+(BG))$ concentrated in even degrees, Euler characteristic $|W_G|/|W_H|>0$; vs NON-EQUAL RANK — surviving odd generators, $\chi=0$. WORKED EXAMPLES: $\mathbb{C}P^n=U(n{+}1)/(U(n)\times U(1))$, the even spheres $S^{2n}=SO(2n{+}1)/SO(2n)$ (model $\Lambda(x_{2n},y_{4n-1})$, $dy=x^2$), and the flag manifold $U(n)/T^n$ via the Borel presentation. Prereqs [03.12.06] (Sullivan minimal models — the ambient theory), [03.08.04] (classifying space — supplies $BH\to BG$), [03.06.20] (Borel-Hirzebruch cohomology of $G/T$ — the equal-rank prototype), [03.13.02] (Leray-Serre / transgression — supplies the differential). Lateral [07.04.07] (Riemannian symmetric spaces — the geometrically distinguished $G/H$). Originators: Cartan 1950 (*Colloque de topologie, Bruxelles*), Sullivan 1977, Greub-Halperin-Vanstone *Connections, Curvature, and Cohomology* vol. III, Griffiths-Morgan Ch. X §10.2. Genuine gap: [03.06.20] gives only the Borel cohomology RING of $G/T$, never the Sullivan/Cartan minimal MODEL of $G/H$ as a Koszul complex, never the differential $d\bar y_i=i^*(y_i)$, never the formality-of-homogeneous-spaces theorem; [03.12.06] stops at the exterior-algebra model of $G$ itself. Not in Mathlib (no $A_{PL}$ / Sullivan models, no Borel equivariant cohomology of $BG$, no Koszul-complex model of a homogeneous space).
+
+
+### quantum-mechanics.power-counting-superficial-divergence-renormalizability
+
+- **title**: Power counting, the superficial degree of divergence, and renormalizability classification
+- **unit**: `12.16.06`
+- **prerequisites**: `quantum-mechanics.electron-self-energy-mass-renormalization-one-loop`
+- **tier_anchors**:
+  - master: Weinberg, *The Quantum Theory of Fields, Vol. I: Foundations* (Cambridge, 1995), Ch. 12 (Dyson power-counting, the $D$-formula, BPHZ and the Bogoliubov-Parasiuk theorem); Collins, *Renormalization* (Cambridge, 1984), Ch. 5 (the forest formula and the R-operation)
+  - intermediate: Peskin & Schroeder, *An Introduction to Quantum Field Theory* (Westview, 1995), Ch. 10 (systematics of renormalization, superficial degree of divergence); Srednicki, *Quantum Field Theory* (Cambridge, 2007), Chs. 12, 18
+  - beginner: Zee, *Quantum Field Theory in a Nutshell*, 2e (Princeton, 2010), Ch. III.1-III.2; Lancaster & Blundell, *Quantum Field Theory for the Gifted Amateur* (Oxford, 2014), Ch. 32
+- **notes**: The superficial degree of divergence $D$ of a Feynman diagram is the net power of loop momentum in the ultraviolet: $D = 4L - 2I_B - I_F$ in four spacetime dimensions, with $L = I - V + 1$ loops, $I_B$ internal boson and $I_F$ internal fermion lines, each fermion propagator scaling as $1/k$ and each boson propagator as $1/k^2$, against $4L$ from the loop measure. Topological identities (Euler relation $L = I - V + 1$ and leg-counting per field species) rewrite this purely in terms of external legs and vertex content: $D = 4 - \sum_f E_f (s_f + 1) - \sum_i V_i \Delta_i$, where $\Delta_i = [\mathcal{L}_i] - 4 = -[g_i]$ is the operator-dimension deficit of interaction $i$, equal to minus the mass dimension of its coupling. With $[\phi] = 1$, $[\psi] = 3/2$, $[A_\mu] = 1$ fixed by canonical kinetic terms, the classification follows from the sign of $[g]$: super-renormalizable ($[g] > 0$, $\Delta < 0$, only finitely many divergent diagrams); renormalizable ($[g] = 0$, $\Delta = 0$, $D$ independent of $V$ so finitely many divergent amplitude types but at all orders -- $\phi^4_4$, QED, Yang-Mills); non-renormalizable ($[g] < 0$, $\Delta > 0$, $D$ grows with $V$ so infinitely many divergent amplitude types -- Fermi four-fermion theory $[G_F] = -2$, Einstein gravity $[\kappa] = -1$, the chiral Lagrangian). Dyson 1949 (Phys. Rev. 75, 1736) introduced power-counting and proved finiteness of renormalized QED order by order; Weinberg 1960 (Phys. Rev. 118, 838) proved the asymptotic-convergence theorem -- a diagram converges if $D < 0$ for the whole graph and for every subgraph, identifying subdivergences as the true obstruction. BPHZ (Bogoliubov-Parasiuk 1957, Acta Math. 97, 227; Hepp 1966, Commun. Math. Phys. 2, 301; Zimmermann 1969, Commun. Math. Phys. 15, 208) made this an algorithm: Zimmermann's forest formula $R = \sum_{\text{forests } F} \prod_{\gamma \in F}(-t^{\gamma})$ subtracts nested and overlapping subdivergences via a sum over forests, rendering every renormalized amplitude finite to all orders using only finitely many local counterterms of the same form as the original Lagrangian. The Wilsonian reinterpretation (Wilson 1971; `08.08.03`): $\Delta_i$ is the scaling dimension that sorts operators into relevant ($\Delta < 0$), marginal ($\Delta = 0$), irrelevant ($\Delta > 0$); non-renormalizable couplings are irrelevant operators, harmless as effective-field-theory corrections suppressed by powers of $E/\Lambda$. The one-loop instances live in `12.16.01` (electron self-energy, $D = 1$ reduced to log by chirality) and `08.10.06` ($\phi^4$ bubble, $D = 0$); this unit states the general theorem they instantiate. Originators: Dyson 1949; Weinberg 1960; Bogoliubov-Parasiuk 1957, Hepp 1966, Zimmermann 1969; Salam 1951 (overlapping divergences); 't Hooft 1971 (renormalizability of Yang-Mills); Wilson 1971 (relevant/marginal/irrelevant reinterpretation).
