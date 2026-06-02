@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T03:21:04.161088+00:00_
+_Generated: 2026-06-02T05:36:51.314252+00:00_
 
 ## Burn-down
 
-- Units shipped: **1299**
-- Units queued (gap units from audits): **10**
+- Units shipped: **1307**
+- Units queued (gap units from audits): **8**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**
 - Books unaudited: **0**
@@ -19,11 +19,9 @@ _Generated: 2026-06-02T03:21:04.161088+00:00_
 | 3 | `06.10.20` | Coherent analytic sheaves and Oka's coherence theorem | P? | gunning-holomorphic-functions-several-variables |
 | 4 | `06.10.21` | Cartan Theorems A and B in $\mathbb{C}^n$ (with proof) | P? | gunning-holomorphic-functions-several-variables |
 | 5 | `06.10.22` | Complex spaces and coherence on them | P? | gunning-holomorphic-functions-several-variables |
-| 6 | `08.14.03` | The large-N limit | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 7 | `08.14.04` | Lattice fermions and the doubling problem | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 8 | `08.14.05` | The Pfaffian and the dimer model | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 9 | `08.14.06` | Pointer: matrix models and the topological expansion | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 10 | `08.15.03` | Topological defects in ordered media | P? | kardar-statistical-mechanics-ii |
+| 6 | `08.14.04` | Lattice fermions and the doubling problem | P? | itzykson-drouffe-statistical-field-theory-vol1 |
+| 7 | `08.14.05` | The Pfaffian and the dimer model | P? | itzykson-drouffe-statistical-field-theory-vol1 |
+| 8 | `08.14.06` | Pointer: matrix models and the topological expansion | P? | itzykson-drouffe-statistical-field-theory-vol1 |
 
 ## Audits completed
 

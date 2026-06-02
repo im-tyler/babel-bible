@@ -12312,3 +12312,83 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - intermediate: Peskin, M. E. & Schroeder, D. V., *An Introduction to Quantum Field Theory* (Addison-Wesley, 1995), §15 (Wilson lines and loops); Smit, J., *Introduction to Quantum Fields on a Lattice* (Cambridge, 2002), Chs. 4-6
   - beginner: Wilczek, F., *The Lightness of Being* (Basic Books, 2008), Chs. 3-5 (confinement and the QCD vacuum)
 - **notes**: Wilson's lattice gauge theory (Wilson 1974, *Phys. Rev. D* 10, 2445) places a compact gauge group $G$ on the links of a hypercubic lattice $a\mathbb{Z}^4$ as parallel transports $U_\ell \in G$, with the gauge-invariant plaquette $U_\square = U_{x,\mu}U_{x+\hat\mu,\nu}U_{x+\hat\nu,\mu}^{-1}U_{x,\nu}^{-1}$ and the Wilson action $S = \beta\sum_\square(1 - \tfrac1N\operatorname{Re}\operatorname{tr}U_\square)$, $\beta = 2N/g^2$, reducing to $\tfrac1{2g^2}\int\operatorname{tr}F^2$ as $a\to0$. The gauge-invariant path integral uses the compact Haar measure $\prod_\ell dU_\ell$ and needs no gauge fixing or Faddeev-Popov ghosts, unlike the continuum (companion to `03.07.31`). The order parameter is the Wilson loop $W(C) = \langle\operatorname{tr}\prod_{\ell\in C}U_\ell\rangle$; confinement is the area law $W(C)\sim e^{-\sigma RT}$ giving a linear static potential $V(R) = \sigma R$, versus the perimeter law of a non-confining phase. Elitzur's theorem (1975, *Phys. Rev. D* 12, 3978) forces a nonlocal gauge-invariant order parameter since local gauge symmetry cannot break. The strong-coupling proof uses the Peter-Weyl character expansion with fundamental coefficient $c_F = \beta/2N^2 + O(\beta^3)$; link integration via Schur orthogonality forces a minimal tiling surface, giving $W(C) = (\beta/2N^2)^{A(C)}(1+O(\beta))$ and $\sigma = -\log(\beta/2N^2) + O(\beta) > 0$. Osterwalder-Seiler (1978, *Ann. Phys.* 110, 440) prove reflection positivity, the transfer matrix, a positive Hamiltonian, and cluster-expansion convergence; Kogut-Susskind (1975, *Phys. Rev. D* 11, 395) give the Hamiltonian electric-flux-string picture. Creutz (1980, *Phys. Rev. D* 21, 2308) shows $\mathrm{SU}(2)$/$\mathrm{SU}(3)$ have no bulk transition, so strong-coupling confinement connects analytically to the asymptotically free continuum (`12.18.03`), with $a\sqrt\sigma\propto\exp(-1/2b_0g^2)$; compact $\mathrm{U}(1)$ instead has a Coulomb phase (Banks-Myerson-Kogut 1977), matching non-confining QED. Large-$N$ factorisation makes Wilson loops a classical master field. The continuum limit with a mass gap is a Clay Millennium Problem. Lean status: `none`; Mathlib lacks the lattice link-variable measure, the plaquette action, the character expansion, and the reflection-positivity transfer matrix.
+
+### complex-analysis.local-analytic-nullstellensatz
+
+- **title**: Local analytic Nullstellensatz and the ideal–germ correspondence
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### complex-analysis.analytic-sets-local-parametrisation
+
+- **title**: Analytic sets: local parametrisation, dimension, and irreducible components
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### complex-analysis.local-ring-analytic-set-remmert-stein
+
+- **title**: The local ring of an analytic set; regular points, singular locus, Remmert–Stein
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### stat-mech.brownian-wiener-feynman-kac
+
+- **title**: Brownian motion, the Wiener measure, and the path integral
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### stat-mech.large-n-limit
+
+- **title**: The large-N limit
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### stat-mech.nonlinear-sigma-model-on-rg
+
+- **title**: The nonlinear σ-model and the O(n) renormalization group
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### stat-mech.topological-defects-ordered-media
+
+- **title**: Topological defects in ordered media
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### stat-mech.grassmann-integration-ising-free-fermions
+
+- **title**: Grassmann integration and the 2D Ising model as free fermions
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
