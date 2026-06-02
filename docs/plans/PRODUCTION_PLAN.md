@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T03:11:30.005898+00:00_
+_Generated: 2026-06-02T03:21:04.161088+00:00_
 
 ## Burn-down
 
-- Units shipped: **1296**
-- Units queued (gap units from audits): **12**
+- Units shipped: **1299**
+- Units queued (gap units from audits): **10**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**
 - Books unaudited: **0**
@@ -24,8 +24,6 @@ _Generated: 2026-06-02T03:11:30.005898+00:00_
 | 8 | `08.14.05` | The Pfaffian and the dimer model | P? | itzykson-drouffe-statistical-field-theory-vol1 |
 | 9 | `08.14.06` | Pointer: matrix models and the topological expansion | P? | itzykson-drouffe-statistical-field-theory-vol1 |
 | 10 | `08.15.03` | Topological defects in ordered media | P? | kardar-statistical-mechanics-ii |
-| 11 | `12.18.13` | Vortices (Nielsen-Olesen / Abrikosov flux tubes) | P3 | weinberg-quantum-theory-of-fields-vol2 |
-| 12 | `12.18.16` | Lattice gauge theory and confinement (QFT pointer) | P4 | weinberg-quantum-theory-of-fields-vol2 |
 
 ## Audits completed
 
