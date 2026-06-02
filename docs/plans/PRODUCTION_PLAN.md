@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T03:00:56.821575+00:00_
+_Generated: 2026-06-02T03:11:30.005898+00:00_
 
 ## Burn-down
 
-- Units shipped: **1292**
-- Units queued (gap units from audits): **16**
+- Units shipped: **1296**
+- Units queued (gap units from audits): **12**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**
 - Books unaudited: **0**
@@ -23,13 +23,9 @@ _Generated: 2026-06-02T03:00:56.821575+00:00_
 | 7 | `08.14.04` | Lattice fermions and the doubling problem | P? | itzykson-drouffe-statistical-field-theory-vol1 |
 | 8 | `08.14.05` | The Pfaffian and the dimer model | P? | itzykson-drouffe-statistical-field-theory-vol1 |
 | 9 | `08.14.06` | Pointer: matrix models and the topological expansion | P? | itzykson-drouffe-statistical-field-theory-vol1 |
-| 10 | `08.15.01` | The Kosterlitz-Thouless transition (2D XY model) | P? | kardar-statistical-mechanics-ii |
-| 11 | `08.15.03` | Topological defects in ordered media | P? | kardar-statistical-mechanics-ii |
-| 12 | `12.18.02` | The Goldstone theorem and effective Goldstone Lagrangians | P1 | weinberg-quantum-theory-of-fields-vol2 |
-| 13 | `12.18.04` | Theta-vacua, the vacuum angle, and the strong-CP problem | P1 | weinberg-quantum-theory-of-fields-vol2 |
-| 14 | `12.18.06` | Operator product expansion and short-distance behaviour | P1 | weinberg-quantum-theory-of-fields-vol2 |
-| 15 | `12.18.13` | Vortices (Nielsen-Olesen / Abrikosov flux tubes) | P3 | weinberg-quantum-theory-of-fields-vol2 |
-| 16 | `12.18.16` | Lattice gauge theory and confinement (QFT pointer) | P4 | weinberg-quantum-theory-of-fields-vol2 |
+| 10 | `08.15.03` | Topological defects in ordered media | P? | kardar-statistical-mechanics-ii |
+| 11 | `12.18.13` | Vortices (Nielsen-Olesen / Abrikosov flux tubes) | P3 | weinberg-quantum-theory-of-fields-vol2 |
+| 12 | `12.18.16` | Lattice gauge theory and confinement (QFT pointer) | P4 | weinberg-quantum-theory-of-fields-vol2 |
 
 ## Audits completed
 
