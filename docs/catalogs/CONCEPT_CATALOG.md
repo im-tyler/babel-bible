@@ -4330,6 +4330,17 @@ Before adding a concept to the catalog:
   - beginner: Krantz Ch. 4 informal; Range Ch. IV intro
 - **notes**: The structural centrepiece of several-complex-variables theory: every pseudoconvex domain in $\mathbb{C}^n$ is a domain of holomorphy, closing the equivalence chain domain of holomorphy ⟺ holomorphically convex ⟺ pseudoconvex (Cartan–Thullen + Oka–Bremermann–Norguet). The Hörmander $L^2$ proof — local Levi-polynomial peak $1/h$, cut-off, $\bar\partial$-correction against a singular plurisubharmonic weight, globalise — mechanises the original Oka coherence argument. Builds on `06.10.01` (holomorphic convexity), `06.10.02` (PSH weights), `06.10.03` (pseudoconvexity / Levi form), and the $\bar\partial$ $L^2$-theory of `06.10.04`; generalises to Grauert's Stein-manifold theorem.
 
+### complex-analysis.cousin-problems-cn
+
+- **title**: Cousin I/II and the Levi problem in $\mathbb{C}^n$
+- **unit**: `06.10.11`
+- **prerequisites**: `complex-analysis.dbar-l2-estimates`, `complex-analysis.levi-problem`, `complex-analysis.cousin-i-additive`
+- **tier_anchors**:
+  - master: Cousin 1895 (Acta Math. 19, originator); Oka 1937/1939 (J. Sci. Hiroshima Univ., higher-dim solution + Oka principle); Krantz Ch. 4; Hörmander Ch. III; Grauert-Remmert *Theory of Stein Spaces*
+  - intermediate: Krantz §4.5; Hörmander Ch. III; Range Ch. VI
+  - beginner: Krantz Ch. 4 informal; Range Ch. VI intro
+- **notes**: The several-variable Cousin problems posed in $\mathbb{C}^n$: Cousin I (additive, prescribed principal parts) is solvable on every domain of holomorphy because $H^1(\Omega,\mathcal{O})=0$ there (Oka 1937; the analytic vanishing is the cohomological face of the solved Levi problem `06.10.05`); Cousin II (multiplicative, prescribed divisors) carries an extra topological obstruction $c_1\in H^2(\Omega,\mathbb{Z})$ via the exponential sequence, so it can fail even on Stein domains (Oka 1939 counterexample; the Oka principle reduces holomorphic solvability to the topological one). Oka-Weil approximation packages the constructive engine. Builds on the $\bar\partial$-$L^2$ existence theorem `06.10.04` and the Levi-problem solution `06.10.05`; cross-references the dimension-one Cousin chapter `06.09.04-05`. The $\mathbb{C}^n$ analogue of the Forster-derived dim-one Cousin theory.
+
 ### complex-analysis.bochner-martinelli-kernel
 
 - **title**: Bochner-Martinelli kernel and formula
@@ -4362,6 +4373,39 @@ Before adding a concept to the catalog:
   - intermediate: Krantz §1.4, Ch. 7; Range Ch. I §3; Krantz GTM 268 Ch. 1-2
   - beginner: Krantz Ch. 1 informal; Range Ch. I intro
 - **notes**: The reproducing kernel $K_\Omega(z,w)$ of the Bergman space $A^2(\Omega) = \mathcal{O}(\Omega)\cap L^2(\Omega)$, obtained from Riesz representation once the interior Cauchy estimate makes point evaluation bounded. Series form $K = \sum_j \phi_j(z)\overline{\phi_j(w)}$; extremal characterisation $K(z,z) = \sup\{|f(z)|^2 : \|f\|\le 1\}$; biholomorphic transformation law $K_{\Omega_1}(z,w) = J_\Phi(z)K_{\Omega_2}(\Phi z,\Phi w)\overline{J_\Phi(w)}$. The Bergman metric $g_{j\bar k} = \partial_j\partial_{\bar k}\log K(z,z)$ is a biholomorphically invariant Kähler metric (positive definite on bounded domains). Worked: ball $K_{\mathbb{B}^n}(z,z) = n!/(\pi^n(1-|z|^2)^{n+1})$ and polydisc product kernel; ball/polydisc non-biholomorphism via curvature. Feeds Fefferman boundary asymptotics and the Szegő kernel `06.10.09`; the Bergman projection $P = I - \bar\partial^* N\bar\partial$ links to the $\bar\partial$-Neumann theory of `06.10.04`. Builds on `06.07.01`, `06.10.03`, `06.10.01`.
+
+### complex-analysis.weierstrass-preparation-division
+
+- **title**: Weierstrass preparation and division
+- **unit**: `06.10.14`
+- **prerequisites**: `complex-analysis.holomorphic-several-variables`, `complex-analysis.hartogs-phenomenon`, `complex-analysis.analytic-continuation`, `complex-analysis.meromorphic-function`
+- **tier_anchors**:
+  - master: Weierstrass 1860s lectures (originator); Krantz Ch. 1 & Ch. 6; Gunning–Rossi Ch. II; Hörmander §6.1; Grauert–Remmert §1.2
+  - intermediate: Krantz §6.1–6.2; Gunning–Rossi Ch. II §B; Hörmander §6.1
+  - beginner: Krantz Ch. 1 informal; Gunning–Rossi Ch. II intro
+- **notes**: Local normal form for holomorphic germs in $\mathcal{O}_n = \mathbb{C}\{z_1,\dots,z_n\}$. Regularity of order $k$ in $z_n$; the preparation theorem ($f = u\cdot W$ with $u$ a unit and $W$ a monic Weierstrass polynomial of degree $k$ over $\mathcal{O}_{n-1}$); the division theorem ($g = qW + r$, $\deg_{z_n} r < k$, both unique) via Cauchy integrals over a residue circle enclosing the $k$ zeros. Corollaries: $\mathcal{O}_n/(W)$ is free of rank $k$ over $\mathcal{O}_{n-1}$; $\mathcal{O}_n$ is Noetherian (Rückert basis theorem) and a unique factorisation domain, both by induction through Gauss's lemma. Henselian structure links irreducible factors of $W$ to the branches of the analytic hypersurface $\{f=0\}$. Composite unit shared with the Gunning–Rossi 3.24 audit; local-algebra input to coherence of $\mathcal{O}_{\mathbb{C}^n}$ (`04.06.02`). Builds on `06.07.01`, `06.07.02`.
+
+### complex-analysis.invariant-metrics-caratheodory-kobayashi
+
+- **title**: Invariant metrics: Carathéodory, Kobayashi, Bergman
+- **unit**: `06.10.12`
+- **prerequisites**: `complex-analysis.bergman-kernel-metric`, `complex-analysis.pseudoconvexity-levi-form`
+- **tier_anchors**:
+  - master: Carathéodory 1926 / Kobayashi 1967 (Bull. AMS 82) (originators); Krantz Ch. 11; Kobayashi *Hyperbolic Complex Spaces*; Jarnicki-Pflug *Invariant Distances and Metrics in Complex Analysis*
+  - intermediate: Krantz Ch. 11; Kobayashi 1970 *Hyperbolic Manifolds and Holomorphic Mappings* Ch. IV; Jarnicki-Pflug Ch. 1-3
+  - beginner: Krantz Ch. 11 informal; Kobayashi survey 1967 intro
+- **notes**: The three biholomorphically invariant pseudodistances/pseudometrics on a domain $\Omega \subseteq \mathbb{C}^n$. The Carathéodory pseudodistance $c_\Omega(p,q) = \sup_f \rho(f(p),f(q))$ over holomorphic $f:\Omega\to\Delta$ (largest invariant distance bounded above by Poincaré pullbacks), the Kobayashi pseudodistance $k_\Omega$ built by chaining analytic discs $\Delta\to\Omega$ (smallest invariant distance dominating disc-distances), and their infinitesimal metrics $\gamma_\Omega, \kappa_\Omega$; the Bergman metric from `06.10.08` is the third invariant. All are distance-decreasing under holomorphic maps — the Schwarz-Pick lemma `06.01.12` in $n$ variables — and on $\Delta$ all collapse to the Poincaré metric. Order $c_\Omega \le k_\Omega$; equality on the ball $\mathbb{B}^n$ and on convex domains (Lempert 1981). Worked: the ball carries the complex hyperbolic Bergman/Poincaré metric. Completeness on bounded domains gives Kobayashi hyperbolicity; pointer to the Aut-group theory of `06.10.13`. Builds on `06.10.08` (Bergman metric) and `06.01.12` (one-variable Schwarz-Pick).
+
+### complex-analysis.szego-kernel-fefferman
+
+- **title**: Szegő kernel and Fefferman boundary asymptotics
+- **unit**: `06.10.09`
+- **prerequisites**: `complex-analysis.bergman-kernel-metric`, `complex-analysis.pseudoconvexity-levi-form`, `complex-analysis.cauchy-fantappie-henkin-ramirez`
+- **tier_anchors**:
+  - master: Szegő 1921 (originator); Fefferman 1974 (Invent. Math. 26); Boutet de Monvel-Sjöstrand 1976 (Astérisque 34-35); Krantz Ch. 7
+  - intermediate: Krantz §1.5, Ch. 7; Range Ch. VI; Krantz GTM 268 Ch. 1
+  - beginner: Krantz Ch. 1, Ch. 7 informal; Stein 1972 §1 intro
+- **notes**: The Szegő kernel $S_\Omega(z,w)$ is the reproducing kernel of the boundary Hardy space $H^2(\Omega) \subset L^2(\partial\Omega, d\sigma)$, the boundary analogue of the interior Bergman kernel `06.10.08`. Disc: $S_\Delta = 1/(2\pi(1-z\bar w))$; ball: $S_{\mathbb{B}^n}(z,z) = (n-1)!/(2\pi^n(1-|z|^2)^n)$, boundary exponent $n$ versus the Bergman exponent $n+1$. Fefferman 1974 boundary asymptotics on a smoothly bounded strongly pseudoconvex domain: $K_\Omega(z,z) = \varphi(-\rho)^{-(n+1)} + \psi\log(-\rho)$ with $\varphi,\psi \in C^\infty(\overline\Omega)$, $\varphi|_{\partial\Omega} = n!\pi^{-n}J[\rho]$ the Levi-Monge-Ampère determinant; the log term obstructs $C^\infty$ boundary regularity for $n \geq 2$ (Fefferman's parabolic invariant / CR $Q$-curvature). The Boutet de Monvel-Sjöstrand parametrix exhibits both kernels as Fourier integral operators with one shared complex phase, the Bergman symbol the Szegő symbol differentiated once normally. Input to the Fefferman mapping theorem `06.10.13` (smooth boundary extension of biholomorphisms). Builds on `06.10.08`, `06.10.03`, `06.10.07`.
 
 ### complex-analysis.hartogs-phenomenon
 

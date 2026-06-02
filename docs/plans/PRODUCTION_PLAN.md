@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T01:22:56.029294+00:00_
+_Generated: 2026-06-02T01:33:43.334825+00:00_
 
 ## Burn-down
 
-- Units shipped: **1260**
-- Units queued (gap units from audits): **22**
+- Units shipped: **1264**
+- Units queued (gap units from audits): **18**
 - Of which deepenings: **0**
 - Audits completed: **79 / 93**
 - Books unaudited: **0**
@@ -16,24 +16,22 @@ _Generated: 2026-06-02T01:22:56.029294+00:00_
 |---|---|---|---|---|
 | 1 | `08.13.07` | The spherical model (Berlin-Kac) | P? | baxter-exactly-solved-models |
 | 2 | `08.13.08` | The Ising model on the Bethe lattice | P? | baxter-exactly-solved-models |
-| 3 | `06.10.09` | Szegő kernel and Fefferman boundary asymptotics | P? | krantz-several-complex-variables |
-| 4 | `06.10.11` | Cousin I/II and the Levi problem in $\mathbb{C}^n$ | P? | krantz-several-complex-variables |
-| 5 | `06.10.12` | Invariant metrics: Carathéodory, Kobayashi, Bergman | P? | krantz-several-complex-variables |
-| 6 | `06.10.14` | Weierstrass preparation and division | P? | krantz-several-complex-variables |
-| 7 | `06.10.16` | Wong-Rosay theorem and boundary rigidity | P? | krantz-several-complex-variables |
-| 8 | `03.02.20` | Handles, surgery, and the cobordism category | P? | milnor-h-cobordism |
-| 9 | `03.02.21` | Rearrangement and self-indexing Morse functions | P? | milnor-h-cobordism |
-| 10 | `03.02.22` | The Whitney trick and handle cancellation | P? | milnor-h-cobordism |
-| 11 | `03.02.23` | The h-cobordism theorem | P? | milnor-h-cobordism |
-| 12 | `03.02.24` | The generalised Poincaré conjecture in high dimensions | P? | milnor-h-cobordism |
-| 13 | `03.02.27` | Levi-Civita connection, exponential map, gradient flow | P? | milnor-h-cobordism |
-| 14 | `03.02.28` | Pointer: surgery theory and the surgery exact sequence | P? | milnor-h-cobordism |
-| 15 | `03.15.03` | Compactness: broken trajectories | P? | schwarz-morse-homology |
-| 16 | `03.15.04` | Gluing of trajectories | P? | schwarz-morse-homology |
-| 17 | `03.15.05` | Coherent orientations and characteristic signs | P? | schwarz-morse-homology |
-| 18 | `03.15.06` | The Morse complex and $\partial^2 = 0$ | P? | schwarz-morse-homology |
-| 19 | `03.15.07` | Continuation maps and invariance of $HM_*$ | P? | schwarz-morse-homology |
-| 20 | `03.15.08` | The Morse Homology Theorem | P? | schwarz-morse-homology |
+| 3 | `06.10.16` | Wong-Rosay theorem and boundary rigidity | P? | krantz-several-complex-variables |
+| 4 | `03.02.20` | Handles, surgery, and the cobordism category | P? | milnor-h-cobordism |
+| 5 | `03.02.21` | Rearrangement and self-indexing Morse functions | P? | milnor-h-cobordism |
+| 6 | `03.02.22` | The Whitney trick and handle cancellation | P? | milnor-h-cobordism |
+| 7 | `03.02.23` | The h-cobordism theorem | P? | milnor-h-cobordism |
+| 8 | `03.02.24` | The generalised Poincaré conjecture in high dimensions | P? | milnor-h-cobordism |
+| 9 | `03.02.27` | Levi-Civita connection, exponential map, gradient flow | P? | milnor-h-cobordism |
+| 10 | `03.02.28` | Pointer: surgery theory and the surgery exact sequence | P? | milnor-h-cobordism |
+| 11 | `03.15.03` | Compactness: broken trajectories | P? | schwarz-morse-homology |
+| 12 | `03.15.04` | Gluing of trajectories | P? | schwarz-morse-homology |
+| 13 | `03.15.05` | Coherent orientations and characteristic signs | P? | schwarz-morse-homology |
+| 14 | `03.15.06` | The Morse complex and $\partial^2 = 0$ | P? | schwarz-morse-homology |
+| 15 | `03.15.07` | Continuation maps and invariance of $HM_*$ | P? | schwarz-morse-homology |
+| 16 | `03.15.08` | The Morse Homology Theorem | P? | schwarz-morse-homology |
+| 17 | `03.15.09` | Morse cohomology, cup product, and the ring structure | P? | schwarz-morse-homology |
+| 18 | `03.15.12` | Witten's supersymmetric Morse theory (survey/pointer) | P? | schwarz-morse-homology |
 
 ## Audits completed
 
