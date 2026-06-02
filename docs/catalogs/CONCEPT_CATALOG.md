@@ -7560,6 +7560,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: The canonical model structure on simplicial sets, established by Quillen in 1967. Three classes: cofibrations = monomorphisms (level-wise injections); fibrations = Kan fibrations (right lifting against horn inclusions $\Lambda^n_k \hookrightarrow \Delta^n$ for $0 \leq k \leq n$, $n \geq 1$); weak equivalences = maps whose geometric realisation is a weak homotopy equivalence (equivalently, isos on simplicial homotopy groups after fibrant replacement). The five model-category axioms M1-M5 are verified using the small-object argument applied to the generating sets $I = \{\partial \Delta^n \hookrightarrow \Delta^n\}_{n \geq 0}$ and $J = \{\Lambda^n_k \hookrightarrow \Delta^n\}_{0 \leq k \leq n, n \geq 1}$. Key structural facts: every simplicial set is cofibrant (the initial object is empty, and the empty map is vacuously injective); a simplicial set is fibrant iff it is a Kan complex; the singular complex $\mathrm{Sing}(X)$ is always a Kan complex; simplicial groups are automatically Kan complexes (Moore 1955). Quillen 1967 Theorem II.3.1 establishes that the realisation-singular adjunction $|{-}| \dashv \mathrm{Sing}$ is a Quillen equivalence between the Kan-Quillen structure and the Serre model structure on $\mathbf{Top}$, so $\mathrm{Ho}(\mathbf{sSet}) \simeq \mathrm{Ho}(\mathbf{Top})$ identifies combinatorial and topological homotopy theory. The Kan-Quillen structure has a sibling Joyal model structure on the same underlying category $\mathbf{sSet}$ using only inner-horn fillers, modelling $(\infty, 1)$-categories rather than $\infty$-groupoids; Cisinski 2006 identifies Kan-Quillen as the universal $\infty$-groupoid presentation among Cisinski model structures on $\mathbf{sSet}$. The foundational example of the Quillen abstract framework [03.12.31], and the canonical worked example for the Quillen-equivalence calculus of [03.12.32].
 
 
+### topology.simplicial-homotopy-groups-kan-fibration-les
+
+- **title**: Combinatorial simplicial homotopy groups and the Kan-fibration long exact sequence
+- **unit**: `03.12.42`
+- **prerequisites**: `topology.simplicial-set` (03.12.25), `topology.kan-quillen-model-structure` (03.12.33), `topology.relative-homotopy-group` (03.12.52)
+- **tier_anchors**:
+  - master: May 1967 *Simplicial Objects in Algebraic Topology* §3-§7 and §16 (originator); Goerss-Jardine 2009 *Simplicial Homotopy Theory* §I.7-§I.11; Kan 1958 *On homotopy theory and c.s.s. groups* (Ann. of Math. 68, 38-53); Curtis 1971 *Simplicial homotopy theory* (Adv. Math. 6) §1-§3
+  - intermediate: May 1967 §3-§7; Goerss-Jardine 2009 §I.7-§I.11; Kan 1958
+  - beginner: May 1967 §3-§4 informal opening on the extension condition; Friedman 2008 arXiv:0809.4221 §5 for the horn-filling pictures
+- **notes**: Constructs the combinatorial homotopy groups $\pi_n(K, *)$ of a Kan complex $K$ [03.12.33] directly from the simplicial homotopy relation $\sim$ on the based $n$-simplices $Z_n(K, *) = \{x \in K_n : d_i x = s_0^{n-1} * \text{ for all } i\}$. The relation is an equivalence relation precisely because $K$ is Kan (symmetry and transitivity are horn-fillings). The group operation $[x] \cdot [y] = [d_n w]$ reads off the omitted face of a Kan filler $w$ of the horn $\Lambda^{n+1}_n$ built from representatives; the group axioms (unit, inverse, associativity) are each horn-fillings, and the group is abelian for $n \geq 2$ by an Eckmann-Hilton interchange of the two available composition directions. The comparison theorem (May 16.1) gives $\pi_n^{\mathrm{simp}}(K, v) \cong \pi_n(|K|, |v|)$ for all $n$, via simplicial approximation and the fact that realisation carries Kan fibrations to Serre fibrations (Milnor 1957). Defines Kan fibrations and proves the long exact sequence $\cdots \to \pi_n F \to \pi_n E \to \pi_n B \xrightarrow{\partial} \pi_{n-1} F \to \cdots$ of a Kan fibration $F \to E \to B$, with the connecting map $\partial$ a horn-lift recovering a fibre face; exactness at all three term types is the Kan extension condition applied to $p$. The combinatorial analogue of the topological pair/fibration LES of [03.12.52] and the Puppe sequence [03.12.28]. Closes the black box that [03.12.33] (weak equivalences = isos on simplicial $\pi_n$) and [03.12.25] (the groups quoted as established) silently rely on. Originator: Kan 1958; systematic treatment May 1967 §3-§7. Lean status: `none`; the based-simplex sets, the $\sim$-relation with its Kan-condition proofs, the horn-filling group law, the connecting map, exactness, and the comparison isomorphism to Mathlib's topological `HomotopyGroup` are all unbuilt formalisation targets.
+
+
 ### topology.bousfield-kan-spectral-sequence
 
 - **title**: Bousfield-Kan spectral sequence
@@ -7593,6 +7605,17 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: Bousfield-Kan 1972 §VI; May-Ponto 2012 Ch. 11-12; Hatcher 2002 §4.K
   - beginner: May-Ponto 2012 Ch. 10 informal opening; Hess 2007 *Rational homotopy theory: a brief introduction* (arXiv:math/0604626) §3
 - **notes**: The Sullivan arithmetic square at a nilpotent finite-type space $X$ is the commutative square with $X$ at the top-left, the product of $p$-completions $\prod_p L_p X$ at the top-right, the rationalisation $L_\mathbb{Q} X$ at the bottom-left, and the rational gluing corner $L_\mathbb{Q}(\prod_p L_p X)$ at the bottom-right. The integral fracture theorem (Sullivan 1970; Bousfield-Kan 1972 §VI) states that the canonical comparison map from $X$ to the homotopy pullback of the other three corners is a weak equivalence in $\mathrm{Ho}(\mathbf{sSet}_*)$, under the nilpotence + finite-type + $\lim^1$-vanishing hypotheses. The proof proceeds via the Milnor short exact sequence for the homotopy pullback, the Mittag-Leffler vanishing of $\lim^1$ at finite type, and the local-global short exact sequence $0 \to \mathbb{Z} \to \mathbb{Q} \oplus \hat{\mathbb{Z}} \to \mathbb{A}_f \to 0$ tensored with the relevant homotopy group. Worked sphere example: $\pi_3(S^2) = \mathbb{Z}$ recovered as the pullback $\mathbb{Q} \times_{\mathbb{A}_f} \hat{\mathbb{Z}}$. Chromatic extension: the Hovey-Strickland 1999 chromatic-fracture squares at each height $n$ recover $L_{E(n)} X$ as the homotopy pullback of $L_{E(n-1)} X$, $L_{K(n)} X$, and $L_{E(n-1)} L_{K(n)} X$; iterated downward, the chromatic tower assembles a finite $p$-local spectrum from its monochromatic strata via the Hopkins-Ravenel 1992 chromatic convergence theorem. The framework is dual to the number-theoretic adelic local-global principle (Sullivan's title invokes "Galois Symmetry" to make the duality explicit) and the Devinatz-Hopkins 1995 *Topology* 34 identification $L_{K(n)} S^0 \simeq E_n^{h \mathbb{G}_n}$ closes the loop. Lean status: `partial`, module `Codex.Modern.Homotopy.ArithmeticSquare` states the fracture theorem and sphere corollary; proofs `sorry` pending Mathlib `BousfieldLocalization` + `HomotopyPullback` + nilpotent-class infrastructure.
+
+### topology.periodicity-thick-subcategory
+
+- **title**: The periodicity and thick subcategory theorems
+- **unit**: `03.12.46`
+- **prerequisites**: `topology.arithmetic-square-fracture` (03.12.45, for the nilpotence theorem stated there); `topology.bousfield-kan-spectral-sequence` (03.12.38, Adams-Novikov)
+- **tier_anchors**:
+  - master: Hopkins-Smith 1998 *Nilpotence and stable homotopy theory II* (Annals of Mathematics 148) — the periodicity theorem (Thm 9) and the thick-subcategory theorem (Thm 7); Devinatz-Hopkins-Smith 1988 *Nilpotence and stable homotopy theory I* (Ann. Math. 128) — the nilpotence theorem input; Ravenel 1992 *Nilpotence and Periodicity in Stable Homotopy Theory* (Annals of Math. Studies 128) Ch. 5-6; Ravenel 1986 *Complex Cobordism and Stable Homotopy Groups of Spheres* (the "Green Book") Ch. 5-6; Balmer 2005 *The spectrum of prime ideals in tensor triangulated categories* (J. reine angew. Math. 588) for the prime-spectrum reformulation
+  - intermediate: Ravenel 1992 Ch. 1-6; Hopkins-Smith 1998 §3-§5; Devinatz-Hopkins-Smith 1988
+  - beginner: Ravenel 1992 Ch. 1-2 informal overview; Hopkins 1987 *Global methods in homotopy theory* (LMS LN 117) survey opening
+- **notes**: For a fixed prime $p$ and the category $\mathcal{F}_p$ of finite $p$-local spectra, the type of $F$ is the least $n$ with $K(n)_* F \neq 0$ (equivalently $F$ is $K(m)$-acyclic for $m < n$). The periodicity theorem (Hopkins-Smith 1998) states that every finite type-$n$ complex admits a $v_n$-self-map $v : \Sigma^d F \to F$ — an isomorphism on $K(n)_*$ and zero on $K(m)_*$ for $m \neq n$ — unique up to iterates, generating the $v_n$-periodic families in $\pi_* F$ (the engine behind the Greek-letter elements and the telescope $T(n) = v^{-1}F$). The thick subcategory theorem states that the thick subcategories of $\mathcal{F}_p$ are exactly the $\mathcal{C}_n = \{\operatorname{type} \geq n\}$, a complete classification totally ordered by chromatic height. Both follow from the nilpotence theorem (Devinatz-Hopkins-Smith 1988, stated at 03.12.45): a self-map of a finite $p$-local spectrum is nilpotent iff every Morava $K(n)$ sees it as zero, so periodicity supplies the disciplined non-nilpotent self-maps and the thick-subcategory key lemma terminates because its connecting maps are nilpotent. Type-$n$ witnesses are the Smith-Toda complexes $V(n)$ (where they exist) and the Mitchell complexes in general; the existence proof runs through an Adams-Novikov / $BP$-homology computation. Balmer's 2005 reformulation: the Balmer spectrum $\operatorname{Spc}(\mathcal{F}_p)$ is the single chain of primes $\mathfrak{p}_n = \ker(K(n)_*)$, making the thick-subcategory theorem the founding example of tensor-triangular geometry (cf. Benson-Carlson-Rickard, Hopkins-Neeman). Lean status: `none` — finite $p$-local spectra as a tensor-triangulated category, Morava $K$-theory functors, $v_n$-self-maps, and the thick-subcategory lattice are all far beyond current Mathlib reach.
 
 
 ### topology.simplicial-model-category
@@ -11651,6 +11674,12 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `03.12.49`
 - **notes**: stub — see unit `03.12.49` for full prerequisites, tier anchors, and bibliography.
 
+### topology.twisted-cartesian-product-fibre-bundle
+
+- **title**: Twisted cartesian products and simplicial fibre bundles
+- **unit**: `03.12.41`
+- **notes**: stub — see unit `03.12.41` for full prerequisites, tier anchors, and bibliography.
+
 ### cohomology.hypercohomology-complex-of-sheaves
 
 - **title**: Hypercohomology of a complex of sheaves
@@ -11753,11 +11782,41 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `03.12.32`
 - **notes**: stub — see unit `03.12.32` for full prerequisites, tier anchors, and bibliography.
 
+### homotopy.acyclic-models-and-eilenberg-zilber
+
+- **title**: Acyclic models and the Eilenberg-Zilber theorem
+- **unit**: `03.12.34`
+- **notes**: stub — see unit `03.12.34` for full prerequisites, tier anchors, and bibliography.
+
 ### spectral-sequences.atiyah-hirzebruch
 
 - **title**: Atiyah-Hirzebruch spectral sequence
 - **unit**: `03.13.04`
 - **notes**: stub — see unit `03.13.04` for full prerequisites, tier anchors, and bibliography.
+
+### spectral-sequences.brown-peterson-bp
+
+- **title**: Brown-Peterson spectrum BP and its Hopf algebroid
+- **unit**: `03.13.05`
+- **notes**: stub — see unit `03.13.05` for full prerequisites, tier anchors, and bibliography.
+
+### spectral-sequences.chromatic-spectral-sequence
+
+- **title**: The chromatic spectral sequence
+- **unit**: `03.13.06`
+- **notes**: stub — see unit `03.13.06` for full prerequisites, tier anchors, and bibliography.
+
+### spectral-sequences.greek-letter-elements
+
+- **title**: Greek-letter elements in the stable homotopy of spheres
+- **unit**: `03.13.07`
+- **notes**: stub — see unit `03.13.07` for full prerequisites, tier anchors, and bibliography. The Greek-letter construction of Miller-Ravenel-Wilson (Ann. Math. 1977; Ravenel green book Ch. 5) producing infinite families in the Adams-Novikov $E_2$-page $\mathrm{Ext}_{BP_*BP}(BP_*, BP_*)$ and, for permanent cycles, in $\pi_*S^0$, organised by chromatic height. From the chromatic resolution $BP_* \to M^0 \to M^1 \to \cdots$ [03.13.06], connecting homomorphisms $\delta: \mathrm{Ext}^{s}(M^n) \to \mathrm{Ext}^{s+1}(M^{n-1})$ carry $v_n$-towers in $M^n$ up the chromatic filtration to $\mathrm{Ext}^n(BP_*)$. Height 1 ($v_1$-periodic): the $\alpha$-FAMILY $\alpha_{s/j} \in \mathrm{Ext}^1$, the $\delta$-image of $v_1^{s}/(p, v_1)$-classes, equal to the image of $J$ [03.08.11] — at $p=2$ divisibility governed by Bernoulli numbers (the order of $\mathrm{im}\,J$ in dimension $4k-1$ is the denominator of $B_{2k}/4k$, von Staudt-Clausen) and $K$-theory. Height 2 ($v_2$-periodic): the $\beta$-FAMILY $\beta_{s} \in \mathrm{Ext}^2$, with $\beta_1 = \beta_{1,1}$ first appearing in dimension $2(p^2-1)-2$, a permanent cycle detecting a non-zero element of $\pi_*S^0$ (Smith-Toda $V(1)$; for $p \geq 5$ the whole $\beta$-family survives by Smith). Height 3: the $\gamma$-FAMILY $\gamma_s \in \mathrm{Ext}^3$ ($v_3$-periodic; Miller-Ravenel-Wilson, Ravenel-Wilson). General $\alpha^{(n)}$ at height $n$ from $v_n$-towers in $M^n$. Survival: $\alpha$-family $\leftrightarrow$ image of $J$ (all permanent cycles, Adams 1966); $\beta_1$ detected; Hopf-invariant-one classes $\eta,\nu,\sigma$ and the Kervaire-invariant elements $\theta_j \in \pi_{2^{j+1}-2}$ are $\beta$-family-adjacent ($\theta_j$ killed for $j \geq 7$ by Hill-Hopkins-Ravenel). Ties to the Hopkins-Smith periodicity theorem [03.12.41-area]: $v_n$-self-maps realise the periodicity the Greek-letter towers encode algebraically. Originator chain: Adams 1966 (image of $J$), Miller-Ravenel-Wilson 1977, Smith / Toda ($V(1)$, beta family), Ravenel green book Ch. 5. Genuine gap (gap #3 of the Ravenel deepening file): zero corpus hits for "greek-letter", "alpha family", "beta family"; the height-1 shadow (image of $J$) exists at [03.08.11] but the Greek-letter bookkeeping itself is absent. Not in Mathlib (no $BP$, no $BP_*BP$ Hopf algebroid, no chromatic resolution, no $\mathrm{Ext}$ over comodules, no connecting-homomorphism families, no Adams-Novikov $E_2$).
+
+### spectral-sequences.telescope-conjecture
+
+- **title**: The telescope conjecture and its disproof
+- **unit**: `03.13.08`
+- **notes**: stub — see unit `03.13.08` for full prerequisites, tier anchors, and bibliography.
 
 ### alg-geom.clifford-theorem
 
