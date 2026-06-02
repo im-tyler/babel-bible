@@ -1511,6 +1511,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: the belt trick; one full rotation gives a minus sign, two give the identity
 - **notes**: The irreducible representations $D^{(j)} = \mathrm{Sym}^{2j}(\mathbb{C}^2)$ of $SU(2)$ of dimension $2j+1$; the covering homomorphism $\varphi : SU(2) \to SO(3)$ with kernel $\{\pm I\}$ from the adjoint action on $\mathfrak{su}(2)$. Descent criterion $D^{(j)}(-I) = (-1)^{2j}$: integer spin descends to $SO(3)$, half-integer spin is genuinely projective. Clebsch-Gordan series $D^{(j_1)} \otimes D^{(j_2)} = \bigoplus_{j=|j_1-j_2|}^{j_1+j_2} D^{(j)}$, multiplicity one. Character $\chi_j(a) = \sin((2j+1)a/2)/\sin(a/2)$. Wigner's theorem and projective representations classified by $\pi_1(SO(3)) = \mathbb{Z}/2$ and $H^2(SO(3); U(1))$. Frobenius-Schur indicator $(-1)^{2j}$ (orthogonal vs symplectic type, Kramers degeneracy). Base case of the Weyl character formula and of the $\mathrm{Spin}(n) \to SO(n)$ covers.
 
+### rep-theory.lorentz-group-sl2c-jj-representations
+
+- **title**: Representations of the Lorentz group, $\mathrm{SL}(2,\mathbb{C})$, the $(j_1,j_2)$ reps, and Wigner's theorem
+- **unit**: `07.07.09`
+- **prerequisites**: `rep-theory.su2-so3-double-cover-spin` (07.07.05), `rep-theory.sl2-irreducible-representations` (07.06.11), `special-relativity.lorentz-transformations` (10.05.01)
+- **tier_anchors**:
+  - master: Sternberg *Group Theory and Physics* (1994) Chs. 8–9; Weinberg *QFT Vol. I* §2.7; Wigner 1939 (Ann. Math. 40); Naimark *Linear Representations of the Lorentz Group* (1964)
+  - intermediate: Sternberg Chs. 8–9; Woit *Quantum Theory, Groups and Representations* Ch. 40; Hall *Quantum Theory for Mathematicians* §17
+  - beginner: the Lorentz group has two copies of the rotation story glued together, one for left-handed and one for right-handed quantities
+- **notes**: The four connected components of $\mathrm{O}(3,1)$ and the proper orthochronous subgroup $\mathrm{SO}^+(3,1)$; the universal cover $\mathrm{SL}(2,\mathbb{C}) \to \mathrm{SO}^+(3,1)$, two-to-one with kernel $\{\pm I\}$, via the action on Hermitian $2\times2$ matrices $X = x^\mu \sigma_\mu$ preserving $\det X = (x^0)^2 - |\vec x|^2$. Complexification $\mathfrak{sl}(2,\mathbb{C})_{\mathbb{C}} \cong \mathfrak{sl}(2,\mathbb{C}) \oplus \mathfrak{sl}(2,\mathbb{C})$ via $\vec J_\pm = \tfrac12(\vec J \pm i \vec K)$; the finite-dimensional irreducibles $(j_1,j_2) = D^{(j_1)} \boxtimes \overline{D^{(j_2)}}$, $j_1,j_2 \in \tfrac12\mathbb{Z}_{\ge0}$, dimension $(2j_1+1)(2j_2+1)$. Non-unitary because $\mathrm{SL}(2,\mathbb{C})$ is non-compact and the only finite-dim unitary rep of a non-compact simple group is the identity action. Left/right Weyl spinors $(\tfrac12,0)$, $(0,\tfrac12)$; Dirac spinor $(\tfrac12,0)\oplus(0,\tfrac12)$; four-vector $(\tfrac12,\tfrac12)$; antisymmetric tensor $F_{\mu\nu} \to (1,0)\oplus(0,1)$ (self-dual / anti-self-dual). Wigner's theorem: a quantum symmetry is unitary or antiunitary up to phase, forcing physical Lorentz reps to be projective-unitary, hence true unitary reps of the cover, hence infinite-dimensional (Wigner 1939) on the Hilbert space of states, while the finite-dim $(j_1,j_2)$ act on field components. Originator chain: Cartan 1913 (spinors), Weyl 1929 (two-component), van der Waerden 1929 (dotted/undotted index calculus), Wigner 1939, Bargmann 1947 ($\mathrm{SL}(2,\mathbb{R})$), Naimark 1954/1964.
+
 ### rep-theory.mackey-imprimitivity-induced-representations
 
 - **title**: Mackey theory of induced representations and systems of imprimitivity
@@ -3693,6 +3704,16 @@ Before adding a concept to the catalog:
   - beginner: the partition function as a product of four corner transfer matrices; why corners reach the order parameter
 - **notes**: Baxter's signature method for computing order parameters. The square-lattice partition function factorises as $Z=\operatorname{tr}(ABCD)$, the trace of a product of four corner transfer matrices, each summing the Boltzmann weights of one quadrant with the boundary spins held fixed. For solvable (star–triangle) weights the corner transfer matrix has the form $A(u)=\exp(-uH_{\mathrm{CTM}})$ with a spectral-parameter-linear exponent, so its spectrum is an arithmetic progression and the diagonalised product becomes a single geometric series in $x=e^{-\epsilon}$. This delivers the spontaneous magnetisation $M=(1-k^{-2})^{1/8}$ of the Ising model and the eight-vertex / hard-hexagon order parameters that the row transfer matrix cannot easily reach. Originator-prose carrier: Baxter 1976–78. The geometric CTM spectrum is the seed of the matrix-product-state / DMRG / corner-transfer-matrix-RG connection. Builds on `08.03.02` (transfer matrix) and `08.13.01` (star–triangle); supplies the order-parameter tool for `08.13.03` (eight-vertex) and downstream hard-hexagon.
 
+### stat-mech.hard-hexagon-model
+
+- **title**: The hard-hexagon model (Baxter 1980)
+- **prerequisites**: `08.13.04`, `08.13.01`, `08.03.02`
+- **tier_anchors**:
+  - master: Baxter Ch. 14; Baxter 1980 J. Phys. A 13:L61; Andrews–Baxter–Forrester 1984 J. Stat. Phys. 35:193
+  - intermediate: solution by the corner transfer matrix; the order parameter and sub-lattice densities; the critical fugacity
+  - beginner: the hard-hexagon lattice gas; nearest-neighbour exclusion on the triangular lattice
+- **notes**: Baxter's 1980 exact solution of the hard-hexagon lattice gas — particles on the triangular lattice with nearest-neighbour exclusion, controlled by a single fugacity $z$. Solved by the corner transfer matrix of `08.13.04`: the Boltzmann weights satisfy the star–triangle relation of `08.13.01`, so the corner operators have an arithmetic spectrum and the graded corner trace resums to a closed-form infinite product. Central results: critical fugacity $z_c=(11+5\sqrt5)/2$, the $\mathbb{Z}_3$ sub-lattice-ordering transition with density exponent $\beta=1/9$ in the $c=4/5$ three-state-Potts universality class, and the order parameter $R(q)=H(q)/G(q)$ as a ratio of Rogers–Ramanujan products — the identification of lattice-gas ordering with modulus-$5$ partition identities. Generalised by Andrews–Baxter–Forrester 1984 into the RSOS / Andrews–Gordon hierarchy, turning the corner-transfer-matrix method into a generator of Rogers–Ramanujan-type identities. Originator-prose carrier: Baxter 1980. Laterally references the theta functions of `06.06.05`. Second headline corner-transfer-matrix result after the Ising magnetisation.
+
 ### stat-mech.real-space-rg
 
 - **title**: Renormalisation group (real-space block decimation)
@@ -4319,6 +4340,28 @@ Before adding a concept to the catalog:
   - intermediate: Krantz §1.3, §5.1; Range Ch. IV; Hörmander §1.2
   - beginner: Krantz Ch. 1 informal; Range Ch. IV intro
 - **notes**: The first several-variable reproducing kernel — the unique $\bar\partial$-closed-off-diagonal $(n,n-1)$-form whose boundary integral reproduces $C^1$ functions on a domain in $\mathbb{C}^n$. Unlike the Cauchy kernel of one variable it is not holomorphic in $z$ for $n\geq 2$, but the correction term is a $\bar\partial$ solution operator. The Bochner-Martinelli-Koppelman formula adds a solid-integral term involving $\bar\partial u$. Corollaries: Hartogs extension across compact holes (feeds `06.07.02`), the Bochner-Severi removable-singularity / CR-extension theorems. Pure-kernel precursor to the Cauchy-Fantappiè machine of `06.10.07`. Builds on `06.07.01` (multi-index Cauchy calculus), `06.10.02` (PSH for the extension geometry), `06.10.01` (domains of holomorphy).
+
+### complex-analysis.cauchy-fantappie-henkin-ramirez
+
+- **title**: Cauchy-Fantappiè and Henkin-Ramirez kernels
+- **unit**: `06.10.07`
+- **prerequisites**: `complex-analysis.pseudoconvexity-levi-form`, `complex-analysis.dbar-l2-estimates`, `complex-analysis.bochner-martinelli-kernel`
+- **tier_anchors**:
+  - master: Leray 1959 (Cauchy-Fantappiè); Henkin 1969 (Mat. Sb. 78) / Ramirez 1967 (Math. Ann. 184) (originators of the strongly-pseudoconvex kernel); Krantz Ch. 5-6; Range Ch. IV-VII; Henkin-Leiterer
+  - intermediate: Krantz §5.1-5.3; Range Ch. IV §3, Ch. V; Hörmander §2.2
+  - beginner: Krantz Ch. 5 informal; Range Ch. IV-V intro
+- **notes**: The general machine producing reproducing kernels from a *generating section* (Leray section) $w(\zeta,z)$ with non-vanishing pairing $\langle w, \zeta - z\rangle \neq 0$ on $\partial\Omega \times \Omega$; the kernel $\Omega_w = c_n\,\omega'(w)\wedge\omega(\zeta)/\langle w,\zeta-z\rangle^n$ depends only on the projective class $[w]\in\mathbb{P}^{n-1}$. Bochner-Martinelli is the radial choice $w=\overline{\zeta-z}$. On a strongly pseudoconvex $\Omega=\{\rho<0\}$ ($\rho$ strictly plurisubharmonic) the corrected Levi polynomial gives a Henkin support function $\Phi$ holomorphic in $z$ with $2\,\mathrm{Re}\,\Phi \ge \rho(\zeta)-\rho(z)+c|\zeta-z|^2$; the resulting Henkin-Ramirez kernel is holomorphic in $z$ and yields an integral solution operator for $\bar\partial u = f$ with the sharp sup-norm and Hölder-$1/2$ estimates the $L^2$ method of `06.10.04` misses. Worked: the unit-ball kernel $1/(1-\langle z,\bar\zeta\rangle)^n$ explicitly. Builds on `06.10.03` (Levi form / strong pseudoconvexity), `06.10.04` (the dual $L^2$ inverse of $\bar\partial$), `06.10.06` (Bochner-Martinelli as the anchor section); feeds the Bergman/Szegő kernel theory of `06.10.08-09`.
+
+### complex-analysis.bergman-kernel-metric
+
+- **title**: Bergman kernel and Bergman metric
+- **unit**: `06.10.08`
+- **prerequisites**: `complex-analysis.holomorphic-several-variables`, `complex-analysis.pseudoconvexity-levi-form`, `complex-analysis.domains-of-holomorphy`
+- **tier_anchors**:
+  - master: Bergman 1933 / Bergman 1950 (originator); Krantz Ch. 7; Fefferman 1974 (Invent. Math. 26); Hörmander §3.4
+  - intermediate: Krantz §1.4, Ch. 7; Range Ch. I §3; Krantz GTM 268 Ch. 1-2
+  - beginner: Krantz Ch. 1 informal; Range Ch. I intro
+- **notes**: The reproducing kernel $K_\Omega(z,w)$ of the Bergman space $A^2(\Omega) = \mathcal{O}(\Omega)\cap L^2(\Omega)$, obtained from Riesz representation once the interior Cauchy estimate makes point evaluation bounded. Series form $K = \sum_j \phi_j(z)\overline{\phi_j(w)}$; extremal characterisation $K(z,z) = \sup\{|f(z)|^2 : \|f\|\le 1\}$; biholomorphic transformation law $K_{\Omega_1}(z,w) = J_\Phi(z)K_{\Omega_2}(\Phi z,\Phi w)\overline{J_\Phi(w)}$. The Bergman metric $g_{j\bar k} = \partial_j\partial_{\bar k}\log K(z,z)$ is a biholomorphically invariant Kähler metric (positive definite on bounded domains). Worked: ball $K_{\mathbb{B}^n}(z,z) = n!/(\pi^n(1-|z|^2)^{n+1})$ and polydisc product kernel; ball/polydisc non-biholomorphism via curvature. Feeds Fefferman boundary asymptotics and the Szegő kernel `06.10.09`; the Bergman projection $P = I - \bar\partial^* N\bar\partial$ links to the $\bar\partial$-Neumann theory of `06.10.04`. Builds on `06.07.01`, `06.10.03`, `06.10.01`.
 
 ### complex-analysis.hartogs-phenomenon
 
