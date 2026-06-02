@@ -1511,6 +1511,17 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: the belt trick; one full rotation gives a minus sign, two give the identity
 - **notes**: The irreducible representations $D^{(j)} = \mathrm{Sym}^{2j}(\mathbb{C}^2)$ of $SU(2)$ of dimension $2j+1$; the covering homomorphism $\varphi : SU(2) \to SO(3)$ with kernel $\{\pm I\}$ from the adjoint action on $\mathfrak{su}(2)$. Descent criterion $D^{(j)}(-I) = (-1)^{2j}$: integer spin descends to $SO(3)$, half-integer spin is genuinely projective. Clebsch-Gordan series $D^{(j_1)} \otimes D^{(j_2)} = \bigoplus_{j=|j_1-j_2|}^{j_1+j_2} D^{(j)}$, multiplicity one. Character $\chi_j(a) = \sin((2j+1)a/2)/\sin(a/2)$. Wigner's theorem and projective representations classified by $\pi_1(SO(3)) = \mathbb{Z}/2$ and $H^2(SO(3); U(1))$. Frobenius-Schur indicator $(-1)^{2j}$ (orthogonal vs symplectic type, Kramers degeneracy). Base case of the Weyl character formula and of the $\mathrm{Spin}(n) \to SO(n)$ covers.
 
+### rep-theory.wigner-poincare-classification
+
+- **title**: Wigner's classification of the unitary irreducible representations of the Poincaré group
+- **unit**: `07.07.06`
+- **prerequisites**: `rep-theory.induced-representation` (07.01.07), `rep-theory.lie-algebra-representation` (07.06.01), `rep-theory.casimir-element` (07.06.10), `rep-theory.su2-so3-double-cover-spin` (07.07.05), `quantum-mechanics.free-particle-e3-representation` (09.03.03), `special-relativity.lorentz-transformations` (10.05.01)
+- **tier_anchors**:
+  - master: Wigner *On unitary representations of the inhomogeneous Lorentz group* (Ann. Math. 40, 1939); Mackey *Induced Representations of Groups and Quantum Mechanics* (1968); Weinberg *QFT Vol. I* §2.5; Folland *Abstract Harmonic Analysis* Ch. 6
+  - intermediate: Sternberg *Group Theory and Physics* Chs. 9–10; Hall *Quantum Theory for Mathematicians* Ch. 17
+  - beginner: a particle is one irreducible way of representing the symmetries of spacetime, labelled by a mass and a spin
+- **notes**: The apex of Sternberg GTP. The Poincaré group $\mathcal{P} = \mathbb{R}^{1,3} \rtimes \mathrm{SO}^+(1,3)$ and its cover $\widetilde{\mathcal{P}} = \mathbb{R}^{1,3} \rtimes \mathrm{SL}(2,\mathbb{C})$; the two Casimir invariants $P^2$ (mass-squared) and $W^2$ from the Pauli–Lubanski vector $W^\mu = -\tfrac12 \varepsilon^{\mu\nu\rho\sigma} P_\nu M_{\rho\sigma}$ ($W^2 = -m^2 s(s+1)$). The Mackey machine / imprimitivity-theorem construction: diagonalise the abelian translation factor (SNAG), decompose by Lorentz orbits in momentum space, induce from the little group. Orbit/little-group classification: massive $m>0$ → $\mathrm{SU}(2)$, label spin $s$; massless → $\mathrm{ISO}(2)$, label helicity $h$ (with continuous-spin reps set aside); tachyonic $m^2<0$ → $\mathrm{SU}(1,1)$; vacuum $p=0$ → full $\mathrm{SL}(2,\mathbb{C})$. Wigner rotation cocycle $W(\Lambda,p) = q(p)^{-1}\Lambda q(\Lambda^{-1}p)$; Lorentz-invariant mass-shell measure $d^3\mathbf{p}/(2p^0)$. Bargmann–Wigner covariant field realisations (Klein–Gordon, Dirac, Proca). Originator chain: Wigner 1939, Bargmann–Wigner 1948, Mackey 1949–58. The relativistic upgrade of the $E(3)$ Mackey scaffold in `09.03.03`.
+
 ### rep-theory.symmetric-group-representation
 
 - **title**: Symmetric group representation
@@ -3529,6 +3540,16 @@ Before adding a concept to the catalog:
   - beginner: Woodhouse Ch. 5 informal; Bates-Weinstein Ch. 7 informal
 - **notes**: A polarisation on $(M, \omega)$ is a smooth integrable Lagrangian distribution $\mathcal{P} \subset T_\mathbb{C} M$. Polarised sections of the prequantum line bundle $L$ are sections $s$ satisfying $\nabla_X s = 0$ for all $X \in \mathcal{P}$; real polarisations ($\mathcal{P} = \bar{\mathcal{P}}$) recover the Schrödinger representation $L^2(\mathbb{R}^n)$ from $T^*\mathbb{R}^n$ with the vertical polarisation $\langle \partial/\partial p_i\rangle$, while Kähler polarisations ($\mathcal{P} \cap \bar{\mathcal{P}} = 0$) recover the Bargmann-Fock space of holomorphic sections on $\mathbb{C}^n$. The naive inner product $\int_M h(s_1, s_2)$ diverges on polarised sections because they are constant along the leaves; the fix is to tensor by the half-density bundle $|\Lambda|^{1/2}(M/\mathcal{P})$ on the leaf space, producing the quantum Hilbert space $\mathcal{H}_\mathcal{P} = \Gamma_\mathcal{P}(L \otimes |\Lambda|^{1/2}(M/\mathcal{P}))$. The half-density bundle carries a Maslov-class obstruction (cf. `05.12.01`); the metaplectic correction replaces it by the metaplectic structure $\mathrm{Mp}(2n)$, the double cover of $\mathrm{Sp}(2n, \mathbb{R})$, which lifts $\sqrt{\det}$ globally. The Blattner-Kostant-Sternberg (BKS) pairing intertwines Hilbert spaces from different polarisations, recovering the Stone-von Neumann unitary equivalence in finite dimension (cf. `12.14.01`). The metaplectic correction shifts the spin quantisation on $S^2$ by $1/2$, making half-integer spin natural; for the harmonic oscillator it produces the ground-state energy $\frac{1}{2}\hbar\omega$.
 
+### symplectic-geometry.quantization-relativistic-particle
+
+- **title**: Quantization of the relativistic particle
+- **prerequisites**: `05.11.01`, `05.11.03`, `05.02.05`, `05.04.01`
+- **tier_anchors**:
+  - master: Souriau 1970 Structure des Systèmes Dynamiques Ch. IV (Poincaré coadjoint orbits); Woodhouse 1992 Geometric Quantization Ch. 11 (presymplectic evolution space, mass-shell quantisation); Dirac 1964 Lectures on Quantum Mechanics (first-class constraints); Wigner 1939 Ann. Math. 40; Bargmann-Wigner 1948 Proc. Natl. Acad. Sci. 34
+  - intermediate: Woodhouse Ch. 11; Souriau Ch. IV; Bates-Weinstein Ch. 10
+  - beginner: Woodhouse Ch. 11 informal; Bates-Weinstein Ch. 10 informal
+- **notes**: The free relativistic particle of mass $m > 0$ is quantised by starting from $T^*\mathbb{R}^{3,1}$ with the Minkowski metric $\eta = \mathrm{diag}(+,-,-,-)$ and imposing the mass-shell constraint $\Phi = \eta^{\mu\nu}p_\mu p_\nu - m^2 c^2 = 0$. The level set $C = \Phi^{-1}(0)$ is a presymplectic manifold: $\sigma = \iota^*\omega$ is degenerate because $\dim C = 7$ is odd, with one-dimensional characteristic distribution $\ker\sigma = \langle X_\Phi\rangle$ whose integral curves are the free relativistic worldlines (the reparametrisation gauge orbit). Presymplectic reduction $\widetilde C = C/\ker\sigma$ gives a $6$-dimensional symplectic manifold symplectomorphic to $T^*\mathbb{R}^3$, identified by Souriau with the Poincaré coadjoint orbit $\mathcal{O}_{m,0}$. Dirac quantisation of the constraint, $\hat\Phi\psi = 0$ in the position polarisation $\hat p_\mu = -i\hbar\partial_\mu$, gives the Klein-Gordon equation $(\Box + m^2c^2/\hbar^2)\psi = 0$ with no ordering ambiguity (the $\hat p_\mu$ commute). Positive-frequency solutions with the Klein-Gordon inner product carry the mass-$m$ spin-$0$ unitary irreducible Poincaré representation (Wigner 1939). Spin-$s$ generalisations need a spinor/metaplectic structure (cf. `05.11.03`); the indefinite-norm sector forces second quantisation, linking to the Klein-Gordon field (`12.05.04`) and algebraic QFT (`12.14.01`).
+
 ## Statistical mechanics and lattice models (v0.5 Strand E)
 
 ### stat-mech.partition-function
@@ -3620,6 +3641,16 @@ Before adding a concept to the catalog:
   - intermediate: finite-volume definitions, canonical theorem, and scaling computations
   - beginner: lattice-state and weighted-probability intuition
 - **notes**: A linear operator that advances a lattice model one slice at a time. Central theorem: largest eigenvalue controls thermodynamic free energy. Used in the v0.5 statistical field theory strand for lattice models, criticality, renormalisation, and Euclidean field theory.
+
+### stat-mech.yang-baxter-equation
+
+- **title**: The Yang–Baxter equation and the star–triangle relation
+- **prerequisites**: `08.03.02`, `05.02.03`
+- **tier_anchors**:
+  - master: Baxter Ch. 9 §9.6–9.8; Yang 1967; Baxter 1972 Ann. Phys. 70:193
+  - intermediate: star–triangle relation as the commutation condition; spectral parameter; intertwining (RTT) relation
+  - beginner: two transfer matrices on the same lattice; when do they commute
+- **notes**: The operator identity $R_{12}(u)R_{13}(u+v)R_{23}(v) = R_{23}(v)R_{13}(u+v)R_{12}(u)$ and its statistical-mechanics incarnation, the star–triangle relation on Boltzmann weights. Central theorem: a solution of the Yang–Baxter equation yields a commuting family of transfer matrices $[T(u),T(u')]=0$, hence an infinite tower of conserved charges — the structural origin of integrability. Constant limit is the braid relation (link invariants); spectral-parameter solutions are governed by quantum groups (universal $R$-matrix). Originator-prose carriers: Baxter 1972 (lattice), Yang 1967 (factorised scattering), McGuire 1964 (predecessor). Load-bearing root of the `08.13` exactly-solved-models chapter; consumed by `08.13.02` (six-vertex / Bethe ansatz).
 
 ### stat-mech.six-vertex-bethe-ansatz
 
@@ -4202,6 +4233,17 @@ Before adding a concept to the catalog:
   - intermediate: Krantz §2.1–2.5; Hörmander §2.5–2.6
   - beginner: Krantz Ch. 2 informal; Range Ch. II intro
 - **notes**: Foundational unit of the several-complex-variables chapter `06.10`. Domain of holomorphy, holomorphically convex hull $\hat K_\Omega$, and the Cartan–Thullen equivalence (domain of holomorphy ⟺ holomorphically convex ⟺ radius equality), with Hartogs phenomenon as motivation.
+
+### complex-analysis.plurisubharmonic-functions
+
+- **title**: Plurisubharmonic functions
+- **unit**: `06.10.02`
+- **prerequisites**: `complex-analysis.domains-of-holomorphy`, `complex-analysis.holomorphic-several-variables`, `complex-analysis.dirichlet-problem-perron`, `complex-analysis.holomorphic-function`
+- **tier_anchors**:
+  - master: Oka 1942 / Lelong 1945 (originators of PSH); Krantz Ch. 2; Hörmander §2.6; Range Ch. III
+  - intermediate: Krantz §2.6; Hörmander §2.6
+  - beginner: Krantz Ch. 2 informal; Range Ch. III intro
+- **notes**: Several-complex-variables analogue of subharmonicity. Plurisubharmonic (PSH) function as upper semicontinuous, subharmonic on every complex line; the complex Hessian / Levi form $\geq 0$ characterisation for $C^2$ functions; sub-mean-value and maximum principles; $\log|f|$ and $|z|^2$ as examples; $-\log d(z,\partial\Omega)$ and PSH exhaustion functions feeding pseudoconvexity. Bridge from `06.10.01` (holomorphic convexity) toward `06.10.03` (pseudoconvexity) and the Levi problem.
 
 ### complex-analysis.hartogs-phenomenon
 
