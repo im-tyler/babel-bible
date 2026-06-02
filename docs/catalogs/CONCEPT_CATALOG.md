@@ -12068,3 +12068,9 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **title**: Morse functions, the Morse lemma, and the Morse index
 - **unit**: `03.02.30`
 - **notes**: stub — see unit `03.02.30` for full prerequisites, tier anchors, and bibliography. Smooth $f : M \to \mathbb{R}$, critical points, the Hessian as a well-defined symmetric bilinear form at a critical point, nondegenerate (Morse) critical points, the Morse lemma normal form $f = f(p) - x_1^2 - \cdots - x_\lambda^2 + x_{\lambda+1}^2 + \cdots + x_n^2$ via the parametrised splitting argument, index $\lambda$ and nullity, isolatedness of nondegenerate critical points, density/genericity of Morse functions via Sard. Originator chain: Morse 1925, Morse 1934, Milnor 1963, Palais 1963.
+
+### differential-topology.morse-handle-cw-type
+
+- **title**: Handle attachment, CW homotopy type, and the Morse inequalities
+- **unit**: `03.02.31`
+- **notes**: stub — see unit `03.02.31` for full prerequisites, tier anchors, and bibliography. Sublevel sets $M^a = f^{-1}(-\infty,a]$; Theorem 3.1 (deformation retraction of $M^a$ onto $M^b$ across a critical-value-free interval, via the normalised gradient flow); Theorem 3.2 (passing an index-$\lambda$ nondegenerate critical value attaches a $\lambda$-cell, $M^{c+\varepsilon} \simeq M^{c-\varepsilon} \cup_\varphi e^\lambda$); the CW homotopy-type corollary (one cell of dimension $\lambda$ per index-$\lambda$ critical point); weak Morse inequalities $c_\lambda \ge b_\lambda$ and strong Morse inequalities $\sum_{i\le\lambda}(-1)^{\lambda-i}c_i \ge \sum_{i\le\lambda}(-1)^{\lambda-i}b_i$, packaged as $M_t - P_t = (1+t)Q(t)$ with $Q \ge 0$; Reeb's theorem (two critical points $\Rightarrow$ homeomorphic to $S^n$). Worked example: torus height function recovering $b_0=1, b_1=2, b_2=1$. Originator chain: Morse 1925, Morse 1934, Thom 1949, Reeb 1952, Milnor 1963, Smale 1962.
