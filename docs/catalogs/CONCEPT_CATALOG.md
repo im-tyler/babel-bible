@@ -1594,6 +1594,26 @@ Placeholder for the ~10 apex units + their pulled-in prerequisites. Each entry b
   - beginner: surfaces where complex analysis works globally
 - **notes**: 1-dimensional complex manifold (real dimension 2). Charts to $\mathbb{C}$ with holomorphic transitions. Examples: $\mathbb{C}$, Riemann sphere $\hat{\mathbb{C}}$, tori $\mathbb{C}/\Lambda$, smooth complex projective curves. Genus and Euler characteristic. Uniformization: every simply connected Riemann surface is $\hat{\mathbb{C}}$, $\mathbb{C}$, or $\mathbb{H}$. GAGA: compact Riemann surfaces $=$ smooth complex projective curves. Sheaves $\mathcal{O}_X$, $\omega_X$, $\mathcal{O}(D)$. Hodge decomposition, Abel-Jacobi, Teichmüller and moduli spaces.
 
+### complex-analysis.ideal-boundary-exhaustion
+
+- **title**: Ideal boundary and exhaustions of an open Riemann surface
+- **prerequisites**: `complex-analysis.riemann-surface`, `complex-analysis.uniformization-theorem`
+- **tier_anchors**:
+  - master: Ahlfors-Sario *Riemann Surfaces* Ch. I §§29-46, Ch. II §3; Kerékjártó *Vorlesungen über Topologie* (1923); Stoïlow *Leçons sur les principes topologiques* (1938); Freudenthal *Über die Enden topologischer Räume und Gruppen* (1931)
+  - intermediate: Ahlfors-Sario *Riemann Surfaces* Ch. I (bordered exhaustions, ideal boundary components)
+  - beginner: an open surface runs off to infinity in ends; approximate it from inside by growing compact pieces
+- **notes**: An open (non-compact) Riemann surface $X$ has no boundary as a manifold, yet "runs off to infinity" in one or more ends. A bordered exhaustion is a sequence of relatively compact regions $\Omega_1 \Subset \Omega_2 \Subset \cdots$ with smooth (analytic) border and $\bigcup_n \Omega_n = X$; the model cases are $\mathbb{C}$ exhausted by discs $|z| < n$ and the cylinder $\mathbb{C}^*$ exhausted by annuli $1/n < |z| < n$. The ideal boundary $\beta$ is the inverse limit of the boundary-component spaces $\partial \Omega_n$, equivalently the space of ends in the Kerékjártó-Stoïlow / Freudenthal sense; it is a compact totally disconnected space, and $X^* = X \cup \beta$ is the end-compactification (Freudenthal ends). Components of $\beta$ partition the ideal boundary; examples: $\mathbb{C}$ has one ideal-boundary point, $\mathbb{C}^*$ and the cylinder have two ends, the infinite-genus "Loch Ness monster" surface has one end. Foundational for the whole 06.11 open-surfaces chapter (cited by 06.11.02-06): harmonic measure of the ideal boundary, the classes $O_G, O_{HB}, O_{HD}$ of degenerate surfaces, capacity of boundary components, and the type problem (parabolic vs. hyperbolic). Originators: Kerékjártó 1923 (topological classification of surfaces, ideal boundary), Stoïlow 1938 (topological theory of analytic maps and ends), Freudenthal 1931 (Enden / ends of a space), Ahlfors-Sario 1960 (the standard exhaustion framework for value-distribution and classification theory).
+
+### complex-analysis.extremal-length
+
+- **title**: Extremal length and the modulus of curve families
+- **prerequisites**: `complex-analysis.riemann-mapping-theorem`, `complex-analysis.ideal-boundary-exhaustion`
+- **tier_anchors**:
+  - master: Ahlfors-Sario *Riemann Surfaces* Ch. II; Ahlfors-Beurling 1950 *Conformal invariants and function-theoretic null-sets* (Acta Math. 83); Ahlfors *Conformal Invariants*
+  - intermediate: Ahlfors-Sario *Riemann Surfaces* Ch. II §§1-4; Ahlfors *Conformal Invariants* Ch. 4 (extremal length, modulus of a ring)
+  - beginner: a conformally invariant ruler for how hard it is to cross a family of curves
+- **notes**: For a family $\Gamma$ of curves in a plane region, the *extremal length* is $\lambda(\Gamma) = \sup_\rho L_\rho(\Gamma)^2 / A_\rho$ over admissible conformal metrics $\rho\,|dz|$, where $L_\rho(\Gamma) = \inf_{\gamma \in \Gamma} \int_\gamma \rho\,|dz|$ is the $\rho$-length of the shortest curve and $A_\rho = \iint \rho^2\,dx\,dy$ is the $\rho$-area; the *modulus* is $\mathrm{mod}(\Gamma) = 1/\lambda(\Gamma)$. Conformally invariant: a conformal map $f$ transports an admissible metric to an admissible metric with the same length and area, so $\lambda$ is unchanged. The modulus of the round annulus $\{r < |z| < R\}$ for the family of separating curves is $1/\lambda = 2\pi / \log(R/r)$, computed by the extremal metric $\rho = 1/|z|$; the modulus of a quadrilateral is the aspect ratio of its conformal rectangle model. Composition (series/parallel) laws: $\lambda(\Gamma) \geq \sum_k \lambda(\Gamma_k)$ for curves overflowing disjoint subregions in series, and $1/\lambda(\Gamma) \geq \sum_k 1/\lambda(\Gamma_k)$ in parallel; the comparison / overflowing principle $\Gamma_1 < \Gamma_2 \Rightarrow \lambda(\Gamma_1) \leq \lambda(\Gamma_2)$. Type criterion: an open Riemann surface is parabolic iff an extremal-length series over a bordered exhaustion diverges (the ideal boundary has zero capacity). Connects to the Grötzsch and Teichmüller extremal problems, the modulus of a quadrilateral as a quasiconformal invariant, and the analytic capacity / null-set theory of Ahlfors-Beurling 1950. Originators: Beurling (1930s, unpublished extremal-distance ideas), Ahlfors-Beurling 1950 (*Conformal invariants and function-theoretic null-sets*, Acta Math. 83, the first systematic conformal-invariant theory), Ahlfors-Sario 1960 (the modulus / extremal-length machinery for classification of open surfaces), Grötzsch 1928 and Teichmüller 1938 (extremal quasiconformal problems whose moduli are extremal lengths).
+
 ### complex-analysis.holomorphic-function
 
 - **title**: Holomorphic function
@@ -11848,6 +11868,18 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `06.09.08`
 - **notes**: stub — see unit `06.09.08` for full prerequisites, tier anchors, and bibliography.
 
+### complex-analysis.greens-function-type-problem
+
+- **title**: Green's function on a Riemann surface and the type problem (parabolic vs. hyperbolic)
+- **unit**: `06.11.03`
+- **notes**: stub — see unit `06.11.03` for full prerequisites, tier anchors, and bibliography.
+
+### complex-analysis.capacity-harmonic-measure-ideal-boundary
+
+- **title**: Capacity and harmonic measure of the ideal boundary
+- **unit**: `06.11.05`
+- **notes**: stub — see unit `06.11.05` for full prerequisites, tier anchors, and bibliography.
+
 ### rep-theory.non-abelian-fourier-transform
 
 - **title**: Non-abelian Fourier transform on a finite group
@@ -12373,6 +12405,16 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - beginner: Gunning Vol. III complex-space sections; Grauert–Remmert *Theory of Stein Spaces* §0–§1 (informal)
 - **notes**: Producer-registered (06.10.22). Ringed and locally ringed spaces; a **complex space** $(X,\mathcal{O}_X)$ as a locally ringed $\mathbb{C}$-space locally isomorphic to an analytic-set model $(V,\mathcal{O}_V)$, $\mathcal{O}_V=\iota^{-1}(\mathcal{O}_\Delta/\mathcal{I})$ in a polydisc, with reduced/non-reduced (nilpotent-bearing) structure sheaf; morphisms = holomorphic maps; coherence of $\mathcal{O}_X$ via Oka transported across the finite embedding; reduction by the nilradical sheaf; normal complex spaces and normalisation by integral closure ($\nu:\tilde X\to X$ coherent); the analytic spectrum $\operatorname{Specan}$ as the analytic mirror of $\operatorname{Spec}$; Cartan A/B globalised to Stein complex spaces; pointer to Grauert's proper direct-image coherence and Serre GAGA. Analytic counterpart of the scheme `04.02.01` / coherent sheaf `04.06.02`. Gunning-only NEW; closes Gunning Vol. III complex-space arc.
 
+### complex-analysis.null-classes-open-surfaces
+
+- **title**: Null-classes $O_G$, $O_{HB}$, $O_{HD}$, $O_{AD}$ and the classification of open surfaces
+- **prerequisites**: `complex-analysis.greens-function-type-problem` (06.11.03 — Green's function, harmonic measure, parabolic/hyperbolic dichotomy supplying $O_G$); `complex-analysis.royden-compactification` (06.11.05 — Royden boundary and harmonic boundary on which $HB$/$HD$ functions take boundary values)
+- **tier_anchors**:
+  - master: Ahlfors–Sario *Riemann Surfaces* (Princeton 1960) Ch. II §6 (originator monograph for the null-class lattice); Royden 1952 *Some remarks on open Riemann surfaces* (separating example); Sario–Nakai *Classification Theory of Riemann Surfaces* (Springer Grundlehren 164, 1970); Tsuji *Potential Theory in Modern Function Theory*
+  - intermediate: Ahlfors–Sario *Riemann Surfaces* Ch. II §6; Sario–Nakai *Classification Theory of Riemann Surfaces* Ch. I–III
+  - beginner: Ahlfors–Sario Ch. II §6 informal opening; Forster *Lectures on Riemann Surfaces* §22–§23 (parabolic vs hyperbolic) informal
+- **notes**: Producer-registered (06.11.04). The Ahlfors–Sario apex: the null-class $W\in O_{XY}$ asserting every function in class $XY$ is constant, for $XY\in\{HB,HD,AB,AD\}$, plus $O_G$ (parabolic = no Green's function). Proves the strict inclusion lattice $O_G\subset O_{HB}\subset O_{HD}$ and $O_G\subset O_{AB}\subset O_{AD}$ via monotonicity of null-classes in the test family; the identification $O_{HD}=O_{AD}$ (harmonic conjugate of a Dirichlet-finite function is Dirichlet-finite, periods vanish over the Royden harmonic boundary) versus $O_{HB}\neq O_{AB}$ (boundedness does not pass to the conjugate); separating surfaces of Royden, Tôki, and Ahlfors–Sario witness properness. Open-surface analogue of the compact Hodge decomposition `06.04.03` with a harmonic-boundary correction. Headline classification theorem of the open-surfaces chapter. `lean_status: none`.
+
 ### stat-mech.brownian-wiener-feynman-kac
 
 - **title**: Brownian motion, the Wiener measure, and the path integral
@@ -12454,3 +12496,14 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - intermediate: "Kenyon *Lectures on Dimers* §3-4; Itzykson-Drouffe Vol. 1 Ch. 2 §2.4"
   - beginner: "Kenyon *Lectures on Dimers* §1; Itzykson-Drouffe Vol. 1 Ch. 2 (intuitive picture)"
 - **notes**: The Pfaffian $\mathrm{Pf}(A)$ of a $2m \times 2m$ antisymmetric matrix is the signed sum over perfect matchings of $\{1,\dots,2m\}$, satisfying $\mathrm{Pf}(A)^2 = \det A$. Kasteleyn's theorem: for a planar graph carrying a Kasteleyn orientation (odd number of clockwise edges on every bounded face), the weighted count of perfect matchings (dimer coverings) equals $|\mathrm{Pf}(K)|$ of the signed adjacency (Kasteleyn) matrix. The square-lattice close-packed dimer model is solved in closed form: a periodic Kasteleyn orientation diagonalises $K$ in Fourier modes with squared singular values $4(\sin^2\theta + \sin^2\phi)$, giving the free energy per site $G/\pi$ with $G$ Catalan's constant (Kasteleyn 1961, Temperley-Fisher 1961). The Ising–dimer correspondence (Fisher 1966) maps the planar Ising high-temperature loop expansion to a close-packed dimer covering of a decorated lattice, so $Z_{\mathrm{Ising}} \propto |\mathrm{Pf}(\tilde K)|$; this $\tilde K$ is exactly the antisymmetric operator of the Berezin integral $\int e^{\frac12 \psi^T \tilde K \psi} = \mathrm{Pf}(\tilde K)$ in 08.14.02, so the dimer count and the free-fermion partition function are one Pfaffian. On the torus the count becomes a signed sum of four Pfaffians (spin structures), the lattice ancestor of the four fermion sectors of the critical Ising CFT. Prereq stat-mech.grassmann-integration-ising-free-fermions (08.14.02); laterally references the determinant (01.01.07) and combinatorial counting (00.12.02).
+
+### complex-analysis.hilbert-space-differentials-open-surface
+
+- **title**: Hilbert space of differentials; orthogonal decomposition on an open surface
+- **unit**: `06.11.02`
+- **prerequisites**: `complex-analysis.square-integrable-differentials-open-surface`, `alg-geom.hodge-decomposition-curves`
+- **tier_anchors**:
+  - master: Weyl 1940 *The method of orthogonal projection in potential theory* (Comment. Math. Helv. 7, originator); Ahlfors-Sario *Riemann Surfaces* Ch. II §1-§3; de Rham *Variétés différentiables* §31-§32; Royden *Function theory on compact Riemann surfaces* (open-surface $L^2$-differentials treatment)
+  - intermediate: Ahlfors-Sario *Riemann Surfaces* Ch. II §1-§2; Springer *Introduction to Riemann Surfaces* Ch. 10; Forster *Lectures on Riemann Surfaces* §22-§23
+  - beginner: Ahlfors-Sario Ch. II §1 informal; Springer Ch. 10 informal
+- **notes**: Setup: a Riemann surface $X$, not assumed compact, with conformal structure. The conformal Hodge star $*$ on $1$-forms ($*(a\,dx+b\,dy) = -b\,dx + a\,dy$, $*{*} = -1$) depends only on the conformal class, so the Dirichlet inner product $(\omega,\theta) = \iint_X \omega \wedge \overline{*\theta}$ is intrinsic. $\Gamma = \Gamma(X)$ is the real Hilbert space of square-integrable differentials (completion of smooth finite-energy $1$-forms). Three closed subspaces: $\Gamma_h$ = harmonic (weakly closed and weakly co-closed), $\Gamma_{e0}$ = $L^2$-closure of $\{df : f \in C_c^\infty(X)\}$ (compactly-supported gradients), and $\Gamma_{e0}^* = *\Gamma_{e0}$ (co-exact). **Orthogonal decomposition theorem (Weyl 1940; Ahlfors-Sario):** $\Gamma = \Gamma_h \oplus \Gamma_{e0} \oplus \Gamma_{e0}^*$ orthogonally, with $*$ preserving $\Gamma_h$ and swapping the two exact summands. Proof by Hilbert-space projection: $\Gamma_{e0} \perp \Gamma_{e0}^*$ (Stokes on the exact compactly-supported $df \wedge dg$); $\Gamma_{e0}^\perp = \{\omega : d{*}\omega = 0 \text{ weakly}\}$ (integration by parts, no boundary term by compact support); intersection with $(\Gamma_{e0}^*)^\perp$ gives the weakly-harmonic space; **Weyl's lemma** (weakly closed + weakly co-closed $\Rightarrow$ smooth-harmonic, elliptic hypoellipticity / regularity of weakly holomorphic functions) identifies it with the genuine harmonic differentials $\Gamma_h$. **Open vs compact:** $\Gamma_{e0} \subsetneq \Gamma_e$ on an open surface; compactness forces $\Gamma_{e0} = \Gamma_e$, collapsing to the two-term Hodge decomposition [06.04.03]. The gap $\Gamma_e / \Gamma_{e0}$ is the carrier of the open-surface existence theory. Harmonic projection of a closed $\sigma$ is the energy-minimiser in $\sigma + \Gamma_{e0}$ (variational Dirichlet principle). **Downstream:** the Ahlfors-Sario five-term refinement $\Gamma = \Gamma_{h0} \oplus \Gamma_{h0}^* \oplus \Gamma_{he} \oplus \Gamma_{e0} \oplus \Gamma_{e0}^*$ produces differentials with prescribed periods/singularities (06.11.03) and the null-class partition $O_G, O_{HB}, O_{HD}$ classifying open surfaces into parabolic/hyperbolic type (06.11.04). Same orthogonal-projection engine as the $\bar\partial$-Hilbert-space PDE [06.04.05], joined by the Cauchy-Riemann factorisation in real dimension two. Originators: Weyl 1940 (*Comment. Math. Helv.* 7, orthogonal projection method + Weyl's lemma); Weyl 1943 (*Ann. of Math.* 44, regularity repair of Hodge theory); Ahlfors-Sario 1960 (systematic open-surface theory); de Rham 1955 (currents/regularization route); Royden (compactly-supported exact subspace as the open-vs-compact carrier).

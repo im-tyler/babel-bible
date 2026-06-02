@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T05:57:35.801275+00:00_
+_Generated: 2026-06-02T06:16:35.105514+00:00_
 
 ## Burn-down
 
-- Units shipped: **1313**
-- Units queued (gap units from audits): **2**
+- Units shipped: **1319**
+- Units queued (gap units from audits): **0**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**
 - Books unaudited: **0**
@@ -14,8 +14,6 @@ _Generated: 2026-06-02T05:57:35.801275+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `06.11.05` | Capacity and harmonic measure of the ideal boundary | P? | ahlfors-sario-riemann-surfaces |
-| 2 | `06.11.06` | Extremal length and the modulus of curve families | P? | ahlfors-sario-riemann-surfaces |
 
 ## Audits completed
 

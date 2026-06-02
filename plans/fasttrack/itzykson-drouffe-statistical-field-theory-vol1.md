@@ -390,6 +390,22 @@ confinement units. Verified-unused id ranges:
    headline net-new derivation — the corpus states the area law but
    never derives it.** Apex.
 
+   > **RESOLUTION 2026-06-01 (dedup): SUPERSEDED — do not produce as a
+   > standalone unit.** Since this audit was written, `12.18.16`
+   > *Lattice gauge theory and confinement* (Weinberg-v2 wave, shipped)
+   > now contains the FULL strong-coupling derivation the audit flagged
+   > as missing: Wilson loop, Peter-Weyl character expansion, minimal-
+   > surface tiling, area law $W(C)=(\beta/2N^2)^{A(C)}(1+O(\beta))$,
+   > string tension $\sigma=-\log(\beta/2N^2)$, the confining potential
+   > $V(r)=\sigma r$, Elitzur's theorem, and asymptotic scaling. The
+   > identified gap is CLOSED cross-section; a stat-mech `08.08.04` would
+   > duplicate it. The only genuinely non-overlapping AS-distinct piece
+   > is the **roughening transition / SOS-interface** angle (`08.08.05`),
+   > which is demoted to a **P3 enrichment** (a short stat-mech-native
+   > unit that *cross-links* to `12.18.16` for the derivation and adds
+   > only the interface-roughening physics) — not an apex gap. Net: the
+   > confinement derivation is no longer a corpus hole.
+
 3. **`08.14.02` Grassmann integration and the 2D Ising model as free
    fermions.** [NEW] ID Ch. 2 anchor; **Berezin 1966 (*The Method of
    Second Quantization*) for Grassmann integration; Schultz-Mattis-Lieb
