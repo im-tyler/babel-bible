@@ -1,24 +1,41 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T02:40:31.057554+00:00_
+_Generated: 2026-06-02T03:00:56.821575+00:00_
 
 ## Burn-down
 
-- Units shipped: **1289**
-- Units queued (gap units from audits): **0**
+- Units shipped: **1292**
+- Units queued (gap units from audits): **16**
 - Of which deepenings: **0**
-- Audits completed: **79 / 93**
+- Audits completed: **85 / 93**
 - Books unaudited: **0**
 
 ## Next 20 queued units (topological order)
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
+| 1 | `06.11.05` | Capacity and harmonic measure of the ideal boundary | P? | ahlfors-sario-riemann-surfaces |
+| 2 | `06.11.06` | Extremal length and the modulus of curve families | P? | ahlfors-sario-riemann-surfaces |
+| 3 | `06.10.20` | Coherent analytic sheaves and Oka's coherence theorem | P? | gunning-holomorphic-functions-several-variables |
+| 4 | `06.10.21` | Cartan Theorems A and B in $\mathbb{C}^n$ (with proof) | P? | gunning-holomorphic-functions-several-variables |
+| 5 | `06.10.22` | Complex spaces and coherence on them | P? | gunning-holomorphic-functions-several-variables |
+| 6 | `08.14.03` | The large-N limit | P? | itzykson-drouffe-statistical-field-theory-vol1 |
+| 7 | `08.14.04` | Lattice fermions and the doubling problem | P? | itzykson-drouffe-statistical-field-theory-vol1 |
+| 8 | `08.14.05` | The Pfaffian and the dimer model | P? | itzykson-drouffe-statistical-field-theory-vol1 |
+| 9 | `08.14.06` | Pointer: matrix models and the topological expansion | P? | itzykson-drouffe-statistical-field-theory-vol1 |
+| 10 | `08.15.01` | The Kosterlitz-Thouless transition (2D XY model) | P? | kardar-statistical-mechanics-ii |
+| 11 | `08.15.03` | Topological defects in ordered media | P? | kardar-statistical-mechanics-ii |
+| 12 | `12.18.02` | The Goldstone theorem and effective Goldstone Lagrangians | P1 | weinberg-quantum-theory-of-fields-vol2 |
+| 13 | `12.18.04` | Theta-vacua, the vacuum angle, and the strong-CP problem | P1 | weinberg-quantum-theory-of-fields-vol2 |
+| 14 | `12.18.06` | Operator product expansion and short-distance behaviour | P1 | weinberg-quantum-theory-of-fields-vol2 |
+| 15 | `12.18.13` | Vortices (Nielsen-Olesen / Abrikosov flux tubes) | P3 | weinberg-quantum-theory-of-fields-vol2 |
+| 16 | `12.18.16` | Lattice gauge theory and confinement (QFT pointer) | P4 | weinberg-quantum-theory-of-fields-vol2 |
 
 ## Audits completed
 
 | Audit | P1 | P2 | P3 | P4 | Total |
 |---|---|---|---|---|---|
+| ahlfors-sario-riemann-surfaces | 0 | 0 | 0 | 0 | 0 |
 | arnold-dubrovin-symplectic | 0 | 0 | 0 | 0 | 0 |
 | arnold-hydrodynamics | 0 | 0 | 0 | 0 | 0 |
 | arnold-mathematical-methods | 0 | 0 | 0 | 0 | 0 |
@@ -49,13 +66,16 @@ _Generated: 2026-06-02T02:40:31.057554+00:00_
 | griffiths-harris-geometry-algebraic-curves | 0 | 0 | 0 | 0 | 0 |
 | griffiths-morgan-rational-homotopy | 1 | 0 | 0 | 0 | 1 |
 | gross-tropical-geometry-mirror-symmetry | 10 | 3 | 1 | 0 | 14 |
+| gunning-holomorphic-functions-several-variables | 0 | 0 | 0 | 0 | 0 |
 | hartshorne-algebraic-geometry | 0 | 0 | 0 | 0 | 0 |
 | hatcher-algebraic-topology | 0 | 0 | 0 | 0 | 0 |
 | helgason-differential-geometry | 5 | 3 | 1 | 0 | 9 |
 | hirzebruch-manifolds-modular-forms | 3 | 0 | 1 | 0 | 4 |
 | hirzebruch-topological-methods | 4 | 2 | 2 | 0 | 8 |
+| itzykson-drouffe-statistical-field-theory-vol1 | 0 | 0 | 0 | 0 | 0 |
 | joe-harris-moduli-of-curves | 2 | 2 | 2 | 1 | 7 |
 | jost-riemannian-geometry | 0 | 0 | 0 | 0 | 0 |
+| kardar-statistical-mechanics-ii | 0 | 0 | 0 | 0 | 0 |
 | kobayashi-nomizu-foundations-vol1 | 6 | 5 | 2 | 0 | 13 |
 | kobayashi-nomizu-foundations-vol2 | 6 | 4 | 1 | 0 | 11 |
 | krantz-several-complex-variables | 0 | 0 | 0 | 0 | 0 |
@@ -95,6 +115,8 @@ _Generated: 2026-06-02T02:40:31.057554+00:00_
 | tom-m-apostol-calculus-vol-single | 0 | 0 | 0 | 0 | 0 |
 | voisin-hodge-theory-volume-1 | 3 | 3 | 0 | 0 | 6 |
 | weinberg-quantum-theory-of-fields-vol1 | 5 | 0 | 0 | 0 | 5 |
+| weinberg-quantum-theory-of-fields-vol2 | 5 | 0 | 1 | 1 | 7 |
+| weinberg-quantum-theory-of-fields-vol3 | 0 | 0 | 0 | 0 | 0 |
 | whitney-geometric-integration-theory | 9 | 1 | 0 | 0 | 10 |
 | woit-quantum-theory-groups-representations | 7 | 1 | 1 | 0 | 9 |
 | woodhouse-geometric-quantization | 0 | 0 | 0 | 0 | 0 |

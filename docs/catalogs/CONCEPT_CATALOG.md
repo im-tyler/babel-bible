@@ -3754,6 +3754,16 @@ Before adding a concept to the catalog:
   - beginner: lattice-state and weighted-probability intuition
 - **notes**: The non-gaussian fixed point governing many critical phenomena below four dimensions. Central theorem: epsilon-expansion fixed point to first order. Used in the v0.5 statistical field theory strand for lattice models, criticality, renormalisation, and Euclidean field theory.
 
+### stat-mech.momentum-shell-rg
+
+- **title**: Momentum-shell (Wilson) renormalisation group
+- **prerequisites**: `08.04.01`, `08.04.03`, `08.06.01`
+- **tier_anchors**:
+  - master: Wilson 1971; Wilson-Kogut 1974; Kardar Ch. 5
+  - intermediate: momentum-shell integration, rescaling, Gaussian fixed point, linearised eigenvalue analysis
+  - beginner: coarse-graining and scale-change intuition
+- **notes**: The continuum, field-theoretic complement of real-space block decimation `08.04.01`. A scale transformation acting on a Landau-Ginzburg-Wilson action in momentum space: integrate out a thin shell of short-wavelength modes $\Lambda/b < |\mathbf{q}| < \Lambda$, then rescale momenta and fields to restore the cutoff. Central object: the Gaussian fixed point and the linearised flow whose eigenvalues give the engineering plus anomalous scaling dimensions of couplings, classifying them as relevant, irrelevant, or marginal. Foundational unit of the `08.15` field-theoretic-RG chapter. Originator chain: Wilson 1971; Wilson-Fisher 1972; Wilson-Kogut 1974.
+
 ### stat-mech.beta-function
 
 - **title**: Beta function (renormalisation group)
@@ -3773,6 +3783,16 @@ Before adding a concept to the catalog:
   - intermediate: finite-volume definitions, canonical theorem, and scaling computations
   - beginner: lattice-state and weighted-probability intuition
 - **notes**: A concrete coarse-graining map replacing blocks of spins by effective spins. Central theorem: decimation induces effective couplings. Used in the v0.5 statistical field theory strand for lattice models, criticality, renormalisation, and Euclidean field theory.
+
+### stat-mech.momentum-shell-rg
+
+- **title**: Momentum-shell (Wilson) renormalization group
+- **prerequisites**: `08.04.01`, `08.04.02`, `08.04.03`, `08.06.01`
+- **tier_anchors**:
+  - master: Wilson-Fisher 1972; Wilson-Kogut 1974; Kardar Ch. 5
+  - intermediate: Wilson 1971; coarse-grain / rescale / renormalize recursion relations
+  - beginner: zoom-out coarse-graining and fixed-point intuition
+- **notes**: Wilson's coarse-grain-then-rescale flow in momentum space. Central theorem: the one-loop recursion relations giving the Wilson-Fisher fixed point $u^\star = \epsilon/[(n+8)4C]$ and the correlation-length exponent $\nu = \tfrac12 + \tfrac{n+2}{4(n+8)}\epsilon$ to order $\epsilon = 4-d$. Derives the $\epsilon$-expansion engine that `08.04.02` states but does not compute.
 
 ### stat-mech.critical-exponents
 
@@ -12194,3 +12214,25 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **title**: Handles, surgery, and the cobordism category
 - **unit**: `03.02.20`
 - **notes**: stub — see unit `03.02.20` for full prerequisites, tier anchors, and bibliography. The smooth upgrade of the Morse-theoretic cell attachment of `03.02.31`: a smooth handle $D^\lambda \times D^{n-\lambda}$, its core $D^\lambda \times 0$, cocore $0 \times D^{n-\lambda}$, attaching sphere $S^{\lambda-1} \times 0$ and belt sphere $0 \times S^{n-\lambda-1}$; the trace of a surgery on an embedded framed sphere $S^{\lambda-1} \times D^{n-\lambda} \hookrightarrow V$ (remove $S^{\lambda-1} \times D^{n-\lambda}$, glue in $D^\lambda \times S^{n-\lambda-1}$). A cobordism $(W; V_0, V_1)$ as a smooth $W$ with $\partial W = V_0 \sqcup V_1$; the existence of a Morse function $f : W \to [0,1]$ with $f^{-1}(0)=V_0$, $f^{-1}(1)=V_1$ and interior nondegenerate critical points; one handle attached to $V_0 \times I$ per critical point. The cobordism category $\mathbf{Cob}_n$: closed $(n-1)$-manifolds as objects, diffeomorphism classes of cobordisms as morphisms, composition by gluing along common boundary, identity $V \times I$. Elementary cobordisms (one critical point) and gradient-like vector fields with their ascending/descending spheres. Originator chain: Thom 1954, Milnor 1965, Smale 1962, Wallace 1960.
+
+### quantum-mechanics.higgs-mechanism
+
+- **title**: The Higgs mechanism: spontaneously broken gauge symmetry
+- **unit**: `12.18.01`
+- **prerequisites**: `stat-mech.spontaneous-symmetry-breaking`, `gauge-theory.yang-mills-action`, `gauge-theory.electromagnetism-u1-yang-mills`, `quantum-mechanics.free-maxwell-massive-vector-fields-photon-and-proca`
+- **tier_anchors**:
+  - master: Weinberg, S., *The Quantum Theory of Fields, Vol. 2: Modern Applications* (Cambridge, 1996), Ch. 21 (spontaneously broken gauge symmetries; the unitarity gauge; $R_\xi$ gauges; the electroweak $SU(2)\times U(1)$ model); Itzykson, C. & Zuber, J.-B., *Quantum Field Theory* (McGraw-Hill, 1980), §11-4 (the Higgs phenomenon, gauge-boson mass generation); Anderson, P. W., *Phys. Rev.* 130, 439 (1963); Englert, F. & Brout, R., *Phys. Rev. Lett.* 13, 321 (1964); Higgs, P. W., *Phys. Rev. Lett.* 13, 508 (1964); Guralnik, G. S., Hagen, C. R. & Kibble, T. W. B., *Phys. Rev. Lett.* 13, 585 (1964)
+  - intermediate: Peskin, M. E. & Schroeder, D. V., *An Introduction to Quantum Field Theory* (Addison-Wesley, 1995), §20.1 (the Abelian Higgs model; mass generation); Schwartz, M. D., *Quantum Field Theory and the Standard Model* (Cambridge, 2014), Ch. 28 (spontaneous symmetry breaking and the Higgs mechanism; $R_\xi$ gauges); Srednicki, M., *Quantum Field Theory* (Cambridge, 2007), Ch. 84–88
+  - beginner: Griffiths, D., *Introduction to Elementary Particles*, 2nd ed. (Wiley-VCH, 2008), Ch. 11 (gauge theories and the Higgs mechanism, conceptual); Carroll, S., *The Particle at the End of the Universe* (Dutton, 2012), Chs. 6–8 (the Higgs field and mass, popular-level)
+- **notes**: When a continuous *gauge* symmetry is spontaneously broken, the Goldstone bosons that would accompany a broken *global* symmetry do not appear as physical massless scalars; instead each would-be Goldstone mode becomes the longitudinal polarisation of the corresponding gauge boson, which thereby acquires a mass. The Abelian Higgs model $\mathcal{L} = -\tfrac14 F_{\mu\nu}F^{\mu\nu} + |D_\mu\phi|^2 - V(\phi)$ with $V = -\mu^2|\phi|^2 + \lambda|\phi|^4$ is the minimal example: $\langle\phi\rangle = v/\sqrt2 \neq 0$ gives the photon a mass $m_A = ev$ and leaves one massive real scalar (the Higgs boson) of mass $m_H = \sqrt{2\lambda}\,v = \sqrt{2}\mu$. Degree-of-freedom count is conserved: massless gauge boson (2) + complex scalar (2) = massive gauge boson (3) + Higgs (1). The unitary gauge makes the physical spectrum manifest but obscures renormalisability; the $R_\xi$ gauges (Fujikawa-Lee-Sanda 1972, 't Hooft 1971) interpolate, exhibiting the gauge-dependent would-be-Goldstone and ghost masses and the gauge-independent physical poles. The non-Abelian generalisation to $SU(2)\times U(1)$ with a scalar doublet gives the electroweak $W^\pm, Z$ masses with $m_W = \tfrac12 g v$, $m_Z = m_W/\cos\theta_W$, the photon remaining massless because one $U(1)$ combination is unbroken. Lean status: `none`; Mathlib has no field-theoretic Lagrangian, gauge-covariant derivative, or effective-potential minimisation machinery.
+
+### quantum-mechanics.asymptotic-freedom-running-gauge-coupling
+
+- **title**: Asymptotic freedom and the running gauge coupling
+- **unit**: `12.18.03`
+- **prerequisites**: `quantum-mechanics.canonical-qft`, `quantum-mechanics.vacuum-polarization-one-loop-uehling-potential`, `gauge-theory.yang-mills-action`
+- **tier_anchors**:
+  - master: Weinberg, *The Quantum Theory of Fields*, Vol. II (Cambridge, 1996), §18.7; Peskin & Schroeder, *An Introduction to Quantum Field Theory* (Westview, 1995), §16.5-16.7; Muta, *Foundations of Quantum Chromodynamics*, 3e (World Scientific, 2010), Ch. 3
+  - intermediate: Peskin & Schroeder §16.5-16.6; Schwartz, *Quantum Field Theory and the Standard Model* (Cambridge, 2014), §26
+  - beginner: Wilczek, Nobel lecture *Asymptotic Freedom: From Paradox to Paradigm* (2004); Close, *The Infinity Puzzle* (2011)
+- **notes**: The one-loop beta function of a Yang-Mills theory with simple gauge group $G$ and $n_f$ Dirac fermions in representation $R$ is $\beta(g) = -\tfrac{g^3}{16\pi^2}(\tfrac{11}{3}C_2(G) - \tfrac43 T(R)n_f)$, where $C_2(G)$ is the adjoint quadratic Casimir ($= N$ for $\mathrm{SU}(N)$) and $T(R)$ the Dynkin index ($= \tfrac12$ for the $\mathrm{SU}(N)$ fundamental). The theory is asymptotically free when $b_0 = \tfrac{11}{3}C_2(G) - \tfrac43 T(R)n_f > 0$, so the gauge self-interaction (antiscreening, $+\tfrac{11}{3}C_2(G)$) dominates the fermion vacuum-polarisation screening ($-\tfrac43 T(R)n_f$, the same coefficient as QED `12.16.03`). For $\mathrm{SU}(3)$ QCD with fundamental quarks $b_0 = 11 - \tfrac23 n_f$, asymptotically free for $n_f \le 16$. Derivation: dimensional regularisation in $d = 4 - 2\varepsilon$, minimal subtraction, covariant gauge with Faddeev-Popov ghosts; $g_0 = \mu^\varepsilon Z_g g$ with $Z_g = Z_1 Z_3^{-3/2}$, ghost loops restoring transversality of the gluon self-energy (Slavnov-Taylor identities making $\beta$ gauge-invariant). The running coupling solves $\mu\,dg/d\mu = \beta(g)$: $1/\alpha_s(\mu) = 1/\alpha_s(\mu_0) + (b_0/2\pi)\log(\mu/\mu_0)$, equivalently $\alpha_s(\mu) = 2\pi/(b_0\log(\mu/\Lambda))$ with $\Lambda = \mu_0\exp(-2\pi/(b_0\alpha_s(\mu_0)))$ — dimensional transmutation, trading the dimensionless coupling for a single scale $\Lambda_{\overline{\rm MS}} \approx 210$ MeV. The Callan-Symanzik equation $[\mu\partial_\mu + \beta\partial_g + n\gamma]\Gamma^{(n)} = 0$ propagates the running into all Green functions; deep-inelastic Bjorken scaling and its logarithmic violations are the experimental signature. Coleman-Gross 1973 (Phys. Rev. Lett. 31, 851): non-Abelian gauge self-interaction is the unique source of four-dimensional antiscreening, singling out Yang-Mills. The first two coefficients $b_0, \beta_1$ are scheme-independent; higher ones are not. The Abelian limit $C_2(G) = 0$ recovers the positive QED beta function and the Landau pole. Originators: Gross-Wilczek 1973 (Phys. Rev. Lett. 30, 1343; Phys. Rev. D 8, 3633), Politzer 1973 (Phys. Rev. Lett. 30, 1346); 't Hooft's unpublished 1972 Marseille computation; conceptual lineage from Gell-Mann-Low 1954 (Phys. Rev. 95, 1300) and Callan 1970 / Symanzik 1970. Nobel Prize 2004 (Gross, Politzer, Wilczek).
