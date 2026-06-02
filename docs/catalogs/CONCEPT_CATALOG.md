@@ -3704,6 +3704,16 @@ Before adding a concept to the catalog:
   - beginner: the partition function as a product of four corner transfer matrices; why corners reach the order parameter
 - **notes**: Baxter's signature method for computing order parameters. The square-lattice partition function factorises as $Z=\operatorname{tr}(ABCD)$, the trace of a product of four corner transfer matrices, each summing the Boltzmann weights of one quadrant with the boundary spins held fixed. For solvable (star–triangle) weights the corner transfer matrix has the form $A(u)=\exp(-uH_{\mathrm{CTM}})$ with a spectral-parameter-linear exponent, so its spectrum is an arithmetic progression and the diagonalised product becomes a single geometric series in $x=e^{-\epsilon}$. This delivers the spontaneous magnetisation $M=(1-k^{-2})^{1/8}$ of the Ising model and the eight-vertex / hard-hexagon order parameters that the row transfer matrix cannot easily reach. Originator-prose carrier: Baxter 1976–78. The geometric CTM spectrum is the seed of the matrix-product-state / DMRG / corner-transfer-matrix-RG connection. Builds on `08.03.02` (transfer matrix) and `08.13.01` (star–triangle); supplies the order-parameter tool for `08.13.03` (eight-vertex) and downstream hard-hexagon.
 
+### stat-mech.spherical-model
+
+- **title**: The spherical model (Berlin-Kac)
+- **prerequisites**: `08.01.01`, `08.03.02`, `08.05.01`
+- **tier_anchors**:
+  - master: Baxter Ch. 5 §5.5–5.7; Berlin–Kac 1952 Phys. Rev. 86:821; Stanley 1968; Joyce 1972
+  - intermediate: saddle-point / Lagrange-multiplier solution of the spherical model in $d$ dimensions
+  - beginner: the spherical constraint as a relaxation of the Ising $\pm 1$ constraint
+- **notes**: Berlin and Kac's 1952 exactly-solved ferromagnet, in which the per-site Ising constraint $s_i=\pm1$ is relaxed to a single global spherical constraint $\sum_i s_i^2 = N$. Imposing the constraint by a Laplace contour integral over a Lagrange multiplier $\mu$ and Fourier-diagonalising the quadratic form reduces the partition function to a one-dimensional saddle-point integral; the saddle equation $1/(2K)=g_d(\mu_s)$ ties the susceptibility to the lattice Green function $g_d(\mu)=\int_{[-\pi,\pi]^d}\frac{d^dk}{(2\pi)^d}[2(\mu-\frac1d\sum_j\cos k_j)]^{-1}$. Central results: the constraint integral $g_d(1)$ converges iff $d>2$ (lower critical dimension $d_\ell=2$), the upper critical dimension $d_c=4$, and the continuously $d$-dependent exponents $\gamma=2/(d-2)$, $\nu=1/(d-2)$, $\eta=0$, $\alpha=(d-4)/(d-2)$, satisfying every scaling/hyperscaling relation. Stanley 1968 identifies the model with the $n\to\infty$ limit of the $O(n)$ vector model, fixing the exponents to the $O(n\to\infty)$ universality class and making it the exactly-solvable anchor of the large-$n$ / $1/n$ expansion checked against the Wilson–Fisher $\varepsilon$-expansion (`08.04.02`). Baxter Ch. 5 anchor; the cleanest exactly-solved demonstration of dimension-dependent criticality. Originator-prose carriers: Berlin–Kac 1952, Stanley 1968. Independent root unit of the `08.13` chapter, building only on the partition function (`08.01.01`), transfer matrix (`08.03.02`), and critical exponents (`08.05.01`).
+
 ### stat-mech.hard-hexagon-model
 
 - **title**: The hard-hexagon model (Baxter 1980)
@@ -3713,6 +3723,16 @@ Before adding a concept to the catalog:
   - intermediate: solution by the corner transfer matrix; the order parameter and sub-lattice densities; the critical fugacity
   - beginner: the hard-hexagon lattice gas; nearest-neighbour exclusion on the triangular lattice
 - **notes**: Baxter's 1980 exact solution of the hard-hexagon lattice gas — particles on the triangular lattice with nearest-neighbour exclusion, controlled by a single fugacity $z$. Solved by the corner transfer matrix of `08.13.04`: the Boltzmann weights satisfy the star–triangle relation of `08.13.01`, so the corner operators have an arithmetic spectrum and the graded corner trace resums to a closed-form infinite product. Central results: critical fugacity $z_c=(11+5\sqrt5)/2$, the $\mathbb{Z}_3$ sub-lattice-ordering transition with density exponent $\beta=1/9$ in the $c=4/5$ three-state-Potts universality class, and the order parameter $R(q)=H(q)/G(q)$ as a ratio of Rogers–Ramanujan products — the identification of lattice-gas ordering with modulus-$5$ partition identities. Generalised by Andrews–Baxter–Forrester 1984 into the RSOS / Andrews–Gordon hierarchy, turning the corner-transfer-matrix method into a generator of Rogers–Ramanujan-type identities. Originator-prose carrier: Baxter 1980. Laterally references the theta functions of `06.06.05`. Second headline corner-transfer-matrix result after the Ising magnetisation.
+
+### stat-mech.ising-bethe-lattice
+
+- **title**: The Ising model on the Bethe lattice
+- **prerequisites**: `08.01.02`, `08.02.01`
+- **tier_anchors**:
+  - master: Baxter Ch. 4 §4.5–4.8; Bethe 1935 Proc. R. Soc. A 150:552; Eggarter 1974 Phys. Rev. B 9:2989
+  - intermediate: the cavity recursion, the critical-point bifurcation, magnetisation and bulk free energy
+  - beginner: the loop-free branching tree; one spin pulling on its branches
+- **notes**: The Ising model on the Cayley tree / Bethe lattice — the warm-up exactly-solved model of Baxter Ch. 4. Loop-free geometry decouples the branches, so a whole branch collapses to one cavity ratio $x_n=g_n(+)/g_n(-)$ obeying the recursion $x_{n+1}=((e^Kx_n+e^{-K})/(e^{-K}x_n+e^K))^{q-1}$. The paramagnetic fixed point $x^\star=1$ loses stability at $(q-1)\tanh K_c=1$ (no finite-$T$ transition for $q=2$, the chain), giving magnetisation $m=(x^{\star q}-1)/(x^{\star q}+1)$ and mean-field exponents $\beta=1/2,\gamma=1,\delta=3,\alpha=0$ (specific-heat jump). The tree is the exactly-solved realisation of mean-field criticality with genuine short-range interactions and finite coordination; the Bethe–Peierls cluster approximation for loop-bearing lattices is this tree solution used as an approximation. Eggarter 1974: the Cayley tree's boundary holds a finite fraction of sites, so the Bethe lattice = the bulk interior, distinct from the whole tree. The cavity recursion is belief propagation / the cavity method of disordered-systems statistical mechanics. Originator-prose carriers: Bethe 1935, Peierls 1936, Eggarter 1974. Builds on `08.01.02` (Ising) and `08.02.01` (mean field); contrasts with the loop-bearing `08.03.01` (Onsager) and `08.13.04` (corner transfer matrix).
 
 ### stat-mech.real-space-rg
 
@@ -4395,6 +4415,17 @@ Before adding a concept to the catalog:
   - intermediate: Krantz Ch. 11; Kobayashi 1970 *Hyperbolic Manifolds and Holomorphic Mappings* Ch. IV; Jarnicki-Pflug Ch. 1-3
   - beginner: Krantz Ch. 11 informal; Kobayashi survey 1967 intro
 - **notes**: The three biholomorphically invariant pseudodistances/pseudometrics on a domain $\Omega \subseteq \mathbb{C}^n$. The Carathéodory pseudodistance $c_\Omega(p,q) = \sup_f \rho(f(p),f(q))$ over holomorphic $f:\Omega\to\Delta$ (largest invariant distance bounded above by Poincaré pullbacks), the Kobayashi pseudodistance $k_\Omega$ built by chaining analytic discs $\Delta\to\Omega$ (smallest invariant distance dominating disc-distances), and their infinitesimal metrics $\gamma_\Omega, \kappa_\Omega$; the Bergman metric from `06.10.08` is the third invariant. All are distance-decreasing under holomorphic maps — the Schwarz-Pick lemma `06.01.12` in $n$ variables — and on $\Delta$ all collapse to the Poincaré metric. Order $c_\Omega \le k_\Omega$; equality on the ball $\mathbb{B}^n$ and on convex domains (Lempert 1981). Worked: the ball carries the complex hyperbolic Bergman/Poincaré metric. Completeness on bounded domains gives Kobayashi hyperbolicity; pointer to the Aut-group theory of `06.10.13`. Builds on `06.10.08` (Bergman metric) and `06.01.12` (one-variable Schwarz-Pick).
+
+### complex-analysis.wong-rosay-boundary-rigidity
+
+- **title**: Wong-Rosay theorem and boundary rigidity
+- **unit**: `06.10.16`
+- **prerequisites**: `complex-analysis.pseudoconvexity-levi-form`, `complex-analysis.bergman-kernel-metric`, `complex-analysis.invariant-metrics-caratheodory-kobayashi`
+- **tier_anchors**:
+  - master: Wong 1977 (Invent. Math. 41) / Rosay 1979 (Ann. Inst. Fourier 29) (originators); Pinchuk 1991 (scaling method); Greene-Kim-Krantz *The Geometry of Complex Domains*
+  - intermediate: Krantz Ch. 11-12; Pinchuk *The scaling method and holomorphic mappings* (Proc. Symp. Pure Math. 52)
+  - beginner: Krantz Ch. 12 informal; Greene-Krantz automorphism-orbit survey
+- **notes**: A domain $\Omega \subseteq \mathbb{C}^n$ with non-compact automorphism group $\mathrm{Aut}(\Omega)$ whose orbit of an interior point accumulates at a $C^2$ strongly pseudoconvex boundary point $p$ is biholomorphic to the unit ball $\mathbb{B}^n$. Curvature (positive-definite Levi form at $p$, from `06.10.03`) plus runaway symmetry forces maximal symmetry. Proof by Pinchuk's scaling method: anisotropic parabolic dilation $z' \mapsto \delta^{-1/2}z'$, $z_n \mapsto \delta^{-1}z_n$ matched to the Levi form rescales $\Omega$ to the Siegel half-space $\mathcal{H}_n = \{2\,\mathrm{Re}\,z_n + |z'|^2 < 0\} \cong \mathbb{B}^n$ (Cayley); Kobayashi-metric bounds (`06.10.12`) make the rescaled automorphisms a normal family, Montel gives the limit biholomorphism, Cartan uniqueness pins it down. Rosay's localization drops boundedness/global regularity. Klembeck's Bergman-curvature limit (`06.10.08`) is the differential-geometric face; ball characterization: $\mathbb{B}^n$ is the unique smoothly bounded strongly pseudoconvex domain with non-compact $\mathrm{Aut}$. Finite-type generalization (Bedford-Pinchuk) replaces the ball by Catlin-D'Angelo model domains. Builds on `06.10.03`, `06.10.08`, `06.10.12`; pointer to Fefferman mapping theorem `06.10.13`.
 
 ### complex-analysis.szego-kernel-fefferman
 
@@ -12031,3 +12062,9 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - intermediate: Sternberg — Group Theory and Physics, §4; Tinkham — Group Theory and Quantum Mechanics, §9
   - beginner: Sternberg — Group Theory and Physics, §1.6 and §4 informal opening on lattices
 - **notes**: Crystallographic groups as discrete subgroups S of E(n) with full-rank translation lattice T and finite point group P = S/T, the defining extension 1 -> T -> S -> P -> 1. The crystallographic restriction theorem: a lattice automorphism of finite order in dimension 2 or 3 has order in {1,2,3,4,6}, proved by integrality of the trace of the point-group operation in a Z-basis (tr = ±1 + 2 cos theta in Z forces cos theta in {-1,-1/2,0,1/2,1}, excluding fivefold symmetry). The 32 crystallographic point groups (crystal classes), 7 crystal systems, 14 Bravais lattices, 73 arithmetic crystal classes / symmorphic groups, and the count 230 space groups (157 non-symmorphic, classified by H^2(P;T): screw axes and glide planes). Bieberbach's theorems (finite-index translation lattice, finiteness up to affine conjugacy; Hilbert's 18th problem) and the Zassenhaus algorithm. Quasicrystals (Shechtman 1982) as the aperiodic escape. Originator chain: Bravais 1850, Fedorov / Schoenflies 1891, Bieberbach 1911-12, Zassenhaus 1948, Sternberg 1994.
+
+### differential-topology.morse-lemma
+
+- **title**: Morse functions, the Morse lemma, and the Morse index
+- **unit**: `03.02.30`
+- **notes**: stub — see unit `03.02.30` for full prerequisites, tier anchors, and bibliography. Smooth $f : M \to \mathbb{R}$, critical points, the Hessian as a well-defined symmetric bilinear form at a critical point, nondegenerate (Morse) critical points, the Morse lemma normal form $f = f(p) - x_1^2 - \cdots - x_\lambda^2 + x_{\lambda+1}^2 + \cdots + x_n^2$ via the parametrised splitting argument, index $\lambda$ and nullity, isolatedness of nondegenerate critical points, density/genericity of Morse functions via Sard. Originator chain: Morse 1925, Morse 1934, Milnor 1963, Palais 1963.
