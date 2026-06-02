@@ -1,11 +1,11 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-02T02:18:43.741814+00:00_
+_Generated: 2026-06-02T02:29:41.919755+00:00_
 
 ## Burn-down
 
-- Units shipped: **1280**
-- Units queued (gap units from audits): **8**
+- Units shipped: **1284**
+- Units queued (gap units from audits): **5**
 - Of which deepenings: **0**
 - Audits completed: **79 / 93**
 - Books unaudited: **0**
@@ -14,14 +14,11 @@ _Generated: 2026-06-02T02:18:43.741814+00:00_
 
 | Rank | ID | Title | Priority | Source audits |
 |---|---|---|---|---|
-| 1 | `03.02.23` | The h-cobordism theorem | P? | milnor-h-cobordism |
-| 2 | `03.02.24` | The generalised Poincaré conjecture in high dimensions | P? | milnor-h-cobordism |
-| 3 | `03.02.28` | Pointer: surgery theory and the surgery exact sequence | P? | milnor-h-cobordism |
-| 4 | `03.15.06` | The Morse complex and $\partial^2 = 0$ | P? | schwarz-morse-homology |
-| 5 | `03.15.07` | Continuation maps and invariance of $HM_*$ | P? | schwarz-morse-homology |
-| 6 | `03.15.08` | The Morse Homology Theorem | P? | schwarz-morse-homology |
-| 7 | `03.15.09` | Morse cohomology, cup product, and the ring structure | P? | schwarz-morse-homology |
-| 8 | `03.15.12` | Witten's supersymmetric Morse theory (survey/pointer) | P? | schwarz-morse-homology |
+| 1 | `03.02.24` | The generalised Poincaré conjecture in high dimensions | P? | milnor-h-cobordism |
+| 2 | `03.02.28` | Pointer: surgery theory and the surgery exact sequence | P? | milnor-h-cobordism |
+| 3 | `03.15.08` | The Morse Homology Theorem | P? | schwarz-morse-homology |
+| 4 | `03.15.09` | Morse cohomology, cup product, and the ring structure | P? | schwarz-morse-homology |
+| 5 | `03.15.12` | Witten's supersymmetric Morse theory (survey/pointer) | P? | schwarz-morse-homology |
 
 ## Audits completed
 
