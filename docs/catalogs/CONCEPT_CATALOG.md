@@ -3683,6 +3683,16 @@ Before adding a concept to the catalog:
   - beginner: the eight allowed vertices, the broken arrow-conservation, the new weight $d$
 - **notes**: Baxter's exact solution of the eight-vertex model — the apex of the exactly-solved-models chapter and the origin of the commuting-transfer-matrix / star–triangle programme. The model relaxes the ice rule to the even rule (an even number of in-arrows), admitting two extra vertices of weight $d$; arrow number is no longer conserved, so the Bethe ansatz of `08.13.02` fails and Baxter instead diagonalises the transfer matrix via a commuting family and the matrix functional equation $T(u)Q(u)=\phi(u-\eta)Q(u+2\eta)+\phi(u+\eta)Q(u-2\eta)$ ($TQ$ relation), with an elliptic-theta parametrisation of the weights. Central results: free energy by the inversion relation; continuously varying (non-universal) critical exponents controlled by the crossing parameter, the integrable counterexample to universality; the free-fermion and Ising decoupling points. Originator-prose carrier: Baxter 1971, 1972. Apex unit of the `08.13` chapter atop `08.13.01` and `08.13.02`; laterally references the theta functions of `06.06.05`.
 
+### stat-mech.corner-transfer-matrix
+
+- **title**: The corner transfer matrix
+- **prerequisites**: `08.03.02`, `08.13.01`
+- **tier_anchors**:
+  - master: Baxter Ch. 13; Baxter 1976 J. Stat. Phys. 15:485; Baxter 1978 J. Stat. Phys. 19:461
+  - intermediate: the corner transfer matrix as a partial partition function; the variational / star–triangle property; the geometric (equally-spaced) spectrum
+  - beginner: the partition function as a product of four corner transfer matrices; why corners reach the order parameter
+- **notes**: Baxter's signature method for computing order parameters. The square-lattice partition function factorises as $Z=\operatorname{tr}(ABCD)$, the trace of a product of four corner transfer matrices, each summing the Boltzmann weights of one quadrant with the boundary spins held fixed. For solvable (star–triangle) weights the corner transfer matrix has the form $A(u)=\exp(-uH_{\mathrm{CTM}})$ with a spectral-parameter-linear exponent, so its spectrum is an arithmetic progression and the diagonalised product becomes a single geometric series in $x=e^{-\epsilon}$. This delivers the spontaneous magnetisation $M=(1-k^{-2})^{1/8}$ of the Ising model and the eight-vertex / hard-hexagon order parameters that the row transfer matrix cannot easily reach. Originator-prose carrier: Baxter 1976–78. The geometric CTM spectrum is the seed of the matrix-product-state / DMRG / corner-transfer-matrix-RG connection. Builds on `08.03.02` (transfer matrix) and `08.13.01` (star–triangle); supplies the order-parameter tool for `08.13.03` (eight-vertex) and downstream hard-hexagon.
+
 ### stat-mech.real-space-rg
 
 - **title**: Renormalisation group (real-space block decimation)
@@ -4277,6 +4287,17 @@ Before adding a concept to the catalog:
   - beginner: Krantz Ch. 2 informal; Range Ch. III intro
 - **notes**: Several-complex-variables geometric convexity. Three equivalent notions: Hartogs pseudoconvexity ($-\log d(z,\partial\Omega)$ plurisubharmonic), existence of a continuous PSH exhaustion, and (for $C^2$ boundary) Levi pseudoconvexity — the Levi form $\sum_{j,k} \partial^2\rho/\partial z_j\partial\bar z_k\, w_j\bar w_k \ge 0$ on the complex tangent space of a defining function $\rho$. The easy half of the Levi problem: every domain of holomorphy is pseudoconvex. Builds on `06.10.02` (PSH) and `06.10.01` (holomorphic convexity); feeds the $\bar\partial$ $L^2$-theory and the full Levi problem.
 
+### complex-analysis.dbar-l2-estimates
+
+- **title**: The $\bar\partial$-equation and Hörmander's $L^2$ estimates
+- **unit**: `06.10.04`
+- **prerequisites**: `complex-analysis.plurisubharmonic-functions`, `complex-analysis.pseudoconvexity-levi-form`, `complex-analysis.domains-of-holomorphy`, `complex-analysis.dbar-hilbert-pde`
+- **tier_anchors**:
+  - master: Hörmander 1965 Acta Math. 113 (originator); Kohn 1963/64; Morrey 1958; Andreotti–Vesentini 1965; Krantz Ch. 4; Hörmander §4.2
+  - intermediate: Krantz §4.2; Hörmander Ch. 4
+  - beginner: Krantz Ch. 4 informal
+- **notes**: The analytic engine of the several-complex-variables chapter. Solvability of the inhomogeneous Cauchy–Riemann equation $\bar\partial u = f$ (with $\bar\partial f = 0$) on a pseudoconvex domain, in the weighted Hilbert space $L^2(\Omega, e^{-\varphi})$ against a strictly plurisubharmonic weight $\varphi$. The Hörmander a-priori estimate $\int|f|^2 e^{-\varphi} \le \int (\sum_{j,k}\varphi_{j\bar k} f_j\bar f_k)^{-1}(\dots)$, derived from the Bochner–Kodaira–Morrey–Kohn basic identity, plus the functional-analytic existence step (Riesz representation on the range of $\bar\partial^*$). The $n=1$ ancestor is `06.04.05`; the chief application is the Levi problem `06.10.05` and the Oka–Cartan theory. Builds on `06.10.02` (PSH weights) and `06.10.03` (pseudoconvexity).
+
 ### complex-analysis.levi-problem
 
 - **title**: Solution of the Levi problem
@@ -4287,6 +4308,17 @@ Before adding a concept to the catalog:
   - intermediate: Krantz §4.2; Hörmander §4.2; Range Ch. IV
   - beginner: Krantz Ch. 4 informal; Range Ch. IV intro
 - **notes**: The structural centrepiece of several-complex-variables theory: every pseudoconvex domain in $\mathbb{C}^n$ is a domain of holomorphy, closing the equivalence chain domain of holomorphy ⟺ holomorphically convex ⟺ pseudoconvex (Cartan–Thullen + Oka–Bremermann–Norguet). The Hörmander $L^2$ proof — local Levi-polynomial peak $1/h$, cut-off, $\bar\partial$-correction against a singular plurisubharmonic weight, globalise — mechanises the original Oka coherence argument. Builds on `06.10.01` (holomorphic convexity), `06.10.02` (PSH weights), `06.10.03` (pseudoconvexity / Levi form), and the $\bar\partial$ $L^2$-theory of `06.10.04`; generalises to Grauert's Stein-manifold theorem.
+
+### complex-analysis.bochner-martinelli-kernel
+
+- **title**: Bochner-Martinelli kernel and formula
+- **unit**: `06.10.06`
+- **prerequisites**: `complex-analysis.holomorphic-several-variables`, `complex-analysis.plurisubharmonic-functions`, `complex-analysis.domains-of-holomorphy`
+- **tier_anchors**:
+  - master: Martinelli 1938 / Bochner 1943 (Ann. Math. 44) (originators); Krantz Ch. 1, Ch. 5; Range Ch. IV; Aizenberg-Yuzhakov
+  - intermediate: Krantz §1.3, §5.1; Range Ch. IV; Hörmander §1.2
+  - beginner: Krantz Ch. 1 informal; Range Ch. IV intro
+- **notes**: The first several-variable reproducing kernel — the unique $\bar\partial$-closed-off-diagonal $(n,n-1)$-form whose boundary integral reproduces $C^1$ functions on a domain in $\mathbb{C}^n$. Unlike the Cauchy kernel of one variable it is not holomorphic in $z$ for $n\geq 2$, but the correction term is a $\bar\partial$ solution operator. The Bochner-Martinelli-Koppelman formula adds a solid-integral term involving $\bar\partial u$. Corollaries: Hartogs extension across compact holes (feeds `06.07.02`), the Bochner-Severi removable-singularity / CR-extension theorems. Pure-kernel precursor to the Cauchy-Fantappiè machine of `06.10.07`. Builds on `06.07.01` (multi-index Cauchy calculus), `06.10.02` (PSH for the extension geometry), `06.10.01` (domains of holomorphy).
 
 ### complex-analysis.hartogs-phenomenon
 
@@ -11901,3 +11933,14 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
   - intermediate: Bishop — Group Theory and Chemistry, Ch. 6–7; Tinkham — Group Theory and Quantum Mechanics, Ch. 4
   - beginner: Cotton — Chemical Applications of Group Theory, Ch. 6; Crash Course Chemistry — IR spectroscopy
 - **notes**: The 3N Cartesian displacement representation of an N-atom molecule under its point group, the geometric character formula chi(R) = N_unmoved(R)(±1 + 2 cos theta_R), reduction into normal-mode symmetry species via the orthogonality reduction formula, subtraction of translations and rotations, and the totally-symmetric-component selection rule for transition-moment integrals giving IR (transforms as x,y,z) and Raman (transforms as quadratics) activity. Worked H2O (C2v) and CO2 (Dinfh, mutual exclusion) reductions; SALC projection and FG-matrix block-diagonalisation; symmetric-square treatment of overtones. Originator chain: Bethe 1929, Wigner 1931, Wilson-Decius-Cross 1955, Sternberg 1994.
+
+### rep-theory.crystallographic-point-groups-space-groups-restriction
+
+- **title**: Crystallographic point groups, space groups, and the crystallographic restriction theorem
+- **unit**: `07.07.08`
+- **prerequisites**: `group-theory.group-action-orbit-stabiliser` (01.02.03), `representation-theory.group-representation` (07.01.01), `representation-theory.character` (07.01.03), `representation-theory.compact-lie-group-representation` (07.07.01), `chemistry.symmetry-group-theory-chemistry` (16.02.01)
+- **tier_anchors**:
+  - master: Sternberg — Group Theory and Physics, §4; Hahn (ed.) — International Tables for Crystallography Vol. A; Hiller 1986 (cohomology of crystallographic groups)
+  - intermediate: Sternberg — Group Theory and Physics, §4; Tinkham — Group Theory and Quantum Mechanics, §9
+  - beginner: Sternberg — Group Theory and Physics, §1.6 and §4 informal opening on lattices
+- **notes**: Crystallographic groups as discrete subgroups S of E(n) with full-rank translation lattice T and finite point group P = S/T, the defining extension 1 -> T -> S -> P -> 1. The crystallographic restriction theorem: a lattice automorphism of finite order in dimension 2 or 3 has order in {1,2,3,4,6}, proved by integrality of the trace of the point-group operation in a Z-basis (tr = ±1 + 2 cos theta in Z forces cos theta in {-1,-1/2,0,1/2,1}, excluding fivefold symmetry). The 32 crystallographic point groups (crystal classes), 7 crystal systems, 14 Bravais lattices, 73 arithmetic crystal classes / symmorphic groups, and the count 230 space groups (157 non-symmorphic, classified by H^2(P;T): screw axes and glide planes). Bieberbach's theorems (finite-index translation lattice, finiteness up to affine conjugacy; Hilbert's 18th problem) and the Zassenhaus algorithm. Quasicrystals (Shechtman 1982) as the aperiodic escape. Originator chain: Bravais 1850, Fedorov / Schoenflies 1891, Bieberbach 1911-12, Zassenhaus 1948, Sternberg 1994.
