@@ -13835,3 +13835,238 @@ The $\bar\partial$-Neumann boundary-value problem for the complex Laplacian $\Bo
   - intermediate: Conway-Smith 2003 Ch. 6-7; Springer-Veldkamp 2000 Ch. 1; Baez 2002 *The octonions* (Bull. AMS 39) §1-2
   - beginner: Baez 2002 §1-2 (the doubling ladder, the Fano plane); Stillwell *Naive Lie Theory* Ch. 1-2
 - **notes**: stub - see unit `07.06.29` for full prerequisites, tier anchors, and bibliography. A composition algebra is a unital algebra over a field with a non-degenerate multiplicative quadratic norm $N(xy)=N(x)N(y)$; polarising gives the bilinear pairing $\langle x,y\rangle$ and conjugation $\bar x = 2\langle x,1\rangle 1 - x$ with $x\bar x = N(x)1$, so a positive-definite real composition algebra is a division algebra with $x^{-1}=\bar x/N(x)$. The Cayley-Dickson doubling $A'=A\oplus A$, $(a,b)(c,d)=(ac-\bar d b, da+b\bar c)$, $N(a,b)=N(a)+N(b)$, builds the ladder $\mathbb{R}\to\mathbb{C}\to\mathbb{H}\to\mathbb{O}$ of dimensions $1,2,4,8$, shedding ordering, commutativity, then associativity; the fifth doubling (sedenions, dim 16) has zero divisors and breaks $N(xy)=N(x)N(y)$. Hurwitz's theorem (1898): the only positive-definite real composition (= normed division) algebras are $\mathbb{R},\mathbb{C},\mathbb{H},\mathbb{O}$; the doubling lemma's composition check is identically an associativity check, so non-associativity at $\mathbb{O}$ halts the tower. The octonions are alternative (associator $[x,y,z]=(xy)z-x(yz)$ alternating; Artin: any two elements generate an associative subalgebra) and satisfy the Moufang identities. Frobenius's theorem (1878) as a corollary: the only associative real division algebras are $\mathbb{R},\mathbb{C},\mathbb{H}$. $\mathrm{Aut}(\mathbb{O})=G_2$ (dim 14) with $\mathrm{Der}(\mathbb{O})=\mathfrak{g}_2$ acting on the 7-dim imaginary part (`07.06.26`); the norm form on $\mathbb{O}\cong\mathbb{R}^8$ ties to triality and $\mathrm{Spin}(8)$ (`03.09.13`). Split companions $\mathbb{C}_s,\mathbb{H}_s\cong M_2(\mathbb{R}),\mathbb{O}_s$ are composition but not division algebras. Lean status none: Mathlib lacks a composition-algebra typeclass, the Cayley-Dickson functor, the alternative/Moufang infrastructure, and the octonion instance, so neither Hurwitz nor Frobenius is formalised.
+
+### complex-analysis.exercise-packs.ahlfors-ch1-4
+
+- **title**: Complex analysis exercise pack I (Ahlfors Ch. 1-4 supplement)
+- **unit**: `06.01.E1`
+- **notes**: stub - see unit `06.01.E1`. Exercise pack supplementing the first half of Ahlfors: holomorphy and the Cauchy-Riemann equations, conformal and Mobius maps, power/Laurent series, Cauchy's theorem and integral formula, and the contour-integration toolkit (residue warm-ups). Single-tier intermediate pack; no Lean formalisation.
+
+### complex-analysis.exercise-packs.ahlfors-ch5-8
+
+- **title**: Complex analysis exercise pack II (Ahlfors Ch. 5-8 supplement)
+- **unit**: `06.01.E2`
+- **notes**: stub - see unit `06.01.E2`. Exercise pack supplementing the second half of Ahlfors: residue evaluation of real integrals, the argument principle and Rouche, harmonic functions, the Riemann mapping theorem, analytic continuation and monodromy, infinite products and the gamma function. Single-tier intermediate pack; no Lean formalisation.
+
+### complex-analysis.exercise-packs.krantz-scv
+
+- **title**: Several complex variables exercise pack (Krantz supplement)
+- **unit**: `06.10.E1`
+- **notes**: stub - see unit `06.10.E1`. Exercise pack supplementing Krantz: domains of holomorphy and holomorphic convexity, pseudoconvexity and the Levi form, the Hartogs extension phenomenon, the dbar-equation and Hormander L2 estimates, and the Bergman kernel and metric. Single-tier intermediate pack; no Lean formalisation.
+
+### topology.exercise-packs.brown-topology-groupoids
+
+- **title**: Point-set topology and the fundamental groupoid exercise pack (Brown, Topology and Groupoids supplement)
+- **unit**: `02.01.E1`
+- **prerequisites**: `topology.topological-space`, `topology.quotient-topology`, `topology.fundamental-group`, `topology.fundamental-groupoid`, `topology.seifert-van-kampen`, `topology.covering-space`
+- **tier_anchors**:
+  - intermediate: Brown, Topology and Groupoids (3rd ed.), exercises across point-set topology, identification spaces, fundamental group/groupoid, Seifert-van Kampen (groupoid form), and covering spaces
+- **notes**: stub - see unit `02.01.E1`. Eleven exercises supplementing Brown: open/closed sets and continuity, compactness and connectedness, quotient/identification topology (universal property, cones), the fundamental group and groupoid, the Seifert-van Kampen theorem in its groupoid form (with the circle showing why the groupoid version needs no connectivity hypothesis), and covering spaces (lifting criterion, Galois correspondence, classification of double covers of the figure-eight). Distribution: 3 easy / 5 medium / 3 hard. Each exercise carries a hint and full solution in `<details>` blocks. Single-tier intermediate pack; no Lean formalisation.
+
+### foundations.exercise-packs.algebra-number-systems
+
+- **title**: Algebra and number-systems exercise pack (Lang Basic Mathematics Part I-II supplement)
+- **unit**: `00.01.E1`
+- **prerequisites**: `foundations.real-numbers`, `foundations.absolute-value`, `foundations.polynomials`, `foundations.quadratic-formula`, `foundations.inequalities`
+- **tier_anchors**:
+  - intermediate: Lang, Basic Mathematics, Part I (Algebra, Ch. 1-5) and Part II exercise sets
+- **notes**: Ten exercises supplementing Lang Part I-II — field and order axioms, absolute value and the triangle inequality, the discriminant, sign-chart inequalities, AM-GM, density of the rationals, the Euclidean algorithm with Bezout, the rational-root test, and irrationality proofs ($\sqrt{2}$, $\sqrt{2}+\sqrt{3}$). Distribution: 3 easy / 4 medium / 3 hard. Each carries a hint and a full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### foundations.exercise-packs.functions-trig-coordinate-geometry
+
+- **title**: Functions, trigonometry, and coordinate-geometry exercise pack (Lang Basic Mathematics Part III-V supplement)
+- **unit**: `00.03.E1`
+- **prerequisites**: `set-theory.function`, `foundations.linear-equations-line`, `foundations.right-triangle-trig`, `foundations.unit-circle-trig`, `foundations.trig-identities`, `foundations.cartesian-coordinates`, `foundations.conic-sections`
+- **tier_anchors**:
+  - intermediate: Lang, Basic Mathematics, Part III (Coordinate Geometry, Ch. 9-13), Part IV (Functions, Ch. 14), Part V (Trigonometry, Ch. 16-19) exercise sets
+- **notes**: Ten exercises supplementing Lang Part III-V — lines through two points and perpendicular-slope condition, composition and inverse of affine maps, circle-line intersection, the ellipse from the focus-sum definition, special-angle values, the rotation-matrix derivation of the addition formulas, $\cos 3x$ as a Chebyshev cubic, trigonometric equations on the unit circle, and sum-to-product. Distribution: 3 easy / 4 medium / 3 hard. Each carries a hint and a full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### classical-mechanics.exercise-packs.lagrangian
+
+- **title**: Lagrangian and variational mechanics exercise pack (Arnold Part II supplement)
+- **unit**: `05.00.E1`
+- **prerequisites**: `classical-mechanics.lagrangian-on-tm`, `classical-mechanics.hamilton-principle`, `classical-mechanics.legendre-transform`, `classical-mechanics.noether-theorem`
+- **tier_anchors**:
+  - intermediate: Arnold *Mathematical Methods of Classical Mechanics* Part II exercises (§12-§20); Goldstein *Classical Mechanics* Ch. 1-2 problems
+- **notes**: Nine exercises (3 easy / 4 medium / 2 hard) on the Lagrangian side of Arnold Part II: deriving Euler-Lagrange from Hamilton's principle, conserved energy and cyclic-momentum integrals, the Legendre transform of a hyper-regular Lagrangian and its involutivity, Noether's theorem (rotational symmetry to angular momentum, and the divergence-term form for boosts), the brachistochrone, and geodesic flow as a Lagrangian system. Each exercise carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### classical-mechanics.exercise-packs.hamiltonian
+
+- **title**: Hamiltonian mechanics and canonical transformations exercise pack (Arnold Part III supplement)
+- **unit**: `05.02.E1`
+- **prerequisites**: `symplectic-geometry.poisson-bracket`, `classical-mechanics.hamilton-jacobi`, `symplectic-geometry.action-angle-coordinates`
+- **tier_anchors**:
+  - intermediate: Arnold *Mathematical Methods of Classical Mechanics* Part III exercises (§37-§48); Goldstein *Classical Mechanics* Ch. 8-10 problems
+- **notes**: Nine exercises (2 easy / 4 medium / 3 hard) on Arnold Part III: Hamilton's equations from the Legendre transform, fundamental Poisson brackets and the evolution identity, Poisson's theorem via the Jacobi identity, canonicity tests, the four generating-function types (with the $S_1=qQ$ coordinate-momentum swap and the $S_2$ cotangent lift), Liouville volume preservation, and Hamilton-Jacobi separation of variables for the harmonic oscillator and the Kepler problem, closing with the flow-is-symplectomorphism Cartan argument. Each exercise carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### classical-mechanics.exercise-packs.integrable
+
+- **title**: Symplectic geometry and integrable systems exercise pack (Arnold Part III appendices supplement)
+- **unit**: `05.09.E1`
+- **prerequisites**: `symplectic-geometry.action-angle-coordinates`, `symplectic-geometry.moment-map`, `symplectic-geometry.lagrangian-submanifold`
+- **tier_anchors**:
+  - intermediate: Arnold *Mathematical Methods of Classical Mechanics* §49-§50 + Appendices 3, 5; Cannas da Silva *Lectures on Symplectic Geometry* §22-§27
+- **notes**: Nine exercises (2 easy / 4 medium / 3 hard) on symplectic geometry and integrability: verifying the standard form is symplectic, graph-of-$df$ Lagrangian submanifolds, moment maps for $S^1$ and general $G$ actions (with the bracket-preserving equivariance identity), Poisson-commuting integrals for separable systems, action variables as enclosed area, the Liouville-Arnold theorem (compact level set to torus, Liouville tori are Lagrangian, action-angle linearises the flow), and the Moser-trick Darboux uniqueness. Each exercise carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+
+### ode.exercise-packs.qualitative-theory
+
+- **title**: Qualitative theory of ODEs exercise pack (Arnold Ch. 2-3 supplement)
+- **unit**: `02.12.E1`
+- **prerequisites**: `02.12.01` (phase space / vector field), `02.12.02` (phase flow), `02.12.05` (rectification), `02.12.08` (Lyapunov stability), `02.12.10` (Poincaré-Bendixson), `02.12.12` (first integrals), `02.06.03` (linear systems / matrix exponential)
+- **tier_anchors**:
+  - intermediate: Arnold *Ordinary Differential Equations* Ch. 2 §§7-8 and Ch. 3 §§12-13, §§19-23 exercises
+- **notes**: Nine exercises (3 easy / 4 medium / 2 hard) on phase portraits, equilibria and stability, linearization and the trace-determinant plane, the phase flow as a one-parameter group, the rectification (flow-box) theorem, first integrals, and Lyapunov direct-method stability. Each carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, `lean_status: none`.
+
+### measure-theory.exercise-packs.geometric-measure-theory
+
+- **title**: Geometric measure theory exercise pack (Whitney / Federer Ch. 2-3 supplement)
+- **unit**: `02.07.E1`
+- **prerequisites**: `02.07.02` (Hausdorff/outer measure), `02.07.09` (Whitney extension), `02.07.10` (Rademacher), `02.07.11` (area and coarea formulas)
+- **tier_anchors**:
+  - intermediate: Whitney *Geometric Integration Theory* Ch. II-III; Evans-Gariepy §2-3 exercises
+- **notes**: Ten exercises (3 easy / 4 medium / 3 hard) on Hausdorff measure and dimension, Lipschitz functions and Rademacher's theorem, the area and coarea formulas, and rectifiable sets (approximate tangent planes, Besicovitch-Federer projection). Each carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, `lean_status: none`.
+
+### pde.exercise-packs.currents-and-integration
+
+- **title**: Integration and currents exercise pack (Whitney Ch. I, IX, XI supplement)
+- **unit**: `02.13.E1`
+- **prerequisites**: `02.13.05` (Whitney deformation), `02.13.07` (rectifiable currents), `02.13.11` (slicing), `02.07.09` (Whitney extension), `03.04.02` (differential forms), `03.04.04` (exterior derivative), `03.04.05` (Stokes' theorem)
+- **tier_anchors**:
+  - intermediate: Whitney *Geometric Integration Theory* Ch. I, IX-X, XI; Federer §4.1 exercises
+- **notes**: Nine exercises (2 easy / 4 medium / 3 hard) on exterior forms and the wedge product, mass / flat / sharp norms, the boundary operator dual to d, Stokes' theorem for flat chains, the constancy theorem, and the Whitney extension theorem. Each carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, `lean_status: none`.
+
+### linalg.exercise-packs.apostol-vol2-ch1-5
+
+- **title**: Linear algebra exercise pack (Apostol Vol. 2 Ch. 1-5 supplement)
+- **unit**: `01.01.E1`
+- **prerequisites**: `linalg.subspace-basis-dimension`, `linalg.linear-transformation-rank-nullity`, `linalg.determinant`, `linalg.eigenvalue-eigenvector`, `linalg.gram-schmidt-inner-product-space`
+- **tier_anchors**:
+  - intermediate: Apostol Vol. 2 Ch. 1-5 exercises (linear spaces, linear transformations, determinants, eigenvalues, Euclidean-space spectral theory)
+- **notes**: Ten exercises (3 easy / 4 medium / 3 hard) across Apostol Vol. 2 Chapters 1-5 — Grassmann dimension formula, evaluation-map rank-nullity, triangular and Vandermonde determinants, diagonalisation, independence of eigenvectors for distinct eigenvalues, Gram-Schmidt, real symmetric eigenstructure, and $2\times2$ Cayley-Hamilton. Each problem carries a hint and full worked solution in `<details>` blocks. Exercise-pack-only unit type: `tiers_present: [intermediate]`, `lean_status: none`, no Lean infrastructure.
+
+### analysis.exercise-packs.apostol-vol2-ch8-9
+
+- **title**: Multivariable calculus exercise pack (Apostol Vol. 2 Ch. 8-9 supplement)
+- **unit**: `02.05.E1`
+- **prerequisites**: `analysis.multivariable-chain-rule`, `analysis.implicit-inverse-function-theorems`, `analysis.multivariable-taylor-extrema`
+- **tier_anchors**:
+  - intermediate: Apostol Vol. 2 Ch. 8-9 exercises (partial derivatives, chain rule, Jacobians, extrema, Lagrange multipliers, implicit/inverse function theorems)
+- **notes**: Nine exercises (3 easy / 4 medium / 2 hard) across Apostol Vol. 2 Chapters 8-9 — gradients and directional derivatives, polar Jacobian, partials-without-differentiability counterexample, chain rule in a coordinate change, Hessian classification of critical points, implicit and inverse function theorem applications, Lagrange multipliers, and a degenerate-Hessian local minimum. Each problem carries a hint and full worked solution in `<details>` blocks. Exercise-pack-only unit type: `tiers_present: [intermediate]`, `lean_status: none`.
+
+### analysis.exercise-packs.apostol-vol2-ch6-7
+
+- **title**: Ordinary differential equations exercise pack (Apostol Vol. 2 Ch. 6-7 supplement)
+- **unit**: `02.06.E1`
+- **prerequisites**: `analysis.nth-order-linear-ode`, `analysis.systems-linear-ode-matrix-exponential`, `analysis.first-order-linear-separable-ode`, `analysis.second-order-linear-ode-constant-coeff`
+- **tier_anchors**:
+  - intermediate: Apostol Vol. 2 Ch. 6-7 exercises (first-order linear/separable ODEs, constant-coefficient equations, the Wronskian, systems and the matrix exponential, series solutions)
+- **notes**: Ten exercises (3 easy / 4 medium / 3 hard) across Apostol Vol. 2 Chapters 6-7 — integrating factor, separable blow-up, characteristic polynomial with distinct and repeated roots, resonance via undetermined coefficients, Abel's Wronskian identity, matrix exponential by diagonalisation and for a defective Jordan block, the Airy power-series solution, and reduction of a second-order equation to a first-order system with uniqueness. Each problem carries a hint and full worked solution in `<details>` blocks. Exercise-pack-only unit type: `tiers_present: [intermediate]`, `lean_status: none`.
+
+### analysis.exercise-packs.apostol-vol2-ch10-12
+
+- **title**: Vector calculus exercise pack (Apostol Vol. 2 Ch. 10-12 supplement)
+- **unit**: `02.10.E1`
+- **prerequisites**: `analysis.surface-integral-parametric-surfaces`, `diffgeo.stokes-theorem`, `diffgeo.surface-integrals-2-forms-flux`, `diffgeo.closed-exact-forms-poincare-lemma`
+- **tier_anchors**:
+  - intermediate: Apostol Vol. 2 Ch. 10-12 exercises (line integrals, conservative fields, multiple integrals and change of variables, surface integrals, Green/Stokes/divergence theorems)
+- **notes**: Ten exercises (3 easy / 4 medium / 3 hard) across Apostol Vol. 2 Chapters 10-12 — line integrals, conservative-field potentials, polar/spherical multiple integrals, Green's theorem area, flux through paraboloid, the curl-free-but-not-conservative angular field on the punctured plane, Stokes verification on a triangle, change of variables with a $2\times2$ Jacobian, and $\nabla\cdot(\nabla\times\mathbf{F})=0$ with its flux consequence. Each problem carries a hint and full worked solution in `<details>` blocks. Exercise-pack-only unit type: `tiers_present: [intermediate]`, `lean_status: none`.
+
+### alg-geom.exercise-packs.cohomology
+
+- **title**: Cohomology of schemes exercise pack (Hartshorne Ch. III supplement)
+- **unit**: `04.03.E1`
+- **prerequisites**: `04.03.01` (sheaf cohomology), `04.03.03` (Čech cohomology on schemes), `04.03.04` (cohomology of projective space), `04.03.05` (Serre vanishing/finiteness), `04.03.06` (derived functors and Ext), `04.03.07` (higher direct images), `04.08.03` (Serre duality), `04.02.05` (smooth/étale/unramified morphisms)
+- **tier_anchors**:
+  - intermediate: Hartshorne Ch. III exercises (§III.2, §III.4, §III.5, §III.7, §III.8, §III.9, §III.10)
+- **notes**: Nine exercises supplementing Chapter III of Hartshorne — affine vanishing (Serre's criterion), $H^1$ of the punctured affine plane via Čech, Euler characteristic of twisted ideal sheaves and the genus-degree formula, the dualizing sheaf $\omega_{\mathbb{P}^n}=\mathcal{O}(-n-1)$, Grothendieck dimension vanishing, constancy of the Hilbert polynomial in flat families, Serre duality on curves, Grauert's base-change/local-freeness theorem, and the relative cotangent sequence for smooth morphisms. Distribution: 2 easy / 4 medium / 3 hard. Each carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### alg-geom.exercise-packs.curves
+
+- **title**: Curves exercise pack (Hartshorne Ch. IV supplement)
+- **unit**: `04.04.E1`
+- **prerequisites**: `04.04.01` (Riemann-Roch for curves), `04.04.02` (Hurwitz formula), `04.04.03` (elliptic curves), `04.08.02` (canonical sheaf), `04.08.03` (Serre duality), `04.05.05` (ample/very ample line bundle)
+- **tier_anchors**:
+  - intermediate: Hartshorne Ch. IV exercises (§IV.1, §IV.2, §IV.3, §IV.4, §IV.5)
+- **notes**: Nine exercises supplementing Chapter IV of Hartshorne — genus from the canonical degree, Riemann-Roch for generic divisors, Riemann-Hurwitz for hyperelliptic double covers ($2g+2$ branch points), the $j$-invariant and isomorphism classes of elliptic curves, genus of $(a,b)$-curves on a quadric ($(a-1)(b-1)$), the canonical embedding for non-hyperelliptic curves, the plane-cubic model of a genus-1 curve and the group law, the genus-2 hyperelliptic classification, and genus-0 curves as $\mathbb{P}^1$. Distribution: 2 easy / 4 medium / 3 hard. Each carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### alg-geom.exercise-packs.surfaces
+
+- **title**: Surfaces exercise pack (Hartshorne Ch. V supplement)
+- **unit**: `04.05.E1`
+- **prerequisites**: `04.05.06` (intersection pairing), `04.05.07` (adjunction formula), `04.05.08` (Riemann-Roch for surfaces), `04.05.09` (Hodge index theorem), `04.05.05` (ample/very ample line bundle), `04.07.02` (blowup), `04.05.02` (Picard group)
+- **tier_anchors**:
+  - intermediate: Hartshorne Ch. V exercises (§V.1, §V.2, §V.3, §V.4)
+- **notes**: Nine exercises supplementing Chapter V of Hartshorne — intersection numbers on $\mathbb{P}^1\times\mathbb{P}^1$, self-intersection of the exceptional curve ($E^2=-1$), strict-transform self-intersection drop ($C^2-m^2$), adjunction on $\mathbb{P}^2$ recovering the genus-degree formula, surface Riemann-Roch, the Hodge index theorem (signature $(1,\rho-1)$), the cubic surface as $\mathrm{Bl}_6\mathbb{P}^2$ with $K^2=3$, the 27 lines and their $E_6$ symmetry, and Castelnuovo's $(-1)$-curve criterion. The Nakai-Moishezon criterion is the worked lead example. Distribution: 2 easy / 4 medium / 3 hard. Each carries a hint and full solution in `<details>` blocks. Exercise-pack-only unit type — slimmed frontmatter with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### diffgeo.morse-homology.exercise-packs.schwarz
+
+- **title**: Morse homology exercise pack (Schwarz Morse Homology supplement)
+- **unit**: `03.15.E1`
+- **notes**: stub - see unit `03.15.E1`. Exercise pack supplementing Schwarz, Morse Homology, Parts I-II: Morse functions and indices, the trajectory moduli and the Fredholm dimension count $\mu(x)-\mu(y)$, the Morse-Smale-Witten boundary operator and $\partial^2=0$, the Morse inequalities, and explicit computation of $HM_*$ for $S^n$, $T^2$, $\mathbb{C}P^n$, and $\mathbb{R}P^2$. Single-tier intermediate pack; no Lean formalisation.
+
+### diffgeo.de-rham.exercise-packs.forms-stokes
+
+- **title**: Differential forms and Stokes exercise pack (Shifrin / Arnold supplement)
+- **unit**: `03.04.E2`
+- **notes**: stub - see unit `03.04.E2`. Exercise pack supplementing Shifrin Ch. 8 and Arnold-Falk-Winther: exterior algebra and the wedge product, pullback and its commutation with $d$, the generalized Stokes theorem and its classical specializations (Green / Kelvin-Stokes / divergence), de Rham cohomology of the punctured plane and the torus, the Poincaré lemma, and the polynomial (Koszul) de Rham complex bridging to FEEC. Single-tier intermediate pack; no Lean formalisation.
+
+### numerical-pde.feec.exercise-packs.arnold-falk-winther
+
+- **title**: Finite element exterior calculus exercise pack (Arnold-Falk-Winther supplement)
+- **unit**: `24.04.E1`
+- **notes**: stub - see unit `24.04.E1`. Exercise pack supplementing Arnold-Falk-Winther FEEC: the polynomial differential-form spaces $\mathcal{P}_r\Lambda^k$ and $\mathcal{P}_r^-\Lambda^k$ and their dimension counts, the Koszul operator and the polynomial Poincaré lemma, the discrete de Rham subcomplex, the bounded commuting projection, the discrete Hodge decomposition, and the inf-sup stability and spectral correctness of mixed methods for the Hodge Laplacian. Single-tier intermediate pack; no Lean formalisation.
+
+### rep-theory.exercise-packs.fulton-harris
+
+- **title**: Lie-group and Lie-algebra representation exercise pack (Fulton-Harris supplement)
+- **unit**: `07.05.E1`
+- **notes**: stub - see unit `07.05.E1`. Exercise pack supplementing Fulton-Harris: sl_2 and sl_3 representations and the Clebsch-Gordan rule, weights and roots, the Weyl character and dimension formulae, Schur-Weyl duality, and Young symmetrizers with the hook-length formula. Single-tier intermediate pack; no Lean formalisation.
+
+### rep-theory.exercise-packs.serre-finite-groups
+
+- **title**: Finite-group representation exercise pack (Serre Linear Representations supplement)
+- **unit**: `07.02.E1`
+- **notes**: stub - see unit `07.02.E1`. Exercise pack supplementing Serre's Linear Representations of Finite Groups: characters and orthogonality, the regular representation, induced representations and the induced-character formula, Frobenius reciprocity and Mackey's criterion, and representations of S_n and small groups. Single-tier intermediate pack; no Lean formalisation.
+
+### rep-theory.exercise-packs.serre-lie-algebras
+
+- **title**: Lie algebra structure exercise pack (Serre Lie Algebras and Lie Groups supplement)
+- **unit**: `07.06.E2`
+- **notes**: stub - see unit `07.06.E2`. Exercise pack supplementing Serre's Lie Algebras and Lie Groups: nilpotent/solvable Lie algebras, the Engel and Lie theorems, the Killing form and Cartan's criterion, the Campbell-Baker-Hausdorff formula, and free Lie algebras with the Hall basis. Single-tier intermediate pack; no Lean formalisation.
+
+### homotopy.singular-cw.exercise-pack
+
+- **title**: Singular and cellular homology exercise pack (Hatcher Ch. 2 supplement)
+- **unit**: `03.12.E2`
+- **prerequisites**: `03.12.11` (singular homology), `03.12.12` (simplicial homology), `03.12.13` (cellular homology), `03.12.14` (excision), `03.12.15` (Eilenberg-Steenrod axioms), `03.12.18` (universal coefficient theorem), `03.12.19` (Hurewicz theorem), `03.12.10` (CW complex), `03.12.23` (Euler characteristic)
+- **tier_anchors**:
+  - intermediate: Hatcher, Algebraic Topology, Ch. 2 exercises (§2.1, §2.2, §2.C)
+- **notes**: Ten exercises supplementing Hatcher Chapter 2. Distribution: 3 easy / 4 medium / 3 hard. Covers cellular homology of $\mathbb{R}P^n$, $\mathbb{C}P^n$, lens spaces $L(p;q)$, and Moore spaces; degree of self-maps of $S^n$; Mayer-Vietoris for the wedge; the Euler characteristic from homology; the universal coefficient theorem in action; the Hurewicz isomorphism; and $H_*(S^n)$ by the long exact sequence of a pair. Each exercise has a hint and full solution in `<details>` blocks. Exercise-pack-only unit type with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### homotopy.simplicial-homotopy.exercise-pack
+
+- **title**: Simplicial homotopy theory exercise pack (Goerss-Jardine supplement)
+- **unit**: `03.12.E3`
+- **prerequisites**: `03.12.25` (simplicial sets and geometric realization), `03.12.33` (Kan-Quillen model structure on sSet), `03.12.42` (combinatorial simplicial homotopy groups and the Kan fibration LES), `03.12.40` (Postnikov tower of a Kan complex), `03.12.31` (Quillen model category), `03.12.32` (Quillen functor and equivalence), `03.12.41` (twisted Cartesian products and simplicial fibre bundles), `03.12.43` (quasi-categories and the Joyal model structure)
+- **tier_anchors**:
+  - intermediate: Goerss-Jardine, Simplicial Homotopy Theory, Ch. I-II exercises
+- **notes**: Nine exercises supplementing Goerss-Jardine Ch. I-II. Distribution: 2 easy / 4 medium / 3 hard. Covers Kan complexes versus quasi-categories (nerve of a groupoid), horns of $\Delta^2$, the combinatorial homotopy groups $\pi_0, \pi_n$ of a Kan complex and their group structure, the long exact sequence of a Kan fibration, $K(\mathbb{Z},1) = N\mathbb{Z}$, $\mathrm{Ex}^\infty$ as fibrant replacement, the Kan-Quillen lifting axiom, and the Joyal outer-horn criterion. Each exercise has a hint and full solution in `<details>` blocks. Exercise-pack-only unit type with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### homotopy.localization-completion.exercise-pack
+
+- **title**: Localization and completion exercise pack (May-Ponto supplement)
+- **unit**: `03.12.E4`
+- **prerequisites**: `03.12.60` (localisation of nilpotent spaces at a set of primes), `03.12.61` (nilpotent groups and nilpotent spaces), `03.12.45` (arithmetic square / integral fracture), `03.12.46` (periodicity and thick subcategory theorems), `03.12.48` (Bousfield localisation of a model category), `03.12.47` (HELP and the unified Whitehead/cellular approximation), `03.12.19` (Hurewicz theorem)
+- **tier_anchors**:
+  - intermediate: May-Ponto, More Concise Algebraic Topology, Part 1 (Ch. 5-13)
+- **notes**: Nine exercises supplementing May-Ponto Part 1. Distribution: 2 easy / 4 medium / 3 hard. Covers $p$-localization of abelian groups and nilpotent spaces, the homology characterization and universal property of localization, rationalization of odd/even spheres (Serre), $p$-completion and the $\mathbb{Z}_p$ subtlety of $S^1$, the local and global arithmetic (Hasse/fracture) squares as homotopy pullbacks, the necessity of the nilpotence hypothesis, and localization as a Bousfield localization. Each exercise has a hint and full solution in `<details>` blocks. Exercise-pack-only unit type with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### homotopy.simplicial-objects.exercise-pack
+
+- **title**: Simplicial objects and Dold-Kan exercise pack (May supplement)
+- **unit**: `03.12.E5`
+- **prerequisites**: `03.12.34` (acyclic models and the Eilenberg-Zilber theorem), `03.12.25` (simplicial sets and geometric realization), `03.12.22` (Delta-complex / semi-simplicial set), `03.12.41` (twisted Cartesian products and simplicial fibre bundles), `03.12.35` (simplicial model category and function complex)
+- **tier_anchors**:
+  - intermediate: May, Simplicial Objects in Algebraic Topology, §17-§31
+- **notes**: Nine exercises supplementing May's Simplicial Objects in Algebraic Topology. Distribution: 2 easy / 4 medium / 3 hard. Covers the simplicial identities and the normalization theorem $C_* A = N_* A \oplus D_* A$, the Dold-Kan correspondence $\mathbf{sAb} \simeq \mathrm{Ch}_{\ge 0}$ and the Eilenberg-MacLane $K(A,n)$, $\pi_* A = H_*(NA)$, the bar construction $BG = K(G,1)$ and its homology as group homology, the Eilenberg-Zilber theorem via acyclic models with the shuffle and Alexander-Whitney maps, and the Kunneth sequence. Each exercise has a hint and full solution in `<details>` blocks. Exercise-pack-only unit type with `tiers_present: [intermediate]`, no Lean infrastructure.
