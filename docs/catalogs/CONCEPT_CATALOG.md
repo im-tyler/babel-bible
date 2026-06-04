@@ -12646,11 +12646,6 @@ These entries were appended in bulk to satisfy the validator's `concept_catalog_
 - **unit**: `07.06.20`
 - **notes**: stub — see unit `07.06.20` for full prerequisites, tier anchors, and bibliography.
 
-### rep-theory.casimir-element
-
-- **title**: Casimir element
-- **unit**: `07.06.21`
-- **notes**: stub — see unit `07.06.21` for full prerequisites, tier anchors, and bibliography.
 
 ### rep-theory.weyl-complete-reducibility
 
@@ -14070,3 +14065,57 @@ The $\bar\partial$-Neumann boundary-value problem for the complex Laplacian $\Bo
 - **tier_anchors**:
   - intermediate: May, Simplicial Objects in Algebraic Topology, §17-§31
 - **notes**: Nine exercises supplementing May's Simplicial Objects in Algebraic Topology. Distribution: 2 easy / 4 medium / 3 hard. Covers the simplicial identities and the normalization theorem $C_* A = N_* A \oplus D_* A$, the Dold-Kan correspondence $\mathbf{sAb} \simeq \mathrm{Ch}_{\ge 0}$ and the Eilenberg-MacLane $K(A,n)$, $\pi_* A = H_*(NA)$, the bar construction $BG = K(G,1)$ and its homology as group homology, the Eilenberg-Zilber theorem via acyclic models with the shuffle and Alexander-Whitney maps, and the Kunneth sequence. Each exercise has a hint and full solution in `<details>` blocks. Exercise-pack-only unit type with `tiers_present: [intermediate]`, no Lean infrastructure.
+
+### analysis.ito-calculus
+
+- **title**: The Itô integral and Itô's formula
+- **unit**: `02.15.02`
+- **notes**: stub — see unit `02.15.02` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.sde-diffusions
+
+- **title**: Stochastic differential equations, diffusions, and the infinitesimal generator
+- **unit**: `02.15.03`
+- **notes**: stub — see unit `02.15.03` for full prerequisites, tier anchors, and bibliography. Covers strong existence/pathwise uniqueness under Lipschitz/linear-growth via Picard iteration with the Itô isometry; weak solutions and the Stroock-Varadhan martingale problem; the diffusion as a Markov process; the generator $L = \tfrac12\sum a^{ij}\partial_i\partial_j + \sum b^i\partial_i$ with $a=\sigma\sigma^T$, Dynkin's formula, the second-order elliptic operator/diffusion correspondence, and the Kolmogorov backward/forward (Fokker-Planck) equations.
+
+### analysis.feynman-kac
+
+- **title**: The Feynman-Kac formula
+- **unit**: `02.15.04`
+- **notes**: stub — see unit `02.15.04` for full prerequisites, tier anchors, and bibliography.
+
+### rep-theory.killing-form
+
+- **title**: The Killing form and the trace form
+- **unit**: `07.06.21`
+- **notes**: stub — see unit `07.06.21` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.stratonovich-calculus
+
+- **title**: The Stratonovich integral and Stratonovich calculus
+- **unit**: `02.15.05`
+- **notes**: stub — see unit `02.15.05` for full prerequisites, tier anchors, and bibliography.
+
+### analysis.brownian-motion
+
+- **title**: Brownian motion and the Wiener process
+- **unit**: `02.15.01`
+- **notes**: stub — see unit `02.15.01` for full prerequisites, tier anchors, and bibliography.
+
+### spin-geometry.probabilistic-heat-kernel
+
+- **title**: The probabilistic heat kernel and Bismut's formula
+- **unit**: `03.09.29`
+- **prerequisites**: `spin-geometry.heat-kernel-index` (03.09.20), `spin-geometry.bismut-superconnection` (03.09.23), `spin-geometry.dirac-operator` (03.09.08)
+- **tier_anchors**:
+  - master: Bismut 1984 *The Atiyah-Singer theorems: a probabilistic approach I, II* (J. Funct. Anal. 57); Berline-Getzler-Vergne *Heat Kernels and Dirac Operators* Ch. 11; Hsu *Stochastic Analysis on Manifolds*; Varadhan 1967
+  - intermediate: BGV Ch. 11 (Mehler's formula, probabilistic approach); Hsu Ch. 4-5; Bismut 1984 §1-§2
+  - beginner: A random walker on a curved surface measures distance and, carrying a spinor, reproduces the heat flow of the Dirac operator
+- **notes**: stub — see unit `03.09.29` for full prerequisites, tier anchors, and bibliography. The probabilistic face of the heat-kernel index theorem (BGV Ch. 11), closing the gap left by the Getzler route of 03.09.20. The heat semigroup represented probabilistically as $e^{t\Delta/2}f(x)=\mathbb E_x[f(X_t)]$ over manifold Brownian motion, whose transition density is the heat kernel $p_t(x,y)$; VARADHAN's short-time asymptotics $\lim_{t\to0}2t\log p_t(x,y)=-d(x,y)^2$ (the heat kernel sees the Riemannian distance); the Feynman-Kac-Ito formula for the Schrodinger operator $\tfrac12\Delta-V$ and for the Bochner/Weitzenbock connection Laplacian on a vector bundle (the multiplicative functional / stochastic parallel transport carrying the zeroth-order curvature term). BISMUT's 1984 probabilistic construction of the Dirac heat kernel via the Brownian bridge (conditioning $X_t=y$) with stochastic parallel transport and the Ito-Feynman-Kac functional incorporating the Clifford-module curvature $F^{E/S}$ and the scalar curvature through Lichnerowicz $D^2=\nabla^*\nabla+\tfrac14\mathrm{Scal}+F^{E/S}$. The small-time $t\to0$ limit of the supertrace localises (McKean-Singer constancy) as conditioned Brownian loops shrink to constant paths and the rescaled bridge becomes the Ornstein-Uhlenbeck process of Mehler's formula, recovering the $\widehat A\wedge\mathrm{ch}$ index density — Bismut's probabilistic proof of Atiyah-Singer, the dual of Getzler rescaling. Malliavin-calculus / hypoellipticity remark: smoothness of $p_t$ under Hormander's bracket condition. Cross-links: 03.09.20 (Getzler analytic counterpart), 03.09.23 (Bismut superconnection / family case), co-produced 03.02.45 (Brownian motion on a manifold) and 02.15.04 (Feynman-Kac). Originator chain: Einstein 1905 / Wiener 1923 (Brownian motion), Kac 1949 (Feynman-Kac), Varadhan 1967, Eells-Elworthy / Malliavin 1976 (frame-bundle construction + hypoellipticity), Bismut 1984. Not in Mathlib (no manifold Brownian motion, no horizontal lift on the frame bundle, no stochastic parallel transport, no multiplicative functional, no Brownian-bridge measure, no Feynman-Kac-Ito for bundle Laplacians, no Varadhan short-time asymptotics).
+
+### differential-geometry.brownian-motion-manifold
+
+- **title**: Brownian motion on a Riemannian manifold
+- **unit**: `03.02.45`
+- **prerequisites**: `differential-geometry.sectional-ricci-scalar-curvature` (03.02.05), `differential-topology.gradient-like-vector-field` (03.02.27, Levi-Civita/exponential map), `diff-geom.bochner-technique` (03.02.15, Laplace-Beltrami/Hodge-Laplacian), `differential-geometry.linear-connection-frame-bundle` (03.05.15, orthonormal frame bundle/soldering form)
+- **notes**: stub — see unit `03.02.45` for full prerequisites, tier anchors, and bibliography. The Eells-Elworthy-Malliavin construction of Brownian motion on $(M,g)$: there is no canonical chart on $M$, so the driving SDE is written on the orthonormal frame bundle $O(M)$ with the canonical horizontal vector fields $H_i$ (horizontal lift via the Levi-Civita connection), as the Stratonovich SDE $dU_t = \sum_i H_i(U_t)\circ dB_t^i$; the Stratonovich convention is forced because only it transforms invariantly under change of chart on $O(M)$. The projection $X_t=\pi(U_t)$ is a diffusion on $M$ with generator $\tfrac12\Delta$ (Laplace-Beltrami), via Bochner's horizontal-Laplacian identity $\sum_i H_i^2(f\circ\pi)=(\Delta f)\circ\pi$. Stochastic parallel transport $u_t u_0^{-1}$; the manifold Itô formula; the radial process $r(X_t)$ with drift bounded by the Laplacian comparison theorem under a Ricci lower bound; stochastic completeness (Yau-Dodziuk, Grigor'yan volume test) distinct from geodesic completeness; the Bismut gradient formula via the Weitzenböck/Ricci term. Geometric foundation for the probabilistic heat kernel (03.09.29). Co-produced this wave with stochastic-analysis SDE/Stratonovich units (02.15.03, 02.15.05). Lean status none: no stochastic calculus / SDE-on-manifold layer in Mathlib.
