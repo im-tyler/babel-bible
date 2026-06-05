@@ -1,0 +1,9 @@
+id: pure-math
+label: Pure Mathematics
+description: >-
+  Mathematics on its own terms — geometry, algebra, analysis, number theory,
+  and the rest — with the physics chapters hidden. Prerequisites are pulled in
+  automatically so the result is always a complete, learnable path.
+seed:
+  area_in: [math]
+group_by: field

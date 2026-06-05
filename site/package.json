@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "neutron-ts dev",
+    "data": "python3 ../scripts/build_lenses.py",
     "validate": "node scripts/validate-all.mjs",
     "build": "node scripts/validate-all.mjs && neutron-ts build",
     "preview": "neutron-ts preview"

@@ -1,0 +1,11 @@
+id: theoretical-physics
+label: Theoretical Physics
+description: >-
+  The mathematics a theoretical physicist needs — the Fast Track curriculum
+  plus the physics it builds toward. As new pure-math spines are added that a
+  physicist does not need, this lens keeps showing only the physics-relevant path.
+seed:
+  any:
+    - area_in: [physics]
+    - source_curriculum_in: [fast-track]
+group_by: field

@@ -1,0 +1,59 @@
+# Canonical map: frontmatter `section` -> { area, field }.
+# area is the coarse axis the lenses split on (math | physics | other).
+# field is the fine grouping shown on the math hub. Field defaults to the
+# section's mapping here; chapter_overrides handle the few exceptions where a
+# chapter belongs to a different field than its section (e.g. the new
+# stochastic-analysis chapter inside `analysis` is really Probability).
+#
+# This is the single Python-readable source of truth for grouping. The site's
+# sections.ts keeps display labels for sections; field labels live in `fields`.
+
+default: { area: other, field: other }
+
+sections:
+  # ── mathematics ──
+  precalc:               { area: math, field: foundations }
+  foundations:           { area: math, field: algebra }
+  analysis:              { area: math, field: analysis }
+  number-theory:         { area: math, field: number-theory }
+  differential-geometry: { area: math, field: geometry-topology }
+  modern-geometry:       { area: math, field: geometry-topology }
+  algebraic-geometry:    { area: math, field: algebraic-geometry }
+  symplectic:            { area: math, field: geometry-topology }
+  riemann-surfaces:      { area: math, field: complex-analysis }
+  representation-theory: { area: math, field: representation-theory }
+  logic:                 { area: math, field: foundations-logic }
+  statistics:            { area: math, field: statistics }
+  numerical-pde:         { area: math, field: numerical-analysis }
+  stat-mech:             { area: math, field: statistical-field-theory }  # mathematical statistical field theory (per sections.ts)
+  # ── physics ──
+  quantum:               { area: physics, field: quantum }
+  quantum-mechanics:     { area: physics, field: quantum }
+  gr-cosmology:          { area: physics, field: gravitation }
+  em-sr:                 { area: physics, field: classical-physics }
+  classical-mech:        { area: physics, field: classical-physics }
+  stat-mech-physics:     { area: physics, field: statistical-physics }
+
+chapter_overrides:
+  - { section: analysis, chapter: stochastic-analysis, area: math, field: probability }
+
+# Display label + sort order for every field id referenced above.
+fields:
+  foundations:              { label: "Foundations & Precalculus",            order: 0 }
+  algebra:                  { label: "Algebra",                              order: 1 }
+  foundations-logic:        { label: "Logic & Foundations",                  order: 2 }
+  analysis:                 { label: "Analysis",                             order: 3 }
+  probability:              { label: "Probability & Stochastics",            order: 4 }
+  complex-analysis:         { label: "Complex Analysis & Riemann Surfaces",  order: 5 }
+  number-theory:            { label: "Number Theory",                        order: 6 }
+  geometry-topology:        { label: "Geometry & Topology",                  order: 7 }
+  algebraic-geometry:       { label: "Algebraic Geometry",                   order: 8 }
+  representation-theory:    { label: "Representation Theory",                order: 9 }
+  numerical-analysis:       { label: "Numerical Analysis",                   order: 10 }
+  statistics:               { label: "Statistics",                          order: 11 }
+  statistical-field-theory: { label: "Statistical Field Theory",            order: 12 }
+  classical-physics:        { label: "Classical Mechanics & EM",            order: 20 }
+  quantum:                  { label: "Quantum Theory",                      order: 21 }
+  statistical-physics:      { label: "Statistical Mechanics",               order: 22 }
+  gravitation:              { label: "General Relativity & Cosmology",      order: 23 }
+  other:                    { label: "Other",                              order: 99 }

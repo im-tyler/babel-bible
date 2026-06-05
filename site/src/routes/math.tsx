@@ -1,5 +1,6 @@
 import { getCollection } from "@neutron-build/core";
 import { MATH_SECTION_KEYS, sectionLabel, sectionOrder } from "../lib/sections";
+import lensData from "../data/lenses.json";
 
 export function head() {
   return {
@@ -17,8 +18,18 @@ export async function loader() {
     sectionCounts.set(u.data.section, (sectionCounts.get(u.data.section) || 0) + 1);
   });
 
+  const lenses = (lensData as any).lenses
+    .filter((l: any) => l.id !== "all")
+    .map((l: any) => ({
+      id: l.id,
+      label: l.label,
+      description: l.description,
+      count: l.counts.total,
+    }));
+
   return {
     unitCount: mathUnits.length,
+    lenses,
     sections: Array.from(sectionCounts.entries())
       .map(([key, count]) => ({ key, label: sectionLabel(key), count }))
       .sort((a, b) => sectionOrder(a.key) - sectionOrder(b.key)),
@@ -35,6 +46,27 @@ export default function MathLanding({ data }: { data: any }) {
           physics, models in chemistry, dynamics in biology, and the formal structures philosophy
           cites when it talks about what can be said exactly.
         </p>
+      </section>
+
+      <section class="page-narrow">
+        <h2>Choose your path</h2>
+        <p>
+          Pick a lens to see exactly the units that path needs, in learnable order — prerequisites
+          are pulled in automatically. As new subjects are added, each lens keeps showing only what
+          belongs to it.
+        </p>
+        <div class="hub-grid">
+          <a href="/units" class="hub-card">
+            <div class="hub-card-name">Everything</div>
+            <div class="hub-card-meta">The whole corpus, unfiltered.</div>
+          </a>
+          {data.lenses.map((l: any) => (
+            <a href={`/units?lens=${l.id}`} class="hub-card">
+              <div class="hub-card-name">{l.label}</div>
+              <div class="hub-card-meta">{l.description} · {l.count} units</div>
+            </a>
+          ))}
+        </div>
       </section>
 
       <section class="page-narrow">

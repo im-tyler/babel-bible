@@ -1220,3 +1220,28 @@ body.cite-panel--open { overflow: hidden; }
  * browsers the toggle simply remains visible (graceful fallback). */
 .tier-toggle { display: none; }
 body:has(article.unit-page) .tier-toggle { display: inline-flex; }
+
+/* ---------- Lens toggle (units browse + math hub) ---------- */
+.lens-toggle {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--bg-elev);
+  margin-bottom: 1rem;
+}
+.lens-toggle__btn {
+  background: transparent;
+  color: var(--muted);
+  border: none;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s;
+}
+.lens-toggle__btn:hover { color: var(--fg); }
+.lens-toggle__btn--active { background: var(--accent); color: var(--bg); }

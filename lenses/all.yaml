@@ -1,0 +1,6 @@
+id: all
+label: All
+description: Everything in the mathematics and physics corpus.
+seed:
+  area_in: [math, physics]
+group_by: field
