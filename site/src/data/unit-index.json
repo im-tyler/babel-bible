@@ -40017,6 +40017,57 @@
 ],
 "title": "Class Structure, Irreducibility, and Periodicity"
 },
+"37.05.03": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.03",
+"prereqs": [
+"37.05.01",
+"37.05.02"
+],
+"section": "probability",
+"slug": "hitting-probabilities-expected-hitting-times",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hitting Probabilities and Expected Hitting Times"
+},
+"37.05.04": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.04",
+"prereqs": [
+"37.05.01",
+"37.05.02",
+"37.04.01"
+],
+"section": "probability",
+"slug": "strong-markov-property-recurrence-transience",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Strong Markov Property and the Recurrence/Transience Dichotomy"
+},
 "37.05.08": {
 "area": "math",
 "books": [
@@ -40042,6 +40093,56 @@
 "master"
 ],
 "title": "Continuous-Time Markov Chains I: Q-Matrices, Jump Chains, and Holding Times"
+},
+"37.05.09": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.09",
+"prereqs": [
+"37.05.08",
+"02.07.04"
+],
+"section": "probability",
+"slug": "kolmogorov-backward-forward-equations-semigroup",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Continuous-Time Markov Chains II: The Kolmogorov Backward and Forward Equations"
+},
+"37.05.11": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.11",
+"prereqs": [
+"37.05.08",
+"26.02.01"
+],
+"section": "probability",
+"slug": "poisson-process-equivalent-characterizations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Poisson Process: Equivalent Characterizations"
 },
 "37.06.01": {
 "area": "math",
@@ -40200,6 +40301,31 @@
 ],
 "title": "The Legendre-Fenchel Transform and Convex Duality of Rate Functions"
 },
+"37.07.04": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.04",
+"prereqs": [
+"37.07.02",
+"37.07.03"
+],
+"section": "probability",
+"slug": "gartner-ellis-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The G\u00e4rtner-Ellis Theorem"
+},
 "37.07.05": {
 "area": "math",
 "books": [
@@ -40277,6 +40403,31 @@
 ],
 "title": "Varadhan's Integral Lemma and the Laplace Principle"
 },
+"37.07.08": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.08",
+"prereqs": [
+"37.07.01",
+"37.07.05"
+],
+"section": "probability",
+"slug": "contraction-principle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Contraction Principle and the Inverse Contraction Principle"
+},
 "37.08.01": {
 "area": "math",
 "books": [
@@ -40301,5 +40452,29 @@
 "master"
 ],
 "title": "The Wigner Semicircle Law and the Moment Method"
+},
+"37.08.02": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.02",
+"prereqs": [
+"37.08.01"
+],
+"section": "probability",
+"slug": "stieltjes-transform-semicircle-resolvent",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Stieltjes Transform and the Semicircle Law via the Resolvent"
 }
 }

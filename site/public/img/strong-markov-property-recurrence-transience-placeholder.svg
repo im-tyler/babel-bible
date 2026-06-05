@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Strong Markov Property Recurrence Transience</title>
+  <desc id="desc">A schematic placeholder diagram for Strong Markov Property Recurrence Transience.</desc>
+  <rect width="720" height="360" fill="#fbf5ee"/>
+  <g stroke="#3a6a4f" stroke-width="2" fill="none" opacity="0.45">
+    <path d="M120 80 L120 280"/><path d="M220 80 L220 280"/><path d="M320 80 L320 280"/>
+    <path d="M420 80 L420 280"/><path d="M520 80 L520 280"/><path d="M620 80 L620 280"/>
+    <path d="M120 80 L620 80"/><path d="M120 140 L620 140"/><path d="M120 200 L620 200"/>
+    <path d="M120 260 L620 260"/>
+  </g>
+  <path d="M120 260 Q220 80 320 200 T520 140 T620 200" fill="none" stroke="#c66a3a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="220" cy="140" r="9" fill="#3a6a4f"/>
+  <circle cx="420" cy="200" r="9" fill="#3a6a4f"/>
+  <circle cx="620" cy="200" r="9" fill="#3a6a4f"/>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Strong Markov Property Recurrence Transience</text>
+</svg>
