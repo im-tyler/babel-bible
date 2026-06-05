@@ -39993,6 +39993,56 @@
 ],
 "title": "The Markov Property, Transition Matrices, and the Chapman\u2013Kolmogorov Equations"
 },
+"37.05.02": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.02",
+"prereqs": [
+"37.05.01"
+],
+"section": "probability",
+"slug": "class-structure-irreducibility-periodicity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Class Structure, Irreducibility, and Periodicity"
+},
+"37.05.08": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.08",
+"prereqs": [
+"37.05.01",
+"37.01.01",
+"02.15.03"
+],
+"section": "probability",
+"slug": "continuous-time-q-matrices-jump-chains-holding-times",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Continuous-Time Markov Chains I: Q-Matrices, Jump Chains, and Holding Times"
+},
 "37.06.01": {
 "area": "math",
 "books": [
@@ -40045,6 +40095,32 @@
 ],
 "title": "The Brownian Martingale Representation Theorem"
 },
+"37.06.03": {
+"area": "math",
+"books": [
+"legall-stochastic-calculus"
+],
+"chapter": "06-brownian-motion-stochastic-calculus",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.06.03",
+"prereqs": [
+"37.06.01",
+"02.15.01",
+"02.15.02"
+],
+"section": "probability",
+"slug": "brownian-local-time-tanaka-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Brownian Local Time and Tanaka's Formula"
+},
 "37.07.01": {
 "area": "math",
 "books": [
@@ -40070,6 +40146,33 @@
 "master"
 ],
 "title": "The Large Deviation Principle: Rate Functions, Bounds, and Goodness"
+},
+"37.07.02": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.02",
+"prereqs": [
+"37.07.01",
+"37.07.03",
+"37.02.02",
+"02.11.02"
+],
+"section": "probability",
+"slug": "cramer-theorem-legendre-fenchel-rate",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cram\u00e9r's Theorem and the Legendre-Fenchel Rate Function"
 },
 "37.07.03": {
 "area": "math",
@@ -40097,6 +40200,32 @@
 ],
 "title": "The Legendre-Fenchel Transform and Convex Duality of Rate Functions"
 },
+"37.07.05": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.05",
+"prereqs": [
+"37.07.01",
+"37.07.06",
+"02.07.08"
+],
+"section": "probability",
+"slug": "sanov-theorem-empirical-measures",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sanov's Theorem and the Large Deviation Principle for Empirical Measures"
+},
 "37.07.06": {
 "area": "math",
 "books": [
@@ -40122,5 +40251,55 @@
 "master"
 ],
 "title": "Relative Entropy as a Rate Function and the Donsker-Varadhan Variational Formula"
+},
+"37.07.07": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.07",
+"prereqs": [
+"37.07.01",
+"37.07.03"
+],
+"section": "probability",
+"slug": "varadhan-integral-lemma-laplace-principle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Varadhan's Integral Lemma and the Laplace Principle"
+},
+"37.08.01": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.01",
+"prereqs": [
+"37.02.02",
+"37.03.01"
+],
+"section": "probability",
+"slug": "wigner-semicircle-law-moment-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Wigner Semicircle Law and the Moment Method"
 }
 }

@@ -68,5 +68,5 @@ Same-wave prereqs go in `## Connections`, NOT frontmatter (not yet on disk).
 - WAVE 6: 37.05.07, 37.05.10, 37.05.12, 37.07.10, 37.07.11, 37.08.05, 37.08.08
 
 ## Status
-- [x] Wave 1  [x] Wave 2  [ ] Wave 3  [ ] Wave 4  [ ] Wave 5  [ ] Wave 6
+- [x] Wave 1  [x] Wave 2  [x] Wave 3  [ ] Wave 4  [ ] Wave 5  [ ] Wave 6
 - [ ] COMPLETENESS re-audit (loop-until-dry)
