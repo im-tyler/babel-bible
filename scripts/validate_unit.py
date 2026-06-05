@@ -635,12 +635,14 @@ def check_beginner(report: ValidationReport, body: str):
                not forb_hits,
                detail=f"found symbols: {set(forb_hits)}" if forb_hits else "")
 
-    # At least one image reference. Draft units may use an ASCII/table visual
-    # scaffold while assets are being produced; shipped units still need a
-    # real image/diagram reference.
+    # At least one image / diagram reference. Satisfied by a real image embed
+    # (`![…](…)`) OR by a `## Visual [Beginner]` section carrying a genuine
+    # diagram — a fenced ASCII diagram or a markdown table. Prose-first units
+    # (language, world, applied chem/physics) legitimately use the latter; a
+    # real ASCII/table diagram is a stronger visual than a placeholder image
+    # tag, so this is accepted for any status, not just drafts.
     has_image = bool(re.search(r"!\[[^\]]*\]\([^)]+\)", text))
-    if not has_image and report.frontmatter.get("status") == "draft":
-        visual_sections = []
+    if not has_image:
         h2s = list(re.finditer(r"^##\s+(.+?)(?:\s*\[(\w+\+?)\])?\s*$", body, re.MULTILINE))
         for i, m in enumerate(h2s):
             title = m.group(1).strip().lower()
@@ -649,8 +651,11 @@ def check_beginner(report: ValidationReport, body: str):
                 continue
             start = m.end()
             end = h2s[i + 1].start() if i + 1 < len(h2s) else len(body)
-            visual_sections.append(body[start:end].strip())
-        has_image = any(len(v.split()) >= 5 or "```" in v or "|" in v for v in visual_sections)
+            section = body[start:end]
+            # genuine diagram: a fenced block or a markdown table row
+            if "```" in section or re.search(r"^\s*\|.+\|\s*$", section, re.MULTILINE):
+                has_image = True
+                break
     report.add("Beginner has at least one image/diagram reference", has_image)
 
 

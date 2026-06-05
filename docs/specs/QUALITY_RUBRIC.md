@@ -62,7 +62,7 @@ Run only if `beginner ∈ tiers_present`.
 
 - [ ] No undefined formal notation. Allowed: `+`, `−`, `×`, `÷`, `=`, `<`, `>`, basic exponents, ordinary parentheses. Anything else (`\nabla`, `\otimes`, `\mathbb{R}`, summation, integration, set-builder) flagged.
 - [ ] No proof language: no occurrence of "Proof.", "QED", "∎", "Let X be such that", "Suppose", "It follows that", "Hence" (formal-discourse markers).
-- [ ] At least one image / diagram / animation reference present (`![…](…)` or external embed).
+- [ ] At least one image / diagram / animation present: an image embed (`![…](…)` or external embed), OR a `## Visual [Beginner]` section carrying a genuine diagram (a fenced ASCII diagram or a markdown table). Prose-first units (language, world, applied chem/physics) typically use the latter.
 - [ ] At least one worked-example subsection with concrete numbers.
 - [ ] `## Check your understanding [Beginner]` section exists with 2–4 questions, each with `answer`, `hint`, `feedback-correct`, `feedback-wrong`.
 - [ ] Question types restricted to `multiple-choice`, `true-false`, `numeric` only.
