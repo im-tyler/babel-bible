@@ -18006,6 +18006,186 @@
       "from": "03.09.29",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "02.07.01",
+      "to": "37.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.02",
+      "to": "37.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.07",
+      "to": "37.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "26.02.01",
+      "to": "37.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "37.01.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.01.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.01",
+      "to": "37.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.05",
+      "to": "37.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "26.02.01",
+      "to": "37.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "37.02.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.02.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.06",
+      "to": "37.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "26.03.01",
+      "to": "37.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "37.02.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.02.02",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "02.10.04",
+      "to": "37.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.10.06",
+      "to": "37.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "26.02.01",
+      "to": "37.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "26.03.01",
+      "to": "37.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "37.03.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.03.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.05",
+      "to": "37.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.08",
+      "to": "37.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "26.02.01",
+      "to": "37.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "37.04.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.04.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "02.15.01",
+      "to": "37.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.15.02",
+      "to": "37.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "02.07.08",
+      "to": "37.06.01",
+      "state": "shipped"
+    },
+    {
+      "from": "37.06.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.06.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "02.11.02",
+      "to": "37.07.03",
+      "state": "shipped"
+    },
+    {
+      "from": "09.04.01",
+      "to": "37.07.03",
+      "state": "shipped"
+    },
+    {
+      "from": "11.01.02",
+      "to": "37.07.03",
+      "state": "shipped"
+    },
+    {
+      "from": "37.07.03",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "37.07.03",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -18874,7 +19054,14 @@
     "35.05.01",
     "35.06.01",
     "35.07.01",
-    "35.08.01"
+    "35.08.01",
+    "37.01.01",
+    "37.02.01",
+    "37.02.02",
+    "37.03.01",
+    "37.04.01",
+    "37.06.01",
+    "37.07.03"
   ],
   "_notes": {
     "01.01.03": "vector space — Wave 2 Phase 2.1 unit #1, SHIPPED",

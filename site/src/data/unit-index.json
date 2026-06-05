@@ -39756,5 +39756,188 @@
 "master"
 ],
 "title": "Media ethics: responsible consumption and production"
+},
+"37.01.01": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "01-measure-foundations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.01.01",
+"prereqs": [
+"02.07.01",
+"02.07.02",
+"02.07.07",
+"26.02.01"
+],
+"section": "probability",
+"slug": "probability-spaces-kolmogorov-extension-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Probability Spaces and the Kolmogorov Extension Theorem"
+},
+"37.02.01": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "02-independence-laws-of-large-numbers",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.02.01",
+"prereqs": [
+"02.07.01",
+"02.07.05",
+"26.02.01"
+],
+"section": "probability",
+"slug": "borel-cantelli-kolmogorov-zero-one-law",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Borel-Cantelli Lemmas and the Kolmogorov 0-1 Law"
+},
+"37.02.02": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "02-independence-laws-of-large-numbers",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.02.02",
+"prereqs": [
+"02.07.06",
+"26.03.01"
+],
+"section": "probability",
+"slug": "strong-law-of-large-numbers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Strong Law of Large Numbers"
+},
+"37.03.01": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "03-clt-characteristic-functions",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.03.01",
+"prereqs": [
+"02.10.04",
+"02.10.06",
+"26.02.01",
+"26.03.01"
+],
+"section": "probability",
+"slug": "characteristic-functions-levy-continuity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Characteristic Functions, Inversion, and the L\u00e9vy Continuity Theorem"
+},
+"37.04.01": {
+"area": "math",
+"books": [
+"williams-martingales"
+],
+"chapter": "04-conditional-expectation-martingales",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.04.01",
+"prereqs": [
+"02.07.05",
+"02.07.08",
+"26.02.01"
+],
+"section": "probability",
+"slug": "discrete-martingales-optional-stopping",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Discrete-Time Martingales, Stopping Times, and Optional Stopping"
+},
+"37.06.01": {
+"area": "math",
+"books": [
+"legall-stochastic-calculus"
+],
+"chapter": "06-brownian-motion-stochastic-calculus",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.06.01",
+"prereqs": [
+"02.15.01",
+"02.15.02",
+"02.07.08"
+],
+"section": "probability",
+"slug": "continuous-local-martingales-quadratic-variation-doob-meyer",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Continuous Local Martingales, Quadratic Variation, and the Doob\u2013Meyer Decomposition"
+},
+"37.07.03": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.03",
+"prereqs": [
+"02.11.02",
+"09.04.01",
+"11.01.02"
+],
+"section": "probability",
+"slug": "legendre-fenchel-transform-convex-duality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Legendre-Fenchel Transform and Convex Duality of Rate Functions"
 }
 }

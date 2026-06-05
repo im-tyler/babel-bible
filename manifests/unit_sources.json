@@ -10623,5 +10623,47 @@
 "36.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"37.01.01": {
+"books": [
+"durrett-probability"
+],
+"curriculum": "probability"
+},
+"37.02.01": {
+"books": [
+"durrett-probability"
+],
+"curriculum": "probability"
+},
+"37.02.02": {
+"books": [
+"durrett-probability"
+],
+"curriculum": "probability"
+},
+"37.03.01": {
+"books": [
+"durrett-probability"
+],
+"curriculum": "probability"
+},
+"37.04.01": {
+"books": [
+"williams-martingales"
+],
+"curriculum": "probability"
+},
+"37.06.01": {
+"books": [
+"legall-stochastic-calculus"
+],
+"curriculum": "probability"
+},
+"37.07.03": {
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"curriculum": "probability"
 }
 }
