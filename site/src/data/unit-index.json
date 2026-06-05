@@ -40068,6 +40068,56 @@
 ],
 "title": "The Strong Markov Property and the Recurrence/Transience Dichotomy"
 },
+"37.05.05": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.05",
+"prereqs": [
+"37.05.03",
+"37.05.04"
+],
+"section": "probability",
+"slug": "invariant-measures-positive-null-recurrence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Invariant Measures and Distributions; Positive and Null Recurrence"
+},
+"37.05.06": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.06",
+"prereqs": [
+"37.05.04",
+"37.05.02"
+],
+"section": "probability",
+"slug": "convergence-to-equilibrium-coupling",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Convergence to Equilibrium via Coupling"
+},
 "37.05.08": {
 "area": "math",
 "books": [
@@ -40428,6 +40478,31 @@
 ],
 "title": "The Contraction Principle and the Inverse Contraction Principle"
 },
+"37.07.09": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.09",
+"prereqs": [
+"37.07.01",
+"37.07.08"
+],
+"section": "probability",
+"slug": "exponential-tightness-dawson-gartner-projective-limit",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Exponential Tightness, Exponential Approximation, and the Dawson\u2013G\u00e4rtner Projective Limit"
+},
 "37.08.01": {
 "area": "math",
 "books": [
@@ -40476,5 +40551,101 @@
 "master"
 ],
 "title": "The Stieltjes Transform and the Semicircle Law via the Resolvent"
+},
+"37.08.03": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.03",
+"prereqs": [
+"37.08.01"
+],
+"section": "probability",
+"slug": "gaussian-ensembles-joint-eigenvalue-density",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gaussian Ensembles GOE/GUE/GSE and the Joint Eigenvalue Density"
+},
+"37.08.04": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.04",
+"prereqs": [
+"37.08.01"
+],
+"section": "probability",
+"slug": "determinantal-point-processes-sine-kernel",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Determinantal Point Processes and Sine-Kernel Bulk Universality"
+},
+"37.08.06": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.06",
+"prereqs": [
+"37.08.01"
+],
+"section": "probability",
+"slug": "largest-eigenvalue-operator-norm-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Largest Eigenvalue and the Operator-Norm Bound"
+},
+"37.08.07": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.07",
+"prereqs": [
+"37.08.01"
+],
+"section": "probability",
+"slug": "spectral-concentration-log-sobolev-herbst",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Spectral Concentration: Log-Sobolev and the Herbst Argument"
 }
 }
