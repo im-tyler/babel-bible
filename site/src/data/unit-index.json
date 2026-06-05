@@ -39862,6 +39862,32 @@
 ],
 "title": "Characteristic Functions, Inversion, and the L\u00e9vy Continuity Theorem"
 },
+"37.03.02": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "03-clt-characteristic-functions",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.03.02",
+"prereqs": [
+"37.03.01",
+"37.02.02",
+"26.04.01"
+],
+"section": "probability",
+"slug": "lindeberg-feller-central-limit-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Lindeberg\u2013Feller Central Limit Theorem"
+},
 "37.04.01": {
 "area": "math",
 "books": [
@@ -39887,6 +39913,85 @@
 "master"
 ],
 "title": "Discrete-Time Martingales, Stopping Times, and Optional Stopping"
+},
+"37.04.02": {
+"area": "math",
+"books": [
+"williams-martingales"
+],
+"chapter": "04-conditional-expectation-martingales",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.04.02",
+"prereqs": [
+"37.04.01",
+"02.07.05",
+"02.07.08"
+],
+"section": "probability",
+"slug": "upcrossing-inequality-martingale-convergence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Doob's Upcrossing Inequality and the Almost-Sure Martingale Convergence Theorem"
+},
+"37.04.03": {
+"area": "math",
+"books": [
+"williams-martingales"
+],
+"chapter": "04-conditional-expectation-martingales",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.04.03",
+"prereqs": [
+"02.07.06",
+"02.07.07",
+"02.07.08",
+"37.04.01"
+],
+"section": "probability",
+"slug": "doob-inequalities-uniform-integrability-lp-convergence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Doob's Maximal and L^p Inequalities, Uniform Integrability, and L^p-Bounded Martingales"
+},
+"37.05.01": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.01",
+"prereqs": [
+"37.01.01",
+"02.07.01",
+"26.02.01"
+],
+"section": "probability",
+"slug": "markov-property-transition-matrices-chapman-kolmogorov",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Markov Property, Transition Matrices, and the Chapman\u2013Kolmogorov Equations"
 },
 "37.06.01": {
 "area": "math",
@@ -39914,6 +40019,58 @@
 ],
 "title": "Continuous Local Martingales, Quadratic Variation, and the Doob\u2013Meyer Decomposition"
 },
+"37.06.02": {
+"area": "math",
+"books": [
+"legall-stochastic-calculus"
+],
+"chapter": "06-brownian-motion-stochastic-calculus",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.06.02",
+"prereqs": [
+"37.06.01",
+"02.15.01",
+"02.15.02"
+],
+"section": "probability",
+"slug": "brownian-martingale-representation-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Brownian Martingale Representation Theorem"
+},
+"37.07.01": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.01",
+"prereqs": [
+"37.01.01",
+"02.07.05",
+"02.07.08"
+],
+"section": "probability",
+"slug": "large-deviation-principle-rate-functions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Large Deviation Principle: Rate Functions, Bounds, and Goodness"
+},
 "37.07.03": {
 "area": "math",
 "books": [
@@ -39939,5 +40096,31 @@
 "master"
 ],
 "title": "The Legendre-Fenchel Transform and Convex Duality of Rate Functions"
+},
+"37.07.06": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.06",
+"prereqs": [
+"37.07.03",
+"02.07.06",
+"02.07.08"
+],
+"section": "probability",
+"slug": "relative-entropy-donsker-varadhan-variational-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Relative Entropy as a Rate Function and the Donsker-Varadhan Variational Formula"
 }
 }
