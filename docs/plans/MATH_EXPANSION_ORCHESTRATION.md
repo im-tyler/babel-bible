@@ -53,13 +53,36 @@ session = re-run the loop; it picks up exactly where the backlog left off.
 
 Each spine in the backlog expands into these steps, in order:
 
-**(a) SETUP** — register the spine's section(s) once, before producing:
-1. Pick the section name + dir (reserved numbers in §4). Create `content/<NN>-<name>/`.
-2. Add the section to `manifests/field_map.yaml` (`area: math`, `field: <field-id>`) and
-   to the `fields:` block (label + order).
-3. Add it to `site/src/lib/sections.ts` (a `SectionInfo`, `domain: "mathematics"`).
-4. Create `lenses/<field-id>.yaml` (seed `field_in: [<field-id>]`, `group_by: field`) so
-   the field gets its own toggle.
+**(a) SETUP** — register the spine's section(s) once, before producing. A NEW section
+(probability 37, dynamics 38, operator-algebras 39, combinatorics 40, category-theory 41)
+needs ALL of 1-7. A spine that EXTENDS an existing section (PDE→analysis, analytic-NT→
+number-theory) skips 2-5 and only does 6-7 (new chapter dirs + skeleton). Do this as a
+SINGLE commit before any audit/produce so every downstream agent sees the same structure.
+
+1. **Section dir.** Create `content/<NN>-<name>/` (reserved numbers in §4).
+2. **field_map.yaml — the section→field row (easy to miss).** Add a row under `sections:`
+   mapping the new section KEY → `{ area: math, field: <field-id> }`. ⚠️ The `<field-id>`
+   may ALREADY appear in the `fields:` block (label+order) — that is NOT the same thing;
+   without the `sections:` row the section defaults to `area: other` and disappears from the
+   math lens. Confirm the `fields:` label/order also exists (add if not).
+3. **validate_unit.py — register the prefix.** Add `"<NN>": "math"` to `DOMAIN_BY_PREFIX`
+   AND add `"<NN>"` to the `formal_gap_required` set (~line 450). Without this the section
+   silently defaults to math but at the WEAKER 5-word lean-gap bar instead of 30; registering
+   holds new pure-math units to the same standard as the rest of math.
+4. **sections.ts — build-critical, not cosmetic.** Append to `SECTIONS[]` in
+   `site/src/lib/sections.ts`:
+   `{ key: "<section-key>", order: <float>, label: "<Display>", anchor: "<section-key>", domain: "mathematics" }`.
+   `key` MUST equal the frontmatter `section:` value. If a unit references an unregistered
+   section key, the site lookup returns undefined and the build can break.
+5. **lenses/<field-id>.yaml.** `{ id, label, description, seed: { field_in: [<field-id>] }, group_by: field }`.
+6. **Chapter skeleton (prevents id chaos).** Before auditing, lay down the chapter dirs +
+   numbering for the section from the BACKLOG's per-spine skeleton, e.g.
+   `content/37-probability/{01-measure-foundations,02-independence-laws,03-clt-characteristic-fns,...}/`.
+   All audit/producer agents then slot ids into this SHARED structure (`<NN>.<CC>.<UU>`),
+   so parallel agents don't collide or invent divergent chapter numbers.
+7. **Smoke-test the SETUP.** Run `python3 scripts/build_lenses.py` and confirm: the new
+   field appears, its lens resolves with **0 dangling**, and `by area` still shows the
+   section under `math` (not `other`). Fix before producing.
 
 **(b) AUDIT** — for each book in the spine, spawn an audit agent (brief:
 `docs/briefs/AUDIT_BRIEF.md`) writing `plans/expansion/<spine>/_audit/<book>.gaps.md`.
@@ -73,6 +96,15 @@ Optionally add exercise packs (brief: `docs/briefs/EXERCISE_PACK_BRIEF.md`) once
 
 **(d) INTEGRATE + COMMIT** — see §3. Then run `python3 scripts/build_lenses.py` so the new
 units appear under their field lens.
+
+**(e) COMPLETENESS pass (per spine — "ensure nothing was missed").** The loop is
+gap-driven, so a missed concept in the audit never gets produced. After a spine's PRODUCE
+wave integrates, run ONE re-audit round against the now-larger corpus: re-spawn an audit
+agent per book (same `AUDIT_BRIEF`, but told "the corpus already contains the units listed
+in this spine's gap files — find anything STILL absent"). Produce any genuinely new gaps it
+surfaces, integrate, and repeat until a full round yields **0 new gaps** (loop-until-dry,
+typically 1-2 rounds). Only then mark the spine's PRODUCE step `[x]` and log the dry round.
+This is the difference between "audited once" and "verified complete."
 
 ---
 
@@ -123,9 +155,9 @@ Stop and write a checkpoint when ANY of:
 - repeated tool/integration failure that needs a human.
 
 Checkpoint = (a) ensure the working tree is clean and pushed, (b) update `BACKLOG.md`
-statuses, (c) update the memory file `project_pipeline_drained.md` with what shipped and
-what's next, (d) write a one-paragraph "where I am / next action" so the next session
-resumes in one read.
+statuses AND append a one-line wave entry to its `## Log`, (c) update the memory file
+`project_math_expansion.md` with what shipped and what's next, (d) write a one-paragraph
+"where I am / next action" so the next session resumes in one read.
 
 ---
 

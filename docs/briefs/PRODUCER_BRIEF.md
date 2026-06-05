@@ -53,8 +53,11 @@ peer units to match for quality/format.
   co-produced in this same wave (not yet on disk), do NOT list it here — reference it in
   `## Connections [Master]` instead.
 - `successors: []`, `pending_prereqs: false`
-- `references:` (each `[ref: TODO_REF ...]` you cite needs a matching entry; ≥1 non-pending
-  if a real source exists in `reference/`, else `source: TODO_REF`)
+- `references:` (each `[ref: TODO_REF ...]` you cite needs a matching entry). The `reference/`
+  archive is gitignored/vendored and ABSENT in autonomous runs — do NOT cite a
+  `source:/path:` into `reference/` you cannot verify exists (it fails the resolver). Use
+  `source: TODO_REF` (passes as a legacy escape hatch) or `pending: true` + `pointer:`.
+  At least one entry must be non-pending — a single `source: TODO_REF` entry satisfies that.
 - `lean_status: none` with a substantive `lean_mathlib_gap:` (≥30 words). Do NOT add a
   `lean_module:` field when status is none.
 - `estimated_time:` with THREE sub-keys `beginner:` / `intermediate:` / `master:`
