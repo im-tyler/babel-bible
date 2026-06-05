@@ -1,0 +1,9 @@
+id: probability
+label: Probability & Stochastics
+description: >-
+  Measure-theoretic probability, limit theorems, martingales, Markov chains,
+  stochastic calculus, large deviations, and random matrices. Prerequisites are
+  pulled in automatically so the result is always a complete, learnable path.
+seed:
+  field_in: [probability]
+group_by: field

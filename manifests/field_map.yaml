@@ -15,6 +15,7 @@ sections:
   precalc:               { area: math, field: foundations }
   foundations:           { area: math, field: algebra }
   analysis:              { area: math, field: analysis }
+  probability:           { area: math, field: probability }
   number-theory:         { area: math, field: number-theory }
   differential-geometry: { area: math, field: geometry-topology }
   modern-geometry:       { area: math, field: geometry-topology }

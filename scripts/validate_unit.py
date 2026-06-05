@@ -75,6 +75,7 @@ DOMAIN_BY_PREFIX = {
     "34": "music-art",
     "35": "health-medicine",
     "36": "media-literacy",
+    "37": "math",
 }
 
 INTERMEDIATE_EVIDENCE_KEYWORDS = {
@@ -451,6 +452,7 @@ def check_lean_status(report: ValidationReport, repo: Path):
         "00", "01", "02", "03", "04", "05", "06", "07", "08",
         "09", "10", "11", "12", "13",
         "14", "15", "16", "17", "18", "19",
+        "37",
     } or str(fm.get("id", "")).startswith("20.01.")
 
     if status == "full":

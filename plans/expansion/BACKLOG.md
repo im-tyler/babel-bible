@@ -17,7 +17,7 @@ spines 8-12) is a **HUMAN GATE** — do NOT start it without explicit go-ahead.
 
 ---
 
-## Spine 1 — Probability & Stochastics  ·  `probability`  ·  STATUS: not started
+## Spine 1 — Probability & Stochastics  ·  `probability`  ·  STATUS: setup done, auditing
 Section: `content/37-probability` (`probability`). Seeded: `content/02-analysis/15-stochastic-analysis`
 (Brownian/Ito/SDE/Feynman-Kac/Stratonovich) already exists — audit AGAINST it, do not redo it.
 NEW section → full SETUP (playbook §2a steps 1-7). Prefix `37` → DOMAIN_BY_PREFIX + formal_gap.
@@ -26,7 +26,7 @@ NEW section → full SETUP (playbook §2a steps 1-7). Prefix `37` → DOMAIN_BY_
 04-conditional-expectation-martingales · 05-markov-chains · 06-brownian-motion-stochastic-calculus
 (cross-ref 02.15, don't redo) · 07-large-deviations · 08-random-matrices`
 
-- [ ] SETUP: register `probability` section/field/lens + prefix 37 + chapter skeleton (playbook §2a 1-7); smoke-test build_lenses
+- [x] SETUP: register `probability` section/field/lens + prefix 37 + chapter skeleton (playbook §2a 1-7); smoke-test build_lenses
 - [ ] AUDIT: Durrett — *Probability: Theory and Examples* (measure-theoretic core, CLT, LLN, CFs)
 - [ ] AUDIT: Williams — *Probability with Martingales* (martingale convergence, optional stopping, UI)
 - [ ] AUDIT: Norris — *Markov Chains* (discrete + continuous-time, generators, recurrence)

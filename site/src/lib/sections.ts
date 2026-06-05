@@ -70,6 +70,7 @@ export const SECTIONS: SectionInfo[] = [
   { key: "precalc",               order: 0,    label: "Precalculus foundations",          anchor: "precalc",               domain: "mathematics" },
   { key: "foundations",           order: 1,    label: "Algebra & linear algebra",         anchor: "foundations",           domain: "mathematics" },
   { key: "analysis",              order: 2,    label: "Analysis",                         anchor: "analysis",              domain: "mathematics" },
+  { key: "probability",           order: 2.1,  label: "Probability & stochastics",        anchor: "probability",           domain: "mathematics" },
   { key: "number-theory",         order: 2.2,  label: "Number theory",                    anchor: "number-theory",         domain: "mathematics" },
   { key: "differential-geometry", order: 2.5,  label: "Differential geometry",            anchor: "differential-geometry", domain: "mathematics" },
   { key: "modern-geometry",       order: 3,    label: "Modern geometry",                  anchor: "modern-geometry",       domain: "mathematics" },
