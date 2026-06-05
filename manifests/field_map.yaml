@@ -52,6 +52,10 @@ fields:
   numerical-analysis:       { label: "Numerical Analysis",                   order: 10 }
   statistics:               { label: "Statistics",                          order: 11 }
   statistical-field-theory: { label: "Statistical Field Theory",            order: 12 }
+  # ── reserved for expansion spines (units land as each spine is produced) ──
+  dynamics:                 { label: "Dynamical Systems & Ergodic Theory",  order: 13 }
+  operator-algebras:        { label: "Operator Algebras & NCG",             order: 14 }
+  combinatorics:            { label: "Combinatorics & Graph Theory",        order: 15 }
   classical-physics:        { label: "Classical Mechanics & EM",            order: 20 }
   quantum:                  { label: "Quantum Theory",                      order: 21 }
   statistical-physics:      { label: "Statistical Mechanics",               order: 22 }

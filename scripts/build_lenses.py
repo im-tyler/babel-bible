@@ -72,6 +72,9 @@ def load_units(field_map: dict) -> dict:
         ov = overrides.get((section, chapter))
         af = ov if ov else sec_map.get(section, default)
         prereqs = [norm_id(p) for p in (fm.get("prerequisites") or [])]
+        fm_books = fm.get("source_books") or []
+        if isinstance(fm_books, str):
+            fm_books = [fm_books]
         units[uid] = {
             "id": uid,
             "title": fm.get("title", uid),
@@ -83,14 +86,23 @@ def load_units(field_map: dict) -> dict:
             "tiers": fm.get("tiers_present", ["master"]),
             "status": fm.get("status", "shipped"),
             "prereqs": prereqs,
+            "fm_curriculum": fm.get("source_curriculum"),
+            "fm_books": [str(b) for b in fm_books],
         }
     return units
 
 
 def attribute_sources(units: dict) -> dict:
-    """Best-effort unit -> source-book from the audit trail; default fast-track
-    for every math/physics unit (the entire current corpus is the Fast Track)."""
+    """Unit -> source provenance. Frontmatter `source_curriculum`/`source_books`
+    (stamped by new-spine producers) is authoritative; else fall back to the
+    audit-trail attribution and the fast-track default for math/physics units."""
     sources: dict[str, dict] = {}
+    # frontmatter provenance takes precedence (new expansion spines stamp this)
+    fm_authoritative: set[str] = set()
+    for uid, u in units.items():
+        if u.get("fm_curriculum"):
+            sources[uid] = {"curriculum": u["fm_curriculum"], "books": u.get("fm_books", [])}
+            fm_authoritative.add(uid)
     # book-level attribution from deepen gap files + first-pass audits
     for audit in list((AUDIT_DIR / "_deepen").glob("*.gaps.md")) + list(AUDIT_DIR.glob("*.md")):
         book = audit.stem.replace(".gaps", "")
@@ -101,6 +113,9 @@ def attribute_sources(units: dict) -> dict:
         for uid in set(ID_RE.findall(txt)):
             # Only attribute to units the audit actually PRODUCES (math/physics);
             # a math audit cross-referencing a chemistry unit is not provenance.
+            # Frontmatter-stamped units (new spines) are authoritative — skip.
+            if uid in fm_authoritative:
+                continue
             if uid in units and units[uid]["area"] in ("math", "physics"):
                 rec = sources.setdefault(uid, {"curriculum": "fast-track", "books": []})
                 if book not in rec["books"]:
