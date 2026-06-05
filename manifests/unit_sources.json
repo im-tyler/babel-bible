@@ -10708,6 +10708,12 @@
 ],
 "curriculum": "probability"
 },
+"37.05.07": {
+"books": [
+"norris-markov-chains"
+],
+"curriculum": "probability"
+},
 "37.05.08": {
 "books": [
 "norris-markov-chains"
@@ -10720,7 +10726,19 @@
 ],
 "curriculum": "probability"
 },
+"37.05.10": {
+"books": [
+"norris-markov-chains"
+],
+"curriculum": "probability"
+},
 "37.05.11": {
+"books": [
+"norris-markov-chains"
+],
+"curriculum": "probability"
+},
+"37.05.12": {
 "books": [
 "norris-markov-chains"
 ],
@@ -10798,6 +10816,18 @@
 ],
 "curriculum": "probability"
 },
+"37.07.10": {
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"curriculum": "probability"
+},
+"37.07.11": {
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"curriculum": "probability"
+},
 "37.08.01": {
 "books": [
 "durrett-probability"
@@ -10822,6 +10852,12 @@
 ],
 "curriculum": "probability"
 },
+"37.08.05": {
+"books": [
+"agz-random-matrices"
+],
+"curriculum": "probability"
+},
 "37.08.06": {
 "books": [
 "agz-random-matrices"
@@ -10829,6 +10865,12 @@
 "curriculum": "probability"
 },
 "37.08.07": {
+"books": [
+"agz-random-matrices"
+],
+"curriculum": "probability"
+},
+"37.08.08": {
 "books": [
 "agz-random-matrices"
 ],

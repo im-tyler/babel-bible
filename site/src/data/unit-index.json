@@ -40118,6 +40118,31 @@
 ],
 "title": "Convergence to Equilibrium via Coupling"
 },
+"37.05.07": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.07",
+"prereqs": [
+"37.05.05",
+"37.02.02"
+],
+"section": "probability",
+"slug": "ergodic-theorem-detailed-balance",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Ergodic Theorem for Markov Chains and Detailed Balance"
+},
 "37.05.08": {
 "area": "math",
 "books": [
@@ -40169,6 +40194,33 @@
 ],
 "title": "Continuous-Time Markov Chains II: The Kolmogorov Backward and Forward Equations"
 },
+"37.05.10": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.10",
+"prereqs": [
+"37.05.08",
+"37.05.09",
+"37.05.05",
+"37.05.06"
+],
+"section": "probability",
+"slug": "continuous-time-recurrence-invariant-convergence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Recurrence, Invariant Distributions, and Convergence for Continuous-Time Chains"
+},
 "37.05.11": {
 "area": "math",
 "books": [
@@ -40193,6 +40245,32 @@
 "master"
 ],
 "title": "The Poisson Process: Equivalent Characterizations"
+},
+"37.05.12": {
+"area": "math",
+"books": [
+"norris-markov-chains"
+],
+"chapter": "05-markov-chains",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.05.12",
+"prereqs": [
+"37.05.11",
+"37.05.08",
+"37.05.10"
+],
+"section": "probability",
+"slug": "birth-death-processes-queueing-chains",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Birth\u2013Death Processes and Queueing Chains"
 },
 "37.06.01": {
 "area": "math",
@@ -40503,6 +40581,58 @@
 ],
 "title": "Exponential Tightness, Exponential Approximation, and the Dawson\u2013G\u00e4rtner Projective Limit"
 },
+"37.07.10": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.10",
+"prereqs": [
+"37.07.02",
+"37.07.09",
+"02.15.01"
+],
+"section": "probability",
+"slug": "schilder-theorem-small-noise-brownian-motion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Schilder's Theorem: Small-Noise Large Deviations for Brownian Motion"
+},
+"37.07.11": {
+"area": "math",
+"books": [
+"dembo-zeitouni-large-deviations"
+],
+"chapter": "07-large-deviations",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.07.11",
+"prereqs": [
+"37.07.08",
+"02.15.02",
+"02.15.03"
+],
+"section": "probability",
+"slug": "freidlin-wentzell-small-noise-diffusions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Freidlin\u2013Wentzell Theory: Large Deviations for Small-Noise Diffusions"
+},
 "37.08.01": {
 "area": "math",
 "books": [
@@ -40600,6 +40730,30 @@
 ],
 "title": "Determinantal Point Processes and Sine-Kernel Bulk Universality"
 },
+"37.08.05": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.05",
+"prereqs": [
+"37.08.04"
+],
+"section": "probability",
+"slug": "airy-kernel-tracy-widom-edge-law",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Airy Kernel and the Tracy-Widom Edge Law"
+},
 "37.08.06": {
 "area": "math",
 "books": [
@@ -40647,5 +40801,30 @@
 "master"
 ],
 "title": "Spectral Concentration: Log-Sobolev and the Herbst Argument"
+},
+"37.08.08": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.08",
+"prereqs": [
+"37.08.01",
+"37.08.02"
+],
+"section": "probability",
+"slug": "free-probability-freeness-r-transform",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Free Probability: Freeness, Free Convolution, and the R-Transform"
 }
 }
