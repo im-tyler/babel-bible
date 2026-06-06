@@ -43334,6 +43334,31 @@
 ],
 "title": "Operator K-Theory: K_0 and K_1 of C*-Algebras"
 },
+"39.02.03": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "af-algebras-k-theory",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.02.03",
+"prereqs": [
+"39.02.02",
+"39.01.04"
+],
+"section": "operator-algebras",
+"slug": "six-term-sequence-bott-periodicity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Six-Term Exact Sequence, Bott Periodicity, and AF Classification"
+},
 "39.03.01": {
 "area": "math",
 "books": [
@@ -43511,6 +43536,31 @@
 ],
 "title": "Tomita's Theorem: the Modular Operator and Modular Conjugation"
 },
+"39.04.03": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "tomita-takesaki-modular",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.04.03",
+"prereqs": [
+"39.04.02",
+"39.04.01"
+],
+"section": "operator-algebras",
+"slug": "modular-automorphism-group-kms-condition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Modular Automorphism Group and the KMS Condition"
+},
 "39.05.01": {
 "area": "math",
 "books": [
@@ -43585,6 +43635,31 @@
 "master"
 ],
 "title": "Tensor Products of C*-Algebras: the Minimal and Maximal Norms"
+},
+"39.05.04": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.04",
+"prereqs": [
+"39.05.03",
+"39.05.02"
+],
+"section": "operator-algebras",
+"slug": "nuclear-c-star-algebras-cpap",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nuclear C*-Algebras and the Completely Positive Approximation Property"
 },
 "39.05.06": {
 "area": "math",
@@ -43662,6 +43737,31 @@
 ],
 "title": "The Connes Distance Formula"
 },
+"39.06.03": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "spectral-triples-ncg",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.06.03",
+"prereqs": [
+"39.06.01",
+"39.02.02"
+],
+"section": "operator-algebras",
+"slug": "fredholm-modules-index-pairing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fredholm Modules and the K-Theory/K-Homology Index Pairing"
+},
 "39.06.04": {
 "area": "math",
 "books": [
@@ -43711,5 +43811,30 @@
 "master"
 ],
 "title": "The Dixmier Trace and the Noncommutative Integral"
+},
+"39.07.01": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "cyclic-cohomology",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.07.01",
+"prereqs": [
+"39.02.02",
+"39.06.01"
+],
+"section": "operator-algebras",
+"slug": "cyclic-cohomology-pairing-k-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cyclic Cohomology and the Pairing with K-Theory"
 }
 }

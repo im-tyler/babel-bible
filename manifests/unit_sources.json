@@ -11459,6 +11459,12 @@
 ],
 "curriculum": "operator-algebras"
 },
+"39.02.03": {
+"books": [
+"davidson-cstar"
+],
+"curriculum": "operator-algebras"
+},
 "39.03.01": {
 "books": [
 "takesaki-von-neumann"
@@ -11501,6 +11507,12 @@
 ],
 "curriculum": "operator-algebras"
 },
+"39.04.03": {
+"books": [
+"takesaki-von-neumann"
+],
+"curriculum": "operator-algebras"
+},
 "39.05.01": {
 "books": [
 "brown-ozawa-nuclearity"
@@ -11514,6 +11526,12 @@
 "curriculum": "operator-algebras"
 },
 "39.05.03": {
+"books": [
+"brown-ozawa-nuclearity"
+],
+"curriculum": "operator-algebras"
+},
+"39.05.04": {
 "books": [
 "brown-ozawa-nuclearity"
 ],
@@ -11537,6 +11555,12 @@
 ],
 "curriculum": "operator-algebras"
 },
+"39.06.03": {
+"books": [
+"connes-ncg"
+],
+"curriculum": "operator-algebras"
+},
 "39.06.04": {
 "books": [
 "connes-ncg"
@@ -11544,6 +11568,12 @@
 "curriculum": "operator-algebras"
 },
 "39.06.05": {
+"books": [
+"connes-ncg"
+],
+"curriculum": "operator-algebras"
+},
+"39.07.01": {
 "books": [
 "connes-ncg"
 ],
