@@ -45518,6 +45518,78 @@
 ],
 "title": "Limits and Colimits as Universal Cones"
 },
+"41.02.02": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "limits-colimits",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.02.02",
+"prereqs": [
+"41.02.01"
+],
+"section": "category-theory",
+"slug": "constructing-limits-preservation-filtered",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Constructing Limits: Products, Equalizers, Preservation, and Filtered Colimits"
+},
+"41.03.01": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "adjunctions",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.03.01",
+"prereqs": [
+"41.01.02"
+],
+"section": "category-theory",
+"slug": "adjunctions-hom-set-unit-counit",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Adjunctions: Hom-Set and Unit-Counit Definitions"
+},
+"41.04.01": {
+"area": "math",
+"books": [
+"riehl-context"
+],
+"chapter": "yoneda-representability",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.04.01",
+"prereqs": [
+"41.01.02"
+],
+"section": "category-theory",
+"slug": "representable-functors-universal-elements",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Representable Functors and Universal Elements"
+},
 "42.01.01": {
 "area": "math",
 "books": [
@@ -45610,6 +45682,78 @@
 ],
 "title": "Structures and Tarski's Definition of Truth"
 },
+"42.01.05": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.05",
+"prereqs": [
+"42.01.04"
+],
+"section": "mathematical-logic",
+"slug": "deductive-calculus-soundness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "A Deductive Calculus for First-Order Logic and Soundness"
+},
+"42.01.08": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.08",
+"prereqs": [
+"42.01.04"
+],
+"section": "mathematical-logic",
+"slug": "representability-recursive-functions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Representability of Recursive Functions in Arithmetic"
+},
+"42.02.01": {
+"area": "math",
+"books": [
+"marker-model-theory"
+],
+"chapter": "model-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.02.01",
+"prereqs": [
+"42.01.04"
+],
+"section": "mathematical-logic",
+"slug": "structures-embeddings-elementary-equivalence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Structures, Embeddings, and Elementary Equivalence"
+},
 "42.03.01": {
 "area": "math",
 "books": [
@@ -45656,6 +45800,54 @@
 ],
 "title": "Ordinals, Transfinite Induction, and Recursion"
 },
+"42.03.03": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.03",
+"prereqs": [
+"42.03.02"
+],
+"section": "mathematical-logic",
+"slug": "cardinals-aleph-arithmetic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cardinals and the Arithmetic of the Infinite"
+},
+"42.03.05": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.05",
+"prereqs": [
+"42.03.02"
+],
+"section": "mathematical-logic",
+"slug": "axiom-of-choice-equivalents",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Axiom of Choice and Its Equivalents"
+},
 "42.04.01": {
 "area": "math",
 "books": [
@@ -45701,5 +45893,29 @@
 "master"
 ],
 "title": "The Halting Problem, Undecidability, and the Recursion Theorem"
+},
+"42.04.03": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.03",
+"prereqs": [
+"42.04.02"
+],
+"section": "mathematical-logic",
+"slug": "computably-enumerable-sets-creative-simple",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computably Enumerable Sets: Creative and Simple Sets"
 }
 }

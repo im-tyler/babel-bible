@@ -52,4 +52,4 @@ TWO new sections (prefix-25 collides CS+prose-logic, so formal logic gets a fres
 - WAVE 8 (L7-L9 tail): 42.02.04, 42.02.06, 42.02.07, 42.03.09
 
 ## Status
-- [x] W1  [x] W2  [ ] W3  [ ] W4  [ ] W5  [ ] W6  [ ] W7  [ ] W8  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [ ] W4  [ ] W5  [ ] W6  [ ] W7  [ ] W8  [ ] COMPLETENESS (loop-until-dry)
