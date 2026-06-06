@@ -15314,3 +15314,57 @@ The noncommutative torus as a noncommutative geometry: smooth subalgebra $A_\the
 - **unit**: `39.07.01`
 - **prerequisites**: `39.02.02` (operator K-theory: K_0 and K_1), `39.06.01` (spectral triples and the reconstruction theorem)
 - **notes**: stub - see unit `39.07.01`. Connes' cyclic cohomology HC^* and periodic cyclic cohomology HP^* of an algebra, the cyclic bicomplex / (b, B) bicomplex, and the SBI exact sequence relating Hochschild, cyclic, and de Rham theories. The pairing HP^*(A) x K_*(A) -> C extending the trace pairing, computed on a dense smooth subalgebra; the Chern-Connes character ch: K_*(A) -> HP_*(A). Cyclic cohomology of the smooth noncommutative torus; obstruction examples (Cuntz algebras with no trace). Lean status none: Mathlib lacks cyclic/periodic cyclic cohomology, the (b,B) bicomplex, and the Chern-Connes character.
+
+### operator-algebras.exact-c-star-algebras-nuclear-embeddability
+
+- **title**: Exact C*-Algebras and Nuclear Embeddability
+- **unit**: `39.05.05`
+- **prerequisites**: `39.05.04` (nuclear C*-algebras and the completely positive approximation property), `39.05.03` (tensor products of C*-algebras: the minimal and maximal norms)
+- **notes**: stub - see unit `39.05.05`. A C*-algebra A is exact iff the functor - (x)_min A preserves short exact sequences 0 -> J -> B -> B/J -> 0. Kirchberg's theorem: exactness equals nuclear embeddability (A is a C*-subalgebra of a nuclear algebra); for separable A, A embeds in the Cuntz algebra O_2 (Kirchberg-Phillips). The hierarchy nuclear => exact is strict: exactness is subalgebra-stable, so C*_r(F_n) is exact (Haagerup-de Canniere) but not nuclear; Gromov monster groups give non-exact reduced group algebras. Local reflexivity (Effros-Haagerup, automatic) and property C. Lean status none: Mathlib lacks the minimal tensor functor, the exactness condition, nuclear embeddability, and local reflexivity.
+
+### operator-algebras.connes-type-iii-classification
+
+- **title**: The Connes Classification of Type III Factors
+- **unit**: `39.04.04`
+- **prerequisites**: `39.04.03` (the modular automorphism group and the KMS condition), `39.04.02` (Tomita's theorem: the modular operator and modular conjugation)
+- **notes**: stub - see unit `39.04.04`. Connes' invariants of a type III factor M: the Connes spectrum S(M)=cap_phi Spec(Delta_phi) (intersection over faithful normal states of the modular operator spectra) and the T-invariant T(M)={t : sigma_t^phi in Inn(M)}=ker delta. S(M) minus {0} is a closed multiplicative subgroup of R^+, forcing the subdivision of type III into III_0 (S(M)={0,1}), III_lambda for 0<lambda<1 (S(M)={0} union lambda^Z), and III_1 (S(M)=[0,infty)). The discrete decomposition M = N rtimes_theta Z of a III_lambda factor by a trace-scaling automorphism of a type II_infinity factor N (tau o theta = lambda tau), and the continuous decomposition M = N rtimes_theta R with tau o theta_s = e^{-s} tau (Takesaki duality). The smooth flow of weights on Z(N) as the complete invariant of III_0. The Powers / Araki-Woods ITPFI factors R_lambda realising each III_lambda as an infinite tensor product with eigenvalue ratio lambda. Lean status none: Mathlib lacks von Neumann algebras, modular automorphism groups, the Connes spectrum and T-invariant, the crossed-product decompositions, and the flow of weights.
+
+### operator-algebras.quasidiagonality
+
+- **title**: Quasidiagonality
+- **unit**: `39.05.08`
+- **prerequisites**: `39.05.04` (nuclear C*-algebras and the completely positive approximation property), `39.05.06` (amenable groups: invariant means, the Følner condition, paradoxical decompositions)
+- **notes**: stub - see unit `39.05.08`. A set S of operators is quasidiagonal if an increasing net of finite-rank projections P_n -> 1 strongly has |[P_n, s]| -> 0 for all s; a C*-algebra is quasidiagonal if it has a faithful QD representation. Voiculescu's homotopy-invariance theorem and the abstract characterisation: A is QD iff there is a sequence of ucp maps A -> M_{k(n)}(C) that is asymptotically multiplicative and asymptotically isometric. A unital algebra with a proper isometry (Toeplitz, O_n) is not QD; AF and RFD algebras are QD; QD passes to subalgebras. Rosenberg: C*_r(G) QD implies G amenable. Tikuisis-White-Winter (2017): faithful-trace separable nuclear UCT algebras are QD, a pillar of the Elliott classification programme. Lean status none: Mathlib lacks finite-rank projections with the strong topology, QD sets, and the ucp characterisation.
+
+### operator-algebras.group-c-star-algebras-amenability-nuclearity
+
+- **title**: Group C*-Algebras: Amenability and Nuclearity
+- **unit**: `39.05.07`
+- **prerequisites**: `operator-algebras.amenable-groups-folner-invariant-means`, `operator-algebras.nuclear-c-star-algebras-cpap`
+- **tier_anchors**:
+  - master: Hulanicki 1966 *Studia Math.* 27; Fell 1962 *Canad. J. Math.* 14; Powers 1975 *Duke Math. J.* 42; Haagerup 1979 *Invent. Math.* 50; Brown-Ozawa *C*-Algebras and Finite-Dimensional Approximations* (AMS, 2008) §2.5-2.6, Ch. 5; Dixmier *C*-Algebras* §13
+  - intermediate: Brown-Ozawa §2.5-2.6; Pedersen *C*-Algebras and Their Automorphism Groups* §7.1-7.3; Davidson *C*-Algebras by Example* Ch. VII
+  - beginner: two ways to build an algebra from a group's symmetries — the freest possible one (universal for all unitary representations) and the one acting on the group's own functions — and the fact that they coincide exactly when the group is amenable
+- **notes**: The full group C*-algebra $C^*(G)$ is the completion of the group ring $\mathbb{C}[G]$ in the universal norm $\|x\|_{\mathrm u} = \sup_\pi \|\pi(x)\|$ over all unitary representations; it is universal for unitary representations of $G$. The reduced group C*-algebra $C^*_r(G)$ is generated by the left-regular representation $\lambda(s)\delta_t = \delta_{st}$ on $\ell^2(G)$, with reduced norm $\|x\|_r = \|\lambda(x)\|$. Since $\lambda$ contributes to the universal norm, $\|x\|_r \le \|x\|_{\mathrm u}$, giving the canonical surjection $\lambda_* : C^*(G) \twoheadrightarrow C^*_r(G)$. Hulanicki's theorem: $G$ amenable $\iff$ the trivial representation $1_G$ is weakly contained in $\lambda$ $\iff$ $\lambda_*$ is an isomorphism $\iff$ $C^*_r(G)$ is nuclear $\iff$ $C^*(G)$ is nuclear $\iff$ $L(G)$ injective $\iff$ Kesten's $\|\lambda(\mu)\| = 1$. The amenable-implies-nuclear direction runs through a Følner sequence, whose normalised indicators $\xi_n = |F_n|^{-1/2}\mathbf{1}_{F_n}$ are almost-invariant vectors for $\lambda$ and supply the completely positive approximation property (compressions onto $\ell^2(F_n)$). Fell's absorption principle $\lambda \otimes \pi \cong \lambda \otimes 1$ via $W(\delta_t \otimes \xi) = \delta_t \otimes \pi(t)\xi$ converts $1_G \prec \lambda$ into the collapse $\|\cdot\|_{\mathrm u} = \|\cdot\|_r$. Examples: abelian $G$ gives $C^*(G) = C^*_r(G) = C(\widehat{G})$ by Gelfand-Pontryagin; finite/compact and virtually abelian groups are nuclear; free groups $F_n$ have $C^*_r(F_n)$ NON-nuclear (non-amenable) but exact (amenable action on the Gromov boundary), simple with unique trace (Powers 1975), with the completely bounded approximation property via the Haagerup inequality. The Haagerup property / a-T-menability previews a weak amenability-like flexibility opposite Kazhdan (T). Lean status `none`: Mathlib lacks the universal/regular completions, the canonical surjection, Hulanicki's theorem, Fell absorption, and the non-nuclearity-yet-exactness of $C^*_r(F_n)$.
+
+
+### operator-algebras.chern-character-k-homology
+
+- **title**: The Chern Character in K-Homology
+- **unit**: `39.07.02`
+- **prerequisites**: `39.07.01` (cyclic cohomology and the pairing with K-theory), `39.06.03` (Fredholm modules and the K-theory/K-homology index pairing)
+- **notes**: stub - see unit `39.07.02`. The Chern character ch*: K^*(A) -> HP^*(A) sending a Fredholm module to a periodic cyclic cocycle. For an n-summable module (H, F, pi) the Connes character cocycle tau_n(a_0,...,a_n) = lambda_n Tr_s(F[F,a_0][F,a_1]...[F,a_n]), its cyclicity and (b,B)-closedness, and the S-periodicity S[tau_n] = [tau_{n+2}]; the even case uses the grading and the supertrace. Compatibility with the index pairing: <ch*[F], ch_*[e]> = index(eF^+e), the cohomological form of the index theorem. The JLO cocycle for theta-summable modules in entire cyclic cohomology, and the commutative Chern-Weil model giving the A-hat genus. Lean status none: Mathlib lacks Fredholm modules, cyclic/periodic cyclic cohomology, and the Chern character into HP.
+
+### operator-algebras.group-approximation-connes-embedding
+
+- **title**: Group Approximation Properties and the Connes Embedding Problem
+- **unit**: `39.05.09`
+- **prerequisites**: `39.05.06` (amenable groups: invariant means, the Følner condition, paradoxical decompositions), `39.05.04` (nuclear C*-algebras and the completely positive approximation property)
+- **notes**: stub - see unit `39.05.09`. The hierarchy of approximation properties above amenability and the Connes embedding problem as its capstone. The Haagerup property (a-T-menability): a proper conditionally-negative-definite function, equivalently a c_0 sequence of normalised positive-definite functions; free groups have it (word length is CND via the tree cocycle), infinite property (T) groups do not. Weak amenability and the Cowling-Haagerup constant Lambda_cb(G); the CBAP for C*_r(G) and L(G). Sofic and hyperlinear groups (approximation by Sym(n) in the Hamming metric / U(n) in the Hilbert-Schmidt metric). The Connes Embedding Problem: does every separable II_1 factor embed into R^omega? Kirchberg's QWEP / unique-C*-norm-on-C*(F)⊗C*(F) reformulation and Tsirelson's problem; the 2020 MIP*=RE theorem (Ji-Natarajan-Vidick-Wright-Yuen) refuting it. Lean status none: Mathlib lacks CND/positive-definite functions, cb multipliers, the Haagerup property, R^omega, QWEP, and soficity.
+
+### operator-algebras.connes-moscovici-local-index-formula
+
+- **title**: The Connes-Moscovici Local Index Formula
+- **unit**: `39.06.06`
+- **prerequisites**: `39.06.03` (Fredholm modules and the K-theory/K-homology index pairing), `39.06.05` (the Dixmier trace and the noncommutative integral), `39.07.01` (cyclic cohomology and the pairing with K-theory)
+- **notes**: stub - see unit `39.06.06`. The Connes-Moscovici local index formula (1995) computing the index pairing <[D],[u]> of a finitely-summable spectral triple as a finite sum of residues of zeta functions zeta_b(z) = Tr(b |D|^{-z}). The dimension spectrum Sd as the poles of these zeta functions, the pseudodifferential calculus and noncommutative (Wodzicki) residue on a regular spectral triple extending the Dixmier trace, and the residue (b,B)-cocycle (phi_n) representing the Chern character ch*[D] in periodic cyclic cohomology. The odd / spectral-flow and semifinite / resolvent-cocycle refinements, the JLO cocycle as the theta-summable bridge, and the commutative reduction to the heat-kernel proof of Atiyah-Singer. Lean status none: Mathlib lacks the pseudodifferential calculus, the zeta functions and their meromorphic continuation, the dimension spectrum, the noncommutative residue, and the (b,B)-bicomplex.

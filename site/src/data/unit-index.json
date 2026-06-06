@@ -43561,6 +43561,31 @@
 ],
 "title": "The Modular Automorphism Group and the KMS Condition"
 },
+"39.04.04": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "tomita-takesaki-modular",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.04.04",
+"prereqs": [
+"39.04.03",
+"39.04.02"
+],
+"section": "operator-algebras",
+"slug": "connes-type-iii-classification",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Connes Classification of Type III Factors"
+},
 "39.05.01": {
 "area": "math",
 "books": [
@@ -43661,6 +43686,31 @@
 ],
 "title": "Nuclear C*-Algebras and the Completely Positive Approximation Property"
 },
+"39.05.05": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.05",
+"prereqs": [
+"39.05.04",
+"39.05.03"
+],
+"section": "operator-algebras",
+"slug": "exact-c-star-algebras-nuclear-embeddability",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Exact C*-Algebras and Nuclear Embeddability"
+},
 "39.05.06": {
 "area": "math",
 "books": [
@@ -43685,6 +43735,81 @@
 "master"
 ],
 "title": "Amenable Groups: Invariant Means, the F\u00f8lner Condition, and Paradoxical Decompositions"
+},
+"39.05.07": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.07",
+"prereqs": [
+"39.05.06",
+"39.05.04"
+],
+"section": "operator-algebras",
+"slug": "group-c-star-algebras-amenability-nuclearity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Group C*-Algebras: Amenability and Nuclearity"
+},
+"39.05.08": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.08",
+"prereqs": [
+"39.05.04",
+"39.05.06"
+],
+"section": "operator-algebras",
+"slug": "quasidiagonality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quasidiagonality"
+},
+"39.05.09": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.09",
+"prereqs": [
+"39.05.06",
+"39.05.04"
+],
+"section": "operator-algebras",
+"slug": "group-approximation-connes-embedding",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Group Approximation Properties and the Connes Embedding Problem"
 },
 "39.06.01": {
 "area": "math",
@@ -43812,6 +43937,32 @@
 ],
 "title": "The Dixmier Trace and the Noncommutative Integral"
 },
+"39.06.06": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "spectral-triples-ncg",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.06.06",
+"prereqs": [
+"39.06.03",
+"39.06.05",
+"39.07.01"
+],
+"section": "operator-algebras",
+"slug": "connes-moscovici-local-index-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Connes-Moscovici Local Index Formula"
+},
 "39.07.01": {
 "area": "math",
 "books": [
@@ -43836,5 +43987,30 @@
 "master"
 ],
 "title": "Cyclic Cohomology and the Pairing with K-Theory"
+},
+"39.07.02": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "cyclic-cohomology",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.07.02",
+"prereqs": [
+"39.07.01",
+"39.06.03"
+],
+"section": "operator-algebras",
+"slug": "chern-character-k-homology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Chern Character in K-Homology"
 }
 }

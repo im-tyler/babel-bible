@@ -32,4 +32,4 @@ analytic version), functional analysis 02.11.*. Peers: 02.11.03/08, 01.01.13, 03
 - WAVE 7 (L6-L7): 39.04.04, 39.05.05, 39.05.07, 39.05.08, 39.06.06, 39.07.02, 39.05.09
 
 ## Status
-- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [ ] W7  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [ ] COMPLETENESS (loop-until-dry)
