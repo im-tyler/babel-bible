@@ -1084,6 +1084,42 @@
 ],
 "curriculum": "fast-track"
 },
+"02.16.01": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
+"02.17.02": {
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"curriculum": "pde-harmonic"
+},
+"02.18.03": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
+"02.19.01": {
+"books": [
+"stein-singular-integrals"
+],
+"curriculum": "pde-harmonic"
+},
+"02.20.05": {
+"books": [
+"stein-shakarchi-harmonic"
+],
+"curriculum": "pde-harmonic"
+},
+"02.21.01": {
+"books": [
+"tao-dispersive"
+],
+"curriculum": "pde-harmonic"
+},
 "03.01.01": {
 "books": [
 "shilov-linear-algebra"

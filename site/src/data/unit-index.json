@@ -4099,6 +4099,161 @@
 ],
 "title": "The Stratonovich Integral and Stratonovich Calculus"
 },
+"02.16.01": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "sobolev-weak-solutions",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.16.01",
+"prereqs": [
+"24.01.01",
+"02.07.06",
+"02.05.04"
+],
+"section": "analysis",
+"slug": "sobolev-inequalities-gagliardo-nirenberg-morrey",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sobolev Inequalities: the Gagliardo-Nirenberg-Sobolev and Morrey Inequalities"
+},
+"02.17.02": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.02",
+"prereqs": [
+"02.13.01",
+"02.05.04",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "maximum-principles-general-elliptic-operators",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Maximum Principles for General Second-Order Elliptic Operators"
+},
+"02.18.03": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "parabolic-hyperbolic",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.18.03",
+"prereqs": [
+"02.11.03",
+"02.11.04"
+],
+"section": "analysis",
+"slug": "c0-semigroups-hille-yosida",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "C0-Semigroups and the Hille-Yosida Theorem"
+},
+"02.19.01": {
+"area": "math",
+"books": [
+"stein-singular-integrals"
+],
+"chapter": "calderon-zygmund-singular-integrals",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.19.01",
+"prereqs": [
+"02.07.06",
+"02.07.07",
+"02.04.04"
+],
+"section": "analysis",
+"slug": "hardy-littlewood-maximal-function-vitali-covering",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Hardy-Littlewood Maximal Function and the Vitali Covering Lemma"
+},
+"02.20.05": {
+"area": "math",
+"books": [
+"stein-shakarchi-harmonic"
+],
+"chapter": "littlewood-paley-interpolation",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.20.05",
+"prereqs": [
+"02.14.02",
+"02.10.04",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "oscillatory-integrals-stationary-phase-van-der-corput",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Oscillatory Integrals and the Method of Stationary Phase"
+},
+"02.21.01": {
+"area": "math",
+"books": [
+"tao-dispersive"
+],
+"chapter": "dispersive-strichartz",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.21.01",
+"prereqs": [
+"02.10.04",
+"02.14.02",
+"02.13.03"
+],
+"section": "analysis",
+"slug": "dispersive-decay-estimates-schrodinger-wave",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Dispersive Decay Estimates for the Schr\u00f6dinger and Wave Propagators"
+},
 "03.01.01": {
 "area": "math",
 "books": [
