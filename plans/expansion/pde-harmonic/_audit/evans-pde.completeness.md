@@ -90,3 +90,37 @@ real curricular value rather than being a stylistic duplicate.
 
 ## DRY?
 NOT-DRY — exactly one new genuine gap: `02.13.06` Cauchy-Kovalevskaya + Holmgren (the only general analytic local-solvability theorem, still absent as a PDE unit).
+
+## Round 2
+
+Re-audit after the round-1 gap was produced.
+
+- **Round-1 gap closed.** `02.13.06-cauchy-kovalevskaya-holmgren-uniqueness.md`
+  is on disk with full frontmatter (id `02.13.06`, all three tiers present,
+  prereqs `02.05.04`/`02.13.04`/`02.14.04`, anchored to Evans §4.6.2-4.6.3,
+  John §3.3-3.5, Hörmander §9.4 for Holmgren, Lewy's counterexample noted).
+  "Cauchy-Kovalevskaya" now resolves to this PDE unit as the general analytic
+  Cauchy problem (not merely the majorant technique in `02.05.04`); "Holmgren"
+  resolves uniquely to it. Gap fully closed.
+
+- **Re-sweep of all Evans headline theorems — every one COVERED:** Sobolev/GNS/
+  Morrey/trace/Rellich-Kondrachov/Poincaré (`02.16.01-03`); Lax-Milgram +
+  Fredholm + elliptic eigenvalues (`02.16.04-05`); $H^2$/$H^k$ regularity,
+  max principles + Hopf, ABP, Schauder, method of continuity, $W^{2,p}$
+  Calderón-Zygmund, De Giorgi-Nash-Moser, Harnack (Moser/Krylov-Safonov)
+  (`02.17.01-08`); Schaefer/Leray-Schauder nonvariational existence
+  (`02.17.09`); Galerkin parabolic/hyperbolic + finite propagation +
+  Hille-Yosida (`02.18.01-03`); direct method of CoV (`02.18.04`); viscosity
+  HJ / Crandall-Lions / Hopf-Lax (`02.18.05`); scalar conservation laws /
+  Rankine-Hugoniot / Lax-Oleinik / Kruzhkov (`02.18.06`); classical
+  fundamental-solution layer (`02.13.01-04`); distributions / wavefront sets /
+  pseudodifferential / propagation of singularities (`02.14.01-04`). Each grep
+  returns a live unit.
+
+- **Out-of-scope set unchanged:** systems of conservation laws
+  (Glimm/Riemann invariants, Evans §11.2-11.3) and the solution-technique
+  catalogue (§4.1-4.5) remain correctly deferred. No previously-missed headline
+  theorem of curricular value surfaced on this pass.
+
+**Verdict: DRY — 0 new gaps.** The modern-PDE + classical spine for Evans is
+complete; `02.13.06` was the final absent headline theorem.

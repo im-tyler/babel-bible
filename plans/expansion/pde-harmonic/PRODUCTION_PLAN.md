@@ -65,4 +65,5 @@ unit) + chapter-specific shipped siblings; `02.07.06` (Lp), `02.10.04` (Fourier)
 - WAVE 6 (L5): 02.18.02, 02.18.06, 02.21.06
 
 ## Status
-- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] COMPLETENESS (2 rounds, converged)
+- SPINE 2 COMPLETE: 37 units (36 + 1 completeness 02.13.06 Cauchy-Kovalevskaya/Holmgren). 0 dangling.

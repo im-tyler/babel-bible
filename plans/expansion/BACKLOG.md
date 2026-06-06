@@ -38,7 +38,7 @@ NEW section → full SETUP (playbook §2a steps 1-7). Prefix `37` → DOMAIN_BY_
 - [ ] (optional) exercise packs for the new probability chapters
 - TOTAL: 46 units shipped (42 produce + 4 completeness). probability lens core=51, 0 dangling.
 
-## Spine 2 — Modern PDE & Harmonic Analysis  ·  `pde-harmonic`  ·  STATUS: not started
+## Spine 2 — Modern PDE & Harmonic Analysis  ·  `pde-harmonic`  ·  STATUS: COMPLETE (37 units, loop-until-dry converged 2026-06-05)
 EXTEND `content/02-analysis` (new chapters; NO new section/prefix/sections.ts — skip SETUP
 2-5). Field `analysis`. Audit against existing 02.13-pde, 02.14-microlocal, 02.10-harmonic.
 **New chapter skeleton** (next free chapter numbers under 02-analysis):
@@ -46,13 +46,10 @@ EXTEND `content/02-analysis` (new chapters; NO new section/prefix/sections.ts �
 parabolic-hyperbolic · calderon-zygmund-singular-integrals · littlewood-paley-interpolation ·
 dispersive-strichartz`. SETUP here = just create these chapter dirs.
 
-- [ ] AUDIT: Evans — *Partial Differential Equations* (Sobolev, weak solutions, elliptic/parabolic/hyperbolic regularity)
-- [ ] AUDIT: Gilbarg-Trudinger — *Elliptic PDE of Second Order* (Schauder, De Giorgi-Nash-Moser, maximum principles)
-- [ ] AUDIT: Stein — *Singular Integrals and Differentiability Properties of Functions* (Calderon-Zygmund, Sobolev)
-- [ ] AUDIT: Stein-Shakarchi — *Functional Analysis* / *Real Analysis* (Littlewood-Paley, interpolation, Hardy spaces)
-- [ ] AUDIT: Tao — *Nonlinear Dispersive Equations* (Strichartz, local/global well-posedness)
-- [ ] PRODUCE: gaps → integrate → commit → build_lenses
-- [ ] COMPLETENESS: re-audit all 5 books vs the grown corpus; loop-until-dry (0 new gaps); log
+- [x] AUDIT: Evans (13 gaps) · Gilbarg-Trudinger (8) · Stein (6) · Stein-Shakarchi (7) · Tao (6) — see _audit/*.gaps.md
+- [x] PRODUCE: collision-checked → 36 units across chapters 16-21 (see pde-harmonic/PRODUCTION_PLAN.md), 6 waves, all 27/27
+- [x] COMPLETENESS: 2 rounds. R1 GT/Stein/Stein-Shakarchi/Tao DRY, Evans +1 (02.13.06 Cauchy-Kovalevskaya/Holmgren); R2 fully DRY
+- TOTAL: 37 units (36 produce + 1 completeness). chapters 02.16-02.21 + 02.13.06. math area +37.
 
 ## Spine 3 — Analytic Number Theory  ·  `analytic-nt`  ·  STATUS: not started
 EXTEND `content/21-number-theory` (new chapters; NO new section/prefix — skip SETUP 2-5).
@@ -146,4 +143,5 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-05 — Spine 2 (pde-harmonic) COMPLETE: 37 units extending 02-analysis (chapters 16-21 + classical 02.13.06). Evans/GT/Stein/Stein-Shakarchi/Tao. 6 produce waves + 2 completeness rounds (converged). math area +37. Next: Spine 3 (analytic-nt, EXTENDS 21-number-theory).
 - 2026-06-05 — Spine 1 (probability) COMPLETE: section 37 SETUP + 46 units across 6 produce waves + 2 completeness rounds (loop-until-dry converged). probability lens core 5→51, math area +46, 0 dangling. Next: Spine 2 (pde-harmonic, EXTENDS 02-analysis).
