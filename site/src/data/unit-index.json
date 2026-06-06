@@ -45662,6 +45662,54 @@
 ],
 "title": "Monads, Eilenberg-Moore Algebras, and the Kleisli Category"
 },
+"41.05.02": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "monads-algebras",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.05.02",
+"prereqs": [
+"41.05.01"
+],
+"section": "category-theory",
+"slug": "beck-monadicity-lawvere-theories",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Beck's Monadicity Theorem and Lawvere Theories"
+},
+"41.06.01": {
+"area": "math",
+"books": [
+"riehl-context"
+],
+"chapter": "kan-extensions",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.06.01",
+"prereqs": [
+"41.04.02"
+],
+"section": "category-theory",
+"slug": "ends-coends-calculus",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ends, Coends, and the Calculus of (Co)ends"
+},
 "42.01.01": {
 "area": "math",
 "books": [
@@ -45801,6 +45849,30 @@
 "master"
 ],
 "title": "G\u00f6del's Completeness Theorem and the Henkin Construction"
+},
+"42.01.07": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.07",
+"prereqs": [
+"42.01.06"
+],
+"section": "mathematical-logic",
+"slug": "compactness-lowenheim-skolem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Compactness and the L\u00f6wenheim-Skolem Theorems for First-Order Logic"
 },
 "42.01.08": {
 "area": "math",
@@ -45992,6 +46064,30 @@
 ],
 "title": "The Axiom of Choice and Its Equivalents"
 },
+"42.03.06": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.06",
+"prereqs": [
+"42.03.04"
+],
+"section": "mathematical-logic",
+"slug": "constructible-universe-l-gch",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Constructible Universe L and the Consistency of GCH"
+},
 "42.04.01": {
 "area": "math",
 "books": [
@@ -46085,6 +46181,54 @@
 "master"
 ],
 "title": "Turing Reducibility, Oracles, and the Jump"
+},
+"42.04.05": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.05",
+"prereqs": [
+"42.04.04"
+],
+"section": "mathematical-logic",
+"slug": "arithmetical-hierarchy-posts-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Arithmetical Hierarchy and Post's Theorem"
+},
+"42.04.06": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.06",
+"prereqs": [
+"42.04.04"
+],
+"section": "mathematical-logic",
+"slug": "turing-degrees-priority-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Turing Degrees and the Priority Method"
 },
 "42.04.07": {
 "area": "math",
