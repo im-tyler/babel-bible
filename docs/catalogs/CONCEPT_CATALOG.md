@@ -14649,3 +14649,66 @@ The Riesz transforms $R_jf = c_n\,\mathrm{p.v.}\int (x_j-y_j)|x-y|^{-n-1}f(y)\,d
 - **unit**: `02.20.03`
 - **prerequisites**: `02.19.03` (Calderon-Zygmund singular integral operators, L^p), `02.07.06` (L^p spaces), `02.10.04` (Fourier transform, Plancherel), `02.11.08` (Hilbert space)
 - **notes**: stub - see unit `02.20.03`. Smooth dyadic frequency decomposition $f=\sum_j\Delta_j f$ via annular Littlewood-Paley projections; the square function $Sf=(\sum_j|\Delta_j f|^2)^{1/2}$ and the theorem $\|f\|_p\sim\|Sf\|_p$ for $1<p<\infty$, proved by viewing $(\Delta_j)_j$ as an $\ell^2$-valued Calderon-Zygmund operator (vector-valued [02.19.03]), lower bound by duality via the reproducing identity $\sum_j\widetilde\Delta_j\Delta_j=I$; the Khintchine/Rademacher randomization route reducing $S$ to a uniform average of Mikhlin multipliers $T_\varepsilon=\sum_j\varepsilon_j\Delta_j$; the Stein $g$-function $g(f)=(\int_0^\infty|t\partial_t P_t f|^2,\,dt/t)^{1/2}$ from the Poisson semigroup with $\|g(f)\|_p\sim\|f\|_p$; the Lusin area integral $S_\alpha$; applications to Marcinkiewicz/Hormander-Mikhlin multipliers, Besov-Triebel-Lizorkin spaces ($L^p=\dot F^0_{p,2}$), and the Carleson-measure/BMO endpoint. Stein-Shakarchi harmonic. Lean status none.
+
+
+### dispersive.conservation-laws-global-well-posedness
+
+- **title**: Conservation Laws, Global Well-Posedness, and the Energy-Critical Problem
+- **unit**: `02.21.04`
+- **prerequisites**: `02.21.03` (local well-posedness via Strichartz contraction), `02.21.02` (Strichartz estimates, TT*), `02.16.01` (Sobolev/Gagliardo-Nirenberg inequalities)
+- **notes**: stub - see unit `02.21.04`. Conservation of mass $M[u]=\int|u|^2$, momentum $P[u]=\operatorname{Im}\int\bar u\nabla u$, and energy $E[u]=\int(\tfrac12|\nabla u|^2+\tfrac{\mu}{p+1}|u|^{p+1})$ for NLS (and the wave energy adding $\tfrac12\|\partial_t u\|_{L^2}^2$); the regularise-conserve-pass-to-limit argument upgrading the formal $\tfrac{d}{dt}E=0$ from smooth to $H^1$ data via persistence of regularity. How an a-priori conserved quantity upgrades local to global well-posedness: defocusing ($\mu=+1$) $H^1$-subcritical GWP because the energy is coercive ($\tfrac12\|\nabla u\|^2\le E$) and the local time depends only on the $H^1$ norm, so the norm-dependent local theory iterates with a uniform time-step; mass-conservation $L^2$ theory. The energy-critical power $p=(n+2)/(n-2)$ ($s_c=1$), the degeneration of the soft iteration at criticality, and the defocusing global-existence-and-scattering theorem at survey level: Bourgain's induction-on-energy (radial, $n=3,4$), CKSTT's interaction-Morawetz removal of the radial assumption (quintic $\mathbb{R}^3$), and the Kenig-Merle concentration-compactness/rigidity road map with the Aubin-Talenti ground state $W$ as threshold. Focusing vs defocusing dichotomy; the virial identity and Glassey ($E<0$, finite variance $\Rightarrow$ blowup). Tao Ch. 3-5. Lean status none.
+
+
+### pde.h2-hk-regularity-weak-elliptic-solutions
+
+- **title**: Interior and Boundary H^2/H^k Regularity of Weak Elliptic Solutions
+- **unit**: `02.17.01`
+- **prerequisites**: `02.16.04` (Lax-Milgram, weak elliptic existence), `02.16.01` (Sobolev inequalities, Gagliardo-Nirenberg-Morrey), `24.01.01` (Sobolev spaces H^s, W^{k,p})
+- **notes**: stub - see unit `02.17.01`. If u in H^1 is a weak solution of Lu=f (divergence form, f in L^2, C^1 leading coefficients) then u in H^2_loc with the elliptic estimate ||u||_{H^2} <= C(||f||_{L^2} + ||u||_{L^2}), proved by the Nirenberg difference-quotient method; the bootstrap f in H^k => u in H^{k+2}; up-to-the-boundary regularity on C^2 domains via tangential difference quotients plus recovery of the normal second derivative from the equation; the C^infty corollary via Sobolev embedding. The L^2/energy-method (Sobolev-scale) regularity theory, complementing the Hölder/Schauder scale (02.17.04) and the L^p Calderon-Zygmund scale (02.17.06). Evans Ch. 6.3. Lean status none.
+
+
+### pde.lp-calderon-zygmund-w2p-estimates
+- **title**: Lp (Calderón-Zygmund) W^{2,p} Estimates for Elliptic Equations
+- **unit**: `02.17.06`
+- **prerequisites**: `calderon-zygmund.riesz-transforms` (02.19.04), `pde.schauder-c2alpha-estimates` (02.17.04), `measure-theory.lp-spaces-holder-minkowski-completeness` (02.07.06)
+- **notes**: stub - see unit `02.17.06`. The L^p (Calderón-Zygmund) theory for second-order elliptic equations: the interior/global W^{2,p} estimate ||u||_{W^{2,p}} <= C(||Lu||_{L^p} + ||u||_{L^p}) for 1<p<infty, built from the singular-integral bound ||d_i d_j u||_p <= C_p ||Delta u||_p (the Riesz representation d_i d_j = -R_i R_j Delta from 02.19.04) by frozen-coefficient perturbation that needs only continuity of the leading coefficients; existence of strong solutions in W^{2,p} cap W^{1,p}_0 via the method of continuity; the borderline p=infty failure (Hessian only in BMO) that forces the Schauder C^{2,alpha} theory there. Closes the L^p-data regularity forward-reference of 02.13.02; the Lebesgue-scale dual of Schauder (02.17.04). Lean status none: Mathlib has no Riesz transforms, no Calderón-Zygmund inequality, and no elliptic W^{2,p} estimate.
+
+
+### analysis.fredholm-alternative-elliptic-eigenvalues
+
+- **title**: The Fredholm Alternative and Eigenvalues for Second-Order Elliptic Operators
+- **unit**: `02.16.05`
+- **prerequisites**: `analysis.lax-milgram-weak-solutions-elliptic` (02.16.04), `functional-analysis.compact-operators` (02.11.05), `analysis.rellich-kondrachov-poincare` (02.16.03)
+- **notes**: stub — see unit `02.16.05`. The Fredholm alternative for $Lu-\lambda u=f$ via the compact solution operator $G=(L+\mu)^{-1}$ on $L^2$ (Lax-Milgram inverse [02.16.04] composed with the Rellich compact embedding $H^1_0\hookrightarrow\hookrightarrow L^2$ [02.16.03]), Riesz-Schauder theory [02.11.05] through the dictionary $\kappa=(\lambda+\mu)^{-1}$: either unique solvability for all $f$, or finite-dimensional equal-dimension kernels of $L,L^*$ with solvability iff $f\perp\ker(L^*-\lambda)$. For symmetric $L$, a discrete real spectrum $0<\lambda_1<\lambda_2\le\cdots\to\infty$ with an $L^2$-orthonormal eigenbasis (compact-self-adjoint spectral theorem). Variational Rayleigh-quotient / Courant-Fischer min-max characterization $\lambda_k=\min_{\dim S=k}\max_{u\in S}R[u]$; domain monotonicity; simplicity and strict positivity of the principal eigenvalue $\lambda_1$ (Krein-Rutman / strong maximum principle). Weyl asymptotics, nodal-domain theorem, heat-semigroup eigenexpansion (Evans Ch. 6). Lean status none.
+
+
+### pde.viscosity-solutions-hamilton-jacobi
+
+- **title**: Viscosity Solutions of Hamilton-Jacobi Equations
+- **unit**: `02.18.05`
+- **prerequisites**: `02.18.04` (direct method, calculus of variations), `02.13.03` (heat equation, heat kernel, Duhamel), `09.05.02` (classical Hamilton-Jacobi equation)
+- **notes**: stub - see unit `02.18.05`. The Crandall-Lions viscosity-solution theory for the evolutionary Hamilton-Jacobi equation $u_t+H(Du,x)=0$. Viscosity sub/supersolutions defined by $C^1$ test functions touching a merely continuous $u$ from above/below (equivalently the super/subdifferentials $D^+u$, $D^-u$): subsolution touched from above with $\varphi_t+H(D\varphi,x)\le0$, supersolution from below with $\ge0$. Consistency with classical solutions (the equation holds pointwise wherever $u$ is differentiable). The comparison principle by doubling of variables (penalize with $|x-y|^2/2\varepsilon$, push the maximizers together at rate $|x_\varepsilon-y_\varepsilon|^2/\varepsilon\to0$), giving uniqueness. The Hopf-Lax formula $u(x,t)=\min_y\{tL((x-y)/t)+g(y)\}$ with $L=H^*$ the Legendre transform for convex coercive $H$, and the dynamic-programming (Bellman) semigroup. Existence by vanishing viscosity ($u^\varepsilon_t+H(Du^\varepsilon)=\varepsilon\Delta u^\varepsilon$, $\varepsilon\downarrow0$) and by Perron's method (stated). Stability under uniform limits. Optimal-control interpretation: the value function is the unique viscosity solution of the Hamilton-Jacobi-Bellman equation $H(p,x)=\sup_a\{-f\cdot p-\ell\}$. Distinct from the classical Hamilton-Jacobi equation of mechanics `09.05.02` (continuation past the caustic). Evans Ch. 10. Lean status none.
+
+
+### littlewood-paley-interpolation.fourier-multipliers-hormander-mikhlin
+
+- **title**: Fourier Multipliers and the Hörmander-Mikhlin Theorem
+- **unit**: `02.20.04`
+- **prerequisites**: `02.20.03` (Littlewood-Paley square function), `02.19.03` (Calderon-Zygmund operators, L^p), `02.10.04` (Fourier transform, Plancherel)
+- **notes**: stub - see unit `02.20.04`. Multiplier operators $T_m f=(m\widehat f)^\vee$; the $L^2$ characterization $\\T_m\\_{L^2\to L^2}=\\m\\_{L^\infty}$; the Mikhlin condition $|\partial^\alpha m|\le A|\xi|^{-|\alpha|}$ for $|\alpha|\le\lfloor n/2\rfloor+1$ (and Hormander's localized $L^2$-Sobolev form) $\Rightarrow$ $T_m$ bounded on $L^p$, $1<p<\infty$, proved by dyadic decomposition of the symbol (Littlewood-Paley [02.20.03]) into single-scale bumps whose $H^s$ ($s>n/2$) regularity becomes Hormander kernel regularity, then the Calderon-Zygmund master theorem [02.19.03]. Applications: Riesz transforms, imaginary powers $(-\Delta)^{is}$ with polynomial-in-$s$ norm growth (Stein interpolation), the Hilbert transform, the Marcinkiewicz bounded-dyadic-variation refinement on $\mathbb{R}$, and the Bochner-Riesz means $(1-|\xi|^2)_+^\delta$ (easy case $\delta>(n-1)/2$ by $L^1$ kernel; the conjecture and its restriction-theory equivalence). Stein-Shakarchi harmonic. Lean status none.
+
+
+### dispersive.bourgain-xsb-spaces-low-regularity
+
+- **title**: Bourgain X^{s,b} Spaces and Low-Regularity Well-Posedness
+- **unit**: `02.21.05`
+- **prerequisites**: `02.21.02` (Strichartz estimates via TT*), `02.10.04` (Fourier transform, Plancherel), `02.20.03` (Littlewood-Paley square function)
+- **notes**: stub - see unit `02.21.05`. The Bourgain (dispersive Sobolev) X^{s,b} norm ‖⟨ξ⟩^s⟨τ−h(ξ)⟩^b û‖_{L^2_{τ,ξ}} adapted to a dispersion relation τ=h(ξ); the modulated-restriction identity ‖u‖_{X^{s,b}}=‖U(−t)u‖_{H^b_t H^s_x} that flattens the dispersion surface; the transference/energy embedding X^{s,b}↪C_t H^s for b>1/2 (sharp) and the transference of every Strichartz estimate (02.21.02) into the X^{0,b} scale; the time-localization lemma ‖η(t/T)u‖_{X^{s,b'}}≲T^{b−b'}‖u‖_{X^{s,b}}; the Duhamel one-modulation-power gain X^{s,b−1}→X^{s,b}; how a single bilinear/multilinear X^{s,b} estimate (Kenig-Ponce-Vega KdV bound, sharp at s>−3/4, via the cubic resonance factorisation 3ξξ₁(ξ−ξ₁); Bourgain periodic L^4 via lattice-point/divisor counting) drives local well-posedness BELOW the Strichartz-contraction threshold and even below L^2; the I-method/almost-conservation route (CKSTT) to global theory. Frequency- and modulation-dyadic Littlewood-Paley decomposition (02.20.03) organises the bilinear estimate. Tao §2.6, §4.1. Lean status none: Mathlib has no space-time Fourier transform, dispersion weight, X^{s,b} norm, propagator, or resonant-set bilinear machinery.
+
+
+### analysis.galerkin-existence-parabolic
+
+- **title**: Galerkin Existence and Energy Estimates for Second-Order Parabolic Equations
+- **unit**: `02.18.01`
+- **prerequisites**: `02.16.04` (Lax-Milgram, elliptic weak theory, Garding coercivity), `24.01.01` (Sobolev spaces, Bochner integral), `02.13.03` (heat equation, heat kernel, Duhamel)
+- **notes**: stub - see unit `02.18.01`. Existence and uniqueness of weak solutions of the second-order parabolic problem $u_t+L(t)u=f$, $u(0)=g$ via the Faedo-Galerkin method and energy estimates. Bochner spaces $L^2(0,T;V)$ with $u'\in L^2(0,T;V^*)$, the Gelfand triple $V=H^1_0\subset H=L^2\subset V^*=H^{-1}$, the solution space $W(0,T)$ and the Lions-Aubin embedding $W(0,T)\hookrightarrow C([0,T];H)$ recovering the initial trace. Galerkin approximation by projection onto Dirichlet eigenspaces (finite-dim ODE system, Caratheodory solvability); a-priori energy estimate from Garding coercivity (02.16.04) closed by Gronwall, uniform in the truncation level; weak/weak-* compactness (Banach-Alaoglu) passage to the limit; energy-equality uniqueness; the pairing identity $\frac{d}{dt}\tfrac12\|u\|_H^2=\langle u',u\rangle$. Improved/parabolic regularity (test with $u'$), the autonomous semigroup representation $e^{-tL}$ (Hille-Yosida, Duhamel lift of 02.13.03), Aubin-Lions strong compactness for nonlinear passage, Lions' variational existence for general time-dependent forms, and the hyperbolic (conservation vs dissipation) parallel. Evans Ch. 7.1. Lean status none: Mathlib has Bochner integration, Gronwall, the spectral theorem and Banach-Alaoglu but no Gelfand triple, $W(0,T)$, Lions-Aubin embedding, or abstract parabolic Galerkin existence.

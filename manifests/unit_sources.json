@@ -1108,6 +1108,18 @@
 ],
 "curriculum": "pde-harmonic"
 },
+"02.16.05": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
+"02.17.01": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
 "02.17.02": {
 "books": [
 "gilbarg-trudinger-elliptic"
@@ -1132,6 +1144,12 @@
 ],
 "curriculum": "pde-harmonic"
 },
+"02.17.06": {
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"curriculum": "pde-harmonic"
+},
 "02.17.07": {
 "books": [
 "gilbarg-trudinger-elliptic"
@@ -1150,6 +1168,12 @@
 ],
 "curriculum": "pde-harmonic"
 },
+"02.18.01": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
 "02.18.03": {
 "books": [
 "evans-pde"
@@ -1157,6 +1181,12 @@
 "curriculum": "pde-harmonic"
 },
 "02.18.04": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
+"02.18.05": {
 "books": [
 "evans-pde"
 ],
@@ -1210,6 +1240,12 @@
 ],
 "curriculum": "pde-harmonic"
 },
+"02.20.04": {
+"books": [
+"stein-shakarchi-harmonic"
+],
+"curriculum": "pde-harmonic"
+},
 "02.20.05": {
 "books": [
 "stein-shakarchi-harmonic"
@@ -1229,6 +1265,18 @@
 "curriculum": "pde-harmonic"
 },
 "02.21.03": {
+"books": [
+"tao-dispersive"
+],
+"curriculum": "pde-harmonic"
+},
+"02.21.04": {
+"books": [
+"tao-dispersive"
+],
+"curriculum": "pde-harmonic"
+},
+"02.21.05": {
 "books": [
 "tao-dispersive"
 ],
