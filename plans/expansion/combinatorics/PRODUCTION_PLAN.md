@@ -41,4 +41,17 @@ Greenfield: no enumerative/graph/design/probabilistic-method/analytic combinator
 - WAVE 7 (L4-L5): 40.03.03, 40.03.04, 40.03.05, 40.03.06, 40.07.07, 40.08.04, 40.08.05, 40.08.07
 
 ## Status
-- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [x] COMPLETENESS (loop-until-dry)
+
+## Completeness pass (2026-06-06)
+Re-audited all 6 source books against the 54 shipped units. Stanley EC1 (40.01/02),
+van Lint-Wilson (40.06), Flajolet-Sedgewick (40.08): DRY. Five firm gaps closed:
+- 40.03.07 Plane Partitions & the MacMahon Box Formula (EC2 §7.20-21; was a dangling pointer from 40.01.04)
+- 40.03.08 Quasisymmetric Functions & Gessel's Fundamental Basis (EC2 §7.19; modern home of P-partition theory)
+- 40.04.11 Hamilton Cycles: Dirac/Ore/Chvátal-Erdős (Diestel Ch. 10, entirely absent)
+- 40.07.08 Combinatorial Discrepancy: Spencer/Beck-Fiala (Alon-Spencer chapter, absent)
+- 40.07.09 The Rödl Nibble & Semi-Random Method (Alon-Spencer chapter, absent)
+Spine total: 59 units. Borderline candidates judged below-bar and skipped: Gale-Ryser
+(0,1)-matrices (one-theorem extension of shipped degree-sequence theory), Chung-Graham-Wilson
+quasirandomness (in 40.05.03's territory), holonomic/D-finite & Mellin-transform asymptotics
+(FS appendices, not core regimes).

@@ -44423,6 +44423,56 @@
 ],
 "title": "The Frobenius Characteristic Map and the Symmetric-Function Dictionary"
 },
+"40.03.07": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.07",
+"prereqs": [
+"40.03.02",
+"40.03.04"
+],
+"section": "combinatorics",
+"slug": "plane-partitions-macmahon-box-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Plane Partitions and the MacMahon Box Formula"
+},
+"40.03.08": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.08",
+"prereqs": [
+"40.03.01",
+"40.01.04"
+],
+"section": "combinatorics",
+"slug": "quasisymmetric-functions-gessel-basis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quasisymmetric Functions and Gessel's Fundamental Basis"
+},
 "40.04.01": {
 "area": "math",
 "books": [
@@ -44661,6 +44711,30 @@
 "master"
 ],
 "title": "Graph Minors and the Robertson-Seymour Theorem"
+},
+"40.04.11": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.11",
+"prereqs": [
+"40.04.04"
+],
+"section": "combinatorics",
+"slug": "hamilton-cycles-dirac-ore-chvatal-erdos",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hamilton Cycles: Dirac, Ore, and Chv\u00e1tal-Erd\u0151s"
 },
 "40.05.01": {
 "area": "math",
@@ -45154,6 +45228,54 @@
 "master"
 ],
 "title": "Correlation Inequalities: FKG, Harris, and the Janson Inequalities"
+},
+"40.07.08": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.08",
+"prereqs": [
+"40.07.06"
+],
+"section": "combinatorics",
+"slug": "discrepancy-spencer-beck-fiala",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Combinatorial Discrepancy: Spencer's Theorem and the Beck-Fiala Bound"
+},
+"40.07.09": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.09",
+"prereqs": [
+"40.07.05"
+],
+"section": "combinatorics",
+"slug": "rodl-nibble-semi-random-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The R\u00f6dl Nibble and the Semi-Random Method"
 },
 "40.08.01": {
 "area": "math",

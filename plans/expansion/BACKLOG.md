@@ -88,7 +88,7 @@ NEW section `content/39-operator-algebras` → full SETUP (§2a 1-7); prefix `39
 - [x] PRODUCE: 33 units, 7 dependency waves → integrate → commit → build_lenses
 - [x] COMPLETENESS: re-audited all 4 books; 3 DRY, 1 firm gap closed (39.05.10 exact groups/property A); converged at 34 units
 
-## Spine 6 — Combinatorics & Graph Theory  ·  `combinatorics`  ·  STATUS: not started
+## Spine 6 — Combinatorics & Graph Theory  ·  `combinatorics`  ·  STATUS: COMPLETE (59 units, loop-until-dry converged 2026-06-06)
 NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. Near-zero currently.
 **Chapter skeleton:** `01-enumeration-generating-functions · 02-posets-lattices · 03-symmetric-functions-rsk ·
 04-graph-theory-core (connectivity/matchings/colouring) · 05-extremal-ramsey · 06-design-coding-theory ·
@@ -101,8 +101,8 @@ NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. N
 - [x] AUDIT: van Lint-Wilson — *A Course in Combinatorics* (designs, codes, polya)
 - [x] AUDIT: Alon-Spencer — *The Probabilistic Method* (first/second moment, Lovasz local lemma)
 - [x] AUDIT: Flajolet-Sedgewick — *Analytic Combinatorics* (singularity analysis, asymptotics)
-- [ ] PRODUCE: gaps → integrate → commit → build_lenses
-- [ ] COMPLETENESS: re-audit all 6 books vs the grown corpus; loop-until-dry (0 new gaps); log
+- [x] PRODUCE: 54 units, 7 dependency waves → integrate → commit → build_lenses
+- [x] COMPLETENESS: re-audited all 6 books; EC1/vLW/FS DRY, 5 firm gaps closed (40.03.07/08, 40.04.11, 40.07.08/09); converged at 59 units
 
 ## Spine 7 — Foundations, Logic & Category Theory  ·  `logic-foundations`  ·  STATUS: not started
 MIXED: EXTEND `content/25-logic` (logic/model/set/computability — confirm the real prefix with
@@ -140,6 +140,7 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-06 — Spine 6 (combinatorics) COMPLETE: 59 units, NEW section 40 (8 chapters: enumeration-GF/posets-lattices/symmetric-functions-rsk/graph-theory-core/extremal-ramsey/design-coding-theory/probabilistic-method/analytic-combinatorics). Stanley EC1+EC2/Diestel/van-Lint-Wilson/Alon-Spencer/Flajolet-Sedgewick. 7 dependency waves (54 units) + 1 completeness round (EC1/vLW/FS DRY; 5 gaps closed: plane-partitions/MacMahon 40.03.07, QSym 40.03.08, Hamilton cycles 40.04.11, discrepancy 40.07.08, Rödl nibble 40.07.09). Greenfield; cross-refs to rep-theory S_n 07.05.*, finite fields 21.02.01, complex analysis 06.01.*, probability 37.*, partitions/circle-method 21.16.*. Orphan matrix-tree/Cayley/Lagrange folded into enumeration as 40.01.07. math area +59. Next: Spine 7 (logic-foundations) — LAST Tier A spine.
 - 2026-06-06 — Spine 5 (operator-algebras) COMPLETE: 34 units, NEW section 39 (7 chapters: c-star-basics/af-k-theory/von-neumann/tomita-takesaki/nuclearity-exactness/spectral-triples-ncg/cyclic-cohomology). Davidson/Takesaki/Brown-Ozawa/Connes. 7 dependency waves + 1 completeness round (Davidson/Takesaki/Connes DRY; Brown-Ozawa one gap → 39.05.10 exact groups/property A; 39.05.11 amenable traces skipped as below-bar). Operator K-theory kept distinct from topological K-theory 03.08; analytic cyclic cohomology cross-refs algebraic 04.03.22; local index formula cross-refs Atiyah-Singer 03.09.10. math area +34. Next: Spine 6 (combinatorics, NEW section 40).
 - 2026-06-05 — Spine 4 (dynamics) COMPLETE: 24 units, NEW section 38 (7 chapters: topological/symbolic/hyperbolicity/ergodic/mixing-spectral/entropy/smooth-ergodic). Katok-Hasselblatt/Walters/Brin-Stuck. 4 produce waves + 2 completeness rounds (K-H +Livšic, then DRY). Ergodic theorems reused from 37.02.03. math area +24. Next: Spine 5 (operator-algebras, NEW section 39).
 - 2026-06-05 — Spine 3 (analytic-nt) COMPLETE: 26 units extending 21-number-theory (chapters 11-16). Davenport/Montgomery-Vaughan/Iwaniec-Kowalski/Apostol. 5 produce waves + 1 completeness round (all 4 books DRY immediately). Analytic proofs (PNT contour, zero-free regions, large sieve, exponential sums, circle method) were the gaps vs the existing algebraic 21.03 L-functions. math area +26. Next: Spine 4 (dynamics, NEW section 38).
