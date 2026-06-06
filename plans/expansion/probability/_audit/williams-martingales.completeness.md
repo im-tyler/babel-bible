@@ -107,3 +107,37 @@ headline theorem (Chs 10-18) is now COVERED by the enlarged corpus
 Williams-distinctive: the corpus has only the degenerate coin-flip instance of the
 product martingale, never the dichotomy theorem, the `∏ E[√X_k] > 0` / Hellinger
 criterion, or the abs-continuity-vs-singularity dichotomy for product measures.
+
+---
+
+## Round 2
+
+Re-audited 2026-06-05 after round 1 shipped `37.04.04`. Verified on disk:
+`content/37-probability/04-conditional-expectation-martingales/` now holds the
+complete discrete-martingale chapter `37.04.01-04`, and
+`37.04.04-kakutani-product-martingales-absolute-continuity.md` (6595 words; three
+tiers beginner/intermediate/master; prereqs `37.04.01-03`, `02.07.07`, `02.07.08`
+all on disk) covers exactly the round-1 gap: the named Kakutani product-martingale
+dichotomy, the positive case (i) with the `∏ E[√X_k] > 0` / Hellinger-integral
+criterion, and the absolute-continuity-vs-singularity dichotomy for infinite
+product measures with `dQ/dP = M_∞`.
+
+Re-swept every Williams headline theorem (Chs 9-18) once more against the corpus.
+All COVERED:
+
+- Conditional expectation (existence/tower/Jensen/`L^2`-projection) — `02.07.08`
+- Martingales, optional stopping, Doob decomposition, Wald/gambler's ruin — `37.04.01`
+- Upcrossing lemma + a.s. convergence; UI ⇔ `L^1`-closure; Lévy upward + 0-1 — `37.04.02`
+- Doob maximal/`L^p` inequalities, UI (Vitali/Dunford-Pettis), `L^p` & backward
+  convergence, Kolmogorov-SLLN-via-backward-martingale, Hewitt-Savage + Kolmogorov
+  0-1 laws — `37.04.03`
+- **Kakutani product-martingale dichotomy + product-measure abs-continuity** — `37.04.04` (NEW, on disk)
+- Borel-Cantelli I/II, Kolmogorov three-series, SLLN — `37.02.01-02`
+- Caratheodory extension, π-systems/monotone class, product measures, Fubini,
+  Radon-Nikodym/Lebesgue decomposition — `02.07.01-08`
+- Characteristic functions, Lévy inversion + continuity — `37.03.01`
+- CLT via characteristic functions (Lindeberg-Feller) — `37.03.02`
+- Azuma-Hoeffding / bounded-differences martingale concentration (Williams §E) — `37.08.07`
+
+**New gaps: 0.** Verdict: **DRY.** The round-1 gap (`37.04.04`) is shipped and
+correct; no Williams headline theorem of real value remains absent.

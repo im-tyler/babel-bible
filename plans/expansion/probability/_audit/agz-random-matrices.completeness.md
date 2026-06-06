@@ -135,3 +135,45 @@ good rate functions) that makes it a natural capstone rather than a deferred asi
 - **New genuine gaps: 1** (`37.08.09`)
 - **COVERED-verified: 8** shipped units + Marchenko-Pastur folded into `37.08.02/06`
 - **OUT OF SCOPE: 5** (DBM, ESY universality, general-$\beta$, C\*/vNa free probability, circular law)
+
+---
+
+## Round 2
+
+**Verdict: DRY.** Round-1's flagged gap is now closed on disk and no new headline gap remains.
+
+**Round-1 fix verified on disk.** `find content/37-probability/08-random-matrices`
+returns `37.08.01`–`37.08.09`. The new unit
+`37.08.09-ben-arous-guionnet-ldp-empirical-spectral-measure.md` is a full 579-line,
+three-tier unit (beginner/intermediate/master, `pending_prereqs: false`) that states
+AGZ Theorem 2.6.1 correctly: the LDP for $L_n=\tfrac1n\sum_i\delta_{\lambda_i}$ at
+**speed $a_n=1/n^2$** with **good rate function** $I_\beta$ the normalised
+logarithmic-energy / non-commutative-entropy functional, unique minimiser the
+semicircle ($I_\beta=0 \iff \mu=\sigma$), with the $n^2$-vs-$n$ (Sanov) speed
+distinction and the Coulomb-gas derivation present. Prereqs `37.08.03`, `37.08.07`,
+`37.07.01`, `37.07.05` all on disk. The Round-1 gap is genuinely resolved.
+
+**Re-swept the residual AGZ headline list — all accounted for.**
+
+| AGZ headline result | Status |
+|---|---|
+| Wigner semicircle / Stieltjes / Gaussian ensembles / DPP-sine / Airy-Tracy-Widom / norm-edge / concentration / free probability | COVERED `37.08.01`–`37.08.08` |
+| Ben Arous-Guionnet speed-$n^2$ LDP for the spectral measure | COVERED `37.08.09` (Round-1 add, verified) |
+| Marchenko-Pastur / Wishart, Hoffman-Wielandt | COVERED — folded into `37.08.02`/`37.08.06`/`37.08.07` (grep-confirmed, not a standalone headline at intro tier) |
+
+**Deferred items re-confirmed out of scope — NOT re-proposed.** Grep shows Dyson
+Brownian motion appears only as cross-references in `37.08.01/02/04/08` (no theorem-level
+treatment), as intended. ESY local-law / four-moment universality, general-$\beta$
+ensembles (Dumitriu-Edelman / stochastic Airy), C\*/von-Neumann free-probability, and
+the circular/Ginibre law remain correctly outside this introductory probability spine.
+
+**One adjacent item checked and correctly NOT a gap.** The Johansson **CLT for linear
+eigenvalue statistics** (the $O(1)$, no-$\sqrt n$ fluctuation theorem) surfaces only as a
+mentioned consequence inside `37.08.09`'s master tier (lines 460, 468) — the subleading
+term beyond the LDP's leading order. It belongs to the same advanced fluctuation
+apparatus as ESY universality, is not an AGZ introductory-tier headline theorem, and is
+appropriately referenced rather than formalised. No new unit warranted.
+
+- **New genuine gaps (Round 2): 0**
+- **Round-1 add verified shipped: 1** (`37.08.09`)
+- **Verdict: DRY**

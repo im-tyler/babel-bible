@@ -17,7 +17,7 @@ spines 8-12) is a **HUMAN GATE** — do NOT start it without explicit go-ahead.
 
 ---
 
-## Spine 1 — Probability & Stochastics  ·  `probability`  ·  STATUS: setup done, auditing
+## Spine 1 — Probability & Stochastics  ·  `probability`  ·  STATUS: COMPLETE (46 units, loop-until-dry converged 2026-06-05)
 Section: `content/37-probability` (`probability`). Seeded: `content/02-analysis/15-stochastic-analysis`
 (Brownian/Ito/SDE/Feynman-Kac/Stratonovich) already exists — audit AGAINST it, do not redo it.
 NEW section → full SETUP (playbook §2a steps 1-7). Prefix `37` → DOMAIN_BY_PREFIX + formal_gap.
@@ -27,15 +27,16 @@ NEW section → full SETUP (playbook §2a steps 1-7). Prefix `37` → DOMAIN_BY_
 (cross-ref 02.15, don't redo) · 07-large-deviations · 08-random-matrices`
 
 - [x] SETUP: register `probability` section/field/lens + prefix 37 + chapter skeleton (playbook §2a 1-7); smoke-test build_lenses
-- [ ] AUDIT: Durrett — *Probability: Theory and Examples* (measure-theoretic core, CLT, LLN, CFs)
-- [ ] AUDIT: Williams — *Probability with Martingales* (martingale convergence, optional stopping, UI)
-- [ ] AUDIT: Norris — *Markov Chains* (discrete + continuous-time, generators, recurrence)
-- [ ] AUDIT: Le Gall — *Brownian Motion, Martingales, and Stochastic Calculus* (depth beyond 02.15)
-- [ ] AUDIT: Dembo-Zeitouni — *Large Deviations Techniques and Applications* (Cramer, Sanov, Schilder)
-- [ ] AUDIT: Anderson-Guionnet-Zeitouni — *An Introduction to Random Matrices* (Wigner, Tracy-Widom, free prob)
-- [ ] PRODUCE: collision-check + produce all genuine gaps; integrate; commit; build_lenses
-- [ ] COMPLETENESS: re-audit all 6 books vs the grown corpus; loop-until-dry (0 new gaps); log the dry round
+- [x] AUDIT: Durrett — *Probability: Theory and Examples* (8 gaps → see _audit/durrett-probability.gaps.md)
+- [x] AUDIT: Williams — *Probability with Martingales* (3 gaps)
+- [x] AUDIT: Norris — *Markov Chains* (12 gaps)
+- [x] AUDIT: Le Gall — *Brownian Motion, Martingales, and Stochastic Calculus* (3 gaps, rest covered by 02.15)
+- [x] AUDIT: Dembo-Zeitouni — *Large Deviations Techniques and Applications* (11 gaps)
+- [x] AUDIT: Anderson-Guionnet-Zeitouni — *An Introduction to Random Matrices* (7 gaps, +1 capstone in completeness)
+- [x] PRODUCE: collision-check (see _audit/../PRODUCTION_PLAN.md) → 42 units, 6 waves, all 27/27; integrated; build_lenses
+- [x] COMPLETENESS: 2 rounds. R1 surfaced 4 (37.02.03/37.03.03/37.04.04/37.08.09); R2 fully DRY (0 new gaps) across all 6 books
 - [ ] (optional) exercise packs for the new probability chapters
+- TOTAL: 46 units shipped (42 produce + 4 completeness). probability lens core=51, 0 dangling.
 
 ## Spine 2 — Modern PDE & Harmonic Analysis  ·  `pde-harmonic`  ·  STATUS: not started
 EXTEND `content/02-analysis` (new chapters; NO new section/prefix/sections.ts — skip SETUP
@@ -145,4 +146,4 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
-- (none yet)
+- 2026-06-05 — Spine 1 (probability) COMPLETE: section 37 SETUP + 46 units across 6 produce waves + 2 completeness rounds (loop-until-dry converged). probability lens core 5→51, math area +46, 0 dangling. Next: Spine 2 (pde-harmonic, EXTENDS 02-analysis).

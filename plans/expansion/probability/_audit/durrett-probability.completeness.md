@@ -113,3 +113,43 @@ ergodic theorems** (Durrett ch.6) and **Donsker's invariance principle** (Durret
 ## DRY?
 
 2 new gaps
+
+---
+
+## Round 2
+
+**Verdict: DRY — 0 new gaps.**
+
+Confirmed both round-1 additions are now on disk as full, three-tier units:
+
+- `37.02.03` — *The Ergodic Theorems: Birkhoff, von Neumann, and Kingman*
+  (`content/37-probability/02-independence-laws-of-large-numbers/37.02.03-ergodic-theorems-birkhoff-von-neumann-kingman.md`,
+  ~6800 words, `tiers_present: [beginner, intermediate, master]`).
+- `37.03.03` — *Donsker's Invariance Principle and the Functional Central Limit
+  Theorem* (`content/37-probability/03-clt-characteristic-functions/37.03.03-donsker-invariance-principle-functional-clt.md`,
+  ~6250 words, all three tiers).
+
+Re-swept Durrett's remaining headline theorems (chs. 1-9, 5th ed.) by filename + body
+grep against the now-larger corpus (`37.01`-`37.08` plus `02.15.01-05`). Every headline
+resolves to an existing unit:
+
+- Birkhoff / von Neumann / Kingman → `37.02.03`; Donsker / Skorokhod embedding / arcsine
+  law → `37.03.03`.
+- Chung-Fuchs / Pólya recurrence-transience of random walk → `37.05.04` (+ `37.05.05`,
+  `37.05.10`, `37.05.12`).
+- Glivenko-Cantelli, Kolmogorov three-series, LIL (stated with sharp constant),
+  Hewitt-Savage 0-1 → `37.02.02` (+ char-function/0-1 layer).
+- de Finetti / exchangeability, optional stopping, upcrossing, Doob $L^p$/UI,
+  Radon-Nikodym (conditional expectation) → `37.04.01-04`.
+- Renewal-reward, Poisson process, continuous-time Markov / Q-matrices / birth-death /
+  queues → `37.05.07-12`.
+- Large deviations (Cramér, Sanov, Gärtner-Ellis, Varadhan, Schilder,
+  Freidlin-Wentzell) → `37.07.01-11`; random matrices → `37.08.01-09`; Brownian/Itô/SDE/
+  Feynman-Kac/Stratonovich/local time/martingale representation → `02.15.01-05`,
+  `37.06.01-03`.
+
+The previously-noted OUT-OF-SCOPE items (Poisson approximation / Stein-Chen §3.6,
+Blackwell / key renewal theorem §2.6) remain instrumental, not standalone curricular
+headlines — unchanged from round 1; no `Chung-Fuchs` or `Poisson approximation` literal
+hits, but the underlying results are built under their conceptual unit names. No
+headline theorem of real curricular value survives this pass. Spine is DRY.

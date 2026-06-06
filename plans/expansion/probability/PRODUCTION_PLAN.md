@@ -74,5 +74,5 @@ Same-wave prereqs go in `## Connections`, NOT frontmatter (not yet on disk).
   - 37.03.03 Donsker invariance principle / functional CLT
   - 37.04.04 Kakutani product martingales / absolute continuity
   - 37.08.09 Ben Arous-Guionnet LDP for empirical spectral measure
-- [ ] COMPLETENESS round 2: re-audit Durrett/Williams/AGZ (confirm dry after the 4 capstones)
-- Spine total: 46 units (42 + 4 completeness). probability lens core 51, 0 dangling.
+- [x] COMPLETENESS round 2: Durrett/Williams/AGZ all DRY (0 new gaps) — loop-until-dry CONVERGED
+- SPINE 1 COMPLETE. Total: 46 units (42 + 4 completeness). probability lens core 51, 0 dangling.
