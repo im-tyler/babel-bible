@@ -45710,6 +45710,30 @@
 ],
 "title": "Ends, Coends, and the Calculus of (Co)ends"
 },
+"41.06.02": {
+"area": "math",
+"books": [
+"riehl-context"
+],
+"chapter": "kan-extensions",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.06.02",
+"prereqs": [
+"41.06.01"
+],
+"section": "category-theory",
+"slug": "kan-extensions-all-concepts",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kan Extensions: All Concepts Are Kan Extensions"
+},
 "42.01.01": {
 "area": "math",
 "books": [
@@ -45922,6 +45946,30 @@
 ],
 "title": "G\u00f6del Numbering, the Fixed-Point Lemma, and the Incompleteness Theorems"
 },
+"42.01.10": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.10",
+"prereqs": [
+"42.01.07"
+],
+"section": "mathematical-logic",
+"slug": "entscheidungsproblem-church-decidable-theories",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Entscheidungsproblem, Church's Theorem, and Decidable Theories"
+},
 "42.02.01": {
 "area": "math",
 "books": [
@@ -45945,6 +45993,30 @@
 "master"
 ],
 "title": "Structures, Embeddings, and Elementary Equivalence"
+},
+"42.02.02": {
+"area": "math",
+"books": [
+"marker-model-theory"
+],
+"chapter": "model-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.02.02",
+"prereqs": [
+"42.02.01"
+],
+"section": "mathematical-logic",
+"slug": "compactness-method-of-diagrams",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Compactness Theorem and the Method of Diagrams"
 },
 "42.03.01": {
 "area": "math",
@@ -46087,6 +46159,30 @@
 "master"
 ],
 "title": "The Constructible Universe L and the Consistency of GCH"
+},
+"42.03.07": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.07",
+"prereqs": [
+"42.03.06"
+],
+"section": "mathematical-logic",
+"slug": "forcing-posets-generics-names",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Forcing I: Posets, Generic Filters, Names, and the Fundamental Theorem"
 },
 "42.04.01": {
 "area": "math",

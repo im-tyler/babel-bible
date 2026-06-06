@@ -12047,6 +12047,12 @@
 ],
 "curriculum": "logic-foundations"
 },
+"41.06.02": {
+"books": [
+"riehl-context"
+],
+"curriculum": "logic-foundations"
+},
 "42.01.01": {
 "books": [
 "enderton-logic"
@@ -12101,7 +12107,19 @@
 ],
 "curriculum": "logic-foundations"
 },
+"42.01.10": {
+"books": [
+"enderton-logic"
+],
+"curriculum": "logic-foundations"
+},
 "42.02.01": {
+"books": [
+"marker-model-theory"
+],
+"curriculum": "logic-foundations"
+},
+"42.02.02": {
 "books": [
 "marker-model-theory"
 ],
@@ -12138,6 +12156,12 @@
 "curriculum": "logic-foundations"
 },
 "42.03.06": {
+"books": [
+"kunen-set-theory"
+],
+"curriculum": "logic-foundations"
+},
+"42.03.07": {
 "books": [
 "kunen-set-theory"
 ],
