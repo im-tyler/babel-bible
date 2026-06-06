@@ -11302,6 +11302,13 @@
 ],
 "curriculum": "dynamics"
 },
+"38.01.05": {
+"books": [
+"brin-stuck",
+"katok-hasselblatt"
+],
+"curriculum": "dynamics"
+},
 "38.02.01": {
 "books": [
 "brin-stuck"
@@ -11314,13 +11321,31 @@
 ],
 "curriculum": "dynamics"
 },
+"38.02.03": {
+"books": [
+"brin-stuck"
+],
+"curriculum": "dynamics"
+},
 "38.03.01": {
 "books": [
 "katok-hasselblatt"
 ],
 "curriculum": "dynamics"
 },
+"38.03.02": {
+"books": [
+"katok-hasselblatt"
+],
+"curriculum": "dynamics"
+},
 "38.03.03": {
+"books": [
+"katok-hasselblatt"
+],
+"curriculum": "dynamics"
+},
+"38.03.04": {
 "books": [
 "katok-hasselblatt"
 ],
@@ -11344,6 +11369,18 @@
 ],
 "curriculum": "dynamics"
 },
+"38.05.02": {
+"books": [
+"walters-ergodic"
+],
+"curriculum": "dynamics"
+},
+"38.06.01": {
+"books": [
+"walters-ergodic"
+],
+"curriculum": "dynamics"
+},
 "38.06.02": {
 "books": [
 "walters-ergodic"
@@ -11356,6 +11393,12 @@
 ],
 "curriculum": "dynamics"
 },
+"38.06.04": {
+"books": [
+"walters-ergodic"
+],
+"curriculum": "dynamics"
+},
 "38.07.01": {
 "books": [
 "katok-hasselblatt"
@@ -11363,6 +11406,12 @@
 "curriculum": "dynamics"
 },
 "38.07.02": {
+"books": [
+"katok-hasselblatt"
+],
+"curriculum": "dynamics"
+},
+"38.07.03": {
 "books": [
 "katok-hasselblatt"
 ],

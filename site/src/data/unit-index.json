@@ -42667,6 +42667,32 @@
 ],
 "title": "Circle Rotations and Unique Ergodicity"
 },
+"38.01.05": {
+"area": "math",
+"books": [
+"brin-stuck",
+"katok-hasselblatt"
+],
+"chapter": "topological-dynamics",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.01.05",
+"prereqs": [
+"38.01.04",
+"38.01.02"
+],
+"section": "dynamics",
+"slug": "poincare-rotation-number-denjoy-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Poincar\u00e9 Rotation Number and Denjoy's Theorem"
+},
 "38.02.01": {
 "area": "math",
 "books": [
@@ -42717,6 +42743,31 @@
 ],
 "title": "Shifts of Finite Type, Transition Matrices, and Coding"
 },
+"38.02.03": {
+"area": "math",
+"books": [
+"brin-stuck"
+],
+"chapter": "symbolic-dynamics",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.02.03",
+"prereqs": [
+"38.02.02",
+"38.01.03"
+],
+"section": "dynamics",
+"slug": "perron-frobenius-sft-growth-subshift-entropy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Perron-Frobenius Theory, SFT Growth Rate, and Subshift Entropy"
+},
 "38.03.01": {
 "area": "math",
 "books": [
@@ -42743,6 +42794,32 @@
 ],
 "title": "Hyperbolic Sets, Anosov and Axiom-A Systems, and the Smale Spectral Decomposition"
 },
+"38.03.02": {
+"area": "math",
+"books": [
+"katok-hasselblatt"
+],
+"chapter": "hyperbolicity-structural-stability",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.03.02",
+"prereqs": [
+"38.03.01",
+"38.02.02",
+"38.01.01"
+],
+"section": "dynamics",
+"slug": "smale-horseshoe-homoclinic-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Smale Horseshoe and the Smale-Birkhoff Homoclinic Theorem"
+},
 "38.03.03": {
 "area": "math",
 "books": [
@@ -42768,6 +42845,31 @@
 "master"
 ],
 "title": "The Hadamard-Perron Stable and Unstable Manifold Theorem"
+},
+"38.03.04": {
+"area": "math",
+"books": [
+"katok-hasselblatt"
+],
+"chapter": "hyperbolicity-structural-stability",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.03.04",
+"prereqs": [
+"38.03.01",
+"38.03.03"
+],
+"section": "dynamics",
+"slug": "shadowing-structural-stability",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Shadowing and Structural Stability"
 },
 "38.04.01": {
 "area": "math",
@@ -42847,6 +42949,57 @@
 ],
 "title": "The Mixing Hierarchy: Mixing, Weak Mixing, and Ergodicity"
 },
+"38.05.02": {
+"area": "math",
+"books": [
+"walters-ergodic"
+],
+"chapter": "mixing-spectral",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.05.02",
+"prereqs": [
+"38.05.01",
+"38.04.02",
+"02.11.08"
+],
+"section": "dynamics",
+"slug": "spectral-theory-halmos-von-neumann",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Spectral Theory of Dynamical Systems and the Halmos-von Neumann Theorem"
+},
+"38.06.01": {
+"area": "math",
+"books": [
+"walters-ergodic"
+],
+"chapter": "entropy",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.06.01",
+"prereqs": [
+"38.01.03",
+"38.02.02"
+],
+"section": "dynamics",
+"slug": "topological-entropy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Topological Entropy"
+},
 "38.06.02": {
 "area": "math",
 "books": [
@@ -42897,6 +43050,31 @@
 "master"
 ],
 "title": "The Shannon-McMillan-Breiman Theorem"
+},
+"38.06.04": {
+"area": "math",
+"books": [
+"walters-ergodic"
+],
+"chapter": "entropy",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.06.04",
+"prereqs": [
+"38.06.02",
+"38.06.03"
+],
+"section": "dynamics",
+"slug": "topological-pressure-variational-principle-equilibrium-states",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Topological Pressure, the Variational Principle, and Equilibrium States"
 },
 "38.07.01": {
 "area": "math",
@@ -42949,5 +43127,31 @@
 "master"
 ],
 "title": "Pesin Theory and the Entropy Formula"
+},
+"38.07.03": {
+"area": "math",
+"books": [
+"katok-hasselblatt"
+],
+"chapter": "smooth-ergodic-theory",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.07.03",
+"prereqs": [
+"38.03.01",
+"38.04.02",
+"38.05.01"
+],
+"section": "dynamics",
+"slug": "hopf-argument-ergodicity-geodesic-anosov-flows",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Hopf Argument for Ergodicity of Geodesic and Anosov Flows"
 }
 }
