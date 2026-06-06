@@ -43153,5 +43153,31 @@
 "master"
 ],
 "title": "The Hopf Argument for Ergodicity of Geodesic and Anosov Flows"
+},
+"38.07.04": {
+"area": "math",
+"books": [
+"katok-hasselblatt"
+],
+"chapter": "smooth-ergodic-theory",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.07.04",
+"prereqs": [
+"38.03.01",
+"38.03.04",
+"38.07.03"
+],
+"section": "dynamics",
+"slug": "livsic-cohomological-rigidity-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Liv\u0161ic Cohomological Rigidity Theorem"
 }
 }
