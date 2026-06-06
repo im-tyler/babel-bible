@@ -44421,6 +44421,31 @@
 ],
 "title": "Edge Colouring and List Colouring: Vizing's Theorem and Choosability"
 },
+"40.04.08": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.08",
+"prereqs": [
+"40.04.05",
+"40.04.06"
+],
+"section": "combinatorics",
+"slug": "map-colouring-five-colour-four-colour",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Map Colouring: the Five-Colour Theorem and the Four-Colour Theorem"
+},
 "40.04.09": {
 "area": "math",
 "books": [
@@ -44445,6 +44470,78 @@
 ],
 "title": "Network Flows: Max-Flow Min-Cut and Nowhere-Zero Flows"
 },
+"40.04.10": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.10",
+"prereqs": [
+"40.04.05"
+],
+"section": "combinatorics",
+"slug": "graph-minors-robertson-seymour",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Graph Minors and the Robertson-Seymour Theorem"
+},
+"40.05.01": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "extremal-ramsey",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.05.01",
+"prereqs": [
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "turan-erdos-stone-simonovits",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Extremal Graph Theory: Tur\u00e1n's Theorem and Erd\u0151s-Stone-Simonovits"
+},
+"40.05.04": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "extremal-ramsey",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.05.04",
+"prereqs": [
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "ramsey-theorem-ramsey-numbers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ramsey's Theorem and Ramsey Numbers"
+},
 "40.06.01": {
 "area": "math",
 "books": [
@@ -44466,6 +44563,78 @@
 "master"
 ],
 "title": "Balanced Incomplete Block Designs and Fisher's Inequality"
+},
+"40.06.02": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.02",
+"prereqs": [
+"40.06.01"
+],
+"section": "combinatorics",
+"slug": "symmetric-designs-bruck-ryser-chowla",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Symmetric Designs and the Bruck-Ryser-Chowla Theorem"
+},
+"40.06.03": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.03",
+"prereqs": [
+"40.06.01"
+],
+"section": "combinatorics",
+"slug": "projective-affine-planes-mols",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Finite Projective and Affine Planes, MOLS, and the 36-Officers Problem"
+},
+"40.06.04": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.04",
+"prereqs": [
+"40.06.01"
+],
+"section": "combinatorics",
+"slug": "steiner-systems-triple-systems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Steiner Systems and the Existence of Steiner Triple Systems"
 },
 "40.06.05": {
 "area": "math",
@@ -44534,6 +44703,30 @@
 "master"
 ],
 "title": "Perfect Codes: the Hamming and Golay Codes"
+},
+"40.06.09": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.09",
+"prereqs": [
+"40.06.01"
+],
+"section": "combinatorics",
+"slug": "strongly-regular-graphs-design-graph",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Strongly Regular Graphs and the Design-Graph Dictionary"
 },
 "40.06.10": {
 "area": "math",

@@ -41,4 +41,4 @@ Greenfield: no enumerative/graph/design/probabilistic-method/analytic combinator
 - WAVE 7 (L4-L5): 40.03.03, 40.03.04, 40.03.05, 40.03.06, 40.07.07, 40.08.04, 40.08.05, 40.08.07
 
 ## Status
-- [x] W1  [x] W2  [x] W3  [ ] W4  [ ] W5  [ ] W6  [ ] W7  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [ ] W5  [ ] W6  [ ] W7  [ ] COMPLETENESS (loop-until-dry)
