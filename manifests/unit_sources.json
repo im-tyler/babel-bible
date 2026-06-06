@@ -12131,7 +12131,25 @@
 ],
 "curriculum": "logic-foundations"
 },
+"42.02.04": {
+"books": [
+"marker-model-theory"
+],
+"curriculum": "logic-foundations"
+},
 "42.02.05": {
+"books": [
+"marker-model-theory"
+],
+"curriculum": "logic-foundations"
+},
+"42.02.06": {
+"books": [
+"marker-model-theory"
+],
+"curriculum": "logic-foundations"
+},
+"42.02.07": {
 "books": [
 "marker-model-theory"
 ],
@@ -12186,6 +12204,12 @@
 "curriculum": "logic-foundations"
 },
 "42.03.08": {
+"books": [
+"kunen-set-theory"
+],
+"curriculum": "logic-foundations"
+},
+"42.03.09": {
 "books": [
 "kunen-set-theory"
 ],
