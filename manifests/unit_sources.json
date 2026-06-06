@@ -11645,7 +11645,37 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.01.04": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.01.05": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.01.06": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.01.07": {
+"books": [
+"stanley-ec2"
+],
+"curriculum": "combinatorics"
+},
 "40.02.01": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.02.02": {
 "books": [
 "stanley-ec1"
 ],
@@ -11658,6 +11688,12 @@
 "curriculum": "combinatorics"
 },
 "40.04.02": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.03": {
 "books": [
 "diestel-graph-theory"
 ],
@@ -11676,6 +11712,18 @@
 "curriculum": "combinatorics"
 },
 "40.04.06": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.07": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.09": {
 "books": [
 "diestel-graph-theory"
 ],

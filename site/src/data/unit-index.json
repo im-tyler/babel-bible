@@ -44108,6 +44108,104 @@
 ],
 "title": "Generating Functions: Ordinary, Exponential, and the Exponential Formula"
 },
+"40.01.04": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.04",
+"prereqs": [
+"40.01.03"
+],
+"section": "combinatorics",
+"slug": "rational-gf-transfer-matrix-p-partitions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rational Generating Functions, the Transfer-Matrix Method, and P-Partitions"
+},
+"40.01.05": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.05",
+"prereqs": [
+"40.01.03"
+],
+"section": "combinatorics",
+"slug": "permutation-statistics-eulerian-polynomials",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Permutation Statistics: Descents, the Major Index, and Eulerian Polynomials"
+},
+"40.01.06": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.06",
+"prereqs": [
+"40.01.01",
+"40.01.03"
+],
+"section": "combinatorics",
+"slug": "q-analogues-gaussian-binomials-partitions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "q-Analogues, Gaussian Binomial Coefficients, and the Combinatorics of Partitions"
+},
+"40.01.07": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.07",
+"prereqs": [
+"40.01.03",
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "trees-cayley-matrix-tree-lagrange-inversion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Trees, Cayley's Formula, the Matrix-Tree Theorem, and Lagrange Inversion"
+},
 "40.02.01": {
 "area": "math",
 "books": [
@@ -44131,6 +44229,31 @@
 "master"
 ],
 "title": "Posets, Lattices, and Birkhoff's Representation Theorem"
+},
+"40.02.02": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "posets-lattices",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.02.02",
+"prereqs": [
+"40.02.01",
+"40.01.02"
+],
+"section": "combinatorics",
+"slug": "incidence-algebra-mobius-function-inversion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Incidence Algebra, the M\u00f6bius Function of a Poset, and M\u00f6bius Inversion"
 },
 "40.04.01": {
 "area": "math",
@@ -44177,6 +44300,30 @@
 "master"
 ],
 "title": "Matchings I: K\u00f6nig's Theorem and Hall's Marriage Theorem"
+},
+"40.04.03": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.03",
+"prereqs": [
+"40.04.02"
+],
+"section": "combinatorics",
+"slug": "matchings-tutte-tutte-berge",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Matchings II: Tutte's 1-Factor Theorem and the Tutte-Berge Formula"
 },
 "40.04.04": {
 "area": "math",
@@ -44249,6 +44396,54 @@
 "master"
 ],
 "title": "Vertex Colouring: Brooks' Theorem and the Chromatic Polynomial"
+},
+"40.04.07": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.07",
+"prereqs": [
+"40.04.06"
+],
+"section": "combinatorics",
+"slug": "edge-list-colouring-vizing-choosability",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Edge Colouring and List Colouring: Vizing's Theorem and Choosability"
+},
+"40.04.09": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.09",
+"prereqs": [
+"40.04.04"
+],
+"section": "combinatorics",
+"slug": "network-flows-max-flow-min-cut-nowhere-zero",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Network Flows: Max-Flow Min-Cut and Nowhere-Zero Flows"
 },
 "40.06.01": {
 "area": "math",
