@@ -44303,6 +44303,30 @@
 ],
 "title": "The Ring of Symmetric Functions and Its Bases"
 },
+"40.03.02": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.02",
+"prereqs": [
+"40.03.01"
+],
+"section": "combinatorics",
+"slug": "schur-functions-ssyt-jacobi-trudi",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Schur Functions: the Combinatorial Definition and the Jacobi-Trudi Determinant"
+},
 "40.04.01": {
 "area": "math",
 "books": [
@@ -44939,6 +44963,30 @@
 ],
 "title": "The Second-Moment Method and Thresholds for Random Graphs"
 },
+"40.07.04": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.04",
+"prereqs": [
+"40.07.02"
+],
+"section": "combinatorics",
+"slug": "lovasz-local-lemma-moser-tardos",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Lov\u00e1sz Local Lemma and the Moser-Tardos Algorithm"
+},
 "40.07.05": {
 "area": "math",
 "books": [
@@ -44962,6 +45010,30 @@
 "master"
 ],
 "title": "Concentration for Combinatorial Functionals: Azuma and the Bounded-Differences Method"
+},
+"40.07.06": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.06",
+"prereqs": [
+"40.07.01"
+],
+"section": "combinatorics",
+"slug": "entropy-method-shearer-lemma",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Entropy Method and Shearer's Lemma"
 },
 "40.08.01": {
 "area": "math",
@@ -45011,5 +45083,53 @@
 "master"
 ],
 "title": "The Symbolic Method for Labelled Structures"
+},
+"40.08.03": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.03",
+"prereqs": [
+"40.08.01"
+],
+"section": "combinatorics",
+"slug": "meromorphic-coefficient-asymptotics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Meromorphic Coefficient Asymptotics"
+},
+"40.08.06": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.06",
+"prereqs": [
+"40.08.02"
+],
+"section": "combinatorics",
+"slug": "saddle-point-method-asymptotic-enumeration",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Saddle-Point Method for Asymptotic Enumeration"
 }
 }
