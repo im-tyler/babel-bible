@@ -9808,6 +9808,24 @@
 ],
 "curriculum": "analytic-nt"
 },
+"21.12.02": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.12.03": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.13.01": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
 "21.13.04": {
 "books": [
 "davenport-multiplicative"
@@ -9863,6 +9881,12 @@
 "curriculum": "analytic-nt"
 },
 "21.15.04": {
+"books": [
+"iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
+"21.15.05": {
 "books": [
 "iwaniec-kowalski-ant"
 ],

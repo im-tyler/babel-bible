@@ -35218,6 +35218,83 @@
 ],
 "title": "The von Mangoldt Function, the Chebyshev Psi Function, and the Logarithmic Derivative of Zeta"
 },
+"21.12.02": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "prime-number-theorem",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.12.02",
+"prereqs": [
+"21.12.01",
+"21.11.04",
+"06.01.16"
+],
+"section": "number-theory",
+"slug": "prime-number-theorem-contour-integration",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Prime Number Theorem via Contour Integration"
+},
+"21.12.03": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "prime-number-theorem",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.12.03",
+"prereqs": [
+"21.12.01",
+"06.01.16"
+],
+"section": "number-theory",
+"slug": "effective-zero-free-region-error-term",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Effective Zero-Free Regions for Zeta and the Prime Number Theorem Error Term"
+},
+"21.13.01": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "dirichlet-l-functions-characters",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.13.01",
+"prereqs": [
+"21.12.01",
+"21.03.02",
+"06.01.16"
+],
+"section": "number-theory",
+"slug": "zero-free-regions-l-functions-siegel-zeros",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Zero-Free Regions for Dirichlet L-Functions and Exceptional (Siegel) Zeros"
+},
 "21.13.04": {
 "area": "math",
 "books": [
@@ -35472,6 +35549,31 @@
 "master"
 ],
 "title": "Gauss, Jacobi, Kloosterman, and Sali\u00e9 Sums; the Weil Bound"
+},
+"21.15.05": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "exponential-sums",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.15.05",
+"prereqs": [
+"21.15.03",
+"21.15.02"
+],
+"section": "number-theory",
+"slug": "vinogradov-mean-value-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Vinogradov Mean Value Theorem"
 },
 "21.16.01": {
 "area": "math",
