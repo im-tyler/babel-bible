@@ -11441,6 +11441,18 @@
 ],
 "curriculum": "operator-algebras"
 },
+"39.01.04": {
+"books": [
+"davidson-cstar"
+],
+"curriculum": "operator-algebras"
+},
+"39.02.01": {
+"books": [
+"davidson-cstar"
+],
+"curriculum": "operator-algebras"
+},
 "39.03.01": {
 "books": [
 "takesaki-von-neumann"
@@ -11456,6 +11468,24 @@
 "39.03.03": {
 "books": [
 "takesaki-von-neumann"
+],
+"curriculum": "operator-algebras"
+},
+"39.03.04": {
+"books": [
+"takesaki-von-neumann"
+],
+"curriculum": "operator-algebras"
+},
+"39.04.01": {
+"books": [
+"takesaki-von-neumann"
+],
+"curriculum": "operator-algebras"
+},
+"39.05.01": {
+"books": [
+"brown-ozawa-nuclearity"
 ],
 "curriculum": "operator-algebras"
 },

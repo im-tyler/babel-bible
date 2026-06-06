@@ -43258,6 +43258,57 @@
 ],
 "title": "States, the GNS Construction, and the Gelfand-Naimark Representation Theorem"
 },
+"39.01.04": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "c-star-algebras-basics",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.01.04",
+"prereqs": [
+"39.01.03",
+"39.01.01",
+"02.11.05"
+],
+"section": "operator-algebras",
+"slug": "toeplitz-cuntz-algebras-extensions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Toeplitz Algebra, Cuntz Algebras, and Extensions"
+},
+"39.02.01": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "af-algebras-k-theory",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.02.01",
+"prereqs": [
+"39.01.03",
+"39.01.01"
+],
+"section": "operator-algebras",
+"slug": "af-algebras-bratteli-irrational-rotation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "AF Algebras, Bratteli Diagrams, and the Irrational Rotation Algebra"
+},
 "39.03.01": {
 "area": "math",
 "books": [
@@ -43334,6 +43385,81 @@
 "master"
 ],
 "title": "The Kaplansky Density Theorem"
+},
+"39.03.04": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "von-neumann-algebras",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.03.04",
+"prereqs": [
+"39.03.01",
+"39.03.02"
+],
+"section": "operator-algebras",
+"slug": "comparison-projections-type-classification",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Comparison of Projections and the Murray-von Neumann Type Classification"
+},
+"39.04.01": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "tomita-takesaki-modular",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.04.01",
+"prereqs": [
+"39.03.01",
+"39.01.03"
+],
+"section": "operator-algebras",
+"slug": "cyclic-separating-vectors-standard-form",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cyclic and Separating Vectors and the Standard Form"
+},
+"39.05.01": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.01",
+"prereqs": [
+"39.01.03",
+"39.01.01"
+],
+"section": "operator-algebras",
+"slug": "completely-positive-maps-stinespring-dilation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Completely Positive Maps and the Stinespring Dilation Theorem"
 },
 "39.05.06": {
 "area": "math",
