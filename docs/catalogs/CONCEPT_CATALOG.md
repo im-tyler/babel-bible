@@ -14555,3 +14555,45 @@ The dyadic stopping-time splitting f = g + b of an L^1 function at height lambda
 - **unit**: `02.17.07`
 - **prerequisites**: `analysis.sobolev-inequalities-gagliardo-nirenberg-morrey`, `pde.maximum-principles-general-elliptic-operators`, `numerical-pde.sobolev-spaces-h-s-and-w-k-p`, `measure-theory.lp-spaces-holder-minkowski-completeness`
 - **notes**: Interior regularity for divergence-form $-\operatorname{div}(A(x)Du)=0$ with bounded measurable uniformly elliptic $A$ (ellipticity ratio $\Lambda/\lambda$ the only datum). Caccioppoli/reverse-Poincare energy estimate from the weak formulation tested against $\eta^2(u-k)^+$; De Giorgi level-set truncation iteration and Moser $L^p$ iteration (two readings of the same Sobolev-driven integrability gain) give local boundedness; weak Harnack via John-Nirenberg log estimate; Harnack inequality; oscillation decay $\operatorname{osc}_{B_{R/2}}\le\theta\,\operatorname{osc}_{B_R}$ yields interior $C^{0,\alpha}$, $\alpha=\alpha(n,\Lambda/\lambda)$, sharp (no continuity of $A$ assumed). Resolves Hilbert's 19th problem: derivatives of a convex-variational minimiser solve the linearised divergence equation with merely measurable coefficients. Elliptic counterpart of parabolic De Giorgi-Nash (02.13.03); divergence-form sibling of non-divergence Krylov-Safonov (02.17.02 / ABP). Lean status none.
+
+
+### pde.dirichlet-problem-method-of-continuity
+- **title**: The Classical Dirichlet Problem via the Method of Continuity
+- **unit**: `02.17.05`
+- **prerequisites**: `pde.schauder-c2alpha-estimates` (02.17.04), `analysis.banach-space-fundamentals` (02.11.04), `analysis.open-mapping-closed-graph-theorems` (02.11.09)
+- **notes**: stub - see unit `02.17.05`. Solvability of Lu=f in Omega, u=phi on bndry in C^{2,alpha} for C^alpha coefficients, c<=0, and C^{2,alpha} boundary, via the method of continuity. Abstract Banach-space theorem: a norm-continuous affine family L_t=(1-t)Delta+tL with a t-uniform a priori bound ||x||<=C||L_t x|| has solvable set S open (Neumann-series perturbation + open mapping/bounded inverse) and closed (completeness -> closed range), hence S=[0,1] by connectedness once Delta seeds 0 in S. Global Schauder estimate (02.17.04) supplies (*) after the maximum principle (02.17.02) absorbs ||u||_{C^0}. Contrast with Perron's constructive mean-value envelope for harmonic functions (02.13.01); Fredholm-alternative extension when c>lambda_1; Leray-Schauder degree as the nonlinear shadow; Lax-Milgram as the variational alternative. Lean status none: Mathlib has the Banach/open-mapping/Neumann-series scaffolding but no Holder-Schauder a priori estimate to instantiate (*).
+
+### calderon-zygmund.calderon-zygmund-singular-integral-operators-lp
+Convolution operators Tf = p.v. K*f against a Calderón-Zygmund kernel (size |K|<=A|x|^-n, the Hörmander regularity integral, and an L^2/Fourier-multiplier bound; homogeneous K=Omega(x/|x|)|x|^-n with mean-zero Omega); the master theorem L^2-boundedness => weak-(1,1) via the Calderón-Zygmund decomposition => L^p for 1<p<infty by Marcinkiewicz and duality; principal-value existence of the truncated integrals.
+
+
+### analysis.rellich-kondrachov-poincare
+
+- **title**: The Rellich-Kondrachov Compactness Theorem and the Poincaré Inequalities
+- **unit**: `02.16.03`
+- **prerequisites**: `analysis.trace-extension-theorems` (02.16.02), `02.11.05` (compact operators), `measure-theory.lp-spaces-holder-minkowski-completeness` (02.07.06)
+- **notes**: stub — see unit `02.16.03`. The Rellich-Kondrachov compact embedding $W^{1,p}(\Omega)\hookrightarrow\hookrightarrow L^q(\Omega)$ for $q<p^*$ on a bounded $C^1$ domain, proved via the Fréchet-Kolmogorov / Kolmogorov-Riesz precompactness criterion (boundedness + uniform translation-equicontinuity + uniform decay) and the extension operator of 02.16.02, with the translation estimate $\|\tau_h u-u\|_{L^1}\le|h|\,\|Du\|_{L^1}$ as engine and $L^q$-interpolation between $L^1$ and $L^{p^*}$ to reach the subcritical range; non-compactness at the critical $q=p^*$ via concentrating Aubin-Talenti bubbles. The Poincaré inequality $\|u\|_{L^p}\le C\|Du\|_{L^p}$ on $W^{1,p}_0(\Omega)$ (diameter/slab constant) and the Poincaré-Wirtinger inequality $\|u-(u)_\Omega\|_{L^p}\le C\|Du\|_{L^p}$ on bounded connected domains (compactness-contradiction proof, connectedness essential). Spectral form: optimal constants are $\lambda_1^{-1/2}$ (first Dirichlet eigenvalue) and $\mu_2^{-1/2}$ (first nonzero Neumann eigenvalue); compactness gives the discrete Laplacian spectrum and the Fredholm alternative for elliptic problems. The compactness engine of the direct method (Evans Ch. 5). Lean status none.
+
+
+### littlewood-paley-interpolation.bmo-john-nirenberg
+
+- **title**: BMO and the John-Nirenberg Inequality
+- **unit**: `02.20.01`
+- **prerequisites**: `02.19.02` (Calderón-Zygmund decomposition), `02.19.01` (Hardy-Littlewood maximal function, Vitali covering), `02.07.06` (L^p spaces)
+- **notes**: stub - see unit `02.20.01`. The space $\mathrm{BMO}(\mathbb{R}^n)$ of bounded mean oscillation, seminorm $\|f\|_*=\sup_Q\fint_Q|f-f_Q|$; $L^\infty\subsetneq\mathrm{BMO}$ with $\log|x|\in\mathrm{BMO}\setminus L^\infty$; the John-Nirenberg inequality $|\{x\in Q:|f-f_Q|>\lambda\}|\le C_1|Q|e^{-C_2\lambda/\|f\|_*}$ via one-step Calderón-Zygmund stopping-time recursion ($\Phi(\lambda+2^{2n})\le 2^{-n}\Phi(\lambda)$); self-improvement to $L^p$-oscillation and exponential ($e^L$) integrability; consequences — $\mathrm{BMO}$ as the $p\to\infty$ endpoint, Calderón-Zygmund operators $L^\infty\to\mathrm{BMO}$, the Fefferman-Stein sharp maximal function $M^\#$ with $\|f\|_{L^p}\approx\|M^\#f\|_{L^p}$, the Carleson-measure and commutator characterizations, and the Fefferman duality $(H^1)^*=\mathrm{BMO}$ (stated). Stein-Shakarchi harmonic. Lean status none.
+
+
+### dispersive.strichartz-estimates-tt-star
+
+- **title**: Strichartz Estimates via the TT* Method
+- **unit**: `02.21.02`
+- **prerequisites**: `02.21.01` (dispersive decay estimates), `02.19.05` (Riesz/Bessel potentials, Hardy-Littlewood-Sobolev), `02.10.04` (Fourier transform, Plancherel), `02.07.06` (L^p spaces, Holder/Minkowski)
+- **notes**: stub - see unit `02.21.02`. Schrödinger-admissible exponent pairs 2/q + n/r = n/2 (with the wave analogue obtained by the dimensional shift n/2 -> (n-1)/2), the homogeneous Strichartz estimate ‖e^{itΔ}f‖_{L^q_t L^r_x} ≲ ‖f‖_{L^2}, and the TT* method deriving it from the pointwise dispersive decay (02.21.01) fed into the one-dimensional Hardy-Littlewood-Sobolev inequality (02.19.05). Mixed space-time Lebesgue norms and their duality; the dual/adjoint estimate by TT* duality; the retarded (inhomogeneous) Duhamel estimate via the Christ-Kiselev truncation lemma (needs strictly ordered exponents q' < q). The abstract Keel-Tao theorem with dispersive exponent β as the only datum, the delicate endpoint q=2 (kernel |t-s|^{-1} at the HLS failure threshold, dyadic-bilinear/Lorentz-atom argument), and the failure of the (2,∞,2) corner in dimension two. Restriction-extension equivalence to Stein-Tomas. Central estimate of the dispersive chapter (Tao Ch. 2 §2.3). Lean status none: Mathlib has Fourier/Plancherel, interpolation, and L^p duality but no dispersive-PDE namespace, no propagator, no mixed-norm Bochner spaces, no abstract TT* lemma, no HLS/fractional integration, no Christ-Kiselev truncation, and no Keel-Tao bilinear endpoint.
+
+
+### pde.harnack-inequality-moser-krylov-safonov
+
+- **title**: The Harnack Inequality for Elliptic Equations (Moser and Krylov-Safonov)
+- **unit**: `02.17.08`
+- **prerequisites**: `pde.de-giorgi-nash-moser-holder-continuity`, `pde.alexandrov-bakelman-pucci-estimate`, `pde.laplace-equation-harmonic-functions`
+- **notes**: The Harnack inequality $\sup_{B_R}u\le C\inf_{B_R}u$ for non-negative weak/strong solutions, $C=C(n,\Lambda/\lambda)$ scale-invariant. Moser route (divergence form $-\operatorname{div}(A\,Du)=0$): local boundedness (sup half) by $L^p$ iteration plus the weak Harnack (inf half), where the John-Nirenberg/BMO lemma applied to $\log u$ ferries the bound across the singular exponent $p=0$ from positive to negative powers. Krylov-Safonov route (non-divergence $a^{ij}D_{ij}u=0$, no energy structure): ABP estimate run through a Calderon-Zygmund cube decomposition gives the growth/measure lemma (weak-$L^\varepsilon$ decay of super-level sets), paired with the local max principle for the Pucci extremal $\mathcal{M}^+$. Harnack implies oscillation decay $\operatorname{osc}_{B_R}\le\theta\,\operatorname{osc}_{B_{4R}}$, $\theta=(C-1)/(C+1)$, hence interior $C^{0,\alpha}$; and implies Liouville for general operators by sending $R\to\infty$ with scale-invariant $C$. Generalises harmonic Harnack (02.13.01) to bounded-measurable / non-divergence coefficients. Lean status none.

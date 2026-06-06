@@ -4151,6 +4151,32 @@
 ],
 "title": "Trace and Extension Theorems for Sobolev Functions"
 },
+"02.16.03": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "sobolev-weak-solutions",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.16.03",
+"prereqs": [
+"02.16.02",
+"02.11.05",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "rellich-kondrachov-poincare",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Rellich-Kondrachov Compactness Theorem and the Poincar\u00e9 Inequalities"
+},
 "02.17.02": {
 "area": "math",
 "books": [
@@ -4229,6 +4255,32 @@
 ],
 "title": "Schauder Theory: Interior and Boundary C^{2,alpha} Estimates"
 },
+"02.17.05": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.05",
+"prereqs": [
+"02.17.04",
+"02.11.04",
+"02.11.09"
+],
+"section": "analysis",
+"slug": "dirichlet-problem-method-of-continuity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Classical Dirichlet Problem via the Method of Continuity"
+},
 "02.17.07": {
 "area": "math",
 "books": [
@@ -4255,6 +4307,32 @@
 "master"
 ],
 "title": "De Giorgi-Nash-Moser Theory: Local Boundedness and Holder Continuity of Weak Solutions"
+},
+"02.17.08": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.08",
+"prereqs": [
+"02.17.07",
+"02.17.03",
+"02.13.01"
+],
+"section": "analysis",
+"slug": "harnack-inequality-moser-krylov-safonov",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Harnack Inequality for Elliptic Equations (Moser and Krylov-Safonov)"
 },
 "02.18.03": {
 "area": "math",
@@ -4332,6 +4410,32 @@
 ],
 "title": "The Calder\u00f3n-Zygmund Decomposition"
 },
+"02.19.03": {
+"area": "math",
+"books": [
+"stein-singular-integrals"
+],
+"chapter": "calderon-zygmund-singular-integrals",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.19.03",
+"prereqs": [
+"02.19.02",
+"02.10.04",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "calderon-zygmund-singular-integral-operators-lp",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Calder\u00f3n-Zygmund Singular Integral Operators: Lp Boundedness"
+},
 "02.19.05": {
 "area": "math",
 "books": [
@@ -4358,6 +4462,32 @@
 "master"
 ],
 "title": "Riesz and Bessel Potentials and the Hardy-Littlewood-Sobolev Inequality"
+},
+"02.20.01": {
+"area": "math",
+"books": [
+"stein-shakarchi-harmonic"
+],
+"chapter": "littlewood-paley-interpolation",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.20.01",
+"prereqs": [
+"02.19.02",
+"02.19.01",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "bmo-john-nirenberg",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "BMO and the John-Nirenberg Inequality"
 },
 "02.20.05": {
 "area": "math",
@@ -4410,6 +4540,33 @@
 "master"
 ],
 "title": "Dispersive Decay Estimates for the Schr\u00f6dinger and Wave Propagators"
+},
+"02.21.02": {
+"area": "math",
+"books": [
+"tao-dispersive"
+],
+"chapter": "dispersive-strichartz",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.21.02",
+"prereqs": [
+"02.21.01",
+"02.19.05",
+"02.10.04",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "strichartz-estimates-tt-star",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Strichartz Estimates via the TT* Method"
 },
 "03.01.01": {
 "area": "math",
