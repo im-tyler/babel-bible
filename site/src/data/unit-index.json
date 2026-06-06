@@ -44327,6 +44327,102 @@
 ],
 "title": "Schur Functions: the Combinatorial Definition and the Jacobi-Trudi Determinant"
 },
+"40.03.03": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.03",
+"prereqs": [
+"40.03.02"
+],
+"section": "combinatorics",
+"slug": "cauchy-identity-hall-inner-product",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Cauchy Identity, Dual Bases, and the Hall Inner Product"
+},
+"40.03.04": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.04",
+"prereqs": [
+"40.03.02"
+],
+"section": "combinatorics",
+"slug": "rsk-correspondence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Robinson-Schensted-Knuth Correspondence"
+},
+"40.03.05": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.05",
+"prereqs": [
+"40.03.02"
+],
+"section": "combinatorics",
+"slug": "littlewood-richardson-jeu-de-taquin",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Littlewood-Richardson Rule, Skew Schur Functions, and Jeu de Taquin"
+},
+"40.03.06": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.06",
+"prereqs": [
+"40.03.02"
+],
+"section": "combinatorics",
+"slug": "frobenius-characteristic-map",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Frobenius Characteristic Map and the Symmetric-Function Dictionary"
+},
 "40.04.01": {
 "area": "math",
 "books": [
@@ -45035,6 +45131,30 @@
 ],
 "title": "The Entropy Method and Shearer's Lemma"
 },
+"40.07.07": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.07",
+"prereqs": [
+"40.07.03"
+],
+"section": "combinatorics",
+"slug": "correlation-inequalities-fkg-janson",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Correlation Inequalities: FKG, Harris, and the Janson Inequalities"
+},
 "40.08.01": {
 "area": "math",
 "books": [
@@ -45108,6 +45228,55 @@
 ],
 "title": "Meromorphic Coefficient Asymptotics"
 },
+"40.08.04": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.04",
+"prereqs": [
+"40.08.03"
+],
+"section": "combinatorics",
+"slug": "singularity-analysis-transfer-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Singularity Analysis and the Transfer Theorems"
+},
+"40.08.05": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.05",
+"prereqs": [
+"40.01.07",
+"40.08.03"
+],
+"section": "combinatorics",
+"slug": "tree-family-asymptotics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Asymptotics of Tree Families and Simple Varieties of Trees"
+},
 "40.08.06": {
 "area": "math",
 "books": [
@@ -45131,5 +45300,30 @@
 "master"
 ],
 "title": "The Saddle-Point Method for Asymptotic Enumeration"
+},
+"40.08.07": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.07",
+"prereqs": [
+"40.08.06",
+"40.08.03"
+],
+"section": "combinatorics",
+"slug": "limit-laws-quasi-powers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Limit Laws and the Quasi-Powers Theorem"
 }
 }

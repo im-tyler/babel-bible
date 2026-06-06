@@ -11699,6 +11699,30 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.03.03": {
+"books": [
+"stanley-ec2"
+],
+"curriculum": "combinatorics"
+},
+"40.03.04": {
+"books": [
+"stanley-ec2"
+],
+"curriculum": "combinatorics"
+},
+"40.03.05": {
+"books": [
+"stanley-ec2"
+],
+"curriculum": "combinatorics"
+},
+"40.03.06": {
+"books": [
+"stanley-ec2"
+],
+"curriculum": "combinatorics"
+},
 "40.04.01": {
 "books": [
 "diestel-graph-theory"
@@ -11879,6 +11903,12 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.07.07": {
+"books": [
+"alon-spencer-probabilistic"
+],
+"curriculum": "combinatorics"
+},
 "40.08.01": {
 "books": [
 "flajolet-sedgewick"
@@ -11897,7 +11927,25 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.08.04": {
+"books": [
+"flajolet-sedgewick"
+],
+"curriculum": "combinatorics"
+},
+"40.08.05": {
+"books": [
+"flajolet-sedgewick"
+],
+"curriculum": "combinatorics"
+},
 "40.08.06": {
+"books": [
+"flajolet-sedgewick"
+],
+"curriculum": "combinatorics"
+},
+"40.08.07": {
 "books": [
 "flajolet-sedgewick"
 ],
