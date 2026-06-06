@@ -10642,6 +10642,12 @@
 ],
 "curriculum": "probability"
 },
+"37.02.03": {
+"books": [
+"durrett-probability"
+],
+"curriculum": "probability"
+},
 "37.03.01": {
 "books": [
 "durrett-probability"
@@ -10649,6 +10655,12 @@
 "curriculum": "probability"
 },
 "37.03.02": {
+"books": [
+"durrett-probability"
+],
+"curriculum": "probability"
+},
+"37.03.03": {
 "books": [
 "durrett-probability"
 ],
@@ -10667,6 +10679,12 @@
 "curriculum": "probability"
 },
 "37.04.03": {
+"books": [
+"williams-martingales"
+],
+"curriculum": "probability"
+},
+"37.04.04": {
 "books": [
 "williams-martingales"
 ],
@@ -10871,6 +10889,12 @@
 "curriculum": "probability"
 },
 "37.08.08": {
+"books": [
+"agz-random-matrices"
+],
+"curriculum": "probability"
+},
+"37.08.09": {
 "books": [
 "agz-random-matrices"
 ],

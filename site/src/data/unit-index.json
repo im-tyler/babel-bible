@@ -39835,6 +39835,32 @@
 ],
 "title": "The Strong Law of Large Numbers"
 },
+"37.02.03": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "02-independence-laws-of-large-numbers",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.02.03",
+"prereqs": [
+"37.02.02",
+"02.07.06",
+"37.04.03"
+],
+"section": "probability",
+"slug": "ergodic-theorems-birkhoff-von-neumann-kingman",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Ergodic Theorems: Birkhoff, von Neumann, and Kingman"
+},
 "37.03.01": {
 "area": "math",
 "books": [
@@ -39887,6 +39913,32 @@
 "master"
 ],
 "title": "The Lindeberg\u2013Feller Central Limit Theorem"
+},
+"37.03.03": {
+"area": "math",
+"books": [
+"durrett-probability"
+],
+"chapter": "03-clt-characteristic-functions",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.03.03",
+"prereqs": [
+"37.03.02",
+"02.15.01",
+"37.05.04"
+],
+"section": "probability",
+"slug": "donsker-invariance-principle-functional-clt",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Donsker's Invariance Principle and the Functional Central Limit Theorem"
 },
 "37.04.01": {
 "area": "math",
@@ -39966,6 +40018,34 @@
 "master"
 ],
 "title": "Doob's Maximal and L^p Inequalities, Uniform Integrability, and L^p-Bounded Martingales"
+},
+"37.04.04": {
+"area": "math",
+"books": [
+"williams-martingales"
+],
+"chapter": "04-conditional-expectation-martingales",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.04.04",
+"prereqs": [
+"37.04.01",
+"37.04.02",
+"37.04.03",
+"02.07.07",
+"02.07.08"
+],
+"section": "probability",
+"slug": "kakutani-product-martingales-absolute-continuity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kakutani's Theorem on Product Martingales and Absolute Continuity of Product Measures"
 },
 "37.05.01": {
 "area": "math",
@@ -40826,5 +40906,32 @@
 "master"
 ],
 "title": "Free Probability: Freeness, Free Convolution, and the R-Transform"
+},
+"37.08.09": {
+"area": "math",
+"books": [
+"agz-random-matrices"
+],
+"chapter": "08-random-matrices",
+"curriculum": "probability",
+"field": "probability",
+"fieldLabel": "Probability & Stochastics",
+"fieldOrder": 4,
+"id": "37.08.09",
+"prereqs": [
+"37.08.03",
+"37.08.07",
+"37.07.01",
+"37.07.05"
+],
+"section": "probability",
+"slug": "ben-arous-guionnet-ldp-empirical-spectral-measure",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Ben Arous\u2013Guionnet Large Deviation Principle for the Empirical Spectral Measure"
 }
 }

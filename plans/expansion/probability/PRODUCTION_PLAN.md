@@ -69,4 +69,10 @@ Same-wave prereqs go in `## Connections`, NOT frontmatter (not yet on disk).
 
 ## Status
 - [x] Wave 1  [x] Wave 2  [x] Wave 3  [x] Wave 4  [x] Wave 5  [x] Wave 6  (42/42 shipped)
-- [ ] COMPLETENESS re-audit (loop-until-dry)
+- [x] COMPLETENESS round 1: Norris/Le Gall/Dembo-Zeitouni DRY; Durrett(+2)/Williams(+1)/AGZ(+1) → 4 units produced
+  - 37.02.03 Birkhoff/von Neumann/Kingman ergodic theorems
+  - 37.03.03 Donsker invariance principle / functional CLT
+  - 37.04.04 Kakutani product martingales / absolute continuity
+  - 37.08.09 Ben Arous-Guionnet LDP for empirical spectral measure
+- [ ] COMPLETENESS round 2: re-audit Durrett/Williams/AGZ (confirm dry after the 4 capstones)
+- Spine total: 46 units (42 + 4 completeness). probability lens core 51, 0 dangling.
