@@ -117,3 +117,34 @@ NOT re-proposed, per brief.
 ## DRY?
 
 DRY — 1 new genuine gap: `38.07.04` Livšic cohomological-rigidity theorem (K-H Ch. 19); all other K-H headline theorems are now COVERED by the produced 38.* spine.
+
+---
+
+## Round 2 (2026-06-05)
+
+Conservative re-verification after Round 1 shipped `38.07.04`.
+
+**Verification of the Round 1 fix.** `38.07.04-livsic-cohomological-rigidity-theorem.md`
+is on disk under `content/38-dynamics/07-smooth-ergodic-theory/`, with correct
+frontmatter (id `38.07.04`, prereqs `38.03.01`/`38.03.04`/`38.07.03`, anchored to
+K-H Ch. 19 §19.2). A `Livšic|Livsic|Livshitz` grep over the entire `content/` tree
+now returns exactly one file — that unit — closing the sole Round 1 gap. The full
+38.01-38.07 spine is present (24 units) and the ergodic theorems live at
+`37.02.03` (Birkhoff-von Neumann-Kingman).
+
+**Headline re-sweep (all COVERED, non-zero hits in `content/38-dynamics` / `content/37*`):**
+Birkhoff & von Neumann ergodic theorems, Poincaré recurrence / Kac, Krylov-Bogolyubov,
+unique ergodicity / Weyl equidistribution, Denjoy, hyperbolic sets / Anosov / Axiom-A,
+Smale horseshoe, Smale-Birkhoff homoclinic, Hadamard-Perron / stable manifolds,
+shadowing / closing lemma, Markov partitions (Bowen-Sinai), variational principle,
+Pesin, Oseledets, Margulis-Ruelle, Ledrappier-Young, Hopf argument, Curtis-Hedlund-Lyndon,
+Gottschalk-Hedlund, Halmos-von Neumann (discrete spectrum), Bowen-Margulis / measure of
+maximal entropy, Livšic (`38.07.04`).
+
+**Considered, not new gaps:** Sharkovskii returns zero hits but is correctly out of
+scope — it is interval-dynamics period-forcing (Devaney / de Melo-van Strien), not a
+K-H headline; already rejected in the Round 1 pass. Twist maps / Aubry-Mather and KAM
+(symplectic spine `05.09.*`) remain out of scope per brief.
+
+**Verdict: DRY — 0 new gaps.** The K-H dynamics spine is complete; Round 1's `38.07.04`
+was the last absent headline theorem.

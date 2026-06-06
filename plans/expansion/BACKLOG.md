@@ -64,17 +64,16 @@ dirichlet-l-functions-characters · sieve-methods-large-sieve · exponential-sum
 - [x] COMPLETENESS: 1 round, all 4 books DRY (0 new gaps) — converged immediately
 - TOTAL: 26 units. chapters 21.11-21.16. math area +26. (audited against existing 21.03 L-functions — analytic proofs were the gaps)
 
-## Spine 4 — Dynamical Systems & Ergodic Theory  ·  `dynamics`  ·  STATUS: not started
+## Spine 4 — Dynamical Systems & Ergodic Theory  ·  `dynamics`  ·  STATUS: COMPLETE (24 units, loop-until-dry converged 2026-06-05)
 NEW section `content/38-dynamics` (`dynamics`) → full SETUP (§2a 1-7); prefix `38`. Extends `02.12-ode`.
 **Chapter skeleton:** `01-topological-dynamics · 02-symbolic-dynamics · 03-hyperbolicity-structural-stability ·
 04-ergodic-theorems (Birkhoff/von-Neumann) · 05-mixing-spectral · 06-entropy · 07-smooth-ergodic-theory`.
 
-- [ ] SETUP: register `dynamics` section/field/lens + prefix 38 + chapter skeleton (§2a 1-7); smoke-test
-- [ ] AUDIT: Katok-Hasselblatt — *Introduction to the Modern Theory of Dynamical Systems* (hyperbolicity, structural stability)
-- [ ] AUDIT: Walters — *An Introduction to Ergodic Theory* (Birkhoff/von Neumann, mixing, entropy)
-- [ ] AUDIT: Brin-Stuck — *Introduction to Dynamical Systems* (topological dynamics, symbolic dynamics)
-- [ ] PRODUCE: gaps → integrate → commit → build_lenses
-- [ ] COMPLETENESS: re-audit all 3 books vs the grown corpus; loop-until-dry (0 new gaps); log
+- [x] SETUP: section 38 + field/lens/prefix + 7-chapter skeleton; smoke-test passed
+- [x] AUDIT: Katok-Hasselblatt (9 gaps) · Walters (7) · Brin-Stuck (9) — see _audit/*.gaps.md
+- [x] PRODUCE: collision-checked → 23 units across chapters 38.01-38.07 (see dynamics/PRODUCTION_PLAN.md), 4 waves, all 27/27
+- [x] COMPLETENESS: 2 rounds. R1 Walters/Brin-Stuck DRY, K-H +1 (38.07.04 Livšic); R2 fully DRY
+- TOTAL: 24 units (23 produce + 1 completeness). dynamics lens core=24. Ergodic theorems reused from 37.02.03 (not re-proposed).
 
 ## Spine 5 — Operator Algebras & Noncommutative Geometry  ·  `operator-algebras`  ·  STATUS: not started
 NEW section `content/39-operator-algebras` → full SETUP (§2a 1-7); prefix `39`. Extends index theory / K-theory.
@@ -141,6 +140,7 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-05 — Spine 4 (dynamics) COMPLETE: 24 units, NEW section 38 (7 chapters: topological/symbolic/hyperbolicity/ergodic/mixing-spectral/entropy/smooth-ergodic). Katok-Hasselblatt/Walters/Brin-Stuck. 4 produce waves + 2 completeness rounds (K-H +Livšic, then DRY). Ergodic theorems reused from 37.02.03. math area +24. Next: Spine 5 (operator-algebras, NEW section 39).
 - 2026-06-05 — Spine 3 (analytic-nt) COMPLETE: 26 units extending 21-number-theory (chapters 11-16). Davenport/Montgomery-Vaughan/Iwaniec-Kowalski/Apostol. 5 produce waves + 1 completeness round (all 4 books DRY immediately). Analytic proofs (PNT contour, zero-free regions, large sieve, exponential sums, circle method) were the gaps vs the existing algebraic 21.03 L-functions. math area +26. Next: Spine 4 (dynamics, NEW section 38).
 - 2026-06-05 — Spine 2 (pde-harmonic) COMPLETE: 37 units extending 02-analysis (chapters 16-21 + classical 02.13.06). Evans/GT/Stein/Stein-Shakarchi/Tao. 6 produce waves + 2 completeness rounds (converged). math area +37. Next: Spine 3 (analytic-nt, EXTENDS 21-number-theory).
 - 2026-06-05 — Spine 1 (probability) COMPLETE: section 37 SETUP + 46 units across 6 produce waves + 2 completeness rounds (loop-until-dry converged). probability lens core 5→51, math area +46, 0 dangling. Next: Spine 2 (pde-harmonic, EXTENDS 02-analysis).
