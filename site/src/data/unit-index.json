@@ -35064,6 +35064,160 @@
 ],
 "title": "Langlands Philosophy Survey"
 },
+"21.11.01": {
+"area": "math",
+"books": [
+"apostol-analytic-nt"
+],
+"chapter": "dirichlet-series-arithmetic-functions",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.11.01",
+"prereqs": [
+"21.01.01",
+"21.01.02",
+"21.01.04"
+],
+"section": "number-theory",
+"slug": "arithmetic-functions-dirichlet-convolution-mobius",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Arithmetic Functions, Dirichlet Convolution, and M\u00f6bius Inversion"
+},
+"21.11.04": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "dirichlet-series-arithmetic-functions",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.11.04",
+"prereqs": [
+"06.01.03",
+"06.01.16",
+"21.03.01"
+],
+"section": "number-theory",
+"slug": "perron-formula-mellin-inversion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Perron's Formula and Mellin Inversion"
+},
+"21.13.04": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "dirichlet-l-functions-characters",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.13.04",
+"prereqs": [
+"21.03.02",
+"21.01.06"
+],
+"section": "number-theory",
+"slug": "polya-vinogradov-inequality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Polya-Vinogradov Inequality"
+},
+"21.13.05": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "dirichlet-l-functions-characters",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.13.05",
+"prereqs": [
+"21.03.01",
+"06.01.16",
+"06.01.12"
+],
+"section": "number-theory",
+"slug": "approximate-functional-equation-convexity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Approximate Functional Equation, Analytic Conductor, and Convexity Bound"
+},
+"21.15.01": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "exponential-sums",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.15.01",
+"prereqs": [
+"02.10.04",
+"21.03.01"
+],
+"section": "number-theory",
+"slug": "poisson-voronoi-summation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Poisson and Voronoi Summation"
+},
+"21.15.04": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "exponential-sums",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.15.04",
+"prereqs": [
+"21.02.02",
+"21.01.06",
+"21.02.01"
+],
+"section": "number-theory",
+"slug": "gauss-jacobi-kloosterman-salie-weil-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gauss, Jacobi, Kloosterman, and Sali\u00e9 Sums; the Weil Bound"
+},
 "22.01.01": {
 "area": "other",
 "books": [],

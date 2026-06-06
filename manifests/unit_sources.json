@@ -9772,6 +9772,42 @@
 ],
 "curriculum": "fast-track"
 },
+"21.11.01": {
+"books": [
+"apostol-analytic-nt"
+],
+"curriculum": "analytic-nt"
+},
+"21.11.04": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.13.04": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.13.05": {
+"books": [
+"iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
+"21.15.01": {
+"books": [
+"iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
+"21.15.04": {
+"books": [
+"iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
 "22.01.01": {
 "books": [],
 "curriculum": "other"
