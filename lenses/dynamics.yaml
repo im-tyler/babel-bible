@@ -1,0 +1,10 @@
+id: dynamics
+label: Dynamical Systems & Ergodic Theory
+description: >-
+  Topological and symbolic dynamics, hyperbolicity and structural stability, the
+  ergodic theorems, mixing and spectral theory, entropy, and smooth ergodic
+  theory. Prerequisites are pulled in automatically so the result is always a
+  complete, learnable path.
+seed:
+  field_in: [dynamics]
+group_by: field

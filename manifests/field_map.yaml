@@ -16,6 +16,7 @@ sections:
   foundations:           { area: math, field: algebra }
   analysis:              { area: math, field: analysis }
   probability:           { area: math, field: probability }
+  dynamics:              { area: math, field: dynamics }
   number-theory:         { area: math, field: number-theory }
   differential-geometry: { area: math, field: geometry-topology }
   modern-geometry:       { area: math, field: geometry-topology }
