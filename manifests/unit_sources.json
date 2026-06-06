@@ -11422,5 +11422,17 @@
 "katok-hasselblatt"
 ],
 "curriculum": "dynamics"
+},
+"39.01.01": {
+"books": [
+"davidson-cstar"
+],
+"curriculum": "operator-algebras"
+},
+"39.05.06": {
+"books": [
+"brown-ozawa-nuclearity"
+],
+"curriculum": "operator-algebras"
 }
 }

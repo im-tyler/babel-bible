@@ -43179,5 +43179,56 @@
 "master"
 ],
 "title": "The Liv\u0161ic Cohomological Rigidity Theorem"
+},
+"39.01.01": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "c-star-algebras-basics",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.01.01",
+"prereqs": [
+"02.11.04",
+"02.11.01",
+"02.11.08"
+],
+"section": "operator-algebras",
+"slug": "c-star-algebras-axioms-spectrum-functional-calculus",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "C*-Algebras: Axioms, Spectrum, and the Continuous Functional Calculus"
+},
+"39.05.06": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.06",
+"prereqs": [
+"01.02.20",
+"02.07.01"
+],
+"section": "operator-algebras",
+"slug": "amenable-groups-folner-invariant-means",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Amenable Groups: Invariant Means, the F\u00f8lner Condition, and Paradoxical Decompositions"
 }
 }

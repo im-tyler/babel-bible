@@ -1318,15 +1318,17 @@
 "38.07.01",
 "38.07.02",
 "38.07.03",
-"38.07.04"
+"38.07.04",
+"39.01.01",
+"39.05.06"
 ],
 "supporting": [
 "16.02.01"
 ],
 "counts": {
-"core": 1313,
+"core": 1315,
 "supporting": 1,
-"total": 1314
+"total": 1316
 },
 "dangling_prereqs": []
 },
@@ -1431,12 +1433,31 @@
 "label": "Operator Algebras & NCG",
 "description": "C*-algebras and von Neumann algebras, K-theory and AF algebras, Tomita-Takesaki modular theory, nuclearity and exactness, and Connes' noncommutative geometry (spectral triples, cyclic cohomology). Prerequisites are pulled in automatically so the result is always a complete, learnable path.",
 "group_by": "field",
-"core": [],
-"supporting": [],
+"core": [
+"39.01.01",
+"39.05.06"
+],
+"supporting": [
+"00.01.01",
+"00.02.05",
+"01.01.01",
+"01.01.03",
+"01.01.15",
+"01.02.01",
+"01.02.02",
+"01.02.20",
+"02.01.01",
+"02.01.02",
+"02.02.01",
+"02.07.01",
+"02.11.01",
+"02.11.04",
+"02.11.08"
+],
 "counts": {
-"core": 0,
-"supporting": 0,
-"total": 0
+"core": 2,
+"supporting": 15,
+"total": 17
 },
 "dangling_prereqs": []
 },
@@ -2772,7 +2793,9 @@
 "38.07.01",
 "38.07.02",
 "38.07.03",
-"38.07.04"
+"38.07.04",
+"39.01.01",
+"39.05.06"
 ],
 "supporting": [
 "09.01.01",
@@ -2819,9 +2842,9 @@
 "16.02.01"
 ],
 "counts": {
-"core": 1161,
+"core": 1163,
 "supporting": 42,
-"total": 1203
+"total": 1205
 },
 "dangling_prereqs": []
 },
