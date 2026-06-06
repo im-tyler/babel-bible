@@ -9820,7 +9820,25 @@
 ],
 "curriculum": "analytic-nt"
 },
+"21.12.04": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
 "21.13.01": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.13.02": {
+"books": [
+"davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.13.03": {
 "books": [
 "davenport-multiplicative"
 ],
@@ -9839,6 +9857,12 @@
 "curriculum": "analytic-nt"
 },
 "21.14.01": {
+"books": [
+"montgomery-vaughan-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.14.02": {
 "books": [
 "montgomery-vaughan-multiplicative"
 ],

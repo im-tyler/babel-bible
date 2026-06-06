@@ -35269,6 +35269,32 @@
 ],
 "title": "Effective Zero-Free Regions for Zeta and the Prime Number Theorem Error Term"
 },
+"21.12.04": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "prime-number-theorem",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.12.04",
+"prereqs": [
+"21.12.02",
+"21.12.01",
+"06.01.17"
+],
+"section": "number-theory",
+"slug": "riemann-von-mangoldt-explicit-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Riemann-von Mangoldt Explicit Formula"
+},
 "21.13.01": {
 "area": "math",
 "books": [
@@ -35294,6 +35320,57 @@
 "master"
 ],
 "title": "Zero-Free Regions for Dirichlet L-Functions and Exceptional (Siegel) Zeros"
+},
+"21.13.02": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "dirichlet-l-functions-characters",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.13.02",
+"prereqs": [
+"21.13.01",
+"21.03.02"
+],
+"section": "number-theory",
+"slug": "siegel-theorem-exceptional-zero",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Siegel's Theorem on the Exceptional Zero"
+},
+"21.13.03": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "dirichlet-l-functions-characters",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.13.03",
+"prereqs": [
+"21.13.01",
+"21.12.02",
+"21.03.02"
+],
+"section": "number-theory",
+"slug": "prime-number-theorem-arithmetic-progressions-siegel-walfisz",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Prime Number Theorem in Arithmetic Progressions and Siegel-Walfisz"
 },
 "21.13.04": {
 "area": "math",
@@ -35371,6 +35448,32 @@
 "master"
 ],
 "title": "The Large Sieve Inequality and Brun-Titchmarsh"
+},
+"21.14.02": {
+"area": "math",
+"books": [
+"montgomery-vaughan-multiplicative"
+],
+"chapter": "sieve-methods-large-sieve",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.14.02",
+"prereqs": [
+"21.14.01",
+"21.13.01",
+"21.11.04"
+],
+"section": "number-theory",
+"slug": "bombieri-vinogradov-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Bombieri-Vinogradov Theorem"
 },
 "21.14.03": {
 "area": "math",
