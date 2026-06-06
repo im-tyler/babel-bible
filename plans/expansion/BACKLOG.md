@@ -104,10 +104,15 @@ NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. N
 - [x] PRODUCE: 54 units, 7 dependency waves → integrate → commit → build_lenses
 - [x] COMPLETENESS: re-audited all 6 books; EC1/vLW/FS DRY, 5 firm gaps closed (40.03.07/08, 40.04.11, 40.07.08/09); converged at 59 units
 
-## Spine 7 — Foundations, Logic & Category Theory  ·  `logic-foundations`  ·  STATUS: not started
-MIXED: EXTEND `content/25-logic` (logic/model/set/computability — confirm the real prefix with
-`ls content | grep logic`; field `foundations-logic`) AND create NEW section
-`content/41-category-theory` (full SETUP §2a 1-7; prefix `41`; field `foundations-logic`).
+## Spine 7 — Foundations, Logic & Category Theory  ·  `logic-foundations`  ·  STATUS: in progress (SETUP+AUDIT done 2026-06-06)
+⚠️ PREFIX-25 COLLISION (discovered 2026-06-06): `content/25-logic` and `content/25-computer-science`
+BOTH use prefix 25 (ids 25.01.01–25.04.01 duplicated across the two; CS occupies chapters 01–12).
+Extending 25-logic with 25.05+ would collide with CS. RESOLUTION: the formal mathematical-logic
+chapters go into a NEW collision-free section `content/42-mathematical-logic` (prefix 42, section
+`mathematical-logic`, field `foundations-logic`) — same field/lens as the existing prose-logic, so
+the spine still groups together. (Repo already has multiple prefixes sharing one section: 24-logic
+and 25-logic are both `section: logic`.) Category theory is NEW section `content/41-category-theory`
+(prefix 41; field `foundations-logic`).
 Category theory currently has only the single `01.02.09` unit — audit against it.
 **41-category-theory skeleton:** `01-categories-functors-natural-transformations · 02-limits-colimits ·
 03-adjunctions · 04-yoneda-representability · 05-monads-algebras · 06-kan-extensions`.

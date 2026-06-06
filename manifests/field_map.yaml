@@ -20,6 +20,7 @@ sections:
   operator-algebras:     { area: math, field: operator-algebras }
   combinatorics:         { area: math, field: combinatorics }
   category-theory:       { area: math, field: foundations-logic }
+  mathematical-logic:    { area: math, field: foundations-logic }
   number-theory:         { area: math, field: number-theory }
   differential-geometry: { area: math, field: geometry-topology }
   modern-geometry:       { area: math, field: geometry-topology }
