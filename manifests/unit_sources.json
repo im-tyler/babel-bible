@@ -11681,6 +11681,18 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.02.03": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.03.01": {
+"books": [
+"stanley-ec2"
+],
+"curriculum": "combinatorics"
+},
 "40.04.01": {
 "books": [
 "diestel-graph-theory"
@@ -11747,6 +11759,18 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.05.02": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.05.03": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
 "40.05.04": {
 "books": [
 "diestel-graph-theory"
@@ -11795,6 +11819,12 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.06.08": {
+"books": [
+"van-lint-wilson"
+],
+"curriculum": "combinatorics"
+},
 "40.06.09": {
 "books": [
 "van-lint-wilson"
@@ -11816,6 +11846,30 @@
 "40.07.02": {
 "books": [
 "alon-spencer-probabilistic"
+],
+"curriculum": "combinatorics"
+},
+"40.07.03": {
+"books": [
+"alon-spencer-probabilistic"
+],
+"curriculum": "combinatorics"
+},
+"40.07.05": {
+"books": [
+"alon-spencer-probabilistic"
+],
+"curriculum": "combinatorics"
+},
+"40.08.01": {
+"books": [
+"flajolet-sedgewick"
+],
+"curriculum": "combinatorics"
+},
+"40.08.02": {
+"books": [
+"flajolet-sedgewick"
 ],
 "curriculum": "combinatorics"
 }

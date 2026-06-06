@@ -44255,6 +44255,54 @@
 ],
 "title": "The Incidence Algebra, the M\u00f6bius Function of a Poset, and M\u00f6bius Inversion"
 },
+"40.02.03": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "posets-lattices",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.02.03",
+"prereqs": [
+"40.02.02"
+],
+"section": "combinatorics",
+"slug": "eulerian-posets-face-lattices-characteristic-polynomial",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Eulerian Posets, Face Lattices, and the Characteristic Polynomial"
+},
+"40.03.01": {
+"area": "math",
+"books": [
+"stanley-ec2"
+],
+"chapter": "symmetric-functions-rsk",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.03.01",
+"prereqs": [
+"40.01.06"
+],
+"section": "combinatorics",
+"slug": "ring-symmetric-functions-bases",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Ring of Symmetric Functions and Its Bases"
+},
 "40.04.01": {
 "area": "math",
 "books": [
@@ -44518,6 +44566,54 @@
 ],
 "title": "Extremal Graph Theory: Tur\u00e1n's Theorem and Erd\u0151s-Stone-Simonovits"
 },
+"40.05.02": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "extremal-ramsey",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.05.02",
+"prereqs": [
+"40.05.01"
+],
+"section": "combinatorics",
+"slug": "kovari-sos-turan-bipartite-extremal",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bipartite Extremal Problems: the K\u0151v\u00e1ri-S\u00f3s-Tur\u00e1n Theorem"
+},
+"40.05.03": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "extremal-ramsey",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.05.03",
+"prereqs": [
+"40.05.01"
+],
+"section": "combinatorics",
+"slug": "szemeredi-regularity-removal-lemma",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Szemer\u00e9di Regularity Lemma and the Triangle Removal Lemma"
+},
 "40.05.04": {
 "area": "math",
 "books": [
@@ -44704,6 +44800,31 @@
 ],
 "title": "Perfect Codes: the Hamming and Golay Codes"
 },
+"40.06.08": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.08",
+"prereqs": [
+"40.06.07",
+"40.06.04"
+],
+"section": "combinatorics",
+"slug": "cyclic-codes-bch-reed-solomon-reed-muller",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cyclic Codes: BCH, Reed-Solomon, Reed-Muller, and Assmus-Mattson"
+},
 "40.06.09": {
 "area": "math",
 "books": [
@@ -44793,5 +44914,102 @@
 "master"
 ],
 "title": "Linearity of Expectation and the Deletion Method"
+},
+"40.07.03": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.03",
+"prereqs": [
+"40.07.01"
+],
+"section": "combinatorics",
+"slug": "second-moment-method-random-graph-thresholds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Second-Moment Method and Thresholds for Random Graphs"
+},
+"40.07.05": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.05",
+"prereqs": [
+"40.07.01"
+],
+"section": "combinatorics",
+"slug": "concentration-azuma-bounded-differences",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Concentration for Combinatorial Functionals: Azuma and the Bounded-Differences Method"
+},
+"40.08.01": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.01",
+"prereqs": [
+"40.01.03"
+],
+"section": "combinatorics",
+"slug": "symbolic-method-unlabelled-ogf",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Symbolic Method for Unlabelled Structures"
+},
+"40.08.02": {
+"area": "math",
+"books": [
+"flajolet-sedgewick"
+],
+"chapter": "analytic-combinatorics-asymptotics",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.08.02",
+"prereqs": [
+"40.01.03",
+"40.01.07"
+],
+"section": "combinatorics",
+"slug": "symbolic-method-labelled-egf",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Symbolic Method for Labelled Structures"
 }
 }
