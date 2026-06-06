@@ -14515,3 +14515,43 @@ The $\bar\partial$-Neumann boundary-value problem for the complex Laplacian $\Bo
 - **unit**: `02.21.01`
 - **prerequisites**: `02.10.04` (Fourier transform, Plancherel), `02.14.02` (pseudodifferential operators / microlocal calculus), `02.13.03` (heat equation, heat kernel, Duhamel)
 - **notes**: stub - see unit `02.21.01`. The free Schrödinger propagator e^{itΔ} as a unitary group via the Fourier multiplier e^{-4π²it|ξ|²}, its explicit oscillatory-Gaussian kernel (4πit)^{-n/2} e^{i|x-y|²/4t} obtained by analytic continuation z→it of the heat kernel, and the pointwise dispersive estimate ‖e^{itΔ}f‖_{L^∞} ≲ |t|^{-n/2}‖f‖_{L^1}, interpolated against L² conservation by Riesz-Thorin to the L^{p'}→L^p bound |t|^{-n(1/2-1/p)}. Dispersion relation τ(ξ) and group velocity ∇_ξτ; non-degeneracy of the Hessian ∇²_ξτ as the dispersive hypothesis. Wave / Klein-Gordon decay via stationary phase on the (degenerate) cone {τ=|ξ|} / hyperboloid: rate (n-1)/2 from the n-1 non-vanishing principal curvatures, loss of (n+1)/2 derivatives from the single vanishing radial curvature (Knapp obstruction). Stationary-phase principle with Hessian-signature Maslov phase, curved-surface Fourier decay (Stein-Tomas), Hadamard parametrix / geometric optics as the variable-coefficient backbone, and the TT*/Keel-Tao reduction of Strichartz estimates to the pointwise dispersive bound. The linear input to the dispersive-PDE chapter (Tao Ch. 2); builds the actual dispersive theory the wave unit 02.13.04 only names. Lean status none: Mathlib has the Fourier transform and Plancherel but no dispersive-PDE namespace, no Schrödinger propagator/kernel, no stationary-phase principle, no oscillatory-integral surface-decay asymptotics, and no Strichartz/TT* machinery.
+
+
+### pde.alexandrov-bakelman-pucci-estimate
+
+- **title**: The Alexandrov-Bakelman-Pucci Estimate
+- **unit**: `02.17.03`
+- **prerequisites**: `02.17.02` (maximum principles for general elliptic operators), `02.07.11` (the area and coarea formulas), `02.07.06` (L^p spaces)
+- **notes**: stub — see unit `02.17.03`. The ABP maximum principle: for non-divergence $Lu = a^{ij}D_{ij}u + b^iD_iu \ge f$ uniformly elliptic, the sup bound $\sup_\Omega u \le \sup_{\partial\Omega}u^+ + \frac{\mathrm{diam}\Omega}{n\omega_n^{1/n}}\|f^-/\mathcal{D}^*\|_{L^n(\Gamma^+)}$ with discriminant $\mathcal{D}^*=(\det a)^{1/n}$. Proved via the upper contact set $\Gamma^+$ (where the graph admits a supporting plane from above, so $D^2u\le 0$), the normal/gradient map $\chi_u$ whose image covers a ball of radius $(\sup u-\sup_\partial u^+)/\mathrm{diam}\Omega$ (covering lemma), the area formula $|Du(\Gamma^+)|\le\int_{\Gamma^+}|\det D^2u|$, and the matrix AM-GM bound $\det a\det(-D^2u)\le(\mathrm{tr}(a(-D^2u))/n)^n$ on $\Gamma^+$. The borderline exponent $p=n$ is forced by the $n$-fold determinant (scaling). The quantitative non-divergence maximum principle underlying Krylov-Safonov Harnack and the $L^p$ theory; generalises the maximum principle of `02.17.02` to a sup-bound for measurable coefficients. Refinements: Cabré reversed-Hölder, Caffarelli viscosity-solution ABP, necessity of $L^n$. GT §9.1. Lean status none: Mathlib lacks convex-envelope / upper-contact-set / normal-map / Monge-Ampère-measure infrastructure.
+
+### calderon-zygmund.calderon-zygmund-decomposition
+The dyadic stopping-time splitting f = g + b of an L^1 function at height lambda into a bounded good part and a sum of localized mean-zero bad bumps; the engine of weak-(1,1) endpoint estimates for singular integrals.
+
+### calderon-zygmund.riesz-bessel-potentials-hardy-littlewood-sobolev
+
+- **title**: Riesz and Bessel Potentials and the Hardy-Littlewood-Sobolev Inequality
+- **unit**: `02.19.05`
+- **prerequisites**: `02.19.01` (Hardy-Littlewood maximal function), `02.07.06` (L^p spaces, Marcinkiewicz interpolation), `24.01.01` (Sobolev spaces), `02.13.02` (Newtonian potential, the alpha=2 case)
+- **notes**: stub - see unit `02.19.05`. Riesz potential I_alpha f = c_{n,alpha}|x|^{-(n-alpha)} * f with Fourier multiplier (2pi|xi|)^{-alpha}, i.e. (-Delta)^{-alpha/2}; the Hardy-Littlewood-Sobolev inequality ||I_alpha f||_q <= C||f||_p on the scaling line 1/q = 1/p - alpha/n, proved via the Hedberg pointwise bound |I_alpha f| <= C(Mf)^{p/q} plus the maximal theorem (no Fourier analysis); Bessel potentials J_alpha = (I-Delta)^{-alpha/2} with integrable positive kernel, identification L^p_alpha = J_alpha(L^p) = W^{alpha,p}; Sobolev embedding re-derived as the alpha=1 case of HLS applied to the gradient (Stein's route); borderline endpoints p=1 (weak type) and p=n/alpha (BMO, John-Nirenberg deferred to 02.20.01). Lean status none: Mathlib lacks Riesz/Bessel potential operators, the HLS inequality, and the Bessel-Sobolev identification.
+
+### pde.schauder-c2alpha-estimates
+- **title**: Schauder Theory: Interior and Boundary C^{2,alpha} Estimates
+- **unit**: `02.17.04`
+- **prerequisites**: `pde.poisson-equation-fundamental-solution-newtonian-potential` (02.13.02), `pde.maximum-principles-general-elliptic-operators` (02.17.02), `measure-theory.lp-spaces-holder-minkowski-completeness` (02.07.06)
+- **notes**: stub - see unit `02.17.04`. Holder spaces C^{k,alpha} as Banach spaces; interior and global Schauder estimates for L with C^alpha coefficients, ||u||_{C^{2,alpha}} <= C(||Lu||_{C^alpha} + ||u||_{C^0}), via the frozen-coefficient (Korn) Newtonian-potential perturbation and the Campanato mean-oscillation characterization; boundary Schauder estimates on C^{2,alpha} domains (Agmon-Douglis-Nirenberg); existence for the Dirichlet problem by the method of continuity. Closes the C^alpha-data regularity forward-reference flagged in 02.13.02. Lean status none: Mathlib has no Holder-space Banach scale, no Schauder estimate, and no Campanato characterization.
+
+
+### analysis.trace-extension-theorems
+
+- **title**: Trace and Extension Theorems for Sobolev Functions
+- **unit**: `02.16.02`
+- **prerequisites**: `analysis.sobolev-inequalities-gagliardo-nirenberg-morrey`, `measure-theory.the-area-and-coarea-formulas`, `numerical-pde.sobolev-spaces-h-s-and-w-k-p`
+- **notes**: stub — see unit `02.16.02`. The trace operator $T:W^{1,p}(\Omega)\to L^p(\partial\Omega)$ on a bounded $C^1$/Lipschitz domain: boundedness $\|Tu\|_{L^p(\partial\Omega)}\le C\|u\|_{W^{1,p}(\Omega)}$ via the normal-direction fundamental theorem of calculus on a flattened half-space, plus partition of unity and boundary flattening. The kernel characterization $W^{1,p}_0(\Omega)=\ker T$; the Sobolev Gauss-Green / integration-by-parts formula $\int_\Omega u\,D_i v=-\int_\Omega(D_i u)v+\int_{\partial\Omega}(Tu)(Tv)\nu_i\,dS$. The bounded extension operator $E:W^{1,p}(\Omega)\to W^{1,p}(\mathbb{R}^n)$ by higher-order reflection across a flattened boundary (order-one even reflection for $W^{1,p}$, Vandermonde-corrected reflections for $W^{k,p}$; Calderon-Stein total extension). The sharp fractional trace image $W^{1-1/p,p}(\partial\Omega)$ with the Gagliardo seminorm and the split exact sequence $0\to W^{1,p}_0\to W^{1,p}\xrightarrow{T}W^{1-1/p,p}\to 0$; trace-critical exponent $p_\dagger=(n-1)p/(n-p)$ and compact trace below it. Full theorems replacing the survey paragraphs in 24.01.01 (Evans Ch. 5). Lean status none.
+
+
+### pde.de-giorgi-nash-moser-holder-continuity
+
+- **title**: De Giorgi-Nash-Moser Theory: Local Boundedness and Holder Continuity of Weak Solutions
+- **unit**: `02.17.07`
+- **prerequisites**: `analysis.sobolev-inequalities-gagliardo-nirenberg-morrey`, `pde.maximum-principles-general-elliptic-operators`, `numerical-pde.sobolev-spaces-h-s-and-w-k-p`, `measure-theory.lp-spaces-holder-minkowski-completeness`
+- **notes**: Interior regularity for divergence-form $-\operatorname{div}(A(x)Du)=0$ with bounded measurable uniformly elliptic $A$ (ellipticity ratio $\Lambda/\lambda$ the only datum). Caccioppoli/reverse-Poincare energy estimate from the weak formulation tested against $\eta^2(u-k)^+$; De Giorgi level-set truncation iteration and Moser $L^p$ iteration (two readings of the same Sobolev-driven integrability gain) give local boundedness; weak Harnack via John-Nirenberg log estimate; Harnack inequality; oscillation decay $\operatorname{osc}_{B_{R/2}}\le\theta\,\operatorname{osc}_{B_R}$ yields interior $C^{0,\alpha}$, $\alpha=\alpha(n,\Lambda/\lambda)$, sharp (no continuity of $A$ assumed). Resolves Hilbert's 19th problem: derivatives of a convex-variational minimiser solve the linearised divergence equation with merely measurable coefficients. Elliptic counterpart of parabolic De Giorgi-Nash (02.13.03); divergence-form sibling of non-divergence Krylov-Safonov (02.17.02 / ABP). Lean status none.

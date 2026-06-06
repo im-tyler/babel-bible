@@ -1090,7 +1090,31 @@
 ],
 "curriculum": "pde-harmonic"
 },
+"02.16.02": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
 "02.17.02": {
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"curriculum": "pde-harmonic"
+},
+"02.17.03": {
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"curriculum": "pde-harmonic"
+},
+"02.17.04": {
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"curriculum": "pde-harmonic"
+},
+"02.17.07": {
 "books": [
 "gilbarg-trudinger-elliptic"
 ],
@@ -1103,6 +1127,18 @@
 "curriculum": "pde-harmonic"
 },
 "02.19.01": {
+"books": [
+"stein-singular-integrals"
+],
+"curriculum": "pde-harmonic"
+},
+"02.19.02": {
+"books": [
+"stein-singular-integrals"
+],
+"curriculum": "pde-harmonic"
+},
+"02.19.05": {
 "books": [
 "stein-singular-integrals"
 ],

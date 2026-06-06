@@ -4125,6 +4125,32 @@
 ],
 "title": "Sobolev Inequalities: the Gagliardo-Nirenberg-Sobolev and Morrey Inequalities"
 },
+"02.16.02": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "sobolev-weak-solutions",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.16.02",
+"prereqs": [
+"02.16.01",
+"02.07.11",
+"24.01.01"
+],
+"section": "analysis",
+"slug": "trace-extension-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Trace and Extension Theorems for Sobolev Functions"
+},
 "02.17.02": {
 "area": "math",
 "books": [
@@ -4150,6 +4176,85 @@
 "master"
 ],
 "title": "Maximum Principles for General Second-Order Elliptic Operators"
+},
+"02.17.03": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.03",
+"prereqs": [
+"02.17.02",
+"02.07.11",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "alexandrov-bakelman-pucci-estimate",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Alexandrov-Bakelman-Pucci Estimate"
+},
+"02.17.04": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.04",
+"prereqs": [
+"02.13.02",
+"02.17.02",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "schauder-c2alpha-estimates",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Schauder Theory: Interior and Boundary C^{2,alpha} Estimates"
+},
+"02.17.07": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.07",
+"prereqs": [
+"02.16.01",
+"02.17.02",
+"24.01.01",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "de-giorgi-nash-moser-holder-continuity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "De Giorgi-Nash-Moser Theory: Local Boundedness and Holder Continuity of Weak Solutions"
 },
 "02.18.03": {
 "area": "math",
@@ -4201,6 +4306,58 @@
 "master"
 ],
 "title": "The Hardy-Littlewood Maximal Function and the Vitali Covering Lemma"
+},
+"02.19.02": {
+"area": "math",
+"books": [
+"stein-singular-integrals"
+],
+"chapter": "calderon-zygmund-singular-integrals",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.19.02",
+"prereqs": [
+"02.19.01",
+"02.07.06"
+],
+"section": "analysis",
+"slug": "calderon-zygmund-decomposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Calder\u00f3n-Zygmund Decomposition"
+},
+"02.19.05": {
+"area": "math",
+"books": [
+"stein-singular-integrals"
+],
+"chapter": "calderon-zygmund-singular-integrals",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.19.05",
+"prereqs": [
+"02.19.01",
+"02.07.06",
+"24.01.01",
+"02.13.02"
+],
+"section": "analysis",
+"slug": "riesz-bessel-potentials-hardy-littlewood-sobolev",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Riesz and Bessel Potentials and the Hardy-Littlewood-Sobolev Inequality"
 },
 "02.20.05": {
 "area": "math",

@@ -65,4 +65,4 @@ unit) + chapter-specific shipped siblings; `02.07.06` (Lp), `02.10.04` (Fourier)
 - WAVE 6 (L5): 02.18.02, 02.18.06, 02.21.06
 
 ## Status
-- [x] W1  [ ] W2  [ ] W3  [ ] W4  [ ] W5  [ ] W6  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [ ] W3  [ ] W4  [ ] W5  [ ] W6  [ ] COMPLETENESS (loop-until-dry)
