@@ -1,0 +1,11 @@
+id: combinatorics
+label: Combinatorics & Graph Theory
+description: >-
+  Enumeration and generating functions, posets and lattices, symmetric functions
+  and RSK, graph theory (connectivity, matchings, colouring), extremal and Ramsey
+  theory, designs and codes, the probabilistic method, and analytic combinatorics.
+  Prerequisites are pulled in automatically so the result is always a complete,
+  learnable path.
+seed:
+  field_in: [combinatorics]
+group_by: field

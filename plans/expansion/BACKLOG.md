@@ -94,7 +94,7 @@ NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. N
 04-graph-theory-core (connectivity/matchings/colouring) · 05-extremal-ramsey · 06-design-coding-theory ·
 07-probabilistic-method · 08-analytic-combinatorics-asymptotics`.
 
-- [ ] SETUP: register `combinatorics` section/field/lens + prefix 40 + chapter skeleton (§2a 1-7); smoke-test
+- [x] SETUP: register `combinatorics` section/field/lens + prefix 40 + chapter skeleton (§2a 1-7); smoke-test
 - [ ] AUDIT: Stanley — *Enumerative Combinatorics I* (posets, generating functions, q-analogues)
 - [ ] AUDIT: Stanley — *Enumerative Combinatorics II* (trees, symmetric functions, RSK)
 - [ ] AUDIT: Diestel — *Graph Theory* (connectivity, matchings, colouring, minors, Ramsey)
