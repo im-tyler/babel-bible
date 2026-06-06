@@ -95,12 +95,12 @@ NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. N
 07-probabilistic-method · 08-analytic-combinatorics-asymptotics`.
 
 - [x] SETUP: register `combinatorics` section/field/lens + prefix 40 + chapter skeleton (§2a 1-7); smoke-test
-- [ ] AUDIT: Stanley — *Enumerative Combinatorics I* (posets, generating functions, q-analogues)
-- [ ] AUDIT: Stanley — *Enumerative Combinatorics II* (trees, symmetric functions, RSK)
-- [ ] AUDIT: Diestel — *Graph Theory* (connectivity, matchings, colouring, minors, Ramsey)
-- [ ] AUDIT: van Lint-Wilson — *A Course in Combinatorics* (designs, codes, polya)
-- [ ] AUDIT: Alon-Spencer — *The Probabilistic Method* (first/second moment, Lovasz local lemma)
-- [ ] AUDIT: Flajolet-Sedgewick — *Analytic Combinatorics* (singularity analysis, asymptotics)
+- [x] AUDIT: Stanley — *Enumerative Combinatorics I* (posets, generating functions, q-analogues)
+- [x] AUDIT: Stanley — *Enumerative Combinatorics II* (trees, symmetric functions, RSK)
+- [x] AUDIT: Diestel — *Graph Theory* (connectivity, matchings, colouring, minors, Ramsey)
+- [x] AUDIT: van Lint-Wilson — *A Course in Combinatorics* (designs, codes, polya)
+- [x] AUDIT: Alon-Spencer — *The Probabilistic Method* (first/second moment, Lovasz local lemma)
+- [x] AUDIT: Flajolet-Sedgewick — *Analytic Combinatorics* (singularity analysis, asymptotics)
 - [ ] PRODUCE: gaps → integrate → commit → build_lenses
 - [ ] COMPLETENESS: re-audit all 6 books vs the grown corpus; loop-until-dry (0 new gaps); log
 
