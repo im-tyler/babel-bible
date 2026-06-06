@@ -1,0 +1,10 @@
+id: operator-algebras
+label: Operator Algebras & NCG
+description: >-
+  C*-algebras and von Neumann algebras, K-theory and AF algebras, Tomita-Takesaki
+  modular theory, nuclearity and exactness, and Connes' noncommutative geometry
+  (spectral triples, cyclic cohomology). Prerequisites are pulled in automatically
+  so the result is always a complete, learnable path.
+seed:
+  field_in: [operator-algebras]
+group_by: field

@@ -1427,6 +1427,20 @@
 "dangling_prereqs": []
 },
 {
+"id": "operator-algebras",
+"label": "Operator Algebras & NCG",
+"description": "C*-algebras and von Neumann algebras, K-theory and AF algebras, Tomita-Takesaki modular theory, nuclearity and exactness, and Connes' noncommutative geometry (spectral triples, cyclic cohomology). Prerequisites are pulled in automatically so the result is always a complete, learnable path.",
+"group_by": "field",
+"core": [],
+"supporting": [],
+"counts": {
+"core": 0,
+"supporting": 0,
+"total": 0
+},
+"dangling_prereqs": []
+},
+{
 "id": "probability",
 "label": "Probability & Stochastics",
 "description": "Measure-theoretic probability, limit theorems, martingales, Markov chains, stochastic calculus, large deviations, and random matrices. Prerequisites are pulled in automatically so the result is always a complete, learnable path.",

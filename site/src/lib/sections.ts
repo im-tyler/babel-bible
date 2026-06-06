@@ -83,6 +83,7 @@ export const SECTIONS: SectionInfo[] = [
   { key: "statistics",            order: 7.8,  label: "Statistics",                       anchor: "statistics",            domain: "mathematics" },
   { key: "numerical-pde",         order: 8,    label: "Numerical analysis & PDE",         anchor: "numerical-pde",         domain: "mathematics" },
   { key: "dynamics",              order: 8.2,  label: "Dynamical systems & ergodic theory", anchor: "dynamics",            domain: "mathematics" },
+  { key: "operator-algebras",     order: 8.4,  label: "Operator algebras & NCG",           anchor: "operator-algebras",     domain: "mathematics" },
 
   // ── Physics ──
   { key: "classical-mech",        order: 9,    label: "Classical mechanics",              anchor: "classical-mech",        domain: "physics" },
