@@ -46018,6 +46018,78 @@
 ],
 "title": "The Compactness Theorem and the Method of Diagrams"
 },
+"42.02.03": {
+"area": "math",
+"books": [
+"marker-model-theory"
+],
+"chapter": "model-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.02.03",
+"prereqs": [
+"42.02.02"
+],
+"section": "mathematical-logic",
+"slug": "types-omitting-types",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Types and the Omitting Types Theorem"
+},
+"42.02.05": {
+"area": "math",
+"books": [
+"marker-model-theory"
+],
+"chapter": "model-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.02.05",
+"prereqs": [
+"42.02.02"
+],
+"section": "mathematical-logic",
+"slug": "quantifier-elimination-model-completeness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quantifier Elimination and Model-Completeness"
+},
+"42.02.08": {
+"area": "math",
+"books": [
+"marker-model-theory"
+],
+"chapter": "model-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.02.08",
+"prereqs": [
+"42.02.02"
+],
+"section": "mathematical-logic",
+"slug": "o-minimality-cell-decomposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "O-Minimality and the Cell Decomposition Theorem"
+},
 "42.03.01": {
 "area": "math",
 "books": [
@@ -46183,6 +46255,30 @@
 "master"
 ],
 "title": "Forcing I: Posets, Generic Filters, Names, and the Fundamental Theorem"
+},
+"42.03.08": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.08",
+"prereqs": [
+"42.03.07"
+],
+"section": "mathematical-logic",
+"slug": "forcing-cohen-independence-ch",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Forcing II: Cohen and the Independence of the Continuum Hypothesis"
 },
 "42.04.01": {
 "area": "math",
