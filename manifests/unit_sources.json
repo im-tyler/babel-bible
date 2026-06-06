@@ -1174,6 +1174,12 @@
 ],
 "curriculum": "pde-harmonic"
 },
+"02.18.02": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
 "02.18.03": {
 "books": [
 "evans-pde"
@@ -1187,6 +1193,12 @@
 "curriculum": "pde-harmonic"
 },
 "02.18.05": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
+"02.18.06": {
 "books": [
 "evans-pde"
 ],
@@ -1277,6 +1289,12 @@
 "curriculum": "pde-harmonic"
 },
 "02.21.05": {
+"books": [
+"tao-dispersive"
+],
+"curriculum": "pde-harmonic"
+},
+"02.21.06": {
 "books": [
 "tao-dispersive"
 ],

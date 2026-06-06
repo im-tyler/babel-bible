@@ -4491,6 +4491,32 @@
 ],
 "title": "Galerkin Existence and Energy Estimates for Second-Order Parabolic Equations"
 },
+"02.18.02": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "parabolic-hyperbolic",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.18.02",
+"prereqs": [
+"02.18.01",
+"02.13.04",
+"02.16.04"
+],
+"section": "analysis",
+"slug": "galerkin-existence-hyperbolic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Galerkin Existence and Finite Propagation Speed for Second-Order Hyperbolic Equations"
+},
 "02.18.03": {
 "area": "math",
 "books": [
@@ -4567,6 +4593,32 @@
 "master"
 ],
 "title": "Viscosity Solutions of Hamilton-Jacobi Equations"
+},
+"02.18.06": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "parabolic-hyperbolic",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.18.06",
+"prereqs": [
+"02.18.05",
+"02.13.04",
+"24.01.01"
+],
+"section": "analysis",
+"slug": "scalar-conservation-laws-entropy-solutions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Scalar Conservation Laws: Shocks, Rankine-Hugoniot, and Entropy Solutions"
 },
 "02.19.01": {
 "area": "math",
@@ -4960,6 +5012,32 @@
 "master"
 ],
 "title": "Bourgain X^{s,b} Spaces and Low-Regularity Well-Posedness"
+},
+"02.21.06": {
+"area": "math",
+"books": [
+"tao-dispersive"
+],
+"chapter": "dispersive-strichartz",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.21.06",
+"prereqs": [
+"02.21.04",
+"02.21.03",
+"02.16.01"
+],
+"section": "analysis",
+"slug": "virial-blowup-soliton-stability",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Virial Identities, Blowup, and the Soliton-Stability Outlook"
 },
 "03.01.01": {
 "area": "math",
