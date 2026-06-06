@@ -35192,6 +35192,32 @@
 ],
 "title": "The Selberg-Delange Method"
 },
+"21.12.01": {
+"area": "math",
+"books": [
+"davenport-multiplicative"
+],
+"chapter": "prime-number-theorem",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.12.01",
+"prereqs": [
+"21.11.03",
+"21.03.01",
+"06.01.16"
+],
+"section": "number-theory",
+"slug": "von-mangoldt-psi-zeta-logarithmic-derivative",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The von Mangoldt Function, the Chebyshev Psi Function, and the Logarithmic Derivative of Zeta"
+},
 "21.13.04": {
 "area": "math",
 "books": [
@@ -35242,6 +35268,82 @@
 "master"
 ],
 "title": "The Approximate Functional Equation, Analytic Conductor, and Convexity Bound"
+},
+"21.14.01": {
+"area": "math",
+"books": [
+"montgomery-vaughan-multiplicative"
+],
+"chapter": "sieve-methods-large-sieve",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.14.01",
+"prereqs": [
+"21.11.02",
+"21.15.01",
+"02.10.04"
+],
+"section": "number-theory",
+"slug": "large-sieve-inequality-brun-titchmarsh",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Large Sieve Inequality and Brun-Titchmarsh"
+},
+"21.14.03": {
+"area": "math",
+"books": [
+"montgomery-vaughan-multiplicative"
+],
+"chapter": "sieve-methods-large-sieve",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.14.03",
+"prereqs": [
+"21.11.02",
+"21.11.05"
+],
+"section": "number-theory",
+"slug": "mean-values-multiplicative-halasz-wirsing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mean Values of Multiplicative Functions: Hal\u00e1sz's Theorem"
+},
+"21.14.04": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "sieve-methods-large-sieve",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.14.04",
+"prereqs": [
+"21.11.01",
+"21.11.03"
+],
+"section": "number-theory",
+"slug": "combinatorial-sieve-brun-selberg",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Combinatorial Sieve Methods: Brun and Selberg"
 },
 "21.14.05": {
 "area": "math",
@@ -35319,6 +35421,32 @@
 ],
 "title": "Weyl Sums, Weyl Differencing, and Equidistribution"
 },
+"21.15.03": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "exponential-sums",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.15.03",
+"prereqs": [
+"21.15.02",
+"21.15.01",
+"02.20.05"
+],
+"section": "number-theory",
+"slug": "van-der-corput-method-exponential-sums",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "van der Corput's Method for Exponential Sums"
+},
 "21.15.04": {
 "area": "math",
 "books": [
@@ -35369,6 +35497,32 @@
 "master"
 ],
 "title": "The Partition Function, Generating Functions, and the Pentagonal Number Theorem"
+},
+"21.16.02": {
+"area": "math",
+"books": [
+"apostol-analytic-nt"
+],
+"chapter": "partitions-circle-method",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.16.02",
+"prereqs": [
+"21.16.01",
+"21.15.01",
+"06.01.15"
+],
+"section": "number-theory",
+"slug": "hardy-ramanujan-rademacher-circle-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Hardy-Ramanujan-Rademacher Asymptotics via the Circle Method"
 },
 "22.01.01": {
 "area": "other",
