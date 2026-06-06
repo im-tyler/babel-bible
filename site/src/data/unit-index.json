@@ -4177,6 +4177,32 @@
 ],
 "title": "The Rellich-Kondrachov Compactness Theorem and the Poincar\u00e9 Inequalities"
 },
+"02.16.04": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "sobolev-weak-solutions",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.16.04",
+"prereqs": [
+"02.16.03",
+"02.11.08",
+"24.01.01"
+],
+"section": "analysis",
+"slug": "lax-milgram-weak-solutions-elliptic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lax-Milgram and Existence of Weak Solutions of Elliptic Boundary-Value Problems"
+},
 "02.17.02": {
 "area": "math",
 "books": [
@@ -4334,6 +4360,33 @@
 ],
 "title": "The Harnack Inequality for Elliptic Equations (Moser and Krylov-Safonov)"
 },
+"02.17.09": {
+"area": "math",
+"books": [
+"gilbarg-trudinger-elliptic"
+],
+"chapter": "elliptic-regularity",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.17.09",
+"prereqs": [
+"02.17.07",
+"02.17.08",
+"02.17.05",
+"02.11.05"
+],
+"section": "analysis",
+"slug": "quasilinear-elliptic-leray-schauder",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quasilinear Elliptic Equations: Gradient Estimates and Existence by Leray-Schauder"
+},
 "02.18.03": {
 "area": "math",
 "books": [
@@ -4358,6 +4411,32 @@
 "master"
 ],
 "title": "C0-Semigroups and the Hille-Yosida Theorem"
+},
+"02.18.04": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "parabolic-hyperbolic",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.18.04",
+"prereqs": [
+"02.16.03",
+"02.16.01",
+"09.02.02"
+],
+"section": "analysis",
+"slug": "direct-method-calculus-of-variations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Direct Method of the Calculus of Variations"
 },
 "02.19.01": {
 "area": "math",
@@ -4436,6 +4515,32 @@
 ],
 "title": "Calder\u00f3n-Zygmund Singular Integral Operators: Lp Boundedness"
 },
+"02.19.04": {
+"area": "math",
+"books": [
+"stein-singular-integrals"
+],
+"chapter": "calderon-zygmund-singular-integrals",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.19.04",
+"prereqs": [
+"02.19.03",
+"02.10.04",
+"02.10.01"
+],
+"section": "analysis",
+"slug": "riesz-transforms",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Riesz Transforms"
+},
 "02.19.05": {
 "area": "math",
 "books": [
@@ -4488,6 +4593,60 @@
 "master"
 ],
 "title": "BMO and the John-Nirenberg Inequality"
+},
+"02.20.02": {
+"area": "math",
+"books": [
+"stein-shakarchi-harmonic"
+],
+"chapter": "littlewood-paley-interpolation",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.20.02",
+"prereqs": [
+"02.20.01",
+"02.19.03",
+"02.07.06",
+"02.10.04"
+],
+"section": "analysis",
+"slug": "hardy-spaces-atomic-decomposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Real-Variable Hardy Spaces H^p and the Atomic Decomposition"
+},
+"02.20.03": {
+"area": "math",
+"books": [
+"stein-shakarchi-harmonic"
+],
+"chapter": "littlewood-paley-interpolation",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.20.03",
+"prereqs": [
+"02.19.03",
+"02.07.06",
+"02.10.04",
+"02.11.08"
+],
+"section": "analysis",
+"slug": "littlewood-paley-square-function",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Littlewood-Paley Theory and the Square Function"
 },
 "02.20.05": {
 "area": "math",
@@ -4567,6 +4726,32 @@
 "master"
 ],
 "title": "Strichartz Estimates via the TT* Method"
+},
+"02.21.03": {
+"area": "math",
+"books": [
+"tao-dispersive"
+],
+"chapter": "dispersive-strichartz",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.21.03",
+"prereqs": [
+"02.21.02",
+"02.16.01",
+"02.01.05"
+],
+"section": "analysis",
+"slug": "local-well-posedness-semilinear-strichartz",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Local Well-Posedness for Semilinear NLS/NLW via Strichartz Contraction"
 },
 "03.01.01": {
 "area": "math",

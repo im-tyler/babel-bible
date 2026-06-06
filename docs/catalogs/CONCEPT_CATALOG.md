@@ -14597,3 +14597,55 @@ Convolution operators Tf = p.v. K*f against a Calderón-Zygmund kernel (size |K|
 - **unit**: `02.17.08`
 - **prerequisites**: `pde.de-giorgi-nash-moser-holder-continuity`, `pde.alexandrov-bakelman-pucci-estimate`, `pde.laplace-equation-harmonic-functions`
 - **notes**: The Harnack inequality $\sup_{B_R}u\le C\inf_{B_R}u$ for non-negative weak/strong solutions, $C=C(n,\Lambda/\lambda)$ scale-invariant. Moser route (divergence form $-\operatorname{div}(A\,Du)=0$): local boundedness (sup half) by $L^p$ iteration plus the weak Harnack (inf half), where the John-Nirenberg/BMO lemma applied to $\log u$ ferries the bound across the singular exponent $p=0$ from positive to negative powers. Krylov-Safonov route (non-divergence $a^{ij}D_{ij}u=0$, no energy structure): ABP estimate run through a Calderon-Zygmund cube decomposition gives the growth/measure lemma (weak-$L^\varepsilon$ decay of super-level sets), paired with the local max principle for the Pucci extremal $\mathcal{M}^+$. Harnack implies oscillation decay $\operatorname{osc}_{B_R}\le\theta\,\operatorname{osc}_{B_{4R}}$, $\theta=(C-1)/(C+1)$, hence interior $C^{0,\alpha}$; and implies Liouville for general operators by sending $R\to\infty$ with scale-invariant $C$. Generalises harmonic Harnack (02.13.01) to bounded-measurable / non-divergence coefficients. Lean status none.
+
+
+### calderon-zygmund.riesz-transforms
+The Riesz transforms $R_jf = c_n\,\mathrm{p.v.}\int (x_j-y_j)|x-y|^{-n-1}f(y)\,dy$ with bounded homogeneous-degree-zero Fourier multiplier $-i\xi_j/|\xi|$; the vector $(R_1,\dots,R_n)$ as the $n$-dimensional Hilbert transform; $L^p$-boundedness ($1<p<\infty$) as a special case of the Calderon-Zygmund theory (02.19.03); the identity $\sum_j R_j^2=-I$; the second-order representation $\partial_i\partial_j=-R_iR_j\Delta$ giving the elliptic estimate $\|\partial_i\partial_j u\|_p\le C_p\|\Delta u\|_p$ (the singular-integral input to $W^{2,p}$ regularity); and the rotational-covariance characterization. Stein Ch. III. Lean status none.
+
+
+### analysis.lax-milgram-weak-solutions-elliptic
+
+- **title**: Lax-Milgram and Existence of Weak Solutions of Elliptic Boundary-Value Problems
+- **unit**: `02.16.04`
+- **prerequisites**: `analysis.rellich-kondrachov-poincare` (02.16.03), `02.11.08` (Hilbert space), `numerical-pde.sobolev-spaces-h-s-and-w-k-p` (24.01.01)
+- **notes**: stub — see unit `02.16.04`. The Lax-Milgram theorem: a bounded coercive (not necessarily symmetric) bilinear form $B$ on a real Hilbert space induces, via Riesz representation [02.11.08] plus a closed-range or Banach fixed-point/contraction argument, a unique solution of $B[u,v]=\langle f,v\rangle$ for every $f\in H^*$, with $\|u\|\le\beta^{-1}\|f\|$. Weak formulation of the divergence-form uniformly elliptic operator $Lu=-\partial_i(a^{ij}\partial_j u)+b^i\partial_i u+cu=f$ in $H^1_0(\Omega)$; boundedness from $L^\infty$ coefficients and Garding's inequality $B[u,u]\ge\beta\|u\|_{H^1_0}^2-\gamma\|u\|_{L^2}^2$ from uniform ellipticity, giving coercivity for $c$ large (or no drift, $c\ge0$). Existence and uniqueness of weak solutions; the Fredholm alternative for the shifted operator $L+\mu$ via the compact embedding $H^1_0\hookrightarrow\hookrightarrow L^2$ of [02.16.03], discreteness of the elliptic spectrum. Stampacchia variational inequalities, Babuska-Necas inf-sup, Galerkin/Cea quasi-optimality (the FEM foundation of [24.01.03]), and interior $H^2$ regularity by difference quotients. The general-operator existence theorem of which 24.01.03 treats the symmetric Poisson/FEM special case (Evans Ch. 6). Lean status none.
+
+
+### pde.quasilinear-elliptic-leray-schauder
+
+- **title**: Quasilinear Elliptic Equations: Gradient Estimates and Existence by Leray-Schauder
+- **unit**: `02.17.09`
+- **prerequisites**: `pde.de-giorgi-nash-moser-holder-continuity` (02.17.07), `pde.harnack-inequality-moser-krylov-safonov` (02.17.08), `pde.dirichlet-problem-method-of-continuity` (02.17.05), `02.11.05` (compact operators)
+- **notes**: stub - see unit `02.17.09`. Quasilinear divergence-form Qu = div A(x,u,Du) + B = 0 (model: minimal surface / prescribed mean curvature, p-Laplacian) with natural-growth structure conditions. The a priori chain: maximum-principle sup bound, boundary gradient bound by barriers, interior gradient bound by differentiating the equation and applying De Giorgi-Nash-Moser (02.17.07) local boundedness to w=|Du|^2, then Holder-gradient C^beta bound. Existence by the Leray-Schauder / Schaefer fixed-point theorem: freeze-and-fix compact solution operator T (linear Schauder solvability of 02.17.05 plus Arzela-Ascoli compactness C^{2,beta} -> C^{1,beta} of 02.11.05), reducing existence to the solution-uniform C^{1,beta} bound on the homotopy Q_sigma. Nonlinear lift of the linear method of continuity (02.17.05): degree replaces Neumann series, solution-uniform estimate replaces t-uniform Schauder estimate. Bombieri-De Giorgi-Miranda interior gradient estimate (oscillation only, no boundary slope), Bernstein theorem n<=7 / Simons cone n>=8, p-Laplacian C^{1,alpha} degeneracy, monotone-A uniqueness, Jenkins-Serrin boundary-curvature condition. The capstone synthesizing 02.17.04-08. GT secs 10-11, 13, 15. Lean status none: Mathlib lacks Schaefer alternative / Leray-Schauder degree, the Holder-Schauder layer, and any quasilinear divergence-structure / gradient-estimate API.
+
+
+### littlewood-paley-interpolation.hardy-spaces-atomic-decomposition
+
+- **title**: Real-Variable Hardy Spaces H^p and the Atomic Decomposition
+- **unit**: `02.20.02`
+- **prerequisites**: `02.20.01` (BMO, John-Nirenberg), `02.19.03` (Calderón-Zygmund operators L^p), `02.07.06` (L^p spaces), `02.10.04` (Fourier transform, Plancherel)
+- **notes**: stub - see unit `02.20.02`. Real Hardy space $H^p(\mathbb{R}^n)$, $0<p\le 1$: grand/non-tangential/radial maximal-function definition $\mathcal{M}_N f$, the $(p,q)$-atom (support in $Q$, size $\|a\|_{L^q}\le|Q|^{1/q-1/p}$, vanishing moments $\int a\,x^\alpha=0$ for $|\alpha|\le\lfloor n(1/p-1)\rfloor$), and the atomic decomposition $f=\sum_j\lambda_j a_j$ with $\|f\|_{H^p}^p\approx\inf\sum_j|\lambda_j|^p$ via Calderón-Zygmund stopping-time selection on the maximal-function level sets (Coifman-Latter). Equivalence of maximal/atomic/Riesz-transform characterizations (Fefferman-Stein); $H^1\subsetneq L^1$ with $\int f=0$ necessary; $H^1$ as the substitute for $L^1$ on which Calderón-Zygmund operators are bounded ($T:H^1\to L^1$, $H^p\to H^p$); the Fefferman duality $(H^1)^*=\mathrm{BMO}$ (pairing $\int a(\varphi-\varphi_Q)$ converges by John-Nirenberg); $H^p=L^p$ for $p>1$; Coifman-Weiss spaces of homogeneous type. Stein-Shakarchi harmonic. Lean status none.
+
+
+### dispersive.local-well-posedness-semilinear-strichartz
+
+- **title**: Local Well-Posedness for Semilinear NLS/NLW via Strichartz Contraction
+- **unit**: `02.21.03`
+- **prerequisites**: `02.21.02` (Strichartz estimates via TT*), `02.16.01` (Sobolev inequalities, Gagliardo-Nirenberg), `02.01.05` (metric space, Banach contraction)
+- **notes**: stub - see unit `02.21.03`. The semilinear Schrodinger iu_t+Du=mu|u|^(p-1)u and semilinear wave equations; the scaling-critical Sobolev exponent s_c = n/2 - 2/(p-1) and the subcritical/critical/supercritical trichotomy; Duhamel's formula as a fixed point; local well-posedness by the Banach contraction mapping principle in a Strichartz solution space (H^s subcritical via a positive time-factor T^theta, H^{s_c} critical small-data via Cazenave-Weissler); the homogeneous and retarded Strichartz estimates (02.21.02) plus the fractional-Leibniz/Moser product estimate on the Sobolev scale (02.16.01) that close the contraction; persistence of regularity, the blowup/continuation criterion, and Lipschitz continuous dependence (the full Hadamard well-posedness package). Supercritical ill-posedness sharpness; NLW parallel with the (n-1)/2 dispersive shift. Tao Ch. 3. Lean status none: Mathlib has the Banach fixed point and L^p/Sobolev API but no propagator, Duhamel map, mixed space-time Bochner norms, Strichartz estimate, or fractional-Leibniz product estimate.
+
+
+### pde.direct-method-calculus-of-variations
+
+- **title**: The Direct Method of the Calculus of Variations
+- **unit**: `02.18.04`
+- **prerequisites**: `02.16.03` (Rellich-Kondrachov compactness, Poincaré), `02.16.01` (Sobolev inequalities), `09.02.02` (classical Euler-Lagrange)
+- **notes**: stub - see unit `02.18.04`. Existence of minimizers of the variational integral $I[u]=\int_\Omega L(Du,u,x)\,dx$ over $W^{1,q}(\Omega)$ by the direct method: coercivity ($L\ge\alpha|p|^q-\beta$) plus reflexivity gives a weakly convergent minimizing sequence, and weak lower semicontinuity identifies the weak limit as a minimizer (Tonelli's theorem). Convexity of $p\mapsto L(p,z,x)$ is the exact criterion for weak lower semicontinuity in the scalar case (necessary and sufficient via the oscillating-laminate converse). The Euler-Lagrange equation $-\operatorname{div}D_pL+D_zL=0$ read as the vanishing first variation (weak PDE satisfied by the minimizer); uniqueness under strict convexity. Vectorial case ($u:\Omega\to\mathbb{R}^m$, $m,n\ge2$): Morrey quasiconvexity replaces convexity (convex $\Rightarrow$ polyconvex $\Rightarrow$ quasiconvex $\Rightarrow$ rank-one convex, all strict), with $\det$ a non-convex null Lagrangian; Ball's polyconvexity and nonlinear elasticity; relaxation by the convex/quasiconvex envelope; Hilbert's 19th/20th problems and the scalar/vectorial regularity divide. Distinct from the classical Euler-Lagrange ODE derivation `09.02.02`. Evans Ch. 8. Lean status none.
+
+
+### littlewood-paley-interpolation.littlewood-paley-square-function
+
+- **title**: Littlewood-Paley Theory and the Square Function
+- **unit**: `02.20.03`
+- **prerequisites**: `02.19.03` (Calderon-Zygmund singular integral operators, L^p), `02.07.06` (L^p spaces), `02.10.04` (Fourier transform, Plancherel), `02.11.08` (Hilbert space)
+- **notes**: stub - see unit `02.20.03`. Smooth dyadic frequency decomposition $f=\sum_j\Delta_j f$ via annular Littlewood-Paley projections; the square function $Sf=(\sum_j|\Delta_j f|^2)^{1/2}$ and the theorem $\|f\|_p\sim\|Sf\|_p$ for $1<p<\infty$, proved by viewing $(\Delta_j)_j$ as an $\ell^2$-valued Calderon-Zygmund operator (vector-valued [02.19.03]), lower bound by duality via the reproducing identity $\sum_j\widetilde\Delta_j\Delta_j=I$; the Khintchine/Rademacher randomization route reducing $S$ to a uniform average of Mikhlin multipliers $T_\varepsilon=\sum_j\varepsilon_j\Delta_j$; the Stein $g$-function $g(f)=(\int_0^\infty|t\partial_t P_t f|^2,\,dt/t)^{1/2}$ from the Poisson semigroup with $\|g(f)\|_p\sim\|f\|_p$; the Lusin area integral $S_\alpha$; applications to Marcinkiewicz/Hormander-Mikhlin multipliers, Besov-Triebel-Lizorkin spaces ($L^p=\dot F^0_{p,2}$), and the Carleson-measure/BMO endpoint. Stein-Shakarchi harmonic. Lean status none.
