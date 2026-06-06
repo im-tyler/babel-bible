@@ -45470,6 +45470,54 @@
 ],
 "title": "Categories, Functors, and the Duality Principle"
 },
+"41.01.02": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "categories-functors-natural-transformations",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.01.02",
+"prereqs": [
+"41.01.01"
+],
+"section": "category-theory",
+"slug": "natural-transformations-functor-categories-equivalence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Natural Transformations, Functor Categories, and Equivalence of Categories"
+},
+"41.02.01": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "limits-colimits",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.02.01",
+"prereqs": [
+"41.01.01"
+],
+"section": "category-theory",
+"slug": "limits-colimits-universal-cones",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Limits and Colimits as Universal Cones"
+},
 "42.01.01": {
 "area": "math",
 "books": [
@@ -45491,6 +45539,30 @@
 "master"
 ],
 "title": "Propositional Logic as a Formal System"
+},
+"42.01.02": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.02",
+"prereqs": [
+"42.01.01"
+],
+"section": "mathematical-logic",
+"slug": "propositional-compactness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Compactness Theorem for Propositional Logic"
 },
 "42.01.03": {
 "area": "math",
@@ -45514,6 +45586,30 @@
 ],
 "title": "First-Order Languages: Syntax and Unique Readability"
 },
+"42.01.04": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.04",
+"prereqs": [
+"42.01.03"
+],
+"section": "mathematical-logic",
+"slug": "structures-tarski-semantics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Structures and Tarski's Definition of Truth"
+},
 "42.03.01": {
 "area": "math",
 "books": [
@@ -45536,6 +45632,30 @@
 ],
 "title": "The ZFC Axioms and the Cumulative Hierarchy"
 },
+"42.03.02": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.02",
+"prereqs": [
+"42.03.01"
+],
+"section": "mathematical-logic",
+"slug": "ordinals-transfinite-induction-recursion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ordinals, Transfinite Induction, and Recursion"
+},
 "42.04.01": {
 "area": "math",
 "books": [
@@ -45557,5 +45677,29 @@
 "master"
 ],
 "title": "Models of Computation and the Church-Turing Thesis"
+},
+"42.04.02": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.02",
+"prereqs": [
+"42.04.01"
+],
+"section": "mathematical-logic",
+"slug": "halting-problem-undecidability-recursion-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Halting Problem, Undecidability, and the Recursion Theorem"
 }
 }
