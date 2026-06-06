@@ -32,4 +32,13 @@ analytic version), functional analysis 02.11.*. Peers: 02.11.03/08, 01.01.13, 03
 - WAVE 7 (L6-L7): 39.04.04, 39.05.05, 39.05.07, 39.05.08, 39.06.06, 39.07.02, 39.05.09
 
 ## Status
-- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [x] COMPLETENESS (loop-until-dry)
+
+## Completeness pass (2026-06-06)
+Re-audited all 4 source books against the 33 shipped units. Davidson (39.01/02), Takesaki
+(39.03/04), and Connes (39.06/07): DRY — every checklist topic substantively present
+(Jones index, group-measure-space, KK-theory, Baum-Connes judged Tier-B follow-ons, not
+essential gaps). Brown-Ozawa (39.05): one firm gap closed → **39.05.10 Exact Groups,
+Amenable Actions, and Property A** (Ozawa's theorem; was only one-line previews in
+39.05.05/.07). Borderline 39.05.11 (amenable traces) deliberately skipped — already
+partly covered in 39.05.09, below the essential bar. Spine total: 34 units.

@@ -75,18 +75,18 @@ NEW section `content/38-dynamics` (`dynamics`) → full SETUP (§2a 1-7); prefix
 - [x] COMPLETENESS: 2 rounds. R1 Walters/Brin-Stuck DRY, K-H +1 (38.07.04 Livšic); R2 fully DRY
 - TOTAL: 24 units (23 produce + 1 completeness). dynamics lens core=24. Ergodic theorems reused from 37.02.03 (not re-proposed).
 
-## Spine 5 — Operator Algebras & Noncommutative Geometry  ·  `operator-algebras`  ·  STATUS: not started
+## Spine 5 — Operator Algebras & Noncommutative Geometry  ·  `operator-algebras`  ·  STATUS: COMPLETE (34 units, loop-until-dry converged 2026-06-06)
 NEW section `content/39-operator-algebras` → full SETUP (§2a 1-7); prefix `39`. Extends index theory / K-theory.
 **Chapter skeleton:** `01-c-star-algebras-basics · 02-af-algebras-k-theory · 03-von-neumann-algebras ·
 04-tomita-takesaki-modular · 05-nuclearity-exactness · 06-spectral-triples-ncg · 07-cyclic-cohomology`.
 
-- [ ] SETUP: register `operator-algebras` section/field/lens + prefix 39 + chapter skeleton (§2a 1-7); smoke-test
-- [ ] AUDIT: Davidson — *C*-algebras by Example* (concrete C*-algebra theory, AF algebras)
-- [ ] AUDIT: Takesaki — *Theory of Operator Algebras I* (von Neumann algebras, Tomita-Takesaki)
-- [ ] AUDIT: Brown-Ozawa — *C*-algebras and Finite-Dimensional Approximations* (nuclearity, exactness)
-- [ ] AUDIT: Connes — *Noncommutative Geometry* (spectral triples, cyclic cohomology)
-- [ ] PRODUCE: gaps → integrate → commit → build_lenses
-- [ ] COMPLETENESS: re-audit all 4 books vs the grown corpus; loop-until-dry (0 new gaps); log
+- [x] SETUP: register `operator-algebras` section/field/lens + prefix 39 + chapter skeleton (§2a 1-7); smoke-test
+- [x] AUDIT: Davidson — *C*-algebras by Example* (concrete C*-algebra theory, AF algebras)
+- [x] AUDIT: Takesaki — *Theory of Operator Algebras I* (von Neumann algebras, Tomita-Takesaki)
+- [x] AUDIT: Brown-Ozawa — *C*-algebras and Finite-Dimensional Approximations* (nuclearity, exactness)
+- [x] AUDIT: Connes — *Noncommutative Geometry* (spectral triples, cyclic cohomology)
+- [x] PRODUCE: 33 units, 7 dependency waves → integrate → commit → build_lenses
+- [x] COMPLETENESS: re-audited all 4 books; 3 DRY, 1 firm gap closed (39.05.10 exact groups/property A); converged at 34 units
 
 ## Spine 6 — Combinatorics & Graph Theory  ·  `combinatorics`  ·  STATUS: not started
 NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. Near-zero currently.
@@ -140,6 +140,7 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-06 — Spine 5 (operator-algebras) COMPLETE: 34 units, NEW section 39 (7 chapters: c-star-basics/af-k-theory/von-neumann/tomita-takesaki/nuclearity-exactness/spectral-triples-ncg/cyclic-cohomology). Davidson/Takesaki/Brown-Ozawa/Connes. 7 dependency waves + 1 completeness round (Davidson/Takesaki/Connes DRY; Brown-Ozawa one gap → 39.05.10 exact groups/property A; 39.05.11 amenable traces skipped as below-bar). Operator K-theory kept distinct from topological K-theory 03.08; analytic cyclic cohomology cross-refs algebraic 04.03.22; local index formula cross-refs Atiyah-Singer 03.09.10. math area +34. Next: Spine 6 (combinatorics, NEW section 40).
 - 2026-06-05 — Spine 4 (dynamics) COMPLETE: 24 units, NEW section 38 (7 chapters: topological/symbolic/hyperbolicity/ergodic/mixing-spectral/entropy/smooth-ergodic). Katok-Hasselblatt/Walters/Brin-Stuck. 4 produce waves + 2 completeness rounds (K-H +Livšic, then DRY). Ergodic theorems reused from 37.02.03. math area +24. Next: Spine 5 (operator-algebras, NEW section 39).
 - 2026-06-05 — Spine 3 (analytic-nt) COMPLETE: 26 units extending 21-number-theory (chapters 11-16). Davenport/Montgomery-Vaughan/Iwaniec-Kowalski/Apostol. 5 produce waves + 1 completeness round (all 4 books DRY immediately). Analytic proofs (PNT contour, zero-free regions, large sieve, exponential sums, circle method) were the gaps vs the existing algebraic 21.03 L-functions. math area +26. Next: Spine 4 (dynamics, NEW section 38).
 - 2026-06-05 — Spine 2 (pde-harmonic) COMPLETE: 37 units extending 02-analysis (chapters 16-21 + classical 02.13.06). Evans/GT/Stein/Stein-Shakarchi/Tao. 6 produce waves + 2 completeness rounds (converged). math area +37. Next: Spine 3 (analytic-nt, EXTENDS 21-number-theory).

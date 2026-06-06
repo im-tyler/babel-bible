@@ -11573,6 +11573,12 @@
 ],
 "curriculum": "operator-algebras"
 },
+"39.05.10": {
+"books": [
+"brown-ozawa-nuclearity"
+],
+"curriculum": "operator-algebras"
+},
 "39.06.01": {
 "books": [
 "connes-ncg"

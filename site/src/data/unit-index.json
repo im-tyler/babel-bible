@@ -43811,6 +43811,31 @@
 ],
 "title": "Group Approximation Properties and the Connes Embedding Problem"
 },
+"39.05.10": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.10",
+"prereqs": [
+"39.05.05",
+"39.05.07"
+],
+"section": "operator-algebras",
+"slug": "exact-groups-amenable-actions-property-a",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Exact Groups, Amenable Actions, and Property A"
+},
 "39.06.01": {
 "area": "math",
 "books": [
