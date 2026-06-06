@@ -51,7 +51,7 @@ dispersive-strichartz`. SETUP here = just create these chapter dirs.
 - [x] COMPLETENESS: 2 rounds. R1 GT/Stein/Stein-Shakarchi/Tao DRY, Evans +1 (02.13.06 Cauchy-Kovalevskaya/Holmgren); R2 fully DRY
 - TOTAL: 37 units (36 produce + 1 completeness). chapters 02.16-02.21 + 02.13.06. math area +37.
 
-## Spine 3 — Analytic Number Theory  ·  `analytic-nt`  ·  STATUS: not started
+## Spine 3 — Analytic Number Theory  ·  `analytic-nt`  ·  STATUS: COMPLETE (26 units, loop-until-dry converged 2026-06-05)
 EXTEND `content/21-number-theory` (new chapters; NO new section/prefix — skip SETUP 2-5).
 Field `number-theory`. ⚠️ Verify the section number: `content/21-number-theory` — confirm `21`
 is its real prefix before assigning ids (`ls content | grep number-theory`). Orthogonal methods
@@ -59,12 +59,10 @@ is its real prefix before assigning ids (`ls content | grep number-theory`). Ort
 **New chapter skeleton:** `dirichlet-series-arithmetic-functions · prime-number-theorem ·
 dirichlet-l-functions-characters · sieve-methods-large-sieve · exponential-sums · partitions-circle-method`.
 
-- [ ] AUDIT: Davenport — *Multiplicative Number Theory* (PNT, Dirichlet L-functions, zero-free regions)
-- [ ] AUDIT: Montgomery-Vaughan — *Multiplicative Number Theory I* (sieves, large sieve, mean values)
-- [ ] AUDIT: Iwaniec-Kowalski — *Analytic Number Theory* (the modern toolbox; automorphic L-functions)
-- [ ] AUDIT: Apostol — *Introduction to Analytic Number Theory* (arithmetic functions, Dirichlet series, partitions)
-- [ ] PRODUCE: gaps → integrate → commit → build_lenses
-- [ ] COMPLETENESS: re-audit all 4 books vs the grown corpus; loop-until-dry (0 new gaps); log
+- [x] AUDIT: Davenport (9 gaps) · Montgomery-Vaughan (6) · Iwaniec-Kowalski (8) · Apostol (5) — see _audit/*.gaps.md
+- [x] PRODUCE: collision-checked → 26 units across chapters 21.11-21.16 (see analytic-nt/PRODUCTION_PLAN.md), 5 waves, all 27/27
+- [x] COMPLETENESS: 1 round, all 4 books DRY (0 new gaps) — converged immediately
+- TOTAL: 26 units. chapters 21.11-21.16. math area +26. (audited against existing 21.03 L-functions — analytic proofs were the gaps)
 
 ## Spine 4 — Dynamical Systems & Ergodic Theory  ·  `dynamics`  ·  STATUS: not started
 NEW section `content/38-dynamics` (`dynamics`) → full SETUP (§2a 1-7); prefix `38`. Extends `02.12-ode`.
@@ -143,5 +141,6 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-05 — Spine 3 (analytic-nt) COMPLETE: 26 units extending 21-number-theory (chapters 11-16). Davenport/Montgomery-Vaughan/Iwaniec-Kowalski/Apostol. 5 produce waves + 1 completeness round (all 4 books DRY immediately). Analytic proofs (PNT contour, zero-free regions, large sieve, exponential sums, circle method) were the gaps vs the existing algebraic 21.03 L-functions. math area +26. Next: Spine 4 (dynamics, NEW section 38).
 - 2026-06-05 — Spine 2 (pde-harmonic) COMPLETE: 37 units extending 02-analysis (chapters 16-21 + classical 02.13.06). Evans/GT/Stein/Stein-Shakarchi/Tao. 6 produce waves + 2 completeness rounds (converged). math area +37. Next: Spine 3 (analytic-nt, EXTENDS 21-number-theory).
 - 2026-06-05 — Spine 1 (probability) COMPLETE: section 37 SETUP + 46 units across 6 produce waves + 2 completeness rounds (loop-until-dry converged). probability lens core 5→51, math area +46, 0 dangling. Next: Spine 2 (pde-harmonic, EXTENDS 02-analysis).
