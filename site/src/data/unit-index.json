@@ -43206,6 +43206,58 @@
 ],
 "title": "C*-Algebras: Axioms, Spectrum, and the Continuous Functional Calculus"
 },
+"39.01.02": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "c-star-algebras-basics",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.01.02",
+"prereqs": [
+"39.01.01",
+"02.01.05",
+"02.11.04"
+],
+"section": "operator-algebras",
+"slug": "commutative-c-star-gelfand-duality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Commutative C*-Algebras and Gelfand Duality"
+},
+"39.03.01": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "von-neumann-algebras",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.03.01",
+"prereqs": [
+"39.01.01",
+"02.11.08",
+"02.11.01"
+],
+"section": "operator-algebras",
+"slug": "von-neumann-algebras-bicommutant-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Von Neumann Algebras and the Bicommutant Theorem"
+},
 "39.05.06": {
 "area": "math",
 "books": [
@@ -43230,5 +43282,31 @@
 "master"
 ],
 "title": "Amenable Groups: Invariant Means, the F\u00f8lner Condition, and Paradoxical Decompositions"
+},
+"39.06.01": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "spectral-triples-ncg",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.06.01",
+"prereqs": [
+"39.01.01",
+"03.09.08",
+"02.11.03"
+],
+"section": "operator-algebras",
+"slug": "spectral-triples-reconstruction-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Spectral Triples and the Reconstruction Theorem"
 }
 }
