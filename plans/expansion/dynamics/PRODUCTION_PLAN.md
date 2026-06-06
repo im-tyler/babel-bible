@@ -54,4 +54,4 @@ never re-proposed. Prereqs: 02.12-ode, 02.01-topology, 02.07-measure, 02.11-func
 - WAVE 4: 38.01.05, 38.02.03, 38.05.02, 38.03.02, 38.03.04, 38.06.01, 38.07.03, 38.06.04(→38.06.01 Conn)
 
 ## Status
-- [x] W1  [ ] W2  [ ] W3  [ ] W4  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [ ] W3  [ ] W4  [ ] COMPLETENESS (loop-until-dry)

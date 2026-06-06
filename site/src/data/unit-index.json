@@ -42591,6 +42591,83 @@
 ],
 "title": "Dynamical Systems, Orbits, and Limit Sets"
 },
+"38.01.02": {
+"area": "math",
+"books": [
+"brin-stuck"
+],
+"chapter": "topological-dynamics",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.01.02",
+"prereqs": [
+"38.01.01",
+"02.01.05"
+],
+"section": "dynamics",
+"slug": "minimality-recurrence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Minimality and Recurrence"
+},
+"38.02.01": {
+"area": "math",
+"books": [
+"brin-stuck"
+],
+"chapter": "symbolic-dynamics",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.02.01",
+"prereqs": [
+"38.01.01",
+"02.01.05",
+"02.01.01"
+],
+"section": "dynamics",
+"slug": "shift-spaces-subshifts",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Shift Spaces and Subshifts"
+},
+"38.03.01": {
+"area": "math",
+"books": [
+"katok-hasselblatt"
+],
+"chapter": "hyperbolicity-structural-stability",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.03.01",
+"prereqs": [
+"38.01.01",
+"02.12.02",
+"02.12.08"
+],
+"section": "dynamics",
+"slug": "hyperbolic-sets-anosov-axiom-a-smale-decomposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hyperbolic Sets, Anosov and Axiom-A Systems, and the Smale Spectral Decomposition"
+},
 "38.04.01": {
 "area": "math",
 "books": [
@@ -42616,5 +42693,83 @@
 "master"
 ],
 "title": "Measure-Preserving Systems, Poincar\u00e9 Recurrence, and the Kac Formula"
+},
+"38.04.02": {
+"area": "math",
+"books": [
+"walters-ergodic"
+],
+"chapter": "ergodic-theorems",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.04.02",
+"prereqs": [
+"38.04.01",
+"37.02.03",
+"21.15.02"
+],
+"section": "dynamics",
+"slug": "ergodicity-unique-ergodicity-equidistribution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ergodicity, Unique Ergodicity, and Equidistribution"
+},
+"38.06.02": {
+"area": "math",
+"books": [
+"walters-ergodic"
+],
+"chapter": "entropy",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.06.02",
+"prereqs": [
+"38.04.01",
+"37.02.03",
+"02.07.06"
+],
+"section": "dynamics",
+"slug": "kolmogorov-sinai-entropy-generator-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kolmogorov-Sinai Entropy and the Generator Theorem"
+},
+"38.07.01": {
+"area": "math",
+"books": [
+"katok-hasselblatt"
+],
+"chapter": "smooth-ergodic-theory",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.07.01",
+"prereqs": [
+"38.04.01",
+"37.02.03",
+"02.12.08"
+],
+"section": "dynamics",
+"slug": "oseledets-multiplicative-ergodic-theorem-lyapunov-exponents",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Oseledets Multiplicative Ergodic Theorem and Lyapunov Exponents"
 }
 }
