@@ -3746,6 +3746,32 @@
 ],
 "title": "Whitney deformation theorem"
 },
+"02.13.06": {
+"area": "math",
+"books": [
+"evans-pde"
+],
+"chapter": "pde",
+"curriculum": "pde-harmonic",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.13.06",
+"prereqs": [
+"02.05.04",
+"02.13.04",
+"02.14.04"
+],
+"section": "analysis",
+"slug": "cauchy-kovalevskaya-holmgren-uniqueness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Cauchy-Kovalevskaya Theorem and Holmgren Uniqueness"
+},
 "02.13.07": {
 "area": "math",
 "books": [

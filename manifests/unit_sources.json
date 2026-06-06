@@ -994,6 +994,12 @@
 ],
 "curriculum": "fast-track"
 },
+"02.13.06": {
+"books": [
+"evans-pde"
+],
+"curriculum": "pde-harmonic"
+},
 "02.13.07": {
 "books": [
 "whitney-geometric-integration-theory",
