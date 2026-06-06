@@ -1594,6 +1594,33 @@
 "dangling_prereqs": []
 },
 {
+"id": "logic-foundations",
+"label": "Foundations, Logic & Category Theory",
+"description": "Mathematical logic and the foundations of mathematics: first-order logic and completeness, model theory, set theory and forcing, computability and the degrees, and category theory (limits, adjunctions, Yoneda, monads, Kan extensions). Prerequisites are pulled in automatically so the result is always a complete, learnable path.",
+"group_by": "field",
+"core": [
+"24.01.01",
+"24.02.01",
+"24.03.01",
+"24.04.01",
+"24.05.01",
+"24.06.01",
+"24.07.01",
+"24.08.01",
+"25.01.01",
+"25.02.01",
+"25.03.01",
+"25.04.01"
+],
+"supporting": [],
+"counts": {
+"core": 12,
+"supporting": 0,
+"total": 12
+},
+"dangling_prereqs": []
+},
+{
 "id": "operator-algebras",
 "label": "Operator Algebras & NCG",
 "description": "C*-algebras and von Neumann algebras, K-theory and AF algebras, Tomita-Takesaki modular theory, nuclearity and exactness, and Connes' noncommutative geometry (spectral triples, cyclic cohomology). Prerequisites are pulled in automatically so the result is always a complete, learnable path.",

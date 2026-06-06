@@ -80,6 +80,7 @@ export const SECTIONS: SectionInfo[] = [
   { key: "riemann-surfaces",      order: 6,    label: "Riemann surfaces",                 anchor: "riemann-surfaces",      domain: "mathematics" },
   { key: "representation-theory", order: 7,    label: "Representation theory",            anchor: "representation-theory", domain: "mathematics" },
   { key: "logic",                 order: 7.5,  label: "Logic",                            anchor: "logic",                 domain: "mathematics" },
+  { key: "category-theory",       order: 7.6,  label: "Category theory",                  anchor: "category-theory",       domain: "mathematics" },
   { key: "statistics",            order: 7.8,  label: "Statistics",                       anchor: "statistics",            domain: "mathematics" },
   { key: "numerical-pde",         order: 8,    label: "Numerical analysis & PDE",         anchor: "numerical-pde",         domain: "mathematics" },
   { key: "dynamics",              order: 8.2,  label: "Dynamical systems & ergodic theory", anchor: "dynamics",            domain: "mathematics" },

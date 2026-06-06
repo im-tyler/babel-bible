@@ -113,7 +113,7 @@ Category theory currently has only the single `01.02.09` unit — audit against 
 03-adjunctions · 04-yoneda-representability · 05-monads-algebras · 06-kan-extensions`.
 **25-logic new chapters:** `first-order-logic-completeness · model-theory · set-theory-forcing · computability-degrees`.
 
-- [ ] SETUP: `41-category-theory` section/field/lens + prefix 41 + both chapter skeletons (§2a 1-7); smoke-test
+- [x] SETUP: `41-category-theory` section/field/lens + prefix 41 + both chapter skeletons (§2a 1-7); smoke-test
 - [ ] AUDIT: Enderton — *A Mathematical Introduction to Logic* (first-order logic, completeness, compactness, incompleteness)
 - [ ] AUDIT: Marker — *Model Theory: An Introduction* (types, saturation, quantifier elimination, Morley)
 - [ ] AUDIT: Kunen — *Set Theory* (ZFC, ordinals/cardinals, forcing, independence)
