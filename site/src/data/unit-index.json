@@ -43232,6 +43232,32 @@
 ],
 "title": "Commutative C*-Algebras and Gelfand Duality"
 },
+"39.01.03": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "c-star-algebras-basics",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.01.03",
+"prereqs": [
+"39.01.01",
+"39.01.02",
+"02.11.08"
+],
+"section": "operator-algebras",
+"slug": "states-gns-gelfand-naimark",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "States, the GNS Construction, and the Gelfand-Naimark Representation Theorem"
+},
 "39.03.01": {
 "area": "math",
 "books": [
@@ -43257,6 +43283,57 @@
 "master"
 ],
 "title": "Von Neumann Algebras and the Bicommutant Theorem"
+},
+"39.03.02": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "von-neumann-algebras",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.03.02",
+"prereqs": [
+"39.03.01",
+"02.11.08",
+"02.11.04"
+],
+"section": "operator-algebras",
+"slug": "predual-normal-states-sigma-weak-topology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Predual, Normal States, and the \u03c3-Weak Topology"
+},
+"39.03.03": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "von-neumann-algebras",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.03.03",
+"prereqs": [
+"39.03.01",
+"39.01.01"
+],
+"section": "operator-algebras",
+"slug": "kaplansky-density-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Kaplansky Density Theorem"
 },
 "39.05.06": {
 "area": "math",
@@ -43308,5 +43385,55 @@
 "master"
 ],
 "title": "Spectral Triples and the Reconstruction Theorem"
+},
+"39.06.02": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "spectral-triples-ncg",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.06.02",
+"prereqs": [
+"39.06.01",
+"39.01.02"
+],
+"section": "operator-algebras",
+"slug": "connes-distance-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Connes Distance Formula"
+},
+"39.06.05": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "spectral-triples-ncg",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.06.05",
+"prereqs": [
+"39.06.01",
+"02.11.05"
+],
+"section": "operator-algebras",
+"slug": "dixmier-trace-noncommutative-integral",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Dixmier Trace and the Noncommutative Integral"
 }
 }

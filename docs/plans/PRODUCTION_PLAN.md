@@ -1,10 +1,10 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-06-06T05:05:08.335561+00:00_
+_Generated: 2026-06-06T05:13:50.036152+00:00_
 
 ## Burn-down
 
-- Units shipped: **1640**
+- Units shipped: **1645**
 - Units queued (gap units from audits): **0**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**

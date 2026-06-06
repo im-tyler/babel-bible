@@ -11435,7 +11435,25 @@
 ],
 "curriculum": "operator-algebras"
 },
+"39.01.03": {
+"books": [
+"davidson-cstar"
+],
+"curriculum": "operator-algebras"
+},
 "39.03.01": {
+"books": [
+"takesaki-von-neumann"
+],
+"curriculum": "operator-algebras"
+},
+"39.03.02": {
+"books": [
+"takesaki-von-neumann"
+],
+"curriculum": "operator-algebras"
+},
+"39.03.03": {
 "books": [
 "takesaki-von-neumann"
 ],
@@ -11448,6 +11466,18 @@
 "curriculum": "operator-algebras"
 },
 "39.06.01": {
+"books": [
+"connes-ncg"
+],
+"curriculum": "operator-algebras"
+},
+"39.06.02": {
+"books": [
+"connes-ncg"
+],
+"curriculum": "operator-algebras"
+},
+"39.06.05": {
 "books": [
 "connes-ncg"
 ],
