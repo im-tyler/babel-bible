@@ -11633,9 +11633,57 @@
 ],
 "curriculum": "combinatorics"
 },
+"40.01.02": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.01.03": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.02.01": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
 "40.04.01": {
 "books": [
 "diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.02": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.04": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.05": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.04.06": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.06.01": {
+"books": [
+"van-lint-wilson"
 ],
 "curriculum": "combinatorics"
 },
@@ -11646,6 +11694,12 @@
 "curriculum": "combinatorics"
 },
 "40.06.06": {
+"books": [
+"van-lint-wilson"
+],
+"curriculum": "combinatorics"
+},
+"40.06.07": {
 "books": [
 "van-lint-wilson"
 ],

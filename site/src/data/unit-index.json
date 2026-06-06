@@ -44060,6 +44060,78 @@
 ],
 "title": "Basic Counting and the Twelvefold Way"
 },
+"40.01.02": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.02",
+"prereqs": [
+"40.01.01"
+],
+"section": "combinatorics",
+"slug": "inclusion-exclusion-sieve",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Inclusion-Exclusion and the Sieve"
+},
+"40.01.03": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.03",
+"prereqs": [
+"40.01.01"
+],
+"section": "combinatorics",
+"slug": "generating-functions-ordinary-exponential",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Generating Functions: Ordinary, Exponential, and the Exponential Formula"
+},
+"40.02.01": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "posets-lattices",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.02.01",
+"prereqs": [
+"40.01.01"
+],
+"section": "combinatorics",
+"slug": "posets-lattices-birkhoff",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Posets, Lattices, and Birkhoff's Representation Theorem"
+},
 "40.04.01": {
 "area": "math",
 "books": [
@@ -44081,6 +44153,124 @@
 "master"
 ],
 "title": "Graphs, Basic Invariants, and the Foundational Lemmas"
+},
+"40.04.02": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.02",
+"prereqs": [
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "matchings-konig-hall",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Matchings I: K\u00f6nig's Theorem and Hall's Marriage Theorem"
+},
+"40.04.04": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.04",
+"prereqs": [
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "connectivity-menger",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Connectivity and Menger's Theorem"
+},
+"40.04.05": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.05",
+"prereqs": [
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "planar-graphs-euler-kuratowski-wagner",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Planar Graphs: Euler's Formula, Kuratowski's and Wagner's Theorems"
+},
+"40.04.06": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.06",
+"prereqs": [
+"40.04.01"
+],
+"section": "combinatorics",
+"slug": "vertex-colouring-brooks-chromatic-polynomial",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vertex Colouring: Brooks' Theorem and the Chromatic Polynomial"
+},
+"40.06.01": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.01",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "bibd-fisher-inequality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Balanced Incomplete Block Designs and Fisher's Inequality"
 },
 "40.06.05": {
 "area": "math",
@@ -44125,6 +44315,30 @@
 "master"
 ],
 "title": "Linear Codes and the Hamming, Singleton, and Gilbert-Varshamov Bounds"
+},
+"40.06.07": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.07",
+"prereqs": [
+"40.06.06"
+],
+"section": "combinatorics",
+"slug": "perfect-codes-hamming-golay",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Perfect Codes: the Hamming and Golay Codes"
 },
 "40.06.10": {
 "area": "math",
