@@ -43309,6 +43309,31 @@
 ],
 "title": "AF Algebras, Bratteli Diagrams, and the Irrational Rotation Algebra"
 },
+"39.02.02": {
+"area": "math",
+"books": [
+"davidson-cstar"
+],
+"chapter": "af-algebras-k-theory",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.02.02",
+"prereqs": [
+"39.02.01",
+"39.01.01"
+],
+"section": "operator-algebras",
+"slug": "operator-k-theory-k0-k1",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Operator K-Theory: K_0 and K_1 of C*-Algebras"
+},
 "39.03.01": {
 "area": "math",
 "books": [
@@ -43411,6 +43436,31 @@
 ],
 "title": "Comparison of Projections and the Murray-von Neumann Type Classification"
 },
+"39.03.05": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "von-neumann-algebras",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.03.05",
+"prereqs": [
+"39.03.04",
+"39.03.02"
+],
+"section": "operator-algebras",
+"slug": "traces-continuous-dimension-ii1-factor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Traces, Continuous Dimension, and the II_1 Factor"
+},
 "39.04.01": {
 "area": "math",
 "books": [
@@ -43436,6 +43486,31 @@
 ],
 "title": "Cyclic and Separating Vectors and the Standard Form"
 },
+"39.04.02": {
+"area": "math",
+"books": [
+"takesaki-von-neumann"
+],
+"chapter": "tomita-takesaki-modular",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.04.02",
+"prereqs": [
+"39.04.01",
+"02.11.03"
+],
+"section": "operator-algebras",
+"slug": "tomita-theorem-modular-operator-conjugation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Tomita's Theorem: the Modular Operator and Modular Conjugation"
+},
 "39.05.01": {
 "area": "math",
 "books": [
@@ -43460,6 +43535,56 @@
 "master"
 ],
 "title": "Completely Positive Maps and the Stinespring Dilation Theorem"
+},
+"39.05.02": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.02",
+"prereqs": [
+"39.05.01",
+"39.01.01"
+],
+"section": "operator-algebras",
+"slug": "operator-systems-arveson-choi-effros",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Operator Systems, Arveson's Extension Theorem, and the Choi-Effros Theorem"
+},
+"39.05.03": {
+"area": "math",
+"books": [
+"brown-ozawa-nuclearity"
+],
+"chapter": "nuclearity-exactness",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.05.03",
+"prereqs": [
+"39.05.01",
+"39.01.03"
+],
+"section": "operator-algebras",
+"slug": "c-star-tensor-products-min-max-norms",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Tensor Products of C*-Algebras: the Minimal and Maximal Norms"
 },
 "39.05.06": {
 "area": "math",
@@ -43536,6 +43661,31 @@
 "master"
 ],
 "title": "The Connes Distance Formula"
+},
+"39.06.04": {
+"area": "math",
+"books": [
+"connes-ncg"
+],
+"chapter": "spectral-triples-ncg",
+"curriculum": "operator-algebras",
+"field": "operator-algebras",
+"fieldLabel": "Operator Algebras & NCG",
+"fieldOrder": 14,
+"id": "39.06.04",
+"prereqs": [
+"39.06.01",
+"39.02.01"
+],
+"section": "operator-algebras",
+"slug": "noncommutative-torus-geometry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Noncommutative Torus and Its Geometry"
 },
 "39.06.05": {
 "area": "math",
