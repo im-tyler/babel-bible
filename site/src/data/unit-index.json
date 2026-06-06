@@ -44037,5 +44037,159 @@
 "master"
 ],
 "title": "The Chern Character in K-Homology"
+},
+"40.01.01": {
+"area": "math",
+"books": [
+"stanley-ec1"
+],
+"chapter": "enumeration-generating-functions",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.01.01",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "basic-counting-twelvefold-way",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Basic Counting and the Twelvefold Way"
+},
+"40.04.01": {
+"area": "math",
+"books": [
+"diestel-graph-theory"
+],
+"chapter": "graph-theory-core",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.04.01",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "graphs-basic-invariants-foundational-lemmas",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Graphs, Basic Invariants, and the Foundational Lemmas"
+},
+"40.06.05": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.05",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "hadamard-matrices-paley-construction",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hadamard Matrices and the Paley Construction"
+},
+"40.06.06": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.06",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "linear-codes-hamming-singleton-gilbert-varshamov-bounds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linear Codes and the Hamming, Singleton, and Gilbert-Varshamov Bounds"
+},
+"40.06.10": {
+"area": "math",
+"books": [
+"van-lint-wilson"
+],
+"chapter": "design-coding-theory",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.06.10",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "polya-redfield-enumeration-cycle-index",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "P\u00f3lya-Redfield Enumeration and the Cycle Index"
+},
+"40.07.01": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.01",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "probabilistic-method-first-moment",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Probabilistic Method: First-Moment and Counting Arguments"
+},
+"40.07.02": {
+"area": "math",
+"books": [
+"alon-spencer-probabilistic"
+],
+"chapter": "probabilistic-method",
+"curriculum": "combinatorics",
+"field": "combinatorics",
+"fieldLabel": "Combinatorics & Graph Theory",
+"fieldOrder": 15,
+"id": "40.07.02",
+"prereqs": [],
+"section": "combinatorics",
+"slug": "linearity-expectation-deletion-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linearity of Expectation and the Deletion Method"
 }
 }

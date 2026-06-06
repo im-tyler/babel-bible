@@ -15376,3 +15376,57 @@ The noncommutative torus as a noncommutative geometry: smooth subalgebra $A_\the
 - **unit**: `39.05.10`
 - **prerequisites**: `39.05.05` (exact C*-algebras and nuclear embeddability), `39.05.07` (group C*-algebras: amenability and nuclearity)
 - **notes**: stub - see unit `39.05.10`. The three equivalent faces of exactness for a discrete group (Ozawa): a group Gamma is exact (C*_r(Gamma) is an exact C*-algebra) iff it acts topologically amenably on some compact Hausdorff space (a net m_n: X -> Prob(Gamma) with sup_x ||g.m_n^x - m_n^{gx}||_1 -> 0) iff it has Yu's property A (a Folner-type slow-variation condition for the word metric: finitely-supported xi_x in l^1(Gamma)_{1,+} of uniform support diameter with ||xi_x - xi_y||_1 small for d(x,y) <= R). The reduced crossed product C(X) rtimes_r Gamma is nuclear when the action is amenable, embedding C*_r(Gamma) into a nuclear algebra (nuclear embeddability, cf 39.05.05). The uniform Roe algebra and coarse geometry; property A as a coarse invariant; the boundary action of a hyperbolic group on its Gromov boundary is amenable (Adams), so hyperbolic and linear groups (Guentner-Higson-Weinberger) are exact; Gromov monster groups are non-exact. Property A implies coarse Baum-Connes / Novikov (Yu, Higson-Roe). Lean status none: Mathlib lacks reduced crossed products, topologically amenable actions, the uniform Roe algebra, and the coarse-geometry category.
+
+
+### combinatorics.basic-counting-twelvefold-way
+
+- **title**: Basic Counting and the Twelvefold Way
+- **unit**: `40.01.01`
+- **prerequisites**: none (root unit; assumes basic set/function theory)
+- **notes**: stub - see unit `40.01.01`. The sum and product rules, bijective counting, and Rota's twelvefold way: functions f: N -> X (|N|=n, |X|=k) counted under (arbitrary / injective / surjective) crossed with (domain and codomain each distinguishable or not), giving the 3x4 table. Cells: ordinary power k^n, falling factorial (k)_n, binomial coefficient C(k,n), multiset coefficient C(k+n-1,n), Stirling numbers of the second kind S(n,k) and surjections k!S(n,k), Stirling numbers of the first kind c(n,k) and permutations by cycle type, integer partitions p_{<=k}(n) and p_{=k}(n). Pascal and Stirling recurrences, Vandermonde, the binomial theorem as a counting statement, Stirling-matrix orthogonality. Elementary/bijective side of integer partitions (analytic theory at 21.16.01). Lean status none: Mathlib has scattered ingredients (Nat.choose, descFactorial, partitions, multisets) but not the twelvefold way as one structure.
+
+
+### combinatorics.hadamard-matrices-paley-construction
+
+- **title**: Hadamard Matrices and the Paley Construction
+- **unit**: `40.06.05`
+- **prerequisites**: none (root unit; applies finite fields / quadratic residues from `21.02.01`, `21.01.06` by cross-reference)
+- **notes**: stub - see unit `40.06.05`. A Hadamard matrix is an $n \times n$ matrix $H \in \{\pm 1\}^{n\times n}$ with $HH^\top = nI$; equivalently distinct rows are orthogonal and agree in exactly $n/2$ coordinates. Hadamard's 1893 determinant inequality $|\det A| \le n^{n/2}$ for $\pm 1$ matrices, with equality iff $A$ is Hadamard; the order constraint $n \in \{1,2\}$ or $4 \mid n$ via the three-row counting identity. Equivalence under row/column permutation and negation, and normalisation (first row and column all $+1$). The Sylvester/Kronecker doubling $H \mapsto \big(\begin{smallmatrix} H & H \\ H & -H\end{smallmatrix}\big)$ giving orders $2^k$ (Walsh-Hadamard transform, first-order Reed-Muller code). The Paley construction from the quadratic-residue character $\chi$ over $\mathbb{F}_q$: the Jacobsthal matrix $Q = (\chi(a-b))$ with $QQ^\top = qI - J$, $QJ = 0$, $Q^\top = \chi(-1)Q$; type I ($q \equiv 3 \bmod 4$, $Q$ skew) gives order $q+1$, type II ($q \equiv 1 \bmod 4$, $Q$ symmetric, via the Paley conference matrix) gives order $2(q+1)$. The Hadamard conjecture (existence for every multiple of $4$, open). The bijection between Hadamard matrices of order $4m$ and symmetric $2\text{-}(4m-1, 2m-1, m-1)$ designs and the Hadamard $3$-design; applications to the Hadamard code (Plotkin bound, Mariner 9) and the design-coding-graph triangle. Lean status none: Mathlib lacks the Hadamard-matrix definition, the determinant equality case, the order-divisibility theorem, the Jacobsthal/conference-matrix identities, and the symmetric-design equivalence.
+
+
+### combinatorics.probabilistic-method-first-moment
+
+- **title**: The Probabilistic Method: First-Moment and Counting Arguments
+- **unit**: `40.07.01`
+- **prerequisites**: none (root unit; applies basic probability/expectation from 37.01.x)
+- **notes**: stub - see unit `40.07.01`. The foundational form of the probabilistic method (Alon-Spencer Ch. 1): the basic existence principle (positive probability of a property forces an object with that property; if E[X] < t some point has X < t, and an integer count with mean below one vanishes somewhere) and the first-moment / union-bound method (sum_i Pr(A_i) < 1 yields a bad-event-free outcome, no independence needed). Flagship application: Erdos's Ramsey lower bound R(k,k) > 2^{k/2} from binom(n,k) 2^{1 - binom(k,2)} < 1 (the lower companion to the upper bound and Ramsey's theorem in 40.05.04). Further applications: tournaments with the Schutte property S_k, dominating sets with E|D| <= n(1+ln(delta+1))/(delta+1), max-cut/bipartite subgraph with >= m/2 edges, and hypergraph 2-colourability (property B, m(n) >= 2^{n-1}). Refinements (deletion, second moment, Lovasz Local Lemma) continue in 40.07.02. Lean status none: Mathlib has discrete-probability and expectation infrastructure but no packaged probabilistic-method existence principle or its Ramsey/property-B corollaries.
+
+### combinatorics.polya-redfield-enumeration-cycle-index
+
+- **title**: Pólya-Redfield Enumeration and the Cycle Index
+- **unit**: `40.06.10`
+- **prerequisites**: none (root unit; cross-references the Burnside/Cauchy-Frobenius orbit-counting lemma and group actions at `01.02.03`, and generating functions at the co-produced `40.01.03`)
+- **notes**: stub - see unit `40.06.10`. Counting under a group action (van Lint-Wilson Ch. 35). The Burnside / Cauchy-Frobenius orbit-counting lemma (number of orbits = average number of fixed points, stated, group-theory home at 01.02.03). The cycle index $Z(G; a_1,\ldots,a_n) = |G|^{-1}\sum_g \prod_k a_k^{j_k(g)}$ of a permutation group recording cycle types; the cyclic $Z(C_n)=\tfrac1n\sum_{d\mid n}\phi(d)a_d^{n/d}$, dihedral, and symmetric $Z(S_n)=\sum_{\lambda\vdash n}\prod a_k^{m_k}/(k^{m_k}m_k!)$ indices. Pólya's enumeration theorem: the pattern inventory is the cycle index with $a_k\mapsto\phi(t^k)$ for the figure-counting series $\phi$; proof via the weighted Burnside lemma and the fact that $g$-fixed colourings are constant on $g$'s cycles. Worked classics: necklaces/bracelets ($C_n$, $D_n$), cube face/vertex/edge colourings, counting graphs up to isomorphism via the pair group $S_p^{(2)}$ on edges, chemical isomer counting (Pólya's 1937 motivation). The power-group enumeration theorem (de Bruijn) for symmetry on both domain and range. Redfield 1927 / Pólya 1937 priority; Harary-Palmer graphical enumeration. Cross-ref 01.02.03 (orbit-counting lemma) and 40.01.03 (generating functions). Lean status none: Mathlib has MulAction and the orbit-counting lemma but lacks the cycle-index polynomial, the substitution theorem, the standard group cycle indices, and the power group.
+
+
+### combinatorics.graphs-basic-invariants-foundational-lemmas
+
+- **title**: Graphs, Basic Invariants, and the Foundational Lemmas
+- **unit**: `40.04.01`
+- **prerequisites**: (root unit — no in-spine prerequisites)
+- **notes**: stub - see unit `40.04.01`. The L0 root of the graph-theory-core chapter (Diestel Ch. 1). Graphs as (V, E) with E a set of unordered pairs; adjacency, incidence, neighbourhood, degree, minimum/maximum/average degree; subgraphs, induced subgraphs, spanning subgraphs; walks, paths, cycles, connectivity, components, distance, diameter, girth. The handshake lemma (sum of degrees = 2|E|) and the even-count of odd-degree vertices. Trees and forests with the four-way characterisation (connected + acyclic iff connected with n-1 edges iff acyclic with n-1 edges iff unique paths); spanning trees; at least two leaves. Bipartite graphs and the no-odd-cycle characterisation. The minimum-degree averaging lemma (average degree d forces a subgraph of minimum degree > d/2) and high-girth-forces-many-vertices (Moore bound). Euler tours (connected iff every degree even). Contraction, minors, topological minors as the ordering for later structure theory; Cayley's n^(n-2) via Prüfer; Erdős-Gallai degree sequences; Kuratowski-Wagner planarity. Structural side owned here; the algorithmic/data-structures view lives at 25.02.01. Lean status none: Mathlib has a SimpleGraph API and the handshake lemma but not the unified tree-characterisation iff-cycle, the averaging lemma, the Euler degree-parity existence theorem, or the minor-order packaging.
+
+
+### combinatorics.linear-codes-bounds
+
+- **title**: Linear Codes and the Hamming, Singleton, and Gilbert-Varshamov Bounds
+- **unit**: `40.06.06`
+- **prerequisites**: none (root unit; applies finite fields `21.02.01` and linear algebra `01.01.04`/`01.01.05` in prose without reproving them)
+- **notes**: stub - see unit `40.06.06`. A linear code as a k-dimensional subspace C of F_q^n with parameters [n,k,d]; Hamming distance/weight, minimum distance, the error-correcting radius floor((d-1)/2); generator and parity-check matrices, the dual code, and the criterion d = least number of linearly dependent columns of H; syndrome decoding and the standard array. The classical bounds: Singleton (d <= n-k+1) and MDS codes, the Hamming sphere-packing bound and perfect codes (forward to 40.06.07), the Gilbert-Varshamov existence bound, and the Plotkin bound; the weight enumerator and the MacWilliams identity relating W_C and W_{C^perp} via Krawtchouk polynomials. Shannon's channel-coding theorem is a pointer only. Lean status none: Mathlib has Hamming distance but lacks the linear-code structure, the bounds, MDS theory, and the character-sum proof of MacWilliams.
+
+
+### combinatorics.linearity-expectation-deletion-method
+
+- **title**: Linearity of Expectation and the Deletion Method
+- **unit**: `40.07.02`
+- **notes**: stub — see unit `40.07.02`. Two elementary pillars of the probabilistic method (Alon-Spencer Ch. 2-3). Linearity of expectation E[sum X_i] = sum E[X_i] with no independence, and the averaging existence principle (some sample meets or beats the mean): Szele's theorem (a tournament with >= n!/2^(n-1) Hamiltonian paths), the max-cut bound (every graph has a cut of size >= |E|/2), the splitting/unbalancing-lights argument. The deletion (alteration) method: build a slightly-too-good random structure then delete the few offending parts — the improved Ramsey lower bound R(k,k) > (1/e)(1+o(1)) k 2^(k/2), independent sets of size >= n^2/(4|E|), and Erdős's graphs of high girth and high chromatic number (delete one vertex per short cycle), with a dependent-random-choice preview. Lean status none: Mathlib has the probability and SimpleGraph layers but not the first-moment existence corollary, the indicator-sum defect counts, or the alteration argument.

@@ -11626,5 +11626,47 @@
 "connes-ncg"
 ],
 "curriculum": "operator-algebras"
+},
+"40.01.01": {
+"books": [
+"stanley-ec1"
+],
+"curriculum": "combinatorics"
+},
+"40.04.01": {
+"books": [
+"diestel-graph-theory"
+],
+"curriculum": "combinatorics"
+},
+"40.06.05": {
+"books": [
+"van-lint-wilson"
+],
+"curriculum": "combinatorics"
+},
+"40.06.06": {
+"books": [
+"van-lint-wilson"
+],
+"curriculum": "combinatorics"
+},
+"40.06.10": {
+"books": [
+"van-lint-wilson"
+],
+"curriculum": "combinatorics"
+},
+"40.07.01": {
+"books": [
+"alon-spencer-probabilistic"
+],
+"curriculum": "combinatorics"
+},
+"40.07.02": {
+"books": [
+"alon-spencer-probabilistic"
+],
+"curriculum": "combinatorics"
 }
 }
