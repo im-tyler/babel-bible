@@ -119,12 +119,12 @@ Category theory currently has only the single `01.02.09` unit — audit against 
 **25-logic new chapters:** `first-order-logic-completeness · model-theory · set-theory-forcing · computability-degrees`.
 
 - [x] SETUP: `41-category-theory` section/field/lens + prefix 41 + both chapter skeletons (§2a 1-7); smoke-test
-- [ ] AUDIT: Enderton — *A Mathematical Introduction to Logic* (first-order logic, completeness, compactness, incompleteness)
-- [ ] AUDIT: Marker — *Model Theory: An Introduction* (types, saturation, quantifier elimination, Morley)
-- [ ] AUDIT: Kunen — *Set Theory* (ZFC, ordinals/cardinals, forcing, independence)
-- [ ] AUDIT: Soare — *Turing Computability* (computability, the arithmetical hierarchy, degrees)
-- [ ] AUDIT: Mac Lane — *Categories for the Working Mathematician* (limits, adjoints, monads, Yoneda depth)
-- [ ] AUDIT: Riehl — *Category Theory in Context* (representability, Kan extensions)
+- [x] AUDIT: Enderton — *A Mathematical Introduction to Logic* (first-order logic, completeness, compactness, incompleteness)
+- [x] AUDIT: Marker — *Model Theory: An Introduction* (types, saturation, quantifier elimination, Morley)
+- [x] AUDIT: Kunen — *Set Theory* (ZFC, ordinals/cardinals, forcing, independence)
+- [x] AUDIT: Soare — *Turing Computability* (computability, the arithmetical hierarchy, degrees)
+- [x] AUDIT: Mac Lane — *Categories for the Working Mathematician* (limits, adjoints, monads, Yoneda depth)
+- [x] AUDIT: Riehl — *Category Theory in Context* (representability, Kan extensions)
 - [ ] PRODUCE: gaps → integrate → commit → build_lenses
 - [ ] COMPLETENESS: re-audit all 6 books vs the grown corpus; loop-until-dry (0 new gaps); log
 
