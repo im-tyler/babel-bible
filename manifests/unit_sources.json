@@ -12011,9 +12011,27 @@
 ],
 "curriculum": "logic-foundations"
 },
+"41.03.02": {
+"books": [
+"maclane-cwm"
+],
+"curriculum": "logic-foundations"
+},
 "41.04.01": {
 "books": [
 "riehl-context"
+],
+"curriculum": "logic-foundations"
+},
+"41.04.02": {
+"books": [
+"riehl-context"
+],
+"curriculum": "logic-foundations"
+},
+"41.05.01": {
+"books": [
+"maclane-cwm"
 ],
 "curriculum": "logic-foundations"
 },
@@ -12047,7 +12065,19 @@
 ],
 "curriculum": "logic-foundations"
 },
+"42.01.06": {
+"books": [
+"enderton-logic"
+],
+"curriculum": "logic-foundations"
+},
 "42.01.08": {
+"books": [
+"enderton-logic"
+],
+"curriculum": "logic-foundations"
+},
+"42.01.09": {
 "books": [
 "enderton-logic"
 ],
@@ -12077,6 +12107,12 @@
 ],
 "curriculum": "logic-foundations"
 },
+"42.03.04": {
+"books": [
+"kunen-set-theory"
+],
+"curriculum": "logic-foundations"
+},
 "42.03.05": {
 "books": [
 "kunen-set-theory"
@@ -12096,6 +12132,18 @@
 "curriculum": "logic-foundations"
 },
 "42.04.03": {
+"books": [
+"soare-computability"
+],
+"curriculum": "logic-foundations"
+},
+"42.04.04": {
+"books": [
+"soare-computability"
+],
+"curriculum": "logic-foundations"
+},
+"42.04.07": {
 "books": [
 "soare-computability"
 ],

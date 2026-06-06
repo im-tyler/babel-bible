@@ -45566,6 +45566,30 @@
 ],
 "title": "Adjunctions: Hom-Set and Unit-Counit Definitions"
 },
+"41.03.02": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "adjunctions",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.03.02",
+"prereqs": [
+"41.03.01"
+],
+"section": "category-theory",
+"slug": "rapl-reflective-adjoint-functor-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "RAPL, Reflective Subcategories, and the Adjoint Functor Theorems"
+},
 "41.04.01": {
 "area": "math",
 "books": [
@@ -45589,6 +45613,54 @@
 "master"
 ],
 "title": "Representable Functors and Universal Elements"
+},
+"41.04.02": {
+"area": "math",
+"books": [
+"riehl-context"
+],
+"chapter": "yoneda-representability",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.04.02",
+"prereqs": [
+"41.04.01"
+],
+"section": "category-theory",
+"slug": "yoneda-lemma-embedding-density",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Yoneda Lemma, the Yoneda Embedding, and Density"
+},
+"41.05.01": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "monads-algebras",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.05.01",
+"prereqs": [
+"41.03.01"
+],
+"section": "category-theory",
+"slug": "monads-eilenberg-moore-kleisli",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Monads, Eilenberg-Moore Algebras, and the Kleisli Category"
 },
 "42.01.01": {
 "area": "math",
@@ -45706,6 +45778,30 @@
 ],
 "title": "A Deductive Calculus for First-Order Logic and Soundness"
 },
+"42.01.06": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.06",
+"prereqs": [
+"42.01.05"
+],
+"section": "mathematical-logic",
+"slug": "godel-completeness-henkin",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "G\u00f6del's Completeness Theorem and the Henkin Construction"
+},
 "42.01.08": {
 "area": "math",
 "books": [
@@ -45729,6 +45825,30 @@
 "master"
 ],
 "title": "Representability of Recursive Functions in Arithmetic"
+},
+"42.01.09": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.09",
+"prereqs": [
+"42.01.08"
+],
+"section": "mathematical-logic",
+"slug": "godel-numbering-incompleteness-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "G\u00f6del Numbering, the Fixed-Point Lemma, and the Incompleteness Theorems"
 },
 "42.02.01": {
 "area": "math",
@@ -45824,6 +45944,30 @@
 ],
 "title": "Cardinals and the Arithmetic of the Infinite"
 },
+"42.03.04": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.04",
+"prereqs": [
+"42.03.03"
+],
+"section": "mathematical-logic",
+"slug": "cofinality-cardinal-exponentiation-sch",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cofinality, Cardinal Exponentiation, and the Singular Cardinals Hypothesis"
+},
 "42.03.05": {
 "area": "math",
 "books": [
@@ -45917,5 +46061,53 @@
 "master"
 ],
 "title": "Computably Enumerable Sets: Creative and Simple Sets"
+},
+"42.04.04": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.04",
+"prereqs": [
+"42.04.03"
+],
+"section": "mathematical-logic",
+"slug": "turing-reducibility-oracles-jump",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Turing Reducibility, Oracles, and the Jump"
+},
+"42.04.07": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.07",
+"prereqs": [
+"42.04.02"
+],
+"section": "mathematical-logic",
+"slug": "unsolvable-problems-word-problem-mrdp",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Unsolvable Problems: the Word Problem and Hilbert's Tenth"
 }
 }
