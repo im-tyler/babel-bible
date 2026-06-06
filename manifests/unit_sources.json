@@ -9778,9 +9778,27 @@
 ],
 "curriculum": "analytic-nt"
 },
+"21.11.02": {
+"books": [
+"apostol-analytic-nt"
+],
+"curriculum": "analytic-nt"
+},
+"21.11.03": {
+"books": [
+"apostol-analytic-nt"
+],
+"curriculum": "analytic-nt"
+},
 "21.11.04": {
 "books": [
 "davenport-multiplicative"
+],
+"curriculum": "analytic-nt"
+},
+"21.11.05": {
+"books": [
+"montgomery-vaughan-multiplicative"
 ],
 "curriculum": "analytic-nt"
 },
@@ -9796,7 +9814,19 @@
 ],
 "curriculum": "analytic-nt"
 },
+"21.14.05": {
+"books": [
+"iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
 "21.15.01": {
+"books": [
+"iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
+"21.15.02": {
 "books": [
 "iwaniec-kowalski-ant"
 ],
@@ -9805,6 +9835,12 @@
 "21.15.04": {
 "books": [
 "iwaniec-kowalski-ant"
+],
+"curriculum": "analytic-nt"
+},
+"21.16.01": {
+"books": [
+"apostol-analytic-nt"
 ],
 "curriculum": "analytic-nt"
 },

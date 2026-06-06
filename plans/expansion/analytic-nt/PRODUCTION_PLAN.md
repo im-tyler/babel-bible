@@ -58,4 +58,4 @@ zero-free region & state PNT — gaps are the analytic PROOFS. Peers: 21.03.01, 
 - WAVE 5: 21.12.04, 21.13.02, 21.13.03(→21.13.02 in Conn), 21.14.02(→21.13.03 in Conn)
 
 ## Status
-- [x] W1  [ ] W2  [ ] W3  [ ] W4  [ ] W5  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [ ] W3  [ ] W4  [ ] W5  [ ] COMPLETENESS (loop-until-dry)

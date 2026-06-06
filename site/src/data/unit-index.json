@@ -35090,6 +35090,56 @@
 ],
 "title": "Arithmetic Functions, Dirichlet Convolution, and M\u00f6bius Inversion"
 },
+"21.11.02": {
+"area": "math",
+"books": [
+"apostol-analytic-nt"
+],
+"chapter": "dirichlet-series-arithmetic-functions",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.11.02",
+"prereqs": [
+"21.11.01",
+"02.03.03"
+],
+"section": "number-theory",
+"slug": "average-orders-summation-toolkit",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Average Orders of Arithmetic Functions and the Summation Toolkit"
+},
+"21.11.03": {
+"area": "math",
+"books": [
+"apostol-analytic-nt"
+],
+"chapter": "dirichlet-series-arithmetic-functions",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.11.03",
+"prereqs": [
+"21.11.01",
+"21.01.02"
+],
+"section": "number-theory",
+"slug": "chebyshev-bounds-bertrand-mertens",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Chebyshev's Bounds, Bertrand's Postulate, and Mertens' Theorems"
+},
 "21.11.04": {
 "area": "math",
 "books": [
@@ -35115,6 +35165,32 @@
 "master"
 ],
 "title": "Perron's Formula and Mellin Inversion"
+},
+"21.11.05": {
+"area": "math",
+"books": [
+"montgomery-vaughan-multiplicative"
+],
+"chapter": "dirichlet-series-arithmetic-functions",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.11.05",
+"prereqs": [
+"21.11.04",
+"06.01.16",
+"06.01.15"
+],
+"section": "number-theory",
+"slug": "selberg-delange-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Selberg-Delange Method"
 },
 "21.13.04": {
 "area": "math",
@@ -35167,6 +35243,32 @@
 ],
 "title": "The Approximate Functional Equation, Analytic Conductor, and Convexity Bound"
 },
+"21.14.05": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "sieve-methods-large-sieve",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.14.05",
+"prereqs": [
+"21.15.04",
+"21.04.01",
+"21.04.02"
+],
+"section": "number-theory",
+"slug": "kloosterman-sums-kuznetsov-formula",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kloosterman Sums and the Kuznetsov Spectral Formula"
+},
 "21.15.01": {
 "area": "math",
 "books": [
@@ -35191,6 +35293,31 @@
 "master"
 ],
 "title": "Poisson and Voronoi Summation"
+},
+"21.15.02": {
+"area": "math",
+"books": [
+"iwaniec-kowalski-ant"
+],
+"chapter": "exponential-sums",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.15.02",
+"prereqs": [
+"21.15.01",
+"02.10.04"
+],
+"section": "number-theory",
+"slug": "weyl-sums-differencing-equidistribution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Weyl Sums, Weyl Differencing, and Equidistribution"
 },
 "21.15.04": {
 "area": "math",
@@ -35217,6 +35344,31 @@
 "master"
 ],
 "title": "Gauss, Jacobi, Kloosterman, and Sali\u00e9 Sums; the Weil Bound"
+},
+"21.16.01": {
+"area": "math",
+"books": [
+"apostol-analytic-nt"
+],
+"chapter": "partitions-circle-method",
+"curriculum": "analytic-nt",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.16.01",
+"prereqs": [
+"21.11.01",
+"02.03.03"
+],
+"section": "number-theory",
+"slug": "partition-function-pentagonal-number-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Partition Function, Generating Functions, and the Pentagonal Number Theorem"
 },
 "22.01.01": {
 "area": "other",
