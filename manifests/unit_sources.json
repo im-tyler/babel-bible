@@ -11277,5 +11277,17 @@
 "agz-random-matrices"
 ],
 "curriculum": "probability"
+},
+"38.01.01": {
+"books": [
+"brin-stuck"
+],
+"curriculum": "dynamics"
+},
+"38.04.01": {
+"books": [
+"walters-ergodic"
+],
+"curriculum": "dynamics"
 }
 }

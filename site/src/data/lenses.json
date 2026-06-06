@@ -1294,15 +1294,17 @@
 "37.08.06",
 "37.08.07",
 "37.08.08",
-"37.08.09"
+"37.08.09",
+"38.01.01",
+"38.04.01"
 ],
 "supporting": [
 "16.02.01"
 ],
 "counts": {
-"core": 1289,
+"core": 1291,
 "supporting": 1,
-"total": 1290
+"total": 1292
 },
 "dangling_prereqs": []
 },
@@ -1311,12 +1313,51 @@
 "label": "Dynamical Systems & Ergodic Theory",
 "description": "Topological and symbolic dynamics, hyperbolicity and structural stability, the ergodic theorems, mixing and spectral theory, entropy, and smooth ergodic theory. Prerequisites are pulled in automatically so the result is always a complete, learnable path.",
 "group_by": "field",
-"core": [],
-"supporting": [],
+"core": [
+"38.01.01",
+"38.04.01"
+],
+"supporting": [
+"00.01.01",
+"00.02.05",
+"01.01.01",
+"01.01.03",
+"01.01.15",
+"01.02.10",
+"01.02.17",
+"02.01.01",
+"02.01.02",
+"02.01.05",
+"02.02.01",
+"02.05.01",
+"02.05.03",
+"02.05.04",
+"02.07.01",
+"02.07.02",
+"02.07.03",
+"02.07.04",
+"02.07.05",
+"02.07.06",
+"02.07.07",
+"02.07.08",
+"02.11.04",
+"02.12.01",
+"02.12.02",
+"03.01.02",
+"03.01.03",
+"03.02.01",
+"26.01.01",
+"26.02.01",
+"26.03.01",
+"37.02.02",
+"37.02.03",
+"37.04.01",
+"37.04.03"
+],
 "counts": {
-"core": 0,
-"supporting": 0,
-"total": 0
+"core": 2,
+"supporting": 35,
+"total": 37
 },
 "dangling_prereqs": []
 },
@@ -2628,7 +2669,9 @@
 "37.08.06",
 "37.08.07",
 "37.08.08",
-"37.08.09"
+"37.08.09",
+"38.01.01",
+"38.04.01"
 ],
 "supporting": [
 "09.01.01",
@@ -2675,9 +2718,9 @@
 "16.02.01"
 ],
 "counts": {
-"core": 1137,
+"core": 1139,
 "supporting": 42,
-"total": 1179
+"total": 1181
 },
 "dangling_prereqs": []
 },

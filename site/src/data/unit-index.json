@@ -42564,5 +42564,57 @@
 "master"
 ],
 "title": "The Ben Arous\u2013Guionnet Large Deviation Principle for the Empirical Spectral Measure"
+},
+"38.01.01": {
+"area": "math",
+"books": [
+"brin-stuck"
+],
+"chapter": "topological-dynamics",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.01.01",
+"prereqs": [
+"02.12.02",
+"02.01.05",
+"02.12.01"
+],
+"section": "dynamics",
+"slug": "dynamical-systems-orbits-limit-sets",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Dynamical Systems, Orbits, and Limit Sets"
+},
+"38.04.01": {
+"area": "math",
+"books": [
+"walters-ergodic"
+],
+"chapter": "ergodic-theorems",
+"curriculum": "dynamics",
+"field": "dynamics",
+"fieldLabel": "Dynamical Systems & Ergodic Theory",
+"fieldOrder": 13,
+"id": "38.04.01",
+"prereqs": [
+"02.07.01",
+"02.07.07",
+"37.02.03"
+],
+"section": "dynamics",
+"slug": "measure-preserving-systems-poincare-recurrence-kac",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Measure-Preserving Systems, Poincar\u00e9 Recurrence, and the Kac Formula"
 }
 }
