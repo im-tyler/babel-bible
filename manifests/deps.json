@@ -22846,6 +22846,106 @@
       "from": "40.07.09",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "41.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "41.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "41.01.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "41.01.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "42.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "42.01.01",
+      "state": "shipped"
+    },
+    {
+      "from": "42.01.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "42.01.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "42.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "42.01.03",
+      "state": "shipped"
+    },
+    {
+      "from": "42.01.03",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "42.01.03",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "42.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "42.03.01",
+      "state": "shipped"
+    },
+    {
+      "from": "42.03.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "42.03.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "42.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "42.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "42.04.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "42.04.01",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -23940,7 +24040,12 @@
     "40.08.04",
     "40.08.05",
     "40.08.06",
-    "40.08.07"
+    "40.08.07",
+    "41.01.01",
+    "42.01.01",
+    "42.01.03",
+    "42.03.01",
+    "42.04.01"
   ],
   "_notes": {
     "01.01.03": "vector space — Wave 2 Phase 2.1 unit #1, SHIPPED",

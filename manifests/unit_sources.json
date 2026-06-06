@@ -11980,5 +11980,35 @@
 "flajolet-sedgewick"
 ],
 "curriculum": "combinatorics"
+},
+"41.01.01": {
+"books": [
+"maclane-cwm"
+],
+"curriculum": "logic-foundations"
+},
+"42.01.01": {
+"books": [
+"enderton-logic"
+],
+"curriculum": "logic-foundations"
+},
+"42.01.03": {
+"books": [
+"enderton-logic"
+],
+"curriculum": "logic-foundations"
+},
+"42.03.01": {
+"books": [
+"kunen-set-theory"
+],
+"curriculum": "logic-foundations"
+},
+"42.04.01": {
+"books": [
+"soare-computability"
+],
+"curriculum": "logic-foundations"
 }
 }

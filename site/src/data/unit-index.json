@@ -45447,5 +45447,115 @@
 "master"
 ],
 "title": "Limit Laws and the Quasi-Powers Theorem"
+},
+"41.01.01": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "categories-functors-natural-transformations",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.01.01",
+"prereqs": [],
+"section": "category-theory",
+"slug": "categories-functors-duality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Categories, Functors, and the Duality Principle"
+},
+"42.01.01": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.01",
+"prereqs": [],
+"section": "mathematical-logic",
+"slug": "propositional-logic-formal-system",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Propositional Logic as a Formal System"
+},
+"42.01.03": {
+"area": "math",
+"books": [
+"enderton-logic"
+],
+"chapter": "first-order-logic-completeness",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.01.03",
+"prereqs": [],
+"section": "mathematical-logic",
+"slug": "first-order-languages-syntax",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "First-Order Languages: Syntax and Unique Readability"
+},
+"42.03.01": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.01",
+"prereqs": [],
+"section": "mathematical-logic",
+"slug": "zfc-axioms-cumulative-hierarchy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The ZFC Axioms and the Cumulative Hierarchy"
+},
+"42.04.01": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.01",
+"prereqs": [],
+"section": "mathematical-logic",
+"slug": "models-of-computation-church-turing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Models of Computation and the Church-Turing Thesis"
 }
 }
