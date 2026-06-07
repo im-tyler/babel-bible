@@ -1,0 +1,13 @@
+id: numerical-analysis
+label: Numerical Analysis & Scientific Computing
+description: >-
+  Floating-point arithmetic and conditioning, root-finding for nonlinear
+  equations, direct and iterative solvers for linear systems, least squares and
+  QR, the SVD and low-rank approximation, eigenvalue algorithms, Krylov subspace
+  methods, interpolation and approximation, numerical quadrature, time-stepping
+  for ODEs, and finite-difference schemes for PDEs, alongside finite-element
+  exterior calculus. Prerequisites are pulled in automatically so the result is
+  always a complete, learnable path.
+seed:
+  field_in: [numerical-analysis]
+group_by: field

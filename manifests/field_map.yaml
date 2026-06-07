@@ -21,6 +21,7 @@ sections:
   combinatorics:         { area: math, field: combinatorics }
   category-theory:       { area: math, field: foundations-logic }
   mathematical-logic:    { area: math, field: foundations-logic }
+  numerical-analysis:    { area: math, field: numerical-analysis }
   number-theory:         { area: math, field: number-theory }
   differential-geometry: { area: math, field: geometry-topology }
   modern-geometry:       { area: math, field: geometry-topology }
