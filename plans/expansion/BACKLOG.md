@@ -132,7 +132,14 @@ Category theory currently has only the single `01.02.09` unit — audit against 
 
 ## Tier B (applied / computational) — HUMAN GATE: do not start without go-ahead
 
-- [ ] Spine 8 — Numerical Analysis & Scientific Computing (Trefethen-Bau, Golub-Van Loan, LeVeque, Suli-Mayers)
+- [~] Spine 8 — Numerical Analysis & Scientific Computing (Trefethen-Bau, Golub-Van Loan, LeVeque, Suli-Mayers) — **IN PROGRESS (human-gated approval for Spine 8 only)**
+  - [x] SETUP: NEW section `content/43-numerical-analysis` (prefix 43, field `numerical-analysis` shared with existing 24-numerical-pde FEEC; 11-chapter skeleton; validator/sections.ts/lens registered; smoke-test 0 dangling)
+  - [x] AUDIT: Trefethen-Bau — *Numerical Linear Algebra* (16 gaps; SVD/QR core found already proven in 01.01.12/01.01.09 → those chapters shrank correctly)
+  - [x] AUDIT: Golub-Van Loan — *Matrix Computations* (5 GVL-specific gaps; core deferred to TB)
+  - [x] AUDIT: Suli-Mayers — *An Introduction to Numerical Analysis* (11 gaps: root-finding, interpolation/approximation, quadrature)
+  - [x] AUDIT: LeVeque — *Finite Difference Methods for ODEs and PDEs* (10 gaps: ODE integrators + finite-difference PDE; FD-vs-FEM seam with 24-numerical-pde cross-ref'd)
+  - [ ] PRODUCE: 42 units, 8 dependency waves → integrate → commit → build_lenses (plan in plans/expansion/numerical-analysis/PRODUCTION_PLAN.md)
+  - [ ] COMPLETENESS: re-audit all 4 books loop-until-dry
 - [ ] Spine 9 — Optimization & Control (Boyd-Vandenberghe, Nocedal-Wright, Rockafellar, Bertsekas)
 - [ ] Spine 10 — Statistics & Learning Theory (Casella-Berger, van der Vaart, Wasserman, Hastie-Tibshirani-Friedman)
 - [ ] Spine 11 — Information & Coding Theory (Cover-Thomas, MacWilliams-Sloane)
