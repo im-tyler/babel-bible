@@ -278,6 +278,14 @@ function stripProductionNotes(markdown: string): string {
 // Public extension
 // ---------------------------------------------------------------------------
 
+// The unit Visual sections carry auto-generated placeholder SVG diagrams
+// (`/img/<slug>-placeholder.svg`). They are not yet at a quality bar we trust to
+// teach from, so we suppress every rendered image site-wide while keeping the
+// source `![...]()` tags intact (validator/provenance untouched) and the prose
+// description in each Visual section visible. Flip to `false` to bring images
+// back once real diagrams replace the placeholders.
+const HIDE_IMAGES = true;
+
 export const codexMarkedExtensions = {
   extensions: [
     refTokenizer,
@@ -287,6 +295,7 @@ export const codexMarkedExtensions = {
   ],
   renderer: {
     image(token: MarkedImageToken) {
+      if (HIDE_IMAGES) return "";
       const { href, title, text } = token;
       const safeHref = escapeHtml(href);
       const safeAlt = escapeHtml(text);
