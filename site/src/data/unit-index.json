@@ -46842,6 +46842,84 @@
 ],
 "title": "Gaussian elimination, LU factorization, and its stability"
 },
+"43.03.02": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "03-direct-linear-solvers",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.03.02",
+"prereqs": [
+"43.03.01",
+"01.01.15",
+"01.01.13"
+],
+"section": "numerical-analysis",
+"slug": "cholesky-spd-solve",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cholesky factorization and the symmetric positive-definite solve"
+},
+"43.03.03": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "03-direct-linear-solvers",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.03.03",
+"prereqs": [
+"43.03.01",
+"43.01.02",
+"43.01.03"
+],
+"section": "numerical-analysis",
+"slug": "perturbation-a-posteriori-error-linear-systems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Perturbation theory and a posteriori error for linear systems"
+},
+"43.04.01": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "04-least-squares-qr",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.04.01",
+"prereqs": [
+"01.01.09",
+"01.01.12",
+"43.01.02"
+],
+"section": "numerical-analysis",
+"slug": "least-squares-normal-equations-qr-svd-conditioning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Least squares: normal equations vs QR vs SVD conditioning"
+},
 "43.06.01": {
 "area": "math",
 "books": [],
@@ -46937,6 +47015,31 @@
 "master"
 ],
 "title": "Bauer-Fike and the conditioning of eigenvalues"
+},
+"43.07.01": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "07-iterative-krylov-methods",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.07.01",
+"prereqs": [
+"01.01.08",
+"43.03.01"
+],
+"section": "numerical-analysis",
+"slug": "stationary-iterations-jacobi-gauss-seidel-sor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stationary iterative methods: Jacobi, Gauss-Seidel, SOR"
 },
 "43.08.01": {
 "area": "math",
@@ -47090,6 +47193,30 @@
 ],
 "title": "Newton-Cotes rules and their error via the Peano kernel"
 },
+"43.09.02": {
+"area": "math",
+"books": [
+"suli-mayers"
+],
+"chapter": "09-numerical-quadrature",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.09.02",
+"prereqs": [
+"43.09.01"
+],
+"section": "numerical-analysis",
+"slug": "composite-euler-maclaurin-romberg-adaptive",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Composite rules, Euler-Maclaurin, and Romberg / adaptive quadrature"
+},
 "43.10.01": {
 "area": "math",
 "books": [
@@ -47169,5 +47296,59 @@
 "master"
 ],
 "title": "Zero-stability, the root condition, and the Dahlquist equivalence theorem"
+},
+"43.10.04": {
+"area": "math",
+"books": [
+"leveque"
+],
+"chapter": "numerical-odes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.10.04",
+"prereqs": [
+"43.10.03",
+"43.10.02",
+"01.01.08",
+"06.01.01"
+],
+"section": "numerical-analysis",
+"slug": "absolute-stability-regions-test-equation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Absolute stability, stability regions, and the linear test equation"
+},
+"43.11.01": {
+"area": "math",
+"books": [
+"leveque"
+],
+"chapter": "11-finite-difference-pdes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.11.01",
+"prereqs": [
+"02.13.02",
+"02.13.01",
+"43.03.01",
+"01.01.08"
+],
+"section": "numerical-analysis",
+"slug": "elliptic-bvp-5-point-laplacian-convergence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Finite differences for the elliptic BVP: the 5-point Laplacian and its convergence"
 }
 }
