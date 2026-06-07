@@ -12299,7 +12299,19 @@
 ],
 "curriculum": "numerical-analysis"
 },
+"43.01.03": {
+"books": [
+"trefethen-bau"
+],
+"curriculum": "numerical-analysis"
+},
 "43.02.01": {
+"books": [
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
+"43.02.02": {
 "books": [
 "suli-mayers"
 ],
@@ -12309,7 +12321,27 @@
 "books": [],
 "curriculum": "fast-track"
 },
+"43.06.02": {
+"books": [],
+"curriculum": "fast-track"
+},
+"43.06.04": {
+"books": [],
+"curriculum": "fast-track"
+},
 "43.08.01": {
+"books": [
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
+"43.08.02": {
+"books": [
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
+"43.08.05": {
 "books": [
 "suli-mayers"
 ],
@@ -12319,6 +12351,12 @@
 "books": [
 "leveque",
 "suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
+"43.10.02": {
+"books": [
+"leveque"
 ],
 "curriculum": "numerical-analysis"
 }
