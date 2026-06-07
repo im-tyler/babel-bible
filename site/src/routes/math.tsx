@@ -18,8 +18,12 @@ export async function loader() {
     sectionCounts.set(u.data.section, (sectionCounts.get(u.data.section) || 0) + 1);
   });
 
-  const lenses = (lensData as any).lenses
-    .filter((l: any) => l.id !== "all")
+  const allLenses = (lensData as any).lenses;
+  const pureMath = allLenses.find((l: any) => l.id === "pure-math");
+  const lenses = allLenses
+    // "all" is math+physics and "pure-math" is promoted to the headline "All
+    // mathematics" card below — drop both from the per-field grid to avoid duplicates.
+    .filter((l: any) => l.id !== "all" && l.id !== "pure-math")
     .map((l: any) => ({
       id: l.id,
       label: l.label,
@@ -29,6 +33,7 @@ export async function loader() {
 
   return {
     unitCount: mathUnits.length,
+    pureMathCount: pureMath ? pureMath.counts.total : mathUnits.length,
     lenses,
     sections: Array.from(sectionCounts.entries())
       .map(([key, count]) => ({ key, label: sectionLabel(key), count }))
@@ -56,9 +61,9 @@ export default function MathLanding({ data }: { data: any }) {
           belongs to it.
         </p>
         <div class="hub-grid">
-          <a href="/units" class="hub-card">
-            <div class="hub-card-name">Everything</div>
-            <div class="hub-card-meta">The whole corpus, unfiltered.</div>
+          <a href="/units?lens=pure-math" class="hub-card">
+            <div class="hub-card-name">All mathematics</div>
+            <div class="hub-card-meta">Every math unit, in learnable order — other subjects hidden. · {data.pureMathCount} units</div>
           </a>
           {data.lenses.map((l: any) => (
             <a href={`/units?lens=${l.id}`} class="hub-card">
