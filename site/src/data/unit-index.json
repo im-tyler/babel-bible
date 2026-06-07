@@ -47682,5 +47682,57 @@
 "master"
 ],
 "title": "Von Neumann stability analysis and the CFL condition"
+},
+"43.11.04": {
+"area": "math",
+"books": [
+"leveque"
+],
+"chapter": "11-finite-difference-pdes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.11.04",
+"prereqs": [
+"43.11.03",
+"43.11.02",
+"02.13.04",
+"02.18.06"
+],
+"section": "numerical-analysis",
+"slug": "hyperbolic-fd-upwind-lax-wendroff-diffusion-dispersion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hyperbolic finite differences: upwind, Lax-Friedrichs, Lax-Wendroff; numerical diffusion and dispersion"
+},
+"43.11.05": {
+"area": "math",
+"books": [
+"leveque"
+],
+"chapter": "11-finite-difference-pdes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.11.05",
+"prereqs": [
+"43.11.03",
+"43.11.02"
+],
+"section": "numerical-analysis",
+"slug": "lax-equivalence-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Lax-Richtmyer equivalence theorem for finite-difference schemes"
 }
 }

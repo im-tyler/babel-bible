@@ -12521,5 +12521,17 @@
 "leveque"
 ],
 "curriculum": "numerical-analysis"
+},
+"43.11.04": {
+"books": [
+"leveque"
+],
+"curriculum": "numerical-analysis"
+},
+"43.11.05": {
+"books": [
+"leveque"
+],
+"curriculum": "numerical-analysis"
 }
 }

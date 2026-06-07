@@ -32684,6 +32684,22 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "43.11.04": {
+      "id": "43.11.04",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.11.05": {
+      "id": "43.11.05",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],
