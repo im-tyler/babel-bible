@@ -16204,3 +16204,38 @@ The decision problem for first-order logic and theories: the Entscheidungsproble
 - **prerequisites**: `42.02.05` (quantifier elimination and model-completeness — the QE that makes ACF strongly minimal, the running rank-1 example this unit's dimension theory abstracts)
 - **tier_anchors**: Marker 2002 *Model Theory: An Introduction* Ch. 5-6; Tent and Ziegler 2012 *A Course in Model Theory* (LNL 40) Ch. 5-8; Pillay 1996 *Geometric Stability Theory* (Oxford Logic Guides 32); Shelah 1990 *Classification Theory* 2e; Hrushovski 1996 *The Mordell-Lang conjecture for function fields* (J. AMS 9)
 - **notes**: The capstone of model theory: stability theory replaces categoricity with a fine geometry of independence and dimension on definable sets. STRONGLY MINIMAL SETS (every definable subset finite or cofinite — the model-theoretic line; ACF, vector spaces, the pure infinite set). The algebraic-closure PREGEOMETRY/matroid with the Steinitz EXCHANGE property, independence, BASIS and DIMENSION (= transcendence degree for ACF, linear dimension for vector spaces; powers Baldwin-Lachlan, cross-ref 42.02.06). MORLEY RANK (Cantor-Bendixson rank of the type space) and Morley degree; strong minimality = RM 1, degree 1; additivity of rank (Lascar) in ω-stable theories. STABILITY by type-counting (ω-stable/superstable/stable), the ORDER PROPERTY and Shelah's unstable/stable dichotomy ((ℝ,<) and arithmetic unstable; ACF, modules, free groups stable). FORKING and the abstract independence calculus (symmetry, transitivity, local character, nonforking extensions, canonical bases) generalizing algebraic and linear independence. The ZILBER TRICHOTOMY (disintegrated / locally modular / field-like), Zilber's conjecture and the HRUSHOVSKI CONSTRUCTION refutation; Zariski geometries. SHELAH'S MAIN GAP and the dividing lines (stable, superstable, NIP, simple). Applications: Hrushovski's Mordell-Lang for function fields, model theory of differential/difference fields. Cross-refs strong minimality/QE 42.02.05, categoricity/dimension 42.02.06 (co-produced, consumes the dimension theory), types/Stone space 42.02.03, o-minimality as parallel tame world 42.02.08, structures/embeddings 42.02.01. Lean status none: Mathlib has the CompleteType Stone space and FirstOrder.Language definable-set API but no IsStronglyMinimal/exchange pregeometry, Morley rank/degree/additivity, the type-counting stability spectrum and order-property dichotomy, the forking/dividing independence calculus with canonical bases, the Zilber trichotomy/Hrushovski construction, or the main-gap dividing lines — the largest single gap in Mathlib.ModelTheory.
+
+### mathematical-logic.sequent-calculus-cut-elimination-consistency
+
+- **title**: Sequent Calculus, Cut-Elimination, and the Consistency of Arithmetic
+- **unit**: `42.05.01`
+- **prerequisites**: `42.01.05` (a deductive calculus for FOL and soundness)
+- **notes**: stub - see unit `42.05.01`. Gentzen's sequent calculus LK, the cut-elimination Hauptsatz and the subformula property, natural-deduction normalization and the Curry-Howard preview, and the ordinal analysis of PA — Gentzen's consistency proof by transfinite induction to epsilon_0, the proof-theoretic ordinal, and the link to the independence results (Goodstein, Paris-Harrington) of `42.01.09`. Lean status none: Mathlib lacks LK, cut-elimination, and ordinal analysis.
+
+### mathematical-logic.indiscernibles-ehrenfeucht-mostowski
+
+- **title**: Indiscernibles and Ehrenfeucht-Mostowski Models
+- **unit**: `42.02.09`
+- **prerequisites**: `42.02.04` (saturation, homogeneity, and monster models)
+- **notes**: stub - see unit `42.02.09`. Order-indiscernible sequences, extraction of indiscernibles from any infinite sequence via Ramsey's theorem (cross-ref `40.05.04`), the Ehrenfeucht-Mostowski functor building a model on any linear order realizing few types and admitting many automorphisms, and the role of indiscernibles/Morley sequences in stability theory (`42.02.07`). Lean status none: Mathlib lacks indiscernible sequences and the EM construction.
+
+### mathematical-logic.club-stationary-fodor
+
+- **title**: Club Sets, Stationary Sets, and Fodor's Lemma
+- **unit**: `42.03.10`
+- **prerequisites**: `42.03.04` (cofinality, cardinal exponentiation, and the SCH)
+- **notes**: stub - see unit `42.03.10`. The closed-unbounded (club) filter on a regular uncountable kappa (kappa-completeness, normality, closure under diagonal intersection), stationary sets and the non-stationary ideal, Fodor's pressing-down lemma, and Solovay's stationary-splitting theorem — the infinite-combinatorics layer beneath Silver's theorem (`42.03.04`), diamond (`42.03.06`), and the large-cardinal/forcing-axiom material (`42.03.09`). Lean status none: Mathlib lacks the club filter, stationary sets, and Fodor's lemma.
+
+### mathematical-logic.kolmogorov-complexity-algorithmic-randomness
+
+- **title**: Kolmogorov Complexity and Algorithmic Randomness
+- **unit**: `42.04.08`
+- **prerequisites**: `42.04.04` (Turing reducibility, oracles, and the jump)
+- **notes**: stub - see unit `42.04.08`. Plain (C) and prefix-free (K) Kolmogorov complexity, the invariance theorem and incompressibility, Martin-Lof randomness via effective null sets, the Schnorr-Levin incompressibility characterization, Chaitin's Omega as a left-c.e. ML-random real Turing-equivalent to the halting problem, and the randomness-degrees interface (K-low = low-for-K = low-for-random, Nies-Hirschfeldt-Downey). Lean status none: Mathlib lacks Kolmogorov complexity and algorithmic randomness.
+
+### category-theory.monoidal-categories-coherence
+
+- **title**: Monoidal Categories and Mac Lane's Coherence Theorem
+- **unit**: `41.07.01`
+- **prerequisites**: `41.01.02` (natural transformations, functor categories, and equivalence)
+- **notes**: stub - see unit `41.07.01`. Monoidal categories (tensor, unit, associator/unitors, the pentagon and triangle axioms), monoid objects (recovering rings, algebras, and monads as monoids in End), Mac Lane's coherence theorem (every formal diagram commutes / strictification), monoidal functors and natural transformations, and braided/symmetric monoidal categories (hexagon axioms, the braid group / Yang-Baxter, rigid & compact-closed categories) — the foundation under tensor categories, TQFT, and quantum groups. Lean status none: Mathlib has MonoidalCategory but lacks the coherence theorem and strictification.

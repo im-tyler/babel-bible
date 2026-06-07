@@ -52,4 +52,18 @@ TWO new sections (prefix-25 collides CS+prose-logic, so formal logic gets a fres
 - WAVE 8 (L7-L9 tail): 42.02.04, 42.02.06, 42.02.07, 42.03.09
 
 ## Status
-- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [x] W8  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [x] W8  [x] COMPLETENESS (loop-until-dry)
+
+## Completeness pass (2026-06-07)
+Re-audited all 6 source books against the 46 shipped units. Riehl (41.04/06): DRY. Five firm
+gaps closed (each a standard named topic; two closed dangling forward-refs):
+- 42.05.01 Sequent Calculus, Cut-Elimination & the Consistency of Arithmetic (NEW chapter 42.05
+  proof-theory; 42.01.05 already forward-referenced 42.05.01 — dangling pointer now resolved)
+- 42.02.09 Indiscernibles & Ehrenfeucht-Mostowski Models (Marker Ch. 5; used by stability, was never built)
+- 42.03.10 Club Sets, Stationary Sets & Fodor's Lemma (used by Silver/diamond/proper forcing, was never defined)
+- 42.04.08 Kolmogorov Complexity & Algorithmic Randomness (Soare 2016 / Downey-Hirschfeldt; absent)
+- 41.07.01 Monoidal Categories & Mac Lane's Coherence Theorem (NEW chapter 41.07 monoidal-categories; CWM Ch. VII/XI)
+Spine total: 51 NEW units (46 production + 5 completeness) across sections 41 (13) and 42 (38).
+Below-bar / skipped: imaginaries/T^eq (folded into 42.02.04), reverse mathematics (Simpson-sourced,
+not Soare/this spine), full descriptive set theory & partition calculus (adjacent fields), enriched/
+2-categories & fibrations (Riehl previews them; advanced).

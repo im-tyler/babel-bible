@@ -104,7 +104,7 @@ NEW section `content/40-combinatorics` → full SETUP (§2a 1-7); prefix `40`. N
 - [x] PRODUCE: 54 units, 7 dependency waves → integrate → commit → build_lenses
 - [x] COMPLETENESS: re-audited all 6 books; EC1/vLW/FS DRY, 5 firm gaps closed (40.03.07/08, 40.04.11, 40.07.08/09); converged at 59 units
 
-## Spine 7 — Foundations, Logic & Category Theory  ·  `logic-foundations`  ·  STATUS: in progress (SETUP+AUDIT done 2026-06-06)
+## Spine 7 — Foundations, Logic & Category Theory  ·  `logic-foundations`  ·  STATUS: COMPLETE (51 units, loop-until-dry converged 2026-06-07)
 ⚠️ PREFIX-25 COLLISION (discovered 2026-06-06): `content/25-logic` and `content/25-computer-science`
 BOTH use prefix 25 (ids 25.01.01–25.04.01 duplicated across the two; CS occupies chapters 01–12).
 Extending 25-logic with 25.05+ would collide with CS. RESOLUTION: the formal mathematical-logic
@@ -125,8 +125,8 @@ Category theory currently has only the single `01.02.09` unit — audit against 
 - [x] AUDIT: Soare — *Turing Computability* (computability, the arithmetical hierarchy, degrees)
 - [x] AUDIT: Mac Lane — *Categories for the Working Mathematician* (limits, adjoints, monads, Yoneda depth)
 - [x] AUDIT: Riehl — *Category Theory in Context* (representability, Kan extensions)
-- [ ] PRODUCE: gaps → integrate → commit → build_lenses
-- [ ] COMPLETENESS: re-audit all 6 books vs the grown corpus; loop-until-dry (0 new gaps); log
+- [x] PRODUCE: 46 units, 8 dependency waves (sections 41 + 42) → integrate → commit → build_lenses
+- [x] COMPLETENESS: re-audited all 6 books; Riehl DRY, 5 firm gaps closed (42.05.01 proof theory, 42.02.09 indiscernibles, 42.03.10 club/stationary, 42.04.08 algorithmic randomness, 41.07.01 monoidal); converged at 51 units
 
 ---
 
@@ -145,6 +145,7 @@ Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B →
 mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-07 — Spine 7 (logic-foundations) COMPLETE — **LAST TIER A SPINE**: 51 units across TWO new sections. NEW section 42-mathematical-logic (prefix 42; 4 chapters first-order-logic-completeness/model-theory/set-theory-forcing/computability-degrees + completeness chapter 05-proof-theory = 38 units; Enderton/Marker/Kunen/Soare) AND NEW section 41-category-theory (prefix 41; 6 chapters + completeness chapter 07-monoidal-categories = 13 units; Mac Lane/Riehl). ⚠️ prefix-25 collision (25-logic vs 25-computer-science) forced formal logic onto fresh prefix 42 rather than extending 25-logic. 8 dependency waves (46 units) + 1 completeness round (Riehl DRY; 5 gaps: proof-theory 42.05.01 [closed a dangling fwd-ref from 42.01.05], indiscernibles 42.02.09, club/stationary/Fodor 42.03.10, algorithmic randomness 42.04.08, monoidal categories 41.07.01). Greenfield; deepens the elementary 24/25-logic + the 01.02.09 category survey; cross-refs Ramsey 40.05.04, ordinals/epsilon_0, Nullstellensatz 04.02.07, CS complexity 25.03.01, number theory 21.01.08 (MRDP). math area +51. **ALL TIER A COMPLETE (spines 1-7). NEXT = Tier B HUMAN GATE — STOP and ask before spines 8-12.**
 - 2026-06-06 — Spine 6 (combinatorics) COMPLETE: 59 units, NEW section 40 (8 chapters: enumeration-GF/posets-lattices/symmetric-functions-rsk/graph-theory-core/extremal-ramsey/design-coding-theory/probabilistic-method/analytic-combinatorics). Stanley EC1+EC2/Diestel/van-Lint-Wilson/Alon-Spencer/Flajolet-Sedgewick. 7 dependency waves (54 units) + 1 completeness round (EC1/vLW/FS DRY; 5 gaps closed: plane-partitions/MacMahon 40.03.07, QSym 40.03.08, Hamilton cycles 40.04.11, discrepancy 40.07.08, Rödl nibble 40.07.09). Greenfield; cross-refs to rep-theory S_n 07.05.*, finite fields 21.02.01, complex analysis 06.01.*, probability 37.*, partitions/circle-method 21.16.*. Orphan matrix-tree/Cayley/Lagrange folded into enumeration as 40.01.07. math area +59. Next: Spine 7 (logic-foundations) — LAST Tier A spine.
 - 2026-06-06 — Spine 5 (operator-algebras) COMPLETE: 34 units, NEW section 39 (7 chapters: c-star-basics/af-k-theory/von-neumann/tomita-takesaki/nuclearity-exactness/spectral-triples-ncg/cyclic-cohomology). Davidson/Takesaki/Brown-Ozawa/Connes. 7 dependency waves + 1 completeness round (Davidson/Takesaki/Connes DRY; Brown-Ozawa one gap → 39.05.10 exact groups/property A; 39.05.11 amenable traces skipped as below-bar). Operator K-theory kept distinct from topological K-theory 03.08; analytic cyclic cohomology cross-refs algebraic 04.03.22; local index formula cross-refs Atiyah-Singer 03.09.10. math area +34. Next: Spine 6 (combinatorics, NEW section 40).
 - 2026-06-05 — Spine 4 (dynamics) COMPLETE: 24 units, NEW section 38 (7 chapters: topological/symbolic/hyperbolicity/ergodic/mixing-spectral/entropy/smooth-ergodic). Katok-Hasselblatt/Walters/Brin-Stuck. 4 produce waves + 2 completeness rounds (K-H +Livšic, then DRY). Ergodic theorems reused from 37.02.03. math area +24. Next: Spine 5 (operator-algebras, NEW section 39).

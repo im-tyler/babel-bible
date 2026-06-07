@@ -45734,6 +45734,30 @@
 ],
 "title": "Kan Extensions: All Concepts Are Kan Extensions"
 },
+"41.07.01": {
+"area": "math",
+"books": [
+"maclane-cwm"
+],
+"chapter": "monoidal-categories",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.07.01",
+"prereqs": [
+"41.01.02"
+],
+"section": "category-theory",
+"slug": "monoidal-categories-coherence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Monoidal Categories and Mac Lane's Coherence Theorem"
+},
 "42.01.01": {
 "area": "math",
 "books": [
@@ -46162,6 +46186,30 @@
 ],
 "title": "O-Minimality and the Cell Decomposition Theorem"
 },
+"42.02.09": {
+"area": "math",
+"books": [
+"marker-model-theory"
+],
+"chapter": "model-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.02.09",
+"prereqs": [
+"42.02.04"
+],
+"section": "mathematical-logic",
+"slug": "indiscernibles-ehrenfeucht-mostowski",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Indiscernibles and Ehrenfeucht-Mostowski Models"
+},
 "42.03.01": {
 "area": "math",
 "books": [
@@ -46376,6 +46424,30 @@
 ],
 "title": "Martin's Axiom, Iterated Forcing, and Large Cardinals"
 },
+"42.03.10": {
+"area": "math",
+"books": [
+"kunen-set-theory"
+],
+"chapter": "set-theory-forcing",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.03.10",
+"prereqs": [
+"42.03.04"
+],
+"section": "mathematical-logic",
+"slug": "club-stationary-fodor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Club Sets, Stationary Sets, and Fodor's Lemma"
+},
 "42.04.01": {
 "area": "math",
 "books": [
@@ -46541,5 +46613,53 @@
 "master"
 ],
 "title": "Unsolvable Problems: the Word Problem and Hilbert's Tenth"
+},
+"42.04.08": {
+"area": "math",
+"books": [
+"soare-computability"
+],
+"chapter": "computability-degrees",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.04.08",
+"prereqs": [
+"42.04.04"
+],
+"section": "mathematical-logic",
+"slug": "kolmogorov-complexity-algorithmic-randomness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kolmogorov Complexity and Algorithmic Randomness"
+},
+"42.05.01": {
+"area": "math",
+"books": [
+"takeuti-proof-theory"
+],
+"chapter": "proof-theory",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.05.01",
+"prereqs": [
+"42.01.05"
+],
+"section": "mathematical-logic",
+"slug": "sequent-calculus-cut-elimination-consistency",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sequent Calculus, Cut-Elimination, and the Consistency of Arithmetic"
 }
 }

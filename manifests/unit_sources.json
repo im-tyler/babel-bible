@@ -12053,6 +12053,12 @@
 ],
 "curriculum": "logic-foundations"
 },
+"41.07.01": {
+"books": [
+"maclane-cwm"
+],
+"curriculum": "logic-foundations"
+},
 "42.01.01": {
 "books": [
 "enderton-logic"
@@ -12161,6 +12167,12 @@
 ],
 "curriculum": "logic-foundations"
 },
+"42.02.09": {
+"books": [
+"marker-model-theory"
+],
+"curriculum": "logic-foundations"
+},
 "42.03.01": {
 "books": [
 "kunen-set-theory"
@@ -12215,6 +12227,12 @@
 ],
 "curriculum": "logic-foundations"
 },
+"42.03.10": {
+"books": [
+"kunen-set-theory"
+],
+"curriculum": "logic-foundations"
+},
 "42.04.01": {
 "books": [
 "soare-computability"
@@ -12254,6 +12272,18 @@
 "42.04.07": {
 "books": [
 "soare-computability"
+],
+"curriculum": "logic-foundations"
+},
+"42.04.08": {
+"books": [
+"soare-computability"
+],
+"curriculum": "logic-foundations"
+},
+"42.05.01": {
+"books": [
+"takeuti-proof-theory"
 ],
 "curriculum": "logic-foundations"
 }
