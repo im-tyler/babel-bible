@@ -46894,6 +46894,31 @@
 ],
 "title": "Perturbation theory and a posteriori error for linear systems"
 },
+"43.03.08": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "03-direct-linear-solvers",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.03.08",
+"prereqs": [
+"43.03.02",
+"43.03.01"
+],
+"section": "numerical-analysis",
+"slug": "bunch-kaufman-symmetric-indefinite-ldlt",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Symmetric-indefinite factorisation: the Bunch-Kaufman LDL\u1d40 algorithm"
+},
 "43.04.01": {
 "area": "math",
 "books": [
@@ -47016,6 +47041,59 @@
 ],
 "title": "Bauer-Fike and the conditioning of eigenvalues"
 },
+"43.06.10": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "06-eigenvalue-algorithms",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.06.10",
+"prereqs": [
+"43.06.03",
+"01.01.08",
+"01.01.13",
+"01.01.19"
+],
+"section": "numerical-analysis",
+"slug": "generalised-eigenproblem-qz-algorithm",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The generalised eigenvalue problem Ax=\u03bbBx and the QZ algorithm"
+},
+"43.06.11": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "06-eigenvalue-algorithms",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.06.11",
+"prereqs": [
+"43.06.03",
+"02.06.03",
+"01.01.11"
+],
+"section": "numerical-analysis",
+"slug": "matrix-functions-matrix-exponential",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computing matrix functions: the matrix exponential"
+},
 "43.07.01": {
 "area": "math",
 "books": [
@@ -47040,6 +47118,32 @@
 "master"
 ],
 "title": "Stationary iterative methods: Jacobi, Gauss-Seidel, SOR"
+},
+"43.07.02": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "07-iterative-krylov-methods",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.07.02",
+"prereqs": [
+"01.01.08",
+"01.01.09",
+"43.06.02"
+],
+"section": "numerical-analysis",
+"slug": "arnoldi-lanczos-iterations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Arnoldi and Lanczos iterations"
 },
 "43.08.01": {
 "area": "math",
@@ -47217,6 +47321,31 @@
 ],
 "title": "Composite rules, Euler-Maclaurin, and Romberg / adaptive quadrature"
 },
+"43.09.03": {
+"area": "math",
+"books": [
+"suli-mayers"
+],
+"chapter": "09-numerical-quadrature",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.09.03",
+"prereqs": [
+"43.09.01",
+"43.08.05"
+],
+"section": "numerical-analysis",
+"slug": "gauss-quadrature-orthogonal-polynomials",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gauss quadrature via orthogonal polynomials"
+},
 "43.10.01": {
 "area": "math",
 "books": [
@@ -47323,6 +47452,31 @@
 "master"
 ],
 "title": "Absolute stability, stability regions, and the linear test equation"
+},
+"43.10.05": {
+"area": "math",
+"books": [
+"leveque"
+],
+"chapter": "numerical-odes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.10.05",
+"prereqs": [
+"43.10.04",
+"43.10.03"
+],
+"section": "numerical-analysis",
+"slug": "stiffness-a-stability-dahlquist-second-barrier",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stiff equations, A-stability, and the Dahlquist second barrier"
 },
 "43.11.01": {
 "area": "math",

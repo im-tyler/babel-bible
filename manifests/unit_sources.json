@@ -12341,6 +12341,12 @@
 ],
 "curriculum": "numerical-analysis"
 },
+"43.03.08": {
+"books": [
+"golub-van-loan"
+],
+"curriculum": "numerical-analysis"
+},
 "43.04.01": {
 "books": [
 "trefethen-bau"
@@ -12365,7 +12371,25 @@
 "books": [],
 "curriculum": "fast-track"
 },
+"43.06.10": {
+"books": [
+"golub-van-loan"
+],
+"curriculum": "numerical-analysis"
+},
+"43.06.11": {
+"books": [
+"golub-van-loan"
+],
+"curriculum": "numerical-analysis"
+},
 "43.07.01": {
+"books": [
+"trefethen-bau"
+],
+"curriculum": "numerical-analysis"
+},
+"43.07.02": {
 "books": [
 "trefethen-bau"
 ],
@@ -12413,6 +12437,12 @@
 ],
 "curriculum": "numerical-analysis"
 },
+"43.09.03": {
+"books": [
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
 "43.10.01": {
 "books": [
 "leveque",
@@ -12433,6 +12463,12 @@
 "curriculum": "numerical-analysis"
 },
 "43.10.04": {
+"books": [
+"leveque"
+],
+"curriculum": "numerical-analysis"
+},
+"43.10.05": {
 "books": [
 "leveque"
 ],
