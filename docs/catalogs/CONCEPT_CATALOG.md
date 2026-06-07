@@ -16239,3 +16239,46 @@ The decision problem for first-order logic and theories: the Entscheidungsproble
 - **unit**: `41.07.01`
 - **prerequisites**: `41.01.02` (natural transformations, functor categories, and equivalence)
 - **notes**: stub - see unit `41.07.01`. Monoidal categories (tensor, unit, associator/unitors, the pentagon and triangle axioms), monoid objects (recovering rings, algebras, and monads as monoids in End), Mac Lane's coherence theorem (every formal diagram commutes / strictification), monoidal functors and natural transformations, and braided/symmetric monoidal categories (hexagon axioms, the braid group / Yang-Baxter, rigid & compact-closed categories) — the foundation under tensor categories, TQFT, and quantum groups. Lean status none: Mathlib has MonoidalCategory but lacks the coherence theorem and strictification.
+
+### numerical-analysis.power-inverse-rayleigh-quotient-iteration
+
+- **title**: Power iteration, inverse iteration, and Rayleigh quotient iteration
+- **unit**: `43.06.01`
+- **prerequisites**: `linear-algebra.rayleigh-quotient-courant-fischer`, `01.01.08` (eigenvalue/eigenvector)
+- **notes**: The first eigenvalue *algorithms* (root unit of chapter 43.06). Power iteration $x_{k+1}=Ax_k/\|Ax_k\|$ converges to the dominant eigenpair at the linear rate $|\lambda_2/\lambda_1|$ (proof via eigenbasis expansion $A^kx_0=\sum_i c_i\lambda_i^k u_i$), with the Rayleigh quotient as the optimal eigenvalue estimate and quadratic eigenvalue-error sharpening in the self-adjoint case; inverse iteration with a shift $\mu$ is power iteration on $(A-\mu I)^{-1}$ and converges to the eigenvalue nearest $\mu$ at rate $|\lambda_J-\mu|/\delta$ (Wielandt 1944; Wilkinson's accuracy-despite-ill-conditioning analysis); Rayleigh quotient iteration feeds the current Rayleigh quotient back as the shift, giving cubic local convergence for symmetric matrices (quadratic in general, Parlett); plus deflation and shifted/polynomial spectral relocation as the bridge to the QR algorithm (43.06.03) and Krylov methods (43.07). Lean status none: Mathlib has the static spectral infrastructure but no iterative eigenvalue algorithms or their convergence-rate theorems.
+
+### numerical-analysis.floating-point-arithmetic-ieee-model
+
+- **title**: Floating-point arithmetic and the IEEE model
+- **unit**: `43.01.01`
+- **prerequisites**: `00.01.01` (real numbers), `25.03.01` (algorithmic complexity / big-O)
+- **notes**: stub - see unit `43.01.01`. The floating-point number system F(β,p,e_min,e_max) ⊂ ℝ (normalized significand/exponent, IEEE-754 binary32/binary64), unit roundoff u = ½β^(1−p) and machine epsilon, the rounding map fl(x) = x(1+δ) with |δ| ≤ u and the fundamental axiom fl(a op b) = (a op b)(1+δ) for the four arithmetic operations under correct rounding, the IEEE rounding modes, overflow/underflow/subnormals/gradual-underflow and NaN/signed-zero, catastrophic cancellation as a conditioning (not rounding) phenomenon, and the accumulated-rounding theorem for recursive summation (the γ_n = (n−1)u/(1−(n−1)u) backward-error bound), with Sterbenz's lemma, Kahan compensated summation, and the dot-product backward-error bound. The conceptual root of chapter 43.01; the numerical substrate of every later stability theorem. Lean status none: Mathlib lacks the floating-point number system as a reasoned-about subset of ℝ, the correctly-rounded rounding map, the standard model with the proven |δ| ≤ u bound, and the summation/dot-product error theorems (the Flocq-in-Coq layer).
+
+### numerical-analysis.bisection-scalar-root-problem
+
+- **title**: The Bisection Method and the Scalar Root-Finding Problem
+- **unit**: `43.02.01`
+- **prerequisites**: `02.01.05` (metric space + Banach fixed-point), `02.05.02` (mean value theorem / Taylor-Lagrange remainder)
+- **notes**: stub - see unit `43.02.01`. The scalar root-finding problem $f(x)=0$ for continuous $f$; bracketing via the intermediate value theorem; the bisection algorithm, its guaranteed convergence and the a-priori error bound $(b-a)/2^{n+1}$; the iteration count for a tolerance; linear convergence of order $p=1$ with rate $1/2$; robustness-vs-slowness; worst-case optimality in the sign-evaluation model; the order-of-convergence framing the rest of chapter 43.02 (fixed-point, Newton) builds on; finite-precision accuracy floor (forward cross-ref to Trefethen 43.01). Lean status none: Mathlib has the IVT but not bisection as a verified numerical method with the error bound and iteration-count lemma.
+
+### numerical-analysis.conditioning-condition-numbers
+
+- **title**: Conditioning and condition numbers of problems
+- **unit**: `43.01.02`
+- **prerequisites**: `01.01.12` (SVD, kappa=sigma_1/sigma_n), `02.05.03` (multivariable chain rule / Jacobian)
+- **notes**: stub - see unit `43.01.02`. A problem as a map $f:X\to Y$; the absolute condition number $\hat\kappa=\|J(x)\|$ and relative condition number $\kappa=\|J(x)\|\,\|x\|/\|f(x)\|$ via the Jacobian; the condition number of matrix-vector multiplication $\|A\|\|x\|/\|Ax\|$ and of the linear system $Ax=b$ with the matrix condition number $\kappa(A)=\|A\|\|A^{-1}\|=\sigma_1/\sigma_n$; reciprocal condition number as relative distance to singularity (Eckart-Young); componentwise / Bauer-Skeel conditioning; conditioning of polynomial roots (Wilkinson's polynomial) and of eigenvalues ($1/|y^*x|$, Bauer-Fike); ill-conditioning vs ill-posedness; conditioning as a property of the problem independent of any algorithm (distinct from stability, 43.01.03). Originators: Turing 1948 (matrix condition number), von Neumann-Goldstine 1947, Wilkinson 1963-65 (conditioning vs stability, Wilkinson polynomial), Higham 2002 (componentwise theory). Lean status none: Mathlib has matrix/operator norms and partial SVD but no conditioning theory (no condition-number definition, no $\kappa(A)=\sigma_1/\sigma_n$ theorem, no linear-system sensitivity bound).
+
+### numerical-analysis.polynomial-interpolation-lagrange
+
+- **title**: Polynomial interpolation: existence, uniqueness, and the Lagrange form
+- **unit**: `43.08.01`
+- **prerequisites**: `01.01.09` (Gram-Schmidt / finite-dim inner-product space), `02.05.02` (MVT + Taylor-Lagrange remainder)
+- **notes**: stub - see unit `43.08.01`. Root unit for chapter 43.08 (Suli-Mayers Ch. 6). The interpolation problem: match n+1 data (x_i, f_i) at distinct nodes with a degree-<=n polynomial. Existence-and-uniqueness (unisolvence) via the Vandermonde determinant det V = prod_{i<j}(x_j - x_i) and the too-many-roots argument; the evaluation map Pi_n -> F^(n+1) as a linear isomorphism. The Lagrange cardinal basis L_k (L_k(x_i) = delta_ki), the Lagrange interpolation formula, and the cardinal partition of unity sum L_k = 1. The Newton divided-difference form, the recurrence f[x_i..x_{i+k}] = (f[x_{i+1}..] - f[..x_{i+k-1}])/(x_{i+k} - x_i), the leading-coefficient identity [x^n]p_n = f[x_0..x_n], and O(n) incremental add-a-node construction. The barycentric weights w_k = 1/ell'(x_k) and the second (true) barycentric form as the numerically stable representation (Berrut-Trefethen 2004, Higham 2004). Equivalence of the three forms as bases of Pi_n; the node polynomial ell(x) = prod(x - x_i) threading error (43.08.02), splines (43.08.03), Chebyshev nodes (43.08.04), and quadrature (43.09). Lean status none: Mathlib has Lagrange.interpolate and Matrix.det_vandermonde but not the unisolvence-both-ways theorem, the divided-difference recurrence as a verified incremental update, or the equivalence of the Lagrange/Newton/barycentric forms.
+
+
+### numerical-analysis.one-step-methods-euler-runge-kutta
+
+- **title**: One-step methods: Euler, trapezoidal, Runge-Kutta; consistency and order
+- **unit**: `43.10.01`
+- **prerequisites**: `02.12.01` (phase space / vector field / IVP, Picard-Lindelöf existence-uniqueness), `02.06.03` (systems of linear ODE, matrix exponential), `02.05.05` (multivariable Taylor)
+- **notes**: stub - see unit `43.10.01`. The initial-value problem y'=f(t,y), y(t_0)=y_0 and the general one-step map u^{n+1}=u^n+h*Phi(t_n,u^n,h); forward (explicit) and backward (implicit) Euler, the trapezoidal and implicit-midpoint rules; the explicit Runge-Kutta family with its Butcher tableau (A,b,c) and the classical RK4. Local truncation error tau^n as the exact-solution residual, consistency (tau->0) and order p via Taylor matching; the convergence theorem for one-step methods (global error O(h^p) from consistency plus a Lipschitz/discrete-Gronwall stability bound), cross-referencing Picard-Lindelöf existence-uniqueness (02.12.01). RK order conditions / Butcher rooted-tree barriers, implicit RK / Gauss collocation (order 2s), global-error expansion and Richardson extrapolation, and the A-stability obstruction for explicit methods at a high level. Root unit for chapter 43.10 (multistep 43.10.02, zero-stability/Dahlquist 43.10.03, absolute stability 43.10.04, stiffness 43.10.05 are downstream). Lean status none: Mathlib has Picard-Lindelöf and Gronwall but not the discretisation layer (one-step map, LTE/order, discrete-Gronwall convergence, RK order conditions).

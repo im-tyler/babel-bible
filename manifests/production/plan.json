@@ -32364,6 +32364,54 @@
         "[",
         "]"
       ]
+    },
+    "43.01.01": {
+      "id": "43.01.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.01.02": {
+      "id": "43.01.02",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.02.01": {
+      "id": "43.02.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.06.01": {
+      "id": "43.06.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.08.01": {
+      "id": "43.08.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.10.01": {
+      "id": "43.10.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],

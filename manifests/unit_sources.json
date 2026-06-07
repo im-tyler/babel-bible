@@ -12286,5 +12286,40 @@
 "takeuti-proof-theory"
 ],
 "curriculum": "logic-foundations"
+},
+"43.01.01": {
+"books": [
+"trefethen-bau"
+],
+"curriculum": "numerical-analysis"
+},
+"43.01.02": {
+"books": [
+"trefethen-bau"
+],
+"curriculum": "numerical-analysis"
+},
+"43.02.01": {
+"books": [
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
+"43.06.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"43.08.01": {
+"books": [
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
+},
+"43.10.01": {
+"books": [
+"leveque",
+"suli-mayers"
+],
+"curriculum": "numerical-analysis"
 }
 }
