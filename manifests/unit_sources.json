@@ -12419,6 +12419,12 @@
 ],
 "curriculum": "numerical-analysis"
 },
+"43.07.05": {
+"books": [
+"trefethen-bau"
+],
+"curriculum": "numerical-analysis"
+},
 "43.08.01": {
 "books": [
 "suli-mayers"
@@ -12505,6 +12511,12 @@
 "curriculum": "numerical-analysis"
 },
 "43.11.02": {
+"books": [
+"leveque"
+],
+"curriculum": "numerical-analysis"
+},
+"43.11.03": {
 "books": [
 "leveque"
 ],
