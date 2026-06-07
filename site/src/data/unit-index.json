@@ -47144,6 +47144,33 @@
 ],
 "title": "Computing matrix functions: the matrix exponential"
 },
+"43.06.12": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "06-eigenvalue-algorithms",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.06.12",
+"prereqs": [
+"43.06.03",
+"01.01.08",
+"02.06.03",
+"02.12.08"
+],
+"section": "numerical-analysis",
+"slug": "sylvester-lyapunov-bartels-stewart",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sylvester and Lyapunov matrix equations: the Bartels-Stewart algorithm"
+},
 "43.07.01": {
 "area": "math",
 "books": [
@@ -47603,6 +47630,33 @@
 "master"
 ],
 "title": "Stiff equations, A-stability, and the Dahlquist second barrier"
+},
+"43.10.06": {
+"area": "math",
+"books": [
+"leveque",
+"suli-mayers"
+],
+"chapter": "10-numerical-odes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.10.06",
+"prereqs": [
+"43.10.01",
+"43.02.03",
+"43.03.01"
+],
+"section": "numerical-analysis",
+"slug": "two-point-boundary-value-problems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Finite-difference methods for two-point boundary-value problems"
 },
 "43.11.01": {
 "area": "math",

@@ -12395,6 +12395,12 @@
 ],
 "curriculum": "numerical-analysis"
 },
+"43.06.12": {
+"books": [
+"golub-van-loan"
+],
+"curriculum": "numerical-analysis"
+},
 "43.07.01": {
 "books": [
 "trefethen-bau"
@@ -12501,6 +12507,13 @@
 "43.10.05": {
 "books": [
 "leveque"
+],
+"curriculum": "numerical-analysis"
+},
+"43.10.06": {
+"books": [
+"leveque",
+"suli-mayers"
 ],
 "curriculum": "numerical-analysis"
 },

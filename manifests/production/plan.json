@@ -32700,6 +32700,22 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "43.06.12": {
+      "id": "43.06.12",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.10.06": {
+      "id": "43.10.06",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],
