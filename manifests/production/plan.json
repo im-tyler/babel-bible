@@ -32628,6 +32628,46 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "43.04.08": {
+      "id": "43.04.08",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.05.08": {
+      "id": "43.05.08",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.07.03": {
+      "id": "43.07.03",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.07.04": {
+      "id": "43.07.04",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "43.11.02": {
+      "id": "43.11.02",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],

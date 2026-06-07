@@ -46945,6 +46945,56 @@
 ],
 "title": "Least squares: normal equations vs QR vs SVD conditioning"
 },
+"43.04.08": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "04-least-squares-qr",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.04.08",
+"prereqs": [
+"43.04.01",
+"43.03.02"
+],
+"section": "numerical-analysis",
+"slug": "updating-downdating-factorisations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Updating and downdating matrix factorisations"
+},
+"43.05.08": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "05-svd-low-rank",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.05.08",
+"prereqs": [
+"43.04.01",
+"01.01.12"
+],
+"section": "numerical-analysis",
+"slug": "total-least-squares-generalised-svd",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Total least squares and the generalised SVD"
+},
 "43.06.01": {
 "area": "math",
 "books": [],
@@ -47144,6 +47194,56 @@
 "master"
 ],
 "title": "Arnoldi and Lanczos iterations"
+},
+"43.07.03": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "07-iterative-krylov-methods",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.07.03",
+"prereqs": [
+"43.07.02",
+"43.04.01"
+],
+"section": "numerical-analysis",
+"slug": "gmres",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "GMRES"
+},
+"43.07.04": {
+"area": "math",
+"books": [
+"trefethen-bau"
+],
+"chapter": "07-iterative-krylov-methods",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.07.04",
+"prereqs": [
+"43.07.02",
+"43.01.02"
+],
+"section": "numerical-analysis",
+"slug": "conjugate-gradient-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The conjugate gradient method"
 },
 "43.08.01": {
 "area": "math",
@@ -47504,5 +47604,31 @@
 "master"
 ],
 "title": "Finite differences for the elliptic BVP: the 5-point Laplacian and its convergence"
+},
+"43.11.02": {
+"area": "math",
+"books": [
+"leveque"
+],
+"chapter": "11-finite-difference-pdes",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.11.02",
+"prereqs": [
+"43.11.01",
+"43.10.05",
+"02.13.03"
+],
+"section": "numerical-analysis",
+"slug": "method-of-lines-parabolic-stability",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The method of lines and stability for parabolic problems"
 }
 }
