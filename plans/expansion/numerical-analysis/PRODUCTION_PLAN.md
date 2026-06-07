@@ -52,4 +52,22 @@ spine unifies with it under one "Numerical Analysis" lens). 42 NEW units across 
 - WAVE 8 (L7 tail): 43.11.04, 43.11.05
 
 ## Status
-- [ ] W1  [ ] W2  [ ] W3  [ ] W4  [ ] W5  [ ] W6  [ ] W7  [ ] W8  [ ] COMPLETENESS (loop-until-dry)
+- [x] W1  [x] W2  [x] W3  [x] W4  [x] W5  [x] W6  [x] W7  [x] W8  [x] COMPLETENESS (loop-until-dry, 2 rounds)
+
+## Completeness pass (2026-06-07)
+Re-audited all 4 books against the 42 shipped units (round 1). Trefethen-Bau DRY immediately
+(all 40 lectures map to shipped 43.* or the deep 01.01.09/12/14 linear-algebra core). Two firm
+gaps closed:
+- 43.06.12 Sylvester & Lyapunov matrix equations / the Bartels-Stewart algorithm (Golub-Van Loan;
+  the general dense solver + vec/Kronecker form + Hammarling + control-Gramian application — the
+  solvability proposition was already in 43.06.11, cross-ref'd not reproved)
+- 43.10.06 Finite-difference methods for two-point boundary-value problems (LeVeque Ch.2 / Süli
+  Ch.13; shooting + 1-D tridiagonal FD with discrete max principle — the 1-D ODE-BVP precursor to
+  the 2-D 5-point Laplacian 43.11.01; raised by BOTH the Süli and LeVeque re-audits, deduped to one
+  LeVeque-owned unit)
+Round 2 re-audit (GVL after Sylvester; LeVeque+Süli after the BVP unit): DRY, 0 new gaps — converged.
+Spine total: 44 NEW units (42 production + 2 completeness) in section 43-numerical-analysis.
+Below-bar / out-of-scope (re-confirmed): Jacobi/bisection eigensolvers (theorem-free variants of the
+shipped shifted-QR), algebraic Riccati equation (control machinery, no corpus anchor), banded/sparse/
+Toeplitz direct methods, multigrid/finite-volume/TVD-WENO/spectral methods (LeVeque's other book /
+Trefethen spectral), RK B-series.
