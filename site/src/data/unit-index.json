@@ -48104,6 +48104,32 @@
 ],
 "title": "Quasi-Newton Methods: BFGS, DFP, and SR1"
 },
+"44.03.05": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.05",
+"prereqs": [
+"44.03.04",
+"43.07.04",
+"44.03.08"
+],
+"section": "optimization-control",
+"slug": "l-bfgs-truncated-newton-cg",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Limited-Memory L-BFGS and Inexact (Truncated) Newton-CG"
+},
 "44.03.06": {
 "area": "math",
 "books": [
@@ -48205,6 +48231,82 @@
 ],
 "title": "Active-Set Methods for Quadratic Programming"
 },
+"44.04.02": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "04-constrained-nonlinear",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.04.02",
+"prereqs": [
+"44.02.02",
+"44.02.01"
+],
+"section": "optimization-control",
+"slug": "penalty-augmented-lagrangian",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Penalty and Augmented-Lagrangian Methods"
+},
+"44.04.03": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "04-constrained-nonlinear",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.04.03",
+"prereqs": [
+"44.04.01",
+"44.02.02",
+"44.03.03"
+],
+"section": "optimization-control",
+"slug": "sequential-quadratic-programming",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sequential Quadratic Programming"
+},
+"44.04.04": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "04-constrained-nonlinear",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.04.04",
+"prereqs": [
+"44.02.02",
+"44.03.03"
+],
+"section": "optimization-control",
+"slug": "interior-point-nonlinear-programming",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Interior-Point Methods for Nonlinear Programming"
+},
 "44.05.01": {
 "area": "math",
 "books": [
@@ -48256,6 +48358,57 @@
 ],
 "title": "Linear-Programming Duality and the Simplex Method"
 },
+"44.05.03": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "05-conic-semidefinite",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.05.03",
+"prereqs": [
+"44.01.01",
+"44.05.01"
+],
+"section": "optimization-control",
+"slug": "geometric-programming",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Geometric Programming"
+},
+"44.05.04": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "05-conic-semidefinite",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.05.04",
+"prereqs": [
+"44.05.01",
+"44.03.03",
+"44.02.01"
+],
+"section": "optimization-control",
+"slug": "interior-point-barrier-central-path",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Interior-Point Methods: The Barrier Method, Central Path, and Primal-Dual Algorithms"
+},
 "44.06.01": {
 "area": "math",
 "books": [
@@ -48305,6 +48458,84 @@
 "master"
 ],
 "title": "The Proximal Operator, Moreau Envelope, and Proximal-Gradient Method"
+},
+"44.06.03": {
+"area": "math",
+"books": [
+"nesterov"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.03",
+"prereqs": [
+"44.06.02",
+"44.06.01"
+],
+"section": "optimization-control",
+"slug": "accelerated-gradient-nesterov-fista",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Accelerated Gradient Methods: Nesterov Acceleration and FISTA"
+},
+"44.06.04": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.04",
+"prereqs": [
+"44.06.02",
+"44.02.03",
+"44.04.02"
+],
+"section": "optimization-control",
+"slug": "admm-douglas-rachford",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Operator Splitting: ADMM and Douglas-Rachford"
+},
+"44.06.05": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.05",
+"prereqs": [
+"44.06.01",
+"44.06.02",
+"44.01.01",
+"37.02.02"
+],
+"section": "optimization-control",
+"slug": "stochastic-gradient-mirror-descent",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stochastic Gradient and Mirror Descent"
 },
 "44.07.01": {
 "area": "math",
