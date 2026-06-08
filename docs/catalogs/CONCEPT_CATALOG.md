@@ -17329,3 +17329,111 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **unit**: `45.07.06`
 - **prerequisites**: `mathematical-statistics.rademacher-complexity` (`45.07.05`)
 - **description**: Margin theory — why large-margin classifiers generalize despite high capacity (Shalev-Shwartz & Ben-David ch 26; Bartlett 1998; Mohri et al.). The margin of a real-valued classifier rho_h(x,y)=y h(x); the ramp/margin loss phi_gamma(t)=min(1,max(0,1-t/gamma)) as a (1/gamma)-Lipschitz surrogate sandwiched between the 0-1 loss and the gamma-margin indicator. The margin generalization bound L_D^{0-1}(h) <= L_S^gamma(h) + (2/gamma) R̂_S(H) + O(sqrt(log(1/delta)/m)) (state+prove via the Ledoux-Talagrand contraction lemma applied to the ramp, cross-ref Rademacher 45.07.05). The dimension-free linear/kernel margin bound O((RB/gamma)^2/m) explaining SVM (cross-ref 45.08.02) and the margin theory of boosting via convex-hull invariance (cross-ref 45.08.06). Covering numbers and the Dudley entropy-integral chaining bound on Rademacher complexity (cross-ref 45.05.04). The fat-shattering dimension fat_gamma(H) as scale-sensitive capacity (fat_gamma <= (RB/gamma)^2 for the linear ball), the scale-sensitive Sauer-Shelah/covering analogue, and why margins beat raw VC dimension. Local Rademacher complexity and fast margin rates. Lean status none.
+
+
+### mathematical-statistics.equivariance-pitman-estimator
+
+- **title**: Equivariance and the Pitman Best-Equivariant Estimator
+- **unit**: `45.01.07`
+- **prerequisites**: `45.01.01` (decision theory: loss, risk, admissibility, minimax, Bayes), `45.01.06` (Rao-Blackwell and Lehmann-Scheffé: UMVU estimation)
+- **notes**: stub - see unit `45.01.07`. The invariance/equivariance principle in estimation (Casella-Berger §7.3.4; Lehmann-Casella ch 3). Invariant decision problems: a transformation group G acting on the sample space with an induced group on the parameter space (model invariance g_*P_theta = P_{ḡtheta}), an invariant loss L(ḡtheta, g̃a)=L(theta,a), and equivariant estimators delta(gx)=g̃delta(x) that commute with the group. Reduction to orbits via the maximal invariant; the risk of an equivariant estimator is constant on orbits (proved by the change of variables x↦gx plus loss invariance), so for a transitively-acting group the minimum-risk equivariant (MRE) estimator minimises a single number. Location equivariance: every location-equivariant rule is delta_0 minus a function of the differences, and the best one (the Pitman estimator) is the conditional mean given the residuals = the integral ratio ∫ u ∏f(x_i-u)du / ∫ ∏f(x_i-u)du, equivalently the posterior mean under the flat right-Haar prior. Scale equivariance and the Pitman scale estimator under the Haar prior d_sigma/sigma. MRE as generalised Bayes under the invariant prior; the Hunt-Stein theorem (amenable group ⟹ best-invariant is minimax) with amenability failing for the high-dimensional translation group, the analytic shadow of Stein's phenomenon. Worked location-scale, exponential-location (Pitman = X_(1) - 1/n), and uniform examples. Distinct from the MLE's functional invariance (cross-ref 45.01.04). Originator: Pitman 1939 (the conditional-mean construction); Hunt-Stein ~1946 (best-invariant minimaxity); Stein 1959 / Brown 1966 (admissibility of the Pitman estimator in one dimension). Lean status none: Mathlib has group actions, orbits, Haar measure, and condexp but no statistical-invariance layer (induced parameter-group model, invariant-loss / equivariant-estimator predicates), so neither the orbit-constancy-of-risk theorem nor the Pitman estimator has a Mathlib statement.
+
+### mathematical-statistics.multiple-testing-fwer-fdr
+
+- **title**: Multiple Testing: Familywise Error, the False Discovery Rate, and Benjamini-Hochberg
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.cube-root-asymptotics
+
+- **title**: Cube-Root Asymptotics and Chernoff's Distribution
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.linear-rank-statistics
+
+- **title**: Linear Rank Statistics and Locally Most Powerful Rank Tests
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.orthogonal-series-wavelet-estimation
+
+- **title**: Orthogonal-Series and Wavelet Density Estimation
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.nonparametric-minimax-lower-bounds
+
+- **title**: Minimax Lower Bounds for Nonparametric Estimation: Le Cam, Fano, and Assouad
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.gaussian-graphical-models-glasso
+
+- **title**: Gaussian Graphical Models and the Graphical LASSO
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.pac-bayes-bounds
+
+- **title**: PAC-Bayes Generalization Bounds
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.sample-compression-schemes
+
+- **title**: Sample Compression Schemes and Compression-Based Generalization
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.k-nearest-neighbors-local-regression
+
+- **title**: k-Nearest-Neighbors and Local Regression
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### mathematical-statistics.generalized-linear-models
+
+- **title**: Generalized Linear Models
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.

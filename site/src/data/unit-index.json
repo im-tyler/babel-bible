@@ -49143,6 +49143,31 @@
 ],
 "title": "Rao-Blackwell and Lehmann-Scheff\u00e9: UMVU Estimation"
 },
+"45.01.07": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.07",
+"prereqs": [
+"45.01.01",
+"45.01.06"
+],
+"section": "mathematical-statistics",
+"slug": "equivariance-pitman-estimator",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Equivariance and the Pitman Best-Equivariant Estimator"
+},
 "45.02.01": {
 "area": "math",
 "books": [
@@ -49242,6 +49267,31 @@
 "master"
 ],
 "title": "Confidence Sets, Pivotal Quantities, and Test-Interval Duality"
+},
+"45.02.05": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "02-hypothesis-testing-confidence",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.02.05",
+"prereqs": [
+"45.02.01",
+"45.02.04"
+],
+"section": "mathematical-statistics",
+"slug": "multiple-testing-fwer-fdr",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Multiple Testing: Familywise Error, the False Discovery Rate, and Benjamini-Hochberg"
 },
 "45.03.01": {
 "area": "math",
@@ -49619,6 +49669,30 @@
 ],
 "title": "Asymptotic Consistency of the Bootstrap"
 },
+"45.04.11": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.11",
+"prereqs": [
+"45.04.04"
+],
+"section": "mathematical-statistics",
+"slug": "cube-root-asymptotics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cube-Root Asymptotics and Chernoff's Distribution"
+},
 "45.05.01": {
 "area": "math",
 "books": [
@@ -49771,6 +49845,80 @@
 "master"
 ],
 "title": "The Functional Delta Method and Hadamard Differentiability"
+},
+"45.05.07": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.07",
+"prereqs": [
+"45.05.05",
+"45.04.07"
+],
+"section": "mathematical-statistics",
+"slug": "linear-rank-statistics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linear Rank Statistics and Locally Most Powerful Rank Tests"
+},
+"45.05.08": {
+"area": "math",
+"books": [
+"wasserman"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.08",
+"prereqs": [
+"45.05.02"
+],
+"section": "mathematical-statistics",
+"slug": "orthogonal-series-wavelet-estimation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Orthogonal-Series and Wavelet Density Estimation"
+},
+"45.05.09": {
+"area": "math",
+"books": [
+"wasserman"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.09",
+"prereqs": [
+"45.05.01",
+"37.07.06"
+],
+"section": "mathematical-statistics",
+"slug": "nonparametric-minimax-lower-bounds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Minimax Lower Bounds for Nonparametric Estimation: Le Cam, Fano, and Assouad"
 },
 "45.06.01": {
 "area": "math",
@@ -50004,6 +50152,31 @@
 ],
 "title": "Model Assessment and Selection: Cp, AIC, BIC, Cross-Validation, and the Bootstrap"
 },
+"45.06.10": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.10",
+"prereqs": [
+"45.06.06",
+"45.06.01"
+],
+"section": "mathematical-statistics",
+"slug": "gaussian-graphical-models-glasso",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gaussian Graphical Models and the Graphical LASSO"
+},
 "45.07.01": {
 "area": "math",
 "books": [
@@ -50177,6 +50350,56 @@
 "master"
 ],
 "title": "Algorithmic Stability and Online Learning"
+},
+"45.07.08": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.08",
+"prereqs": [
+"45.07.05",
+"37.07.06"
+],
+"section": "mathematical-statistics",
+"slug": "pac-bayes-bounds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "PAC-Bayes Generalization Bounds"
+},
+"45.07.09": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.09",
+"prereqs": [
+"45.07.04",
+"45.07.06"
+],
+"section": "mathematical-statistics",
+"slug": "sample-compression-schemes",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sample Compression Schemes and Compression-Based Generalization"
 },
 "45.08.01": {
 "area": "math",
@@ -50428,5 +50651,56 @@
 "master"
 ],
 "title": "Neural Networks: The Multilayer Perceptron and Backpropagation"
+},
+"45.08.11": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.11",
+"prereqs": [
+"26.08.01",
+"45.06.02",
+"45.08.04"
+],
+"section": "mathematical-statistics",
+"slug": "k-nearest-neighbors-local-regression",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "k-Nearest-Neighbors and Local Regression"
+},
+"45.08.12": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.12",
+"prereqs": [
+"45.08.03",
+"45.01.02"
+],
+"section": "mathematical-statistics",
+"slug": "generalized-linear-models",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Generalized Linear Models"
 }
 }
