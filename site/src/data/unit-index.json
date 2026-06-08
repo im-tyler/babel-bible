@@ -47842,6 +47842,57 @@
 ],
 "title": "Carath\u00e9odory's Theorem and the Relative Interior of Convex Sets"
 },
+"44.01.03": {
+"area": "math",
+"books": [
+"rockafellar"
+],
+"chapter": "01-convex-sets-functions",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.01.03",
+"prereqs": [
+"44.01.01",
+"44.01.02",
+"01.01.18"
+],
+"section": "optimization-control",
+"slug": "recession-cones-polyhedral-convexity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Recession Cones and Polyhedral Convexity (Minkowski-Weyl)"
+},
+"44.02.01": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "02-convex-duality-kkt",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.02.01",
+"prereqs": [
+"44.01.01",
+"02.11.02"
+],
+"section": "optimization-control",
+"slug": "lagrangian-duality-slater",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lagrangian Duality, Weak and Strong Duality, and Slater's Condition"
+},
 "44.02.04": {
 "area": "math",
 "books": [
@@ -47869,6 +47920,83 @@
 "master"
 ],
 "title": "Farkas' Lemma and the Theorems of the Alternative"
+},
+"44.02.05": {
+"area": "math",
+"books": [
+"rockafellar"
+],
+"chapter": "02-convex-duality-kkt",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.02.05",
+"prereqs": [
+"44.01.01",
+"44.01.02",
+"37.07.03",
+"02.11.02"
+],
+"section": "optimization-control",
+"slug": "subdifferential-calculus",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Subdifferential Calculus: Sum Rule, Chain Rule, and Danskin's Theorem"
+},
+"44.03.01": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.01",
+"prereqs": [
+"44.01.01",
+"02.05.05"
+],
+"section": "optimization-control",
+"slug": "line-search-wolfe-conditions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Line-Search Methods: Wolfe Conditions and Global Convergence"
+},
+"44.03.02": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "03-unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.02",
+"prereqs": [
+"44.01.01",
+"02.05.05"
+],
+"section": "optimization-control",
+"slug": "trust-region-cauchy-dogleg",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Trust-Region Methods: The Cauchy Point and Dogleg Step"
 },
 "44.03.08": {
 "area": "math",
@@ -47945,5 +48073,30 @@
 "master"
 ],
 "title": "Finite-Horizon Dynamic Programming and the Principle of Optimality"
+},
+"44.08.02": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "dynamic-programming",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.08.02",
+"prereqs": [
+"44.08.01",
+"02.01.05"
+],
+"section": "optimization-control",
+"slug": "infinite-horizon-discounted-dp",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Infinite-Horizon Discounted Dynamic Programming: Bellman Contraction, Value and Policy Iteration"
 }
 }
