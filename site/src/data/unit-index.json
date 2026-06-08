@@ -49118,6 +49118,31 @@
 ],
 "title": "Fisher Information and the Cram\u00e9r-Rao Lower Bound"
 },
+"45.01.06": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.06",
+"prereqs": [
+"45.01.02",
+"45.01.03"
+],
+"section": "mathematical-statistics",
+"slug": "rao-blackwell-lehmann-scheffe",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rao-Blackwell and Lehmann-Scheff\u00e9: UMVU Estimation"
+},
 "45.02.01": {
 "area": "math",
 "books": [
@@ -49143,6 +49168,106 @@
 "master"
 ],
 "title": "The Neyman-Pearson Lemma and Most-Powerful Tests"
+},
+"45.02.02": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "02-hypothesis-testing-confidence",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.02.02",
+"prereqs": [
+"45.02.01",
+"45.01.02"
+],
+"section": "mathematical-statistics",
+"slug": "mlr-ump-tests",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Monotone Likelihood Ratio and Uniformly Most Powerful Tests"
+},
+"45.02.03": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "02-hypothesis-testing-confidence",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.02.03",
+"prereqs": [
+"45.01.04",
+"45.02.01"
+],
+"section": "mathematical-statistics",
+"slug": "likelihood-ratio-wald-score-tests",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Likelihood-Ratio, Wald, and Score Tests"
+},
+"45.02.04": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "02-hypothesis-testing-confidence",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.02.04",
+"prereqs": [
+"45.02.01"
+],
+"section": "mathematical-statistics",
+"slug": "confidence-sets-pivots-duality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Confidence Sets, Pivotal Quantities, and Test-Interval Duality"
+},
+"45.03.01": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "03-bayesian-inference",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.03.01",
+"prereqs": [
+"45.01.01",
+"26.07.01",
+"37.04.01"
+],
+"section": "mathematical-statistics",
+"slug": "bayes-estimation-under-loss",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bayes Estimation Under Loss: Posterior Mean, Median, and Mode"
 },
 "45.03.05": {
 "area": "math",
@@ -49220,6 +49345,32 @@
 ],
 "title": "The Delta Method and the Second-Order Delta Method"
 },
+"45.04.03": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.03",
+"prereqs": [
+"45.04.01",
+"45.04.02",
+"45.01.05"
+],
+"section": "mathematical-statistics",
+"slug": "mle-asymptotic-normality-efficiency",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Asymptotic Normality and Efficiency of the Maximum-Likelihood Estimator"
+},
 "45.05.01": {
 "area": "math",
 "books": [
@@ -49270,6 +49421,31 @@
 "master"
 ],
 "title": "The Empirical Distribution and Glivenko-Cantelli Classes"
+},
+"45.05.03": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.03",
+"prereqs": [
+"45.05.02",
+"37.03.03"
+],
+"section": "mathematical-statistics",
+"slug": "donsker-classes-empirical-process",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Donsker Classes and the Empirical-Process Weak Limit"
 },
 "45.05.05": {
 "area": "math",
@@ -49376,6 +49552,32 @@
 ],
 "title": "Ridge Regression and Shrinkage Estimation"
 },
+"45.06.05": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.05",
+"prereqs": [
+"45.06.02",
+"45.05.01",
+"40.07.05"
+],
+"section": "mathematical-statistics",
+"slug": "subset-selection-curse-of-dimensionality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Subset Selection and the Curse of Dimensionality"
+},
 "45.07.01": {
 "area": "math",
 "books": [
@@ -49402,6 +49604,30 @@
 "master"
 ],
 "title": "PAC Learning, Empirical Risk Minimization, and the Finite-Class Bound"
+},
+"45.07.02": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.02",
+"prereqs": [
+"45.07.01"
+],
+"section": "mathematical-statistics",
+"slug": "uniform-convergence-no-free-lunch",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Uniform Convergence, the Bias-Complexity Tradeoff, and the No-Free-Lunch Theorem"
 },
 "45.08.04": {
 "area": "math",
