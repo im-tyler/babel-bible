@@ -12565,6 +12565,18 @@
 ],
 "curriculum": "optimization-control"
 },
+"44.01.04": {
+"books": [
+"boyd-vandenberghe"
+],
+"curriculum": "optimization-control"
+},
+"44.01.05": {
+"books": [
+"boyd-vandenberghe"
+],
+"curriculum": "optimization-control"
+},
 "44.02.01": {
 "books": [
 "boyd-vandenberghe"
@@ -12640,6 +12652,18 @@
 "curriculum": "optimization-control"
 },
 "44.03.08": {
+"books": [
+"nocedal-wright"
+],
+"curriculum": "optimization-control"
+},
+"44.03.09": {
+"books": [
+"nocedal-wright"
+],
+"curriculum": "optimization-control"
+},
+"44.03.10": {
 "books": [
 "nocedal-wright"
 ],
@@ -12723,6 +12747,24 @@
 ],
 "curriculum": "optimization-control"
 },
+"44.06.06": {
+"books": [
+"beck"
+],
+"curriculum": "optimization-control"
+},
+"44.06.07": {
+"books": [
+"beck"
+],
+"curriculum": "optimization-control"
+},
+"44.06.08": {
+"books": [
+"nesterov"
+],
+"curriculum": "optimization-control"
+},
 "44.07.01": {
 "books": [
 "bertsekas"
@@ -12760,6 +12802,24 @@
 "curriculum": "optimization-control"
 },
 "44.08.03": {
+"books": [
+"bertsekas"
+],
+"curriculum": "optimization-control"
+},
+"44.08.04": {
+"books": [
+"bertsekas"
+],
+"curriculum": "optimization-control"
+},
+"44.08.05": {
+"books": [
+"bertsekas"
+],
+"curriculum": "optimization-control"
+},
+"44.08.06": {
 "books": [
 "bertsekas"
 ],

@@ -47868,6 +47868,55 @@
 ],
 "title": "Recession Cones and Polyhedral Convexity (Minkowski-Weyl)"
 },
+"44.01.04": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "01-convex-sets-functions",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.01.04",
+"prereqs": [
+"44.01.01"
+],
+"section": "optimization-control",
+"slug": "quasiconvex-optimization-bisection",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quasiconvex Optimization and the Bisection Method"
+},
+"44.01.05": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "01-convex-sets-functions",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.01.05",
+"prereqs": [
+"44.01.01",
+"44.02.01"
+],
+"section": "optimization-control",
+"slug": "multicriteria-pareto-scalarization",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Multicriteria and Vector Optimization: Pareto Optimality and Scalarization"
+},
 "44.02.01": {
 "area": "math",
 "books": [
@@ -48206,6 +48255,56 @@
 ],
 "title": "Derivative Computation: Finite Differences and Automatic Differentiation"
 },
+"44.03.09": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.09",
+"prereqs": [
+"44.03.04",
+"43.02.03"
+],
+"section": "optimization-control",
+"slug": "broyden-nonlinear-systems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Newton and Quasi-Newton Methods for Nonlinear Systems: Broyden's Method"
+},
+"44.03.10": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "03-unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.10",
+"prereqs": [
+"44.03.01",
+"44.03.02"
+],
+"section": "optimization-control",
+"slug": "derivative-free-optimization",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Derivative-Free Optimization: Nelder-Mead and Model-Based Trust-Region Methods"
+},
 "44.04.01": {
 "area": "math",
 "books": [
@@ -48537,6 +48636,81 @@
 ],
 "title": "Stochastic Gradient and Mirror Descent"
 },
+"44.06.06": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.06",
+"prereqs": [
+"44.06.02",
+"44.01.01"
+],
+"section": "optimization-control",
+"slug": "frank-wolfe-conditional-gradient",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Frank-Wolfe (Conditional Gradient) Method"
+},
+"44.06.07": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.07",
+"prereqs": [
+"44.06.02",
+"44.06.05"
+],
+"section": "optimization-control",
+"slug": "coordinate-descent-methods",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Coordinate Descent and Block-Coordinate Methods"
+},
+"44.06.08": {
+"area": "math",
+"books": [
+"nesterov"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.08",
+"prereqs": [
+"44.06.03",
+"44.02.03"
+],
+"section": "optimization-control",
+"slug": "nesterov-smoothing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nesterov Smoothing of Structured Nonsmooth Functions"
+},
 "44.07.01": {
 "area": "math",
 "books": [
@@ -48714,5 +48888,81 @@
 "master"
 ],
 "title": "Markov Decision Processes and Stochastic Dynamic Programming"
+},
+"44.08.04": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "08-dynamic-programming",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.08.04",
+"prereqs": [
+"44.08.03",
+"44.08.01",
+"37.05.01"
+],
+"section": "optimization-control",
+"slug": "pomdp-imperfect-state-information",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Imperfect State Information and Partially Observed Markov Decision Processes"
+},
+"44.08.05": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "08-dynamic-programming",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.08.05",
+"prereqs": [
+"44.07.02",
+"26.03.01"
+],
+"section": "optimization-control",
+"slug": "kalman-filter-lqg-separation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Kalman Filter, Linear-Quadratic-Gaussian Control, and the Separation Principle"
+},
+"44.08.06": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "08-dynamic-programming",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.08.06",
+"prereqs": [
+"44.08.02",
+"44.08.03"
+],
+"section": "optimization-control",
+"slug": "stochastic-shortest-path-total-cost",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stochastic Shortest Path and Total-Cost Dynamic Programming"
 }
 }
