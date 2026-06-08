@@ -12830,5 +12830,59 @@
 "bertsekas"
 ],
 "curriculum": "optimization-control"
+},
+"45.01.01": {
+"books": [
+"casella-berger"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.01.02": {
+"books": [
+"casella-berger"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.01.04": {
+"books": [
+"casella-berger"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.03.05": {
+"books": [
+"casella-berger"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.04.01": {
+"books": [
+"van-der-vaart"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.05.01": {
+"books": [
+"wasserman"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.06.01": {
+"books": [
+"hastie-tibshirani-friedman"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.06.02": {
+"books": [
+"hastie-tibshirani-friedman"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.08.04": {
+"books": [
+"hastie-tibshirani-friedman"
+],
+"curriculum": "mathematical-statistics"
 }
 }

@@ -48990,5 +48990,237 @@
 "master"
 ],
 "title": "Stochastic Shortest Path and Total-Cost Dynamic Programming"
+},
+"45.01.01": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.01",
+"prereqs": [
+"37.01.01",
+"44.01.01"
+],
+"section": "mathematical-statistics",
+"slug": "decision-theory-risk-admissibility",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Statistical Decision Theory: Loss, Risk, Admissibility, Minimax, and Bayes Rules"
+},
+"45.01.02": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.02",
+"prereqs": [
+"37.01.01",
+"37.04.01",
+"26.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "sufficiency-factorization-exponential-families",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sufficiency, the Factorization Theorem, and Exponential Families"
+},
+"45.01.04": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.04",
+"prereqs": [
+"37.02.02",
+"26.05.01",
+"26.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "method-of-moments-maximum-likelihood",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Point Estimation: The Method of Moments and Maximum Likelihood"
+},
+"45.03.05": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "03-bayesian-inference",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.03.05",
+"prereqs": [
+"37.05.01",
+"37.05.07",
+"26.07.01"
+],
+"section": "mathematical-statistics",
+"slug": "mcmc-metropolis-hastings-gibbs",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Markov Chain Monte Carlo: Metropolis-Hastings and Gibbs Sampling"
+},
+"45.04.01": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.01",
+"prereqs": [
+"37.02.02",
+"37.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "consistency-modes-of-convergence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Consistency of Estimators and the Modes of Stochastic Convergence in Statistics"
+},
+"45.05.01": {
+"area": "math",
+"books": [
+"wasserman"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.01",
+"prereqs": [
+"37.07.02",
+"40.07.05",
+"37.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "bernstein-inequality-sub-exponential",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bernstein's Inequality and the Sub-Exponential / Bennett Regime"
+},
+"45.06.01": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.01",
+"prereqs": [
+"01.01.13",
+"26.06.01",
+"26.03.01",
+"43.04.01"
+],
+"section": "mathematical-statistics",
+"slug": "linear-model-gauss-markov-blue",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linear Model Theory: Gauss-Markov, the Hat Matrix, and BLUE"
+},
+"45.06.02": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.02",
+"prereqs": [
+"26.06.01",
+"26.03.01",
+"37.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "bias-variance-decomposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Bias-Variance Decomposition and the Prediction-Error Trade-off"
+},
+"45.08.04": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.04",
+"prereqs": [
+"26.06.01",
+"37.01.01"
+],
+"section": "mathematical-statistics",
+"slug": "cart-decision-trees",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Tree-Based Methods: Classification and Regression Trees (CART)"
 }
 }
