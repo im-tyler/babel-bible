@@ -49269,6 +49269,31 @@
 ],
 "title": "Bayes Estimation Under Loss: Posterior Mean, Median, and Mode"
 },
+"45.03.02": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "03-bayesian-inference",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.03.02",
+"prereqs": [
+"45.03.01",
+"45.01.02"
+],
+"section": "mathematical-statistics",
+"slug": "conjugate-priors-exponential-family-bayes",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Conjugate Priors and Exponential-Family Bayesian Inference"
+},
 "45.03.05": {
 "area": "math",
 "books": [
@@ -49371,6 +49396,106 @@
 ],
 "title": "Asymptotic Normality and Efficiency of the Maximum-Likelihood Estimator"
 },
+"45.04.04": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.04",
+"prereqs": [
+"45.04.03",
+"45.04.01"
+],
+"section": "mathematical-statistics",
+"slug": "m-estimators-z-estimators",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "M-Estimators and Z-Estimators: The Argmax Theorem and the Master Theorem"
+},
+"45.04.05": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.05",
+"prereqs": [
+"45.04.03",
+"45.04.02"
+],
+"section": "mathematical-statistics",
+"slug": "asymptotic-relative-efficiency",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Asymptotic Relative Efficiency"
+},
+"45.04.06": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.06",
+"prereqs": [
+"45.04.03",
+"45.01.05"
+],
+"section": "mathematical-statistics",
+"slug": "local-asymptotic-normality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Local Asymptotic Normality and the Local-Experiment Limit"
+},
+"45.04.09": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.09",
+"prereqs": [
+"45.04.03",
+"45.02.03"
+],
+"section": "mathematical-statistics",
+"slug": "likelihood-ratio-wald-score-asymptotics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Asymptotics of the Likelihood-Ratio, Wald, and Score Tests: The Chi-Squared Trinity"
+},
 "45.05.01": {
 "area": "math",
 "books": [
@@ -49446,6 +49571,32 @@
 "master"
 ],
 "title": "Donsker Classes and the Empirical-Process Weak Limit"
+},
+"45.05.04": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.04",
+"prereqs": [
+"45.05.03",
+"45.05.02",
+"45.05.01"
+],
+"section": "mathematical-statistics",
+"slug": "entropy-vc-maximal-inequalities",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Entropy and VC Conditions for the Donsker Property: Maximal Inequalities"
 },
 "45.05.05": {
 "area": "math",
@@ -49552,6 +49703,32 @@
 ],
 "title": "Ridge Regression and Shrinkage Estimation"
 },
+"45.06.04": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.04",
+"prereqs": [
+"45.06.03",
+"45.01.01",
+"26.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "james-stein-inadmissibility",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The James-Stein Estimator and Inadmissibility of the MLE"
+},
 "45.06.05": {
 "area": "math",
 "books": [
@@ -49628,6 +49805,30 @@
 "master"
 ],
 "title": "Uniform Convergence, the Bias-Complexity Tradeoff, and the No-Free-Lunch Theorem"
+},
+"45.07.03": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.03",
+"prereqs": [
+"45.07.02"
+],
+"section": "mathematical-statistics",
+"slug": "vc-dimension-sauer-shelah",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "VC Dimension, the Growth Function, and the Sauer-Shelah Lemma"
 },
 "45.08.04": {
 "area": "math",
