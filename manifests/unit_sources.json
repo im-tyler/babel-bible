@@ -12546,5 +12546,41 @@
 "leveque"
 ],
 "curriculum": "numerical-analysis"
+},
+"44.01.01": {
+"books": [
+"boyd-vandenberghe"
+],
+"curriculum": "optimization-control"
+},
+"44.01.02": {
+"books": [
+"rockafellar"
+],
+"curriculum": "optimization-control"
+},
+"44.02.04": {
+"books": [
+"rockafellar"
+],
+"curriculum": "optimization-control"
+},
+"44.03.08": {
+"books": [
+"nocedal-wright"
+],
+"curriculum": "optimization-control"
+},
+"44.07.02": {
+"books": [
+"bertsekas"
+],
+"curriculum": "optimization-control"
+},
+"44.08.01": {
+"books": [
+"bertsekas"
+],
+"curriculum": "optimization-control"
 }
 }

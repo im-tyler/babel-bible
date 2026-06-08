@@ -47788,5 +47788,162 @@
 "master"
 ],
 "title": "The Lax-Richtmyer equivalence theorem for finite-difference schemes"
+},
+"44.01.01": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "convex-sets-functions",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.01.01",
+"prereqs": [
+"01.01.13",
+"01.01.15",
+"01.01.18",
+"02.05.05"
+],
+"section": "optimization-control",
+"slug": "convex-sets-functions-operations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Convex Sets, Convex Functions, and Convexity-Preserving Operations"
+},
+"44.01.02": {
+"area": "math",
+"books": [
+"rockafellar"
+],
+"chapter": "convex-sets-functions",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.01.02",
+"prereqs": [
+"01.01.03",
+"01.01.08",
+"01.01.18"
+],
+"section": "optimization-control",
+"slug": "caratheodory-relative-interior",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Carath\u00e9odory's Theorem and the Relative Interior of Convex Sets"
+},
+"44.02.04": {
+"area": "math",
+"books": [
+"rockafellar"
+],
+"chapter": "02-convex-duality-kkt",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.02.04",
+"prereqs": [
+"02.11.02",
+"01.01.03",
+"01.01.05",
+"01.01.06",
+"01.01.18"
+],
+"section": "optimization-control",
+"slug": "farkas-lemma-theorems-of-alternative",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Farkas' Lemma and the Theorems of the Alternative"
+},
+"44.03.08": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.08",
+"prereqs": [
+"02.05.05",
+"43.01.01"
+],
+"section": "optimization-control",
+"slug": "finite-differences-automatic-differentiation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Derivative Computation: Finite Differences and Automatic Differentiation"
+},
+"44.07.02": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "optimal-control-pontryagin",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.07.02",
+"prereqs": [
+"02.06.03",
+"43.06.12",
+"01.01.13"
+],
+"section": "optimization-control",
+"slug": "lqr-riccati-equations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Linear-Quadratic Regulator: Differential and Algebraic Riccati Equations"
+},
+"44.08.01": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "dynamic-programming",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.08.01",
+"prereqs": [
+"37.01.01",
+"37.05.01"
+],
+"section": "optimization-control",
+"slug": "finite-horizon-dp-principle-of-optimality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Finite-Horizon Dynamic Programming and the Principle of Optimality"
 }
 }

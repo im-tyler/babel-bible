@@ -1506,15 +1506,21 @@
 "43.11.02",
 "43.11.03",
 "43.11.04",
-"43.11.05"
+"43.11.05",
+"44.01.01",
+"44.01.02",
+"44.02.04",
+"44.03.08",
+"44.07.02",
+"44.08.01"
 ],
 "supporting": [
 "16.02.01"
 ],
 "counts": {
-"core": 1501,
+"core": 1507,
 "supporting": 1,
-"total": 1502
+"total": 1508
 },
 "dangling_prereqs": []
 },
@@ -2048,12 +2054,79 @@
 "label": "Optimization & Control",
 "description": "Convex sets and functions, convex duality and the KKT conditions, unconstrained optimization (gradient, Newton, and quasi-Newton methods with line search and trust regions), constrained nonlinear programming (sequential quadratic programming, interior-point, augmented Lagrangian), conic and semidefinite programming, first-order and large-scale methods (subgradient, proximal, accelerated, ADMM, stochastic gradient), optimal control via the calculus of variations and Pontryagin's maximum principle, and dynamic programming with the Bellman equation and Hamilton-Jacobi-Bellman theory. Prerequisites are pulled in automatically so the result is always a complete, learnable path.",
 "group_by": "field",
-"core": [],
-"supporting": [],
+"core": [
+"44.01.01",
+"44.01.02",
+"44.02.04",
+"44.03.08",
+"44.07.02",
+"44.08.01"
+],
+"supporting": [
+"00.01.01",
+"00.02.05",
+"01.01.01",
+"01.01.02",
+"01.01.03",
+"01.01.04",
+"01.01.05",
+"01.01.06",
+"01.01.07",
+"01.01.08",
+"01.01.09",
+"01.01.10",
+"01.01.13",
+"01.01.14",
+"01.01.15",
+"01.01.18",
+"01.02.10",
+"01.02.17",
+"02.01.01",
+"02.01.02",
+"02.01.05",
+"02.02.01",
+"02.05.01",
+"02.05.02",
+"02.05.03",
+"02.05.04",
+"02.05.05",
+"02.06.02",
+"02.06.03",
+"02.07.01",
+"02.07.02",
+"02.07.03",
+"02.07.04",
+"02.07.05",
+"02.07.06",
+"02.07.07",
+"02.08.01",
+"02.08.02",
+"02.11.02",
+"02.11.04",
+"02.11.06",
+"02.12.08",
+"03.01.02",
+"03.01.03",
+"03.02.01",
+"05.00.01",
+"05.00.02",
+"05.00.04",
+"24.01.01",
+"25.03.01",
+"26.01.01",
+"26.02.01",
+"37.01.01",
+"37.05.01",
+"43.01.01",
+"43.06.01",
+"43.06.02",
+"43.06.03",
+"43.06.12"
+],
 "counts": {
-"core": 0,
-"supporting": 0,
-"total": 0
+"core": 6,
+"supporting": 59,
+"total": 65
 },
 "dangling_prereqs": []
 },
@@ -3577,7 +3650,13 @@
 "43.11.02",
 "43.11.03",
 "43.11.04",
-"43.11.05"
+"43.11.05",
+"44.01.01",
+"44.01.02",
+"44.02.04",
+"44.03.08",
+"44.07.02",
+"44.08.01"
 ],
 "supporting": [
 "09.01.01",
@@ -3624,9 +3703,9 @@
 "16.02.01"
 ],
 "counts": {
-"core": 1349,
+"core": 1355,
 "supporting": 42,
-"total": 1391
+"total": 1397
 },
 "dangling_prereqs": []
 },
