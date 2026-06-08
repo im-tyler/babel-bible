@@ -49042,6 +49042,32 @@
 ],
 "title": "Sufficiency, the Factorization Theorem, and Exponential Families"
 },
+"45.01.03": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.03",
+"prereqs": [
+"37.01.01",
+"26.03.01",
+"45.01.02"
+],
+"section": "mathematical-statistics",
+"slug": "ancillarity-completeness-basu",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ancillarity, Completeness, and Basu's Theorem"
+},
 "45.01.04": {
 "area": "math",
 "books": [
@@ -49067,6 +49093,56 @@
 "master"
 ],
 "title": "Point Estimation: The Method of Moments and Maximum Likelihood"
+},
+"45.01.05": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "01-decision-theory-estimation",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.01.05",
+"prereqs": [
+"45.01.04"
+],
+"section": "mathematical-statistics",
+"slug": "fisher-information-cramer-rao",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fisher Information and the Cram\u00e9r-Rao Lower Bound"
+},
+"45.02.01": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "02-hypothesis-testing-confidence",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.02.01",
+"prereqs": [
+"37.01.01",
+"45.01.01",
+"45.01.02"
+],
+"section": "mathematical-statistics",
+"slug": "neyman-pearson-most-powerful-tests",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Neyman-Pearson Lemma and Most-Powerful Tests"
 },
 "45.03.05": {
 "area": "math",
@@ -49119,6 +49195,31 @@
 ],
 "title": "Consistency of Estimators and the Modes of Stochastic Convergence in Statistics"
 },
+"45.04.02": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.02",
+"prereqs": [
+"37.03.02",
+"45.04.01"
+],
+"section": "mathematical-statistics",
+"slug": "delta-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Delta Method and the Second-Order Delta Method"
+},
 "45.05.01": {
 "area": "math",
 "books": [
@@ -49144,6 +49245,57 @@
 "master"
 ],
 "title": "Bernstein's Inequality and the Sub-Exponential / Bennett Regime"
+},
+"45.05.02": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.02",
+"prereqs": [
+"37.02.02",
+"45.04.01"
+],
+"section": "mathematical-statistics",
+"slug": "empirical-distribution-glivenko-cantelli",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Empirical Distribution and Glivenko-Cantelli Classes"
+},
+"45.05.05": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.05",
+"prereqs": [
+"45.04.01",
+"37.04.01",
+"37.03.02"
+],
+"section": "mathematical-statistics",
+"slug": "u-statistics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "U-Statistics and Their Asymptotics"
 },
 "45.06.01": {
 "area": "math",
@@ -49198,6 +49350,59 @@
 ],
 "title": "The Bias-Variance Decomposition and the Prediction-Error Trade-off"
 },
+"45.06.03": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.03",
+"prereqs": [
+"45.06.01",
+"45.06.02",
+"01.01.12"
+],
+"section": "mathematical-statistics",
+"slug": "ridge-regression-shrinkage",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ridge Regression and Shrinkage Estimation"
+},
+"45.07.01": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.01",
+"prereqs": [
+"40.07.05",
+"45.05.01",
+"37.02.02",
+"37.03.01"
+],
+"section": "mathematical-statistics",
+"slug": "pac-learning-erm",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "PAC Learning, Empirical Risk Minimization, and the Finite-Class Bound"
+},
 "45.08.04": {
 "area": "math",
 "books": [
@@ -49222,5 +49427,30 @@
 "master"
 ],
 "title": "Tree-Based Methods: Classification and Regression Trees (CART)"
+},
+"45.08.07": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.07",
+"prereqs": [
+"45.01.04",
+"37.04.01"
+],
+"section": "mathematical-statistics",
+"slug": "em-algorithm-gaussian-mixtures",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The EM Algorithm and Gaussian-Mixture / Latent-Variable Models"
 }
 }
