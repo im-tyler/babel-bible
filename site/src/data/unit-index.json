@@ -48078,6 +48078,32 @@
 ],
 "title": "Newton's Method for Optimization: Unconstrained and Equality-Constrained"
 },
+"44.03.04": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.04",
+"prereqs": [
+"44.03.03",
+"44.03.01",
+"01.01.13"
+],
+"section": "optimization-control",
+"slug": "quasi-newton-bfgs-dfp-sr1",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quasi-Newton Methods: BFGS, DFP, and SR1"
+},
 "44.03.06": {
 "area": "math",
 "books": [
@@ -48102,6 +48128,32 @@
 "master"
 ],
 "title": "Nonlinear Conjugate Gradient Methods: Fletcher-Reeves and Polak-Ribi\u00e8re"
+},
+"44.03.07": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "03-unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.07",
+"prereqs": [
+"44.03.03",
+"44.03.02",
+"43.04.01"
+],
+"section": "optimization-control",
+"slug": "gauss-newton-levenberg-marquardt",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gauss-Newton and Levenberg-Marquardt for Nonlinear Least Squares"
 },
 "44.03.08": {
 "area": "math",
@@ -48128,6 +48180,82 @@
 ],
 "title": "Derivative Computation: Finite Differences and Automatic Differentiation"
 },
+"44.04.01": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "04-constrained-nonlinear",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.04.01",
+"prereqs": [
+"44.02.02",
+"44.03.03"
+],
+"section": "optimization-control",
+"slug": "active-set-quadratic-programming",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Active-Set Methods for Quadratic Programming"
+},
+"44.05.01": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "05-conic-semidefinite",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.05.01",
+"prereqs": [
+"44.02.01",
+"44.01.01",
+"01.01.13"
+],
+"section": "optimization-control",
+"slug": "conic-optimization-lp-socp-sdp",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Conic Optimization: Linear, Second-Order Cone, and Semidefinite Programs"
+},
+"44.05.02": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "05-conic-semidefinite",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.05.02",
+"prereqs": [
+"44.02.04",
+"44.01.03"
+],
+"section": "optimization-control",
+"slug": "lp-duality-simplex-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linear-Programming Duality and the Simplex Method"
+},
 "44.06.01": {
 "area": "math",
 "books": [
@@ -48152,6 +48280,31 @@
 "master"
 ],
 "title": "Subgradient Methods for Nonsmooth Convex Optimization"
+},
+"44.06.02": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.02",
+"prereqs": [
+"44.06.01",
+"44.02.05"
+],
+"section": "optimization-control",
+"slug": "proximal-operator-gradient-method",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Proximal Operator, Moreau Envelope, and Proximal-Gradient Method"
 },
 "44.07.01": {
 "area": "math",
@@ -48203,6 +48356,58 @@
 "master"
 ],
 "title": "The Linear-Quadratic Regulator: Differential and Algebraic Riccati Equations"
+},
+"44.07.03": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "optimal-control-pontryagin",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.07.03",
+"prereqs": [
+"44.07.01",
+"44.07.02",
+"02.06.03"
+],
+"section": "optimization-control",
+"slug": "bang-bang-minimum-time-control",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bang-Bang and Minimum-Time Optimal Control"
+},
+"44.07.04": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "optimal-control-pontryagin",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.07.04",
+"prereqs": [
+"44.08.02",
+"09.05.02",
+"02.18.05"
+],
+"section": "optimization-control",
+"slug": "hamilton-jacobi-bellman-verification",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Hamilton-Jacobi-Bellman Equation and the Verification Theorem"
 },
 "44.08.01": {
 "area": "math",
