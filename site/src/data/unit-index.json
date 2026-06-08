@@ -49318,6 +49318,31 @@
 ],
 "title": "Hierarchical and Empirical Bayes"
 },
+"45.03.04": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "03-bayesian-inference",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.03.04",
+"prereqs": [
+"45.03.01",
+"45.04.03"
+],
+"section": "mathematical-statistics",
+"slug": "bernstein-von-mises",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Bernstein-von Mises Theorem"
+},
 "45.03.05": {
 "area": "math",
 "books": [
@@ -49518,6 +49543,31 @@
 "master"
 ],
 "title": "Contiguity and Le Cam's Three Lemmas"
+},
+"45.04.08": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.08",
+"prereqs": [
+"45.04.06",
+"45.04.07"
+],
+"section": "mathematical-statistics",
+"slug": "convolution-theorem-lam-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Convolution Theorem and the Local Asymptotic Minimax Bound"
 },
 "45.04.09": {
 "area": "math",
@@ -49878,6 +49928,31 @@
 ],
 "title": "The LASSO: Sparsity, Oracle Inequalities, and the Irrepresentable Condition"
 },
+"45.06.07": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.07",
+"prereqs": [
+"45.06.06",
+"45.06.03"
+],
+"section": "mathematical-statistics",
+"slug": "elastic-net-lars",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Elastic Net and Least Angle Regression"
+},
 "45.06.08": {
 "area": "math",
 "books": [
@@ -49903,6 +49978,31 @@
 "master"
 ],
 "title": "Principal Components Regression and Partial Least Squares"
+},
+"45.06.09": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.09",
+"prereqs": [
+"45.06.02",
+"45.01.04"
+],
+"section": "mathematical-statistics",
+"slug": "model-assessment-selection",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Model Assessment and Selection: Cp, AIC, BIC, Cross-Validation, and the Bootstrap"
 },
 "45.07.01": {
 "area": "math",
@@ -50004,6 +50104,31 @@
 ],
 "title": "The Fundamental Theorem of Statistical Learning"
 },
+"45.07.05": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.05",
+"prereqs": [
+"45.07.04",
+"40.07.05"
+],
+"section": "mathematical-statistics",
+"slug": "rademacher-complexity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rademacher Complexity and Generalization Bounds"
+},
 "45.08.01": {
 "area": "math",
 "books": [
@@ -50028,6 +50153,59 @@
 "master"
 ],
 "title": "Kernel Methods, Reproducing-Kernel Hilbert Spaces, and the Representer Theorem"
+},
+"45.08.02": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.02",
+"prereqs": [
+"45.08.01",
+"44.02.02",
+"44.02.01"
+],
+"section": "mathematical-statistics",
+"slug": "support-vector-machines",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Support Vector Machines: The Margin, the Dual, and the Kernel Trick"
+},
+"45.08.03": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.03",
+"prereqs": [
+"45.06.01",
+"45.01.04",
+"26.03.01",
+"01.01.19"
+],
+"section": "mathematical-statistics",
+"slug": "discriminant-analysis-logistic-regression",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linear and Quadratic Discriminant Analysis and Logistic Regression"
 },
 "45.08.04": {
 "area": "math",
@@ -50078,5 +50256,30 @@
 "master"
 ],
 "title": "The EM Algorithm and Gaussian-Mixture / Latent-Variable Models"
+},
+"45.08.09": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.09",
+"prereqs": [
+"45.06.01",
+"45.06.03"
+],
+"section": "mathematical-statistics",
+"slug": "generalized-additive-models-backfitting",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Generalized Additive Models, Smoothing Splines, and Backfitting"
 }
 }
