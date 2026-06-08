@@ -12571,6 +12571,19 @@
 ],
 "curriculum": "optimization-control"
 },
+"44.02.02": {
+"books": [
+"boyd-vandenberghe",
+"nocedal-wright"
+],
+"curriculum": "optimization-control"
+},
+"44.02.03": {
+"books": [
+"boyd-vandenberghe"
+],
+"curriculum": "optimization-control"
+},
 "44.02.04": {
 "books": [
 "rockafellar"
@@ -12595,9 +12608,34 @@
 ],
 "curriculum": "optimization-control"
 },
+"44.03.03": {
+"books": [
+"nocedal-wright",
+"boyd-vandenberghe"
+],
+"curriculum": "optimization-control"
+},
+"44.03.06": {
+"books": [
+"nocedal-wright"
+],
+"curriculum": "optimization-control"
+},
 "44.03.08": {
 "books": [
 "nocedal-wright"
+],
+"curriculum": "optimization-control"
+},
+"44.06.01": {
+"books": [
+"beck"
+],
+"curriculum": "optimization-control"
+},
+"44.07.01": {
+"books": [
+"bertsekas"
 ],
 "curriculum": "optimization-control"
 },
@@ -12614,6 +12652,12 @@
 "curriculum": "optimization-control"
 },
 "44.08.02": {
+"books": [
+"bertsekas"
+],
+"curriculum": "optimization-control"
+},
+"44.08.03": {
 "books": [
 "bertsekas"
 ],

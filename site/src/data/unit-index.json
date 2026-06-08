@@ -47893,6 +47893,59 @@
 ],
 "title": "Lagrangian Duality, Weak and Strong Duality, and Slater's Condition"
 },
+"44.02.02": {
+"area": "math",
+"books": [
+"boyd-vandenberghe",
+"nocedal-wright"
+],
+"chapter": "02-convex-duality-kkt",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.02.02",
+"prereqs": [
+"44.02.01",
+"44.02.04",
+"44.01.01",
+"02.05.05"
+],
+"section": "optimization-control",
+"slug": "kkt-conditions-constraint-qualifications",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Karush-Kuhn-Tucker Conditions: Constraint Qualifications and Second-Order Conditions"
+},
+"44.02.03": {
+"area": "math",
+"books": [
+"boyd-vandenberghe"
+],
+"chapter": "02-convex-duality-kkt",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.02.03",
+"prereqs": [
+"44.02.01",
+"37.07.03"
+],
+"section": "optimization-control",
+"slug": "fenchel-duality-conjugate-modeling",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fenchel Duality and the Conjugate as a Modeling Tool"
+},
 "44.02.04": {
 "area": "math",
 "books": [
@@ -47998,6 +48051,58 @@
 ],
 "title": "Trust-Region Methods: The Cauchy Point and Dogleg Step"
 },
+"44.03.03": {
+"area": "math",
+"books": [
+"nocedal-wright",
+"boyd-vandenberghe"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.03",
+"prereqs": [
+"44.03.01",
+"01.01.13",
+"02.05.05"
+],
+"section": "optimization-control",
+"slug": "newton-method-optimization",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Newton's Method for Optimization: Unconstrained and Equality-Constrained"
+},
+"44.03.06": {
+"area": "math",
+"books": [
+"nocedal-wright"
+],
+"chapter": "unconstrained-optimization",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.03.06",
+"prereqs": [
+"44.03.01",
+"43.07.04"
+],
+"section": "optimization-control",
+"slug": "nonlinear-conjugate-gradient",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nonlinear Conjugate Gradient Methods: Fletcher-Reeves and Polak-Ribi\u00e8re"
+},
 "44.03.08": {
 "area": "math",
 "books": [
@@ -48022,6 +48127,56 @@
 "master"
 ],
 "title": "Derivative Computation: Finite Differences and Automatic Differentiation"
+},
+"44.06.01": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.01",
+"prereqs": [
+"44.01.01",
+"44.02.05"
+],
+"section": "optimization-control",
+"slug": "subgradient-methods",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Subgradient Methods for Nonsmooth Convex Optimization"
+},
+"44.07.01": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "optimal-control-pontryagin",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.07.01",
+"prereqs": [
+"09.02.02",
+"02.18.04"
+],
+"section": "optimization-control",
+"slug": "pontryagin-maximum-principle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Pontryagin's Maximum Principle for Constrained Optimal Control"
 },
 "44.07.02": {
 "area": "math",
@@ -48098,5 +48253,30 @@
 "master"
 ],
 "title": "Infinite-Horizon Discounted Dynamic Programming: Bellman Contraction, Value and Policy Iteration"
+},
+"44.08.03": {
+"area": "math",
+"books": [
+"bertsekas"
+],
+"chapter": "08-dynamic-programming",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.08.03",
+"prereqs": [
+"44.08.02",
+"37.05.01"
+],
+"section": "optimization-control",
+"slug": "markov-decision-processes",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Markov Decision Processes and Stochastic Dynamic Programming"
 }
 }
