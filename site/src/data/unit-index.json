@@ -48711,6 +48711,32 @@
 ],
 "title": "Nesterov Smoothing of Structured Nonsmooth Functions"
 },
+"44.06.09": {
+"area": "math",
+"books": [
+"beck"
+],
+"chapter": "06-first-order-large-scale",
+"curriculum": "optimization-control",
+"field": "optimization",
+"fieldLabel": "Optimization & Control",
+"fieldOrder": 16,
+"id": "44.06.09",
+"prereqs": [
+"44.02.03",
+"44.06.02",
+"44.06.04"
+],
+"section": "optimization-control",
+"slug": "chambolle-pock-primal-dual-hybrid-gradient",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Chambolle-Pock Primal-Dual Hybrid Gradient Method"
+},
 "44.07.01": {
 "area": "math",
 "books": [

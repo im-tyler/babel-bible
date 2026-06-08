@@ -12765,6 +12765,12 @@
 ],
 "curriculum": "optimization-control"
 },
+"44.06.09": {
+"books": [
+"beck"
+],
+"curriculum": "optimization-control"
+},
 "44.07.01": {
 "books": [
 "bertsekas"
