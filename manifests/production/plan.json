@@ -34613,6 +34613,54 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "45.07.06": {
+      "id": "45.07.06",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "45.07.07": {
+      "id": "45.07.07",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "45.08.05": {
+      "id": "45.08.05",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "45.08.06": {
+      "id": "45.08.06",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "45.08.08": {
+      "id": "45.08.08",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "45.08.10": {
+      "id": "45.08.10",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],

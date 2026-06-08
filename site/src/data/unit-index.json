@@ -50129,6 +50129,55 @@
 ],
 "title": "Rademacher Complexity and Generalization Bounds"
 },
+"45.07.06": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.06",
+"prereqs": [
+"45.07.05"
+],
+"section": "mathematical-statistics",
+"slug": "margin-bounds-covering-numbers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Margin-Based Generalization Bounds and Covering Numbers"
+},
+"45.07.07": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.07",
+"prereqs": [
+"45.07.05",
+"44.06.05"
+],
+"section": "mathematical-statistics",
+"slug": "stability-online-learning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Algorithmic Stability and Online Learning"
+},
 "45.08.01": {
 "area": "math",
 "books": [
@@ -50232,6 +50281,55 @@
 ],
 "title": "Tree-Based Methods: Classification and Regression Trees (CART)"
 },
+"45.08.05": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.05",
+"prereqs": [
+"45.08.04",
+"45.06.02"
+],
+"section": "mathematical-statistics",
+"slug": "bagging-random-forests",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bagging and Random Forests"
+},
+"45.08.06": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.06",
+"prereqs": [
+"45.08.04"
+],
+"section": "mathematical-statistics",
+"slug": "boosting-adaboost-gradient",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Boosting: AdaBoost and Gradient Boosting"
+},
 "45.08.07": {
 "area": "math",
 "books": [
@@ -50257,6 +50355,30 @@
 ],
 "title": "The EM Algorithm and Gaussian-Mixture / Latent-Variable Models"
 },
+"45.08.08": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.08",
+"prereqs": [
+"45.08.07"
+],
+"section": "mathematical-statistics",
+"slug": "k-means-model-based-clustering",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "k-Means and Model-Based Clustering"
+},
 "45.08.09": {
 "area": "math",
 "books": [
@@ -50281,5 +50403,30 @@
 "master"
 ],
 "title": "Generalized Additive Models, Smoothing Splines, and Backfitting"
+},
+"45.08.10": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.10",
+"prereqs": [
+"45.08.03",
+"44.03.08"
+],
+"section": "mathematical-statistics",
+"slug": "neural-networks-mlp-backpropagation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neural Networks: The Multilayer Perceptron and Backpropagation"
 }
 }
