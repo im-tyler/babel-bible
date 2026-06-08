@@ -88,6 +88,7 @@ export const SECTIONS: SectionInfo[] = [
   { key: "operator-algebras",     order: 8.4,  label: "Operator algebras & NCG",           anchor: "operator-algebras",     domain: "mathematics" },
   { key: "combinatorics",         order: 8.6,  label: "Combinatorics & graph theory",       anchor: "combinatorics",         domain: "mathematics" },
   { key: "numerical-analysis",    order: 8.7,  label: "Numerical analysis & scientific computing", anchor: "numerical-analysis", domain: "mathematics" },
+  { key: "optimization-control",  order: 8.8,  label: "Optimization & control",              anchor: "optimization-control",  domain: "mathematics" },
 
   // ── Physics ──
   { key: "classical-mech",        order: 9,    label: "Classical mechanics",              anchor: "classical-mech",        domain: "physics" },

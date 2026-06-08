@@ -22,6 +22,7 @@ sections:
   category-theory:       { area: math, field: foundations-logic }
   mathematical-logic:    { area: math, field: foundations-logic }
   numerical-analysis:    { area: math, field: numerical-analysis }
+  optimization-control:  { area: math, field: optimization }
   number-theory:         { area: math, field: number-theory }
   differential-geometry: { area: math, field: geometry-topology }
   modern-geometry:       { area: math, field: geometry-topology }
@@ -63,6 +64,7 @@ fields:
   dynamics:                 { label: "Dynamical Systems & Ergodic Theory",  order: 13 }
   operator-algebras:        { label: "Operator Algebras & NCG",             order: 14 }
   combinatorics:            { label: "Combinatorics & Graph Theory",        order: 15 }
+  optimization:             { label: "Optimization & Control",              order: 16 }
   classical-physics:        { label: "Classical Mechanics & EM",            order: 20 }
   quantum:                  { label: "Quantum Theory",                      order: 21 }
   statistical-physics:      { label: "Statistical Mechanics",               order: 22 }

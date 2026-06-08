@@ -1,0 +1,14 @@
+id: optimization
+label: Optimization & Control
+description: >-
+  Convex sets and functions, convex duality and the KKT conditions, unconstrained
+  optimization (gradient, Newton, and quasi-Newton methods with line search and trust
+  regions), constrained nonlinear programming (sequential quadratic programming, interior-point,
+  augmented Lagrangian), conic and semidefinite programming, first-order and large-scale
+  methods (subgradient, proximal, accelerated, ADMM, stochastic gradient), optimal control
+  via the calculus of variations and Pontryagin's maximum principle, and dynamic programming
+  with the Bellman equation and Hamilton-Jacobi-Bellman theory. Prerequisites are pulled in
+  automatically so the result is always a complete, learnable path.
+seed:
+  field_in: [optimization]
+group_by: field
