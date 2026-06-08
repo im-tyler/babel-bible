@@ -49294,6 +49294,30 @@
 ],
 "title": "Conjugate Priors and Exponential-Family Bayesian Inference"
 },
+"45.03.03": {
+"area": "math",
+"books": [
+"casella-berger"
+],
+"chapter": "03-bayesian-inference",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.03.03",
+"prereqs": [
+"45.03.02"
+],
+"section": "mathematical-statistics",
+"slug": "hierarchical-empirical-bayes",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hierarchical and Empirical Bayes"
+},
 "45.03.05": {
 "area": "math",
 "books": [
@@ -49471,6 +49495,30 @@
 ],
 "title": "Local Asymptotic Normality and the Local-Experiment Limit"
 },
+"45.04.07": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.07",
+"prereqs": [
+"45.04.06"
+],
+"section": "mathematical-statistics",
+"slug": "contiguity-le-cam-lemmas",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Contiguity and Le Cam's Three Lemmas"
+},
 "45.04.09": {
 "area": "math",
 "books": [
@@ -49495,6 +49543,31 @@
 "master"
 ],
 "title": "Asymptotics of the Likelihood-Ratio, Wald, and Score Tests: The Chi-Squared Trinity"
+},
+"45.04.10": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "04-asymptotic-statistics",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.04.10",
+"prereqs": [
+"45.04.02",
+"45.04.04"
+],
+"section": "mathematical-statistics",
+"slug": "bootstrap-consistency",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Asymptotic Consistency of the Bootstrap"
 },
 "45.05.01": {
 "area": "math",
@@ -49623,6 +49696,31 @@
 "master"
 ],
 "title": "U-Statistics and Their Asymptotics"
+},
+"45.05.06": {
+"area": "math",
+"books": [
+"van-der-vaart"
+],
+"chapter": "05-empirical-processes-nonparametric",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.05.06",
+"prereqs": [
+"45.05.03",
+"45.04.02"
+],
+"section": "mathematical-statistics",
+"slug": "functional-delta-method-hadamard",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Functional Delta Method and Hadamard Differentiability"
 },
 "45.06.01": {
 "area": "math",
@@ -49755,6 +49853,57 @@
 ],
 "title": "Subset Selection and the Curse of Dimensionality"
 },
+"45.06.06": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.06",
+"prereqs": [
+"45.06.03",
+"45.05.01"
+],
+"section": "mathematical-statistics",
+"slug": "lasso-sparsity-oracle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The LASSO: Sparsity, Oracle Inequalities, and the Irrepresentable Condition"
+},
+"45.06.08": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "06-high-dimensional-regularization",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.06.08",
+"prereqs": [
+"45.06.01",
+"45.06.03",
+"01.01.12"
+],
+"section": "mathematical-statistics",
+"slug": "principal-components-regression-pls",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Principal Components Regression and Partial Least Squares"
+},
 "45.07.01": {
 "area": "math",
 "books": [
@@ -49829,6 +49978,56 @@
 "master"
 ],
 "title": "VC Dimension, the Growth Function, and the Sauer-Shelah Lemma"
+},
+"45.07.04": {
+"area": "math",
+"books": [
+"shalev-shwartz-ben-david"
+],
+"chapter": "07-statistical-learning-theory",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.07.04",
+"prereqs": [
+"45.07.02",
+"45.07.03"
+],
+"section": "mathematical-statistics",
+"slug": "fundamental-theorem-statistical-learning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Fundamental Theorem of Statistical Learning"
+},
+"45.08.01": {
+"area": "math",
+"books": [
+"hastie-tibshirani-friedman"
+],
+"chapter": "08-learning-methods",
+"curriculum": "mathematical-statistics",
+"field": "statistics",
+"fieldLabel": "Statistics & Learning Theory",
+"fieldOrder": 11,
+"id": "45.08.01",
+"prereqs": [
+"45.06.03",
+"02.11.08"
+],
+"section": "mathematical-statistics",
+"slug": "kernels-rkhs-representer-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kernel Methods, Reproducing-Kernel Hilbert Spaces, and the Representer Theorem"
 },
 "45.08.04": {
 "area": "math",

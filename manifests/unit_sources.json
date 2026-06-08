@@ -12903,6 +12903,12 @@
 ],
 "curriculum": "mathematical-statistics"
 },
+"45.03.03": {
+"books": [
+"casella-berger"
+],
+"curriculum": "mathematical-statistics"
+},
 "45.03.05": {
 "books": [
 "casella-berger"
@@ -12945,7 +12951,19 @@
 ],
 "curriculum": "mathematical-statistics"
 },
+"45.04.07": {
+"books": [
+"van-der-vaart"
+],
+"curriculum": "mathematical-statistics"
+},
 "45.04.09": {
+"books": [
+"van-der-vaart"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.04.10": {
 "books": [
 "van-der-vaart"
 ],
@@ -12981,6 +12999,12 @@
 ],
 "curriculum": "mathematical-statistics"
 },
+"45.05.06": {
+"books": [
+"van-der-vaart"
+],
+"curriculum": "mathematical-statistics"
+},
 "45.06.01": {
 "books": [
 "hastie-tibshirani-friedman"
@@ -13011,6 +13035,18 @@
 ],
 "curriculum": "mathematical-statistics"
 },
+"45.06.06": {
+"books": [
+"hastie-tibshirani-friedman"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.06.08": {
+"books": [
+"hastie-tibshirani-friedman"
+],
+"curriculum": "mathematical-statistics"
+},
 "45.07.01": {
 "books": [
 "shalev-shwartz-ben-david"
@@ -13026,6 +13062,18 @@
 "45.07.03": {
 "books": [
 "shalev-shwartz-ben-david"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.07.04": {
+"books": [
+"shalev-shwartz-ben-david"
+],
+"curriculum": "mathematical-statistics"
+},
+"45.08.01": {
+"books": [
+"hastie-tibshirani-friedman"
 ],
 "curriculum": "mathematical-statistics"
 },
