@@ -32,6 +32,7 @@ sections:
   representation-theory: { area: math, field: representation-theory }
   logic:                 { area: math, field: foundations-logic }
   statistics:            { area: math, field: statistics }
+  mathematical-statistics: { area: math, field: statistics }
   numerical-pde:         { area: math, field: numerical-analysis }
   stat-mech:             { area: math, field: statistical-field-theory }  # mathematical statistical field theory (per sections.ts)
   # ── physics ──
@@ -58,7 +59,7 @@ fields:
   algebraic-geometry:       { label: "Algebraic Geometry",                   order: 8 }
   representation-theory:    { label: "Representation Theory",                order: 9 }
   numerical-analysis:       { label: "Numerical Analysis",                   order: 10 }
-  statistics:               { label: "Statistics",                          order: 11 }
+  statistics:               { label: "Statistics & Learning Theory",        order: 11 }
   statistical-field-theory: { label: "Statistical Field Theory",            order: 12 }
   # ── reserved for expansion spines (units land as each spine is produced) ──
   dynamics:                 { label: "Dynamical Systems & Ergodic Theory",  order: 13 }

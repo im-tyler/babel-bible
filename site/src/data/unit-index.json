@@ -39110,7 +39110,7 @@
 "chapter": "descriptive-stats",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.01.01",
 "prereqs": [],
@@ -39130,7 +39130,7 @@
 "chapter": "probability",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.02.01",
 "prereqs": [
@@ -39152,7 +39152,7 @@
 "chapter": "random-variables",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.03.01",
 "prereqs": [
@@ -39174,7 +39174,7 @@
 "chapter": "sampling",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.04.01",
 "prereqs": [
@@ -39196,7 +39196,7 @@
 "chapter": "hypothesis-testing",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.05.01",
 "prereqs": [
@@ -39218,7 +39218,7 @@
 "chapter": "regression",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.06.01",
 "prereqs": [
@@ -39241,7 +39241,7 @@
 "chapter": "bayesian",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.07.01",
 "prereqs": [
@@ -39263,7 +39263,7 @@
 "chapter": "nonparametric",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.08.01",
 "prereqs": [
@@ -39285,7 +39285,7 @@
 "chapter": "experimental-design",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.09.01",
 "prereqs": [
@@ -39308,7 +39308,7 @@
 "chapter": "statistical-literacy",
 "curriculum": "fast-track",
 "field": "statistics",
-"fieldLabel": "Statistics",
+"fieldLabel": "Statistics & Learning Theory",
 "fieldOrder": 11,
 "id": "26.10.01",
 "prereqs": [

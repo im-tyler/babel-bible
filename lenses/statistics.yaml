@@ -1,0 +1,17 @@
+id: statistics
+label: Statistics & Learning Theory
+description: >-
+  Statistical decision theory and point estimation (sufficiency, exponential families,
+  maximum likelihood, the Cramer-Rao bound, UMVU estimators), hypothesis testing and
+  confidence sets (Neyman-Pearson, UMP and likelihood-ratio tests), Bayesian inference,
+  asymptotic statistics (consistency, asymptotic normality, the delta method, M- and
+  Z-estimators, local asymptotic normality), empirical processes and nonparametrics (the
+  bootstrap, kernel density estimation, U-statistics), high-dimensional and regularized
+  regression (ridge, the LASSO, oracle inequalities, model selection), and statistical
+  learning theory (empirical risk minimization, VC dimension, Rademacher complexity,
+  generalization bounds, kernels and support vector machines, boosting, and the EM
+  algorithm). Prerequisites are pulled in automatically so the result is always a complete,
+  learnable path.
+seed:
+  field_in: [statistics]
+group_by: field
