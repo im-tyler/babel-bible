@@ -27792,9 +27792,10 @@
 "09.01.05": {
 "area": "physics",
 "books": [
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
-"chapter": "01-newtonian",
+"chapter": "newtonian",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
@@ -27802,8 +27803,7 @@
 "id": "09.01.05",
 "prereqs": [
 "09.01.01",
-"09.01.03",
-"02.01.01"
+"09.01.02"
 ],
 "section": "classical-mech",
 "slug": "newtons-law-of-gravitation-field-potential-shell-theorem",
@@ -27813,7 +27813,7 @@
 "intermediate",
 "master"
 ],
-"title": "Gravitation: Field, Potential, Shell Theorem"
+"title": "Newton's Law of Gravitation: Gravitational Field, Potential, and the Shell Theorem"
 },
 "09.01.06": {
 "area": "physics",
@@ -27821,15 +27821,15 @@
 "taylor-2005",
 "goldstein-2002"
 ],
-"chapter": "01-newtonian",
+"chapter": "newtonian",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.01.06",
 "prereqs": [
-"09.01.02",
-"09.01.01"
+"09.01.01",
+"09.01.02"
 ],
 "section": "classical-mech",
 "slug": "friction-normal-forces-constraints",
@@ -27839,12 +27839,13 @@
 "intermediate",
 "master"
 ],
-"title": "Friction, Normal Forces, Constraints"
+"title": "Friction, Normal Forces, and Constraints: Holonomic and Non-holonomic Systems"
 },
 "09.01.07": {
 "area": "physics",
 "books": [
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "chapter": "newtonian",
 "curriculum": "classical-mech",
@@ -27853,8 +27854,8 @@
 "fieldOrder": 20,
 "id": "09.01.07",
 "prereqs": [
-"09.01.02",
-"09.01.01"
+"09.01.01",
+"09.01.02"
 ],
 "section": "classical-mech",
 "slug": "non-inertial-frames-centrifugal-coriolis-foucault",
@@ -27864,12 +27865,13 @@
 "intermediate",
 "master"
 ],
-"title": "Non-inertial frames: centrifugal, Coriolis, Foucault's pendulum"
+"title": "Non-inertial Frames: Centrifugal Force, Coriolis Force, and Foucault's Pendulum"
 },
 "09.01.08": {
 "area": "physics",
 "books": [
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "chapter": "newtonian",
 "curriculum": "classical-mech",
@@ -27878,8 +27880,8 @@
 "fieldOrder": 20,
 "id": "09.01.08",
 "prereqs": [
-"09.01.02",
-"09.01.03"
+"09.01.01",
+"09.01.02"
 ],
 "section": "classical-mech",
 "slug": "variable-mass-rocket-equation-tsiolkovsky",
@@ -27889,7 +27891,7 @@
 "intermediate",
 "master"
 ],
-"title": "Variable-mass systems: rocket equation (Tsiolkovsky)"
+"title": "Variable-Mass Systems: The Rocket Equation (Tsiolkovsky) and Momentum Transport"
 },
 "09.02.01": {
 "area": "physics",
@@ -27953,18 +27955,18 @@
 "09.02.03": {
 "area": "physics",
 "books": [
-"goldstein-2002",
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
-"chapter": "02-lagrangian",
+"chapter": "lagrangian",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.02.03",
 "prereqs": [
-"09.02.02",
-"09.01.06"
+"09.02.01",
+"09.02.02"
 ],
 "section": "classical-mech",
 "slug": "constrained-lagrangian-lagrange-multipliers-dalembert",
@@ -27974,7 +27976,7 @@
 "intermediate",
 "master"
 ],
-"title": "Constrained Lagrangian: Lagrange Multipliers, D'Alembert"
+"title": "Constrained Lagrangian Systems: Lagrange Multipliers and D'Alembert's Principle"
 },
 "09.02.04": {
 "area": "physics",
@@ -28032,18 +28034,19 @@
 "09.02.06": {
 "area": "physics",
 "books": [
+"taylor-2005",
 "goldstein-2002",
 "landau-lifshitz-mechanics"
 ],
-"chapter": "02-lagrangian",
+"chapter": "lagrangian",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.02.06",
 "prereqs": [
-"09.02.02",
-"09.07.01"
+"09.02.01",
+"09.02.02"
 ],
 "section": "classical-mech",
 "slug": "field-lagrangians-continuum-limit-elastic-media",
@@ -28053,7 +28056,7 @@
 "intermediate",
 "master"
 ],
-"title": "Field Lagrangians and Continuum Limit"
+"title": "Field Lagrangians and the Continuum Limit: Elastic Media and the Wave Equation as a Field Theory"
 },
 "09.03.01": {
 "area": "physics",
@@ -28090,16 +28093,17 @@
 "09.03.02": {
 "area": "physics",
 "books": [
-"goldstein-2002",
-"landau-lifshitz-mechanics"
+"taylor-2005",
+"goldstein-2002"
 ],
-"chapter": "03-symmetries-noether",
+"chapter": "symmetries-noether",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.03.02",
 "prereqs": [
+"09.02.01",
 "09.02.02",
 "09.03.01"
 ],
@@ -28111,7 +28115,7 @@
 "intermediate",
 "master"
 ],
-"title": "Cyclic Coordinates and Routh's Procedure"
+"title": "Cyclic Coordinates, Ignorable Degrees of Freedom, and Routh's Procedure"
 },
 "09.03.03": {
 "area": "physics",
@@ -28146,18 +28150,18 @@
 "09.03.04": {
 "area": "physics",
 "books": [
-"goldstein-2002",
-"landau-lifshitz-mechanics"
+"taylor-2005",
+"goldstein-2002"
 ],
-"chapter": "03-symmetries-noether",
+"chapter": "symmetries-noether",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.03.04",
 "prereqs": [
-"09.03.01",
-"09.02.02"
+"09.02.01",
+"09.03.01"
 ],
 "section": "classical-mech",
 "slug": "discrete-symmetries-parity-time-reversal-conservation",
@@ -28167,7 +28171,7 @@
 "intermediate",
 "master"
 ],
-"title": "Discrete Symmetries: Parity, Time-Reversal"
+"title": "Discrete Symmetries in Mechanics: Parity, Time-Reversal, and Conservation Laws"
 },
 "09.03.05": {
 "area": "physics",
@@ -28257,18 +28261,19 @@
 "09.04.03": {
 "area": "physics",
 "books": [
+"taylor-2005",
 "goldstein-2002",
 "landau-lifshitz-mechanics"
 ],
-"chapter": "04-hamiltonian",
+"chapter": "hamiltonian",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.04.03",
 "prereqs": [
-"09.04.02",
-"09.03.01"
+"09.04.01",
+"09.04.02"
 ],
 "section": "classical-mech",
 "slug": "poisson-brackets-jacobi-identity",
@@ -28278,7 +28283,7 @@
 "intermediate",
 "master"
 ],
-"title": "Poisson Brackets"
+"title": "Poisson Brackets: Structure, the Jacobi Identity, and Bracket Algebra of Conserved Quantities"
 },
 "09.04.04": {
 "area": "physics",
@@ -28309,18 +28314,17 @@
 "09.04.05": {
 "area": "physics",
 "books": [
-"goldstein-2002",
-"landau-lifshitz-mechanics"
+"woit-quantum-theory-groups-representations"
 ],
-"chapter": "04-hamiltonian",
-"curriculum": "classical-mech",
+"chapter": "hamiltonian",
+"curriculum": "fast-track",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.04.05",
 "prereqs": [
-"09.04.02",
-"09.04.03"
+"09.04.01",
+"09.04.02"
 ],
 "section": "classical-mech",
 "slug": "symplectic-structure-symplectic-form-darboux",
@@ -28330,7 +28334,7 @@
 "intermediate",
 "master"
 ],
-"title": "Symplectic Structure and Darboux's Theorem"
+"title": "Symplectic Structure, the Symplectic Form, and Darboux's Theorem"
 },
 "09.04.06": {
 "area": "physics",
@@ -28614,16 +28618,15 @@
 "goldstein-2002",
 "landau-lifshitz-mechanics"
 ],
-"chapter": "06-integrable",
+"chapter": "integrable",
 "curriculum": "classical-mech",
 "field": "classical-physics",
 "fieldLabel": "Classical Mechanics & EM",
 "fieldOrder": 20,
 "id": "09.06.02",
 "prereqs": [
+"09.04.01",
 "09.04.02",
-"09.04.03",
-"09.04.05",
 "09.06.01"
 ],
 "section": "classical-mech",

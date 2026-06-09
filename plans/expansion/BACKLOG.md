@@ -159,8 +159,8 @@ All plans are at `plans/expansion/<dir>/PRODUCTION_PLAN.md`. All sections exist;
 Prose-first contract: lean_status: none, human review is the correctness gate.
 Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existing unit in the same section.
 
-- [ ] **Classical Mechanics (09)** — `plans/expansion/classical-mechanics/` — 35 new units across 8 chapters (newtonian/lagrangian/symmetries/hamiltonian/canonical/integrable/continuum/chaos). Sources: Taylor 2005, Goldstein 2002, Landau-Lifshitz. 16 → 51 units.
-  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+- [~] **Classical Mechanics (09)** — `plans/expansion/classical-mechanics/` — 35 new units across 8 chapters (newtonian/lagrangian/symmetries/hamiltonian/canonical/integrable/continuum/chaos). Sources: Taylor 2005, Goldstein 2002, Landau-Lifshitz. 16 → 51 units. **W1 COMPLETE (9/35 units, all 27/27).**
+  - [ ] PRODUCE: remaining 4 dependency waves → integrate → commit → build_lenses
   - [ ] COMPLETENESS: loop-until-dry
 
 - [ ] **Electromagnetism & SR (10)** — `plans/expansion/electromagnetism/` — 22 new units (magnetostatics/electrodynamics/maxwell-fields/covariant-em/radiation + new ch08-advanced-electrodynamics). Sources: Griffiths 2017, Jackson 1999. 15 → 37 units.

@@ -8050,7 +8050,8 @@
 },
 "09.01.05": {
 "books": [
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8063,13 +8064,15 @@
 },
 "09.01.07": {
 "books": [
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
 "09.01.08": {
 "books": [
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8092,8 +8095,8 @@
 },
 "09.02.03": {
 "books": [
-"goldstein-2002",
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8113,6 +8116,7 @@
 },
 "09.02.06": {
 "books": [
+"taylor-2005",
 "goldstein-2002",
 "landau-lifshitz-mechanics"
 ],
@@ -8130,8 +8134,8 @@
 },
 "09.03.02": {
 "books": [
-"goldstein-2002",
-"landau-lifshitz-mechanics"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8146,8 +8150,8 @@
 },
 "09.03.04": {
 "books": [
-"goldstein-2002",
-"landau-lifshitz-mechanics"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8175,6 +8179,7 @@
 },
 "09.04.03": {
 "books": [
+"taylor-2005",
 "goldstein-2002",
 "landau-lifshitz-mechanics"
 ],
@@ -8189,10 +8194,9 @@
 },
 "09.04.05": {
 "books": [
-"goldstein-2002",
-"landau-lifshitz-mechanics"
+"woit-quantum-theory-groups-representations"
 ],
-"curriculum": "classical-mech"
+"curriculum": "fast-track"
 },
 "09.04.06": {
 "books": [
