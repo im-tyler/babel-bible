@@ -8048,6 +8048,31 @@
 ],
 "curriculum": "fast-track"
 },
+"09.01.05": {
+"books": [
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
+"09.01.06": {
+"books": [
+"taylor-2005",
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
+},
+"09.01.07": {
+"books": [
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
+"09.01.08": {
+"books": [
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
 "09.02.01": {
 "books": [
 "olver-lie-groups-differential-equations",
@@ -8065,6 +8090,34 @@
 ],
 "curriculum": "fast-track"
 },
+"09.02.03": {
+"books": [
+"goldstein-2002",
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
+"09.02.04": {
+"books": [
+"goldstein-2002",
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
+"09.02.05": {
+"books": [
+"taylor-2005",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.02.06": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
 "09.03.01": {
 "books": [
 "olver-lie-groups-differential-equations",
@@ -8075,6 +8128,13 @@
 ],
 "curriculum": "fast-track"
 },
+"09.03.02": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
 "09.03.03": {
 "books": [
 "souriau-structure-dynamical-systems",
@@ -8083,6 +8143,20 @@
 "sternberg-group-theory-physics"
 ],
 "curriculum": "fast-track"
+},
+"09.03.04": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.03.05": {
+"books": [
+"landau-lifshitz-mechanics",
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
 },
 "09.04.01": {
 "books": [
@@ -8099,12 +8173,54 @@
 ],
 "curriculum": "fast-track"
 },
+"09.04.03": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.04.04": {
+"books": [
+"goldstein-2002",
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
+"09.04.05": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.04.06": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
 "09.04.07": {
 "books": [
 "woodhouse-geometric-quantization",
 "woit-quantum-theory-groups-representations"
 ],
 "curriculum": "fast-track"
+},
+"09.04.08": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.04.09": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
 },
 "09.05.01": {
 "books": [
@@ -8123,12 +8239,52 @@
 ],
 "curriculum": "fast-track"
 },
+"09.05.03": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.05.04": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.05.05": {
+"books": [
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
+},
 "09.06.01": {
 "books": [
 "woit-quantum-theory-groups-representations",
 "weinberg-quantum-theory-of-fields-vol1"
 ],
 "curriculum": "fast-track"
+},
+"09.06.02": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.06.03": {
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.06.04": {
+"books": [
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
 },
 "09.07.01": {
 "books": [
@@ -8138,11 +8294,56 @@
 ],
 "curriculum": "fast-track"
 },
+"09.07.02": {
+"books": [
+"landau-lifshitz-mechanics",
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
+},
+"09.07.03": {
+"books": [
+"landau-lifshitz-mechanics"
+],
+"curriculum": "classical-mech"
+},
+"09.07.04": {
+"books": [
+"landau-lifshitz-mechanics",
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
+},
 "09.08.01": {
 "books": [
 "arnold-mathematical-methods"
 ],
 "curriculum": "fast-track"
+},
+"09.08.02": {
+"books": [
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
+},
+"09.08.03": {
+"books": [
+"taylor-2005",
+"goldstein-2002"
+],
+"curriculum": "classical-mech"
+},
+"09.08.04": {
+"books": [
+"taylor-2005"
+],
+"curriculum": "classical-mech"
+},
+"09.08.05": {
+"books": [
+"taylor-2005"
+],
+"curriculum": "classical-mech"
 },
 "10.01.01": {
 "books": [],
@@ -8168,15 +8369,61 @@
 "books": [],
 "curriculum": "fast-track"
 },
+"10.02.02": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.02.03": {
+"books": [
+"griffiths-em-2017"
+],
+"curriculum": "em-sr"
+},
+"10.02.04": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.02.05": {
+"books": [
+"griffiths-em-2017"
+],
+"curriculum": "em-sr"
+},
 "10.03.01": {
 "books": [],
 "curriculum": "fast-track"
+},
+"10.03.02": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
 },
 "10.03.03": {
 "books": [
 "arnold-hydrodynamics"
 ],
 "curriculum": "fast-track"
+},
+"10.03.04": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.03.05": {
+"books": [
+"griffiths-em-2017"
+],
+"curriculum": "em-sr"
 },
 "10.04.01": {
 "books": [
@@ -8193,6 +8440,27 @@
 "landau-lifshitz-quantum-electrodynamics"
 ],
 "curriculum": "fast-track"
+},
+"10.04.03": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.04.04": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.04.05": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
 },
 "10.05.01": {
 "books": [
@@ -8221,11 +8489,65 @@
 ],
 "curriculum": "fast-track"
 },
+"10.06.02": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.06.03": {
+"books": [
+"jackson-em-1999",
+"griffiths-em-2017"
+],
+"curriculum": "em-sr"
+},
+"10.06.04": {
+"books": [
+"jackson-em-1999",
+"griffiths-em-2017"
+],
+"curriculum": "em-sr"
+},
 "10.07.01": {
 "books": [
 "landau-lifshitz-quantum-electrodynamics"
 ],
 "curriculum": "fast-track"
+},
+"10.07.02": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.07.03": {
+"books": [
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.07.04": {
+"books": [
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
+},
+"10.07.05": {
+"books": [
+"jackson-em-1999",
+"griffiths-em-2017"
+],
+"curriculum": "em-sr"
+},
+"10.08.01": {
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"curriculum": "em-sr"
 },
 "11.01.01": {
 "books": [],
@@ -8235,13 +8557,67 @@
 "books": [],
 "curriculum": "fast-track"
 },
+"11.01.03": {
+"books": [
+"pathria-beale-2011",
+"callen-1985",
+"reif-1965"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.01.04": {
+"books": [
+"callen-1985",
+"pathria-beale-2011",
+"reif-1965"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.01.05": {
+"books": [
+"pathria-beale-2011",
+"callen-1985",
+"huang-1987"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.01.06": {
+"books": [
+"callen-1985",
+"reif-1965"
+],
+"curriculum": "stat-mech-physics"
+},
 "11.02.01": {
 "books": [],
 "curriculum": "fast-track"
 },
+"11.02.02": {
+"books": [
+"reif-1965",
+"kittel-kroemer-1980",
+"kardar-2007"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.02.03": {
+"books": [
+"kardar-2007",
+"reif-1965"
+],
+"curriculum": "stat-mech-physics"
+},
 "11.03.01": {
 "books": [],
 "curriculum": "fast-track"
+},
+"11.03.02": {
+"books": [
+"pathria-beale-2011",
+"reif-1965",
+"huang-1987"
+],
+"curriculum": "stat-mech-physics"
 },
 "11.04.01": {
 "books": [
@@ -8255,6 +8631,22 @@
 "souriau-structure-dynamical-systems"
 ],
 "curriculum": "fast-track"
+},
+"11.04.03": {
+"books": [
+"pathria-beale-2011",
+"reif-1965",
+"huang-1987"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.04.04": {
+"books": [
+"pathria-beale-2011",
+"reif-1965",
+"huang-1987"
+],
+"curriculum": "stat-mech-physics"
 },
 "11.05.01": {
 "books": [],
@@ -8286,12 +8678,27 @@
 ],
 "curriculum": "fast-track"
 },
+"11.06.02": {
+"books": [
+"pathria-beale-2011",
+"huang-1987",
+"kardar-2007"
+],
+"curriculum": "stat-mech-physics"
+},
 "11.07.01": {
 "books": [
 "deligne-quantum-fields-strings",
 "weinberg-quantum-theory-of-fields-vol2"
 ],
 "curriculum": "fast-track"
+},
+"11.07.02": {
+"books": [
+"kardar-2007",
+"pathria-beale-2011"
+],
+"curriculum": "stat-mech-physics"
 },
 "12.01.01": {
 "books": [
@@ -13238,5 +13645,455 @@
 "hastie-tibshirani-friedman"
 ],
 "curriculum": "mathematical-statistics"
+},
+"46.01.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.01.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.01.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.01.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.01.05": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.02.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.02.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.02.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.02.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.02.05": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.02.06": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.05": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.06": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.03.07": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.04.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.04.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.04.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.04.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.05.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.05.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.05.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.05.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.06.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.06.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.06.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.06.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.07.01": {
+"books": [
+"cover-thomas-2006",
+"macwilliams-sloane-1977"
+],
+"curriculum": "information-theory"
+},
+"46.07.02": {
+"books": [
+"macwilliams-sloane-1977"
+],
+"curriculum": "information-theory"
+},
+"46.07.03": {
+"books": [
+"macwilliams-sloane-1977"
+],
+"curriculum": "information-theory"
+},
+"46.07.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.08.01": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.08.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.08.03": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"46.08.04": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
+"47.01.01": {
+"books": [
+"sipser-2013"
+],
+"curriculum": "theoretical-cs"
+},
+"47.01.02": {
+"books": [
+"sipser-2013"
+],
+"curriculum": "theoretical-cs"
+},
+"47.01.03": {
+"books": [
+"sipser-2013"
+],
+"curriculum": "theoretical-cs"
+},
+"47.01.04": {
+"books": [
+"sipser-2013"
+],
+"curriculum": "theoretical-cs"
+},
+"47.01.05": {
+"books": [
+"sipser-2013"
+],
+"curriculum": "theoretical-cs"
+},
+"47.01.06": {
+"books": [
+"sipser-2013"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.01": {
+"books": [
+"sipser-2013",
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.02": {
+"books": [
+"sipser-2013",
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.03": {
+"books": [
+"sipser-2013",
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.04": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.05": {
+"books": [
+"sipser-2013",
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.06": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.02.07": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.03.01": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.03.02": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.03.03": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.03.04": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.03.05": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.03.06": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.01": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.02": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.03": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.04": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.05": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.06": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.07": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.04.08": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.05.01": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.05.02": {
+"books": [
+"clrs-2022"
+],
+"curriculum": "theoretical-cs"
+},
+"47.05.03": {
+"books": [
+"clrs-2022",
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.05.04": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.05.05": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.06.01": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.06.02": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.06.03": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
+},
+"47.06.04": {
+"books": [
+"arora-barak-2009"
+],
+"curriculum": "theoretical-cs"
 }
 }

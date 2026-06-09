@@ -1,0 +1,17 @@
+id: theoretical-cs
+label: Theoretical Computer Science
+description: >-
+  Formal languages and automata theory (regular, context-free, and Turing-recognizable
+  languages; DFA/NFA equivalence; pumping lemmas; Chomsky hierarchy), computational
+  complexity (P, NP, co-NP, PSPACE, EXPTIME, the polynomial hierarchy, circuit complexity,
+  and probabilistic classes BPP and RP), advanced complexity (oracle machines, relativization,
+  the PCP theorem and hardness of approximation, interactive proofs and IP=PSPACE, counting
+  classes and Toda's theorem), algorithm design and analysis (divide-and-conquer, dynamic
+  programming, greedy algorithms, amortized analysis, graph algorithms, NP-hardness reductions),
+  randomized algorithms (Las Vegas, Monte Carlo, probabilistic method, hashing, Karger's min-cut),
+  and cryptographic foundations (one-way functions, pseudorandom generators, zero-knowledge
+  proofs, semantic security, RSA, Diffie-Hellman). Cross-refs computability from section 42
+  and graph theory from section 40.
+seed:
+  field_in: [theoretical-cs]
+group_by: field

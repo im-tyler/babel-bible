@@ -142,22 +142,89 @@ Category theory currently has only the single `01.02.09` unit — audit against 
   - [x] COMPLETENESS: re-audited all 4 books loop-until-dry (2 rounds; TB DRY immediately; closed 43.06.12 Sylvester/Lyapunov-Bartels-Stewart + 43.10.06 two-point BVP; round 2 DRY). 44 units total.
 - [x] Spine 9 — Optimization & Control (Boyd-Vandenberghe, Nocedal-Wright, Rockafellar, Bertsekas) — **COMPLETE (human "continue in full" cleared the Tier B gate 2026-06-07)**: 47 units, NEW section 44-optimization-control (prefix 44, field `optimization`). 8 chapters: convex-sets-functions, convex-duality-kkt, unconstrained-optimization, constrained-nonlinear, conic-semidefinite, first-order-large-scale, optimal-control-pontryagin, dynamic-programming. 5 dependency waves (36 units) + completeness (R1 10 units, R2 1 unit Chambolle-Pock, R3 DRY). math area +47 (1349→1396).
 - [x] Spine 10 — Statistics & Learning Theory (Casella-Berger, van der Vaart, Wasserman, Hastie-Tibshirani-Friedman, Shalev-Shwartz-Ben-David) — **COMPLETE (autonomous per "continue in full", paused before Spine 11 per user)**: 68 units, NEW section 45-mathematical-statistics (prefix 45, field `statistics` SHARED with elementary 26-statistics survey). 8 chapters: decision-theory-estimation/hypothesis-testing-confidence/bayesian-inference/asymptotic-statistics/empirical-processes-nonparametric/high-dimensional-regularization/statistical-learning-theory/learning-methods. 7 dependency waves (57 units) + completeness R1 (11 units; all produced and integrated). statistics lens core=78. math area +68 (1396→1464). **PAUSED before Spine 11 per user instruction.**
-- [ ] Spine 11 — Information & Coding Theory (Cover-Thomas, MacWilliams-Sloane) — **PRODUCTION PLAN READY** at `plans/expansion/information-theory/PRODUCTION_PLAN.md`. NEW section `content/46-information-theory` (prefix 46, field `information-theory` order 17, domain math). 8 chapters: information-measures/source-coding/channel-capacity/information-statistics/side-information/network-information/algebraic-coding-advanced/modern-codes. 38 units, 6 dependency waves. Key cross-refs: 40.06.06-08 (do NOT redo linear codes/BCH/RS/RM), 42.04.08 (Kolmogorov), 37.07.02 (Sanov). Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`.
-  - [ ] SETUP: 7-step checklist (dirs, field_map, validate_unit.py prefix 46, sections.ts, lens yaml, smoke-test)
-  - [ ] PRODUCE: 38 units, 6 waves (see PRODUCTION_PLAN.md) → integrate → commit → build_lenses
+- [x] Spine 11 — Information & Coding Theory (Cover-Thomas, MacWilliams-Sloane) — **COMPLETE**: 38 units, NEW section `content/46-information-theory` (prefix 46, field `information-theory` order 17, domain math). 8 chapters: information-measures/source-coding/channel-capacity/information-statistics/side-information/network-information/algebraic-coding-advanced/modern-codes. 6 dependency waves, all 27/27. Key cross-refs: 40.06.06-08 (linear codes), 42.04.08 (Kolmogorov), 37.07.02 (Sanov), 37.07.06 (Donsker-Varadhan), 45.01.05 (Fisher info), 45.02.01 (Neyman-Pearson), 44.02.01 (duality). information-theory lens core=38. math area +38 (1464→1502).
+  - [x] SETUP: 7-step checklist — dirs, field_map, validate_unit prefix 46, sections.ts, lens yaml, smoke-test
+  - [x] PRODUCE: 38 units, 6 waves → integrate → build_lenses
   - [ ] COMPLETENESS: loop-until-dry re-audit
-- [ ] Spine 12 — Theoretical Computer Science (Sipser, Arora-Barak, Cormen) — **PRODUCTION PLAN READY** at `plans/expansion/theoretical-cs/PRODUCTION_PLAN.md`. NEW section `content/47-theoretical-cs` (prefix 47, field `theoretical-cs` order 18, domain other/computing). 6 chapters: formal-languages-automata/complexity-fundamentals/advanced-complexity/algorithms-analysis/randomized-algorithms/cryptographic-foundations. 36 units, 6 dependency waves. ⚠️ Sipser computability (TMs, halting) is FULLY COVERED in 42.04 — skip those; ch01 (DFA/NFA/CFG) is genuinely new. Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`.
-  - [ ] SETUP: 7-step checklist (dirs, field_map, validate_unit.py prefix 47, sections.ts, lens yaml, smoke-test)
-  - [ ] PRODUCE: 36 units, 6 waves (see PRODUCTION_PLAN.md) → integrate → commit → build_lenses
+- [x] Spine 12 — Theoretical Computer Science (Sipser, Arora-Barak, Cormen) — **COMPLETE**: 36 units, NEW section `content/47-theoretical-cs` (prefix 47, field `theoretical-cs` order 18, domain other/computing). 6 chapters: formal-languages-automata/complexity-fundamentals/advanced-complexity/algorithms-analysis/randomized-algorithms/cryptographic-foundations. 6 dependency waves, all 27/27. Key cross-refs: 42.04.01-08 (computability — TM model and halting, not re-derived), 40.04.* (graph theory), 21.01.01/03/04 (number theory), 25.03.01 (Big-O), 45.07.01 (PAC). theoretical-cs lens core=36.
+  - [x] SETUP: 7-step checklist — dirs, field_map, validate_unit prefix 47, sections.ts, lens yaml, smoke-test
+  - [x] PRODUCE: 36 units, 6 waves → integrate → build_lenses
   - [ ] COMPLETENESS: loop-until-dry re-audit
+
+---
+
+## Tier C — Non-math subject gap-fills — PRODUCTION PLANS READY
+
+All plans are at `plans/expansion/<dir>/PRODUCTION_PLAN.md`. All sections exist; no SETUP required.
+Prose-first contract: lean_status: none, human review is the correctness gate.
+Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existing unit in the same section.
+
+- [ ] **Classical Mechanics (09)** — `plans/expansion/classical-mechanics/` — 35 new units across 8 chapters (newtonian/lagrangian/symmetries/hamiltonian/canonical/integrable/continuum/chaos). Sources: Taylor 2005, Goldstein 2002, Landau-Lifshitz. 16 → 51 units.
+  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+  - [ ] COMPLETENESS: loop-until-dry
+
+- [ ] **Electromagnetism & SR (10)** — `plans/expansion/electromagnetism/` — 22 new units (magnetostatics/electrodynamics/maxwell-fields/covariant-em/radiation + new ch08-advanced-electrodynamics). Sources: Griffiths 2017, Jackson 1999. 15 → 37 units.
+  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
+  - [ ] COMPLETENESS: loop-until-dry
+
+- [ ] **Statistical Mechanics (11)** — `plans/expansion/statistical-mechanics/` — 22 new units (thermodynamics/kinetic-theory/ensembles/partition-functions/phase-transitions/rg). Sources: Reif 1965, Kittel-Kroemer 1980, Pathria 2011. 14 → 36 units.
+  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
+  - [ ] COMPLETENESS: loop-until-dry
+
+- [ ] **Quantum Mechanics gap-fill (12)** — `plans/expansion/quantum-mechanics/` — up to 12 conditional units for thin chapters only (WKB, Wigner D-matrices, second quantization, Lindblad). **Check chapter counts first; skip chapters with ≥ 4 units.**
+
+- [ ] **Chemistry — GenChem/PChem (14)** — `plans/expansion/chemistry/` — 32 new units (all 12 chapters). Sources: Atkins 2023, McQuarrie-Simon 1997. 13 → 45 units.
+  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+  - [ ] COMPLETENESS: loop-until-dry
+
+- [ ] **Chemistry — Organic (15)** — same plan file — 24 new units (all 14 chapters). Sources: Clayden 2012, McMurry 2019. 14 → 38 units.
+  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+
+- [ ] **Chemistry — Inorganic (16)** — same plan file — 15 new units (all 7 chapters). Sources: Miessler 2014, Shriver-Atkins 2014. 9 → 24 units.
+  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
+
+- [ ] **Biology — Mol/Cell (17)** — `plans/expansion/biology/` — 25 new units (all 10 chapters). Sources: Alberts 2022, Lodish 2021. 18 → 43 units.
+  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+  - [ ] COMPLETENESS: loop-until-dry
+
+- [ ] **Biology — Organismal (18)** — same plan file — 22 new units (all 11 chapters). Sources: Sherwood 2016, Sadava 2023. 13 → 35 units.
+  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+
+- [ ] **Biology — Eco/Evo (19)** — same plan file — 22 new units (15 chapters). Sources: Futuyma 2017, Hartl-Clark 2007. 18 → 40 units.
+  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
+
+- [ ] **Earth Science (27)** — `plans/expansion/earth-space/` — 18 new units (all 8 chapters). Sources: Tarbuck 2017, Grotzinger 2018. 8 → 26 units.
+
+- [ ] **Astronomy (28)** — same plan file — 15 new units (all 6 chapters). Sources: Carroll-Ostlie 2017, Ryden 2017. 6 → 21 units.
+
+- [ ] **Psychology (29)** — `plans/expansion/social-sciences/` — 27 new units (all 12 chapters). Sources: Myers 2021, Kandel 2021. 12 → 39 units.
+
+- [ ] **Sociology (30)** — same plan file — 16 new units (all 8 chapters). Sources: Giddens 2017, Macionis 2019. 8 → 24 units.
+
+- [ ] **Anthropology (31)** — same plan file — 12 new units (all 6 chapters). Sources: Kottak 2019, Haviland 2017. 6 → 18 units.
+
+- [ ] **Philosophy (20)** — `plans/expansion/health-applied/` — 16 new units (8 chapters). Sources: Russell, Quine, Kuhn, Rawls, Chalmers. 10 → 26 units.
+
+- [ ] **World History (32)** — same plan file — 8 new units (priority chapters). Sources: McNeill, Diamond, Bayly. 26 → 34 units (first pass).
+
+- [ ] **History of Science (33)** — same plan file — 8 new units (all 8 chapters). Sources: Cohen, Bowler-Morus. 8 → 16 units.
+
+- [ ] **Music & Art (34)** — same plan file — 8 new units (priority chapters). Sources: Meyer, Gombrich, Arnheim. 8 → 16 units.
+
+- [ ] **Health & Medicine (35)** — same plan file — 18 new units (all 8 chapters). Sources: Robbins Pathology 2021, Harrison's 2022, Gordis Epidemiology 2019. 8 → 26 units.
+
+- [ ] **Media Literacy (36)** — same plan file — 6 new units (all 6 chapters). Sources: Postman 1985, McChesney 2004. 6 → 12 units.
 
 ---
 
 ## Completion target
 Tier A (1-7) takes pure math from ~47% to ~85% of pure mathematics. Tier A+B → ~70% of ALL
-mathematics. Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
+mathematics. Tier C fills the non-math subjects to ≥2 units per chapter across all sections.
+Per `docs/plans/LENS_SYSTEM_AND_MATH_EXPANSION.md`.
 
 ## Log (newest first — the agent appends one line per completed wave)
+- 2026-06-09 — Spine 12 (theoretical-cs) PRODUCE COMPLETE: 36 units, NEW section 47-theoretical-cs (prefix 47, field `theoretical-cs`, domain other/computing). 6 chapters: formal-languages-automata/complexity-fundamentals/advanced-complexity/algorithms-analysis/randomized-algorithms/cryptographic-foundations. Sipser/Arora-Barak/CLRS. 6 dependency waves, all 27/27. Cross-refs: 42.04.01-08 (computability), 40.04.* (graph theory), 21.01.01/03/04 (number theory), 25.03.01 (Big-O), 45.07.01 (PAC). theoretical-cs lens core=36. **COMPLETENESS pending.**
+- 2026-06-09 — Spine 11 (information-theory) PRODUCE COMPLETE: 38 units, NEW section 46-information-theory (prefix 46, field `information-theory`, domain math). 8 chapters: information-measures/source-coding/channel-capacity/information-statistics/side-information/network-information/algebraic-coding-advanced/modern-codes. Cover-Thomas/MacWilliams-Sloane. 6 dependency waves, all 27/27. Cross-refs: 40.06.06-08 (linear codes), 37.07.02 (Sanov), 37.07.06 (Donsker-Varadhan), 45.01.05 (Fisher info), 45.02.01 (Neyman-Pearson), 44.02.01 (duality). information-theory lens core=38. math area +38 (1464→1502). **COMPLETENESS pending.**
 - 2026-06-08 — Spine 10 (mathematical-statistics) COMPLETE — **THIRD TIER B SPINE (autonomous per "continue in full")**: 68 units, NEW section 45-mathematical-statistics (prefix 45, field `statistics` SHARED with 26-statistics). 8 chapters: decision-theory-estimation/hypothesis-testing-confidence/bayesian-inference/asymptotic-statistics/empirical-processes-nonparametric/high-dimensional-regularization/statistical-learning-theory/learning-methods. Casella-Berger/van der Vaart/Wasserman/Hastie-Tibshirani-Friedman/Shalev-Shwartz-Ben-David. 7 dependency waves (57 units) + completeness R1 (11 units: Pitman-equivariance 45.01.07, FDR/BH 45.02.05, cube-root 45.04.11, linear-rank-stats 45.05.07, wavelet-estimation 45.05.08, minimax-lower-bounds 45.05.09, graphical-LASSO 45.06.10, PAC-Bayes 45.07.08, sample-compression 45.07.09, kNN 45.08.11, GLMs 45.08.12). Completeness converged R1 (all 11 on disk, 27/27, integrated). Cross-refs: LLN/CLT/Donsker 37.02-03, large-deviations 37.07, concentration 40.07.05, duality/KKT 44.02, proximal/SGD 44.06, functional analysis 02.11, elementary survey 26.*. statistics lens core=78. math area +68 (1396→1464). **PAUSED before Spine 11 per user instruction ("pause after finishing the current spine in full").**
 - 2026-06-07 — Spine 9 (optimization-control) COMPLETE — **SECOND TIER B SPINE; human "continue in full" cleared the Tier B gate**: 47 units, NEW section 44-optimization-control (prefix 44, field `optimization`, new lens). 8 chapters: convex-sets-functions, convex-duality-kkt, unconstrained-optimization, constrained-nonlinear, conic-semidefinite, first-order-large-scale, optimal-control-pontryagin, dynamic-programming. Boyd-Vandenberghe/Nocedal-Wright/Rockafellar/Bertsekas (+ Beck/Nesterov seeding the un-audited first-order chapter). 4 parallel audits reconciled across 4 id-collisions into 36 units / 5 dependency waves; completeness loop-until-dry over 3 rounds (R1 +10: quasiconvex/Pareto [Boyd], Broyden/DFO [N-W], Frank-Wolfe/coordinate-descent/Nesterov-smoothing [Beck/Nesterov], POMDP/Kalman-LQG-separation/stochastic-shortest-path [Bertsekas]; R2 +1 Chambolle-Pock/PDHG, convex+control-DP DRY; R3 first-order DRY). Rockafellar saddle-functions-apparatus (44.02.06) SKIPPED as below-bar (headline payoff already covered: minimax in 02.11.02, saddle-duality in 44.02.01). Kalman filter was genuinely absent corpus-wide → now 44.08.05. Cross-refs: Euler-Lagrange 09.02.02, Hamilton-Jacobi 09.05.02, viscosity solutions 02.18.05, Banach fixed-point 02.01.05, Legendre-Fenchel 37.07.03, Hahn-Banach/separation 02.11.02, Markov chains 37.05.01, linear-CG 43.07.04, least-squares-QR 43.04.01, Lyapunov 43.06.12, multivariate-normal 26.03.01. optimization lens core=47. math area +47 (1349→1396). **Next: Spine 10 (Statistics & Learning Theory) — continuing autonomously per "continue in full".**
 - 2026-06-07 — Spine 8 (numerical-analysis) COMPLETE — **FIRST TIER B SPINE (human-gated approval for Spine 8 ONLY)**: 44 units, NEW section 43-numerical-analysis (prefix 43, field `numerical-analysis` SHARED with the existing 24-numerical-pde FEEC content → both unify under one Numerical Analysis lens). 11 chapters: floating-point/conditioning, nonlinear-equations, direct-linear-solvers, least-squares-qr, svd-low-rank, eigenvalue-algorithms, iterative-krylov-methods, interpolation-approximation, numerical-quadrature, numerical-odes, finite-difference-pdes. Trefethen-Bau/Golub-Van Loan/Suli-Mayers/LeVeque. 8 dependency waves (42 units) + 2 completeness rounds (TB DRY immediately — SVD/QR/Hermitian-eigenvalue core already proven in 01.01.09/12/14, so 43.04/43.05 shrank to the algorithmic residue; 2 gaps closed: 43.06.12 Sylvester/Lyapunov-Bartels-Stewart [GVL], 43.10.06 two-point-BVP finite differences [LeVeque Ch.2/Süli Ch.13, deduped]; round 2 DRY). FD-vs-FEM seam cross-ref'd to 24-numerical-pde (Galerkin) not duplicated; continuous PDE theory cross-ref'd to 02.13/17/18; matrix-exp to 02.06.03; Lyapunov to 02.12.08. math area +44 (1305→1349). **Tier B HUMAN GATE REMAINS — do NOT start Spine 9 (optimization) without explicit go-ahead.**

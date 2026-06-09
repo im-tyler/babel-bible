@@ -17437,3 +17437,3554 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: TBD
   - beginner: TBD
 - **notes**: Auto-generated stub via integrate_unit.py — refine with the unit's actual content.
+
+### information-theory.entropy-joint-conditional-chain-rule
+
+- **title**: Entropy, Joint Entropy, Conditional Entropy, and the Chain Rule
+- **prerequisites**: (auto-stub; refine with audit context)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub via integrate_unit.py -- refine with the unit's actual content.
+
+### information-theory.mutual-information-kl-divergence-variational
+
+- **title**: Mutual Information, KL Divergence, and Variational Characterizations
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.entropy-rates-stationary-processes-markov
+
+- **title**: Entropy Rates of Stationary Processes and the Entropy of Markov Chains
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.asymptotic-equipartition-property-typical-sequences
+
+- **title**: The Asymptotic Equipartition Property and Strongly Typical Sequences
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.discrete-memoryless-channels-mutual-info-capacity
+
+- **title**: Discrete Memoryless Channels, Mutual Information Maximization, and Channel Capacity
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.hypothesis-testing-stein-lemma-kl-error-exponent
+
+- **title**: Hypothesis Testing and Stein Lemma: The KL Divergence as the Error Exponent
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.weight-enumerators-macwilliams-lp-bound
+
+- **title**: Weight Enumerators, the MacWilliams Identity, and the Linear-Programming Bound
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.ldpc-tanner-graphs-belief-propagation-density-evolution
+
+- **title**: LDPC Codes, Tanner Graphs, Belief Propagation, and Density Evolution Analysis
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.information-inequalities-logsum-subadditivity-pinsker
+
+- **title**: Information Inequalities: Log-Sum Inequality, Subadditivity, and Pinsker Inequality
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.differential-entropy-maximum-entropy-gaussian-entropy-power
+
+- **title**: Differential Entropy, the Maximum-Entropy Gaussian, and the Entropy-Power Inequality
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.shannon-source-coding-theorem-kraft-inequality
+
+- **title**: Shannon Source Coding Theorem: Optimal Lossless Rates and the Kraft Inequality
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.shannon-noisy-channel-coding-theorem-achievability
+
+- **title**: Shannon Noisy Channel Coding Theorem: Achievability via Random Coding
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.chernoff-information-symmetric-chernoff-bound
+
+- **title**: Chernoff Information and the Symmetric Chernoff Bound
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.algebraic-geometry-codes-goppa-tvz-bound
+
+- **title**: Algebraic Geometry Codes: The Goppa Construction and the Tsfasman-Vladut-Zink Bound
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.turbo-codes-parallel-concatenated-iterative-decoding
+
+- **title**: Turbo Codes: Parallel Concatenated Convolutional Codes and Iterative Decoding
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.huffman-codes-construction-optimality-redundancy
+
+- **title**: Huffman Codes: Construction, Optimality, and the Redundancy Bound
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.method-of-types-sanov-theorem-it-formulation
+
+- **title**: The Method of Types and Sanov Theorem: Information-Theoretic Formulation
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.fano-inequality-converse-channel-coding
+
+- **title**: Fano Inequality and the Converse to the Channel Coding Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.binary-symmetric-binary-erasure-channel-capacity-sphere-packing
+
+- **title**: Binary Symmetric Channel and Binary Erasure Channel: Capacity and Sphere-Packing
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.method-of-types-large-deviations-empirical-distributions
+
+- **title**: The Method of Types: Large Deviations for Empirical Distributions (IT perspective)
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.list-decoding-sudan-guruswami-sudan-reed-solomon
+
+- **title**: List Decoding: The Sudan and Guruswami-Sudan Algorithms for Reed-Solomon Codes
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.polar-codes-arikan-channel-polarization-successive-cancellation
+
+- **title**: Polar Codes: Arikan Channel Polarization Phenomenon and Successive Cancellation
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.arithmetic-coding-lempel-ziv-universal-source-coding
+
+- **title**: Arithmetic Coding and Lempel-Ziv Universal Source Coding
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.rate-distortion-theory-r-d-shannon-lossy-theorem
+
+- **title**: Rate-Distortion Theory: The Rate-Distortion Function R(D) and Shannon Lossy Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.gaussian-channel-capacity-bandwidth-water-filling
+
+- **title**: The Gaussian Channel: Capacity, Bandwidth, and the Water-Filling Allocation
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.i-projection-pythagorean-identity-iterative-proportional-fitting
+
+- **title**: The I-Projection, Pythagorean Identity, and Iterative Proportional Fitting (Blahut-Arimoto)
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.expander-codes-ldpc-bipartite-sipser-spielman-linear-time
+
+- **title**: Expander Codes, LDPC Bipartite Graphs, and Sipser-Spielman Linear-Time Decoding
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.capacity-achieving-code-families-unified-view
+
+- **title**: Capacity-Achieving Code Families: A Unified View Through Polarization and LDPC
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.feedback-does-not-increase-capacity
+
+- **title**: Feedback Does Not Increase Capacity: The Shannon and Wolfowitz Results
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.joint-source-channel-coding-separation-theorem
+
+- **title**: Joint Source-Channel Coding and the Separation Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.slepian-wolf-distributed-lossless-compression
+
+- **title**: Slepian-Wolf Coding: Distributed Lossless Compression Without a Shared Channel
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.wyner-ziv-rate-distortion-side-information-decoder
+
+- **title**: Wyner-Ziv Coding: Rate-Distortion With Side Information at the Decoder
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.multiple-access-channel-achievable-rates-superposition
+
+- **title**: Multiple-Access Channel: Achievable Rates, Superposition, and the Capacity Region
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.gelfand-pinsker-costa-dirty-paper-coding
+
+- **title**: Gelfand-Pinsker Theorem and Costa Dirty-Paper Coding
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.common-information-wyner-gacs-korner
+
+- **title**: Common Information: Wyner and Gacs-Korner Definitions and Their Operational Meanings
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.broadcast-channel-degraded-marton-inner-bound
+
+- **title**: Broadcast Channel: Degraded Broadcast Capacity and Marton Inner Bound
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.relay-channel-decode-forward-compress-forward-cut-set
+
+- **title**: Relay Channel: Decode-and-Forward, Compress-and-Forward, and the Cut-Set Bound
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.interference-channel-han-kobayashi-gaussian
+
+- **title**: Interference Channel: The Han-Kobayashi Bound and the Gaussian Interference Channel
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.deterministic-finite-automata-states-transitions
+
+- **title**: Deterministic Finite Automata: States, Transitions, and Accepted Languages
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.nondeterministic-finite-automata-subset-construction
+
+- **title**: Nondeterministic Finite Automata and the Subset Construction
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.regular-expressions-kleene-rabin-scott
+
+- **title**: Regular Expressions and the Kleene-Rabin-Scott Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.pumping-lemma-regular-non-regular
+
+- **title**: Pumping Lemma for Regular Languages and Non-Regular Languages
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.context-free-grammars-pushdown-automata
+
+- **title**: Context-Free Grammars, Parse Trees, and Pushdown Automata
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.pumping-lemma-cfl-cyk-parsing
+
+- **title**: Pumping Lemma for Context-Free Languages and the CYK Parsing Algorithm
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.time-complexity-p-np-polynomial-reductions
+
+- **title**: Time-Complexity Classes P and NP: Definitions and Polynomial Reductions
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.np-completeness-cook-levin
+
+- **title**: NP-Completeness: The Cook-Levin Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.classic-np-complete-problems
+
+- **title**: Classic NP-Complete Problems: 3-SAT, Vertex Cover, Hamiltonian Path, TSP
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.polynomial-hierarchy-oracles
+
+- **title**: Polynomial Hierarchy: Oracle Machines and Collapses
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.space-complexity-pspace-savitch
+
+- **title**: Space Complexity: PSPACE, Savitch Theorem, and PSPACE-Completeness
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.l-nl-immerman-szelepcsenyi
+
+- **title**: L, NL, and the Immerman-Szelepcsenyi Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.sharp-p-counting-permanent-toda
+
+- **title**: Sharp-P and Counting Complexity: Permanent and Toda Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.randomized-complexity-bpp-rp-zpp
+
+- **title**: Randomized Complexity: BPP, RP, ZPP, and the Schwartz-Zippel Lemma
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.circuit-complexity-p-poly-karp-lipton
+
+- **title**: Circuit Complexity: P/poly and the Karp-Lipton Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.ac0-tc0-parity-lower-bounds
+
+- **title**: AC0 and TC0: Parity Lower Bounds and Majority
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.interactive-proofs-ip-pspace
+
+- **title**: Interactive Proofs: IP = PSPACE (Shamir Theorem)
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.pcp-theorem-hardness-approximation
+
+- **title**: Probabilistically Checkable Proofs and the PCP Characterization of NP
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.hardness-approximation-max-3sat-vertex-cover
+
+- **title**: Hardness of Approximation: MAX-3-SAT and Vertex Cover from PCP
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.amortized-analysis-aggregate-accounting-potential
+
+- **title**: Amortized Analysis: Aggregate, Accounting, and Potential-Function Methods
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.self-balancing-trees-red-black
+
+- **title**: Self-Balancing Trees: Red-Black Trees, Rotations, and Amortized Bounds
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.network-flow-ford-fulkerson-max-flow-min-cut
+
+- **title**: Network Flow: Ford-Fulkerson and the Max-Flow Min-Cut Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.bipartite-matching-hall-hungarian
+
+- **title**: Bipartite Matching: Hall Theorem, Augmenting Paths, and Hungarian Method
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.all-pairs-shortest-paths-floyd-johnson
+
+- **title**: All-Pairs Shortest Paths: Floyd-Warshall, Johnson, and Bellman-Ford
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.minimum-spanning-trees-kruskal-prim
+
+- **title**: Minimum Spanning Trees: Kruskal and Prim with Analysis
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.string-algorithms-kmp-suffix-aho-corasick
+
+- **title**: String Algorithms: KMP, Suffix Arrays, and Aho-Corasick
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.approximation-algorithms-vertex-cover-tsp-set-cover
+
+- **title**: Approximation Algorithms: Vertex Cover, Metric TSP, and Set Cover
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.universal-hashing-perfect-hashing
+
+- **title**: Universal Hashing, Perfect Hashing, and Load-Balancing Analysis
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.randomized-algorithms-quicksort-skip-lists-treaps
+
+- **title**: Randomized Algorithms: Quicksort Analysis, Skip Lists, and Treaps
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.miller-rabin-solovay-strassen-primality
+
+- **title**: Miller-Rabin Primality and the Solovay-Strassen Test
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.randomized-approximation-fpras-counting
+
+- **title**: Randomized Approximation: FPRAS for Counting Problems
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.derandomization-pairwise-independent-conditional-expectations
+
+- **title**: Derandomization: Pairwise-Independent Hashing and Conditional Expectations
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.one-way-functions-pseudorandom-generators
+
+- **title**: One-Way Functions, Pseudorandom Generators, and Hardness Assumptions
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.public-key-cryptography-rsa-discrete-log
+
+- **title**: Public-Key Cryptography: RSA, Discrete Logarithm, and Security Reductions
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.zero-knowledge-proofs-interactive-protocols
+
+- **title**: Zero-Knowledge Proofs: Interactive and Non-Interactive Protocols
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### theoretical-cs.digital-signatures-collision-resistant-hash
+
+- **title**: Digital Signatures, Collision-Resistant Hash Functions, and the Random Oracle Model
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+---
+
+## Physics, Chemistry, and Biology expansion stubs
+
+### classical-mech.action-principle-lagrangian-is-defined-here-all-ch02-new-units-build-on-it
+
+- **title**: action principle — Lagrangian is defined here; all ch02 new units build on it
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.squeezed-states-complex-structure-cross-ref-from-09-04-05-do-not-re-introduce-quantization
+
+- **title**: squeezed states / complex structure — cross-ref from 09.04.05 (symplectic structure); do not re-introduce quantization
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.newton-s-law-of-gravitation-gravitational-field-potential-and-shell-theorem
+
+- **title**: Newton's law of gravitation: gravitational field, potential, and shell theorem
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.friction-normal-forces-and-constraints-holonomic-and-non-holonomic-systems
+
+- **title**: Friction, normal forces, and constraints: holonomic and non-holonomic systems
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.non-inertial-frames-centrifugal-force-coriolis-force-and-foucault-s-pendulum
+
+- **title**: Non-inertial frames: centrifugal force, Coriolis force, and Foucault's pendulum
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.variable-mass-systems-the-rocket-equation-and-momentum-transport
+
+- **title**: Variable-mass systems: the rocket equation (Tsiolkovsky) and momentum transport
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.constrained-lagrangian-systems-lagrange-multipliers-and-d-alembert-s-principle
+
+- **title**: Constrained Lagrangian systems: Lagrange multipliers and D'Alembert's principle
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.small-oscillations-normal-modes-and-the-eigenvalue-problem-for-coupled-oscillators
+
+- **title**: Small oscillations: normal modes and the eigenvalue problem for coupled oscillators
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.lagrangian-perturbation-theory-secular-terms-and-the-method-of-multiple-scales
+
+- **title**: Lagrangian perturbation theory: secular terms and the method of multiple scales
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.field-lagrangians-and-the-continuum-limit-elastic-media-and-the-wave-equation-as-a-field-theory
+
+- **title**: Field Lagrangians and the continuum limit: elastic media and the wave equation as a field theory
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.cyclic-coordinates-ignorable-degrees-of-freedom-and-routh-s-procedure
+
+- **title**: Cyclic coordinates, ignorable degrees of freedom, and Routh's procedure
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.discrete-symmetries-in-mechanics-parity-time-reversal-and-conservation-laws
+
+- **title**: Discrete symmetries in mechanics: parity, time-reversal, and conservation laws
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.galilean-symmetry-group-and-the-ten-integrals-of-motion
+
+- **title**: Galilean symmetry group and the ten integrals of motion
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.poisson-brackets-structure-jacobi-identity-and-bracket-algebra-of-conserved-quantities
+
+- **title**: Poisson brackets: structure, Jacobi identity, and bracket algebra of conserved quantities
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.liouville-s-theorem-and-the-incompressibility-of-phase-space-flow
+
+- **title**: Liouville's theorem and the incompressibility of phase-space flow
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.symplectic-structure-the-symplectic-form-and-darboux-s-theorem
+
+- **title**: Symplectic structure, the symplectic form, and Darboux's theorem
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.hamiltonian-perturbation-theory-averaging-and-adiabatic-invariants
+
+- **title**: Hamiltonian perturbation theory: averaging and adiabatic invariants
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.classical-spin-the-so-poisson-bracket-and-euler-s-equations-for-rigid-body-rotation
+
+- **title**: Classical spin: the SO(3) Poisson bracket and Euler's equations for rigid body rotation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.the-hamilton-jacobi-equation-as-the-eikonal-limit-wkb-and-geometric-optics-analogy
+
+- **title**: The Hamilton-Jacobi equation as the eikonal limit: WKB and geometric optics analogy
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.generating-functions-for-canonical-transformations-four-types
+
+- **title**: Generating functions for canonical transformations: four types (F₁, F₂, F₃, F₄)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.point-transformations-and-their-canonical-lifts
+
+- **title**: Point transformations and their canonical lifts
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.the-symplectic-group-sp-and-its-role-in-linear-canonical-transformations
+
+- **title**: The symplectic group Sp(2n, ℝ) and its role in linear canonical transformations
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.the-liouville-arnold-theorem-integrability-and-the-existence-of-action-angle-variables
+
+- **title**: The Liouville-Arnold theorem: integrability and the existence of action-angle variables
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.completely-integrable-systems-the-toda-lattice-and-the-kepler-problem-revisited
+
+- **title**: Completely integrable systems: the Toda lattice and the Kepler problem revisited
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.lax-pairs-and-the-inverse-scattering-method-solitons-in-classical-mechanics
+
+- **title**: Lax pairs and the inverse scattering method: solitons in classical mechanics
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.elastic-waves-in-solids-longitudinal-and-transverse-modes-the-cauchy-stress-tensor
+
+- **title**: Elastic waves in solids: longitudinal and transverse modes, the Cauchy stress tensor
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.ideal-fluid-mechanics-euler-s-equations-bernoulli-s-equation-and-vorticity
+
+- **title**: Ideal fluid mechanics: Euler's equations, Bernoulli's equation, and vorticity
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.viscous-flow-the-navier-stokes-equations-reynolds-number-and-laminar-turbulent-transition
+
+- **title**: Viscous flow: the Navier-Stokes equations, Reynolds number, and laminar/turbulent transition
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.phase-space-structure-of-chaos-poincar-sections-homoclinic-tangles-and-horseshoe-maps
+
+- **title**: Phase-space structure of chaos: Poincaré sections, homoclinic tangles, and horseshoe maps
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.lyapunov-exponents-definition-computation-and-the-chaotic-double-pendulum
+
+- **title**: Lyapunov exponents: definition, computation, and the chaotic double pendulum
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.period-doubling-route-to-chaos-the-logistic-map-and-feigenbaum-universality
+
+- **title**: Period-doubling route to chaos: the logistic map and Feigenbaum universality
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.strange-attractors-the-lorenz-system-fractal-dimension-and-sensitive-dependence
+
+- **title**: Strange attractors: the Lorenz system, fractal dimension, and sensitive dependence
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.always-available
+
+- **title**: — always available
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.for-ch04-gap-fills
+
+- **title**: — for ch04 gap-fills
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.
+
+- **title**: (action principle, for ch02 gap-fills)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.laplace-equation-bvp-covered-new-unit-10-01-06-goes-to-green-s-functions-method-of-images
+
+- **title**: Laplace equation / BVP — covered; new unit 10.01.06 goes to Green's functions/method of images
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### classical-mech.symplectic-structure-poisson-bracket-of-em-field-can-cross-ref-here
+
+- **title**: symplectic structure — Poisson bracket of EM field can cross-ref here
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.magnetic-vector-potential-gauge-freedom-and-the-coulomb-gauge
+
+- **title**: Magnetic vector potential, gauge freedom, and the Coulomb gauge
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.magnetization-h-field-and-magnetic-materials
+
+- **title**: Magnetization, H-field, and magnetic materials (diamagnets, paramagnets, ferromagnets)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.boundary-conditions-at-interfaces-normal-and-tangential-components-of-e-d-b-h
+
+- **title**: Boundary conditions at interfaces: normal and tangential components of E, D, B, H
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.magnetic-scalar-potential-and-the-demagnetization-factor
+
+- **title**: Magnetic scalar potential and the demagnetization factor
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.faraday-s-law-in-integral-and-differential-form-mutual-and-self-inductance-energy-in-inductors
+
+- **title**: Faraday's law in integral and differential form: mutual and self-inductance, energy in inductors
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.displacement-current-the-continuity-equation-and-the-complete-maxwell-equations-in-matter
+
+- **title**: Displacement current, the continuity equation, and the complete Maxwell equations in matter
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.energy-and-momentum-in-the-electromagnetic-field-the-poynting-vector-and-radiation-pressure
+
+- **title**: Energy and momentum in the electromagnetic field: the Poynting vector and radiation pressure
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.plane-waves-in-matter-dispersion-relations-skin-depth-and-the-complex-refractive-index
+
+- **title**: Plane waves in matter: dispersion relations, skin depth, and the complex refractive index
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.waveguides-and-transmission-lines-te-tm-tem-modes-and-the-cutoff-frequency
+
+- **title**: Waveguides and transmission lines: TE, TM, TEM modes and the cutoff frequency
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.cavities-and-resonant-modes-the-quality-factor-q-and-normal-mode-expansion
+
+- **title**: Cavities and resonant modes: the quality factor Q and normal-mode expansion
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.the-four-current-charge-current-density-and-covariant-continuity
+
+- **title**: The four-current, charge-current density, and covariant continuity
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.the-electromagnetic-stress-energy-tensor-t-and-covariant-energy-momentum-conservation
+
+- **title**: The electromagnetic stress-energy tensor Tᵘᵛ and covariant energy-momentum conservation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.transformation-of-e-and-b-fields-under-lorentz-boosts
+
+- **title**: Transformation of E and B fields under Lorentz boosts
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.electric-dipole-radiation-angular-distribution-polarization-and-total-radiated-power
+
+- **title**: Electric dipole radiation: angular distribution, polarization, and total radiated power
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.magnetic-dipole-and-electric-quadrupole-radiation-multipole-expansion-of-radiation-fields
+
+- **title**: Magnetic dipole and electric quadrupole radiation: multipole expansion of radiation fields
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.radiation-reaction-the-abraham-lorentz-force-and-the-self-energy-problem
+
+- **title**: Radiation reaction: the Abraham-Lorentz force and the self-energy problem
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.synchrotron-radiation-relativistic-circular-motion-and-the-1-power-formula
+
+- **title**: Synchrotron radiation: relativistic circular motion and the 1/γ⁴ power formula
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.scattering-of-radiation-thomson-scattering-rayleigh-scattering-and-the-optical-theorem
+
+- **title**: Scattering of radiation: Thomson scattering, Rayleigh scattering, and the optical theorem
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.green-s-function-method-for-the-scalar-and-vector-potentials-retarded-advanced-and-feynman-propagators
+
+- **title**: Green's function method for the scalar and vector potentials: retarded, advanced, and Feynman propagators
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.jefimenko-s-equations-exact-retarded-solutions-for-e-and-b-given-arbitrary-sources
+
+- **title**: Jefimenko's equations: exact retarded solutions for E and B given arbitrary sources
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.diffraction-kirchhoff-integral-fraunhofer-and-fresnel-regimes
+
+- **title**: Diffraction: Kirchhoff integral, Fraunhofer and Fresnel regimes
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.geometrical-optics-as-the-short-wavelength-limit-eikonal-equation-and-ray-tracing
+
+- **title**: Geometrical optics as the short-wavelength limit: eikonal equation and ray tracing
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.macroscopic-maxwell-equations-linear-response-kramers-kronig-relations-and-causality
+
+- **title**: Macroscopic Maxwell equations: linear response, Kramers-Kronig relations, and causality
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.for-ch02-gap-fills
+
+- **title**: — for ch02 gap-fills
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.for-advanced-em-units
+
+- **title**: — for advanced EM units
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.for-10-06-02-04
+
+- **title**: — for 10.06.02–04
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### em-sr.
+
+- **title**: (Faraday tensor in covariant form).
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.souriau-gibbs-state-symplectic-geometric-formulation-cross-ref-from-11-03-02-since-both-use-geometric-language
+
+- **title**: Souriau-Gibbs state — symplectic/geometric formulation; cross-ref from 11.03.02 (grand canonical) since both use geometric language
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.third-law-of-thermodynamics-nernst-heat-theorem-absolute-entropy-and-zero-point-entropy
+
+- **title**: Third law of thermodynamics: Nernst heat theorem, absolute entropy, and zero-point entropy
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.thermodynamic-stability-convexity-le-chatelier-s-principle-and-the-spinodal-curve
+
+- **title**: Thermodynamic stability: convexity, Le Chatelier's principle, and the spinodal curve
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.equations-of-state-virial-expansion-van-der-waals-gas-and-the-law-of-corresponding-states
+
+- **title**: Equations of state: virial expansion, van der Waals gas, and the law of corresponding states
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.thermodynamic-cycles-carnot-efficiency-otto-and-diesel-cycles-and-entropy-production
+
+- **title**: Thermodynamic cycles: Carnot efficiency, Otto and Diesel cycles, and entropy production
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.transport-phenomena-diffusion-viscosity-thermal-conductivity-and-the-mean-free-path
+
+- **title**: Transport phenomena: diffusion, viscosity, thermal conductivity, and the mean free path
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.the-boltzmann-transport-equation-h-theorem-the-approach-to-equilibrium-and-the-bgk-approximation
+
+- **title**: The Boltzmann transport equation: H-theorem, the approach to equilibrium, and the BGK approximation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.fluctuations-and-noise-the-fluctuation-dissipation-theorem-and-nyquist-s-formula
+
+- **title**: Fluctuations and noise: the fluctuation-dissipation theorem and Nyquist's formula
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.grand-canonical-ensemble-chemical-potential-fugacity-and-variable-particle-number
+
+- **title**: Grand canonical ensemble: chemical potential, fugacity, and variable particle number
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.equivalence-of-ensembles-in-the-thermodynamic-limit-legendre-structure-and-equivalence-conditions
+
+- **title**: Equivalence of ensembles in the thermodynamic limit: Legendre structure and equivalence conditions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.isothermal-isobaric-ensemble-gibbs-free-energy-as-the-natural-potential
+
+- **title**: Isothermal-isobaric (NPT) ensemble: Gibbs free energy as the natural potential
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.factorization-of-the-partition-function-independent-subsystems-and-the-grand-potential
+
+- **title**: Factorization of the partition function: independent subsystems and the grand potential
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.classical-ideal-gas-partition-function-sackur-tetrode-entropy-and-the-gibbs-paradox
+
+- **title**: Classical ideal gas partition function: Sackur-Tetrode entropy and the Gibbs paradox
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.harmonic-oscillator-in-a-thermal-bath-heat-capacity-and-the-einstein-solid
+
+- **title**: Harmonic oscillator in a thermal bath: heat capacity and the Einstein solid
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.mean-field-theory-of-phase-transitions-the-van-der-waals-and-curie-weiss-models
+
+- **title**: Mean-field theory of phase transitions: the van der Waals and Curie-Weiss models
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.landau-theory-order-parameter-symmetry-breaking-and-the-free-energy-expansion
+
+- **title**: Landau theory: order parameter, symmetry breaking, and the free energy expansion
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.fluctuations-beyond-mean-field-ginzburg-criterion-and-the-ginzburg-landau-theory
+
+- **title**: Fluctuations beyond mean field: Ginzburg criterion and the Ginzburg-Landau theory
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.the-transfer-matrix-method-exact-solution-of-the-1d-ising-model
+
+- **title**: The transfer matrix method: exact solution of the 1D Ising model
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.kosterlitz-thouless-transition-topological-phase-transitions-in-2d-systems
+
+- **title**: Kosterlitz-Thouless transition: topological phase transitions in 2D systems
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.block-spin-renormalization-wilson-s-real-space-rg-and-fixed-points
+
+- **title**: Block-spin renormalization: Wilson's real-space RG and fixed points
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.the-epsilon-expansion-rg-flows-near-four-dimensions-and-critical-exponents
+
+- **title**: The epsilon expansion: RG flows near four dimensions and critical exponents
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.universality-classes-classification-of-critical-behavior-and-the-scaling-hypothesis
+
+- **title**: Universality classes: classification of critical behavior and the scaling hypothesis
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.conformal-field-theory-basics-scale-invariance-at-criticality-and-the-central-charge
+
+- **title**: Conformal field theory basics: scale invariance at criticality and the central charge
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.available
+
+- **title**: — available
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.for-grand-canonical-unit
+
+- **title**: — for grand canonical unit
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.for-partition-function-extensions
+
+- **title**: — for partition function extensions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.for-fermi-bose-chemistry-potential
+
+- **title**: — for Fermi/Bose chemistry potential
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.for-phase-transition-extensions
+
+- **title**: — for phase transition extensions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### stat-mech-physics.for-advanced-rg-units
+
+- **title**: — for advanced RG units
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.wkb-approximation-tunneling-bohr-sommerfeld-quantization-and-connection-formulas
+
+- **title**: WKB approximation: tunneling, Bohr-Sommerfeld quantization, and connection formulas
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.probability-current-continuity-equation-and-the-flow-interpretation-of-the-wavefunction
+
+- **title**: Probability current, continuity equation, and the flow interpretation of the wavefunction
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.spreading-of-the-free-gaussian-wave-packet-group-velocity-and-dispersion
+
+- **title**: Spreading of the free Gaussian wave packet: group velocity and dispersion
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.wigner-d-matrices-and-rotation-operators-in-the-spin-j-representation
+
+- **title**: Wigner D-matrices and rotation operators in the spin-j representation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.clebsch-gordan-coefficients-tables-recursion-relations-and-the-triangle-rule
+
+- **title**: Clebsch-Gordan coefficients: tables, recursion relations, and the triangle rule
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.second-quantization-fock-space-creation-and-annihilation-operators-and-the-number-operator
+
+- **title**: Second quantization: Fock space, creation and annihilation operators, and the number operator
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.many-body-hamiltonian-in-second-quantization-kinetic-and-interaction-terms
+
+- **title**: Many-body Hamiltonian in second quantization: kinetic and interaction terms
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.density-matrix-formalism-mixed-states-reduced-density-matrix-and-the-partial-trace
+
+- **title**: Density matrix formalism: mixed states, reduced density matrix, and the partial trace
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.lindblad-master-equation-markovian-open-systems-and-quantum-jumps
+
+- **title**: Lindblad master equation: Markovian open systems and quantum jumps
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.decoherence-pointer-states-preferred-basis-and-the-quantum-to-classical-transition
+
+- **title**: Decoherence: pointer states, preferred basis, and the quantum-to-classical transition
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.quantum-error-correction-stabilizer-codes-the-knill-laflamme-conditions
+
+- **title**: Quantum error correction: stabilizer codes, the Knill-Laflamme conditions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.periodic-trends-ionization-energy-electron-affinity-atomic-radius-and-electronegativity
+
+- **title**: Periodic trends: ionization energy, electron affinity, atomic radius, and electronegativity
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.many-electron-atoms-hartree-fock-self-consistent-field-and-the-pauli-exclusion-principle
+
+- **title**: Many-electron atoms: Hartree-Fock self-consistent field and the Pauli exclusion principle
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.molecular-geometry-and-dipole-moments-polarity-and-intermolecular-forces
+
+- **title**: Molecular geometry and dipole moments: polarity and intermolecular forces
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.valence-bond-theory-resonance-structures-and-the-limitations-of-lewis-models
+
+- **title**: Valence bond theory: resonance structures and the limitations of Lewis models
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.solution-stoichiometry-molarity-titration-gravimetric-analysis
+
+- **title**: Solution stoichiometry: molarity, titration, gravimetric analysis
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.ideal-and-real-gas-laws-van-der-waals-equation-compressibility-factor
+
+- **title**: Ideal and real gas laws: van der Waals equation, compressibility factor
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.variational-principle-in-quantum-chemistry-the-secular-determinant-and-basis-set-expansion
+
+- **title**: Variational principle in quantum chemistry: the secular determinant and basis set expansion
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.perturbation-theory-in-chemistry-stark-effect-he-atom-first-order-correction
+
+- **title**: Perturbation theory in chemistry: Stark effect, He atom first-order correction
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.density-functional-theory-basics-the-hohenberg-kohn-theorems-and-the-kohn-sham-equations
+
+- **title**: Density functional theory basics: the Hohenberg-Kohn theorems and the Kohn-Sham equations
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.molecular-orbital-theory-lcao-bonding-antibonding-orbitals-and-the-h-molecule
+
+- **title**: Molecular orbital theory: LCAO, bonding/antibonding orbitals, and the H₂ molecule
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.mo-theory-of-heteronuclear-diatomics-co-no-hf-and-the-walsh-correlation-diagrams
+
+- **title**: MO theory of heteronuclear diatomics: CO, NO, HF and the Walsh correlation diagrams
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.band-theory-of-solids-the-bloch-theorem-the-tight-binding-model-and-conductors-vs-insulators
+
+- **title**: Band theory of solids: the Bloch theorem, the tight-binding model, and conductors vs. insulators
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.hess-s-law-standard-enthalpies-of-formation-and-born-haber-cycles
+
+- **title**: Hess's law, standard enthalpies of formation, and Born-Haber cycles
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.entropy-in-chemistry-the-third-law-standard-entropy-changes-and-g-h-t-s
+
+- **title**: Entropy in chemistry: the third law, standard entropy changes, and ΔG = ΔH − TΔS
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.chemical-equilibrium-le-chatelier-s-principle-the-equilibrium-constant-kp-vs-kc
+
+- **title**: Chemical equilibrium: Le Chatelier's principle, the equilibrium constant Kp vs. Kc
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.partition-functions-for-chemical-systems-rotational-vibrational-and-electronic-contributions
+
+- **title**: Partition functions for chemical systems: rotational, vibrational, and electronic contributions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.statistical-thermodynamics-of-ideal-gases-entropy-heat-capacity-and-the-sakur-tetrode-equation
+
+- **title**: Statistical thermodynamics of ideal gases: entropy, heat capacity, and the Sakur-Tetrode equation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.activated-complex-theory-eyring-equation-and-the-arrhenius-prefactor
+
+- **title**: Activated complex theory (transition state theory): Eyring equation and the Arrhenius prefactor
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.integrated-rate-laws-first-second-and-zeroth-order-half-lives
+
+- **title**: Integrated rate laws: first, second, and zeroth order; half-lives
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.reaction-mechanisms-elementary-steps-rate-determining-step-and-the-steady-state-approximation
+
+- **title**: Reaction mechanisms: elementary steps, rate-determining step, and the steady-state approximation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.catalysis-mechanisms-homogeneous-heterogeneous-and-enzymatic
+
+- **title**: Catalysis mechanisms: homogeneous, heterogeneous (Langmuir-Hinshelwood), and enzymatic (Michaelis-Menten)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.raoult-s-law-and-vapor-pressure-lowering-ideal-solutions-and-henry-s-law-for-gases
+
+- **title**: Raoult's law and vapor pressure lowering: ideal solutions and Henry's law for gases
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.colligative-properties-boiling-point-elevation-freezing-point-depression-osmotic-pressure
+
+- **title**: Colligative properties: boiling-point elevation, freezing-point depression, osmotic pressure
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.phase-diagrams-single-component-binary-and-the-lever-rule
+
+- **title**: Phase diagrams: single-component (P-T), binary (T-x), and the lever rule
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.buffer-solutions-the-henderson-hasselbalch-equation-and-buffer-capacity
+
+- **title**: Buffer solutions: the Henderson-Hasselbalch equation and buffer capacity
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.acid-base-titration-curves-strong-strong-weak-strong-polyprotic-titrations
+
+- **title**: Acid-base titration curves: strong-strong, weak-strong, polyprotic titrations
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.solubility-equilibria-ksp-common-ion-effect-and-the-dissolution-of-sparingly-soluble-salts
+
+- **title**: Solubility equilibria: Ksp, common-ion effect, and the dissolution of sparingly soluble salts
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.galvanic-cells-half-cell-potentials-cell-diagrams-and-standard-reduction-potentials
+
+- **title**: Galvanic cells: half-cell potentials, cell diagrams, and standard reduction potentials
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.electrolysis-faraday-s-laws-overpotential-and-electrodeposition
+
+- **title**: Electrolysis: Faraday's laws, overpotential, and electrodeposition
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.batteries-and-fuel-cells-lead-acid-lithium-ion-hydrogen-fuel-cell-thermodynamics
+
+- **title**: Batteries and fuel cells: lead-acid, lithium-ion, hydrogen fuel cell thermodynamics
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.rotational-spectroscopy-the-rigid-rotor-rotational-constants-and-microwave-spectroscopy
+
+- **title**: Rotational spectroscopy: the rigid rotor, rotational constants, and microwave spectroscopy
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.vibrational-spectroscopy-the-harmonic-oscillator-selection-rules-anharmonicity-and-ir-active-modes
+
+- **title**: Vibrational spectroscopy: the harmonic oscillator selection rules, anharmonicity, and IR active modes
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.electronic-spectroscopy-franck-condon-principle-chromophores-and-uv-vis-transitions
+
+- **title**: Electronic spectroscopy: Franck-Condon principle, chromophores, and UV-Vis transitions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.mass-spectrometry-ionization-methods-fragmentation-patterns-and-molecular-mass-determination
+
+- **title**: Mass spectrometry: ionization methods, fragmentation patterns, and molecular mass determination
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.conformational-analysis-newman-projections-cyclohexane-chair-flip-and-axial-vs-equatorial
+
+- **title**: Conformational analysis: Newman projections, cyclohexane chair flip, and axial vs. equatorial
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.stereoisomerism-enantiomers-diastereomers-meso-compounds-and-chiral-resolution
+
+- **title**: Stereoisomerism: enantiomers, diastereomers, meso compounds, and chiral resolution
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.enantioselective-synthesis-chiral-auxiliaries-asymmetric-catalysis-and-ee-measurement
+
+- **title**: Enantioselective synthesis: chiral auxiliaries, asymmetric catalysis, and ee measurement
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.alkane-reactions-combustion-halogenation-and-the-selectivity-of-free-radicals
+
+- **title**: Alkane reactions: combustion, halogenation, and the selectivity of free radicals
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.alcohol-and-ether-chemistry-synthesis-reactions-protection-deprotection-strategies
+
+- **title**: Alcohol and ether chemistry: synthesis, reactions, protection/deprotection strategies
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.enols-enolates-and-keto-enol-tautomerism-kinetic-vs-thermodynamic-control
+
+- **title**: Enols, enolates, and keto-enol tautomerism: kinetic vs. thermodynamic control
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.elimination-reactions-e1-and-e2-mechanisms-zaitsev-s-rule-stereochemistry-of-e2
+
+- **title**: Elimination reactions: E1 and E2 mechanisms, Zaitsev's rule, stereochemistry of E2
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.stereochemistry-of-sn2-and-e2-walden-inversion-anti-periplanar-requirement
+
+- **title**: Stereochemistry of SN2 and E2: Walden inversion, anti-periplanar requirement
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.electrophilic-addition-to-alkynes-markovnikov-s-rule-anti-markovnikov-hydroboration
+
+- **title**: Electrophilic addition to alkynes: Markovnikov's rule, anti-Markovnikov hydroboration
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.diels-alder-reaction-4-2-cycloaddition-endo-exo-selectivity-and-synthetic-applications
+
+- **title**: Diels-Alder reaction: [4+2] cycloaddition, endo/exo selectivity, and synthetic applications
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.nucleophilic-aromatic-substitution-snar-mechanism-and-conditions-for-activation
+
+- **title**: Nucleophilic aromatic substitution: SNAr mechanism and conditions for activation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.arene-side-chain-reactions-benzylic-radicals-oxidation-of-alkylbenzenes
+
+- **title**: Arene side-chain reactions: benzylic radicals, oxidation of alkylbenzenes
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.synthesis-of-substituted-benzenes-directing-effects-and-strategic-functional-group-manipulation
+
+- **title**: Synthesis of substituted benzenes: directing effects and strategic functional group manipulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.nucleophilic-addition-elimination-at-acyl-carbons-esters-amides-acid-chlorides-anhydrides
+
+- **title**: Nucleophilic addition-elimination at acyl carbons: esters, amides, acid chlorides, anhydrides
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.enolate-chemistry-alkylation-aldol-condensation-claisen-condensation
+
+- **title**: Enolate chemistry: alkylation, aldol condensation, Claisen condensation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.carbonyl-condensation-reactions-knoevenagel-michael-addition-and-robinson-annulation
+
+- **title**: Carbonyl condensation reactions: Knoevenagel, Michael addition, and Robinson annulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.oxidation-and-reduction-of-carbonyls-jones-swern-nabh-lialh-wolff-kishner
+
+- **title**: Oxidation and reduction of carbonyls: Jones, Swern, NaBH₄, LiAlH₄, Wolff-Kishner
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.sigmatropic-rearrangements-cope-claisen-and-1-5-h-shifts
+
+- **title**: Sigmatropic rearrangements: Cope, Claisen, and [1,5]-H shifts
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.electrocyclic-reactions-orbital-symmetry-rules-ring-opening-closing
+
+- **title**: Electrocyclic reactions: orbital symmetry rules (Woodward-Hoffmann), ring opening/closing
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.palladium-catalysis-suzuki-heck-sonogashira-and-buchwald-hartwig-cross-coupling
+
+- **title**: Palladium catalysis: Suzuki, Heck, Sonogashira, and Buchwald-Hartwig cross-coupling
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.olefin-metathesis-grubbs-catalyst-ring-closing-and-cross-metathesis
+
+- **title**: Olefin metathesis: Grubbs catalyst, ring-closing and cross metathesis
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.multi-step-synthesis-design-protecting-groups-convergent-vs-linear-strategies
+
+- **title**: Multi-step synthesis design: protecting groups, convergent vs. linear strategies
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.total-synthesis-case-study-landmark-syntheses-and-the-logic-of-route-selection
+
+- **title**: Total synthesis case study: landmark syntheses and the logic of route selection
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.h-nmr-chemical-shift-coupling-constants-integration-and-2d-nmr
+
+- **title**: ¹H NMR: chemical shift, coupling constants, integration, and 2D NMR (COSY, HSQC)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.c-nmr-dept-and-the-complete-structure-elucidation-workflow
+
+- **title**: ¹³C NMR, DEPT, and the complete structure elucidation workflow
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.peptide-bond-geometry-planarity-resonance-and-the-ramachandran-plot
+
+- **title**: Peptide bond geometry: planarity, resonance, and the Ramachandran plot
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.enzyme-kinetics-beyond-michaelis-menten-inhibition-types-allosteric-enzymes-and-hill-coefficients
+
+- **title**: Enzyme kinetics beyond Michaelis-Menten: inhibition types, allosteric enzymes, and Hill coefficients
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.main-group-chemistry-trends-in-the-s-and-p-blocks-inert-pair-effect-diagonal-relationships
+
+- **title**: Main-group chemistry: trends in the s- and p-blocks, inert-pair effect, diagonal relationships
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.acid-base-theories-lewis-acids-hsab-and-drago-wayland-e-and-c-parameters
+
+- **title**: Acid-base theories: Lewis acids, HSAB (hard and soft), and Drago-Wayland E and C parameters
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.character-tables-and-reducible-representations-vibrational-modes-and-ir-raman-selection-rules
+
+- **title**: Character tables and reducible representations: vibrational modes and IR/Raman selection rules
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.projection-operators-and-the-construction-of-symmetry-adapted-linear-combinations
+
+- **title**: Projection operators and the construction of symmetry-adapted linear combinations (SALCs)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.tetrahedral-and-square-planar-crystal-fields-tanabe-sugano-diagrams-and-d-d-transitions
+
+- **title**: Tetrahedral and square-planar crystal fields: Tanabe-Sugano diagrams and d-d transitions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.jahn-teller-distortions-orbital-degeneracy-distortion-modes-and-cu-complexes
+
+- **title**: Jahn-Teller distortions: orbital degeneracy, distortion modes, and Cu(II) complexes
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.ligand-field-theory-beyond-crystal-field-molecular-orbital-treatment-of-and-bonding-in-octahedral-complexes
+
+- **title**: Ligand field theory beyond crystal field: molecular orbital treatment of σ- and π-bonding in octahedral complexes
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.stability-of-coordination-complexes-thermodynamic-and-kinetic-stability-the-chelate-effect
+
+- **title**: Stability of coordination complexes: thermodynamic and kinetic stability, the chelate effect
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.reaction-types-in-organometallic-chemistry-oxidative-addition-reductive-elimination-insertion-hydride-elimination
+
+- **title**: Reaction types in organometallic chemistry: oxidative addition, reductive elimination, insertion, β-hydride elimination
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.homogeneous-catalysis-mechanisms-wilkinson-s-catalyst-ziegler-natta-polymerization
+
+- **title**: Homogeneous catalysis mechanisms: Wilkinson's catalyst, Ziegler-Natta polymerization
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.oxygen-transport-and-storage-hemoglobin-myoglobin-cooperative-binding
+
+- **title**: Oxygen transport and storage: hemoglobin, myoglobin, cooperative binding (Hill equation)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.metalloenzyme-active-sites-nitrogenase-cytochrome-p450-and-zinc-proteases
+
+- **title**: Metalloenzyme active sites: nitrogenase, cytochrome P450, and zinc proteases
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.crystal-structures-close-packing-unit-cells-ionic-radius-ratios-and-the-rock-salt-vs-wurtzite-structure
+
+- **title**: Crystal structures: close-packing, unit cells, ionic radius ratios, and the rock-salt vs. wurtzite structure
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.defects-in-solids-point-defects-line-defects-and-their-role-in-conductivity
+
+- **title**: Defects in solids: point defects (Schottky, Frenkel), line defects, and their role in conductivity
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.electronic-properties-of-solids-insulators-semiconductors-conductors-and-the-band-gap
+
+- **title**: Electronic properties of solids: insulators, semiconductors, conductors, and the band gap
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.
+
+- **title**: (octahedral splitting)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.and-16-04-01
+
+- **title**: (MO basics) and `16.04.01` (coordination geometry)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### inorgchem.
+
+- **title**: (18-electron rule)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### orgchem.
+
+- **title**: (enzyme mechanism)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.
+
+- **title**: (variational principle)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### genchem-pchem.14-08-01
+
+- **title**: (stat mech chemistry) + `14.08.01` (kinetics/Arrhenius)
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.protein-structure-primary-through-quaternary-the-ramachandran-plot-helix-and-sheet
+
+- **title**: Protein structure: primary through quaternary; the Ramachandran plot; α-helix and β-sheet
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.carbohydrate-chemistry-monosaccharides-glycosidic-bonds-polysaccharides-and-glycoconjugates
+
+- **title**: Carbohydrate chemistry: monosaccharides, glycosidic bonds, polysaccharides, and glycoconjugates
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.lipid-chemistry-fatty-acids-glycerophospholipids-sphingolipids-sterols-and-their-roles
+
+- **title**: Lipid chemistry: fatty acids, glycerophospholipids, sphingolipids, sterols, and their roles
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.membrane-proteins-integral-vs-peripheral-topology-and-lipid-protein-interactions
+
+- **title**: Membrane proteins: integral vs. peripheral, topology, and lipid-protein interactions
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.vesicle-trafficking-snare-proteins-clathrin-coated-vesicles-and-the-secretory-pathway
+
+- **title**: Vesicle trafficking: SNARE proteins, clathrin-coated vesicles, and the secretory pathway
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.nucleus-and-nuclear-transport-nuclear-pore-complex-importins-exportins-and-chromatin-organization
+
+- **title**: Nucleus and nuclear transport: nuclear pore complex, importins/exportins, and chromatin organization
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.endoplasmic-reticulum-and-golgi-protein-folding-glycosylation-and-vesicle-budding
+
+- **title**: Endoplasmic reticulum and Golgi: protein folding, glycosylation, and vesicle budding
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.fatty-acid-metabolism-oxidation-fatty-acid-synthesis-and-the-acetyl-coa-hub
+
+- **title**: Fatty acid metabolism: β-oxidation, fatty acid synthesis, and the acetyl-CoA hub
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.amino-acid-catabolism-transamination-urea-cycle-and-amino-acid-biosynthesis-overview
+
+- **title**: Amino acid catabolism: transamination, urea cycle, and amino acid biosynthesis overview
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.metabolic-regulation-allosteric-control-covalent-modification-and-the-amp-kinase-switch
+
+- **title**: Metabolic regulation: allosteric control, covalent modification, and the AMP kinase switch
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.rna-processing-5-capping-splicing-3-polyadenylation-and-alternative-splicing
+
+- **title**: RNA processing: 5' capping, splicing (spliceosome), 3' polyadenylation, and alternative splicing
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.ribosomes-and-the-genetic-code-codon-anticodon-recognition-aminoacyl-trna-synthetases
+
+- **title**: Ribosomes and the genetic code: codon-anticodon recognition, aminoacyl-tRNA synthetases
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.dna-repair-pathways-base-excision-nucleotide-excision-mismatch-repair-and-double-strand-break-repair
+
+- **title**: DNA repair pathways: base excision, nucleotide excision, mismatch repair, and double-strand break repair
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.transposable-elements-mechanisms-of-transposition-genome-evolution-and-epigenetic-silencing
+
+- **title**: Transposable elements: mechanisms of transposition, genome evolution, and epigenetic silencing
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.epigenetics-histone-modification-dna-methylation-x-inactivation-and-imprinting
+
+- **title**: Epigenetics: histone modification, DNA methylation, X-inactivation, and imprinting
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.pi3k-akt-mtor-pathway-growth-factor-response-nutrient-sensing-and-cancer-connections
+
+- **title**: PI3K-Akt-mTOR pathway: growth factor response, nutrient sensing, and cancer connections
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.nf-b-and-jak-stat-pathways-cytokine-signaling-and-transcriptional-responses
+
+- **title**: NF-κB and JAK-STAT pathways: cytokine signaling and transcriptional responses
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.cyclin-cdk-complexes-regulation-of-each-cell-cycle-transition-checkpoint-mechanisms
+
+- **title**: Cyclin-CDK complexes: regulation of each cell cycle transition; checkpoint mechanisms
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.meiosis-recombination-crossing-over-and-the-generation-of-genetic-diversity
+
+- **title**: Meiosis: recombination, crossing over, and the generation of genetic diversity
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.apoptosis-intrinsic-and-extrinsic-pathways-caspase-cascade-bcl-2-family-regulation
+
+- **title**: Apoptosis: intrinsic and extrinsic pathways; caspase cascade; Bcl-2 family regulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.synaptic-transmission-neurotransmitter-release-snare-dependent-exocytosis-and-receptor-gating
+
+- **title**: Synaptic transmission: neurotransmitter release, SNARE-dependent exocytosis, and receptor gating
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.ion-channel-pharmacology-channel-types-blockers-and-the-molecular-basis-of-excitability
+
+- **title**: Ion channel pharmacology: channel types, blockers, and the molecular basis of excitability
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.adaptive-immunity-overview-b-cells-t-cells-clonal-selection-and-the-antibody-response
+
+- **title**: Adaptive immunity overview: B cells, T cells, clonal selection, and the antibody response
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.mhc-and-antigen-presentation-class-i-and-ii-pathways-t-cell-activation
+
+- **title**: MHC and antigen presentation: class I and II pathways, T cell activation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### mol-cell-bio.antibody-structure-and-diversity-vj-recombination-affinity-maturation-and-isotype-switching
+
+- **title**: Antibody structure and diversity: V(D)J recombination, affinity maturation, and isotype switching
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.body-plan-diversity-symmetry-types-coelom-origins-and-the-major-animal-phyla
+
+- **title**: Body plan diversity: symmetry types, coelom origins, and the major animal phyla
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.hemodynamics-poiseuille-s-law-laplace-s-law-blood-pressure-regulation
+
+- **title**: Hemodynamics: Poiseuille's law, Laplace's law, blood pressure regulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.the-cardiac-cycle-systole-diastole-the-wiggers-diagram-and-cardiac-output-regulation
+
+- **title**: The cardiac cycle: systole/diastole, the Wiggers diagram, and cardiac output regulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.lung-mechanics-compliance-surfactant-the-work-of-breathing-and-spirometry-values
+
+- **title**: Lung mechanics: compliance, surfactant, the work of breathing, and spirometry values
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.gas-exchange-and-transport-oxygen-hemoglobin-dissociation-curve-co-transport-as-bicarbonate
+
+- **title**: Gas exchange and transport: oxygen-hemoglobin dissociation curve, CO₂ transport as bicarbonate
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.motor-unit-recruitment-and-fatigue-slow-vs-fast-twitch-the-size-principle-and-graded-force
+
+- **title**: Motor unit recruitment and fatigue: slow vs. fast twitch, the size principle, and graded force
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.skeletal-mechanics-bone-remodeling-joint-biomechanics-and-the-lever-principles
+
+- **title**: Skeletal mechanics: bone remodeling, joint biomechanics, and the lever principles
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.spinal-cord-and-reflex-arcs-monosynaptic-stretch-reflex-reciprocal-inhibition-and-pain-pathways
+
+- **title**: Spinal cord and reflex arcs: monosynaptic stretch reflex, reciprocal inhibition, and pain pathways
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.brain-regions-cerebral-cortex-functional-areas-basal-ganglia-cerebellum-and-limbic-system
+
+- **title**: Brain regions: cerebral cortex functional areas, basal ganglia, cerebellum, and limbic system
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.the-autonomic-nervous-system-sympathetic-vs-parasympathetic-neurotransmitters-and-homeostasis
+
+- **title**: The autonomic nervous system: sympathetic vs. parasympathetic, neurotransmitters, and homeostasis
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.gastrointestinal-motility-and-secretion-peristalsis-gastric-acid-enzymes-and-absorption-sites
+
+- **title**: Gastrointestinal motility and secretion: peristalsis, gastric acid, enzymes, and absorption sites
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.nutrient-absorption-monosaccharides-amino-acids-lipid-micelles-and-the-enterohepatic-circulation
+
+- **title**: Nutrient absorption: monosaccharides, amino acids, lipid micelles, and the enterohepatic circulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.hypothalamic-pituitary-axis-releasing-hormones-tropic-hormones-and-feedback-regulation
+
+- **title**: Hypothalamic-pituitary axis: releasing hormones, tropic hormones, and feedback regulation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.glucose-homeostasis-insulin-and-glucagon-action-the-fed-vs-fasted-state-diabetes-mechanisms
+
+- **title**: Glucose homeostasis: insulin and glucagon action, the fed vs. fasted state, diabetes mechanisms
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.nephron-function-filtration-tubular-reabsorption-secretion-and-the-countercurrent-multiplier
+
+- **title**: Nephron function: filtration, tubular reabsorption, secretion, and the countercurrent multiplier
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.acid-base-balance-bicarbonate-buffer-system-respiratory-and-metabolic-compensation
+
+- **title**: Acid-base balance: bicarbonate buffer system, respiratory and metabolic compensation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.gametogenesis-spermatogenesis-and-oogenesis-hormonal-control-by-fsh-and-lh
+
+- **title**: Gametogenesis: spermatogenesis and oogenesis; hormonal control by FSH and LH
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.fertilization-and-early-development-implantation-hcg-signaling-and-placental-formation
+
+- **title**: Fertilization and early development: implantation, HCG signaling, and placental formation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.inflammation-innate-recognition-cytokine-storm-and-resolution-mechanisms
+
+- **title**: Inflammation: innate recognition (TLRs, NLRs), cytokine storm, and resolution mechanisms
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.gastrulation-and-axis-formation-organizer-signaling-hox-gene-patterning
+
+- **title**: Gastrulation and axis formation: organizer signaling (Spemann), Hox gene patterning
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### organismal-bio.organogenesis-inductive-interactions-morphogen-gradients-and-stem-cell-niches
+
+- **title**: Organogenesis: inductive interactions, morphogen gradients, and stem cell niches
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.linkage-crossing-over-and-genetic-maps-lod-scores-and-recombination-frequencies
+
+- **title**: Linkage, crossing over, and genetic maps: LOD scores and recombination frequencies
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.sex-linked-inheritance-dosage-compensation-and-x-inactivation
+
+- **title**: Sex-linked inheritance, dosage compensation, and X-inactivation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.extensions-of-hardy-weinberg-multiple-alleles-x-linked-loci-and-inbreeding
+
+- **title**: Extensions of Hardy-Weinberg: multiple alleles, X-linked loci, and inbreeding
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.mutation-selection-balance-equilibrium-frequency-of-deleterious-alleles
+
+- **title**: Mutation-selection balance: equilibrium frequency of deleterious alleles
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.migration-and-gene-flow-the-island-model-fst-and-genetic-structure
+
+- **title**: Migration and gene flow: the island model, FST, and genetic structure
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.neutral-theory-kimura-s-neutral-theory-synonymous-vs-nonsynonymous-substitution-rates
+
+- **title**: Neutral theory: Kimura's neutral theory, synonymous vs. nonsynonymous substitution rates
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.coalescent-theory-the-genealogy-of-a-sample-tmrca-and-linkage-disequilibrium
+
+- **title**: Coalescent theory: the genealogy of a sample, TMRCA, and linkage disequilibrium
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.twin-studies-and-the-estimation-of-heritability-additive-vs-dominance-variance
+
+- **title**: Twin studies and the estimation of heritability: additive vs. dominance variance
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.polygenic-adaptation-and-gwas-quantitative-trait-loci-and-the-infinitesimal-model
+
+- **title**: Polygenic adaptation and GWAS: quantitative trait loci and the infinitesimal model
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.reinforcement-reproductive-isolation-and-the-biological-species-concept-alternatives
+
+- **title**: Reinforcement, reproductive isolation, and the biological species concept alternatives
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.hybrid-zones-and-introgression-tension-zones-and-the-mosaic-model
+
+- **title**: Hybrid zones and introgression: tension zones and the mosaic model
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.molecular-clock-hypothesis-calibration-rate-heterogeneity-and-bayesian-divergence-dating
+
+- **title**: Molecular clock hypothesis: calibration, rate heterogeneity, and Bayesian divergence dating
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.character-evolution-ancestral-state-reconstruction-brownian-motion-and-pagel-s
+
+- **title**: Character evolution: ancestral state reconstruction, Brownian motion, and Pagel's λ
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.mass-extinctions-the-big-five-recovery-dynamics-and-the-kill-curve
+
+- **title**: Mass extinctions: the Big Five, recovery dynamics, and the kill curve
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.trends-in-the-fossil-record-cope-s-rule-the-red-queen-hypothesis-and-evolutionary-stasis
+
+- **title**: Trends in the fossil record: Cope's rule, the Red Queen hypothesis, and evolutionary stasis
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.metapopulation-dynamics-the-levins-model-rescue-effect-and-habitat-fragmentation
+
+- **title**: Metapopulation dynamics: the Levins model, rescue effect, and habitat fragmentation
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.age-structured-populations-the-leslie-matrix-stable-age-distribution-and-reproductive-value
+
+- **title**: Age-structured populations: the Leslie matrix, stable age distribution, and reproductive value
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.succession-primary-and-secondary-succession-the-intermediate-disturbance-hypothesis
+
+- **title**: Succession: primary and secondary succession; the intermediate disturbance hypothesis
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.island-biogeography-macarthur-wilson-theory-immigration-extinction-equilibrium
+
+- **title**: Island biogeography: MacArthur-Wilson theory, immigration-extinction equilibrium
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.nutrient-cycling-the-carbon-nitrogen-and-phosphorus-cycles-and-stoichiometric-constraints
+
+- **title**: Nutrient cycling: the carbon, nitrogen, and phosphorus cycles and stoichiometric constraints
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.energy-flow-trophic-efficiency-the-ten-percent-rule-and-pyramid-of-biomass
+
+- **title**: Energy flow: trophic efficiency, the ten-percent rule, and pyramid of biomass
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+### eco-evo-bio.arms-races-the-red-queen-and-the-coevolutionary-escalation-between-hosts-and-parasites
+
+- **title**: Arms races: the Red Queen and the coevolutionary escalation between hosts and parasites
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### classical-mech.newtons-law-of-gravitation-field-potential-shell-theorem
+
+- **title**: Gravitation: Field, Potential, Shell Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.friction-normal-forces-constraints
+
+- **title**: Friction, Normal Forces, Constraints
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.constrained-lagrangian-lagrange-multipliers-dalembert
+
+- **title**: Constrained Lagrangian: Lagrange Multipliers, D'Alembert
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.field-lagrangians-continuum-limit-elastic-media
+
+- **title**: Field Lagrangians and Continuum Limit
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.cyclic-coordinates-ignorable-degrees-routh-procedure
+
+- **title**: Cyclic Coordinates and Routh's Procedure
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.discrete-symmetries-parity-time-reversal-conservation
+
+- **title**: Discrete Symmetries: Parity, Time-Reversal
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.poisson-brackets-jacobi-identity
+
+- **title**: Poisson Brackets
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.symplectic-structure-symplectic-form-darboux
+
+- **title**: Symplectic Structure and Darboux's Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.liouville-arnold-theorem-integrability-action-angle
+
+- **title**: Liouville-Arnold Theorem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.non-inertial-frames-centrifugal-coriolis-foucault
+
+- **title**: Non-inertial frames: centrifugal, Coriolis, Foucault's pendulum
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.variable-mass-rocket-equation-tsiolkovsky
+
+- **title**: Variable-mass systems: rocket equation (Tsiolkovsky)
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.small-oscillations-normal-modes-eigenvalue
+
+- **title**: Small oscillations: normal modes and eigenvalue problem
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.galilean-symmetry-group-ten-integrals
+
+- **title**: Galilean symmetry group and ten integrals of motion
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.liouvilles-theorem-incompressibility-phase-space
+
+- **title**: Liouville's theorem: incompressibility of phase-space flow
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.hamiltonian-perturbation-theory-averaging-adiabatic
+
+- **title**: Hamiltonian perturbation theory: averaging and adiabatic invariants
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.generating-functions-canonical-transformations
+
+- **title**: Generating functions for canonical transformations (F1-F4)
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.point-transformations-canonical-lifts
+
+- **title**: Point transformations and canonical lifts
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.completely-integrable-toda-lattice-kepler
+
+- **title**: Completely integrable: Toda lattice and Kepler revisited
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.lagrangian-perturbation-secular-multiple-scales
+
+- **title**: Lagrangian perturbation: secular terms, multiple scales
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.classical-spin-so3-poisson-bracket-euler-rigid-body
+
+- **title**: Classical spin: SO(3) Poisson bracket and Euler's rigid body
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.hamilton-jacobi-eikonal-wkb-geometric-optics
+
+- **title**: Hamilton-Jacobi as eikonal limit: WKB and geometric optics
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.symplectic-group-linear-canonical-transformations
+
+- **title**: Symplectic group Sp(2n,R) and linear canonical transformations
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.lax-pairs-inverse-scattering-solitons
+
+- **title**: Lax pairs and inverse scattering: solitons
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.elastic-waves-longitudinal-transverse-cauchy-stress
+
+- **title**: Elastic waves: longitudinal/transverse, Cauchy stress
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.ideal-fluid-euler-bernoulli-vorticity
+
+- **title**: Ideal fluid: Euler's equations, Bernoulli, vorticity
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.phase-space-chaos-poincare-horseshoe
+
+- **title**: Phase-space structure of chaos: Poincare sections, horseshoe maps
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.viscous-flow-navier-stokes-reynolds
+
+- **title**: Viscous flow: Navier-Stokes, Reynolds number
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.lyapunov-exponents-double-pendulum
+
+- **title**: Lyapunov exponents: definition and double pendulum
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.period-doubling-logistic-map-feigenbaum
+
+- **title**: Period-doubling: logistic map and Feigenbaum
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### classical-mech.strange-attractors-lorenz-fractal-dimension
+
+- **title**: Strange attractors: Lorenz system, fractal dimension
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.third-law-thermodynamics
+
+- **title**: Third law of thermodynamics: Nernst heat theorem, absolute entropy, and zero-point entropy
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.thermodynamic-stability
+
+- **title**: Thermodynamic stability: convexity, Le Chatelier's principle, and the spinodal curve
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.equations-of-state
+
+- **title**: Equations of state: virial expansion, van der Waals gas, and the law of corresponding states
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.thermodynamic-cycles
+
+- **title**: Thermodynamic cycles: Carnot efficiency, Otto and Diesel cycles, and entropy production
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.transport-phenomena
+
+- **title**: Transport phenomena: diffusion, viscosity, thermal conductivity, and the mean free path
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.boltzmann-transport-equation
+
+- **title**: The Boltzmann transport equation: H-theorem, the approach to equilibrium, and the BGK approximation
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.fluctuation-dissipation-noise
+
+- **title**: Fluctuations and noise: the fluctuation-dissipation theorem and Nyquist's formula
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.grand-canonical-ensemble
+
+- **title**: Grand canonical ensemble: chemical potential, fugacity, and variable particle number
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.equivalence-of-ensembles
+
+- **title**: Equivalence of ensembles in the thermodynamic limit: Legendre structure and equivalence conditions
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.isothermal-isobaric-ensemble
+
+- **title**: Isothermal-isobaric (NPT) ensemble: Gibbs free energy as the natural potential
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.partition-function-factorization
+
+- **title**: Factorization of the partition function: independent subsystems and the grand potential
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.ideal-gas-sackur-tetrode
+
+- **title**: Classical ideal gas partition function: Sackur-Tetrode entropy and the Gibbs paradox
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.harmonic-oscillator-einstein-solid
+
+- **title**: Harmonic oscillator in a thermal bath: heat capacity and the Einstein solid
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.mean-field-theory
+
+- **title**: Mean-field theory of phase transitions: the van der Waals and Curie-Weiss models
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.landau-theory
+
+- **title**: Landau theory: order parameter, symmetry breaking, and the free energy expansion
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.ginzburg-landau-theory
+
+- **title**: Fluctuations beyond mean field: Ginzburg criterion and the Ginzburg-Landau theory
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.transfer-matrix-1d-ising
+
+- **title**: The transfer matrix method: exact solution of the 1D Ising model
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.kosterlitz-thouless-transition
+
+- **title**: Kosterlitz-Thouless transition: topological phase transitions in 2D systems
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.block-spin-renormalization
+
+- **title**: Block-spin renormalization: Wilson's real-space RG and fixed points
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.epsilon-expansion
+
+- **title**: The epsilon expansion: RG flows near four dimensions and critical exponents
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.universality-classes
+
+- **title**: Universality classes: classification of critical behavior and the scaling hypothesis
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### statistical-mechanics.conformal-field-theory-basics
+
+- **title**: Conformal field theory basics: scale invariance at criticality and the central charge
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.

@@ -90,6 +90,8 @@ export const SECTIONS: SectionInfo[] = [
   { key: "numerical-analysis",    order: 8.7,  label: "Numerical analysis & scientific computing", anchor: "numerical-analysis", domain: "mathematics" },
   { key: "optimization-control",  order: 8.8,  label: "Optimization & control",              anchor: "optimization-control",  domain: "mathematics" },
   { key: "mathematical-statistics", order: 8.9, label: "Mathematical statistics & learning theory", anchor: "mathematical-statistics", domain: "mathematics" },
+  { key: "information-theory",      order: 8.95, label: "Information & coding theory",              anchor: "information-theory",      domain: "mathematics" },
+  { key: "theoretical-cs",         order: 8.96, label: "Theoretical computer science",             anchor: "theoretical-cs",         domain: "computing" },
 
   // ── Physics ──
   { key: "classical-mech",        order: 9,    label: "Classical mechanics",              anchor: "classical-mech",        domain: "physics" },

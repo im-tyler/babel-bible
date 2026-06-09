@@ -27789,6 +27789,108 @@
 ],
 "title": "Two-body central-force problem, Kepler orbits, and Rutherford scattering"
 },
+"09.01.05": {
+"area": "physics",
+"books": [
+"taylor-2005"
+],
+"chapter": "01-newtonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.01.05",
+"prereqs": [
+"09.01.01",
+"09.01.03",
+"02.01.01"
+],
+"section": "classical-mech",
+"slug": "newtons-law-of-gravitation-field-potential-shell-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gravitation: Field, Potential, Shell Theorem"
+},
+"09.01.06": {
+"area": "physics",
+"books": [
+"taylor-2005",
+"goldstein-2002"
+],
+"chapter": "01-newtonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.01.06",
+"prereqs": [
+"09.01.02",
+"09.01.01"
+],
+"section": "classical-mech",
+"slug": "friction-normal-forces-constraints",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Friction, Normal Forces, Constraints"
+},
+"09.01.07": {
+"area": "physics",
+"books": [
+"taylor-2005"
+],
+"chapter": "newtonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.01.07",
+"prereqs": [
+"09.01.02",
+"09.01.01"
+],
+"section": "classical-mech",
+"slug": "non-inertial-frames-centrifugal-coriolis-foucault",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Non-inertial frames: centrifugal, Coriolis, Foucault's pendulum"
+},
+"09.01.08": {
+"area": "physics",
+"books": [
+"taylor-2005"
+],
+"chapter": "newtonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.01.08",
+"prereqs": [
+"09.01.02",
+"09.01.03"
+],
+"section": "classical-mech",
+"slug": "variable-mass-rocket-equation-tsiolkovsky",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Variable-mass systems: rocket equation (Tsiolkovsky)"
+},
 "09.02.01": {
 "area": "physics",
 "books": [
@@ -27848,6 +27950,111 @@
 ],
 "title": "Euler-Lagrange equations"
 },
+"09.02.03": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"taylor-2005"
+],
+"chapter": "02-lagrangian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.02.03",
+"prereqs": [
+"09.02.02",
+"09.01.06"
+],
+"section": "classical-mech",
+"slug": "constrained-lagrangian-lagrange-multipliers-dalembert",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Constrained Lagrangian: Lagrange Multipliers, D'Alembert"
+},
+"09.02.04": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"taylor-2005"
+],
+"chapter": "lagrangian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.02.04",
+"prereqs": [
+"09.02.02",
+"01.01.12"
+],
+"section": "classical-mech",
+"slug": "small-oscillations-normal-modes-eigenvalue",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Small oscillations: normal modes and eigenvalue problem"
+},
+"09.02.05": {
+"area": "physics",
+"books": [
+"taylor-2005",
+"landau-lifshitz-mechanics"
+],
+"chapter": "lagrangian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.02.05",
+"prereqs": [
+"09.02.01",
+"09.02.02",
+"09.02.04"
+],
+"section": "classical-mech",
+"slug": "lagrangian-perturbation-theory-secular-multiple-scales",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lagrangian perturbation theory: secular terms and the method of multiple scales"
+},
+"09.02.06": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "02-lagrangian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.02.06",
+"prereqs": [
+"09.02.02",
+"09.07.01"
+],
+"section": "classical-mech",
+"slug": "field-lagrangians-continuum-limit-elastic-media",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Field Lagrangians and Continuum Limit"
+},
 "09.03.01": {
 "area": "physics",
 "books": [
@@ -27880,6 +28087,32 @@
 ],
 "title": "Noether's theorem \u2014 symmetries and conservation laws"
 },
+"09.03.02": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "03-symmetries-noether",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.03.02",
+"prereqs": [
+"09.02.02",
+"09.03.01"
+],
+"section": "classical-mech",
+"slug": "cyclic-coordinates-ignorable-degrees-routh-procedure",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cyclic Coordinates and Routh's Procedure"
+},
 "09.03.03": {
 "area": "physics",
 "books": [
@@ -27909,6 +28142,58 @@
 "master"
 ],
 "title": "Quantum free particle as a representation of $E(3)$"
+},
+"09.03.04": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "03-symmetries-noether",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.03.04",
+"prereqs": [
+"09.03.01",
+"09.02.02"
+],
+"section": "classical-mech",
+"slug": "discrete-symmetries-parity-time-reversal-conservation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Discrete Symmetries: Parity, Time-Reversal"
+},
+"09.03.05": {
+"area": "physics",
+"books": [
+"landau-lifshitz-mechanics",
+"goldstein-2002"
+],
+"chapter": "symmetries-noether",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.03.05",
+"prereqs": [
+"09.03.01",
+"09.04.03"
+],
+"section": "classical-mech",
+"slug": "galilean-symmetry-group-ten-integrals",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Galilean symmetry group and ten integrals of motion"
 },
 "09.04.01": {
 "area": "physics",
@@ -27969,6 +28254,110 @@
 ],
 "title": "Hamilton's equations"
 },
+"09.04.03": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "04-hamiltonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.04.03",
+"prereqs": [
+"09.04.02",
+"09.03.01"
+],
+"section": "classical-mech",
+"slug": "poisson-brackets-jacobi-identity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Poisson Brackets"
+},
+"09.04.04": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"taylor-2005"
+],
+"chapter": "hamiltonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.04.04",
+"prereqs": [
+"09.04.02",
+"09.04.03"
+],
+"section": "classical-mech",
+"slug": "liouvilles-theorem-incompressibility-phase-space",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Liouville's theorem: incompressibility of phase-space flow"
+},
+"09.04.05": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "04-hamiltonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.04.05",
+"prereqs": [
+"09.04.02",
+"09.04.03"
+],
+"section": "classical-mech",
+"slug": "symplectic-structure-symplectic-form-darboux",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Symplectic Structure and Darboux's Theorem"
+},
+"09.04.06": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "hamiltonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.04.06",
+"prereqs": [
+"09.04.02",
+"09.06.01"
+],
+"section": "classical-mech",
+"slug": "hamiltonian-perturbation-theory-averaging-adiabatic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hamiltonian perturbation theory: averaging and adiabatic invariants"
+},
 "09.04.07": {
 "area": "physics",
 "books": [
@@ -27997,6 +28386,61 @@
 "master"
 ],
 "title": "Complex structures and quantization; squeezed states"
+},
+"09.04.08": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "hamiltonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.04.08",
+"prereqs": [
+"09.04.01",
+"09.04.02",
+"09.04.03",
+"09.04.05"
+],
+"section": "classical-mech",
+"slug": "classical-spin-so3-poisson-bracket-euler-rigid-body",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Classical spin: the SO(3) Poisson bracket and Euler's equations for rigid body rotation"
+},
+"09.04.09": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "hamiltonian",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.04.09",
+"prereqs": [
+"09.04.01",
+"09.04.02",
+"09.05.01"
+],
+"section": "classical-mech",
+"slug": "hamilton-jacobi-eikonal-wkb-geometric-optics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Hamilton-Jacobi equation as the eikonal limit: WKB and geometric optics analogy"
 },
 "09.05.01": {
 "area": "physics",
@@ -28057,6 +28501,86 @@
 ],
 "title": "Hamilton-Jacobi equation"
 },
+"09.05.03": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "canonical",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.05.03",
+"prereqs": [
+"09.04.02",
+"09.05.01",
+"09.06.01"
+],
+"section": "classical-mech",
+"slug": "generating-functions-canonical-transformations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Generating functions for canonical transformations: the four types (F1--F4)"
+},
+"09.05.04": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "canonical",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.05.04",
+"prereqs": [
+"09.04.02",
+"09.05.01",
+"09.05.03"
+],
+"section": "classical-mech",
+"slug": "point-transformations-canonical-lifts",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Point transformations and their canonical lifts"
+},
+"09.05.05": {
+"area": "physics",
+"books": [
+"goldstein-2002"
+],
+"chapter": "canonical",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.05.05",
+"prereqs": [
+"09.04.05",
+"09.05.01",
+"09.05.03"
+],
+"section": "classical-mech",
+"slug": "symplectic-group-linear-canonical-transformations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The symplectic group Sp(2n, R) and its role in linear canonical transformations"
+},
 "09.06.01": {
 "area": "physics",
 "books": [
@@ -28083,6 +28607,87 @@
 "master"
 ],
 "title": "Action-angle variables"
+},
+"09.06.02": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "06-integrable",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.06.02",
+"prereqs": [
+"09.04.02",
+"09.04.03",
+"09.04.05",
+"09.06.01"
+],
+"section": "classical-mech",
+"slug": "liouville-arnold-theorem-integrability-action-angle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Liouville-Arnold Theorem: Integrability and the Existence of Action-Angle Variables"
+},
+"09.06.03": {
+"area": "physics",
+"books": [
+"goldstein-2002",
+"landau-lifshitz-mechanics"
+],
+"chapter": "integrable",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.06.03",
+"prereqs": [
+"09.04.02",
+"09.05.01",
+"09.06.01"
+],
+"section": "classical-mech",
+"slug": "completely-integrable-toda-lattice-kepler",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Completely integrable systems: the Toda lattice and Kepler revisited"
+},
+"09.06.04": {
+"area": "physics",
+"books": [
+"landau-lifshitz-mechanics"
+],
+"chapter": "integrable",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.06.04",
+"prereqs": [
+"09.06.01",
+"09.06.02",
+"09.04.03"
+],
+"section": "classical-mech",
+"slug": "lax-pairs-inverse-scattering-solitons",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lax pairs and the inverse scattering method: solitons in classical mechanics"
 },
 "09.07.01": {
 "area": "physics",
@@ -28111,6 +28716,84 @@
 ],
 "title": "Continuum Mechanics and Field Theory"
 },
+"09.07.02": {
+"area": "physics",
+"books": [
+"landau-lifshitz-mechanics",
+"goldstein-2002"
+],
+"chapter": "continuum",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.07.02",
+"prereqs": [
+"09.07.01",
+"09.01.01"
+],
+"section": "classical-mech",
+"slug": "elastic-waves-longitudinal-transverse-cauchy-stress",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Elastic waves in solids: longitudinal and transverse modes, the Cauchy stress tensor"
+},
+"09.07.03": {
+"area": "physics",
+"books": [
+"landau-lifshitz-mechanics"
+],
+"chapter": "continuum",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.07.03",
+"prereqs": [
+"09.07.01",
+"09.07.02",
+"09.04.08"
+],
+"section": "classical-mech",
+"slug": "ideal-fluid-euler-bernoulli-vorticity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ideal fluid mechanics: Euler's equations, Bernoulli's equation, and vorticity"
+},
+"09.07.04": {
+"area": "physics",
+"books": [
+"landau-lifshitz-mechanics",
+"goldstein-2002"
+],
+"chapter": "continuum",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.07.04",
+"prereqs": [
+"09.07.03",
+"09.07.02"
+],
+"section": "classical-mech",
+"slug": "viscous-flow-navier-stokes-reynolds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Viscous flow: the Navier-Stokes equations, Reynolds number, and laminar/turbulent transition"
+},
 "09.08.01": {
 "area": "physics",
 "books": [
@@ -28137,6 +28820,108 @@
 "master"
 ],
 "title": "KAM theorem and chaos"
+},
+"09.08.02": {
+"area": "physics",
+"books": [
+"goldstein-2002"
+],
+"chapter": "chaos",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.08.02",
+"prereqs": [
+"09.08.01",
+"09.04.05"
+],
+"section": "classical-mech",
+"slug": "phase-space-chaos-poincare-horseshoe",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Phase-space structure of chaos: Poincare sections, homoclinic tangles, and horseshoe maps"
+},
+"09.08.03": {
+"area": "physics",
+"books": [
+"taylor-2005",
+"goldstein-2002"
+],
+"chapter": "chaos",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.08.03",
+"prereqs": [
+"09.08.01",
+"09.08.02",
+"09.04.02"
+],
+"section": "classical-mech",
+"slug": "lyapunov-exponents-double-pendulum",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lyapunov exponents: definition, computation, and the chaotic double pendulum"
+},
+"09.08.04": {
+"area": "physics",
+"books": [
+"taylor-2005"
+],
+"chapter": "chaos",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.08.04",
+"prereqs": [
+"09.08.03",
+"09.02.04"
+],
+"section": "classical-mech",
+"slug": "period-doubling-logistic-map-feigenbaum",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Period-doubling route to chaos: the logistic map and Feigenbaum universality"
+},
+"09.08.05": {
+"area": "physics",
+"books": [
+"taylor-2005"
+],
+"chapter": "chaos",
+"curriculum": "classical-mech",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "09.08.05",
+"prereqs": [
+"09.08.03",
+"09.08.04"
+],
+"section": "classical-mech",
+"slug": "strange-attractors-lorenz-fractal-dimension",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Strange attractors: the Lorenz system, fractal dimension, and sensitive dependence"
 },
 "10.01.01": {
 "area": "physics",
@@ -28285,6 +29070,109 @@
 ],
 "title": "Biot-Savart law and Ampere's law"
 },
+"10.02.02": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "magnetostatics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.02.02",
+"prereqs": [
+"10.02.01",
+"10.01.01"
+],
+"section": "em-sr",
+"slug": "magnetic-vector-potential-gauge-coulomb",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Magnetic vector potential, gauge freedom, and the Coulomb gauge"
+},
+"10.02.03": {
+"area": "physics",
+"books": [
+"griffiths-em-2017"
+],
+"chapter": "magnetostatics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.02.03",
+"prereqs": [
+"10.02.01",
+"10.01.04"
+],
+"section": "em-sr",
+"slug": "magnetization-h-field-magnetic-materials",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Magnetization, H-field, and magnetic materials: diamagnets, paramagnets, ferromagnets"
+},
+"10.02.04": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "magnetostatics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.02.04",
+"prereqs": [
+"10.02.01",
+"10.01.03",
+"10.01.04"
+],
+"section": "em-sr",
+"slug": "boundary-conditions-interfaces-normal-tangential",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Boundary conditions at interfaces: normal and tangential components of E, D, B, H"
+},
+"10.02.05": {
+"area": "physics",
+"books": [
+"griffiths-em-2017"
+],
+"chapter": "magnetostatics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.02.05",
+"prereqs": [
+"10.02.03",
+"10.02.04"
+],
+"section": "em-sr",
+"slug": "magnetic-scalar-potential-demagnetization-factor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Magnetic scalar potential and the demagnetization factor"
+},
 "10.03.01": {
 "area": "physics",
 "books": [],
@@ -28308,6 +29196,32 @@
 "master"
 ],
 "title": "Faraday's law and electromagnetic induction"
+},
+"10.03.02": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.03.02",
+"prereqs": [
+"10.03.01",
+"10.02.02"
+],
+"section": "em-sr",
+"slug": "faraday-law-inductance-energy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Faraday's law in integral and differential form: mutual and self-inductance, energy in inductors"
 },
 "10.03.03": {
 "area": "physics",
@@ -28334,6 +29248,58 @@
 "master"
 ],
 "title": "Energy and momentum in the electromagnetic field: Poynting vector, Maxwell stress tensor, conservation laws"
+},
+"10.03.04": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.03.04",
+"prereqs": [
+"10.03.01",
+"10.03.02",
+"10.01.04"
+],
+"section": "em-sr",
+"slug": "displacement-current-continuity-maxwell-matter",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Displacement current, the continuity equation, and the complete Maxwell equations in matter"
+},
+"10.03.05": {
+"area": "physics",
+"books": [
+"griffiths-em-2017"
+],
+"chapter": "electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.03.05",
+"prereqs": [
+"10.03.03",
+"10.04.01"
+],
+"section": "em-sr",
+"slug": "energy-momentum-poynting-radiation-pressure",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Energy and momentum in the electromagnetic field: the Poynting vector and radiation pressure"
 },
 "10.04.01": {
 "area": "physics",
@@ -28390,6 +29356,83 @@
 "master"
 ],
 "title": "EM waves and the wave equation"
+},
+"10.04.03": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "maxwell-fields",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.04.03",
+"prereqs": [
+"10.04.02",
+"10.03.04"
+],
+"section": "em-sr",
+"slug": "plane-waves-matter-dispersion-skin-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Plane waves in matter: dispersion relations, skin depth, and the complex refractive index"
+},
+"10.04.04": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "maxwell-fields",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.04.04",
+"prereqs": [
+"10.04.03",
+"10.04.02"
+],
+"section": "em-sr",
+"slug": "waveguides-transmission-lines-tem-te-tm",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Waveguides and transmission lines: TE, TM, TEM modes and the cutoff frequency"
+},
+"10.04.05": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "maxwell-fields",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.04.05",
+"prereqs": [
+"10.04.04"
+],
+"section": "em-sr",
+"slug": "cavities-resonant-modes-q-factor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cavities and resonant modes: the quality factor Q and normal-mode expansion"
 },
 "10.05.01": {
 "area": "physics",
@@ -28498,6 +29541,86 @@
 ],
 "title": "Covariant electrodynamics \u2014 Faraday tensor"
 },
+"10.06.02": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "covariant-em",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.06.02",
+"prereqs": [
+"10.06.01",
+"10.05.03",
+"10.03.04"
+],
+"section": "em-sr",
+"slug": "four-current-charge-density-covariant-continuity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The four-current, charge-current density, and covariant continuity"
+},
+"10.06.03": {
+"area": "physics",
+"books": [
+"jackson-em-1999",
+"griffiths-em-2017"
+],
+"chapter": "covariant-em",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.06.03",
+"prereqs": [
+"10.06.01",
+"10.05.03",
+"10.03.05"
+],
+"section": "em-sr",
+"slug": "electromagnetic-stress-energy-tensor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The electromagnetic stress-energy tensor and covariant energy-momentum conservation"
+},
+"10.06.04": {
+"area": "physics",
+"books": [
+"jackson-em-1999",
+"griffiths-em-2017"
+],
+"chapter": "covariant-em",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.06.04",
+"prereqs": [
+"10.06.01",
+"10.05.01"
+],
+"section": "em-sr",
+"slug": "transformation-e-b-lorentz-boosts",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Transformation of E and B fields under Lorentz boosts"
+},
 "10.07.01": {
 "area": "physics",
 "books": [
@@ -28523,6 +29646,136 @@
 "master"
 ],
 "title": "Radiation from accelerating charges \u2014 Larmor formula"
+},
+"10.07.02": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "radiation",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.07.02",
+"prereqs": [
+"10.07.01",
+"10.04.02",
+"10.02.02"
+],
+"section": "em-sr",
+"slug": "electric-dipole-radiation-angular-power",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electric dipole radiation: angular distribution, polarization, and total radiated power"
+},
+"10.07.03": {
+"area": "physics",
+"books": [
+"jackson-em-1999"
+],
+"chapter": "radiation",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.07.03",
+"prereqs": [
+"10.07.02",
+"10.02.02"
+],
+"section": "em-sr",
+"slug": "magnetic-dipole-electric-quadrupole-radiation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Magnetic dipole and electric quadrupole radiation: multipole expansion of radiation fields"
+},
+"10.07.04": {
+"area": "physics",
+"books": [
+"jackson-em-1999"
+],
+"chapter": "radiation",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.07.04",
+"prereqs": [
+"10.07.01",
+"10.03.05"
+],
+"section": "em-sr",
+"slug": "radiation-reaction-abraham-lorentz",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Radiation reaction: the Abraham-Lorentz force and the self-energy problem"
+},
+"10.07.05": {
+"area": "physics",
+"books": [
+"jackson-em-1999",
+"griffiths-em-2017"
+],
+"chapter": "radiation",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.07.05",
+"prereqs": [
+"10.07.01",
+"10.05.03",
+"10.07.04"
+],
+"section": "em-sr",
+"slug": "synchrotron-radiation-relativistic-circular-motion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Synchrotron radiation: relativistic circular motion and the 1/gamma^4 power formula"
+},
+"10.08.01": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "advanced-electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.08.01",
+"prereqs": [
+"10.03.04",
+"10.02.02"
+],
+"section": "em-sr",
+"slug": "greens-function-retarded-advanced-feynman",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Green's function method for the scalar and vector potentials: retarded, advanced, and Feynman propagators"
 },
 "11.01.01": {
 "area": "physics",
@@ -28572,6 +29825,114 @@
 ],
 "title": "Thermodynamic potentials and Legendre transforms"
 },
+"11.01.03": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"callen-1985",
+"reif-1965"
+],
+"chapter": "thermodynamics",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.01.03",
+"prereqs": [
+"11.01.01",
+"11.01.02"
+],
+"section": "stat-mech-physics",
+"slug": "third-law-thermodynamics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Third law of thermodynamics: Nernst heat theorem, absolute entropy, and zero-point entropy"
+},
+"11.01.04": {
+"area": "physics",
+"books": [
+"callen-1985",
+"pathria-beale-2011",
+"reif-1965"
+],
+"chapter": "thermodynamics",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.01.04",
+"prereqs": [
+"11.01.01",
+"11.01.02",
+"11.01.05"
+],
+"section": "stat-mech-physics",
+"slug": "thermodynamic-stability-convexity-le-chatelier",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Thermodynamic stability: convexity, Le Chatelier's principle, and the spinodal curve"
+},
+"11.01.05": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"callen-1985",
+"huang-1987"
+],
+"chapter": "thermodynamics",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.01.05",
+"prereqs": [
+"11.01.01",
+"11.01.02"
+],
+"section": "stat-mech-physics",
+"slug": "equations-of-state-virial-van-der-waals",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Equations of state: virial expansion, van der Waals gas, and the law of corresponding states"
+},
+"11.01.06": {
+"area": "physics",
+"books": [
+"callen-1985",
+"reif-1965"
+],
+"chapter": "thermodynamics",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.01.06",
+"prereqs": [
+"11.01.01",
+"11.01.02"
+],
+"section": "stat-mech-physics",
+"slug": "thermodynamic-cycles-carnot-efficiency",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Thermodynamic cycles: Carnot efficiency, Otto and Diesel cycles, and entropy production"
+},
 "11.02.01": {
 "area": "physics",
 "books": [],
@@ -28597,6 +29958,58 @@
 ],
 "title": "Maxwell-Boltzmann distribution from kinetic theory"
 },
+"11.02.02": {
+"area": "physics",
+"books": [
+"reif-1965",
+"kittel-kroemer-1980",
+"kardar-2007"
+],
+"chapter": "kinetic-theory",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.02.02",
+"prereqs": [
+"11.02.01"
+],
+"section": "stat-mech-physics",
+"slug": "transport-phenomena-diffusion-viscosity-conductivity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Transport phenomena: diffusion, viscosity, thermal conductivity, and the mean free path"
+},
+"11.02.03": {
+"area": "physics",
+"books": [
+"kardar-2007",
+"reif-1965"
+],
+"chapter": "kinetic-theory",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.02.03",
+"prereqs": [
+"11.02.01",
+"11.02.02"
+],
+"section": "stat-mech-physics",
+"slug": "boltzmann-transport-equation-h-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Boltzmann transport equation: H-theorem, the approach to equilibrium, and the BGK approximation"
+},
 "11.03.01": {
 "area": "physics",
 "books": [],
@@ -28621,6 +30034,33 @@
 "master"
 ],
 "title": "Microcanonical ensemble"
+},
+"11.03.02": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"reif-1965",
+"huang-1987"
+],
+"chapter": "ensembles",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.03.02",
+"prereqs": [
+"11.03.01",
+"11.04.01"
+],
+"section": "stat-mech-physics",
+"slug": "grand-canonical-ensemble",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Grand canonical ensemble: chemical potential, fugacity, and variable particle number"
 },
 "11.04.01": {
 "area": "physics",
@@ -28675,6 +30115,60 @@
 "master"
 ],
 "title": "Souriau Gibbs state on a symplectic $G$-space"
+},
+"11.04.03": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"reif-1965",
+"huang-1987"
+],
+"chapter": "partition-functions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.04.03",
+"prereqs": [
+"11.04.01",
+"11.03.02"
+],
+"section": "stat-mech-physics",
+"slug": "partition-function-factorization",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Factorization of the partition function: independent subsystems and the grand potential"
+},
+"11.04.04": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"reif-1965",
+"huang-1987"
+],
+"chapter": "partition-functions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.04.04",
+"prereqs": [
+"11.04.01",
+"11.04.03"
+],
+"section": "stat-mech-physics",
+"slug": "classical-ideal-gas-sackur-tetrode",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Classical ideal gas partition function: Sackur-Tetrode entropy and the Gibbs paradox"
 },
 "11.05.01": {
 "area": "physics",
@@ -28846,6 +30340,34 @@
 ],
 "title": "Ising model and phase transitions"
 },
+"11.06.02": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"huang-1987",
+"kardar-2007"
+],
+"chapter": "phase-transitions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.06.02",
+"prereqs": [
+"11.04.01",
+"11.06.01",
+"11.01.05"
+],
+"section": "stat-mech-physics",
+"slug": "mean-field-theory-van-der-waals-curie-weiss",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mean-field theory of phase transitions: the van der Waals and Curie-Weiss models"
+},
 "11.07.01": {
 "area": "physics",
 "books": [
@@ -28868,6 +30390,32 @@
 "master"
 ],
 "title": "Critical phenomena and renormalization group"
+},
+"11.07.02": {
+"area": "physics",
+"books": [
+"kardar-2007",
+"pathria-beale-2011"
+],
+"chapter": "rg",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.07.02",
+"prereqs": [
+"11.07.01",
+"11.06.02"
+],
+"section": "stat-mech-physics",
+"slug": "block-spin-renormalization-wilson-real-space-rg",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Block-spin renormalization: Wilson's real-space RG and fixed points"
 },
 "12.01.01": {
 "area": "physics",
@@ -50702,5 +52250,1855 @@
 "master"
 ],
 "title": "Generalized Linear Models"
+},
+"46.01.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-measures",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.01.01",
+"prereqs": [
+"37.01.01",
+"37.02.01",
+"01.01.01"
+],
+"section": "information-theory",
+"slug": "entropy-joint-conditional-chain-rule",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Entropy, Joint Entropy, Conditional Entropy, and the Chain Rule"
+},
+"46.01.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-measures",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.01.02",
+"prereqs": [
+"46.01.01",
+"37.01.01"
+],
+"section": "information-theory",
+"slug": "mutual-information-kl-divergence-variational",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mutual Information, KL Divergence, and Variational Characterizations (Donsker-Varadhan)"
+},
+"46.01.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-measures",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.01.03",
+"prereqs": [
+"46.01.01",
+"46.01.02"
+],
+"section": "information-theory",
+"slug": "information-inequalities-logsum-subadditivity-pinsker",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Information Inequalities: Log-Sum Inequality, Subadditivity, and Pinsker's Inequality"
+},
+"46.01.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-measures",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.01.04",
+"prereqs": [
+"46.01.01",
+"02.01.01",
+"37.01.01"
+],
+"section": "information-theory",
+"slug": "differential-entropy-maximum-entropy-gaussian-entropy-power",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Differential Entropy, the Maximum-Entropy Gaussian, and the Entropy-Power Inequality"
+},
+"46.01.05": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-measures",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.01.05",
+"prereqs": [
+"46.01.01",
+"37.05.01",
+"37.05.02"
+],
+"section": "information-theory",
+"slug": "entropy-rates-stationary-processes-markov",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Entropy Rates of Stationary Processes and the Entropy of Markov Chains"
+},
+"46.02.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "source-coding",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.02.01",
+"prereqs": [
+"46.01.01",
+"37.02.01"
+],
+"section": "information-theory",
+"slug": "asymptotic-equipartition-property-typical-sequences",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Asymptotic Equipartition Property (AEP) and Strongly Typical Sequences"
+},
+"46.02.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "source-coding",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.02.02",
+"prereqs": [
+"46.01.01",
+"46.02.01"
+],
+"section": "information-theory",
+"slug": "shannon-source-coding-theorem-kraft-inequality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Shannon's Source Coding Theorem: Optimal Lossless Rates and the Kraft Inequality"
+},
+"46.02.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "02-source-coding",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.02.03",
+"prereqs": [
+"46.02.02"
+],
+"section": "information-theory",
+"slug": "huffman-codes-construction-optimality-redundancy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Huffman Codes: Construction, Optimality, and the Redundancy Bound"
+},
+"46.02.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "02-source-coding",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.02.04",
+"prereqs": [
+"46.02.02",
+"42.04.08"
+],
+"section": "information-theory",
+"slug": "arithmetic-coding-lempel-ziv-universal-source-coding",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Arithmetic Coding and Lempel-Ziv Universal Source Coding"
+},
+"46.02.05": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "02-source-coding",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.02.05",
+"prereqs": [
+"46.02.02",
+"44.02.01"
+],
+"section": "information-theory",
+"slug": "rate-distortion-theory-r-d-shannon-lossy-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rate-Distortion Theory: R(D) and Shannon's Lossy Source Coding Theorem"
+},
+"46.02.06": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "02-source-coding",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.02.06",
+"prereqs": [
+"46.02.01",
+"46.01.02",
+"37.07.02"
+],
+"section": "information-theory",
+"slug": "method-of-types-sanov-theorem-it-formulation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Method of Types and Sanov's Theorem (IT formulation)"
+},
+"46.03.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.01",
+"prereqs": [
+"46.01.01",
+"37.01.01"
+],
+"section": "information-theory",
+"slug": "discrete-memoryless-channels-mutual-info-capacity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Discrete Memoryless Channels, Mutual Information Maximization, and Channel Capacity"
+},
+"46.03.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.02",
+"prereqs": [
+"46.03.01",
+"46.02.01"
+],
+"section": "information-theory",
+"slug": "shannon-noisy-channel-coding-theorem-achievability",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Shannon's Noisy Channel Coding Theorem: Achievability via Random Coding"
+},
+"46.03.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "03-channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.03",
+"prereqs": [
+"46.03.02",
+"46.01.01"
+],
+"section": "information-theory",
+"slug": "fano-inequality-converse-channel-coding",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fano's Inequality and the Converse to the Channel Coding Theorem"
+},
+"46.03.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "03-channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.04",
+"prereqs": [
+"46.03.01",
+"46.03.03"
+],
+"section": "information-theory",
+"slug": "binary-symmetric-binary-erasure-channel-capacity-sphere-packing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Binary Symmetric Channel and Binary Erasure Channel: Capacity and Sphere-Packing"
+},
+"46.03.05": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "03-channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.05",
+"prereqs": [
+"46.03.01",
+"46.01.04"
+],
+"section": "information-theory",
+"slug": "gaussian-channel-capacity-bandwidth-water-filling",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Gaussian Channel: Capacity, Bandwidth, and Water-Filling"
+},
+"46.03.06": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.06",
+"prereqs": [
+"46.03.02",
+"46.03.03"
+],
+"section": "information-theory",
+"slug": "feedback-does-not-increase-capacity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Feedback Does Not Increase Capacity"
+},
+"46.03.07": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "channel-capacity",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.03.07",
+"prereqs": [
+"46.02.02",
+"46.03.02"
+],
+"section": "information-theory",
+"slug": "joint-source-channel-coding-separation-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Joint Source-Channel Coding and the Separation Theorem"
+},
+"46.04.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-statistics",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.04.01",
+"prereqs": [
+"46.01.01",
+"46.01.02",
+"45.02.01"
+],
+"section": "information-theory",
+"slug": "hypothesis-testing-stein-lemma-kl-error-exponent",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hypothesis Testing and Stein's Lemma: The KL Divergence as the Error Exponent"
+},
+"46.04.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "information-statistics",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.04.02",
+"prereqs": [
+"46.04.01",
+"46.01.02"
+],
+"section": "information-theory",
+"slug": "chernoff-information-symmetric-chernoff-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Chernoff Information and the Symmetric Chernoff Bound"
+},
+"46.04.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "04-information-statistics",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.04.03",
+"prereqs": [
+"46.04.01",
+"46.02.06",
+"37.07.02"
+],
+"section": "information-theory",
+"slug": "method-of-types-large-deviations-empirical-distributions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Method of Types: Large Deviations for Empirical Distributions (IT perspective)"
+},
+"46.04.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "04-information-statistics",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.04.04",
+"prereqs": [
+"46.04.01",
+"46.01.02",
+"44.06.01"
+],
+"section": "information-theory",
+"slug": "i-projection-pythagorean-identity-iterative-proportional-fitting",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The I-Projection, Pythagorean Identity, and Iterative Proportional Fitting (Blahut-Arimoto)"
+},
+"46.05.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "side-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.05.01",
+"prereqs": [
+"46.02.02",
+"46.01.02"
+],
+"section": "information-theory",
+"slug": "slepian-wolf-distributed-lossless-compression",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Slepian-Wolf Coding: Distributed Lossless Compression"
+},
+"46.05.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "side-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.05.02",
+"prereqs": [
+"46.05.01",
+"46.02.05"
+],
+"section": "information-theory",
+"slug": "wyner-ziv-rate-distortion-side-information-decoder",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Wyner-Ziv Coding: Rate-Distortion With Side Information at the Decoder"
+},
+"46.05.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "side-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.05.03",
+"prereqs": [
+"46.05.01",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "gelfand-pinsker-costa-dirty-paper-coding",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gelfand-Pinsker and Costa's Dirty-Paper Coding"
+},
+"46.05.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "side-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.05.04",
+"prereqs": [
+"46.05.01",
+"46.01.02"
+],
+"section": "information-theory",
+"slug": "common-information-wyner-gacs-korner",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Common Information: Wyner's and Gacs-Korner Definitions"
+},
+"46.06.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "network-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.06.01",
+"prereqs": [
+"46.03.02",
+"46.01.02"
+],
+"section": "information-theory",
+"slug": "multiple-access-channel-achievable-rates-superposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Multiple-Access Channel: Achievable Rates, Superposition, and the Capacity Region"
+},
+"46.06.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "network-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.06.02",
+"prereqs": [
+"46.06.01",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "broadcast-channel-degraded-marton-inner-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Broadcast Channel: Degraded Broadcast Capacity and Marton's Inner Bound"
+},
+"46.06.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "network-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.06.03",
+"prereqs": [
+"46.06.01",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "relay-channel-decode-forward-compress-forward-cut-set",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Relay Channel: Decode-and-Forward, Compress-and-Forward, and the Cut-Set Bound"
+},
+"46.06.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "network-information",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.06.04",
+"prereqs": [
+"46.06.01",
+"46.03.05"
+],
+"section": "information-theory",
+"slug": "interference-channel-han-kobayashi-gaussian",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Interference Channel: Han-Kobayashi Bound and Gaussian Interference"
+},
+"46.07.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006",
+"macwilliams-sloane-1977"
+],
+"chapter": "algebraic-coding-advanced",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.07.01",
+"prereqs": [
+"46.01.01",
+"40.06.06",
+"01.01.01"
+],
+"section": "information-theory",
+"slug": "weight-enumerators-macwilliams-lp-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Weight Enumerators, the MacWilliams Identity, and the Linear-Programming Bound"
+},
+"46.07.02": {
+"area": "math",
+"books": [
+"macwilliams-sloane-1977"
+],
+"chapter": "algebraic-coding-advanced",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.07.02",
+"prereqs": [
+"46.07.01",
+"04.01.01"
+],
+"section": "information-theory",
+"slug": "algebraic-geometry-codes-goppa-tvz-bound",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Algebraic Geometry Codes: The Goppa Construction and the TVZ Bound"
+},
+"46.07.03": {
+"area": "math",
+"books": [
+"macwilliams-sloane-1977"
+],
+"chapter": "07-algebraic-coding-advanced",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.07.03",
+"prereqs": [
+"46.07.01",
+"40.06.08"
+],
+"section": "information-theory",
+"slug": "list-decoding-sudan-guruswami-sudan-reed-solomon",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "List Decoding: The Sudan and Guruswami-Sudan Algorithms for Reed-Solomon Codes"
+},
+"46.07.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "07-algebraic-coding-advanced",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.07.04",
+"prereqs": [
+"46.07.01",
+"40.04.01"
+],
+"section": "information-theory",
+"slug": "expander-codes-ldpc-bipartite-sipser-spielman-linear-time",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Expander Codes, LDPC Bipartite Graphs, and Sipser-Spielman Linear-Time Decoding"
+},
+"46.08.01": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "modern-codes",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.08.01",
+"prereqs": [
+"46.01.01",
+"40.06.06",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "ldpc-tanner-graphs-belief-propagation-density-evolution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "LDPC Codes, Tanner Graphs, Belief Propagation, and Density Evolution Analysis"
+},
+"46.08.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "modern-codes",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.08.02",
+"prereqs": [
+"46.08.01",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "turbo-codes-parallel-concatenated-iterative-decoding",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Turbo Codes: Parallel Concatenated Convolutional Codes and Iterative Decoding"
+},
+"46.08.03": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "08-modern-codes",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.08.03",
+"prereqs": [
+"46.08.01",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "polar-codes-arikan-channel-polarization-successive-cancellation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Polar Codes: Arikan's Channel Polarization Phenomenon and Successive Cancellation"
+},
+"46.08.04": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "08-modern-codes",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.08.04",
+"prereqs": [
+"46.08.01",
+"46.08.03",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "capacity-achieving-code-families-unified-view",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Capacity-Achieving Code Families: A Unified View Through Polarization and LDPC"
+},
+"47.01.01": {
+"area": "other",
+"books": [
+"sipser-2013"
+],
+"chapter": "formal-languages-automata",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.01.01",
+"prereqs": [
+"25.03.01",
+"37.01.01"
+],
+"section": "theoretical-cs",
+"slug": "deterministic-finite-automata-states-transitions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Deterministic Finite Automata: States, Transitions, and Accepted Languages"
+},
+"47.01.02": {
+"area": "other",
+"books": [
+"sipser-2013"
+],
+"chapter": "formal-languages-automata",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.01.02",
+"prereqs": [
+"47.01.01"
+],
+"section": "theoretical-cs",
+"slug": "nondeterministic-finite-automata-subset-construction",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nondeterministic Finite Automata and the Subset Construction"
+},
+"47.01.03": {
+"area": "other",
+"books": [
+"sipser-2013"
+],
+"chapter": "formal-languages-automata",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.01.03",
+"prereqs": [
+"47.01.01"
+],
+"section": "theoretical-cs",
+"slug": "regular-expressions-kleene-rabin-scott",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Regular Expressions and the Kleene-Rabin-Scott Theorem"
+},
+"47.01.04": {
+"area": "other",
+"books": [
+"sipser-2013"
+],
+"chapter": "formal-languages-automata",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.01.04",
+"prereqs": [
+"47.01.01",
+"47.01.02"
+],
+"section": "theoretical-cs",
+"slug": "pumping-lemma-regular-non-regular",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Pumping Lemma for Regular Languages: Proving Non-Regularity"
+},
+"47.01.05": {
+"area": "other",
+"books": [
+"sipser-2013"
+],
+"chapter": "formal-languages-automata",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.01.05",
+"prereqs": [
+"47.01.01"
+],
+"section": "theoretical-cs",
+"slug": "context-free-grammars-pushdown-automata",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Context-Free Grammars, Parse Trees, and Pushdown Automata"
+},
+"47.01.06": {
+"area": "other",
+"books": [
+"sipser-2013"
+],
+"chapter": "formal-languages-automata",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.01.06",
+"prereqs": [
+"47.01.05"
+],
+"section": "theoretical-cs",
+"slug": "pumping-lemma-cfl-cyk-parsing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Pumping Lemma for Context-Free Languages and CYK Parsing"
+},
+"47.02.01": {
+"area": "other",
+"books": [
+"sipser-2013",
+"arora-barak-2009"
+],
+"chapter": "complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.01",
+"prereqs": [
+"42.04.01",
+"25.03.01"
+],
+"section": "theoretical-cs",
+"slug": "time-complexity-p-np-polynomial-reductions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Time Complexity, P, NP, and Polynomial-Time Reductions"
+},
+"47.02.02": {
+"area": "other",
+"books": [
+"sipser-2013",
+"arora-barak-2009"
+],
+"chapter": "complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.02",
+"prereqs": [
+"47.02.01",
+"42.04.01"
+],
+"section": "theoretical-cs",
+"slug": "np-completeness-cook-levin",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "NP-Completeness and the Cook-Levin Theorem"
+},
+"47.02.03": {
+"area": "other",
+"books": [
+"sipser-2013",
+"clrs-2022"
+],
+"chapter": "complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.03",
+"prereqs": [
+"47.02.02"
+],
+"section": "theoretical-cs",
+"slug": "classic-np-complete-problems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Classic NP-Complete Problems: SAT, 3SAT, Clique, Vertex Cover, and Hamiltonian Cycle"
+},
+"47.02.04": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.04",
+"prereqs": [
+"47.02.02"
+],
+"section": "theoretical-cs",
+"slug": "polynomial-hierarchy-oracles",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Polynomial Hierarchy, Oracle Machines, and Alternating Quantifiers"
+},
+"47.02.05": {
+"area": "other",
+"books": [
+"sipser-2013",
+"arora-barak-2009"
+],
+"chapter": "02-complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.05",
+"prereqs": [
+"47.02.01",
+"42.04.01"
+],
+"section": "theoretical-cs",
+"slug": "space-complexity-pspace-savitch",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Space Complexity: PSPACE, Savitch's Theorem, and PSPACE-Completeness"
+},
+"47.02.06": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "02-complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.06",
+"prereqs": [
+"47.02.05"
+],
+"section": "theoretical-cs",
+"slug": "l-nl-immerman-szelepcsenyi",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "L, NL, and the Immerman-Szelepcsenyi Theorem"
+},
+"47.02.07": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "02-complexity-fundamentals",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.02.07",
+"prereqs": [
+"47.02.02",
+"37.01.01"
+],
+"section": "theoretical-cs",
+"slug": "sharp-p-counting-permanent-toda",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "#P, Counting, the Permanent, and Toda's Theorem"
+},
+"47.03.01": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "advanced-complexity",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.03.01",
+"prereqs": [
+"47.02.01",
+"37.01.01"
+],
+"section": "theoretical-cs",
+"slug": "randomized-complexity-bpp-rp-zpp",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Randomized Complexity: BPP, RP, ZPP, and the Schwartz-Zippel Lemma"
+},
+"47.03.02": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "advanced-complexity",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.03.02",
+"prereqs": [
+"47.02.01",
+"47.02.02"
+],
+"section": "theoretical-cs",
+"slug": "circuit-complexity-p-poly-karp-lipton",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Circuit Complexity: P/poly and the Karp-Lipton Theorem"
+},
+"47.03.03": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "advanced-complexity",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.03.03",
+"prereqs": [
+"47.03.02"
+],
+"section": "theoretical-cs",
+"slug": "ac0-tc0-parity-lower-bounds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "AC0 and TC0: Parity Lower Bounds, Threshold Gates, and Circuit Separations"
+},
+"47.03.04": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "03-advanced-complexity",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.03.04",
+"prereqs": [
+"47.02.05",
+"47.03.01"
+],
+"section": "theoretical-cs",
+"slug": "interactive-proofs-ip-pspace",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Interactive Proofs: IP = PSPACE"
+},
+"47.03.05": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "advanced-complexity",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.03.05",
+"prereqs": [
+"47.03.04",
+"47.02.02"
+],
+"section": "theoretical-cs",
+"slug": "pcp-theorem-hardness-approximation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The PCP Theorem: Probabilistically Checkable Proofs and Hardness of Approximation"
+},
+"47.03.06": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "03-advanced-complexity",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.03.06",
+"prereqs": [
+"47.03.05",
+"47.02.03"
+],
+"section": "theoretical-cs",
+"slug": "hardness-approximation-max-3sat-vertex-cover",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hardness of Approximation: Inapproximability of MAX-3SAT and Vertex Cover"
+},
+"47.04.01": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.01",
+"prereqs": [
+"25.03.01",
+"01.01.01"
+],
+"section": "theoretical-cs",
+"slug": "amortized-analysis-aggregate-accounting-potential",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Amortized Analysis: Aggregate, Accounting, and Potential-Function Methods"
+},
+"47.04.02": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.02",
+"prereqs": [
+"47.04.01"
+],
+"section": "theoretical-cs",
+"slug": "self-balancing-trees-red-black",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Self-Balancing Trees: Red-Black Trees"
+},
+"47.04.03": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.03",
+"prereqs": [
+"47.04.01",
+"40.04.01"
+],
+"section": "theoretical-cs",
+"slug": "network-flow-ford-fulkerson-max-flow-min-cut",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Network Flow: Ford-Fulkerson, Augmenting Paths, and the Max-Flow Min-Cut Theorem"
+},
+"47.04.04": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.04",
+"prereqs": [
+"47.04.03",
+"40.04.01"
+],
+"section": "theoretical-cs",
+"slug": "bipartite-matching-hall-hungarian",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bipartite Matching: Hall's Theorem, Augmenting Paths, and the Hungarian Algorithm"
+},
+"47.04.05": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.05",
+"prereqs": [
+"47.04.01"
+],
+"section": "theoretical-cs",
+"slug": "all-pairs-shortest-paths-floyd-johnson",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "All-Pairs Shortest Paths: Floyd-Warshall and Johnson's Algorithm"
+},
+"47.04.06": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "04-algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.06",
+"prereqs": [
+"47.04.01",
+"40.04.01"
+],
+"section": "theoretical-cs",
+"slug": "minimum-spanning-trees-kruskal-prim",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Minimum Spanning Trees: Kruskal's and Prim's Algorithms"
+},
+"47.04.07": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.07",
+"prereqs": [
+"47.04.01",
+"47.01.01"
+],
+"section": "theoretical-cs",
+"slug": "string-algorithms-kmp-suffix-aho-corasick",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "String Algorithms: KMP, Suffix Arrays, and Aho-Corasick"
+},
+"47.04.08": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "04-algorithms-analysis",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.04.08",
+"prereqs": [
+"47.04.01",
+"47.02.03"
+],
+"section": "theoretical-cs",
+"slug": "approximation-algorithms-vertex-cover-tsp-set-cover",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Approximation Algorithms: Vertex Cover, TSP, and Set Cover"
+},
+"47.05.01": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "randomized-algorithms",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.05.01",
+"prereqs": [
+"37.01.01",
+"46.01.02"
+],
+"section": "theoretical-cs",
+"slug": "universal-hashing-perfect-hashing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Universal Hashing, Perfect Hashing, and the FKS Construction"
+},
+"47.05.02": {
+"area": "other",
+"books": [
+"clrs-2022"
+],
+"chapter": "randomized-algorithms",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.05.02",
+"prereqs": [
+"47.05.01"
+],
+"section": "theoretical-cs",
+"slug": "randomized-algorithms-quicksort-skip-lists-treaps",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Randomized Algorithms: Quicksort, Skip Lists, and Treaps"
+},
+"47.05.03": {
+"area": "other",
+"books": [
+"clrs-2022",
+"arora-barak-2009"
+],
+"chapter": "randomized-algorithms",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.05.03",
+"prereqs": [
+"47.05.01",
+"21.01.04"
+],
+"section": "theoretical-cs",
+"slug": "miller-rabin-solovay-strassen-primality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Miller-Rabin Primality Testing and the Solovay-Strassen Test"
+},
+"47.05.04": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "05-randomized-algorithms",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.05.04",
+"prereqs": [
+"47.05.01"
+],
+"section": "theoretical-cs",
+"slug": "randomized-approximation-fpras-counting",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "FPRAS for Counting Problems: DNF Counting and the Permanent"
+},
+"47.05.05": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "05-randomized-algorithms",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.05.05",
+"prereqs": [
+"47.05.01"
+],
+"section": "theoretical-cs",
+"slug": "derandomization-pairwise-independent-conditional-expectations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Derandomization: Pairwise Independence and the Method of Conditional Expectations"
+},
+"47.06.01": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "06-cryptographic-foundations",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.06.01",
+"prereqs": [
+"47.02.01"
+],
+"section": "theoretical-cs",
+"slug": "one-way-functions-pseudorandom-generators",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "One-Way Functions and Pseudorandom Generators"
+},
+"47.06.02": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "06-cryptographic-foundations",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.06.02",
+"prereqs": [
+"47.06.01",
+"21.01.04",
+"21.01.01"
+],
+"section": "theoretical-cs",
+"slug": "public-key-cryptography-rsa-discrete-log",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Public-Key Cryptography: RSA and the Discrete Logarithm"
+},
+"47.06.03": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "06-cryptographic-foundations",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.06.03",
+"prereqs": [
+"47.06.01"
+],
+"section": "theoretical-cs",
+"slug": "zero-knowledge-proofs-interactive-protocols",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Zero-Knowledge Proofs: Interactive Protocols and Proof Systems"
+},
+"47.06.04": {
+"area": "other",
+"books": [
+"arora-barak-2009"
+],
+"chapter": "06-cryptographic-foundations",
+"curriculum": "theoretical-cs",
+"field": "theoretical-cs",
+"fieldLabel": "Theoretical Computer Science",
+"fieldOrder": 18,
+"id": "47.06.04",
+"prereqs": [
+"47.06.02"
+],
+"section": "theoretical-cs",
+"slug": "digital-signatures-collision-resistant-hash",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Digital Signatures and Collision-Resistant Hash Functions"
 }
 }
