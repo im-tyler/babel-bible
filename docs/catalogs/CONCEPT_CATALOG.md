@@ -18845,15 +18845,16 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.fluctuations-and-noise-the-fluctuation-dissipation-theorem-and-nyquist-s-formula
+### stat-mech-physics.fluctuations-noise-fluctuation-dissipation-nyquist
 
 - **title**: Fluctuations and noise: the fluctuation-dissipation theorem and Nyquist's formula
-- **prerequisites**: *(to be determined)*
+- **unit**: `11.02.04`
+- **prerequisites**: `stat-mech-physics.maxwell-boltzmann-distribution`, `stat-mech-physics.canonical-ensemble`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
+  - master: Kardar 2007 Statistical Physics of Particles Ch. 9
+  - intermediate: Reif 1965 Fundamentals Ch. 15
+  - beginner: Khan Academy "Brownian motion"
+- **notes**: Langevin equation, Einstein relation, fluctuation-dissipation theorem, Nyquist/Johnson noise.
 ### stat-mech-physics.grand-canonical-ensemble-chemical-potential-fugacity-and-variable-particle-number
 
 - **title**: Grand canonical ensemble: chemical potential, fugacity, and variable particle number
@@ -18863,24 +18864,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.equivalence-of-ensembles-in-the-thermodynamic-limit-legendre-structure-and-equivalence-conditions
+### stat-mech-physics.equivalence-ensembles-thermodynamic-limit-legendre
 
-- **title**: Equivalence of ensembles in the thermodynamic limit: Legendre structure and equivalence conditions
-- **prerequisites**: *(to be determined)*
+- **title**: Equivalence of ensembles in the thermodynamic limit
+- **unit**: `11.03.03`
+- **prerequisites**: `stat-mech-physics.microcanonical-ensemble`, `stat-mech-physics.grand-canonical-ensemble`, `stat-mech-physics.canonical-ensemble`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.isothermal-isobaric-ensemble-gibbs-free-energy-as-the-natural-potential
+  - master: Kardar 2007 Statistical Physics of Particles Ch. 4
+  - intermediate: Pathria-Beale 2011 Statistical Mechanics Ch. 3-4
+  - beginner: Khan Academy "statistical mechanics"
+- **notes**: Thermodynamic limit, Legendre transforms connecting ensembles, equivalence conditions.
+### stat-mech-physics.isothermal-isobaric-npt-ensemble
 
 - **title**: Isothermal-isobaric (NPT) ensemble: Gibbs free energy as the natural potential
-- **prerequisites**: *(to be determined)*
+- **unit**: `11.03.04`
+- **prerequisites**: `stat-mech-physics.microcanonical-ensemble`, `stat-mech-physics.canonical-ensemble`, `stat-mech-physics.thermodynamic-potentials-legendre`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
+  - master: Callen 1985 Thermodynamics Ch. 6; Pathria-Beale 2011 Ch. 3
+  - intermediate: Reif 1965 Fundamentals Ch. 6
+  - beginner: Khan Academy "Gibbs free energy"
+- **notes**: NPT partition function, Gibbs free energy G = -kT ln Delta, volume fluctuations, barostats.
 ### stat-mech-physics.factorization-of-the-partition-function-independent-subsystems-and-the-grand-potential
 
 - **title**: Factorization of the partition function: independent subsystems and the grand potential
@@ -18899,9 +18902,16 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.harmonic-oscillator-in-a-thermal-bath-heat-capacity-and-the-einstein-solid
+### stat-mech-physics.harmonic-oscillator-thermal-bath-heat-capacity-einstein
 
 - **title**: Harmonic oscillator in a thermal bath: heat capacity and the Einstein solid
+- **unit**: `11.04.05`
+- **prerequisites**: `stat-mech-physics.canonical-ensemble`, `stat-mech-physics.partition-function-factorization`
+- **tier_anchors**:
+  - master: Pathria-Beale 2011 Statistical Mechanics Ch. 3; Kittel-Kroemer 1980 Ch. 4
+  - intermediate: Reif 1965 Fundamentals Ch. 7
+  - beginner: Khan Academy "specific heat"
+- **notes**: Quantum HO partition function, Einstein solid model, heat capacity at low T.
 - **prerequisites**: *(to be determined)*
 - **tier_anchors**:
   - master: *(deferred)*
@@ -18926,51 +18936,66 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.fluctuations-beyond-mean-field-ginzburg-criterion-and-the-ginzburg-landau-theory
+### stat-mech-physics.fluctuations-ginzburg-criterion-ginzburg-landau
 
-- **title**: Fluctuations beyond mean field: Ginzburg criterion and the Ginzburg-Landau theory
-- **prerequisites**: *(to be determined)*
+- **title**: Fluctuations beyond mean field: Ginzburg criterion and Ginzburg-Landau theory
+- **unit**: `11.06.04`
+- **prerequisites**: `stat-mech-physics.mean-field-theory-van-der-waals-curie-weiss`, `stat-mech-physics.landau-theory-order-parameter-symmetry-breaking`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.the-transfer-matrix-method-exact-solution-of-the-1d-ising-model
+  - master: Kardar 2007 Statistical Physics of Fields Ch. 1-3
+  - intermediate: Pathria-Beale 2011 Statistical Mechanics Ch. 12
+  - beginner: Khan Academy "phase transitions"
+- **notes**: GL functional, correlation length, Ginzburg criterion, upper critical dimension d=4.
+### stat-mech-physics.scaling-hypothesis-widom-kadanoff-data-collapse
 
-- **title**: The transfer matrix method: exact solution of the 1D Ising model
-- **prerequisites**: *(to be determined)*
+- **title**: Scaling hypothesis: Widom scaling, Kadanoff block spins, and data collapse
+- **unit**: `11.06.05`
+- **prerequisites**: `stat-mech-physics.mean-field-theory-van-der-waals-curie-weiss`, `stat-mech-physics.landau-theory-order-parameter-symmetry-breaking`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.kosterlitz-thouless-transition-topological-phase-transitions-in-2d-systems
+  - master: Kardar 2007 Statistical Physics of Fields Ch. 4; Goldenfeld 1992 Lectures on Phase Transitions
+  - intermediate: Pathria-Beale 2011 Statistical Mechanics Ch. 12
+  - beginner: Khan Academy "phase transitions"
+- **notes**: Widom scaling, Kadanoff block spins, scaling relations, hyperscaling, data collapse.
+### stat-mech-physics.transfer-matrix-method-exact-1d-ising
 
-- **title**: Kosterlitz-Thouless transition: topological phase transitions in 2D systems
-- **prerequisites**: *(to be determined)*
+- **title**: Transfer matrix method: exact solution of the 1D Ising model and Onsager's legacy
+- **unit**: `11.06.06`
+- **prerequisites**: `stat-mech-physics.ising-model-exact-results-duality`, `stat-mech-physics.canonical-ensemble`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.block-spin-renormalization-wilson-s-real-space-rg-and-fixed-points
+  - master: Baxter 1982 Exactly Solved Models Ch. 2; Kardar 2007 Statistical Physics of Fields Ch. 3
+  - intermediate: Pathria-Beale 2011 Statistical Mechanics Ch. 13
+  - beginner: Khan Academy "magnetic materials"
+- **notes**: Transfer matrix for 1D Ising, Onsager 2D Ising sketch, exact critical exponents, quantum-classical correspondence.
+### stat-mech-physics.kosterlitz-thouless-topological-phase-transitions-2d
 
-- **title**: Block-spin renormalization: Wilson's real-space RG and fixed points
-- **prerequisites**: *(to be determined)*
+- **title**: Kosterlitz-Thouless transition: topological phase transitions in two dimensions
+- **unit**: `11.07.04`
+- **prerequisites**: `stat-mech-physics.fluctuations-ginzburg-criterion-ginzburg-landau`, `stat-mech-physics.introduction-renormalization-group`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### stat-mech-physics.the-epsilon-expansion-rg-flows-near-four-dimensions-and-critical-exponents
+  - master: Kosterlitz-Thouless 1973; Chaikin-Lubensky 1995 Ch. 6
+  - intermediate: Kardar 2007 Statistical Physics of Fields Ch. 8
+  - beginner: Susskind 2014 Statistical Mechanics Lecture 11
+- **notes**: XY model, vortex unbinding, RG flow, essential singularity, Nelson-Kosterlitz jump.
+### stat-mech-physics.block-spin-renormalization-wilson-real-space-rg
 
-- **title**: The epsilon expansion: RG flows near four dimensions and critical exponents
-- **prerequisites**: *(to be determined)*
+- **title**: Block-spin renormalization: Wilson's real-space RG, fixed points, and relevant operators
+- **unit**: `11.07.03`
+- **prerequisites**: `stat-mech-physics.scaling-hypothesis-widom-kadanoff-data-collapse`, `stat-mech-physics.landau-theory-order-parameter-symmetry-breaking`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
+  - master: Wilson-Kogut 1974; Goldenfeld 1992 Lectures on Phase Transitions
+  - intermediate: Kardar 2007 Statistical Physics of Fields Ch. 5
+  - beginner: Khan Academy "phase transitions"
+- **notes**: Wilson RG transformation, fixed points, relevant/irrelevant operators, Wilson-Fisher, epsilon expansion.
+### stat-mech-physics.epsilon-expansion-rg-flows-critical-exponents-conformal-field-theory
+
+- **title**: The epsilon expansion, RG flows near four dimensions, critical exponents, and conformal field theory
+- **unit**: `11.07.05`
+- **prerequisites**: `stat-mech-physics.block-spin-renormalization-wilson-real-space-rg`, `stat-mech-physics.scaling-hypothesis-widom-kadanoff-data-collapse`
+- **tier_anchors**:
+  - master: Wilson-Kogut 1974; Di Francesco 1997 Conformal Field Theory
+  - intermediate: Kardar 2007 Statistical Physics of Fields Ch. 5-6
+  - beginner: Schroeder 2000 An Introduction to Thermal Physics Ch. 8
+- **notes**: Epsilon expansion, Wilson-Fisher fixed point, one-loop exponents, CFT at criticality, minimal models.
 ### stat-mech-physics.universality-classes-classification-of-critical-behavior-and-the-scaling-hypothesis
 
 - **title**: Universality classes: classification of critical behavior and the scaling hypothesis
