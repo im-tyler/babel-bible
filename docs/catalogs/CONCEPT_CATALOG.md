@@ -18706,42 +18706,46 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
-### em-sr.jefimenko-s-equations-exact-retarded-solutions-for-e-and-b-given-arbitrary-sources
+### em-sr.jefimenko-equations-exact-retarded-solutions
 
-- **title**: Jefimenko's equations: exact retarded solutions for E and B given arbitrary sources
-- **prerequisites**: *(to be determined)*
+- **title**: Jefimenko's equations: exact retarded solutions for E and B
+- **unit**: `10.08.02`
+- **prerequisites**: `em-sr.greens-function-retarded-advanced-feynman`, `em-sr.maxwell-differential-forms`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### em-sr.diffraction-kirchhoff-integral-fraunhofer-and-fresnel-regimes
+  - master: Jackson 1999 Classical Electrodynamics 3e §6.5-6.6
+  - intermediate: Griffiths 2017 Introduction to Electrodynamics 4e §10.2.2
+  - beginner: Khan Academy "retarded potentials"
+- **notes**: Exact retarded solutions for E and B given arbitrary source distributions. Causality and finite propagation speed.
+### em-sr.diffraction-kirchhoff-fraunhofer-fresnel
 
 - **title**: Diffraction: Kirchhoff integral, Fraunhofer and Fresnel regimes
-- **prerequisites**: *(to be determined)*
+- **unit**: `10.08.03`
+- **prerequisites**: `em-sr.em-waves-wave-equation`, `em-sr.greens-function-retarded-advanced-feynman`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### em-sr.geometrical-optics-as-the-short-wavelength-limit-eikonal-equation-and-ray-tracing
+  - master: Jackson 1999 Classical Electrodynamics 3e §10.5-10.7
+  - intermediate: Griffiths 2017 Introduction to Electrodynamics 4e §10.2-10.3
+  - beginner: Khan Academy "diffraction"
+- **notes**: Scalar and vector diffraction theory, Fraunhofer far-field, Fresnel near-field, Fourier optics.
+### em-sr.geometrical-optics-short-wavelength-eikonal-ray-tracing
 
 - **title**: Geometrical optics as the short-wavelength limit: eikonal equation and ray tracing
-- **prerequisites**: *(to be determined)*
+- **unit**: `10.08.04`
+- **prerequisites**: `em-sr.em-waves-wave-equation`, `em-sr.diffraction-kirchhoff-fraunhofer-fresnel`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
-### em-sr.macroscopic-maxwell-equations-linear-response-kramers-kronig-relations-and-causality
+  - master: Jackson 1999 Classical Electrodynamics 3e §3.1-3.3
+  - intermediate: Griffiths 2017 Introduction to Electrodynamics 4e §10.2
+  - beginner: Khan Academy "geometric optics"
+- **notes**: Eikonal equation, ray tracing, Fermat's principle, Snell's law, lens maker's equation, ABCD matrices.
+### em-sr.macroscopic-maxwell-linear-response-kramers-kronig
 
 - **title**: Macroscopic Maxwell equations: linear response, Kramers-Kronig relations, and causality
-- **prerequisites**: *(to be determined)*
+- **unit**: `10.08.05`
+- **prerequisites**: `em-sr.maxwell-differential-forms`, `em-sr.plane-waves-matter-dispersion`
 - **tier_anchors**:
-  - master: *(deferred)*
-  - intermediate: *(deferred)*
-  - beginner: *(deferred)*
-- **notes**: Stub — awaiting full catalog entry.
+  - master: Jackson 1999 Classical Electrodynamics 3e §7.10-7.11
+  - intermediate: Griffiths 2017 Introduction to Electrodynamics 4e §9.4-9.5
+  - beginner: Khan Academy "electromagnetic waves in matter"
+- **notes**: Frequency-dependent permittivity, Kramers-Kronig relations from causality, linear response theory.
 ### em-sr.for-ch02-gap-fills
 
 - **title**: — for ch02 gap-fills

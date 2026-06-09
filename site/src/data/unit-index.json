@@ -29777,6 +29777,110 @@
 ],
 "title": "Green's function method for the scalar and vector potentials: retarded, advanced, and Feynman propagators"
 },
+"10.08.02": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "advanced-electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.08.02",
+"prereqs": [
+"10.08.01",
+"10.04.01"
+],
+"section": "em-sr",
+"slug": "jefimenko-equations-exact-retarded-solutions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Jefimenko's Equations: Exact Retarded Solutions for E and B Given Arbitrary Sources"
+},
+"10.08.03": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "advanced-electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.08.03",
+"prereqs": [
+"10.04.02",
+"10.08.01"
+],
+"section": "em-sr",
+"slug": "diffraction-kirchhoff-fraunhofer-fresnel",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Diffraction: Kirchhoff Integral, Fraunhofer and Fresnel Regimes"
+},
+"10.08.04": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "advanced-electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.08.04",
+"prereqs": [
+"10.04.02",
+"10.08.03"
+],
+"section": "em-sr",
+"slug": "geometrical-optics-short-wavelength-eikonal-ray-tracing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Geometrical Optics as the Short-Wavelength Limit: Eikonal Equation and Ray Tracing"
+},
+"10.08.05": {
+"area": "physics",
+"books": [
+"griffiths-em-2017",
+"jackson-em-1999"
+],
+"chapter": "advanced-electrodynamics",
+"curriculum": "em-sr",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.08.05",
+"prereqs": [
+"10.04.01",
+"10.04.03"
+],
+"section": "em-sr",
+"slug": "macroscopic-maxwell-linear-response-kramers-kronig",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Macroscopic Maxwell Equations: Linear Response, Kramers-Kronig Relations, and Causality"
+},
 "11.01.01": {
 "area": "physics",
 "books": [],
