@@ -27981,8 +27981,8 @@
 "09.02.04": {
 "area": "physics",
 "books": [
-"goldstein-2002",
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "chapter": "lagrangian",
 "curriculum": "classical-mech",
@@ -27991,8 +27991,9 @@
 "fieldOrder": 20,
 "id": "09.02.04",
 "prereqs": [
+"09.02.01",
 "09.02.02",
-"01.01.12"
+"01.01.01"
 ],
 "section": "classical-mech",
 "slug": "small-oscillations-normal-modes-eigenvalue",
@@ -28002,7 +28003,7 @@
 "intermediate",
 "master"
 ],
-"title": "Small oscillations: normal modes and eigenvalue problem"
+"title": "Small Oscillations: Normal Modes and the Eigenvalue Problem for Coupled Oscillators"
 },
 "09.02.05": {
 "area": "physics",
@@ -28176,8 +28177,9 @@
 "09.03.05": {
 "area": "physics",
 "books": [
-"landau-lifshitz-mechanics",
-"goldstein-2002"
+"taylor-2005",
+"goldstein-2002",
+"landau-lifshitz-mechanics"
 ],
 "chapter": "symmetries-noether",
 "curriculum": "classical-mech",
@@ -28197,7 +28199,7 @@
 "intermediate",
 "master"
 ],
-"title": "Galilean symmetry group and ten integrals of motion"
+"title": "Galilean Symmetry Group and the Ten Integrals of Motion"
 },
 "09.04.01": {
 "area": "physics",
@@ -28288,8 +28290,9 @@
 "09.04.04": {
 "area": "physics",
 "books": [
+"taylor-2005",
 "goldstein-2002",
-"taylor-2005"
+"landau-lifshitz-mechanics"
 ],
 "chapter": "hamiltonian",
 "curriculum": "classical-mech",
@@ -28298,6 +28301,7 @@
 "fieldOrder": 20,
 "id": "09.04.04",
 "prereqs": [
+"09.04.01",
 "09.04.02",
 "09.04.03"
 ],
@@ -28309,7 +28313,7 @@
 "intermediate",
 "master"
 ],
-"title": "Liouville's theorem: incompressibility of phase-space flow"
+"title": "Liouville's Theorem and the Incompressibility of Phase-Space Flow"
 },
 "09.04.05": {
 "area": "physics",
@@ -28349,6 +28353,7 @@
 "fieldOrder": 20,
 "id": "09.04.06",
 "prereqs": [
+"09.04.01",
 "09.04.02",
 "09.06.01"
 ],
@@ -28360,7 +28365,7 @@
 "intermediate",
 "master"
 ],
-"title": "Hamiltonian perturbation theory: averaging and adiabatic invariants"
+"title": "Hamiltonian Perturbation Theory: Averaging and Adiabatic Invariants"
 },
 "09.04.07": {
 "area": "physics",
@@ -28518,9 +28523,8 @@
 "fieldOrder": 20,
 "id": "09.05.03",
 "prereqs": [
-"09.04.02",
 "09.05.01",
-"09.06.01"
+"09.04.03"
 ],
 "section": "classical-mech",
 "slug": "generating-functions-canonical-transformations",
@@ -28530,7 +28534,7 @@
 "intermediate",
 "master"
 ],
-"title": "Generating functions for canonical transformations: the four types (F1--F4)"
+"title": "Generating Functions for Canonical Transformations: Four Types (F1, F2, F3, F4)"
 },
 "09.05.04": {
 "area": "physics",
@@ -28545,9 +28549,8 @@
 "fieldOrder": 20,
 "id": "09.05.04",
 "prereqs": [
-"09.04.02",
 "09.05.01",
-"09.05.03"
+"09.02.01"
 ],
 "section": "classical-mech",
 "slug": "point-transformations-canonical-lifts",
@@ -28557,7 +28560,7 @@
 "intermediate",
 "master"
 ],
-"title": "Point transformations and their canonical lifts"
+"title": "Point Transformations and Their Canonical Lifts"
 },
 "09.05.05": {
 "area": "physics",
@@ -28652,9 +28655,8 @@
 "fieldOrder": 20,
 "id": "09.06.03",
 "prereqs": [
-"09.04.02",
-"09.05.01",
-"09.06.01"
+"09.06.01",
+"09.06.02"
 ],
 "section": "classical-mech",
 "slug": "completely-integrable-toda-lattice-kepler",
@@ -28664,7 +28666,7 @@
 "intermediate",
 "master"
 ],
-"title": "Completely integrable systems: the Toda lattice and Kepler revisited"
+"title": "Completely Integrable Systems: The Toda Lattice and the Kepler Problem Revisited"
 },
 "09.06.04": {
 "area": "physics",

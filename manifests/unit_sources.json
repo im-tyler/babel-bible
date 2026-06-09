@@ -8102,8 +8102,8 @@
 },
 "09.02.04": {
 "books": [
-"goldstein-2002",
-"taylor-2005"
+"taylor-2005",
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8157,8 +8157,9 @@
 },
 "09.03.05": {
 "books": [
-"landau-lifshitz-mechanics",
-"goldstein-2002"
+"taylor-2005",
+"goldstein-2002",
+"landau-lifshitz-mechanics"
 ],
 "curriculum": "classical-mech"
 },
@@ -8187,8 +8188,9 @@
 },
 "09.04.04": {
 "books": [
+"taylor-2005",
 "goldstein-2002",
-"taylor-2005"
+"landau-lifshitz-mechanics"
 ],
 "curriculum": "classical-mech"
 },
