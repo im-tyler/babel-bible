@@ -17818,6 +17818,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - beginner: TBD
 - **notes**: Auto-generated stub.
 
+### information-theory.convolutional-codes-trellis-viterbi-free-distance
+
+- **title**: Convolutional Codes: Trellis Structure, the Viterbi Algorithm, and Free Distance
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
+### information-theory.gambling-kelly-criterion-doubling-rate
+
+- **title**: Gambling, the Kelly Criterion, and the Doubling Rate: Entropy as Growth
+- **prerequisites**: (auto-stub)
+- **tier_anchors**:
+  - master: TBD
+  - intermediate: TBD
+  - beginner: TBD
+- **notes**: Auto-generated stub.
+
 ### theoretical-cs.deterministic-finite-automata-states-transitions
 
 - **title**: Deterministic Finite Automata: States, Transitions, and Accepted Languages

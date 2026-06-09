@@ -53211,6 +53211,57 @@
 ],
 "title": "Capacity-Achieving Code Families: A Unified View Through Polarization and LDPC"
 },
+"46.09.01": {
+"area": "math",
+"books": [
+"macwilliams-sloane-1977"
+],
+"chapter": "convolutional-classical",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.09.01",
+"prereqs": [
+"40.06.06",
+"46.03.01"
+],
+"section": "information-theory",
+"slug": "convolutional-codes-trellis-viterbi-free-distance",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Convolutional Codes: Trellis Structure, the Viterbi Algorithm, and Free Distance"
+},
+"46.09.02": {
+"area": "math",
+"books": [
+"cover-thomas-2006"
+],
+"chapter": "convolutional-classical",
+"curriculum": "information-theory",
+"field": "information-theory",
+"fieldLabel": "Information & Coding Theory",
+"fieldOrder": 17,
+"id": "46.09.02",
+"prereqs": [
+"46.01.01",
+"46.01.02",
+"37.02.01"
+],
+"section": "information-theory",
+"slug": "gambling-kelly-criterion-doubling-rate",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gambling, the Kelly Criterion, and the Doubling Rate: Entropy as Growth"
+},
 "47.01.01": {
 "area": "other",
 "books": [

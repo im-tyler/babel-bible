@@ -13875,6 +13875,18 @@
 ],
 "curriculum": "information-theory"
 },
+"46.09.01": {
+"books": [
+"macwilliams-sloane-1977"
+],
+"curriculum": "information-theory"
+},
+"46.09.02": {
+"books": [
+"cover-thomas-2006"
+],
+"curriculum": "information-theory"
+},
 "47.01.01": {
 "books": [
 "sipser-2013"
