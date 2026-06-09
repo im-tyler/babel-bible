@@ -20679,6 +20679,16 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - beginner: TBD
 - **notes**: Auto-generated stub.
 
+### classical-mech.lagrangian-perturbation-theory-secular-multiple-scales
+
+- **title**: Lagrangian perturbation theory: secular terms and the method of multiple scales
+- **prerequisites**: `classical-mech.action-principle-lagrangian-is-defined-here-all-ch02-new-units-build-on-it`, `classical-mech.small-oscillations-normal-modes-and-the-eigenvalue-problem-for-coupled-oscillators`
+- **tier_anchors**:
+  - master: Nayfeh, *Perturbation Methods* (1973), Ch. 3-4; Arnold, *Geometrical Methods in the Theory of ODEs*, 2nd ed. (1988), §13
+  - intermediate: Nayfeh, *Introduction to Perturbation Techniques* (1993), §3.1-3.5, §4.1-4.3; Bender & Orszag (1999), §7.6, §11.2-11.4
+  - beginner: Taylor, *Classical Mechanics* (2005), Ch. 12; Strogatz, *Nonlinear Dynamics and Chaos* (2015), §7.6
+- **notes**: Secular terms in naive perturbation expansions for weakly nonlinear oscillators. Lindstedt-Poincare frequency straining. Method of multiple scales (two-variable expansion). Amplitude equations and slow-flow dynamics. Duffing and van der Pol examples. Connection to averaging, normal forms, and renormalisation-group methods.
+
 ### classical-mech.classical-spin-so3-poisson-bracket-euler-rigid-body
 
 - **title**: Classical spin: SO(3) Poisson bracket and Euler's rigid body

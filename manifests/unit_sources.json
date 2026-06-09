@@ -8110,7 +8110,7 @@
 "09.02.05": {
 "books": [
 "taylor-2005",
-"landau-lifshitz-mechanics"
+"goldstein-2002"
 ],
 "curriculum": "classical-mech"
 },
@@ -8261,7 +8261,8 @@
 },
 "09.05.05": {
 "books": [
-"goldstein-2002"
+"goldstein-2002",
+"landau-lifshitz-mechanics"
 ],
 "curriculum": "classical-mech"
 },
@@ -8288,6 +8289,7 @@
 },
 "09.06.04": {
 "books": [
+"goldstein-2002",
 "landau-lifshitz-mechanics"
 ],
 "curriculum": "classical-mech"
@@ -8303,20 +8305,20 @@
 "09.07.02": {
 "books": [
 "landau-lifshitz-mechanics",
-"goldstein-2002"
+"taylor-2005"
 ],
 "curriculum": "classical-mech"
 },
 "09.07.03": {
 "books": [
-"landau-lifshitz-mechanics"
+"landau-lifshitz-mechanics",
+"taylor-2005"
 ],
 "curriculum": "classical-mech"
 },
 "09.07.04": {
 "books": [
-"landau-lifshitz-mechanics",
-"goldstein-2002"
+"landau-lifshitz-mechanics"
 ],
 "curriculum": "classical-mech"
 },
@@ -8328,6 +8330,7 @@
 },
 "09.08.02": {
 "books": [
+"taylor-2005",
 "goldstein-2002"
 ],
 "curriculum": "classical-mech"
