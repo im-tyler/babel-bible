@@ -26,7 +26,7 @@ plus the existing Codex units that *cite* the h-cobordism theorem by name
 (`03.06.17` exotic 7-spheres, `03.02.01` smooth manifold) determine the
 audit surface; the gap is the punch-list. This plan **coordinates with the
 Milnor *Morse Theory* (3.03) audit** (`plans/fasttrack/milnor-morse-theory.md`),
-which reserves the Morse-core slots `03.02.02`–`03.02.07` and a path-space
+which reserves the Morse-core slots `48.02.02`–`48.02.07` and a path-space
 slot in `03.12-homotopy/`. LHC *consumes* that Morse machinery and adds
 the cobordism-specific layer on top, so the LHC punch-list slots **above**
 the reserved Morse block to avoid collision.
@@ -143,13 +143,13 @@ as a load-bearing step (with `[ref: TODO_REF Smale 1962]`), and
 Neither has a prerequisite unit that states or proves it. The entire
 handle / surgery / Whitney-trick layer is absent, and the Morse-on-a-
 cobordism prerequisite (the Milnor *Morse Theory* audit's reserved
-`03.02.02`–`03.02.07` block) is itself **unproduced** — so LHC sits on
+`48.02.02`–`48.02.07` block) is itself **unproduced** — so LHC sits on
 two stacked gaps.
 
 | LHC topic (§) | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | Cobordism $(W; V_0, V_1)$ as a category (§1) | `03.06.12-unoriented-bordism-thoms-theorem`; `03.06.13-oriented-bordism-pontryagin-thom` | △ | Bordism is treated **homotopy-theoretically** (Thom spectra, Pontryagin–Thom, $\Omega^{SO}_*$) — the equivalence-relation/ring side. The **geometric cobordism-with-Morse-function** object LHC works with (handles, gradient flow, level sets) is absent. Different framing; no overlap on the handle calculus. |
-| Morse function on a cobordism; one handle per critical point (§1) | — (Morse block `03.02.02`–`03.02.07` reserved by the 3.03 audit, **unproduced**) | ✗ | **Gap, and double gap.** Requires the Milnor *Morse Theory* Part I units to exist first. Currently no Morse-function unit anywhere in Codex; `03.02.01` and `03.04.08` only *mention* Morse theory. |
+| Morse function on a cobordism; one handle per critical point (§1) | — (Morse block `48.02.02`–`48.02.07` reserved by the 3.03 audit, **unproduced**) | ✗ | **Gap, and double gap.** Requires the Milnor *Morse Theory* Part I units to exist first. Currently no Morse-function unit anywhere in Codex; `03.02.01` and `03.04.08` only *mention* Morse theory. |
 | Handle $D^\lambda \times D^{n-\lambda}$; core, cocore, attaching/belt sphere (§2) | — | ✗ | **Gap (foundational).** The basic object of the whole book. |
 | Surgery as passing an elementary cobordism (§2) | `05.12.04-lagrangian-and-legendrian-cobordism` (different); `03.07.25-donaldson-floer-surgery-exact-triangle` (different) | ✗ | **Gap.** Existing "surgery" hits are Lagrangian-cobordism and the Floer surgery exact triangle — neither is Milnor handle-surgery on a level set. |
 | Gradient-like vector field; ascending/descending spheres (§2) | partial in `03.04.08-variational-calculus` (gradient-flow remark only) | ✗ | **Gap.** Needed for the geometric handle picture. |
@@ -210,10 +210,10 @@ the most-*cited*-yet-*unanchored* results in the current corpus.
 ## §3 Gap punch-list (P3-lite — units to write or deepen, priority-ordered)
 
 Slotting convention. The Milnor *Morse Theory* (3.03) audit reserves
-`03.02.02`–`03.02.07` (Morse-core) and a path-space unit in
+`48.02.02`–`48.02.07` (Morse-core) and a path-space unit in
 `03.12-homotopy/`; those are LHC prerequisites and **must be produced by
 that audit first or jointly**. To avoid collision, the LHC-specific
-handle/cobordism units slot at **`03.02.20`+** (well clear of the
+handle/cobordism units slot at **`48.02.20`+** (well clear of the
 reserved Morse block, same `02-manifolds` chapter where the h-cobordism
 theorem belongs as a differential-topology result), the Whitney-trick
 unit shares that block, and the s-cobordism / Whitehead-torsion
@@ -223,7 +223,7 @@ at `03.08.20`. IDs verified non-colliding against
 
 ### Priority 1 — the handle calculus and the title theorem (LHC §§1–8 core)
 
-1. **`03.02.20` Handles, surgery, and the cobordism category.** [NEW]
+1. **`48.02.20` Handles, surgery, and the cobordism category.** [NEW]
    LHC §§1–2 anchor. Three-tier; ~2200 words. Beginner: building a
    surface/solid by gluing handles (the height-function-on-a-torus
    picture upgraded to attaching $1$- and $2$-handles). Intermediate:
@@ -234,19 +234,19 @@ at `03.08.20`. IDs verified non-colliding against
    as the trace of an elementary cobordism. Master: gradient-like vector
    fields, ascending/descending spheres, existence of Morse functions on
    a cobordism (relative to the boundary). **Prereq: the Morse-core block
-   `03.02.02`–`03.02.05` (3.03 audit). Foundational — unblocks the rest.**
+   `48.02.02`–`48.02.05` (3.03 audit). Foundational — unblocks the rest.**
 
-2. **`03.02.21` Rearrangement and self-indexing Morse functions.** [NEW]
+2. **`48.02.21` Rearrangement and self-indexing Morse functions.** [NEW]
    LHC §3 anchor. Three-tier; ~1800 words. Independence of attaching/belt
    spheres ⇒ handles can be reordered by index; existence of a
    self-indexing Morse function (index-$\lambda$ critical points on level
    $\lambda + 1/2$). Master: the handle-decomposition-as-filtration and
    the induced Morse–Smale free chain complex computing $H_*(W, V_0)$,
    with the boundary map given by intersection numbers of ascending and
-   descending spheres. **Prereq: `03.02.20`; cross-link to
+   descending spheres. **Prereq: `48.02.20`; cross-link to
    `03.12.13-cellular-homology`.**
 
-3. **`03.02.22` The Whitney trick and handle cancellation.** [NEW]
+3. **`48.02.22` The Whitney trick and handle cancellation.** [NEW]
    LHC §§4–5 anchor; **Whitney 1944** (*Ann. of Math.* 45,
    self-intersections) originator citation. Three-tier; ~2500 words (the
    longest in the punch-list — the technical heart). Beginner: why two
@@ -257,9 +257,9 @@ at `03.08.20`. IDs verified non-colliding against
    algebraic intersection $0$ are isotoped apart via an embedded **Whitney
    disc**, whose embeddability is exactly what **simple connectivity**
    buys; hence the strong cancellation theorem at intersection number
-   $\pm 1$. **Prereq: `03.02.20`, a transversality unit (item 7).**
+   $\pm 1$. **Prereq: `48.02.20`, a transversality unit (item 7).**
 
-4. **`03.02.23` The h-cobordism theorem.** [NEW]
+4. **`48.02.23` The h-cobordism theorem.** [NEW]
    LHC §§6–8 anchor; **Smale 1962** (*Ann. of Math.* 74, "On the
    structure of manifolds"; *Amer. J. Math.* 84) originator citation.
    Three-tier; ~2200 words. Intermediate: statement — simply connected
@@ -269,9 +269,9 @@ at `03.08.20`. IDs verified non-colliding against
    cancellation §6). Master: the full handle-trading argument and the
    "algebraically cancellable ⇒ geometrically cancellable" step. **This is
    the anchor unit that closes the citations in `03.06.17` and
-   `03.02.01`. Prereq: `03.02.21`, `03.02.22`.**
+   `03.02.01`. Prereq: `48.02.21`, `48.02.22`.**
 
-5. **`03.02.24` The generalised Poincaré conjecture in high dimensions.**
+5. **`48.02.24` The generalised Poincaré conjecture in high dimensions.**
    [NEW] LHC §8 anchor; Smale 1961 (*Ann. of Math.* 74, "Generalized
    Poincaré conjecture in dimensions greater than four") originator.
    Three-tier; ~1600 words. The corollary: a smooth homotopy $n$-sphere,
@@ -279,20 +279,20 @@ at `03.08.20`. IDs verified non-colliding against
    h-cobordism theorem applied to $S^n$ minus two discs. Master: the
    contrast with $n = 3$ (Perelman) and $n = 4$ (Freedman topological /
    smooth open), and the disc-characterisation corollary. **Prereq:
-   `03.02.23`.**
+   `48.02.23`.**
 
 ### Priority 2 — the worked example, the prerequisites, and the chain-complex deepening
 
-6. **`03.02.25` Worked handle calculus: cancelling pairs and $S^{n-1}
+6. **`48.02.25` Worked handle calculus: cancelling pairs and $S^{n-1}
    \times I$.** [NEW] LHC §§2–4 worked examples. Two-tier (Intermediate +
    Master); ~1500 words. The canonical concrete computations LHC runs:
    the trivial cobordism $V \times I$ has the empty handle decomposition;
    a $0$-handle/$1$-handle pair on a ball cancels; the explicit
    $\lambda$/$(\lambda+1)$ cancelling pair with a single transverse point.
-   **Closes the worked-example-layer gap from §2. Prereq: `03.02.20`,
-   `03.02.22`.**
+   **Closes the worked-example-layer gap from §2. Prereq: `48.02.20`,
+   `48.02.22`.**
 
-7. **`03.02.26` Transversality, tubular neighbourhoods, and the isotopy
+7. **`48.02.26` Transversality, tubular neighbourhoods, and the isotopy
    extension theorem.** [NEW] Guillemin–Pollack / Hirsch
    *Differential Topology* anchor; Thom (transversality), Sard 1942
    originators. Three-tier; ~1800 words. The differential-topology
@@ -301,7 +301,7 @@ at `03.08.20`. IDs verified non-colliding against
    theorem, isotopy extension theorem. **Shared prerequisite — produce
    once for 3.03 and 3.07. Prereq: `03.02.01-smooth-manifold`.**
 
-8. **`03.02.27` Levi-Civita connection, exponential map, gradient flow.**
+8. **`48.02.27` Levi-Civita connection, exponential map, gradient flow.**
    [ENRICH→NEW] Mirrors the 3.03 Morse audit's item `03.03.X1`. do Carmo
    *Riemannian Geometry* anchor. ~1500 words. Supplies the Riemannian
    framing (Levi-Civita $\nabla$, $\exp_p$, gradient-like flows) that the
@@ -315,7 +315,7 @@ at `03.08.20`. IDs verified non-colliding against
    the cellular chain complex of the CW structure a handle decomposition
    induces, so the §6 acyclicity argument has an in-Codex home. No new
    unit ID; one Master-section addition + a `connections` edge to
-   `03.02.21`.
+   `48.02.21`.
 
 ### Priority 3 — the s-cobordism refinement and the surgery pointer
 
@@ -331,7 +331,7 @@ at `03.08.20`. IDs verified non-colliding against
     a group ring, the relation to Reidemeister torsion, $\mathrm{Wh}(1) =
     0$ (recovering the h-cobordism theorem as the $\pi = 1$ case).
     **Closes a genuine corpus hole: Codex has no algebraic-$K_1$ /
-    simple-homotopy coverage at all. Prereq: `03.02.23`,
+    simple-homotopy coverage at all. Prereq: `48.02.23`,
     `03.08.01-topological-k-theory` (for the $K_0$/$K_1$ analogy),
     `03.12.20-whitehead-theorem`.**
 
@@ -339,23 +339,23 @@ at `03.08.20`. IDs verified non-colliding against
     repoint the h-cobordism citation.** Replace the three
     `[ref: TODO_REF Smale 1962]` h-cobordism invocations and the
     Kervaire–Milnor handle-cancellation reference with in-Codex pointers
-    to `03.02.23` (and `03.02.22` for the cancellation step). No new unit;
+    to `48.02.23` (and `48.02.22` for the cancellation step). No new unit;
     citation + `connections` edits.
 
 12. **[ENRICH] `03.02.01-smooth-manifold` — repoint the h-cobordism
     history.** The historical Master paragraph naming "Smale's
     $h$-cobordism theorem (1962)" gains a forward `connections` pointer to
-    `03.02.23`. One-line weaving edit; recorded so Pass-W does not miss it.
+    `48.02.23`. One-line weaving edit; recorded so Pass-W does not miss it.
 
 ### Priority 4 — survey / pointer units (optional, Master-only)
 
-13. **`03.02.28` Pointer: surgery theory and the surgery exact sequence.**
+13. **`48.02.28` Pointer: surgery theory and the surgery exact sequence.**
     [NEW] Master-only; ~1000 words. Wall *Surgery on Compact Manifolds*,
     Browder, Novikov; the h-cobordism theorem as the base case of the
     surgery classification of manifolds. Pointer to Ranicki / Lück. **The
     natural downstream of LHC; optional for FT equivalence.**
 
-14. **Notation crosswalk note in `03.02.20` and `03.02.23`.** Record LHC's
+14. **Notation crosswalk note in `48.02.20` and `48.02.23`.** Record LHC's
     handle notation ($D^\lambda \times D^{n-\lambda}$; attaching sphere
     $S^{\lambda-1}$, belt sphere $S^{n-\lambda-1}$; self-indexing levels
     $\lambda + 1/2$; intersection pairing $\langle S_a, S_b \rangle$),
@@ -367,8 +367,8 @@ at `03.08.20`. IDs verified non-colliding against
 ## §4 Implementation sketch (P3 → P4)
 
 **Dependency on the 3.03 Morse audit.** LHC's Priority-1 block is
-*gated* on the Milnor *Morse Theory* Morse-core units (`03.02.02`–
-`03.02.05`) existing — the handle calculus is literally "Morse Theory
+*gated* on the Milnor *Morse Theory* Morse-core units (`48.02.02`–
+`48.02.05`) existing — the handle calculus is literally "Morse Theory
 Part I, relative to a boundary, with handles instead of cells." The
 recommended sequencing is to run the **3.03 Priority-1 batch first (or
 jointly)**, then the LHC Priority-1 batch immediately after. Item 7
@@ -405,9 +405,9 @@ batches; ~3 h per typical three-tier unit, more for the technical ones):
 - **Batch C (examples + deepening, items 6, 9):** depends on A/B; can
   run alongside B's tail.
 - **Batch D (s-cobordism refinement, item 10):** independent of B/C
-  except for the `03.02.23` pointer; opens the algebraic-$K_1$ corner of
+  except for the `48.02.23` pointer; opens the algebraic-$K_1$ corner of
   the K-theory chapter. Largest Priority-3 item.
-- **Weaving (items 11, 12):** Pass-W edits after `03.02.23` lands.
+- **Weaving (items 11, 12):** Pass-W edits after `48.02.23` lands.
 
 **Originator-prose targets** (per `FASTTRACK_EQUIVALENCE_PLAN.md` §10,
 each unit's Master section cites originator + Milnor LHC): Whitney 1944
@@ -425,15 +425,15 @@ descending/ascending); self-indexing $f(p) = \mathrm{index}(p)$. Modern
 texts (Kosinski, Gompf–Stipsicz, Ranicki) use "attaching/belt sphere" and
 intersection-number $\langle a, b \rangle$. **Codex decision:** adopt
 LHC's triad and handle notation verbatim, add the modern sphere terms,
-record both in the `§Notation` blocks of `03.02.20` and `03.02.23`.
+record both in the `§Notation` blocks of `48.02.20` and `48.02.23`.
 
-**DAG edges to add** (priority-1+2): `03.02.20` ← {Morse-core
-`03.02.02`–`03.02.05`, `03.02.26` transversality}; `03.02.21` ←
-`03.02.20` (cross-link `03.12.13`); `03.02.22` ← {`03.02.20`,
-`03.02.26`}; `03.02.23` ← {`03.02.21`, `03.02.22`,
+**DAG edges to add** (priority-1+2): `48.02.20` ← {Morse-core
+`48.02.02`–`48.02.05`, `48.02.26` transversality}; `48.02.21` ←
+`48.02.20` (cross-link `03.12.13`); `48.02.22` ← {`48.02.20`,
+`48.02.26`}; `48.02.23` ← {`48.02.21`, `48.02.22`,
 `03.12.19-hurewicz-theorem`, `03.12.20-whitehead-theorem`} and →
-{`03.06.17`, `03.02.24`}; `03.02.24` ← `03.02.23`; `03.02.25` ←
-{`03.02.20`, `03.02.22`}; `03.08.20` ← {`03.02.23`,
+{`03.06.17`, `48.02.24`}; `48.02.24` ← `48.02.23`; `48.02.25` ←
+{`48.02.20`, `48.02.22`}; `03.08.20` ← {`48.02.23`,
 `03.08.01-topological-k-theory`, `03.12.20-whitehead-theorem`}.
 
 ---
@@ -443,7 +443,7 @@ record both in the `§Notation` blocks of `03.02.20` and `03.02.23`.
 - A line-number-level inventory of every lemma in LHC (full P1 audit).
   Deferred; the TOC + punch-list suffice for a ~115-page monograph.
 - **Milnor *Morse Theory* (3.03)** itself — the Morse-core units
-  (`03.02.02`–`03.02.07`, path space). LHC *depends* on them; they are
+  (`48.02.02`–`48.02.07`, path space). LHC *depends* on them; they are
   owned by `plans/fasttrack/milnor-morse-theory.md`. This plan only adds
   the cobordism/handle layer **on top** of that block and flags the
   dependency.
@@ -480,19 +480,19 @@ equivalence-coverage when:
   examples + the transversality/Riemannian prerequisites + chain-complex
   deepening); after Priority-1+2+3 to ≥95% (s-cobordism refinement).
   Priority-4 is optional survey/notation.
-- The **h-cobordism theorem** has a dedicated anchor unit (`03.02.23`),
+- The **h-cobordism theorem** has a dedicated anchor unit (`48.02.23`),
   and the unanchored `[ref: TODO_REF Smale 1962]` citations in
   `03.06.17-combinatorial-pontryagin-exotic-7-spheres` (×3) and the
   history of `03.02.01-smooth-manifold` are **repointed in-Codex** to it.
 - ≥90% of LHC's worked examples (the trivial-cobordism empty
   decomposition, the $0$/$1$-handle cancelling pair, the Whitney-disc
   picture, $S^{n-1} \times I$, the exotic-$S^7$ application) have either a
-  direct unit (`03.02.25`) or a referencing unit.
+  direct unit (`48.02.25`) or a referencing unit.
 - The Morse → handle → cobordism → h-cobordism **sequencing chain** is an
   unbroken `prerequisites` path in the DAG, resting on the produced 3.03
   Morse-core block.
 - LHC's handle/triad notation is recorded in the `§Notation` blocks of
-  `03.02.20` and `03.02.23` (see §4).
+  `48.02.20` and `48.02.23` (see §4).
 - Originator-prose citations of Whitney 1944, Smale 1961/1962, and
   (for the refinement) Whitehead 1950 / Milnor 1966 are present in the
   relevant units.
@@ -506,7 +506,7 @@ equivalence-coverage when:
 ~5 new units culminating in the title theorem, plus a shared prerequisite
 layer (transversality, Riemannian framing) charged jointly with the 3.03
 Morse audit, plus one substantial refinement unit (Whitehead torsion).
-The single highest-leverage deliverable is **`03.02.23` (the h-cobordism
+The single highest-leverage deliverable is **`48.02.23` (the h-cobordism
 theorem)**, which repays at least three unanchored citations already
 shipped in the corpus. The single largest *new* corpus contribution is
 **`03.08.20` (Whitehead torsion / s-cobordism)**, the only algebraic-$K_1$

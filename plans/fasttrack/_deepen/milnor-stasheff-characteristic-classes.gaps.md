@@ -21,15 +21,15 @@ Each original-audit gap, with the unit that now covers it and a verified evidenc
 | Stiefel-Whitney axioms, Whitney product, normalisation | `03.06.03` | Full axioms + uniqueness proof via $H^*(BO(n);\mathbb{Z}/2)$. |
 | Cohomology ring $H^*(BO(n);\mathbb{Z}/2)=\mathbb{Z}/2[w_1,\dots,w_n]$ (§6,§7) | `03.06.03`, `03.06.04`, `03.06.20` | `03.06.03:179` polynomial-ring uniqueness proof; `03.06.04:589`–`606` BU/BSO rings; `03.06.20` Borel-Hirzebruch $G/T$ derivation. |
 | $H^*(BU(n);\mathbb{Z})=\mathbb{Z}[c_1,\dots,c_n]$ (§14) | `03.06.04`, `03.06.20` | `03.06.04:594`. |
-| **Thom class & Thom isomorphism (singular cohomology)** (§8,§10) | `03.12.29` | `03.12.29:101`–`117` definition + existence/uniqueness proof via Leray-Hirsch; `03.06.07` flagged in original audit was filled by `03.12.29` cross-section. de Rham version `03.04.09`; K-theory version `03.08.03`. |
-| **Euler class** $e(E)=U|_B$, obstruction theorem (§9) | `03.05.10`, `03.06.04`, `03.12.29` | `03.05.10:169`–`409` Euler class, Poincaré-Hopf, nonzero-section obstruction, universal angular form; `03.06.04:579` top Chern class = Euler class via splitting principle. |
-| **Gysin sequence** | `03.13.02`, `03.12.29` | `03.13.02:187`–`218` full Gysin LES derived from Leray-Serre with proof; `03.12.29:135`. |
+| **Thom class & Thom isomorphism (singular cohomology)** (§8,§10) | `48.12.29` | `48.12.29:101`–`117` definition + existence/uniqueness proof via Leray-Hirsch; `03.06.07` flagged in original audit was filled by `48.12.29` cross-section. de Rham version `03.04.09`; K-theory version `03.08.03`. |
+| **Euler class** $e(E)=U|_B$, obstruction theorem (§9) | `03.05.10`, `03.06.04`, `48.12.29` | `03.05.10:169`–`409` Euler class, Poincaré-Hopf, nonzero-section obstruction, universal angular form; `03.06.04:579` top Chern class = Euler class via splitting principle. |
+| **Gysin sequence** | `03.13.02`, `48.12.29` | `03.13.02:187`–`218` full Gysin LES derived from Leray-Serre with proof; `48.12.29:135`. |
 | Stiefel-Whitney numbers $w_I[M]$ & Pontryagin numbers $p_I[M]$ (§4,§16) | `03.06.10` | Dedicated unit "Stiefel-Whitney and Pontryagin numbers". |
 | **Splitting principle** (§14,§15) | `03.13.03` | "Leray-Hirsch / splitting principle" unit; used throughout `03.06.04`, `03.06.15`. |
 | Chern-Weil construction (App C) | `03.06.05`, `03.06.06` | Invariant polynomial + Chern-Weil homomorphism. |
 | Pontryagin classes axiomatic $p_i=(-1)^ic_{2i}(E\otimes\mathbb{C})$ (§15) | `03.06.04` | `03.06.04:412`. |
 | **Hirzebruch signature theorem** (§19) | `03.06.11`, `03.06.19` | Dedicated master-tier signature-theorem unit + intersection-form/signature unit. |
-| **Steenrod squares & Wu formula** (§8,§11) | `03.06.14` | Dedicated unit "Steenrod squares and the Wu formula"; $w_i=\mathrm{Sq}^i(u)$ in `03.06.03:185`, `03.12.29:143`. |
+| **Steenrod squares & Wu formula** (§8,§11) | `03.06.14` | Dedicated unit "Steenrod squares and the Wu formula"; $w_i=\mathrm{Sq}^i(u)$ in `03.06.03:185`, `48.12.29:143`. |
 | **Unoriented bordism $\mathfrak{N}_*=\mathbb{F}_2[x_i]$ & Thom's theorem** (§17) | `03.06.12` | `03.06.12:415` polynomial-ring structure on non-Mersenne generators, $x_{2k}=[RP^{2k}]$, Dold-manifold odd generators, full Pontryagin-Thom synthesis. |
 | **Oriented bordism $\Omega^{SO}_*$ & Pontryagin-Thom** (§18) | `03.06.13` | Dedicated unit. |
 | **Multiplicative sequences, $L$-/$\hat{A}$-/Todd genera** (§19, App B) | `03.06.15` | Dedicated master unit; Bernoulli coefficients discussed `03.06.15:738`. |

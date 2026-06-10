@@ -285,9 +285,9 @@ Cross-referenced against the current Babel Bible corpus
 | De Rham cohomology $H^k_{\mathrm{dR}}$ | `03.04.06-de-rham-cohomology.md` | ✓ | Shipped; Master tier covers de Rham theorem. |
 | Mayer-Vietoris for de Rham | `03.04.07-mayer-vietoris.md` | ✓ | Shipped. |
 | Čech-de Rham double complex | `03.04.11-cech-de-rham.md` | ✓ | Shipped — the homological-algebra side of FEEC's "the complex matters, not the spaces". |
-| Hodge theory / Hodge Laplacian on compact Riemannian manifold | `03.02.12-kahler-identities-hodge-decomposition.md`; `06.04.03-hodge-decomposition-curves.md`; `04.09.01-hodge-decomposition.md` | △ | Kähler / curves / algebraic-geometry framings shipped, but **the smooth real Riemannian Hodge Laplacian $\Delta = d\delta + \delta d$** (Lecture 1 anchor) has **no dedicated unit**. **First gap.** |
-| Codifferential $\delta = d^*$, Hodge star $\star$ | △ (cited in `03.02.12`) | △ | No dedicated unit. **Gap.** |
-| Harmonic forms ≅ de Rham cohomology | △ (cited in `03.04.06` Master and `03.02.12`) | △ | Statement appears; no dedicated derivation. |
+| Hodge theory / Hodge Laplacian on compact Riemannian manifold | `48.02.12-kahler-identities-hodge-decomposition.md`; `06.04.03-hodge-decomposition-curves.md`; `04.09.01-hodge-decomposition.md` | △ | Kähler / curves / algebraic-geometry framings shipped, but **the smooth real Riemannian Hodge Laplacian $\Delta = d\delta + \delta d$** (Lecture 1 anchor) has **no dedicated unit**. **First gap.** |
+| Codifferential $\delta = d^*$, Hodge star $\star$ | △ (cited in `48.02.12`) | △ | No dedicated unit. **Gap.** |
+| Harmonic forms ≅ de Rham cohomology | △ (cited in `03.04.06` Master and `48.02.12`) | △ | Statement appears; no dedicated derivation. |
 | Sobolev spaces $H^s$, $H(\mathrm{curl})$, $H(\mathrm{div})$, $H\Lambda^k$ | — | ✗ | **Gap.** No Sobolev-space unit anywhere in the Babel Bible. Foundational prerequisite. |
 | Weak / variational formulation of elliptic PDE | △ (cited via `02.12.*` ODE) | △ | No dedicated unit on weak solutions of elliptic PDEs. **Gap.** |
 | Lax-Milgram theorem; Babuška-Brezzi (inf-sup) condition | — | ✗ | **Gap.** Foundational for FEM stability. |
@@ -740,7 +740,7 @@ conventions for the smooth side. **Record once in the new
   research direction; not in the CBMS lectures. Deferred.
 - **The infinite-dimensional Hodge-theoretic / PDE-analytic
   foundations** (regularity theory for elliptic systems on
-  manifolds, Weyl's lemma). Touched in `03.02.12-kahler-identities-hodge-decomposition.md`
+  manifolds, Weyl's lemma). Touched in `48.02.12-kahler-identities-hodge-decomposition.md`
   and shipped at the Kähler / curves level; full smooth-real
   Hodge theory not covered at textbook depth. Deferred — outside
   FEEC's scope; would need a separate Warner / Wells audit.

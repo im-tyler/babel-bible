@@ -223,7 +223,7 @@ The most useful Intermediate theorem was not a classification result but the vec
 
 ### Unit #4 — De Rham cohomology
 
-The only graph wrinkle was that Wave 1 used `03.02.04` as the pending de Rham placeholder while Wave 2 assigns the produced unit to `03.04.06` under differential forms. I normalized the shipped dependency edges and the Wave 1 frontmatter/cross-reference sites to `03.04.06`, which prevents the curriculum from carrying two de Rham IDs for the same concept.
+The only graph wrinkle was that Wave 1 used `48.02.04` as the pending de Rham placeholder while Wave 2 assigns the produced unit to `03.04.06` under differential forms. I normalized the shipped dependency edges and the Wave 1 frontmatter/cross-reference sites to `03.04.06`, which prevents the curriculum from carrying two de Rham IDs for the same concept.
 
 ## Wave 2 Phase 2.2 pulled-prereq pass (gpt-5-codex)
 

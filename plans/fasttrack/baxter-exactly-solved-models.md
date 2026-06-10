@@ -680,7 +680,7 @@ produced at apex depth even though only Baxter currently consumes it.
 - **Quantum groups (Drinfeld-Jimbo Hopf algebras).** The abstraction of
   the star-triangle relation into $U_q(\mathfrak{g})$ — Drinfeld 1985,
   Jimbo 1985 — is downstream of Baxter and out of scope. The corpus has
-  `03.12.49-bialgebra-hopf-milnor-moore` (Hopf algebras in topology) but
+  `48.12.49-bialgebra-hopf-milnor-moore` (Hopf algebras in topology) but
   no quantum-group unit; that is a separate FT campaign.
 - **Conformal field theory of the critical models.** The $c=1$ line
   (eight-vertex / Ashkin-Teller) and the Ising $c=1/2$ minimal model

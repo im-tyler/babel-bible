@@ -42,7 +42,7 @@ missing as a distinct item from the Hamiltonian framing in `05.09.08`.
 - **spec:** Hopf invariant $H(f)\in\mathbb{Z}$ of $f:S^3\to S^2$ via $H(f)=\int_{S^3}\alpha\wedge d\alpha$ with $d\alpha=f^*\omega$, equivalently the linking of two generic fibres; identify with the helicity of an associated field; the obstruction — a vortex configuration of nonzero helicity cannot be carried by ideal-fluid evolution to one of zero helicity; Hopf fibration as the canonical helicity-1 example; preservation of vortex-tube knot/link type under the Euler flow.
 - **prereqs:** `05.14.01` (helicity), `05.14.02` (asymptotic linking), `03.04.03` (integration on manifolds / Stokes)
 - **chapter dir:** `content/05-symplectic/14-topological-hydrodynamics/`
-- **why genuine:** the integral/linking definition of the **Hopf invariant** is not a unit (`03.12.49` is the Hopf *algebra* bialgebra; the `03.02.*` files are Hopf-Rinow). Knotted-vortex-tube topological conservation has no unit. `05.14.07` lists this as "planned `05.14.04`".
+- **why genuine:** the integral/linking definition of the **Hopf invariant** is not a unit (`48.12.49` is the Hopf *algebra* bialgebra; the `03.02.*` files are Hopf-Rinow). Knotted-vortex-tube topological conservation has no unit. `05.14.07` lists this as "planned `05.14.04`".
 - **anchor:** Hopf 1931 (Math. Annalen 104); Moffatt 1969; Arnold-Khesin Ch. III §4-§5.
 
 ### 4. `05.14.04` — Ideal MHD: frozen-flux, the semidirect-product Lie-Poisson structure, and magnetic helicity

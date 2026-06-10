@@ -341,7 +341,7 @@ strand, and producing one for two units is overkill).
    inflation-restriction sequence. ~1800 words. **Closes the Lie-side of
    the spectral-sequence strand.**
 
-5. **`03.03.04` Formal group law.** Definition over a commutative ring $R$:
+5. **`48.03.04` Formal group law.** Definition over a commutative ring $R$:
    one-dim case $F(X, Y) \in R[\![X, Y]\!]$ with axioms; higher-dim
    vector-valued case. The associated formal Lie algebra
    $L(F) = (R^n, [\cdot, \cdot]_F)$ from the quadratic part of $F$. The
@@ -351,13 +351,13 @@ strand, and producing one for two units is overkill).
    §§1–5 anchor; Bochner 1946 + Lazard 1955 originator citations;
    Hazewinkel 1978 secondary anchor. Three-tier; Master tier sketches
    Lubin-Tate formal groups and their role in local class field theory.
-   ~2000 words. **Foundational for `03.03.05` and a long-term hook for
+   ~2000 words. **Foundational for `48.03.05` and a long-term hook for
    future algebraic-topology material (complex cobordism / formal-group
    law of $\mathrm{MU}$).**
 
 **Priority 2 — completes the $p$-adic Lie group side:**
 
-6. **`03.03.05` $p$-adic Lie group and the $p$-adic exponential.** Brief
+6. **`48.03.05` $p$-adic Lie group and the $p$-adic exponential.** Brief
    $\mathbb{Q}_p$ / $p$-adic absolute value paragraph; $p$-adic analytic
    manifold; group object in that category. The $p$-adic exponential
    $\exp: \mathfrak{g} \to G$ as a power-series map, radius of convergence
@@ -367,7 +367,7 @@ strand, and producing one for two units is overkill).
    citation; cross-reference Dixon-du Sautoy-Mann-Segal *Analytic Pro-$p$
    Groups* as the modern follow-up. Three-tier. ~2000 words.
 
-7. **`03.03.06` Lazard's equivalence: $p$-adic Lie groups and
+7. **`48.03.06` Lazard's equivalence: $p$-adic Lie groups and
    $\mathbb{Q}_p$-Lie algebras.** Statement of the equivalence of
    categories on the simply-connected side; sketch of the proof using
    Priority 2 unit 6's $p$-adic exponential and the Campbell-Hausdorff
@@ -404,7 +404,7 @@ equivalence ≥95% but close the residual gap):**
     `07.06.15`): Hall basis and Hall sets for the free Lie algebra.**
     ~500 words.
 
-12. **§Master deepening of `03.03.04 formal-group-law` (new): Lubin-Tate
+12. **§Master deepening of `48.03.04 formal-group-law` (new): Lubin-Tate
     formal groups, height of a formal group, and pointer to the
     Cartier-Dieudonné classification.** ~700 words. Hazewinkel
     Chs. 18–25 reference.
@@ -429,11 +429,11 @@ Fulton-Harris, and Lawson-Michelsohn batches):
 - Priority 1 (5 new units, technical and dense): ~4 hours each = **~20
   hours.** `07.06.10 free-lie-algebra`, `07.06.11 campbell-hausdorff`,
   `07.06.12 lie-algebra-cohomology`, `07.06.13 hochschild-serre-ss`,
-  `03.03.04 formal-group-law`. The Campbell-Hausdorff and Chevalley-
+  `48.03.04 formal-group-law`. The Campbell-Hausdorff and Chevalley-
   Eilenberg units skew long because they need both clean statements and
   worked computations.
-- Priority 2 (2 new units): ~3.5 hours each = **~7 hours.** `03.03.05
-  p-adic-lie-group`, `03.03.06 lazard-equivalence`.
+- Priority 2 (2 new units): ~3.5 hours each = **~7 hours.** `48.03.05
+  p-adic-lie-group`, `48.03.06 lazard-equivalence`.
 - Priority 3 (1 new unit): ~3 hours = **~3 hours.** `07.06.14
   solvable-nilpotent-lie-algebra`.
 - Priority 4 (4 master deepenings): ~45 min each = **~3 hours.**
@@ -471,8 +471,8 @@ in:
 - **Lazard 1955/1965** — M. Lazard, "Sur les groupes de Lie formels à un
   paramètre," *Bull. Soc. Math. France* 83 (1955), 251–274; "Groupes
   analytiques $p$-adiques," *Publ. Math. IHES* 26 (1965), 5–219. **Cite
-  in `03.03.04 formal-group-law`, `03.03.05 p-adic-lie-group`,
-  `03.03.06 lazard-equivalence` Master sections.**
+  in `48.03.04 formal-group-law`, `48.03.05 p-adic-lie-group`,
+  `48.03.06 lazard-equivalence` Master sections.**
 
 - **Bourbaki 1972** — *Groupes et algèbres de Lie*, Ch. II–III (Hermann
   1972). Encyclopedic reference; cite as Master-tier anchor in every new
@@ -490,7 +490,7 @@ convention). For $p$-adic objects: write $\mathbb{Q}_p$ for the $p$-adic
 rationals, $\mathbb{Z}_p$ for the $p$-adic integers, $|x|_p$ for the
 $p$-adic absolute value, $\mathrm{ord}_p$ for the $p$-adic valuation.
 Record in a §Notation paragraph of `07.06.11` (BCH series ring) and
-`03.03.05` ($p$-adic Lie group).
+`48.03.05` ($p$-adic Lie group).
 
 **Cross-strand weaving (Pass-W).** New units should link laterally to:
 
@@ -512,12 +512,12 @@ Record in a §Notation paragraph of `07.06.11` (BCH series ring) and
   cartan-weyl-classification`.
 
 - A future `algebraic-topology/complex-cobordism/` strand (Ravenel 1.06
-  audit punch-list candidate) — `03.03.04 formal-group-law` is the
+  audit punch-list candidate) — `48.03.04 formal-group-law` is the
   prereq for the formal-group law of $\mathrm{MU}$ and chromatic homotopy
   theory. Add a forward pointer.
 
 - A future `number-theory/local-fields/` strand (Serre 3.14 *A Course in
-  Arithmetic* audit candidate) — `03.03.05 p-adic-lie-group` shares the
+  Arithmetic* audit candidate) — `48.03.05 p-adic-lie-group` shares the
   $\mathbb{Q}_p$ prereq paragraph.
 
 ---
@@ -558,7 +558,7 @@ Record in a §Notation paragraph of `07.06.11` (BCH series ring) and
 
 - **Chromatic homotopy theory** (Lubin-Tate spectra, Morava $E$- and
   $K$-theories, the Adams-Novikov spectral sequence). The formal-group
-  prereq is what `03.03.04` ships; chromatic content is deferred to the
+  prereq is what `48.03.04` ships; chromatic content is deferred to the
   Ravenel 1.06 audit + production pass.
 
 - **Lie-algebroid / Lie-groupoid generalisations** (Mackenzie). Adjacent
@@ -575,7 +575,7 @@ equivalence-coverage when:
 
 - The 5 Priority-1 new units have shipped (`07.06.10 free-lie-algebra`,
   `07.06.11 campbell-hausdorff`, `07.06.12 lie-algebra-cohomology`,
-  `07.06.13 hochschild-serre-ss`, `03.03.04 formal-group-law`). These
+  `07.06.13 hochschild-serre-ss`, `48.03.04 formal-group-law`). These
   close ~70% of the SLALG gap and the *entire* Part I cohomological half.
 
 - ≥95% of SLALG's named theorems and major worked computations map to a

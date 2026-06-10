@@ -105,7 +105,7 @@ prereqs so the producer can wire the DAG once those siblings land.
 - **Wright–Fisher model as a Markov chain + diffusion approximation** — `19.02.05` (population-genetics application of chain + diffusion limit).
 - **Fokker–Planck equation / stationary (equilibrium) distribution** — `08.10.02` (continuous-state generator; the diffusion analogue of the forward equation).
 - **SDE / diffusion infinitesimal generator** — `02.15.03` (continuous-state generator theory; cross-referenced by 37.05.08–09 for contrast).
-- **Brownian motion / Wiener process** — `02.15.01` and `03.02.45` (continuous-path Markov process; lands in `37.06`, out of this chapter's scope).
+- **Brownian motion / Wiener process** — `02.15.01` and `48.02.45` (continuous-path Markov process; lands in `37.06`, out of this chapter's scope).
 - **Detailed balance / equilibrium in stat-mech** — `08.01.03` (Boltzmann distribution), `08.12.01` (fluctuation-dissipation): physics framing, not the chain theorem; 37.05.07 supplies the probabilistic statement.
 - **Elementary probability (events, conditional probability, expectation)** — `26.02.01`, `26.03.01`: prerequisites, not chain theory.
 

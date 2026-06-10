@@ -2152,7 +2152,7 @@ Eleven files. Per Pass-W contract: zero edits made to the six new units' Beginne
 
 5. `content/04-algebraic-geometry/04-curves/04.04.03-elliptic-curves.md` — added 2 bullets (→21.04.03, →21.06.01). The 04.04.03 Connections section already referenced "Galois representations and the Langlands program" + "Modular curves and modular forms" in body prose, but had no explicit Connections bullet to the dedicated 21.04.03 / 21.06.01 units; both reciprocals now in place.
 6. `content/06-riemann-surfaces/06-jacobians/06.06.03-jacobian-variety.md` — added 1 bullet (→21.04.03). The 06.06.03 Connections section is exceptionally sparse (one composite line referring to 06.05.01/06.06.03/06.04.01); the new bullet is the first arithmetic-application stitch from the Jacobian unit.
-7. `content/03-differential-geometry/03-lie-groups/03.03.05-padics-lie-group.md` — added 1 bullet (→21.07.01). The $1$-dimensional pro-$p$ Lie group $\Gamma \cong \mathbb{Z}_p$ is the foundational substrate of Iwasawa theory; the present bullet records the operator-theoretic identification.
+7. `content/03-differential-geometry/03-lie-groups/48.03.05-padics-lie-group.md` — added 1 bullet (→21.07.01). The $1$-dimensional pro-$p$ Lie group $\Gamma \cong \mathbb{Z}_p$ is the foundational substrate of Iwasawa theory; the present bullet records the operator-theoretic identification.
 
 **Group C — Intra-batch reciprocity stitches (4 files; bullets between Cycle-14 new units where one direction was missing):**
 
@@ -2165,7 +2165,7 @@ Eleven files. Per Pass-W contract: zero edits made to the six new units' Beginne
 
 - **A.** External peer `04.04.03` (elliptic curves) — cited by 21.04.03, 21.06.01. Both reciprocals added.
 - **B.** External peer `06.06.03` (Jacobian variety) — cited by 21.04.03. Reciprocal added.
-- **C.** External peer `03.03.05` ($p$-adic Lie group) — cited by 21.07.01. Reciprocal added.
+- **C.** External peer `48.03.05` ($p$-adic Lie group) — cited by 21.07.01. Reciprocal added.
 - **D.** Cycle-13 forward bullets — 21.03.01 (→21.05.01/06.01/07.01/07.02), 21.03.02 (→21.05.01/06.01/07.01/07.02), 21.04.01 (→21.03.03/06.01/combined 07.01+07.02), 21.04.02 (→21.07.01/07.02). 13 forward bullets added; the remaining ones (e.g. 21.04.01→21.04.03, 21.04.01→21.05.01, 21.04.02→21.03.03/04.03/05.01/06.01) were already present from Cycle 13.
 - **E.** Intra-batch reciprocity for new Cycle-14 siblings — 21.03.03→21.04.03, 21.05.01→21.03.03+21.07.02, 21.06.01→21.03.03, 21.07.01→21.04.03 added (5 bullets across 4 files). All other intra-batch directions were already bidirectional in the new units as shipped.
 
@@ -2174,7 +2174,7 @@ Eleven files. Per Pass-W contract: zero edits made to the six new units' Beginne
 External peers (Cycle 14 ↔ external):
 - (21.04.03, 04.04.03), (21.04.03, 06.06.03)
 - (21.06.01, 04.04.03)
-- (21.07.01, 03.03.05)
+- (21.07.01, 48.03.05)
 
 Cycle-13 ↔ Cycle-14 forward bullets now in place (every Cycle-14 unit cited by a Cycle-13 unit, and vice versa):
 - (21.03.01, 21.05.01), (21.03.01, 21.06.01), (21.03.01, 21.07.01), (21.03.01, 21.07.02)
@@ -2221,7 +2221,7 @@ All Pass-W edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD
   - 21.04.02: 2 (→07.01, →07.02)
   - 04.04.03: 2 (→21.04.03, →21.06.01)
   - 06.06.03: 1 (→21.04.03)
-  - 03.03.05: 1 (→21.07.01)
+  - 48.03.05: 1 (→21.07.01)
   - 21.03.03: 1 (→21.04.03) [intra-batch]
   - 21.05.01: 2 (→21.03.03, →21.07.02) [intra-batch]
   - 21.06.01: 1 (→21.03.03) [intra-batch]
@@ -2232,7 +2232,7 @@ All Pass-W edits use the registered taxonomy vocabulary from CONTINUITY_SCAFFOLD
 - All 6 new units re-validated at 27/27 ✓
 - All 11 edited peer files validated:
   - 10 at 27/27 ✓
-  - 1 at 26/27 (`03.03.05-padics-lie-group.md` — pre-existing `concept_catalog_id` failure, confirmed via `git stash` baseline; unrelated to this Pass-W edit)
+  - 1 at 26/27 (`48.03.05-padics-lie-group.md` — pre-existing `concept_catalog_id` failure, confirmed via `git stash` baseline; unrelated to this Pass-W edit)
 
 ### Chapter-status note
 
@@ -2243,4 +2243,4 @@ Section 21 (number theory) is **now at 10/N**. Sub-chapter inventory:
 - `21.06 modularity / BSD` — **open (1/N):** 21.06.01 modularity theorem + BSD.
 - `21.07 Iwasawa` — **open (2/N):** 21.07.01 $\mathbb{Z}_p$-extensions, 21.07.02 $p$-adic $L$ + Main Conjecture.
 
-The remaining roadmap forward-referenced from these units: 21.06.02 Sato-Tate, 21.10.01 Tate's thesis / Langlands $\mathrm{GL}_1$ prototype, plus likely future units in 21.05 (Fontaine $p$-adic Hodge theory, Serre's modularity conjecture / Khare-Wintenberger), 21.06 (Bhargava-Skinner-Zhang density theorem), 21.07 (Skinner-Urban deeper results, anticyclotomic Bertolini-Darmon, non-commutative Iwasawa theory). The Manin-Panchishkin lane is ready for further production cycles; the cross-stitch substrate is now bidirectionally closed across Sections 21.03 and 21.04 internally and to the external peers 04.04.03 / 06.06.03 / 03.03.05.
+The remaining roadmap forward-referenced from these units: 21.06.02 Sato-Tate, 21.10.01 Tate's thesis / Langlands $\mathrm{GL}_1$ prototype, plus likely future units in 21.05 (Fontaine $p$-adic Hodge theory, Serre's modularity conjecture / Khare-Wintenberger), 21.06 (Bhargava-Skinner-Zhang density theorem), 21.07 (Skinner-Urban deeper results, anticyclotomic Bertolini-Darmon, non-commutative Iwasawa theory). The Manin-Panchishkin lane is ready for further production cycles; the cross-stitch substrate is now bidirectionally closed across Sections 21.03 and 21.04 internally and to the external peers 04.04.03 / 06.06.03 / 48.03.05.

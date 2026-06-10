@@ -55,8 +55,8 @@ Part I prereqs (confirmed shipped):
 |---|---|---|
 | Lie algebra (defn, ideals, derivations, semidirect product) | `03.04.01` lie-algebra | shipped |
 | Universal enveloping algebra $U(\mathfrak g)$ | `07.06.02` universal-enveloping-algebra | shipped |
-| **PBW theorem** (audit wanted a proof unit) | `07.06.02` (filtration / associated-graded proof, 6 hits); `03.12.49` (PBW as Hopf-coalgebra iso) | proved, not just stated |
-| Hopf-algebra / primitive-element structure of $U(\mathfrak g)$ | `03.12.49` bialgebra-hopf-milnor-moore | Milnor-Moore; $P(U(\mathfrak g))=\mathfrak g$; the BCH apparatus |
+| **PBW theorem** (audit wanted a proof unit) | `07.06.02` (filtration / associated-graded proof, 6 hits); `48.12.49` (PBW as Hopf-coalgebra iso) | proved, not just stated |
+| Hopf-algebra / primitive-element structure of $U(\mathfrak g)$ | `48.12.49` bialgebra-hopf-milnor-moore | Milnor-Moore; $P(U(\mathfrak g))=\mathfrak g$; the BCH apparatus |
 | Solvable / nilpotent Lie algebras | `07.06.14` engel-lie-theorem; `01.02.05` solvable-nilpotent-jordan-holder | shipped |
 | **Engel's theorem + Lie's theorem** | `07.06.14` engel-lie-theorem | title is "Engel's theorem + Lie's theorem" |
 | **Cartan's criterion** (solvability/semisimplicity via Killing form) | `07.06.16` cartan-criterion-solvability-semisimplicity | shipped |
@@ -68,11 +68,11 @@ Part II arc (formal groups / p-adic / Lie functor — confirmed shipped):
 
 | SLALG topic | Covered by | Evidence |
 |---|---|---|
-| **Formal group law** $F(X,Y)\in R[\![X,Y]\!]$ | `03.03.04` formal-group-law | axioms, Lazard ring, char-0 $\cong\hat{\mathbb G}_a$ via $\log_F$; Master: Cartier module, p-typical, **height**, **Lubin-Tate** (10 hits) |
-| Lie functor for formal groups (char-0 equivalence) | `03.03.04` | char-0 additive-equivalence stated and proved |
-| **$p$-adic Lie group + $p$-adic exponential** | `03.03.05` padics-lie-group | $\mathbb Q_p$, radius of convergence (30 hits), p-adic BCH bracket, p-adic analytic manifold |
-| **Lazard's equivalence** (p-adic Lie groups ↔ $\mathbb Q_p$-Lie algebras; uniform pro-$p$) | `03.03.05` (Theorem 1: uniform pro-$p$ of finite rank, 11 pro-p hits) | shipped; DSMS modern pro-$p$ cited |
-| **Lie's three theorems** (integration, Lie functor) | `03.03.06` lie-third-theorem | unified categorical statement, BCH-based construction |
+| **Formal group law** $F(X,Y)\in R[\![X,Y]\!]$ | `48.03.04` formal-group-law | axioms, Lazard ring, char-0 $\cong\hat{\mathbb G}_a$ via $\log_F$; Master: Cartier module, p-typical, **height**, **Lubin-Tate** (10 hits) |
+| Lie functor for formal groups (char-0 equivalence) | `48.03.04` | char-0 additive-equivalence stated and proved |
+| **$p$-adic Lie group + $p$-adic exponential** | `48.03.05` padics-lie-group | $\mathbb Q_p$, radius of convergence (30 hits), p-adic BCH bracket, p-adic analytic manifold |
+| **Lazard's equivalence** (p-adic Lie groups ↔ $\mathbb Q_p$-Lie algebras; uniform pro-$p$) | `48.03.05` (Theorem 1: uniform pro-$p$ of finite rank, 11 pro-p hits) | shipped; DSMS modern pro-$p$ cited |
+| **Lie's three theorems** (integration, Lie functor) | `48.03.06` lie-third-theorem | unified categorical statement, BCH-based construction |
 | $\mathbb Q_p$ / $p$-adic absolute value prereq | `21.02.03` p-adic-numbers-$\mathbb Q_p$-and-$\mathbb Z_p$ | a real number-theory strand now anchors the p-adic units (first-pass assumed none existed) |
 
 Spectral-sequence cross-strand:

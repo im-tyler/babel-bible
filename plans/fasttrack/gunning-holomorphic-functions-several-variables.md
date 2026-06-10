@@ -179,7 +179,7 @@ verified by `find content -name "*.md"`:
 - **Algebraic Nullstellensatz / dimension (not analytic):**
   `04.02.07-nullstellensatz-and-dimension-theory`.
 - **Complex geometry foundation:**
-  `03.02.10-complex-manifold-dolbeault`.
+  `48.02.10-complex-manifold-dolbeault`.
 
 ✓ = covered at Gunning-equivalent depth, △ = topic present but
 shallower / in a different (algebraic or dimension-one) form, ✗ = not

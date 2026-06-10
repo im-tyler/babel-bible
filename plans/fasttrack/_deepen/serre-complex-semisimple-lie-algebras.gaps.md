@@ -66,7 +66,7 @@ Every row below was the first-pass audit's "Gap" item. All now have a shipped un
 | Verma module; L(λ) | **07.06.06** verma-module | direct correspondent |
 | Weyl character formula | **07.06.07** weyl-character-formula | direct correspondent |
 | Weyl dimension formula | **07.06.08** weyl-dimension-formula | (bonus, beyond CSLA) |
-| Levi-Malcev decomposition | **07.06.16** (Theorem 3, full statement + Malcev 1942 conjugacy) + **07.06.22** + **03.03.06** lie-third-theorem | g = r ⋊ s, radical + Levi factor, uniqueness up to conjugacy — all stated |
+| Levi-Malcev decomposition | **07.06.16** (Theorem 3, full statement + Malcev 1942 conjugacy) + **07.06.22** + **48.03.06** lie-third-theorem | g = r ⋊ s, radical + Levi factor, uniqueness up to conjugacy — all stated |
 | Compact real form | **07.04.02** compact-real-form | standalone unit; Weyl 1925-26 anchor |
 | Weyl's unitarian trick | **07.04.02** + **07.06.10/22** + **07.04.03** cartan-involution + **07.04.05** real-forms | complex reps ↔ unitary reps of compact form; multiple homes |
 | Solvable/nilpotent Lie algebra basics; derived/lower-central series | **03.04.01** lie-algebra + **01.02.05** solvable-nilpotent-jordan-holder + **07.06.14** | covered |

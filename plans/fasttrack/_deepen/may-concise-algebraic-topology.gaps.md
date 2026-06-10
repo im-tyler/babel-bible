@@ -76,20 +76,20 @@ Every other first-pass §2/§3 candidate was found already covered. Evidence (un
 id + where confirmed):
 
 - **Simplicial sets, face/degeneracy operators, $|-|\dashv S_*$ adjunction**
-  (first-pass items 2, P1) — COVERED: `03.12.24` simplicial-set-delta, `03.12.25`
+  (first-pass items 2, P1) — COVERED: `48.12.24` simplicial-set-delta, `03.12.25`
   simplicial-sets-and-geometric-realization, `03.12.22` delta-complex.
 - **Functorial CW approximation $\Gamma X=|S_*X|$; $\gamma\colon\Gamma X\to X$ a weak
-  equivalence** (item 3, P1) — COVERED: `03.12.26` functorial-cw-approximation
+  equivalence** (item 3, P1) — COVERED: `48.12.26` functorial-cw-approximation
   ($\Gamma=|\mathrm{Sing}(-)|$, unit a weak equivalence, Milnor's theorem).
 - **Puppe cofiber sequence $X\to Y\to Cf\to\Sigma X\to\cdots$** (item 8, P2) —
-  COVERED: `03.12.27` puppe-cofiber-sequence.
+  COVERED: `48.12.27` puppe-cofiber-sequence.
 - **Puppe fiber sequence $\cdots\to\Omega Y\to Ff\to X\to Y$; $\Sigma\dashv\Omega$
-  linkage** (item 9, P2) — COVERED: `03.12.28` puppe-fiber-sequence.
+  linkage** (item 9, P2) — COVERED: `48.12.28` puppe-fiber-sequence.
 - **Thom space and Thom isomorphism $H^k(B)\cong\tilde H^{k+n}(M\xi)$** (item 10,
-  P2) — COVERED: `03.12.29` thom-space-thom-isomorphism; also `03.08.03`
+  P2) — COVERED: `48.12.29` thom-space-thom-isomorphism; also `03.08.03`
   thom-isomorphism-in-k-theory, `03.04.09` thom-global-angular-form.
 - **Iterated bar construction $K(\pi,n)=\bar W^{\,n}(G)$** (item 7, P1 deepening) —
-  COVERED: `03.12.39` simplicial-group-wbar-classifying-functor (states
+  COVERED: `48.12.39` simplicial-group-wbar-classifying-functor (states
   $\bar W^{\,n}(G)=K(G,n)$ and $BG=|NG|$); `03.12.05` eilenberg-maclane synthesis.
 - **Van Kampen as a colimit/pushout of groupoids $\Pi(X)\cong\mathrm{colim}\,\Pi(U)$**
   (item 4, P1 deepening) — COVERED: `03.12.09` seifert-van-kampen (Brown groupoid

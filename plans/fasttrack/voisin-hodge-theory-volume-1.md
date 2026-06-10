@@ -193,16 +193,16 @@ audit.
 | VHCAG-I topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
 | **Part I (Chs. 1–4) — preliminaries** | | | |
-| Complex manifold (atlas, transition functions) | △ | △ | Touched in `06.01.*` (one-variable complex) and `06.07.01` (several variables) without a manifold-level anchor outside the RS chapter. KN-II audit punch-list item `03.02.10` (Complex manifold + Dolbeault complex) shared. |
-| Holomorphic vector bundle | — | ✗ | **Gap (shared with KN-II audit, punch-list `03.05.19`).** Cited without anchor in `04.09.02-kodaira-vanishing.md` and `06.04.02-cech-cohomology-line-bundles.md`. |
-| Hermitian metric, Chern connection | — | ✗ | **Gap (shared with KN-II punch-list `03.05.20`).** Load-bearing for the curvature formulas in Ch. 9 + Ch. 4. |
-| Dolbeault complex $(\Omega^{p, \bullet}, \bar\partial)$ and Dolbeault cohomology | △ (curve case only) | △ | `06.04.05-dbar-hilbert-pde.md` covers the $\bar\partial$ operator and its Hilbert-space PDE setup on a Riemann surface. The general $(p, q)$ Dolbeault complex on a complex manifold has no anchor (KN-II punch-list `03.02.10`). |
+| Complex manifold (atlas, transition functions) | △ | △ | Touched in `06.01.*` (one-variable complex) and `06.07.01` (several variables) without a manifold-level anchor outside the RS chapter. KN-II audit punch-list item `48.02.10` (Complex manifold + Dolbeault complex) shared. |
+| Holomorphic vector bundle | — | ✗ | **Gap (shared with KN-II audit, punch-list `48.05.19`).** Cited without anchor in `04.09.02-kodaira-vanishing.md` and `06.04.02-cech-cohomology-line-bundles.md`. |
+| Hermitian metric, Chern connection | — | ✗ | **Gap (shared with KN-II punch-list `48.05.20`).** Load-bearing for the curvature formulas in Ch. 9 + Ch. 4. |
+| Dolbeault complex $(\Omega^{p, \bullet}, \bar\partial)$ and Dolbeault cohomology | △ (curve case only) | △ | `06.04.05-dbar-hilbert-pde.md` covers the $\bar\partial$ operator and its Hilbert-space PDE setup on a Riemann surface. The general $(p, q)$ Dolbeault complex on a complex manifold has no anchor (KN-II punch-list `48.02.10`). |
 | Sheaf cohomology + Dolbeault isomorphism $H^q(X; \Omega^p) \cong H^{p,q}_{\bar\partial}$ | △ | △ | `04.03.01-sheaf-cohomology.md` covers sheaf cohomology; the Dolbeault isomorphism specifically is stated in `04.09.01-hodge-decomposition.md` Step 4 of the proof outline without a dedicated unit. |
-| Chern classes via curvature | △ | △ | `03.06.06-chern-weil-homomorphism.md` + `03.06.04-pontryagin-chern-classes.md` cover the construction; KN-II audit punch-list `03.05.20` + `03.06.07` closes remaining gaps. |
+| Chern classes via curvature | △ | △ | `03.06.06-chern-weil-homomorphism.md` + `03.06.04-pontryagin-chern-classes.md` cover the construction; KN-II audit punch-list `48.05.20` + `03.06.07` closes remaining gaps. |
 | **Part II (Chs. 5–7) — harmonic theory + Hodge package** | | | |
 | **Ch. 5 — PDE foundation: $d^*$, $\Delta$, ellipticity, Hodge theorem (real)** | △ | △ | `06.04.05-dbar-hilbert-pde.md` (Riemann surface) gives the Hilbert-space PDE for $\bar\partial$ specifically with `lean_mathlib_gap` notes for the elliptic-regularity layer; no anchor for the **general compact Riemannian** Hodge theorem. **Gap (high priority).** Cited in `04.09.01-hodge-decomposition.md` Step 1 without a dedicated unit. |
-| Compact Kähler manifold (Kähler form, $d\omega = 0$, equivalent definitions) | — | ✗ | **Gap (shared with KN-II punch-list `03.02.11`).** This is the central object of the entire volume. Cited in five shipped units (Hodge decomposition, Kodaira vanishing, Hodge index, Hodge decomposition on curves, Newlander-Nirenberg) without a dedicated unit. |
-| **Ch. 6 — Kähler identities + Hodge decomposition (complex case)** | `04.09.01-hodge-decomposition.md` | △ | A `hodge-decomposition` unit ships covering the **statement** of the Hodge decomposition, the Hodge diamond, the symmetries (H1–H4), examples ($\mathbb{P}^n$, curves, K3, quintic), the construction via harmonic forms, and a sketch of the proof. The **Kähler identities themselves** are stated in the Master tier "Step 2 — Kähler identities" but are not proved in detail and have no dedicated unit; the **$\partial\bar\partial$-lemma** is not mentioned. KN-II audit punch-list `03.02.12` (Kähler identities + Kähler Hodge decomposition) is shared. |
+| Compact Kähler manifold (Kähler form, $d\omega = 0$, equivalent definitions) | — | ✗ | **Gap (shared with KN-II punch-list `48.02.11`).** This is the central object of the entire volume. Cited in five shipped units (Hodge decomposition, Kodaira vanishing, Hodge index, Hodge decomposition on curves, Newlander-Nirenberg) without a dedicated unit. |
+| **Ch. 6 — Kähler identities + Hodge decomposition (complex case)** | `04.09.01-hodge-decomposition.md` | △ | A `hodge-decomposition` unit ships covering the **statement** of the Hodge decomposition, the Hodge diamond, the symmetries (H1–H4), examples ($\mathbb{P}^n$, curves, K3, quintic), the construction via harmonic forms, and a sketch of the proof. The **Kähler identities themselves** are stated in the Master tier "Step 2 — Kähler identities" but are not proved in detail and have no dedicated unit; the **$\partial\bar\partial$-lemma** is not mentioned. KN-II audit punch-list `48.02.12` (Kähler identities + Kähler Hodge decomposition) is shared. |
 | $\partial\bar\partial$-lemma | — | ✗ | **Gap (high priority).** Load-bearing for formality of compact Kähler manifolds, for the Lefschetz $(1, 1)$-theorem proof, and for the cohomological framework on Kähler manifolds. KN-II audit also flagged this. |
 | Dolbeault Laplacian $\Delta_{\bar\partial} = \bar\partial \bar\partial^* + \bar\partial^* \bar\partial$ as self-adjoint elliptic operator | △ | △ | Mentioned in `04.09.01` Master tier; the operator-theoretic setup is partial in `06.04.05-dbar-hilbert-pde.md` for the $L$-valued $(0, q)$-forms on a Riemann surface. **Gap** for the general complex-manifold case. |
 | Hodge theorem (Dolbeault version): $H^q(X; \Omega^p) \cong \mathcal{H}^{p, q}(X)$ | △ | △ | Stated as Step 4 in `04.09.01` proof outline. **Gap** for a dedicated theorem-unit. |
@@ -298,20 +298,20 @@ These are listed here because VHCAG-I assumes them; they are already on
 the KN-II punch-list (FT 3.19, priority 1) and the KN-I punch-list
 (FT 3.18). Ship once, cite from both audits.
 
-- **`03.02.09` Almost-complex structure (manifold-level)** (KN-II
+- **`48.02.09` Almost-complex structure (manifold-level)** (KN-II
   punch-list priority 1) — load-bearing for VHCAG-I Ch. 2.
-- **`03.02.10` Complex manifold and the Dolbeault complex** (KN-II
+- **`48.02.10` Complex manifold and the Dolbeault complex** (KN-II
   punch-list priority 1) — load-bearing for VHCAG-I Chs. 2–3 and Ch. 5.
-- **`03.05.19` Holomorphic vector bundle** (KN-II punch-list priority 1)
+- **`48.05.19` Holomorphic vector bundle** (KN-II punch-list priority 1)
   — load-bearing for VHCAG-I Ch. 3 + Ch. 9 ($L$-valued forms in Kodaira
   vanishing).
-- **`03.05.20` Hermitian metric on a complex bundle; Chern connection**
+- **`48.05.20` Hermitian metric on a complex bundle; Chern connection**
   (KN-II punch-list priority 1) — load-bearing for VHCAG-I Ch. 4 + Ch. 9.
-- **`03.02.11` Hermitian manifold and the Kähler form** (KN-II
+- **`48.02.11` Hermitian manifold and the Kähler form** (KN-II
   punch-list priority 1) — load-bearing for VHCAG-I Ch. 6 onwards. This
   is the **central object** of VHCAG-I; without it no Vol-I material
   beyond Part I can be properly stated.
-- **`03.02.12` Kähler identities and the Hodge decomposition (Kähler
+- **`48.02.12` Kähler identities and the Hodge decomposition (Kähler
   version)** (KN-II punch-list priority 1) — load-bearing for VHCAG-I
   Ch. 6 + Ch. 7. The KN-II punch-list ships this as a single unit; the
   Voisin audit recommends splitting it into two for full Vol-I coverage
@@ -348,7 +348,7 @@ decomposition proof + Lefschetz decomposition):**
    §6 anchor; Griffiths-Harris §0.6–§0.7 secondary; Huybrechts §3.2
    secondary; Demailly Ch. VI secondary. ~2200 words. Master-tier
    dominant. **Sharpens `04.09.01-hodge-decomposition.md` with the full
-   differential-geometric proof.** Shared with KN-II punch-list `03.02.12`;
+   differential-geometric proof.** Shared with KN-II punch-list `48.02.12`;
    ship as a Hodge-chapter unit referenced from the KN-II Kähler section.
 3. **`04.09.05` $\partial\bar\partial$-lemma.** On a compact Kähler
    manifold, every $d$-exact, $\partial$-closed, $\bar\partial$-closed
@@ -458,7 +458,7 @@ units):**
     audit-flagged TODO_REF.
 12. **Pointer in `04.09.02-kodaira-vanishing.md`** to `04.09.10`
     (Akizuki-Nakano) as the natural generalisation, to the new
-    `03.05.20` (Chern connection) as the prerequisite layer, and to
+    `48.05.20` (Chern connection) as the prerequisite layer, and to
     `04.09.11` (Kodaira embedding) as the application-direction
     companion. Resolve the Voisin `TODO_REF` to VHCAG-I Ch. 9.
 13. **Pointer in `04.05.09-hodge-index-theorem.md`** to `04.09.08`
@@ -470,7 +470,7 @@ units):**
     framing of which the curve case is the dim-1 specialisation. Resolve
     the Voisin `TODO_REF` to VHCAG-I §5–§6.
 15. **Pointer in `06.04.05-dbar-hilbert-pde.md`** to `04.09.03` (general
-    PDE foundation) and the new `03.02.10` (Dolbeault complex). Resolve
+    PDE foundation) and the new `48.02.10` (Dolbeault complex). Resolve
     the Voisin `TODO_REF` to VHCAG-I §5.
 16. **Pointer in `04.09.07` (new hard Lefschetz unit)** to the existing
     `04.05.09-hodge-index-theorem.md` as the surface specialisation

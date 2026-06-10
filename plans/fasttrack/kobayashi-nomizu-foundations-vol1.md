@@ -277,20 +277,20 @@ audit and with the Milnor *Topology from the Differentiable Viewpoint*
 audit. Listed here because KN-I assumes them and the audit reveals them
 as silently load-bearing.
 
-1. **`03.02.02` Tangent bundle as a smooth vector bundle.** $T M$ with
+1. **`48.02.02` Tangent bundle as a smooth vector bundle.** $T M$ with
    its canonical smooth structure, $\pi: T M \to M$, local frames in a
    chart. KN-I §I.2 anchor; Lee Ch. 3 anchor. Three-tier, ~1500 words.
-2. **`03.02.03` Vector fields, Lie bracket, Lie derivative.** $\Gamma(T M)$,
+2. **`48.02.03` Vector fields, Lie bracket, Lie derivative.** $\Gamma(T M)$,
    the Lie bracket as a Lie-algebra structure on $\mathfrak{X}(M)$, Lie
    derivative $\mathcal{L}_X$ on tensor fields. KN-I §I.3 anchor; Lee
    Chs. 8–12 anchor. ~1500 words. Three-tier.
-3. **`03.02.04` Frobenius theorem.** Involutive ⇔ integrable distribution.
+3. **`48.02.04` Frobenius theorem.** Involutive ⇔ integrable distribution.
    KN-I §I.2 (Theorem 2.1) anchor; Lee Ch. 19 anchor. ~1200 words.
    Intermediate + Master.
-4. **`03.03.04` Exponential map $\exp: \mathfrak{g} \to G$ and the
+4. **`48.03.04` Exponential map $\exp: \mathfrak{g} \to G$ and the
    Maurer-Cartan form.** KN-I §I.4 anchor; Warner Ch. 3 anchor.
    Three-tier, ~1500 words. Sits in the existing `03-lie/` chapter.
-5. **`03.05.00` General fibre bundle (definition, local triviality,
+5. **`48.05.00` General fibre bundle (definition, local triviality,
    structure group, transition functions).** The umbrella unit that
    sits *above* `03.05.01-principal-bundle.md` and `03.05.02-vector-bundle.md`.
    KN-I §I.5 anchor; Steenrod *Topology of Fibre Bundles* §2–§3 anchor.
@@ -298,35 +298,35 @@ as silently load-bearing.
 
 **Priority 1 — load-bearing KN-I Ch. II–III core (the heart of the audit):**
 
-6. **`03.05.06` Vertical subbundle and fundamental vector fields.** Inside
+6. **`48.05.06` Vertical subbundle and fundamental vector fields.** Inside
    `05-bundles/`. $V P = \ker(\mathrm{d}\pi) \subseteq T P$; for each
    $X \in \mathfrak{g}$ the fundamental vector field $X^*$ on $P$.
    The infinitesimal-action map $\mathfrak{g} \to \Gamma(V P)$ is an
    isomorphism onto vertical fields. KN-I §II.1 anchor. ~1200 words.
    Intermediate + Master. **Unblocks the `03.05.07` Lean formalisation.**
-7. **`03.05.11` Horizontal lift and parallel transport.** Existence and
+7. **`48.05.11` Horizontal lift and parallel transport.** Existence and
    uniqueness of horizontal lifts of curves in $M$ to $P$. The
    parallel-transport functor $\mathrm{P}_\gamma: P_{\gamma(0)} \to
    P_{\gamma(1)}$ as a $G$-equivariant map. KN-I §II.3 anchor. ~1500 words.
    Three-tier.
-8. **`03.05.12` Reduction of structure group; reduction of a connection.**
+8. **`48.05.12` Reduction of structure group; reduction of a connection.**
    General theorem: a section of $P/H \to M$ ⇔ a reduction of $P$ to an
    $H$-subbundle $Q \subseteq P$. A connection $\omega$ reduces to $Q$
    iff its holonomy at a point of $Q$ lies in $H$. KN-I §II.7 anchor.
    ~1500 words. Three-tier. The orthogonal-frame-bundle unit
    `03.05.03` becomes a canonical *example* of this theorem.
-9. **`03.05.13` Associated bundle and induced connection.**
+9. **`48.05.13` Associated bundle and induced connection.**
    $E = P \times_G F$ for $G$ acting on $F$; the connection on $P$ induces
    a connection on $E$ (and a covariant derivative when $F$ is a vector
    space). KN-I §II.6 anchor. ~1500 words. Three-tier. The pair
    `03.05.04` ↔ `03.05.07` becomes a *corollary* of this.
-10. **`03.05.14` Torsion tensor and the two Cartan structural equations.**
+10. **`48.05.14` Torsion tensor and the two Cartan structural equations.**
     Torsion $T(X, Y) = \nabla_X Y - \nabla_Y X - [X, Y]$, the torsion
     2-form $\Theta = \mathrm{d}\theta + \omega \wedge \theta$ on $L(M)$,
     the full pair of Cartan equations. The first and second Bianchi
     identities. KN-I §III.2, §III.5 anchor. ~1500 words. Three-tier.
     **Closes the `03.05.09-curvature.md` partial coverage.**
-11. **`03.05.15` Linear connection via the frame bundle; soldering form.**
+11. **`48.05.15` Linear connection via the frame bundle; soldering form.**
     The canonical $\mathbb{R}^n$-valued 1-form $\theta$ on $L(M)$
     (soldering form), and the resulting structural equations. KN-I §III.2
     anchor. ~1500 words. Master-tier dominant; the Beginner tier is the
@@ -339,45 +339,45 @@ as silently load-bearing.
 
 **Priority 2 — Ch. IV–V Riemannian completions and Ch. VII holonomy:**
 
-13. **`03.02.05` Sectional curvature, Ricci tensor, scalar curvature.**
+13. **`48.02.05` Sectional curvature, Ricci tensor, scalar curvature.**
     The three standard curvature contractions. KN-I §IV.1 anchor;
     Lee *Riemannian Manifolds* Ch. 8 secondary. ~1500 words. Three-tier.
-14. **`03.02.06` Constant-curvature spaces and Killing-Hopf.** Model
+14. **`48.02.06` Constant-curvature spaces and Killing-Hopf.** Model
     spaces $S^n$, $\mathbb{R}^n$, $\mathbb{H}^n$; classification of
     complete simply-connected constant-curvature manifolds. KN-I §V.3
     anchor. ~1500 words. Three-tier.
-15. **`03.05.16` Holonomy group and restricted holonomy.** $\mathrm{Hol}(\omega, u)$
+15. **`48.05.16` Holonomy group and restricted holonomy.** $\mathrm{Hol}(\omega, u)$
     and $\mathrm{Hol}^0(\omega, u)$ as Lie subgroups of $G$. The
     holonomy bundle. KN-I §VII.1–§VII.2 anchor. ~1500 words. Three-tier.
     **Supplies the missing prerequisite for `03.09.18-berger-holonomy.md`.**
-16. **`03.05.17` Ambrose-Singer holonomy theorem.** The Lie algebra of
+16. **`48.05.17` Ambrose-Singer holonomy theorem.** The Lie algebra of
     $\mathrm{Hol}^0$ equals the span of $\Omega_u(X, Y)$ as $u$ ranges
     over the holonomy bundle and $X, Y \in T_u P$. KN-I §VII.8 anchor;
     Ambrose-Singer 1953 originator. ~1500 words. Intermediate + Master.
-17. **`03.05.18` Holonomy reduction theorem.** A connection on $P$
+17. **`48.05.18` Holonomy reduction theorem.** A connection on $P$
     reduces to a principal $\mathrm{Hol}(\omega, u)$-bundle. KN-I §VII.2
     anchor. ~1200 words. Master-dominant.
 
 **Priority 3 — Ch. VI transformations + Bianchi packaging:**
 
-18. **`03.02.07` Killing fields and infinitesimal isometries.** Killing
+18. **`48.02.07` Killing fields and infinitesimal isometries.** Killing
     equation $\mathcal{L}_X g = 0$; the Lie algebra of Killing fields.
     KN-I §VI.2 anchor. ~1200 words. Intermediate + Master.
-19. **`03.02.08` Myers-Steenrod theorem.** The isometry group of a
+19. **`48.02.08` Myers-Steenrod theorem.** The isometry group of a
     Riemannian manifold is a finite-dimensional Lie group. KN-I §VI.3
     anchor. ~1200 words. Master-dominant.
 20. **First and second Bianchi identities** — add as a section to
-    `03.05.14` rather than a new unit.
+    `48.05.14` rather than a new unit.
 
 **Priority 4 — survey pointers (optional, Master-only):**
 
 21. **Pointer in `03.07.05-yang-mills-action.md`** to the new
-    `03.05.11`–`03.05.18` chain as the prerequisite anchor. Single-
+    `48.05.11`–`48.05.18` chain as the prerequisite anchor. Single-
     paragraph weaving edit, not a new unit; recorded here so it is not
     forgotten in Pass-W.
-22. **Pointer in `03.09.18-berger-holonomy.md`** to `03.05.16`–`03.05.18`
+22. **Pointer in `03.09.18-berger-holonomy.md`** to `48.05.16`–`48.05.18`
     as the upstream holonomy apparatus. Single-paragraph weaving edit.
-23. **Pointer in `03.06.06-chern-weil-homomorphism.md`** to `03.05.14`
+23. **Pointer in `03.06.06-chern-weil-homomorphism.md`** to `48.05.14`
     (torsion-free, structural equations) — the construction is
     sharpened once the torsion apparatus is anchored. Single-paragraph
     weaving edit.
@@ -418,27 +418,27 @@ should carry originator-prose citations:
   de la relativité généralisée," *Annales scientifiques de l'É.N.S.*
   40 (1923) 325–412, *cont'd* 41 (1924) 1–25, 42 (1925) 17–88 — the
   invention of the **moving-frame** approach to connections; the
-  Cartan structural equations are introduced here. Cite in `03.05.14`
-  and `03.05.15`.
+  Cartan structural equations are introduced here. Cite in `48.05.14`
+  and `48.05.15`.
 - **Charles Ehresmann**, "Les connexions infinitésimales dans un espace
   fibré différentiable," in *Colloque de topologie de Bruxelles*
   (1950) — the formal definition of a connection on a principal
   bundle as a horizontal distribution. Cite in `03.05.07` and
-  `03.05.11`.
+  `48.05.11`.
 - **Warren Ambrose, Isadore Singer**, "A theorem on holonomy,"
   *Trans. AMS* 75 (1953) 428–443 — the holonomy theorem. Cite in
-  `03.05.17`.
+  `48.05.17`.
 - **Marcel Berger**, "Sur les groupes d'holonomie homogène des
   variétés à connexion affine et des variétés riemanniennes,"
   *Bull. Soc. Math. France* 83 (1955) 279–330 — the holonomy
   classification. Already cited in `03.09.18-berger-holonomy.md`;
-  the new upstream units (`03.05.16`–`03.05.18`) should cross-reference.
+  the new upstream units (`48.05.16`–`48.05.18`) should cross-reference.
 - **Heinz Hopf, Willi Rinow**, "Über den Begriff der vollständigen
   differentialgeometrischen Fläche," *Comment. Math. Helv.* 3
   (1931) 209–225 — Hopf-Rinow. Cite in `03.03.X1`.
 - **Sumner Myers, Norman Steenrod**, "The group of isometries of a
   Riemannian manifold," *Annals of Math.* 40 (1939) 400–416 —
-  Myers-Steenrod. Cite in `03.02.08`.
+  Myers-Steenrod. Cite in `48.02.08`.
 - **Kobayashi, Nomizu** (1963) — the canonical consolidation. Cite
   throughout as the in-Codex master anchor.
 
@@ -462,7 +462,7 @@ notation decision (per `docs/specs/UNIT_SPEC.md` §11) should: adopt
 KN-I's $\omega$, $\Omega$, $\Theta$, $\theta$, $L(M)$ verbatim for the
 principal-bundle units; *also* introduce the gauge-theory $A = \omega$,
 $F = \Omega$ aliases in `03.07.05-yang-mills-action.md` and in
-`03.05.11` (horizontal lift / parallel transport), with a
+`48.05.11` (horizontal lift / parallel transport), with a
 `§Notation` paragraph cross-referencing both.
 
 ---
@@ -518,14 +518,14 @@ equivalence-coverage when:
   `03.05.09`, and via aliases `03.05.03`, `03.05.01`) have the
   TODO_REF resolved to a concrete chapter/section locator in KN-I.
 - `03.09.18-berger-holonomy.md` cites the new upstream holonomy units
-  (`03.05.16`–`03.05.18`) as prerequisites.
+  (`48.05.16`–`48.05.18`) as prerequisites.
 - `03.07.05-yang-mills-action.md` cites the new connection-reduction
-  and parallel-transport units (`03.05.11`–`03.05.13`) as
+  and parallel-transport units (`48.05.11`–`48.05.13`) as
   prerequisites via Pass-W weaving paragraphs.
 - The Milnor-audit shared item (`03.03.X1` Levi-Civita / Hopf-Rinow)
   ships once and is cited by both audits without duplication.
-- Notation decisions are recorded in `03.05.07`, `03.05.11`,
-  `03.05.14`, `03.05.15` (see §4).
+- Notation decisions are recorded in `03.05.07`, `48.05.11`,
+  `48.05.14`, `48.05.15` (see §4).
 - Originator-prose citations of Levi-Civita 1917, Cartan 1923–25,
   Ehresmann 1950, Ambrose-Singer 1953, Hopf-Rinow 1931, and
   Myers-Steenrod 1939 are present in the relevant units.
@@ -574,11 +574,11 @@ transformations chapter and Bianchi packaging.
   - **J. M. Lee**, *Introduction to Smooth Manifolds*, Graduate
     Texts in Mathematics 218, Springer (2nd ed. 2013). The
     standard prerequisite. Anchor for the priority-0 manifold-layer
-    units (`03.02.02`, `03.02.03`, `03.02.04`).
+    units (`48.02.02`, `48.02.03`, `48.02.04`).
   - **J. M. Lee**, *Introduction to Riemannian Manifolds*, GTM 176,
     Springer (2nd ed. 2018). The standard Riemannian-geometry text;
-    anchor for the priority-2 Riemannian units (`03.02.05`,
-    `03.02.06`) alongside KN-I §IV.
+    anchor for the priority-2 Riemannian units (`48.02.05`,
+    `48.02.06`) alongside KN-I §IV.
   - **D. Joyce**, *Riemannian Holonomy Groups and Calibrated
     Geometry*, Oxford Graduate Texts in Mathematics 12, OUP 2007.
     The standard reference for special holonomy beyond Berger's

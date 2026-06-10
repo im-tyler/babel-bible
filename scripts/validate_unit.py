@@ -63,7 +63,7 @@ DOMAIN_BY_PREFIX = {
     "22": "language",
     "23": "world",
     "24": "numerical-pde",
-    "25": "logic",
+    "25": "math",
     "26": "statistics",
     "27": "earth-science",
     "28": "astronomy",
@@ -86,6 +86,9 @@ DOMAIN_BY_PREFIX = {
     "45": "math",
     "46": "math",
     "47": "other",
+    "48": "math",
+    "49": "math",
+    "50": "computing",
 }
 
 INTERMEDIATE_EVIDENCE_KEYWORDS = {

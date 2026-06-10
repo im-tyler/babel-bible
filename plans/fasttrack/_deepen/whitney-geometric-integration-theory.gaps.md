@@ -89,13 +89,13 @@ First-pass audit items that are NOW shipped or were already shipped; each with t
   `…/02.13.11-slicing-of-currents.md`.
 - **Integration of forms over flat chains; Stokes for flat chains** (audit item 17) — COVERED
   inside `02.13.05` (flat-chain Stokes / form pairing) + smooth Stokes at `03.04.05`.
-- **Whitney embedding theorem** (audit item 10, `03.02.04`) — COVERED at
+- **Whitney embedding theorem** (audit item 10, `48.02.04`) — COVERED at
   `content/03-modern-geometry/02-manifolds/03.02.01-smooth-manifold.md`: weak ($\mathbb{R}^{2n+1}$)
   and strong ($\mathbb{R}^{2n}$) versions stated, with a Sard-based proof sketch and Whitney-trick
-  pointer. (Audit proposed `03.02.04`; that id is now occupied by Frobenius in the *other*
+  pointer. (Audit proposed `48.02.04`; that id is now occupied by Frobenius in the *other*
   manifolds dir — the embedding content already lives in `03.02.01`.) NOT a gap.
 - **Whitney trick** (Whitney 1944, removal of transverse double points) — COVERED at
-  `content/03-differential-geometry/02-manifolds/03.02.22-the-whitney-trick-and-handle-cancellation.md`.
+  `content/03-differential-geometry/02-manifolds/48.02.22-the-whitney-trick-and-handle-cancellation.md`.
 - **mass & comass of $r$-vectors as dual norms** (audit item 12) — COVERED: comass is *defined*
   as a dual norm on unit decomposable $p$-vectors in
   `content/03-modern-geometry/09-spin-geometry/03.09.19-calibrated-geometries.md` (36 hits).

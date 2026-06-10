@@ -20,7 +20,7 @@ The first-pass audit (`plans/fasttrack/freed-lectures-field-theory-topology.md`)
 estimated ~3% coverage and proposed 13 standalone units + 2 grafts. Since it was
 written the corpus grew to 1319 units and several of its items are now COVERED or
 partially covered cross-section. Crucially: the **bare Atiyah–Segal TQFT-functor
-definition is already stated** inside `03.02.20` (the cobordism-category unit
+definition is already stated** inside `48.02.20` (the cobordism-category unit
 literally says "A topological quantum field theory is a symmetric monoidal functor
 out of $\mathbf{Cob}_n$, by the Atiyah-Segal axioms" with the symmetric-monoidal +
 duality structure spelled out). **Pontryagin–Thom, Thom/bordism spectra, the
@@ -47,9 +47,9 @@ the producer, do not spawn.
 
 - **id:** `03.16.01`
 - **title:** The Atiyah–Segal axioms: TQFT as a symmetric monoidal functor $\mathrm{Bord}_n^H \to \mathrm{sVect}$
-- **spec:** Promote the one-paragraph definition in `03.02.20` to a worked unit. A TQFT is a symmetric monoidal functor $F:\mathrm{Bord}_n^H\to\mathrm{Vect}_\mathbb{C}$ (or $\mathrm{sVect}_\mathbb{C}$): closed $(n-1)$-manifolds $\mapsto$ state spaces $F(Y)$, bordisms $\mapsto$ linear maps, disjoint union $\mapsto$ tensor product, closed $n$-manifolds $\mapsto$ partition-function numbers $F(M)\in\mathbb{C}$. Consequences: $F(\varnothing)=\mathbb{C}$, $\dim F(Y)=F(Y\times S^1)$, finite-dimensionality from duality, the **gluing law** $F(M_1\cup_Y M_2)=\langle F(M_1),F(M_2)\rangle$. Tangential structure $H\to O(n)$ (orientation, spin, framing, $\mathrm{Spin}^c$) as the input datum. Worked: $\mathrm{Bord}_2^{\mathrm{or}}$ pictures.
-- **why a gap:** This is the central definition the whole book turns on. The corpus states it in one sentence (`03.02.20` line 262) but never works state spaces / partition functions / gluing, never introduces tangential structure $H$ as a unified notion, and never names $\mathrm{sVect}$. grep confirms no unit contains "commutative Frobenius algebra", "partition function" tied to bordism, or "$\mathrm{Bord}_n^H$". Freed Introduction + Lectures 1, 3 anchor; Atiyah 1988 (*Publ. Math. IHÉS* 68) + Segal 1988/2004 originators.
-- **prereqs:** `03.02.20` (cobordism category, symmetric-monoidal + duals), `03.09.04` (spin structure, for the $H=\mathrm{Spin}$ example), `03.12.04` (spectrum, for the bordism-spectra link).
+- **spec:** Promote the one-paragraph definition in `48.02.20` to a worked unit. A TQFT is a symmetric monoidal functor $F:\mathrm{Bord}_n^H\to\mathrm{Vect}_\mathbb{C}$ (or $\mathrm{sVect}_\mathbb{C}$): closed $(n-1)$-manifolds $\mapsto$ state spaces $F(Y)$, bordisms $\mapsto$ linear maps, disjoint union $\mapsto$ tensor product, closed $n$-manifolds $\mapsto$ partition-function numbers $F(M)\in\mathbb{C}$. Consequences: $F(\varnothing)=\mathbb{C}$, $\dim F(Y)=F(Y\times S^1)$, finite-dimensionality from duality, the **gluing law** $F(M_1\cup_Y M_2)=\langle F(M_1),F(M_2)\rangle$. Tangential structure $H\to O(n)$ (orientation, spin, framing, $\mathrm{Spin}^c$) as the input datum. Worked: $\mathrm{Bord}_2^{\mathrm{or}}$ pictures.
+- **why a gap:** This is the central definition the whole book turns on. The corpus states it in one sentence (`48.02.20` line 262) but never works state spaces / partition functions / gluing, never introduces tangential structure $H$ as a unified notion, and never names $\mathrm{sVect}$. grep confirms no unit contains "commutative Frobenius algebra", "partition function" tied to bordism, or "$\mathrm{Bord}_n^H$". Freed Introduction + Lectures 1, 3 anchor; Atiyah 1988 (*Publ. Math. IHÉS* 68) + Segal 1988/2004 originators.
+- **prereqs:** `48.02.20` (cobordism category, symmetric-monoidal + duals), `03.09.04` (spin structure, for the $H=\mathrm{Spin}$ example), `03.12.04` (spectrum, for the bordism-spectra link).
 - **chapter dir:** new `03-modern-geometry/16-tqft/`; `section: modern-geometry`, `chapter: tqft`. Three-tier; ~2000 words. §Notation records $\mathrm{Bord}_n^H$, $\mathrm{sVect}$.
 
 ---
@@ -60,7 +60,7 @@ the producer, do not spawn.
 - **title:** Classification of 2d oriented TQFTs: the Frobenius-algebra theorem
 - **spec:** State and prove (sketch) the equivalence: the category of 2d oriented TQFTs $F:\mathrm{Bord}_2^{\mathrm{or}}\to\mathrm{Vect}_\mathbb{C}$ is equivalent to the category of commutative Frobenius algebras. Generators-and-relations presentation of $\mathrm{Bord}_2^{\mathrm{or}}$ (cap, cup, pair of pants and its dual generate; the relations are exactly the Frobenius + commutativity + Frobenius-form axioms). The pair-of-pants = multiplication, the cap = trace/counit. Worked example: $A=\mathbb{C}[G]$ recovering 2d Dijkgraaf–Witten finite-gauge-theory partition functions (counting $G$-bundles weighted by $|\mathrm{Aut}|^{-1}$).
 - **why a gap:** The canonical first non-trivial TQFT computation; corpus-wide absent (no "commutative Frobenius algebra", no "2d TQFT", no "Dijkgraaf–Witten" anywhere — grep confirms). The "pair of pants" hits in the corpus are Morse-cohomology / moduli-of-curves, not the 2d-TQFT generators. Freed Lecture 4.2 anchor; Abrams 1996 / Dijkgraaf 1989 thesis + Dijkgraaf–Witten 1990 originators.
-- **prereqs:** `03.16.01` (Atiyah–Segal axioms), `03.02.20` (cobordism category). Frobenius-algebra background is light and self-contained in the unit (the corpus `03.02.04`/`07.01.12` Frobenius hits are unrelated: Frobenius *theorem* on distributions / Frobenius–Schur indicator).
+- **prereqs:** `03.16.01` (Atiyah–Segal axioms), `48.02.20` (cobordism category). Frobenius-algebra background is light and self-contained in the unit (the corpus `48.02.04`/`07.01.12` Frobenius hits are unrelated: Frobenius *theorem* on distributions / Frobenius–Schur indicator).
 - **chapter dir:** `03-modern-geometry/16-tqft/`. Three-tier; ~1800 words. *Signature worked computation* of the cluster.
 
 ---
@@ -111,8 +111,8 @@ the producer, do not spawn.
 
 ## COVERED (not gaps) — verified against the live corpus
 
-- **Bordism / cobordism category as a symmetric monoidal category with duals** — `03.02.20-handles-surgery-and-the-cobordism-category` (full $\mathbf{Cob}_n$ construction: objects, gluing, identity, disjoint-union monoidal, $\overline V$ duals, evaluation/coevaluation; line 262).
-- **The bare Atiyah–Segal definition (TQFT = symmetric monoidal functor out of $\mathbf{Cob}_n$)** — STATED in `03.02.20` (line 262 + line 300, crediting Atiyah 1988). The *worked* version (state spaces / partition functions / gluing / tangential $H$) is GAP 1 — the one-sentence statement is not a substitute.
+- **Bordism / cobordism category as a symmetric monoidal category with duals** — `48.02.20-handles-surgery-and-the-cobordism-category` (full $\mathbf{Cob}_n$ construction: objects, gluing, identity, disjoint-union monoidal, $\overline V$ duals, evaluation/coevaluation; line 262).
+- **The bare Atiyah–Segal definition (TQFT = symmetric monoidal functor out of $\mathbf{Cob}_n$)** — STATED in `48.02.20` (line 262 + line 300, crediting Atiyah 1988). The *worked* version (state spaces / partition functions / gluing / tangential $H$) is GAP 1 — the one-sentence statement is not a substitute.
 - **Pontryagin–Thom construction; unoriented & oriented bordism rings** — `03.06.12-unoriented-bordism-thoms-theorem` and `03.06.13-oriented-bordism-pontryagin-thom` (full units; Thom 1954, Wall 1960 anchors).
 - **Thom / bordism spectra $MO, MSO, MU$; bordism as a generalised cohomology theory; Brown representability; symmetric-monoidal category of spectra; $E_\infty$-rings** — `03.12.04-spectrum` (lines 82, 171, 181, 412). The audit's "Madsen–Tillmann" gap extends this; $MTH$ itself is absent (GAP 4).
 - **Chern–Simons forms / transgression (classical)** — `03.06.07-chern-simons-and-transgression` (full unit; Chern–Simons 1974, Freed 1995). The *quantum* TQFT is GAP 6.
@@ -125,7 +125,7 @@ the producer, do not spawn.
 - **Wick rotation / imaginary-time / Euclidean continuation** — `08.09.01-wick-rotation` (dedicated unit) + path-integral units. The audit's "Wick rotation" gap is COVERED.
 - **WZW action and the level-$k$ extension** — `03.10.03-the-wess-zumino-witten-action-and-the-level-k-extension` (feeds GAP 6's conformal-blocks state spaces).
 - **CFT basics (the historical sibling of TQFT; Segal axioms namedrop)** — `03.10.02-cft-basics` (mentions modular-functor / TQFT formulation). Pass-W should weave the new `16-tqft/` cluster back here.
-- **Frobenius (theorem / reciprocity / Schur indicator)** — `03.02.04`, `07.01.08`, `07.01.12`: all UNRELATED to Frobenius *algebras*; no commutative-Frobenius-algebra unit exists (confirms GAP 2 is real).
+- **Frobenius (theorem / reciprocity / Schur indicator)** — `48.02.04`, `07.01.08`, `07.01.12`: all UNRELATED to Frobenius *algebras*; no commutative-Frobenius-algebra unit exists (confirms GAP 2 is real).
 - **Symmetric monoidal categories / Picard groupoids / super vector spaces (audit Priority-0 prereq glue)** — NOT proposed as standalone gaps. The corpus has no category-theory section and the spectrum unit already uses monoidal/$E_\infty$ language without one; fold the needed pieces into GAPs 1, 2, 4 as §Background/§Notation blocks rather than spawning three thin prereq units (gold-plating). Producer note, not a gap.
 
 ---

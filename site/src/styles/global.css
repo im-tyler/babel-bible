@@ -1245,3 +1245,5 @@ body:has(article.unit-page) .tier-toggle { display: inline-flex; }
 }
 .lens-toggle__btn:hover { color: var(--fg); }
 .lens-toggle__btn--active { background: var(--accent); color: var(--bg); }
+
+.unit-body img[src*="placeholder"] { display: none; }

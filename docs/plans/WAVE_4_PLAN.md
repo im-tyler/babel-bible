@@ -86,7 +86,7 @@ After Wave 4, the remaining gaps are:
 - `03.12.03` Suspension (homotopy-theoretic)
 - `03.12.04` Spectrum / stable homotopy category
 - `03.12.05` Eilenberg-MacLane space (foundation for ordinary cohomology in homotopy theory)
-- `03.05.06` Reduction of structure group (alternative formulation of spin / oriented bundles, useful)
+- `48.05.06` Reduction of structure group (alternative formulation of spin / oriented bundles, useful)
 
 Wave 5 is optional in the sense that the curriculum DAG is already substantially complete after Wave 4. Its primary purpose is closing the last `pending_prereqs: true` flags rather than introducing new content.
 

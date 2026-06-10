@@ -149,7 +149,7 @@ infrastructure):
 Krantz stays inside the function-theory / PDE programme: it does *not*
 develop coherent-sheaf cohomology in $n$ variables (Gunning-Rossi 3.24
 / Grauert-Remmert), Kähler-Hodge theory (Griffiths-Harris / Voisin —
-Babel Bible has `03.02.11-12`, `04.09.*`), or the algebraic theory of
+Babel Bible has `48.02.11-12`, `04.09.*`), or the algebraic theory of
 complex spaces. Those are owned by adjacent audits.
 
 ---
@@ -176,11 +176,11 @@ adjacent complex-geometry units. Existing relevant ids, verified by
 - **One-variable $\bar\partial$ PDE:** `06.04.05-dbar-hilbert-pde`
   (Donaldson-derived, $n=1$).
 - **Complex geometry (differential / projective):**
-  `03.02.09-almost-complex-structure`,
-  `03.02.10-complex-manifold-dolbeault`,
-  `03.02.11-hermitian-kahler-form`,
-  `03.02.12-kahler-identities-hodge-decomposition`,
-  `03.05.19-holomorphic-vector-bundle`,
+  `48.02.09-almost-complex-structure`,
+  `48.02.10-complex-manifold-dolbeault`,
+  `48.02.11-hermitian-kahler-form`,
+  `48.02.12-kahler-identities-hodge-decomposition`,
+  `48.05.19-holomorphic-vector-bundle`,
   `05.06.03-newlander-nirenberg`.
 - **Sheaf / coherence (algebraic):** `04.01.01-sheaf`,
   `04.03.01-sheaf-cohomology`, `04.06.02-coherent-sheaf`,
@@ -482,7 +482,7 @@ unit.
     ~800 words. Cross-link to Gunning-Rossi 3.24 (local rings, coherent
     sheaves), Hörmander (the $L^2$ programme in full), Grauert-Remmert
     (Stein spaces), and the Babel Bible Kähler/Hodge units
-    (`03.02.10-12`, `04.09.*`). Situates Krantz's hard-analysis route.
+    (`48.02.10-12`, `04.09.*`). Situates Krantz's hard-analysis route.
 
 20. **Notation crosswalk (`notation/krantz.md`).** **[Krantz-only]**
     Multi-index $\alpha$; $\bar\partial$, $\bar\partial^*$, $\Box$;
@@ -575,7 +575,7 @@ for the running examples.
   (dim-one holomorphic convexity, for contrast)}
 - `06.10.02` (PSH) ← {`06.01.24-dirichlet-problem-perron` (subharmonic
   $n=1$), `06.07.01`}
-- `06.10.03` (pseudoconvexity) ← {`06.10.02`, `03.02.09-almost-complex-structure`}
+- `06.10.03` (pseudoconvexity) ← {`06.10.02`, `48.02.09-almost-complex-structure`}
 - `06.10.04` ($\bar\partial$-$L^2$) ← {`06.10.02`, `06.10.03`,
   `06.04.05-dbar-hilbert-pde` (dim-one $\bar\partial$)}
 - `06.10.05` (Levi problem) ← {`06.10.01`, `06.10.03`, `06.10.04`}
@@ -627,7 +627,7 @@ cross-reference `06.10.05`.
   $(0,1)$-existence theorem; the broader programme is a Hörmander-book
   audit if/when added.
 - **Kähler / Hodge** complex-geometry material — Babel Bible already has
-  `03.02.10-12` (Dolbeault, Kähler, Kähler-Hodge) and `04.09.*` (Hodge
+  `48.02.10-12` (Dolbeault, Kähler, Kähler-Hodge) and `04.09.*` (Hodge
   decomposition, Kodaira vanishing/embedding). Krantz is function
   theory on domains, not compact-Kähler theory; no overlap to reclaim
   here beyond the survey pointer (item 19).
@@ -672,7 +672,7 @@ at equivalence-coverage when:
   chapter to: the deepened entry units `06.07.01-02`; the dimension-one
   Stein chapter `06.09.*` (Cousin/Levi-problem dimension-one ancestors);
   the higher-dim survey `06.09.08`; the one-variable $\bar\partial$ unit
-  `06.04.05`; and the complex-geometry units `03.02.10-12`, `04.09.*`
+  `06.04.05`; and the complex-geometry units `48.02.10-12`, `04.09.*`
   (Kähler/Hodge cross-links via the survey item 19).
 
 Priority-1 (items 1-7) closes the structural SCV spine — the

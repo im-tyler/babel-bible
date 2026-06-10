@@ -603,7 +603,7 @@ That brings Manin to 10/14 after Cycle 14. Then Cycle 15 finishes Manin (21.06.0
 
 ### Pass-W (cycle 14)
 
-22 reciprocal Connections bullets across 11 peer files (4 Section-21-shipped, 3 external — 04.04.03 elliptic curves, 06.06.03 Jacobian variety, 03.03.05 p-adic Lie group — plus 4 intra-batch fills). All touched files validate at 27/27.
+22 reciprocal Connections bullets across 11 peer files (4 Section-21-shipped, 3 external — 04.04.03 elliptic curves, 06.06.03 Jacobian variety, 48.03.05 p-adic Lie group — plus 4 intra-batch fills). All touched files validate at 27/27.
 
 ### Book-completion progress
 
@@ -625,7 +625,7 @@ That brings Manin to 10/14 after Cycle 14. Then Cycle 15 finishes Manin (21.06.0
 
 ### Catalog backfills
 
-- `diff-geom.padics-lie-group` entry added (resolves pre-existing pointer in 03.03.05; same pattern as 01.02.02 Cycle 13)
+- `diff-geom.padics-lie-group` entry added (resolves pre-existing pointer in 48.03.05; same pattern as 01.02.02 Cycle 13)
 
 ### Term-of-art tension (continued)
 

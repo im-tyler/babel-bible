@@ -40,7 +40,7 @@ downstream of MMT and substantively distinct (gradient flow,
 transversality, signs, the Morse-Smale-Witten complex); the Babel Bible
 priority is to anchor classical MMT first and then build the complex on
 top." This audit is that follow-up. **The two plans are designed to nest:**
-Milnor's proposed units `03.02.02–07` (critical points, Morse lemma, handle
+Milnor's proposed units `48.02.02–07` (critical points, Morse lemma, handle
 attachment, Morse inequalities, Jacobi/Index theorem) are the *classical*
 prerequisites; Schwarz's units (proposed here in a new chapter
 `03.15-morse-homology/`) are the *complex-theoretic* layer built on top.
@@ -208,9 +208,9 @@ to supply the missing template that both Floer chapters silently assume.
 
 | Schwarz topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Morse function, critical point, Hessian, Morse index $\mu(x)$ | `02.05.05-multivariable-taylor-extrema` (Euclidean shadow only); proposed Milnor `03.02.02` | ✗ | **Gap — but owned by the Milnor 3.03 plan (item 1, `03.02.02`).** This audit *depends* on it, does not duplicate it. Current corpus: only the multivariable-extrema unit, no manifold Hessian / index. |
+| Morse function, critical point, Hessian, Morse index $\mu(x)$ | `02.05.05-multivariable-taylor-extrema` (Euclidean shadow only); proposed Milnor `48.02.02` | ✗ | **Gap — but owned by the Milnor 3.03 plan (item 1, `48.02.02`).** This audit *depends* on it, does not duplicate it. Current corpus: only the multivariable-extrema unit, no manifold Hessian / index. |
 | Negative gradient flow $\dot\gamma = -\nabla f(\gamma)$; flow as dynamical system | `02.12.05-rectification-theorem` (generic flow-box only) | ✗ | **Gap.** The gradient flow as the central object of Morse homology is unbuilt. Rectification theorem gives only the regular-point normal form. |
-| Stable / unstable manifolds $W^s(x)$, $W^u(x)$; $\dim W^u(x) = \mu(x)$ | — | ✗ | **Gap (foundational).** Smale-era reformulation; absent. The Milnor plan flags $W^s/W^u$ as a notation addition to its `03.02.03` but does not build the stable-manifold theorem. |
+| Stable / unstable manifolds $W^s(x)$, $W^u(x)$; $\dim W^u(x) = \mu(x)$ | — | ✗ | **Gap (foundational).** Smale-era reformulation; absent. The Milnor plan flags $W^s/W^u$ as a notation addition to its `48.02.03` but does not build the stable-manifold theorem. |
 | Morse-Smale transversality condition ($W^u(x) \pitchfork W^s(y)$) | — | ✗ | **Gap (foundational).** The defining hypothesis of the whole theory. |
 | Trajectory spaces $\mathcal{M}(x, y)$, unparametrised $\widehat{\mathcal{M}}(x,y) = \mathcal{M}/\mathbb{R}$ | △ | △ | **Gap at finite-dim depth.** The *concept* appears inside `05.08.02-floer-homology` (master tier mentions "gradient flow lines... broken flow lines") and `03.07.23-instanton-floer-homology-hf-star-y` (trajectory moduli $\mathcal{M}(\alpha,\beta)$), but only in the infinite-dimensional Floer framing; the finite-dim $\mathcal{M}(x,y)$ as a smooth manifold is never constructed. |
 | Fredholm description: $\mathcal{M}(x,y)$ = zero set of a Fredholm section, index $\mu(x)-\mu(y)$ | — | ✗ | **Gap.** The Robbin-Salamon spectral-flow = Fredholm-index identification is the analytic heart. `03.07.19-spectral-flow-and-the-floer-grading-mod-8` does the *infinite-dim instanton* spectral flow but not the finite-dim Morse case. |
@@ -293,15 +293,15 @@ The recommended home is a **new chapter `03.15-morse-homology/`** inside
 `03-modern-geometry/` (next free chapter id: `03.01`–`03.14` are all in
 use; `03.14` is `14-quantum-representations`). This keeps the
 Morse-Smale-Witten complex as a coherent block, *downstream* of the
-classical Milnor foundations (`03.02.02–07`, owned by the 3.03 plan) and
+classical Milnor foundations (`48.02.02–07`, owned by the 3.03 plan) and
 *upstream* of the Floer chapters (`03.07.*`, `05.08.*`) that reproduce its
 architecture. New IDs `03.15.01+` do not collide with anything in the
 corpus.
 
 **Priority 0 — cross-dependency on the Milnor 3.03 plan.** Schwarz's Part I
 assumes the classical Morse foundations Milnor's plan proposes as
-`03.02.02` (critical point, Hessian, Morse index, Morse lemma) and
-`03.02.03` (Morse functions, handle attachment, with $W^s/W^u$ as a
+`48.02.02` (critical point, Hessian, Morse index, Morse lemma) and
+`48.02.03` (Morse functions, handle attachment, with $W^s/W^u$ as a
 notation addition). **These are hard prerequisites for every unit below
 and should ship from the Milnor batch first.** This audit does not
 re-propose them. If the Milnor batch has not run, items 1–2 below must
@@ -325,7 +325,7 @@ itself — the load-bearing content the Floer chapters silently assume.
    = \mu(x)-\mu(y)$. Worked example: height function on $T^2$ embedded
    upright — four critical points (index 0,1,1,2), the flow lines between
    them, Morse-Smale after a small tilt. **Highest priority — every other
-   P1 item builds on it. Hard prereq: Milnor `03.02.02–03`.**
+   P1 item builds on it. Hard prereq: Milnor `48.02.02–03`.**
 
 2. **`03.15.02` Trajectory spaces and the Fredholm / transversality
    theorem.** [NEW] Schwarz Part I (Ch. 2–3) anchor; Sard-Smale 1965
@@ -428,7 +428,7 @@ These close the main theorem and the Part III algebraic payload.
    `03.12.15`), hence equals singular homology by axiomatic uniqueness;
    (ii) the comparison route — a self-indexing Morse function makes
    $C_*(f)$ the cellular chain complex of the induced CW structure
-   (handle attachment, cite Milnor `03.02.03` and `03.12.13`). Worked
+   (handle attachment, cite Milnor `48.02.03` and `03.12.13`). Worked
    example: $\mathbb{CP}^n$ with the standard Morse function ($n+1$
    critical points of even index $0,2,\dots,2n$, $\partial=0$) recovering
    $H_*(\mathbb{CP}^n)$. **Hard prereqs: items 6, 7;
@@ -529,8 +529,8 @@ outputs, Priority 1 fits a focused ~2-day window.
 
 - **Batch A (foundations: items 1, 2, ~9 h):** opens `03.15.01–02`. Item 1
   (gradient flow / $W^s/W^u$ / Morse-Smale) is independent given Milnor's
-  `03.02.02–03`; item 2 (trajectory spaces / transversality) depends on
-  item 1. **Hard prereq: Milnor 3.03 batch (`03.02.02–03`) shipped first.**
+  `48.02.02–03`; item 2 (trajectory spaces / transversality) depends on
+  item 1. **Hard prereq: Milnor 3.03 batch (`48.02.02–03`) shipped first.**
 - **Batch B (analysis: items 3, 4, 5, ~5.3 h):** depends on Batch A.
   Compactness (3) → gluing (4) → orientations (5), each on the prior.
 - **Batch C (the complex: item 6, ~5 h):** depends on Batches A and B.
@@ -579,8 +579,8 @@ honest $\mathbb{Z}$-grading by index. Record inline in `03.15.06`.
 
 **DAG edges to add** (Priority 1–3 batch):
 
-- `03.15.01` (gradient flow / Morse-Smale) ← {Milnor `03.02.02`,
-  `03.02.03`; `02.12.05` rectification}
+- `03.15.01` (gradient flow / Morse-Smale) ← {Milnor `48.02.02`,
+  `48.02.03`; `02.12.05` rectification}
 - `03.15.02` (trajectory spaces / transversality) ← `03.15.01`
 - `03.15.03` (compactness) ← `03.15.02`
 - `03.15.04` (gluing) ← `03.15.03`
@@ -597,9 +597,9 @@ honest $\mathbb{Z}$-grading by index. Record inline in `03.15.06`.
 - `03.15.12` (Witten SUSY) ← `03.15.06`
 
 **Composite Milnor + Schwarz batch recommendation.** Milnor 3.03 builds
-the classical Morse foundations (`03.02.02–07`); Schwarz 3.04 builds the
+the classical Morse foundations (`48.02.02–07`); Schwarz 3.04 builds the
 complex on top (`03.15.*`). **Run the two batches in sequence in one
-campaign window:** Milnor's `03.02.02–03` are hard prereqs for Schwarz's
+campaign window:** Milnor's `48.02.02–03` are hard prereqs for Schwarz's
 `03.15.01–02`, and the Floer-bridge unit `03.15.11` is the natural place
 to discharge the Milnor plan's deferred Floer-dependency note (Milnor §5,
 item 14: "Pointer in `05.08.02` Floer homology to the new Morse units").
@@ -613,7 +613,7 @@ One integration agent should own both batches so the
 - **Classical Morse theory foundations** (critical points, Morse lemma,
   handle attachment, Morse inequalities as a *standalone* topic, Jacobi
   fields, the Index Theorem, geodesics, Bott periodicity). These are
-  **Milnor 3.03** (`milnor-morse-theory.md`, units `03.02.02–07`,
+  **Milnor 3.03** (`milnor-morse-theory.md`, units `48.02.02–07`,
   `03.03.X1`, `03.08.X1–X2`, `03.12.X1–X2`). Schwarz cites Milnor for all
   of it; this audit depends on those units, does not duplicate them.
 - A line-number-level inventory of every lemma in Schwarz's three parts
@@ -649,8 +649,8 @@ One integration agent should own both batches so the
 Per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md` §3.4 and §9, the book is at
 equivalence-coverage when:
 
-- The Milnor 3.03 batch's `03.02.02` (critical point / Hessian / index /
-  Morse lemma) and `03.02.03` (Morse functions / handle attachment / $W^s$,
+- The Milnor 3.03 batch's `48.02.02` (critical point / Hessian / index /
+  Morse lemma) and `48.02.03` (Morse functions / handle attachment / $W^s$,
   $W^u$ notation) have shipped — **hard prereq** for `03.15.01–02`.
 - ≥95% of Schwarz's named theorems map to Babel Bible units at
   Schwarz-equivalent proof depth (currently ~8%; after Priority 1 rises to
@@ -670,7 +670,7 @@ equivalence-coverage when:
 - For Schwarz's chapter dependency chain (Part I trajectory spaces → Part
   II complex / main theorem → Part III structure), the corresponding
   `prerequisites` chain `03.15.01 → … → 03.15.06 → 03.15.08 → 03.15.09/10`
-  exists in the DAG, rooted at Milnor `03.02.02–03`.
+  exists in the DAG, rooted at Milnor `48.02.02–03`.
 - Pass-W weaving connects the new `03.15.*` units to the two Floer
   chapters: the bridge unit `03.15.11` links forward to `05.08.02` and
   `03.07.23`, and the ENRICH edits (items 12–13) discharge the silent
@@ -705,5 +705,5 @@ homology theorem / extensions), cross-checked against Audin-Damian *Morse
 Theory and Floer Homology* (Universitext 2014) Part I, Banyaga-Hurtubise
 *Lectures on Morse Homology* (2004), and the corpus's own Floer units as
 the infinite-dimensional analogues. Hard prereq: Milnor 3.03 batch
-(`03.02.02–03`). Nests under `milnor-morse-theory.md`, which explicitly
+(`48.02.02–03`). Nests under `milnor-morse-theory.md`, which explicitly
 defers the Morse-complex programme to this plan.*

@@ -171,7 +171,7 @@ unit is the foundation the rest of the GJ punch-list builds on.
 | Geometric realisation $|\cdot|$ as a coend (§I.2) | `03.12.25` | ✓ | Shipped this cycle. |
 | $|\cdot| \dashv \mathrm{Sing}$ adjunction (§I.2) | `03.12.25` | ✓ | Shipped this cycle. |
 | Milnor 1957 finite-products theorem (§I.2) | `03.12.25` (Master) | ✓ | Covered at Master tier. |
-| Kan complexes and the extension condition (§I.3) | — | ✗ | **Gap (P1, high-priority — MS-overlap).** Already on May 3.40 punch-list as `03.12.25` (now `03.12.26` in our local numbering since `03.12.25` is taken). |
+| Kan complexes and the extension condition (§I.3) | — | ✗ | **Gap (P1, high-priority — MS-overlap).** Already on May 3.40 punch-list as `03.12.25` (now `48.12.26` in our local numbering since `03.12.25` is taken). |
 | Simplicial homotopy / homotopy of $n$-simplices (§I.3, §I.6) | — | ✗ | **Gap. MS-overlap.** |
 | Simplicial homotopy groups $\pi_n(K, *)$ (§I.7) | — | ✗ | **Gap (P1). MS-overlap.** |
 | Function complex $\mathrm{Hom}(K, L)$ and the simplicial-set enrichment of $\mathbf{sSet}$ (§I.5) | — | ✗ | **Gap.** Internal hom; load-bearing for the model-category structure. |
@@ -291,8 +291,8 @@ punch-list. Model-category language is largely absent from Babel Bible.**
 
 - `03.12.25-simplicial-sets-and-geometric-realization` — **shipped this cycle**.
   GJ §I.1-§I.2. All P1 units below build on it.
-- May 3.40 (FT) priority-1 punch-list units `03.12.26` (Kan complex) through
-  `03.12.30` (Dold-Kan) — see `plans/fasttrack/may-simplicial-objects.md` §3.
+- May 3.40 (FT) priority-1 punch-list units `48.12.26` (Kan complex) through
+  `48.12.30` (Dold-Kan) — see `plans/fasttrack/may-simplicial-objects.md` §3.
   These are **shared prerequisites** between the May 3.40 and GJ 3.41 plans
   (same units, both plans depend on them). **Recommendation: produce them
   once as the joint May/GJ batch and cite both originator texts**, then build
@@ -349,7 +349,7 @@ punch-list. Model-category language is largely absent from Babel Bible.**
 **Priority 2 — bisimplicial sets, Bousfield-Kan, simplicial groups
 (estimate: 4 new units):**
 
-6. **`03.12.36` Bisimplicial set, diagonal, and the realisation lemma.**
+6. **`48.12.36` Bisimplicial set, diagonal, and the realisation lemma.**
    Bisimplicial set $X: \Delta^{\mathrm{op}} \times \Delta^{\mathrm{op}} \to
    \mathbf{Set}$; the two derived simplicial-set functors (diagonal,
    row-wise / column-wise realisation); the realisation lemma:
@@ -369,7 +369,7 @@ punch-list. Model-category language is largely absent from Babel Bible.**
    Convergence under connectivity hypotheses. Pointer to the unstable Adams
    spectral sequence as a special case. Master-only, ~1800 words. Anchor:
    GJ §VII.6; Bousfield-Kan 1972 (originator).
-9. **`03.12.39` Simplicial group and the $W\bar{}$ classifying functor.**
+9. **`48.12.39` Simplicial group and the $W\bar{}$ classifying functor.**
    Simplicial group $G$, the canonical Kan-complex structure; the $W\bar{G}$
    classifying simplicial set; classification of principal-$G$ Kan
    fibrations as homotopy classes $[X, W\bar{G}]$. Cross-links to
@@ -434,7 +434,7 @@ punch-list. Model-category language is largely absent from Babel Bible.**
 - GJ uses $W\bar{G}$ for the classifying simplicial set of a simplicial
   group $G$; Codex topology side uses $BG$. Keep both: $BG$ for the
   topological classifying space, $W\bar{G}$ for the simplicial-set version,
-  with an explicit comparison statement in `03.12.39` ($|W\bar{G}| \simeq BG$
+  with an explicit comparison statement in `48.12.39` ($|W\bar{G}| \simeq BG$
   for $G$ a topological group with simplicial-set model).
 - GJ writes $\mathrm{Ho}(\mathcal{M})$ for the homotopy category; matches the
   modern convention. May's `h𝒯` notation (May 3.38 plan) is the same object;
@@ -488,7 +488,7 @@ clearly identified originators:
   *Transactions of the AMS* 87 (1958) 330-346. Originator of Kan complexes,
   the extension condition, simplicial homotopy groups, and the loop-group
   functor $G$. Already on the May 3.40 plan originator list; co-cite in
-  GJ-side units `03.12.33`, `03.12.39`.
+  GJ-side units `03.12.33`, `48.12.39`.
 - **Kan, D. M.** "A combinatorial definition of homotopy groups,"
   *Annals of Mathematics* 67 (1958) 282-312. Cite in `03.12.33`.
 - **Bousfield, A. K., and Kan, D. M.** *Homotopy Limits, Completions and
@@ -547,7 +547,7 @@ clearly identified originators:
 - **Algebraic K-theory of rings via simplicial methods** (Quillen's
   $+$-construction and $Q$-construction). Out of scope; cite Quillen's
   *Higher algebraic K-theory I* (LNM 341, 1973) as the originator pointer
-  in `03.12.39` Synthesis.
+  in `48.12.39` Synthesis.
 - **Cubical sets / cubical homotopy theory.** Out of scope. See the
   Brown-Higgins-Sivera 1.05a plan for cubical pointer units.
 - **Operads / $E_\infty$-structures on simplicial chain complexes.** Out of
@@ -641,4 +641,4 @@ ten-unit set.
   113, 2004) and Hirschhorn *Model Categories and Their Localizations* (AMS
   Math. Surv. & Monog. 99, 2003) are the canonical secondary references for
   the bisimplicial / Reedy / hocolim content (GJ Ch IV, VII). Cite these in
-  `03.12.36`, `03.12.37`, `03.12.41`.
+  `48.12.36`, `03.12.37`, `03.12.41`.

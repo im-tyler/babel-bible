@@ -312,7 +312,7 @@ nilpotent spaces are all total gaps.**
   Quillen 1967 (canonical), Hovey 1999 (modern alternative), GJ 1999
   (simplicial emphasis), and MP 2012 (applications emphasis).** This
   audit endorses that recommendation.
-- The May-Concise (FT 3.38) P2 unit `03.12.27` (Puppe cofiber sequence)
+- The May-Concise (FT 3.38) P2 unit `48.12.27` (Puppe cofiber sequence)
   is a strict prerequisite for the hocolim unit below. Already on the
   May-Concise plan.
 
@@ -405,7 +405,7 @@ category, Hopf-algebra machinery (estimate: 3 new units + 1 deepening):**
     : p \notin T\}$. Master-only, ~1800 words. **MP-distinctive
     (Ch 19).** Citations: MP Ch 19, Hirschhorn 2003 *Model Categories
     and Their Localizations* (AMS), Bousfield 1975.
-14. **`03.12.49` Bialgebra, Hopf algebra, Milnor-Moore theorem.**
+14. **`48.12.49` Bialgebra, Hopf algebra, Milnor-Moore theorem.**
     Bialgebra and Hopf algebra in a graded-symmetric monoidal
     category; antipode; Milnor-Moore: connected co-commutative
     Hopf algebra over char-0 field $\cong U(L)$ for $L = \mathrm{Prim}$
@@ -495,7 +495,7 @@ charged half-and-half on the shared P1+P2 subset.
 1. GJ-3.41 P1 units `03.12.31`-`03.12.34` (the joint model-category
    foundations) — also the MP Part-4 foundations. Recommend joint
    batch.
-2. The May-Concise (FT 3.38) P2 unit `03.12.27` (Puppe cofiber sequence)
+2. The May-Concise (FT 3.38) P2 unit `48.12.27` (Puppe cofiber sequence)
    for the hocolim/holim unit `03.12.37`.
 3. MP-distinctive units `03.12.42` (nilpotent spaces) → `03.12.43`
    (localisation) → `03.12.44` ($p$-completion) → `03.12.45`
@@ -536,7 +536,7 @@ content has clearly identified originators:
   Cite in `03.12.42`, `03.12.43`.
 - **Milnor, J., and Moore, J. C.** "On the structure of Hopf algebras."
   *Annals of Mathematics* 81 (1965) 211-264. Originator for the
-  Milnor-Moore theorem. Cite in `03.12.49`.
+  Milnor-Moore theorem. Cite in `48.12.49`.
 - **May, J. P., and Ponto, K.** *More Concise Algebraic Topology.*
   University of Chicago Press 2012. The book itself — definitive
   modern consolidation. Cite in *every* unit on this punch-list.
@@ -603,7 +603,7 @@ equivalence-coverage when:
 - The GJ-3.41 P1 punch-list (`03.12.31`-`03.12.34`, the joint
   model-category foundations) has shipped (strict prereq, shared
   with this audit).
-- The May-Concise 3.38 P2 unit `03.12.27` (Puppe cofiber sequence)
+- The May-Concise 3.38 P2 unit `48.12.27` (Puppe cofiber sequence)
   has shipped (strict prereq for `03.12.37` hocolim).
 - All **6 MP P1 units** have shipped (`03.12.31`-`03.12.34` shared +
   `03.12.42` nilpotent space + `03.12.43` localisation). This alone
@@ -613,7 +613,7 @@ equivalence-coverage when:
   chain-complex model structure). Brings coverage to ~80%.
 - At least **2 of the 3 MP P3 units** have shipped (`03.12.47`
   rational $H$-spaces, `03.12.48` Bousfield localisation in
-  $\mathcal{M}$, `03.12.49` Hopf-algebra / Milnor-Moore are
+  $\mathcal{M}$, `48.12.49` Hopf-algebra / Milnor-Moore are
   ordered by leverage). Brings coverage to ~92%.
 - The `03.12.06` sullivan-minimal-models Master-section deepening
   (Quillen 1969 dgla side) has shipped.
@@ -627,7 +627,7 @@ equivalence-coverage when:
 - **Originator-prose paragraphs** present in `03.12.31` (Quillen 1967),
   `03.12.42` (Hilton-Mislin-Roitberg 1975), `03.12.43` (Sullivan 1974,
   Bousfield 1975), `03.12.44` (Bousfield-Kan 1972), `03.12.45`
-  (Sullivan 1974), `03.12.49` (Milnor-Moore 1965). Co-cite MP 2012
+  (Sullivan 1974), `48.12.49` (Milnor-Moore 1965). Co-cite MP 2012
   throughout.
 - **Exercise pack `03.12.E4`** ships (P4) — required for the ≥95%
   threshold.
@@ -726,12 +726,12 @@ unit already shipped.
   assuming *Concise*. The May-Concise punch-list items 1-7 (HELP,
   simplicial sets, $\Gamma X$, van-Kampen-as-colimit deepening, etc.)
   are **upstream** of every MP unit on this list. The May-Concise
-  P2 Puppe-cofiber unit (`03.12.27`) is a strict prereq for the MP
+  P2 Puppe-cofiber unit (`48.12.27`) is a strict prereq for the MP
   hocolim unit (`03.12.37`).
 - **May Simplicial Objects (FT 3.40), Cycle ?.** Direct sibling. May
   3.40 supplies the classical (pre-Quillen) simplicial machinery; MP
   Part 4 supplies the model-category superstructure. The May-3.40 P1
-  units `03.12.24`-`03.12.28` (Kan complex, simplicial homotopy groups,
+  units `48.12.24`-`48.12.28` (Kan complex, simplicial homotopy groups,
   geometric realisation, Dold-Kan) are upstream of MP `03.12.33`,
   `03.12.34`, `03.12.46`.
 - **Goerss-Jardine (FT 3.41), Cycle 7.** Direct sibling. GJ-3.41

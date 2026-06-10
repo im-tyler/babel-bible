@@ -328,20 +328,20 @@ These are listed here because KN-II assumes them; they are already on the
 KN-I punch-list (FT 3.18) and / or the Milnor-Stasheff punch-list (FT 3.08).
 Ship once, cite from both.
 
-- **`03.05.14` Torsion tensor and the two Cartan structural equations**
+- **`48.05.14` Torsion tensor and the two Cartan structural equations**
   (KN-I punch-list, priority 1) — load-bearing for KN-II §IX (Chern
   connection is the unique connection with $T^{0,2} = 0$ on a holomorphic
   Hermitian bundle).
 - **`03.03.X1` Levi-Civita connection, geodesics, exp, Hopf-Rinow**
   (KN-I punch-list, priority 1) — load-bearing for KN-II §VIII (submanifold
   geometry) and §IX (Kähler ⇔ Chern = Levi-Civita).
-- **`03.05.13` Associated bundle and induced connection** (KN-I punch-list,
+- **`48.05.13` Associated bundle and induced connection** (KN-I punch-list,
   priority 1) — load-bearing for KN-II §XII (curvature of an associated
   vector bundle is what enters Chern-Weil).
 
 **Priority 1 — Ch. IX core (complex / almost-complex / Hermitian / Kähler):**
 
-1. **`03.02.09` Almost-complex structure (manifold-level).** $J: TM \to TM$
+1. **`48.02.09` Almost-complex structure (manifold-level).** $J: TM \to TM$
    with $J^2 = -\mathrm{id}$; type decomposition $TM \otimes \mathbb{C}
    = T^{1,0}M \oplus T^{0,1}M$; the Nijenhuis tensor $N_J(X, Y)$. Sits
    in `02-manifolds/` (per the KN-I audit, this chapter is wide open).
@@ -349,19 +349,19 @@ Ship once, cite from both.
    (which lives in the symplectic chapter and uses the symplectic framing).
    Cross-reference both. KN-II §IX.1–§IX.2 anchor; Wells §I.1 + Huybrechts §2.6
    secondary. ~1500 words. Three-tier.
-2. **`03.02.10` Complex manifold and the Dolbeault complex.** Holomorphic
+2. **`48.02.10` Complex manifold and the Dolbeault complex.** Holomorphic
    atlas; $\Omega^{p,q}(M)$ as smooth $(p,q)$-forms; the operators $\partial,
    \bar\partial$ with $\bar\partial^2 = 0$; the Dolbeault complex
    $(\Omega^{p, *}, \bar\partial)$ and Dolbeault cohomology $H^{p,q}_{\bar\partial}(M)$.
    KN-II §IX.2–§IX.3 anchor; Wells Ch. II + Huybrechts §2.6 secondary.
    ~1800 words. Three-tier.
-3. **`03.05.19` Holomorphic vector bundle.** Definition (transition
+3. **`48.05.19` Holomorphic vector bundle.** Definition (transition
    functions holomorphic), Dolbeault $\bar\partial_E$ on $\Omega^{p, *}(E)$,
    the Koszul-Malgrange theorem that holomorphic structures on a smooth
    complex bundle ↔ flat $\bar\partial$-operators. KN-II §IX.4 anchor;
    Wells §III.1 secondary; Huybrechts §2.6 secondary. ~1500 words. Three-tier.
    **Closes the silent gap behind `04.09.02-kodaira-vanishing.md`.**
-4. **`03.05.20` Hermitian metric on a complex bundle; Chern connection.**
+4. **`48.05.20` Hermitian metric on a complex bundle; Chern connection.**
    Hermitian metric $h$ on a complex bundle $E$; the **unique** connection
    $\nabla^h$ compatible with both the holomorphic structure $\bar\partial_E$
    and the Hermitian metric (the Chern connection). Formula in local
@@ -369,7 +369,7 @@ Ship once, cite from both.
    anchor; Wells §III.2; Huybrechts §4.2 secondary. ~1500 words. Three-tier.
    **Closes the silent gap behind `03.06.06-chern-weil-homomorphism.md`
    for the complex-bundle special case.**
-5. **`03.02.11` Hermitian manifold and the Kähler form.** Hermitian metric
+5. **`48.02.11` Hermitian manifold and the Kähler form.** Hermitian metric
    $g$ on $(M, J)$ with $g(JX, JY) = g(X, Y)$; the Kähler form $\omega \in
    \Omega^{1,1}(M)$ defined by $\omega(X, Y) = g(JX, Y)$; **Kähler condition**
    $d\omega = 0$. The equivalence theorem: $d\omega = 0 \Leftrightarrow
@@ -377,7 +377,7 @@ Ship once, cite from both.
    Levi-Civita connection. KN-II §IX.6–§IX.7 anchor; Huybrechts §3.1
    secondary; Voisin §3.1 secondary. ~2000 words. Three-tier. **Master tier
    of any Hodge-theoretic unit downstream depends on this.**
-6. **`03.02.12` Kähler identities and the Hodge decomposition (Kähler version).**
+6. **`48.02.12` Kähler identities and the Hodge decomposition (Kähler version).**
    The Kähler identities $[\Lambda, \partial] = -i\bar\partial^*$,
    $[\Lambda, \bar\partial] = i\partial^*$; the consequence that
    $\Delta_d = 2\Delta_{\bar\partial} = 2\Delta_\partial$ on a compact
@@ -412,12 +412,12 @@ Ship once, cite from both.
    Appendix C secondary. ~1500 words. Master-tier dominant. **Shared with
    the Milnor-Stasheff punch-list (FT 3.08, priority-3); ship once and
    cite from both audits.**
-9. **`03.02.13` Isometric immersion and the second fundamental form.**
+9. **`48.02.13` Isometric immersion and the second fundamental form.**
    Isometric immersion $f: M \hookrightarrow \bar M$ of Riemannian manifolds;
    the second fundamental form $\mathrm{II}: TM \times TM \to NM$; the
    mean curvature vector $H = \mathrm{tr}\,\mathrm{II}$. KN-II §VIII.1
    anchor; do Carmo Ch. 6 secondary. ~1500 words. Three-tier.
-10. **`03.02.14` Gauss, Codazzi, and Ricci equations.** The three structure
+10. **`48.02.14` Gauss, Codazzi, and Ricci equations.** The three structure
     equations relating the curvature of $M$, the curvature of $\bar M$,
     and the second fundamental form. Worked example: $S^n \subseteq
     \mathbb{R}^{n+1}$ with the standard immersion. KN-II §VIII.2–§VIII.4
@@ -441,7 +441,7 @@ Ship once, cite from both.
     Pointer to the Cartan classification of irreducible Riemannian symmetric
     spaces (statement only). KN-II §X.2–§X.6 anchor; Helgason Chs. IV, VIII
     secondary. ~1800 words. Master-tier dominant.
-13. **`03.02.15` Bochner technique and curvature vanishing theorems.**
+13. **`48.02.15` Bochner technique and curvature vanishing theorems.**
     Weitzenböck formula on a Riemannian manifold; vanishing of harmonic
     forms and Killing fields under curvature-positivity assumptions; the
     Kähler-manifold specialisation (vanishing of $H^{p, 0}$ on a manifold
@@ -451,25 +451,25 @@ Ship once, cite from both.
 **Priority 4 — survey pointers (Master-only, weaving edits):**
 
 14. **Pointer in `03.06.06-chern-weil-homomorphism.md`** to the new
-    `03.05.20` (Chern connection) and `03.06.07` (Chern-Simons) units,
+    `48.05.20` (Chern connection) and `03.06.07` (Chern-Simons) units,
     and resolve the `source: TODO_REF` to KN-II §XII with concrete
     section locators. Single-paragraph weaving edit; resolves the
     audit-flagged TODO_REF.
-15. **Pointer in `04.09.01-hodge-decomposition.md`** to the new `03.02.12`
+15. **Pointer in `04.09.01-hodge-decomposition.md`** to the new `48.02.12`
     (Kähler identities + Kähler Hodge decomposition) as the
     differential-geometric route to the same theorem. Single-paragraph
     weaving edit.
-16. **Pointer in `04.09.02-kodaira-vanishing.md`** to the new `03.05.19`
-    (holomorphic bundle) and `03.05.20` (Hermitian metric / Chern
+16. **Pointer in `04.09.02-kodaira-vanishing.md`** to the new `48.05.19`
+    (holomorphic bundle) and `48.05.20` (Hermitian metric / Chern
     connection) as the prerequisite layer.
-17. **Pointer in `05.06.01-almost-complex.md`** to the new `03.02.09`
+17. **Pointer in `05.06.01-almost-complex.md`** to the new `48.02.09`
     (manifold-level almost-complex structure) as the upstream generic
     framing; the symplectic specialisation in `05.06.01` becomes a
     canonical example of the generic concept.
-18. **Pointer in `05.06.03-newlander-nirenberg.md`** to `03.02.09` and
-    `03.02.10` (Dolbeault complex) as the prerequisite layer; resolve
+18. **Pointer in `05.06.03-newlander-nirenberg.md`** to `48.02.09` and
+    `48.02.10` (Dolbeault complex) as the prerequisite layer; resolve
     the `TODO_REF` blocks accordingly.
-19. **Pointer in `03.09.18-berger-holonomy.md`** to `03.02.11` (Kähler
+19. **Pointer in `03.09.18-berger-holonomy.md`** to `48.02.11` (Kähler
     manifold) for the $\mathrm{U}(n)$ holonomy case and a forward
     pointer to the (deferred) Calabi-Yau unit for $\mathrm{SU}(n)$.
 20. **Pointer in `03.07.05-yang-mills-action.md`** to `03.06.07` (Chern-Simons)
@@ -512,7 +512,7 @@ should carry originator-prose citations:
 - **S.-S. Chern**, "Characteristic classes of Hermitian manifolds,"
   *Annals of Math.* 47 (1946) 85–121 — the originating paper for the
   curvature construction of complex characteristic classes. **Cite in
-  `03.06.06`** (audit-flagged TODO_REF resolution) **and in `03.05.20`**
+  `03.06.06`** (audit-flagged TODO_REF resolution) **and in `48.05.20`**
   (Chern connection — historically derived from this paper).
 - **André Weil**, unpublished 1949 lecture notes (mimeograph; later in
   *Œuvres scientifiques* Vol. III) — generalised Chern's curvature recipe
@@ -522,23 +522,23 @@ should carry originator-prose citations:
   complex manifolds," *Annals of Math.* 65 (1957) 391–404 — the
   integrability theorem. **Already cited in `05.06.03`** (TODO_REF block);
   resolve concretely during the production pass and **cross-cite in
-  `03.02.09`** (manifold-level almost-complex structure).
+  `48.02.09`** (manifold-level almost-complex structure).
 - **K. Kodaira**, "On Kähler varieties of restricted type," *Annals of
   Math.* 60 (1954) 28–48 — the foundational paper for the compact-Kähler-
   manifold programme (Kodaira embedding, projectivity criterion).
-  **Cite in `03.02.11`** (Kähler manifolds) **and in `04.09.02`**
+  **Cite in `48.02.11`** (Kähler manifolds) **and in `04.09.02`**
   (Kodaira vanishing — already cited there).
 - **S.-S. Chern, J. Simons**, "Characteristic forms and geometric
   invariants," *Annals of Math.* 99 (1974) 48–69 — the originating
   paper for the Chern-Simons transgression form. **Cite in `03.06.07`**.
 - **W. V. D. Hodge**, *The Theory and Applications of Harmonic Integrals*
   (Cambridge University Press 1941, 2nd ed. 1952) — originating the
-  Hodge decomposition. **Cite in `03.02.12`**.
+  Hodge decomposition. **Cite in `48.02.12`**.
 - **K. Nomizu**, "Invariant affine connections on homogeneous spaces,"
   *Amer. J. Math.* 76 (1954) 33–65 — the Nomizu construction. **Cite in
   `03.03.X3`**.
 - **S. Bochner**, "Vector fields and Ricci curvature," *Bull. AMS* 52
-  (1946) 776–797 — the Bochner technique. **Cite in `03.02.15`**.
+  (1946) 776–797 — the Bochner technique. **Cite in `48.02.15`**.
 - **Kobayashi, Nomizu** (1969) — the canonical consolidation. **Cite
   throughout** as the in-Codex master anchor.
 
@@ -572,7 +572,7 @@ aliases to bridge to the gauge-theory notation in
 The Babel Bible notation decision (per `docs/specs/UNIT_SPEC.md` §11) should:
 adopt KN-II's complex-geometry notation verbatim; resolve the $\omega$
 notation clash by reserving $\omega$ for the Kähler form inside the
-complex / Kähler units (`03.02.11`, `03.02.12`) and writing $\omega^{\mathrm{conn}}$
+complex / Kähler units (`48.02.11`, `48.02.12`) and writing $\omega^{\mathrm{conn}}$
 in those units when the principal-bundle connection 1-form appears
 explicitly. Record in a §Notation paragraph of each affected unit.
 
@@ -646,8 +646,8 @@ equivalence-coverage when:
   `04.09.02-kodaira-vanishing.md` and `05.06.01-almost-complex.md` and
   `05.06.03-newlander-nirenberg.md` carry weaving paragraphs pointing
   to the new complex / Kähler / Chern-Weil units.
-- Notation decisions are recorded in `03.02.09`, `03.02.10`, `03.02.11`,
-  `03.02.12`, `03.05.19`, `03.05.20`, `03.06.07`, `03.06.18`
+- Notation decisions are recorded in `48.02.09`, `48.02.10`, `48.02.11`,
+  `48.02.12`, `48.05.19`, `48.05.20`, `03.06.07`, `03.06.18`
   (especially the $\omega$ Kähler-form vs $\omega$ connection-1-form
   clash resolution; see §4).
 - Originator-prose citations of Chern 1946, Weil 1949, Newlander-Nirenberg
@@ -688,14 +688,14 @@ Priority-4 is weaving only and does not add new units.
     The standard graduate text on the analytic side of complex
     geometry; Chs. I–III parallel KN-II §IX with a sheaf-theoretic
     rather than principal-bundle framing. The preferred secondary anchor
-    for `03.02.10`, `03.05.19`, `03.05.20`.
+    for `48.02.10`, `48.05.19`, `48.05.20`.
   - **D. Huybrechts**, *Complex Geometry: An Introduction*, Universitext,
     Springer 2005. The most accessible modern graduate text; Ch. 2
     covers almost-complex / complex / Hermitian / Chern connection,
     Ch. 3 covers Kähler manifolds, Ch. 4 covers Hodge theory and
     Lefschetz decomposition, Ch. 5 covers Kähler-Einstein and Calabi-Yau.
-    The preferred secondary anchor for `03.02.09`–`03.02.12` and
-    `03.05.19`–`03.05.20`.
+    The preferred secondary anchor for `48.02.09`–`48.02.12` and
+    `48.05.19`–`48.05.20`.
   - **C. Voisin**, *Hodge Theory and Complex Algebraic Geometry I + II*,
     Cambridge Studies in Advanced Mathematics 76 + 77, CUP 2002–2003.
     The canonical modern treatment of Hodge theory on compact Kähler
@@ -721,11 +721,11 @@ Priority-4 is weaving only and does not add new units.
   - **M. P. do Carmo**, *Riemannian Geometry*, Birkhäuser 1992.
     Already cited in the KN-I plan; Ch. 6 covers submanifold geometry
     (Gauss-Codazzi-Ricci) at a gentler pace than KN-II §VIII. Secondary
-    anchor for `03.02.13`, `03.02.14`.
+    anchor for `48.02.13`, `48.02.14`.
   - **H. B. Lawson, M.-L. Michelsohn**, *Spin Geometry*, Princeton
     Mathematical Series 38, Princeton University Press 1989. Fast Track
     3.10. §II.8 covers the Bochner technique in the spin / Dirac-operator
-    setting. Secondary anchor for `03.02.15`.
+    setting. Secondary anchor for `48.02.15`.
 - **Originator-paper archive locations:**
   - Chern 1946 *Annals* — JSTOR.
   - Weil 1949 lectures — collected in *Œuvres scientifiques* Vol. III
@@ -749,8 +749,8 @@ Cycle 4:
    structural equations, Levi-Civita / Hopf-Rinow, associated bundle /
    induced connection) are already on the KN-I priority-1 punch-list.
    Production order: KN-I priority-1 must precede KN-II priority-1.
-   The KN-II Chern-connection unit (`03.05.20`) is the complex-bundle
-   specialisation of the KN-I `03.05.13` (associated bundle and induced
+   The KN-II Chern-connection unit (`48.05.20`) is the complex-bundle
+   specialisation of the KN-I `48.05.13` (associated bundle and induced
    connection); cross-reference both.
 2. **Milnor-Stasheff (FT 3.08) — `plans/fasttrack/milnor-stasheff-characteristic-classes.md`.**
    The `03.06.18` (Chern-Weil ↔ topological compatibility) unit is shared.
@@ -759,9 +759,9 @@ Cycle 4:
    The compatibility unit is the bridge and should ship as a co-authored
    unit citing both anchors at master tier.
 3. **Voisin (FT 3.27) — not yet audited.** Voisin is the deep Hodge-theoretic
-   sequel to KN-II §IX. The KN-II priority-1 unit `03.02.12` (Kähler
+   sequel to KN-II §IX. The KN-II priority-1 unit `48.02.12` (Kähler
    identities + Hodge decomposition) is the **upstream** of Voisin's
-   programme; Voisin's audit should treat `03.02.12` as a prerequisite
+   programme; Voisin's audit should treat `48.02.12` as a prerequisite
    anchor and pick up at Lefschetz decomposition / primitive cohomology /
    polarised Hodge structures.
 

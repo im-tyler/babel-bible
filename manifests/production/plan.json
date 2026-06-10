@@ -2808,43 +2808,6 @@
       "status": "shipped",
       "actual_path": "content/24-numerical-pde/01-sobolev-and-weak-pdes/24.01.00-numerical-pde-chapter-readme-and-notation-crosswalk.md"
     },
-    "24.01.01": {
-      "id": "24.01.01",
-      "title": "Propositional logic and truth tables",
-      "spec_excerpt": "Definitions",
-      "priority": "P?",
-      "kind": "new_unit",
-      "source_audits": [
-        "douglas-arnold-feec"
-      ],
-      "audit_position": 2,
-      "prereqs": [
-        "24.01.00",
-        "02.11.04",
-        "02.11.06",
-        "02.11.07",
-        "02.11.08"
-      ],
-      "successors": [
-        "24.01.02",
-        "24.01.03",
-        "24.02.01",
-        "25.02.01",
-        "25.03.01",
-        "25.04.01",
-        "03.15.02",
-        "02.16.01",
-        "02.16.02",
-        "02.17.07",
-        "02.19.05",
-        "02.16.04",
-        "02.17.01",
-        "02.18.01",
-        "02.18.06"
-      ],
-      "status": "shipped",
-      "actual_path": "content/24-logic/01-propositional-logic/24.01.01-propositional-logic-truth-tables.md"
-    },
     "24.01.02": {
       "id": "24.01.02",
       "title": "Sobolev spaces of differential forms $H\\Lambda^k$",
@@ -2943,28 +2906,6 @@
       "status": "shipped",
       "actual_path": "content/03-modern-geometry/04-differential-forms/03.04.15-hodge-laplacian-on-a-riemannian-manifold.md"
     },
-    "24.02.01": {
-      "id": "24.02.01",
-      "title": "Predicate logic and quantifiers",
-      "spec_excerpt": "Lagrange $\\mathcal{P}_r$ elements on simplices;",
-      "priority": "P1",
-      "kind": "new_unit",
-      "source_audits": [
-        "douglas-arnold-feec"
-      ],
-      "audit_position": 7,
-      "prereqs": [
-        "24.01.00",
-        "24.01.01",
-        "24.01.03"
-      ],
-      "successors": [
-        "24.02.02",
-        "24.03.01"
-      ],
-      "status": "shipped",
-      "actual_path": "content/24-logic/02-predicate-logic/24.02.01-predicate-logic-quantifiers.md"
-    },
     "24.02.02": {
       "id": "24.02.02",
       "title": "Mixed FEM for the Poisson equation (Raviart-Thomas)",
@@ -2987,31 +2928,6 @@
       ],
       "status": "shipped",
       "actual_path": "content/24-numerical-pde/02-classical-fem/24.02.02-mixed-fem-for-the-poisson-equation-raviart-thomas.md"
-    },
-    "24.03.01": {
-      "id": "24.03.01",
-      "title": "Informal fallacies and argument analysis",
-      "spec_excerpt": "Lowest-order",
-      "priority": "P1",
-      "kind": "new_unit",
-      "source_audits": [
-        "douglas-arnold-feec"
-      ],
-      "audit_position": 9,
-      "prereqs": [
-        "24.01.00",
-        "24.02.01",
-        "03.04.02",
-        "03.04.13"
-      ],
-      "successors": [
-        "24.03.02",
-        "24.03.03",
-        "24.03.04",
-        "24.04.E1"
-      ],
-      "status": "shipped",
-      "actual_path": "content/24-logic/03-informal-fallacies/24.03.01-informal-fallacies-argument-analysis.md"
     },
     "24.03.02": {
       "id": "24.03.02",
@@ -3143,31 +3059,6 @@
       ],
       "status": "shipped",
       "actual_path": "content/24-numerical-pde/03-discrete-de-rham-and-feec/24.03.06-feec-convergence-theorem-arnold-falk-winther.md"
-    },
-    "24.04.01": {
-      "id": "24.04.01",
-      "title": "Deductive reasoning and syllogisms",
-      "spec_excerpt": "The full FEEC",
-      "priority": "P2",
-      "kind": "new_unit",
-      "source_audits": [
-        "douglas-arnold-feec"
-      ],
-      "audit_position": 15,
-      "prereqs": [
-        "24.01.04",
-        "03.04.15",
-        "24.03.05",
-        "24.03.06"
-      ],
-      "successors": [
-        "24.04.02",
-        "24.04.03",
-        "24.04.07",
-        "24.04.E1"
-      ],
-      "status": "shipped",
-      "actual_path": "content/24-logic/04-deductive-reasoning/24.04.01-deductive-reasoning-syllogisms.md"
     },
     "24.04.02": {
       "id": "24.04.02",
@@ -16031,7 +15922,7 @@
       "source_audits": [],
       "actual_path": "content/25-logic/03-informal-fallacies/25.03.01-informal-fallacies-argument-analysis.md",
       "prereqs": [
-        "24.01.01"
+        "49.01.01"
       ],
       "successors": [
         "43.01.01"
@@ -17070,17 +16961,6 @@
         "[",
         "]"
       ]
-    },
-    "24.08.01": {
-      "id": "24.08.01",
-      "title": "Critical thinking in media, science, and everyday life",
-      "status": "shipped",
-      "kind": "new_unit",
-      "priority": "shipped-pre-audit",
-      "source_audits": [],
-      "actual_path": "content/24-logic/08-critical-thinking-practice/24.08.01-critical-thinking-media-science-everyday.md",
-      "prereqs": [],
-      "successors": []
     },
     "30.06.01": {
       "id": "30.06.01",
@@ -22825,7 +22705,7 @@
       "source_audits": [],
       "actual_path": "content/25-logic/02-predicate-logic/25.02.01-predicate-logic-quantifiers.md",
       "prereqs": [
-        "24.01.01"
+        "49.01.01"
       ],
       "successors": []
     },
@@ -23633,17 +23513,6 @@
         "37.08.07",
         "37.08.08"
       ]
-    },
-    "24.07.01": {
-      "id": "24.07.01",
-      "title": "Cognitive biases and rationality",
-      "status": "shipped",
-      "kind": "new_unit",
-      "priority": "shipped-pre-audit",
-      "source_audits": [],
-      "actual_path": "content/24-logic/07-cognitive-biases/24.07.01-cognitive-biases-rationality.md",
-      "prereqs": [],
-      "successors": []
     },
     "04.03.08": {
       "id": "04.03.08",
@@ -25644,17 +25513,6 @@
       "prereqs": [],
       "successors": []
     },
-    "24.06.01": {
-      "id": "24.06.01",
-      "title": "Decision theory and Bayesian reasoning",
-      "status": "shipped",
-      "kind": "new_unit",
-      "priority": "shipped-pre-audit",
-      "source_audits": [],
-      "actual_path": "content/24-logic/06-decision-theory/24.06.01-decision-theory-bayesian-reasoning.md",
-      "prereqs": [],
-      "successors": []
-    },
     "26.06.01": {
       "id": "26.06.01",
       "title": "'Correlation and regression analysis'",
@@ -26793,17 +26651,6 @@
         "44.08.03",
         "44.08.04"
       ]
-    },
-    "24.05.01": {
-      "id": "24.05.01",
-      "title": "Inductive reasoning, analogy, and causation",
-      "status": "shipped",
-      "kind": "new_unit",
-      "priority": "shipped-pre-audit",
-      "source_audits": [],
-      "actual_path": "content/24-logic/05-inductive-reasoning/24.05.01-inductive-reasoning-analogy-causation.md",
-      "prereqs": [],
-      "successors": []
     },
     "07.06.24": {
       "id": "07.06.24",
@@ -33090,7 +32937,7 @@
       "source_audits": [],
       "actual_path": "content/25-logic/04-deductive-reasoning/25.04.01-deductive-reasoning-syllogisms.md",
       "prereqs": [
-        "24.01.01"
+        "49.01.01"
       ],
       "successors": []
     },
@@ -34749,6 +34596,159 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "49.01.01": {
+      "id": "49.01.01",
+      "title": "Propositional logic and truth tables",
+      "spec_excerpt": "Definitions",
+      "priority": "P?",
+      "kind": "new_unit",
+      "source_audits": [
+        "douglas-arnold-feec"
+      ],
+      "audit_position": 2,
+      "prereqs": [
+        "24.01.00",
+        "02.11.04",
+        "02.11.06",
+        "02.11.07",
+        "02.11.08"
+      ],
+      "successors": [
+        "24.01.02",
+        "24.01.03",
+        "49.02.01",
+        "25.02.01",
+        "25.03.01",
+        "25.04.01",
+        "03.15.02",
+        "02.16.01",
+        "02.16.02",
+        "02.17.07",
+        "02.19.05",
+        "02.16.04",
+        "02.17.01",
+        "02.18.01",
+        "02.18.06"
+      ],
+      "status": "shipped",
+      "actual_path": "content/24-logic/01-propositional-logic/24.01.01-propositional-logic-truth-tables.md"
+    },
+    "49.02.01": {
+      "id": "49.02.01",
+      "title": "Predicate logic and quantifiers",
+      "spec_excerpt": "Lagrange $\\mathcal{P}_r$ elements on simplices;",
+      "priority": "P1",
+      "kind": "new_unit",
+      "source_audits": [
+        "douglas-arnold-feec"
+      ],
+      "audit_position": 7,
+      "prereqs": [
+        "24.01.00",
+        "49.01.01",
+        "24.01.03"
+      ],
+      "successors": [
+        "24.02.02",
+        "49.03.01"
+      ],
+      "status": "shipped",
+      "actual_path": "content/24-logic/02-predicate-logic/24.02.01-predicate-logic-quantifiers.md"
+    },
+    "49.03.01": {
+      "id": "49.03.01",
+      "title": "Informal fallacies and argument analysis",
+      "spec_excerpt": "Lowest-order",
+      "priority": "P1",
+      "kind": "new_unit",
+      "source_audits": [
+        "douglas-arnold-feec"
+      ],
+      "audit_position": 9,
+      "prereqs": [
+        "24.01.00",
+        "49.02.01",
+        "03.04.02",
+        "03.04.13"
+      ],
+      "successors": [
+        "24.03.02",
+        "24.03.03",
+        "24.03.04",
+        "24.04.E1"
+      ],
+      "status": "shipped",
+      "actual_path": "content/24-logic/03-informal-fallacies/24.03.01-informal-fallacies-argument-analysis.md"
+    },
+    "49.04.01": {
+      "id": "49.04.01",
+      "title": "Deductive reasoning and syllogisms",
+      "spec_excerpt": "The full FEEC",
+      "priority": "P2",
+      "kind": "new_unit",
+      "source_audits": [
+        "douglas-arnold-feec"
+      ],
+      "audit_position": 15,
+      "prereqs": [
+        "24.01.04",
+        "03.04.15",
+        "24.03.05",
+        "24.03.06"
+      ],
+      "successors": [
+        "24.04.02",
+        "24.04.03",
+        "24.04.07",
+        "24.04.E1"
+      ],
+      "status": "shipped",
+      "actual_path": "content/24-logic/04-deductive-reasoning/24.04.01-deductive-reasoning-syllogisms.md"
+    },
+    "49.05.01": {
+      "id": "49.05.01",
+      "title": "Inductive reasoning, analogy, and causation",
+      "status": "shipped",
+      "kind": "new_unit",
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "actual_path": "content/24-logic/05-inductive-reasoning/24.05.01-inductive-reasoning-analogy-causation.md",
+      "prereqs": [],
+      "successors": []
+    },
+    "49.06.01": {
+      "id": "49.06.01",
+      "title": "Decision theory and Bayesian reasoning",
+      "status": "shipped",
+      "kind": "new_unit",
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "actual_path": "content/24-logic/06-decision-theory/24.06.01-decision-theory-bayesian-reasoning.md",
+      "prereqs": [],
+      "successors": []
+    },
+    "49.07.01": {
+      "id": "49.07.01",
+      "title": "Cognitive biases and rationality",
+      "status": "shipped",
+      "kind": "new_unit",
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "actual_path": "content/24-logic/07-cognitive-biases/24.07.01-cognitive-biases-rationality.md",
+      "prereqs": [],
+      "successors": []
+    },
+    "49.08.01": {
+      "id": "49.08.01",
+      "title": "Critical thinking in media, science, and everyday life",
+      "status": "shipped",
+      "kind": "new_unit",
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "actual_path": "content/24-logic/08-critical-thinking-practice/24.08.01-critical-thinking-media-science-everyday.md",
+      "prereqs": [],
+      "successors": []
     }
   },
   "queue_topo_order": [],

@@ -1352,379 +1352,6 @@
 ],
 "curriculum": "fast-track"
 },
-"03.02.02": {
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"schwarz-morse-homology",
-"sternberg-lectures-differential-geometry",
-"milnor-morse-theory",
-"whitney-geometric-integration-theory",
-"sternberg-curvature-mathematics-physics",
-"milnor-h-cobordism",
-"jost-riemannian-geometry"
-],
-"curriculum": "fast-track"
-},
-"03.02.03": {
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"schwarz-morse-homology",
-"olver-lie-groups-differential-equations",
-"sternberg-lectures-differential-geometry",
-"milnor-morse-theory",
-"whitney-geometric-integration-theory",
-"jost-riemannian-geometry"
-],
-"curriculum": "fast-track"
-},
-"03.02.04": {
-"books": [
-"whitney-geometric-integration-theory",
-"freed-lectures-field-theory-topology",
-"vaisman-differential-forms-cohomology",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"milnor-morse-theory",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.05": {
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"milnor-morse-theory",
-"besse-einstein-manifolds",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics",
-"milnor-h-cobordism"
-],
-"curriculum": "fast-track"
-},
-"03.02.06": {
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"milnor-morse-theory",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.07": {
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"milnor-morse-theory",
-"sternberg-curvature-mathematics-physics",
-"milnor-h-cobordism"
-],
-"curriculum": "fast-track"
-},
-"03.02.08": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.09": {
-"books": [
-"cannas-da-silva-symplectic",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"krantz-several-complex-variables"
-],
-"curriculum": "fast-track"
-},
-"03.02.10": {
-"books": [
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"gunning-holomorphic-functions-several-variables",
-"krantz-several-complex-variables"
-],
-"curriculum": "fast-track"
-},
-"03.02.11": {
-"books": [
-"cannas-da-silva-symplectic",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics",
-"krantz-several-complex-variables"
-],
-"curriculum": "fast-track"
-},
-"03.02.12": {
-"books": [
-"cannas-da-silva-symplectic",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics",
-"krantz-several-complex-variables",
-"douglas-arnold-feec"
-],
-"curriculum": "fast-track"
-},
-"03.02.13": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.14": {
-"books": [
-"donaldson-riemann-surfaces",
-"olver-lie-groups-differential-equations",
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.15": {
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"berline-getzler-vergne-heat-kernels-dirac-operators",
-"milnor-morse-theory",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.16": {
-"books": [
-"jost-riemannian-geometry",
-"penrose-rindler-spinors-spacetime-vol1",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.17": {
-"books": [
-"gerard-microlocal-qft-curved-spacetimes",
-"jost-riemannian-geometry",
-"helgason-differential-geometry-lie-groups",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.18": {
-"books": [
-"penrose-rindler-spinors-spacetime-vol1",
-"besse-einstein-manifolds",
-"penrose-rindler-spinors-spacetime-vol2",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.02.19": {
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"penrose-rindler-spinors-spacetime-vol1",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.20": {
-"books": [
-"freed-lectures-field-theory-topology",
-"milnor-h-cobordism",
-"milnor-morse-theory",
-"deligne-quantum-fields-strings"
-],
-"curriculum": "fast-track"
-},
-"03.02.21": {
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.22": {
-"books": [
-"whitney-geometric-integration-theory",
-"donaldson-floer-homology-yang-mills",
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.23": {
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.24": {
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.25": {
-"books": [
-"voisin-hodge-theory-volume-1",
-"milnor-morse-theory",
-"milnor-h-cobordism"
-],
-"curriculum": "fast-track"
-},
-"03.02.26": {
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"milnor-h-cobordism",
-"besse-einstein-manifolds",
-"deligne-quantum-fields-strings"
-],
-"curriculum": "fast-track"
-},
-"03.02.27": {
-"books": [
-"jost-riemannian-geometry",
-"milnor-h-cobordism",
-"kobayashi-nomizu-foundations-vol2",
-"helgason-differential-geometry-lie-groups",
-"milnor-morse-theory",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.28": {
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.29": {
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"besse-einstein-manifolds",
-"deligne-quantum-fields-strings"
-],
-"curriculum": "fast-track"
-},
-"03.02.30": {
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.31": {
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.32": {
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"helgason-differential-geometry-lie-groups",
-"milnor-morse-theory",
-"besse-einstein-manifolds",
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.33": {
-"books": [
-"jost-riemannian-geometry",
-"penrose-rindler-spinors-spacetime-vol1",
-"besse-einstein-manifolds"
-],
-"curriculum": "fast-track"
-},
-"03.02.34": {
-"books": [
-"jost-riemannian-geometry",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.35": {
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.36": {
-"books": [],
-"curriculum": "fast-track"
-},
-"03.02.37": {
-"books": [
-"kobayashi-nomizu-foundations-vol2"
-],
-"curriculum": "fast-track"
-},
-"03.02.38": {
-"books": [
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.39": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"milnor-morse-theory",
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.40": {
-"books": [
-"milnor-morse-theory"
-],
-"curriculum": "fast-track"
-},
-"03.02.41": {
-"books": [
-"penrose-rindler-spinors-spacetime-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.42": {
-"books": [
-"penrose-rindler-spinors-spacetime-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.43": {
-"books": [
-"penrose-rindler-spinors-spacetime-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.02.44": {
-"books": [],
-"curriculum": "fast-track"
-},
-"03.02.45": {
-"books": [],
-"curriculum": "fast-track"
-},
 "03.03.01": {
 "books": [
 "serre-lie-algebras-and-lie-groups",
@@ -1761,43 +1388,6 @@
 "weinberg-quantum-theory-of-fields-vol1",
 "shilov-linear-algebra",
 "sternberg-group-theory-physics"
-],
-"curriculum": "fast-track"
-},
-"03.03.04": {
-"books": [
-"serre-lie-algebras-and-lie-groups",
-"ravenel-complex-cobordism",
-"kobayashi-nomizu-foundations-vol2",
-"helgason-differential-geometry",
-"sternberg-lectures-differential-geometry",
-"kobayashi-nomizu-foundations-vol1",
-"jost-riemannian-geometry"
-],
-"curriculum": "fast-track"
-},
-"03.03.05": {
-"books": [
-"serre-lie-algebras-and-lie-groups",
-"serge-lang-algebra",
-"helgason-differential-geometry",
-"sternberg-lectures-differential-geometry"
-],
-"curriculum": "fast-track"
-},
-"03.03.06": {
-"books": [
-"serre-lie-algebras-and-lie-groups",
-"serre-complex-semisimple-lie-algebras",
-"mackenzie-lie-groupoids-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.03.07": {
-"books": [
-"kobayashi-nomizu-foundations-vol2"
 ],
 "curriculum": "fast-track"
 },
@@ -2107,14 +1697,6 @@
 ],
 "curriculum": "fast-track"
 },
-"03.05.00": {
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"jost-riemannian-geometry"
-],
-"curriculum": "fast-track"
-},
 "03.05.01": {
 "books": [
 "mackenzie-lie-groupoids-vol1",
@@ -2161,12 +1743,6 @@
 "books": [
 "bott-tu-differential-forms",
 "sternberg-group-theory-physics"
-],
-"curriculum": "fast-track"
-},
-"03.05.06": {
-"books": [
-"kobayashi-nomizu-foundations-vol1"
 ],
 "curriculum": "fast-track"
 },
@@ -2221,100 +1797,6 @@
 "milnor-stasheff-characteristic-classes",
 "kobayashi-nomizu-foundations-vol1",
 "atiyah-k-theory"
-],
-"curriculum": "fast-track"
-},
-"03.05.11": {
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.05.12": {
-"books": [
-"olver-lie-groups-differential-equations",
-"kobayashi-nomizu-foundations-vol2",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.05.13": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.05.14": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.05.15": {
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.05.16": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"berline-getzler-vergne-heat-kernels-dirac-operators",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics"
-],
-"curriculum": "fast-track"
-},
-"03.05.17": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.05.18": {
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"kobayashi-nomizu-foundations-vol1"
-],
-"curriculum": "fast-track"
-},
-"03.05.19": {
-"books": [
-"donaldson-riemann-surfaces",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"krantz-several-complex-variables"
-],
-"curriculum": "fast-track"
-},
-"03.05.20": {
-"books": [
-"jost-riemannian-geometry",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2"
 ],
 "curriculum": "fast-track"
 },
@@ -3555,16 +3037,6 @@
 ],
 "curriculum": "fast-track"
 },
-"03.12.24": {
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"gelfand-manin-homological-algebra",
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"curriculum": "fast-track"
-},
 "03.12.25": {
 "books": [
 "goerss-jardine-simplicial-homotopy",
@@ -3572,48 +3044,6 @@
 "may-concise-algebraic-topology",
 "may-ponto-more-concise",
 "may-simplicial-objects"
-],
-"curriculum": "fast-track"
-},
-"03.12.26": {
-"books": [
-"may-concise-algebraic-topology",
-"may-simplicial-objects",
-"goerss-jardine-simplicial-homotopy"
-],
-"curriculum": "fast-track"
-},
-"03.12.27": {
-"books": [
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"curriculum": "fast-track"
-},
-"03.12.28": {
-"books": [
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"curriculum": "fast-track"
-},
-"03.12.29": {
-"books": [
-"bott-tu-differential-forms",
-"milnor-stasheff-characteristic-classes",
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"curriculum": "fast-track"
-},
-"03.12.30": {
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"may-simplicial-objects",
-"may-concise-algebraic-topology"
 ],
 "curriculum": "fast-track"
 },
@@ -3660,13 +3090,6 @@
 ],
 "curriculum": "fast-track"
 },
-"03.12.36": {
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"may-simplicial-objects"
-],
-"curriculum": "fast-track"
-},
 "03.12.37": {
 "books": [
 "goerss-jardine-simplicial-homotopy",
@@ -3679,14 +3102,6 @@
 "goerss-jardine-simplicial-homotopy",
 "ravenel-complex-cobordism",
 "may-ponto-more-concise"
-],
-"curriculum": "fast-track"
-},
-"03.12.39": {
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"may-concise-algebraic-topology",
-"may-simplicial-objects"
 ],
 "curriculum": "fast-track"
 },
@@ -3760,16 +3175,6 @@
 "goerss-jardine-simplicial-homotopy",
 "ravenel-complex-cobordism",
 "may-ponto-more-concise",
-"griffiths-morgan-rational-homotopy"
-],
-"curriculum": "fast-track"
-},
-"03.12.49": {
-"books": [
-"arnold-hydrodynamics",
-"serre-lie-algebras-and-lie-groups",
-"may-ponto-more-concise",
-"baxter-exactly-solved-models",
 "griffiths-morgan-rational-homotopy"
 ],
 "curriculum": "fast-track"
@@ -11043,22 +10448,6 @@
 ],
 "curriculum": "fast-track"
 },
-"24.05.01": {
-"books": [],
-"curriculum": "fast-track"
-},
-"24.06.01": {
-"books": [],
-"curriculum": "fast-track"
-},
-"24.07.01": {
-"books": [],
-"curriculum": "fast-track"
-},
-"24.08.01": {
-"books": [],
-"curriculum": "fast-track"
-},
 "25.01.01": {
 "books": [],
 "curriculum": "fast-track"
@@ -11076,38 +10465,6 @@
 "serge-lang-algebra"
 ],
 "curriculum": "fast-track"
-},
-"25.05.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.06.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.07.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.08.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.09.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.10.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.11.01": {
-"books": [],
-"curriculum": "other"
-},
-"25.12.01": {
-"books": [],
-"curriculum": "other"
 },
 "26.01.01": {
 "books": [],
@@ -14231,5 +13588,684 @@
 "arora-barak-2009"
 ],
 "curriculum": "theoretical-cs"
+},
+"48.02.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"48.02.02": {
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"schwarz-morse-homology",
+"sternberg-lectures-differential-geometry",
+"milnor-morse-theory",
+"whitney-geometric-integration-theory",
+"sternberg-curvature-mathematics-physics",
+"milnor-h-cobordism",
+"jost-riemannian-geometry"
+],
+"curriculum": "fast-track"
+},
+"48.02.03": {
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"schwarz-morse-homology",
+"olver-lie-groups-differential-equations",
+"sternberg-lectures-differential-geometry",
+"milnor-morse-theory",
+"whitney-geometric-integration-theory",
+"jost-riemannian-geometry"
+],
+"curriculum": "fast-track"
+},
+"48.02.04": {
+"books": [
+"whitney-geometric-integration-theory",
+"freed-lectures-field-theory-topology",
+"vaisman-differential-forms-cohomology",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"milnor-morse-theory",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.05": {
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"milnor-morse-theory",
+"besse-einstein-manifolds",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics",
+"milnor-h-cobordism"
+],
+"curriculum": "fast-track"
+},
+"48.02.06": {
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"milnor-morse-theory",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.07": {
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"milnor-morse-theory",
+"sternberg-curvature-mathematics-physics",
+"milnor-h-cobordism"
+],
+"curriculum": "fast-track"
+},
+"48.02.08": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.09": {
+"books": [
+"cannas-da-silva-symplectic",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"krantz-several-complex-variables"
+],
+"curriculum": "fast-track"
+},
+"48.02.10": {
+"books": [
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"gunning-holomorphic-functions-several-variables",
+"krantz-several-complex-variables"
+],
+"curriculum": "fast-track"
+},
+"48.02.11": {
+"books": [
+"cannas-da-silva-symplectic",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics",
+"krantz-several-complex-variables"
+],
+"curriculum": "fast-track"
+},
+"48.02.12": {
+"books": [
+"cannas-da-silva-symplectic",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics",
+"krantz-several-complex-variables",
+"douglas-arnold-feec"
+],
+"curriculum": "fast-track"
+},
+"48.02.13": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.14": {
+"books": [
+"donaldson-riemann-surfaces",
+"olver-lie-groups-differential-equations",
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.15": {
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"berline-getzler-vergne-heat-kernels-dirac-operators",
+"milnor-morse-theory",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.16": {
+"books": [
+"jost-riemannian-geometry",
+"penrose-rindler-spinors-spacetime-vol1",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.17": {
+"books": [
+"gerard-microlocal-qft-curved-spacetimes",
+"jost-riemannian-geometry",
+"helgason-differential-geometry-lie-groups",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.18": {
+"books": [
+"penrose-rindler-spinors-spacetime-vol1",
+"besse-einstein-manifolds",
+"penrose-rindler-spinors-spacetime-vol2",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.02.19": {
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"penrose-rindler-spinors-spacetime-vol1",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.20": {
+"books": [
+"freed-lectures-field-theory-topology",
+"milnor-h-cobordism",
+"milnor-morse-theory",
+"deligne-quantum-fields-strings"
+],
+"curriculum": "fast-track"
+},
+"48.02.21": {
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.22": {
+"books": [
+"whitney-geometric-integration-theory",
+"donaldson-floer-homology-yang-mills",
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.23": {
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.24": {
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.25": {
+"books": [
+"voisin-hodge-theory-volume-1",
+"milnor-morse-theory",
+"milnor-h-cobordism"
+],
+"curriculum": "fast-track"
+},
+"48.02.26": {
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"milnor-h-cobordism",
+"besse-einstein-manifolds",
+"deligne-quantum-fields-strings"
+],
+"curriculum": "fast-track"
+},
+"48.02.27": {
+"books": [
+"jost-riemannian-geometry",
+"milnor-h-cobordism",
+"kobayashi-nomizu-foundations-vol2",
+"helgason-differential-geometry-lie-groups",
+"milnor-morse-theory",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.28": {
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.29": {
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"besse-einstein-manifolds",
+"deligne-quantum-fields-strings"
+],
+"curriculum": "fast-track"
+},
+"48.02.30": {
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.31": {
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.32": {
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"helgason-differential-geometry-lie-groups",
+"milnor-morse-theory",
+"besse-einstein-manifolds",
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.33": {
+"books": [
+"jost-riemannian-geometry",
+"penrose-rindler-spinors-spacetime-vol1",
+"besse-einstein-manifolds"
+],
+"curriculum": "fast-track"
+},
+"48.02.34": {
+"books": [
+"jost-riemannian-geometry",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.35": {
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.36": {
+"books": [],
+"curriculum": "fast-track"
+},
+"48.02.37": {
+"books": [
+"kobayashi-nomizu-foundations-vol2"
+],
+"curriculum": "fast-track"
+},
+"48.02.38": {
+"books": [
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.39": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"milnor-morse-theory",
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.40": {
+"books": [
+"milnor-morse-theory"
+],
+"curriculum": "fast-track"
+},
+"48.02.41": {
+"books": [
+"penrose-rindler-spinors-spacetime-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.42": {
+"books": [
+"penrose-rindler-spinors-spacetime-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.43": {
+"books": [
+"penrose-rindler-spinors-spacetime-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.02.44": {
+"books": [],
+"curriculum": "fast-track"
+},
+"48.02.45": {
+"books": [],
+"curriculum": "fast-track"
+},
+"48.03.04": {
+"books": [
+"serre-lie-algebras-and-lie-groups",
+"ravenel-complex-cobordism",
+"kobayashi-nomizu-foundations-vol2",
+"helgason-differential-geometry",
+"sternberg-lectures-differential-geometry",
+"kobayashi-nomizu-foundations-vol1",
+"jost-riemannian-geometry"
+],
+"curriculum": "fast-track"
+},
+"48.03.05": {
+"books": [
+"serre-lie-algebras-and-lie-groups",
+"serge-lang-algebra",
+"helgason-differential-geometry",
+"sternberg-lectures-differential-geometry"
+],
+"curriculum": "fast-track"
+},
+"48.03.06": {
+"books": [
+"serre-lie-algebras-and-lie-groups",
+"serre-complex-semisimple-lie-algebras",
+"mackenzie-lie-groupoids-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.03.07": {
+"books": [
+"kobayashi-nomizu-foundations-vol2"
+],
+"curriculum": "fast-track"
+},
+"48.05.00": {
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"jost-riemannian-geometry"
+],
+"curriculum": "fast-track"
+},
+"48.05.06": {
+"books": [
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.05.11": {
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.05.12": {
+"books": [
+"olver-lie-groups-differential-equations",
+"kobayashi-nomizu-foundations-vol2",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.05.13": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.05.14": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.05.15": {
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.05.16": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"berline-getzler-vergne-heat-kernels-dirac-operators",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics"
+],
+"curriculum": "fast-track"
+},
+"48.05.17": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.05.18": {
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"kobayashi-nomizu-foundations-vol1"
+],
+"curriculum": "fast-track"
+},
+"48.05.19": {
+"books": [
+"donaldson-riemann-surfaces",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"krantz-several-complex-variables"
+],
+"curriculum": "fast-track"
+},
+"48.05.20": {
+"books": [
+"jost-riemannian-geometry",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2"
+],
+"curriculum": "fast-track"
+},
+"48.12.24": {
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"gelfand-manin-homological-algebra",
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"curriculum": "fast-track"
+},
+"48.12.26": {
+"books": [
+"may-concise-algebraic-topology",
+"may-simplicial-objects",
+"goerss-jardine-simplicial-homotopy"
+],
+"curriculum": "fast-track"
+},
+"48.12.27": {
+"books": [
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"curriculum": "fast-track"
+},
+"48.12.28": {
+"books": [
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"curriculum": "fast-track"
+},
+"48.12.29": {
+"books": [
+"bott-tu-differential-forms",
+"milnor-stasheff-characteristic-classes",
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"curriculum": "fast-track"
+},
+"48.12.30": {
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"may-simplicial-objects",
+"may-concise-algebraic-topology"
+],
+"curriculum": "fast-track"
+},
+"48.12.36": {
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"may-simplicial-objects"
+],
+"curriculum": "fast-track"
+},
+"48.12.39": {
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"may-concise-algebraic-topology",
+"may-simplicial-objects"
+],
+"curriculum": "fast-track"
+},
+"48.12.49": {
+"books": [
+"arnold-hydrodynamics",
+"serre-lie-algebras-and-lie-groups",
+"may-ponto-more-concise",
+"baxter-exactly-solved-models",
+"griffiths-morgan-rational-homotopy"
+],
+"curriculum": "fast-track"
+},
+"49.01.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.02.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.03.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.04.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.05.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.06.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.07.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"49.08.01": {
+"books": [],
+"curriculum": "fast-track"
+},
+"50.01.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.02.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.03.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.04.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.05.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.06.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.07.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.08.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.09.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.10.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.11.01": {
+"books": [],
+"curriculum": "other"
+},
+"50.12.01": {
+"books": [],
+"curriculum": "other"
 }
 }

@@ -368,7 +368,7 @@ side (Ch. IV).
 **This plan recommends Option B**, with the GIT-Whitney content split
 as follows:
 
-- **`03.02.02+` Whitney's classical theorems (manifolds sub-chapter
+- **`48.02.02+` Whitney's classical theorems (manifolds sub-chapter
   expansion):** Whitney extension theorem, Whitney covering lemma,
   Whitney embedding theorem. Three units in the manifolds
   sub-chapter, broadening it from one unit (smooth manifold,
@@ -484,7 +484,7 @@ the Babel Bible and pays back across the full future analysis track):**
 **Priority 1 — high-leverage Whitney classical theorems
 (differential-topology side; **lives in `03-modern-geometry/02-manifolds/`**):**
 
-8. **`03.02.02` Whitney extension theorem.** Statement: a closed set
+8. **`48.02.02` Whitney extension theorem.** Statement: a closed set
    $A \subset \mathbb{R}^n$ and a compatible $k$-jet field on $A$
    extend to a $C^k$ function on $\mathbb{R}^n$. Proof via the
    **Whitney cube decomposition** of $\mathbb{R}^n \setminus A$ and
@@ -493,7 +493,7 @@ the Babel Bible and pays back across the full future analysis track):**
    AMS* 36:63-89 ("Analytic extensions of differentiable functions
    defined in closed sets"). **Mandatory originator-prose.**
 
-9. **`03.02.03` Whitney covering lemma.** Any open set $\Omega \subset
+9. **`48.02.03` Whitney covering lemma.** Any open set $\Omega \subset
    \mathbb{R}^n$ admits a covering by closed cubes
    $\{Q_i\}_{i \in I}$ with disjoint interiors satisfying
    $\mathrm{diam}(Q_i) \leq \mathrm{dist}(Q_i, \partial\Omega) \leq
@@ -504,7 +504,7 @@ the Babel Bible and pays back across the full future analysis track):**
    BMO, Sobolev extension, and Carleson-measure theorem; foundational
    harmonic-analysis tool.**
 
-10. **`03.02.04` Whitney embedding theorem.** Statement: every smooth
+10. **`48.02.04` Whitney embedding theorem.** Statement: every smooth
     $n$-manifold $M$ embeds smoothly in $\mathbb{R}^{2n+1}$ (easy
     form); strong form: in $\mathbb{R}^{2n}$ for $n \geq 1$. Proof
     of the easy form via general-position arguments on the tangent
@@ -778,14 +778,14 @@ originator-eligible per `docs/plans/FASTTRACK_EQUIVALENCE_PLAN.md`
 - **Whitney 1934**, "Analytic extensions of differentiable
   functions defined in closed sets," *Trans. AMS* 36:63-89. Whitney
   extension theorem and Whitney covering lemma. Originator
-  citations for `03.02.02`, `03.02.03`. **Mandatory
+  citations for `48.02.02`, `48.02.03`. **Mandatory
   originator-prose.**
 - **Whitney 1936**, "Differentiable manifolds," *Ann. of Math.* (2)
   37:645-680; **Whitney 1944**, "The self-intersections of a smooth
   $n$-manifold in $2n$-space," *Ann. of Math.* (2) 45:220-246; "The
   singularities of a smooth $n$-manifold in $(2n-1)$-space," ibid.
   247-293. Whitney embedding theorem (easy + strong forms).
-  Originator citation for `03.02.04`. **Mandatory
+  Originator citation for `48.02.04`. **Mandatory
   originator-prose.**
 - **Grassmann 1844**, *Die lineale Ausdehnungslehre, ein neuer
   Zweig der Mathematik* (Otto Wigand, Leipzig). The exterior
@@ -873,11 +873,11 @@ for differential forms and exterior powers.
 - `02.07.05` → `02.07.02`, `02.05.*` (multivariable
   differentiation upstream).
 - `02.07.06` → `02.07.04`, `02.07.05`.
-- `03.02.02` → `02.07.05` (Lipschitz / Rademacher prereq),
+- `48.02.02` → `02.07.05` (Lipschitz / Rademacher prereq),
   `02.05.*`, `03.02.01-smooth-manifold`.
-- `03.02.03` → no upstream dependency beyond elementary topology;
+- `48.02.03` → no upstream dependency beyond elementary topology;
   could ship before `02.07.*`.
-- `03.02.04` → `03.02.01-smooth-manifold`, `03.02.02` (Whitney
+- `48.02.04` → `03.02.01-smooth-manifold`, `48.02.02` (Whitney
   extension is used in the embedding proof).
 - `02.13.00` → `02.07.00` (chapter scaffolding edge).
 - `02.13.01` → `03.01.04-tensor-algebra` (algebraic exterior power
@@ -887,7 +887,7 @@ for differential forms and exterior powers.
 - `02.13.03` → `02.13.02`, `02.07.04`.
 - `02.13.04` → `02.13.03`, `02.11.04-banach-spaces` (completion
   upstream).
-- `02.13.05` → `02.13.04`, `03.02.03` (Whitney covering lemma is
+- `02.13.05` → `02.13.04`, `48.02.03` (Whitney covering lemma is
   used in the deformation construction).
 - `02.13.06` → `02.13.05`, `03.04.04-exterior-derivative`,
   `03.04.05-stokes-theorem`.
@@ -956,7 +956,7 @@ equivalence-coverage when:
   `docs/catalogs/CONCEPT_CATALOG.md`; dependency edges).
 - Priority-0 measure-theory units `02.07.01`–`02.07.06` have
   shipped (7 units including the README).
-- Priority-1 Whitney-classical-theorems units `03.02.02`–`03.02.04`
+- Priority-1 Whitney-classical-theorems units `48.02.02`–`48.02.04`
   have shipped (3 units in the manifolds sub-chapter, broadening
   it from its current 1-unit state).
 - Priority-1 GMT-core units `02.13.01`–`02.13.08` have shipped (8

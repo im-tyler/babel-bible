@@ -7,7 +7,7 @@ against a ~313-unit corpus and listed ~23 "to write" units, almost all marked �
 since grown to 1319 units and a large fraction of that punch-list is now **already covered** —
 chromatic / stable-homotopy material accreted into the Bousfield-Kan SS unit (`03.12.38`), the
 elliptic-cohomology pointer (`03.06.26`), the spectrum unit (`03.12.04`), the formal-group-law unit
-(`03.03.04`), the arithmetic-square unit (`03.12.45`), and the Steenrod-squares unit (`03.06.14`).
+(`48.03.04`), the arithmetic-square unit (`03.12.45`), and the Steenrod-squares unit (`03.06.14`).
 Each candidate below was grepped against the live corpus (filenames + bodies) before being called a
 gap. After verification, **5 genuine gaps remain** — all load-bearing chapters of Ravenel that no
 existing unit states or proves. Verified-covered topics are listed in the trailer with the unit id
@@ -33,7 +33,7 @@ Recommended chapter for all five: `03-modern-geometry/13-spectral-sequences/`
   $|v_n| = 2(p^n-1)$ ($p$-typical formal group law, Hazewinkel vs Araki generators); Hopf-algebroid
   structure $(BP_*, BP_*BP)$ with $BP_*BP = BP_*[t_1, t_2, \ldots]$, the right unit $\eta_R$ and the
   $v_n$; this is the $E_2$-input object for the Adams-Novikov spectral sequence. (Ravenel Ch. 4.)
-- **prereqs (verified to exist):** `03.03.04` (formal group law / Lazard / $p$-typicality / Quillen),
+- **prereqs (verified to exist):** `48.03.04` (formal group law / Lazard / $p$-typicality / Quillen),
   `03.12.04` (spectrum, $MU$), `03.12.38` (Bousfield-Kan / ANSS as cobar SS at $BP$),
   `03.06.26` (elliptic-cohomology pointer: Landweber, $BP_*$ Hazewinkel generators).
 - **why genuine:** `BP` and `BP_*BP` appear only as one-line *context* inside `03.12.38` (the ANSS
@@ -55,7 +55,7 @@ Recommended chapter for all five: `03-modern-geometry/13-spectral-sequences/`
   chromatic layers indexed by height $n$. **Ravenel's signature construction (Ch. 5).**
 - **prereqs (verified to exist):** `03.13.05` (Gap 1, $BP_*BP$), `03.12.38` (ANSS $E_2$ as
   $\operatorname{Ext}_{BP_*BP}$), `03.13.01` (spectral sequence / exact couple),
-  `03.03.04` (formal group law height).
+  `48.03.04` (formal group law height).
 - **why genuine:** grep for `"chromatic spectral sequence"` returns **zero** hits anywhere in the
   corpus. The *chromatic filtration / tower of localisations* $L_n$ is covered conceptually
   (`03.12.04`, `03.12.45`, `03.12.48`), but the algebraic chromatic SS that computes the ANSS
@@ -124,13 +124,13 @@ Recommended chapter for all five: `03-modern-geometry/13-spectral-sequences/`
 Each first-pass "to write" item below was grepped against the live corpus and found already covered;
 do **not** re-propose.
 
-- **Formal group law; Lazard ring; Lazard's theorem; logarithm.** COVERED — `03.03.04`
+- **Formal group law; Lazard ring; Lazard's theorem; logarithm.** COVERED — `48.03.04`
   (full beginner→master unit: definition, Lazard comparison lemma with proof, $L \cong
   \mathbb{Z}[t_n]$, isomorphisms/logarithm).
-- **Height of a FGL; Honda formal groups; $p$-typicality; Cartier idempotent.** COVERED — `03.03.04`
+- **Height of a FGL; Honda formal groups; $p$-typicality; Cartier idempotent.** COVERED — `48.03.04`
   (Master: Honda classification by height, Cartier module, $p$-typical normal form; height worked
   for $\hat{\mathbb{G}}_m$).
-- **Quillen's theorem $\pi_*(MU) = L$ (universal FGL on $MU$).** COVERED — `03.03.04` (Master Thm 1)
+- **Quillen's theorem $\pi_*(MU) = L$ (universal FGL on $MU$).** COVERED — `48.03.04` (Master Thm 1)
   and `03.06.26` (Quillen 1969 stated with surjectivity/injectivity proof sketch).
 - **Landweber exact-functor theorem.** COVERED — `03.06.26` (stated with proof idea + the
   $v_n$-regularity criterion, plus the additive-law counterexample proof).
@@ -168,7 +168,7 @@ do **not** re-propose.
   `03.06.12` ($MO$, Thom's theorem, Adams SS computation of $\pi_*MO$), `03.06.13` ($MSO$,
   Pontryagin-Thom), `03.12.04` (bordism spectra listed). *Note:* a dedicated "$MU$ as the universal
   complex-orientable cohomology theory" unit does not exist, but $MU$'s defining content (Thom
-  construction, $\pi_*MU = L$, complex-orientation FGL) is split across `03.03.04` + `03.06.26` +
+  construction, $\pi_*MU = L$, complex-orientation FGL) is split across `48.03.04` + `03.06.26` +
   `03.06.12-13` + `03.12.04` — judged covered in aggregate; not proposed.
 - **Hopf-invariant-one theorem; Bott periodicity; Hurewicz / Freudenthal / Serre finiteness.**
   COVERED — `03.08.07` (Bott periodicity), `03.12.19` (Hurewicz), `03.12.21` (Blakers-Massey /

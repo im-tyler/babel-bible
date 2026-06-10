@@ -57,7 +57,7 @@ The entire §3 punch-list of the first audit has been produced. Verified by
 ## COVERED — additional GM-HA topics verified against the corpus
 
 - **Snake lemma / five-lemma / Yoneda Ext** → `01.02.11-exact-sequence-snake-lemma`.
-- **Simplicial sets, $\Delta$, geometric realisation** → `03.12.24-simplicial-set-delta`, `03.12.25-simplicial-sets-and-geometric-realization`; **simplicial homology** → `03.12.12`.
+- **Simplicial sets, $\Delta$, geometric realisation** → `48.12.24-simplicial-set-delta`, `03.12.25-simplicial-sets-and-geometric-realization`; **simplicial homology** → `03.12.12`.
 - **Sheaves / stalk / sheafification / direct & inverse image** → `04.01.01-sheaf`, `04.01.02-stalk`, `04.01.03-sheafification`, `04.01.04-direct-inverse-image`.
 - **Sheaf cohomology $H^n(X,\mathcal F)=R^n\Gamma$** → `04.03.01-sheaf-cohomology`; **classical derived functors / Ext** → `04.03.06-derived-functors-and-ext`.
 - **Čech cohomology + comparison** → `04.03.03-cech-schemes`, `06.04.02-cech-cohomology-line-bundles`.

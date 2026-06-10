@@ -4113,7 +4113,7 @@
 "prereqs": [
 "02.07.08",
 "02.05.03",
-"03.02.27"
+"48.02.27"
 ],
 "section": "analysis",
 "slug": "stratonovich-calculus",
@@ -5212,1229 +5212,17 @@
 "fieldOrder": 7,
 "id": "03.02.01",
 "prereqs": [
-"01.02.17"
+"01.01.03"
 ],
-"section": "differential-geometry",
-"slug": "topological-manifold",
+"section": "modern-geometry",
+"slug": "smooth-manifold",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Topological manifold"
-},
-"03.02.02": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"schwarz-morse-homology",
-"sternberg-lectures-differential-geometry",
-"milnor-morse-theory",
-"whitney-geometric-integration-theory",
-"sternberg-curvature-mathematics-physics",
-"milnor-h-cobordism",
-"jost-riemannian-geometry"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.02",
-"prereqs": [
-"03.02.01"
-],
-"section": "differential-geometry",
-"slug": "smooth-structure-atlases",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Smooth structure and atlases"
-},
-"03.02.03": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"schwarz-morse-homology",
-"olver-lie-groups-differential-equations",
-"sternberg-lectures-differential-geometry",
-"milnor-morse-theory",
-"whitney-geometric-integration-theory",
-"jost-riemannian-geometry"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.03",
-"prereqs": [
-"03.02.02"
-],
-"section": "differential-geometry",
-"slug": "smooth-maps-manifolds",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Smooth maps between manifolds"
-},
-"03.02.04": {
-"area": "math",
-"books": [
-"whitney-geometric-integration-theory",
-"freed-lectures-field-theory-topology",
-"vaisman-differential-forms-cohomology",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"milnor-morse-theory",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.04",
-"prereqs": [
-"03.02.03"
-],
-"section": "differential-geometry",
-"slug": "frobenius-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Frobenius theorem"
-},
-"03.02.05": {
-"area": "math",
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"milnor-morse-theory",
-"besse-einstein-manifolds",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics",
-"milnor-h-cobordism"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.05",
-"prereqs": [
-"03.02.04"
-],
-"section": "differential-geometry",
-"slug": "sectional-ricci-scalar-curvature",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Sectional curvature, Ricci tensor, scalar curvature"
-},
-"03.02.06": {
-"area": "math",
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"milnor-morse-theory",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.06",
-"prereqs": [
-"03.02.05"
-],
-"section": "differential-geometry",
-"slug": "constant-curvature-killing-hopf",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Constant-curvature spaces and Killing-Hopf"
-},
-"03.02.07": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"milnor-morse-theory",
-"sternberg-curvature-mathematics-physics",
-"milnor-h-cobordism"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.07",
-"prereqs": [
-"03.02.03"
-],
-"section": "differential-geometry",
-"slug": "killing-fields",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Killing fields and infinitesimal isometries"
-},
-"03.02.08": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.08",
-"prereqs": [
-"03.02.07"
-],
-"section": "differential-geometry",
-"slug": "myers-steenrod",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Myers-Steenrod theorem"
-},
-"03.02.09": {
-"area": "math",
-"books": [
-"cannas-da-silva-symplectic",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"krantz-several-complex-variables"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.09",
-"prereqs": [
-"03.02.03"
-],
-"section": "differential-geometry",
-"slug": "almost-complex-structure",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Almost-complex structure (manifold-level)"
-},
-"03.02.10": {
-"area": "math",
-"books": [
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"gunning-holomorphic-functions-several-variables",
-"krantz-several-complex-variables"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.10",
-"prereqs": [
-"03.02.09"
-],
-"section": "differential-geometry",
-"slug": "complex-manifold-dolbeault",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Complex manifold and the Dolbeault complex"
-},
-"03.02.11": {
-"area": "math",
-"books": [
-"cannas-da-silva-symplectic",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics",
-"krantz-several-complex-variables"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.11",
-"prereqs": [
-"03.02.02"
-],
-"section": "differential-geometry",
-"slug": "hermitian-kahler-form",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Hermitian manifold and the Kahler form"
-},
-"03.02.12": {
-"area": "math",
-"books": [
-"cannas-da-silva-symplectic",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics",
-"krantz-several-complex-variables",
-"douglas-arnold-feec"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.12",
-"prereqs": [
-"03.02.02"
-],
-"section": "differential-geometry",
-"slug": "kahler-identities-hodge-decomposition",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Kahler identities and the Hodge decomposition (Kahler version)"
-},
-"03.02.13": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.13",
-"prereqs": [
-"03.02.02"
-],
-"section": "differential-geometry",
-"slug": "isometric-immersion-second-fundamental",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Isometric immersion and the second fundamental form"
-},
-"03.02.14": {
-"area": "math",
-"books": [
-"donaldson-riemann-surfaces",
-"olver-lie-groups-differential-equations",
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.14",
-"prereqs": [
-"03.02.02"
-],
-"section": "differential-geometry",
-"slug": "gauss-codazzi-ricci-equations",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Gauss, Codazzi, and Ricci equations"
-},
-"03.02.15": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"berline-getzler-vergne-heat-kernels-dirac-operators",
-"milnor-morse-theory",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.15",
-"prereqs": [
-"03.02.11"
-],
-"section": "differential-geometry",
-"slug": "bochner-technique",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Bochner technique and curvature vanishing theorems"
-},
-"03.02.16": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"penrose-rindler-spinors-spacetime-vol1",
-"besse-einstein-manifolds",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.16",
-"prereqs": [
-"03.02.05"
-],
-"section": "differential-geometry",
-"slug": "weyl-tensor-and-conformally-flat-metrics",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Weyl tensor and conformally flat metrics"
-},
-"03.02.17": {
-"area": "math",
-"books": [
-"gerard-microlocal-qft-curved-spacetimes",
-"jost-riemannian-geometry",
-"helgason-differential-geometry-lie-groups",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.17",
-"prereqs": [
-"03.02.05",
-"03.02.06"
-],
-"section": "differential-geometry",
-"slug": "lorentzian-hopf-rinow-and-global-hyperbolicity",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Lorentzian Hopf-Rinow and global hyperbolicity (introductory pseudo-Riemannian geometry)"
-},
-"03.02.18": {
-"area": "math",
-"books": [
-"penrose-rindler-spinors-spacetime-vol1",
-"besse-einstein-manifolds",
-"penrose-rindler-spinors-spacetime-vol2",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.18",
-"prereqs": [
-"03.02.16",
-"03.02.05"
-],
-"section": "differential-geometry",
-"slug": "petrov-classification-of-lorentzian-4-curvature",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Petrov classification of Lorentzian 4-curvature"
-},
-"03.02.19": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"penrose-rindler-spinors-spacetime-vol1",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.19",
-"prereqs": [
-"03.02.05",
-"03.02.30",
-"13.02.02"
-],
-"section": "differential-geometry",
-"slug": "jacobi-fields-conjugate-points-morse-index-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Jacobi fields, conjugate points, and the Morse Index Theorem"
-},
-"03.02.20": {
-"area": "math",
-"books": [
-"freed-lectures-field-theory-topology",
-"milnor-h-cobordism",
-"milnor-morse-theory",
-"deligne-quantum-fields-strings"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.20",
-"prereqs": [
-"03.02.02",
-"03.02.03",
-"03.02.30",
-"03.02.31"
-],
-"section": "differential-geometry",
-"slug": "handles-surgery-and-the-cobordism-category",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Handles, surgery, and the cobordism category"
-},
-"03.02.21": {
-"area": "math",
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.21",
-"prereqs": [
-"03.02.20",
-"03.02.30"
-],
-"section": "differential-geometry",
-"slug": "rearrangement-and-self-indexing-morse-functions",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Rearrangement and self-indexing Morse functions"
-},
-"03.02.22": {
-"area": "math",
-"books": [
-"whitney-geometric-integration-theory",
-"donaldson-floer-homology-yang-mills",
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.22",
-"prereqs": [
-"03.02.20",
-"03.02.21",
-"03.02.30"
-],
-"section": "differential-geometry",
-"slug": "the-whitney-trick-and-handle-cancellation",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Whitney trick and handle cancellation"
-},
-"03.02.23": {
-"area": "math",
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.23",
-"prereqs": [
-"03.02.22",
-"03.02.21",
-"03.02.20"
-],
-"section": "differential-geometry",
-"slug": "the-h-cobordism-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The h-cobordism theorem"
-},
-"03.02.24": {
-"area": "math",
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.24",
-"prereqs": [
-"03.02.23",
-"03.02.22"
-],
-"section": "differential-geometry",
-"slug": "the-generalised-poincare-conjecture-in-high-dimensions",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The generalised Poincar\u00e9 conjecture in high dimensions"
-},
-"03.02.25": {
-"area": "math",
-"books": [
-"voisin-hodge-theory-volume-1",
-"milnor-morse-theory",
-"milnor-h-cobordism"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.25",
-"prereqs": [
-"03.02.30",
-"03.02.31",
-"04.07.01"
-],
-"section": "differential-geometry",
-"slug": "lefschetz-hyperplane-theorem-via-morse",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Lefschetz hyperplane theorem via Morse theory"
-},
-"03.02.26": {
-"area": "math",
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"milnor-h-cobordism",
-"besse-einstein-manifolds",
-"deligne-quantum-fields-strings"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.26",
-"prereqs": [
-"03.02.05",
-"03.02.27",
-"03.04.08"
-],
-"section": "differential-geometry",
-"slug": "harmonic-maps-energy-tension-field-and-the-harmonic-map-equation",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Harmonic maps: energy, tension field, and the harmonic-map equation"
-},
-"03.02.27": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"milnor-h-cobordism",
-"kobayashi-nomizu-foundations-vol2",
-"helgason-differential-geometry-lie-groups",
-"milnor-morse-theory",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.27",
-"prereqs": [
-"03.02.19",
-"03.02.20",
-"03.02.30"
-],
-"section": "differential-geometry",
-"slug": "levi-civita-connection-exponential-map-gradient-flow",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Levi-Civita connection, exponential map, and gradient-like vector fields on a cobordism"
-},
-"03.02.28": {
-"area": "math",
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.28",
-"prereqs": [
-"03.02.20",
-"03.02.23"
-],
-"section": "differential-geometry",
-"slug": "pointer-surgery-theory-and-the-surgery-exact-sequence",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Pointer: surgery theory and the surgery exact sequence"
-},
-"03.02.29": {
-"area": "math",
-"books": [
-"donaldson-riemann-surfaces",
-"jost-riemannian-geometry",
-"besse-einstein-manifolds",
-"deligne-quantum-fields-strings"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.29",
-"prereqs": [
-"03.02.26",
-"03.02.15"
-],
-"section": "differential-geometry",
-"slug": "the-harmonic-map-heat-flow-and-the-eells-sampson-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The harmonic-map heat flow and the Eells\u2013Sampson theorem"
-},
-"03.02.30": {
-"area": "math",
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.30",
-"prereqs": [
-"03.02.02",
-"03.02.03",
-"02.05.05"
-],
-"section": "differential-geometry",
-"slug": "morse-functions-morse-lemma-index",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Morse functions, the Morse lemma, and the Morse index"
-},
-"03.02.31": {
-"area": "math",
-"books": [
-"milnor-h-cobordism",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.31",
-"prereqs": [
-"03.12.10",
-"03.12.13"
-],
-"section": "differential-geometry",
-"slug": "handle-attachment-cw-type-morse-inequalities",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Handle attachment, CW homotopy type, and the Morse inequalities"
-},
-"03.02.32": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"helgason-differential-geometry-lie-groups",
-"milnor-morse-theory",
-"besse-einstein-manifolds",
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.32",
-"prereqs": [
-"03.02.27",
-"13.02.02"
-],
-"section": "differential-geometry",
-"slug": "the-riemannian-hopf-rinow-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Riemannian Hopf\u2013Rinow theorem"
-},
-"03.02.33": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"penrose-rindler-spinors-spacetime-vol1",
-"besse-einstein-manifolds"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.33",
-"prereqs": [
-"03.02.05",
-"03.02.16",
-"03.09.17"
-],
-"section": "differential-geometry",
-"slug": "the-yamabe-problem-and-the-conformal-laplacian",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Yamabe problem and the conformal Laplacian"
-},
-"03.02.34": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.34",
-"prereqs": [
-"03.02.19",
-"03.02.06"
-],
-"section": "differential-geometry",
-"slug": "the-toponogov-triangle-comparison-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Toponogov triangle comparison theorem"
-},
-"03.02.35": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.35",
-"prereqs": [
-"03.02.19",
-"03.02.32"
-],
-"section": "differential-geometry",
-"slug": "synges-theorem-and-the-second-variation-of-arc-length",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Synge's theorem and the second variation of arc length"
-},
-"03.02.36": {
-"area": "math",
-"books": [],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.36",
-"prereqs": [
-"03.02.05",
-"03.02.16",
-"13.04.02"
-],
-"section": "differential-geometry",
-"slug": "einstein-metrics-as-critical-points-of-the-total-scalar-curvature",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Einstein metrics as critical points of the total scalar curvature"
-},
-"03.02.37": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.37",
-"prereqs": [
-"07.04.07",
-"03.02.05",
-"03.02.36"
-],
-"section": "differential-geometry",
-"slug": "homogeneous-einstein-metrics-on-g-h",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Homogeneous Einstein metrics on G/H"
-},
-"03.02.38": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.38",
-"prereqs": [
-"03.02.15",
-"03.02.16",
-"03.02.36"
-],
-"section": "differential-geometry",
-"slug": "infinitesimal-einstein-deformations-and-koiso-rigidity",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Infinitesimal Einstein deformations, the Lichnerowicz Laplacian on 2-tensors, and Koiso rigidity"
-},
-"03.02.39": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"milnor-morse-theory",
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.39",
-"prereqs": [
-"03.02.27",
-"03.02.05"
-],
-"section": "differential-geometry",
-"slug": "the-cartan-ambrose-hicks-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Cartan\u2013Ambrose\u2013Hicks theorem (intrinsic rigidity)"
-},
-"03.02.40": {
-"area": "math",
-"books": [
-"milnor-morse-theory"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.40",
-"prereqs": [
-"03.02.19",
-"03.02.31",
-"03.12.10"
-],
-"section": "differential-geometry",
-"slug": "path-space-as-cw-complex",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The path space as a CW complex: the fundamental theorem of Morse theory"
-},
-"03.02.41": {
-"area": "math",
-"books": [
-"penrose-rindler-spinors-spacetime-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.41",
-"prereqs": [
-"07.07.09",
-"03.09.05",
-"13.02.03"
-],
-"section": "differential-geometry",
-"slug": "two-spinor-calculus-epsilon-spinors-abstract-indices-spinor-tensor-dictionary",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The two-spinor calculus: $\\varepsilon$-spinors, abstract indices, and the spinor\u2013tensor dictionary"
-},
-"03.02.42": {
-"area": "math",
-"books": [
-"penrose-rindler-spinors-spacetime-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.42",
-"prereqs": [
-"12.11.01",
-"12.05.06"
-],
-"section": "differential-geometry",
-"slug": "zero-rest-mass-fields-spinor-maxwell-weyl-dirac",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Zero-rest-mass field equations and the spinor form of Maxwell, Weyl, and Dirac fields"
-},
-"03.02.43": {
-"area": "math",
-"books": [
-"penrose-rindler-spinors-spacetime-vol1"
-],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.43",
-"prereqs": [
-"13.02.03",
-"03.02.18"
-],
-"section": "differential-geometry",
-"slug": "newman-penrose-spin-coefficient-formalism",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "The Newman-Penrose spin-coefficient formalism"
-},
-"03.02.44": {
-"area": "math",
-"books": [],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.44",
-"prereqs": [
-"03.02.05",
-"03.12.23",
-"03.04.05"
-],
-"section": "differential-geometry",
-"slug": "gauss-bonnet-and-chern-gauss-bonnet",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Gauss-Bonnet and Chern-Gauss-Bonnet: from angle excess to the Euler class"
-},
-"03.02.45": {
-"area": "math",
-"books": [],
-"chapter": "manifolds",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.02.45",
-"prereqs": [
-"03.02.05",
-"03.02.27",
-"03.02.15",
-"03.05.15"
-],
-"section": "differential-geometry",
-"slug": "brownian-motion-on-a-riemannian-manifold",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Brownian motion on a Riemannian manifold"
+"title": "Smooth manifold"
 },
 "03.03.01": {
 "area": "math",
@@ -6532,119 +5320,6 @@
 ],
 "title": "Orthogonal group"
 },
-"03.03.04": {
-"area": "math",
-"books": [
-"serre-lie-algebras-and-lie-groups",
-"ravenel-complex-cobordism",
-"kobayashi-nomizu-foundations-vol2",
-"helgason-differential-geometry",
-"sternberg-lectures-differential-geometry",
-"kobayashi-nomizu-foundations-vol1",
-"jost-riemannian-geometry"
-],
-"chapter": "lie-groups",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.03.04",
-"prereqs": [
-"03.03.01"
-],
-"section": "differential-geometry",
-"slug": "formal-group-law",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Formal group law"
-},
-"03.03.05": {
-"area": "math",
-"books": [
-"serre-lie-algebras-and-lie-groups",
-"serge-lang-algebra",
-"helgason-differential-geometry",
-"sternberg-lectures-differential-geometry"
-],
-"chapter": "lie-groups",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.03.05",
-"prereqs": [
-"03.03.04"
-],
-"section": "differential-geometry",
-"slug": "padics-lie-group",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "p-adic Lie group and the p-adic exponential"
-},
-"03.03.06": {
-"area": "math",
-"books": [
-"serre-lie-algebras-and-lie-groups",
-"serre-complex-semisimple-lie-algebras",
-"mackenzie-lie-groupoids-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "lie-groups",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.03.06",
-"prereqs": [
-"03.03.01"
-],
-"section": "differential-geometry",
-"slug": "lie-third-theorem",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Lie's third theorem (statement, simply-connected case)"
-},
-"03.03.07": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2"
-],
-"chapter": "lie-groups",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.03.07",
-"prereqs": [
-"03.02.37",
-"03.05.13",
-"03.05.15",
-"07.04.07",
-"13.02.02"
-],
-"section": "differential-geometry",
-"slug": "invariant-affine-connections-reductive-homogeneous-canonical",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Invariant affine connections on a reductive homogeneous space and the canonical connection"
-},
 "03.03.10": {
 "area": "math",
 "books": [
@@ -6658,8 +5333,8 @@
 "fieldOrder": 7,
 "id": "03.03.10",
 "prereqs": [
-"03.02.02",
-"03.02.03",
+"48.02.02",
+"48.02.03",
 "03.03.01",
 "03.03.02"
 ],
@@ -7265,7 +5940,7 @@
 "03.03.10",
 "03.05.02",
 "03.04.01",
-"03.02.04"
+"48.02.04"
 ],
 "section": "modern-geometry",
 "slug": "lie-algebroid-anchor-bracket-leibniz-law",
@@ -7584,32 +6259,6 @@
 ],
 "title": "Differential forms and Stokes exercise pack (Shifrin / Arnold supplement)"
 },
-"03.05.00": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"jost-riemannian-geometry"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.00",
-"prereqs": [
-"03.02.01"
-],
-"section": "differential-geometry",
-"slug": "general-fibre-bundle",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "General fibre bundle"
-},
 "03.05.01": {
 "area": "math",
 "books": [
@@ -7759,30 +6408,6 @@
 ],
 "title": "Double cover"
 },
-"03.05.06": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.06",
-"prereqs": [
-"03.05.00"
-],
-"section": "differential-geometry",
-"slug": "vertical-subbundle",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Vertical subbundle and fundamental vector fields"
-},
 "03.05.07": {
 "area": "math",
 "books": [
@@ -7919,291 +6544,6 @@
 "master"
 ],
 "title": "Sphere bundle, the global angular form, and the Hopf index theorem"
-},
-"03.05.11": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.11",
-"prereqs": [
-"03.05.00",
-"03.05.06"
-],
-"section": "differential-geometry",
-"slug": "horizontal-lift-parallel-transport",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Horizontal lift and parallel transport"
-},
-"03.05.12": {
-"area": "math",
-"books": [
-"olver-lie-groups-differential-equations",
-"kobayashi-nomizu-foundations-vol2",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.12",
-"prereqs": [
-"03.05.00",
-"03.05.06"
-],
-"section": "differential-geometry",
-"slug": "reduction-structure-group",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Reduction of structure group; reduction of a connection"
-},
-"03.05.13": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.13",
-"prereqs": [
-"03.05.00",
-"03.05.06",
-"03.05.11"
-],
-"section": "differential-geometry",
-"slug": "associated-bundle-induced-connection",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Associated bundle and induced connection"
-},
-"03.05.14": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.14",
-"prereqs": [
-"03.05.00",
-"03.05.06",
-"03.05.11",
-"03.05.13"
-],
-"section": "differential-geometry",
-"slug": "torsion-cartan-structural-equations",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Torsion tensor and the two Cartan structural equations"
-},
-"03.05.15": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"kobayashi-nomizu-foundations-vol2",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-lectures-differential-geometry",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.15",
-"prereqs": [
-"03.05.00",
-"03.05.06",
-"03.05.11",
-"03.05.13",
-"03.05.14"
-],
-"section": "differential-geometry",
-"slug": "linear-connection-frame-bundle-soldering-form",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Linear connection via the frame bundle; soldering form"
-},
-"03.05.16": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"berline-getzler-vergne-heat-kernels-dirac-operators",
-"mackenzie-lie-groupoids-vol1",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.16",
-"prereqs": [
-"03.05.00"
-],
-"section": "differential-geometry",
-"slug": "holonomy-group",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Holonomy group and restricted holonomy"
-},
-"03.05.17": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"kobayashi-nomizu-foundations-vol1",
-"sternberg-curvature-mathematics-physics",
-"mackenzie-lie-groupoids-vol1"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.17",
-"prereqs": [
-"03.05.00"
-],
-"section": "differential-geometry",
-"slug": "ambrose-singer-holonomy",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Ambrose-Singer holonomy theorem"
-},
-"03.05.18": {
-"area": "math",
-"books": [
-"kobayashi-nomizu-foundations-vol2",
-"besse-einstein-manifolds",
-"kobayashi-nomizu-foundations-vol1"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.18",
-"prereqs": [
-"03.05.00"
-],
-"section": "differential-geometry",
-"slug": "holonomy-reduction",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Holonomy reduction theorem"
-},
-"03.05.19": {
-"area": "math",
-"books": [
-"donaldson-riemann-surfaces",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2",
-"krantz-several-complex-variables"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.19",
-"prereqs": [
-"03.05.00"
-],
-"section": "differential-geometry",
-"slug": "holomorphic-vector-bundle",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Holomorphic vector bundle"
-},
-"03.05.20": {
-"area": "math",
-"books": [
-"jost-riemannian-geometry",
-"voisin-hodge-theory-volume-1",
-"kobayashi-nomizu-foundations-vol2"
-],
-"chapter": "fibre-bundles",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.05.20",
-"prereqs": [
-"03.05.00"
-],
-"section": "differential-geometry",
-"slug": "hermitian-metric-chern-connection",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Hermitian metric on a complex bundle; Chern connection"
 },
 "03.05.21": {
 "area": "math",
@@ -8898,7 +7238,7 @@
 "fieldOrder": 7,
 "id": "03.06.21",
 "prereqs": [
-"03.02.04",
+"48.02.04",
 "03.04.04",
 "03.04.06",
 "03.06.06",
@@ -9274,7 +7614,7 @@
 "prereqs": [
 "03.07.11",
 "03.07.14",
-"03.02.18",
+"48.02.18",
 "03.09.05"
 ],
 "section": "modern-geometry",
@@ -9728,7 +8068,7 @@
 "id": "03.07.30",
 "prereqs": [
 "03.07.29",
-"03.05.11",
+"48.05.11",
 "03.04.21"
 ],
 "section": "modern-geometry",
@@ -10081,10 +8421,10 @@
 "fieldOrder": 7,
 "id": "03.08.08",
 "prereqs": [
-"03.02.19",
+"48.02.19",
 "03.08.07",
 "07.04.07",
-"03.02.32"
+"48.02.32"
 ],
 "section": "modern-geometry",
 "slug": "bott-periodicity-for-u-via-morse-theory",
@@ -10226,7 +8566,7 @@
 "prereqs": [
 "07.04.13",
 "03.09.12",
-"03.02.19"
+"48.02.19"
 ],
 "section": "modern-geometry",
 "slug": "bott-periodicity-for-o-iterated-minimal-geodesics",
@@ -10251,7 +8591,7 @@
 "fieldOrder": 7,
 "id": "03.08.20",
 "prereqs": [
-"03.02.22",
+"48.02.22",
 "03.08.01"
 ],
 "section": "modern-geometry",
@@ -12156,36 +10496,6 @@
 ],
 "title": "Euler characteristic"
 },
-"03.12.24": {
-"area": "math",
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"gelfand-manin-homological-algebra",
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.24",
-"prereqs": [
-"03.12.10",
-"03.12.01",
-"03.12.11"
-],
-"section": "differential-geometry",
-"slug": "simplicial-set-delta",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Simplicial set and the simplicial category Delta"
-},
 "03.12.25": {
 "area": "math",
 "books": [
@@ -12217,148 +10527,6 @@
 "master"
 ],
 "title": "Simplicial sets and geometric realization"
-},
-"03.12.26": {
-"area": "math",
-"books": [
-"may-concise-algebraic-topology",
-"may-simplicial-objects",
-"goerss-jardine-simplicial-homotopy"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.26",
-"prereqs": [
-"03.12.24",
-"03.12.10",
-"03.12.01"
-],
-"section": "differential-geometry",
-"slug": "functorial-cw-approximation",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Functorial CW approximation Gamma X = |S_*X|"
-},
-"03.12.27": {
-"area": "math",
-"books": [
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.27",
-"prereqs": [
-"03.12.26",
-"03.12.10",
-"03.12.01",
-"02.01.08"
-],
-"section": "differential-geometry",
-"slug": "puppe-cofiber-sequence",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Puppe cofiber sequence"
-},
-"03.12.28": {
-"area": "math",
-"books": [
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.28",
-"prereqs": [
-"03.12.27",
-"02.01.07",
-"03.12.01"
-],
-"section": "differential-geometry",
-"slug": "puppe-fiber-sequence",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Puppe fiber sequence"
-},
-"03.12.29": {
-"area": "math",
-"books": [
-"bott-tu-differential-forms",
-"milnor-stasheff-characteristic-classes",
-"may-concise-algebraic-topology",
-"may-ponto-more-concise",
-"may-simplicial-objects"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.29",
-"prereqs": [
-"03.12.28",
-"03.12.11",
-"03.12.10"
-],
-"section": "differential-geometry",
-"slug": "thom-space-thom-isomorphism",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Thom space and Thom isomorphism"
-},
-"03.12.30": {
-"area": "math",
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"may-simplicial-objects",
-"may-concise-algebraic-topology"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.30",
-"prereqs": [
-"03.12.29",
-"03.12.24"
-],
-"section": "differential-geometry",
-"slug": "minimal-complex-minimal-fibration",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Minimal complex and minimal fibration"
 },
 "03.12.31": {
 "area": "math",
@@ -12507,32 +10675,6 @@
 ],
 "title": "Simplicial model category and the function complex"
 },
-"03.12.36": {
-"area": "math",
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"may-simplicial-objects"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.36",
-"prereqs": [
-"03.12.30",
-"03.12.24"
-],
-"section": "differential-geometry",
-"slug": "bisimplicial-set-diagonal-realisation-lemma",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Bisimplicial set, diagonal, and the realisation lemma"
-},
 "03.12.37": {
 "area": "math",
 "books": [
@@ -12588,33 +10730,6 @@
 ],
 "title": "Bousfield-Kan spectral sequence"
 },
-"03.12.39": {
-"area": "math",
-"books": [
-"goerss-jardine-simplicial-homotopy",
-"may-concise-algebraic-topology",
-"may-simplicial-objects"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.39",
-"prereqs": [
-"03.12.36",
-"03.12.24"
-],
-"section": "differential-geometry",
-"slug": "simplicial-group-wbar-classifying-functor",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Simplicial group and the W-bar classifying functor"
-},
 "03.12.40": {
 "area": "math",
 "books": [
@@ -12661,7 +10776,7 @@
 "fieldOrder": 7,
 "id": "03.12.41",
 "prereqs": [
-"03.12.39",
+"48.12.39",
 "03.12.25"
 ],
 "section": "modern-geometry",
@@ -12871,34 +10986,6 @@
 "master"
 ],
 "title": "Bousfield localisation of a model category"
-},
-"03.12.49": {
-"area": "math",
-"books": [
-"arnold-hydrodynamics",
-"serre-lie-algebras-and-lie-groups",
-"may-ponto-more-concise",
-"baxter-exactly-solved-models",
-"griffiths-morgan-rational-homotopy"
-],
-"chapter": "homotopy-theory",
-"curriculum": "fast-track",
-"field": "geometry-topology",
-"fieldLabel": "Geometry & Topology",
-"fieldOrder": 7,
-"id": "03.12.49",
-"prereqs": [
-"03.12.24"
-],
-"section": "differential-geometry",
-"slug": "bialgebra-hopf-milnor-moore",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Bialgebra, Hopf algebra, and the Milnor-Moore theorem"
 },
 "03.12.50": {
 "area": "math",
@@ -13496,7 +11583,7 @@
 "fieldOrder": 7,
 "id": "03.13.05",
 "prereqs": [
-"03.03.04",
+"48.03.04",
 "03.12.04",
 "03.12.38"
 ],
@@ -13685,8 +11772,8 @@
 "fieldOrder": 7,
 "id": "03.15.01",
 "prereqs": [
-"03.02.30",
-"03.02.05",
+"48.02.30",
+"48.02.05",
 "02.12.01"
 ],
 "section": "modern-geometry",
@@ -13711,7 +11798,7 @@
 "fieldOrder": 7,
 "id": "03.15.02",
 "prereqs": [
-"03.02.30",
+"48.02.30",
 "03.09.06",
 "02.11.04",
 "24.01.01"
@@ -14036,7 +12123,7 @@
 "fieldOrder": 7,
 "id": "03.16.01",
 "prereqs": [
-"03.02.20",
+"48.02.20",
 "03.09.04",
 "03.12.04"
 ],
@@ -14064,7 +12151,7 @@
 "id": "03.16.02",
 "prereqs": [
 "03.16.01",
-"03.02.20"
+"48.02.20"
 ],
 "section": "modern-geometry",
 "slug": "two-dimensional-tqfts-and-frobenius-algebras",
@@ -19260,7 +17347,7 @@
 "id": "05.05.05",
 "prereqs": [
 "03.02.01",
-"03.05.00",
+"48.05.00",
 "02.12.01",
 "05.02.05"
 ],
@@ -19423,7 +17510,7 @@
 "05.05.05",
 "05.05.06",
 "03.03.02",
-"03.05.12"
+"48.05.12"
 ],
 "section": "symplectic",
 "slug": "differential-invariants-and-the-moving-frame-method",
@@ -20221,7 +18308,7 @@
 "prereqs": [
 "05.01.02",
 "05.03.01",
-"03.05.20"
+"48.05.20"
 ],
 "section": "symplectic",
 "slug": "prequantum-line-bundle-and-the-integrality-condition",
@@ -21746,8 +19833,8 @@
 "id": "06.03.04",
 "prereqs": [
 "06.03.03",
-"03.02.05",
-"03.02.06"
+"48.02.05",
+"48.02.06"
 ],
 "section": "riemann-surfaces",
 "slug": "uniformization-constant-curvature-conformal-metrics-ricci-flow",
@@ -21773,7 +19860,7 @@
 "prereqs": [
 "06.01.24",
 "06.01.11",
-"03.02.05"
+"48.02.05"
 ],
 "section": "riemann-surfaces",
 "slug": "prescribed-gaussian-curvature-kazdan-warner",
@@ -25195,7 +23282,7 @@
 "prereqs": [
 "07.06.02",
 "03.04.01",
-"03.12.49"
+"48.12.49"
 ],
 "section": "representation-theory",
 "slug": "free-lie-algebras-hall-basis-and-magnus-theorem",
@@ -26721,7 +24808,7 @@
 "intermediate",
 "master"
 ],
-"title": "\u03c6\u2074 theory and the Dyson series"
+"title": "$\\phi^4$ theory and the Dyson series"
 },
 "08.10.04": {
 "area": "math",
@@ -26811,7 +24898,7 @@
 "intermediate",
 "master"
 ],
-"title": "One-loop renormalisation in \u03c6\u2074"
+"title": "One-loop renormalisation in $\\phi^4$"
 },
 "08.10.07": {
 "area": "math",
@@ -33457,7 +31544,7 @@
 "id": "13.07.02",
 "prereqs": [
 "13.07.01",
-"03.02.18",
+"48.02.18",
 "13.06.01",
 "03.09.17",
 "13.02.01"
@@ -36868,7 +34955,7 @@
 "id": "21.07.01",
 "prereqs": [
 "01.02.12",
-"03.03.05"
+"48.03.05"
 ],
 "section": "number-theory",
 "slug": "zp-extensions-iwasawa-theory",
@@ -36923,7 +35010,7 @@
 "04.05.06",
 "04.05.07",
 "04.05.08",
-"03.02.11"
+"48.02.11"
 ],
 "section": "number-theory",
 "slug": "arakelov-geometry-arithmetic-surfaces-survey",
@@ -40149,22 +38236,27 @@
 "gelfand-generalized-functions-vol2-6",
 "douglas-arnold-feec"
 ],
-"chapter": "propositional-logic",
+"chapter": "sobolev-and-weak-pdes",
 "curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
 "id": "24.01.01",
-"prereqs": [],
-"section": "logic",
-"slug": "propositional-logic-truth-tables",
+"prereqs": [
+"02.11.04",
+"02.11.06",
+"02.11.07",
+"02.11.08"
+],
+"section": "numerical-pde",
+"slug": "sobolev-spaces-h-s-and-w-k-p",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Propositional logic and truth tables"
+"title": "Sobolev spaces $H^s$ and $W^{k,p}$"
 },
 "24.01.02": {
 "area": "math",
@@ -40253,24 +38345,25 @@
 "douglas-arnold-feec",
 "serge-lang-algebra"
 ],
-"chapter": "predicate-logic",
+"chapter": "classical-fem",
 "curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
 "id": "24.02.01",
 "prereqs": [
+"24.01.03",
 "24.01.01"
 ],
-"section": "logic",
-"slug": "predicate-logic-quantifiers",
+"section": "numerical-pde",
+"slug": "classical-conforming-fem-galerkin-cea-bramble-hilbert",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Predicate logic and quantifiers"
+"title": "Classical conforming FEM \u2014 Galerkin, C\u00e9a, Bramble-Hilbert"
 },
 "24.02.02": {
 "area": "math",
@@ -40304,24 +38397,27 @@
 "whitney-geometric-integration-theory",
 "douglas-arnold-feec"
 ],
-"chapter": "informal-fallacies",
+"chapter": "discrete-de-rham-and-feec",
 "curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
 "id": "24.03.01",
 "prereqs": [
-"24.01.01"
+"24.01.00",
+"24.02.01",
+"03.04.02",
+"03.04.13"
 ],
-"section": "logic",
-"slug": "informal-fallacies-argument-analysis",
+"section": "numerical-pde",
+"slug": "whitney-forms-mathcal-w-k",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Informal fallacies and argument analysis"
+"title": "Whitney forms $\\mathcal{W}^k$"
 },
 "24.03.02": {
 "area": "math",
@@ -40490,25 +38586,27 @@
 "books": [
 "douglas-arnold-feec"
 ],
-"chapter": "deductive-reasoning",
+"chapter": "applications",
 "curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
 "id": "24.04.01",
 "prereqs": [
-"24.01.01",
-"24.02.01"
+"03.04.15",
+"24.01.04",
+"24.03.05",
+"24.03.06"
 ],
-"section": "logic",
-"slug": "deductive-reasoning-syllogisms",
+"section": "numerical-pde",
+"slug": "mixed-fem-for-the-hodge-laplacian",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Deductive reasoning and syllogisms"
+"title": "Mixed FEM for the Hodge Laplacian"
 },
 "24.04.02": {
 "area": "math",
@@ -40689,97 +38787,6 @@
 ],
 "title": "Finite element exterior calculus exercise pack (Arnold-Falk-Winther supplement)"
 },
-"24.05.01": {
-"area": "math",
-"books": [],
-"chapter": "inductive-reasoning",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "24.05.01",
-"prereqs": [
-"24.03.01",
-"24.04.01"
-],
-"section": "logic",
-"slug": "inductive-reasoning-analogy-causation",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Inductive reasoning, analogy, and causation"
-},
-"24.06.01": {
-"area": "math",
-"books": [],
-"chapter": "decision-theory",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "24.06.01",
-"prereqs": [
-"24.05.01"
-],
-"section": "logic",
-"slug": "decision-theory-bayesian-reasoning",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Decision theory and Bayesian reasoning"
-},
-"24.07.01": {
-"area": "math",
-"books": [],
-"chapter": "cognitive-biases",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "24.07.01",
-"prereqs": [
-"24.06.01"
-],
-"section": "logic",
-"slug": "cognitive-biases-rationality",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Cognitive biases and rationality"
-},
-"24.08.01": {
-"area": "math",
-"books": [],
-"chapter": "critical-thinking-practice",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "24.08.01",
-"prereqs": [
-"24.03.01",
-"24.05.01",
-"24.07.01"
-],
-"section": "logic",
-"slug": "critical-thinking-media-science-everyday",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Critical thinking in media, science, and everyday life"
-},
 "25.01.01": {
 "area": "math",
 "books": [],
@@ -40810,7 +38817,7 @@
 "fieldOrder": 2,
 "id": "25.02.01",
 "prereqs": [
-"24.01.01"
+"49.01.01"
 ],
 "section": "logic",
 "slug": "predicate-logic-quantifiers",
@@ -40832,7 +38839,7 @@
 "fieldOrder": 2,
 "id": "25.03.01",
 "prereqs": [
-"24.01.01"
+"49.01.01"
 ],
 "section": "logic",
 "slug": "informal-fallacies-argument-analysis",
@@ -40856,7 +38863,7 @@
 "fieldOrder": 2,
 "id": "25.04.01",
 "prereqs": [
-"24.01.01"
+"49.01.01"
 ],
 "section": "logic",
 "slug": "deductive-reasoning-syllogisms",
@@ -40867,193 +38874,6 @@
 "master"
 ],
 "title": "Deductive reasoning and syllogisms"
-},
-"25.05.01": {
-"area": "other",
-"books": [],
-"chapter": "operating-systems",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.05.01",
-"prereqs": [
-"25.01.01",
-"25.04.01"
-],
-"section": "computer-science",
-"slug": "operating-systems-processes-memory",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Operating systems: processes and memory"
-},
-"25.06.01": {
-"area": "other",
-"books": [],
-"chapter": "networks",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.06.01",
-"prereqs": [
-"25.05.01"
-],
-"section": "computer-science",
-"slug": "computer-networks-internet-architecture",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Computer networks and internet architecture"
-},
-"25.07.01": {
-"area": "other",
-"books": [],
-"chapter": "databases",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.07.01",
-"prereqs": [
-"25.02.01",
-"25.04.01"
-],
-"section": "computer-science",
-"slug": "databases-relational-nosql",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Databases: relational, NoSQL, and data modeling"
-},
-"25.08.01": {
-"area": "other",
-"books": [],
-"chapter": "security",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.08.01",
-"prereqs": [
-"25.06.01",
-"25.07.01"
-],
-"section": "computer-science",
-"slug": "cybersecurity-encryption-privacy",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Cybersecurity, encryption, and privacy"
-},
-"25.09.01": {
-"area": "other",
-"books": [],
-"chapter": "ai-ml",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.09.01",
-"prereqs": [
-"25.03.01",
-"25.02.01",
-"25.07.01"
-],
-"section": "computer-science",
-"slug": "artificial-intelligence-machine-learning",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Artificial intelligence and machine learning"
-},
-"25.10.01": {
-"area": "other",
-"books": [],
-"chapter": "software-engineering",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.10.01",
-"prereqs": [
-"25.04.01",
-"25.02.01",
-"25.03.01"
-],
-"section": "computer-science",
-"slug": "software-engineering-design-patterns",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Software engineering and design patterns"
-},
-"25.11.01": {
-"area": "other",
-"books": [],
-"chapter": "distributed-systems",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.11.01",
-"prereqs": [
-"25.06.01",
-"25.07.01",
-"25.08.01"
-],
-"section": "computer-science",
-"slug": "distributed-systems-consensus",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Distributed systems and consensus"
-},
-"25.12.01": {
-"area": "other",
-"books": [],
-"chapter": "ethics-society",
-"curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "25.12.01",
-"prereqs": [
-"25.09.01",
-"25.10.01",
-"25.11.01"
-],
-"section": "computer-science",
-"slug": "computing-ethics-society-impact",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Computing ethics and societal impact"
 },
 "26.01.01": {
 "area": "math",
@@ -48626,7 +46446,7 @@
 "id": "43.01.01",
 "prereqs": [
 "00.01.01",
-"25.03.01"
+"50.03.01"
 ],
 "section": "numerical-analysis",
 "slug": "floating-point-arithmetic-ieee-model",
@@ -53677,7 +51497,7 @@
 "fieldOrder": 18,
 "id": "47.01.01",
 "prereqs": [
-"25.03.01",
+"50.03.01",
 "37.01.01"
 ],
 "section": "theoretical-cs",
@@ -53825,7 +51645,7 @@
 "id": "47.02.01",
 "prereqs": [
 "42.04.01",
-"25.03.01"
+"50.03.01"
 ],
 "section": "theoretical-cs",
 "slug": "time-complexity-p-np-polynomial-reductions",
@@ -54148,7 +51968,7 @@
 "fieldOrder": 18,
 "id": "47.04.01",
 "prereqs": [
-"25.03.01",
+"50.03.01",
 "01.01.01"
 ],
 "section": "theoretical-cs",
@@ -54554,5 +52374,2391 @@
 "master"
 ],
 "title": "Digital Signatures and Collision-Resistant Hash Functions"
+},
+"48.02.01": {
+"area": "math",
+"books": [],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.01",
+"prereqs": [
+"01.02.17"
+],
+"section": "differential-geometry",
+"slug": "topological-manifold",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Topological manifold"
+},
+"48.02.02": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"schwarz-morse-homology",
+"sternberg-lectures-differential-geometry",
+"milnor-morse-theory",
+"whitney-geometric-integration-theory",
+"sternberg-curvature-mathematics-physics",
+"milnor-h-cobordism",
+"jost-riemannian-geometry"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.02",
+"prereqs": [
+"48.02.01"
+],
+"section": "differential-geometry",
+"slug": "smooth-structure-atlases",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Smooth structure and atlases"
+},
+"48.02.03": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"schwarz-morse-homology",
+"olver-lie-groups-differential-equations",
+"sternberg-lectures-differential-geometry",
+"milnor-morse-theory",
+"whitney-geometric-integration-theory",
+"jost-riemannian-geometry"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.03",
+"prereqs": [
+"48.02.02"
+],
+"section": "differential-geometry",
+"slug": "smooth-maps-manifolds",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Smooth maps between manifolds"
+},
+"48.02.04": {
+"area": "math",
+"books": [
+"whitney-geometric-integration-theory",
+"freed-lectures-field-theory-topology",
+"vaisman-differential-forms-cohomology",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"milnor-morse-theory",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.04",
+"prereqs": [
+"48.02.03"
+],
+"section": "differential-geometry",
+"slug": "frobenius-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Frobenius theorem"
+},
+"48.02.05": {
+"area": "math",
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"milnor-morse-theory",
+"besse-einstein-manifolds",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics",
+"milnor-h-cobordism"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.05",
+"prereqs": [
+"48.02.04"
+],
+"section": "differential-geometry",
+"slug": "sectional-ricci-scalar-curvature",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sectional curvature, Ricci tensor, scalar curvature"
+},
+"48.02.06": {
+"area": "math",
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"milnor-morse-theory",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.06",
+"prereqs": [
+"48.02.05"
+],
+"section": "differential-geometry",
+"slug": "constant-curvature-killing-hopf",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Constant-curvature spaces and Killing-Hopf"
+},
+"48.02.07": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"milnor-morse-theory",
+"sternberg-curvature-mathematics-physics",
+"milnor-h-cobordism"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.07",
+"prereqs": [
+"48.02.03"
+],
+"section": "differential-geometry",
+"slug": "killing-fields",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Killing fields and infinitesimal isometries"
+},
+"48.02.08": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.08",
+"prereqs": [
+"48.02.07"
+],
+"section": "differential-geometry",
+"slug": "myers-steenrod",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Myers-Steenrod theorem"
+},
+"48.02.09": {
+"area": "math",
+"books": [
+"cannas-da-silva-symplectic",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"krantz-several-complex-variables"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.09",
+"prereqs": [
+"48.02.03"
+],
+"section": "differential-geometry",
+"slug": "almost-complex-structure",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Almost-complex structure (manifold-level)"
+},
+"48.02.10": {
+"area": "math",
+"books": [
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"gunning-holomorphic-functions-several-variables",
+"krantz-several-complex-variables"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.10",
+"prereqs": [
+"48.02.09"
+],
+"section": "differential-geometry",
+"slug": "complex-manifold-dolbeault",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Complex manifold and the Dolbeault complex"
+},
+"48.02.11": {
+"area": "math",
+"books": [
+"cannas-da-silva-symplectic",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics",
+"krantz-several-complex-variables"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.11",
+"prereqs": [
+"48.02.02"
+],
+"section": "differential-geometry",
+"slug": "hermitian-kahler-form",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hermitian manifold and the Kahler form"
+},
+"48.02.12": {
+"area": "math",
+"books": [
+"cannas-da-silva-symplectic",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics",
+"krantz-several-complex-variables",
+"douglas-arnold-feec"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.12",
+"prereqs": [
+"48.02.02"
+],
+"section": "differential-geometry",
+"slug": "kahler-identities-hodge-decomposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kahler identities and the Hodge decomposition (Kahler version)"
+},
+"48.02.13": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.13",
+"prereqs": [
+"48.02.02"
+],
+"section": "differential-geometry",
+"slug": "isometric-immersion-second-fundamental",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Isometric immersion and the second fundamental form"
+},
+"48.02.14": {
+"area": "math",
+"books": [
+"donaldson-riemann-surfaces",
+"olver-lie-groups-differential-equations",
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.14",
+"prereqs": [
+"48.02.02"
+],
+"section": "differential-geometry",
+"slug": "gauss-codazzi-ricci-equations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gauss, Codazzi, and Ricci equations"
+},
+"48.02.15": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"berline-getzler-vergne-heat-kernels-dirac-operators",
+"milnor-morse-theory",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.15",
+"prereqs": [
+"48.02.11"
+],
+"section": "differential-geometry",
+"slug": "bochner-technique",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bochner technique and curvature vanishing theorems"
+},
+"48.02.16": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"penrose-rindler-spinors-spacetime-vol1",
+"besse-einstein-manifolds",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.16",
+"prereqs": [
+"48.02.05"
+],
+"section": "differential-geometry",
+"slug": "weyl-tensor-and-conformally-flat-metrics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Weyl tensor and conformally flat metrics"
+},
+"48.02.17": {
+"area": "math",
+"books": [
+"gerard-microlocal-qft-curved-spacetimes",
+"jost-riemannian-geometry",
+"helgason-differential-geometry-lie-groups",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.17",
+"prereqs": [
+"48.02.05",
+"48.02.06"
+],
+"section": "differential-geometry",
+"slug": "lorentzian-hopf-rinow-and-global-hyperbolicity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lorentzian Hopf-Rinow and global hyperbolicity (introductory pseudo-Riemannian geometry)"
+},
+"48.02.18": {
+"area": "math",
+"books": [
+"penrose-rindler-spinors-spacetime-vol1",
+"besse-einstein-manifolds",
+"penrose-rindler-spinors-spacetime-vol2",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.18",
+"prereqs": [
+"48.02.16",
+"48.02.05"
+],
+"section": "differential-geometry",
+"slug": "petrov-classification-of-lorentzian-4-curvature",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Petrov classification of Lorentzian 4-curvature"
+},
+"48.02.19": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"penrose-rindler-spinors-spacetime-vol1",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.19",
+"prereqs": [
+"48.02.05",
+"48.02.30",
+"13.02.02"
+],
+"section": "differential-geometry",
+"slug": "jacobi-fields-conjugate-points-morse-index-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Jacobi fields, conjugate points, and the Morse Index Theorem"
+},
+"48.02.20": {
+"area": "math",
+"books": [
+"freed-lectures-field-theory-topology",
+"milnor-h-cobordism",
+"milnor-morse-theory",
+"deligne-quantum-fields-strings"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.20",
+"prereqs": [
+"48.02.02",
+"48.02.03",
+"48.02.30",
+"48.02.31"
+],
+"section": "differential-geometry",
+"slug": "handles-surgery-and-the-cobordism-category",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Handles, surgery, and the cobordism category"
+},
+"48.02.21": {
+"area": "math",
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.21",
+"prereqs": [
+"48.02.20",
+"48.02.30"
+],
+"section": "differential-geometry",
+"slug": "rearrangement-and-self-indexing-morse-functions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rearrangement and self-indexing Morse functions"
+},
+"48.02.22": {
+"area": "math",
+"books": [
+"whitney-geometric-integration-theory",
+"donaldson-floer-homology-yang-mills",
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.22",
+"prereqs": [
+"48.02.20",
+"48.02.21",
+"48.02.30"
+],
+"section": "differential-geometry",
+"slug": "the-whitney-trick-and-handle-cancellation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Whitney trick and handle cancellation"
+},
+"48.02.23": {
+"area": "math",
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.23",
+"prereqs": [
+"48.02.22",
+"48.02.21",
+"48.02.20"
+],
+"section": "differential-geometry",
+"slug": "the-h-cobordism-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The h-cobordism theorem"
+},
+"48.02.24": {
+"area": "math",
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.24",
+"prereqs": [
+"48.02.23",
+"48.02.22"
+],
+"section": "differential-geometry",
+"slug": "the-generalised-poincare-conjecture-in-high-dimensions",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The generalised Poincar\u00e9 conjecture in high dimensions"
+},
+"48.02.25": {
+"area": "math",
+"books": [
+"voisin-hodge-theory-volume-1",
+"milnor-morse-theory",
+"milnor-h-cobordism"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.25",
+"prereqs": [
+"48.02.30",
+"48.02.31",
+"04.07.01"
+],
+"section": "differential-geometry",
+"slug": "lefschetz-hyperplane-theorem-via-morse",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Lefschetz hyperplane theorem via Morse theory"
+},
+"48.02.26": {
+"area": "math",
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"milnor-h-cobordism",
+"besse-einstein-manifolds",
+"deligne-quantum-fields-strings"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.26",
+"prereqs": [
+"48.02.05",
+"48.02.27",
+"03.04.08"
+],
+"section": "differential-geometry",
+"slug": "harmonic-maps-energy-tension-field-and-the-harmonic-map-equation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Harmonic maps: energy, tension field, and the harmonic-map equation"
+},
+"48.02.27": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"milnor-h-cobordism",
+"kobayashi-nomizu-foundations-vol2",
+"helgason-differential-geometry-lie-groups",
+"milnor-morse-theory",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.27",
+"prereqs": [
+"48.02.19",
+"48.02.20",
+"48.02.30"
+],
+"section": "differential-geometry",
+"slug": "levi-civita-connection-exponential-map-gradient-flow",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Levi-Civita connection, exponential map, and gradient-like vector fields on a cobordism"
+},
+"48.02.28": {
+"area": "math",
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.28",
+"prereqs": [
+"48.02.20",
+"48.02.23"
+],
+"section": "differential-geometry",
+"slug": "pointer-surgery-theory-and-the-surgery-exact-sequence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Pointer: surgery theory and the surgery exact sequence"
+},
+"48.02.29": {
+"area": "math",
+"books": [
+"donaldson-riemann-surfaces",
+"jost-riemannian-geometry",
+"besse-einstein-manifolds",
+"deligne-quantum-fields-strings"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.29",
+"prereqs": [
+"48.02.26",
+"48.02.15"
+],
+"section": "differential-geometry",
+"slug": "the-harmonic-map-heat-flow-and-the-eells-sampson-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The harmonic-map heat flow and the Eells\u2013Sampson theorem"
+},
+"48.02.30": {
+"area": "math",
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.30",
+"prereqs": [
+"48.02.02",
+"48.02.03",
+"02.05.05"
+],
+"section": "differential-geometry",
+"slug": "morse-functions-morse-lemma-index",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Morse functions, the Morse lemma, and the Morse index"
+},
+"48.02.31": {
+"area": "math",
+"books": [
+"milnor-h-cobordism",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.31",
+"prereqs": [
+"03.12.10",
+"03.12.13"
+],
+"section": "differential-geometry",
+"slug": "handle-attachment-cw-type-morse-inequalities",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Handle attachment, CW homotopy type, and the Morse inequalities"
+},
+"48.02.32": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"helgason-differential-geometry-lie-groups",
+"milnor-morse-theory",
+"besse-einstein-manifolds",
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.32",
+"prereqs": [
+"48.02.27",
+"13.02.02"
+],
+"section": "differential-geometry",
+"slug": "the-riemannian-hopf-rinow-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Riemannian Hopf\u2013Rinow theorem"
+},
+"48.02.33": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"penrose-rindler-spinors-spacetime-vol1",
+"besse-einstein-manifolds"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.33",
+"prereqs": [
+"48.02.05",
+"48.02.16",
+"03.09.17"
+],
+"section": "differential-geometry",
+"slug": "the-yamabe-problem-and-the-conformal-laplacian",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Yamabe problem and the conformal Laplacian"
+},
+"48.02.34": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.34",
+"prereqs": [
+"48.02.19",
+"48.02.06"
+],
+"section": "differential-geometry",
+"slug": "the-toponogov-triangle-comparison-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Toponogov triangle comparison theorem"
+},
+"48.02.35": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.35",
+"prereqs": [
+"48.02.19",
+"48.02.32"
+],
+"section": "differential-geometry",
+"slug": "synges-theorem-and-the-second-variation-of-arc-length",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Synge's theorem and the second variation of arc length"
+},
+"48.02.36": {
+"area": "math",
+"books": [],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.36",
+"prereqs": [
+"48.02.05",
+"48.02.16",
+"13.04.02"
+],
+"section": "differential-geometry",
+"slug": "einstein-metrics-as-critical-points-of-the-total-scalar-curvature",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Einstein metrics as critical points of the total scalar curvature"
+},
+"48.02.37": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.37",
+"prereqs": [
+"07.04.07",
+"48.02.05",
+"48.02.36"
+],
+"section": "differential-geometry",
+"slug": "homogeneous-einstein-metrics-on-g-h",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Homogeneous Einstein metrics on G/H"
+},
+"48.02.38": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.38",
+"prereqs": [
+"48.02.15",
+"48.02.16",
+"48.02.36"
+],
+"section": "differential-geometry",
+"slug": "infinitesimal-einstein-deformations-and-koiso-rigidity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Infinitesimal Einstein deformations, the Lichnerowicz Laplacian on 2-tensors, and Koiso rigidity"
+},
+"48.02.39": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"milnor-morse-theory",
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.39",
+"prereqs": [
+"48.02.27",
+"48.02.05"
+],
+"section": "differential-geometry",
+"slug": "the-cartan-ambrose-hicks-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Cartan\u2013Ambrose\u2013Hicks theorem (intrinsic rigidity)"
+},
+"48.02.40": {
+"area": "math",
+"books": [
+"milnor-morse-theory"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.40",
+"prereqs": [
+"48.02.19",
+"48.02.31",
+"03.12.10"
+],
+"section": "differential-geometry",
+"slug": "path-space-as-cw-complex",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The path space as a CW complex: the fundamental theorem of Morse theory"
+},
+"48.02.41": {
+"area": "math",
+"books": [
+"penrose-rindler-spinors-spacetime-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.41",
+"prereqs": [
+"07.07.09",
+"03.09.05",
+"13.02.03"
+],
+"section": "differential-geometry",
+"slug": "two-spinor-calculus-epsilon-spinors-abstract-indices-spinor-tensor-dictionary",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The two-spinor calculus: $\\varepsilon$-spinors, abstract indices, and the spinor\u2013tensor dictionary"
+},
+"48.02.42": {
+"area": "math",
+"books": [
+"penrose-rindler-spinors-spacetime-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.42",
+"prereqs": [
+"12.11.01",
+"12.05.06"
+],
+"section": "differential-geometry",
+"slug": "zero-rest-mass-fields-spinor-maxwell-weyl-dirac",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Zero-rest-mass field equations and the spinor form of Maxwell, Weyl, and Dirac fields"
+},
+"48.02.43": {
+"area": "math",
+"books": [
+"penrose-rindler-spinors-spacetime-vol1"
+],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.43",
+"prereqs": [
+"13.02.03",
+"48.02.18"
+],
+"section": "differential-geometry",
+"slug": "newman-penrose-spin-coefficient-formalism",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Newman-Penrose spin-coefficient formalism"
+},
+"48.02.44": {
+"area": "math",
+"books": [],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.44",
+"prereqs": [
+"48.02.05",
+"03.12.23",
+"03.04.05"
+],
+"section": "differential-geometry",
+"slug": "gauss-bonnet-and-chern-gauss-bonnet",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gauss-Bonnet and Chern-Gauss-Bonnet: from angle excess to the Euler class"
+},
+"48.02.45": {
+"area": "math",
+"books": [],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.02.45",
+"prereqs": [
+"48.02.05",
+"48.02.27",
+"48.02.15",
+"48.05.15"
+],
+"section": "differential-geometry",
+"slug": "brownian-motion-on-a-riemannian-manifold",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Brownian motion on a Riemannian manifold"
+},
+"48.03.04": {
+"area": "math",
+"books": [
+"serre-lie-algebras-and-lie-groups",
+"ravenel-complex-cobordism",
+"kobayashi-nomizu-foundations-vol2",
+"helgason-differential-geometry",
+"sternberg-lectures-differential-geometry",
+"kobayashi-nomizu-foundations-vol1",
+"jost-riemannian-geometry"
+],
+"chapter": "lie-groups",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.03.04",
+"prereqs": [
+"03.03.01"
+],
+"section": "differential-geometry",
+"slug": "formal-group-law",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Formal group law"
+},
+"48.03.05": {
+"area": "math",
+"books": [
+"serre-lie-algebras-and-lie-groups",
+"serge-lang-algebra",
+"helgason-differential-geometry",
+"sternberg-lectures-differential-geometry"
+],
+"chapter": "lie-groups",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.03.05",
+"prereqs": [
+"48.03.04"
+],
+"section": "differential-geometry",
+"slug": "padics-lie-group",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "p-adic Lie group and the p-adic exponential"
+},
+"48.03.06": {
+"area": "math",
+"books": [
+"serre-lie-algebras-and-lie-groups",
+"serre-complex-semisimple-lie-algebras",
+"mackenzie-lie-groupoids-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "lie-groups",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.03.06",
+"prereqs": [
+"03.03.01"
+],
+"section": "differential-geometry",
+"slug": "lie-third-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lie's third theorem (statement, simply-connected case)"
+},
+"48.03.07": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2"
+],
+"chapter": "lie-groups",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.03.07",
+"prereqs": [
+"48.02.37",
+"48.05.13",
+"48.05.15",
+"07.04.07",
+"13.02.02"
+],
+"section": "differential-geometry",
+"slug": "invariant-affine-connections-reductive-homogeneous-canonical",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Invariant affine connections on a reductive homogeneous space and the canonical connection"
+},
+"48.05.00": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"jost-riemannian-geometry"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.00",
+"prereqs": [
+"48.02.01"
+],
+"section": "differential-geometry",
+"slug": "general-fibre-bundle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "General fibre bundle"
+},
+"48.05.06": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.06",
+"prereqs": [
+"48.05.00"
+],
+"section": "differential-geometry",
+"slug": "vertical-subbundle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vertical subbundle and fundamental vector fields"
+},
+"48.05.11": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.11",
+"prereqs": [
+"48.05.00",
+"48.05.06"
+],
+"section": "differential-geometry",
+"slug": "horizontal-lift-parallel-transport",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Horizontal lift and parallel transport"
+},
+"48.05.12": {
+"area": "math",
+"books": [
+"olver-lie-groups-differential-equations",
+"kobayashi-nomizu-foundations-vol2",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.12",
+"prereqs": [
+"48.05.00",
+"48.05.06"
+],
+"section": "differential-geometry",
+"slug": "reduction-structure-group",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Reduction of structure group; reduction of a connection"
+},
+"48.05.13": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.13",
+"prereqs": [
+"48.05.00",
+"48.05.06",
+"48.05.11"
+],
+"section": "differential-geometry",
+"slug": "associated-bundle-induced-connection",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Associated bundle and induced connection"
+},
+"48.05.14": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.14",
+"prereqs": [
+"48.05.00",
+"48.05.06",
+"48.05.11",
+"48.05.13"
+],
+"section": "differential-geometry",
+"slug": "torsion-cartan-structural-equations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Torsion tensor and the two Cartan structural equations"
+},
+"48.05.15": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"kobayashi-nomizu-foundations-vol2",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-lectures-differential-geometry",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.15",
+"prereqs": [
+"48.05.00",
+"48.05.06",
+"48.05.11",
+"48.05.13",
+"48.05.14"
+],
+"section": "differential-geometry",
+"slug": "linear-connection-frame-bundle-soldering-form",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linear connection via the frame bundle; soldering form"
+},
+"48.05.16": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"berline-getzler-vergne-heat-kernels-dirac-operators",
+"mackenzie-lie-groupoids-vol1",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.16",
+"prereqs": [
+"48.05.00"
+],
+"section": "differential-geometry",
+"slug": "holonomy-group",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Holonomy group and restricted holonomy"
+},
+"48.05.17": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"kobayashi-nomizu-foundations-vol1",
+"sternberg-curvature-mathematics-physics",
+"mackenzie-lie-groupoids-vol1"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.17",
+"prereqs": [
+"48.05.00"
+],
+"section": "differential-geometry",
+"slug": "ambrose-singer-holonomy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ambrose-Singer holonomy theorem"
+},
+"48.05.18": {
+"area": "math",
+"books": [
+"kobayashi-nomizu-foundations-vol2",
+"besse-einstein-manifolds",
+"kobayashi-nomizu-foundations-vol1"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.18",
+"prereqs": [
+"48.05.00"
+],
+"section": "differential-geometry",
+"slug": "holonomy-reduction",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Holonomy reduction theorem"
+},
+"48.05.19": {
+"area": "math",
+"books": [
+"donaldson-riemann-surfaces",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2",
+"krantz-several-complex-variables"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.19",
+"prereqs": [
+"48.05.00"
+],
+"section": "differential-geometry",
+"slug": "holomorphic-vector-bundle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Holomorphic vector bundle"
+},
+"48.05.20": {
+"area": "math",
+"books": [
+"jost-riemannian-geometry",
+"voisin-hodge-theory-volume-1",
+"kobayashi-nomizu-foundations-vol2"
+],
+"chapter": "fibre-bundles",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.05.20",
+"prereqs": [
+"48.05.00"
+],
+"section": "differential-geometry",
+"slug": "hermitian-metric-chern-connection",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hermitian metric on a complex bundle; Chern connection"
+},
+"48.12.24": {
+"area": "math",
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"gelfand-manin-homological-algebra",
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.24",
+"prereqs": [
+"03.12.10",
+"03.12.01",
+"03.12.11"
+],
+"section": "differential-geometry",
+"slug": "simplicial-set-delta",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Simplicial set and the simplicial category Delta"
+},
+"48.12.26": {
+"area": "math",
+"books": [
+"may-concise-algebraic-topology",
+"may-simplicial-objects",
+"goerss-jardine-simplicial-homotopy"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.26",
+"prereqs": [
+"48.12.24",
+"03.12.10",
+"03.12.01"
+],
+"section": "differential-geometry",
+"slug": "functorial-cw-approximation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Functorial CW approximation Gamma X = |S_*X|"
+},
+"48.12.27": {
+"area": "math",
+"books": [
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.27",
+"prereqs": [
+"48.12.26",
+"03.12.10",
+"03.12.01",
+"02.01.08"
+],
+"section": "differential-geometry",
+"slug": "puppe-cofiber-sequence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Puppe cofiber sequence"
+},
+"48.12.28": {
+"area": "math",
+"books": [
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.28",
+"prereqs": [
+"48.12.27",
+"02.01.07",
+"03.12.01"
+],
+"section": "differential-geometry",
+"slug": "puppe-fiber-sequence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Puppe fiber sequence"
+},
+"48.12.29": {
+"area": "math",
+"books": [
+"bott-tu-differential-forms",
+"milnor-stasheff-characteristic-classes",
+"may-concise-algebraic-topology",
+"may-ponto-more-concise",
+"may-simplicial-objects"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.29",
+"prereqs": [
+"48.12.28",
+"03.12.11",
+"03.12.10"
+],
+"section": "differential-geometry",
+"slug": "thom-space-thom-isomorphism",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Thom space and Thom isomorphism"
+},
+"48.12.30": {
+"area": "math",
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"may-simplicial-objects",
+"may-concise-algebraic-topology"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.30",
+"prereqs": [
+"48.12.29",
+"48.12.24"
+],
+"section": "differential-geometry",
+"slug": "minimal-complex-minimal-fibration",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Minimal complex and minimal fibration"
+},
+"48.12.36": {
+"area": "math",
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"may-simplicial-objects"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.36",
+"prereqs": [
+"48.12.30",
+"48.12.24"
+],
+"section": "differential-geometry",
+"slug": "bisimplicial-set-diagonal-realisation-lemma",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bisimplicial set, diagonal, and the realisation lemma"
+},
+"48.12.39": {
+"area": "math",
+"books": [
+"goerss-jardine-simplicial-homotopy",
+"may-concise-algebraic-topology",
+"may-simplicial-objects"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.39",
+"prereqs": [
+"48.12.36",
+"48.12.24"
+],
+"section": "differential-geometry",
+"slug": "simplicial-group-wbar-classifying-functor",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Simplicial group and the W-bar classifying functor"
+},
+"48.12.49": {
+"area": "math",
+"books": [
+"arnold-hydrodynamics",
+"serre-lie-algebras-and-lie-groups",
+"may-ponto-more-concise",
+"baxter-exactly-solved-models",
+"griffiths-morgan-rational-homotopy"
+],
+"chapter": "homotopy-theory",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.12.49",
+"prereqs": [
+"48.12.24"
+],
+"section": "differential-geometry",
+"slug": "bialgebra-hopf-milnor-moore",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bialgebra, Hopf algebra, and the Milnor-Moore theorem"
+},
+"49.01.01": {
+"area": "math",
+"books": [],
+"chapter": "propositional-logic",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.01.01",
+"prereqs": [],
+"section": "logic",
+"slug": "propositional-logic-truth-tables",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Propositional logic and truth tables"
+},
+"49.02.01": {
+"area": "math",
+"books": [],
+"chapter": "predicate-logic",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.02.01",
+"prereqs": [
+"49.01.01"
+],
+"section": "logic",
+"slug": "predicate-logic-quantifiers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Predicate logic and quantifiers"
+},
+"49.03.01": {
+"area": "math",
+"books": [],
+"chapter": "informal-fallacies",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.03.01",
+"prereqs": [
+"49.01.01"
+],
+"section": "logic",
+"slug": "informal-fallacies-argument-analysis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Informal fallacies and argument analysis"
+},
+"49.04.01": {
+"area": "math",
+"books": [],
+"chapter": "deductive-reasoning",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.04.01",
+"prereqs": [
+"49.01.01",
+"49.02.01"
+],
+"section": "logic",
+"slug": "deductive-reasoning-syllogisms",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Deductive reasoning and syllogisms"
+},
+"49.05.01": {
+"area": "math",
+"books": [],
+"chapter": "inductive-reasoning",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.05.01",
+"prereqs": [
+"49.03.01",
+"49.04.01"
+],
+"section": "logic",
+"slug": "inductive-reasoning-analogy-causation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Inductive reasoning, analogy, and causation"
+},
+"49.06.01": {
+"area": "math",
+"books": [],
+"chapter": "decision-theory",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.06.01",
+"prereqs": [
+"49.05.01"
+],
+"section": "logic",
+"slug": "decision-theory-bayesian-reasoning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Decision theory and Bayesian reasoning"
+},
+"49.07.01": {
+"area": "math",
+"books": [],
+"chapter": "cognitive-biases",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.07.01",
+"prereqs": [
+"49.06.01"
+],
+"section": "logic",
+"slug": "cognitive-biases-rationality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cognitive biases and rationality"
+},
+"49.08.01": {
+"area": "math",
+"books": [],
+"chapter": "critical-thinking-practice",
+"curriculum": "fast-track",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "49.08.01",
+"prereqs": [
+"49.03.01",
+"49.05.01",
+"49.07.01"
+],
+"section": "logic",
+"slug": "critical-thinking-media-science-everyday",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Critical thinking in media, science, and everyday life"
+},
+"50.01.01": {
+"area": "other",
+"books": [],
+"chapter": "computational-thinking",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.01.01",
+"prereqs": [],
+"section": "computer-science",
+"slug": "computational-thinking-algorithms",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computational thinking and algorithms"
+},
+"50.02.01": {
+"area": "other",
+"books": [],
+"chapter": "data-structures",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.02.01",
+"prereqs": [
+"50.01.01"
+],
+"section": "computer-science",
+"slug": "data-structures-arrays-trees-graphs",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Data structures: arrays, trees, and graphs"
+},
+"50.03.01": {
+"area": "other",
+"books": [],
+"chapter": "complexity",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.03.01",
+"prereqs": [
+"50.01.01"
+],
+"section": "computer-science",
+"slug": "algorithmic-complexity-big-o",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Algorithmic complexity and Big-O notation"
+},
+"50.04.01": {
+"area": "other",
+"books": [],
+"chapter": "programming-paradigms",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.04.01",
+"prereqs": [
+"50.01.01"
+],
+"section": "computer-science",
+"slug": "programming-paradigms-functional-oop",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Programming paradigms: functional, OOP, and beyond"
+},
+"50.05.01": {
+"area": "other",
+"books": [],
+"chapter": "operating-systems",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.05.01",
+"prereqs": [
+"50.01.01",
+"25.04.01"
+],
+"section": "computer-science",
+"slug": "operating-systems-processes-memory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Operating systems: processes and memory"
+},
+"50.06.01": {
+"area": "other",
+"books": [],
+"chapter": "networks",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.06.01",
+"prereqs": [
+"50.05.01"
+],
+"section": "computer-science",
+"slug": "computer-networks-internet-architecture",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computer networks and internet architecture"
+},
+"50.07.01": {
+"area": "other",
+"books": [],
+"chapter": "databases",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.07.01",
+"prereqs": [
+"50.02.01",
+"25.04.01"
+],
+"section": "computer-science",
+"slug": "databases-relational-nosql",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Databases: relational, NoSQL, and data modeling"
+},
+"50.08.01": {
+"area": "other",
+"books": [],
+"chapter": "security",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.08.01",
+"prereqs": [
+"50.06.01",
+"25.07.01"
+],
+"section": "computer-science",
+"slug": "cybersecurity-encryption-privacy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cybersecurity, encryption, and privacy"
+},
+"50.09.01": {
+"area": "other",
+"books": [],
+"chapter": "ai-ml",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.09.01",
+"prereqs": [
+"50.03.01",
+"25.02.01",
+"25.07.01"
+],
+"section": "computer-science",
+"slug": "artificial-intelligence-machine-learning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Artificial intelligence and machine learning"
+},
+"50.10.01": {
+"area": "other",
+"books": [],
+"chapter": "software-engineering",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.10.01",
+"prereqs": [
+"50.04.01",
+"25.02.01",
+"25.03.01"
+],
+"section": "computer-science",
+"slug": "software-engineering-design-patterns",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Software engineering and design patterns"
+},
+"50.11.01": {
+"area": "other",
+"books": [],
+"chapter": "distributed-systems",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.11.01",
+"prereqs": [
+"50.06.01",
+"25.07.01",
+"25.08.01"
+],
+"section": "computer-science",
+"slug": "distributed-systems-consensus",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Distributed systems and consensus"
+},
+"50.12.01": {
+"area": "other",
+"books": [],
+"chapter": "ethics-society",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.12.01",
+"prereqs": [
+"50.09.01",
+"25.10.01",
+"25.11.01"
+],
+"section": "computer-science",
+"slug": "computing-ethics-society-impact",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computing ethics and societal impact"
 }
 }

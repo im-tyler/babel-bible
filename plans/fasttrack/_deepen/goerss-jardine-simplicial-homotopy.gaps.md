@@ -3,7 +3,7 @@
 **SLUG:** `goerss-jardine-simplicial-homotopy`
 **Deepened:** 2026-06-02. Re-audited against the live `03-modern-geometry/12-homotopy/`
 chapter after the model-category superstructure (03.12.31-35, 37, 38, 40, 48)
-and the simplicial bookshelf (03.12.41/42 + the diff-geom mirror 03.12.36/39)
+and the simplicial bookshelf (03.12.41/42 + the diff-geom mirror 48.12.36/39)
 shipped. The original audit's entire P1-P3 punch-list (§3) has effectively
 been produced; almost every "✗ gap" in the §2 coverage table is now COVERED.
 
@@ -79,7 +79,7 @@ deepening brief; each is now covered by an existing unit (id given).
 - **Homotopy limit / holim** — covered as the dual in `03.12.37` AND concretely as
   $\mathrm{Tot}(X^\bullet)=\mathrm{holim}_\Delta X^\bullet$ in `03.12.38`. Not a
   standalone unit but stated with its construction; default to COVERED.
-- Bisimplicial sets, diagonal, realisation lemma — `03.12.36`
+- Bisimplicial sets, diagonal, realisation lemma — `48.12.36`
   (diff-geom mirror `03-differential-geometry/12-homotopy-theory/`).
 - **Reedy model structure** (Reedy categories, latching/matching, Reedy
   fibrations on cosimplicial objects) — `03.12.38` (Reedy fibration defined,
@@ -106,7 +106,7 @@ deepening brief; each is now covered by an existing unit (id given).
 
 **Simplicial groups / Postnikov (GJ Ch V / VI):**
 - Simplicial group, $W\bar{G}$ classifying functor, principal-$G$ classification —
-  `03.12.39` (diff-geom mirror).
+  `48.12.39` (diff-geom mirror).
 - Twisted cartesian products, simplicial fibre bundles — `03.12.41`.
 - Postnikov tower of a Kan complex, $k$-invariants — `03.12.40`.
 
@@ -114,10 +114,10 @@ deepening brief; each is now covered by an existing unit (id given).
 - Simplicial sets, $\Delta$, presheaves, geometric realisation as a coend,
   $|\cdot|\dashv\mathrm{Sing}$, density/Yoneda — `03.12.25`.
 - Kan complexes, extension condition, simplicial homotopy groups, Kan fibration
-  LES — `03.12.42` (+ `03.12.30` minimal complex/fibration in diff-geom mirror).
+  LES — `03.12.42` (+ `48.12.30` minimal complex/fibration in diff-geom mirror).
 - Acyclic models + Eilenberg-Zilber + shuffle — `03.12.34`.
 - $\Delta$-complex / semi-simplicial set — `03.12.22`; simplicial-set $\Delta$ —
-  diff-geom `03.12.24`.
+  diff-geom `48.12.24`.
 - Eilenberg-MacLane $K(\pi,n)$ — `03.12.05`.
 
 **Frontier siblings (already pointed-to, not standalone — informational):**

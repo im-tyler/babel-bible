@@ -129,12 +129,12 @@ Cross-referenced against the current 313-unit corpus.
 | **Ch. 3 — Hopf-Rinow theorem** | — | ✗ | **Gap (critical).** Already on Milnor MMT, Helgason DGLGSS, and KN-I punch-lists. The **canonical example of an audit-chain-closing gap**. |
 | **Ch. 3 — Cut locus and injectivity radius** | — | ✗ | **Gap.** |
 | **Ch. 4 — Riemannian curvature tensor $R(X,Y)Z$** | △ | △ | Covered as a bundle-curvature object in `03.05.09-curvature.md`; the Riemannian-tensor specialisation (the four symmetries $R_{ijkl}$, the algebraic Bianchi identity) is partial. |
-| **Ch. 4 — Sectional curvature** | — | ✗ | **Gap.** On the KN-I punch-list (item 13, `03.02.05`). |
-| **Ch. 4 — Ricci tensor and scalar curvature** | — | ✗ | **Gap.** On the KN-I punch-list (item 13, `03.02.05`). |
-| **Ch. 5 — Jacobi fields, conjugate points** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 5, `03.02.05`). |
+| **Ch. 4 — Sectional curvature** | — | ✗ | **Gap.** On the KN-I punch-list (item 13, `48.02.05`). |
+| **Ch. 4 — Ricci tensor and scalar curvature** | — | ✗ | **Gap.** On the KN-I punch-list (item 13, `48.02.05`). |
+| **Ch. 5 — Jacobi fields, conjugate points** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 5, `48.02.05`). |
 | **Ch. 5 — Second variation of energy** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 4, `03.12.X1`). |
-| **Ch. 5 — Bonnet-Myers theorem** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 8, `03.02.06`). |
-| **Ch. 5 — Cartan-Hadamard theorem** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 8, `03.02.06`). |
+| **Ch. 5 — Bonnet-Myers theorem** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 8, `48.02.06`). |
+| **Ch. 5 — Cartan-Hadamard theorem** | — | ✗ | **Gap.** On the Milnor MMT punch-list (item 8, `48.02.06`). |
 | **Ch. 5 — Toponogov triangle comparison** | — | ✗ | **Gap.** Not on any prior punch-list; new to this audit. |
 | **Ch. 5 — Rauch comparison theorem** | — | ✗ | **Gap.** Not on any prior punch-list; new to this audit. |
 | **Ch. 5 — Synge's theorem; first cohomology of compact $\mathrm{sec} > 0$** | — | ✗ | **Gap (low).** Master-tier only. |
@@ -163,7 +163,7 @@ canonical opening pass for Chs. 9–12 (new geometric-analysis units).
 **Audit-chain status.** The Cycle 3 audit (Milnor MMT) flagged
 Levi-Civita / exp / Hopf-Rinow as item `03.03.X1`; the Cycle 4 audit
 (KN-I) re-flagged it as `03.03.X1` and added sectional / Ricci /
-scalar (`03.02.05`); the Cycle 5 audit (Helgason DGLGSS) re-flagged
+scalar (`48.02.05`); the Cycle 5 audit (Helgason DGLGSS) re-flagged
 Hopf-Rinow as `03.02.0X`. **All three audits deferred the basic-
 Riemannian batch to "the Riemannian-geometry text audit," which is
 this one.** The Jost audit is therefore the convergence point for
@@ -181,10 +181,10 @@ Already on the KN-I punch-list (`kobayashi-nomizu-foundations-vol1.md`
 items 1–5). Reproduced here for reading-order completeness; do not
 duplicate the work.
 
-- `03.02.02` Tangent bundle as smooth vector bundle.
-- `03.02.03` Vector fields, Lie bracket, Lie derivative.
-- `03.05.00` General fibre bundle.
-- (No `03.03.04` Lie-group exp needed for Jost specifically; it's a
+- `48.02.02` Tangent bundle as smooth vector bundle.
+- `48.02.03` Vector fields, Lie bracket, Lie derivative.
+- `48.05.00` General fibre bundle.
+- (No `48.03.04` Lie-group exp needed for Jost specifically; it's a
   Helgason / KN-I prereq, not a Jost prereq.)
 
 **Priority 1 — basic Riemannian geometry (Chs. 1–5; closes the
@@ -212,17 +212,17 @@ audit-chain gap shared with Milnor / Helgason / KN-I):**
    unit in the punch-list.** Three-tier. **Originator-prose required**
    (Levi-Civita 1917, Hopf-Rinow 1931).
 3. **`03.02.0R2` Sectional, Ricci, and scalar curvature.** Already on
-   KN-I punch-list as `03.02.05`. The three standard curvature
+   KN-I punch-list as `48.02.05`. The three standard curvature
    contractions, the $K(\sigma) = \langle R(X,Y)Y, X\rangle / |X \wedge
    Y|^2$ formula, Ricci as a trace, scalar as a double trace. Jost §4
    anchor; KN-I §IV.1 secondary. ~1500 words. Three-tier.
 4. **`03.02.0R3` Jacobi fields and conjugate points.** Already on
-   Milnor punch-list as `03.02.05`. Jacobi equation as the linearised
+   Milnor punch-list as `48.02.05`. Jacobi equation as the linearised
    geodesic equation, conjugate points as zeros of Jacobi fields,
    relation to $\mathrm{d}\exp_p$. Jost §5.2 anchor; Milnor MMT §§13–14
    secondary; do Carmo Ch. 5 tertiary. ~2000 words. Three-tier.
 5. **`03.02.0R4` Comparison theorems: Bonnet-Myers and Cartan-Hadamard.**
-   Already on Milnor punch-list as `03.02.06`. Both as second-variation
+   Already on Milnor punch-list as `48.02.06`. Both as second-variation
    consequences. Jost §5.3 anchor; Milnor §§19, 22 secondary. ~1500
    words. Three-tier. **Originator-prose** (Myers 1941; Cartan 1925–26 /
    Hadamard 1898).

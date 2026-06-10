@@ -58,5 +58,5 @@ Result: **3 genuine gaps**, **12 COVERED-verified topics**, **3 OUT OF SCOPE**.
 ## OUT OF SCOPE
 
 - **Stratonovich integral / calculus** — already its own unit `02.15.05`; not in Le Gall's main line and fully covered.
-- **Brownian motion on a Riemannian manifold** — `03.02.45` (Stratonovich/Eells–Elworthy–Malliavin direction); beyond Le Gall's Euclidean scope.
+- **Brownian motion on a Riemannian manifold** — `48.02.45` (Stratonovich/Eells–Elworthy–Malliavin direction); beyond Le Gall's Euclidean scope.
 - **Path-integral / Wiener-measure-as-quantisation and Fokker–Planck-in-physics** — `08.14.01`, `08.10.02` (physics curriculum); the probabilistic Wiener measure is already in `02.15.01`, the physics framing is a separate spine.

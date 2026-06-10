@@ -64,7 +64,7 @@ new gap:
 - **Ray–Knight theorems** (the local-time field $a\mapsto L_t^a$ as a squared-Bessel process):
   appears only as forward-looking remarks in `37.06.03` (lines 232, 390, 426). This is correct —
   Le Gall presents Ray–Knight/excursion theory as advanced end-of-chapter / downstream material,
-  not a main-text headline theorem, and it sits in the excursion-theory / `03.02.45` direction.
+  not a main-text headline theorem, and it sits in the excursion-theory / `48.02.45` direction.
   Out of scope, consistent with the source.
 - **Blumenthal 0–1 law / strong Markov in continuous time**: the Blumenthal 0–1 law is referenced
   in `37.05.01` (continuous-time Markov contrast) and the strong Markov property + reflection are

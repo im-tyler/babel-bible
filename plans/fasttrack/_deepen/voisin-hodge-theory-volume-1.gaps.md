@@ -27,16 +27,16 @@ Each first-pass punch-list item, with the existing unit that covers it (verified
 by reading frontmatter + bodies, not just filename match).
 
 ### Priority-0 prerequisite chain (was "shared with KN-II audit")
-- Almost-complex structure (proposed `03.02.09`) — **COVERED** `03.02.09-almost-complex-structure.md`.
-- Complex manifold + Dolbeault complex (proposed `03.02.10`) — **COVERED** `03.02.10-complex-manifold-dolbeault.md` (states Dolbeault's theorem / Dolbeault isomorphism).
-- Holomorphic vector bundle (proposed `03.05.19`) — **COVERED** `03.05.19-holomorphic-vector-bundle.md`.
-- Hermitian metric + Chern connection (proposed `03.05.20`) — **COVERED** `03.05.20-hermitian-metric-chern-connection.md`.
-- Hermitian manifold + Kähler form (proposed `03.02.11`) — **COVERED** `03.02.11-hermitian-kahler-form.md`.
-- Kähler identities + Kähler Hodge decomposition (proposed `03.02.12`) — **COVERED** `03.02.12-kahler-identities-hodge-decomposition.md` (full proof of the identities $[\Lambda,\bar\partial]=-i\partial^*$ etc., the Laplacian proportionality $\Delta_d = 2\Delta_{\bar\partial}=2\Delta_\partial$, the $(p,q)$ Hodge decomposition, and Hodge symmetry $H^{p,q}=\overline{H^{q,p}}$).
+- Almost-complex structure (proposed `48.02.09`) — **COVERED** `48.02.09-almost-complex-structure.md`.
+- Complex manifold + Dolbeault complex (proposed `48.02.10`) — **COVERED** `48.02.10-complex-manifold-dolbeault.md` (states Dolbeault's theorem / Dolbeault isomorphism).
+- Holomorphic vector bundle (proposed `48.05.19`) — **COVERED** `48.05.19-holomorphic-vector-bundle.md`.
+- Hermitian metric + Chern connection (proposed `48.05.20`) — **COVERED** `48.05.20-hermitian-metric-chern-connection.md`.
+- Hermitian manifold + Kähler form (proposed `48.02.11`) — **COVERED** `48.02.11-hermitian-kahler-form.md`.
+- Kähler identities + Kähler Hodge decomposition (proposed `48.02.12`) — **COVERED** `48.02.12-kahler-identities-hodge-decomposition.md` (full proof of the identities $[\Lambda,\bar\partial]=-i\partial^*$ etc., the Laplacian proportionality $\Delta_d = 2\Delta_{\bar\partial}=2\Delta_\partial$, the $(p,q)$ Hodge decomposition, and Hodge symmetry $H^{p,q}=\overline{H^{q,p}}$).
 
 ### Priority-1 Kähler-package core
 - **PDE foundation / real Hodge theorem on a compact Riemannian manifold** (proposed `04.09.03`) — **COVERED** `03.04.15-hodge-laplacian-on-a-riemannian-manifold.md`: states the Hodge theorem (compact boundaryless), the orthogonal $L^2$ decomposition, $\Delta$ elliptic + self-adjoint + finite-dimensional kernel, via Gårding/elliptic regularity. This is exactly the proposed Ch. 5 content.
-- **Kähler identities + Hodge decomposition proof** (proposed `04.09.04`) — **COVERED** `03.02.12-kahler-identities-hodge-decomposition.md` (see above). The statement-level version also lives in `04.09.01-hodge-decomposition.md`.
+- **Kähler identities + Hodge decomposition proof** (proposed `04.09.04`) — **COVERED** `48.02.12-kahler-identities-hodge-decomposition.md` (see above). The statement-level version also lives in `04.09.01-hodge-decomposition.md`.
 - **$\partial\bar\partial$-lemma** (proposed `04.09.05`) — **COVERED** `04.09.05-ddbar-lemma.md`.
 - **Lefschetz operator $L$, adjoint $\Lambda$, $\mathfrak{sl}_2$-triple, primitive cohomology, Lefschetz decomposition** (proposed `04.09.06`) — **COVERED** inside `04.09.07-hard-lefschetz-theorem.md`: defines $L$, $\Lambda$, the triple $(L,\Lambda,H)$ with $[L,\Lambda]=H$, primitive cohomology $P^\ell=\ker L^{n-\ell+1}$, the bidegree refinement $P^{p,q}$, and the Lefschetz decomposition $H^k=\bigoplus_r L^r P^{k-2r}$. A standalone `04.09.06` would be redundant.
 - **Hard Lefschetz theorem** (proposed `04.09.07`) — **COVERED** `04.09.07-hard-lefschetz-theorem.md`.
@@ -54,11 +54,11 @@ by reading frontmatter + bodies, not just filename match).
 ### Other VHCAG-I theorems the brief flagged for cross-check
 - **Hodge decomposition (statement, diamond, examples)** — **COVERED** `04.09.01-hodge-decomposition.md`.
 - **Hodge index theorem** — **COVERED** `04.05.09-hodge-index-theorem.md`.
-- **Dolbeault isomorphism** — **COVERED** `03.02.10-complex-manifold-dolbeault.md` (Dolbeault's theorem) + survey `06.04.07-sheaf-cohomology-survey.md`; the curve case `06.04.03/05`.
+- **Dolbeault isomorphism** — **COVERED** `48.02.10-complex-manifold-dolbeault.md` (Dolbeault's theorem) + survey `06.04.07-sheaf-cohomology-survey.md`; the curve case `06.04.03/05`.
 - **Sheaf cohomology + Leray spectral sequence** — **COVERED** `04.03.01-sheaf-cohomology.md`, `04.03.15-sheaf-cohomology-leray-spectral-sequence-general-form.md`, `03.13.02-leray-serre.md`.
-- **Lefschetz hyperplane theorem** — **COVERED** `03.02.25-lefschetz-hyperplane-theorem-via-morse.md`.
+- **Lefschetz hyperplane theorem** — **COVERED** `48.02.25-lefschetz-hyperplane-theorem-via-morse.md`.
 - **Chern classes via curvature / Chern-Weil** — **COVERED** `03.06.04-pontryagin-chern-classes.md`, `03.06.06-chern-weil-homomorphism.md`.
-- **Newlander-Nirenberg integrability** — **COVERED** `05.06.03-newlander-nirenberg.md` (+ `03.02.09`).
+- **Newlander-Nirenberg integrability** — **COVERED** `05.06.03-newlander-nirenberg.md` (+ `48.02.09`).
 - **Hodge decomposition on a compact Riemann surface / Riemann bilinear relations / $\bar\partial$ Hilbert-space PDE (curve case)** — **COVERED** `06.04.03-hodge-decomposition-curves.md`, `06.06.07-riemann-bilinear.md`, `06.04.05-dbar-hilbert-pde.md`.
 - **Variation of Hodge structure / Gauss-Manin / period mapping / Griffiths transversality (curve & general base)** — **COVERED** `06.08.01-gauss-manin.md`, `06.08.02-vhs-jacobian.md`, `06.08.03-moduli-of-riemann-surfaces.md`.
 - **Mixed Hodge structures (Deligne)** — definitional treatment present in `06.04.03-hodge-decomposition-curves.md` (weight filtration $W_\bullet$ + Hodge filtration, pure graded pieces), with Saito mixed Hodge modules in `04.03.19-perverse-sheaves-perv-x.md` and limit MHS in `06.08.01-gauss-manin.md`. **Vol II scope per first-pass audit §5 — not a Vol I gap.**
@@ -68,7 +68,7 @@ by reading frontmatter + bodies, not just filename match).
 ## Note for the maintainer
 The shipped `04.09.*` chapter renumbered relative to the first-pass proposal:
 the first pass's `04.09.03/04/06/12` were never created as separate ids because
-their content landed in `03.04.15`, `03.02.12`, `04.09.07`, and `04.09.08`
+their content landed in `03.04.15`, `48.02.12`, `04.09.07`, and `04.09.08`
 respectively. Slots `04.09.03`, `04.09.04`, `04.09.06`, `04.09.12` are free but
 should NOT be filled — the material is covered elsewhere. The five
 first-pass `TODO_REF` blocks (in `04.09.01`, `04.09.02`, `04.05.09`,

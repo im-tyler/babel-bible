@@ -56,14 +56,14 @@ Every original-audit §3 punch-list item, plus every brief candidate:
 - **Symplectic blow-up / symplectic cut** — COVERED `05.04.06` symplectic-blowup.
 - **Cotangent bundle (ω = −dθ, naturality, geodesic flow)** — COVERED `05.02.05` cotangent-bundle + `05.02.06` geodesic-flow-hamiltonian.
 - **Lagrangian fibration** — adjacent coverage in `05.12.01` lagrangian-grassmannian / `05.12.04` lagrangian-and-legendrian-cobordism; toric moment fibration via `05.04.04`.
-- **Newlander-Nirenberg integrability** — COVERED `05.06.03` newlander-nirenberg (plus `03.02.09` almost-complex-structure cross-strand).
+- **Newlander-Nirenberg integrability** — COVERED `05.06.03` newlander-nirenberg (plus `48.02.09` almost-complex-structure cross-strand).
 
 ### Additional brief candidates verified
 - **Symplectic vector space / linear symplectic group** — COVERED `05.01.01` symplectic-vector-space, `05.01.03` symplectic-group (subspace types isotropic/coisotropic/Lagrangian/symplectic present; depth-rewrite noted above, not a gap).
 - **Symplectic manifold** — COVERED `05.01.02` symplectic-manifold.
 - **Lagrangian submanifold + graph criterion (dα = 0)** — COVERED `05.05.01` lagrangian-submanifold.
 - **Hamiltonian mechanics: Hamiltonian VF, Poisson bracket** — COVERED `05.02.01` hamiltonian-vector-field, `05.02.02` poisson-bracket.
-- **Kähler manifolds / Kähler identities / Kähler reduction** — COVERED cross-strand: `03.02.11` hermitian-kahler-form, `03.02.12` kahler-identities-hodge-decomposition, `04.09.*` Hodge block; Kähler/GIT-symplectic reduction via `04.10.04` kempf-ness-git-symplectic-dictionary (Cannas's Part VI is brief and explicitly hands off here).
+- **Kähler manifolds / Kähler identities / Kähler reduction** — COVERED cross-strand: `48.02.11` hermitian-kahler-form, `48.02.12` kahler-identities-hodge-decomposition, `04.09.*` Hodge block; Kähler/GIT-symplectic reduction via `04.10.04` kempf-ness-git-symplectic-dictionary (Cannas's Part VI is brief and explicitly hands off here).
 - **Arnold conjecture / fixed-point theorems** — COVERED `05.08.01` arnold-conjecture, `05.08.02` floer-homology, `05.08.03` maslov-index, `05.08.04` conley-zehnder-index.
 - **Gromov non-squeezing / capacities** — COVERED `05.07.01` non-squeezing, `05.07.02` symplectic-capacity, `05.07.04` eliashberg-gromov-c0-rigidity.
 

@@ -186,7 +186,7 @@ lightly; brief-flagged items checked for completeness):
   low-leverage; could fold into gap 1's unit as a Master-tier extension rather
   than a standalone unit.
 - **Infinite Galois theory / Krull topology / profinite groups** — used in
-  `21.07.01` (Iwasawa), `03.03.05` (p-adic Lie groups), `03.12.40` (profinite
+  `21.07.01` (Iwasawa), `48.03.05` (p-adic Lie groups), `03.12.40` (profinite
   completions). The profinite-group/Krull-topology *foundation* is thin but the
   consuming units carry enough self-contained framing; borderline, not proposed.
 - **Ordered field / real closure (algebraic Artin theory of formally real

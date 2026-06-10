@@ -830,7 +830,7 @@ Every item below is flagged as either **[NEW]** (write a new unit),
    to Kadeishvili's $A_\infty$-transfer theorem; formality of operads
    (Tamarkin 1998, Kontsevich 1999) as a structural enhancement.
    **Bridges** `03.12.06-sullivan-minimal-models`, `04.09.05-ddbar-
-   lemma`, `03.12.49-bialgebra-hopf-milnor-moore`. **The standalone
+   lemma`, `48.12.49-bialgebra-hopf-milnor-moore`. **The standalone
    home for the Massey-product apparatus that is currently scattered
    across the corpus as one-line mentions.**
 

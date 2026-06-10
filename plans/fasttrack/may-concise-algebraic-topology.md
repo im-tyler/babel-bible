@@ -452,7 +452,7 @@ constitutes the foundation this audit deepens.
 **Priority 1 — high-leverage, captures May's distinctive content
 (estimate: 3 new units + 4 deepenings):**
 
-1. **`03.12.24` HELP and the unified Whitehead / cellular-approximation
+1. **`48.12.24` HELP and the unified Whitehead / cellular-approximation
    theorem.** Statement of HELP (homotopy extension and lifting property)
    for $(X, A)$ a relative CW pair and $e: Y \to Z$ an n-equivalence.
    The single theorem and its two one-line corollaries (Whitehead
@@ -469,7 +469,7 @@ constitutes the foundation this audit deepens.
    adjunction**. Three-tier; ~1800 words. Foundational stub at Babel Bible
    `03.12-homotopy/` level; full development deferred to the May 3.40
    audit. Originator: May 1967 *Simplicial Objects*.
-3. **`03.12.26` Functorial CW approximation $\Gamma X = |S_*X|$.** The
+3. **`48.12.26` Functorial CW approximation $\Gamma X = |S_*X|$.** The
    geometric realization of the total singular complex as a functorial
    CW approximation; the weak-equivalence $\gamma: \Gamma X \to X$; the
    identification of cellular chains $C_*(\Gamma X)$ with the singular
@@ -501,19 +501,19 @@ constitutes the foundation this audit deepens.
 **Priority 2 — Puppe sequences, fibration-cofibration duality, Thom
 isomorphism (estimate: 3 new units):**
 
-8. **`03.12.27` Puppe cofiber sequence.** The sequence
+8. **`48.12.27` Puppe cofiber sequence.** The sequence
    $X \to Y \to Cf \to \Sigma X \to \Sigma Y \to \Sigma Cf \to \cdots$
    and its long-exact-sequence-of-pointed-sets property
    $\cdots \to [\Sigma Cf, Z] \to [\Sigma Y, Z] \to [\Sigma X, Z] \to
    [Cf, Z] \to [Y, Z] \to [X, Z]$. Three-tier; ~1500 words.
    Originator: Puppe 1958 (citation), May 1999 Ch 8 §4.
-9. **`03.12.28` Puppe fiber sequence.** Dual to (8): $\cdots \to \Omega^2 Y
+9. **`48.12.28` Puppe fiber sequence.** Dual to (8): $\cdots \to \Omega^2 Y
    \to \Omega Ff \to \Omega X \to \Omega Y \to Ff \to X \to Y$ and the
    covariant LES $\cdots \to [Z, \Omega Ff] \to [Z, \Omega X] \to [Z,
    \Omega Y] \to [Z, Ff] \to [Z, X] \to [Z, Y]$. Includes the
    connection-between-Cf-and-Ff lemma via the $\Sigma \dashv \Omega$
    adjunction. Three-tier; ~1500 words. May 1999 Ch 8 §§5–7.
-10. **`03.12.29` Thom space and Thom isomorphism.** Thom space $M\xi$
+10. **`48.12.29` Thom space and Thom isomorphism.** Thom space $M\xi$
     of a vector bundle $\xi \to B$; Thom isomorphism $H^k(B) \cong
     \tilde{H}^{k+n}(M\xi)$ for an oriented rank-$n$ bundle. Three-tier;
     ~1800 words. Load-bearing for spin-geometry (`03.09.10` Atiyah-Singer)
@@ -523,7 +523,7 @@ isomorphism (estimate: 3 new units):**
 **Priority 3 — manifolds-with-boundary, index, and missing worked
 examples (estimate: 2 new units + several worked-example deepenings):**
 
-11. **`03.12.30` Index (signature) of a closed oriented 4k-manifold and
+11. **`48.12.30` Index (signature) of a closed oriented 4k-manifold and
     Poincaré-Lefschetz duality.** May Ch 21 §§2–4. Three-tier; ~1500
     words. Currently used silently in `03.09.10` Atiyah-Singer
     (signature theorem); deserves its own unit.

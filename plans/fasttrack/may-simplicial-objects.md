@@ -180,7 +180,7 @@ punch-list. No deepening-only outcome.**
 
 **Priority 1 — high-leverage core simplicial machinery (5 units):**
 
-1. **`03.12.24` Simplicial set and the simplicial category $\Delta$.**
+1. **`48.12.24` Simplicial set and the simplicial category $\Delta$.**
    Definition of $\Delta$ (objects $[n]$, morphisms order-preserving maps),
    face $\delta_i$ / degeneracy $\sigma_i$ generators, simplicial
    identities, unique normal-form factorisation
@@ -194,12 +194,12 @@ punch-list. No deepening-only outcome.**
    nerve of a groupoid), non-examples (nerve of a non-groupoid category).
    Simplicial homotopy as an equivalence relation on Kan complexes.
    Anchor: SOAT §3; Goerss-Jardine §I.3. Three-tier, ~2000 words.
-3. **`03.12.26` Simplicial homotopy groups $\pi_n(K, *)$.** Combinatorial
+3. **`48.12.26` Simplicial homotopy groups $\pi_n(K, *)$.** Combinatorial
    definition via $\sim$ on $K_n$ relative to the basepoint. Theorem:
    for $K = \mathrm{Sing}(X)$, $\pi_n^{\mathrm{simp}}(K) \cong \pi_n(X)$.
    Long exact sequence of a Kan fibration. Anchor: SOAT §3-5, §7;
    Goerss-Jardine §I.7. Three-tier, ~1800 words.
-4. **`03.12.27` Geometric realisation $|K|$ and the $|\cdot| \dashv
+4. **`48.12.27` Geometric realisation $|K|$ and the $|\cdot| \dashv
    \mathrm{Sing}$ adjunction.** Definition of $|K|$ as the coend
    $\int^{[n]} K_n \times \Delta^n$ (or as the quotient construction May
    uses in §14). Theorem 14.1: $|K|$ is a CW complex with one $n$-cell
@@ -208,7 +208,7 @@ punch-list. No deepening-only outcome.**
    $|\cdot| \dashv \mathrm{Sing}$. Anchor: SOAT §14-16;
    Goerss-Jardine §I.2. Master tier covers the $k$-space subtlety.
    Three-tier, ~2000 words.
-5. **`03.12.28` Dold-Kan correspondence.** Normalised Moore complex
+5. **`48.12.28` Dold-Kan correspondence.** Normalised Moore complex
    $N(A_\bullet)$, equivalence of categories $\mathbf{sAb} \simeq
    \mathbf{Ch}_{\geq 0}(\mathbf{Ab})$, normalisation theorem
    ($N(A_\bullet)$ chain-homotopy equivalent to the alternating-sum
@@ -220,12 +220,12 @@ punch-list. No deepening-only outcome.**
 **Priority 2 — fibrations, classifying-space pre-history, acyclic
 models (4 units):**
 
-6. **`03.12.29` Kan fibration.** Right lifting property against horn
+6. **`48.12.29` Kan fibration.** Right lifting property against horn
    inclusions $\Lambda^n_k \hookrightarrow \Delta^n$. Long exact
    sequence. Theorem (Quillen): geometric realisation of a Kan fibration
    is a Serre fibration. Anchor: SOAT §7; Goerss-Jardine §I.7.
    Intermediate + Master.
-7. **`03.12.30` Minimal complex and minimal fibration.** SOAT §9-10.
+7. **`48.12.30` Minimal complex and minimal fibration.** SOAT §9-10.
    Existence of minimal subcomplex as deformation retract;
    isomorphism-up-to-isomorphism of any two minimal models. This is the
    combinatorial Postnikov-tower input. Master tier; ~1800 words.
@@ -285,7 +285,7 @@ models (4 units):**
   $\mathrm{Sing}(X)$. Codex uses $\mathrm{Sing}(X)$.
 - SOAT writes $\partial_i, s_i$ for face / degeneracy; some sources
   use $d_i, s_i$. Codex uses $d_i, s_i$ to match Goerss-Jardine, with
-  a one-line note in `03.12.24` mentioning SOAT's $\partial_i$.
+  a one-line note in `48.12.24` mentioning SOAT's $\partial_i$.
 - SOAT writes $C(K)$ for the unnormalised chain complex and $\bar{C}(K)$
   or $N(K)$ for the normalised. Codex uses $C(K)$ (unnormalised) and
   $N(K)$ (normalised) following Weibel.
@@ -317,7 +317,7 @@ focused window. The Brown-Higgins-Sivera and Lawson-Michelsohn batches
 were similar in size.
 
 **Strict prerequisite:** the queued `03.12.22-delta--complex-semi-simplicial-set`
-must ship first. The P1.1 unit (`03.12.24` simplicial set) builds
+must ship first. The P1.1 unit (`48.12.24` simplicial set) builds
 directly on it.
 
 **Originator-prose targets.** Per
@@ -327,7 +327,7 @@ machinery has clearly identified originators that should be cited:
 - **Eilenberg, S., and Zilber, J. A.** "Semi-simplicial complexes and
   singular homology," *Annals of Mathematics* 51 (1950) 499-513.
   Originating paper for semi-simplicial sets (no degeneracies). Cite
-  in `03.12.22` and `03.12.24`.
+  in `03.12.22` and `48.12.24`.
 - **Eilenberg, S., and Zilber, J. A.** "On products of complexes,"
   *American Journal of Mathematics* 75 (1953) 200-204. Originating
   Eilenberg-Zilber theorem. Cite in `03.12.32`.
@@ -338,14 +338,14 @@ machinery has clearly identified originators that should be cited:
   *Transactions of the AMS* 87 (1958) 330-346. The canonical
   reference for Kan complexes, the extension condition, simplicial
   homotopy groups, and the loop-group functor. Cite in `03.12.25`,
-  `03.12.26`, `03.12.35`.
+  `48.12.26`, `03.12.35`.
 - **Kan, D. M.** "A combinatorial definition of homotopy groups,"
   *Annals of Mathematics* 67 (1958) 282-312. Originating
-  combinatorial $\pi_n$ via Kan complexes. Cite in `03.12.26`.
+  combinatorial $\pi_n$ via Kan complexes. Cite in `48.12.26`.
 - **Dold, A.** "Homology of symmetric products and other functors of
   complexes," *Annals of Mathematics* 68 (1958) 54-80, and
   **Kan, D. M.** "Functors involving c.s.s. complexes," 1958 (above).
-  Joint origin of the Dold-Kan correspondence. Cite in `03.12.28`.
+  Joint origin of the Dold-Kan correspondence. Cite in `48.12.28`.
 - **May, J. P.** *Simplicial Objects in Algebraic Topology*. Van
   Nostrand 1967. The book itself, definitive consolidation of the
   pre-Quillen simplicial theory. Cite in *every* unit that lands on
@@ -409,8 +409,8 @@ equivalence-coverage when:
   `03.12-homotopy/` chapter (especially to `03.12.05`, `03.12.07`,
   `03.12.10-cw-complex`, `03.12.11-singular-homology`,
   `03.12.12-simplicial-homology`, `03.12.19-hurewicz-theorem`).
-- **Originator-prose paragraph** is present in `03.12.25`, `03.12.27`,
-  `03.12.28`, `03.12.34` per the citation list in §4.
+- **Originator-prose paragraph** is present in `03.12.25`, `48.12.27`,
+  `48.12.28`, `03.12.34` per the citation list in §4.
 - **Exercise pack `03.12.E2`** ships (P4) — required for the
   ≥95% threshold.
 

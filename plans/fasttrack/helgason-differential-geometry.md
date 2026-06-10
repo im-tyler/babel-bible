@@ -188,8 +188,8 @@ but not the explicit DGLGSS treatment, ✗ = not covered.
 | Exponential map of a manifold, normal coordinates (I §§15) | TBD | △ | Pre-Lie-group exp map; verify against shipped units. |
 | Hopf-Rinow completeness (I §§16) | — | ✗ | **Gap (low).** Foundational Riemannian-geometry theorem; not currently a Babel Bible unit. Pre-requisite for symmetric-space global structure. |
 | Lie group, Lie algebra of a Lie group (II §§1–2) | `03.03.01` lie-group | ✓ | Direct correspondent. |
-| Exponential map of a Lie group, Baker-Campbell-Hausdorff (II §§3–5) | — | △ | **Gap (medium).** No dedicated Lie-group-exp / BCH unit. Touched in passing in `03.03.01`. Candidate: `03.03.04` lie-group-exponential-map (with BCH master-tier extension). |
-| Adjoint representation, $\mathrm{Ad}$ and $\mathrm{ad}$ (II §§5) | — | △ | **Gap (low).** Referenced inside `07.06.*` but not a standalone unit; folds into `03.03.04` or a new `03.03.05`. |
+| Exponential map of a Lie group, Baker-Campbell-Hausdorff (II §§3–5) | — | △ | **Gap (medium).** No dedicated Lie-group-exp / BCH unit. Touched in passing in `03.03.01`. Candidate: `48.03.04` lie-group-exponential-map (with BCH master-tier extension). |
+| Adjoint representation, $\mathrm{Ad}$ and $\mathrm{ad}$ (II §§5) | — | △ | **Gap (low).** Referenced inside `07.06.*` but not a standalone unit; folds into `48.03.04` or a new `48.03.05`. |
 | Killing form, semisimplicity, Cartan's criterion (II §§6, III §§1) | — (referenced in `07.06.03` root-system master) | △ | **Gap (medium).** Killing form has no dedicated unit despite being load-bearing for every classification result. Candidate: `07.06.10` killing-form-and-cartan-criterion. |
 | Semisimple Lie algebras over $\mathbb{C}$, root-space decomposition (III §§4–5) | `07.06.03 root-system`, `07.06.04 weyl-group`, `07.06.05 dynkin-diagram`, `07.04.01 cartan-weyl-classification` | ✓ | Codex covers the complex-semisimple case via the FH route. |
 | Compact real form of a complex semisimple Lie algebra (III §§6–7) | — | ✗ | **Gap (high).** Foundational: every complex semisimple Lie algebra has a compact real form unique up to conjugation. **Originator: Weyl 1925.** Candidate: `07.04.02` compact-real-form. |
@@ -256,7 +256,7 @@ the priority-1 DGLGSS units begin:**
 
 - `03.02.0X` Hopf-Rinow theorem (Riemannian completeness; lives in
   manifolds strand). Probably 1 hour.
-- `03.03.04` Lie-group exponential map + BCH (master tier). Probably
+- `48.03.04` Lie-group exponential map + BCH (master tier). Probably
   3 hours. May already be covered as a §Master extension of
   `03.03.01 lie-group`; verify.
 - `07.06.10` Killing form and Cartan's semisimplicity criterion.

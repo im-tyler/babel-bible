@@ -374,7 +374,7 @@ theory but without the structural Lie-groupoid framing.
 | Tangent bundle $TM$ as a Lie algebroid (Lie algebroid of pair groupoid) | △ | △ | $TM$ is implicit throughout `03.02-manifolds/` and `03.05-fibre-bundles/`; the **Lie-algebroid** packaging is not stated. |
 | Lie algebra $\mathfrak{g}$ as a Lie algebroid over a point | △ | △ | `03.04.01-lie-algebra.md` covers Lie algebras; the algebroid-as-generalisation packaging is absent. |
 | Action algebroid $\mathfrak{g} \ltimes M$ for a Lie-algebra action by vector fields | — | ✗ | **Gap.** |
-| Integrable distribution $D \subseteq TM$ as a Lie algebroid | △ | △ | The Frobenius theorem `03.02.04-frobenius-theorem.md` covers integrable distributions; the algebroid framing is absent. |
+| Integrable distribution $D \subseteq TM$ as a Lie algebroid | △ | △ | The Frobenius theorem `48.02.04-frobenius-theorem.md` covers integrable distributions; the algebroid framing is absent. |
 | **Atiyah algebroid $\mathrm{At}(P) = TP/G$** of a principal $G$-bundle | — | ✗ | **Gap (priority 1 — Mackenzie's most important worked example; the infinitesimal counterpart of the gauge groupoid).** |
 | Transitive Lie algebroid; short exact sequence $0 \to L \to A \to TM \to 0$ | — | ✗ | **Gap (priority 1).** |
 | Isotropy bundle $L = \ker \rho$ as a bundle of Lie algebras | — | ✗ | **Gap.** |
@@ -383,7 +383,7 @@ theory but without the structural Lie-groupoid framing.
 **Cluster III status:** **completely absent.** No Lie-algebroid unit
 exists in the Codex. The closest neighbours are the tangent bundle
 (implicit), Lie algebras (`03.04.01`), and integrable distributions
-(`03.02.04`), all of which are **examples** of Lie algebroids but
+(`48.02.04`), all of which are **examples** of Lie algebroids but
 none of which is packaged as such.
 
 ### Cluster IV — Lie functor and integration (Ch. IV)
@@ -402,7 +402,7 @@ none of which is packaged as such.
 
 **Cluster IV status:** **completely absent.** This is the **technical
 heart** of Mackenzie 1987 and is the largest contribution distinctive
-to this audit. The Lie's-third-theorem unit `03.03.06-lie-third-
+to this audit. The Lie's-third-theorem unit `48.03.06-lie-third-
 theorem.md` is the closest neighbour (it covers the **Lie-group**
 analogue: every finite-dim Lie algebra integrates), but the
 **algebroid generalisation** — including the explicit failure in the
@@ -638,7 +638,7 @@ they generalise.
    splitting) over $M$ are equivalent. Worked example: the Levi-
    Civita connection on a Riemannian manifold viewed as a splitting
    of the Atiyah algebroid of the orthonormal frame bundle (bridges
-   to `03.05.15-linear-connection-frame-bundle-soldering-form.md`).
+   to `48.05.15-linear-connection-frame-bundle-soldering-form.md`).
    Master tier: bisection-group action on splittings = gauge
    transformations; Yang-Mills moduli $\mathcal{A}/\mathcal{G}$
    in algebroid language. **Bridges** `03.05.07`, `03.05.09-curvature.md`,
@@ -663,7 +663,7 @@ they generalise.
    algebroid loop). Master tier: the **Lie's first theorem analogue**
    — every Lie-groupoid morphism over $\mathrm{id}_M$ differentiates
    uniquely; the **fundamental Lie-groupoid as the integral** of
-   $TM$. **Bridges** `03.03.06-lie-third-theorem.md` (the classical
+   $TM$. **Bridges** `48.03.06-lie-third-theorem.md` (the classical
    Lie-group analogue: $G \mapsto T_e G = \mathfrak{g}$),
    `03.03.10`, `03.04.16`, `03.05.22`.
 
@@ -808,7 +808,7 @@ they generalise.
     flagging Pradines 1967 as the originator of the algebroid
     generalisation. **No new unit ID.**
 
-16. **`03.03.06` Enrich Lie's-third-theorem unit with the algebroid-integration parallel.**
+16. **`48.03.06` Enrich Lie's-third-theorem unit with the algebroid-integration parallel.**
     [ENRICH] Anchor Mackenzie 1.08 Ch. IV §3 + Pradines 1966.
     ~200 words. Add a §"Algebroid analogue" paragraph in the
     Master tier: the algebroid integration theorem is the
@@ -845,19 +845,19 @@ they generalise.
   bundle, parallel transport, holonomy, reduction of structure
   group, Cartan structural equations, frame bundle:** already
   covered by `03.05.01`, `03.05.02`, `03.05.04`, `03.05.07`,
-  `03.05.09`, `03.05.11`, `03.05.12`, `03.05.13`, `03.05.14`,
-  `03.05.15`, `03.05.16`, `03.05.17` (KN-I / LDG / Sternberg-LDG
+  `03.05.09`, `48.05.11`, `48.05.12`, `48.05.13`, `48.05.14`,
+  `48.05.15`, `48.05.16`, `48.05.17` (KN-I / LDG / Sternberg-LDG
   audit production). These are the **principal-bundle examples**
   of Mackenzie's theory; the algebroid reformulation is the
   punch-list contribution, not the underlying principal-bundle
   apparatus.
 - **Lie group, Lie algebra, exponential map, Lie's third theorem,
   group action:** already covered by `03.03.01`, `03.04.01`,
-  `03.03.06`, `03.03.02`. The **algebroid generalisations** are
+  `48.03.06`, `03.03.02`. The **algebroid generalisations** are
   the priority-1 / priority-2 punch-list items above; the
   group-side material is shipped.
 - **Frobenius theorem, integrable distribution:** already covered
-  by `03.02.04-frobenius-theorem.md`. The algebroid framing of an
+  by `48.02.04-frobenius-theorem.md`. The algebroid framing of an
   integrable distribution is captured in `03.04.16` Master tier as
   a worked example, not a separate unit.
 - **Fundamental groupoid (topological), covering space, van Kampen
@@ -1061,7 +1061,7 @@ hand-off paragraphs.
 - **Deepenings (priority 3):** 3
   (`03.05.07`, `03.05.09`, `03.07.18`).
 - **ENRICH paragraphs (priority 3):** 2
-  (`03.04.01`, `03.03.06`).
+  (`03.04.01`, `48.03.06`).
 - **Deepenings + hand-offs (priority 4):** 2
   (`03.12.08` Lie-groupoid framing; FT-1.09 pointer paragraphs in
   `03.05.21`, `03.04.18`).

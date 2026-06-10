@@ -34,13 +34,13 @@ standalone depth. It is reused as a prerequisite below, never re-proposed.
 
 - **Kan extensions of functors** (`Lan_K F` / `Ran_K F`): the literal phrase "left/right Kan
   extension" appears in `content/` only as **passing remarks** inside the homotopy/simplicial
-  spine — `03.12.24` (geometric realisation "is a left Kan extension along Yoneda", one line in a
+  spine — `48.12.24` (geometric realisation "is a left Kan extension along Yoneda", one line in a
   proof sketch) and `03.12.25` (the "Kan extension *condition*" = horn-filling for Kan *complexes*,
   an unrelated notion). The Bousfield–Kan, Kan-complex, Kan-fibration, and Dold–Kan hits are all
   distinct objects. **No unit develops the universal property of Kan extensions, the pointwise
   (co)end formula, existence, preservation by adjoints, or "all concepts are Kan extensions."**
 - **Ends / coends / the (co)end calculus:** the word "coend" appears once, as a bare formula for
-  geometric realisation in `03.12.24`; the end/coend *calculus* (wedges, the Fubini theorem,
+  geometric realisation in `48.12.24`; the end/coend *calculus* (wedges, the Fubini theorem,
   (co)end formulas for natural transformations and Kan extensions, weighted limits) is **entirely
   absent**. (All other `coend`/`end`/`weighted` grep hits are false positives: geography, ergodic
   theory, GIT weights, etc.)
@@ -109,7 +109,7 @@ for DAG wiring, not claimed by this audit.
   (co)limits as the terminal/representable-weight case and exhibiting weighted limits as the right
   language for the pointwise Kan-extension formula in 41.06.02. Worked examples: tensor product of
   functors `F ⊗_C G = ∫^c Fc × Gc`, geometric realisation as a coend
-  `|X| = ∫^{[n]} X_n · Δ^n` (cross-ref `03.12.24`), the bar construction as a pointer.
+  `|X| = ∫^{[n]} X_n · Δ^n` (cross-ref `48.12.24`), the bar construction as a pointer.
 - **prereqs:** `41.02.*` (limits/colimits — Mac Lane, co-produced), `41.04.02` (Yoneda — for the
   natural-transformation end and the co-Yoneda identities), `01.02.09`
 - **chapter:** `kan-extensions` · **section:** `category-theory` · **field:** `foundations-logic`
@@ -165,7 +165,7 @@ for DAG wiring, not claimed by this audit.
   (Master) and Mac Lane's `41.02.*`. `41.06.01`/`41.06.02` use them (weighted/pointwise formulas)
   and cross-ref; not re-proposed here.
 - **Geometric-realisation coend `|X| = ∫^{[n]} X_n·Δ^n` and "realisation = Lan along Yoneda"** —
-  `03.12.24` / `03.12.25` state these as one-line facts inside the simplicial spine. `41.06.01`/
+  `48.12.24` / `03.12.25` state these as one-line facts inside the simplicial spine. `41.06.01`/
   `41.06.02` supply the **general coend calculus and Kan-extension theory** these are instances of,
   and cross-reference the simplicial units rather than duplicating their homotopy content.
 - **Derived functors `RF`/`LF`, derived/triangulated categories** — `04.03.06`, `04.03.11`,

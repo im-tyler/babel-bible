@@ -226,7 +226,7 @@ chapters are:
 - `03.04.*` Differential forms / variational calculus
   (`03.04.08-variational-calculus` is the closest Codex unit to Olver's
   jet-bundle variational calculus, but Olver's apparatus is not in it).
-- `03.02.03-smooth-maps-manifolds` mentions jet bundles in passing
+- `48.02.03-smooth-maps-manifolds` mentions jet bundles in passing
   (paragraph-level).
 - `05.00.04-noether-theorem` already cites Olver Ch. 4-5 in
   `tier_anchors.master` and quotes Olver's PDE Noether current
@@ -259,7 +259,7 @@ chapters are:
 | Olver chapter / topic | Babel Bible unit | Status | Note |
 |---|---|---|---|
 | **Ch. 1** — manifolds, vector fields, Lie groups, Lie algebras, Lie's three theorems (60 pp.) | `03.02.*`, `03.03.*`, `07.04.*` (Helgason batch) | ✓ | Recap chapter; no Olver-distinctive content. **Skip.** |
-| **Ch. 2 §2.1** — jet bundle $J^k$ as a manifold | `05.10.01-contact-manifold` (paragraph on $J^1$); `03.02.03` (paragraph on jets) | △ | No dedicated jet-bundle unit. |
+| **Ch. 2 §2.1** — jet bundle $J^k$ as a manifold | `05.10.01-contact-manifold` (paragraph on $J^1$); `48.02.03` (paragraph on jets) | △ | No dedicated jet-bundle unit. |
 | **Ch. 2 §2.2-2.4** — prolongation, infinitesimal symmetry criterion | — | ✗ | **Gap (Olver-canonical).** No Babel Bible unit. |
 | **Ch. 2 §2.5** — symmetry algebra of the heat equation | — | ✗ | Gap. Worked example. |
 | **Ch. 3 §3.1-§3.4** — group-invariant solutions, KdV travelling-wave, similarity solutions | — | ✗ | **Gap.** |
@@ -668,7 +668,7 @@ the Master sections of each new unit:
 **DAG edges.** New prerequisites for priority-1+2:
 
 - `05.05.05` (jet bundle) ← {`05.10.01` contact-manifold,
-  `03.02.03` smooth-maps, `03.04.02` differential-forms};
+  `48.02.03` smooth-maps, `03.04.02` differential-forms};
   → `05.05.06`, `05.05.07`, `05.05.08`, `05.05.09`, `05.05.10`
 - `05.05.06` (prolongation + symmetry criterion) ←
   {`05.05.05` jet bundle, `03.03.01` Lie group, `03.03.02` group

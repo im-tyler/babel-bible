@@ -21,7 +21,7 @@
 
 These are not new units. They are repository-structure bugs that will compound as production continues. Fix first.
 
-1. **ch03 directory split.** `content/03-modern-geometry/` and `content/03-differential-geometry/` both hold ch03 units; some unit IDs (e.g., `03.02.01`, `03.05.06+`, `03.12.24+`) exist in *both* directories with different content. Pick one canonical directory and merge — recommendation: keep `03-modern-geometry/` as canonical and move/dedupe everything from `03-differential-geometry/`.
+1. **ch03 directory split.** `content/03-modern-geometry/` and `content/03-differential-geometry/` both hold ch03 units; some unit IDs (e.g., `03.02.01`, `48.05.06+`, `48.12.24+`) exist in *both* directories with different content. Pick one canonical directory and merge — recommendation: keep `03-modern-geometry/` as canonical and move/dedupe everything from `03-differential-geometry/`.
 2. **ch04 sub-chapter prefix duplication.** `04-curves` + `04-riemann-roch` (both 04 prefix); `05-divisors` + `05-surfaces` (both 05 prefix). Renumber to unique prefixes.
 3. **ch24 vs ch25 logic duplication.** `24-logic/` (8 sub) and `25-logic/` (4 sub) — pick canonical numbering. `24-numerical-pde/` also uses ch24. Resolve.
 4. **ch08 rename.** Currently labeled `08-stat-mech` but contents are statistical field theory / Euclidean QFT (path integral, φ^4, Wightman, lattice gauge, Wick rotation). Rename to `08-statistical-field-theory`. The actual undergrad stat-mech is ch11.

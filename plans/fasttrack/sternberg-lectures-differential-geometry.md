@@ -243,16 +243,16 @@ shared punch-list items should ship once.
 | **Ch. II — differentiable manifolds** | | | |
 | Smooth manifold, atlas, charts | `03.02.01-smooth-manifold.md` | ✓ | Single Codex manifold unit. Shared with KN-I §I; nothing to add. |
 | Submersion / immersion / embedding | — | ✗ | **Gap.** On the Milnor MMT punch-list. |
-| Tangent / cotangent bundle | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 1** (`03.02.02`). |
+| Tangent / cotangent bundle | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 1** (`48.02.02`). |
 | Regular value theorem | — | ✗ | **Gap.** Shared with the Milnor audit. |
 | Partitions of unity | — | ✗ | **Gap.** Foundational; nothing in the Babel Bible. |
 | Whitney embedding (weak, $M^n \hookrightarrow \mathbb{R}^{2n+1}$) | — | ✗ | **Gap.** Sternberg gives the easy version; strong Whitney $M^n \hookrightarrow \mathbb{R}^{2n}$ is a Milnor topic. Cite Whitney 1936 originator. |
 | **Ch. III — vector fields, Lie groups (early)** | | | |
-| Lie bracket $[X, Y]$, Lie derivative | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 2** (`03.02.03`). |
-| Frobenius theorem | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 3** (`03.02.04`). |
+| Lie bracket $[X, Y]$, Lie derivative | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 2** (`48.02.03`). |
+| Frobenius theorem | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 3** (`48.02.04`). |
 | Lie group, Lie algebra | `03.03.01-lie-group.md`, `03.04.01-lie-algebra.md` | ✓ | Shipped (algebra unit lives in `04-differential-forms/` for historical reasons; flagged elsewhere). |
 | Group action (free, transitive, proper) | `03.03.02-group-action.md` | ✓ | Shipped. |
-| One-parameter subgroup, exponential map | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 4** (`03.03.04`). |
+| One-parameter subgroup, exponential map | — | ✗ | **Gap.** **Shared with KN-I priority-0 punch-list item 4** (`48.03.04`). |
 | Maurer-Cartan form on $G$ | — | ✗ | **Gap.** Shared with KN-I. LDG's Ch III treatment is more leisurely than KN-I §I.4. |
 | Cartan's closed-subgroup theorem | — | ✗ | **Gap.** Distinctive to LDG / Warner. Cite Cartan 1930. |
 | Lie's third theorem (statement; simply-connected case) | — | ✗ | **Gap.** Cited from Lie-algebra units without anchor. |
@@ -269,14 +269,14 @@ shared punch-list items should ship once.
 | Riemannian metric, Levi-Civita connection | — | ✗ | **Gap.** **Shared with KN-I priority-1 punch-list item 12** (`03.03.X1`). Single most-cited missing unit in the Babel Bible. |
 | Moving frame / orthonormal coframe | — | ✗ | **Gap.** *Distinctive to LDG.* The KN-I audit punch-list does not separately call out the moving-frame construction; LDG's Ch. V is the canonical anchor. |
 | Connection 1-forms $\omega^i_j$ in a moving frame | — | ✗ | **Gap.** *Distinctive to LDG.* |
-| First structural equation $\mathrm{d}\theta^i + \omega^i_j \wedge \theta^j = \Theta^i$ | — | ✗ | **Gap.** **Shared with KN-I priority-1 punch-list item 10** (`03.05.14`, torsion + structural equations) and **punch-list item 11** (`03.05.15`, soldering form). The moving-frame side should be added to those units as the Beginner tier. |
+| First structural equation $\mathrm{d}\theta^i + \omega^i_j \wedge \theta^j = \Theta^i$ | — | ✗ | **Gap.** **Shared with KN-I priority-1 punch-list item 10** (`48.05.14`, torsion + structural equations) and **punch-list item 11** (`48.05.15`, soldering form). The moving-frame side should be added to those units as the Beginner tier. |
 | Second structural equation $\mathrm{d}\omega^i_j + \omega^i_k \wedge \omega^k_j = \Omega^i_j$ | `03.05.09-curvature.md` | △ | KN-I principal-bundle form is shipped; the moving-frame form is the natural Beginner-tier presentation and is missing. |
 | Algebraic + differential Bianchi identities | △ | △ | Shared with KN-I priority-1 item 10. |
-| Sectional, Ricci, scalar curvature | — | ✗ | **Gap.** **Shared with KN-I priority-2 punch-list item 13** (`03.02.05`). |
+| Sectional, Ricci, scalar curvature | — | ✗ | **Gap.** **Shared with KN-I priority-2 punch-list item 13** (`48.02.05`). |
 | Geodesic, exponential $\exp_p$, normal coordinates | — | ✗ | **Gap.** Shared with KN-I and Milnor audits (`03.03.X1`). |
 | Hopf-Rinow theorem | — | ✗ | **Gap.** Shared with KN-I and Milnor. |
 | **Ch. VI — $G$-structures and Cartan prolongation (LDG-distinctive)** | | | |
-| $G$-structure on $M$ (reduction of $L(M)$ to $G \subseteq \mathrm{GL}(n)$) | △ | △ | The orthogonal frame bundle `03.05.03-orthogonal-frame-bundle.md` is the canonical example; the **general** $G$-structure unit is **absent** and is shared with KN-I priority-1 item 8 (`03.05.12`, reduction of structure group). |
+| $G$-structure on $M$ (reduction of $L(M)$ to $G \subseteq \mathrm{GL}(n)$) | △ | △ | The orthogonal frame bundle `03.05.03-orthogonal-frame-bundle.md` is the canonical example; the **general** $G$-structure unit is **absent** and is shared with KN-I priority-1 item 8 (`48.05.12`, reduction of structure group). |
 | Integrability of a $G$-structure | — | ✗ | **Gap (LDG-only at this level).** When is a $G$-structure locally equivalent to the flat model? |
 | Cartan's first prolongation $G^{(1)} \subseteq \mathfrak{g} \otimes (\mathbb{R}^n)^*$ | — | ✗ | **Gap (LDG-only).** Algebraic prerequisite for the prolongation algorithm. |
 | Spencer cohomology of $\mathfrak{g} \hookrightarrow \mathfrak{gl}(n)$ | — | ✗ | **Gap (LDG-only).** |
@@ -316,14 +316,14 @@ shared with this LDG audit** at minimum:
 
 | KN-I punch-list item | LDG counterpart | Shared verdict |
 |---|---|---|
-| `03.02.02` Tangent bundle | LDG Ch. II | **Ship once, cite both** as anchors. |
-| `03.02.03` Lie bracket / Lie derivative | LDG Ch. III | **Ship once.** LDG provides the Lie-group-flavoured Beginner tier; KN-I provides the principal-bundle-flavoured Master tier. |
-| `03.02.04` Frobenius | LDG Ch. III | **Ship once.** LDG is the canonical anchor (more leisurely than KN-I). |
-| `03.03.04` Exponential / Maurer-Cartan | LDG Ch. III | **Ship once.** LDG is the canonical anchor. |
-| `03.05.00` General fibre bundle | LDG Ch. VI (in $G$-structure form) | **Ship once.** LDG's Ch. VI is the natural Master-tier deepening. |
-| `03.05.12` Reduction of structure group | LDG Ch. VI ($G$-structure) | **Ship once.** Add LDG Ch. VI as the master anchor; KN-I §II.7 as secondary. |
-| `03.05.14` Torsion + structural equations | LDG Ch. V | **Ship once with two-anchor framing.** LDG gives the moving-frame Beginner tier; KN-I §III gives the principal-bundle Master tier. |
-| `03.05.15` Soldering form / linear connection | LDG Ch. V | **Ship once with two-anchor framing.** Same as above. |
+| `48.02.02` Tangent bundle | LDG Ch. II | **Ship once, cite both** as anchors. |
+| `48.02.03` Lie bracket / Lie derivative | LDG Ch. III | **Ship once.** LDG provides the Lie-group-flavoured Beginner tier; KN-I provides the principal-bundle-flavoured Master tier. |
+| `48.02.04` Frobenius | LDG Ch. III | **Ship once.** LDG is the canonical anchor (more leisurely than KN-I). |
+| `48.03.04` Exponential / Maurer-Cartan | LDG Ch. III | **Ship once.** LDG is the canonical anchor. |
+| `48.05.00` General fibre bundle | LDG Ch. VI (in $G$-structure form) | **Ship once.** LDG's Ch. VI is the natural Master-tier deepening. |
+| `48.05.12` Reduction of structure group | LDG Ch. VI ($G$-structure) | **Ship once.** Add LDG Ch. VI as the master anchor; KN-I §II.7 as secondary. |
+| `48.05.14` Torsion + structural equations | LDG Ch. V | **Ship once with two-anchor framing.** LDG gives the moving-frame Beginner tier; KN-I §III gives the principal-bundle Master tier. |
+| `48.05.15` Soldering form / linear connection | LDG Ch. V | **Ship once with two-anchor framing.** Same as above. |
 | `03.03.X1` Levi-Civita / exp / Hopf-Rinow | LDG Ch. V | **Ship once.** Also shared with Milnor MMT audit. |
 
 Net effect: the LDG audit closes a small number of **LDG-distinctive**
@@ -348,48 +348,48 @@ moving-frame paragraph).
 **Priority 0 — manifold-layer and Lie-group-layer prerequisites (all
 shared with KN-I priority-0):**
 
-1. **`03.02.02` Tangent bundle as a smooth vector bundle.**
+1. **`48.02.02` Tangent bundle as a smooth vector bundle.**
    [shared with KN-I item 1] — KN-I §I.2 + LDG §II as joint master
    anchors. LDG's Beginner-tier framing (derivation at a point, germ of
    functions) is the more accessible entry.
-2. **`03.02.03` Vector fields, Lie bracket, Lie derivative.**
+2. **`48.02.03` Vector fields, Lie bracket, Lie derivative.**
    [shared with KN-I item 2] — KN-I §I.3 + LDG §III.1 joint master
    anchors. LDG also covers the **flow of a vector field** in this
    chapter; recommend folding the flow content here rather than a
    separate unit.
-3. **`03.02.04` Frobenius theorem.** [shared with KN-I item 3] —
+3. **`48.02.04` Frobenius theorem.** [shared with KN-I item 3] —
    LDG §III is the **canonical anchor**; KN-I §I.2 (Theorem 2.1) is
    secondary. The pedagogically distinctive Beginner-tier exposition
    (flow-of-vector-fields + Lie-bracket criterion) follows LDG.
-4. **`03.03.04` Exponential map $\exp: \mathfrak{g} \to G$ and the
+4. **`48.03.04` Exponential map $\exp: \mathfrak{g} \to G$ and the
    Maurer-Cartan form.** [shared with KN-I item 4] — LDG §III is the
    **canonical anchor**; KN-I §I.4 is secondary; Warner Ch. 3 tertiary.
-5. **`03.05.00` General fibre bundle.** [shared with KN-I item 5] —
+5. **`48.05.00` General fibre bundle.** [shared with KN-I item 5] —
    Steenrod §2–§3 as the master anchor; LDG §VI is the natural
    Master-tier deepening into the $G$-structure framing.
 
 **Priority 1 — LDG-distinctive Ch. III + Ch. V additions:**
 
-6. **`03.03.05` Cartan's closed-subgroup theorem.** [LDG-only]
+6. **`48.03.05` Cartan's closed-subgroup theorem.** [LDG-only]
    Every closed subgroup $H \subseteq G$ of a Lie group is a Lie
    subgroup (i.e. an embedded submanifold and a Lie group with the
    subspace topology). LDG §III anchor; Warner §3.21 secondary;
    originator Cartan 1930. ~1200 words. Intermediate + Master.
-7. **`03.03.06` Lie's third theorem (statement, simply-connected case).**
+7. **`48.03.06` Lie's third theorem (statement, simply-connected case).**
    [LDG-only] Every finite-dim Lie algebra $\mathfrak{g}$ over
    $\mathbb{R}$ is the Lie algebra of a (unique, up to isomorphism)
    simply-connected Lie group $G$. LDG §III anchor; Lie's original
    1893 reference + Cartan 1930 + Serre *Lie Algebras and Lie Groups*
    FT 1.03 secondary anchors. ~1200 words. Master-dominant; Intermediate
    tier states without proof.
-8. **`03.05.14` Torsion tensor and the two Cartan structural equations
+8. **`48.05.14` Torsion tensor and the two Cartan structural equations
    (moving-frame Beginner tier).** [shared with KN-I item 10] — LDG
    §V is the **canonical anchor** for the moving-frame Beginner tier.
    The KN-I principal-bundle Master tier remains primary. Notation
    crosswalk between $\theta^i$ / $\omega^i_j$ / $\Theta^i$ / $\Omega^i_j$
    (LDG) and $\theta$ / $\omega$ / $\Theta$ / $\Omega$ (KN-I) recorded
    in a §Notation paragraph.
-9. **`03.05.15` Linear connection via the frame bundle and the
+9. **`48.05.15` Linear connection via the frame bundle and the
    soldering form (moving-frame Beginner tier).** [shared with KN-I
    item 11] — Same two-anchor framing as item 8.
 10. **`03.03.X1` Levi-Civita connection, geodesics, exponential map,
@@ -403,7 +403,7 @@ shared with KN-I priority-0):**
 **Priority 2 — LDG-distinctive Ch. VI ($G$-structures and prolongation,
 the chapter that justifies the audit beyond KN-I):**
 
-11. **`03.05.12` Reduction of structure group; $G$-structure on $M$.**
+11. **`48.05.12` Reduction of structure group; $G$-structure on $M$.**
     [shared with KN-I item 8] — KN-I §II.7 + LDG §VI joint master
     anchors. LDG's $G$-structure framing as a reduction of $L(M)$ is
     pedagogically primary; the abstract reduction theorem from KN-I is
@@ -476,7 +476,7 @@ audits:**
 edits):**
 
 20. **Pointer in `03.05.03-orthogonal-frame-bundle.md` to the new
-    `03.05.12` and `03.05.X1` as the general $G$-structure context
+    `48.05.12` and `03.05.X1` as the general $G$-structure context
     (with $\mathrm{O}(n)$-structure as the canonical example).**
     Single-paragraph weaving edit.
 21. **Pointer in `cannas-da-silva-symplectic.md` audit and the
@@ -524,23 +524,23 @@ should carry originator-prose citations:
 - **Élie Cartan**, "Sur la structure des groupes de transformations
   finis et continus," thèse, Paris 1894 — the *originator paper* for
   the moving-frame method and the structural equations. Cite in
-  `03.05.14` and `03.05.15`.
+  `48.05.14` and `48.05.15`.
 - **Élie Cartan**, "Sur les variétés à connexion affine et la théorie
   de la relativité généralisée," *Annales scientifiques de l'É.N.S.*
   40 (1923) 325–412, *cont'd* 41 (1924) 1–25, 42 (1925) 17–88 — the
   development of affine connections via moving frames. Cite in
-  `03.05.14`, `03.05.15` alongside the 1894 thesis. Shared with KN-I
+  `48.05.14`, `48.05.15` alongside the 1894 thesis. Shared with KN-I
   originator-citation list.
 - **Élie Cartan**, "La théorie des groupes finis et continus et
   l'analysis situs," *Mémorial des sciences mathématiques* 42 (1930)
-  — the closed-subgroup theorem; cite in `03.03.05`.
+  — the closed-subgroup theorem; cite in `48.03.05`.
 - **Hassler Whitney**, "Differentiable manifolds," *Annals of Math.*
   37 (1936) 645–680 — the weak embedding theorem $M^n \hookrightarrow
   \mathbb{R}^{2n+1}$; cite in `03.02.X4`.
 - **Charles Ehresmann**, "Les connexions infinitésimales dans un
   espace fibré différentiable," *Colloque de topologie de Bruxelles*
   (1950) — formal connection on a principal bundle; shared with KN-I
-  originator list. Cite in `03.05.07` and `03.05.11`.
+  originator list. Cite in `03.05.07` and `48.05.11`.
 - **Donald Spencer**, "Deformation of structures on manifolds defined
   by transitive, continuous pseudogroups," *Annals of Math.* 76 (1962)
   306–445 — Spencer cohomology; cite in `03.05.X2`.
@@ -572,7 +572,7 @@ The Babel Bible notation decision (per `docs/specs/UNIT_SPEC.md` §11) should:
 **adopt KN-I's** $\omega$, $\Omega$, $\Theta$, $\theta$ verbatim as the
 Master-tier presentation; **introduce LDG's** $\omega^i_j$, $\Omega^i_j$,
 $\Theta^i$, $\theta^i$, $(e_i)$ as the Beginner-tier presentation in
-the same units (`03.05.14`, `03.05.15`, `03.03.X1`); record the
+the same units (`48.05.14`, `48.05.15`, `03.03.X1`); record the
 correspondence in a §Notation paragraph stating that the principal-
 bundle form is the pullback of the moving-frame form along a local
 section $M \to L(M)$. For the prolongation units (`03.05.X1`–`03.05.X4`)
@@ -637,13 +637,13 @@ equivalence-coverage when:
   flat-model integrability check for each of the standard $G$-structures
   (Ch. VI).
 - The moving-frame Beginner-tier additions are present in `03.05.09`,
-  `03.05.14`, `03.05.15`, `03.03.X1` per §3 items 8–10.
+  `48.05.14`, `48.05.15`, `03.03.X1` per §3 items 8–10.
 - The Ch. VI prolongation chain (`03.05.X1`–`03.05.X4`) ships as a
   contiguous four-unit cluster, weaving back to `03.05.03-orthogonal-
   frame-bundle.md` and to the Cannas-da-Silva audit (per §3 priority-4
   weaving items).
 - Notation decisions (moving-frame vs principal-bundle conventions)
-  are recorded in `03.05.14`, `03.05.15`, `03.05.X1` per §4.
+  are recorded in `48.05.14`, `48.05.15`, `03.05.X1` per §4.
 - Originator-prose citations of Cartan 1894 / 1923–25 / 1930, Whitney
   1936, Ehresmann 1950, Spencer 1962, Guillemin-Sternberg 1964, and
   Sternberg 1964 are present in the relevant units.
@@ -665,7 +665,7 @@ Spencer cohomology, finite vs infinite type, Guillemin-Sternberg
 classification), the Cartan closed-subgroup theorem (item 6) and Lie's
 third theorem (item 7) at the level developed in LDG Ch. III, and the
 *moving-frame Beginner-tier presentation* of the Cartan structural
-equations in `03.05.14`–`03.05.15` and `03.03.X1`. Everything else
+equations in `48.05.14`–`48.05.15` and `03.03.X1`. Everything else
 either ships once on the KN-I punch-list or is scoped out to the
 Cannas / Arnold / Milnor audits. The Ch. VI prolongation cluster is
 the single strongest argument for a separate Sternberg audit; without

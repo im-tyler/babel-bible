@@ -176,6 +176,7 @@ export default function RootLayout({ children }: { children: any }) {
       <script dangerouslySetInnerHTML={{ __html: TOGGLE_INIT }} />
       {/* Citation footnote panel — initialises on DOMContentLoaded. */}
       <script src="/js/citation-panel.js" defer></script>
+      <script dangerouslySetInnerHTML={{ __html: `document.addEventListener('error',function(e){if(e.target.tagName==='IMG')e.target.style.display='none'},true)` }} />
       {/* Math is now server-rendered by marked-katex-extension; no client KaTeX needed.
           KaTeX CSS is loaded via @import in src/styles/global.css. */}
     </>

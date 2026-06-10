@@ -246,12 +246,12 @@ covered.
 
 | *Curvature* topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Smooth manifolds, charts, smooth maps | `03.02.01-smooth-manifold.md`; `03.02.01-topological-manifold.md`; `03.02.02-smooth-structure-atlases.md` | ✓ | Already covered by KN-I / LDG audit ancestry. |
+| Smooth manifolds, charts, smooth maps | `03.02.01-smooth-manifold.md`; `03.02.01-topological-manifold.md`; `48.02.02-smooth-structure-atlases.md` | ✓ | Already covered by KN-I / LDG audit ancestry. |
 | Vector fields, Lie bracket, flows | △ | △ | `03.04.01-lie-algebra.md` covers the algebraic side; flows / Lie derivative shared gap with KN-I and LDG audits. |
-| Frobenius theorem | `03.02.04-frobenius-theorem.md` | ✓ | Shipped. |
+| Frobenius theorem | `48.02.04-frobenius-theorem.md` | ✓ | Shipped. |
 | Lie groups, Lie algebras, exp map | `03.03.01-lie-group.md`; `03.04.01-lie-algebra.md` | ✓ | Shipped. Exponential-map dedicated unit shared with KN-I / LDG. |
 | Cartan's closed-subgroup theorem | — | △ | Shared with LDG punch-list item 6 (priority 1, LDG-only). |
-| Lie's third theorem | `03.03.06-lie-third-theorem.md` | ✓ | Shipped via LDG audit Wave 4 production. |
+| Lie's third theorem | `48.03.06-lie-third-theorem.md` | ✓ | Shipped via LDG audit Wave 4 production. |
 | Differential forms, exterior derivative | `03.04.02-differential-forms.md`; `03.04.04-exterior-derivative.md` | ✓ | Shipped. |
 | Pullback $f^*\alpha$, naturality | △ | △ | Covered in passing in `03.04.04`; adequate at *Curvature* depth. |
 | Stokes' theorem | `03.04.05-stokes-theorem.md` | ✓ | Shipped. |
@@ -269,15 +269,15 @@ Cluster A.**
 | Principal bundle $P \to M$ with structure group $G$ | `03.05.01-principal-bundle.md` | ✓ | Shipped. |
 | Vector bundle, sections, transition functions | `03.05.02-vector-bundle.md`; `03.05.08-complex-vector-bundle.md` | ✓ | Shipped. |
 | Connection 1-form $\omega \in \Omega^1(P; \mathfrak{g})$ on a principal bundle | `03.05.07-principal-bundle-connection.md` | ✓ | Shipped. |
-| Horizontal subspace, horizontal lift, parallel transport | `03.05.11-horizontal-lift-parallel-transport.md` | ✓ | Shipped. |
+| Horizontal subspace, horizontal lift, parallel transport | `48.05.11-horizontal-lift-parallel-transport.md` | ✓ | Shipped. |
 | Vector-bundle covariant derivative $\nabla$ | `03.05.04-vector-bundle-connection.md` | ✓ | Shipped. |
-| Associated bundle $P \times_G F$ and its induced connection | `03.05.13-associated-bundle-induced-connection.md` | ✓ | Shipped. |
+| Associated bundle $P \times_G F$ and its induced connection | `48.05.13-associated-bundle-induced-connection.md` | ✓ | Shipped. |
 | Curvature 2-form $\Omega = d\omega + \tfrac{1}{2}[\omega, \omega]$ | `03.05.09-curvature.md` | ✓ | Shipped, principal-bundle form. |
-| Moving-frame / coframe presentation of $\omega^i_j$ and $\Omega^i_j$ | △ | △ | LDG audit priority-1 item 8 (`03.05.14-torsion-cartan-structural-equations.md`) is shipped and covers this. |
-| Torsion form $\Theta = d\theta + \omega \wedge \theta$; soldering form | `03.05.14-torsion-cartan-structural-equations.md`; `03.05.15-linear-connection-frame-bundle-soldering-form.md` | ✓ | Shipped via LDG audit production. |
+| Moving-frame / coframe presentation of $\omega^i_j$ and $\Omega^i_j$ | △ | △ | LDG audit priority-1 item 8 (`48.05.14-torsion-cartan-structural-equations.md`) is shipped and covers this. |
+| Torsion form $\Theta = d\theta + \omega \wedge \theta$; soldering form | `48.05.14-torsion-cartan-structural-equations.md`; `48.05.15-linear-connection-frame-bundle-soldering-form.md` | ✓ | Shipped via LDG audit production. |
 | **Bianchi identity** $d_\omega \Omega = 0$ | △ | △ | **Already covered by `03.05.09-curvature.md`** in the principal-bundle Master tier; the explicit Bianchi-identity statement is named there but **not isolated as its own unit**. The *Curvature*-distinctive presentation is the **two-form Bianchi identity** + the **algebraic Bianchi identity** $R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0$ as a single conceptual whole; gap noted. |
-| Holonomy and Ambrose-Singer theorem | `03.05.16-holonomy-group.md`; `03.05.17-ambrose-singer-holonomy.md` | ✓ | Shipped. |
-| Reduction of structure group; $G$-structures | `03.05.12-reduction-structure-group.md` | ✓ | Shipped via LDG audit. |
+| Holonomy and Ambrose-Singer theorem | `48.05.16-holonomy-group.md`; `48.05.17-ambrose-singer-holonomy.md` | ✓ | Shipped. |
+| Reduction of structure group; $G$-structures | `48.05.12-reduction-structure-group.md` | ✓ | Shipped via LDG audit. |
 
 **Cluster B status:** **already covered by prior KN-I / LDG audit
 production.** The only marginal gap is a dedicated Bianchi-identity
@@ -287,15 +287,15 @@ unit; we evaluate whether this is worth a standalone unit in §3 below.
 
 | *Curvature* topic | Babel Bible unit(s) | Status | Note |
 |---|---|---|---|
-| Riemannian metric, Levi-Civita connection | `03.02.05-sectional-ricci-scalar-curvature.md` (mentions); KN-I audit priority-1 item shipped | △ | The dedicated Levi-Civita unit is covered by the KN-I / LDG / Milnor MMT shared punch-list (KN-I item 12). |
-| First and second Cartan structural equations | `03.05.14-torsion-cartan-structural-equations.md` | ✓ | Shipped. |
+| Riemannian metric, Levi-Civita connection | `48.02.05-sectional-ricci-scalar-curvature.md` (mentions); KN-I audit priority-1 item shipped | △ | The dedicated Levi-Civita unit is covered by the KN-I / LDG / Milnor MMT shared punch-list (KN-I item 12). |
+| First and second Cartan structural equations | `48.05.14-torsion-cartan-structural-equations.md` | ✓ | Shipped. |
 | Riemann curvature tensor in coordinates | `13.03.01-riemann-curvature-tensor.md`; `03.05.09-curvature.md` | ✓ | Shipped both in GR chapter and in modern-geometry chapter. |
-| Sectional, Ricci, scalar curvature | `03.02.05-sectional-ricci-scalar-curvature.md` | ✓ | Shipped via KN-I audit. |
+| Sectional, Ricci, scalar curvature | `48.02.05-sectional-ricci-scalar-curvature.md` | ✓ | Shipped via KN-I audit. |
 | **Weyl tensor** (trace-free part of Riemann) | — | ✗ | **Gap.** Distinctive *Curvature* / GR content; appears nowhere in Codex. Conformal-flatness diagnostic. |
 | Geodesics, exponential map $\exp_p$, normal coordinates | `13.02.02-geodesics-parallel-transport.md` (light); KN-I shared punch-list | △ | Light coverage in GR chapter; the dedicated unit is on the KN-I shared punch-list. |
 | Hopf-Rinow theorem (positive-definite + Lorentzian) | — | ✗ | **Gap.** On the KN-I shared punch-list (positive-definite); the Lorentzian variant (Penrose, Geroch) is **uncovered** anywhere in Codex. |
-| **Killing fields**, infinitesimal isometries | `03.02.07-killing-fields.md` | ✓ | Shipped via KN-I audit. |
-| Killing-Hopf theorem (space forms classification) | `03.02.06-constant-curvature-killing-hopf.md` | ✓ | Shipped via KN-I audit. |
+| **Killing fields**, infinitesimal isometries | `48.02.07-killing-fields.md` | ✓ | Shipped via KN-I audit. |
+| Killing-Hopf theorem (space forms classification) | `48.02.06-constant-curvature-killing-hopf.md` | ✓ | Shipped via KN-I audit. |
 | Conformal transformations, Weyl tensor, conformally flat metrics | — | ✗ | **Gap.** Distinctive *Curvature* content tied to the Weyl-tensor gap. |
 | Lorentzian / pseudo-Riemannian signature subtleties | `13.09.01-globally-hyperbolic-lorentzian-manifolds.md` | △ | The globally-hyperbolic / causal-structure layer is in `13.09.*`; the **introductory pseudo-Riemannian-geometry-with-Lorentzian-signature** gap (signature $(-,+,+,+)$, timelike/spacelike/null vectors, causal cones, indefinite Hopf-Rinow) is not isolated. |
 
@@ -510,7 +510,7 @@ units without invented sub-chapter numbering.
    spinor fields in curved spacetime require the tetrad / spin-
    connection formulation), to **loop quantum gravity / Ashtekar
    variables**, and to the **Cartan-Weyl programme** mentioned in
-   `03.05.14-torsion-cartan-structural-equations.md`. **Originator-prose:**
+   `48.05.14-torsion-cartan-structural-equations.md`. **Originator-prose:**
    Cartan 1922 *Sur une généralisation de la notion de courbure
    de Riemann et les espaces à torsion* (C. R. Acad. Sci. Paris
    174) and Cartan 1923–1925 *Annales sci. ÉNS* affine-connection
@@ -557,7 +557,7 @@ units without invented sub-chapter numbering.
 
 **Priority 2 — Cluster C pseudo-Riemannian + Cluster B Bianchi gaps:**
 
-6. **`03.02.16` Weyl tensor and conformally flat metrics.** [NEW]
+6. **`48.02.16` Weyl tensor and conformally flat metrics.** [NEW]
    Anchor *Curvature* Ch. 12 + KN-I §2.4 + Besse *Einstein
    Manifolds* §1.G. Three-tier; ~1800 words. Decomposition of the
    Riemann tensor $R = W + \tfrac{2}{n-2}(\mathrm{Ric}\circ g) -
@@ -575,7 +575,7 @@ units without invented sub-chapter numbering.
    **Originator-prose:** Weyl 1918 *Reine Infinitesimalgeometrie*
    (Math. Z. 2) for the conformally invariant curvature decomposition.
 
-7. **`03.02.17` Lorentzian Hopf-Rinow and global hyperbolicity (introductory pseudo-Riemannian geometry).** [NEW] Anchor *Curvature* Ch. 11
+7. **`48.02.17` Lorentzian Hopf-Rinow and global hyperbolicity (introductory pseudo-Riemannian geometry).** [NEW] Anchor *Curvature* Ch. 11
    + O'Neill *Semi-Riemannian Geometry* §5 + Hawking-Ellis *The
    Large Scale Structure of Space-time* §6. Three-tier;
    ~1800 words. Lorentzian signature $(-,+,+,+)$ on a smooth
@@ -625,7 +625,7 @@ units without invented sub-chapter numbering.
    off the flux region. The phase is the **holonomy** of the
    connection. Worked example: explicit computation for a thin
    solenoid in $\mathbb{R}^3 \setminus \{$axis$\}$. **Bridge** between
-   `03.07.29` (EM-as-$U(1)$-YM) and `03.05.16` (holonomy). **Bridges
+   `03.07.29` (EM-as-$U(1)$-YM) and `48.05.16` (holonomy). **Bridges
    to quantum mechanics** chapter `12-quantum` (currently empty;
    pointer-only). **Originator-prose:** Aharonov-Bohm 1959
    *Significance of electromagnetic potentials in the quantum theory*
@@ -692,7 +692,7 @@ units without invented sub-chapter numbering.
     as a peer pedagogical anchor. ~150 words each. **No new
     unit ID.**
 
-15. **`03.02.18` Petrov classification of Lorentzian 4-curvature.**
+15. **`48.02.18` Petrov classification of Lorentzian 4-curvature.**
     [NEW; optional] Anchor *Curvature* Ch. 12 §4 + Penrose-Rindler
     *Spinors and Space-Time Vol. 1* §8 + Stephani et al. *Exact
     Solutions of Einstein's Field Equations*. Master-only; ~1500 words.
@@ -700,7 +700,7 @@ units without invented sub-chapter numbering.
     structure of the Weyl tensor at a point of a Lorentzian 4-manifold
     by the multiplicity pattern of its **principal null directions**.
     Schwarzschild is Petrov type D; gravitational radiation in the
-    far zone is Petrov type N. Cross-link to `03.02.16` (Weyl tensor)
+    far zone is Petrov type N. Cross-link to `48.02.16` (Weyl tensor)
     and `13.07.01` (gravitational waves). **Optional depth-completion;
     not needed for `equivalence-covered` threshold.**
 
@@ -709,20 +709,20 @@ punch-list focused (do not produce):
 
 - **Smooth manifolds, atlases, smooth maps:** already covered by
   `03.02.01-smooth-manifold.md`, `03.02.01-topological-manifold.md`,
-  `03.02.02-smooth-structure-atlases.md`.
+  `48.02.02-smooth-structure-atlases.md`.
 - **Lie groups, Lie algebras, exp map, Maurer-Cartan, Lie's third
-  theorem:** already covered by `03.03.01`, `03.04.01`, `03.03.06`
+  theorem:** already covered by `03.03.01`, `03.04.01`, `48.03.06`
   and the KN-I / LDG shared punch-list (priority 0–1 items).
-- **Frobenius theorem:** already covered by `03.02.04`.
+- **Frobenius theorem:** already covered by `48.02.04`.
 - **Differential forms, exterior derivative, Stokes, de Rham
   cohomology:** already covered by `03.04.02`–`03.04.07`,
   `03.04.11`.
 - **Principal bundles, vector bundles, connections, curvature,
   parallel transport, holonomy, Ambrose-Singer, reduction of
   structure group, Cartan structural equations:** already covered
-  by `03.05.01-*`, `03.05.04`, `03.05.07`, `03.05.09`, `03.05.11`,
-  `03.05.12`, `03.05.13`, `03.05.14`, `03.05.15`, `03.05.16`,
-  `03.05.17`.
+  by `03.05.01-*`, `03.05.04`, `03.05.07`, `03.05.09`, `48.05.11`,
+  `48.05.12`, `48.05.13`, `48.05.14`, `48.05.15`, `48.05.16`,
+  `48.05.17`.
 - **Chern-Weil homomorphism, Chern classes, Pontryagin classes,
   Stiefel-Whitney classes, Chern character, Chern-Simons forms,
   Hirzebruch signature theorem, $\hat A$-genus, Todd genus,
@@ -735,7 +735,7 @@ punch-list focused (do not produce):
 - **Riemann curvature tensor, sectional / Ricci / scalar curvature,
   Killing fields, Killing-Hopf classification, Bochner technique,
   Gauss-Codazzi-Ricci equations, second fundamental form:** already
-  covered by `03.02.05`–`03.02.07`, `03.02.13`–`03.02.15`.
+  covered by `48.02.05`–`48.02.07`, `48.02.13`–`48.02.15`.
 - **Einstein field equations, Schwarzschild solution, FLRW
   cosmology, linearised GR, equivalence principle:** already
   covered by `13.01.01`, `13.02.01-02`, `13.03.01`, `13.04.01`,
@@ -748,7 +748,7 @@ punch-list focused (do not produce):
   priority-2 item 7 gap.
 - **Hodge theory, Hodge-Laplacian, Kähler identities:** already
   covered by `03.04.15-hodge-laplacian-on-a-riemannian-manifold.md`,
-  `03.02.11-hermitian-kahler-form.md`, `03.02.12-kahler-identities-hodge-decomposition.md`
+  `48.02.11-hermitian-kahler-form.md`, `48.02.12-kahler-identities-hodge-decomposition.md`
   (Sternberg-Curvature touches Kähler only in passing).
 - **Maxwell equations in differential-forms language:** already
   covered by `10.04.01-maxwell-in-differential-forms.md`; the
@@ -836,12 +836,12 @@ should carry originator-prose citations:
   (shared anchor with the LDG audit).
 - **Hermann Weyl**, "Reine Infinitesimalgeometrie," *Math. Z.* 2
   (1918) 384–411 — the originator of the conformally-invariant
-  Weyl-tensor decomposition of curvature. Cite in `03.02.16`.
+  Weyl-tensor decomposition of curvature. Cite in `48.02.16`.
 - **Roger Penrose**, "Gravitational collapse and space-time
   singularities," *Phys. Rev. Lett.* 14 (1965) 57–59, and
   **Robert Geroch**, "Domain of dependence," *J. Math. Phys.* 11
   (1970) 437–449 — originators of the modern global-hyperbolicity
-  / Cauchy-surface framework. Cite in `03.02.17`.
+  / Cauchy-surface framework. Cite in `48.02.17`.
 - **Yakir Aharonov, David Bohm**, "Significance of electromagnetic
   potentials in the quantum theory," *Phys. Rev.* 115 (1959)
   485–491 — the originator of the Aharonov-Bohm effect. Cite in
@@ -871,7 +871,7 @@ should carry originator-prose citations:
 - $\Omega = d\omega + \tfrac{1}{2}[\omega, \omega]$ for the
   curvature 2-form (matches Codex).
 - $\omega^i_j$ for moving-frame connection 1-forms on $L(M)$
-  (matches LDG and Codex `03.05.14`).
+  (matches LDG and Codex `48.05.14`).
 - $\theta^a$ for orthonormal Lorentzian coframe (tetrad);
   $\omega^a{}_b$ for the spin connection on the orthonormal frame
   bundle of a Lorentzian 4-manifold (the **Cartan-tetrad** notation;
@@ -902,17 +902,17 @@ Cannas / Arnold-Mech / Arnold-Khesin precedent). The
 - `13.04.02` ← {`13.04.01` Einstein field equations,
   `03.04.08-variational-calculus.md`, `13.03.01-riemann-curvature-tensor.md`}
 - `13.04.03` ← {`13.04.02`, `03.05.07-principal-bundle-connection.md`,
-  `03.05.14-torsion-cartan-structural-equations.md`}
-- `13.02.03` ← {`03.05.14`, `03.05.15-linear-connection-frame-bundle-soldering-form.md`,
+  `48.05.14-torsion-cartan-structural-equations.md`}
+- `13.02.03` ← {`48.05.14`, `48.05.15-linear-connection-frame-bundle-soldering-form.md`,
   `13.03.01`}
 - `13.04.04` ← {`13.04.02`, `09.03.01-noethers-theorem.md`}
 - `03.07.29` ← {`03.05.07`, `03.07.05-yang-mills-action.md`,
   `10.04.01-maxwell-in-differential-forms.md`,
   `03.06.04-pontryagin-chern-classes.md`}
-- `03.02.16` ← {`03.02.05-sectional-ricci-scalar-curvature.md`}
-- `03.02.17` ← {`03.02.01-smooth-manifold.md`,
+- `48.02.16` ← {`48.02.05-sectional-ricci-scalar-curvature.md`}
+- `48.02.17` ← {`03.02.01-smooth-manifold.md`,
   `13.09.01-globally-hyperbolic-lorentzian-manifolds.md` (succeeds)}
-- `03.07.30` ← {`03.07.29`, `03.05.16-holonomy-group.md`}
+- `03.07.30` ← {`03.07.29`, `48.05.16-holonomy-group.md`}
 - `03.07.31` ← {`03.07.05`, `03.05.07`, `03.03.01-lie-group.md`}
 - `03.07.32` ← {`03.06.07-chern-simons-and-transgression.md`,
   `03.07.31`, `03.09.10-atiyah-singer-index-theorem.md`}
@@ -925,9 +925,9 @@ audit's punch-list lands inside existing chapters:
 - `13.02-manifold-formalism/` extends from 2 units → 3 units
   (`13.02.01-02` shipped, `13.02.03` new tetrad / spin-connection).
 - `03-modern-geometry/02-manifolds/` extends from 1 unit → 3 units
-  with the addition of `03.02.16` (Weyl tensor) and `03.02.17`
+  with the addition of `48.02.16` (Weyl tensor) and `48.02.17`
   (Lorentzian Hopf-Rinow / pseudo-Riemannian intro). Optionally
-  `03.02.18` (Petrov classification, priority 4).
+  `48.02.18` (Petrov classification, priority 4).
 - `03-modern-geometry/07-gauge-theory/` extends from 24 units →
   ~28 units with `03.07.29` (EM-as-$U(1)$-YM), `03.07.30` (Aharonov-
   Bohm), `03.07.31` (BRST), `03.07.32` (anomalies / descent).
@@ -1115,11 +1115,11 @@ Palatini 1919 + Cartan 1922.**
   - **B. O'Neill**, *Semi-Riemannian Geometry with Applications to
     Relativity*, Academic Press 1983. The canonical pseudo-
     Riemannian / Lorentzian geometry text; §5–§8 are the canonical
-    anchor for `03.02.17` (Lorentzian Hopf-Rinow and globally
+    anchor for `48.02.17` (Lorentzian Hopf-Rinow and globally
     hyperbolic foundations) at textbook depth.
   - **A. Besse**, *Einstein Manifolds*, Springer 1987. The
     canonical reference for Weyl-tensor decomposition (§1.G) and
-    conformal-flatness criteria. Master anchor for `03.02.16`.
+    conformal-flatness criteria. Master anchor for `48.02.16`.
   - **D. Bleecker**, *Gauge Theory and Variational Principles*,
     Addison-Wesley 1981 (Dover reprint 2005). The canonical 1980s
     geometric-gauge-theory text; §3 covers EM as $U(1)$ Yang-Mills,
@@ -1140,7 +1140,7 @@ Palatini 1919 + Cartan 1922.**
   - **R. Penrose, W. Rindler**, *Spinors and Space-Time, Vols. 1–2*,
     Cambridge University Press 1984/1986. Master reference for the
     Petrov classification (Vol. 1, §8); peer anchor for optional
-    `03.02.18`.
+    `48.02.18`.
   - **H. Stephani, D. Kramer, M. MacCallum, C. Hoenselaers, E.
     Herlt**, *Exact Solutions of Einstein's Field Equations*, 2nd
     ed., Cambridge University Press 2003. Compendium of named GR
@@ -1149,7 +1149,7 @@ Palatini 1919 + Cartan 1922.**
   - **S. Hawking, G. Ellis**, *The Large Scale Structure of
     Space-time*, Cambridge University Press 1973. The canonical
     causal-structure / global-hyperbolicity reference; §6 is the
-    master anchor for the Penrose-Geroch material in `03.02.17`.
+    master anchor for the Penrose-Geroch material in `48.02.17`.
 - **Originator-paper archive locations:**
   - Hilbert 1915 *Die Grundlagen der Physik* — open access via
     Göttingen Akademie reprints; English translation in

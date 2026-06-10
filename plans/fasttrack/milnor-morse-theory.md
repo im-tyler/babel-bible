@@ -185,17 +185,17 @@ content with no anchor.**
 
 **Priority 1 — load-bearing classical Morse theory (Part I + Part III core):**
 
-1. **`03.02.02` Critical point, Hessian, Morse index, Morse lemma.** Smooth
+1. **`48.02.02` Critical point, Hessian, Morse index, Morse lemma.** Smooth
    $f: M \to \mathbb{R}$, the intrinsic Hessian at a critical point, the
    non-degeneracy condition, and the Morse-lemma normal form. MMT §2 anchor.
    Three-tier, ~1500 words. Foundational; unblocks every other Morse unit.
-2. **`03.02.03` Morse functions and handle attachment (Theorems 3.1, 3.2).**
+2. **`48.02.03` Morse functions and handle attachment (Theorems 3.1, 3.2).**
    Sublevel-set diffeomorphism across non-critical levels; cell attachment
    at non-degenerate critical points of index $\lambda$. MMT §3 anchor.
    Three-tier; Beginner gives the height-function-on-torus picture
    (MMT §1), Intermediate gives Theorems 3.1 and 3.2 with the gradient-flow
    proof sketch, Master gives the full proofs. ~2000 words.
-3. **`03.02.04` Morse inequalities and Reeb's theorem.** Weak and strong
+3. **`48.02.04` Morse inequalities and Reeb's theorem.** Weak and strong
    Morse inequalities relating critical-point counts to Betti numbers; Reeb
    sphere-recognition theorem as a corollary. MMT §§4–5 anchor.
    ~1500 words. Three-tier.
@@ -204,7 +204,7 @@ content with no anchor.**
    variation of $E$, critical paths = geodesics. MMT §§11–12 anchor; also
    covered in Bott-Tu §17 indirectly via loop spaces. ~1500 words. Slots
    into `03.12-homotopy/` next to existing loop-space-adjacent units.
-5. **`03.02.05` Jacobi fields, conjugate points, Morse Index Theorem.**
+5. **`48.02.05` Jacobi fields, conjugate points, Morse Index Theorem.**
    Jacobi equation as the second-variation EL equation, conjugate points
    as zeros of Jacobi fields, the Index Theorem ($\mathrm{index}(E_{**}) =
    \sum$ interior conjugate-point multiplicities). MMT §§13–15 anchor.
@@ -224,7 +224,7 @@ content with no anchor.**
    with one $\lambda$-cell per geodesic of index $\lambda$. MMT §17 anchor.
    Two-tier (Intermediate + Master); ~1500 words. The bridge from Part III
    variational Morse to the loop-space algebraic topology that feeds Bott.
-8. **`03.02.06` Topology and curvature: Bonnet-Myers and Cartan-Hadamard.**
+8. **`48.02.06` Topology and curvature: Bonnet-Myers and Cartan-Hadamard.**
    Both as Morse-theoretic applications of the Index Theorem. MMT §§19 + 22
    anchor. ~1500 words. Three-tier.
 9. **`03.08.X1` Bott periodicity for $\mathrm{U}$: the Morse-theoretic proof.**
@@ -239,7 +239,7 @@ content with no anchor.**
 
 **Priority 3 — Lefschetz hyperplane and the real-case Bott proof:**
 
-10. **`03.02.07` Lefschetz hyperplane theorem via Morse.** Andreotti-Frankel /
+10. **`48.02.07` Lefschetz hyperplane theorem via Morse.** Andreotti-Frankel /
     Milnor Morse-theoretic proof on the affine complement. MMT §7 anchor;
     Andreotti-Frankel 1959 originator citation. ~1500 words. Connects the
     Morse units to `04-algebraic-geometry/` (where the Lefschetz hyperplane
@@ -291,20 +291,20 @@ should carry originator-prose citations:
 - **Marston Morse**, "Relations between the critical points of a real
   function of $n$ independent variables," *Trans. AMS* 27 (1925) 345–396 —
   the foundational paper introducing the Morse inequalities. Cite in unit
-  `03.02.04`.
+  `48.02.04`.
 - **Marston Morse**, *The Calculus of Variations in the Large* (AMS
   Colloquium Publications XVIII, 1934) — book-length consolidation; cite in
-  unit `03.02.05`.
+  unit `48.02.05`.
 - **Raoul Bott**, "The stable homotopy of the classical groups," *Proc.
   Nat. Acad. Sci. USA* 43 (1957) 933–935; the long-form paper *Annals*
   70 (1959) 313–337. Cite in `03.08.X1` and `03.08.X2`.
 - **Stephen Smale**, "On the structure of manifolds," *Amer. J. Math.* 84
   (1962) 387–399, and the $h$-cobordism theorem (1962) — Morse-theoretic
-  application. Cite as a "downstream" pointer in `03.02.03`.
+  application. Cite as a "downstream" pointer in `48.02.03`.
 - **John Milnor**, *Morse Theory* (1963) — the canonical consolidation.
   Cite throughout.
 - **Andreotti, Frankel**, "The Lefschetz theorem on hyperplane sections,"
-  *Annals of Math.* 69 (1959) 713–717 — cite in `03.02.07`.
+  *Annals of Math.* 69 (1959) 713–717 — cite in `48.02.07`.
 
 **Notation crosswalk.** MMT writes:
 
@@ -322,9 +322,9 @@ introduce gradient-flow stable manifolds explicitly — that is a
 Smale 1960s reformulation). The Babel Bible notation decision (per
 `docs/specs/UNIT_SPEC.md` §11) should: adopt MMT's $f^a$, $\lambda$,
 $\Omega(M; p, q)$, $E$, $L$ verbatim, and **add** the Smale-era
-$W^s$/$W^u$ in unit `03.02.03` as the modern reformulation, with a
+$W^s$/$W^u$ in unit `48.02.03` as the modern reformulation, with a
 notation paragraph cross-referencing both. Record in `§Notation` of
-units `03.02.02` and `03.02.03`.
+units `48.02.02` and `48.02.03`.
 
 ---
 
@@ -346,7 +346,7 @@ units `03.02.02` and `03.02.03`.
   Deferred.
 - **The $h$-cobordism theorem of Smale 1962** as a substantive unit.
   Mentioned in the originator citations and as a downstream pointer in
-  `03.02.03`; a full unit on the $h$-cobordism theorem is a separate
+  `48.02.03`; a full unit on the $h$-cobordism theorem is a separate
   effort (one of the few classical Milnor results not in MMT itself; it is
   in Milnor's later *Lectures on the h-Cobordism Theorem* 1965).
 - **Witten's supersymmetric Morse theory** (Witten 1982 "Supersymmetry
@@ -375,7 +375,7 @@ equivalence-coverage when:
 - All four Floer units (`05.08.01`–`05.08.04`) cite the new Morse units
   as prerequisites and have Pass-W weaving paragraphs pointing back to
   them.
-- Notation decisions are recorded in `03.02.02` and `03.02.03` (see §4).
+- Notation decisions are recorded in `48.02.02` and `48.02.03` (see §4).
 - Originator-prose citations of Morse 1925, Morse 1934, Bott 1957/1959,
   Andreotti-Frankel 1959, and Smale 1962 are present in the relevant
   units.

@@ -57,9 +57,9 @@ Each stub punch-list item / brief candidate, with the existing unit that covers 
 - **Hermitian symmetric spaces; bounded symmetric domains; Borel + Harish-Chandra embedding; $Z(\mathfrak k)$ characterisation** — COVERED `07.04.14`.
 - **Totally geodesic submanifolds; Lie triple system $[X,Y,Z]=[[X,Y],Z]$** — COVERED `07.04.06` (Theorem 4 + Prop 2) and `07.04.07` (rank = max flat totally geodesic submanifold).
 - **Killing form; Cartan's semisimplicity criterion** (stub Priority-0) — COVERED `07.06.16` (cartan-criterion-solvability-semisimplicity) + `07.06.10` (casimir).
-- **Hopf-Rinow completeness** (stub Priority-0) — COVERED `03.02.32` (the-riemannian-hopf-rinow-theorem); Lorentzian variant `03.02.17`.
+- **Hopf-Rinow completeness** (stub Priority-0) — COVERED `48.02.32` (the-riemannian-hopf-rinow-theorem); Lorentzian variant `48.02.17`.
 - **Complex semisimple root-space decomposition, root systems, Weyl group, Dynkin diagrams** (DGLGSS Ch. III prereqs) — COVERED `07.06.03, .04, .05, .17, .18, .19, .20`.
-- **Lie group / Lie algebra / exponential / adjoint** (DGLGSS Ch. II) — COVERED `03.03.01` (lie-group), `03.02.27` (Levi-Civita + exponential map), adjoint woven through `07.06.*`. (BCH formula has no dedicated unit but is not a Helgason-equivalence blocker; the stub itself rated it low.)
+- **Lie group / Lie algebra / exponential / adjoint** (DGLGSS Ch. II) — COVERED `03.03.01` (lie-group), `48.02.27` (Levi-Civita + exponential map), adjoint woven through `07.06.*`. (BCH formula has no dedicated unit but is not a Helgason-equivalence blocker; the stub itself rated it low.)
 - **Compact-group harmonic analysis (Peter-Weyl, Haar, Weyl integration)** — COVERED `07.07.02, .03`, `07.07.04`.
 - **Wigner classification (physics application of real forms)** — COVERED `07.07.06`, `07.07.09`.
 

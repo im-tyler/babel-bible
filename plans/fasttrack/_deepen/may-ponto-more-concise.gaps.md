@@ -3,7 +3,7 @@
 **Audit slug:** `may-ponto-more-concise`.
 **Primary chapters touched:** `content/03-modern-geometry/12-homotopy/`, `…/13-spectral-sequences/`, `…/06-characteristic-classes/`, and the legacy `content/03-differential-geometry/12-homotopy-theory/` tree.
 
-The first-pass audit (2026-05-18) was **REDUCED** (no PDF; paywalled) and graded MP at ~5% theorem coverage, proposing an 11-unit P1+P2 punch-list (`03.12.31`–`03.12.49`) plus deepenings. Since then the swarm shipped essentially the entire model-category + simplicial-homotopy strand. Grep-verification against the live 1414-unit corpus confirms that **almost every proposed unit now exists** — the model-category foundations, the Kan-Quillen structure, hocolim/holim, the Bousfield-Kan spectral sequence, the arithmetic square + integral fracture, Bousfield localisation of a model category, and the bialgebra/Hopf/Milnor-Moore unit are all shipped. The audit's predicted "total gaps" (model categories, completion, nilpotent spaces, fracture) are now **mostly closed**.
+The first-pass audit (2026-05-18) was **REDUCED** (no PDF; paywalled) and graded MP at ~5% theorem coverage, proposing an 11-unit P1+P2 punch-list (`03.12.31`–`48.12.49`) plus deepenings. Since then the swarm shipped essentially the entire model-category + simplicial-homotopy strand. Grep-verification against the live 1414-unit corpus confirms that **almost every proposed unit now exists** — the model-category foundations, the Kan-Quillen structure, hocolim/holim, the Bousfield-Kan spectral sequence, the arithmetic square + integral fracture, Bousfield localisation of a model category, and the bialgebra/Hopf/Milnor-Moore unit are all shipped. The audit's predicted "total gaps" (model categories, completion, nilpotent spaces, fracture) are now **mostly closed**.
 
 Two genuine residual gaps remain, both on the **Part 2 localisation side** (MP Ch 5–9), which the corpus under-serves relative to the well-covered Part 3 completion / arithmetic-square material: the corpus has rationalisation ($X_\mathbb{Q}$) and $p$-**completion** ($X^\wedge_p$) but no treatment of $p$-/$T$-**localisation** ($X_{(p)}$, $X_T$) at a set of primes as a construction distinct from completion, and no standalone development of the **nilpotent-group/space theory** (lower central series, the central Postnikov refinement, detection theorems) that MP makes the central computable class of the book. `03.12.45` *defines* "nilpotent space" in one sentence but develops none of the theory; the localisation fracture theorem of Part 2 Ch 7 (distinct from the integral arithmetic square of Part 3) is absent.
 
@@ -60,19 +60,19 @@ Two genuine residual gaps remain, both on the **Part 2 localisation side** (MP C
 
 - **Sullivan minimal models / rational homotopy (forms side)** — `03.12.06-sullivan-minimal-models` (+ exercises `03.12.E1`). Formality/Massey `03.12.51`, Cartan model `03.12.50`, mixed Hodge `03.12.44`.
 - **Quillen's dual rational-homotopy framework (dgla side, Quillen 1969)** — `03.12.06` already contains the "Bigraded models and the Quillen-Sullivan equivalence" section (Quillen DG-Lie model, Koszul/$A_\infty$ duality, Sullivan↔Quillen). Audit's proposed deepening item 15 is COVERED.
-- **Rational $H$-spaces / free graded Lie algebra** — covered via `03.12.06` (rational homotopy as a graded Lie algebra) + the Milnor-Moore $U(L)$ classification at `03.12.49`. The audit's proposed `03.12.47` is marginal and its content is split across these two; no standalone unit warranted.
+- **Rational $H$-spaces / free graded Lie algebra** — covered via `03.12.06` (rational homotopy as a graded Lie algebra) + the Milnor-Moore $U(L)$ classification at `48.12.49`. The audit's proposed `03.12.47` is marginal and its content is split across these two; no standalone unit warranted.
 
 ### Part 5 — bialgebras, Hopf algebras, Steenrod (MP Ch 20–24): shipped
 
-- **Bialgebra, Hopf algebra, antipode, primitives, Milnor-Moore theorem** — `03.12.49-bialgebra-hopf-milnor-moore` (full Milnor-Moore: graded connected cocommutative Hopf algebra over char-0 field $\cong U(P(H))$, PBW proof sketch). Audit's `03.12.49` COVERED at the same id.
-- **Lie algebra / universal enveloping algebra** — `03.12.49` (commutator Lie algebra on primitives, $U(\mathfrak g)$, PBW) + `07.06.13-free-lie-algebras-hall-basis-and-magnus-theorem` + `07.06.15-campbell-baker-hausdorff`.
+- **Bialgebra, Hopf algebra, antipode, primitives, Milnor-Moore theorem** — `48.12.49-bialgebra-hopf-milnor-moore` (full Milnor-Moore: graded connected cocommutative Hopf algebra over char-0 field $\cong U(P(H))$, PBW proof sketch). Audit's `48.12.49` COVERED at the same id.
+- **Lie algebra / universal enveloping algebra** — `48.12.49` (commutator Lie algebra on primitives, $U(\mathfrak g)$, PBW) + `07.06.13-free-lie-algebras-hall-basis-and-magnus-theorem` + `07.06.15-campbell-baker-hausdorff`.
 - **Hopf algebras & the dual Steenrod algebra** — `03.06.14-steenrod-squares-and-wu-formula` (Steenrod squares, Adem relations, the **Hopf-algebra structure** on $\mathcal{A}_2$ with the coproduct from the Cartan formula, the **dual $\mathcal{A}_2^* = \mathbb{F}_2[\xi_1,\xi_2,\dots]$, $|\xi_i|=2^i-1$**, and the Milnor basis — Milnor 1958). This is the load-bearing Steenrod-Hopf material MP Part 5 builds toward.
 - **Restricted Lie algebras (char $p$), cohomology (MP Ch 22–23)** — audit-flagged P3/P4, technical, needed only for $p$-complete $H$-spaces. Not present as a standalone unit, but the audit itself deferred this to "a future $p$-completion deep-dive pass" (item 16) and it is below the deepening-pass value threshold; NOT proposed as a gap (out-of-scope per the audit's own §5).
 
 ### Characteristic classes & cobordism (MP touches via Hopf/Steenrod): shipped
 
 - **Characteristic classes** — entire chapter `03-modern-geometry/06-characteristic-classes/` (Stiefel-Whitney `03.06.03`, Pontryagin/Chern `03.06.04`, Chern-Weil, Wu `03.06.14`, signature `03.06.19`, multiplicative sequences/genera `03.06.15`).
-- **Cobordism** — `03.06.12-unoriented-bordism-thoms-theorem`, `03.06.13-oriented-bordism-pontryagin-thom`, `03.08.20-whitehead-torsion-s-cobordism`, plus Thom space/isomorphism at `03.12.29` (legacy tree) and `03.08.03` (K-theory).
+- **Cobordism** — `03.06.12-unoriented-bordism-thoms-theorem`, `03.06.13-oriented-bordism-pontryagin-thom`, `03.08.20-whitehead-torsion-s-cobordism`, plus Thom space/isomorphism at `48.12.29` (legacy tree) and `03.08.03` (K-theory).
 
 ### Serre & Eilenberg-Moore spectral sequences: shipped
 
@@ -82,9 +82,9 @@ Two genuine residual gaps remain, both on the **Part 2 localisation side** (MP C
 ### Foundations assumed by MP: shipped
 
 - **Cofibrations / fibrations** — `02.01.07-fibration`, `02.01.08-cofibration`.
-- **Puppe cofiber / fiber sequences** — `03.12.27-puppe-cofiber-sequence`, `03.12.28-puppe-fiber-sequence` (audit's strict prereq `03.12.27` shipped).
+- **Puppe cofiber / fiber sequences** — `48.12.27-puppe-cofiber-sequence`, `48.12.28-puppe-fiber-sequence` (audit's strict prereq `48.12.27` shipped).
 - **Postnikov tower** — `03.12.40-postnikov-tower-kan-complex` (audit's `03.12.40` shipped).
-- **Geometric realisation / simplicial sets** — `03.12.25-simplicial-sets-and-geometric-realization`, `03.12.24-simplicial-set-delta`.
+- **Geometric realisation / simplicial sets** — `03.12.25-simplicial-sets-and-geometric-realization`, `48.12.24-simplicial-set-delta`.
 
 ---
 
