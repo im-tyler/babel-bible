@@ -7158,6 +7158,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: Clayden, Greeves & Warren — Organic Chemistry 2nd ed. Ch. 14 (Stereochemistry)
 - **notes**: (to be filled during production)
 
+### chemistry.conformational-analysis
+
+- **title**: Conformational analysis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.stereoisomerism
+
+- **title**: Stereoisomerism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.enantioselective-synthesis
+
+- **title**: Enantioselective synthesis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.alkane-reactions
+
+- **title**: Alkane reactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.alcohol-ether-chemistry
+
+- **title**: Alcohol and ether chemistry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.enols-enolates-tautomerism
+
+- **title**: Enols, enolates, and tautomerism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.functional-groups-nomenclature
 
