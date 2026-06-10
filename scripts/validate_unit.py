@@ -641,8 +641,10 @@ def check_beginner(report: ValidationReport, body: str):
     report.add("Beginner has no proof language", not proof_hits,
                detail=f"found: {proof_hits}" if proof_hits else "")
 
-    # Forbidden formal notation
-    forb_hits = BEGINNER_FORBIDDEN_RE.findall(text)
+    # Forbidden formal notation (strip exercise blocks, same as proof check,
+    # since medium/hard exercise answers legitimately use formal notation)
+    text_no_exercises = re.sub(r"<aside[\s\S]*?</aside>", "", text, flags=re.IGNORECASE)
+    forb_hits = BEGINNER_FORBIDDEN_RE.findall(text_no_exercises)
     report.add("Beginner uses no advanced formal notation",
                not forb_hits,
                detail=f"found symbols: {set(forb_hits)}" if forb_hits else "")
