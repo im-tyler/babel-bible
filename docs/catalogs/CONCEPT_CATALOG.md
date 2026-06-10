@@ -7194,6 +7194,30 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.elimination-reactions
+
+- **title**: Elimination reactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.sn2-e2-stereochemistry
+
+- **title**: SN2 and E2 stereochemistry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.alkyne-addition
+
+- **title**: Alkyne addition reactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.diels-alder
+
+- **title**: Diels-Alder reaction
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.functional-groups-nomenclature
 
