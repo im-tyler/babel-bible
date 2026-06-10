@@ -7218,6 +7218,30 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.nucleophilic-aromatic-substitution
+
+- **title**: Nucleophilic aromatic substitution
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.arene-side-chain-reactions
+
+- **title**: Arene side-chain reactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.benzene-synthesis-directing
+
+- **title**: Benzene synthesis and directing effects
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.acyl-substitution
+
+- **title**: Acyl substitution
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.functional-groups-nomenclature
 
