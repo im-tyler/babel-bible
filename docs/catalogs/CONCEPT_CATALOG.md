@@ -6823,6 +6823,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Chemistry (§14–16)
 
+### chemistry.partition-functions-chemical
+
+- **title**: Partition functions for chemical systems
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.statistical-thermodynamics-ideal-gases
+
+- **title**: Statistical thermodynamics of ideal gases
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.transition-state-theory
+
+- **title**: Transition state theory / Eyring equation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.integrated-rate-laws
+
+- **title**: Integrated rate laws
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.reaction-mechanisms
+
+- **title**: Reaction mechanisms
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.catalysis-mechanisms
+
+- **title**: Catalysis mechanisms
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### chemistry.hess-law-enthalpy
 
 - **title**: Hess's law and standard enthalpies
