@@ -8644,6 +8644,14 @@
 ],
 "curriculum": "stat-mech-physics"
 },
+"11.02.04": {
+"books": [
+"reif-1965",
+"pathria-beale-2011",
+"kardar-2007"
+],
+"curriculum": "stat-mech-physics"
+},
 "11.03.01": {
 "books": [],
 "curriculum": "fast-track"
@@ -8653,6 +8661,22 @@
 "pathria-beale-2011",
 "reif-1965",
 "huang-1987"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.03.03": {
+"books": [
+"reif-1965",
+"pathria-beale-2011",
+"kardar-2007"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.03.04": {
+"books": [
+"reif-1965",
+"pathria-beale-2011",
+"callen-1985"
 ],
 "curriculum": "stat-mech-physics"
 },
@@ -8682,6 +8706,14 @@
 "pathria-beale-2011",
 "reif-1965",
 "huang-1987"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.04.05": {
+"books": [
+"reif-1965",
+"kittel-kroemer-1980",
+"pathria-beale-2011"
 ],
 "curriculum": "stat-mech-physics"
 },
@@ -8723,6 +8755,37 @@
 ],
 "curriculum": "stat-mech-physics"
 },
+"11.06.03": {
+"books": [
+"pathria-beale-2011",
+"kardar-2007",
+"landau-lifshitz-mechanics"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.06.04": {
+"books": [
+"pathria-beale-2011",
+"kardar-2007"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.06.05": {
+"books": [
+"pathria-beale-2011",
+"kardar-2007",
+"goldenfeld-1992"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.06.06": {
+"books": [
+"pathria-beale-2011",
+"baxter-1982",
+"kardar-2007"
+],
+"curriculum": "stat-mech-physics"
+},
 "11.07.01": {
 "books": [
 "deligne-quantum-fields-strings",
@@ -8734,6 +8797,30 @@
 "books": [
 "kardar-2007",
 "pathria-beale-2011"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.07.03": {
+"books": [
+"wilson-kogut-1974",
+"kardar-2007",
+"goldenfeld-1992"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.07.04": {
+"books": [
+"kardar-2007",
+"chaikin-lubensky-1995",
+"kosterlitz-thouless-1973"
+],
+"curriculum": "stat-mech-physics"
+},
+"11.07.05": {
+"books": [
+"wilson-kogut-1974",
+"kardar-2007",
+"di-francesco-1997"
 ],
 "curriculum": "stat-mech-physics"
 },

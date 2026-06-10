@@ -30114,6 +30114,33 @@
 ],
 "title": "The Boltzmann transport equation: H-theorem, the approach to equilibrium, and the BGK approximation"
 },
+"11.02.04": {
+"area": "physics",
+"books": [
+"reif-1965",
+"pathria-beale-2011",
+"kardar-2007"
+],
+"chapter": "kinetic-theory",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.02.04",
+"prereqs": [
+"11.02.01",
+"11.04.01"
+],
+"section": "stat-mech-physics",
+"slug": "fluctuations-noise-fluctuation-dissipation-nyquist",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fluctuations and Noise: The Fluctuation-Dissipation Theorem and Nyquist's Formula"
+},
 "11.03.01": {
 "area": "physics",
 "books": [],
@@ -30165,6 +30192,62 @@
 "master"
 ],
 "title": "Grand canonical ensemble: chemical potential, fugacity, and variable particle number"
+},
+"11.03.03": {
+"area": "physics",
+"books": [
+"reif-1965",
+"pathria-beale-2011",
+"kardar-2007"
+],
+"chapter": "ensembles",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.03.03",
+"prereqs": [
+"11.03.01",
+"11.03.02",
+"11.04.01"
+],
+"section": "stat-mech-physics",
+"slug": "equivalence-ensembles-thermodynamic-limit-legendre",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Equivalence of Ensembles in the Thermodynamic Limit: Legendre Structure and Equivalence Conditions"
+},
+"11.03.04": {
+"area": "physics",
+"books": [
+"reif-1965",
+"pathria-beale-2011",
+"callen-1985"
+],
+"chapter": "ensembles",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.03.04",
+"prereqs": [
+"11.03.01",
+"11.04.01",
+"11.01.02"
+],
+"section": "stat-mech-physics",
+"slug": "isothermal-isobaric-npt-ensemble",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Isothermal-Isobaric (NPT) Ensemble: Gibbs Free Energy as the Natural Potential"
 },
 "11.04.01": {
 "area": "physics",
@@ -30273,6 +30356,33 @@
 "master"
 ],
 "title": "Classical ideal gas partition function: Sackur-Tetrode entropy and the Gibbs paradox"
+},
+"11.04.05": {
+"area": "physics",
+"books": [
+"reif-1965",
+"kittel-kroemer-1980",
+"pathria-beale-2011"
+],
+"chapter": "partition-functions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.04.05",
+"prereqs": [
+"11.04.01",
+"11.04.03"
+],
+"section": "stat-mech-physics",
+"slug": "harmonic-oscillator-thermal-bath-heat-capacity-einstein",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Harmonic Oscillator in a Thermal Bath: Heat Capacity and the Einstein Solid"
 },
 "11.05.01": {
 "area": "physics",
@@ -30472,6 +30582,114 @@
 ],
 "title": "Mean-field theory of phase transitions: the van der Waals and Curie-Weiss models"
 },
+"11.06.03": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"kardar-2007",
+"landau-lifshitz-mechanics"
+],
+"chapter": "phase-transitions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.06.03",
+"prereqs": [
+"11.06.01",
+"11.06.02",
+"11.01.01"
+],
+"section": "stat-mech-physics",
+"slug": "landau-theory-order-parameter-symmetry-breaking",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Landau Theory: Order Parameter, Symmetry Breaking, and the Free Energy Expansion"
+},
+"11.06.04": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"kardar-2007"
+],
+"chapter": "phase-transitions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.06.04",
+"prereqs": [
+"11.06.02",
+"11.06.03"
+],
+"section": "stat-mech-physics",
+"slug": "fluctuations-ginzburg-criterion-ginzburg-landau",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fluctuations Beyond Mean Field: The Ginzburg Criterion and Ginzburg-Landau Theory"
+},
+"11.06.05": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"kardar-2007",
+"goldenfeld-1992"
+],
+"chapter": "phase-transitions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.06.05",
+"prereqs": [
+"11.06.02",
+"11.06.03"
+],
+"section": "stat-mech-physics",
+"slug": "scaling-hypothesis-widom-kadanoff-data-collapse",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Scaling Hypothesis: Widom Scaling, Kadanoff Block Spins, and Data Collapse"
+},
+"11.06.06": {
+"area": "physics",
+"books": [
+"pathria-beale-2011",
+"baxter-1982",
+"kardar-2007"
+],
+"chapter": "phase-transitions",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.06.06",
+"prereqs": [
+"11.06.01",
+"11.04.01"
+],
+"section": "stat-mech-physics",
+"slug": "transfer-matrix-method-exact-1d-ising",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Transfer Matrix Method: Exact Solution of the 1D Ising Model and Onsager's Legacy"
+},
 "11.07.01": {
 "area": "physics",
 "books": [
@@ -30520,6 +30738,87 @@
 "master"
 ],
 "title": "Block-spin renormalization: Wilson's real-space RG and fixed points"
+},
+"11.07.03": {
+"area": "physics",
+"books": [
+"wilson-kogut-1974",
+"kardar-2007",
+"goldenfeld-1992"
+],
+"chapter": "renormalization",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.07.03",
+"prereqs": [
+"11.06.05",
+"11.06.03"
+],
+"section": "stat-mech-physics",
+"slug": "block-spin-renormalization-wilson-real-space-rg",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Block-Spin Renormalization: Wilson's Real-Space RG, Fixed Points, and Relevant Operators"
+},
+"11.07.04": {
+"area": "physics",
+"books": [
+"kardar-2007",
+"chaikin-lubensky-1995",
+"kosterlitz-thouless-1973"
+],
+"chapter": "renormalization",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.07.04",
+"prereqs": [
+"11.06.04",
+"11.07.01"
+],
+"section": "stat-mech-physics",
+"slug": "kosterlitz-thouless-topological-phase-transitions-2d",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kosterlitz-Thouless Transition: Topological Phase Transitions in Two Dimensions"
+},
+"11.07.05": {
+"area": "physics",
+"books": [
+"wilson-kogut-1974",
+"kardar-2007",
+"di-francesco-1997"
+],
+"chapter": "renormalization",
+"curriculum": "stat-mech-physics",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.07.05",
+"prereqs": [
+"11.07.03",
+"11.06.05"
+],
+"section": "stat-mech-physics",
+"slug": "epsilon-expansion-rg-flows-critical-exponents-conformal-field-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Epsilon Expansion, RG Flows Near Four Dimensions, Critical Exponents, and Conformal Field Theory"
 },
 "12.01.01": {
 "area": "physics",
