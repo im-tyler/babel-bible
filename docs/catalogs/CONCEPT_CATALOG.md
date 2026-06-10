@@ -19068,6 +19068,70 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.wkb-approximation
+
+- **title**: WKB approximation: tunneling, Bohr-Sommerfeld quantization, and connection formulas
+- **prerequisites**: *(to be determined)*
+- **tier_anchors**:
+  - master: *(deferred)*
+  - intermediate: *(deferred)*
+  - beginner: *(deferred)*
+- **notes**: Alias for quantum-mechanics.wkb-approximation-tunneling-bohr-sommerfeld-quantization-and-connection-formulas.
+
+### quantum-mechanics.measurement-postulates
+
+- **title**: Measurement postulates: Born rule, wavefunction collapse, and the projection postulate
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.time-dependent-perturbation
+
+- **title**: Time-dependent perturbation theory: Fermi's golden rule and transition rates
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.interaction-picture
+
+- **title**: The interaction picture, Dyson series, and time-ordered exponentials
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.finite-square-well
+
+- **title**: The finite square well: bound states, tunneling, and resonant scattering
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.delta-function-potential
+
+- **title**: The delta-function potential: exactly solvable bound state and scattering
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.3d-harmonic-oscillator
+
+- **title**: The isotropic harmonic oscillator in three dimensions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.runge-lenz-vector
+
+- **title**: The Runge-Lenz vector, SO(4) symmetry, and hydrogen degeneracy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.euclidean-path-integrals
+
+- **title**: Euclidean path integrals, instantons, and tunneling between vacua
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### quantum-mechanics.semiclassical-approximation
+
+- **title**: The semiclassical approximation: stationary phase, van Vleck determinant, and Gutzwiller trace formula
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
 ### quantum-mechanics.wkb-approximation-tunneling-bohr-sommerfeld-quantization-and-connection-formulas
 
 - **title**: WKB approximation: tunneling, Bohr-Sommerfeld quantization, and connection formulas
@@ -19077,6 +19141,12 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.probability-current
+
+- **title**: Probability current, continuity equation, and the flow interpretation of the wavefunction
+- **prerequisites**: *(to be determined)*
+- **notes**: Alias for quantum-mechanics.probability-current-continuity-equation-and-the-flow-interpretation-of-the-wavefunction.
+
 ### quantum-mechanics.probability-current-continuity-equation-and-the-flow-interpretation-of-the-wavefunction
 
 - **title**: Probability current, continuity equation, and the flow interpretation of the wavefunction
@@ -19086,6 +19156,12 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: *(deferred)*
   - beginner: *(deferred)*
 - **notes**: Stub — awaiting full catalog entry.
+### quantum-mechanics.wave-packet-spreading
+
+- **title**: Spreading of the free Gaussian wave packet: group velocity and dispersion
+- **prerequisites**: *(to be determined)*
+- **notes**: Alias for quantum-mechanics.spreading-of-the-free-gaussian-wave-packet-group-velocity-and-dispersion.
+
 ### quantum-mechanics.spreading-of-the-free-gaussian-wave-packet-group-velocity-and-dispersion
 
 - **title**: Spreading of the free Gaussian wave packet: group velocity and dispersion

@@ -159,19 +159,21 @@ All plans are at `plans/expansion/<dir>/PRODUCTION_PLAN.md`. All sections exist;
 Prose-first contract: lean_status: none, human review is the correctness gate.
 Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existing unit in the same section.
 
-- [~] **Classical Mechanics (09)** — `plans/expansion/classical-mechanics/` — 35 new units across 8 chapters (newtonian/lagrangian/symmetries/hamiltonian/canonical/integrable/continuum/chaos). Sources: Taylor 2005, Goldstein 2002, Landau-Lifshitz. 16 → 51 units. **W1 COMPLETE (9/35 units, all 27/27).**
-  - [ ] PRODUCE: remaining 4 dependency waves → integrate → commit → build_lenses
-  - [ ] COMPLETENESS: loop-until-dry
+- [x] **Classical Mechanics (09)** — `plans/expansion/classical-mechanics/` — 30 new units across 8 chapters. Sources: Taylor 2005, Goldstein 2002, Landau-Lifshitz. 16 → 46 units. All 27/27 validated.
+  - [x] PRODUCE: 4 dependency waves (30 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
-- [ ] **Electromagnetism & SR (10)** — `plans/expansion/electromagnetism/` — 22 new units (magnetostatics/electrodynamics/maxwell-fields/covariant-em/radiation + new ch08-advanced-electrodynamics). Sources: Griffiths 2017, Jackson 1999. 15 → 37 units.
-  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
-  - [ ] COMPLETENESS: loop-until-dry
+- [x] **Electromagnetism & SR (10)** — `plans/expansion/electromagnetism/` — 22 new units (magnetostatics/electrodynamics/maxwell-fields/covariant-em/radiation + ch08-advanced-electrodynamics). Sources: Griffiths 2017, Jackson 1999. 15 → 37 units. All 27/27 validated.
+  - [x] PRODUCE: 3 dependency waves (22 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
-- [ ] **Statistical Mechanics (11)** — `plans/expansion/statistical-mechanics/` — 22 new units (thermodynamics/kinetic-theory/ensembles/partition-functions/phase-transitions/rg). Sources: Reif 1965, Kittel-Kroemer 1980, Pathria 2011. 14 → 36 units.
-  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
-  - [ ] COMPLETENESS: loop-until-dry
+- [x] **Statistical Mechanics (11)** — `plans/expansion/statistical-mechanics/` — 22 new units (thermodynamics/kinetic-theory/ensembles/partition-functions/phase-transitions/rg). Sources: Reif 1965, Kittel-Kroemer 1980, Pathria 2011. 14 → 36 units. All 27/27 validated.
+  - [x] PRODUCE: 3 dependency waves (22 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
-- [ ] **Quantum Mechanics gap-fill (12)** — `plans/expansion/quantum-mechanics/` — up to 12 conditional units for thin chapters only (WKB, Wigner D-matrices, second quantization, Lindblad). **Check chapter counts first; skip chapters with ≥ 4 units.**
+- [x] **Quantum Mechanics gap-fill (12)** — `plans/expansion/quantum-mechanics/` — 12 conditional units for 5 sparse chapters (foundations, formalism, time-evolution, one-dim-problems, central-force, path-integral). All 27/27 validated. 76 → 88 units.
+  - [x] PRODUCE: 12 units → integrated
+  - [x] COMPLETENESS: converged (chapters now ≥ 3 units each)
 
 - [ ] **Chemistry — GenChem/PChem (14)** — `plans/expansion/chemistry/` — 32 new units (all 12 chapters). Sources: Atkins 2023, McQuarrie-Simon 1997. 13 → 45 units.
   - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
