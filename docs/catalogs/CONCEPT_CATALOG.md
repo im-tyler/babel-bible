@@ -6823,6 +6823,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Chemistry (§14–16)
 
+### chemistry.heteronuclear-diatomics-mo
+
+- **title**: MO theory of heteronuclear diatomics
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.band-theory-solids
+
+- **title**: Band theory of solids
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.variational-principle-quantum-chem
+
+- **title**: Variational principle in quantum chemistry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.perturbation-theory-chemistry
+
+- **title**: Perturbation theory in chemistry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.density-functional-theory
+
+- **title**: Density functional theory basics
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.molecular-orbital-theory-lcao
+
+- **title**: Molecular orbital theory: LCAO and H2
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
 ### chemistry.solution-stoichiometry
 
 - **title**: Solution stoichiometry: molarity, titration, and gravimetric analysis
