@@ -6823,6 +6823,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Chemistry (§14–16)
 
+### chemistry.raoult-law-vapor-pressure
+
+- **title**: Raoult's law and vapor pressure
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.colligative-properties
+
+- **title**: Colligative properties
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.phase-diagrams
+
+- **title**: Phase diagrams
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.buffer-solutions
+
+- **title**: Buffer solutions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.acid-base-titration-curves
+
+- **title**: Acid-base titration curves
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.solubility-equilibria
+
+- **title**: Solubility equilibria
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### chemistry.partition-functions-chemical
 
 - **title**: Partition functions for chemical systems
