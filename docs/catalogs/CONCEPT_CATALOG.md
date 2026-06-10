@@ -6823,6 +6823,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Chemistry (§14–16)
 
+### chemistry.solution-stoichiometry
+
+- **title**: Solution stoichiometry: molarity, titration, and gravimetric analysis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.gas-laws
+
+- **title**: Ideal and real gas laws
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.molecular-geometry-dipole
+
+- **title**: Molecular geometry and dipole moments
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.valence-bond-theory
+
+- **title**: Valence bond theory: resonance and Lewis limitations
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.periodic-trends
+
+- **title**: Periodic trends: ionization energy, electron affinity, atomic radius, and electronegativity
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
+### chemistry.many-electron-atoms
+
+- **title**: Many-electron atoms: Hartree-Fock self-consistent field and the Pauli exclusion principle
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub — awaiting full catalog entry.
+
 ### chemistry.atomic-structure-electron-configurations
 
 - **title**: Atomic structure and electron configurations
