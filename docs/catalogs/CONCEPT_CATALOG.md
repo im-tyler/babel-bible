@@ -6823,6 +6823,48 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Chemistry (§14–16)
 
+### chemistry.galvanic-cells
+
+- **title**: Galvanic cells
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.electrolysis
+
+- **title**: Electrolysis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.batteries-fuel-cells
+
+- **title**: Batteries and fuel cells
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.rotational-spectroscopy
+
+- **title**: Rotational spectroscopy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.vibrational-spectroscopy
+
+- **title**: Vibrational spectroscopy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.electronic-spectroscopy
+
+- **title**: Electronic spectroscopy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.mass-spectrometry
+
+- **title**: Mass spectrometry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### chemistry.raoult-law-vapor-pressure
 
 - **title**: Raoult's law and vapor pressure
