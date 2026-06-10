@@ -6823,6 +6823,24 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 
 ## Chemistry (§14–16)
 
+### chemistry.hess-law-enthalpy
+
+- **title**: Hess's law and standard enthalpies
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.entropy-gibbs-energy
+
+- **title**: Entropy in chemistry and Gibbs energy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.chemical-equilibrium
+
+- **title**: Chemical equilibrium and Le Chatelier's principle
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### chemistry.heteronuclear-diatomics-mo
 
 - **title**: MO theory of heteronuclear diatomics
