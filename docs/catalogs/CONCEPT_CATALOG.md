@@ -7488,6 +7488,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.tanabe-sugano-dd-transitions
+
+- **title**: Tanabe-Sugano diagrams and d-d transitions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.jahn-teller-distortions
+
+- **title**: Jahn-Teller distortions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
