@@ -7476,6 +7476,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.character-tables-vibrational-modes
+
+- **title**: Character tables and vibrational modes
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.projection-operators-salcs
+
+- **title**: Projection operators and SALCs
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
