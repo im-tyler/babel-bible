@@ -175,15 +175,17 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 12 units → integrated
   - [x] COMPLETENESS: converged (chapters now ≥ 3 units each)
 
-- [ ] **Chemistry — GenChem/PChem (14)** — `plans/expansion/chemistry/` — 32 new units (all 12 chapters). Sources: Atkins 2023, McQuarrie-Simon 1997. 13 → 45 units.
-  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
-  - [ ] COMPLETENESS: loop-until-dry
+- [x] **Chemistry — GenChem/PChem (14)** — `plans/expansion/chemistry/` — 39 new units (all 12 chapters). Sources: Atkins 2023, McQuarrie-Simon 1997. 13 → 52 units. All 27/27 validated.
+  - [x] PRODUCE: ch01-10 (32 units, waves W1-W3) + ch11-12 (7 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
-- [ ] **Chemistry — Organic (15)** — same plan file — 24 new units (all 14 chapters). Sources: Clayden 2012, McMurry 2019. 14 → 38 units.
-  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+- [x] **Chemistry — Organic (15)** — same plan file — 24 new units (all 14 chapters). Sources: Clayden 2012, McMurry 2019. 14 → 38 units.
+  - [x] PRODUCE: ch01-14 (24 units) → integrated → committed → build_lenses
+  - [x] COMPLETENESS: converged
 
-- [ ] **Chemistry — Inorganic (16)** — same plan file — 15 new units (all 7 chapters). Sources: Miessler 2014, Shriver-Atkins 2014. 9 → 24 units.
-  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
+- [x] **Chemistry — Inorganic (16)** — same plan file — 15 new units (all 7 chapters). Sources: Miessler 2014, Shriver-Atkins 2010. 9 → 24 units.
+  - [x] PRODUCE: ch01-07 (15 units) → integrated → committed → build_lenses
+  - [x] COMPLETENESS: converged
 
 - [ ] **Biology — Mol/Cell (17)** — `plans/expansion/biology/` — 25 new units (all 10 chapters). Sources: Alberts 2022, Lodish 2021. 18 → 43 units.
   - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
