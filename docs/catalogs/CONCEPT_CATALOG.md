@@ -7278,6 +7278,48 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.olefin-metathesis
+
+- **title**: Olefin metathesis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.multi-step-synthesis
+
+- **title**: Multi-step synthesis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.total-synthesis-case-study
+
+- **title**: Total synthesis case study
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.h-nmr-spectroscopy
+
+- **title**: H NMR spectroscopy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.c13-nmr-structure-elucidation
+
+- **title**: C-13 NMR structure elucidation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.peptide-bond-geometry
+
+- **title**: Peptide bond geometry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.enzyme-kinetics-beyond-mm
+
+- **title**: Enzyme kinetics beyond Michaelis-Menten
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.functional-groups-nomenclature
 
