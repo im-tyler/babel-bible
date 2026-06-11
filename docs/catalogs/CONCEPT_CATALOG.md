@@ -9224,6 +9224,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.lipid-chemistry
+
+- **title**: Lipid chemistry: fatty acids, phospholipids, sphingolipids, sterols
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.membrane-proteins
+
+- **title**: Membrane proteins: integral, peripheral, topology, lipid-protein interactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
