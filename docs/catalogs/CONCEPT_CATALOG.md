@@ -7536,6 +7536,24 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.crystal-structures-close-packing
+
+- **title**: Crystal structures and close-packing
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.defects-in-solids
+
+- **title**: Defects in solids
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.electronic-properties-solids
+
+- **title**: Electronic properties of solids
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
