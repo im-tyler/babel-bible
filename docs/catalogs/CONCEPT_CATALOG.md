@@ -9260,6 +9260,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.amino-acid-catabolism
+
+- **title**: Amino acid catabolism: transamination, urea cycle, biosynthesis overview
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.metabolic-regulation
+
+- **title**: Metabolic regulation: allosteric control, covalent modification, AMPK
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
