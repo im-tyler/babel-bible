@@ -9248,6 +9248,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.er-golgi
+
+- **title**: Endoplasmic reticulum and Golgi: protein folding, glycosylation, vesicle budding
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.fatty-acid-metabolism
+
+- **title**: Fatty acid metabolism: beta-oxidation, fatty acid synthesis, acetyl-CoA hub
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
