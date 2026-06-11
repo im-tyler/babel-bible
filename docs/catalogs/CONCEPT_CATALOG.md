@@ -7524,6 +7524,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.oxygen-transport-hemoglobin
+
+- **title**: Oxygen transport and hemoglobin
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.metalloenzyme-active-sites
+
+- **title**: Metalloenzyme active sites
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
