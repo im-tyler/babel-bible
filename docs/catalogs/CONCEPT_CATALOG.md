@@ -9272,6 +9272,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.rna-processing
+
+- **title**: RNA processing: capping, splicing, polyadenylation, alternative splicing
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.ribosomes-genetic-code
+
+- **title**: Ribosomes and the genetic code: codon-anticodon, aminoacyl-tRNA synthetases
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
