@@ -9296,6 +9296,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.epigenetics
+
+- **title**: Epigenetics: histone modification, DNA methylation, X-inactivation, imprinting
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.pi3k-akt-mtor
+
+- **title**: PI3K-Akt-mTOR pathway: growth factor response, nutrient sensing, cancer
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
