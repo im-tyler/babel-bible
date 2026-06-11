@@ -7512,6 +7512,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.organometallic-reaction-types
+
+- **title**: Organometallic reaction types
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.homogeneous-catalysis-mechanisms
+
+- **title**: Homogeneous catalysis mechanisms
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
