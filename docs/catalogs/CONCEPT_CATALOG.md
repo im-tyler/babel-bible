@@ -7242,6 +7242,42 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.enolate-chemistry
+
+- **title**: Enolate chemistry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.carbonyl-condensation
+
+- **title**: Carbonyl condensation reactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.carbonyl-oxidation-reduction
+
+- **title**: Carbonyl oxidation and reduction
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.sigmatropic-rearrangements
+
+- **title**: Sigmatropic rearrangements
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.electrocyclic-reactions
+
+- **title**: Electrocyclic reactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.palladium-catalysis
+
+- **title**: Palladium catalysis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.functional-groups-nomenclature
 
