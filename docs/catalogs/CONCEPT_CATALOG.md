@@ -7500,6 +7500,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### chemistry.ligand-field-theory-mo
+
+- **title**: Ligand field theory and MO treatment
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.coordination-stability-chelate
+
+- **title**: Coordination complex stability and chelate effect
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
