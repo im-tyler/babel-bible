@@ -9284,6 +9284,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.dna-repair-pathways
+
+- **title**: DNA repair: BER, NER, MMR, double-strand break repair
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.transposable-elements
+
+- **title**: Transposable elements: transposition mechanisms, genome evolution, epigenetic silencing
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
