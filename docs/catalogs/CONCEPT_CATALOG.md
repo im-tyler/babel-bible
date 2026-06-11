@@ -7464,6 +7464,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: Crash Course Chemistry — The Periodic Table; Khan Academy — Periodic trends
 - **notes**: (to be filled during production)
 
+### chemistry.main-group-chemistry
+
+- **title**: Main-group chemistry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### chemistry.acid-base-theories-hsab
+
+- **title**: Acid-base theories and HSAB
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 
 ### chemistry.symmetry-group-theory-chemistry
 
