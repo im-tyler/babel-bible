@@ -9236,6 +9236,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.vesicle-trafficking
+
+- **title**: Vesicle trafficking: SNARE proteins, clathrin-coated vesicles, secretory pathway
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.nucleus-nuclear-transport
+
+- **title**: Nucleus and nuclear transport: NPC, importins/exportins, chromatin organization
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
