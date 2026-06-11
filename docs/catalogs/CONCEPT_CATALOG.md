@@ -9212,6 +9212,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: Lane *The Vital Question* Ch. 5
 - **notes**: Terrestrial life uses exclusively L-amino acids and D-sugars (homochirality), despite prebiotic synthesis producing racemic mixtures. Frank's model (1953) shows that coupled autocatalysis and mutual antagonism amplify any tiny initial enantiomeric excess to homochirality. The Soai reaction (1995) demonstrates asymmetric autocatalytic amplification from 10^-6 enantiomeric excess to greater than 99.5%. Viedma ripening (2005) achieves complete chiral conversion via grinding-induced Ostwald ripening with solution-phase racemisation. Proposed initial bias sources include parity violation in the weak nuclear force (Vester-Ulbricht hypothesis, enantiomeric excess ~10^-11) and circularly polarised UV in star-forming regions. Carbonaceous chondrite meteorites show L-amino acid excesses of 2-18%, consistent with a systematic physical cause. Covered as a Master section within 19.15.01.
 
+### biology.protein-structure-ramachandran
+
+- **title**: Protein structure: primary through quaternary, the Ramachandran plot
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.carbohydrate-chemistry
+
+- **title**: Carbohydrate chemistry: monosaccharides, glycosidic bonds, polysaccharides
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
