@@ -9308,6 +9308,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.nfkb-jak-stat
+
+- **title**: NF-kB and JAK-STAT pathways: cytokine signaling, transcriptional responses
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.cyclin-cdk
+
+- **title**: Cyclin-CDK complexes: cell cycle transitions, checkpoint mechanisms
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
