@@ -9446,6 +9446,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.nephron-function
+
+- **title**: Nephron function: filtration, reabsorption, secretion, countercurrent
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.acid-base-balance
+
+- **title**: Acid-base balance: bicarbonate buffer, respiratory/metabolic compensation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
