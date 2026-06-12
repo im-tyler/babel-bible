@@ -9410,6 +9410,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.brain-regions
+
+- **title**: Brain regions: cortex, basal ganglia, cerebellum, limbic system
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.autonomic-nervous-system
+
+- **title**: Autonomic nervous system: sympathetic, parasympathetic, homeostasis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
