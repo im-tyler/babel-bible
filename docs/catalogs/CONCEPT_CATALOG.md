@@ -9332,6 +9332,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.synaptic-transmission
+
+- **title**: Synaptic transmission: neurotransmitter release, SNARE exocytosis, receptor gating
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.ion-channel-pharmacology
+
+- **title**: Ion channel pharmacology: channel types, blockers, excitability
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
