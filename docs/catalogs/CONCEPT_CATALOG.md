@@ -9470,6 +9470,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.inflammation
+
+- **title**: Inflammation: TLRs/NLRs, cytokine storm, resolution mechanisms
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.gastrulation
+
+- **title**: Gastrulation and axis formation: organizer signaling, Hox patterning
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
