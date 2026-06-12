@@ -9374,6 +9374,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.cardiac-cycle
+
+- **title**: Cardiac cycle: systole/diastole, Wiggers diagram, cardiac output regulation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.lung-mechanics
+
+- **title**: Lung mechanics: compliance, surfactant, work of breathing, spirometry
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
