@@ -9386,6 +9386,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.gas-exchange
+
+- **title**: Gas exchange: oxygen-hemoglobin curve, CO2 transport, bicarbonate
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.motor-unit-recruitment
+
+- **title**: Motor unit recruitment: slow/fast twitch, size principle, graded force
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
