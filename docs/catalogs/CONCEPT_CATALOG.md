@@ -9398,6 +9398,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.skeletal-mechanics
+
+- **title**: Skeletal mechanics: bone remodeling, joint biomechanics, lever principles
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.spinal-reflexes
+
+- **title**: Spinal reflexes: stretch reflex, reciprocal inhibition, pain pathways
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
