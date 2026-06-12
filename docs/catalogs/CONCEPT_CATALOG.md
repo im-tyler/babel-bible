@@ -9344,6 +9344,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.adaptive-immunity
+
+- **title**: Adaptive immunity: B cells, T cells, clonal selection, antibody response
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.mhc-antigen-presentation
+
+- **title**: MHC and antigen presentation: class I/II pathways, T cell activation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
