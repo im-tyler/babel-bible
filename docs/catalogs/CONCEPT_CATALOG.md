@@ -9362,6 +9362,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.body-plan-diversity
+
+- **title**: Body plan diversity: symmetry, coelom origins, major animal phyla
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.hemodynamics
+
+- **title**: Hemodynamics: Poiseuille's law, Laplace's law, blood pressure regulation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
