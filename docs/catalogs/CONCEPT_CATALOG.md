@@ -9356,6 +9356,12 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.antibody-structure-diversity
+
+- **title**: Antibody structure and diversity: V(D)J recombination, affinity maturation, isotype switching
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
