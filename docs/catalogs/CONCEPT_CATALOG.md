@@ -9422,6 +9422,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.gi-motility-secretion
+
+- **title**: GI motility and secretion: peristalsis, gastric acid, enzymes
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.nutrient-absorption
+
+- **title**: Nutrient absorption: monosaccharides, amino acids, lipid micelles, enterohepatic
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
