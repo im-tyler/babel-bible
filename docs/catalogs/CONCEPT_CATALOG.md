@@ -10451,6 +10451,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.prejudice-discrimination
 
+
+### psychology.trait-theories
+
+- **title**: Trait theories: Big Five (OCEAN), psychometric approaches, cross-cultural validity
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Prejudice and discrimination: implicit bias, stereotype threat, contact hypothesis
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
