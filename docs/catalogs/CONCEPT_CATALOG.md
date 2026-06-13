@@ -10454,6 +10454,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.trait-theories
 
+
+### psychology.psychodynamic-humanistic
+
+- **title**: Psychodynamic and humanistic theories: Freud, Erikson, Rogers, Maslow
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Trait theories: Big Five (OCEAN), psychometric approaches, cross-cultural validity
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
