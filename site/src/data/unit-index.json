@@ -28966,6 +28966,76 @@
 ],
 "title": "Stern-Gerlach and spin-1/2"
 },
+"12.01.03": {
+"area": "physics",
+"books": [],
+"chapter": "foundations",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.01.03",
+"prereqs": [
+"12.01.01",
+"12.04.01",
+"12.04.02"
+],
+"section": "quantum",
+"slug": "wkb-approximation-tunneling-connection-formulas",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "WKB approximation: tunneling, Bohr-Sommerfeld quantization, and connection formulas"
+},
+"12.01.04": {
+"area": "physics",
+"books": [],
+"chapter": "foundations",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.01.04",
+"prereqs": [
+"12.01.01",
+"12.02.01"
+],
+"section": "quantum",
+"slug": "probability-current-continuity-equation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Probability current, continuity equation, and the flow interpretation of the wavefunction"
+},
+"12.01.05": {
+"area": "physics",
+"books": [],
+"chapter": "foundations",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.01.05",
+"prereqs": [
+"12.01.01",
+"12.04.01"
+],
+"section": "quantum",
+"slug": "spreading-gaussian-wave-packet-dispersion",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Spreading of the free Gaussian wave packet: group velocity and dispersion"
+},
 "12.02.01": {
 "area": "physics",
 "books": [
@@ -29059,6 +29129,29 @@
 ],
 "title": "Density matrix and pure / mixed states"
 },
+"12.02.04": {
+"area": "physics",
+"books": [],
+"chapter": "formalism",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.02.04",
+"prereqs": [
+"12.02.01",
+"12.02.02"
+],
+"section": "quantum",
+"slug": "measurement-postulates-collapse-born-rule",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Measurement postulates: Born rule, wavefunction collapse, and the projection postulate"
+},
 "12.03.01": {
 "area": "physics",
 "books": [
@@ -29088,6 +29181,55 @@
 "master"
 ],
 "title": "Schr\u00f6dinger and Heisenberg pictures"
+},
+"12.03.02": {
+"area": "physics",
+"books": [],
+"chapter": "time-evolution",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.03.02",
+"prereqs": [
+"12.03.01",
+"12.02.01",
+"12.02.02"
+],
+"section": "quantum",
+"slug": "time-dependent-perturbation-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Time-dependent perturbation theory: Fermi's golden rule and transition rates"
+},
+"12.03.03": {
+"area": "physics",
+"books": [
+"woit-quantum-theory-groups-representations"
+],
+"chapter": "time-evolution",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.03.03",
+"prereqs": [
+"12.03.01",
+"12.03.02"
+],
+"section": "quantum",
+"slug": "interaction-picture-dyson-series",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The interaction picture, Dyson series, and time-ordered exponentials"
 },
 "12.04.01": {
 "area": "physics",
@@ -29146,6 +29288,53 @@
 "master"
 ],
 "title": "Quantum harmonic oscillator"
+},
+"12.04.03": {
+"area": "physics",
+"books": [],
+"chapter": "one-dim-problems",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.04.03",
+"prereqs": [
+"12.04.01",
+"12.04.02",
+"12.01.04"
+],
+"section": "quantum",
+"slug": "finite-square-well-tunneling",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The finite square well: bound states, tunneling, and resonant scattering"
+},
+"12.04.04": {
+"area": "physics",
+"books": [],
+"chapter": "one-dim-problems",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.04.04",
+"prereqs": [
+"12.04.01",
+"12.04.02"
+],
+"section": "quantum",
+"slug": "delta-function-potential-bound-scattering",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The delta-function potential: exactly solvable bound state and scattering"
 },
 "12.05.01": {
 "area": "physics",
@@ -29393,6 +29582,59 @@
 "master"
 ],
 "title": "Hydrogen atom bound states"
+},
+"12.06.02": {
+"area": "physics",
+"books": [
+"weinberg-quantum-theory-of-fields-vol1",
+"landau-lifshitz-quantum-electrodynamics"
+],
+"chapter": "central-force",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.06.02",
+"prereqs": [
+"12.04.02",
+"12.02.01"
+],
+"section": "quantum",
+"slug": "isotropic-harmonic-oscillator-3d",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The isotropic harmonic oscillator in three dimensions: Cartesian and spherical solutions"
+},
+"12.06.03": {
+"area": "physics",
+"books": [
+"weinberg-quantum-theory-of-fields-vol1",
+"landau-lifshitz-quantum-electrodynamics"
+],
+"chapter": "central-force",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.06.03",
+"prereqs": [
+"12.06.01",
+"12.02.01",
+"12.02.02"
+],
+"section": "quantum",
+"slug": "runge-lenz-vector-hydrogen-degeneracy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Runge-Lenz vector, SO(4) symmetry, and the accidental degeneracy of hydrogen"
 },
 "12.06.04": {
 "area": "physics",
@@ -29911,6 +30153,52 @@
 "master"
 ],
 "title": "Path integral formulation of quantum mechanics"
+},
+"12.10.02": {
+"area": "physics",
+"books": [],
+"chapter": "path-integral",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.10.02",
+"prereqs": [
+"12.10.01",
+"12.04.01"
+],
+"section": "quantum",
+"slug": "euclidean-path-integrals-instantons",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Euclidean path integrals, instantons, and tunneling between vacua"
+},
+"12.10.03": {
+"area": "physics",
+"books": [],
+"chapter": "path-integral",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.10.03",
+"prereqs": [
+"12.10.01",
+"12.10.02"
+],
+"section": "quantum",
+"slug": "semiclassical-approximation-stationary-phase",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The semiclassical approximation: stationary phase, van Vleck determinant, and Gutzwiller trace formula"
 },
 "12.11.01": {
 "area": "physics",
@@ -31938,6 +32226,51 @@
 ],
 "title": "Atomic structure and electron configurations"
 },
+"14.01.02": {
+"area": "other",
+"books": [],
+"chapter": "atomic-structure",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.01.02",
+"prereqs": [
+"14.01.01"
+],
+"section": "genchem-pchem",
+"slug": "periodic-trends-ionization-electron-affinity-electronegativity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Periodic trends: ionization energy, electron affinity, atomic radius, and electronegativity"
+},
+"14.01.03": {
+"area": "other",
+"books": [],
+"chapter": "atomic-structure",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.01.03",
+"prereqs": [
+"14.01.01",
+"14.04.01"
+],
+"section": "genchem-pchem",
+"slug": "many-electron-atoms-hartree-fock-pauli",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Many-electron atoms: Hartree-Fock self-consistent field and the Pauli exclusion principle"
+},
 "14.02.01": {
 "area": "other",
 "books": [],
@@ -31983,6 +32316,52 @@
 ],
 "title": "Hybridization and valence bond theory"
 },
+"14.02.03": {
+"area": "other",
+"books": [],
+"chapter": "bonding-lewis",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.02.03",
+"prereqs": [
+"14.02.01",
+"14.02.02"
+],
+"section": "genchem-pchem",
+"slug": "molecular-geometry-dipole-moments-polarity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Molecular geometry and dipole moments: polarity and intermolecular forces"
+},
+"14.02.04": {
+"area": "other",
+"books": [],
+"chapter": "bonding-lewis",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.02.04",
+"prereqs": [
+"14.02.01",
+"14.02.02"
+],
+"section": "genchem-pchem",
+"slug": "valence-bond-theory-resonance-lewis-limitations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Valence bond theory: resonance structures and the limitations of Lewis models"
+},
 "14.03.01": {
 "area": "other",
 "books": [],
@@ -32004,6 +32383,50 @@
 "master"
 ],
 "title": "Stoichiometry and gas laws"
+},
+"14.03.02": {
+"area": "other",
+"books": [],
+"chapter": "stoichiometry",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.03.02",
+"prereqs": [
+"14.03.01"
+],
+"section": "genchem-pchem",
+"slug": "solution-stoichiometry-molarity-titration-gravimetric",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Solution stoichiometry: molarity, titration, and gravimetric analysis"
+},
+"14.03.03": {
+"area": "other",
+"books": [],
+"chapter": "stoichiometry",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.03.03",
+"prereqs": [
+"14.03.01"
+],
+"section": "genchem-pchem",
+"slug": "ideal-real-gas-laws-van-der-waals",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ideal and real gas laws: van der Waals equation and compressibility factor"
 },
 "14.04.01": {
 "area": "other",
@@ -32027,6 +32450,98 @@
 "master"
 ],
 "title": "Hydrogen atom quantum chemistry"
+},
+"14.04.02": {
+"area": "other",
+"books": [],
+"chapter": "quantum-chem",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.04.02",
+"prereqs": [
+"14.04.01",
+"14.01.03"
+],
+"section": "genchem-pchem",
+"slug": "variational-principle-secular-determinant-basis-set",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Variational principle in quantum chemistry: the secular determinant and basis set expansion"
+},
+"14.04.03": {
+"area": "other",
+"books": [],
+"chapter": "quantum-chem",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.04.03",
+"prereqs": [
+"14.04.01",
+"14.01.03"
+],
+"section": "genchem-pchem",
+"slug": "perturbation-theory-chemistry-stark-helium",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Perturbation theory in chemistry: Stark effect and the helium atom first-order correction"
+},
+"14.04.04": {
+"area": "other",
+"books": [],
+"chapter": "quantum-chem",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.04.04",
+"prereqs": [
+"14.04.01",
+"14.04.02"
+],
+"section": "genchem-pchem",
+"slug": "density-functional-theory-hohenberg-kohn-kohn-sham",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Density functional theory basics: the Hohenberg-Kohn theorems and the Kohn-Sham equations"
+},
+"14.05.01": {
+"area": "other",
+"books": [],
+"chapter": "bonding-mo",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.05.01",
+"prereqs": [
+"14.02.04",
+"14.04.01"
+],
+"section": "genchem-pchem",
+"slug": "molecular-orbital-theory-lcao-bonding-antibonding-h2",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Molecular orbital theory: LCAO, bonding and antibonding orbitals, and the H2 molecule"
 },
 "14.05.02": {
 "area": "other",
@@ -32053,6 +32568,52 @@
 ],
 "title": "Molecular orbital theory for homonuclear diatomics"
 },
+"14.05.03": {
+"area": "other",
+"books": [],
+"chapter": "bonding-mo",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.05.03",
+"prereqs": [
+"14.05.01",
+"14.05.02"
+],
+"section": "genchem-pchem",
+"slug": "heteronuclear-diatomics-co-no-hf-walsh",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "MO theory of heteronuclear diatomics: CO, NO, HF and the Walsh correlation diagrams"
+},
+"14.05.04": {
+"area": "other",
+"books": [],
+"chapter": "bonding-mo",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.05.04",
+"prereqs": [
+"14.05.01",
+"14.05.02"
+],
+"section": "genchem-pchem",
+"slug": "band-theory-solids-bloch-tight-binding-conductors-insulators",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Band theory of solids: the Bloch theorem, the tight-binding model, and conductors versus insulators"
+},
 "14.06.01": {
 "area": "other",
 "books": [],
@@ -32074,6 +32635,73 @@
 "master"
 ],
 "title": "Chemical thermodynamics: free energies and equilibrium"
+},
+"14.06.02": {
+"area": "other",
+"books": [],
+"chapter": "thermo",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.06.02",
+"prereqs": [
+"14.06.01"
+],
+"section": "genchem-pchem",
+"slug": "hess-law-standard-enthalpies-born-haber",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hess's law, standard enthalpies of formation, and Born-Haber cycles"
+},
+"14.06.03": {
+"area": "other",
+"books": [],
+"chapter": "thermo",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.06.03",
+"prereqs": [
+"14.06.01",
+"14.06.02"
+],
+"section": "genchem-pchem",
+"slug": "entropy-chemistry-third-law-standard-entropy-delta-g",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Entropy in chemistry: the third law, standard entropy changes, and the Gibbs energy"
+},
+"14.06.04": {
+"area": "other",
+"books": [],
+"chapter": "thermo",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.06.04",
+"prereqs": [
+"14.06.03"
+],
+"section": "genchem-pchem",
+"slug": "chemical-equilibrium-le-chatelier-equilibrium-constant",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Chemical equilibrium: Le Chatelier's principle and the equilibrium constant Kp versus Kc"
 },
 "14.07.01": {
 "area": "other",
@@ -32098,6 +32726,73 @@
 ],
 "title": "Statistical Mechanics for Chemistry"
 },
+"14.07.02": {
+"area": "other",
+"books": [],
+"chapter": "stat-mech",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.07.02",
+"prereqs": [
+"14.07.01"
+],
+"section": "genchem-pchem",
+"slug": "partition-functions-rotational-vibrational-electronic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Partition functions for chemical systems: rotational, vibrational, and electronic contributions"
+},
+"14.07.03": {
+"area": "other",
+"books": [],
+"chapter": "stat-mech",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.07.03",
+"prereqs": [
+"14.07.02"
+],
+"section": "genchem-pchem",
+"slug": "statistical-thermodynamics-ideal-gases-sackur-tetrode",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Statistical thermodynamics of ideal gases: entropy, heat capacity, and the Sackur-Tetrode equation"
+},
+"14.07.04": {
+"area": "other",
+"books": [],
+"chapter": "stat-mech",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.07.04",
+"prereqs": [
+"14.07.02",
+"14.08.01"
+],
+"section": "genchem-pchem",
+"slug": "activated-complex-theory-eyring-equation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Activated complex theory: the Eyring equation and the Arrhenius prefactor"
+},
 "14.08.01": {
 "area": "other",
 "books": [],
@@ -32117,6 +32812,73 @@
 "master"
 ],
 "title": "Chemical kinetics: rate laws and the Arrhenius equation"
+},
+"14.08.02": {
+"area": "other",
+"books": [],
+"chapter": "kinetics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.08.02",
+"prereqs": [
+"14.08.01"
+],
+"section": "genchem-pchem",
+"slug": "integrated-rate-laws-first-second-zeroth-half-lives",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Integrated rate laws: first, second, and zeroth order reactions and half-lives"
+},
+"14.08.03": {
+"area": "other",
+"books": [],
+"chapter": "kinetics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.08.03",
+"prereqs": [
+"14.08.01",
+"14.08.02"
+],
+"section": "genchem-pchem",
+"slug": "reaction-mechanisms-rate-determining-step-steady-state",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Reaction mechanisms: elementary steps, rate-determining step, and the steady-state approximation"
+},
+"14.08.04": {
+"area": "other",
+"books": [],
+"chapter": "kinetics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.08.04",
+"prereqs": [
+"14.08.03"
+],
+"section": "genchem-pchem",
+"slug": "catalysis-homogeneous-heterogeneous-enzymatic-michaelis-menten",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Catalysis mechanisms: homogeneous, heterogeneous, and enzymatic Michaelis-Menten kinetics"
 },
 "14.09.01": {
 "area": "other",
@@ -32139,6 +32901,74 @@
 "master"
 ],
 "title": "Solutions and Phase Equilibria"
+},
+"14.09.02": {
+"area": "other",
+"books": [],
+"chapter": "solutions-phase",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.09.02",
+"prereqs": [
+"14.09.01"
+],
+"section": "genchem-pchem",
+"slug": "raoult-law-vapor-pressure-lowering-henry-law",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Raoult's law and vapor pressure lowering: ideal solutions and Henry's law for gases"
+},
+"14.09.03": {
+"area": "other",
+"books": [],
+"chapter": "solutions-phase",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.09.03",
+"prereqs": [
+"14.09.01",
+"14.09.02"
+],
+"section": "genchem-pchem",
+"slug": "colligative-properties-boiling-freezing-osmotic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Colligative properties: boiling-point elevation, freezing-point depression, and osmotic pressure"
+},
+"14.09.04": {
+"area": "other",
+"books": [],
+"chapter": "solutions-phase",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.09.04",
+"prereqs": [
+"14.09.01",
+"14.06.03"
+],
+"section": "genchem-pchem",
+"slug": "phase-diagrams-single-component-binary-lever-rule",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Phase diagrams: single-component, binary, and the lever rule"
 },
 "14.10.01": {
 "area": "other",
@@ -32163,6 +32993,72 @@
 ],
 "title": "Acid-base chemistry: Bronsted-Lowry, Lewis, and pKa"
 },
+"14.10.02": {
+"area": "other",
+"books": [],
+"chapter": "acid-base",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.10.02",
+"prereqs": [
+"14.10.01"
+],
+"section": "genchem-pchem",
+"slug": "buffer-solutions-henderson-hasselbalch-capacity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Buffer solutions: the Henderson-Hasselbalch equation and buffer capacity"
+},
+"14.10.03": {
+"area": "other",
+"books": [],
+"chapter": "acid-base",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.10.03",
+"prereqs": [
+"14.10.02"
+],
+"section": "genchem-pchem",
+"slug": "acid-base-titration-curves-weak-strong-polyprotic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Acid-base titration curves: strong-strong, weak-strong, and polyprotic titrations"
+},
+"14.10.04": {
+"area": "other",
+"books": [],
+"chapter": "acid-base",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.10.04",
+"prereqs": [
+"14.10.01"
+],
+"section": "genchem-pchem",
+"slug": "solubility-equilibria-ksp-common-ion-dissolution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Solubility equilibria: Ksp, common-ion effect, and dissolution of sparingly soluble salts"
+},
 "14.11.01": {
 "area": "other",
 "books": [],
@@ -32186,6 +33082,72 @@
 ],
 "title": "Electrochemistry: the Nernst equation and electrochemical cells"
 },
+"14.11.02": {
+"area": "other",
+"books": [],
+"chapter": "redox-electrochem",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.11.02",
+"prereqs": [
+"14.11.01"
+],
+"section": "genchem-pchem",
+"slug": "galvanic-cells-half-cell-potentials-cell-diagrams",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Galvanic cells: half-cell potentials, cell diagrams, and standard reduction potentials"
+},
+"14.11.03": {
+"area": "other",
+"books": [],
+"chapter": "redox-electrochem",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.11.03",
+"prereqs": [
+"14.11.02"
+],
+"section": "genchem-pchem",
+"slug": "electrolysis-faraday-laws-overpotential-electrodeposition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electrolysis: Faraday's laws, overpotential, and electrodeposition"
+},
+"14.11.04": {
+"area": "other",
+"books": [],
+"chapter": "redox-electrochem",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.11.04",
+"prereqs": [
+"14.11.02"
+],
+"section": "genchem-pchem",
+"slug": "batteries-fuel-cells-lead-acid-lithium-ion-hydrogen",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Batteries and fuel cells: lead-acid, lithium-ion, and hydrogen fuel cell thermodynamics"
+},
 "14.12.01": {
 "area": "other",
 "books": [],
@@ -32205,6 +33167,96 @@
 "master"
 ],
 "title": "UV-Vis, IR, and NMR \u2014 fundamentals of molecular spectroscopy"
+},
+"14.12.02": {
+"area": "other",
+"books": [],
+"chapter": "spectroscopy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.12.02",
+"prereqs": [
+"14.12.01"
+],
+"section": "genchem-pchem",
+"slug": "rotational-spectroscopy-rigid-rotor-rotational-constants-microwave",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rotational spectroscopy: the rigid rotor, rotational constants, and microwave spectroscopy"
+},
+"14.12.03": {
+"area": "other",
+"books": [],
+"chapter": "spectroscopy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.12.03",
+"prereqs": [
+"14.12.01",
+"14.12.02"
+],
+"section": "genchem-pchem",
+"slug": "vibrational-spectroscopy-harmonic-oscillator-selection-rules-ir-active",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vibrational spectroscopy: harmonic oscillator selection rules, anharmonicity, and IR-active modes"
+},
+"14.12.04": {
+"area": "other",
+"books": [],
+"chapter": "spectroscopy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.12.04",
+"prereqs": [
+"14.12.01",
+"14.12.03"
+],
+"section": "genchem-pchem",
+"slug": "electronic-spectroscopy-franck-condon-chromophores-uv-vis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electronic spectroscopy: the Franck-Condon principle, chromophores, and UV-Vis transitions"
+},
+"14.12.05": {
+"area": "other",
+"books": [],
+"chapter": "spectroscopy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "14.12.05",
+"prereqs": [
+"14.12.01"
+],
+"section": "genchem-pchem",
+"slug": "mass-spectrometry-ionization-fragmentation-molecular-mass",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mass spectrometry: ionization methods, fragmentation patterns, and molecular mass determination"
 },
 "15.01.01": {
 "area": "other",
@@ -32226,6 +33278,72 @@
 ],
 "title": "Structure of organic molecules \u2014 stereochemistry"
 },
+"15.01.02": {
+"area": "other",
+"books": [],
+"chapter": "structure",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.01.02",
+"prereqs": [
+"15.01.01"
+],
+"section": "orgchem",
+"slug": "conformational-analysis-newman-cyclohexane",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Conformational analysis: Newman projections, cyclohexane chair flip, and axial versus equatorial"
+},
+"15.01.03": {
+"area": "other",
+"books": [],
+"chapter": "structure",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.01.03",
+"prereqs": [
+"15.01.01"
+],
+"section": "orgchem",
+"slug": "stereoisomerism-enantiomers-diastereomers-meso",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stereoisomerism: enantiomers, diastereomers, meso compounds, and chiral resolution"
+},
+"15.01.04": {
+"area": "other",
+"books": [],
+"chapter": "structure",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.01.04",
+"prereqs": [
+"15.01.03"
+],
+"section": "orgchem",
+"slug": "enantioselective-synthesis-chiral-auxiliaries-asymmetric-catalysis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Enantioselective synthesis: chiral auxiliaries, asymmetric catalysis, and ee measurement"
+},
 "15.02.01": {
 "area": "other",
 "books": [],
@@ -32246,6 +33364,50 @@
 ],
 "title": "Functional groups and nomenclature"
 },
+"15.02.02": {
+"area": "other",
+"books": [],
+"chapter": "functional-groups",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.02.02",
+"prereqs": [
+"15.02.01"
+],
+"section": "orgchem",
+"slug": "alkane-reactions-combustion-halogenation-radical-selectivity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Alkane reactions: combustion, halogenation, and radical selectivity"
+},
+"15.02.03": {
+"area": "other",
+"books": [],
+"chapter": "functional-groups",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.02.03",
+"prereqs": [
+"15.02.01"
+],
+"section": "orgchem",
+"slug": "alcohol-ether-chemistry-synthesis-protection-deprotection",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Alcohol and ether chemistry: synthesis, reactions, and protection strategies"
+},
 "15.03.01": {
 "area": "other",
 "books": [],
@@ -32265,6 +33427,50 @@
 "master"
 ],
 "title": "Acids and bases in organic chemistry"
+},
+"15.03.02": {
+"area": "other",
+"books": [],
+"chapter": "acid-base-organic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.03.02",
+"prereqs": [
+"15.03.01"
+],
+"section": "orgchem",
+"slug": "enols-enolates-keto-enol-tautomerism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Enols, enolates, and keto-enol tautomerism: kinetic versus thermodynamic control"
+},
+"15.04.01": {
+"area": "other",
+"books": [],
+"chapter": "substitution-elimination",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.04.01",
+"prereqs": [
+"15.02.01"
+],
+"section": "orgchem",
+"slug": "elimination-reactions-e1-e2-zaitsev-stereochemistry",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Elimination reactions: E1 and E2 mechanisms, Zaitsev's rule, and stereochemistry"
 },
 "15.04.02": {
 "area": "other",
@@ -32289,6 +33495,28 @@
 ],
 "title": "SN1 vs SN2 substitution mechanisms"
 },
+"15.04.03": {
+"area": "other",
+"books": [],
+"chapter": "substitution-elimination",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.04.03",
+"prereqs": [
+"15.04.02"
+],
+"section": "orgchem",
+"slug": "stereochemistry-sn2-e2-walden-inversion",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stereochemistry of SN2 and E2: Walden inversion and the anti-periplanar requirement"
+},
 "15.05.01": {
 "area": "other",
 "books": [],
@@ -32308,6 +33536,50 @@
 "master"
 ],
 "title": "Electrophilic addition to alkenes"
+},
+"15.05.02": {
+"area": "other",
+"books": [],
+"chapter": "addition",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.05.02",
+"prereqs": [
+"15.05.01"
+],
+"section": "orgchem",
+"slug": "electrophilic-addition-alkynes-markovnikov-hydroboration",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electrophilic addition to alkynes: Markovnikov's rule and anti-Markovnikov hydroboration"
+},
+"15.05.03": {
+"area": "other",
+"books": [],
+"chapter": "addition",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.05.03",
+"prereqs": [
+"15.05.01"
+],
+"section": "orgchem",
+"slug": "diels-alder-cycloaddition-endo-exo",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Diels-Alder reaction: [4+2] cycloaddition, endo/exo selectivity, and synthetic applications"
 },
 "15.06.01": {
 "area": "other",
@@ -32329,6 +33601,72 @@
 ],
 "title": "Aromatic chemistry \u2014 EAS, Huckel"
 },
+"15.06.02": {
+"area": "other",
+"books": [],
+"chapter": "aromatic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.06.02",
+"prereqs": [
+"15.06.01"
+],
+"section": "orgchem",
+"slug": "nucleophilic-aromatic-substitution-snar",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nucleophilic aromatic substitution: the SNAr mechanism and activation conditions"
+},
+"15.06.03": {
+"area": "other",
+"books": [],
+"chapter": "aromatic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.06.03",
+"prereqs": [
+"15.06.01"
+],
+"section": "orgchem",
+"slug": "arene-side-chain-reactions-benzylic-oxidation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Arene side-chain reactions: benzylic radicals and oxidation of alkylbenzenes"
+},
+"15.06.04": {
+"area": "other",
+"books": [],
+"chapter": "aromatic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.06.04",
+"prereqs": [
+"15.06.01"
+],
+"section": "orgchem",
+"slug": "synthesis-substituted-benzenes-directing-effects",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Synthesis of substituted benzenes: directing effects and strategic functional group manipulation"
+},
 "15.07.01": {
 "area": "other",
 "books": [],
@@ -32348,6 +33686,95 @@
 "master"
 ],
 "title": "Carbonyl chemistry \u2014 nucleophilic addition"
+},
+"15.07.02": {
+"area": "other",
+"books": [],
+"chapter": "carbonyl",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.07.02",
+"prereqs": [
+"15.07.01"
+],
+"section": "orgchem",
+"slug": "nucleophilic-addition-elimination-acyl-carbons",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nucleophilic addition-elimination at acyl carbons"
+},
+"15.07.03": {
+"area": "other",
+"books": [],
+"chapter": "carbonyl",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.07.03",
+"prereqs": [
+"15.07.01",
+"15.03.02"
+],
+"section": "orgchem",
+"slug": "enolate-chemistry-alkylation-aldol-claisen",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Enolate chemistry: alkylation, aldol condensation, and Claisen condensation"
+},
+"15.07.04": {
+"area": "other",
+"books": [],
+"chapter": "carbonyl",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.07.04",
+"prereqs": [
+"15.07.03"
+],
+"section": "orgchem",
+"slug": "carbonyl-condensation-knoevenagel-michael-robinson",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Carbonyl condensation reactions: Knoevenagel, Michael addition, and Robinson annulation"
+},
+"15.07.05": {
+"area": "other",
+"books": [],
+"chapter": "carbonyl",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.07.05",
+"prereqs": [
+"15.07.01"
+],
+"section": "orgchem",
+"slug": "oxidation-reduction-carbonyls-jones-swern-nabh4-lialh4",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Oxidation and reduction of carbonyls"
 },
 "15.08.01": {
 "area": "other",
@@ -32371,6 +33798,50 @@
 ],
 "title": "Radical and Pericyclic Reactions"
 },
+"15.08.02": {
+"area": "other",
+"books": [],
+"chapter": "radical-pericyclic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.08.02",
+"prereqs": [
+"15.08.01"
+],
+"section": "orgchem",
+"slug": "sigmatropic-rearrangements-cope-claisen",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sigmatropic rearrangements: Cope, Claisen, and [1,5]-H shifts"
+},
+"15.08.03": {
+"area": "other",
+"books": [],
+"chapter": "radical-pericyclic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.08.03",
+"prereqs": [
+"15.08.01"
+],
+"section": "orgchem",
+"slug": "electrocyclic-reactions-woodward-hoffmann",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electrocyclic reactions: orbital symmetry rules and ring opening/closing"
+},
 "15.09.01": {
 "area": "other",
 "books": [],
@@ -32393,6 +33864,50 @@
 ],
 "title": "Organometallic Methods in Synthesis"
 },
+"15.09.02": {
+"area": "other",
+"books": [],
+"chapter": "organometallic-synthesis",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.09.02",
+"prereqs": [
+"15.09.01"
+],
+"section": "orgchem",
+"slug": "palladium-catalysis-suzuki-heck-sonogashira",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Palladium catalysis: Suzuki, Heck, Sonogashira, and Buchwald-Hartwig cross-coupling"
+},
+"15.09.03": {
+"area": "other",
+"books": [],
+"chapter": "organometallic-synthesis",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.09.03",
+"prereqs": [
+"15.09.01"
+],
+"section": "orgchem",
+"slug": "olefin-metathesis-grubbs-catalyst-rcm",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Olefin metathesis: Grubbs catalyst, ring-closing, and cross metathesis"
+},
 "15.10.01": {
 "area": "other",
 "books": [],
@@ -32413,6 +33928,50 @@
 ],
 "title": "Retrosynthetic analysis"
 },
+"15.10.02": {
+"area": "other",
+"books": [],
+"chapter": "retrosynthesis",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.10.02",
+"prereqs": [
+"15.10.01"
+],
+"section": "orgchem",
+"slug": "multi-step-synthesis-protecting-groups",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Multi-step synthesis design: protecting groups, convergent versus linear strategies"
+},
+"15.10.03": {
+"area": "other",
+"books": [],
+"chapter": "retrosynthesis",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.10.03",
+"prereqs": [
+"15.10.02"
+],
+"section": "orgchem",
+"slug": "total-synthesis-case-study",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Total synthesis case study: landmark syntheses and the logic of route selection"
+},
 "15.11.01": {
 "area": "other",
 "books": [],
@@ -32432,6 +33991,50 @@
 "master"
 ],
 "title": "NMR spectroscopy of organic molecules"
+},
+"15.11.02": {
+"area": "other",
+"books": [],
+"chapter": "spectroscopy-organic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.11.02",
+"prereqs": [
+"15.11.01"
+],
+"section": "orgchem",
+"slug": "h-nmr-chemical-shift-coupling-2d",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "1H NMR: chemical shift, coupling constants, integration, and 2D NMR"
+},
+"15.11.03": {
+"area": "other",
+"books": [],
+"chapter": "spectroscopy-organic",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.11.03",
+"prereqs": [
+"15.11.02"
+],
+"section": "orgchem",
+"slug": "c13-nmr-dept-structure-elucidation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "13C NMR, DEPT, and the complete structure elucidation workflow"
 },
 "15.12.01": {
 "area": "other",
@@ -32454,6 +34057,28 @@
 "master"
 ],
 "title": "Amino acids and protein chemistry"
+},
+"15.12.02": {
+"area": "other",
+"books": [],
+"chapter": "biomolecules-aa-protein",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.12.02",
+"prereqs": [
+"15.12.01"
+],
+"section": "orgchem",
+"slug": "peptide-bond-geometry-ramachandran",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Peptide bond geometry: planarity, resonance, and the Ramachandran plot"
 },
 "15.13.01": {
 "area": "other",
@@ -32499,6 +34124,28 @@
 ],
 "title": "Enzyme mechanism"
 },
+"15.14.02": {
+"area": "other",
+"books": [],
+"chapter": "enzyme-mechanism",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.14.02",
+"prereqs": [
+"15.14.01"
+],
+"section": "orgchem",
+"slug": "enzyme-kinetics-beyond-michaelis-menten",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Enzyme kinetics beyond Michaelis-Menten: inhibition, allosteric enzymes, and Hill coefficients"
+},
 "16.01.01": {
 "area": "other",
 "books": [],
@@ -32521,6 +34168,50 @@
 ],
 "title": "Periodic trends quantified"
 },
+"16.01.02": {
+"area": "other",
+"books": [],
+"chapter": "periodic-trends",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.01.02",
+"prereqs": [
+"16.01.01"
+],
+"section": "inorgchem",
+"slug": "main-group-chemistry-s-p-blocks",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Main-group chemistry: s- and p-block trends, inert-pair effect, and diagonal relationships"
+},
+"16.01.03": {
+"area": "other",
+"books": [],
+"chapter": "periodic-trends",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.01.03",
+"prereqs": [
+"16.01.02"
+],
+"section": "inorgchem",
+"slug": "acid-base-theories-lewis-hsab",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Acid-base theories: Lewis acids, HSAB, and Drago-Wayland parameters"
+},
 "16.02.01": {
 "area": "other",
 "books": [],
@@ -32542,6 +34233,50 @@
 "master"
 ],
 "title": "Symmetry and group theory in chemistry"
+},
+"16.02.02": {
+"area": "other",
+"books": [],
+"chapter": "symmetry-group-theory",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.02.02",
+"prereqs": [
+"16.02.01"
+],
+"section": "inorgchem",
+"slug": "character-tables-reducible-representations",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Character tables and reducible representations: vibrational modes and spectroscopy"
+},
+"16.02.03": {
+"area": "other",
+"books": [],
+"chapter": "symmetry-group-theory",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.02.03",
+"prereqs": [
+"16.02.02"
+],
+"section": "inorgchem",
+"slug": "projection-operators-salcs",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Projection operators and symmetry-adapted linear combinations (SALCs)"
 },
 "16.03.01": {
 "area": "other",
@@ -32591,6 +34326,50 @@
 ],
 "title": "Crystal field splitting in octahedral complexes"
 },
+"16.03.03": {
+"area": "other",
+"books": [],
+"chapter": "crystal-field",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.03.03",
+"prereqs": [
+"16.03.02"
+],
+"section": "inorgchem",
+"slug": "tetrahedral-square-planar-tanabe-sugano",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Tetrahedral and square-planar crystal fields: Tanabe-Sugano diagrams and d-d transitions"
+},
+"16.03.04": {
+"area": "other",
+"books": [],
+"chapter": "crystal-field",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.03.04",
+"prereqs": [
+"16.03.02"
+],
+"section": "inorgchem",
+"slug": "jahn-teller-distortions-copper",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Jahn-Teller distortions: orbital degeneracy, distortion modes, and Cu(II) complexes"
+},
 "16.04.01": {
 "area": "other",
 "books": [],
@@ -32635,6 +34414,51 @@
 ],
 "title": "Crystal field stabilization energy and the spectrochemical series"
 },
+"16.04.03": {
+"area": "other",
+"books": [],
+"chapter": "coordination",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.04.03",
+"prereqs": [
+"16.04.01",
+"16.02.03"
+],
+"section": "inorgchem",
+"slug": "ligand-field-theory-molecular-orbital",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ligand field theory: molecular orbital treatment of octahedral complexes"
+},
+"16.04.04": {
+"area": "other",
+"books": [],
+"chapter": "coordination",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.04.04",
+"prereqs": [
+"16.04.01"
+],
+"section": "inorgchem",
+"slug": "stability-coordination-complexes-chelate",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stability of coordination complexes: thermodynamic and kinetic stability, the chelate effect"
+},
 "16.05.01": {
 "area": "other",
 "books": [],
@@ -32656,6 +34480,50 @@
 "master"
 ],
 "title": "Organometallic chemistry"
+},
+"16.05.02": {
+"area": "other",
+"books": [],
+"chapter": "organometallic",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.05.02",
+"prereqs": [
+"16.05.01"
+],
+"section": "inorgchem",
+"slug": "organometallic-reaction-types",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Organometallic reaction types: oxidative addition, reductive elimination, insertion, and beta-hydride elimination"
+},
+"16.05.03": {
+"area": "other",
+"books": [],
+"chapter": "organometallic",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.05.03",
+"prereqs": [
+"16.05.02"
+],
+"section": "inorgchem",
+"slug": "homogeneous-catalysis-wilkinson-ziegler-natta",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Homogeneous catalysis: Wilkinson's catalyst and Ziegler-Natta polymerization"
 },
 "16.06.01": {
 "area": "other",
@@ -32679,6 +34547,50 @@
 ],
 "title": "Bioinorganic chemistry"
 },
+"16.06.02": {
+"area": "other",
+"books": [],
+"chapter": "bioinorganic",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.06.02",
+"prereqs": [
+"16.06.01"
+],
+"section": "inorgchem",
+"slug": "oxygen-transport-hemoglobin-myoglobin",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Oxygen transport and storage: hemoglobin, myoglobin, and cooperative binding"
+},
+"16.06.03": {
+"area": "other",
+"books": [],
+"chapter": "bioinorganic",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.06.03",
+"prereqs": [
+"16.06.02"
+],
+"section": "inorgchem",
+"slug": "metalloenzyme-active-sites",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metalloenzyme active sites: nitrogenase, cytochrome P450, and zinc proteases"
+},
 "16.07.01": {
 "area": "other",
 "books": [],
@@ -32698,6 +34610,72 @@
 "master"
 ],
 "title": "Solid-state chemistry"
+},
+"16.07.02": {
+"area": "other",
+"books": [],
+"chapter": "solid-state",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.07.02",
+"prereqs": [
+"16.07.01"
+],
+"section": "inorgchem",
+"slug": "crystal-structures-close-packing",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Crystal structures: close-packing, unit cells, and ionic radius ratios"
+},
+"16.07.03": {
+"area": "other",
+"books": [],
+"chapter": "solid-state",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.07.03",
+"prereqs": [
+"16.07.02"
+],
+"section": "inorgchem",
+"slug": "defects-in-solids-schottky-frenkel",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Defects in solids: point defects, line defects, and their role in conductivity"
+},
+"16.07.04": {
+"area": "other",
+"books": [],
+"chapter": "solid-state",
+"curriculum": "inorgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.07.04",
+"prereqs": [
+"16.07.02"
+],
+"section": "inorgchem",
+"slug": "electronic-properties-solids-band-gap",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electronic properties of solids: insulators, semiconductors, conductors, and the band gap"
 },
 "17.01.01": {
 "area": "other",
@@ -32720,6 +34698,72 @@
 "master"
 ],
 "title": "Biomolecules in cells \u2014 overview"
+},
+"17.01.02": {
+"area": "other",
+"books": [],
+"chapter": "biomolecules",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.01.02",
+"prereqs": [
+"17.01.01"
+],
+"section": "mol-cell-bio",
+"slug": "protein-structure-ramachandran",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Protein structure: primary through quaternary, the Ramachandran plot, alpha-helix and beta-sheet"
+},
+"17.01.03": {
+"area": "other",
+"books": [],
+"chapter": "biomolecules",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.01.03",
+"prereqs": [
+"17.01.01"
+],
+"section": "mol-cell-bio",
+"slug": "carbohydrate-chemistry",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Carbohydrate chemistry: monosaccharides, glycosidic bonds, polysaccharides, and glycoconjugates"
+},
+"17.01.04": {
+"area": "other",
+"books": [],
+"chapter": "biomolecules",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.01.04",
+"prereqs": [
+"17.01.01"
+],
+"section": "mol-cell-bio",
+"slug": "lipid-chemistry",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lipid chemistry: fatty acids, glycerophospholipids, sphingolipids, sterols, and their roles"
 },
 "17.02.01": {
 "area": "other",
@@ -32762,6 +34806,51 @@
 "master"
 ],
 "title": "Membrane transport \u2014 passive and active"
+},
+"17.02.03": {
+"area": "other",
+"books": [],
+"chapter": "membranes",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.02.03",
+"prereqs": [
+"17.02.01"
+],
+"section": "mol-cell-bio",
+"slug": "membrane-proteins",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Membrane proteins: integral versus peripheral, topology, and lipid-protein interactions"
+},
+"17.02.04": {
+"area": "other",
+"books": [],
+"chapter": "membranes",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.02.04",
+"prereqs": [
+"17.02.01",
+"17.02.03"
+],
+"section": "mol-cell-bio",
+"slug": "vesicle-trafficking",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vesicle trafficking: SNARE proteins, clathrin-coated vesicles, and the secretory pathway"
 },
 "17.03.01": {
 "area": "other",
@@ -32808,6 +34897,51 @@
 "master"
 ],
 "title": "Cytoskeleton and contractile proteins"
+},
+"17.03.03": {
+"area": "other",
+"books": [],
+"chapter": "cell-organization",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.03.03",
+"prereqs": [
+"17.03.01"
+],
+"section": "mol-cell-bio",
+"slug": "nucleus-nuclear-transport",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nucleus and nuclear transport: nuclear pore complex, importins, exportins, and chromatin organization"
+},
+"17.03.04": {
+"area": "other",
+"books": [],
+"chapter": "cell-organization",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.03.04",
+"prereqs": [
+"17.03.01",
+"17.02.04"
+],
+"section": "mol-cell-bio",
+"slug": "er-golgi",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Endoplasmic reticulum and Golgi: protein folding, glycosylation, and vesicle budding"
 },
 "17.04.01": {
 "area": "other",
@@ -32871,6 +35005,73 @@
 ],
 "title": "Photosynthesis: light and dark reactions"
 },
+"17.04.04": {
+"area": "other",
+"books": [],
+"chapter": "energy-metabolism",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.04.04",
+"prereqs": [
+"17.04.01"
+],
+"section": "mol-cell-bio",
+"slug": "fatty-acid-metabolism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fatty acid metabolism: beta-oxidation, fatty acid synthesis, and the acetyl-CoA hub"
+},
+"17.04.05": {
+"area": "other",
+"books": [],
+"chapter": "energy-metabolism",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.04.05",
+"prereqs": [
+"17.04.01"
+],
+"section": "mol-cell-bio",
+"slug": "amino-acid-catabolism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Amino acid catabolism: transamination, the urea cycle, and amino acid biosynthesis overview"
+},
+"17.04.06": {
+"area": "other",
+"books": [],
+"chapter": "energy-metabolism",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.04.06",
+"prereqs": [
+"17.04.01",
+"17.04.04"
+],
+"section": "mol-cell-bio",
+"slug": "metabolic-regulation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metabolic regulation: allosteric control, covalent modification, and the AMP kinase switch"
+},
 "17.05.01": {
 "area": "other",
 "books": [],
@@ -32933,6 +35134,50 @@
 ],
 "title": "Translation"
 },
+"17.05.04": {
+"area": "other",
+"books": [],
+"chapter": "gene-expression",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.05.04",
+"prereqs": [
+"17.05.02"
+],
+"section": "mol-cell-bio",
+"slug": "rna-processing",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "RNA processing: 5-prime capping, splicing, 3-prime polyadenylation, and alternative splicing"
+},
+"17.05.05": {
+"area": "other",
+"books": [],
+"chapter": "gene-expression",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.05.05",
+"prereqs": [
+"17.05.03"
+],
+"section": "mol-cell-bio",
+"slug": "ribosomes-genetic-code",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ribosomes and the genetic code: codon-anticodon recognition and aminoacyl-tRNA synthetases"
+},
 "17.06.01": {
 "area": "other",
 "books": [],
@@ -32954,6 +35199,72 @@
 "master"
 ],
 "title": "Mutation and repair"
+},
+"17.06.02": {
+"area": "other",
+"books": [],
+"chapter": "molecular-genetics",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.06.02",
+"prereqs": [
+"17.06.01"
+],
+"section": "mol-cell-bio",
+"slug": "dna-repair-pathways",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "DNA repair pathways: base excision, nucleotide excision, mismatch repair, and double-strand break repair"
+},
+"17.06.03": {
+"area": "other",
+"books": [],
+"chapter": "molecular-genetics",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.06.03",
+"prereqs": [
+"17.06.01"
+],
+"section": "mol-cell-bio",
+"slug": "transposable-elements",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Transposable elements: mechanisms of transposition, genome evolution, and epigenetic silencing"
+},
+"17.06.04": {
+"area": "other",
+"books": [],
+"chapter": "molecular-genetics",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.06.04",
+"prereqs": [
+"17.06.01"
+],
+"section": "mol-cell-bio",
+"slug": "epigenetics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Epigenetics: histone modification, DNA methylation, X-inactivation, and imprinting"
 },
 "17.07.01": {
 "area": "other",
@@ -33000,6 +35311,51 @@
 ],
 "title": "Receptor tyrosine kinases and the MAPK signaling cascade"
 },
+"17.07.03": {
+"area": "other",
+"books": [],
+"chapter": "signaling",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.07.03",
+"prereqs": [
+"17.07.01",
+"17.07.02"
+],
+"section": "mol-cell-bio",
+"slug": "pi3k-akt-mtor",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "PI3K-Akt-mTOR pathway: growth factor response, nutrient sensing, and cancer connections"
+},
+"17.07.04": {
+"area": "other",
+"books": [],
+"chapter": "signaling",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.07.04",
+"prereqs": [
+"17.07.01"
+],
+"section": "mol-cell-bio",
+"slug": "nfkb-jak-stat",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "NF-kB and JAK-STAT pathways: cytokine signaling and transcriptional responses"
+},
 "17.08.01": {
 "area": "other",
 "books": [],
@@ -33021,6 +35377,72 @@
 "master"
 ],
 "title": "Cell cycle and mitosis"
+},
+"17.08.02": {
+"area": "other",
+"books": [],
+"chapter": "cell-cycle",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.08.02",
+"prereqs": [
+"17.08.01"
+],
+"section": "mol-cell-bio",
+"slug": "cyclin-cdk",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cyclin-CDK complexes: regulation of each cell cycle transition and checkpoint mechanisms"
+},
+"17.08.03": {
+"area": "other",
+"books": [],
+"chapter": "cell-cycle",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.08.03",
+"prereqs": [
+"17.08.01"
+],
+"section": "mol-cell-bio",
+"slug": "meiosis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Meiosis: recombination, crossing over, and the generation of genetic diversity"
+},
+"17.08.04": {
+"area": "other",
+"books": [],
+"chapter": "cell-cycle",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.08.04",
+"prereqs": [
+"17.08.01"
+],
+"section": "mol-cell-bio",
+"slug": "apoptosis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Apoptosis: intrinsic and extrinsic pathways, the caspase cascade, and Bcl-2 family regulation"
 },
 "17.09.01": {
 "area": "other",
@@ -33067,6 +35489,51 @@
 ],
 "title": "The action potential \u2014 ionic basis"
 },
+"17.09.03": {
+"area": "other",
+"books": [],
+"chapter": "cellular-neuroscience",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.09.03",
+"prereqs": [
+"17.09.02"
+],
+"section": "mol-cell-bio",
+"slug": "synaptic-transmission",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Synaptic transmission: neurotransmitter release, SNARE-dependent exocytosis, and receptor gating"
+},
+"17.09.04": {
+"area": "other",
+"books": [],
+"chapter": "cellular-neuroscience",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.09.04",
+"prereqs": [
+"17.09.01",
+"17.09.02"
+],
+"section": "mol-cell-bio",
+"slug": "ion-channel-pharmacology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ion channel pharmacology: channel types, blockers, and the molecular basis of excitability"
+},
 "17.10.01": {
 "area": "other",
 "books": [],
@@ -33090,6 +35557,73 @@
 ],
 "title": "Innate immunity at the molecular level"
 },
+"17.10.02": {
+"area": "other",
+"books": [],
+"chapter": "immunology",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.10.02",
+"prereqs": [
+"17.10.01"
+],
+"section": "mol-cell-bio",
+"slug": "adaptive-immunity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Adaptive immunity overview: B cells, T cells, clonal selection, and the antibody response"
+},
+"17.10.03": {
+"area": "other",
+"books": [],
+"chapter": "immunology",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.10.03",
+"prereqs": [
+"17.10.01",
+"17.10.02"
+],
+"section": "mol-cell-bio",
+"slug": "mhc-antigen-presentation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "MHC and antigen presentation: class I and II pathways, and T cell activation"
+},
+"17.10.04": {
+"area": "other",
+"books": [],
+"chapter": "immunology",
+"curriculum": "mol-cell-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.10.04",
+"prereqs": [
+"17.10.02"
+],
+"section": "mol-cell-bio",
+"slug": "antibody-structure-diversity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Antibody structure and diversity: V(D)J recombination, affinity maturation, and isotype switching"
+},
 "18.01.01": {
 "area": "other",
 "books": [],
@@ -33111,6 +35645,28 @@
 "master"
 ],
 "title": "Body plans and organization"
+},
+"18.01.02": {
+"area": "other",
+"books": [],
+"chapter": "body-plans",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.01.02",
+"prereqs": [
+"18.01.01"
+],
+"section": "organismal-bio",
+"slug": "body-plan-diversity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Body plan diversity: symmetry types, coelom origins, and the major animal phyla"
 },
 "18.02.01": {
 "area": "other",
@@ -33156,6 +35712,51 @@
 ],
 "title": "Cardiac action potentials, pacemaker physiology, and the ECG"
 },
+"18.02.03": {
+"area": "other",
+"books": [],
+"chapter": "cardiovascular",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.02.03",
+"prereqs": [
+"18.02.01"
+],
+"section": "organismal-bio",
+"slug": "hemodynamics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hemodynamics: Poiseuille's law, Laplace's law, and blood pressure regulation"
+},
+"18.02.04": {
+"area": "other",
+"books": [],
+"chapter": "cardiovascular",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.02.04",
+"prereqs": [
+"18.02.01",
+"18.02.02"
+],
+"section": "organismal-bio",
+"slug": "cardiac-cycle",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The cardiac cycle: systole and diastole, the Wiggers diagram, and cardiac output regulation"
+},
 "18.03.01": {
 "area": "other",
 "books": [],
@@ -33175,6 +35776,50 @@
 "master"
 ],
 "title": "Respiratory physiology \u2014 gas exchange and transport"
+},
+"18.03.02": {
+"area": "other",
+"books": [],
+"chapter": "respiratory",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.03.02",
+"prereqs": [
+"18.03.01"
+],
+"section": "organismal-bio",
+"slug": "lung-mechanics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lung mechanics: compliance, surfactant, the work of breathing, and spirometry values"
+},
+"18.03.03": {
+"area": "other",
+"books": [],
+"chapter": "respiratory",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.03.03",
+"prereqs": [
+"18.03.01"
+],
+"section": "organismal-bio",
+"slug": "gas-exchange",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gas exchange and transport: the oxygen-hemoglobin dissociation curve and CO2 transport as bicarbonate"
 },
 "18.04.01": {
 "area": "other",
@@ -33220,6 +35865,50 @@
 ],
 "title": "Muscle contraction \u2014 the actin-myosin cycle"
 },
+"18.04.03": {
+"area": "other",
+"books": [],
+"chapter": "musculoskeletal",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.04.03",
+"prereqs": [
+"18.04.01"
+],
+"section": "organismal-bio",
+"slug": "motor-unit-recruitment",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Motor unit recruitment and fatigue: slow versus fast twitch, the size principle, and graded force"
+},
+"18.04.04": {
+"area": "other",
+"books": [],
+"chapter": "musculoskeletal",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.04.04",
+"prereqs": [
+"18.04.01"
+],
+"section": "organismal-bio",
+"slug": "skeletal-mechanics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Skeletal mechanics: bone remodeling, joint biomechanics, and the lever principles"
+},
 "18.05.01": {
 "area": "other",
 "books": [],
@@ -33239,6 +35928,72 @@
 "master"
 ],
 "title": "Nervous system \u2014 gross anatomy and systems"
+},
+"18.05.02": {
+"area": "other",
+"books": [],
+"chapter": "nervous-system",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.05.02",
+"prereqs": [
+"18.05.01"
+],
+"section": "organismal-bio",
+"slug": "spinal-reflexes",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Spinal cord and reflex arcs: monosynaptic stretch reflex, reciprocal inhibition, and pain pathways"
+},
+"18.05.03": {
+"area": "other",
+"books": [],
+"chapter": "nervous-system",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.05.03",
+"prereqs": [
+"18.05.01"
+],
+"section": "organismal-bio",
+"slug": "brain-regions",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Brain regions: cerebral cortex functional areas, basal ganglia, cerebellum, and limbic system"
+},
+"18.05.04": {
+"area": "other",
+"books": [],
+"chapter": "nervous-system",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.05.04",
+"prereqs": [
+"18.05.01"
+],
+"section": "organismal-bio",
+"slug": "autonomic-nervous-system",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The autonomic nervous system: sympathetic versus parasympathetic, neurotransmitters, and homeostasis"
 },
 "18.06.01": {
 "area": "other",
@@ -33262,6 +36017,51 @@
 ],
 "title": "Digestive physiology and nutrition"
 },
+"18.06.02": {
+"area": "other",
+"books": [],
+"chapter": "digestive",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.06.02",
+"prereqs": [
+"18.06.01"
+],
+"section": "organismal-bio",
+"slug": "gi-motility-secretion",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gastrointestinal motility and secretion: peristalsis, gastric acid, enzymes, and absorption sites"
+},
+"18.06.03": {
+"area": "other",
+"books": [],
+"chapter": "digestive",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.06.03",
+"prereqs": [
+"18.06.01",
+"18.06.02"
+],
+"section": "organismal-bio",
+"slug": "nutrient-absorption",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nutrient absorption: monosaccharides, amino acids, lipid micelles, and the enterohepatic circulation"
+},
 "18.07.01": {
 "area": "other",
 "books": [],
@@ -33284,6 +36084,50 @@
 ],
 "title": "Endocrine system \u2014 hormones and regulation"
 },
+"18.07.02": {
+"area": "other",
+"books": [],
+"chapter": "endocrine",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.07.02",
+"prereqs": [
+"18.07.01"
+],
+"section": "organismal-bio",
+"slug": "hypothalamic-pituitary",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hypothalamic-pituitary axis: releasing hormones, tropic hormones, and feedback regulation"
+},
+"18.07.03": {
+"area": "other",
+"books": [],
+"chapter": "endocrine",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.07.03",
+"prereqs": [
+"18.07.01"
+],
+"section": "organismal-bio",
+"slug": "glucose-homeostasis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Glucose homeostasis: insulin and glucagon action, the fed versus fasted state, and diabetes mechanisms"
+},
 "18.08.01": {
 "area": "other",
 "books": [],
@@ -33305,6 +36149,51 @@
 "master"
 ],
 "title": "Renal physiology \u2014 homeostasis and the nephron"
+},
+"18.08.02": {
+"area": "other",
+"books": [],
+"chapter": "renal",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.08.02",
+"prereqs": [
+"18.08.01"
+],
+"section": "organismal-bio",
+"slug": "nephron-function",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nephron function: filtration, tubular reabsorption, secretion, and the countercurrent multiplier"
+},
+"18.08.03": {
+"area": "other",
+"books": [],
+"chapter": "renal",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.08.03",
+"prereqs": [
+"18.08.01",
+"18.08.02"
+],
+"section": "organismal-bio",
+"slug": "acid-base-balance",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Acid-base balance: the bicarbonate buffer system, respiratory and metabolic compensation"
 },
 "18.09.01": {
 "area": "other",
@@ -33329,6 +36218,50 @@
 ],
 "title": "Reproductive biology"
 },
+"18.09.02": {
+"area": "other",
+"books": [],
+"chapter": "reproductive",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.09.02",
+"prereqs": [
+"18.09.01"
+],
+"section": "organismal-bio",
+"slug": "gametogenesis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gametogenesis: spermatogenesis and oogenesis, and hormonal control by FSH and LH"
+},
+"18.09.03": {
+"area": "other",
+"books": [],
+"chapter": "reproductive",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.09.03",
+"prereqs": [
+"18.09.01"
+],
+"section": "organismal-bio",
+"slug": "fertilization-early-development",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fertilization and early development: implantation, HCG signaling, and placental formation"
+},
 "18.10.01": {
 "area": "other",
 "books": [],
@@ -33351,6 +36284,28 @@
 "master"
 ],
 "title": "Immunology"
+},
+"18.10.02": {
+"area": "other",
+"books": [],
+"chapter": "immunology",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.10.02",
+"prereqs": [
+"18.10.01"
+],
+"section": "organismal-bio",
+"slug": "inflammation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Inflammation: innate recognition via TLRs and NLRs, cytokine storm, and resolution mechanisms"
 },
 "18.11.01": {
 "area": "other",
@@ -33375,6 +36330,51 @@
 ],
 "title": "Embryology and morphogenesis"
 },
+"18.11.02": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.11.02",
+"prereqs": [
+"18.11.01"
+],
+"section": "organismal-bio",
+"slug": "gastrulation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gastrulation and axis formation: organizer signaling and Hox gene patterning"
+},
+"18.11.03": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.11.03",
+"prereqs": [
+"18.11.01",
+"18.11.02"
+],
+"section": "organismal-bio",
+"slug": "organogenesis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Organogenesis: inductive interactions, morphogen gradients, and stem cell niches"
+},
 "19.01.01": {
 "area": "other",
 "books": [],
@@ -33394,6 +36394,50 @@
 "master"
 ],
 "title": "Mendelian genetics \u2014 segregation and dominance"
+},
+"19.01.02": {
+"area": "other",
+"books": [],
+"chapter": "mendelian",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.01.02",
+"prereqs": [
+"19.01.01"
+],
+"section": "eco-evo-bio",
+"slug": "linkage-genetic-maps",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Linkage, crossing over, and genetic maps: LOD scores and recombination frequencies"
+},
+"19.01.03": {
+"area": "other",
+"books": [],
+"chapter": "mendelian",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.01.03",
+"prereqs": [
+"19.01.01"
+],
+"section": "eco-evo-bio",
+"slug": "sex-linked-inheritance",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sex-linked inheritance, dosage compensation, and X-inactivation"
 },
 "19.02.01": {
 "area": "other",
@@ -33417,6 +36461,72 @@
 "master"
 ],
 "title": "Hardy-Weinberg equilibrium"
+},
+"19.02.02": {
+"area": "other",
+"books": [],
+"chapter": "pop-genetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.02.02",
+"prereqs": [
+"19.02.01"
+],
+"section": "eco-evo-bio",
+"slug": "hardy-weinberg-extensions",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Extensions of Hardy-Weinberg: multiple alleles, X-linked loci, and inbreeding"
+},
+"19.02.03": {
+"area": "other",
+"books": [],
+"chapter": "pop-genetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.02.03",
+"prereqs": [
+"19.02.01"
+],
+"section": "eco-evo-bio",
+"slug": "mutation-selection-balance",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mutation-selection balance: the equilibrium frequency of deleterious alleles"
+},
+"19.02.04": {
+"area": "other",
+"books": [],
+"chapter": "pop-genetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.02.04",
+"prereqs": [
+"19.02.01"
+],
+"section": "eco-evo-bio",
+"slug": "migration-gene-flow",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Migration and gene flow: the island model, FST, and genetic structure"
 },
 "19.02.05": {
 "area": "other",
@@ -33525,6 +36635,51 @@
 ],
 "title": "Genetic drift"
 },
+"19.04.02": {
+"area": "other",
+"books": [],
+"chapter": "drift",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.04.02",
+"prereqs": [
+"19.04.01"
+],
+"section": "eco-evo-bio",
+"slug": "neutral-theory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neutral theory: Kimura's neutral theory and synonymous versus nonsynonymous substitution rates"
+},
+"19.04.03": {
+"area": "other",
+"books": [],
+"chapter": "drift",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.04.03",
+"prereqs": [
+"19.04.01",
+"19.04.02"
+],
+"section": "eco-evo-bio",
+"slug": "coalescent-theory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Coalescent theory: the genealogy of a sample, TMRCA, and linkage disequilibrium"
+},
 "19.05.01": {
 "area": "other",
 "books": [],
@@ -33546,6 +36701,51 @@
 "master"
 ],
 "title": "Quantitative genetics \u2014 heritability and the breeder's equation"
+},
+"19.05.02": {
+"area": "other",
+"books": [],
+"chapter": "quantitative-genetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.05.02",
+"prereqs": [
+"19.05.01"
+],
+"section": "eco-evo-bio",
+"slug": "heritability-twin-studies",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Twin studies and the estimation of heritability: additive versus dominance variance"
+},
+"19.05.03": {
+"area": "other",
+"books": [],
+"chapter": "quantitative-genetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.05.03",
+"prereqs": [
+"19.05.01",
+"19.05.02"
+],
+"section": "eco-evo-bio",
+"slug": "polygenic-adaptation-gwas",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Polygenic adaptation and GWAS: quantitative trait loci and the infinitesimal model"
 },
 "19.06.01": {
 "area": "other",
@@ -33571,6 +36771,50 @@
 ],
 "title": "Speciation \u2014 allopatric and sympatric"
 },
+"19.06.02": {
+"area": "other",
+"books": [],
+"chapter": "speciation",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.06.02",
+"prereqs": [
+"19.06.01"
+],
+"section": "eco-evo-bio",
+"slug": "reinforcement",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Reinforcement, reproductive isolation, and alternatives to the biological species concept"
+},
+"19.06.03": {
+"area": "other",
+"books": [],
+"chapter": "speciation",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.06.03",
+"prereqs": [
+"19.06.01"
+],
+"section": "eco-evo-bio",
+"slug": "hybrid-zones",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hybrid zones and introgression: tension zones and the mosaic model"
+},
 "19.07.01": {
 "area": "other",
 "books": [],
@@ -33594,6 +36838,50 @@
 ],
 "title": "Phylogenetics \u2014 tree reconstruction"
 },
+"19.07.02": {
+"area": "other",
+"books": [],
+"chapter": "phylogenetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.07.02",
+"prereqs": [
+"19.07.01"
+],
+"section": "eco-evo-bio",
+"slug": "molecular-clock",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Molecular clock hypothesis: calibration, rate heterogeneity, and Bayesian divergence dating"
+},
+"19.07.03": {
+"area": "other",
+"books": [],
+"chapter": "phylogenetics",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.07.03",
+"prereqs": [
+"19.07.01"
+],
+"section": "eco-evo-bio",
+"slug": "character-evolution",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Character evolution: ancestral state reconstruction, Brownian motion, and Pagel's lambda"
+},
 "19.08.01": {
 "area": "other",
 "books": [],
@@ -33615,6 +36903,50 @@
 "master"
 ],
 "title": "Macroevolution"
+},
+"19.08.02": {
+"area": "other",
+"books": [],
+"chapter": "macroevolution",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.08.02",
+"prereqs": [
+"19.08.01"
+],
+"section": "eco-evo-bio",
+"slug": "mass-extinctions",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mass extinctions: the Big Five, recovery dynamics, and the kill curve"
+},
+"19.08.03": {
+"area": "other",
+"books": [],
+"chapter": "macroevolution",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.08.03",
+"prereqs": [
+"19.08.01"
+],
+"section": "eco-evo-bio",
+"slug": "fossil-trends",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Trends in the fossil record: Cope's rule, the Red Queen hypothesis, and evolutionary stasis"
 },
 "19.09.01": {
 "area": "other",
@@ -33638,6 +36970,50 @@
 ],
 "title": "Population ecology \u2014 Lotka-Volterra"
 },
+"19.09.02": {
+"area": "other",
+"books": [],
+"chapter": "population-ecology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.09.02",
+"prereqs": [
+"19.09.01"
+],
+"section": "eco-evo-bio",
+"slug": "metapopulation-dynamics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metapopulation dynamics: the Levins model, rescue effect, and habitat fragmentation"
+},
+"19.09.03": {
+"area": "other",
+"books": [],
+"chapter": "population-ecology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.09.03",
+"prereqs": [
+"19.09.01"
+],
+"section": "eco-evo-bio",
+"slug": "age-structured",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Age-structured populations: the Leslie matrix, stable age distribution, and reproductive value"
+},
 "19.10.01": {
 "area": "other",
 "books": [],
@@ -33660,6 +37036,50 @@
 ],
 "title": "Community ecology \u2014 interactions and food webs"
 },
+"19.10.02": {
+"area": "other",
+"books": [],
+"chapter": "community-ecology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.10.02",
+"prereqs": [
+"19.10.01"
+],
+"section": "eco-evo-bio",
+"slug": "succession",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Succession: primary and secondary succession and the intermediate disturbance hypothesis"
+},
+"19.10.03": {
+"area": "other",
+"books": [],
+"chapter": "community-ecology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.10.03",
+"prereqs": [
+"19.10.01"
+],
+"section": "eco-evo-bio",
+"slug": "island-biogeography",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Island biogeography: species-area relationships, equilibrium theory, and species turnover"
+},
 "19.11.01": {
 "area": "other",
 "books": [],
@@ -33681,6 +37101,28 @@
 "master"
 ],
 "title": "Ecosystem ecology"
+},
+"19.11.02": {
+"area": "other",
+"books": [],
+"chapter": "ecosystem-ecology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.11.02",
+"prereqs": [
+"19.11.01"
+],
+"section": "eco-evo-bio",
+"slug": "energy-flow",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ecosystem energy flow: trophic pyramids, primary productivity, and ecological efficiency"
 },
 "19.12.01": {
 "area": "other",
@@ -33705,6 +37147,28 @@
 ],
 "title": "Biogeography"
 },
+"19.12.02": {
+"area": "other",
+"books": [],
+"chapter": "biogeochemistry",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.12.02",
+"prereqs": [
+"19.12.01"
+],
+"section": "eco-evo-bio",
+"slug": "nutrient-cycles",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nutrient cycles: carbon, nitrogen, and phosphorus cycles and their anthropogenic disruption"
+},
 "19.13.01": {
 "area": "other",
 "books": [],
@@ -33727,6 +37191,28 @@
 "master"
 ],
 "title": "Coevolution"
+},
+"19.13.02": {
+"area": "other",
+"books": [],
+"chapter": "conservation-biology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.13.02",
+"prereqs": [
+"19.13.01"
+],
+"section": "eco-evo-bio",
+"slug": "conservation-strategies",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Conservation strategies: population viability analysis, corridor design, and adaptive management"
 },
 "19.14.01": {
 "area": "other",
@@ -39115,6 +42601,50 @@
 ],
 "title": "Plate tectonics and continental drift"
 },
+"27.01.02": {
+"area": "other",
+"books": [],
+"chapter": "plate-tectonics",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.01.02",
+"prereqs": [
+"27.01.01"
+],
+"section": "earth-science",
+"slug": "plate-boundaries",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Plate boundaries: divergent, convergent, transform; seafloor spreading and Wilson cycles"
+},
+"27.01.03": {
+"area": "other",
+"books": [],
+"chapter": "plate-tectonics",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.01.03",
+"prereqs": [
+"27.01.01"
+],
+"section": "earth-science",
+"slug": "mantle-convection",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mantle convection and driving forces: slab pull, ridge push, hot spots"
+},
 "27.02.01": {
 "area": "other",
 "books": [],
@@ -39134,6 +42664,50 @@
 "master"
 ],
 "title": "Minerals, rocks, and the rock cycle"
+},
+"27.02.02": {
+"area": "other",
+"books": [],
+"chapter": "minerals-rocks",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.02.02",
+"prereqs": [
+"27.02.01"
+],
+"section": "earth-science",
+"slug": "rock-cycle",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rock cycle and igneous processes: crystallization, Bowen's reaction series"
+},
+"27.02.03": {
+"area": "other",
+"books": [],
+"chapter": "minerals-rocks",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.02.03",
+"prereqs": [
+"27.02.01"
+],
+"section": "earth-science",
+"slug": "metamorphic-sedimentary",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metamorphic and sedimentary rocks: facies, diagenesis, classification"
 },
 "27.03.01": {
 "area": "other",
@@ -39155,6 +42729,50 @@
 ],
 "title": "Earthquakes, volcanoes, and geologic hazards"
 },
+"27.03.02": {
+"area": "other",
+"books": [],
+"chapter": "earthquakes-volcanoes",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.03.02",
+"prereqs": [
+"27.03.01"
+],
+"section": "earth-science",
+"slug": "seismic-waves",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Seismic waves: P, S, surface waves; seismograph interpretation and Earth's interior"
+},
+"27.03.03": {
+"area": "other",
+"books": [],
+"chapter": "earthquakes-volcanoes",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.03.03",
+"prereqs": [
+"27.03.01"
+],
+"section": "earth-science",
+"slug": "volcanic-hazards",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Volcanic hazards: eruption styles, pyroclastic flows, volcanic risk assessment"
+},
 "27.04.01": {
 "area": "other",
 "books": [],
@@ -39174,6 +42792,50 @@
 "master"
 ],
 "title": "Atmosphere, weather, and climate basics"
+},
+"27.04.02": {
+"area": "other",
+"books": [],
+"chapter": "atmosphere-weather",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.04.02",
+"prereqs": [
+"27.04.01"
+],
+"section": "earth-science",
+"slug": "atmospheric-circulation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Atmospheric circulation: Hadley, Ferrel, Polar cells; jet streams and Coriolis effect"
+},
+"27.04.03": {
+"area": "other",
+"books": [],
+"chapter": "atmosphere-weather",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.04.03",
+"prereqs": [
+"27.04.01"
+],
+"section": "earth-science",
+"slug": "weather-systems",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Weather systems: fronts, cyclones, severe weather formation"
 },
 "27.05.01": {
 "area": "other",
@@ -39195,6 +42857,50 @@
 ],
 "title": "Oceanography: currents, tides, and marine ecosystems"
 },
+"27.05.02": {
+"area": "other",
+"books": [],
+"chapter": "oceanography",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.05.02",
+"prereqs": [
+"27.05.01"
+],
+"section": "earth-science",
+"slug": "ocean-circulation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ocean circulation: thermohaline conveyor, gyres, upwelling zones"
+},
+"27.05.03": {
+"area": "other",
+"books": [],
+"chapter": "oceanography",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.05.03",
+"prereqs": [
+"27.05.01"
+],
+"section": "earth-science",
+"slug": "ocean-chemistry",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ocean chemistry: salinity, carbonate system, ocean acidification"
+},
 "27.06.01": {
 "area": "other",
 "books": [],
@@ -39214,6 +42920,50 @@
 "master"
 ],
 "title": "Hydrology: the water cycle and groundwater"
+},
+"27.06.02": {
+"area": "other",
+"books": [],
+"chapter": "hydrology",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.06.02",
+"prereqs": [
+"27.06.01"
+],
+"section": "earth-science",
+"slug": "groundwater",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Groundwater systems: aquifers, Darcy's law, recharge and depletion"
+},
+"27.06.03": {
+"area": "other",
+"books": [],
+"chapter": "hydrology",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.06.03",
+"prereqs": [
+"27.06.01"
+],
+"section": "earth-science",
+"slug": "surface-hydrology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Surface hydrology: watershed dynamics, flood frequency analysis"
 },
 "27.07.01": {
 "area": "other",
@@ -39235,6 +42985,72 @@
 ],
 "title": "Climate change: evidence, impacts, and mitigation"
 },
+"27.07.02": {
+"area": "other",
+"books": [],
+"chapter": "climate-change",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.07.02",
+"prereqs": [
+"27.07.01"
+],
+"section": "earth-science",
+"slug": "radiative-forcing",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Radiative forcing and feedback loops: greenhouse gases, ice-albedo, water vapor"
+},
+"27.07.03": {
+"area": "other",
+"books": [],
+"chapter": "climate-change",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.07.03",
+"prereqs": [
+"27.07.01"
+],
+"section": "earth-science",
+"slug": "climate-proxies",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Climate proxies and paleo-climate: ice cores, tree rings, ocean sediment records"
+},
+"27.07.04": {
+"area": "other",
+"books": [],
+"chapter": "climate-change",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.07.04",
+"prereqs": [
+"27.07.01"
+],
+"section": "earth-science",
+"slug": "climate-impacts",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Impacts and adaptation: sea-level rise, extreme events, mitigation scenarios"
+},
 "27.08.01": {
 "area": "other",
 "books": [],
@@ -39254,6 +43070,50 @@
 "master"
 ],
 "title": "Earth history and the geologic time scale"
+},
+"27.08.02": {
+"area": "other",
+"books": [],
+"chapter": "earth-history",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.08.02",
+"prereqs": [
+"27.08.01"
+],
+"section": "earth-science",
+"slug": "geologic-time",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Geologic time scale: radiometric dating, stratigraphy, and mass extinction boundaries"
+},
+"27.08.03": {
+"area": "other",
+"books": [],
+"chapter": "earth-history",
+"curriculum": "earth-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.08.03",
+"prereqs": [
+"27.08.01"
+],
+"section": "earth-science",
+"slug": "atmosphere-biosphere-evolution",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Evolution of the atmosphere and biosphere: Great Oxidation Event, Snowball Earth"
 },
 "28.01.01": {
 "area": "other",
@@ -39275,6 +43135,50 @@
 ],
 "title": "The solar system: planets, moons, and small bodies"
 },
+"28.01.02": {
+"area": "other",
+"books": [],
+"chapter": "solar-system",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.01.02",
+"prereqs": [
+"28.01.01"
+],
+"section": "astronomy",
+"slug": "solar-system-formation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Formation of the solar system: nebular hypothesis, accretion, late heavy bombardment"
+},
+"28.01.03": {
+"area": "other",
+"books": [],
+"chapter": "solar-system",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.01.03",
+"prereqs": [
+"28.01.01"
+],
+"section": "astronomy",
+"slug": "planetary-interiors",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Planetary interiors and surfaces: comparative planetology, magnetic fields"
+},
 "28.02.01": {
 "area": "other",
 "books": [],
@@ -39294,6 +43198,72 @@
 "master"
 ],
 "title": "Stars and stellar evolution"
+},
+"28.02.02": {
+"area": "other",
+"books": [],
+"chapter": "stars",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.02.02",
+"prereqs": [
+"28.02.01"
+],
+"section": "astronomy",
+"slug": "stellar-structure",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stellar structure: hydrostatic equilibrium, nuclear burning, the PP chain and CNO cycle"
+},
+"28.02.03": {
+"area": "other",
+"books": [],
+"chapter": "stars",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.02.03",
+"prereqs": [
+"28.02.01"
+],
+"section": "astronomy",
+"slug": "stellar-evolution",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stellar evolution: main sequence to red giant, HR diagram tracks"
+},
+"28.02.04": {
+"area": "other",
+"books": [],
+"chapter": "stars",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.02.04",
+"prereqs": [
+"28.02.01"
+],
+"section": "astronomy",
+"slug": "stellar-endpoints",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stellar endpoints: white dwarfs (Chandrasekhar limit), neutron stars, pulsars, black holes"
 },
 "28.03.01": {
 "area": "other",
@@ -39317,6 +43287,50 @@
 ],
 "title": "Galaxies and the Milky Way"
 },
+"28.03.02": {
+"area": "other",
+"books": [],
+"chapter": "galaxies",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.03.02",
+"prereqs": [
+"28.03.01"
+],
+"section": "astronomy",
+"slug": "galaxy-structure",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Galaxy classification and structure: Hubble sequence, bulge/disk/halo, dark matter halos"
+},
+"28.03.03": {
+"area": "other",
+"books": [],
+"chapter": "galaxies",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.03.03",
+"prereqs": [
+"28.03.01"
+],
+"section": "astronomy",
+"slug": "agn-quasars",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Active galactic nuclei and quasars: accretion onto supermassive black holes"
+},
 "28.04.01": {
 "area": "other",
 "books": [],
@@ -39339,6 +43353,72 @@
 ],
 "title": "Cosmology: the Big Bang, expansion, and fate of the universe"
 },
+"28.04.02": {
+"area": "other",
+"books": [],
+"chapter": "cosmology",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.04.02",
+"prereqs": [
+"28.04.01"
+],
+"section": "astronomy",
+"slug": "big-bang-nucleosynthesis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Big Bang nucleosynthesis: primordial abundances of H, He, Li"
+},
+"28.04.03": {
+"area": "other",
+"books": [],
+"chapter": "cosmology",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.04.03",
+"prereqs": [
+"28.04.01"
+],
+"section": "astronomy",
+"slug": "cosmic-microwave-background",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cosmic microwave background: temperature fluctuations, acoustic peaks, LCDM parameters"
+},
+"28.04.04": {
+"area": "other",
+"books": [],
+"chapter": "cosmology",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.04.04",
+"prereqs": [
+"28.04.01"
+],
+"section": "astronomy",
+"slug": "dark-matter-dark-energy",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Dark matter and dark energy: evidence, candidates, and the accelerating expansion"
+},
 "28.05.01": {
 "area": "other",
 "books": [],
@@ -39360,6 +43440,50 @@
 "master"
 ],
 "title": "Exoplanets: detection methods and habitability"
+},
+"28.05.02": {
+"area": "other",
+"books": [],
+"chapter": "exoplanets",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.05.02",
+"prereqs": [
+"28.05.01"
+],
+"section": "astronomy",
+"slug": "exoplanet-detection",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Exoplanet detection methods: radial velocity, transit photometry, direct imaging"
+},
+"28.05.03": {
+"area": "other",
+"books": [],
+"chapter": "exoplanets",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.05.03",
+"prereqs": [
+"28.05.01"
+],
+"section": "astronomy",
+"slug": "exoplanet-demographics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Exoplanet demographics: occurrence rates, habitability zone, atmospheric characterization"
 },
 "28.06.01": {
 "area": "other",
@@ -39384,6 +43508,28 @@
 ],
 "title": "Space exploration: history and future"
 },
+"28.06.02": {
+"area": "other",
+"books": [],
+"chapter": "space-exploration",
+"curriculum": "astronomy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.06.02",
+"prereqs": [
+"28.06.01"
+],
+"section": "astronomy",
+"slug": "space-telescope-science",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Space telescope science: multiwavelength astronomy, gravitational-wave observatories"
+},
 "29.01.01": {
 "area": "other",
 "books": [],
@@ -39403,6 +43549,50 @@
 "master"
 ],
 "title": "Introduction to psychology and research methods"
+},
+"29.01.02": {
+"area": "other",
+"books": [],
+"chapter": "intro-methods",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.01.02",
+"prereqs": [
+"29.01.01"
+],
+"section": "psychology",
+"slug": "research-designs",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Research designs: experiments, quasi-experiments, correlational, and meta-analysis"
+},
+"29.01.03": {
+"area": "other",
+"books": [],
+"chapter": "intro-methods",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.01.03",
+"prereqs": [
+"29.01.01"
+],
+"section": "psychology",
+"slug": "statistical-reasoning",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Statistical reasoning in psychology: effect size, power, replication crisis"
 },
 "29.02.01": {
 "area": "other",
@@ -39427,6 +43617,72 @@
 ],
 "title": "Neuroscience: brain and behaviour"
 },
+"29.02.02": {
+"area": "other",
+"books": [],
+"chapter": "neuroscience",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.02.02",
+"prereqs": [
+"29.02.01"
+],
+"section": "psychology",
+"slug": "brain-regions",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Brain regions and function: lobes, limbic system, basal ganglia, cerebellum"
+},
+"29.02.03": {
+"area": "other",
+"books": [],
+"chapter": "neuroscience",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.02.03",
+"prereqs": [
+"29.02.01"
+],
+"section": "psychology",
+"slug": "neurotransmitter-systems",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neurotransmitter systems: dopamine, serotonin, norepinephrine, GABA, glutamate"
+},
+"29.02.04": {
+"area": "other",
+"books": [],
+"chapter": "neuroscience",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.02.04",
+"prereqs": [
+"29.02.01"
+],
+"section": "psychology",
+"slug": "neuroplasticity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neuroplasticity and neurogenesis: LTP, critical periods, recovery from brain injury"
+},
 "29.03.01": {
 "area": "other",
 "books": [],
@@ -39448,6 +43704,50 @@
 "master"
 ],
 "title": "Sensation and perception: how the brain constructs reality from sensory data"
+},
+"29.03.02": {
+"area": "other",
+"books": [],
+"chapter": "sensation-perception",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.03.02",
+"prereqs": [
+"29.03.01"
+],
+"section": "psychology",
+"slug": "visual-perception",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Visual perception: depth cues, object recognition, top-down vs. bottom-up processing"
+},
+"29.03.03": {
+"area": "other",
+"books": [],
+"chapter": "sensation-perception",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.03.03",
+"prereqs": [
+"29.03.01"
+],
+"section": "psychology",
+"slug": "auditory-somatosensory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Auditory and somatosensory systems; pain and the gate-control theory"
 },
 "29.04.01": {
 "area": "other",
@@ -39471,6 +43771,72 @@
 ],
 "title": "Learning and memory: conditioning, cognitive maps, encoding, storage, retrieval, and forgetting"
 },
+"29.04.02": {
+"area": "other",
+"books": [],
+"chapter": "learning-memory",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.04.02",
+"prereqs": [
+"29.04.01"
+],
+"section": "psychology",
+"slug": "conditioning",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Classical and operant conditioning: schedules of reinforcement, extinction, latent learning"
+},
+"29.04.03": {
+"area": "other",
+"books": [],
+"chapter": "learning-memory",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.04.03",
+"prereqs": [
+"29.04.01"
+],
+"section": "psychology",
+"slug": "memory-systems",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Memory systems: episodic, semantic, procedural; encoding, consolidation, retrieval"
+},
+"29.04.04": {
+"area": "other",
+"books": [],
+"chapter": "learning-memory",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.04.04",
+"prereqs": [
+"29.04.01"
+],
+"section": "psychology",
+"slug": "forgetting-false-memory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Forgetting and false memory: interference, decay, misinformation effect"
+},
 "29.05.01": {
 "area": "other",
 "books": [],
@@ -39492,6 +43858,50 @@
 "master"
 ],
 "title": "Cognition and intelligence: thinking, reasoning, and the measurement of mind"
+},
+"29.05.02": {
+"area": "other",
+"books": [],
+"chapter": "cognition-intelligence",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.05.02",
+"prereqs": [
+"29.05.01"
+],
+"section": "psychology",
+"slug": "decision-making",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Decision-making and judgment: heuristics, biases (Kahneman-Tversky), dual-process theory"
+},
+"29.05.03": {
+"area": "other",
+"books": [],
+"chapter": "cognition-intelligence",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.05.03",
+"prereqs": [
+"29.05.01"
+],
+"section": "psychology",
+"slug": "language-acquisition",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Language acquisition: critical period, Chomsky's nativism vs. connectionist accounts"
 },
 "29.06.01": {
 "area": "other",
@@ -39515,6 +43925,72 @@
 ],
 "title": "Developmental Psychology Across the Lifespan"
 },
+"29.06.02": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.06.02",
+"prereqs": [
+"29.06.01"
+],
+"section": "psychology",
+"slug": "cognitive-development",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cognitive development: Piaget's stages, Vygotsky's ZPD, theory of mind"
+},
+"29.06.03": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.06.03",
+"prereqs": [
+"29.06.01"
+],
+"section": "psychology",
+"slug": "moral-development",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Moral development: Kohlberg's stages, Gilligan's critique, moral foundations theory"
+},
+"29.06.04": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.06.04",
+"prereqs": [
+"29.06.01"
+],
+"section": "psychology",
+"slug": "adult-development",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Adult development and aging: identity formation, midlife, and cognitive change in aging"
+},
 "29.07.01": {
 "area": "other",
 "books": [],
@@ -39537,6 +44013,72 @@
 ],
 "title": "Social psychology: social influence, group dynamics, prejudice, and relationships"
 },
+"29.07.02": {
+"area": "other",
+"books": [],
+"chapter": "social-psychology",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.07.02",
+"prereqs": [
+"29.07.01"
+],
+"section": "psychology",
+"slug": "attitudes-persuasion",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Attitudes and persuasion: cognitive dissonance, elaboration likelihood model"
+},
+"29.07.03": {
+"area": "other",
+"books": [],
+"chapter": "social-psychology",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.07.03",
+"prereqs": [
+"29.07.01"
+],
+"section": "psychology",
+"slug": "group-dynamics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Group dynamics: conformity (Asch), obedience (Milgram), groupthink, social loafing"
+},
+"29.07.04": {
+"area": "other",
+"books": [],
+"chapter": "social-psychology",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.07.04",
+"prereqs": [
+"29.07.01"
+],
+"section": "psychology",
+"slug": "prejudice-discrimination",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Prejudice and discrimination: implicit bias, stereotype threat, contact hypothesis"
+},
 "29.08.01": {
 "area": "other",
 "books": [],
@@ -39558,6 +44100,50 @@
 "master"
 ],
 "title": "Personality theories and assessment"
+},
+"29.08.02": {
+"area": "other",
+"books": [],
+"chapter": "personality",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.08.02",
+"prereqs": [
+"29.08.01"
+],
+"section": "psychology",
+"slug": "trait-theories",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Trait theories: Big Five (OCEAN), psychometric approaches, cross-cultural validity"
+},
+"29.08.03": {
+"area": "other",
+"books": [],
+"chapter": "personality",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.08.03",
+"prereqs": [
+"29.08.01"
+],
+"section": "psychology",
+"slug": "psychodynamic-humanistic",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Psychodynamic and humanistic theories: Freud, Erikson, Rogers, Maslow"
 },
 "29.09.01": {
 "area": "other",
@@ -39582,6 +44168,72 @@
 ],
 "title": "Psychological disorders: diagnosis, controversy, and the limits of classification"
 },
+"29.09.02": {
+"area": "other",
+"books": [],
+"chapter": "psychological-disorders",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.09.02",
+"prereqs": [
+"29.09.01"
+],
+"section": "psychology",
+"slug": "mood-disorders",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mood disorders: depression, bipolar; neurobiology and cognitive models"
+},
+"29.09.03": {
+"area": "other",
+"books": [],
+"chapter": "psychological-disorders",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.09.03",
+"prereqs": [
+"29.09.01"
+],
+"section": "psychology",
+"slug": "anxiety-trauma",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Anxiety and trauma disorders: GAD, PTSD, OCD; fear conditioning models"
+},
+"29.09.04": {
+"area": "other",
+"books": [],
+"chapter": "psychological-disorders",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.09.04",
+"prereqs": [
+"29.09.01"
+],
+"section": "psychology",
+"slug": "psychotic-neurodevelopmental",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Psychotic and neurodevelopmental disorders: schizophrenia, ADHD, autism spectrum"
+},
 "29.10.01": {
 "area": "other",
 "books": [],
@@ -39604,6 +44256,50 @@
 ],
 "title": "Therapy and treatment approaches"
 },
+"29.10.02": {
+"area": "other",
+"books": [],
+"chapter": "therapy-treatment",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.10.02",
+"prereqs": [
+"29.10.01"
+],
+"section": "psychology",
+"slug": "evidence-based-therapies",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Evidence-based therapies: CBT, DBT, exposure therapy; efficacy meta-analyses"
+},
+"29.10.03": {
+"area": "other",
+"books": [],
+"chapter": "therapy-treatment",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.10.03",
+"prereqs": [
+"29.10.01"
+],
+"section": "psychology",
+"slug": "biological-treatments",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Biological treatments: pharmacotherapy mechanisms, ECT, TMS, psychedelic-assisted therapy"
+},
 "29.11.01": {
 "area": "other",
 "books": [],
@@ -39625,6 +44321,50 @@
 "master"
 ],
 "title": "Motivation and emotion: drives, needs, feelings, and the forces that shape behaviour"
+},
+"29.11.02": {
+"area": "other",
+"books": [],
+"chapter": "motivation-emotion",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.11.02",
+"prereqs": [
+"29.11.01"
+],
+"section": "psychology",
+"slug": "emotion-theories",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Emotion theories: James-Lange, Cannon-Bard, Schachter-Singer, appraisal theory"
+},
+"29.11.03": {
+"area": "other",
+"books": [],
+"chapter": "motivation-emotion",
+"curriculum": "psychology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.11.03",
+"prereqs": [
+"29.11.01"
+],
+"section": "psychology",
+"slug": "stress-health",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stress and health psychology: allostatic load, coping strategies, psychoneuroimmunology"
 },
 "29.12.01": {
 "area": "other",

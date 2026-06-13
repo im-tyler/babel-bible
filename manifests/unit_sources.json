@@ -8245,6 +8245,18 @@
 ],
 "curriculum": "fast-track"
 },
+"12.01.03": {
+"books": [],
+"curriculum": "fast-track"
+},
+"12.01.04": {
+"books": [],
+"curriculum": "fast-track"
+},
+"12.01.05": {
+"books": [],
+"curriculum": "fast-track"
+},
 "12.02.01": {
 "books": [
 "gelfand-generalized-functions-vol2-6",
@@ -8272,6 +8284,10 @@
 ],
 "curriculum": "fast-track"
 },
+"12.02.04": {
+"books": [],
+"curriculum": "fast-track"
+},
 "12.03.01": {
 "books": [
 "weinberg-quantum-theory-of-fields-vol1",
@@ -8279,6 +8295,16 @@
 "souriau-structure-dynamical-systems",
 "landau-lifshitz-quantum-electrodynamics",
 "gelfand-vilenkin-generalized-functions-combined"
+],
+"curriculum": "fast-track"
+},
+"12.03.02": {
+"books": [],
+"curriculum": "fast-track"
+},
+"12.03.03": {
+"books": [
+"woit-quantum-theory-groups-representations"
 ],
 "curriculum": "fast-track"
 },
@@ -8298,6 +8324,14 @@
 "landau-lifshitz-quantum-electrodynamics",
 "woodhouse-geometric-quantization"
 ],
+"curriculum": "fast-track"
+},
+"12.04.03": {
+"books": [],
+"curriculum": "fast-track"
+},
+"12.04.04": {
+"books": [],
 "curriculum": "fast-track"
 },
 "12.05.01": {
@@ -8374,6 +8408,20 @@
 "weinberg-quantum-theory-of-fields-vol1",
 "woit-quantum-theory-groups-representations",
 "landau-lifshitz-quantum-mechanics",
+"landau-lifshitz-quantum-electrodynamics"
+],
+"curriculum": "fast-track"
+},
+"12.06.02": {
+"books": [
+"weinberg-quantum-theory-of-fields-vol1",
+"landau-lifshitz-quantum-electrodynamics"
+],
+"curriculum": "fast-track"
+},
+"12.06.03": {
+"books": [
+"weinberg-quantum-theory-of-fields-vol1",
 "landau-lifshitz-quantum-electrodynamics"
 ],
 "curriculum": "fast-track"
@@ -8518,6 +8566,14 @@
 "landau-lifshitz-quantum-electrodynamics",
 "weinberg-quantum-theory-of-fields-vol2"
 ],
+"curriculum": "fast-track"
+},
+"12.10.02": {
+"books": [],
+"curriculum": "fast-track"
+},
+"12.10.03": {
+"books": [],
 "curriculum": "fast-track"
 },
 "12.11.01": {
@@ -9054,6 +9110,14 @@
 "books": [],
 "curriculum": "other"
 },
+"14.01.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.01.03": {
+"books": [],
+"curriculum": "other"
+},
 "14.02.01": {
 "books": [],
 "curriculum": "other"
@@ -9062,7 +9126,23 @@
 "books": [],
 "curriculum": "other"
 },
+"14.02.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.02.04": {
+"books": [],
+"curriculum": "other"
+},
 "14.03.01": {
+"books": [],
+"curriculum": "other"
+},
+"14.03.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.03.03": {
 "books": [],
 "curriculum": "other"
 },
@@ -9070,7 +9150,31 @@
 "books": [],
 "curriculum": "other"
 },
+"14.04.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.04.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.04.04": {
+"books": [],
+"curriculum": "other"
+},
+"14.05.01": {
+"books": [],
+"curriculum": "other"
+},
 "14.05.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.05.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.05.04": {
 "books": [],
 "curriculum": "other"
 },
@@ -9078,7 +9182,31 @@
 "books": [],
 "curriculum": "other"
 },
+"14.06.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.06.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.06.04": {
+"books": [],
+"curriculum": "other"
+},
 "14.07.01": {
+"books": [],
+"curriculum": "other"
+},
+"14.07.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.07.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.07.04": {
 "books": [],
 "curriculum": "other"
 },
@@ -9086,7 +9214,31 @@
 "books": [],
 "curriculum": "other"
 },
+"14.08.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.08.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.08.04": {
+"books": [],
+"curriculum": "other"
+},
 "14.09.01": {
+"books": [],
+"curriculum": "other"
+},
+"14.09.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.09.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.09.04": {
 "books": [],
 "curriculum": "other"
 },
@@ -9094,7 +9246,31 @@
 "books": [],
 "curriculum": "other"
 },
+"14.10.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.10.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.10.04": {
+"books": [],
+"curriculum": "other"
+},
 "14.11.01": {
+"books": [],
+"curriculum": "other"
+},
+"14.11.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.11.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.11.04": {
 "books": [],
 "curriculum": "other"
 },
@@ -9102,53 +9278,173 @@
 "books": [],
 "curriculum": "other"
 },
+"14.12.02": {
+"books": [],
+"curriculum": "other"
+},
+"14.12.03": {
+"books": [],
+"curriculum": "other"
+},
+"14.12.04": {
+"books": [],
+"curriculum": "other"
+},
+"14.12.05": {
+"books": [],
+"curriculum": "other"
+},
 "15.01.01": {
 "books": [],
 "curriculum": "other"
+},
+"15.01.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.01.03": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.01.04": {
+"books": [],
+"curriculum": "orgchem"
 },
 "15.02.01": {
 "books": [],
 "curriculum": "other"
 },
+"15.02.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.02.03": {
+"books": [],
+"curriculum": "orgchem"
+},
 "15.03.01": {
 "books": [],
 "curriculum": "other"
+},
+"15.03.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.04.01": {
+"books": [],
+"curriculum": "orgchem"
 },
 "15.04.02": {
 "books": [],
 "curriculum": "other"
 },
+"15.04.03": {
+"books": [],
+"curriculum": "orgchem"
+},
 "15.05.01": {
 "books": [],
 "curriculum": "other"
+},
+"15.05.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.05.03": {
+"books": [],
+"curriculum": "orgchem"
 },
 "15.06.01": {
 "books": [],
 "curriculum": "other"
 },
+"15.06.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.06.03": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.06.04": {
+"books": [],
+"curriculum": "orgchem"
+},
 "15.07.01": {
 "books": [],
 "curriculum": "other"
+},
+"15.07.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.07.03": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.07.04": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.07.05": {
+"books": [],
+"curriculum": "orgchem"
 },
 "15.08.01": {
 "books": [],
 "curriculum": "other"
 },
+"15.08.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.08.03": {
+"books": [],
+"curriculum": "orgchem"
+},
 "15.09.01": {
 "books": [],
 "curriculum": "other"
+},
+"15.09.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.09.03": {
+"books": [],
+"curriculum": "orgchem"
 },
 "15.10.01": {
 "books": [],
 "curriculum": "other"
 },
+"15.10.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.10.03": {
+"books": [],
+"curriculum": "orgchem"
+},
 "15.11.01": {
 "books": [],
 "curriculum": "other"
 },
+"15.11.02": {
+"books": [],
+"curriculum": "orgchem"
+},
+"15.11.03": {
+"books": [],
+"curriculum": "orgchem"
+},
 "15.12.01": {
 "books": [],
 "curriculum": "other"
+},
+"15.12.02": {
+"books": [],
+"curriculum": "orgchem"
 },
 "15.13.01": {
 "books": [],
@@ -9158,13 +9454,33 @@
 "books": [],
 "curriculum": "other"
 },
+"15.14.02": {
+"books": [],
+"curriculum": "orgchem"
+},
 "16.01.01": {
 "books": [],
 "curriculum": "other"
 },
+"16.01.02": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.01.03": {
+"books": [],
+"curriculum": "inorgchem"
+},
 "16.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"16.02.02": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.02.03": {
+"books": [],
+"curriculum": "inorgchem"
 },
 "16.03.01": {
 "books": [],
@@ -9174,6 +9490,14 @@
 "books": [],
 "curriculum": "other"
 },
+"16.03.03": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.03.04": {
+"books": [],
+"curriculum": "inorgchem"
+},
 "16.04.01": {
 "books": [],
 "curriculum": "other"
@@ -9182,21 +9506,69 @@
 "books": [],
 "curriculum": "other"
 },
+"16.04.03": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.04.04": {
+"books": [],
+"curriculum": "inorgchem"
+},
 "16.05.01": {
 "books": [],
 "curriculum": "other"
+},
+"16.05.02": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.05.03": {
+"books": [],
+"curriculum": "inorgchem"
 },
 "16.06.01": {
 "books": [],
 "curriculum": "other"
 },
+"16.06.02": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.06.03": {
+"books": [],
+"curriculum": "inorgchem"
+},
 "16.07.01": {
 "books": [],
 "curriculum": "other"
 },
+"16.07.02": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.07.03": {
+"books": [],
+"curriculum": "inorgchem"
+},
+"16.07.04": {
+"books": [],
+"curriculum": "inorgchem"
+},
 "17.01.01": {
 "books": [],
 "curriculum": "other"
+},
+"17.01.02": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.01.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.01.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
 },
 "17.02.01": {
 "books": [],
@@ -9206,6 +9578,14 @@
 "books": [],
 "curriculum": "other"
 },
+"17.02.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.02.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
 "17.03.01": {
 "books": [],
 "curriculum": "other"
@@ -9213,6 +9593,14 @@
 "17.03.02": {
 "books": [],
 "curriculum": "other"
+},
+"17.03.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.03.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
 },
 "17.04.01": {
 "books": [],
@@ -9226,6 +9614,18 @@
 "books": [],
 "curriculum": "other"
 },
+"17.04.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.04.05": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.04.06": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
 "17.05.01": {
 "books": [],
 "curriculum": "other"
@@ -9238,9 +9638,29 @@
 "books": [],
 "curriculum": "other"
 },
+"17.05.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.05.05": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
 "17.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"17.06.02": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.06.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.06.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
 },
 "17.07.01": {
 "books": [],
@@ -9250,9 +9670,29 @@
 "books": [],
 "curriculum": "other"
 },
+"17.07.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.07.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
 "17.08.01": {
 "books": [],
 "curriculum": "other"
+},
+"17.08.02": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.08.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.08.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
 },
 "17.09.01": {
 "books": [],
@@ -9262,13 +9702,37 @@
 "books": [],
 "curriculum": "other"
 },
+"17.09.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.09.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
 "17.10.01": {
 "books": [],
 "curriculum": "other"
 },
+"17.10.02": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.10.03": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
+"17.10.04": {
+"books": [],
+"curriculum": "mol-cell-bio"
+},
 "18.01.01": {
 "books": [],
 "curriculum": "other"
+},
+"18.01.02": {
+"books": [],
+"curriculum": "organismal-bio"
 },
 "18.02.01": {
 "books": [],
@@ -9278,9 +9742,25 @@
 "books": [],
 "curriculum": "other"
 },
+"18.02.03": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.02.04": {
+"books": [],
+"curriculum": "organismal-bio"
+},
 "18.03.01": {
 "books": [],
 "curriculum": "other"
+},
+"18.03.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.03.03": {
+"books": [],
+"curriculum": "organismal-bio"
 },
 "18.04.01": {
 "books": [],
@@ -9290,41 +9770,125 @@
 "books": [],
 "curriculum": "other"
 },
+"18.04.03": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.04.04": {
+"books": [],
+"curriculum": "organismal-bio"
+},
 "18.05.01": {
 "books": [],
 "curriculum": "other"
+},
+"18.05.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.05.03": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.05.04": {
+"books": [],
+"curriculum": "organismal-bio"
 },
 "18.06.01": {
 "books": [],
 "curriculum": "other"
 },
+"18.06.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.06.03": {
+"books": [],
+"curriculum": "organismal-bio"
+},
 "18.07.01": {
 "books": [],
 "curriculum": "other"
+},
+"18.07.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.07.03": {
+"books": [],
+"curriculum": "organismal-bio"
 },
 "18.08.01": {
 "books": [],
 "curriculum": "other"
 },
+"18.08.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.08.03": {
+"books": [],
+"curriculum": "organismal-bio"
+},
 "18.09.01": {
 "books": [],
 "curriculum": "other"
+},
+"18.09.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.09.03": {
+"books": [],
+"curriculum": "organismal-bio"
 },
 "18.10.01": {
 "books": [],
 "curriculum": "other"
 },
+"18.10.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
 "18.11.01": {
 "books": [],
 "curriculum": "other"
+},
+"18.11.02": {
+"books": [],
+"curriculum": "organismal-bio"
+},
+"18.11.03": {
+"books": [],
+"curriculum": "organismal-bio"
 },
 "19.01.01": {
 "books": [],
 "curriculum": "other"
 },
+"19.01.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.01.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"19.02.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.02.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.02.04": {
+"books": [],
+"curriculum": "eco-evo-bio"
 },
 "19.02.05": {
 "books": [],
@@ -9346,41 +9910,109 @@
 "books": [],
 "curriculum": "other"
 },
+"19.04.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.04.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.05.01": {
 "books": [],
 "curriculum": "other"
+},
+"19.05.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.05.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
 },
 "19.06.01": {
 "books": [],
 "curriculum": "other"
 },
+"19.06.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.06.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.07.01": {
 "books": [],
 "curriculum": "other"
+},
+"19.07.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.07.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
 },
 "19.08.01": {
 "books": [],
 "curriculum": "other"
 },
+"19.08.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.08.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.09.01": {
 "books": [],
 "curriculum": "other"
+},
+"19.09.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.09.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
 },
 "19.10.01": {
 "books": [],
 "curriculum": "other"
 },
+"19.10.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.10.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.11.01": {
 "books": [],
 "curriculum": "other"
+},
+"19.11.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
 },
 "19.12.01": {
 "books": [],
 "curriculum": "other"
 },
+"19.12.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.13.01": {
 "books": [],
 "curriculum": "other"
+},
+"19.13.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
 },
 "19.14.01": {
 "books": [],
@@ -10510,101 +11142,329 @@
 "books": [],
 "curriculum": "other"
 },
+"27.01.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.01.03": {
+"books": [],
+"curriculum": "earth-science"
+},
 "27.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"27.02.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.02.03": {
+"books": [],
+"curriculum": "earth-science"
 },
 "27.03.01": {
 "books": [],
 "curriculum": "other"
 },
+"27.03.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.03.03": {
+"books": [],
+"curriculum": "earth-science"
+},
 "27.04.01": {
 "books": [],
 "curriculum": "other"
+},
+"27.04.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.04.03": {
+"books": [],
+"curriculum": "earth-science"
 },
 "27.05.01": {
 "books": [],
 "curriculum": "other"
 },
+"27.05.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.05.03": {
+"books": [],
+"curriculum": "earth-science"
+},
 "27.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"27.06.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.06.03": {
+"books": [],
+"curriculum": "earth-science"
 },
 "27.07.01": {
 "books": [],
 "curriculum": "other"
 },
+"27.07.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.07.03": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.07.04": {
+"books": [],
+"curriculum": "earth-science"
+},
 "27.08.01": {
 "books": [],
 "curriculum": "other"
+},
+"27.08.02": {
+"books": [],
+"curriculum": "earth-science"
+},
+"27.08.03": {
+"books": [],
+"curriculum": "earth-science"
 },
 "28.01.01": {
 "books": [],
 "curriculum": "other"
 },
+"28.01.02": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.01.03": {
+"books": [],
+"curriculum": "astronomy"
+},
 "28.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"28.02.02": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.02.03": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.02.04": {
+"books": [],
+"curriculum": "astronomy"
 },
 "28.03.01": {
 "books": [],
 "curriculum": "other"
 },
+"28.03.02": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.03.03": {
+"books": [],
+"curriculum": "astronomy"
+},
 "28.04.01": {
 "books": [],
 "curriculum": "other"
+},
+"28.04.02": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.04.03": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.04.04": {
+"books": [],
+"curriculum": "astronomy"
 },
 "28.05.01": {
 "books": [],
 "curriculum": "other"
 },
+"28.05.02": {
+"books": [],
+"curriculum": "astronomy"
+},
+"28.05.03": {
+"books": [],
+"curriculum": "astronomy"
+},
 "28.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"28.06.02": {
+"books": [],
+"curriculum": "astronomy"
 },
 "29.01.01": {
 "books": [],
 "curriculum": "other"
 },
+"29.01.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.01.03": {
+"books": [],
+"curriculum": "psychology"
+},
 "29.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"29.02.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.02.03": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.02.04": {
+"books": [],
+"curriculum": "psychology"
 },
 "29.03.01": {
 "books": [],
 "curriculum": "other"
 },
+"29.03.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.03.03": {
+"books": [],
+"curriculum": "psychology"
+},
 "29.04.01": {
 "books": [],
 "curriculum": "other"
+},
+"29.04.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.04.03": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.04.04": {
+"books": [],
+"curriculum": "psychology"
 },
 "29.05.01": {
 "books": [],
 "curriculum": "other"
 },
+"29.05.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.05.03": {
+"books": [],
+"curriculum": "psychology"
+},
 "29.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"29.06.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.06.03": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.06.04": {
+"books": [],
+"curriculum": "psychology"
 },
 "29.07.01": {
 "books": [],
 "curriculum": "other"
 },
+"29.07.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.07.03": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.07.04": {
+"books": [],
+"curriculum": "psychology"
+},
 "29.08.01": {
 "books": [],
 "curriculum": "other"
+},
+"29.08.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.08.03": {
+"books": [],
+"curriculum": "psychology"
 },
 "29.09.01": {
 "books": [],
 "curriculum": "other"
 },
+"29.09.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.09.03": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.09.04": {
+"books": [],
+"curriculum": "psychology"
+},
 "29.10.01": {
 "books": [],
 "curriculum": "other"
 },
+"29.10.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.10.03": {
+"books": [],
+"curriculum": "psychology"
+},
 "29.11.01": {
 "books": [],
 "curriculum": "other"
+},
+"29.11.02": {
+"books": [],
+"curriculum": "psychology"
+},
+"29.11.03": {
+"books": [],
+"curriculum": "psychology"
 },
 "29.12.01": {
 "books": [],
