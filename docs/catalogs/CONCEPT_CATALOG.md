@@ -9584,6 +9584,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.age-structured
+
+- **title**: Age-structured populations: Leslie matrix, stable age distribution, reproductive value
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.succession
+
+- **title**: Succession: primary, secondary, intermediate disturbance hypothesis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
