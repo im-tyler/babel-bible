@@ -11475,6 +11475,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### astronomy.galaxy-structure
 
+
+### astronomy.agn-quasars
+
+- **title**: Active galactic nuclei and quasars: accretion onto supermassive black holes
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Galaxy classification and structure: Hubble sequence, bulge/disk/halo, dark matter halos
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
