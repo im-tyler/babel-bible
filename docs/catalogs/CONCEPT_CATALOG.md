@@ -11602,6 +11602,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.weather-systems
 
+
+### earth-science.ocean-circulation
+
+- **title**: Ocean circulation: thermohaline conveyor, gyres, upwelling zones
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.ocean-chemistry
+
+- **title**: Ocean chemistry: salinity, carbonate system, ocean acidification
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Weather systems: fronts, cyclones, severe weather formation
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
