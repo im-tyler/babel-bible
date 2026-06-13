@@ -9608,6 +9608,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.nutrient-cycles
+
+- **title**: Nutrient cycles: carbon, nitrogen, phosphorus cycles and anthropogenic disruption
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.conservation-strategies
+
+- **title**: Conservation strategies: PVA, corridor design, adaptive management
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
