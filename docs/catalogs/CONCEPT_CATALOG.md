@@ -10477,6 +10477,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.evidence-based-therapies
 
+
+### psychology.biological-treatments
+
+- **title**: Biological treatments: pharmacotherapy, ECT, TMS, psychedelic-assisted therapy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Evidence-based therapies: CBT, DBT, exposure therapy; efficacy meta-analyses
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
