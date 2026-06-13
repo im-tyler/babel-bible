@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Evolution of the atmosphere and biosphere</title>
+  <desc id="desc">A schematic placeholder diagram showing atmospheric oxygen levels through Earth history, marking the Great Oxidation Event, Snowball Earth, and the Cambrian Explosion.</desc>
+  <rect width="720" height="360" fill="#f6f1e7"/>
+  <g fill="none" stroke="#555" stroke-width="2">
+    <line x1="80" y1="280" x2="660" y2="280"/>
+    <line x1="80" y1="280" x2="80" y2="60"/>
+  </g>
+  <path d="M80 275 L340 273 Q368 270 378 210 L510 203 Q558 198 572 140 Q590 108 602 85 L660 78" fill="none" stroke="#2d5a3d" stroke-width="5"/>
+  <g fill="#8a4a8a">
+    <circle cx="378" cy="210" r="8"/>
+    <circle cx="572" cy="140" r="8"/>
+    <circle cx="602" cy="85" r="8"/>
+  </g>
+  <text x="378" y="238" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#8a4a8a">GOE ~2.4 Ga</text>
+  <text x="572" y="168" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#8a4a8a">Snowball Earth</text>
+  <text x="628" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#8a4a8a">Cambrian</text>
+  <text x="95" y="72" font-family="Inter, Arial, sans-serif" font-size="14" fill="#222">O&#8322;</text>
+  <text x="370" y="307" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222">4.5 Ga &#8592; time &#8594; present</text>
+  <text x="360" y="340" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#222">Atmosphere and biosphere evolution</text>
+</svg>

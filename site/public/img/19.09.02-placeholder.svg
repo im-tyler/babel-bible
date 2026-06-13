@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f8f8f8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Metapopulation Dynamics — Placeholder</text>
+  <rect x="50" y="50" width="700" height="180" rx="4" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1"/>
+  <text x="400" y="70" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">Landscape: green = habitat patches, grey = matrix</text>
+  <rect x="100" y="100" width="50" height="50" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="125" y="130" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">P1</text>
+  <rect x="250" y="90" width="40" height="40" rx="4" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="270" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">P2</text>
+  <rect x="400" y="110" width="60" height="60" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="430" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">P3</text>
+  <rect x="550" y="95" width="35" height="35" rx="4" fill="#ef5350" stroke="#c62828" stroke-width="1.5"/>
+  <text x="567" y="117" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">P4</text>
+  <text x="567" y="125" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#fff">ext</text>
+  <rect x="660" y="105" width="55" height="55" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="687" y="137" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">P5</text>
+  <line x1="150" y1="125" x2="250" y2="110" stroke="#1565c0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="290" y1="110" x2="400" y2="140" stroke="#1565c0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="460" y1="140" x2="550" y2="112" stroke="#1565c0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="585" y1="112" x2="660" y2="132" stroke="#1565c0" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="50" y="260" width="700" height="200" rx="4" fill="#fff" stroke="#bbb" stroke-width="1"/>
+  <text x="400" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">Levins model: p(t) approaching equilibrium p* = 1 - e/c</text>
+  <line x1="100" y1="440" x2="700" y2="440" stroke="#999" stroke-width="1"/>
+  <line x1="100" y1="300" x2="100" y2="440" stroke="#999" stroke-width="1"/>
+  <text x="95" y="445" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">0</text>
+  <text x="95" y="305" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">1</text>
+  <text x="400" y="458" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">time</text>
+  <text x="75" y="370" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666" transform="rotate(-90,75,370)">p(t)</text>
+  <path d="M100,435 C200,430 300,400 400,360 C500,340 550,335 600,335" stroke="#42a5f5" stroke-width="2" fill="none"/>
+  <line x1="100" y1="335" x2="700" y2="335" stroke="#ef5350" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="710" y="338" font-family="sans-serif" font-size="10" fill="#ef5350">p*</text>
+</svg>

@@ -11472,6 +11472,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### astronomy.stellar-endpoints
 
+
+### astronomy.galaxy-structure
+
+- **title**: Galaxy classification and structure: Hubble sequence, bulge/disk/halo, dark matter halos
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Stellar endpoints: white dwarfs (Chandrasekhar limit), neutron stars, pulsars, black holes
 - **unit**: `28.02.04`
 - **prerequisites**: [`astronomy.stars-stellar-evolution-hr-diagram`]
