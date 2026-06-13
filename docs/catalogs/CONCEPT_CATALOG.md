@@ -10558,6 +10558,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Mills 1959, Weber 1904, Durkheim 1895, Merton 1968, Bourdieu 1977, Comte 1830-1842; secondary: Giddens, Conley, Ritzer"
 - **notes**: Foundational unit for the sociology section. The sociological imagination (Mills), founding figures and perspectives (structural-functionalism, conflict theory, symbolic interactionism, feminist theory), research methods (surveys, interviews, participant observation, content analysis, ethnography, secondary data), ethics in research, the relationship between sociology and other social sciences. MULTI-PERSPECTIVE: sociology emerged from both European and non-European intellectual traditions; founding figures include women and non-Western thinkers often excluded from canons; feminist, postcolonial, and critical race perspectives as fundamental frameworks not add-ons. No Lean formalisation; human-review-only at all tiers.
 
+### sociology.research-methods
+
+- **title**: Sociological research methods: surveys, ethnography, experiments, mixed methods
+- **unit**: `30.01.02`
+- **prerequisites**: `sociology.sociological-imagination-methods` (30.01.01)
+- **tier_anchors**:
+  - beginner: "Giddens and Sutton, Sociology (8e), Ch. 2"
+  - intermediate: "Macionis, Sociology (17e), Ch. 1"
+  - master: "Geertz 1973; Small 2009; Seawright and Gerring 2008; Morgan and Winship 2015; Salganik 2018"
+- **notes**: Survey research (questionnaire design, probability and non-probability sampling, sampling error, nonresponse bias, GSS, Pew, WVS), ethnography (participant observation, thick description, reflexivity, going native, Whyte, Duneier, Anderson, Bourgois, Desmond, digital ethnography), experiments (laboratory, field, natural experiments, random assignment, internal vs external validity, vignette studies, audit studies — Pager 2003), comparative-historical methods (Mill's methods, process tracing, path dependence, critical junctures, Tilly, Skocpol, Moore), content analysis (grounded theory coding, quantitative content analysis), mixed methods (sequential, concurrent, transformative, triangulation). Master tier: positivism vs interpretivism vs critical theory, standpoint epistemology (Harding, Smith), performativity of methods (Law-Urry), case selection logic (Small, Seawright-Gerring), relational sociology (Emirbayer), big data and computational sociology (Salganik), causal inference (counterfactuals, DAGs, propensity scores, IVs, RDD, DiD, fixed effects), critical realism (Bhaskar, Archer), research ethics (Belmont, IRBs, deception, big data ethics — Zimmer, Henrietta Lacks). MULTI-PERSPECTIVE: positivist, interpretivist, and critical traditions as each capturing genuine aspects of social reality; quantitative and qualitative methods as complementary not competing; standpoint and postcolonial critiques as foundational to methodological self-awareness; big data ethics as a live frontier. No Lean formalisation; human-review-only at all tiers.
+
 ### sociology.culture-society-global-perspective
 
 - **title**: Culture and society: a global perspective
