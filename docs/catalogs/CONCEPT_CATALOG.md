@@ -10330,6 +10330,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Hodgkin and Huxley 1952, Hubel and Wiesel 1959/1962, Sperry 1961/1968, Bliss and Lomo 1973, Meaney and Szyf 2005; review journals: Nature Reviews Neuroscience, Trends in Neurosciences"
 - **notes**: Neuroscience basics — neurons, synapses, action potentials, neurotransmitters, brain anatomy (lobes, limbic system, brainstem), methods of studying the brain (fMRI, EEG, PET, lesion studies, TMS), neuroplasticity, split-brain research, nature-nurture debate (genes vs environment, epigenetics, gene-environment interaction), gut-brain axis, consciousness and the brain. MULTI-PERSPECTIVE: neuromania critique (everything reduced to brain scans), history of unethical experiments (lobotomies presented as treatment, Moniz Nobel Prize), nature vs nurture with emphasis on gene-environment interaction and epigenetics dissolving the dichotomy. WEIRD populations and animal model generalisability limitations. Hodgkin-Huxley model as quantitative foundation. Consciousness: hard problem, GWT, IIT, higher-order theories. No Lean formalisation; human-review-only at I/M tier.
 
+### psychology.brain-regions
+
+- **title**: Brain regions and function: lobes, limbic system, basal ganglia, cerebellum
+- **unit**: `29.02.02`
+- **prerequisites**: `psychology.neuroscience-brain-behavior` (29.02.01)
+- **tier_anchors**:
+  - beginner: "Myers and DeWall, Psychology (13e), Ch. 2"
+  - intermediate: "Kandel et al., Principles of Neural Science (6e), Ch. 17-22"
+  - master: "Phineas Gage case (Harlow 1868); Broca and Wernicke (1861/1874)"
+- **notes**: Brain regions and functional specialization — four cortical lobes (frontal: prefrontal cortex, primary motor cortex, motor homunculus, Broca's area; parietal: somatosensory cortex, somatosensory homunculus, spatial neglect, dorsal stream; temporal: auditory cortex, Wernicke's area, fusiform face area, inferotemporal cortex; occipital: V1-V5, dorsal and ventral visual streams), limbic system (amygdala and fear conditioning, hippocampus and declarative memory, hypothalamus and homeostasis, cingulate cortex), basal ganglia (direct and indirect pathways, dopamine and reward, Parkinson's and Huntington's disease), cerebellum (motor learning, error correction, cerebellar cognitive affective syndrome), brainstem (reticular formation, cranial nerves). Lesion method and double dissociation logic (Broca and Wernicke as double dissociation), Phineas Gage, Patient HM. Advanced: fMRI BOLD signal and limits, DTI and connectomics, Human Connectome Project, Glasser 2016 180-area parcellation, resting-state networks (default mode, salience, central executive), split-brain (Sperry and Gazzaniga), neural coding (sparse vs distributed, grandmother cells), TMS and optogenetics for causal inference, single-unit recording in epilepsy patients, BRAIN Initiative and Allen Brain Atlas. MULTI-PERSPECTIVE: localization debate (phrenology to Broca to holistic reaction of Flourens/Goldstein/Head), modern synthesis of regional specialization plus network distribution. No Lean formalisation; human-review-only at I/M tier.
+
 ### psychology.personality-theories-assessment
 
 - **title**: Personality theories and assessment
@@ -10368,6 +10379,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.statistical-reasoning
 
+
+### psychology.neurotransmitter-systems
+
+- **title**: Neurotransmitter systems: dopamine, serotonin, norepinephrine, GABA, glutamate
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.neuroplasticity
+
+- **title**: Neuroplasticity and neurogenesis: LTP, critical periods, recovery from brain injury
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Statistical reasoning in psychology: effect size, power, replication crisis
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
