@@ -10412,6 +10412,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.forgetting-false-memory
 
+
+### psychology.decision-making
+
+- **title**: Decision-making and judgment: heuristics, biases, dual-process theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.language-acquisition
+
+- **title**: Language acquisition: critical period, Chomsky nativism vs connectionist accounts
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Forgetting and false memory: interference, decay, misinformation effect
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
