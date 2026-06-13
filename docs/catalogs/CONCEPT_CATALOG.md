@@ -10483,6 +10483,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.emotion-theories
 
+
+### psychology.stress-health
+
+- **title**: Stress and health psychology: allostatic load, coping, psychoneuroimmunology
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Emotion theories: James-Lange, Cannon-Bard, Schachter-Singer, appraisal theory
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
