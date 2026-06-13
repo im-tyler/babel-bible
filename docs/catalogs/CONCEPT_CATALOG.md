@@ -10471,6 +10471,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.anxiety-trauma
 
+
+### psychology.psychotic-neurodevelopmental
+
+- **title**: Psychotic and neurodevelopmental disorders: schizophrenia, ADHD, autism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Anxiety and trauma disorders: GAD, PTSD, OCD; fear conditioning models
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
