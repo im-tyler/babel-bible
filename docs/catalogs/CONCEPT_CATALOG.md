@@ -10388,6 +10388,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.neuroplasticity
 
+
+### psychology.visual-perception
+
+- **title**: Visual perception: depth cues, object recognition, top-down vs bottom-up processing
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.auditory-somatosensory
+
+- **title**: Auditory and somatosensory systems; pain and gate-control theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Neuroplasticity and neurogenesis: LTP, critical periods, recovery from brain injury
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
