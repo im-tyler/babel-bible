@@ -10474,6 +10474,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.psychotic-neurodevelopmental
 
+
+### psychology.evidence-based-therapies
+
+- **title**: Evidence-based therapies: CBT, DBT, exposure therapy; efficacy meta-analyses
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Psychotic and neurodevelopmental disorders: schizophrenia, ADHD, autism
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub

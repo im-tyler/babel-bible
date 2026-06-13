@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#999"/>
+    </marker>
+  </defs>
+  <rect width="800" height="500" fill="#f8f8f8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Evidence-Based Therapies — Placeholder</text>
+
+  <!-- Left panel: CBT cognitive model -->
+  <rect x="30" y="55" width="300" height="395" rx="4" fill="#fff" stroke="#bbb" stroke-width="1"/>
+  <text x="180" y="76" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">CBT cognitive model</text>
+  <text x="180" y="91" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#888">thoughts mediate the effect of situations on feelings</text>
+
+  <!-- Triangle nodes -->
+  <!-- Top: Situation -->
+  <rect x="130" y="115" width="100" height="34" rx="16" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.2"/>
+  <text x="180" y="136" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1565c0">Situation</text>
+  <!-- Bottom-left: Emotion + Behavior -->
+  <rect x="40" y="350" width="130" height="34" rx="16" fill="#fdecea" stroke="#c62828" stroke-width="1.2"/>
+  <text x="105" y="371" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c62828">Emotion + Behavior</text>
+  <!-- Bottom-right: Automatic thought -->
+  <rect x="200" y="350" width="120" height="34" rx="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.2"/>
+  <text x="260" y="371" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2e7d32">Automatic thought</text>
+
+  <!-- Arrows (clockwise triangle) -->
+  <line x1="160" y1="149" x2="125" y2="348" stroke="#999" stroke-width="1.4" marker-end="url(#arrR)"/>
+  <line x1="170" y1="367" x2="198" y2="367" stroke="#999" stroke-width="1.4" marker-end="url(#arrR)"/>
+  <line x1="245" y1="348" x2="205" y2="151" stroke="#999" stroke-width="1.4" marker-end="url(#arrR)"/>
+
+  <!-- distortions list -->
+  <text x="45" y="265" font-family="sans-serif" font-size="9.5" fill="#666">distortions:</text>
+  <text x="45" y="280" font-family="sans-serif" font-size="9" fill="#888">all-or-nothing</text>
+  <text x="45" y="293" font-family="sans-serif" font-size="9" fill="#888">catastrophizing</text>
+  <text x="45" y="306" font-family="sans-serif" font-size="9" fill="#888">mind reading</text>
+  <text x="45" y="319" font-family="sans-serif" font-size="9" fill="#888">emotional reasoning</text>
+  <text x="250" y="265" font-family="sans-serif" font-size="9.5" fill="#666">intervention:</text>
+  <text x="250" y="280" font-family="sans-serif" font-size="9" fill="#888">catch</text>
+  <text x="250" y="293" font-family="sans-serif" font-size="9" fill="#888">test vs evidence</text>
+  <text x="250" y="306" font-family="sans-serif" font-size="9" fill="#888">behavioral experiment</text>
+  <text x="250" y="319" font-family="sans-serif" font-size="9" fill="#888">reframe</text>
+
+  <!-- Right panel: CBT effect sizes by disorder (Hofmann 2012, approximate Hedges g) -->
+  <rect x="370" y="55" width="400" height="395" rx="4" fill="#fff" stroke="#bbb" stroke-width="1"/>
+  <text x="570" y="76" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">CBT effect size by disorder (approx. Hedges g)</text>
+  <text x="570" y="90" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#888">Hofmann et al. 2012, 269 meta-analyses</text>
+
+  <!-- Axes -->
+  <line x1="530" y1="110" x2="530" y2="410" stroke="#999" stroke-width="1"/>
+  <line x1="530" y1="410" x2="755" y2="410" stroke="#999" stroke-width="1"/>
+  <!-- vertical reference lines for g = 0.5, 1.0 -->
+  <line x1="600" y1="110" x2="600" y2="410" stroke="#eee" stroke-width="1"/>
+  <line x1="670" y1="110" x2="670" y2="410" stroke="#eee" stroke-width="1"/>
+  <text x="530" y="425" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">0</text>
+  <text x="600" y="425" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">0.5</text>
+  <text x="670" y="425" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">1.0</text>
+  <text x="740" y="425" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">1.5</text>
+  <text x="642" y="442" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Hedges g</text>
+
+  <!-- Bars: x maps g=0 -> x=530, scale 140 px per 1.0 -->
+  <!-- OCD g~1.05 -->
+  <rect x="530" y="120" width="147" height="20" fill="#c62828" opacity="0.8"/>
+  <text x="524" y="134" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">OCD</text>
+  <text x="683" y="134" font-family="sans-serif" font-size="9" fill="#c62828">1.05</text>
+  <!-- PTSD g~0.95 -->
+  <rect x="530" y="148" width="133" height="20" fill="#c62828" opacity="0.8"/>
+  <text x="524" y="162" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">PTSD</text>
+  <text x="669" y="162" font-family="sans-serif" font-size="9" fill="#c62828">0.95</text>
+  <!-- Panic g~0.78 -->
+  <rect x="530" y="176" width="109" height="20" fill="#ef6c00" opacity="0.8"/>
+  <text x="524" y="190" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Panic</text>
+  <text x="645" y="190" font-family="sans-serif" font-size="9" fill="#ef6c00">0.78</text>
+  <!-- Social anxiety g~0.62 -->
+  <rect x="530" y="204" width="87" height="20" fill="#ef6c00" opacity="0.8"/>
+  <text x="524" y="218" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Social anx.</text>
+  <text x="623" y="218" font-family="sans-serif" font-size="9" fill="#ef6c00">0.62</text>
+  <!-- GAD g~0.73 -->
+  <rect x="530" y="232" width="102" height="20" fill="#ef6c00" opacity="0.8"/>
+  <text x="524" y="246" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">GAD</text>
+  <text x="638" y="246" font-family="sans-serif" font-size="9" fill="#ef6c00">0.73</text>
+  <!-- Somatoform g~0.70 -->
+  <rect x="530" y="260" width="98" height="20" fill="#ef6c00" opacity="0.8"/>
+  <text x="524" y="274" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Somatoform</text>
+  <text x="634" y="274" font-family="sans-serif" font-size="9" fill="#ef6c00">0.70</text>
+  <!-- Anger g~0.71 -->
+  <rect x="530" y="288" width="99" height="20" fill="#ef6c00" opacity="0.8"/>
+  <text x="524" y="302" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Anger</text>
+  <text x="635" y="302" font-family="sans-serif" font-size="9" fill="#ef6c00">0.71</text>
+  <!-- Insomnia g~0.71 -->
+  <rect x="530" y="316" width="99" height="20" fill="#1565c0" opacity="0.8"/>
+  <text x="524" y="330" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Insomnia</text>
+  <text x="635" y="330" font-family="sans-serif" font-size="9" fill="#1565c0">0.71</text>
+  <!-- Substance use g~0.60 -->
+  <rect x="530" y="344" width="84" height="20" fill="#1565c0" opacity="0.8"/>
+  <text x="524" y="358" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Substance</text>
+  <text x="620" y="358" font-family="sans-serif" font-size="9" fill="#1565c0">0.60</text>
+  <!-- Depression g~0.67 -->
+  <rect x="530" y="372" width="94" height="20" fill="#1565c0" opacity="0.8"/>
+  <text x="524" y="386" text-anchor="end" font-family="sans-serif" font-size="10" fill="#444">Depression</text>
+  <text x="630" y="386" font-family="sans-serif" font-size="9" fill="#1565c0">0.67</text>
+
+  <!-- Legend -->
+  <rect x="540" y="120" width="0" height="0"/>
+  <text x="540" y="120" font-family="sans-serif" font-size="0"></text>
+  <rect x="540" y="395" width="10" height="8" fill="#c62828" opacity="0.8"/>
+  <text x="554" y="403" font-family="sans-serif" font-size="8.5" fill="#666">large (g &gt; 0.8)</text>
+  <rect x="620" y="395" width="10" height="8" fill="#ef6c00" opacity="0.8"/>
+  <text x="634" y="403" font-family="sans-serif" font-size="8.5" fill="#666">moderate</text>
+  <rect x="690" y="395" width="10" height="8" fill="#1565c0" opacity="0.8"/>
+  <text x="704" y="403" font-family="sans-serif" font-size="8.5" fill="#666">moderate (low)</text>
+
+  <text x="400" y="478" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">29.10.02</text>
+</svg>
