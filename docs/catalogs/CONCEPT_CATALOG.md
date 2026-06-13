@@ -9596,6 +9596,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.island-biogeography
+
+- **title**: Island biogeography: species-area relationships, equilibrium theory, turnover
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.energy-flow
+
+- **title**: Ecosystem energy flow: trophic pyramids, primary productivity, ecological efficiency
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
