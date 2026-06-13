@@ -11611,6 +11611,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.ocean-chemistry
 
+
+### earth-science.groundwater
+
+- **title**: Groundwater systems: aquifers, Darcy's law, recharge and depletion
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.surface-hydrology
+
+- **title**: Surface hydrology: watershed dynamics, flood frequency analysis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Ocean chemistry: salinity, carbonate system, ocean acidification
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
