@@ -11593,6 +11593,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.volcanic-hazards
 
+
+### earth-science.atmospheric-circulation
+
+- **title**: Atmospheric circulation: Hadley, Ferrel, Polar cells; jet streams, Coriolis effect
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.weather-systems
+
+- **title**: Weather systems: fronts, cyclones, severe weather formation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Volcanic hazards: eruption styles, pyroclastic flows, volcanic risk assessment
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
