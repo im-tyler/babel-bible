@@ -10579,6 +10579,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Mayor and Queloz 1995, Marcy and Butler 1996, Charbonneau et al. 2000, Borucki et al. 2011 (Kepler), Batalha et al. 2013, Gillon et al. 2017 (TRAPPIST-1); secondary: Seager, Exoplanet Atmospheres; Kasting, How to Find a Habitable Planet"
 - **notes**: Detection methods (radial velocity/Doppler spectroscopy with planet mass m sin i, transit photometry with planet radius and orbital period, direct imaging for wide-orbit giant planets, microlensing for free-floating and distant planets, astrometry with Gaia, transit timing variations), exoplanet demographics from Kepler (Hot Jupiters, super-Earths, mini-Neptunes, radius gap/Fulton gap, occurrence rates), planetary system architectures (resonant chains, compact systems, comparison to solar system), habitability (circumstellar habitable zone and its dependence on stellar type, atmospheric composition as biosignature, tidal locking of M-dwarf planets, runaway greenhouse versus runaway glaciation, galactic habitable zone), Drake equation and its terms, Fermi paradox. No Lean formalisation; human-review-only at all tiers.
 
+### astronomy.exoplanet-detection
+
+- **title**: Exoplanet detection methods: radial velocity, transit photometry, direct imaging
+- **unit**: `28.05.02`
+- **prerequisites**: `astronomy.exoplanets-detection-habitability` (28.05.01)
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 23"
+  - intermediate: "Perryman, M. — The Exoplanet Handbook, 2nd ed. (2018)"
+  - master: "Mayor, M. and Queloz, D. — A Jupiter-mass companion to a solar-type star (1995)"
+- **notes**: The three principal detection methods developed formally. Radial velocity (Doppler spectroscopy): line-of-sight reflex velocity, RV semi-amplitude K scaling as m_p sin(i) P^(-1/3) M_star^(-2/3), stellar activity jitter floor, ESPRESSO ~0.1 m/s precision, 51 Peg b. Transit photometry: transit depth delta = (R_p/R_star)^2, transit probability R_star/a, ingress/egress, limb darkening, Mandel-Agol light-curve modelling, Kepler/TESS/CHEOPS, transit timing variations. Direct imaging: diffraction-limited angular separation, contrast curves, coronagraphs and starshades, adaptive optics (VLT/SPHERE, Gemini/GPI), JWST, HR 8799. Supplementary methods (astrometry with Gaia, microlensing, pulsar and transit timing). Atmospheric characterisation: transmission/emission spectroscopy, Rossiter-McLaughlin spin-orbit alignment, retrieval codes (PLATON, ATMO, NEMESIS). Future facilities (Roman, ARIEL, Habitable Worlds Observatory/LUVOIR). Complementarity of methods across the mass-separation plane. No Lean formalisation; human-review-only at all tiers.
+
 ### astronomy.space-exploration-history-future
 
 - **title**: Space exploration: history and future
@@ -10589,6 +10600,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Siddiqi, Challenge to Apollo; Launius, Historical Dimensions of the Space Age"
   - master: "primary sources: Tsiolkovsky 1903, Goddard 1919, Oberth 1923, Von Braun, Korolev, JFK Rice speech 1962, Apollo mission transcripts, Rogers Commission 1986, CAIB 2003; secondary: Burrows, This New Ocean; McDougall, The Heavens and the Earth; Logsdon, John F. Kennedy and the Race to the Moon"
 - **notes**: Rocketry fundamentals (Tsiolkovsky rocket equation, staging, specific impulse, orbital mechanics: Hohmann transfer, gravity assists, Lagrange points), history (V-2 and origins of rocketry, Sputnik and the Space Race, Vostok/Mercury/Gemini/Apollo programs, Apollo 11 Moon landing 1969, Space Shuttle program, Mir and Skylab, International Space Station, Chinese space program Shenzhou/Tiangong), planetary exploration (Viking, Voyager Grand Tour, Cassini-Huygens, Mars rovers Spirit/Opportunity/Curiosity/Perseverance, New Horizons Pluto flyby, JWST), private spaceflight (SpaceX reusable rockets and Starship, Blue Origin, Rocket Lab), future directions (Moon base Artemis program, Mars crewed missions, asteroid mining, space debris Kessler syndrome, interstellar probes Breakthrough Starshot). MULTI-PERSPECTIVE: Space race as Cold War competition AND scientific achievement; space access inequality between Global North and Global South; ethical questions about planetary protection and space resource extraction. No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.space-telescope-science
+
+- **title**: Space telescope science: multiwavelength astronomy, gravitational-wave observatories
+- **unit**: `28.06.02`
+- **prerequisites**: `astronomy.space-exploration-history-future` (28.06.01)
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 6-7"
+  - intermediate: "Harwit, M. — Astronomy: From the Earth to the Universe (1987)"
+  - master: "Abbott, B. P. et al. — GW150914: First direct gravitational-wave detection (2016)"
+- **notes**: Atmospheric windows and the rationale for space astronomy (UV/IR/X-ray/gamma blocked); multiwavelength missions across the spectrum (radio VLA/ALMA, sub-mm, IR IRAS/Spitzer/JWST, optical/UV HST, X-ray Chandra/XMM-Newton/NuSTAR, gamma Fermi LAT/Swift/INTEGRAL); diffraction limit theta ~ lambda/D and collecting area D^2; spectroscopy (echelle, IFUs, grisms); adaptive optics; interferometry and VLBI, Event Horizon Telescope; gravitational-wave detection by laser interferometry (LIGO 4 km arms, strain h ~ 1e-21, LIGO/Virgo/KAGRA network, LISA for millihertz); multi-messenger astronomy (GW170817 neutron-star merger with gamma-ray, kilonova, afterglow). Master tier: telescope optical design (Ritchey-Chretien, three-mirror anastigmat), JWST sunshield and L2 thermal control, detector technologies (CCDs, H2RG, TES, MKID, SNSPD), radiometer equation and sensitivity, matched filtering and template banks (post-Newtonian, numerical relativity), LIGO noise budget (seismic, thermal, shot, radiation pressure) and squeezing, LISA mission design, pulsar timing arrays (NANOGrav/EPTA/PPTA/IPTA) and stochastic background, EHT black-hole shadows (M87*, Sgr A*), future missions (Roman, Habitable Worlds Observatory/LUVOIR/HabEx, Lynx, ARIEL, THESEUS), time-domain pipelines (ZTF, Rubin/LSST, alert brokers), virtual observatory. No Lean formalisation; human-review-only at all tiers.
 
 ### anthropology.anthropology-four-fields-holism
 
@@ -11461,7 +11483,21 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Mayor and Queloz 1995; Marcy and Butler 1996; Charbonneau et al. 2000; Borucki et al. 2011"
 - **notes**: Detection methods: radial velocity (Doppler spectroscopy), transit photometry, direct imaging, microlensing, astrometry, and timing methods. The transit method in detail: light curves, transit depth, duration, and the information extracted. Exoplanet demographics from Kepler, TESS, and ground-based surveys. Hot Jupiters, super-Earths, mini-Neptunes, and the radius valley. Habitable zones and the conditions for liquid water. Atmospheric characterization via transmission spectroscopy, emission spectroscopy, and direct imaging. Biosignatures and the search for life. The Drake equation and Fermi paradox. Future missions: JWST, HabEx, LUVOIR, and the prospect of detecting signs of life.
 
+### astronomy.exoplanet-detection
+
+- **title**: Exoplanet detection methods: radial velocity, transit photometry, direct imaging
+- **unit**: `28.05.02`
+- **prerequisites**: [`astronomy.exoplanets-detection-habitability`]
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 23"
+  - intermediate: "Perryman, The Exoplanet Handbook (2e); Deeg and Belmonte, Handbook of Exoplanets"
+  - master: "Mayor and Queloz 1995; Charbonneau et al. 2000; Borucki et al. 2010; Marois et al. 2008"
+- **notes**: Radial velocity (Doppler spectroscopy, semi-amplitude K, m_p sin i), transit photometry (depth, probability, limb darkening, Mandel-Agol), direct imaging (contrast, coronagraphs, adaptive optics), astrometry, microlensing, and timing methods. Transit light-curve modelling, Rossiter-McLaughlin effect, transmission/emission spectroscopy, atmospheric retrieval. Complementarity across the mass-separation plane. No Lean formalisation; human-review-only at all tiers.
+
 ### astronomy.space-exploration-history-future
+
+
+### astronomy.space-telescope-science
 
 
 ### astronomy.stellar-evolution
@@ -11490,6 +11526,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### astronomy.dark-matter-dark-energy
 
+
+### astronomy.exoplanet-demographics
+
+- **title**: Exoplanet demographics: occurrence rates, habitability zone, atmospheric characterization
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Dark matter and dark energy: evidence, candidates, accelerating expansion
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
