@@ -10535,6 +10535,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Hertzsprung 1911, Russell 1913, Eddington 1926, Chandrasekhar 1931, Bethe 1939, Baade and Zwicky 1934, Oppenheimer and Snyder 1939, Burbidge et al. 1957, Cameron 1957; secondary: Kippenhahn and Weigert, Stellar Structure and Evolution; Hansen, Kawaler, and Trimble, Stellar Interiors"
 - **notes**: Stellar properties (magnitude system apparent/absolute, distance modulus, spectral classification OBAFGKM, luminosity classes I-V), Hertzsprung-Russell diagram (main sequence, giants, supergiants, white dwarfs; luminosity-temperature-radius relation), stellar structure (hydrostatic equilibrium, energy transport radiation/convection, nuclear fusion pp-chain and CNO cycle), stellar evolution (low-mass versus high-mass tracks, red giant and asymptotic giant branch, helium flash, planetary nebulae, supernovae Type Ia and Type II), stellar remnants (white dwarfs, Chandrasekhar limit, neutron stars, pulsars, black holes, Schwarzschild radius), binary star systems (mass transfer, accretion, novae). No Lean formalisation; human-review-only at all tiers.
 
+### astronomy.stellar-structure
+
+- **title**: Stellar structure: hydrostatic equilibrium, nuclear burning, the PP chain and CNO cycle
+- **unit**: `28.02.02`
+- **prerequisites**: `astronomy.stars-stellar-evolution-hr-diagram` (28.02.01)
+- **tier_anchors**:
+  - beginner: "Bennett et al., The Cosmic Perspective (8e), Ch. 14; Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 12-16"
+  - intermediate: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 12-16; Kippenhahn and Weigert, Stellar Structure and Evolution (1990)"
+  - master: "primary sources: Eddington 1926, Bethe 1939, Bahcall et al. 2001; secondary: Kippenhahn and Weigert, Stellar Structure and Evolution; Hansen, Kawaler, and Trimble, Stellar Interiors"
+- **notes**: Equations of stellar structure (hydrostatic equilibrium, mass continuity, energy generation, radiative and convective energy transport), boundary conditions, equation of state (ideal gas, degeneracy, radiation pressure), opacity sources (electron scattering, free-free, bound-free, Kramers), nuclear energy generation (proton-proton chain ppI/ppII/ppIII/pep/hep and the CNO bi-cycle), temperature sensitivities (epsilon_pp ~ T^4, epsilon_CNO ~ T^17), Standard Solar Model and Bahcall neutrino flux, solar neutrino problem and its SNO resolution via neutrino oscillations, stellar timescales (dynamical, Kelvin-Helmholtz thermal, nuclear), virial theorem. Master covers Lane-Emden polytropes (n=3, n=1.5), Eddington standard model, OPAL/OP opacity tables, MESA, helioseismology, solar abundance problem, Hayashi track, brown dwarf limit, Schonberg-Chandrasekhar limit. No Lean formalisation; reviewer-attested.
+
 ### astronomy.galaxies-milky-way-classification
 
 - **title**: Galaxies and the Milky Way
@@ -11452,6 +11463,23 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### astronomy.space-exploration-history-future
 
+
+### astronomy.stellar-evolution
+
+- **title**: Stellar evolution: main sequence to red giant, HR diagram tracks
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### astronomy.stellar-endpoints
+
+- **title**: Stellar endpoints: white dwarfs (Chandrasekhar limit), neutron stars, pulsars, black holes
+- **unit**: `28.02.04`
+- **prerequisites**: [`astronomy.stars-stellar-evolution-hr-diagram`]
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 16-18"
+  - intermediate: "Shapiro and Teukolsky, Black Holes, White Dwarfs, and Neutron Stars (1983)"
+  - master: "Chandrasekhar 1931; Oppenheimer and Snyder 1939; Hewish et al. 1968"
+- **notes**: Stellar remnants: white dwarfs (electron degeneracy pressure, Chandrasekhar limit ~1.4 solar masses, Type Ia supernovae), neutron stars (neutron degeneracy pressure, Tolman-Oppenheimer-Volkoff limit, pulsars, magnetars), and stellar black holes (Schwarzschild and Kerr metrics, event horizons, ISCO, black-hole thermodynamics). Observational channels: X-ray binaries, LIGO/Virgo gravitational waves (GW150914), GW170817 tidal deformability, NICER radius constraints, PSR J0740+6620 mass. No Lean formalisation; reviewer-attested.
 - **title**: Space exploration: history and future
 - **unit**: `28.06.01`
 - **prerequisites**: [`astronomy.solar-system-planets-moons`]
