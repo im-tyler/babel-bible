@@ -10468,6 +10468,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.psychodynamic-humanistic
 
+
+### psychology.anxiety-trauma
+
+- **title**: Anxiety and trauma disorders: GAD, PTSD, OCD; fear conditioning models
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Psychodynamic and humanistic theories: Freud, Erikson, Rogers, Maslow
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
