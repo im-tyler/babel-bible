@@ -11620,6 +11620,24 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.surface-hydrology
 
+
+### earth-science.radiative-forcing
+
+- **title**: Radiative forcing and feedback loops: greenhouse gases, ice-albedo, water vapor
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.climate-proxies
+
+- **title**: Climate proxies and paleo-climate: ice cores, tree rings, ocean sediment records
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.climate-impacts
+
+- **title**: Impacts and adaptation: sea-level rise, extreme events, mitigation scenarios
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Surface hydrology: watershed dynamics, flood frequency analysis
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
