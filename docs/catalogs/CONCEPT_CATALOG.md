@@ -9488,6 +9488,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.linkage-genetic-maps
+
+- **title**: Linkage, crossing over, genetic maps: LOD scores, recombination frequencies
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.sex-linked-inheritance
+
+- **title**: Sex-linked inheritance, dosage compensation, X-inactivation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
