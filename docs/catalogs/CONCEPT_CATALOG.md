@@ -10436,6 +10436,24 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.adult-development
 
+
+### psychology.attitudes-persuasion
+
+- **title**: Attitudes and persuasion: cognitive dissonance, elaboration likelihood model
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.group-dynamics
+
+- **title**: Group dynamics: conformity, obedience, groupthink, social loafing
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.prejudice-discrimination
+
+- **title**: Prejudice and discrimination: implicit bias, stereotype threat, contact hypothesis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Adult development and aging: identity, midlife, cognitive change
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
