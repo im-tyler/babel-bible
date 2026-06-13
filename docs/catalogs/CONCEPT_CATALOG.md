@@ -9524,6 +9524,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.coalescent-theory
+
+- **title**: Coalescent theory: gene genealogy, TMRCA, linkage disequilibrium
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### biology.heritability-twin-studies
+
+- **title**: Heritability: twin studies, additive vs dominance variance
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
 ### `philosophy.good-life-eudaimonia-flourishing`
 
 - **title**: The good life: eudaimonia, flourishing, and meaning
