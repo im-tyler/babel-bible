@@ -203,7 +203,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 8 chapters (18 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Astronomy (28)** — same plan file — 15 new units (all 6 chapters). Sources: Carroll-Ostlie 2017, Ryden 2017. 6 → 21 units.
+- [x] **Astronomy (28)** — same plan file — 15 new units (all 6 chapters). Sources: Carroll-Ostlie 2017, Ryden 2017. 6 → 21 units. All 27/27 validated.
+  - [x] PRODUCE: 6 chapters (15 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **Psychology (29)** — `plans/expansion/social-sciences/` — 27 new units (all 12 chapters). Sources: Myers 2021, Kandel 2021. 12 → 39 units.
 
