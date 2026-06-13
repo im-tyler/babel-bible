@@ -10480,6 +10480,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.biological-treatments
 
+
+### psychology.emotion-theories
+
+- **title**: Emotion theories: James-Lange, Cannon-Bard, Schachter-Singer, appraisal theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Biological treatments: pharmacotherapy, ECT, TMS, psychedelic-assisted therapy
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
