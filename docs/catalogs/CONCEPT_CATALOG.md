@@ -11478,6 +11478,24 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### astronomy.agn-quasars
 
+
+### astronomy.big-bang-nucleosynthesis
+
+- **title**: Big Bang nucleosynthesis: primordial abundances of H, He, Li
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### astronomy.cosmic-microwave-background
+
+
+### astronomy.dark-matter-dark-energy
+
+- **title**: Dark matter and dark energy: evidence, candidates, accelerating expansion
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+- **title**: Cosmic microwave background: temperature fluctuations, acoustic peaks, LCDM parameters
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Active galactic nuclei and quasars: accretion onto supermassive black holes
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
