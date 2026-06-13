@@ -10421,6 +10421,24 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.language-acquisition
 
+
+### psychology.cognitive-development
+
+- **title**: Cognitive development: Piaget stages, Vygotsky ZPD, theory of mind
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.moral-development
+
+- **title**: Moral development: Kohlberg stages, Gilligan critique, moral foundations theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.adult-development
+
+- **title**: Adult development and aging: identity, midlife, cognitive change
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Language acquisition: critical period, Chomsky nativism vs connectionist accounts
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
