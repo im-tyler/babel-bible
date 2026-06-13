@@ -11575,6 +11575,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.mantle-convection
 
+
+### earth-science.rock-cycle
+
+- **title**: Rock cycle and igneous processes: crystallization, Bowen's reaction series
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.metamorphic-sedimentary
+
+- **title**: Metamorphic and sedimentary rocks: facies, diagenesis, classification
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Mantle convection and driving forces: slab pull, ridge push, hot spots
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
