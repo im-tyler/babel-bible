@@ -10397,6 +10397,24 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.auditory-somatosensory
 
+
+### psychology.conditioning
+
+- **title**: Classical and operant conditioning: schedules of reinforcement, extinction, latent learning
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.memory-systems
+
+- **title**: Memory systems: episodic, semantic, procedural; encoding, consolidation, retrieval
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### psychology.forgetting-false-memory
+
+- **title**: Forgetting and false memory: interference, decay, misinformation effect
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Auditory and somatosensory systems; pain and gate-control theory
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
