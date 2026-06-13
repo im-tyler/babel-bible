@@ -10253,6 +10253,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Wundt 1874, James 1890, Freud 1900, Watson 1913, Skinner 1938, Milgram 1963, Open Science Collaboration 2015, Henrich et al. 2010; secondary: Hergenhahn, Henley, Fancher"
 - **notes**: Foundational unit for the psychology section. What psychology is and is not, brief history (Wundt, James, Freud, behaviorism, cognitivism, biological revolution), the scientific method in psychology, research designs (experimental, correlational, observational, case study, longitudinal), ethics in research (Milgram, Zimbardo, Belmont Report, IRBs), statistics basics (descriptive, inferential, p-values, effect sizes, replication crisis), WEIRD sample problem. Multi-perspective coverage: psychoanalysis, behaviorism, and cognitivism as each having genuine insights and limitations; psychology used for both liberation (civil rights era prejudice research) and oppression (eugenics, scientific racism, CIA torture research); replication crisis as self-correction, not just failure; WEIRD bias means most universal findings are actually findings about American college students. Sets up shared vocabulary for all subsequent units. No Lean formalisation; human-review-only at all tiers.
 
+### psychology.research-designs
+
+- **title**: Research designs: experiments, quasi-experiments, correlational, and meta-analysis
+- **unit**: `29.01.02`
+- **prerequisites**: `psychology.introduction-psychology-research-methods` (29.01.01)
+- **tier_anchors**:
+  - beginner: "Myers and DeWall, Psychology (13e), Ch. 1"
+  - intermediate: "Gleitman et al., Psychology (8e), Ch. 1"
+  - master: "Campbell and Stanley, Experimental and Quasi-Experimental Designs (1963)"
+- **notes**: Deep dive into research design. True experiments (random assignment, between-subjects and within-subjects, factorial designs, main effects and interactions, placebo and double-blind controls), quasi-experiments (nonequivalent control group, interrupted time series, regression discontinuity), correlational designs (Pearson r, directionality and third-variable problems, statistical control via partial correlation and multiple regression), and meta-analysis (effect sizes Cohen's d, Hedges g, odds ratio; fixed vs random effects models; forest plots, funnel plots, publication bias, fail-safe N, Egger test; Cochrane Collaboration, PRISMA). Campbell-Stanley threats to internal validity (history, maturation, testing, instrumentation, regression to the mean, selection, attrition) and external/ecological validity. Master tier: Rubin causal model (potential outcomes, ATE, SATT), propensity score matching, instrumental variables (Angrist-Imbens-Rubin), difference-in-differences, sharp vs fuzzy regression discontinuity, multilevel and Bayesian meta-analysis, heterogeneity (I-squared, Q, tau-squared), meta-regression, PET-PEESE publication-bias correction, replication crisis (Open Science Collaboration 2015), pre-registration and Registered Reports, ManyLabs, WEIRD samples critique and cultural variation in effect sizes. No Lean formalisation; human-review-only at all tiers.
+
 ### psychology.sensation-perception
 
 - **title**: Sensation and perception: how the brain constructs reality from sensory data
@@ -10354,6 +10365,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### psychology.therapy-treatment-approaches
 
+
+### psychology.statistical-reasoning
+
+- **title**: Statistical reasoning in psychology: effect size, power, replication crisis
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Therapy and treatment approaches
 - **unit**: `29.10.01`
 - **prerequisites**: `psychology.psychological-disorders-diagnosis-controversy` (29.09.01)
