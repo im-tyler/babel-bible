@@ -11635,6 +11635,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.climate-impacts
 
+
+### earth-science.geologic-time
+
+- **title**: Geologic time scale: radiometric dating, stratigraphy, mass extinction boundaries
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.atmosphere-biosphere-evolution
+
+- **title**: Evolution of the atmosphere and biosphere: Great Oxidation Event, Snowball Earth
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Impacts and adaptation: sea-level rise, extreme events, mitigation scenarios
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
