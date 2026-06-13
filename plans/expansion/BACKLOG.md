@@ -199,7 +199,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 3 dependency waves (21 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Earth Science (27)** — `plans/expansion/earth-space/` — 18 new units (all 8 chapters). Sources: Tarbuck 2017, Grotzinger 2018. 8 → 26 units.
+- [x] **Earth Science (27)** — `plans/expansion/earth-space/` — 18 new units (all 8 chapters). Sources: Tarbuck 2017, Grotzinger 2018. 8 → 26 units. All 27/27 validated.
+  - [x] PRODUCE: 8 chapters (18 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **Astronomy (28)** — same plan file — 15 new units (all 6 chapters). Sources: Carroll-Ostlie 2017, Ryden 2017. 6 → 21 units.
 
