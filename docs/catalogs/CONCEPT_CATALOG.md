@@ -10502,6 +10502,28 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Copernicus 1543, Kepler 1609/1619, Newton 1687, Titius 1766, Bode 1772, Kuiper 1951, Tombaugh 1930, Cassini/Huygens mission data 2004-2017, Voyager mission data 1977-present; secondary: Beatty, Petersen, and Chaikin, The New Solar System; Taylor, Solar System Evolution"
 - **notes**: Solar system inventory (Sun, eight planets classified as terrestrial or Jovian, dwarf planets, asteroid belt, Kuiper Belt, Oort Cloud), orbital mechanics (Kepler's laws derived from Newton's gravitation, Titius-Bode relation and its limitations), comparative planetology (density, composition, magnetic fields, atmospheric evolution), moons and ring systems (tidal heating, synchronous rotation, Roche limit), small bodies (asteroids spectral types S/C/M, comets and their orbits, meteoroids/meteors/meteorites), formation (nebular hypothesis, solar nebula condensation sequence, core accretion model for giant planets, Nice model for late heavy bombardment and migration). MULTI-PERSPECTIVE: Geocentric versus heliocentric as paradigm shift; Indigenous astronomical knowledge systems; planetary science as interdisciplinary (geology, atmospheric science, chemistry). No Lean formalisation; human-review-only at all tiers.
 
+### astronomy.solar-system-formation
+
+- **title**: Formation of the solar system: nebular hypothesis, accretion, late heavy bombardment
+- **unit**: `28.01.02`
+- **prerequisites**: `astronomy.solar-system-planets-moons` (28.01.01)
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 1, 22; Bennett et al., The Cosmic Perspective (8e), Ch. 8"
+  - intermediate: "Raymo and Raymo, The Earth and the Solar System (1994); de Pater and Lissauer, Planetary Sciences (2e), Ch. 1, 12-13"
+  - master: "primary sources: Kant 1755, Laplace 1796, Safronov 1969, Wetherill 1990, Tsiganis et al. 2005, Walsh et al. 2011, Amelin et al. 2002; secondary: Taylor, Solar System Evolution; Chambers 2010"
+- **notes**: Nebular hypothesis (Kant 1755, Laplace 1796), solar nebula collapse and angular momentum conservation, protoplanetary disk structure (temperature gradient, turbulence, frost line at ~2.7 AU), planetesimal formation (dust aggregation, streaming instability), runaway and oligarchic accretion (Safronov 1969), terrestrial vs gas giant formation (core accretion vs disk instability, critical core mass ~10 Earth masses), pebble accretion model, chondrites and CAIs as oldest solids (4567.3 Ma), 26Al heating of planetesimals, oxygen isotope reservoirs (carbonaceous vs non-carbonaceous), Grand Tack hypothesis (Walsh 2011), Nice model (Tsiganis 2005) for giant planet migration and instability at ~600-800 Myr, Late Heavy Bombardment (3.8-4.1 Ga evidence from lunar cratering), Moon-forming giant impact (~4.5 Ga), isotopic chronology (Hf-W for core formation, U-Pb for accretion), asteroid belt depletion, Kuiper belt and Oort cloud formation, comparison with exoplanetary systems (hot Jupiters, super-Earths). No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.planetary-interiors
+
+- **title**: Planetary interiors and surfaces: comparative planetology, magnetic fields
+- **unit**: `28.01.03`
+- **prerequisites**: `astronomy.solar-system-planets-moons` (28.01.01)
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 1"
+  - intermediate: "de Pater and Lissauer, Planetary Sciences, 2nd ed. (2015)"
+  - master: "Stevenson, D. J. — Planetary magnetic fields (2003)"
+- **notes**: Planetary differentiation and the iron catastrophe (core-mantle-crust stratification driven by accretion, differentiation, radioactive decay, and tidal heating), hydrostatic structure equations (mass continuity and hydrostatic equilibrium with equation of state), comparative planetology of terrestrial bodies (Earth's plate tectonics and Wilson cycle with ridge push/slab pull, Mars Tharsis bulge and Valles Marineris with paleofields in ancient crust but no global field today, Venus thick lithosphere and episodic catastrophic resurfacing with runaway greenhouse, Mercury large iron core and lobate scarps with weak active dynamo probed by BepiColombo, Moon giant-impact formation and mare basalt), giant planets (metallic hydrogen interiors, strongest magnetic fields, Jupiter's Great Red Spot), ice giants (water-ammonia-methane mantles), icy moons (Europa subsurface ocean, Enceladus south-polar geysers, Ganymede's internally generated field), dynamo theory (MHD induction equation, Cowling's theorem, alpha-omega dynamo, Elsasser number, requirements of conducting fluid plus convection plus rotation, why Venus lacks a dynamo, Mars' dead dynamo, Mercury's weak dynamo, Ganymede's active dynamo), equation of state and Adams-Williamson equation, PREM reference model, moment-of-inertia constraints on density profiles, tidal heating and the Laplace resonance (Io, Europa, Enceladus), comparative tectonics (active-lid versus stagnant-lid versus episodic resurfacing), thermal evolution and the Urey ratio, crustal thickness from gravity and topography (GRAIL mission), ice-shell thickness from flexure and forced libration. No Lean formalisation; human-review-only at all tiers.
+
 ### astronomy.stars-stellar-evolution-hr-diagram
 
 - **title**: Stars and stellar evolution
@@ -11372,6 +11394,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Carroll and Ostlie, An Introduction to Modern Astrophysics (2e), Ch. 1-2, 7-8"
   - master: "Newton 1687 Principia; Laplace 1796 Exposition du Systeme du Monde; Safronov 1969; Lissauer 1993"
 - **notes**: Structure and composition of the solar system. Terrestrial and jovian planets. Moons, rings, asteroids, comets, Kuiper belt objects, and the Oort cloud. Formation via the nebular hypothesis. Solar system dynamics including Kepler's laws, orbital resonances, and tidal interactions. Comparative planetology. The Nice model and late heavy bombardment. Current exploration missions and open questions.
+
+### astronomy.solar-system-formation
+
+- **title**: Formation of the solar system: nebular hypothesis, accretion, late heavy bombardment
+- **unit**: `28.01.02`
+- **prerequisites**: [`astronomy.solar-system-planets-moons`]
+- **tier_anchors**:
+  - beginner: "Carroll and Ostlie, Introduction to Modern Astrophysics (2e), Ch. 1, 22"
+  - intermediate: "Raymo and Raymo, The Earth and the Solar System (1994)"
+  - master: "Safronov 1969; Wetherill 1990; Nice model (Tsiganis 2005)"
+- **notes**: Nebular hypothesis, solar nebula collapse and disk formation, planetesimal accretion (runaway and oligarchic growth), frost line and compositional gradient, core accretion and disk instability models for giant planets, Nice model of giant planet migration and Late Heavy Bombardment, Grand Tack hypothesis, isotopic chronology (CAIs, Hf-W, U-Pb), comparison with exoplanet system architectures.
 
 ### astronomy.stars-stellar-evolution-hr-diagram
 
