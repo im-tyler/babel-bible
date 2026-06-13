@@ -10591,6 +10591,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Geertz 1973, Sapir 1929, Whorf 1956, Durkheim 1912, Benedict 1934, Boas 1911, Hall 1959/1966, Said 1978, Appadurai 1996, Tomlinson 1999; secondary: Giddens, Ferrante, Erickson"
 - **notes**: Culture and society — material and non-material culture, cultural universals vs cultural relativism, ethnocentrism vs cultural relativism, subcultures and countercultures, cultural diffusion and globalization, cultural imperialism vs cultural hybridity, language and culture (Sapir-Whorf), religion as cultural institution (Christianity, Islam, Hinduism, Buddhism, Judaism, Sikhism, Indigenous spiritual traditions, secularism — all presented equally), culture shock, cultural appropriation vs cultural exchange. MULTI-PERSPECTIVE: All world religions and belief systems presented equally — no religion is "normal" and others "exotic." Cultural appropriation: present the concept AND the critique that it can be over-applied. Cultural imperialism: Western media dominance AND pushback (Nollywood, K-pop, Bollywood). Indigenous cultures as living contemporary cultures, not relics. Secularism/atheism as a worldview alongside religions. No Lean formalisation; human-review-only at all tiers.
 
+### sociology.cultural-diversity
+
+- **title**: Cultural diversity and ethnocentrism; cultural relativism and hybridization
+- **unit**: `30.02.02`
+- **prerequisites**: `sociology.culture-society-global-perspective` (30.02.01)
+- **tier_anchors**:
+  - beginner: "Giddens and Sutton, Sociology (8e), Ch. 3"
+  - intermediate: "Macionis, Sociology (17e), Ch. 2-3"
+  - master: "Geertz, C. — The Interpretation of Cultures (1973)"
+- **notes**: Cultural diversity — ethnocentrism (Sumner 1906), cultural relativism (Boas; methodological vs normative; Herskovits, Benedict), cultural universals (Murdock), subcultures and countercultures, high vs popular vs mass culture, multiculturalism (Kymlicka liberal multiculturalism; Canada 1971; Huntington clash-of-civilizations backlash; headscarf/burqa bans), cultural hybridization (Bhabha third space and hybridity; Appadurai global cultural flows — ethnoscapes/mediascapes/technoscapes/finanscapes/ideoscapes; Pieterse globalization as hybridization; Robertson glocalization). Master tier: Geertz interpretive anthropology (thick description, culture as webs of significance), Douglas grid-group cultural theory of risk, Bourdieu cultural capital/habitus/distinction, Alexander strong program and cultural pragmatics, postcolonial theory (Said Orientalism, Spivak subaltern, Bhabha mimicry/ambivalence), Hall encoding/decoding and Birmingham CCCS subcultures as resistance (Hebdige, McRobbie), culture wars (Hunter orthodox vs progressive; Lakoff strict father vs nurturant parent), recognition politics (Taylor, Fraser recognition vs redistribution, Honneth love/rights/solidarity), cultural appropriation (Ziff-Rao), nationalism and culture (Anderson imagined communities, Hobsbawm invented traditions, Billig banal nationalism). MULTI-PERSPECTIVE: ethnocentrism and relativism as competing frameworks each with genuine force; cultural imperialism and hybridity as both real; recognition and redistribution as complementary axes; multiculturalism policy debated from liberal and critical standpoints. No Lean formalisation; human-review-only at all tiers.
+
 ### sociology.deviance-social-control
 
 - **title**: Deviance and social control
