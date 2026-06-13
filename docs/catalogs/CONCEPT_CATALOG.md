@@ -11584,6 +11584,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.metamorphic-sedimentary
 
+
+### earth-science.seismic-waves
+
+- **title**: Seismic waves: P, S, surface waves; seismograph interpretation and Earth's interior
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.volcanic-hazards
+
+- **title**: Volcanic hazards: eruption styles, pyroclastic flows, volcanic risk assessment
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Metamorphic and sedimentary rocks: facies, diagenesis, classification
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
