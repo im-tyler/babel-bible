@@ -11566,6 +11566,18 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### earth-science.earth-history-geologic-time-scale
 
+
+### earth-science.plate-boundaries
+
+- **title**: Plate boundaries: divergent, convergent, transform; seafloor spreading and Wilson cycles
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
+
+### earth-science.mantle-convection
+
+- **title**: Mantle convection and driving forces: slab pull, ridge push, hot spots
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Earth history and the geologic time scale
 - **prerequisites**: []
 - **tier_anchors**:
