@@ -187,15 +187,17 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: ch01-07 (15 units) → integrated → committed → build_lenses
   - [x] COMPLETENESS: converged
 
-- [ ] **Biology — Mol/Cell (17)** — `plans/expansion/biology/` — 25 new units (all 10 chapters). Sources: Alberts 2022, Lodish 2021. 18 → 43 units.
-  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
-  - [ ] COMPLETENESS: loop-until-dry
+- [x] **Biology — Mol/Cell (17)** — `plans/expansion/biology/` — 25 new units (all 10 chapters). Sources: Alberts 2022, Lodish 2021. 18 → 43 units. All 27/27 validated.
+  - [x] PRODUCE: 4 dependency waves (25 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
-- [ ] **Biology — Organismal (18)** — same plan file — 22 new units (all 11 chapters). Sources: Sherwood 2016, Sadava 2023. 13 → 35 units.
-  - [ ] PRODUCE: 4 dependency waves → integrate → commit → build_lenses
+- [x] **Biology — Organismal (18)** — same plan file — 22 new units (all 11 chapters). Sources: Sherwood 2016, Sadava 2023. 13 → 35 units. All 27/27 validated.
+  - [x] PRODUCE: 4 dependency waves (22 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
-- [ ] **Biology — Eco/Evo (19)** — same plan file — 22 new units (15 chapters). Sources: Futuyma 2017, Hartl-Clark 2007. 18 → 40 units.
-  - [ ] PRODUCE: 3 dependency waves → integrate → commit → build_lenses
+- [x] **Biology — Eco/Evo (19)** — same plan file — 21 new units (13 chapters). Sources: Futuyma 2017, Hartl-Clark 2007. 19 → 40 units. All 27/27 validated.
+  - [x] PRODUCE: 3 dependency waves (21 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **Earth Science (27)** — `plans/expansion/earth-space/` — 18 new units (all 8 chapters). Sources: Tarbuck 2017, Grotzinger 2018. 8 → 26 units.
 
