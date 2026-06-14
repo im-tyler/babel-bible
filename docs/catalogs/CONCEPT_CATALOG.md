@@ -10657,6 +10657,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Marx 1867, Weber 1922, Du Bois 1903, Crenshaw 1989, Alexander 2010, Ambedkar 1936, Piketty 2014; secondary: Mills 1956, Wilson 1987, Omi and Winant 2014"
 - **notes**: Social stratification from multiple axes: class (Marx vs Weber, social mobility, the 1%, global inequality, working poor), race (social construct with genetic evidence, systemic racism, redlining, mass incarceration as racial control per Alexander, environmental racism), gender (pay gap, glass ceiling, #MeToo, intersectionality per Crenshaw), caste (India and Ambedkar, Japan burakumin), global stratification (Global North vs South, neocolonialism, sweatshop labour). MULTI-PERSPECTIVE: class from perspectives of all classes including the wealthy; race as social construct WITH real consequences; intersectionality as essential; caste from Dalit perspectives; global stratification honestly; critique of sociology for studying down rather than up. No Lean formalisation; human-review-only at all tiers.
 
+### sociology.class-structure
+
+- **title**: Class structure and mobility
+- **unit**: `30.04.02`
+- **prerequisites**: `sociology.social-stratification.social-stratification-class-race-gender` (30.04.01)
+- **tier_anchors**:
+  - beginner: "Giddens and Sutton, Sociology (8e), Ch. 7"
+  - intermediate: "Macionis, Sociology (17e), Ch. 9-10"
+  - master: "Piketty, Capital in the Twenty-First Century (2014)"
+- **notes**: Class structure and social mobility — measurement of class (income, wealth, occupation; subjective self-identification), stratification systems (caste, estate, class), Weberian class/status/party, Marx on production, Bourdieu on capital and habitus, Wright's contradictory class locations, intergenerational mobility (absolute vs relative, Chetty's Opportunity Atlas, intergenerational income elasticity), inequality metrics (Gini, Palma, top shares), Piketty's r > g and the American Dream as ideology. No Lean formalisation; human-review-only at all tiers.
+
 ### number-theory.hasse-minkowski-theorem
 
 - **title**: Hasse-Minkowski theorem
