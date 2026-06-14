@@ -10736,6 +10736,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.institutions-family-education-religion-media
 
+
+### sociology.race-ethnicity
+
+- **title**: Race and ethnicity: systemic racism, intersectionality, racial formation theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Social institutions: family, education, religion, and media
 - **unit**: `30.05.01`
 - **prerequisites**: `sociology.social-stratification-inequality` (30.04.01)
