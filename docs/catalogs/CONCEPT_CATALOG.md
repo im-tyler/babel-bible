@@ -10742,6 +10742,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.gender-inequality
 
+
+### sociology.family-structure
+
+- **title**: Family structure and change: marriage forms, divorce trends, kinship systems
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Gender inequality: wage gap, occupational segregation, feminist theory
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
