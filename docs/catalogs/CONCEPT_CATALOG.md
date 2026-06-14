@@ -10745,6 +10745,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.family-structure
 
+
+### sociology.education-religion
+
+- **title**: Education and religion as institutions: reproduction of inequality, secularization
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Family structure and change: marriage forms, divorce trends, kinship systems
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
