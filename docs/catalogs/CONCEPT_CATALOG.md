@@ -10739,6 +10739,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.race-ethnicity
 
+
+### sociology.gender-inequality
+
+- **title**: Gender inequality: wage gap, occupational segregation, feminist theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Race and ethnicity: systemic racism, intersectionality, racial formation theory
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
