@@ -12012,6 +12012,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Alberti, Kandinsky, Klee"
 - **notes**: Seven elements: line, shape, form, space, value, color, texture. Principles of design. Linear perspective. Golden ratio. Color theory.
 
+### music-art.color-theory
+
+- **title**: Color theory and composition principles: Itten, Albers; figure-ground, gestalt
+- **unit**: `34.03.02`
+- **prerequisites**: [`34.03.01`]
+- **tier_anchors**:
+  - beginner: "Arnheim, Art and Visual Perception"
+  - intermediate: "Itten, The Art of Color"
+  - master: "Albers, Interaction of Color"
+- **notes**: Color models (RGB, CMYK, HSL, Munsell, CIE). Chevreul simultaneous contrast. Itten's seven contrasts. Albers' color relativity. Gestalt principles (proximity, similarity, closure, figure-ground). Composition (balance, rhythm, emphasis, unity).
+
 ### music-art.art-history-cave-paintings-to-contemporary
 
 - **title**: Art history: cave paintings to contemporary
