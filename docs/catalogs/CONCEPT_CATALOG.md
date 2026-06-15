@@ -9642,6 +9642,17 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: Any intro philosophy textbook; Nagel, What Does It All Mean?
 - **notes**: The classical JTB analysis of knowledge, the Gettier problem and its structural impossibility result, and the major responses: reliabilism, virtue epistemology, contextualism, knowledge-first (E=K), defeasibility, sensitivity, safety. Also covers foundationalism vs coherentism vs infinitism (structure of justification), skepticism (evil demon, brain in a vat, closure principle), and social epistemology (testimony, peer disagreement, division of cognitive labour, epistemic injustice). No Lean formalisation; human-review-only at I/M tier.
 
+### philosophy.theories-of-justification
+
+- **title**: Theories of justification: foundationalism, coherentism, reliabilism
+- **unit**: `20.01.02`
+- **prerequisites**: `20.01.01`
+- **tier_anchors**:
+  - master: Quine, W. V. O. — Epistemology Naturalized (1969)
+  - intermediate: BonJour, L. — Epistemology: Classic Problems and Contemporary Responses (2010)
+  - beginner: Russell, B. — The Problems of Philosophy (1912)
+- **notes**: The structure of epistemic justification: foundationalism (classical and moderate, the myth of the given), coherentism (BonJour, Quine's web of belief, the isolation and input objections), reliabilism (Goldman's process reliabilism, generality and new-evil-demon problems), and naturalized epistemology (Quine). Master tier extends to virtue epistemology (Sosa, Zagzebski), proper functionalism (Plantinga), evidentialism (Feldman-Conee), contextualism (DeRose), pragmatic encroachment (Stanley), Bayesian and formal epistemology (Hintikka, Ramsey-de Finetti), Gettier descendants (tracking, safety, causal theory), and social/feminist/decolonial epistemology (Fricker, Harding, Longino, Mignolo, Smith). No Lean formalisation; human-review-only at I/M tier.
+
 ### philosophy.rights-natural-human-legal
 
 - **title**: Rights: natural, human, and legal
