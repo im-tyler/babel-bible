@@ -11415,6 +11415,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.pharmacokinetics
 
+
+### health-medicine.drug-classes
+
+- **title**: Drug classes and mechanisms: antibiotics, antihypertensives, psychotropics
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Pharmacokinetics: ADME, half-life, drug interactions
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
