@@ -45682,6 +45682,28 @@
 ],
 "title": "Prehistory and human migration out of Africa"
 },
+"32.01.02": {
+"area": "other",
+"books": [],
+"chapter": "prehistory",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.01.02",
+"prereqs": [
+"32.01.01"
+],
+"section": "world-history",
+"slug": "human-dispersal",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Human dispersal: anatomically modern humans, migration routes, genetic evidence"
+},
 "32.02.01": {
 "area": "other",
 "books": [],
@@ -45792,6 +45814,28 @@
 ],
 "title": "Classical Greece and the Hellenistic world"
 },
+"32.06.02": {
+"area": "other",
+"books": [],
+"chapter": "classical-greece",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.06.02",
+"prereqs": [
+"32.06.01"
+],
+"section": "world-history",
+"slug": "greek-philosophy-democracy",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Greek philosophy and democracy: Socrates, Plato, Aristotle; the polis and direct democracy"
+},
 "32.07.01": {
 "area": "other",
 "books": [],
@@ -45813,6 +45857,28 @@
 "master"
 ],
 "title": "Roman Republic and Empire: from founding myths to the fall and beyond"
+},
+"32.07.02": {
+"area": "other",
+"books": [],
+"chapter": "roman-empire",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.07.02",
+"prereqs": [
+"32.07.01"
+],
+"section": "world-history",
+"slug": "roman-law-governance",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Roman law and governance: the Twelve Tables, Roman Republic vs. Empire, legacy in legal systems"
 },
 "32.08.01": {
 "area": "other",
@@ -45880,6 +45946,28 @@
 "master"
 ],
 "title": "Islamic Golden Age and the Caliphates"
+},
+"32.10.02": {
+"area": "other",
+"books": [],
+"chapter": "islamic-golden-age",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.10.02",
+"prereqs": [
+"32.10.01"
+],
+"section": "world-history",
+"slug": "islamic-science-philosophy",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Science and philosophy in the Islamic Golden Age: translation movement, algebra, optics"
 },
 "32.11.01": {
 "area": "other",
@@ -45972,6 +46060,28 @@
 ],
 "title": "Age of Exploration: Multiple Perspectives"
 },
+"32.14.02": {
+"area": "other",
+"books": [],
+"chapter": "age-of-exploration",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.14.02",
+"prereqs": [
+"32.14.01"
+],
+"section": "world-history",
+"slug": "columbian-exchange",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Columbian Exchange: biological and demographic consequences of contact"
+},
 "32.15.01": {
 "area": "other",
 "books": [],
@@ -46038,6 +46148,28 @@
 ],
 "title": "Enlightenment and Revolutions: American, French, Haitian, and Latin American"
 },
+"32.17.02": {
+"area": "other",
+"books": [],
+"chapter": "enlightenment-revolutions",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.17.02",
+"prereqs": [
+"32.17.01"
+],
+"section": "world-history",
+"slug": "atlantic-revolutions",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Atlantic revolutions compared: American, French, Haitian, Latin American independence"
+},
 "32.18.01": {
 "area": "other",
 "books": [],
@@ -46059,6 +46191,28 @@
 "master"
 ],
 "title": "Industrial Revolution and its global consequences"
+},
+"32.18.02": {
+"area": "other",
+"books": [],
+"chapter": "industrial-revolution",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.18.02",
+"prereqs": [
+"32.18.01"
+],
+"section": "world-history",
+"slug": "industrialization-global-inequality",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Industrialization and global inequality: divergence, living standards debate, labor movements"
 },
 "32.19.01": {
 "area": "other",
@@ -46104,6 +46258,28 @@
 "master"
 ],
 "title": "World War I: Global Perspectives"
+},
+"32.20.02": {
+"area": "other",
+"books": [],
+"chapter": "world-war-one",
+"curriculum": "world-history",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.20.02",
+"prereqs": [
+"32.20.01"
+],
+"section": "world-history",
+"slug": "wwi-causes-consequences",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Causes and consequences of WWI: alliance systems, total war, the peace settlement"
 },
 "32.21.01": {
 "area": "other",

@@ -11706,6 +11706,10 @@
 "books": [],
 "curriculum": "other"
 },
+"32.01.02": {
+"books": [],
+"curriculum": "world-history"
+},
 "32.02.01": {
 "books": [],
 "curriculum": "other"
@@ -11726,9 +11730,17 @@
 "books": [],
 "curriculum": "other"
 },
+"32.06.02": {
+"books": [],
+"curriculum": "world-history"
+},
 "32.07.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.07.02": {
+"books": [],
+"curriculum": "world-history"
 },
 "32.08.01": {
 "books": [],
@@ -11741,6 +11753,10 @@
 "32.10.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.10.02": {
+"books": [],
+"curriculum": "world-history"
 },
 "32.11.01": {
 "books": [],
@@ -11758,6 +11774,10 @@
 "books": [],
 "curriculum": "other"
 },
+"32.14.02": {
+"books": [],
+"curriculum": "world-history"
+},
 "32.15.01": {
 "books": [],
 "curriculum": "other"
@@ -11770,9 +11790,17 @@
 "books": [],
 "curriculum": "other"
 },
+"32.17.02": {
+"books": [],
+"curriculum": "world-history"
+},
 "32.18.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.18.02": {
+"books": [],
+"curriculum": "world-history"
 },
 "32.19.01": {
 "books": [],
@@ -11781,6 +11809,10 @@
 "32.20.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.20.02": {
+"books": [],
+"curriculum": "world-history"
 },
 "32.21.01": {
 "books": [],
