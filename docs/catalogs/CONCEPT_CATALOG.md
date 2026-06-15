@@ -12072,6 +12072,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### music-art.musical-form
 
+
+### music-art.modern-contemporary-art
+
+- **title**: Modern and contemporary art: Impressionism to Conceptual Art
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Musical form and analysis: sonata, rondo, theme and variations; post-tonal set theory
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
