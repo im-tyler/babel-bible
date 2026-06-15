@@ -11271,6 +11271,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Falkow, S. — The microbe's view of infection (1997)"
 - **notes**: Koch's postulates and molecular Koch's postulates (Falkow); virulence factors (adhesins/fimbriae/pili, invasins, capsules, spreading enzymes); exotoxins (A-B toxins: diphtheria, cholera, pertussis, Shiga, tetanus, botulinum; superantigens: TSST-1; membrane-damaging toxins); endotoxin (LPS, lipid A, TLR4, septic shock); horizontal gene transfer (transformation, conjugation, R plasmids, transduction, transposons, integrons); antibiotic resistance mechanisms (efflux pumps, beta-lactamases, mecA/PBP2a, target modification, enzymatic inactivation, bypass pathways); biofilms and quorum sensing; the microbiome (Blaser, FMT). Mutant selection window and resistance selection dynamics. No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.viral-pathogenesis
+
+- **title**: Viral pathogenesis: replication cycle, immune evasion, pandemic dynamics (SIR model)
+- **unit**: `35.02.03`
+- **prerequisites**: [`health-medicine.infectious-disease-immunity-vaccines` (35.02.01)]
+- **tier_anchors**:
+  - beginner: "Murray, P. R. et al. — Medical Microbiology, 9th ed. (2020)"
+  - intermediate: "Knipe, D. M. and Howley, P. M. — Fields Virology, 7th ed. (2021)"
+  - master: "Kermack, W. O. and McKendrick, A. G. — A contribution to the mathematical theory of epidemics (1927)"
+- **notes**: Viral structure (capsid, envelope, genome types); Baltimore classification (7 groups); replication cycle (attachment, entry, uncoating, replication, assembly, release); immune evasion (latency in herpesviruses, antigenic drift/shift in influenza, HIV reverse transcriptase error rate, immunosuppression via CD4 T cell depletion); SIR compartmental model (Kermack-McKendrick 1927, R0, herd immunity threshold 1-1/R0); pandemic dynamics (1918 influenza, HIV/AIDS, COVID-19); zoonotic spillover and One Health; viral oncogenesis (HPV, HBV/HCV, EBV); antivirals (acyclovir, HAART, DAAs, remdesivir, Paxlovid); vaccine platforms (live attenuated, inactivated, subunit, viral vector, mRNA); mathematical epidemiology (Anderson-May, network epidemiology, phylodynamics). No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.chronic-disease-cardiovascular-diabetes-cancer
 
 - **title**: Chronic disease: cardiovascular, diabetes, and cancer
