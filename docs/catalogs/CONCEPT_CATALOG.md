@@ -9985,6 +9985,17 @@ These entries register live draft units so the validator can distinguish "unknow
 - **title**: Scientific realism vs anti-realism: structural realism, constructive empiricism
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
+
+### philosophy.causation-explanation
+
+- **title**: Causation and explanation: counterfactual analysis, mechanistic explanation, causal inference
+- **unit**: `20.08.03`
+- **prerequisites**: `philosophy.philosophy-of-science-demarcation-falsification`
+- **tier_anchors**:
+  - beginner: "Hume, D. — An Enquiry Concerning Human Understanding (1748)"
+  - intermediate: "Woodward, J. — Making Things Happen (2003)"
+  - master: "Lewis, D. — Causation (1973)"
+- **notes**: Theories of causation and scientific explanation: Humean regularity and Mackie's INUS conditions, Lewis's counterfactual analysis with possible-worlds semantics (and the preemption/overdetermination/trumping problems), probabilistic causation (Reichenbach screening off, Suppes, Cartwright contextual relevance), interventionism (Woodward) and Pearl's do-calculus with directed acyclic graphs (seeing vs doing), mechanistic explanation (Salmon causal-mechanical model, Salmon-Dowe conserved quantities, Machamer-Darden-Craver entities and activities), Hempel's deductive-nomological model and the shift to causal-mechanical explanation, unification (Kitcher, Friedman) and the kairetic account (Strevens), causal selection and the plurality of causes, modal realism and counterfactuals (Lewis, Stalnaker, Williamson), type vs token causation (Eells, Sober), causal decision theory (Lewis, Joyce), causal discovery algorithms (Spirtes-Glymour-Scheines PC/FCI) and Bayesian networks, causal inference methods (RCTs, instrumental variables, regression discontinuity, difference-in-differences, potential outcomes), laws of nature (Armstrong, Cartwright), natural kinds and essentialism (Ellis, Bird), and causal inference in machine learning. No Lean formalisation; human-review-only at I/M tier.
 - **title**: Reductionism in biology: levels, multiple realizability, emergence
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
