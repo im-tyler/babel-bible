@@ -10360,6 +10360,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Locke Second Treatise, Rousseau Social Contract, Montesquieu Spirit of the Laws, Voltaire Letters on England, Declaration of Independence, Declaration of the Rights of Man and Citizen, Haitian Constitution of 1805, Bolivar Jamaica Letter, Louverture Constitution of 1801; secondary: Dubois, James, Popkin, Armitage, Lynch, Hunt"
 - **notes**: Enlightenment thought and the revolutions it inspired: American, French, Haitian, and Latin American independence movements. Locke, Rousseau, Montesquieu. The Haitian Revolution as the only successful slave revolt in history, often omitted from standard accounts. MULTI-PERSPECTIVE: Enlightenment ideals of liberty alongside the reality of slavery and colonialism; Haitian Revolution centered rather than marginalized; Bolivar and Latin American independence; the limits of Enlightenment universalism. No Lean formalisation; human-review-only at all tiers.
 
+### world-history.atlantic-revolutions
+
+- **title**: Atlantic revolutions compared: American, French, Haitian, Latin American independence
+- **unit**: `32.17.02`
+- **prerequisites**: `world-history.enlightenment-revolutions` (32.17.01)
+- **tier_anchors**:
+  - beginner: "McNeill, W. H. — The Rise of the West (1963)"
+  - intermediate: "Bayly, C. A. — The Birth of the Modern World (2004)"
+  - master: "Palmer, R. R. — The Age of the Democratic Revolution (1959-1964)"
+- **notes**: Comparative study of the four Atlantic revolutions: American (1776), French (1789), Haitian (1791-1804), and Latin American independence (1810-1825). Palmer's "Age of the Democratic Revolution" thesis; Skocpol's structural theory of social revolution; Goldstone on demographics, fiscal crisis, and climate; C.L.R. James and the Haitian Revolution as integral to the Atlantic frame. Comparative variables: social inequality, slavery, colonial relationship, economic structure, leadership class. Slavery, women (Olympe de Gouges, Wollstonecraft, Catherine Flon, Manuela Saenz), and the revolutionary legacy (Arendt, Brinton, Universal Declaration 1948). Divergent outcomes: stable American democracy, French regime cycling, Haitian indemnity and isolation, Latin American caudillo politics. No Lean formalisation; human-review-only at all tiers.
+
 ### world-history.industrial-revolution-global-consequences
 
 - **title**: Industrial Revolution and its global consequences
