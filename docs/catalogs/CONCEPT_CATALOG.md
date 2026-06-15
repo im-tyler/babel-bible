@@ -10771,6 +10771,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.demographic-transition
 
+
+### sociology.urban-sociology
+
+- **title**: Urban sociology: segregation, gentrification, urban ecology
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Demographic transition: birth/death rate dynamics, population projections
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub

@@ -211,7 +211,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 11 chapters (27 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Sociology (30)** — same plan file — 16 new units (all 8 chapters). Sources: Giddens 2017, Macionis 2019. 8 → 24 units.
+- [x] **Sociology (30)** — same plan file — 17 new units (all 8 chapters). Sources: Giddens 2017, Macionis 2019. 8 → 25 units. All 27/27 validated.
+  - [x] PRODUCE: 8 chapters (17 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **Anthropology (31)** — same plan file — 12 new units (all 6 chapters). Sources: Kottak 2019, Haviland 2017. 6 → 18 units.
 
