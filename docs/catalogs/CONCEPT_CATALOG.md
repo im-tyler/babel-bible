@@ -11987,6 +11987,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.kinship-marriage
 
+
+### anthropology.religion-ritual
+
+- **title**: Religion, ritual, and symbolism: rites of passage, shamanism, magic and science
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Kinship, marriage, and family: descent systems, alliance theory, cross-cultural variation
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
