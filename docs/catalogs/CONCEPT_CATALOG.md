@@ -11364,6 +11364,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.cancer-biology
 
+
+### health-medicine.metabolic-syndrome
+
+- **title**: Metabolic syndrome and diabetes: insulin resistance, adipose dysfunction
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Cancer biology: hallmarks, oncogenes, tumor suppressors
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
