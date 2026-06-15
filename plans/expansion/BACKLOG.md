@@ -219,7 +219,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 6 chapters (12 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Philosophy (20)** — `plans/expansion/health-applied/` — 16 new units (8 chapters). Sources: Russell, Quine, Kuhn, Rawls, Chalmers. 10 → 26 units.
+- [x] **Philosophy (20)** — `plans/expansion/health-applied/` — 15 new units (8 chapters; IDs shifted for ch02/ch05 due to pre-existing units). Sources: Russell, Quine, Kuhn, Rawls, Chalmers. 10 → 25 units. All 27/27 validated.
+  - [x] PRODUCE: 8 chapters (15 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **World History (32)** — same plan file — 8 new units (priority chapters). Sources: McNeill, Diamond, Bayly. 26 → 34 units (first pass).
 
