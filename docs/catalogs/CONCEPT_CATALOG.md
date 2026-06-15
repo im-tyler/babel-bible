@@ -11418,6 +11418,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.drug-classes
 
+
+### health-medicine.genomic-medicine
+
+- **title**: Genomic medicine: GWAS, polygenic risk scores, CRISPR gene therapy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Drug classes and mechanisms: antibiotics, antihypertensives, psychotropics
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
