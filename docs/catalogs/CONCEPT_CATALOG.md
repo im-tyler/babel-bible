@@ -12056,6 +12056,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Vitruvius, Alberti, Le Corbusier"
 - **notes**: Structural systems (post-and-beam through digital fabrication). Vitruvian triad. Gothic cathedrals. Renaissance. Modernism. Parametric design. Sustainability. Phenomenology of architecture.
 
+### music-art.architecture-urban-design
+
+- **title**: Architecture and urban design: form follows function, modernism, sustainability
+- **unit**: `34.06.02`
+- **prerequisites**: [`34.06.01`]
+- **tier_anchors**:
+  - beginner: "Gombrich, E. H. — The Story of Art (2006)"
+  - intermediate: "Arnheim, R. — The Dynamics of Architectural Form (1977)"
+  - master: "Le Corbusier — Towards a New Architecture (1923)"
+- **notes**: Louis Sullivan "form follows function." Bauhaus (Gropius, 1919-1933). Wright organic architecture (Fallingwater). Le Corbusier Five Points, Radiant City. Mies van der Rohe "less is more." Modernist urbanism vs Jane Jacobs (Death and Life, 1961). Pruitt-Igoe. Postmodernism (Venturi "less is a bore," Graves, Koolhaas). Deconstructivism (Gehry, Hadid). Sustainable/green architecture (LEED, Passivhaus, passive solar, biomimicry, adaptive reuse). Parametric and generative design. Architecture and power (Foucault panopticon). Urban design (zoning, New Urbanism, 15-minute city, tactical urbanism, informal settlements). Neuroarchitecture and perception (Lynch, Pallasmaa).
+
 ### music-art.aesthetics-theory-taste-judgment-culture
 
 - **title**: Aesthetics theory: taste, judgment, and culture
