@@ -10964,6 +10964,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Malinowski 1922, Mead 1928, Evans-Pritchard 1940, Leach 1954, Geertz 1973, Clifford and Marcus 1986, Abu-Lughod 1991, Gupta and Ferguson 1997, Ortner 2006; secondary: Sanjek, Fieldnotes; Hammersley and Atkinson, Ethnography: Principles in Practice"
 - **notes**: Participant observation as the signature method; ethnographic fieldwork process (site selection, rapport building, data collection through interviews and observation, field notes, analysis and writing); ethnography as product versus process; key informants and gatekeepers; unstructured, semi-structured, and structured interviewing; surveys and questionnaires in cultural anthropology; genealogical method; life histories; visual anthropology and photography; ethical obligations (AAA Code of Ethics, informed consent, reciprocity, do no harm, anonymity and confidentiality); reflexivity and positionality (the anthropologist's identity shapes what they see); Writing Culture debate of the 1980s and the crisis of representation; feminist anthropology and the gendered nature of fieldwork; multi-sited ethnography for a globalized world; native anthropology and autoethnography. No Lean formalisation; human-review-only at all tiers.
 
+### anthropology.ethnographic-methods
+
+- **title**: Ethnographic methods: participant observation, fieldwork ethics, thick description (Geertz)
+- **unit**: `31.02.02`
+- **prerequisites**: `anthropology.cultural-anthropology-ethnography-fieldwork` (31.02.01)
+- **tier_anchors**:
+  - beginner: "Kottak, Anthropology (17e), Ch. 2-3"
+  - intermediate: "Haviland et al., Cultural Anthropology (15e), Ch. 3"
+  - master: "Malinowski, B. — Argonauts of the Western Pacific (1922)"
+- **notes**: Ethnographic methods as anthropology's core methodology: participant observation (Malinowski's fieldwork revolution in the Trobriand Islands 1914-18), the mechanics of fieldwork (language learning, rapport, field notes — scratch notes, expanded notes, journals, logs), emic versus etic perspectives, sampling techniques (time-allocation studies, spot observations, network sampling), key informants and life histories, the genealogical method, photography and video ethics. Thick description (Geertz — distinguishing winks from blinks, Ryle's conceptual layering, the Moroccan raid/Cohen's sheep example). Fieldwork ethics (AAA Code of Ethics, Belmont Report, IRBs, informed consent in cross-cultural contexts, Scheper-Hughes primacy of ethics). Repatriation (NAGPRA 1990, Benin Bronzes, Parthenon Marbles). Crisis of representation (Writing Culture 1986, Clifford-Marcus, Rosaldo, Gupta-Ferguson). Feminist critiques (Behar, Abu-Lughod, Visweswaran, Tsing). Reflexivity (Rabinow, Crapanzano). Multi-sited ethnography (Marcus 1995, Appadurai global ethnoscapes). Collaborative and Indigenous ethnography (Lassiter, Deloria, Smith, Tuck). Digital ethnography (Boellstorff, Hine, Pink). Sensory and autoethnography. Studying up (Nader). No Lean formalisation; human-review-only at all tiers.
+
 ### anthropology.archaeology-material-culture-excavation
 
 - **title**: Archaeology: material culture and excavation
@@ -11924,6 +11935,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Malinowski 1922 Argonauts of the Western Pacific; Evans-Pritchard 1940 The Nuer; Geertz 1973; Clifford and Marcus 1986 Writing Culture"
 - **notes**: Participant observation as the signature method of cultural anthropology. The ethnographic method: fieldwork, field notes, thick description, and ethnographic writing. Culture concept: definitions from Tylor through Geertz to contemporary post-structural approaches. Key theoretical frameworks: functionalism, structural-functionalism, symbolic anthropology, interpretive anthropology, structuralism, political economy, and postmodernism. Topics: kinship and marriage, religion and ritual, economics and exchange, political organisation, social stratification, gender and sexuality, race and ethnicity, globalisation and transnationalism. Reflexivity and the crisis of representation in the 1980s. Multi-sited ethnography and digital ethnography. Ethical considerations in cross-cultural research.
 
+### anthropology.ethnographic-methods
+
+- **title**: Ethnographic methods: participant observation, fieldwork ethics, thick description (Geertz)
+- **unit**: `31.02.02`
+- **prerequisites**: [`anthropology.cultural-anthropology-ethnography-fieldwork`]
+- **tier_anchors**:
+  - beginner: "Kottak, Anthropology (17e), Ch. 2-3"
+  - intermediate: "Haviland et al., Cultural Anthropology (15e), Ch. 3"
+  - master: "Malinowski, B. — Argonauts of the Western Pacific (1922)"
+- **notes**: Ethnographic methods: participant observation (Malinowski's fieldwork revolution), fieldwork ethics (informed consent, IRBs, AAA code of ethics), thick description (Geertz — distinguishing winks from blinks), field notes, key informants, life histories, the genealogical method, crisis of representation. No Lean formalisation; human-review-only at all tiers.
+
 ### anthropology.archaeology-material-culture-excavation
 
 - **title**: Archaeology: material culture and excavation
@@ -11959,6 +11981,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.applied-anthropology-globalization-ethics
 
+
+### anthropology.ethnographic-methods
+
+- **title**: Ethnographic methods: participant observation, fieldwork ethics, thick description
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Applied anthropology: globalization, ethics, and decolonization
 - **unit**: `31.06.01`
 - **prerequisites**: [`anthropology.cultural-anthropology-ethnography-fieldwork`, `anthropology.archaeology-material-culture-excavation`, `anthropology.biological-anthropology-evolution-hominins`, `anthropology.linguistic-anthropology-language-culture`]
