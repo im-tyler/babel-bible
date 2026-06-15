@@ -11916,6 +11916,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### history-of-science.greek-hellenistic-science
 
+
+### history-of-science.double-helix
+
+- **title**: Double helix and molecular biology: Franklin, Watson-Crick, central dogma
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Greek and Hellenistic science: Aristotle, Euclid, Archimedes
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
