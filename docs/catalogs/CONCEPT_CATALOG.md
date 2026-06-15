@@ -10768,6 +10768,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.global-inequality
 
+
+### sociology.demographic-transition
+
+- **title**: Demographic transition: birth/death rate dynamics, population projections
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Global inequality: world-systems, dependency theory, development debates
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub

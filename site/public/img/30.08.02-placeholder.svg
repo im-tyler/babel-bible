@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
+  <title id="title">The demographic transition model</title>
+  <desc id="desc">A schematic of the demographic transition: crude death rate (falling first) and crude birth rate (falling with a lag) across five stages, with the zone of rapid natural increase shaded between them.</desc>
+  <rect width="720" height="380" fill="#f6f1e7"/>
+  <g fill="none" stroke="#555" stroke-width="2">
+    <line x1="70" y1="300" x2="680" y2="300"/>
+    <line x1="70" y1="300" x2="70" y2="50"/>
+  </g>
+  <text x="20" y="175" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222" transform="rotate(-90 20 175)">Rate (births / deaths per 1,000)</text>
+  <rect x="318" y="120" width="186" height="180" fill="#e8d9a8" opacity="0.6"/>
+  <text x="411" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#7a5a10">Natural increase</text>
+  <path d="M70 100 L190 100 Q250 105 318 250 L680 280" fill="none" stroke="#8a3a3a" stroke-width="4"/>
+  <path d="M70 110 Q150 115 210 150 Q280 210 360 255 Q470 285 680 287" fill="none" stroke="#2d5a7a" stroke-width="4"/>
+  <text x="180" y="92" font-family="Inter, Arial, sans-serif" font-size="13" fill="#8a3a3a">Birth rate</text>
+  <text x="470" y="244" font-family="Inter, Arial, sans-serif" font-size="13" fill="#2d5a7a">Death rate</text>
+  <g stroke="#555" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="190" y1="50" x2="190" y2="300"/>
+    <line x1="318" y1="50" x2="318" y2="300"/>
+    <line x1="504" y1="50" x2="504" y2="300"/>
+    <line x1="600" y1="50" x2="600" y2="300"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    <text x="130" y="320">Stage 1</text>
+    <text x="130" y="336">Pre-industrial</text>
+    <text x="254" y="320">Stage 2</text>
+    <text x="254" y="336">Early industrial</text>
+    <text x="411" y="320">Stage 3</text>
+    <text x="411" y="336">Industrializing</text>
+    <text x="552" y="320">Stage 4</text>
+    <text x="552" y="336">Post-industrial</text>
+    <text x="640" y="320">Stage 5</text>
+    <text x="640" y="336">Declining</text>
+  </g>
+  <text x="375" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#444">Birth and death rates over time</text>
+  <text x="375" y="365" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#222">Stages of the demographic transition</text>
+</svg>
