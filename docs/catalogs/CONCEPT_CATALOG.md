@@ -11922,6 +11922,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### history-of-science.computing-history
 
+
+### history-of-science.big-science
+
+- **title**: Big science and global collaboration: CERN, space race, HGP
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Computing history: Turing, von Neumann, transistor, internet
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
