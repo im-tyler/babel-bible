@@ -9880,6 +9880,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Russell 2019, Bostrom 2014, Floridi 2020, Christiano 2017"
 - **notes**: The alignment problem (identification, specification, robustness), fairness and bias in machine learning (demographic parity, equalised odds, Chouldechova-Kleinberg impossibility result), autonomous weapons (Sparrow, Asaro), surveillance and privacy (panopticon, differential surveillance, privacy as autonomy), AI and labour displacement (UBI response, capabilities critique), the responsibility gap (strict liability, negligence, vicarious liability, electronic personhood, moral crumple zones), robot rights and moral status (consciousness, functional equivalence, zombie problem), superintelligence risk (Bostrom's orthogonality thesis, instrumental convergence, the control problem), AI governance (EU AI Act, global coordination, regulatory capture). No Lean formalisation; human-review-only at I/M tier.
 
+### philosophy.consequentialism
+
+- **title**: Consequentialism in depth: act vs. rule utilitarianism, preference satisfaction, effective altruism
+- **unit**: `20.02.07`
+- **prerequisites**: `philosophy.justice-fairness-rawls-nozick` (20.02.01)
+- **tier_anchors**:
+  - beginner: "Mill, J. S. — Utilitarianism (1863)"
+  - intermediate: "Smart, J. J. C. and Williams, B. — Utilitarianism: For and Against (1973)"
+  - master: "Singer, P. — The Most Good You Can Do (2015)"
+- **notes**: Consequentialism in depth — classical utilitarianism (Bentham's hedonic calculus, Mill's higher/lower pleasures and the competent-judges test), act vs rule utilitarianism (Smart's act utilitarianism and rule-worship critique; Hooker's ideal-code rule consequentialism), preference utilitarianism (Hare's two-level theory, Singer's speciesism critique), negative utilitarianism, well-being currency dispute (hedonistic vs preference vs objective-list, Parfit's triple theory), Williams's integrity objection and the Jim-and-the-Indians case, negative responsibility, Rawls's separateness-of-persons and Nozick's utility monster, aggregation and whether numbers count (Taurek, Scanlon, Kamm), population ethics (Parfit's repugnant conclusion, non-identity problem, mere addition paradox, average vs total utilitarianism), motive consequentialism (Driver, Adams), consequentialism about animal ethics (Singer, Regan, Francione), effective altruism (Singer, MacAskill, GiveWell, 80,000 Hours), longtermism and existential risk (Bostrom's astronomical waste, Ord), and the demandingness objection (Scheffler's agent-centered prerogatives, Wolf's moral saints, Mulgan). No Lean formalisation; human-review-only at I/M tier.
+
 ### philosophy.philosophy-of-science-demarcation-falsification
 
 - **title**: Philosophy of science: demarcation, falsification, and paradigms
