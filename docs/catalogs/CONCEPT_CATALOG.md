@@ -10365,6 +10365,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### world-history.human-dispersal
 
+
+### world-history.roman-law-governance
+
+- **title**: Roman law and governance: Twelve Tables, Republic vs Empire, legacy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Human dispersal: anatomically modern humans, migration routes, genetic evidence
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
