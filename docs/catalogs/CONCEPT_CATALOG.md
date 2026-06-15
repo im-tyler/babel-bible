@@ -11919,6 +11919,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### history-of-science.double-helix
 
+
+### history-of-science.computing-history
+
+- **title**: Computing history: Turing, von Neumann, transistor, internet
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Double helix and molecular biology: Franklin, Watson-Crick, central dogma
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
