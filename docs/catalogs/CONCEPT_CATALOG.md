@@ -9940,6 +9940,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.skepticism
 
+
+### philosophy.deontology
+
+- **title**: Deontology: Kant categorical imperative, rights, contractualism (Scanlon)
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Epistemological skepticism: Cartesian doubt, contextualism, externalism
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
