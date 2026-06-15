@@ -11260,6 +11260,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Jenner 1798, Pasteur 1885, Koch 1882, von Behring 1890, Burnet 1957, Tonegawa 1983; secondary: Silverstein 2009, Smith 2011, Riedel 2005"
 - **notes**: Pathogens (bacteria, viruses, fungi, parasites), modes of transmission, the immune system (innate and adaptive), antigens and antibodies, B cells and T cells, immunological memory, vaccine types (live attenuated, inactivated, subunit, mRNA, viral vector), herd immunity, vaccine hesitancy, antimicrobial resistance, historical pandemics, epidemic vs pandemic vs endemic. MULTI-PERSPECTIVE: Global vaccine access inequity, cultural variation in vaccine acceptance, colonialism and medical exploitation, traditional healing alongside biomedicine. No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.bacterial-pathogenesis
+
+- **title**: Bacterial pathogenesis: virulence factors, toxins, antibiotic resistance mechanisms
+- **unit**: `35.02.02`
+- **prerequisites**: [`health-medicine.infectious-disease-immunity-vaccines` (35.02.01)]
+- **tier_anchors**:
+  - beginner: "Murray, P. R. et al. — Medical Microbiology, 9th ed. (2020)"
+  - intermediate: "Levin, B. R. et al. — The population genetics of antibiotic resistance (2000)"
+  - master: "Falkow, S. — The microbe's view of infection (1997)"
+- **notes**: Koch's postulates and molecular Koch's postulates (Falkow); virulence factors (adhesins/fimbriae/pili, invasins, capsules, spreading enzymes); exotoxins (A-B toxins: diphtheria, cholera, pertussis, Shiga, tetanus, botulinum; superantigens: TSST-1; membrane-damaging toxins); endotoxin (LPS, lipid A, TLR4, septic shock); horizontal gene transfer (transformation, conjugation, R plasmids, transduction, transposons, integrons); antibiotic resistance mechanisms (efflux pumps, beta-lactamases, mecA/PBP2a, target modification, enzymatic inactivation, bypass pathways); biofilms and quorum sensing; the microbiome (Blaser, FMT). Mutant selection window and resistance selection dynamics. No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.chronic-disease-cardiovascular-diabetes-cancer
 
 - **title**: Chronic disease: cardiovascular, diabetes, and cancer
