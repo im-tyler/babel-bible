@@ -12063,6 +12063,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.historical-linguistics
 
+
+### anthropology.development-anthropology
+
+- **title**: Development and humanitarian anthropology: critiques of development, participatory approaches
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Historical linguistics: proto-languages, sound change, language families
 - **unit**: `31.05.03`
 - **prerequisites**: [`anthropology.linguistic-anthropology-language-culture`]

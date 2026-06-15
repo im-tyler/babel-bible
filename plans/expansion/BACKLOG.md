@@ -215,7 +215,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 8 chapters (17 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Anthropology (31)** — same plan file — 12 new units (all 6 chapters). Sources: Kottak 2019, Haviland 2017. 6 → 18 units.
+- [x] **Anthropology (31)** — same plan file — 12 new units (all 6 chapters). Sources: Kottak 2019, Haviland 2017. 6 → 18 units. All 27/27 validated.
+  - [x] PRODUCE: 6 chapters (12 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **Philosophy (20)** — `plans/expansion/health-applied/` — 16 new units (8 chapters). Sources: Russell, Quine, Kuhn, Rawls, Chalmers. 10 → 26 units.
 
