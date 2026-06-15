@@ -9745,7 +9745,8 @@ These entries register live draft units so the validator can distinguish "unknow
   - `philosophy.consciousness-hard-problem-qualia` - Consciousness: the hard problem, qualia, and the mind-body debate (`20.06.01`)
   - `philosophy.hard-problem` - The hard problem of consciousness: qualia, the explanatory gap, and physicalist responses (`20.06.02`)
  - `philosophy.philosophy-of-mathematics-platonism-constructivism` - Philosophy of mathematics: Platonism, constructivism, and the nature of numbers (`20.09.01`)
- - `philosophy.foundations-of-mathematics` - Foundations of mathematics: logicism, formalism, intuitionism (`20.09.02`)
+  - `philosophy.foundations-of-mathematics` - Foundations of mathematics: logicism, formalism, intuitionism (`20.09.02`)
+ - `philosophy.mathematical-ontology` - Mathematical ontology: Platonism, nominalism, structuralism, fictionalism (`20.09.03`)
 
 ### Language
 
@@ -9995,6 +9996,17 @@ These entries register live draft units so the validator can distinguish "unknow
 - **title**: Foundations of mathematics: logicism, formalism, intuitionism
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
+
+### philosophy.mathematical-ontology
+
+- **title**: Mathematical ontology: Platonism, nominalism, structuralism, fictionalism
+- **unit**: `20.09.03`
+- **prerequisites**: `philosophy.philosophy-of-mathematics-platonism-constructivism`
+- **tier_anchors**:
+  - beginner: "Shapiro, S. — Thinking About Mathematics (2000)"
+  - intermediate: "Balaguer, M. — Platonism and Anti-Platonism in Mathematics (1998)"
+  - master: "Benacerraf, P. — What Numbers Could Not Be (1965)"
+- **notes**: Mathematical ontology covering Platonism (abstract mind-independent objects, Gödelian intuition), the Benacerraf problem of access and the identification problem (von Neumann vs Zermelo numbers), nominalism (Goodman-Quine, Chihara, Bigelow, modal fictionalism), fictionalism (Field, Science Without Numbers, conservativeness, Malament's critique), structuralism (Shapiro ante rem, Resnik patterns, in re, Parsons, Hellman modal structuralism), the Quine-Putnam indispensability argument and responses (Field, Colyvan, Baker cicada, Saatsi), mathematical explanation of physical phenomena, mathematical practice (Maddy naturalism, Thurston, Corfield, Hersh), the epistemic role of diagrams (Giaquinto, Manders, Brown), mathematical truth (Wright, Field, Halbach), the applicability of mathematics (Wigner, Steiner, Pincock, Azzouni), category theory and ontology (Marquis, McLarty, Landry), mathematical aesthetics (Hardy, Rota, Sinclair), and mathematical pluralism (Colyvan, Mortensen). No Lean formalisation; human-review-only at I/M tier.
 - **title**: Causation and explanation: counterfactual analysis, mechanistic explanation, causal inference
 - **unit**: `20.08.03`
 - **prerequisites**: `philosophy.philosophy-of-science-demarcation-falsification`
