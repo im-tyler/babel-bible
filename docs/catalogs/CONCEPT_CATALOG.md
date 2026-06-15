@@ -11984,6 +11984,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.ethnographic-methods
 
+
+### anthropology.kinship-marriage
+
+- **title**: Kinship, marriage, and family: descent systems, alliance theory, cross-cultural variation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Ethnographic methods: participant observation, fieldwork ethics, thick description
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
