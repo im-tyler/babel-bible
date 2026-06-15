@@ -11282,6 +11282,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Kermack, W. O. and McKendrick, A. G. — A contribution to the mathematical theory of epidemics (1927)"
 - **notes**: Viral structure (capsid, envelope, genome types); Baltimore classification (7 groups); replication cycle (attachment, entry, uncoating, replication, assembly, release); immune evasion (latency in herpesviruses, antigenic drift/shift in influenza, HIV reverse transcriptase error rate, immunosuppression via CD4 T cell depletion); SIR compartmental model (Kermack-McKendrick 1927, R0, herd immunity threshold 1-1/R0); pandemic dynamics (1918 influenza, HIV/AIDS, COVID-19); zoonotic spillover and One Health; viral oncogenesis (HPV, HBV/HCV, EBV); antivirals (acyclovir, HAART, DAAs, remdesivir, Paxlovid); vaccine platforms (live attenuated, inactivated, subunit, viral vector, mRNA); mathematical epidemiology (Anderson-May, network epidemiology, phylodynamics). No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.epidemiology-basics
+
+- **title**: Epidemiology basics: R0, herd immunity, outbreak investigation
+- **unit**: `35.02.04`
+- **prerequisites**: [`health-medicine.infectious-disease-immunity-vaccines` (35.02.01)]
+- **tier_anchors**:
+  - beginner: "Gordis, L. — Epidemiology, 6th ed. (2019)"
+  - intermediate: "Rothman, K. J. et al. — Modern Epidemiology, 4th ed. (2021)"
+  - master: "Snow, J. — On the Mode of Communication of Cholera (1855)"
+- **notes**: Study designs (cohort, case-control, cross-sectional, RCT, ecological); measures of disease frequency (incidence, prevalence, mortality, CFR, IFR); measures of association (relative risk, odds ratio, attributable risk, population attributable risk); confounding and bias (selection, information, Simpson's paradox, Mantel-Haenszel); Bradford Hill criteria for causation (strength, consistency, specificity, temporality, biological gradient, plausibility, coherence, experiment, analogy); outbreak investigation (CDC steps, descriptive epidemiology person/place/time, contact tracing, genomic surveillance, PulseNet); R0, effective reproduction number, herd immunity threshold 1-1/R0, vaccine efficacy and coverage; causal inference (potential outcomes/Rubin model, DAGs/Pearl, backdoor criterion, instrumental variables, Mendelian randomization, natural experiments, regression discontinuity, difference-in-differences); genetic epidemiology (twin studies, heritability, GWAS, polygenic risk scores, gene-environment interaction); social epidemiology (social determinants of health, Whitehall studies, life course/Barker hypothesis, allostatic load/McEwen, neighborhood effects/Sampson); infectious disease modeling (SEIR, agent-based, network epidemiology, superspreading 20/80 rule, Ross-Macdonald vector-borne, molecular epidemiology, phylodynamics); environmental epidemiology (PM2.5, lead/Flint, radiation, endocrine disruptors, climate change); evidence-based medicine (Cochrane, systematic reviews, meta-analysis, GRADE, NICE); public health policy (tobacco control/Doll-Hill/Surgeon General 1964, obesity, opioid epidemic, COVID-19). History: Snow/Broad Street pump (1854), Doll-Hill smoking study (1950), Bradford Hill criteria (1965), Cochrane Collaboration (1993). No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.chronic-disease-cardiovascular-diabetes-cancer
 
 - **title**: Chronic disease: cardiovascular, diabetes, and cancer
