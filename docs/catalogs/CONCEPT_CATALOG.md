@@ -9695,7 +9695,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - master: "primary sources: Chalmers 1995/1996, Jackson 1982, Nagel 1974, Dennett 1991, Tononi 2004"
   - intermediate: "Chalmers 1996; Jackson 1982; Searle 1992"
   - beginner: "Chalmers, The Conscious Mind intro; any philosophy of mind textbook"
-- **notes**: The hard problem of consciousness (Chalmers), qualia, the explanatory gap, functionalism vs identity theory vs dualism, the Chinese Room (Searle), the knowledge argument (Jackson's Mary's Room), philosophical zombies, integrated information theory (Tononi), global workspace theory (Baars/Dehaene), panpsychism (Russellian monism), illusionism (Dennett). Position mapping across five dimensions. Cross-domain hooks to phil-of-physics measurement problem (consciousness-causes-collapse), phil-of-biology (animal consciousness), AI (Turing Test, machine consciousness), ethics (moral status). No Lean formalisation; human-review-only at I/M tier.
+ - **notes**: The hard problem of consciousness (Chalmers), qualia, the explanatory gap, functionalism vs identity theory vs dualism, the Chinese Room (Searle), the knowledge argument (Jackson's Mary's Room), philosophical zombies, integrated information theory (Tononi), global workspace theory (Baars/Dehaene), panpsychism (Russellian monism), illusionism (Dennett). Position mapping across five dimensions. Cross-domain hooks to phil-of-physics measurement problem (consciousness-causes-collapse), phil-of-biology (animal consciousness), AI (Turing Test, machine consciousness), ethics (moral status). No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.hard-problem
+
+- **title**: The hard problem of consciousness: qualia, the explanatory gap, and physicalist responses
+- **unit**: `20.06.02`
+- **prerequisites**: `philosophy.consciousness-hard-problem-qualia` (`20.06.01`)
+- **tier_anchors**:
+  - master: "Levine, J. — Materialism and Qualia: The Explanatory Gap (1983)"
+  - intermediate: "Chalmers, D. J. — Facing Up to the Problem of Consciousness (1995)"
+  - beginner: "Chalmers, D. J. — The Conscious Mind (1996)"
+- **notes**: The hard problem distinguished from the easy problems (Chalmers 1995); what-it-is-likeness (Nagel 1974); the knowledge argument (Jackson 1982, Mary's Room); the explanatory gap (Levine 1983, epistemic vs metaphysical); philosophical zombies and the conceivability-possibility link (Chalmers, two-dimensional semantics, Kripke a posteriori necessity); physicalist responses — type-A physicalism/illusionism (Dennett, Frankish), type-B physicalism and the phenomenal concepts strategy (Loar, Papineau, Balog, Stoljar), representationalism (Tye, Dretske), identity theory, functionalism; property dualism (Chalmers); eliminativism (P. S. Churchland, P. M. Churchland). Master tier: meta-problem of consciousness, Russellian monism (structure-and-dynamics argument, Russell), mysterianism (McGinn, Stoljar), panpsychism (Strawson, Goff, combination problem), biological naturalism (Searle), Husserlian phenomenology (Husserl, Zahavi, Merleau-Ponty, Heidegger), Eastern approaches (Advaita, Yogacara, Dzogchen, Zen, Madhyamaka), animal consciousness (Griffin, Birch). Cross-domain hooks to 20.06.03 (scientific theories of consciousness), 20.03.01 (measurement problem), 20.10/20.11/20.12 (Eastern philosophy), 20.02.07 (animal ethics). No Lean formalisation; human-review-only at I/M tier.
 
 ## Scaffolded §14-§23 Concept IDs
 
@@ -9720,7 +9731,8 @@ These entries register live draft units so the validator can distinguish "unknow
  - `philosophy.aesthetics-beauty-art-judgment` - Aesthetics: beauty, art, and judgment (`20.04.01`)
  - `philosophy-of-biology.unit-of-selection` - The unit of selection (`20.05.02`)
  - `philosophy.natural-selection-teleology` - Natural selection and teleology: function, design, and Darwinian explanation (`20.05.03`)
- - `philosophy.consciousness-hard-problem-qualia` - Consciousness: the hard problem, qualia, and the mind-body debate (`20.06.01`)
+  - `philosophy.consciousness-hard-problem-qualia` - Consciousness: the hard problem, qualia, and the mind-body debate (`20.06.01`)
+  - `philosophy.hard-problem` - The hard problem of consciousness: qualia, the explanatory gap, and physicalist responses (`20.06.02`)
  - `philosophy.philosophy-of-mathematics-platonism-constructivism` - Philosophy of mathematics: Platonism, constructivism, and the nature of numbers (`20.09.01`)
 
 ### Language
