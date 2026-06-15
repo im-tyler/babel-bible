@@ -10759,6 +10759,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.education-religion
 
+
+### sociology.social-control-theories
+
+- **title**: Social control theories: labeling theory, strain theory, control theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Education and religion as institutions: reproduction of inequality, secularization
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
