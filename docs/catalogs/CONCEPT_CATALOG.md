@@ -11304,6 +11304,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Virchow 1858, Fermi and Fermi 1937, Doll and Hill 1950, Framingham Heart Study 1948-present, Hanahan and Weinberg 2000/2011; secondary: Mukherjee 2010, Leszczynski 2019"
 - **notes**: Leading causes of global mortality. Cardiovascular disease (atherosclerosis, hypertension, myocardial infarction, stroke, risk factors, prevention). Diabetes mellitus (Type 1, Type 2, gestational, pathophysiology of insulin resistance, complications, management). Cancer (hallmarks, oncogenes and tumor suppressors, staging, treatment modalities, screening). Risk factor modification, social determinants of health, global burden. MULTI-PERSPECTIVE: Health disparities across race, class, and geography; food deserts and chronic disease; cultural attitudes toward screening and treatment; palliative care vs aggressive treatment across cultures. No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.cardiovascular-disease
+
+- **title**: Cardiovascular disease: atherosclerosis, risk factors, myocardial infarction pathophysiology
+- **unit**: `35.03.02`
+- **prerequisites**: [`health-medicine.chronic-disease-cardiovascular-diabetes-cancer` (35.03.01)]
+- **tier_anchors**:
+  - beginner: "Kumar, V. et al. — Robbins Basic Pathology, 10th ed. (2021)"
+  - intermediate: "Libby, P. et al. — Braunwald's Heart Disease, 12th ed. (2022)"
+  - master: "Ross, R. — Atherosclerosis — an inflammatory disease (1999)"
+- **notes**: Atherosclerosis pathogenesis (response-to-injury hypothesis, endothelial dysfunction, LDL infiltration and oxidation, foam cell formation, fatty streak, fibrous plaque, complicated plaque, calcification, neovascularization, necrotic core, plaque rupture, thin-cap fibroatheroma, matrix metalloproteinases, thrombosis). Risk factors (INTERHEART nine modifiable factors, ApoB/ApoA1 ratio, Framingham Risk Score, ASCVD Pooled Cohort Equations, population attributable risk). Myocardial infarction pathophysiology (coronary anatomy LAD/LCX/RCA, ischemic cascade, 20-minute threshold for irreversible injury, STEMI vs NSTEMI, cardiac troponin, complications). Heart failure (HFrEF, HFpEF, remodeling, RAAS, sympathetic activation, SGLT2 inhibitors). Stroke (ischemic thrombotic/embolic, hemorrhagic, atrial fibrillation, tPA, thrombectomy). Treatment (aspirin, P2Y12 inhibitors, heparin, PCI, stenting, drug-eluting stents, thrombolysis tPA, statins LDL target, ACE inhibitors, beta-blockers, cardiac rehabilitation). Inflammation as therapeutic target (CANTOS, canakinumab, anti-IL-1beta, CRP). Lipid hypothesis (Anitschkow 1913, Framingham, Seven Countries, statin trials 4S/WOSCOPS/CARE/LIPID, PCSK9 inhibitors). Social determinants (Marmot Whitehall studies, weathering hypothesis Geronimus, neighborhood effects). Cardiovascular imaging (echocardiography, coronary angiography, CT calcium scoring, cardiac MRI, SPECT/PET). Global cardiovascular disease (epidemiological transition, rheumatic heart disease, Chagas cardiomyopathy, structural violence). Future (regenerative cardiology, polygenic risk scores, LVAD, digital health). No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.nutrition-macronutrients-micronutrients-diet
 
 - **title**: Nutrition: macronutrients, micronutrients, and diet
