@@ -12017,6 +12017,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.prehistoric-cultures
 
+
+### anthropology.human-variation
+
+- **title**: Human variation and race: non-existence of biological races, clines, adaptation
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Prehistoric cultures: Paleolithic tool traditions, the Neolithic revolution, state formation
 - **prerequisites**: [`anthropology.archaeology-material-culture-excavation`]
 - **notes**: Stub
