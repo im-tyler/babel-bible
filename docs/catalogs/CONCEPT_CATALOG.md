@@ -10762,6 +10762,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.social-control-theories
 
+
+### sociology.social-movements
+
+- **title**: Social movements: resource mobilization, framing, new social movements
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Social control theories: labeling theory, strain theory, control theory
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
