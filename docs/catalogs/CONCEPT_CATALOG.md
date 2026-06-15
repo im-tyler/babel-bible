@@ -11990,6 +11990,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.religion-ritual
 
+
+### anthropology.archaeological-methods
+
+- **title**: Archaeological methods: stratigraphy, typology, dating techniques, remote sensing
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Religion, ritual, and symbolism: rites of passage, shamanism, magic and science
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
