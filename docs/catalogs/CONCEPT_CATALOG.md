@@ -11869,6 +11869,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### history-of-science.contemporary-science-challenges-open-science
 
+
+### history-of-science.greek-hellenistic-science
+
+- **title**: Greek and Hellenistic science: Aristotle, Euclid, Archimedes
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Contemporary science: challenges, open science, and the future
 - **unit**: `33.08.01`
 - **prerequisites**: []
