@@ -9979,6 +9979,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.reductionism-in-biology
 
+
+### philosophy.scientific-realism
+
+- **title**: Scientific realism vs anti-realism: structural realism, constructive empiricism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Reductionism in biology: levels, multiple realizability, emergence
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
