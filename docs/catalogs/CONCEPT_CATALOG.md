@@ -9949,6 +9949,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.philosophy-of-qm
 
+
+### philosophy.space-time-relativity
+
+- **title**: Space, time, relativity: substantivalism, relationalism, direction of time
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Philosophy of QM: Copenhagen, Many-Worlds, Bohmian, QBism
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
