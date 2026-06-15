@@ -44957,6 +44957,28 @@
 ],
 "title": "Anthropology: the four fields and holism"
 },
+"31.01.02": {
+"area": "other",
+"books": [],
+"chapter": "intro-four-fields",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.01.02",
+"prereqs": [
+"31.01.01"
+],
+"section": "anthropology",
+"slug": "anthropological-theory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Anthropological theory: evolutionism, diffusionism, functionalism, structuralism, postmodernism"
+},
 "31.02.01": {
 "area": "other",
 "books": [],
@@ -44978,6 +45000,72 @@
 "master"
 ],
 "title": "Cultural anthropology: ethnography and fieldwork"
+},
+"31.02.02": {
+"area": "other",
+"books": [],
+"chapter": "cultural-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.02.02",
+"prereqs": [
+"31.02.01"
+],
+"section": "anthropology",
+"slug": "ethnographic-methods",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ethnographic methods: participant observation, fieldwork ethics, thick description (Geertz)"
+},
+"31.02.03": {
+"area": "other",
+"books": [],
+"chapter": "cultural-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.02.03",
+"prereqs": [
+"31.02.01"
+],
+"section": "anthropology",
+"slug": "kinship-marriage",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kinship, marriage, and family: descent systems, alliance theory, cross-cultural variation"
+},
+"31.02.04": {
+"area": "other",
+"books": [],
+"chapter": "cultural-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.02.04",
+"prereqs": [
+"31.02.01"
+],
+"section": "anthropology",
+"slug": "religion-ritual",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Religion, ritual, and symbolism: rites of passage (Van Gennep), shamanism, magic and science"
 },
 "31.03.01": {
 "area": "other",
@@ -45001,6 +45089,50 @@
 ],
 "title": "Archaeology: material culture and excavation"
 },
+"31.03.02": {
+"area": "other",
+"books": [],
+"chapter": "archaeology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.03.02",
+"prereqs": [
+"31.03.01"
+],
+"section": "anthropology",
+"slug": "archaeological-methods",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Archaeological methods: stratigraphy, typology, dating techniques, remote sensing"
+},
+"31.03.03": {
+"area": "other",
+"books": [],
+"chapter": "archaeology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.03.03",
+"prereqs": [
+"31.03.01"
+],
+"section": "anthropology",
+"slug": "prehistoric-cultures",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Prehistoric cultures: Paleolithic tool traditions, the Neolithic revolution, state formation"
+},
 "31.04.01": {
 "area": "other",
 "books": [],
@@ -45022,6 +45154,50 @@
 "master"
 ],
 "title": "Biological anthropology: evolution and hominins"
+},
+"31.04.02": {
+"area": "other",
+"books": [],
+"chapter": "biological-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.04.02",
+"prereqs": [
+"31.04.01"
+],
+"section": "anthropology",
+"slug": "human-evolution",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Human evolution: the hominin fossil record, Out of Africa, Neanderthal admixture"
+},
+"31.04.03": {
+"area": "other",
+"books": [],
+"chapter": "biological-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.04.03",
+"prereqs": [
+"31.04.01"
+],
+"section": "anthropology",
+"slug": "human-variation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Human variation and race: the non-existence of biological races, clines, and adaptation"
 },
 "31.05.01": {
 "area": "other",
@@ -45045,6 +45221,50 @@
 ],
 "title": "Linguistic anthropology: language, culture, and society"
 },
+"31.05.02": {
+"area": "other",
+"books": [],
+"chapter": "linguistic-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.05.02",
+"prereqs": [
+"31.05.01"
+],
+"section": "anthropology",
+"slug": "language-culture",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Language and culture: Sapir-Whorf hypothesis, language endangerment, code-switching"
+},
+"31.05.03": {
+"area": "other",
+"books": [],
+"chapter": "linguistic-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.05.03",
+"prereqs": [
+"31.05.01"
+],
+"section": "anthropology",
+"slug": "historical-linguistics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Historical linguistics: proto-languages, sound change, language families"
+},
 "31.06.01": {
 "area": "other",
 "books": [],
@@ -45067,6 +45287,50 @@
 "master"
 ],
 "title": "Applied anthropology: globalization, ethics, and decolonization"
+},
+"31.06.02": {
+"area": "other",
+"books": [],
+"chapter": "applied-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.06.02",
+"prereqs": [
+"31.06.01"
+],
+"section": "anthropology",
+"slug": "medical-anthropology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Medical anthropology: culture and illness, ethnomedicine, global health disparities"
+},
+"31.06.03": {
+"area": "other",
+"books": [],
+"chapter": "applied-anthropology",
+"curriculum": "anthropology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "31.06.03",
+"prereqs": [
+"31.06.01"
+],
+"section": "anthropology",
+"slug": "development-anthropology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Development and humanitarian anthropology: critiques of development, participatory approaches"
 },
 "32.01.01": {
 "area": "other",
