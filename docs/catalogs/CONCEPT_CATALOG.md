@@ -11381,6 +11381,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Ehrlich 1913, Clark 1933, Goldstein 1974, Vmax and Km kinetics literature, Thalidomide tragedy documentation, Kefauver-Harris Amendment 1962; secondary: Greene and Podolsky 2012, Daemmrich 2004, Marks 1997"
 - **notes**: Pharmacokinetics (ADME: absorption, distribution, metabolism, excretion), pharmacodynamics (dose-response, receptors, agonists and antagonists, therapeutic index), drug development pipeline, clinical trial phases, FDA/regulatory approval, generic vs brand-name drugs, the opioid crisis, pharmaceutical pricing and access, drug resistance, drug interactions, personalized medicine, pharmaceutical ethics (informed consent in trials, placebo ethics, access to medicines, patent law and TRIPS). MULTI-PERSPECTIVE: Global pharmaceutical inequality; traditional medicines and intellectual property; colonial exploitation of indigenous pharmacological knowledge; Big Pharma critique alongside acknowledgment of pharmaceutical innovation. No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.pharmacokinetics
+
+- **title**: Pharmacokinetics: ADME (absorption, distribution, metabolism, excretion), half-life, drug interactions
+- **unit**: `35.07.02`
+- **prerequisites**: [`health-medicine.pharmacology-how-drugs-work-ethics` (35.07.01)]
+- **tier_anchors**:
+  - beginner: "Katzung, Basic and Clinical Pharmacology (15e, 2021)"
+  - intermediate: "Katzung, Basic and Clinical Pharmacology (15e, 2021)"
+  - master: "primary sources: Teorell 1937, Dost 1953, Omura & Sato 1964, Estabrook/Cooper/Rosenthal 1963, Motulsky 1957, Kalow 1962, Bailey et al. 1991, Sheiner et al. 1972; secondary: Rowland & Tozer, Clinical Pharmacokinetics and Pharmacodynamics (5e, 2019)"
+- **notes**: Pharmacokinetics as the time course of drug disposition: ADME (absorption routes and bioavailability, volume of distribution and protein binding, Phase I/II metabolism and the CYP3A4/2D6/2C9/2C19 isoforms, renal and biliary excretion and clearance), half-life identity t_{1/2} = ln(2) * V_d / CL, steady-state accumulation under repeated dosing, loading and maintenance dose, first-order versus Michaelis-Menten (saturable, zero-order) elimination, compartment and population and physiologically-based (PBPK) models, therapeutic drug monitoring, pharmacokinetic and pharmacodynamic drug interactions (CYP induction and inhibition, grapefruit-CYP3A4, warfarin narrow therapeutic window), pharmacogenomics (CYP2D6 codeine, CYP2C19 clopidogrel, CYP2C9/VKORC1 warfarin, TPMT, HLA-B*57:01), special populations (pediatric, geriatric, pregnancy, renal/hepatic impairment), bioequivalence and the 80-125% rule. MULTI-PERSPECTIVE: population-average versus individual-patient dosing; genotype-guided prescribing and equitable access to pharmacogenomic testing; counterfeit/substandard drugs and global bioavailability; herb-drug interactions in ethnomedicine. No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.future-medicine-genomics-ai-global-health
 
 
@@ -11401,6 +11412,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.vaccine-science
 
+
+### health-medicine.pharmacokinetics
+
+- **title**: Pharmacokinetics: ADME, half-life, drug interactions
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Vaccine science: immunization schedules, herd immunity, vaccine hesitancy
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
