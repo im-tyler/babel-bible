@@ -11389,6 +11389,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.metabolic-syndrome
 
+
+### health-medicine.mental-health-epidemiology
+
+- **title**: Mental health epidemiology: global burden, social determinants, stigma
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Metabolic syndrome and diabetes: insulin resistance, adipose dysfunction
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
