@@ -11337,6 +11337,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Cahill, G. F. — Starvation in man (1970)"
 - **notes**: Carbohydrate metabolism (glycolysis, Krebs cycle, oxidative phosphorylation, glycogen synthesis, gluconeogenesis), fat metabolism (beta-oxidation, ketogenesis, lipogenesis, lipoprotein transport), protein metabolism (transamination, urea cycle, nitrogen balance), energy balance (first law of thermodynamics, BMR, thermic effect of food, adaptive thermogenesis), fed vs fasted state regulation (insulin/glucagon), starvation stages (Cahill), macronutrients and disease (fructose/NAFLD, fiber/microbiome, ultra-processed foods), metabolic flexibility (ketogenic diet, intermittent fasting, mTOR), nutrition epidemiology challenges, global nutrition (food security, hidden hunger, EAT-Lancet), personalized nutrition (PREDICT, nutrigenomics). No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.micronutrients
+
+- **title**: Micronutrients and deficiency diseases: vitamins, minerals, and their biochemical roles
+- **unit**: `35.04.03`
+- **prerequisites**: [`health-medicine.nutrition-macronutrients-micronutrients-diet` (35.04.01)]
+- **tier_anchors**:
+  - beginner: "Gropper and Smith, Advanced Nutrition and Human Metabolism, 7th ed. (2017)"
+  - intermediate: "Gropper and Smith, Advanced Nutrition and Human Metabolism, 7th ed. (2017)"
+  - master: "Sommer, A. — Vitamin A deficiency and its consequences, 3rd ed. (1995)"
+- **notes**: Fat-soluble vitamins (A/retinol — rhodopsin — 11-cis-retinal; D/cholecalciferol — calcium homeostasis; E/tocopherol — antioxidant; K/phylloquinone — clotting — warfarin), water-soluble vitamins (B1/thiamine — beriberi — Wernicke-Korsakoff; B3/niacin — pellagra — 4 Ds; B9/folate — neural tube defects; B12/cobalamin — pernicious anaemia; C/ascorbate — scurvy — collagen), minerals (iron — anaemia; iodine — goitre/cretinism — iodised salt; calcium; zinc; selenium — glutathione peroxidase; magnesium), deficiency diseases (Lind 1747; Eijkman beriberi Nobel 1929; Goldberger pellagra; rickets; Marine-Kimball 1917), fortification (folate 1998; iodisation; VITAL trial — negative), hidden hunger and global deficiencies, vitamins and evolution (GULO pseudogene; Jablonski-Chaplin skin pigmentation), nutrition and cognition, supplement industry and regulation (DSHEA 1994), food systems and biofortification (Golden Rice). No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.mental-health-disorders-stigma-treatment
 
 - **title**: Mental health: disorders, stigma, and treatment
