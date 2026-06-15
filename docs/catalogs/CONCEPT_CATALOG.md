@@ -9943,6 +9943,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.deontology
 
+
+### philosophy.virtue-ethics
+
+- **title**: Virtue ethics: Aristotle eudaimonia, neo-Aristotelianism, care ethics
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Deontology: Kant categorical imperative, rights, contractualism (Scanlon)
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
