@@ -11990,6 +11990,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Adorno, T. W. — Philosophy of New Music (1949)"
 - **notes**: Baroque (Bach, Handel, Vivaldi; basso continuo, fugue, opera, oratorio), Classical (Haydn, Mozart, Beethoven; sonata form, Enlightenment values, public concerts), Romanticism (Chopin, Wagner, Brahms, Tchaikovsky; program music, leitmotif, nationalism, Tristan chord). Social context: patronage to concert hall, music printing, virtuoso culture. Beethoven myth; Wagner and politics; canon critique. Mathlib has no formalisation; reviewer-attested.
 
+### music-art.twentieth-century-world-music
+
+- **title**: 20th-century and world music: modernism, jazz, non-Western traditions, popular music
+- **unit**: `34.02.03`
+- **prerequisites**: [34.02.01]
+- **tier_anchors**:
+  - beginner: "Meyer, L. B. — Emotion and Meaning in Music (1956)"
+  - intermediate: "Taruskin, R. — The Oxford History of Western Music (2005)"
+  - master: "Adorno, T. W. — Philosophy of New Music (1949)"
+- **notes**: Modernism (Schoenberg atonality and serialism, Stravinsky primitivism, Debussy impressionism, neoclassicism); jazz (Dixieland to bebop to free jazz to fusion); popular music (rock, soul, hip-hop, electronic); non-Western traditions (Indian raga, Indonesian gamelan, West African drumming, Arabic maqam); ethnomusicology (Hornbostel-Sachs, Hood bi-musicality, Lomax cantometrics). Music and politics (Shostakovich, Nazi Entartete Musik, apartheid, civil rights, hip-hop); Cage and the avant-garde; recording and electronic technology; Adorno culture-industry critique and responses; world music and cultural appropriation. Mathlib has no formalisation; reviewer-attested.
+
 ### music-art.visual-art-elements-principles-composition
 
 - **title**: Visual art: elements, principles, and composition
