@@ -223,7 +223,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 8 chapters (15 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **World History (32)** — same plan file — 8 new units (priority chapters). Sources: McNeill, Diamond, Bayly. 26 → 34 units (first pass).
+- [x] **World History (32)** — same plan file — 8 new units (priority chapters). Sources: McNeill, Diamond, Bayly. 26 → 34 units. All 27/27 validated.
+  - [x] PRODUCE: 8 chapters (8 units) → integrated → committed
+  - [x] COMPLETENESS: converged (first pass)
 
 - [ ] **History of Science (33)** — same plan file — 8 new units (all 8 chapters). Sources: Cohen, Bowler-Morus. 8 → 16 units.
 

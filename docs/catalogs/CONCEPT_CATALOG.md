@@ -10404,6 +10404,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### world-history.islamic-science-philosophy
 
+
+### world-history.wwi-causes-consequences
+
+- **title**: WWI causes and consequences: alliance systems, total war, peace settlement
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Science and philosophy in the Islamic Golden Age
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
