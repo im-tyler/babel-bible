@@ -11361,6 +11361,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.future-medicine-genomics-ai-global-health
 
+
+### health-medicine.cancer-biology
+
+- **title**: Cancer biology: hallmarks, oncogenes, tumor suppressors
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: The future of medicine: genomics, AI, and global health
 - **unit**: `35.08.01`
 - **prerequisites**: [`health-medicine.public-health-epidemiology-health-systems` (35.06.01)]
