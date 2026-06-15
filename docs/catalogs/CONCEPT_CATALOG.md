@@ -9719,6 +9719,7 @@ These entries register live draft units so the validator can distinguish "unknow
  - `philosophy-of-physics.measurement-problem` - The measurement problem in quantum mechanics (`20.03.01`)
  - `philosophy.aesthetics-beauty-art-judgment` - Aesthetics: beauty, art, and judgment (`20.04.01`)
  - `philosophy-of-biology.unit-of-selection` - The unit of selection (`20.05.02`)
+ - `philosophy.natural-selection-teleology` - Natural selection and teleology: function, design, and Darwinian explanation (`20.05.03`)
  - `philosophy.consciousness-hard-problem-qualia` - Consciousness: the hard problem, qualia, and the mind-body debate (`20.06.01`)
  - `philosophy.philosophy-of-mathematics-platonism-constructivism` - Philosophy of mathematics: Platonism, constructivism, and the nature of numbers (`20.09.01`)
 
