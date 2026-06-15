@@ -10351,6 +10351,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### world-history.meiji-japan-qing-collapse-scramble-for-africa
 
+
+### world-history.human-dispersal
+
+- **title**: Human dispersal: anatomically modern humans, migration routes, genetic evidence
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Meiji Japan, Qing collapse, and the Scramble for Africa
 - **unit**: `32.19.01`
 - **prerequisites**: `world-history.industrial-revolution-global-consequences` (32.18.01), `world-history.colonialism-imperialism-colonizer-colonized` (32.15.01)
