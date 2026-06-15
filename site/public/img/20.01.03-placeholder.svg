@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <rect width="800" height="520" fill="#f8f8f8"/>
+  <text x="400" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Epistemological Skepticism — Challenges and Responses</text>
+
+  <text x="60" y="70" font-family="sans-serif" font-size="12" fill="#555" font-weight="bold">Skeptical challenges</text>
+  <rect x="50" y="80" width="280" height="410" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+
+  <rect x="65" y="100" width="250" height="60" rx="4" fill="#ef5350" stroke="#c62828" stroke-width="1.5"/>
+  <text x="190" y="122" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Dream / Evil Demon (Descartes)</text>
+  <text x="190" y="142" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Cannot rule out dreaming</text>
+
+  <rect x="65" y="175" width="250" height="60" rx="4" fill="#ef5350" stroke="#c62828" stroke-width="1.5"/>
+  <text x="190" y="197" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Brain in a Vat (BIV)</text>
+  <text x="190" y="217" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Experiences match an envatted brain</text>
+
+  <rect x="65" y="250" width="250" height="60" rx="4" fill="#ef5350" stroke="#c62828" stroke-width="1.5"/>
+  <text x="190" y="272" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Humean Induction</text>
+  <text x="190" y="292" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Past does not guarantee future</text>
+
+  <rect x="65" y="325" width="250" height="60" rx="4" fill="#ef5350" stroke="#c62828" stroke-width="1.5"/>
+  <text x="190" y="347" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Agrippa's Regress</text>
+  <text x="190" y="367" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Every justification needs another</text>
+
+  <rect x="65" y="400" width="250" height="60" rx="4" fill="#ef5350" stroke="#c62828" stroke-width="1.5"/>
+  <text x="190" y="422" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Other Minds</text>
+  <text x="190" y="442" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">No access to another's consciousness</text>
+
+  <text x="740" y="70" text-anchor="end" font-family="sans-serif" font-size="12" fill="#555" font-weight="bold">Principal responses</text>
+  <rect x="470" y="80" width="280" height="410" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+
+  <rect x="485" y="100" width="250" height="60" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="610" y="122" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Cogito / Moorean Common Sense</text>
+  <text x="610" y="142" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">"Here is a hand" — modus tollens</text>
+
+  <rect x="485" y="175" width="250" height="60" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="610" y="197" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Relevant Alternatives / Tracking</text>
+  <text x="610" y="217" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Rule out relevant alternatives</text>
+
+  <rect x="485" y="250" width="250" height="60" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="610" y="272" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Pragmatic Vindication / Naturalism</text>
+  <text x="610" y="292" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Best available policy (Reichenbach)</text>
+
+  <rect x="485" y="325" width="250" height="60" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="610" y="347" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Foundationalism / Coherentism</text>
+  <text x="610" y="367" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Reliabilism — process-reliability</text>
+
+  <rect x="485" y="400" width="250" height="60" rx="4" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="610" y="422" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="bold">Analogical Argument / Criteria</text>
+  <text x="610" y="442" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">Wittgensteinian forms of life</text>
+
+  <line x1="315" y1="130" x2="485" y2="130" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="315" y1="205" x2="485" y2="205" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="315" y1="280" x2="485" y2="280" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="315" y1="355" x2="485" y2="355" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="315" y1="430" x2="485" y2="430" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <rect x="330" y="475" width="140" height="30" rx="4" fill="#fffacd" stroke="#d4ac0d" stroke-width="1.5"/>
+  <text x="400" y="494" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#333" font-weight="bold">epistemic closure</text>
+
+  <text x="400" y="514" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">The hinge each response must address</text>
+</svg>

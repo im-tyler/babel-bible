@@ -9926,6 +9926,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.daoism-wuwei-natural-harmony
 
+
+### philosophy.skepticism
+
+- **title**: Epistemological skepticism: Cartesian doubt, contextualism, externalism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Daoism: wu wei, the Dao, and natural harmony
 - **unit**: `20.13.01`
 - **prerequisites**: none
