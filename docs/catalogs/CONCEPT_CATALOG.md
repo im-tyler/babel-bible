@@ -10382,6 +10382,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Factory Commission reports 1832-33, Sadler Report, Engels Condition of the Working Class in England, testimony before Parliament, Qing edicts on opium, Marx Capital Vol. 1 selections, Parliamentary debates on Corn Laws and Navigation Acts; secondary: Allen, Hobsbawm, Pomeranz, Parthasarathi, Beckert, Headrick, Bayly"
 - **notes**: Industrial Revolution from multiple perspectives. British ingenuity and technological progress alongside experiences of Indian textile workers whose industry was destroyed, Chinese populations subjected to Opium Wars, African communities reshaped by extractive commerce, and British factory workers including children. The Great Divergence debate (Pomeranz, Parthasarathi). Global consequences: deindustrialization of colonized economies, environmental degradation, persistent inequality between industrial and non-industrial nations. MULTI-PERSPECTIVE: Progress and suffering as simultaneous truths. No Lean formalisation; human-review-only at all tiers.
 
+### world-history.industrialization-global-inequality
+
+- **title**: Industrialization and global inequality: divergence, living standards debate, labor movements
+- **unit**: `32.18.02`
+- **prerequisites**: `world-history.industrial-revolution-global-consequences` (32.18.01)
+- **tier_anchors**:
+  - beginner: "McNeill, W. H. — The Rise of the West (1963)"
+  - intermediate: "Bayly, C. A. — The Birth of the Modern World (2004)"
+  - master: "Pomeranz, K. — The Great Divergence (2000)"
+- **notes**: Industrialization and global inequality. The Great Divergence debate (Pomeranz vs Landes): why Europe industrialized first — coal and colonies versus culture and institutions. Allen's high-wage economy thesis. The living standards debate (optimists vs pessimists — Engels, real wages, anthropometric and mortality evidence). Labor movements (Luddites, Chartism, trade unions, Marx, Second International). Global consequences: deindustrialization of India and China, colonial extraction, world-systems theory, persistent global inequality. MULTI-PERSPECTIVE: industrialization as progress and as extraction simultaneously; European and Asian/African perspectives on divergence; optimist and pessimist readings of living standards. No Lean formalisation; human-review-only at I/M tier.
+
 ### world-history.meiji-japan-qing-collapse-scramble-for-africa
 
 
