@@ -37281,6 +37281,50 @@
 ],
 "title": "Epistemology: knowledge, justification, and truth"
 },
+"20.01.02": {
+"area": "other",
+"books": [],
+"chapter": "epistemology",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.01.02",
+"prereqs": [
+"20.01.01"
+],
+"section": "philosophy",
+"slug": "theories-of-justification",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Theories of justification: foundationalism, coherentism, reliabilism"
+},
+"20.01.03": {
+"area": "other",
+"books": [],
+"chapter": "epistemology",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.01.03",
+"prereqs": [
+"20.01.01"
+],
+"section": "philosophy",
+"slug": "skepticism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Epistemological skepticism and responses: Cartesian doubt, contextualism, externalism"
+},
 "20.02.01": {
 "area": "other",
 "books": [],
@@ -37411,6 +37455,72 @@
 ],
 "title": "Ethics of artificial intelligence"
 },
+"20.02.07": {
+"area": "other",
+"books": [],
+"chapter": "ethics",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.02.07",
+"prereqs": [
+"20.02.01"
+],
+"section": "philosophy",
+"slug": "consequentialism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Consequentialism in depth: act vs. rule utilitarianism, preference satisfaction, effective altruism"
+},
+"20.02.08": {
+"area": "other",
+"books": [],
+"chapter": "ethics",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.02.08",
+"prereqs": [
+"20.02.01"
+],
+"section": "philosophy",
+"slug": "deontology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Deontology: Kant's categorical imperative, rights theory, contractualism (Scanlon)"
+},
+"20.02.09": {
+"area": "other",
+"books": [],
+"chapter": "ethics",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.02.09",
+"prereqs": [
+"20.02.01"
+],
+"section": "philosophy",
+"slug": "virtue-ethics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Virtue ethics: Aristotle's eudaimonia, contemporary neo-Aristotelianism, care ethics"
+},
 "20.03.01": {
 "area": "other",
 "books": [],
@@ -37432,6 +37542,50 @@
 "master"
 ],
 "title": "The measurement problem in quantum mechanics"
+},
+"20.03.02": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-physics",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.03.02",
+"prereqs": [
+"20.03.01"
+],
+"section": "philosophy",
+"slug": "philosophy-of-qm",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Philosophy of quantum mechanics: interpretations (Copenhagen, Many-Worlds, Bohmian, QBism)"
+},
+"20.03.03": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-physics",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.03.03",
+"prereqs": [
+"20.03.01"
+],
+"section": "philosophy",
+"slug": "space-time-relativity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Space, time, and relativity: substantivalism vs. relationalism, the direction of time"
 },
 "20.04.01": {
 "area": "other",
@@ -37475,6 +37629,50 @@
 ],
 "title": "The unit of selection"
 },
+"20.05.03": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-biology",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.05.03",
+"prereqs": [
+"20.05.01"
+],
+"section": "philosophy",
+"slug": "natural-selection-teleology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Natural selection and teleology: function, design, and Darwinian explanation"
+},
+"20.05.04": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-biology",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.05.04",
+"prereqs": [
+"20.05.01"
+],
+"section": "philosophy",
+"slug": "reductionism-in-biology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Reductionism in biology: levels of organization, multiple realizability, emergence"
+},
 "20.06.01": {
 "area": "other",
 "books": [],
@@ -37494,6 +37692,50 @@
 "master"
 ],
 "title": "Consciousness: the hard problem, qualia, and the mind-body debate"
+},
+"20.06.02": {
+"area": "other",
+"books": [],
+"chapter": "consciousness",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.06.02",
+"prereqs": [
+"20.06.01"
+],
+"section": "philosophy",
+"slug": "hard-problem",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The hard problem of consciousness: qualia, the explanatory gap, and physicalist responses"
+},
+"20.06.03": {
+"area": "other",
+"books": [],
+"chapter": "consciousness",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.06.03",
+"prereqs": [
+"20.06.01"
+],
+"section": "philosophy",
+"slug": "theories-of-consciousness",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Theories of consciousness: Global Workspace, Integrated Information Theory (IIT), higher-order theories"
 },
 "20.07.01": {
 "area": "other",
@@ -37537,6 +37779,50 @@
 ],
 "title": "Philosophy of science: demarcation, falsification, and paradigms"
 },
+"20.08.02": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-science",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.08.02",
+"prereqs": [
+"20.08.01"
+],
+"section": "philosophy",
+"slug": "scientific-realism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Scientific realism vs. anti-realism: structural realism, constructive empiricism (van Fraassen)"
+},
+"20.08.03": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-science",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.08.03",
+"prereqs": [
+"20.08.01"
+],
+"section": "philosophy",
+"slug": "causation-explanation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Causation and explanation: counterfactual analysis, mechanistic explanation, causal inference"
+},
 "20.09.01": {
 "area": "other",
 "books": [],
@@ -37556,6 +37842,50 @@
 "master"
 ],
 "title": "Philosophy of mathematics: Platonism, constructivism, and the nature of numbers"
+},
+"20.09.02": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-math",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.09.02",
+"prereqs": [
+"20.09.01"
+],
+"section": "philosophy",
+"slug": "foundations-of-mathematics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Foundations of mathematics: logicism (Russell), formalism (Hilbert), intuitionism (Brouwer)"
+},
+"20.09.03": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-math",
+"curriculum": "philosophy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.09.03",
+"prereqs": [
+"20.09.01"
+],
+"section": "philosophy",
+"slug": "mathematical-ontology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mathematical ontology: Platonism, nominalism, structuralism, fictionalism"
 },
 "20.10.01": {
 "area": "other",
