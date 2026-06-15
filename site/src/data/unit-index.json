@@ -46769,6 +46769,50 @@
 ],
 "title": "Music fundamentals: rhythm, melody, and harmony"
 },
+"34.01.02": {
+"area": "other",
+"books": [],
+"chapter": "music-fundamentals",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.01.02",
+"prereqs": [
+"34.01.01"
+],
+"section": "music-art",
+"slug": "harmony-counterpoint",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Harmony and counterpoint: voice leading, functional harmony, modulation"
+},
+"34.01.03": {
+"area": "other",
+"books": [],
+"chapter": "music-fundamentals",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.01.03",
+"prereqs": [
+"34.01.01"
+],
+"section": "music-art",
+"slug": "musical-form",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Musical form and analysis: sonata form, rondo, theme and variations; set theory in post-tonal music"
+},
 "34.02.01": {
 "area": "other",
 "books": [],
@@ -46788,6 +46832,50 @@
 "master"
 ],
 "title": "Music history: Western and world traditions"
+},
+"34.02.02": {
+"area": "other",
+"books": [],
+"chapter": "music-history",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.02.02",
+"prereqs": [
+"34.02.01"
+],
+"section": "music-art",
+"slug": "western-art-music",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Western art music survey: Baroque to Romanticism; landmark works and social contexts"
+},
+"34.02.03": {
+"area": "other",
+"books": [],
+"chapter": "music-history",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.02.03",
+"prereqs": [
+"34.02.01"
+],
+"section": "music-art",
+"slug": "twentieth-century-world-music",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "20th-century and world music: modernism, jazz, non-Western traditions, popular music"
 },
 "34.03.01": {
 "area": "other",
@@ -46809,6 +46897,28 @@
 ],
 "title": "Visual art: elements, principles, and composition"
 },
+"34.03.02": {
+"area": "other",
+"books": [],
+"chapter": "visual-art-elements",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.03.02",
+"prereqs": [
+"34.03.01"
+],
+"section": "music-art",
+"slug": "color-theory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Color theory and composition principles: Itten, Albers; figure-ground, gestalt"
+},
 "34.04.01": {
 "area": "other",
 "books": [],
@@ -46828,6 +46938,28 @@
 "master"
 ],
 "title": "Art history: cave paintings to contemporary"
+},
+"34.04.02": {
+"area": "other",
+"books": [],
+"chapter": "art-history",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.04.02",
+"prereqs": [
+"34.04.01"
+],
+"section": "music-art",
+"slug": "modern-contemporary-art",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Modern and contemporary art movements: Impressionism through Abstract Expressionism to Conceptual Art"
 },
 "34.05.01": {
 "area": "other",
@@ -46869,6 +47001,28 @@
 ],
 "title": "Architecture and design of the built environment"
 },
+"34.06.02": {
+"area": "other",
+"books": [],
+"chapter": "architecture-design",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.06.02",
+"prereqs": [
+"34.06.01"
+],
+"section": "music-art",
+"slug": "architecture-urban-design",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Architecture and urban design: form follows function, modernism, sustainability"
+},
 "34.07.01": {
 "area": "other",
 "books": [],
@@ -46888,6 +47042,28 @@
 "master"
 ],
 "title": "Aesthetics theory: taste, judgment, and culture"
+},
+"34.07.02": {
+"area": "other",
+"books": [],
+"chapter": "aesthetics-theory",
+"curriculum": "music-art",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.07.02",
+"prereqs": [
+"34.07.01"
+],
+"section": "music-art",
+"slug": "theories-of-aesthetic-experience",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Theories of aesthetic experience: Kant's sublime, Dewey's pragmatist aesthetics, institutional theory"
 },
 "34.08.01": {
 "area": "other",
