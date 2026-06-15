@@ -12020,6 +12020,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### anthropology.human-variation
 
+
+### anthropology.language-culture
+
+- **title**: Language and culture: Sapir-Whorf, language endangerment, code-switching
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Human variation and race: non-existence of biological races, clines, adaptation
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
