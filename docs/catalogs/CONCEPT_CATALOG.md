@@ -10997,6 +10997,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Darwin 1859/1871, Mendel 1866, Wallace 1858, Huxley 1863, Johanson and White 1979, Leakey 1959, White et al. 2009 (Ardipithecus), Berger et al. 2015 (Homo naledi); secondary: Stringer and Andrews, The Complete World of Human Evolution; Tattersall, The Fossil Trail"
 - **notes**: Evolutionary theory (natural selection, adaptation, genetic drift, gene flow, mutation; modern synthesis; population genetics: Hardy-Weinberg equilibrium, fitness, selection coefficients), primate biology and behavior (prosimians, monkeys, apes; primate taxonomy; comparative anatomy; social structures; tool use in chimpanzees and other primates), hominin evolution ( Sahelanthropus tchadensis 7 Mya, Orrorin tugenensis, Ardipithecus ramidus 4.4 Mya, Australopithecus afarensis Lucy 3.2 Mya, A. africanus, Paranthropus robustus/boisei, Homo habilis, H. erectus/ergaster, H. heidelbergensis, H. neanderthalensis with Denisovan and Neanderthal introgression in modern humans, H. sapiens), key transitions (bipedalism and its anatomical signatures, brain expansion, tool traditions Oldowan/Acheulean/Mousterian/Aurignacian, control of fire, language origins, symbolic behavior and cave art), human variation (clines, race as social construct with genetic evidence against biological race, Bergmann's and Allen's rules, sickle-cell and malaria, lactase persistence), forensic anthropology basics. No Lean formalisation; human-review-only at all tiers.
 
+### anthropology.human-evolution
+
+- **title**: Human evolution: the hominin fossil record, Out of Africa, Neanderthal admixture
+- **unit**: `31.04.02`
+- **prerequisites**: `anthropology.biological-anthropology-evolution-hominins` (31.04.01)
+- **tier_anchors**:
+  - beginner: "Kottak, Anthropology (17e), Ch. 5; Haviland et al., Cultural Anthropology (15e), Ch. 5"
+  - intermediate: "Haviland et al., Cultural Anthropology (15e), Ch. 5; Larsen, Our Origins; Stringer, Lone Survivors"
+  - master: "primary sources: Darwin 1871, Dart 1925, Johanson and Edey 1981, Sarich and Wilson 1967, Cann-Stoneking-Wilson 1987, Green et al. 2010, Meyer et al. 2012, Huerta-Sanchez et al. 2014; secondary: Stringer 2012, Reich 2018, Wrangham 2009"
+- **notes**: Hominin fossil record (Sahelanthropus, Orrorin, Ardipithecus, Australopithecus anamensis/afarensis/africanus/garhi, Paranthropus, Homo habilis, erectus, heidelbergensis, neanderthalensis, floresiensis, naledi, sapiens at Jebel Irhoud 300 kya), bipedalism origins (Lovejoy provisioning, Rodman-McHenry energetics, Hunt feeding posture, Wheeler thermoregulation), brain expansion (expensive tissue Aiello-Wheeler, cooking Wrangham, social brain Dunbar), Out of Africa dispersals, ancient DNA revolution (Paabo, Neanderthal genome 2010, Denisovan genome 2012, EPAS1 adaptive introgression in Tibetans), replacement vs multiregional vs assimilation, gene-culture coevolution (lactase persistence, skin pigmentation, sickle cell and malaria). No Lean formalisation; human-review-only at all tiers.
+
 ### anthropology.linguistic-anthropology-language-culture
 
 - **title**: Linguistic anthropology: language, culture, and society
@@ -11967,6 +11978,13 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Larsen, Our Origins: Discovering Physical Anthropology (5e); Jurmain et al., Introduction to Physical Anthropology (15e)"
   - master: "Darwin 1859 On the Origin of Species; Darwin 1871 The Descent of Man; Leakey family excavations; Johanson and White 1979; Tattersall"
 - **notes**: Evolutionary theory as the foundation of biological anthropology. Darwinian natural selection, Mendelian genetics, and the modern synthesis. Molecular genetics: DNA, genes, and the molecular clock. Population genetics: Hardy-Weinberg equilibrium, genetic drift, gene flow, mutation, and natural selection. Primate evolution and primate behaviour. The hominin fossil record from Sahelanthropus through Australopithecus to Homo. Key transitions: bipedalism, brain expansion, tool use, language, and control of fire. The Out-of-Africa model versus multiregional continuity. Ancient DNA and what it has revealed about human migrations and admixture with Neanderthals and Denisovans. Human biological variation: adaptation, acclimatisation, and the race concept. Forensic anthropology.
+
+### anthropology.human-evolution
+
+- **title**: Human evolution: the hominin fossil record, Out of Africa, Neanderthal admixture
+- **unit**: `31.04.02`
+- **prerequisites**: [`anthropology.biological-anthropology-evolution-hominins`]
+- **notes**: Hominin fossil record (Sahelanthropus through Homo sapiens at Jebel Irhoud 300 kya), bipedalism origins, brain expansion (expensive tissue, cooking, social brain), Out of Africa dispersals, ancient DNA (Neanderthal and Denisovan admixture, EPAS1 introgression), replacement vs multiregional vs assimilation, gene-culture coevolution. No Lean formalisation; human-review-only at all tiers.
 
 ### anthropology.linguistic-anthropology-language-culture
 
