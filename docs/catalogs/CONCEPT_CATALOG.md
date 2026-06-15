@@ -11957,6 +11957,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Rameau, Schoenberg, Forte, Lewin"
 - **notes**: Rhythm, melody, harmony, timbre, dynamics. Major/minor scales. Intervals. Chords. V-I cadence. Equal temperament. Pentatonic scale. Pythagoras and music-mathematics connection.
 
+### music-art.harmony-counterpoint
+
+- **title**: Harmony and counterpoint: voice leading, functional harmony, modulation
+- **unit**: `34.01.02`
+- **prerequisites**: [`34.01.01`]
+- **tier_anchors**:
+  - beginner: "Meyer, Emotion and Meaning in Music (1956)"
+  - intermediate: "Aldwell & Schachter, Harmony and Voice Leading (4e, 2011)"
+  - master: "Schoenberg, Theory of Harmony (1911)"
+- **notes**: Intervals, triads and seventh chords, Roman numeral analysis, functional harmony (tonic, subdominant, dominant), voice leading rules, species counterpoint (Fux), cadences, non-chord tones, secondary dominants, modulation (pivot chord, direct, common tone, enharmonic). T/I group as dihedral D12; neo-Riemannian P/L/R and the Tonnetz; Schenkerian Ursatz; jazz ii-V-I and tritone substitution; Meyer expectation theory; Forte pitch-class sets; Lewin transformational theory; Tymoczko voice-leading orbifolds. Mathlib has no formalisation; reviewer-attested.
+
 ### music-art.music-history-western-world-traditions
 
 - **title**: Music history: Western and world traditions
