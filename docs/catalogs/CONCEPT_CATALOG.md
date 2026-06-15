@@ -9953,6 +9953,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.space-time-relativity
 
+
+### philosophy.reductionism-in-biology
+
+- **title**: Reductionism in biology: levels, multiple realizability, emergence
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Space, time, relativity: substantivalism, relationalism, direction of time
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
