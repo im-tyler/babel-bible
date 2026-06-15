@@ -231,7 +231,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 8 chapters (8 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Music & Art (34)** — same plan file — 8 new units (priority chapters). Sources: Meyer, Gombrich, Arnheim. 8 → 16 units.
+- [x] **Music & Art (34)** — same plan file — 8 new units (priority chapters). Sources: Meyer, Gombrich, Arnheim. 8 → 16 units. All 27/27 validated.
+  - [x] PRODUCE: 6 chapters (8 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 - [ ] **Health & Medicine (35)** — same plan file — 18 new units (all 8 chapters). Sources: Robbins Pathology 2021, Harrison's 2022, Gordis Epidemiology 2019. 8 → 26 units.
 

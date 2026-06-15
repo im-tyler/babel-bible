@@ -12086,6 +12086,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### music-art.modern-contemporary-art
 
+
+### music-art.theories-of-aesthetic-experience
+
+- **title**: Theories of aesthetic experience: Kant sublime, Dewey pragmatist, institutional theory
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Modern and contemporary art: Impressionism to Conceptual Art
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
