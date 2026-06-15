@@ -11398,6 +11398,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.health-disparities
 
+
+### health-medicine.vaccine-science
+
+- **title**: Vaccine science: immunization schedules, herd immunity, vaccine hesitancy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Health disparities and social determinants: income, race, geography, life expectancy
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
