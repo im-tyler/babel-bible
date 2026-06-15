@@ -11238,6 +11238,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Bernard 1865, Cannon 1932, Bernard 1878; secondary: Noble 2008, Strange 2005, Modell et al. 2015"
 - **notes**: Overview of the eleven organ systems (integumentary, skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic/immune, respiratory, digestive, urinary, reproductive) with emphasis on homeostasis as the unifying principle. Negative and positive feedback loops. Set points and regulated variables. Levels of structural organization from chemical to organismal. The cell as the basic unit of life. Tissue types (epithelial, connective, muscle, nervous). Body cavities and membranes. No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.homeostasis
+
+- **title**: Homeostasis and feedback regulation: set points, negative feedback, allostasis
+- **unit**: `35.01.02`
+- **prerequisites**: [`health-medicine.human-body-organ-systems-homeostasis` (35.01.01)]
+- **tier_anchors**:
+  - beginner: "Hall, J. E. and Hall, M. E. — Guyton and Hall Textbook of Medical Physiology, 14th ed. (2021)"
+  - intermediate: "Boron, W. F. and Boulpaep, E. L. — Medical Physiology, 3rd ed. (2017)"
+  - master: "Cannon, W. B. — The Wisdom of the Body (1932)"
+- **notes**: Negative feedback loops (sensor, integrator, effector, set point), positive feedback, feedforward; physiological examples (temperature, blood glucose, blood pressure, pH, osmolarity, calcium); circadian rhythms (SCN, clock genes); allostasis (McEwen — allostatic load) and rheostasis (Mrosovsky); homeostatic failure in disease (diabetes, hypertension, heart failure, sepsis, metabolic syndrome); control-theoretic treatment (proportional-integral-derivative, delay-induced oscillation, robustness–fragility); evolutionary medicine (Nesse-Williams); interoception and consciousness (Craig, Damasio, Barrett). No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.infectious-disease-immunity-vaccines
 
 - **title**: Infectious disease, immunity, and vaccines
