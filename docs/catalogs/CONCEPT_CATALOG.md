@@ -11812,6 +11812,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Sabra, Rashed, Saliba, Lindberg, Grant"
 - **notes**: Translation movements (Greek to Arabic, Arabic to Latin). Al-Khwarizmi and algebra. Ibn al-Haytham and optics. Maragha school. Tusi couple. Scholasticism and universities.
 
+### history-of-science.medieval-european-science
+
+- **title**: Medieval European science: universities, scholasticism, and the recovery of Aristotle
+- **unit**: `33.02.02`
+- **prerequisites**: [`33.02.01`]
+- **tier_anchors**:
+  - beginner: "Bowler and Morus, Making Modern Science (2005)"
+  - intermediate: "Cohen, How Modern Science Came into the World (2010)"
+  - master: "Grant, The Foundations of Modern Science in the Middle Ages (1996)"
+- **notes**: Monastic preservation. Rise of universities (Bologna, Paris, Oxford, Cambridge). Toledo translation movement (Arabic to Latin). Scholasticism (Aquinas). Condemnations of 1277. Oxford Calculators (Bradwardine). Merton mean speed theorem. Buridan impetus theory. Duhem-Koyre continuity debate.
+
 ### history-of-science.scientific-revolution-copernicus-newton
 
 - **title**: The Scientific Revolution: Copernicus to Newton

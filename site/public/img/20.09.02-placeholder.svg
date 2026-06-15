@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f8f8f8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Foundations of Mathematics — Placeholder</text>
+  <text x="400" y="52" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">Three schools responding to the foundational crisis (~1900-1931)</text>
+  <rect x="40" y="80" width="230" height="300" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="155" y="108" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1565c0">Logicism</text>
+  <text x="155" y="128" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">Frege · Russell · Whitehead</text>
+  <text x="155" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Math reduces to logic.</text>
+  <text x="155" y="178" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Principia Mathematica (1910)</text>
+  <text x="155" y="200" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Type theory blocks the</text>
+  <text x="155" y="216" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">set-of-all-sets paradox.</text>
+  <text x="155" y="250" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1565c0">1 + 1 = 2 as a theorem</text>
+  <text x="155" y="266" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1565c0">of pure logic.</text>
+  <text x="155" y="310" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Strain: are infinity, choice,</text>
+  <text x="155" y="324" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">power set "purely logical"?</text>
+  <rect x="285" y="80" width="230" height="300" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="1.5"/>
+  <text x="400" y="108" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#e65100">Formalism</text>
+  <text x="400" y="128" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">Hilbert</text>
+  <text x="400" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Math is symbol manipulation.</text>
+  <text x="400" y="178" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Meaning is not required;</text>
+  <text x="400" y="194" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">consistency is.</text>
+  <text x="400" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#e65100">Hilbert's program:</text>
+  <text x="400" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#e65100">prove arithmetic complete,</text>
+  <text x="400" y="260" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#e65100">consistent, decidable.</text>
+  <text x="400" y="294" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">"Wir werden wissen."</text>
+  <text x="400" y="330" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Refuted 1931 by Gödel's</text>
+  <text x="400" y="344" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">incompleteness theorems.</text>
+  <rect x="530" y="80" width="230" height="300" rx="6" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5"/>
+  <text x="645" y="108" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#6a1b9a">Intuitionism</text>
+  <text x="645" y="128" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">Brouwer · Heyting</text>
+  <text x="645" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Math is mental construction.</text>
+  <text x="645" y="178" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">An object exists only if</text>
+  <text x="645" y="194" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">it can be built.</text>
+  <text x="645" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6a1b9a">Reject the law of</text>
+  <text x="645" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6a1b9a">excluded middle for</text>
+  <text x="645" y="262" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6a1b9a">infinite totalities.</text>
+  <text x="645" y="296" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Accept only potential,</text>
+  <text x="645" y="312" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">not actual, infinity.</text>
+  <text x="645" y="346" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Heyting formalises the logic;</text>
+  <text x="645" y="360" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Bishop rebuilds analysis.</text>
+  <text x="400" y="412" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">The crisis: naive set theory contradicts itself (Russell's paradox, 1901).</text>
+  <text x="400" y="432" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333">Each school proposes a different repair; Gödel (1931) shows limits no school escapes.</text>
+  <text x="400" y="468" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#888">Three foundational schools and their fate.</text>
+</svg>
