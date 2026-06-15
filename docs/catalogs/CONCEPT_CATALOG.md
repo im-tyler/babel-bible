@@ -11834,6 +11834,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Primary sources: Copernicus, Kepler, Galileo, Newton"
 - **notes**: Copernican heliocentrism, Kepler's laws, Galileo's telescopic observations and trial, Newton's Principia. V-I cadence as central concept. Mechanical philosophy. Royal Society.
 
+### history-of-science.copernicus-to-newton
+
+- **title**: Copernicus to Newton: heliocentric model, Kepler's laws, Galileo's telescopic observations
+- **unit**: `33.03.02`
+- **prerequisites**: [33.03.01]
+- **tier_anchors**:
+  - beginner: "Bowler, P. J. and Morus, I. R. — Making Modern Science (2005)"
+  - intermediate: "Cohen, H. F. — How Modern Science Came into the World (2010)"
+  - master: "Kuhn, T. S. — The Copernican Revolution (1957)"
+- **notes**: Copernicus's heliocentric model (1543), Tycho's naked-eye observations, Kepler's three laws, Galileo's telescopic discoveries and mechanics, Newton's Principia (1687) — three laws of motion and universal gravitation, calculus. Osiander preface and realism debate, Tychonic compromise, Galileo trial, Newton-Leibniz priority dispute, instruments and trust, Newtonianism and the Enlightenment, women and the global frame.
+
 ### history-of-science.industrial-revolution-chemistry-electromagnetism
 
 - **title**: Industrial Revolution, chemistry, and electromagnetism
