@@ -44409,6 +44409,50 @@
 ],
 "title": "The sociological imagination and research methods"
 },
+"30.01.02": {
+"area": "other",
+"books": [],
+"chapter": "sociological-imagination-methods",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.01.02",
+"prereqs": [
+"30.01.01"
+],
+"section": "sociology",
+"slug": "research-methods",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sociological research methods: surveys, ethnography, experiments, mixed methods"
+},
+"30.01.03": {
+"area": "other",
+"books": [],
+"chapter": "sociological-imagination-methods",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.01.03",
+"prereqs": [
+"30.01.01"
+],
+"section": "sociology",
+"slug": "classical-theory",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Classical theory: Marx, Weber, Durkheim; contemporary theoretical perspectives"
+},
 "30.02.01": {
 "area": "other",
 "books": [],
@@ -44430,6 +44474,50 @@
 "master"
 ],
 "title": "Culture and society: a global perspective"
+},
+"30.02.02": {
+"area": "other",
+"books": [],
+"chapter": "culture",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.02.02",
+"prereqs": [
+"30.02.01"
+],
+"section": "sociology",
+"slug": "cultural-diversity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cultural diversity and ethnocentrism; cultural relativism and hybridization"
+},
+"30.02.03": {
+"area": "other",
+"books": [],
+"chapter": "culture",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.02.03",
+"prereqs": [
+"30.02.01"
+],
+"section": "sociology",
+"slug": "media-culture-industry",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Media and culture industry: Adorno-Horkheimer, moral panic, media framing"
 },
 "30.03.01": {
 "area": "other",
@@ -44453,6 +44541,50 @@
 ],
 "title": "Socialization and Identity Formation"
 },
+"30.03.02": {
+"area": "other",
+"books": [],
+"chapter": "socialization",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.03.02",
+"prereqs": [
+"30.03.01"
+],
+"section": "sociology",
+"slug": "agents-of-socialization",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Agents of socialization: family, peers, schools, media; resocialization"
+},
+"30.03.03": {
+"area": "other",
+"books": [],
+"chapter": "socialization",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.03.03",
+"prereqs": [
+"30.03.01"
+],
+"section": "sociology",
+"slug": "identity-and-self",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Identity and the self: symbolic interactionism (Mead, Goffman), stigma"
+},
 "30.04.01": {
 "area": "other",
 "books": [],
@@ -44474,6 +44606,72 @@
 "master"
 ],
 "title": "Social stratification: class, race, gender, and caste"
+},
+"30.04.02": {
+"area": "other",
+"books": [],
+"chapter": "social-stratification",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.04.02",
+"prereqs": [
+"30.04.01"
+],
+"section": "sociology",
+"slug": "class-structure",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Class structure and mobility: measurement, intergenerational mobility, the American Dream myth"
+},
+"30.04.03": {
+"area": "other",
+"books": [],
+"chapter": "social-stratification",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.04.03",
+"prereqs": [
+"30.04.01"
+],
+"section": "sociology",
+"slug": "race-ethnicity",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Race and ethnicity: systemic racism, intersectionality (Crenshaw), racial formation theory"
+},
+"30.04.04": {
+"area": "other",
+"books": [],
+"chapter": "social-stratification",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.04.04",
+"prereqs": [
+"30.04.01"
+],
+"section": "sociology",
+"slug": "gender-inequality",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gender inequality: gender gap in wages, occupational segregation, feminist theory"
 },
 "30.05.01": {
 "area": "other",
@@ -44497,6 +44695,50 @@
 ],
 "title": "Social institutions: family, education, religion, and media"
 },
+"30.05.02": {
+"area": "other",
+"books": [],
+"chapter": "institutions",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.05.02",
+"prereqs": [
+"30.05.01"
+],
+"section": "sociology",
+"slug": "family-structure",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Family structure and change: marriage forms, divorce trends, kinship systems"
+},
+"30.05.03": {
+"area": "other",
+"books": [],
+"chapter": "institutions",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.05.03",
+"prereqs": [
+"30.05.01"
+],
+"section": "sociology",
+"slug": "education-religion",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Education and religion as institutions: reproduction of inequality, secularization"
+},
 "30.06.01": {
 "area": "other",
 "books": [],
@@ -44518,6 +44760,50 @@
 "master"
 ],
 "title": "Deviance and social control: who defines normal, who punishes difference, and why it matters"
+},
+"30.06.02": {
+"area": "other",
+"books": [],
+"chapter": "deviance-social-control",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.06.02",
+"prereqs": [
+"30.06.01"
+],
+"section": "sociology",
+"slug": "criminal-justice",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Crime and the criminal justice system: incarceration rates, mass incarceration, racial disparities"
+},
+"30.06.03": {
+"area": "other",
+"books": [],
+"chapter": "deviance-social-control",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.06.03",
+"prereqs": [
+"30.06.01"
+],
+"section": "sociology",
+"slug": "social-control-theories",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Social control theories: labeling theory (Becker), strain theory (Merton), control theory"
 },
 "30.07.01": {
 "area": "other",
@@ -44541,6 +44827,50 @@
 ],
 "title": "Globalization and social movements: how people organize across borders to challenge power"
 },
+"30.07.02": {
+"area": "other",
+"books": [],
+"chapter": "globalization-social-movements",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.07.02",
+"prereqs": [
+"30.07.01"
+],
+"section": "sociology",
+"slug": "social-movements",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Social movements: resource mobilization, framing theory, new social movements"
+},
+"30.07.03": {
+"area": "other",
+"books": [],
+"chapter": "globalization-social-movements",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.07.03",
+"prereqs": [
+"30.07.01"
+],
+"section": "sociology",
+"slug": "global-inequality",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Global inequality: world-systems theory (Wallerstein), dependency theory, development debates"
+},
 "30.08.01": {
 "area": "other",
 "books": [],
@@ -44562,6 +44892,50 @@
 "master"
 ],
 "title": "Urbanization and demography: the global movement of people and the cities that shape their lives"
+},
+"30.08.02": {
+"area": "other",
+"books": [],
+"chapter": "urbanization-demography",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.08.02",
+"prereqs": [
+"30.08.01"
+],
+"section": "sociology",
+"slug": "demographic-transition",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Demographic transition: birth/death rate dynamics, population projections"
+},
+"30.08.03": {
+"area": "other",
+"books": [],
+"chapter": "urbanization-demography",
+"curriculum": "sociology",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.08.03",
+"prereqs": [
+"30.08.01"
+],
+"section": "sociology",
+"slug": "urban-sociology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Urban sociology: segregation, gentrification, urban ecology"
 },
 "31.01.01": {
 "area": "other",
