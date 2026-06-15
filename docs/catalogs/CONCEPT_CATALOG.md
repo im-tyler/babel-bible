@@ -9745,6 +9745,7 @@ These entries register live draft units so the validator can distinguish "unknow
   - `philosophy.consciousness-hard-problem-qualia` - Consciousness: the hard problem, qualia, and the mind-body debate (`20.06.01`)
   - `philosophy.hard-problem` - The hard problem of consciousness: qualia, the explanatory gap, and physicalist responses (`20.06.02`)
  - `philosophy.philosophy-of-mathematics-platonism-constructivism` - Philosophy of mathematics: Platonism, constructivism, and the nature of numbers (`20.09.01`)
+ - `philosophy.foundations-of-mathematics` - Foundations of mathematics: logicism, formalism, intuitionism (`20.09.02`)
 
 ### Language
 
@@ -9988,6 +9989,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.causation-explanation
 
+
+### philosophy.foundations-of-mathematics
+
+- **title**: Foundations of mathematics: logicism, formalism, intuitionism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Causation and explanation: counterfactual analysis, mechanistic explanation, causal inference
 - **unit**: `20.08.03`
 - **prerequisites**: `philosophy.philosophy-of-science-demarcation-falsification`
