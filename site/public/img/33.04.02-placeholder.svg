@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <marker id="arrR33" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#999"/>
+    </marker>
+  </defs>
+  <rect width="800" height="500" fill="#f8f8f8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">Chemistry's Revolution — Placeholder</text>
+
+  <!-- Left panel: phlogiston vs oxygen models -->
+  <rect x="30" y="55" width="360" height="395" rx="4" fill="#fff" stroke="#bbb" stroke-width="1"/>
+  <text x="210" y="76" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">Phlogiston vs oxygen models of combustion</text>
+  <text x="210" y="91" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#888">the mass-balance puzzle that broke phlogiston</text>
+
+  <!-- Burning solid (centre) -->
+  <circle cx="210" cy="220" r="32" fill="#ffe0b2" stroke="#e65100" stroke-width="1.4"/>
+  <text x="210" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e65100">burning</text>
+  <text x="210" y="237" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e65100">metal</text>
+
+  <!-- Phlogiston side (left) -->
+  <text x="105" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c62828">Phlogiston theory (Stahl)</text>
+  <text x="105" y="155" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">phlogiston flows OUT</text>
+  <line x1="170" y1="200" x2="65" y2="160" stroke="#c62828" stroke-width="1.4" marker-end="url(#arrR33)"/>
+  <text x="55" y="170" font-family="sans-serif" font-size="9" fill="#c62828">phi</text>
+  <text x="65" y="280" font-family="sans-serif" font-size="9" fill="#666">prediction:</text>
+  <text x="65" y="294" font-family="sans-serif" font-size="9" fill="#666">mass DECREASES</text>
+  <text x="65" y="320" font-family="sans-serif" font-size="9" fill="#888">observation:</text>
+  <text x="65" y="334" font-family="sans-serif" font-size="9" fill="#888">mass INCREASES</text>
+  <text x="65" y="358" font-family="sans-serif" font-size="9" fill="#c62828">contradiction!</text>
+
+  <!-- Oxygen side (right) -->
+  <text x="315" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1565c0">Oxygen theory (Lavoisier)</text>
+  <text x="315" y="155" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">oxygen flows IN</text>
+  <line x1="355" y1="160" x2="250" y2="200" stroke="#1565c0" stroke-width="1.4" marker-end="url(#arrR33)"/>
+  <text x="355" y="170" font-family="sans-serif" font-size="9" fill="#1565c0">O2</text>
+  <text x="275" y="280" font-family="sans-serif" font-size="9" fill="#666">prediction:</text>
+  <text x="275" y="294" font-family="sans-serif" font-size="9" fill="#666">mass INCREASES</text>
+  <text x="275" y="320" font-family="sans-serif" font-size="9" fill="#888">observation:</text>
+  <text x="275" y="334" font-family="sans-serif" font-size="9" fill="#888">mass INCREASES</text>
+  <text x="275" y="358" font-family="sans-serif" font-size="9" fill="#1565c0">confirmed</text>
+
+  <!-- Right panel: timeline -->
+  <rect x="410" y="55" width="360" height="395" rx="4" fill="#fff" stroke="#bbb" stroke-width="1"/>
+  <text x="590" y="76" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">Chemistry's revolution: timeline 1774-1886</text>
+  <text x="590" y="90" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#888">phlogiston to the predicted elements</text>
+
+  <!-- Timeline axis -->
+  <line x1="430" y1="380" x2="755" y2="380" stroke="#999" stroke-width="1.4"/>
+  <text x="430" y="395" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">1770</text>
+  <text x="755" y="395" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">1890</text>
+
+  <!-- Milestone markers (left to right) -->
+  <!-- 1774 Priestley -->
+  <circle cx="450" cy="380" r="4" fill="#ef6c00"/>
+  <text x="450" y="370" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ef6c00">1774</text>
+  <text x="450" y="350" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">Priestley</text>
+  <text x="450" y="340" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#888">oxygen</text>
+  <!-- 1789 Lavoisier -->
+  <circle cx="480" cy="380" r="4" fill="#c62828"/>
+  <text x="480" y="328" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c62828">1789</text>
+  <text x="480" y="318" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">Lavoisier</text>
+  <text x="480" y="308" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#888">Traite</text>
+  <!-- 1808 Dalton -->
+  <circle cx="525" cy="380" r="4" fill="#6a1b9a"/>
+  <text x="525" y="290" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6a1b9a">1808</text>
+  <text x="525" y="280" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">Dalton</text>
+  <text x="525" y="270" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#888">atoms</text>
+  <!-- 1828 Wohler -->
+  <circle cx="565" cy="380" r="4" fill="#2e7d32"/>
+  <text x="565" y="252" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#2e7d32">1828</text>
+  <text x="565" y="242" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">Wohler</text>
+  <text x="565" y="232" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#888">urea</text>
+  <!-- 1869 Mendeleev -->
+  <circle cx="665" cy="380" r="5" fill="#1565c0" stroke="#0d47a1" stroke-width="1"/>
+  <text x="665" y="215" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#1565c0">1869</text>
+  <text x="665" y="205" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">Mendeleev</text>
+  <text x="665" y="195" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#888">periodic table</text>
+  <!-- 1875 Gallium -->
+  <circle cx="695" cy="380" r="4" fill="#00838f"/>
+  <text x="695" y="180" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00838f">1875</text>
+  <text x="695" y="170" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">gallium</text>
+  <!-- 1879 Scandium -->
+  <circle cx="710" cy="380" r="4" fill="#00838f"/>
+  <text x="710" y="158" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00838f">1879</text>
+  <text x="710" y="148" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">scandium</text>
+  <!-- 1886 Germanium -->
+  <circle cx="740" cy="380" r="4" fill="#00838f"/>
+  <text x="740" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00838f">1886</text>
+  <text x="740" y="125" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">germanium</text>
+
+  <text x="590" y="430" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">three predicted elements found within 15 years</text>
+  <text x="590" y="444" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">of Mendeleev's 1869 table</text>
+
+  <text x="400" y="478" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">33.04.02</text>
+</svg>

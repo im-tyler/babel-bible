@@ -11856,6 +11856,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Primary sources: Lavoisier, Dalton, Faraday, Maxwell, Mendeleev"
 - **notes**: Lavoisier and quantitative chemistry. Dalton's atomic theory. Periodic table. Faraday and electromagnetic induction. Maxwell's equations. Science-technology feedback loop.
 
+### history-of-science.chemistry-revolution
+
+- **title**: "Chemistry's revolution: phlogiston to Lavoisier, atomic theory (Dalton), periodic table (Mendeleev)"
+- **unit**: `33.04.02`
+- **prerequisites**: [`33.04.01`]
+- **tier_anchors**:
+  - beginner: "Bowler, P. J. and Morus, I. R. — Making Modern Science (2005)"
+  - intermediate: "Cohen, H. F. — How Modern Science Came into the World (2010)"
+  - master: "Knight, D. — The Making of Modern Science (2009)"
+- **notes**: Phlogiston theory (Becher-Stahl) and its mass-balance contradiction. Lavoisier's oxygen theory and conservation of mass (1789). Dalton's atomic theory (1808) and the law of multiple proportions. Mendeleev's periodic table (1869) with predicted elements (gallium, scandium, germanium). Woehler's urea synthesis (1828) and the rise of organic chemistry. The atomic-reality debate (Mach, Ostwald, Boltzmann, Einstein, Perrin). The German chemical industry (BASF, Bayer, Hoechst) and the Haber-Bosch process. Women in chemistry: Curie, Franklin, Meitner. Kuhn's paradigm-change reading and its contestation.
+
 ### history-of-science.relativity-quantum-revolution
 
 - **title**: The relativity and quantum revolutions
