@@ -9946,6 +9946,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### philosophy.virtue-ethics
 
+
+### philosophy.philosophy-of-qm
+
+- **title**: Philosophy of QM: Copenhagen, Many-Worlds, Bohmian, QBism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Virtue ethics: Aristotle eudaimonia, neo-Aristotelianism, care ethics
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
