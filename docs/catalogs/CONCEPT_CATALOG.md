@@ -11878,6 +11878,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Primary sources: Planck, Einstein, Bohr, Heisenberg, Schrodinger"
 - **notes**: Special and general relativity. Quantum mechanics. Uncertainty principle. Manhattan Project. QED. Interpretation debates (Copenhagen, many-worlds).
 
+### history-of-science.quantum-revolution
+
+- **title**: "Quantum revolution: Planck, Einstein, Bohr, Heisenberg, Schrödinger and the Copenhagen consensus"
+- **unit**: `33.05.02`
+- **prerequisites**: [`33.05.01`]
+- **tier_anchors**:
+  - beginner: "Bowler, P. J. and Morus, I. R. — Making Modern Science (2005)"
+  - intermediate: "Kuhn, T. S. — Black-Body Theory and the Quantum Discontinuity (1978)"
+  - master: "Mehra, J. and Rechenberg, H. — The Historical Development of Quantum Theory (1982-2001)"
+- **notes**: Planck's quantum hypothesis (1900, E=hv, blackbody radiation, ultraviolet catastrophe). Einstein's photon (1905, photoelectric effect). Bohr's atom (1913, quantized orbits, hydrogen spectrum). De Broglie's matter waves (1924). Heisenberg's matrix mechanics (1925) and uncertainty principle (1927). Schrödinger's wave equation (1926). Born's probabilistic interpretation. Dirac's relativistic equation (1928) and antimatter. The Copenhagen interpretation and complementarity. Kuhn's reading of Planck. The Forman thesis. The Bohr-Einstein debate, EPR (1935), Bell's theorem (1964), Aspect (1982), and the 2022 Nobel Prize. Quantum mechanics and technology (transistor, laser, MRI, atomic clock). Quantum mechanics, WWII, and big science. Quantum field theory and the Standard Model. Quantum mechanics in chemistry (Heitler-London, Pauli) and in biology (quantum biology).
+
 ### history-of-science.genetics-dna-molecular-biology-revolution
 
 - **title**: Genetics, DNA, and the molecular biology revolution
