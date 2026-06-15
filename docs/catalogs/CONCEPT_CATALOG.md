@@ -10765,6 +10765,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### sociology.social-movements
 
+
+### sociology.global-inequality
+
+- **title**: Global inequality: world-systems, dependency theory, development debates
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Social movements: resource mobilization, framing, new social movements
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub

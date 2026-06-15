@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">30.07.03</title>
+  <desc id="desc">A schematic placeholder diagram for 30.07.03 showing the three tiers of Wallerstein's world-system: core, semi-periphery, periphery.</desc>
+  <rect width="720" height="360" fill="#fbf5ee"/>
+  <g fill="none" stroke="#3a6a4f" stroke-width="6">
+    <rect x="270" y="55" width="180" height="65"/>
+    <rect x="180" y="135" width="360" height="65"/>
+    <rect x="90" y="215" width="540" height="65"/>
+  </g>
+  <g fill="#3a6a4f" font-family="Inter, Arial, sans-serif" font-size="17" text-anchor="middle">
+    <text x="360" y="95">Core</text>
+    <text x="360" y="175">Semi-periphery</text>
+    <text x="360" y="255">Periphery</text>
+  </g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">30.07.03</text>
+</svg>
