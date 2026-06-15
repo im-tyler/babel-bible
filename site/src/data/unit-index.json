@@ -46433,6 +46433,28 @@
 ],
 "title": "Ancient science: Mesopotamia, Greece, China, and India"
 },
+"33.01.02": {
+"area": "other",
+"books": [],
+"chapter": "ancient-science",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.01.02",
+"prereqs": [
+"33.01.01"
+],
+"section": "history-of-science",
+"slug": "greek-hellenistic-science",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Greek and Hellenistic science: Aristotle's natural philosophy, Euclidean geometry, Archimedean mechanics"
+},
 "33.02.01": {
 "area": "other",
 "books": [],
@@ -46452,6 +46474,28 @@
 "master"
 ],
 "title": "Islamic Golden Age and medieval European science"
+},
+"33.02.02": {
+"area": "other",
+"books": [],
+"chapter": "islamic-medieval",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.02.02",
+"prereqs": [
+"33.02.01"
+],
+"section": "history-of-science",
+"slug": "medieval-european-science",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Medieval European science: universities, scholasticism, and the recovery of Aristotle"
 },
 "33.03.01": {
 "area": "other",
@@ -46473,6 +46517,28 @@
 ],
 "title": "The Scientific Revolution: Copernicus to Newton"
 },
+"33.03.02": {
+"area": "other",
+"books": [],
+"chapter": "scientific-revolution",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.03.02",
+"prereqs": [
+"33.03.01"
+],
+"section": "history-of-science",
+"slug": "copernicus-to-newton",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Copernicus to Newton: heliocentric model, Kepler's laws, Galileo's telescopic observations"
+},
 "33.04.01": {
 "area": "other",
 "books": [],
@@ -46492,6 +46558,28 @@
 "master"
 ],
 "title": "Industrial Revolution, chemistry, and electromagnetism"
+},
+"33.04.02": {
+"area": "other",
+"books": [],
+"chapter": "industrial-revolution-science",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.04.02",
+"prereqs": [
+"33.04.01"
+],
+"section": "history-of-science",
+"slug": "chemistry-revolution",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Chemistry's revolution: phlogiston to Lavoisier, atomic theory (Dalton), periodic table (Mendeleev)"
 },
 "33.05.01": {
 "area": "other",
@@ -46513,6 +46601,28 @@
 ],
 "title": "The relativity and quantum revolutions"
 },
+"33.05.02": {
+"area": "other",
+"books": [],
+"chapter": "relativity-quantum",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.05.02",
+"prereqs": [
+"33.05.01"
+],
+"section": "history-of-science",
+"slug": "quantum-revolution",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Quantum revolution: Planck, Einstein, Bohr, Heisenberg, Schr\u00f6dinger and the Copenhagen consensus"
+},
 "33.06.01": {
 "area": "other",
 "books": [],
@@ -46532,6 +46642,28 @@
 "master"
 ],
 "title": "Genetics, DNA, and the molecular biology revolution"
+},
+"33.06.02": {
+"area": "other",
+"books": [],
+"chapter": "genetics-molecular-bio",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.06.02",
+"prereqs": [
+"33.06.01"
+],
+"section": "history-of-science",
+"slug": "double-helix",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The double helix and molecular biology: Franklin, Watson-Crick, and the central dogma"
 },
 "33.07.01": {
 "area": "other",
@@ -46553,6 +46685,28 @@
 ],
 "title": "The digital revolution: computing and the internet"
 },
+"33.07.02": {
+"area": "other",
+"books": [],
+"chapter": "digital-revolution",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.07.02",
+"prereqs": [
+"33.07.01"
+],
+"section": "history-of-science",
+"slug": "computing-history",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computing history: Turing, von Neumann architecture, transistor, and the internet"
+},
 "33.08.01": {
 "area": "other",
 "books": [],
@@ -46572,6 +46726,28 @@
 "master"
 ],
 "title": "Contemporary science: challenges, open science, and the future"
+},
+"33.08.02": {
+"area": "other",
+"books": [],
+"chapter": "contemporary-science",
+"curriculum": "history-of-science",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.08.02",
+"prereqs": [
+"33.08.01"
+],
+"section": "history-of-science",
+"slug": "big-science",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Big science and global collaboration: CERN, space race, Human Genome Project"
 },
 "34.01.01": {
 "area": "other",
