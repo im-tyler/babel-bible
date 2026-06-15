@@ -12050,6 +12050,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Boas 1911; Malinowski 1929; AAA Ethics Code 2012; Asad 1973; Smith 1999 Decolonizing Methodologies; Trouillot 2003 Global Transformations"
 - **notes**: Applied and practicing anthropology in the contemporary world. Globalization and its anthropological study: economic restructuring, migration, diaspora, and transnationalism. Development anthropology: critiques of the development industry, participatory approaches, and indigenous knowledge. Medical anthropology: disease ecology, ethnomedicine, medical pluralism, and the political economy of health. Environmental anthropology: human ecology, political ecology, and climate change. Business and organisational anthropology. Anthropology of policy and institutions. Ethics: informed consent, community-based participatory research, and the Belmont Report. Decolonization of anthropology: challenging Eurocentric frameworks, indigenous methodologies, and repatriation. Public anthropology and engaged scholarship. The future of the discipline.
 
+### anthropology.historical-linguistics
+
+- **title**: Historical linguistics: proto-languages, sound change, language families
+- **unit**: `31.05.03`
+- **prerequisites**: [`anthropology.linguistic-anthropology-language-culture`]
+- **tier_anchors**:
+  - beginner: "Kottak, Anthropology (17e), Ch. 14"
+  - intermediate: "Haviland et al., Cultural Anthropology (15e), Ch. 11"
+  - master: "Jones, W. — Third Anniversary Discourse (1786)"
+- **notes**: Historical linguistics: the comparative method for reconstructing proto-languages from cognates, regular sound change laws (Grimm's Law, Verner's Law, the Neogrammarian hypothesis), major language families (Indo-European, Sino-Tibetan, Niger-Congo, Afro-Asiatic, Austronesian, Dravidian, Uralic, Austroasiatic), Proto-Indo-European reconstruction and homeland hypotheses (Kurgan vs Anatolian), glottochronology and Bayesian phylogenetic dating, language contact and borrowing (Thomason-Kaufman, Sprachbund), pidgins and creoles, language isolates, long-range comparison proposals (Nostratic, Eurasiatic, Dene-Caucasian, Amerind), and computational historical linguistics. No Lean formalisation; human-review-only at all tiers.
+
 ### earth-science.plate-tectonics-continental-drift
 
 - **title**: Plate tectonics and continental drift
