@@ -10327,6 +10327,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Columbus Diario, de las Casas Short Account, Afonso I letters, Barros Decadas, Ming Shilu Zheng He entries, Florentine Codex Bk. 12, Guaman Poma, Diaz del Castillo; secondary: Crosby, Thornton, Fernandez-Armesto, Pagden, Seed, Dussel, Blaut, Waley-Cohen, Restall"
 - **notes**: Age of Exploration from European, Indigenous American, African, and Asian perspectives. Columbus, the Columbian Exchange (biological and cultural consequences), Zheng He's voyages, Portuguese and Spanish colonization, the impact on Indigenous civilizations. MULTI-PERSPECTIVE: European explorers AND the peoples they encountered; Dussel's critique of the "discovery" narrative; African agency in the Atlantic world; Chinese maritime exploration. No Lean formalisation; human-review-only at all tiers.
 
+### world-history.columbian-exchange
+
+- **title**: The Columbian Exchange: biological and demographic consequences of contact
+- **unit**: `32.14.02`
+- **prerequisites**: `world-history.age-of-exploration-multiple-perspectives` (32.14.01)
+- **tier_anchors**:
+  - beginner: "McNeill, W. H. — The Rise of the West (1963)"
+  - intermediate: "Diamond, J. — Guns, Germs, and Steel (1997)"
+  - master: "Crosby, A. W. — The Columbian Exchange (1972)"
+- **notes**: Alfred Crosby's concept of biological exchange between Old and New Worlds after 1492: the demographic catastrophe in the Americas (90% Indigenous population loss from Eurasian diseases — smallpox, measles, influenza), agricultural exchange (maize, potatoes, tomatoes to Old World; wheat, sugar, cattle, horses to New World), the transatlantic slave trade connection, and ecological homogenization. Mann's "Homogenocene" and the Anthropocene debate. Ecological imperialism thesis and its critique (settler colonialism). Pomeranz vs Landes on the "biological old regime" and the Great Divergence. MULTI-PERSPECTIVE: the Exchange as biological globalization that created the modern world AND as the greatest demographic catastrophe in human history. No Lean formalisation; human-review-only at all tiers.
+
 ### world-history.colonialism-imperialism-colonizer-colonized
 
 - **title**: Colonialism and imperialism: colonizer and colonized
