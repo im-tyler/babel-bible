@@ -11326,6 +11326,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Lavoisier 1783, Atwater 1896, McCollum 1913, Goldberger 1914, Keys 1950, Yudkin 1972; secondary: Nestle 2007, Pollan 2006, Taubes 2007, Scrinis 2013"
 - **notes**: Macronutrients (carbohydrates, proteins, lipids), micronutrients (vitamins, minerals), energy balance, basal metabolic rate, BMI and its limitations, dietary reference intakes, global malnutrition (undernutrition and overnutrition), eating disorders, food politics, dietary patterns across cultures, the nutrition transition, gut microbiome. MULTI-PERSPECTIVE: Cultural food traditions as legitimate nutritional knowledge; food sovereignty; indigenous food systems; critique of BMI; diet culture and its harms; global food inequality. No Lean formalisation; human-review-only at all tiers.
 
+### health-medicine.macronutrient-metabolism
+
+- **title**: Macronutrient metabolism
+- **unit**: `35.04.02`
+- **prerequisites**: [`health-medicine.nutrition-macronutrients-micronutrients-diet` (35.04.01)]
+- **tier_anchors**:
+  - beginner: "Gropper and Smith, Advanced Nutrition and Human Metabolism, 7th ed. (2017)"
+  - intermediate: "Gropper and Smith, Advanced Nutrition and Human Metabolism, 7th ed. (2017)"
+  - master: "Cahill, G. F. — Starvation in man (1970)"
+- **notes**: Carbohydrate metabolism (glycolysis, Krebs cycle, oxidative phosphorylation, glycogen synthesis, gluconeogenesis), fat metabolism (beta-oxidation, ketogenesis, lipogenesis, lipoprotein transport), protein metabolism (transamination, urea cycle, nitrogen balance), energy balance (first law of thermodynamics, BMR, thermic effect of food, adaptive thermogenesis), fed vs fasted state regulation (insulin/glucagon), starvation stages (Cahill), macronutrients and disease (fructose/NAFLD, fiber/microbiome, ultra-processed foods), metabolic flexibility (ketogenic diet, intermittent fasting, mTOR), nutrition epidemiology challenges, global nutrition (food security, hidden hunger, EAT-Lancet), personalized nutrition (PREDICT, nutrigenomics). No Lean formalisation; human-review-only at all tiers.
+
 ### health-medicine.mental-health-disorders-stigma-treatment
 
 - **title**: Mental health: disorders, stigma, and treatment
