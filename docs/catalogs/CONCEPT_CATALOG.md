@@ -11392,6 +11392,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.mental-health-epidemiology
 
+
+### health-medicine.neurobiology-of-addiction
+
+- **title**: Neurobiology of addiction: reward circuitry, dopamine dysregulation, withdrawal
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Mental health epidemiology: global burden, social determinants, stigma
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
