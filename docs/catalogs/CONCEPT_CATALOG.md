@@ -11996,6 +11996,12 @@ These entries register live draft units so the validator can distinguish "unknow
 - **title**: Archaeological methods: stratigraphy, typology, dating techniques, remote sensing
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
+
+### anthropology.prehistoric-cultures
+
+- **title**: Prehistoric cultures: Paleolithic tool traditions, the Neolithic revolution, state formation
+- **prerequisites**: [`anthropology.archaeology-material-culture-excavation`]
+- **notes**: Stub
 - **title**: Religion, ritual, and symbolism: rites of passage, shamanism, magic and science
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
