@@ -10368,6 +10368,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### world-history.roman-law-governance
 
+
+### world-history.islamic-science-philosophy
+
+- **title**: Science and philosophy in the Islamic Golden Age
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Roman law and governance: Twelve Tables, Republic vs Empire, legacy
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
