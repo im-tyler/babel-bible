@@ -10085,6 +10085,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Herodotus, Thucydides, Plutarch, Arrian, inscriptions, archaeological reports"
 - **notes**: Classical Greece and the Hellenistic world from Minoan civilization (c. 2000 BCE) through the end of the Hellenistic period (31 BCE). Minoan and Mycenaean civilizations, Dark Ages, Archaic period (poleis, colonization), Athens (democracy, Pericles, philosophy, theater, architecture), Sparta (military society, helots), Greco-Persian Wars, Peloponnesian War, Alexander the Great, Hellenistic kingdoms, Greek science and philosophy. Multi-perspective coverage: Athenian democracy presented with its exclusions (women, slaves, metics); Greco-Persian Wars from both Greek (Herodotus) and Persian (Behistun Inscription, Persepolis) perspectives; Alexander as "the Great" (Greek), "the Accursed" (Persian), and "Iskandar" (Islamic); Sparta's helot system challenging the romanticized warrior narrative; Hellenistic period as cultural synthesis (Greek + Egyptian + Persian + Indian) rather than one-directional spread; survival bias noting that Greek texts reached Europe primarily through Islamic preservation in Baghdad. Greek influence on Rome and later Western civilization. No Lean formalisation; human-review-only at all tiers.
 
+### world-history.greek-philosophy-democracy
+
+- **title**: Greek philosophy and democracy: Socrates, Plato, Aristotle; the polis and direct democracy
+- **unit**: `32.06.02`
+- **prerequisites**: `world-history.classical-greece-hellenistic-world`
+- **tier_anchors**:
+  - beginner: "McNeill, W. H. — The Rise of the West (1963)"
+  - intermediate: "Diamond, J. — Guns, Germs, and Steel (1997)"
+  - master: "Ober, J. — Democracy and Knowledge (2008)"
+- **notes**: Greek philosophy and democracy: the polis as political innovation, Athenian direct democracy (assembly, council, sortition, ostracism), Socrates-Plato-Aristotle as foundational philosophers, and the legacy of Greek political thought. Multi-perspective coverage: Athenian democracy presented with its exclusions (women, slaves, metics); competing interpretations (majoritarian vs deliberative; sortition revival; exclusion problem; the trial of Socrates); Hellenistic schools (Stoicism, Epicureanism, Skepticism) and later transmission to the Islamic world, medieval Scholasticism, and the Renaissance; Greek science and natural philosophy (Aristotle's biology, Hippocratic medicine, Euclid and Archimedes, Ptolemaic astronomy); modern reception of Athens. No Lean formalisation; human-review-only at all tiers.
+
 ### world-history.mesopotamia-fertile-crescent
 
 - **title**: Mesopotamia and the Fertile Crescent
