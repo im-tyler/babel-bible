@@ -11979,6 +11979,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "Rameau, Adorno, Taruskin"
 - **notes**: Western periods: Medieval through Contemporary. Indian raga and tala. Chinese musical traditions. West African polyrhythm. Arabic maqam. Jazz. Sonata form. Ethnomusicology.
 
+### music-art.western-art-music
+
+- **title**: Western art music survey: Baroque to Romanticism; landmark works and social contexts
+- **unit**: `34.02.02`
+- **prerequisites**: [34.02.01]
+- **tier_anchors**:
+  - beginner: "Meyer, L. B. — Emotion and Meaning in Music (1956)"
+  - intermediate: "Taruskin, R. — The Oxford History of Western Music (2005)"
+  - master: "Adorno, T. W. — Philosophy of New Music (1949)"
+- **notes**: Baroque (Bach, Handel, Vivaldi; basso continuo, fugue, opera, oratorio), Classical (Haydn, Mozart, Beethoven; sonata form, Enlightenment values, public concerts), Romanticism (Chopin, Wagner, Brahms, Tchaikovsky; program music, leitmotif, nationalism, Tristan chord). Social context: patronage to concert hall, music printing, virtuoso culture. Beethoven myth; Wagner and politics; canon critique. Mathlib has no formalisation; reviewer-attested.
+
 ### music-art.visual-art-elements-principles-composition
 
 - **title**: Visual art: elements, principles, and composition
