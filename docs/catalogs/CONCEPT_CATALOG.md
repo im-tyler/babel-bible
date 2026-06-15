@@ -11395,6 +11395,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.neurobiology-of-addiction
 
+
+### health-medicine.health-disparities
+
+- **title**: Health disparities and social determinants: income, race, geography, life expectancy
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Neurobiology of addiction: reward circuitry, dopamine dysregulation, withdrawal
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
