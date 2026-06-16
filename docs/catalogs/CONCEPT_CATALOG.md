@@ -12889,6 +12889,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### media-literacy.data-visualization
 
+
+### media-literacy.platform-accountability
+
+- **title**: Platform accountability: Section 230, GDPR, content moderation tradeoffs
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Data visualization and infographics: misleading charts, chartjunk, honest design
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub

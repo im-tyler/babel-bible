@@ -237,7 +237,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
 
 - [ ] **Health & Medicine (35)** — same plan file — 18 new units (all 8 chapters). Sources: Robbins Pathology 2021, Harrison's 2022, Gordis Epidemiology 2019. 8 → 26 units.
 
-- [ ] **Media Literacy (36)** — same plan file — 6 new units (all 6 chapters). Sources: Postman 1985, McChesney 2004. 6 → 12 units.
+- [x] **Media Literacy (36)** — same plan file — 6 new units (all 6 chapters). Sources: Postman 1985, McChesney 2004. 6 → 12 units. All 27/27 validated.
+  - [x] PRODUCE: 6 chapters (6 units) → integrated → committed
+  - [x] COMPLETENESS: converged
 
 ---
 
