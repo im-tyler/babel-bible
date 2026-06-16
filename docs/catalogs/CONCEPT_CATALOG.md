@@ -11421,6 +11421,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### health-medicine.genomic-medicine
 
+
+### health-medicine.precision-medicine-ai
+
+- **title**: Precision medicine and AI: biomarker discovery, clinical decision support
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Genomic medicine: GWAS, polygenic risk scores, CRISPR gene therapy
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
