@@ -12883,6 +12883,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### media-literacy.disinformation-ecosystems
 
+
+### media-literacy.algorithmic-curation
+
+- **title**: Algorithmic curation: filter bubbles, recommendation systems, epistemic consequences
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Disinformation ecosystems: deepfakes, bot networks, coordinated inauthentic behavior
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
