@@ -12877,6 +12877,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### media-literacy.media-business-models
 
+
+### media-literacy.investigative-journalism
+
+- **title**: Investigative journalism: source verification, FOIA, data journalism
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Media business models: advertising, subscriptions, attention economy, platform economics
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
