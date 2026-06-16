@@ -12886,6 +12886,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### media-literacy.algorithmic-curation
 
+
+### media-literacy.data-visualization
+
+- **title**: Data visualization and infographics: misleading charts, chartjunk, honest design
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Algorithmic curation: filter bubbles, recommendation systems, epistemic consequences
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
