@@ -23184,3 +23184,1011 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: TBD
   - beginner: TBD
 - **notes**: Auto-generated stub.
+
+### "alg-geom.hodge-index-theorem"
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### "hodge.hard-lefschetz"
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### "hodge.hodge-riemann-bilinear"
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### "moduli.hilbert-mumford-criterion"
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### alg-geom.derived-functors-ext
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### alg-geom.higher-direct-images-base-change
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### alg-geom.petri-map-gieseker-petri
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### analysis.complex-numbers-euler
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### analysis.first-order-ode
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### analysis.infinite-series-convergence
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.biogeography
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.body-plans-organization
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.coevolution
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.conservation-biology
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.digestive-physiology
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.ecosystem-ecology
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.immunology
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.macroevolution
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### biology.reproductive-biology
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### char-classes.stiefel-whitney
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### chemistry.organometallic-synthesis
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### chemistry.radical-pericyclic-reactions
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### chemistry.solutions-phase-equilibria
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### chemistry.statistical-mechanics
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.citizenship-civic-participation
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.electoral-systems
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.executive
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.federalism-local-government
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.how-law-is-made
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.international-organizations
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.judiciary
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.legislature
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.political-parties-interest-groups
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.rights-civil-liberties
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.separation-of-powers
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.treaties-international-law
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.types-of-government
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.what-is-constitution
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### civics.what-is-government
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### classical-mechanics.continuum-mechanics
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### complex-analysis.gamma-function
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### diff-geom.hermitian-kahler-form
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### diffgeo.differential-forms
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### diffgeo.smooth-manifold
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.behavioral-economics
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.consumer-producer-surplus
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.costs-of-production
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.development-economics
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.economic-systems
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.elasticity
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.exchange-rates
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.externalities-public-goods
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.fiscal-policy
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.game-theory
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.gdp-economic-measurement
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.income-inequality-redistribution
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.inflation-deflation
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.international-trade
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.labor-markets-wages
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.market-equilibrium
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.market-failures
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.monetary-policy
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.money-and-banking
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.monopoly
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.oligopoly-monopolistic-competition
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.opportunity-cost
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.perfect-competition
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.personal-finance-budgeting
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.personal-finance-credit-debt-investing
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.price-controls
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.profit-maximization
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.scarcity
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.supply-and-demand
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### economics.unemployment
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### foundations.conic-sections
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### foundations.exact-sequence-snake-lemma
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### foundations.field-extension-splitting-field
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### foundations.tensor-product-modules
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### gauge-theory.bpst-instanton-bogomolny
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.climate-biomes
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.continents-oceans
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.cultural-geography
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.environmental-geography
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.human-migration
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.landforms
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.latitude-longitude
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.maps-projections
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.natural-resources
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.political-geography
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.population-distribution
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### geography.urbanization-settlement
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.active-passive-voice
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.adjectives
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.adverbs
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.apostrophes-quotation-marks
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.capitalization-conventions
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.clauses
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.common-errors-fragments-run-ons-dangling-modifiers
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.compound-complex-sentences
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.conjunctions
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.interjections
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.noun-phrases-verb-phrases
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.nouns
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.parallel-structure
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.perfect-progressive-aspects
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.prepositions
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.pronoun-case-reference
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.pronouns
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.punctuation-end-marks-commas
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.punctuation-semicolons-colons-dashes
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.relative-clauses
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.sentences
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.subject-verb-agreement
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.verb-tense
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### grammar.verbs
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### homotopy.quillen-model-category
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### lie-groups.lie-group
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.allusion
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.foreshadowing-suspense
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.hyperbole-understatement
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.imagery-sensory-detail
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.irony
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.literal-figurative-language
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.metaphor-simile
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.motif-repetition
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.nineteen-eighty-four-orwell
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.personification
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.point-of-view
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.satire-parody
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.symbolism-allegory
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.theme
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.tone-mood
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### literature.unreliable-narration
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### ode.first-integrals
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### ode.limit-cycle-lienard
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### ode.phase-flow
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### ode.phase-space-vector-field
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### ode.poincare-bendixson
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### philosophy-of-biology.unit-of-selection
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### philosophy-of-physics.measurement-problem
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### philosophy.aesthetics-beauty-art-judgment
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### philosophy.good-life-eudaimonia-flourishing
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### philosophy.natural-selection-teleology
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### philosophy.philosophy-of-mathematics-platonism-constructivism
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### psychology.learning-memory
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### quantum-mechanics.canonical-qft
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### quantum-mechanics.hydrogen-atom-bound-states
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### quantum-mechanics.scattering-theory
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### spin-geometry.eta-invariant-aps-index
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### spin-geometry.spinor-bundle
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### stat-mech-physics.landau-theory-order-parameter-symmetry-breaking
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### topology.simplicial-set
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### topology.topological-space
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### toric-geometry.affine-toric-variety
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### toric-geometry.algebraic-torus-character-lattices
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### toric-geometry.fan-and-toric-variety
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### toric-geometry.rational-polyhedral-cone-dual
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.citation-attribution
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.clear-sentence
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.counterargument-rebuttal
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.introduction-conclusion
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.paragraph-structure
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.revision-editing
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.structuring-argument
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.style-voice
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.thesis-statement
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.transitions-flow
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
+
+### writing.using-evidence
+
+- **title**: *(to be determined)*
+- **prerequisites**: *(to be determined)*
+- **notes**: Auto-generated stub — needs title
