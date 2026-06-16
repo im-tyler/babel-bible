@@ -11970,57 +11970,149 @@
 "books": [],
 "curriculum": "other"
 },
+"35.01.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
 "35.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"35.02.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.02.03": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.02.04": {
+"books": [],
+"curriculum": "health-medicine"
 },
 "35.03.01": {
 "books": [],
 "curriculum": "other"
 },
+"35.03.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.03.03": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.03.04": {
+"books": [],
+"curriculum": "health-medicine"
+},
 "35.04.01": {
 "books": [],
 "curriculum": "other"
+},
+"35.04.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.04.03": {
+"books": [],
+"curriculum": "health-medicine"
 },
 "35.05.01": {
 "books": [],
 "curriculum": "other"
 },
+"35.05.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.05.03": {
+"books": [],
+"curriculum": "health-medicine"
+},
 "35.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"35.06.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.06.03": {
+"books": [],
+"curriculum": "health-medicine"
 },
 "35.07.01": {
 "books": [],
 "curriculum": "other"
 },
+"35.07.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.07.03": {
+"books": [],
+"curriculum": "health-medicine"
+},
 "35.08.01": {
 "books": [],
 "curriculum": "other"
+},
+"35.08.02": {
+"books": [],
+"curriculum": "health-medicine"
+},
+"35.08.03": {
+"books": [],
+"curriculum": "health-medicine"
 },
 "36.01.01": {
 "books": [],
 "curriculum": "other"
 },
+"36.01.02": {
+"books": [],
+"curriculum": "media-literacy"
+},
 "36.02.01": {
 "books": [],
 "curriculum": "other"
+},
+"36.02.02": {
+"books": [],
+"curriculum": "media-literacy"
 },
 "36.03.01": {
 "books": [],
 "curriculum": "other"
 },
+"36.03.02": {
+"books": [],
+"curriculum": "media-literacy"
+},
 "36.04.01": {
 "books": [],
 "curriculum": "other"
+},
+"36.04.02": {
+"books": [],
+"curriculum": "media-literacy"
 },
 "36.05.01": {
 "books": [],
 "curriculum": "other"
 },
+"36.05.02": {
+"books": [],
+"curriculum": "media-literacy"
+},
 "36.06.01": {
 "books": [],
 "curriculum": "other"
+},
+"36.06.02": {
+"books": [],
+"curriculum": "media-literacy"
 },
 "37.01.01": {
 "books": [

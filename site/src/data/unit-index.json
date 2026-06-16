@@ -47105,6 +47105,28 @@
 ],
 "title": "The human body: organ systems and homeostasis"
 },
+"35.01.02": {
+"area": "other",
+"books": [],
+"chapter": "human-body",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.01.02",
+"prereqs": [
+"35.01.01"
+],
+"section": "health-medicine",
+"slug": "homeostasis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Homeostasis and feedback regulation: set points, negative feedback, allostasis"
+},
 "35.02.01": {
 "area": "other",
 "books": [],
@@ -47126,6 +47148,72 @@
 "master"
 ],
 "title": "Infectious disease, immunity, and vaccines"
+},
+"35.02.02": {
+"area": "other",
+"books": [],
+"chapter": "infectious-disease",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.02.02",
+"prereqs": [
+"35.02.01"
+],
+"section": "health-medicine",
+"slug": "bacterial-pathogenesis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bacterial pathogenesis: virulence factors, toxins, antibiotic resistance mechanisms"
+},
+"35.02.03": {
+"area": "other",
+"books": [],
+"chapter": "infectious-disease",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.02.03",
+"prereqs": [
+"35.02.01"
+],
+"section": "health-medicine",
+"slug": "viral-pathogenesis",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Viral pathogenesis: replication cycle, immune evasion, pandemic dynamics (SIR model)"
+},
+"35.02.04": {
+"area": "other",
+"books": [],
+"chapter": "infectious-disease",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.02.04",
+"prereqs": [
+"35.02.01"
+],
+"section": "health-medicine",
+"slug": "epidemiology-basics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Epidemiology basics: R0, herd immunity, outbreak investigation"
 },
 "35.03.01": {
 "area": "other",
@@ -47150,6 +47238,72 @@
 ],
 "title": "Chronic disease: cardiovascular disease, diabetes, and cancer"
 },
+"35.03.02": {
+"area": "other",
+"books": [],
+"chapter": "chronic-disease",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.03.02",
+"prereqs": [
+"35.03.01"
+],
+"section": "health-medicine",
+"slug": "cardiovascular-disease",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cardiovascular disease: atherosclerosis, risk factors, myocardial infarction pathophysiology"
+},
+"35.03.03": {
+"area": "other",
+"books": [],
+"chapter": "chronic-disease",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.03.03",
+"prereqs": [
+"35.03.01"
+],
+"section": "health-medicine",
+"slug": "cancer-biology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cancer biology: hallmarks of cancer (Hanahan-Weinberg), oncogenes, tumor suppressors"
+},
+"35.03.04": {
+"area": "other",
+"books": [],
+"chapter": "chronic-disease",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.03.04",
+"prereqs": [
+"35.03.01"
+],
+"section": "health-medicine",
+"slug": "metabolic-syndrome",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metabolic syndrome and diabetes: insulin resistance, adipose tissue dysfunction, complications"
+},
 "35.04.01": {
 "area": "other",
 "books": [],
@@ -47172,6 +47326,50 @@
 "master"
 ],
 "title": "Nutrition: macronutrients, micronutrients, and diet"
+},
+"35.04.02": {
+"area": "other",
+"books": [],
+"chapter": "nutrition",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.04.02",
+"prereqs": [
+"35.04.01"
+],
+"section": "health-medicine",
+"slug": "macronutrient-metabolism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Macronutrient metabolism: carbohydrates, fats, proteins \u2014 energy balance and metabolic fates"
+},
+"35.04.03": {
+"area": "other",
+"books": [],
+"chapter": "nutrition",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.04.03",
+"prereqs": [
+"35.04.01"
+],
+"section": "health-medicine",
+"slug": "micronutrients",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Micronutrients and deficiency diseases: vitamins, minerals, and their biochemical roles"
 },
 "35.05.01": {
 "area": "other",
@@ -47196,6 +47394,50 @@
 ],
 "title": "Mental health: disorders, stigma, and treatment"
 },
+"35.05.02": {
+"area": "other",
+"books": [],
+"chapter": "mental-health",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.05.02",
+"prereqs": [
+"35.05.01"
+],
+"section": "health-medicine",
+"slug": "mental-health-epidemiology",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mental health epidemiology: global burden, social determinants, stigma"
+},
+"35.05.03": {
+"area": "other",
+"books": [],
+"chapter": "mental-health",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.05.03",
+"prereqs": [
+"35.05.01"
+],
+"section": "health-medicine",
+"slug": "neurobiology-of-addiction",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neurobiology of addiction: reward circuitry, dopamine dysregulation, withdrawal"
+},
 "35.06.01": {
 "area": "other",
 "books": [],
@@ -47218,6 +47460,50 @@
 "master"
 ],
 "title": "Public health, epidemiology, and health systems"
+},
+"35.06.02": {
+"area": "other",
+"books": [],
+"chapter": "public-health",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.06.02",
+"prereqs": [
+"35.06.01"
+],
+"section": "health-medicine",
+"slug": "health-disparities",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Health disparities and social determinants: income, race, geography, and life expectancy"
+},
+"35.06.03": {
+"area": "other",
+"books": [],
+"chapter": "public-health",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.06.03",
+"prereqs": [
+"35.06.01"
+],
+"section": "health-medicine",
+"slug": "vaccine-science",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vaccine science: immunization schedules, herd immunity calculation, vaccine hesitancy"
 },
 "35.07.01": {
 "area": "other",
@@ -47242,6 +47528,50 @@
 ],
 "title": "Pharmacology: how drugs work and ethics"
 },
+"35.07.02": {
+"area": "other",
+"books": [],
+"chapter": "pharmacology",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.07.02",
+"prereqs": [
+"35.07.01"
+],
+"section": "health-medicine",
+"slug": "pharmacokinetics",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Pharmacokinetics: ADME (absorption, distribution, metabolism, excretion), half-life, drug interactions"
+},
+"35.07.03": {
+"area": "other",
+"books": [],
+"chapter": "pharmacology",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.07.03",
+"prereqs": [
+"35.07.01"
+],
+"section": "health-medicine",
+"slug": "drug-classes",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Drug classes and mechanisms: antibiotics (MOA), antihypertensives, psychotropics"
+},
 "35.08.01": {
 "area": "other",
 "books": [],
@@ -47265,6 +47595,50 @@
 ],
 "title": "Future of medicine: genomics, AI, and global health"
 },
+"35.08.02": {
+"area": "other",
+"books": [],
+"chapter": "future-medicine",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.08.02",
+"prereqs": [
+"35.08.01"
+],
+"section": "health-medicine",
+"slug": "genomic-medicine",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Genomic medicine: GWAS, polygenic risk scores, gene therapy (CRISPR-Cas9 therapeutic applications)"
+},
+"35.08.03": {
+"area": "other",
+"books": [],
+"chapter": "future-medicine",
+"curriculum": "health-medicine",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.08.03",
+"prereqs": [
+"35.08.01"
+],
+"section": "health-medicine",
+"slug": "precision-medicine-ai",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Precision medicine and AI in healthcare: biomarker discovery, clinical decision support"
+},
 "36.01.01": {
 "area": "other",
 "books": [],
@@ -47284,6 +47658,28 @@
 "master"
 ],
 "title": "Media foundations: history and theory"
+},
+"36.01.02": {
+"area": "other",
+"books": [],
+"chapter": "media-foundations",
+"curriculum": "media-literacy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "36.01.02",
+"prereqs": [
+"36.01.01"
+],
+"section": "media-literacy",
+"slug": "media-business-models",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Media business models: advertising, subscriptions, attention economy, platform economics"
 },
 "36.02.01": {
 "area": "other",
@@ -47307,6 +47703,28 @@
 ],
 "title": "News and journalism: verification and source evaluation"
 },
+"36.02.02": {
+"area": "other",
+"books": [],
+"chapter": "news-journalism",
+"curriculum": "media-literacy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "36.02.02",
+"prereqs": [
+"36.02.01"
+],
+"section": "media-literacy",
+"slug": "investigative-journalism",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Investigative journalism: source verification, FOIA, data journalism methods"
+},
 "36.03.01": {
 "area": "other",
 "books": [],
@@ -47328,6 +47746,28 @@
 "master"
 ],
 "title": "Propaganda and persuasion: rhetorical analysis"
+},
+"36.03.02": {
+"area": "other",
+"books": [],
+"chapter": "propaganda",
+"curriculum": "media-literacy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "36.03.02",
+"prereqs": [
+"36.03.01"
+],
+"section": "media-literacy",
+"slug": "disinformation-ecosystems",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Disinformation ecosystems: deepfakes, bot networks, coordinated inauthentic behavior"
 },
 "36.04.01": {
 "area": "other",
@@ -47351,6 +47791,28 @@
 ],
 "title": "Digital literacy: algorithms, filter bubbles, and echo chambers"
 },
+"36.04.02": {
+"area": "other",
+"books": [],
+"chapter": "digital-literacy",
+"curriculum": "media-literacy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "36.04.02",
+"prereqs": [
+"36.04.01"
+],
+"section": "media-literacy",
+"slug": "algorithmic-curation",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Algorithmic curation: filter bubbles, recommendation systems, and epistemic consequences"
+},
 "36.05.01": {
 "area": "other",
 "books": [],
@@ -47373,6 +47835,28 @@
 ],
 "title": "Visual literacy: images, data visualization, and manipulation"
 },
+"36.05.02": {
+"area": "other",
+"books": [],
+"chapter": "visual-literacy",
+"curriculum": "media-literacy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "36.05.02",
+"prereqs": [
+"36.05.01"
+],
+"section": "media-literacy",
+"slug": "data-visualization",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Data visualization and infographics: misleading charts, chartjunk, and honest design"
+},
 "36.06.01": {
 "area": "other",
 "books": [],
@@ -47394,6 +47878,28 @@
 "master"
 ],
 "title": "Media ethics: responsible consumption and production"
+},
+"36.06.02": {
+"area": "other",
+"books": [],
+"chapter": "media-ethics",
+"curriculum": "media-literacy",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "36.06.02",
+"prereqs": [
+"36.06.01"
+],
+"section": "media-literacy",
+"slug": "platform-accountability",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Platform accountability and regulation: Section 230, GDPR, content moderation tradeoffs"
 },
 "37.01.01": {
 "area": "math",
