@@ -12874,6 +12874,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### media-literacy.media-ethics-responsible-consumption-production
 
+
+### media-literacy.media-business-models
+
+- **title**: Media business models: advertising, subscriptions, attention economy, platform economics
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Media ethics: responsible consumption and production
 - **unit**: `36.06.01`
 - **prerequisites**: `media-literacy.media-foundations-history-theory`
