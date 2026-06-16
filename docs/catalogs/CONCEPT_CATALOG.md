@@ -12880,6 +12880,12 @@ These entries register live draft units so the validator can distinguish "unknow
 
 ### media-literacy.investigative-journalism
 
+
+### media-literacy.disinformation-ecosystems
+
+- **title**: Disinformation ecosystems: deepfakes, bot networks, coordinated inauthentic behavior
+- **prerequisites**: *(to be determined)*
+- **notes**: Stub
 - **title**: Investigative journalism: source verification, FOIA, data journalism
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
