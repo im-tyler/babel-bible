@@ -1189,7 +1189,7 @@
 "books": [
 "serge-lang-algebra"
 ],
-"chapter": "algebra",
+"chapter": "groups",
 "curriculum": "fast-track",
 "field": "algebra",
 "fieldLabel": "Algebra",
@@ -1815,7 +1815,7 @@
 "may-ponto-more-concise",
 "may-simplicial-objects"
 ],
-"chapter": "algebra",
+"chapter": "groups",
 "curriculum": "fast-track",
 "field": "algebra",
 "fieldLabel": "Algebra",
@@ -28800,32 +28800,6 @@
 ],
 "title": "Critical phenomena and renormalization group"
 },
-"11.07.02": {
-"area": "physics",
-"books": [
-"kardar-2007",
-"pathria-beale-2011"
-],
-"chapter": "rg",
-"curriculum": "stat-mech-physics",
-"field": "statistical-physics",
-"fieldLabel": "Statistical Mechanics",
-"fieldOrder": 22,
-"id": "11.07.02",
-"prereqs": [
-"11.07.01",
-"11.06.02"
-],
-"section": "stat-mech-physics",
-"slug": "block-spin-renormalization-wilson-real-space-rg",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Block-spin renormalization: Wilson's real-space RG and fixed points"
-},
 "11.07.03": {
 "area": "physics",
 "books": [
@@ -37105,7 +37079,7 @@
 "19.11.02": {
 "area": "other",
 "books": [],
-"chapter": "ecosystem-ecology",
+"chapter": "ecosystem",
 "curriculum": "eco-evo-bio",
 "field": "other",
 "fieldLabel": "Other",
@@ -37195,7 +37169,7 @@
 "19.13.02": {
 "area": "other",
 "books": [],
-"chapter": "conservation-biology",
+"chapter": "conservation",
 "curriculum": "eco-evo-bio",
 "field": "other",
 "fieldLabel": "Other",
@@ -42602,94 +42576,6 @@
 "intermediate"
 ],
 "title": "Finite element exterior calculus exercise pack (Arnold-Falk-Winther supplement)"
-},
-"25.01.01": {
-"area": "math",
-"books": [],
-"chapter": "propositional-logic",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "25.01.01",
-"prereqs": [],
-"section": "logic",
-"slug": "propositional-logic-truth-tables",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Propositional logic and truth tables"
-},
-"25.02.01": {
-"area": "math",
-"books": [],
-"chapter": "predicate-logic",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "25.02.01",
-"prereqs": [
-"49.01.01"
-],
-"section": "logic",
-"slug": "predicate-logic-quantifiers",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Predicate logic and quantifiers"
-},
-"25.03.01": {
-"area": "math",
-"books": [],
-"chapter": "informal-fallacies",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "25.03.01",
-"prereqs": [
-"49.01.01"
-],
-"section": "logic",
-"slug": "informal-fallacies-argument-analysis",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Informal fallacies and argument analysis"
-},
-"25.04.01": {
-"area": "math",
-"books": [
-"serge-lang-algebra"
-],
-"chapter": "deductive-reasoning",
-"curriculum": "fast-track",
-"field": "foundations-logic",
-"fieldLabel": "Logic & Foundations",
-"fieldOrder": 2,
-"id": "25.04.01",
-"prereqs": [
-"49.01.01"
-],
-"section": "logic",
-"slug": "deductive-reasoning-syllogisms",
-"status": "shipped",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Deductive reasoning and syllogisms"
 },
 "26.01.01": {
 "area": "math",
@@ -61327,7 +61213,7 @@
 "id": "50.05.01",
 "prereqs": [
 "50.01.01",
-"25.04.01"
+"50.04.01"
 ],
 "section": "computer-science",
 "slug": "operating-systems-processes-memory",
@@ -61372,7 +61258,7 @@
 "id": "50.07.01",
 "prereqs": [
 "50.02.01",
-"25.04.01"
+"50.04.01"
 ],
 "section": "computer-science",
 "slug": "databases-relational-nosql",
@@ -61395,7 +61281,7 @@
 "id": "50.08.01",
 "prereqs": [
 "50.06.01",
-"25.07.01"
+"50.07.01"
 ],
 "section": "computer-science",
 "slug": "cybersecurity-encryption-privacy",
@@ -61418,8 +61304,8 @@
 "id": "50.09.01",
 "prereqs": [
 "50.03.01",
-"25.02.01",
-"25.07.01"
+"50.02.01",
+"50.07.01"
 ],
 "section": "computer-science",
 "slug": "artificial-intelligence-machine-learning",
@@ -61442,8 +61328,8 @@
 "id": "50.10.01",
 "prereqs": [
 "50.04.01",
-"25.02.01",
-"25.03.01"
+"50.02.01",
+"50.03.01"
 ],
 "section": "computer-science",
 "slug": "software-engineering-design-patterns",
@@ -61466,8 +61352,8 @@
 "id": "50.11.01",
 "prereqs": [
 "50.06.01",
-"25.07.01",
-"25.08.01"
+"50.07.01",
+"50.08.01"
 ],
 "section": "computer-science",
 "slug": "distributed-systems-consensus",
@@ -61490,8 +61376,8 @@
 "id": "50.12.01",
 "prereqs": [
 "50.09.01",
-"25.10.01",
-"25.11.01"
+"50.10.01",
+"50.11.01"
 ],
 "section": "computer-science",
 "slug": "computing-ethics-society-impact",

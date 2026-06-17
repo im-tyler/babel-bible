@@ -8198,13 +8198,6 @@
 ],
 "curriculum": "fast-track"
 },
-"11.07.02": {
-"books": [
-"kardar-2007",
-"pathria-beale-2011"
-],
-"curriculum": "stat-mech-physics"
-},
 "11.07.03": {
 "books": [
 "wilson-kogut-1974",
@@ -11137,24 +11130,6 @@
 "24.04.E1": {
 "books": [
 "douglas-arnold-feec"
-],
-"curriculum": "fast-track"
-},
-"25.01.01": {
-"books": [],
-"curriculum": "fast-track"
-},
-"25.02.01": {
-"books": [],
-"curriculum": "fast-track"
-},
-"25.03.01": {
-"books": [],
-"curriculum": "fast-track"
-},
-"25.04.01": {
-"books": [
-"serge-lang-algebra"
 ],
 "curriculum": "fast-track"
 },
