@@ -359,6 +359,7 @@ existing pipeline has proven it can do this — the constraint is decision bandw
 
 ## 8. Completion log (append one line per closed task)
 
+- **2026-06-17 — Wave 1 (session 1).** Scope decisions S1–S8 LOCKED (OVERVIEW §12). All scaffolding landed: §01 algebra home chapters (03–06), §48/01-riemannian-geometry, §12/20-condensed-matter, §20 philosophy chapters 11–15, §51-linguistics (7-chapter skeleton + `validate_unit` prefix 51 + `sections.ts` `linguistics` key + `field_map` row), §52-economics (6-chapter skeleton + prefix 52, sharing the existing `economics` section key). B3 done (`03.15-morse-homology`→`15-morse-homology`); C2 done (`08-advanced-electrodynamics`→`08-optics-and-advanced-electrodynamics`). B1/B2 dropped (slug-only dirs are cosmetic; §05 collisions make a clean rename a C-task not a B-task). B6/B7 sweep clean (June session already fixed every duplicate/empty). **Seven foundational units shipped, all 27/27, integrated:** `01.03.01` rings-modules, `01.04.01` fields-Galois, `48.01.01` Riemannian-geometry, `20.11.01` metaphysics, `51.01.01` phonetics (linguistics anchor), `52.01.01` microeconomics (economics anchor), `12.20.01` condensed-matter. Corpus 2,392→2,399; validate_all 64,667/64,667; pure-math lens 1,505→1,508; physics 237→238. Each new home now has a findable anchor unit; depth fills (D-items) + remaining C/E-items queued for wave 2+.
 - _2026-06-17 — Plan authored against live tree. Mechanical BLOCKERs (audit §"Cross-cutting") confirmed already fixed in the June cleanup session. S-items S1–S8 await Tyler verdicts._
 
 ---

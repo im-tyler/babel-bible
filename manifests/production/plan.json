@@ -34749,6 +34749,54 @@
       "actual_path": "content/24-logic/08-critical-thinking-practice/24.08.01-critical-thinking-media-science-everyday.md",
       "prereqs": [],
       "successors": []
+    },
+    "01.03.01": {
+      "id": "01.03.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "01.04.01": {
+      "id": "01.04.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "48.01.01": {
+      "id": "48.01.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "51.01.01": {
+      "id": "51.01.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "52.01.01": {
+      "id": "52.01.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "12.20.01": {
+      "id": "12.20.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],

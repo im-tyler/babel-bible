@@ -1836,6 +1836,55 @@
 ],
 "title": "Dold-Kan correspondence"
 },
+"01.03.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "rings-modules",
+"curriculum": "algebra-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.03.01",
+"prereqs": [
+"01.01.01",
+"01.02.01"
+],
+"section": "foundations",
+"slug": "rings-and-modules",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rings and modules"
+},
+"01.04.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "fields-galois",
+"curriculum": "algebra-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.04.01",
+"prereqs": [
+"01.03.01"
+],
+"section": "foundations",
+"slug": "fields-and-galois-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Fields and Galois theory"
+},
 "02.01.01": {
 "area": "math",
 "books": [
@@ -31340,6 +31389,31 @@
 ],
 "title": "Supersymmetric QCD and Seiberg duality: the moduli space of vacua, holomorphy, and N=1 electric-magnetic duality"
 },
+"12.20.01": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "condensed-matter",
+"curriculum": "condensed-matter-home",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.20.01",
+"prereqs": [
+"12.01.02",
+"12.05.01"
+],
+"section": "quantum",
+"slug": "condensed-matter-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Condensed-matter physics \u2014 band structure, phonons, and emergent order"
+},
 "13.01.01": {
 "area": "physics",
 "books": [
@@ -59003,6 +59077,31 @@
 ],
 "title": "Digital Signatures and Collision-Resistant Hash Functions"
 },
+"48.01.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "riemannian-geometry",
+"curriculum": "riemannian-home",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.01.01",
+"prereqs": [
+"03.02.01",
+"03.04.02"
+],
+"section": "differential-geometry",
+"slug": "riemannian-geometry-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Riemannian geometry \u2014 metric, connection, and curvature"
+},
 "48.02.01": {
 "area": "math",
 "books": [],
@@ -61388,5 +61487,49 @@
 "master"
 ],
 "title": "Computing ethics and societal impact"
+},
+"51.01.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "phonetics-articulation-acoustics",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.01.01",
+"prereqs": [],
+"section": "linguistics",
+"slug": "phonetics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Phonetics \u2014 the physical science of speech sounds"
+},
+"52.01.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "microeconomics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.01.01",
+"prereqs": [],
+"section": "economics",
+"slug": "microeconomics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Microeconomics \u2014 scarcity, choice, and equilibrium"
 }
 }

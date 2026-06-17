@@ -24192,3 +24192,57 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: *(to be determined)*
 - **prerequisites**: *(to be determined)*
 - **notes**: Auto-generated stub — needs title
+
+
+### algebra.rings-modules
+
+- **title**: Rings and modules
+- **unit**: `01.03.01`
+- **prerequisites**: `algebra.field`, `algebra.group`
+- **tier_anchors**:
+  - master: Atiyah-Macdonald §1–2; Lang §III, §VI
+  - intermediate: Atiyah-Macdonald §1; Dummit-Foote §7
+  - beginner: integers as the prototype ring; vectors as the prototype module
+- **notes**: Foundational home unit for rings, ideals, quotient rings, and modules. Crossrefs scheme spectra [04.02.01], Galois theory [01.04.01], homological algebra [01.06.01], representation modules [07.06.01]. The §01 algebra home chapter that gives rings/modules a findable entry point.
+
+
+### differential-geometry.riemannian-foundations
+
+- **title**: Riemannian geometry foundations
+- **unit**: `48.01.01`
+- **notes**: Riemannian metric, Levi-Civita connection, curvature tensor; the named home for the topic smeared across §48.02 and §03.02. Crossrefs Dirac operator [03.09.08], characteristic classes [03.06.04], general relativity [13.03.01].
+
+
+### philosophy.metaphysics
+
+- **title**: Metaphysics — existence, identity, causation, modality
+- **unit**: `20.11.01`
+- **notes**: Foundational metaphysics chapter (existence, identity, persistence, causation, modality). Crossrefs philosophy of language [20.12.01], philosophy of mind [20.13.01], modal logic [42.02.01].
+
+
+### linguistics.phonetics
+
+- **title**: Phonetics — articulation and acoustics
+- **unit**: `51.01.01`
+- **notes**: Anchor unit for the new §51-linguistics section. Source-filter theory, articulatory places/manners, formants. Crossrefs phonology [51.02.01], signal analysis [10.04.02].
+
+
+### economics.microeconomics-foundations
+
+- **title**: Microeconomics — scarcity, choice, equilibrium
+- **unit**: `52.01.01`
+- **notes**: Anchor unit for the new §52-economics section. Consumer theory, competitive equilibrium, the welfare theorems. Crossrefs macro [52.02.01], econometrics [52.03.01], game theory [52.04.01], optimisation [44.02.01].
+
+
+### physics.condensed-matter-foundations
+
+- **title**: Condensed-matter physics — bands, phonons, order
+- **unit**: `12.20.01`
+- **notes**: Anchor unit for the new §12/20-condensed-matter chapter. Bloch's theorem, band structure, phonons, superconductivity. Crossrefs many-body QM [12.09.01], Fock spaces [12.13.01], statistical field theory [08.04.01].
+
+
+### algebra.fields-galois
+
+- **title**: Fields and Galois theory
+- **unit**: `01.04.01`
+- **notes**: Fields, field extensions, Galois correspondence. Crossrefs Galois representations [21.05.01], covering spaces [03.12.02], algebraic geometry [04.02.01]. The §01 algebra home chapter.

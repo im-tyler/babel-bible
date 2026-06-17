@@ -484,6 +484,18 @@
 ],
 "curriculum": "fast-track"
 },
+"01.03.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebra-home"
+},
+"01.04.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebra-home"
+},
 "02.01.01": {
 "books": [
 "brown-topology-and-groupoids"
@@ -8880,6 +8892,12 @@
 ],
 "curriculum": "fast-track"
 },
+"12.20.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "condensed-matter-home"
+},
 "13.01.01": {
 "books": [
 "sternberg-curvature-mathematics-physics"
@@ -14788,6 +14806,12 @@
 ],
 "curriculum": "theoretical-cs"
 },
+"48.01.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "riemannian-home"
+},
 "48.02.01": {
 "books": [],
 "curriculum": "fast-track"
@@ -15466,5 +15490,17 @@
 "50.12.01": {
 "books": [],
 "curriculum": "other"
+},
+"51.01.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "linguistics-home"
+},
+"52.01.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
 }
 }
