@@ -24246,3 +24246,42 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Fields and Galois theory
 - **unit**: `01.04.01`
 - **notes**: Fields, field extensions, Galois correspondence. Crossrefs Galois representations [21.05.01], covering spaces [03.12.02], algebraic geometry [04.02.01]. The §01 algebra home chapter.
+
+### algebra.homological-algebra
+
+- **title**: Homological algebra — chain complexes, exact sequences, and derived functors
+- **unit**: `01.06.01`
+- **prerequisites**: `algebra.rings-modules`
+- **tier_anchors**:
+  - master: Weibel §1–2, §10; Gelfand-Manin Ch. III–IV; Cartan-Eilenberg
+  - intermediate: Weibel Ch. 1–2 (chain complexes, homology, derived functors)
+  - beginner: homology counts obstructions/holes; boundary of a boundary is zero
+- **notes**: Auto-generated stub.
+
+### psychology.psychometrics
+
+- **title**: Psychometrics — test construction, reliability, and validity
+- **unit**: `29.13.01`
+- **prerequisites**: (auto-stub) 29.05.01
+- **tier_anchors**:
+  - master: Lord & Novick 1968; Embretson & Reise 2000
+  - intermediate: Kaplan & Saccuzzo, Psychological Testing
+  - beginner: Anastasi & Urbina, Psychological Testing
+- **notes**: Anchor unit for the new §29.13-psychometrics chapter. Classical test theory, Cronbach's alpha, reliability vs validity, IRT (Rasch), factor analysis. Crossrefs cognition/intelligence [29.05.01], trait theories [29.08.02], statistical reasoning [29.01.03].
+
+
+### philosophy.philosophy-of-language
+
+- **title**: Philosophy of language — reference, meaning, and use
+- **unit**: `20.12.01`
+- **notes**: Foundational philosophy-of-language chapter. Frege sense/reference, Russell descriptions, early- vs late-Wittgenstein (picture theory vs meaning-as-use), Kripke rigid designation and the necessary a posteriori, Austin/Searle speech acts. Crossrefs metaphysics [20.11.01], formal semantics [42.02.01], linguistics [51.01.01], philosophy of mind [20.13.01].
+
+### algebra.commutative-algebra
+
+- **title**: Commutative algebra — Noetherian rings, localisation, primary decomposition, Spec
+- **prerequisites**: `algebra.rings-modules`
+- **tier_anchors**:
+  - master: Atiyah-Macdonald Ch. 1–7; Eisenbud Ch. 1–3; Matsumura §2,3,6,9
+  - intermediate: Atiyah-Macdonald Ch. 1–7
+  - beginner: intuition via Z and k[x] as Noetherian; ideals factored like integers
+- **notes**: Foundational home for commutative algebra. Covers ACC/Noetherian rings, Hilbert's basis theorem, localisation and local rings, Spec and the Zariski topology, and primary decomposition. Feeds schemes [04.02.01], ANT [21.02.07], local fields [21.02.03].

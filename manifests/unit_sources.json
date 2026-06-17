@@ -496,6 +496,18 @@
 ],
 "curriculum": "algebra-home"
 },
+"01.05.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebra-home"
+},
+"01.06.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebra-home"
+},
 "02.01.01": {
 "books": [
 "brown-topology-and-groupoids"
@@ -11522,6 +11534,12 @@
 "29.12.01": {
 "books": [],
 "curriculum": "other"
+},
+"29.13.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "psychology-home"
 },
 "30.01.01": {
 "books": [],

@@ -1885,6 +1885,54 @@
 ],
 "title": "Fields and Galois theory"
 },
+"01.05.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "commutative-algebra",
+"curriculum": "algebra-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.05.01",
+"prereqs": [
+"01.03.01"
+],
+"section": "foundations",
+"slug": "commutative-algebra-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Commutative algebra \u2014 Noetherian rings, localisation, and primary decomposition"
+},
+"01.06.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "homological-algebra",
+"curriculum": "algebra-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.06.01",
+"prereqs": [
+"01.03.01"
+],
+"section": "foundations",
+"slug": "homological-algebra-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Homological algebra \u2014 chain complexes, exact sequences, and derived functors"
+},
 "02.01.01": {
 "area": "math",
 "books": [
@@ -44678,6 +44726,30 @@
 "master"
 ],
 "title": "Cross-Cultural and Indigenous Psychology"
+},
+"29.13.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "psychometrics",
+"curriculum": "psychology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.13.01",
+"prereqs": [
+"29.05.01"
+],
+"section": "psychology",
+"slug": "psychometrics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Psychometrics \u2014 test construction, reliability, and validity"
 },
 "30.01.01": {
 "area": "other",
