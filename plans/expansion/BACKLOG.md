@@ -17,6 +17,55 @@ spines 8-12) is a **HUMAN GATE** — do NOT start it without explicit go-ahead.
 
 ---
 
+## NEXT ACTIONS — single reconciled queue (verified 2026-06-17)
+
+**All documented production is COMPLETE:** every math spine (Tier A 1-7 + Tier B
+8-12) and every Tier C non-math gap-fill below is `[x]`. The only open checkbox is
+optional probability exercise packs. The project is at a natural completion plateau.
+
+What remains is **discretionary curation**, not a greenfield backlog. Each item was
+verified against actual content on 2026-06-17 — the earlier SESSION_NOTES "what's
+left" list overstated absences (the topics below mostly EXIST already, scattered;
+the work is organization/depth, not re-production). Do NOT re-produce existing
+content. Priority order:
+
+1. **Abstract-algebra foundational home (organization, ~10-20 new units max).**
+   §01-foundations has only linear-algebra + groups, but rings/ideals/fields/Galois/
+   Noetherian/homological content already exists richly in §21, §04, §03, §07
+   (Galois 114 files, Noetherian 63, homological 366). Task: add a foundational
+   rings/fields/Galois chapter as a findable HOME + cross-reference the existing
+   material. NOT the "~80-100 new units" the old notes claimed — most exists.
+
+2. **Condensed-matter + optics homes (organization + genuine depth).** No dedicated
+   chapter dir exists, but topics are present and scattered (superconductivity 20
+   files, band structure 25, Fermi surface 9, diffraction 37, laser 78, optics 69).
+   Add chapter homes under physics, consolidate, fill real depth gaps. NOT "entirely
+   absent" as the old notes claimed.
+
+3. **Genuinely-thin chapter depth (verified counts):**
+   - §32-world-history — 34 units / 26 chapters (~1.3/ch). Legitimately thin.
+   - §50-computer-science — 12 units / 12 chapters (1.0/ch). Legitimately thin.
+   - §26-statistics — fill the APPLIED chapters only (descriptive, sampling,
+     experimental design, literacy). Cross-ref §45-mathematical-statistics for
+     theory; do NOT duplicate its hypothesis-testing/Bayesian/regression/nonparam.
+   - §49-logic — fill the informal/critical-thinking chapters (fallacies, biases,
+     reasoning). Distinct from §42-mathematical-logic; only prop/predicate overlap,
+     cross-ref there.
+   - §19-eco-evo-bio is mostly fine (40 units / 16 chapters, most at 3); only 4
+     genuinely single-unit chapters (biogeography, coevolution, origin-of-life,
+     biogeochemistry) — ≤8 units, not the "+16" the old note claimed.
+
+4. **New-subject organization (content exists, scattered):**
+   - Scientific-linguistics home — §22-language is ELA (grammar/writing/literature);
+     phonology/morphology/syntax exist scattered (syntax 111, generative grammar 11,
+     phonology 5) across §22 + §31. Needs a findable home, not greenfield.
+   - Structured economics — §23-world/01-economics exists (micro 7, macro 14,
+     elasticity 46 files); a dedicated micro/macro/econometrics structure is depth.
+
+5. **Optional:** exercise packs for the new probability chapters (line ~45 below).
+
+---
+
 ## Spine 1 — Probability & Stochastics  ·  `probability`  ·  STATUS: COMPLETE (46 units, loop-until-dry converged 2026-06-05)
 Section: `content/37-probability` (`probability`). Seeded: `content/02-analysis/15-stochastic-analysis`
 (Brownian/Ito/SDE/Feynman-Kac/Stratonovich) already exists — audit AGAINST it, do not redo it.
@@ -235,7 +284,9 @@ Quality spec: `docs/plans/UNIT_QUALITY_SPEC.md`. Peer unit for non-math: existin
   - [x] PRODUCE: 6 chapters (8 units) → integrated → committed
   - [x] COMPLETENESS: converged
 
-- [ ] **Health & Medicine (35)** — same plan file — 18 new units (all 8 chapters). Sources: Robbins Pathology 2021, Harrison's 2022, Gordis Epidemiology 2019. 8 → 26 units.
+- [x] **Health & Medicine (35)** — same plan file — 17 new units (all 8 chapters). Sources: Robbins Pathology 2021, Harrison's 2022, Gordis Epidemiology 2019. 8 → 25 units. All 27/27 validated. (Checkbox corrected 2026-06-17 — was stale; content shipped in 252ee21 and earlier.)
+  - [x] PRODUCE: 8 chapters (17 units) → integrated → committed
+  - [x] COMPLETENESS: converged (all chapters ≥ 2 units)
 
 - [x] **Media Literacy (36)** — same plan file — 6 new units (all 6 chapters). Sources: Postman 1985, McChesney 2004. 6 → 12 units. All 27/27 validated.
   - [x] PRODUCE: 6 chapters (6 units) → integrated → committed
