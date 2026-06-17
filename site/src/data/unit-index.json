@@ -31462,6 +31462,30 @@
 ],
 "title": "Condensed-matter physics \u2014 band structure, phonons, and emergent order"
 },
+"12.20.02": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "condensed-matter",
+"curriculum": "condensed-matter-home",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.20.02",
+"prereqs": [
+"12.20.01"
+],
+"section": "quantum",
+"slug": "superconductivity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Superconductivity \u2014 Cooper pairs, BCS theory, and macroscopic quantum order"
+},
 "13.01.01": {
 "area": "physics",
 "books": [
@@ -61678,6 +61702,30 @@
 ],
 "title": "Phonology \u2014 phonemes, features, and sound systems"
 },
+"51.03.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "morphology-word-structure",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.03.01",
+"prereqs": [
+"51.01.01"
+],
+"section": "linguistics",
+"slug": "morphology-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Morphology \u2014 morphemes, word structure, and formation"
+},
 "51.04.01": {
 "area": "other",
 "books": [
@@ -61701,6 +61749,30 @@
 "master"
 ],
 "title": "Syntax \u2014 constituency, dependency, and generative grammar"
+},
+"51.05.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "semantics-pragmatics",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.05.01",
+"prereqs": [
+"51.04.01"
+],
+"section": "linguistics",
+"slug": "semantics-pragmatics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Semantics and pragmatics \u2014 meaning, truth, and use"
 },
 "52.01.01": {
 "area": "other",
@@ -61747,6 +61819,30 @@
 "master"
 ],
 "title": "Macroeconomics \u2014 aggregates, growth, and cycles"
+},
+"52.03.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "econometrics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.03.01",
+"prereqs": [
+"52.01.01"
+],
+"section": "economics",
+"slug": "econometrics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Econometrics \u2014 identification, estimation, and inference"
 },
 "52.04.01": {
 "area": "other",

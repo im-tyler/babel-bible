@@ -8910,6 +8910,12 @@
 ],
 "curriculum": "condensed-matter-home"
 },
+"12.20.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "condensed-matter-home"
+},
 "13.01.01": {
 "books": [
 "sternberg-curvature-mathematics-physics"
@@ -15539,7 +15545,19 @@
 ],
 "curriculum": "linguistics-home"
 },
+"51.03.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "linguistics-home"
+},
 "51.04.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "linguistics-home"
+},
+"51.05.01": {
 "books": [
 "foundational-home"
 ],
@@ -15552,6 +15570,12 @@
 "curriculum": "economics-home"
 },
 "52.02.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
+},
+"52.03.01": {
 "books": [
 "foundational-home"
 ],

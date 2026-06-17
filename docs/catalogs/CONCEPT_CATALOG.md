@@ -24333,3 +24333,31 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Macroeconomics — aggregates, growth, and cycles
 - **unit**: `52.02.01`
 - **notes**: National income, growth (Solow), business cycles, monetary/fiscal policy (IS-LM, AD-AS), inflation/unemployment. Crossrefs micro [52.01.01], econometrics [52.03.01].
+
+
+### linguistics.morphology
+
+- **title**: Morphology — word structure and formation
+- **unit**: `51.03.01`
+- **notes**: Morphemes, inflection/derivation, word formation rules, morphological typology. Crossrefs phonology [51.02.01], syntax [51.04.01].
+
+
+### linguistics.semantics-pragmatics
+
+- **title**: Semantics and pragmatics — meaning and use
+- **unit**: `51.05.01`
+- **notes**: Compositional semantics, truth-conditional vs cognitive, speech acts, implicature (Grice), deixis. Crossrefs syntax [51.04.01], philosophy of language [20.12.01].
+
+
+### economics.econometrics
+
+- **title**: Econometrics — statistical inference in economics
+- **unit**: `52.03.01`
+- **notes**: OLS, identification, endogeneity, IV/GMM, panel data, time series. Crossrefs micro [52.01.01], mathematical statistics [45.x], probability [37.x].
+
+
+### physics.condensed-matter-superconductivity
+
+- **title**: Superconductivity and macroscopic quantum order
+- **unit**: `12.20.02`
+- **notes**: BCS theory, Cooper pairs, Meissner effect, flux quantisation, type-I/II, Ginzburg-Landau, high-Tc. Crossrefs condensed-matter foundations [12.20.01], Fock spaces [12.13.01], stat-mech [08.x].
