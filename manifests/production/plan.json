@@ -34941,6 +34941,38 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "21.17.01": {
+      "id": "21.17.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "32.24.02": {
+      "id": "32.24.02",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "41.03.03": {
+      "id": "41.03.03",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "16.08.01": {
+      "id": "16.08.01",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],

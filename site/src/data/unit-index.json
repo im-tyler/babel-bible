@@ -34797,6 +34797,30 @@
 ],
 "title": "Electronic properties of solids: insulators, semiconductors, conductors, and the band gap"
 },
+"16.08.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "main-group-detail",
+"curriculum": "inorgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.08.01",
+"prereqs": [
+"16.01.01"
+],
+"section": "inorgchem",
+"slug": "main-group-descriptive-chemistry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Main-group descriptive chemistry \u2014 s-block, p-block, and periodic structure"
+},
 "17.01.01": {
 "area": "other",
 "books": [],
@@ -39750,6 +39774,31 @@
 "master"
 ],
 "title": "The Hardy-Ramanujan-Rademacher Asymptotics via the Circle Method"
+},
+"21.17.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "algebraic-number-theory",
+"curriculum": "number-theory-home",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.17.01",
+"prereqs": [
+"01.03.01",
+"01.04.01"
+],
+"section": "number-theory",
+"slug": "algebraic-number-theory-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Algebraic number theory \u2014 number fields, Dedekind domains, and the class group"
 },
 "22.01.01": {
 "area": "other",
@@ -46473,6 +46522,31 @@
 ],
 "title": "The Cold War: US, Soviet, Chinese, and Non-Aligned Perspectives"
 },
+"32.24.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "cold-war",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.24.02",
+"prereqs": [
+"32.22.01",
+"32.24.01"
+],
+"section": "world-history",
+"slug": "cold-war-superpower-rivalry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Cold War \u2014 superpower rivalry, proxy conflicts, and the nuclear revolution"
+},
 "32.25.01": {
 "area": "other",
 "books": [],
@@ -52206,6 +52280,32 @@
 "master"
 ],
 "title": "RAPL, Reflective Subcategories, and the Adjoint Functor Theorems"
+},
+"41.03.03": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "adjunctions",
+"curriculum": "foundations-home",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.03.03",
+"prereqs": [
+"41.03.01",
+"41.02.01",
+"41.04.01"
+],
+"section": "category-theory",
+"slug": "adjunctions-unit-counit-calculus",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Adjunctions \u2014 the unit-counit calculus and the adjoint functor theorems"
 },
 "41.04.01": {
 "area": "math",

@@ -24382,3 +24382,31 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: International trade and finance
 - **unit**: `52.05.01`
 - **notes**: Comparative advantage (Ricardian/Heckscher-Ohlin), trade policy, exchange rates, balance of payments, Mundell-Fleming, open-economy macro. Crossrefs macro [52.02.01], micro [52.01.01].
+
+
+### number-theory.algebraic-number-theory
+
+- **title**: Algebraic number theory — number fields and ideals
+- **unit**: `21.17.01`
+- **notes**: Number fields, rings of integers, Dedekind domains, ideal class group, Dirichlet unit theorem. The classical ANT home (audit gap). Crossrefs algebraic geometry [04.02.01], galois [01.04.01], analytic NT [21.11-16].
+
+
+### world-history.cold-war-depth
+
+- **title**: The Cold War — depth unit
+- **unit**: `32.24.02`
+- **notes**: Cold War origins, proxy conflicts, deterrence, detente, collapse of the USSR. Depth under §32/24 (1->2 units). Crossrefs world-war-two [32.22.01], decolonization [32.23.01], globalization [32.25.01].
+
+
+### category-theory.adjunctions-depth
+
+- **title**: Adjunctions — depth and the unit-counit calculus
+- **unit**: `41.03.03`
+- **notes**: Adjoint functors, unit/counit, triangle identities, adjoint functor theorems, reflective/coreflective subcategories, free-forgetful adjunctions. Depth under §41/03. Crossrefs limits [41.02.x], Yoneda [41.04.x], monads [41.05.x].
+
+
+### inorgchem.main-group-detail
+
+- **title**: Main-group descriptive chemistry — s- and p-block
+- **unit**: `16.08.01`
+- **notes**: Periodic trends in depth, s-block reactivity, p-block (B, C, N, O, halogens, noble gases), hypervalency, allotropes, acid-base (Lewis/HSAB),赭 chemistry. The main-group home (audit gap). Crossrefs periodic-trends [16.01.x], solid-state [16.07.x].

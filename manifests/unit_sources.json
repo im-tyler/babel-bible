@@ -9583,6 +9583,12 @@
 "books": [],
 "curriculum": "inorgchem"
 },
+"16.08.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "inorgchem-home"
+},
 "17.01.01": {
 "books": [],
 "curriculum": "other"
@@ -10596,6 +10602,12 @@
 "apostol-analytic-nt"
 ],
 "curriculum": "analytic-nt"
+},
+"21.17.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "number-theory-home"
 },
 "22.01.01": {
 "books": [],
@@ -11858,6 +11870,12 @@
 "32.24.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.24.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.25.01": {
 "books": [],
@@ -13157,6 +13175,12 @@
 "maclane-cwm"
 ],
 "curriculum": "logic-foundations"
+},
+"41.03.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "foundations-home"
 },
 "41.04.01": {
 "books": [
