@@ -1,9 +1,7 @@
 # Babel Bible — Fast Track Coverage Roadmap
 
-Drafted 2026-05-17. Successor to the ad-hoc batch plans
-(`WAVE_3_PLAN.md`, `WAVE_4_PLAN.md`). Defines the **forward push** from
-the current ~14% audited / ~12% unit-touched state toward Fast Track
-equivalence-completeness on all 93 books.
+Drafted 2026-05-17. Successor to the early ad-hoc batch plans. Defines the
+**forward push** toward Fast Track equivalence-completeness on all 93 books.
 
 Read alongside:
 - `docs/catalogs/FASTTRACK_BOOKLIST.md` — canonical list of 93 books.

@@ -6,7 +6,7 @@ A self-study curriculum spanning the sciences and humanities. Math, physics, che
 - **Intermediate** — formal definitions, proofs, exercises.
 - **Master** — graduate-level depth with primary-source citations and Lean formalisation status where Mathlib covers.
 
-**Status:** Live at <https://babelbible.org>. 830+ units across 7 domains. Continuously expanded by an autonomous production pipeline against a 27-point quality rubric.
+**Status:** Live at <https://babelbible.org>. ~2,400 units across 50 sections. Continuously expanded by an autonomous production pipeline against a 27-point quality rubric.
 
 **Codename:** the Lean formalisation library and internal docs still use the codename `Codex`. Babel Bible is the product name.
 
@@ -15,9 +15,9 @@ A self-study curriculum spanning the sciences and humanities. Math, physics, che
 ```
 B.I.B.L.E/
 ├── README.md                          ← you are here
+├── AGENTS.md                          ← agent entry point (doc map + reading order)
 ├── OVERVIEW.md                        ← project orientation (load-bearing doc)
-├── BRIEF.md                           ← one-page vision extract
-├── content/                           ← produced curriculum units (~830, growing)
+├── content/                           ← produced curriculum units (~2,400, growing)
 │   ├── 00-precalc/  …  21-number-theory/    ← math (~580 units)
 │   ├── 09-classical-mech/  …  13-gr-cosmology/   ← physics (~55 units)
 │   ├── 14-genchem-pchem/  …  16-inorgchem/   ← chemistry (~32 units)
@@ -56,9 +56,9 @@ Built with [Neutron](https://neutron.build) — single static-site target served
 
 ## Next-step references
 
+- `AGENTS.md` — agent entry point: full doc map and reading order.
 - `OVERVIEW.md` — the canonical project doc; read this when in doubt.
-- `BRIEF.md` — one-page extract of the vision.
 - `docs/specs/UNIT_SPEC.md` — the unit format.
 - `docs/specs/QUALITY_RUBRIC.md` — the 27-point automated checks.
-- `docs/plans/PRODUCTION_RUNBOOK.md` — how an agent picks the next unit.
-- `docs/plans/COMPLETION_ROADMAP.md` — what remains to v1.
+- `docs/plans/AGENT_PRODUCTION_PLAYBOOK.md` — how an agent produces the next unit.
+- `plans/expansion/BACKLOG.md` — what to produce next.

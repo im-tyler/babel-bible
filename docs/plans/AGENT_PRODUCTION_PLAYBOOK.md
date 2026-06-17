@@ -7,7 +7,6 @@
 Read alongside:
 - `docs/specs/UNIT_SPEC.md` — the canonical format
 - `docs/specs/QUALITY_RUBRIC.md` — the 27 validator checks
-- `docs/plans/PRODUCTION_GUIDE.md` — the operator-side dispatch and tooling
 - `docs/plans/AGENTIC_EXECUTION_PLAN.md` — the no-compromise quality contract
 
 This playbook does NOT duplicate those documents. It tells you **how to use them under time pressure to produce a passing unit on the first try.**

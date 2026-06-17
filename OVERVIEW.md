@@ -1,6 +1,6 @@
 # Babel Bible — Overview
 
-This is the single load-bearing document. Everything else (PROJECT_PLAN, BRIEF, UNIT_SPEC, QUALITY_RUBRIC, DEPENDENCY_MAP, PILOT_PLAN) supports or details parts of this. Read this first; read this when in doubt.
+This is the single load-bearing document. Everything else (the production playbook, `docs/specs/UNIT_SPEC.md`, `docs/specs/QUALITY_RUBRIC.md`, `docs/catalogs/DEPENDENCY_MAP.md`) supports or details parts of this. Read this first; read this when in doubt. For the full doc map and reading order, see `AGENTS.md`.
 
 ---
 
@@ -90,7 +90,7 @@ Each unit has a `tiers_present` frontmatter field: subset of `[beginner, interme
 
 ### What production strategy the pilot uses is a separate decision
 
-The overview does not lock this. `docs/plans/PILOT_PLAN.md` records the pilot's specific choice. Other waves can use a different strategy without violating any invariant.
+The overview does not lock this. Other waves can use a different strategy without violating any invariant.
 
 ---
 
@@ -127,7 +127,7 @@ Full rubric in `docs/specs/QUALITY_RUBRIC.md` (to be written). Each tier has a p
 
 ## 7. Agent orchestration
 
-Six roles with canonical JSON handoff manifests. Full detail in `docs/plans/PROJECT_PLAN.md` §4.
+Six roles with canonical JSON handoff manifests. See `docs/plans/AGENT_PRODUCTION_PLAYBOOK.md` for the operating recipe.
 
 | Role | In | Out |
 |---|---|---|
@@ -147,7 +147,7 @@ Parallelization is topological-sort-based: units with no unproduced prereq can r
 | Phase | Deliverable | Status |
 |---|---|---|
 | 0 | Reference archive (~1 GB, 11 sources) | Done |
-| 1 | Scaffold (this doc, BRIEF, UNIT_SPEC, DEPENDENCY_MAP, PILOT_PLAN, REVIEWER_PLAN) — rubric *after* pilot unit #1, not before | In progress |
+| 1 | Scaffold (this doc, UNIT_SPEC, DEPENDENCY_MAP, REVIEWER_PLAN) — rubric *after* pilot unit #1, not before | Complete |
 | 1.5 | RAG layer over the reference archive (embeddings + retrieval for Scanner role) | Pending |
 | 2a | Pilot unit #1: produced manually (no agents), used as rubric-seed | Pending |
 | 2b | `docs/specs/QUALITY_RUBRIC.md` distilled from unit #1's actual output + failure modes | Pending |
@@ -166,11 +166,11 @@ Parallelization is topological-sort-based: units with no unproduced prereq can r
 ```
 codex/
 ├── README.md                     # repo intro
+├── AGENTS.md                     # agent entry point (doc map + reading order)
 ├── OVERVIEW.md                   # you are here
-├── BRIEF.md                      # one-page vision extract
 ├── docs/                         # all planning + spec + catalog material
 │   ├── pilot-lessons.md          # consolidated production-lesson log
-│   ├── plans/                    # PROJECT_PLAN, PILOT_PLAN, WAVE_*, V05_*_PLAN, SITE_PLAN, REVIEWER_PLAN, FASTTRACK_EQUIVALENCE_PLAN, CURRICULUM_V0_5_PLAN
+│   ├── plans/                    # AGENT_PRODUCTION_PLAYBOOK, MATH_EXPANSION_ORCHESTRATION, AGENTIC_EXECUTION_PLAN, FASTTRACK_*, SITE_PLAN, REVIEWER_PLAN
 │   ├── specs/                    # UNIT_SPEC, QUALITY_RUBRIC, ORCHESTRATION_PROTOCOL, CONTINUITY_SCAFFOLD, FASTTRACK_FLOW_SCAFFOLD
 │   ├── catalogs/                 # CONCEPT_CATALOG, DEPENDENCY_MAP, MATHLIB_GAPS, FASTTRACK_BOOKLIST, NEED_TO_SOURCE
 │   └── batches/                  # paste-ready GPT batch scaffolds (V05_GPT_BATCH_*, WAVE_4_GPT_BATCH)
@@ -316,17 +316,13 @@ Chronological record of scope-affecting decisions, so future contributors can un
 
 ---
 
-## 13. Next immediate actions (revised)
+## 13. Next immediate actions
 
-1. Write `docs/catalogs/DEPENDENCY_MAP.md` — seed ~10 apex units at the top of FT, record pulled-in prereqs as the DAG grows.
-2. Write `docs/plans/PILOT_PLAN.md` — pick the 10 apex units, declare strategy, define success criteria.
-3. Write `docs/plans/REVIEWER_PLAN.md` — reviewer roster, incentives, LLM-augmented review policy with human spot-check gating.
-4. Write `docs/catalogs/CONCEPT_CATALOG.md` (or seed its first section for pilot subjects) — canonical concept lists per subject per tier.
-5. Build the RAG layer (Phase 1.5) — embeddings + vector store + retrieval API over `reference/`.
-6. Produce pilot unit #1 manually (no agents, using the scaffold as-is). This is the rubric-seed.
-7. Distill `docs/specs/QUALITY_RUBRIC.md` *from* pilot unit #1's output + its observed failure modes. Do not write the rubric before this.
-8. Produce 9 more pilot units (mix of manual + agent-assisted using the distilled rubric).
-9. Only then invoke parallel agent orchestration for scale.
+The original bootstrap sequence (seed the DAG, run the pilot, distill the rubric,
+stand up agent orchestration) is complete — the project is now in continuous
+autonomous expansion at ~2,400 units. For current state and what to do next, see
+`SESSION_NOTES.md` (live status) and `plans/expansion/BACKLOG.md` (production
+queue). Reading order for any new agent is in `AGENTS.md`.
 
 ---
 

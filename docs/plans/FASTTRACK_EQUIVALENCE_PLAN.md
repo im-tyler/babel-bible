@@ -4,7 +4,7 @@ A scaffold-of-scaffolds. Specifies how Babel Bible achieves *equivalent informat
 
 This document does not produce curriculum content directly. It produces the **system** by which curriculum content for each Fast Track book is planned, scaffolded, and verified — so that the work can be tackled agentically across the 72-book corpus.
 
-Read alongside `docs/catalogs/FASTTRACK_BOOKLIST.md`, `docs/plans/CURRICULUM_V0_5_PLAN.md`, `docs/plans/V05_SUPPORTING_UNITS_PLAN.md`, `docs/specs/QUALITY_RUBRIC.md`, `docs/specs/UNIT_SPEC.md`.
+Read alongside `docs/catalogs/FASTTRACK_BOOKLIST.md`, `docs/specs/QUALITY_RUBRIC.md`, `docs/specs/UNIT_SPEC.md`.
 
 ---
 
