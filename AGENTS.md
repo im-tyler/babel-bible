@@ -37,9 +37,13 @@ companion site (built with Neutron, deployed via Teploy) lives at babelbible.org
 
 ## Live planning / expansion state
 
-- **`plans/expansion/BACKLOG.md`** — the working source-of-truth for what to
-  produce next (Tier A/B/C). Updated continuously.
-- **`plans/expansion/COMPREHENSIVE_AUDIT.md`** — full section-by-section audit.
+- **`plans/expansion/BACKLOG.md`** — historical record: the Tier A/B/C production
+  campaign (spines 1–12 + Tier C gap-fills) is **complete**. The successor queue for
+  all remaining work (structural normalization, re-homing, depth, new chapters, new
+  subjects) lives in **`plans/expansion/FINALIZATION_PLAN.md`** — read that first.
+- **`plans/expansion/COMPREHENSIVE_AUDIT.md`** — full section-by-section audit (2026-06-15;
+  now stale on mechanical BLOCKERs — the June cleanup fixed dup chapter numbers, empty
+  dirs, §25/§01/§11/§19 collisions. Still authoritative on content/organizational gaps).
 - **`docs/plans/MATH_EXPANSION_ORCHESTRATION.md`** + **`LENS_SYSTEM_AND_MATH_EXPANSION.md`** —
   how the math corpus grows past the Fast Track slice, and the lens/filter system.
 - **`docs/plans/AGENTIC_EXECUTION_PLAN.md`**, **`FASTTRACK_COVERAGE_ROADMAP.md`** —

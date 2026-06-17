@@ -135,6 +135,7 @@ export const SECTIONS: SectionInfo[] = [
   { key: "grammar",               order: 22.1, label: "Grammar",                          anchor: "grammar",               domain: "language" },
   { key: "writing",               order: 22.2, label: "Writing",                          anchor: "writing",               domain: "language" },
   { key: "literature",            order: 22.3, label: "Literature techniques",            anchor: "literature",            domain: "language" },
+  { key: "linguistics",           order: 22.35, label: "Linguistics (science of language)", anchor: "linguistics",         domain: "language" },
 
   // ── Arts ──
   { key: "music-art",             order: 22.5, label: "Music & art",                      anchor: "music-art",             domain: "arts" },

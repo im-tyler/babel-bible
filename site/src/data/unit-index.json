@@ -40757,9 +40757,9 @@
 "books": [],
 "chapter": "foundations",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.01",
 "prereqs": [],
 "section": "economics",
@@ -40777,9 +40777,9 @@
 "books": [],
 "chapter": "fundamental-concepts",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.02",
 "prereqs": [
 "23.01.01"
@@ -40799,9 +40799,9 @@
 "books": [],
 "chapter": "markets",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.03",
 "prereqs": [
 "23.01.01"
@@ -40821,9 +40821,9 @@
 "books": [],
 "chapter": "markets",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.04",
 "prereqs": [
 "23.01.03"
@@ -40843,9 +40843,9 @@
 "books": [],
 "chapter": "markets",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.05",
 "prereqs": [
 "23.01.04"
@@ -40865,9 +40865,9 @@
 "books": [],
 "chapter": "market-intervention",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.06",
 "prereqs": [
 "23.01.04"
@@ -40887,9 +40887,9 @@
 "books": [],
 "chapter": "welfare",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.07",
 "prereqs": [
 "23.01.04"
@@ -40909,9 +40909,9 @@
 "books": [],
 "chapter": "firm-theory",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.08",
 "prereqs": [
 "23.01.01"
@@ -40931,9 +40931,9 @@
 "books": [],
 "chapter": "market-structures",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.09",
 "prereqs": [
 "23.01.04",
@@ -40954,9 +40954,9 @@
 "books": [],
 "chapter": "market-structures",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.10",
 "prereqs": [
 "23.01.09"
@@ -40976,9 +40976,9 @@
 "books": [],
 "chapter": "market-structures",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.11",
 "prereqs": [
 "23.01.10"
@@ -40998,9 +40998,9 @@
 "books": [],
 "chapter": "firm-theory",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.12",
 "prereqs": [
 "23.01.08",
@@ -41021,9 +41021,9 @@
 "books": [],
 "chapter": "factor-markets",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.13",
 "prereqs": [
 "23.01.04"
@@ -41043,9 +41043,9 @@
 "books": [],
 "chapter": "monetary",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.14",
 "prereqs": [
 "23.01.01"
@@ -41065,9 +41065,9 @@
 "books": [],
 "chapter": "monetary",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.15",
 "prereqs": [
 "23.01.14"
@@ -41087,9 +41087,9 @@
 "books": [],
 "chapter": "macroeconomics",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.16",
 "prereqs": [
 "23.01.01"
@@ -41109,9 +41109,9 @@
 "books": [],
 "chapter": "macroeconomics",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.17",
 "prereqs": [
 "23.01.16"
@@ -41131,9 +41131,9 @@
 "books": [],
 "chapter": "macroeconomics",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.18",
 "prereqs": [
 "23.01.16"
@@ -41153,9 +41153,9 @@
 "books": [],
 "chapter": "macroeconomics",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.19",
 "prereqs": [
 "23.01.15",
@@ -41176,9 +41176,9 @@
 "books": [],
 "chapter": "international",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.20",
 "prereqs": [
 "23.01.02"
@@ -41198,9 +41198,9 @@
 "books": [],
 "chapter": "international",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.21",
 "prereqs": [
 "23.01.14",
@@ -41221,9 +41221,9 @@
 "books": [],
 "chapter": "strategic-behavior",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.22",
 "prereqs": [
 "23.01.01"
@@ -41243,9 +41243,9 @@
 "books": [],
 "chapter": "market-failure",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.23",
 "prereqs": [
 "23.01.09"
@@ -41265,9 +41265,9 @@
 "books": [],
 "chapter": "distribution",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.24",
 "prereqs": [
 "23.01.16"
@@ -41287,9 +41287,9 @@
 "books": [],
 "chapter": "behavioral",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.25",
 "prereqs": [
 "23.01.01"
@@ -41309,9 +41309,9 @@
 "books": [],
 "chapter": "market-failure",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.26",
 "prereqs": [
 "23.01.09",
@@ -41332,9 +41332,9 @@
 "books": [],
 "chapter": "systems",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.27",
 "prereqs": [
 "23.01.01"
@@ -41354,9 +41354,9 @@
 "books": [],
 "chapter": "development",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.28",
 "prereqs": [
 "23.01.16",
@@ -41377,9 +41377,9 @@
 "books": [],
 "chapter": "personal-finance",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.29",
 "prereqs": [
 "23.01.14"
@@ -41399,9 +41399,9 @@
 "books": [],
 "chapter": "personal-finance",
 "curriculum": "other",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
 "id": "23.01.30",
 "prereqs": [
 "23.01.29"

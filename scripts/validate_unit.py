@@ -89,6 +89,8 @@ DOMAIN_BY_PREFIX = {
     "48": "math",
     "49": "math",
     "50": "computing",
+    "51": "language",
+    "52": "world",
 }
 
 INTERMEDIATE_EVIDENCE_KEYWORDS = {

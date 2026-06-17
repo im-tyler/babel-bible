@@ -5985,6 +5985,14 @@
 "label": "General Relativity & Cosmology",
 "order": 23
 },
+"linguistics": {
+"label": "Linguistics",
+"order": 30
+},
+"economics": {
+"label": "Economics",
+"order": 31
+},
 "other": {
 "label": "Other",
 "order": 99

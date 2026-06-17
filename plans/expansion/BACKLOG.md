@@ -17,17 +17,19 @@ spines 8-12) is a **HUMAN GATE** — do NOT start it without explicit go-ahead.
 
 ---
 
-## NEXT ACTIONS — single reconciled queue (verified 2026-06-17)
+## NEXT ACTIONS — operationalized in FINALIZATION_PLAN.md (verified 2026-06-17)
 
 **All documented production is COMPLETE:** every math spine (Tier A 1-7 + Tier B
 8-12) and every Tier C non-math gap-fill below is `[x]`. The only open checkbox is
-optional probability exercise packs. The project is at a natural completion plateau.
+optional probability exercise packs.
 
-What remains is **discretionary curation**, not a greenfield backlog. Each item was
-verified against actual content on 2026-06-17 — the earlier SESSION_NOTES "what's
-left" list overstated absences (the topics below mostly EXIST already, scattered;
-the work is organization/depth, not re-production). Do NOT re-produce existing
-content. Priority order:
+What remains is **discretionary curation**, not a greenfield backlog — and it has
+been turned into an executable, status-tracked program at
+**`plans/expansion/FINALIZATION_PLAN.md`**. That file is now the source of truth for
+all remaining work: scope decisions (Tyler-only), structural normalization,
+re-homing of scattered content, depth fills, and new-chapter builds, with an
+explicit no-content-loss protocol. **Read it first; drive top-down from its §2
+status table.** The priority list below is preserved as context for that plan.
 
 1. **Abstract-algebra foundational home (organization, ~10-20 new units max).**
    §01-foundations has only linear-algebra + groups, but rings/ideals/fields/Galois/

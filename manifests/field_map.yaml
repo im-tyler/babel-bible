@@ -44,6 +44,9 @@ sections:
   em-sr:                 { area: physics, field: classical-physics }
   classical-mech:        { area: physics, field: classical-physics }
   stat-mech-physics:     { area: physics, field: statistical-physics }
+  # ── other (non-math; default to area: other, field: other) ──
+  linguistics:           { area: other, field: linguistics }
+  economics:             { area: other, field: economics }
 
 chapter_overrides:
   - { section: analysis, chapter: stochastic-analysis, area: math, field: probability }
@@ -74,4 +77,6 @@ fields:
   quantum:                  { label: "Quantum Theory",                      order: 21 }
   statistical-physics:      { label: "Statistical Mechanics",               order: 22 }
   gravitation:              { label: "General Relativity & Cosmology",      order: 23 }
+  linguistics:              { label: "Linguistics",                         order: 30 }
+  economics:                { label: "Economics",                           order: 31 }
   other:                    { label: "Other",                              order: 99 }
