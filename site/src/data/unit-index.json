@@ -61774,6 +61774,54 @@
 ],
 "title": "Semantics and pragmatics \u2014 meaning, truth, and use"
 },
+"51.06.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "historical-comparative",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.06.01",
+"prereqs": [
+"51.02.01"
+],
+"section": "linguistics",
+"slug": "historical-comparative-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Historical and comparative linguistics \u2014 change, families, and reconstruction"
+},
+"51.07.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "sociolinguistics",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.07.01",
+"prereqs": [
+"51.02.01"
+],
+"section": "linguistics",
+"slug": "sociolinguistics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sociolinguistics \u2014 variation, identity, and language in society"
+},
 "52.01.01": {
 "area": "other",
 "books": [
@@ -61867,5 +61915,53 @@
 "master"
 ],
 "title": "Game theory \u2014 Nash equilibrium and strategic interaction"
+},
+"52.05.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "international-trade-finance",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.05.01",
+"prereqs": [
+"52.02.01"
+],
+"section": "economics",
+"slug": "international-trade-finance-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "International trade and finance \u2014 comparative advantage and open-economy macro"
+},
+"52.06.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "behavioral-economics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.06.01",
+"prereqs": [
+"52.01.01"
+],
+"section": "economics",
+"slug": "behavioral-economics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Behavioral economics \u2014 bounded rationality, biases, and nudges"
 }
 }

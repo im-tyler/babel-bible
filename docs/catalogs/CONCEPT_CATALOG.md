@@ -24361,3 +24361,24 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Superconductivity and macroscopic quantum order
 - **unit**: `12.20.02`
 - **notes**: BCS theory, Cooper pairs, Meissner effect, flux quantisation, type-I/II, Ginzburg-Landau, high-Tc. Crossrefs condensed-matter foundations [12.20.01], Fock spaces [12.13.01], stat-mech [08.x].
+
+
+### linguistics.historical-comparative
+
+- **title**: Historical and comparative linguistics
+- **unit**: `51.06.01`
+- **notes**: Sound change (Grimm's law), comparative method, reconstruction, language families, typology. Crossrefs phonology [51.02.01], anthropological linguistics [31.05.x].
+
+
+### linguistics.sociolinguistics
+
+- **title**: Sociolinguistics — language in society
+- **unit**: `51.07.01`
+- **notes**: Variation, registers, dialects, language and identity (Labov), language contact, multilingualism. Crossrefs phonology [51.02.01], sociology [30.x], anthropology [31.x].
+
+
+### economics.international-trade-finance
+
+- **title**: International trade and finance
+- **unit**: `52.05.01`
+- **notes**: Comparative advantage (Ricardian/Heckscher-Ohlin), trade policy, exchange rates, balance of payments, Mundell-Fleming, open-economy macro. Crossrefs macro [52.02.01], micro [52.01.01].
