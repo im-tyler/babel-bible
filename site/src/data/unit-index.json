@@ -38063,6 +38063,54 @@
 ],
 "title": "Daoism: wu wei, the Dao, and natural harmony"
 },
+"20.14.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "political-philosophy",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.14.01",
+"prereqs": [
+"20.11.01"
+],
+"section": "philosophy",
+"slug": "political-philosophy-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Political philosophy \u2014 justice, authority, and the state"
+},
+"20.15.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "history-of-philosophy",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.15.01",
+"prereqs": [
+"20.11.01"
+],
+"section": "philosophy",
+"slug": "history-of-philosophy-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "History of philosophy \u2014 ancient, medieval, modern, and continental"
+},
 "21.01.01": {
 "area": "math",
 "books": [
@@ -59173,6 +59221,30 @@
 "master"
 ],
 "title": "Riemannian geometry \u2014 metric, connection, and curvature"
+},
+"48.01.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "riemannian-geometry",
+"curriculum": "riemannian-home",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.01.02",
+"prereqs": [
+"48.01.01"
+],
+"section": "differential-geometry",
+"slug": "comparison-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Comparison theorems in Riemannian geometry \u2014 Cartan-Hadamard, Bonnet-Myers, Bishop-Gromov"
 },
 "48.02.01": {
 "area": "math",

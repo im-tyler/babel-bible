@@ -24285,3 +24285,30 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Atiyah-Macdonald Ch. 1–7
   - beginner: intuition via Z and k[x] as Noetherian; ideals factored like integers
 - **notes**: Foundational home for commutative algebra. Covers ACC/Noetherian rings, Hilbert's basis theorem, localisation and local rings, Spec and the Zariski topology, and primary decomposition. Feeds schemes [04.02.01], ANT [21.02.07], local fields [21.02.03].
+
+### differential-geometry.riemannian-comparison-theorems
+
+- **title**: Riemannian comparison theorems
+- **unit**: `48.01.02`
+- **notes**: Cartan-Hadamard, Bonnet-Myers, Bishop-Gromov. Depth unit under the §48 Riemannian home; crossrefs Dirac/index theory [03.09.10], characteristic classes [03.06.04].
+
+
+### philosophy.philosophy-of-mind
+
+- **title**: Philosophy of mind
+- **unit**: `20.13.01`
+- **notes**: Physicalism, functionalism, qualia, intentionality, the hard problem. Crossrefs consciousness [20.06.x], metaphysics [20.11.01], philosophy of language [20.12.01].
+
+
+### philosophy.political-philosophy
+
+- **title**: Political philosophy
+- **unit**: `20.14.01`
+- **notes**: Justice, authority, rights, liberalism/communitarianism (Rawls, Nozick). Crossrefs metaphysics [20.11.01], democracy chapter [20.07.x].
+
+
+### philosophy.history-of-philosophy
+
+- **title**: History of philosophy
+- **unit**: `20.15.01`
+- **notes**: Ancient, medieval, modern, continental, phenomenology, existentialism. Crossrefs eastern philosophy [20.10.x], all §20 pillars.

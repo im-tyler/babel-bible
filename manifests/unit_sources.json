@@ -10177,6 +10177,18 @@
 "books": [],
 "curriculum": "other"
 },
+"20.14.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
+},
+"20.15.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
+},
 "21.01.01": {
 "books": [
 "manin-introduction-modern-number-theory",
@@ -14825,6 +14837,12 @@
 "curriculum": "theoretical-cs"
 },
 "48.01.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "riemannian-home"
+},
+"48.01.02": {
 "books": [
 "foundational-home"
 ],
