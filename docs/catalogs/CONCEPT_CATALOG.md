@@ -24312,3 +24312,24 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: History of philosophy
 - **unit**: `20.15.01`
 - **notes**: Ancient, medieval, modern, continental, phenomenology, existentialism. Crossrefs eastern philosophy [20.10.x], all §20 pillars.
+
+
+### linguistics.phonology
+
+- **title**: Phonology — sound systems and contrast
+- **unit**: `51.02.01`
+- **notes**: Phonemes, allophones, phonotactics, distinctive features. Crossrefs phonetics [51.01.01], syntax [51.04.01].
+
+
+### linguistics.syntax
+
+- **title**: Syntax — sentence structure and grammatical theory
+- **unit**: `51.04.01`
+- **notes**: Constituency, dependency, generative grammar (Chomsky hierarchy), X-bar, minimalism. Crossrefs phonology [51.02.01], semantics [51.05.x], formal languages [47.01.x].
+
+
+### economics.macroeconomics
+
+- **title**: Macroeconomics — aggregates, growth, and cycles
+- **unit**: `52.02.01`
+- **notes**: National income, growth (Solow), business cycles, monetary/fiscal policy (IS-LM, AD-AS), inflation/unemployment. Crossrefs micro [52.01.01], econometrics [52.03.01].

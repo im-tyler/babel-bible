@@ -27556,6 +27556,96 @@
       "from": "20.15.01",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "51.01.01",
+      "to": "51.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "51.02.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "51.02.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "51.01.01",
+      "to": "51.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "51.04.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "51.04.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "5",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "52.02.01",
+      "state": "shipped"
+    },
+    {
+      "from": "52.02.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "52.02.01",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "52.01.01",
+      "to": "52.04.01",
+      "state": "shipped"
+    },
+    {
+      "from": "52.04.01",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "52.04.01",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -28879,7 +28969,11 @@
     "49.03.01",
     "49.04.01",
     "51.01.01",
-    "52.01.01"
+    "51.02.01",
+    "51.04.01",
+    "52.01.01",
+    "52.02.01",
+    "52.04.01"
   ],
   "_notes": {
     "01.01.03": "vector space — Wave 2 Phase 2.1 unit #1, SHIPPED",

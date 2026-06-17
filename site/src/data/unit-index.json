@@ -61654,6 +61654,54 @@
 ],
 "title": "Phonetics \u2014 the physical science of speech sounds"
 },
+"51.02.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "phonology-sound-systems",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.02.01",
+"prereqs": [
+"51.01.01"
+],
+"section": "linguistics",
+"slug": "phonology-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Phonology \u2014 phonemes, features, and sound systems"
+},
+"51.04.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "syntax-sentence-structure",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.04.01",
+"prereqs": [
+"51.01.01"
+],
+"section": "linguistics",
+"slug": "syntax-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Syntax \u2014 constituency, dependency, and generative grammar"
+},
 "52.01.01": {
 "area": "other",
 "books": [
@@ -61675,5 +61723,53 @@
 "master"
 ],
 "title": "Microeconomics \u2014 scarcity, choice, and equilibrium"
+},
+"52.02.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "macroeconomics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.02.01",
+"prereqs": [
+"52.01.01"
+],
+"section": "economics",
+"slug": "macroeconomics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Macroeconomics \u2014 aggregates, growth, and cycles"
+},
+"52.04.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "game-theory",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.04.01",
+"prereqs": [
+"52.01.01"
+],
+"section": "economics",
+"slug": "game-theory-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Game theory \u2014 Nash equilibrium and strategic interaction"
 }
 }
