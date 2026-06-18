@@ -7353,6 +7353,12 @@
 ],
 "curriculum": "fast-track"
 },
+"08.11.04": {
+"books": [
+"foundational-home"
+],
+"curriculum": "stat-mech-home"
+},
 "08.12.01": {
 "books": [
 "parisi-wu-stochastic-quantization",
@@ -11971,17 +11977,41 @@
 "books": [],
 "curriculum": "other"
 },
+"32.02.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.03.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.03.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.04.01": {
 "books": [],
 "curriculum": "other"
 },
+"32.04.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.05.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.05.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.06.01": {
 "books": [],
@@ -12019,13 +12049,31 @@
 "books": [],
 "curriculum": "other"
 },
+"32.11.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.12.01": {
 "books": [],
 "curriculum": "other"
 },
+"32.12.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.13.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.13.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.14.01": {
 "books": [],
@@ -12038,6 +12086,12 @@
 "32.15.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.15.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.16.01": {
 "books": [],
@@ -12081,6 +12135,12 @@
 "books": [],
 "curriculum": "other"
 },
+"32.21.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.22.01": {
 "books": [],
 "curriculum": "other"
@@ -12094,6 +12154,12 @@
 "32.23.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.23.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.24.01": {
 "books": [],
@@ -12126,6 +12192,12 @@
 "33.01.02": {
 "books": [],
 "curriculum": "history-of-science"
+},
+"33.01.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "history-of-science-home"
 },
 "33.02.01": {
 "books": [],

@@ -25523,6 +25523,31 @@
 ],
 "title": "Real gases \u2014 virial expansion and van der Waals"
 },
+"08.11.04": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "real-gases",
+"curriculum": "stat-mech-home",
+"field": "statistical-field-theory",
+"fieldLabel": "Statistical Field Theory",
+"fieldOrder": 12,
+"id": "08.11.04",
+"prereqs": [
+"08.01.01",
+"08.11.03"
+],
+"section": "stat-mech",
+"slug": "virial-expansion-van-der-waals",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Real gases \u2014 the virial expansion and van der Waals"
+},
 "08.12.01": {
 "area": "math",
 "books": [
@@ -46763,6 +46788,31 @@
 ],
 "title": "Mesopotamia and the Fertile Crescent"
 },
+"32.02.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "mesopotamia",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.02.02",
+"prereqs": [
+"32.01.01",
+"32.02.01"
+],
+"section": "world-history",
+"slug": "mesopotamia-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mesopotamia \u2014 Sumer, Akkad, Babylon, and the birth of the city"
+},
 "32.03.01": {
 "area": "other",
 "books": [],
@@ -46784,6 +46834,31 @@
 "master"
 ],
 "title": "Ancient Egypt and Nubia"
+},
+"32.03.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "egypt-nubia",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.03.02",
+"prereqs": [
+"32.01.01",
+"32.03.01"
+],
+"section": "world-history",
+"slug": "egypt-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ancient Egypt and Nubia \u2014 kingdoms of the Nile"
 },
 "32.04.01": {
 "area": "other",
@@ -46807,6 +46882,31 @@
 ],
 "title": "Indus Valley Civilization and Vedic India"
 },
+"32.04.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "indus-valley",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.04.02",
+"prereqs": [
+"32.01.01",
+"32.04.01"
+],
+"section": "world-history",
+"slug": "indus-valley-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Indus Valley civilization \u2014 Harappa, Mohenjo-daro, and an undeciphered script"
+},
 "32.05.01": {
 "area": "other",
 "books": [],
@@ -46828,6 +46928,31 @@
 "master"
 ],
 "title": "Ancient China: Shang through Han dynasties"
+},
+"32.05.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "ancient-china",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.05.02",
+"prereqs": [
+"32.05.01",
+"32.01.01"
+],
+"section": "world-history",
+"slug": "ancient-china-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ancient China \u2014 from Shang to Han"
 },
 "32.06.01": {
 "area": "other",
@@ -47029,6 +47154,31 @@
 ],
 "title": "Medieval Europe and the Crusades"
 },
+"32.11.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "medieval-europe-crusades",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.11.02",
+"prereqs": [
+"32.07.01",
+"32.11.01"
+],
+"section": "world-history",
+"slug": "medieval-europe-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Medieval Europe \u2014 feudalism, faith, plague, and the 12th-century renaissance"
+},
 "32.12.01": {
 "area": "other",
 "books": [],
@@ -47050,6 +47200,31 @@
 "master"
 ],
 "title": "Sub-Saharan African kingdoms"
+},
+"32.12.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "sub-saharan-africa",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.12.02",
+"prereqs": [
+"32.12.01",
+"32.13.01"
+],
+"section": "world-history",
+"slug": "sub-saharan-africa-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sub-Saharan Africa \u2014 empires of the Sahel and the Swahili coast"
 },
 "32.13.01": {
 "area": "other",
@@ -47073,6 +47248,31 @@
 "master"
 ],
 "title": "The Mongol Empire and its legacy"
+},
+"32.13.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "mongol-empire",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.13.02",
+"prereqs": [
+"32.05.01",
+"32.13.01"
+],
+"section": "world-history",
+"slug": "mongol-empire-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Mongol Empire \u2014 the largest contiguous land empire"
 },
 "32.14.01": {
 "area": "other",
@@ -47140,6 +47340,31 @@
 "master"
 ],
 "title": "Colonialism and imperialism: colonizer and colonized"
+},
+"32.15.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "colonialism-imperialism",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.15.02",
+"prereqs": [
+"32.14.01",
+"32.15.01"
+],
+"section": "world-history",
+"slug": "colonialism-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Colonialism and imperialism \u2014 from conquest to formal empire"
 },
 "32.16.01": {
 "area": "other",
@@ -47365,6 +47590,31 @@
 ],
 "title": "Interwar Period and the Rise of Totalitarianism: Fascism, Communism, and Liberal Democracy in Crisis"
 },
+"32.21.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "interwar-totalitarianism",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.21.02",
+"prereqs": [
+"32.20.01",
+"32.21.01"
+],
+"section": "world-history",
+"slug": "interwar-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The interwar period \u2014 Versailles, depression, and the rise of totalitarianism"
+},
 "32.22.01": {
 "area": "other",
 "books": [],
@@ -47433,6 +47683,31 @@
 "master"
 ],
 "title": "Decolonization: India, Algeria, Vietnam, Congo, and the end of empire"
+},
+"32.23.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "decolonization",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.23.02",
+"prereqs": [
+"32.22.01",
+"32.23.01"
+],
+"section": "world-history",
+"slug": "decolonization-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Decolonization \u2014 the end of European empires and the Third World"
 },
 "32.24.01": {
 "area": "other",
@@ -47591,6 +47866,30 @@
 "master"
 ],
 "title": "Greek and Hellenistic science: Aristotle's natural philosophy, Euclidean geometry, Archimedean mechanics"
+},
+"33.01.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "ancient-science",
+"curriculum": "history-of-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "33.01.03",
+"prereqs": [
+"33.01.01"
+],
+"section": "history-of-science",
+"slug": "ancient-science-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ancient science \u2014 Presocratics, Aristotle, Euclid, Archimedes, Ptolemy, Galen"
 },
 "33.02.01": {
 "area": "other",

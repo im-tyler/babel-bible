@@ -24781,3 +24781,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Sub-Saharan Africa — depth
 - **unit**: `32.12.02`
 - **notes**: Ghana, Mali, Songhai, Great Zimbabwe, the Swahili coast, trans-Saharan trade, Mansa Musa. Depth §32/12. Crossrefs atlantic-slave-trade [32.16.x], colonialism [32.15.x].
+
+
+### world-history.decolonization-depth
+
+- **title**: Decolonization — depth
+- **unit**: `32.23.02`
+- **notes**: Post-WWII Asian/African independence, Bandung, the Third World, neo-colonialism, post-colonial states. Depth §32/23. Crossrefs WWII [32.22.x], cold-war [32.24.x], colonialism [32.15.x].
+
+
+### world-history.colonialism-depth
+
+- **title**: Colonialism and imperialism — depth
+- **unit**: `32.15.02`
+- **notes**: Early-modern Iberian empires, the British/French 19c empires, settler vs extractive colonialism, the civilizing-mission ideology, decolonization roots. Depth §32/15. Crossrefs age-of-exploration [32.14.x], atlantic-slave-trade [32.16.x], decolonization [32.23.x].
+
+
+### world-history.indus-valley-depth
+
+- **title**: The Indus Valley civilization — depth
+- **unit**: `32.04.02`
+- **notes**: Harappa/Mohenjo-daro, urban planning, the undeciphered script, decline theories. Depth §32/04. Crossrefs mesopotamia [32.02.x], prehistory [32.01.x].
+
+
+### world-history.interwar-depth
+
+- **title**: The interwar period and totalitarianism — depth
+- **unit**: `32.21.02`
+- **notes**: Versailles aftermath, Weimar, the Great Depression, fascism/communism, the road to WWII. Depth §32/21. Crossrefs WWI [32.20.x], WWII [32.22.x].
+
+
+### stat-mech.real-gases-depth
+
+- **title**: Real gases and the virial expansion — depth
+- **unit**: `08.11.04`
+- **notes**: Virial equation of state, van der Waals, the liquid-vapor transition, critical phenomena intro. Consolidate §08 stat-mech thin chapter. Crossrefs partition [08.01.x], mean-field [08.02.x].
+
+
+### history-of-science.ancient-depth
+
+- **title**: Ancient science — depth (Greek and Hellenistic)
+- **unit**: `33.01.03`
+- **notes**: Presocratics, Aristotle, Euclid, Archimedes, Ptolemy, Galen, Hellenistic Alexandria. Depth §33/01 (2->3). Crossrefs islamic-medieval [33.02.x], scientific-revolution [33.03.x].
