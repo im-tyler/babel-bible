@@ -31511,6 +31511,30 @@
 ],
 "title": "The equivalence principle"
 },
+"13.01.02": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "equivalence",
+"curriculum": "gr-cosmology-home",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.01.02",
+"prereqs": [
+"13.01.01"
+],
+"section": "gr-cosmology",
+"slug": "equivalence-principle-tests",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The equivalence principle \u2014 weak, strong, Einstein, and experimental tests"
+},
 "13.02.01": {
 "area": "physics",
 "books": [
@@ -34266,6 +34290,30 @@
 ],
 "title": "Enzyme kinetics beyond Michaelis-Menten: inhibition, allosteric enzymes, and Hill coefficients"
 },
+"15.15.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "heterocyclic-chemistry",
+"curriculum": "orgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.15.01",
+"prereqs": [
+"15.06.01"
+],
+"section": "orgchem",
+"slug": "heterocyclic-chemistry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Heterocyclic chemistry \u2014 rings containing N, O, S"
+},
 "16.01.01": {
 "area": "other",
 "books": [],
@@ -34820,6 +34868,30 @@
 "master"
 ],
 "title": "Main-group descriptive chemistry \u2014 s-block, p-block, and periodic structure"
+},
+"16.09.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "lanthanides-actinides",
+"curriculum": "inorgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.09.01",
+"prereqs": [
+"16.01.01"
+],
+"section": "inorgchem",
+"slug": "lanthanides-actinides",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lanthanides and actinides \u2014 the f-block"
 },
 "17.01.01": {
 "area": "other",
@@ -35768,6 +35840,30 @@
 ],
 "title": "Antibody structure and diversity: V(D)J recombination, affinity maturation, and isotype switching"
 },
+"17.11.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "methods-techniques",
+"curriculum": "mol-cell-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.11.01",
+"prereqs": [
+"17.05.01"
+],
+"section": "mol-cell-bio",
+"slug": "cell-molecular-methods",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cell and molecular biology methods \u2014 microscopy, PCR, sequencing, CRISPR"
+},
 "18.01.01": {
 "area": "other",
 "books": [],
@@ -36518,6 +36614,30 @@
 "master"
 ],
 "title": "Organogenesis: inductive interactions, morphogen gradients, and stem cell niches"
+},
+"18.12.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "plant-physiology",
+"curriculum": "organismal-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.12.01",
+"prereqs": [
+"17.04.01"
+],
+"section": "organismal-bio",
+"slug": "plant-physiology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Plant physiology \u2014 transport, photosynthesis, hormones, and stress"
 },
 "19.01.01": {
 "area": "other",
@@ -39799,6 +39919,31 @@
 "master"
 ],
 "title": "Algebraic number theory \u2014 number fields, Dedekind domains, and the class group"
+},
+"21.18.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "class-field-theory",
+"curriculum": "number-theory-home",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.18.01",
+"prereqs": [
+"21.17.01",
+"01.04.01"
+],
+"section": "number-theory",
+"slug": "class-field-theory-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Class field theory \u2014 abelian extensions and Artin reciprocity"
 },
 "22.01.01": {
 "area": "other",

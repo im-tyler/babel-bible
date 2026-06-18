@@ -24410,3 +24410,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Main-group descriptive chemistry — s- and p-block
 - **unit**: `16.08.01`
 - **notes**: Periodic trends in depth, s-block reactivity, p-block (B, C, N, O, halogens, noble gases), hypervalency, allotropes, acid-base (Lewis/HSAB),赭 chemistry. The main-group home (audit gap). Crossrefs periodic-trends [16.01.x], solid-state [16.07.x].
+
+
+### number-theory.class-field-theory
+
+- **title**: Class field theory — abelian extensions of number fields
+- **unit**: `21.18.01`
+- **notes**: Ray class fields, Artin reciprocity, Hilbert class field, local/global CFT. The crown jewel of ANT (audit gap). Crossrefs ANT [21.17.01], Galois reps [21.05.x], Langlands [21.10.x].
+
+
+### inorgchem.lanthanides-actinides
+
+- **title**: Lanthanides and actinides — f-block chemistry
+- **unit**: `16.09.01`
+- **notes**: Lanthanide contraction, 4f/5f chemistry, coordination, separations, actinide redox, nuclear fuel cycle. (audit gap). Crossrefs periodic-trends [16.01.x], coordination [16.04.x].
+
+
+### orgchem.heterocyclic
+
+- **title**: Heterocyclic chemistry
+- **unit**: `15.15.01`
+- **notes**: Aromatic and saturated heterocycles (N, O, S), 5/6-membered rings, fused systems, pharmaceutical relevance, synthesis. (audit gap). Crossrefs aromatic [15.06.x], carbonyl [15.07.x].
+
+
+### mol-cell-bio.methods-techniques
+
+- **title**: Cell and molecular biology methods
+- **unit**: `17.11.01`
+- **notes**: Microscopy (light/EM/fluorescence), PCR, sequencing, CRISPR, Western blot, crystallography, single-cell. (audit gap). Crossrefs all §17 chapters.
+
+
+### organismal-bio.plant-physiology
+
+- **title**: Plant physiology
+- **unit**: `18.12.01`
+- **notes**: Transport (water/sugar), photosynthesis, reproduction, plant hormones, stress responses. (audit gap — section was animal-only). Crossrefs organismal [18.x], mol-cell [17.x].
+
+
+### gr-cosmology.equivalence-depth
+
+- **title**: Equivalence principle — depth and experimental tests
+- **unit**: `13.01.02`
+- **notes**: Weak/strong/Einstein equivalence, Eotvos, redshift, GPS, metric theories. Depth under §13/01 (1->2). Crossrefs curvature [13.03.x], Schwarzschild [13.05.x].

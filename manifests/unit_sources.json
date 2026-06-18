@@ -8922,6 +8922,12 @@
 ],
 "curriculum": "fast-track"
 },
+"13.01.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "gr-cosmology-home"
+},
 "13.02.01": {
 "books": [
 "penrose-rindler-spinors-spacetime-vol2",
@@ -9487,6 +9493,12 @@
 "books": [],
 "curriculum": "orgchem"
 },
+"15.15.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "orgchem-home"
+},
 "16.01.01": {
 "books": [],
 "curriculum": "other"
@@ -9584,6 +9596,12 @@
 "curriculum": "inorgchem"
 },
 "16.08.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "inorgchem-home"
+},
+"16.09.01": {
 "books": [
 "foundational-home"
 ],
@@ -9761,6 +9779,12 @@
 "books": [],
 "curriculum": "mol-cell-bio"
 },
+"17.11.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "mol-cell-bio-home"
+},
 "18.01.01": {
 "books": [],
 "curriculum": "other"
@@ -9896,6 +9920,12 @@
 "18.11.03": {
 "books": [],
 "curriculum": "organismal-bio"
+},
+"18.12.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "organismal-bio-home"
 },
 "19.01.01": {
 "books": [],
@@ -10604,6 +10634,12 @@
 "curriculum": "analytic-nt"
 },
 "21.17.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "number-theory-home"
+},
+"21.18.01": {
 "books": [
 "foundational-home"
 ],
