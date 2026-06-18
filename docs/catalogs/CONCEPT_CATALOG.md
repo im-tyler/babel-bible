@@ -24578,3 +24578,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Limits and colimits — depth
 - **unit**: `41.02.03`
 - **notes**: Creation/preservation of limits, completeness, filtered colimits, presentable categories, adjoint functor theorem via limits. Depth under §41/02. Crossrefs adjunctions [41.03.x], Yoneda [41.04.x].
+
+
+### algebraic-geometry.intersection-theory
+
+- **title**: Intersection theory — Chow rings and enumerative geometry
+- **unit**: `04.18.01`
+- **notes**: Chow groups/rings, intersection products, excess formula, deformation to the normal cone, Hilbert polynomials. (audit gap). Crossrefs cohomology [04.03.x], curves [04.04.x], birational [04.17.x].
+
+
+### world-history.cold-war-globalization
+
+- **title**: Globalization — depth
+- **unit**: `32.25.02`
+- **notes**: Post-Cold-War globalization, trade/finance integration, the internet age, inequality, 2008 crisis. Depth §32/25 (1->2). Crossrefs cold-war [32.24.x], 21st-century [32.26.x].
+
+
+### category-theory.yoneda-depth
+
+- **title**: Yoneda and representability — depth
+- **unit**: `41.04.03`
+- **notes**: Yoneda embedding, representable functors, universal elements, density, the Yoneda lemma in 2-categories. Depth §41/04. Crossrefs limits [41.02.x], adjunctions [41.03.x].
+
+
+### differential-geometry.geodesics-depth
+
+- **title**: Geodesics and the exponential map — depth
+- **unit**: `48.01.03`
+- **notes**: Geodesic equation, exponential map, conjugate points, cut locus, geodesic completeness (Hopf-Rinow). Depth §48/01. Crossrefs riemannian-foundations [48.01.01], comparison [48.01.02].
+
+
+### language.creative-writing
+
+- **title**: Creative writing — craft across genres
+- **unit**: `22.06.01`
+- **notes**: Fiction craft (character/plot/POF/voice), poetry, creative nonfiction, workshop method, revision. (audit gap). Crossrefs writing [22.02.x], literature [22.03.x], rhetoric [22.05.01].
+
+
+### analysis.real-numbers-depth
+
+- **title**: Real numbers — constructions and completeness (depth)
+- **unit**: `02.02.02`
+- **notes**: Dedekind cuts, Cauchy completeness, the least-upper-bound property, uniqueness of R, cardinality. Depth §02/02 (1->2). Crossrefs topology [02.01.x], sequences [02.03.x].
