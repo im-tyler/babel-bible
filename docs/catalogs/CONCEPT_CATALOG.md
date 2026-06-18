@@ -24536,3 +24536,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Algebraic topology — homology and cohomology depth
 - **unit**: `03.17.01`
 - **notes**: Singular/simplicial homology, the Eilenberg-Steenrod axioms, cellular homology, cohomology ring, Poincaré duality, Hurewicz. (audit gap — beyond spectral sequences). Crossrefs homotopy [03.12.x], spectral sequences [03.13.x], sheaf cohomology [04.03.x].
+
+
+### inorgchem.catalysis
+
+- **title**: Catalysis — homogeneous, heterogeneous, and enzyme
+- **unit**: `16.10.01`
+- **notes**: Homogeneous (Wilkinson, metathesis), heterogeneous (Haber-Bosch, Ziegler-Natta), enzyme catalysis, kinetics (Michaelis-Menten). (audit gap). Crossrefs organometallic [16.05.x], coordination [16.04.x], kinetics [14.08.x].
+
+
+### algebraic-geometry.birational-geometry
+
+- **title**: Birational geometry and the minimal model program
+- **unit**: `04.17.01`
+- **notes**: Rational maps, blow-ups, minimal models, the MMP, Kodaira dimension, classification. (audit gap). Crossrefs curves [04.04.x], surfaces [04.05.x], cohomology [04.03.x].
+
+
+### astronomy.observational-instrumentation
+
+- **title**: Observational astronomy — telescopes, detectors, and spectroscopy
+- **unit**: `28.09.01`
+- **notes**: Telescope design (refracting/reflecting/radio), detectors (CCD/CMOS/pixel math), spectroscopy, adaptive optics, interferometry. (audit gap). Crossrefs all §28 chapters.
+
+
+### orgchem.polymers-photochemistry
+
+- **title**: Polymer chemistry and photochemistry
+- **unit**: `15.17.01`
+- **notes**: Polymerization mechanisms (chain-growth/step-growth), polymer properties; photochemistry (absorption/excitation, Jablonski diagram, pericyclic photochemistry, applications). (audit gap). Crossrefs kinetics [15.08.x?], radical [15.08.x], spectroscopy [15.11.x].
+
+
+### world-history.wwii-depth
+
+- **title**: World War II — depth
+- **unit**: `32.22.02`
+- **notes**: Causes, course, Holocaust, atomic bomb, aftermath. Depth under §32/22 (1->2). Crossrefs WWI [32.20.x], interwar [32.21.x], cold-war [32.24.x].
+
+
+### category-theory.limits-depth
+
+- **title**: Limits and colimits — depth
+- **unit**: `41.02.03`
+- **notes**: Creation/preservation of limits, completeness, filtered colimits, presentable categories, adjoint functor theorem via limits. Depth under §41/02. Crossrefs adjunctions [41.03.x], Yoneda [41.04.x].
