@@ -24823,3 +24823,57 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Ancient science — depth (Greek and Hellenistic)
 - **unit**: `33.01.03`
 - **notes**: Presocratics, Aristotle, Euclid, Archimedes, Ptolemy, Galen, Hellenistic Alexandria. Depth §33/01 (2->3). Crossrefs islamic-medieval [33.02.x], scientific-revolution [33.03.x].
+
+
+### algebra.finite-fields-frobenius
+
+- **title**: Finite fields F_q and the Frobenius automorphism
+- **unit**: `01.02.18`
+- **notes**: Structure of finite fields (existence, uniqueness, F_{p^n} as the degree-n extension of F_p); the multiplicative group F_q^× is cyclic; the Frobenius x->x^p generates Gal(F_{p^n}/F_p). Missing target cited by 11 NT citations. Crossrefs field-and-galois [01.04.01], group [01.02.01].
+
+
+### em-sr.radiation-antennas-collision
+
+- **title**: Radiation — antennas, scattering, and radiation reaction
+- **unit**: `10.07.06`
+- **notes**: Antenna theory (linear antennas, arrays), Thomson/Compton scattering, radiation reaction (Abraham-Lorentz). Missing capstone of §10/07 radiation. Crossrefs Larmor [10.07.01], dipole [10.07.02].
+
+
+### analysis.sequences-foundations
+
+- **title**: Sequences — convergence and limits
+- **unit**: `02.03.01`
+- **notes**: Sequence definition, convergence, limit laws, monotone convergence, subsequences. The missing first unit of §02/03. Crossrefs Cauchy-Bolzano-Weierstrass [02.03.02], series [02.03.03].
+
+
+### analysis.riemann-integral
+
+- **title**: The Riemann integral
+- **unit**: `02.04.02`
+- **notes**: Riemann sums, upper/lower integrals, Riemann-integrability criterion, relation to Darboux. Missing second unit of §02/04. Crossrefs Darboux [02.04.01], FTC [02.04.04].
+
+
+### analysis.spectral-theorem
+
+- **title**: The spectral theorem
+- **unit**: `02.11.10`
+- **notes**: Spectral theorem for bounded self-adjoint, compact, and unbounded operators; spectral measures; functional calculus. Missing target in §02/11. Crossrefs Hahn-Banach [02.11.02], unbounded self-adjoint [02.11.03].
+
+
+### stat-mech-physics.renormalization-group-depth
+
+- **title**: The renormalization group — depth
+- **unit**: `11.07.02`
+- **notes**: RG flows, fixed points, universality, relevant/irrelevant operators, the ε-expansion. Missing second unit of §11/07-rg (or 07-renormalization — locate). Crossrefs renormalization [11.07.01], phase-transitions [11.06.x].
+
+
+### analysis.banach-steinhaus
+
+- **title**: Banach-Steinhaus / uniform boundedness
+- **unit**: `02.11.10`
+- **prerequisites**: `functional-analysis.hahn-banach-theorem`, `functional-analysis.open-mapping-closed-graph`, `functional-analysis.bounded-operators`
+- **tier_anchors**:
+  - master: Rudin *Functional Analysis* §2; Dunford-Schwartz *Linear Operators I* §II; Brezis *Functional Analysis* §2
+  - intermediate: Rudin *Functional Analysis* §2; Kreyszig *Introductory Functional Analysis* §4.7
+  - beginner: a family of operators bounded at each point is bounded uniformly — a non-constructive Baire-category miracle
+- **notes**: The uniform-boundedness principle; the third pillar of Banach-space theory alongside Hahn-Banach [02.11.02] and open-mapping [02.11.09]. Crossrefs spectral theorem [02.11.11].
