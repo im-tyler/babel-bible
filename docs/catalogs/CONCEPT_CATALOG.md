@@ -24620,3 +24620,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Real numbers — constructions and completeness (depth)
 - **unit**: `02.02.02`
 - **notes**: Dedekind cuts, Cauchy completeness, the least-upper-bound property, uniqueness of R, cardinality. Depth §02/02 (1->2). Crossrefs topology [02.01.x], sequences [02.03.x].
+
+
+### mol-cell-bio.cytoskeleton-motility
+
+- **title**: Cytoskeleton and cell motility
+- **unit**: `17.12.01`
+- **notes**: Actin, microtubules, intermediate filaments, molecular motors (myosin/kinesin/dynein), cell junctions, ECM, cell migration. (audit gap). Crossrefs cell-organization [17.03.x], methods [17.11.01].
+
+
+### organismal-bio.sensory-systems
+
+- **title**: Sensory systems — vision, hearing, vestibular, chemosensation
+- **unit**: `18.13.01`
+- **notes**: Phototransduction (retina/opsin), hair-cell mechanotransduction, vestibular, olfaction (GPCR), gustation, somatosensation. (audit gap). Crossrefs nervous-system [18.05.x], cellular-neuro [17.09.x].
+
+
+### algebraic-geometry.deformation-theory
+
+- **title**: Deformation theory
+- **unit**: `04.19.01`
+- **notes**: Infinitesimal deformations, tangent/obstruction theories, Schlessinger's theorem, Hilbert schemes, moduli via deformations. (audit gap). Crossrefs moduli [04.10.x], schemes [04.02.x].
+
+
+### gr-cosmology.cosmology-depth
+
+- **title**: Cosmology — depth (inflation, CMB, structure)
+- **unit**: `13.08.02`
+- **notes**: FLRW, inflation, nucleosynthesis, CMB acoustic peaks, structure formation, dark energy. Depth §13/08 (1->2). Crossrefs equivalence [13.01.x], curvature [13.03.x].
+
+
+### physics.condensed-matter-magnetism-topological
+
+- **title**: Magnetism and topological phases — depth
+- **unit**: `12.20.03`
+- **notes**: Ferromagnetism/antiferro/Heisenberg, spin waves, Mott transition, quantum Hall, topological insulators, Berry phases. Depth §12/20. Crossrefs condensed-matter-foundations [12.20.01], superconductivity [12.20.02].
+
+
+### philosophy.metaphysics-depth
+
+- **title**: Metaphysics — depth (grounding, modality, persistence)
+- **unit**: `20.11.02`
+- **notes**: Grounding/fundamentality, possible-world semantics, persistence (endurance vs perdurance), constitution, mereology. Depth §20/11. Crossrefs metaphysics-foundations [20.11.01], phil-of-language [20.12.01], modal logic [42.02.x].
