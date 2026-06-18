@@ -2201,6 +2201,31 @@
 ],
 "title": "Real-number axioms (ordered field)"
 },
+"02.02.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "real-numbers",
+"curriculum": "analysis-home",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.02.02",
+"prereqs": [
+"02.02.01",
+"02.01.01"
+],
+"section": "analysis",
+"slug": "real-numbers-constructions-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The real numbers \u2014 Dedekind cuts, Cauchy completeness, and uniqueness"
+},
 "02.03.02": {
 "area": "math",
 "books": [
@@ -12370,6 +12395,31 @@
 ],
 "title": "Chern-Simons theory as a quantum TQFT, the Jones polynomial, and Reshetikhin-Turaev"
 },
+"03.17.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "algebraic-topology-depth",
+"curriculum": "modern-geometry-home",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "03.17.01",
+"prereqs": [
+"03.12.01",
+"48.01.01"
+],
+"section": "modern-geometry",
+"slug": "homology-cohomology-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Homology and cohomology \u2014 the Eilenberg-Steenrod axioms and de Rham"
+},
 "04.01.01": {
 "area": "math",
 "books": [
@@ -16121,6 +16171,131 @@
 "master"
 ],
 "title": "Special Lagrangian fibrations and McLean's theorem"
+},
+"04.15.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "etale-cohomology",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.15.01",
+"prereqs": [
+"04.03.01",
+"01.04.01"
+],
+"section": "algebraic-geometry",
+"slug": "etale-cohomology-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "\u00c9tale cohomology \u2014 the Weil conjectures and \u2113-adic methods"
+},
+"04.16.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "16-abelian-varieties",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.16.01",
+"prereqs": [
+"04.04.03",
+"04.03.01"
+],
+"section": "algebraic-geometry",
+"slug": "abelian-varieties",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Abelian varieties \u2014 group objects in algebraic geometry"
+},
+"04.17.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "birational-geometry",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.17.01",
+"prereqs": [
+"04.02.01",
+"04.04.02"
+],
+"section": "algebraic-geometry",
+"slug": "birational-geometry-mmp",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Birational geometry and the minimal model program"
+},
+"04.18.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "intersection-theory",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.18.01",
+"prereqs": [
+"04.03.01",
+"04.05.01"
+],
+"section": "algebraic-geometry",
+"slug": "intersection-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Intersection theory \u2014 Chow rings and enumerative geometry"
+},
+"04.19.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "deformation-theory",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.19.01",
+"prereqs": [
+"04.02.01",
+"04.10.01"
+],
+"section": "algebraic-geometry",
+"slug": "deformation-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Deformation theory \u2014 infinitesimal families and moduli"
 },
 "05.00.01": {
 "area": "math",
@@ -24144,6 +24319,31 @@
 ],
 "title": "The unitary dual of $\\mathrm{SL}(2,\\mathbb{R})$: principal, discrete, and complementary series"
 },
+"07.08.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "finite-groups-depth",
+"curriculum": "representation-theory-home",
+"field": "representation-theory",
+"fieldLabel": "Representation Theory",
+"fieldOrder": 9,
+"id": "07.08.01",
+"prereqs": [
+"07.01.01",
+"01.02.01"
+],
+"section": "representation-theory",
+"slug": "finite-groups-rep-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Representations of finite groups \u2014 Maschke, characters, and orthogonality"
+},
 "08.01.01": {
 "area": "math",
 "books": [
@@ -31486,6 +31686,55 @@
 ],
 "title": "Superconductivity \u2014 Cooper pairs, BCS theory, and macroscopic quantum order"
 },
+"12.20.03": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "condensed-matter",
+"curriculum": "condensed-matter-home",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.20.03",
+"prereqs": [
+"12.20.01"
+],
+"section": "quantum",
+"slug": "magnetism-topological-phases",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Magnetism, Mott physics, and topological phases of matter"
+},
+"12.21.01": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "standard-model",
+"curriculum": "quantum-home",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.21.01",
+"prereqs": [
+"12.12.01",
+"12.18.01"
+],
+"section": "quantum",
+"slug": "standard-model",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Standard Model \u2014 electroweak unification and QCD"
+},
 "13.01.01": {
 "area": "physics",
 "books": [
@@ -32015,6 +32264,31 @@
 "master"
 ],
 "title": "FLRW cosmology and Friedmann equations"
+},
+"13.08.02": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "cosmology",
+"curriculum": "gr-cosmology-home",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.08.02",
+"prereqs": [
+"13.08.01",
+"13.04.01"
+],
+"section": "gr-cosmology",
+"slug": "cosmology-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cosmology \u2014 FLRW, inflation, nucleosynthesis, CMB, and structure"
 },
 "13.09.01": {
 "area": "physics",
@@ -34314,6 +34588,55 @@
 ],
 "title": "Heterocyclic chemistry \u2014 rings containing N, O, S"
 },
+"15.16.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "natural-products-organocatalysis",
+"curriculum": "orgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.16.01",
+"prereqs": [
+"15.07.01",
+"15.09.01"
+],
+"section": "orgchem",
+"slug": "natural-products-organocatalysis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Natural products and organocatalysis"
+},
+"15.17.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "polymers-photochemistry",
+"curriculum": "orgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.17.01",
+"prereqs": [
+"15.08.01"
+],
+"section": "orgchem",
+"slug": "polymers-photochemistry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Polymer chemistry and photochemistry"
+},
 "16.01.01": {
 "area": "other",
 "books": [],
@@ -34892,6 +35215,31 @@
 "master"
 ],
 "title": "Lanthanides and actinides \u2014 the f-block"
+},
+"16.10.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "catalysis",
+"curriculum": "inorgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.10.01",
+"prereqs": [
+"16.05.01",
+"14.08.01"
+],
+"section": "inorgchem",
+"slug": "catalysis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Catalysis \u2014 homogeneous, heterogeneous, and enzyme"
 },
 "17.01.01": {
 "area": "other",
@@ -35864,6 +36212,31 @@
 ],
 "title": "Cell and molecular biology methods \u2014 microscopy, PCR, sequencing, CRISPR"
 },
+"17.12.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "cytoskeleton-motility",
+"curriculum": "mol-cell-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.12.01",
+"prereqs": [
+"17.03.01",
+"17.01.01"
+],
+"section": "mol-cell-bio",
+"slug": "cytoskeleton-motility",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cytoskeleton, molecular motors, and cell motility"
+},
 "18.01.01": {
 "area": "other",
 "books": [],
@@ -36638,6 +37011,31 @@
 "master"
 ],
 "title": "Plant physiology \u2014 transport, photosynthesis, hormones, and stress"
+},
+"18.13.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "sensory-systems",
+"curriculum": "organismal-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.13.01",
+"prereqs": [
+"18.05.01",
+"17.09.01"
+],
+"section": "organismal-bio",
+"slug": "sensory-systems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sensory systems \u2014 vision, hearing, balance, taste, smell"
 },
 "19.01.01": {
 "area": "other",
@@ -38190,6 +38588,31 @@
 "master"
 ],
 "title": "Buddhism: the Four Noble Truths, the Eightfold Path, and the question of suffering"
+},
+"20.11.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "metaphysics",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.11.02",
+"prereqs": [
+"20.11.01",
+"20.12.01"
+],
+"section": "philosophy",
+"slug": "metaphysics-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metaphysics \u2014 depth: grounding, persistence, and possible worlds"
 },
 "20.12.01": {
 "area": "other",
@@ -41140,6 +41563,80 @@
 ],
 "title": "Reading guide: Nineteen Eighty-Four (Orwell)"
 },
+"22.05.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "rhetoric-composition-theory",
+"curriculum": "language-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "22.05.01",
+"prereqs": [
+"22.02.01"
+],
+"section": "rhetoric-composition",
+"slug": "rhetoric-composition-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rhetoric and composition theory \u2014 from Aristotle to modern argument"
+},
+"22.06.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "creative-writing",
+"curriculum": "language-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "22.06.01",
+"prereqs": [
+"22.02.01",
+"22.05.01"
+],
+"section": "creative-writing",
+"slug": "creative-writing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Creative writing \u2014 craft across fiction, poetry, and nonfiction"
+},
+"22.07.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "world-literatures",
+"curriculum": "language-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "22.07.01",
+"prereqs": [
+"22.03.01",
+"20.12.01"
+],
+"section": "world-literatures",
+"slug": "world-literatures-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "World literatures and literary theory"
+},
 "23.01.01": {
 "area": "other",
 "books": [],
@@ -43719,6 +44216,54 @@
 ],
 "title": "Evolution of the atmosphere and biosphere: Great Oxidation Event, Snowball Earth"
 },
+"27.09.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "structural-geology",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.09.01",
+"prereqs": [
+"27.01.01"
+],
+"section": "earth-science",
+"slug": "structural-geology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Structural geology \u2014 stress, strain, folds, and faults"
+},
+"27.10.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "soil-science-pedology",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.10.01",
+"prereqs": [
+"27.02.01"
+],
+"section": "earth-science",
+"slug": "soil-science-pedology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Soil science \u2014 formation, profiles, and the critical zone"
+},
 "28.01.01": {
 "area": "other",
 "books": [],
@@ -44133,6 +44678,103 @@
 "master"
 ],
 "title": "Space telescope science: multiwavelength astronomy, gravitational-wave observatories"
+},
+"28.07.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "ism-star-formation",
+"curriculum": "astronomy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.07.01",
+"prereqs": [
+"28.02.01"
+],
+"section": "astronomy",
+"slug": "ism-star-formation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The interstellar medium and star formation"
+},
+"28.08.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "high-energy-astrophysics",
+"curriculum": "astronomy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.08.01",
+"prereqs": [
+"28.02.01",
+"13.06.01"
+],
+"section": "astronomy",
+"slug": "high-energy-astrophysics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "High-energy astrophysics \u2014 compact objects, accretion, and cosmic explosions"
+},
+"28.09.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "observational-instrumentation",
+"curriculum": "astronomy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.09.01",
+"prereqs": [
+"28.02.01"
+],
+"section": "astronomy",
+"slug": "observational-instrumentation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Observational astronomy \u2014 telescopes, detectors, and spectroscopy"
+},
+"28.10.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "astrobiology",
+"curriculum": "astronomy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.10.01",
+"prereqs": [
+"28.05.01"
+],
+"section": "astronomy",
+"slug": "astrobiology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Astrobiology \u2014 life in the universe"
 },
 "29.01.01": {
 "area": "other",
@@ -45017,6 +45659,55 @@
 ],
 "title": "Psychometrics \u2014 test construction, reliability, and validity"
 },
+"29.14.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "history-of-psychology",
+"curriculum": "psychology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.14.01",
+"prereqs": [
+"29.01.01"
+],
+"section": "psychology",
+"slug": "history-of-psychology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "History of psychology \u2014 from philosophy of mind to cognitive neuroscience"
+},
+"29.15.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "industrial-organizational-psych",
+"curriculum": "psychology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.15.01",
+"prereqs": [
+"29.05.01",
+"29.07.01"
+],
+"section": "psychology",
+"slug": "industrial-organizational-psych",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Industrial and organizational psychology \u2014 work, selection, and motivation"
+},
 "30.01.01": {
 "area": "other",
 "books": [],
@@ -45564,6 +46255,54 @@
 "master"
 ],
 "title": "Urban sociology: segregation, gentrification, urban ecology"
+},
+"30.09.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "race-ethnicity",
+"curriculum": "sociology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.09.01",
+"prereqs": [
+"30.04.01"
+],
+"section": "sociology",
+"slug": "race-ethnicity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Race and ethnicity \u2014 the social construction of difference"
+},
+"30.10.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "gender-sexuality",
+"curriculum": "sociology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.10.01",
+"prereqs": [
+"30.04.01"
+],
+"section": "sociology",
+"slug": "gender-sexuality",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gender and sexuality \u2014 sociology of"
 },
 "31.01.01": {
 "area": "other",
@@ -46424,6 +47163,31 @@
 ],
 "title": "The Atlantic Slave Trade: African, European, and American Perspectives"
 },
+"32.16.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "atlantic-slave-trade",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.16.02",
+"prereqs": [
+"32.15.01",
+"32.16.01"
+],
+"section": "world-history",
+"slug": "atlantic-slave-trade-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Atlantic slave trade \u2014 scale, economics, and abolition"
+},
 "32.17.01": {
 "area": "other",
 "books": [],
@@ -46623,6 +47387,31 @@
 ],
 "title": "World War II: Global Theaters and Multi-Perspective Histories"
 },
+"32.22.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "world-war-two",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.22.02",
+"prereqs": [
+"32.21.01",
+"32.22.01"
+],
+"section": "world-history",
+"slug": "wwii-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "World War II \u2014 causes, course, Holocaust, and the atomic age"
+},
 "32.23.01": {
 "area": "other",
 "books": [],
@@ -46713,6 +47502,31 @@
 "master"
 ],
 "title": "Globalization, Neoliberalism, and the Post-Colonial World"
+},
+"32.25.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "globalization",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.25.02",
+"prereqs": [
+"32.24.01",
+"32.25.01"
+],
+"section": "world-history",
+"slug": "globalization-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Globalization \u2014 trade, finance, networks, and backlash"
 },
 "32.26.01": {
 "area": "other",
@@ -47408,6 +48222,55 @@
 ],
 "title": "Digital media, art, and technology"
 },
+"34.09.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "theater-drama",
+"curriculum": "music-art-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.09.01",
+"prereqs": [
+"34.04.01"
+],
+"section": "music-art",
+"slug": "theater-drama",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Theater and drama \u2014 structure, history, and craft"
+},
+"34.10.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "dance",
+"curriculum": "music-art-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.10.01",
+"prereqs": [
+"34.09.01",
+"34.07.01"
+],
+"section": "music-art",
+"slug": "dance",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Dance \u2014 technique, history, and choreography"
+},
 "35.01.01": {
 "area": "other",
 "books": [],
@@ -47961,6 +48824,55 @@
 "master"
 ],
 "title": "Precision medicine and AI in healthcare: biomarker discovery, clinical decision support"
+},
+"35.09.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "medical-diagnostics-imaging",
+"curriculum": "health-medicine-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.09.01",
+"prereqs": [
+"35.01.01"
+],
+"section": "health-medicine",
+"slug": "medical-diagnostics-imaging",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Medical diagnostics and imaging \u2014 clinical reasoning and seeing inside the body"
+},
+"35.10.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "surgery-emergency-medicine",
+"curriculum": "health-medicine-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.10.01",
+"prereqs": [
+"35.01.01",
+"35.09.01"
+],
+"section": "health-medicine",
+"slug": "surgery-emergency-medicine",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Surgery and emergency medicine"
 },
 "36.01.01": {
 "area": "other",
@@ -52378,6 +53290,31 @@
 ],
 "title": "Constructing Limits: Products, Equalizers, Preservation, and Filtered Colimits"
 },
+"41.02.03": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "limits-colimits",
+"curriculum": "foundations-home",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.02.03",
+"prereqs": [
+"41.02.01",
+"41.04.01"
+],
+"section": "category-theory",
+"slug": "limits-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Limits \u2014 creation, preservation, completeness, and presentability"
+},
 "41.03.01": {
 "area": "math",
 "books": [
@@ -52499,6 +53436,31 @@
 "master"
 ],
 "title": "The Yoneda Lemma, the Yoneda Embedding, and Density"
+},
+"41.04.03": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "yoneda-representability",
+"curriculum": "foundations-home",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.04.03",
+"prereqs": [
+"41.04.01",
+"41.02.01"
+],
+"section": "category-theory",
+"slug": "yoneda-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Yoneda, representability, and density \u2014 the depth"
 },
 "41.05.01": {
 "area": "math",
@@ -53523,6 +54485,31 @@
 "master"
 ],
 "title": "Sequent Calculus, Cut-Elimination, and the Consistency of Arithmetic"
+},
+"42.05.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "proof-theory",
+"curriculum": "mathematical-logic-home",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "42.05.02",
+"prereqs": [
+"42.05.01",
+"42.01.01"
+],
+"section": "mathematical-logic",
+"slug": "cut-elimination-ordinal-analysis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Proof theory \u2014 cut-elimination, Gentzen, and ordinal analysis"
 },
 "43.01.01": {
 "area": "math",
@@ -59515,6 +60502,30 @@
 ],
 "title": "Comparison theorems in Riemannian geometry \u2014 Cartan-Hadamard, Bonnet-Myers, Bishop-Gromov"
 },
+"48.01.03": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "riemannian-geometry",
+"curriculum": "riemannian-home",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "48.01.03",
+"prereqs": [
+"48.01.01"
+],
+"section": "differential-geometry",
+"slug": "geodesics-exponential-map",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Geodesics, the exponential map, and completeness"
+},
 "48.02.01": {
 "area": "math",
 "books": [],
@@ -61900,6 +62911,31 @@
 "master"
 ],
 "title": "Computing ethics and societal impact"
+},
+"50.13.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "computer-architecture",
+"curriculum": "computer-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "50.13.01",
+"prereqs": [
+"50.02.01",
+"50.03.01"
+],
+"section": "computer-science",
+"slug": "computer-architecture",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Computer architecture \u2014 from logic gates to modern CPUs"
 },
 "51.01.01": {
 "area": "other",

@@ -24697,3 +24697,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Computer architecture — from logic gates to CPUs
 - **unit**: `50.13.01`
 - **notes**: Instruction sets, pipelining, memory hierarchy (cache/RAM), parallelism (SIMD/MIMD/GPU), performance walls, RISC vs CISC. (audit gap). Crossrefs data-structures [50.02.x], complexity [50.03.x], OS [50.05.x].
+
+
+### psychology.industrial-organizational
+
+- **title**: Industrial and organizational psychology
+- **unit**: `29.15.01`
+- **notes**: Personnel selection, performance appraisal, motivation, job satisfaction, leadership, org design, human factors. (audit gap). Crossrefs cognition [29.05.x], social [29.07.x].
+
+
+### sociology.gender-sexuality
+
+- **title**: Gender and sexuality — sociological analysis
+- **unit**: `30.10.01`
+- **notes**: Sex/gender distinction, gender roles/identity, sexuality, patriarchy, feminist theory, LGBTQ+ studies, intersectionality. (audit gap). Crossrefs stratification [30.04.x], race-ethnicity [30.09.01].
+
+
+### music-art.dance
+
+- **title**: Dance — technique, history, and choreography
+- **unit**: `34.10.01`
+- **notes**: Ballet, modern, contemporary, world dance forms; choreographic structure; dance notation; the body as instrument. (audit gap). Crossrefs theater [34.09.01], music [34.01.x], aesthetics [34.07.x].
+
+
+### health.surgery-emergency
+
+- **title**: Surgery and emergency medicine
+- **unit**: `35.10.01`
+- **notes**: Pre/intra/post-op care, anesthesia, the surgical specialties, trauma/ABCs, emergency resuscitation, sepsis. (audit gap). Crossrefs human-body [35.01.x], diagnostics [35.09.01], pharmacology [35.07.x].
+
+
+### world-history.atlantic-slave-trade-depth
+
+- **title**: The Atlantic slave trade — depth
+- **unit**: `32.16.02`
+- **notes**: Scale (~12.5M embarked, ~10.7M arrived), triangular trade, middle passage, plantation economics, abolition. Depth §32/16 (1->2). Crossrefs colonialism [32.15.x], industrial-rev [32.18.x].
+
+
+### language.world-literatures
+
+- **title**: World literatures and literary theory
+- **unit**: `22.07.01`
+- **notes**: Comparative/world literature traditions beyond the Western canon, translation, the major schools of literary theory (formalism, structuralism, post-colonial, etc.). (audit gap). Crossrefs literature [22.03.x], creative-writing [22.06.01], philosophy-of-language [20.12.01].

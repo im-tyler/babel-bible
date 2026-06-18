@@ -1,9 +1,10 @@
 # Babel Bible — Finalization Plan (the path to "done")
 
 The successor to `BACKLOG.md`. The autonomous Fast-Track + Tier-C production campaign
-is complete (2,392 units, all 27/27). What remains is a **mixed program** of scope
-decisions, structural normalization, content re-homing, depth fills, and (optionally)
-new subjects — *not* a greenfield production queue.
+is complete (2,392 units at session start; **2,471 after the 2026-06-17 finalization
+session that shipped +79 units**). What remains is **discretionary depth** — closing
+the §0 completion-criteria gaps where thin chapters and a handful of standard topics
+still fall short — not a greenfield production queue.
 
 This document is self-resuming: a fresh agent given this file + the briefs under
 `docs/briefs/` + the safety protocol in §3 can drive the program top-down. The
@@ -359,6 +360,7 @@ existing pipeline has proven it can do this — the constraint is decision bandw
 
 ## 8. Completion log (append one line per closed task)
 
+- **2026-06-17 — Waves 8–15 (session 1, parallel agents, "do it all" directive).** Drained the bulk of the queue: **48 more units across 8 waves** (6 per wave, disjoint sections, collision-proofed via pre-added catalog stubs). Highlights: §21 ANT+CFT complete (17, 18); §16 inorgchem main-group + f-block + catalysis (08–10); §15 orgchem heterocyclic + polymers/photochem + natural-products (15–17); §17 mol-cell methods + cytoskeleton (11, 12); §18 organismal plant-physiology + sensory (12, 13); §04 AG étale + abelian + birational + intersection + deformation (15–19); §28 ISM + high-energy + instrumentation + astrobiology (07–10); §27 structural + soil (09, 10); §13 GR equivalence-depth + cosmology-depth (01, 08); §12 condensed-matter superconductivity + magnetism/topological + Standard-Model (20, 21); §07 finite-groups-rep (08); §42 proof-theory cut-elimination (05); §41 limits + yoneda + adjunctions depth (02, 03, 04); §48 Riemannian geodesics-depth (01); §02 real-numbers constructions-depth (02); §03 alg-top homology-cohomology (17); §20 metaphysics-depth (11); §32 WWII + globalization + atlantic-slave-trade depth (16, 22, 25); §22 rhetoric + creative-writing + world-literatures (05–07); §29 history-of-psych + I-O psych (14, 15); §30 race-ethnicity + gender-sexuality (09, 10); §34 theater + dance (09, 10); §35 medical-diagnostics + surgery-emergency (09, 10); §50 computer-architecture (13). Corpus 2,392 → 2,471; validate_all 64,478 → 66,611. All units 27/27; integration serial throughout; ~80% first-pass, remainder needed only mechanical banned-word / YAML-escape / heading fixes.
 - **2026-06-17 — Wave 7 (session 1, parallel agents).** First D-item wave (depth fills for established thin chapters). `21.17.01` algebraic-number-theory (NEW §21 chapter 17 — the audit's noted ANT/class-group gap; 27/27 after "trivial"→reword + image-bracket fix), `32.24.02` cold-war depth (§32's thinnest section; first-pass, 6,561 words), `41.03.03` adjunctions unit-counit calculus (§41 depth; first-pass), `16.08.01` main-group descriptive chemistry (NEW §16 chapter 08 — the audit's main-group gap; first-pass). Corpus 2,419→2,423; validate_all 65,315/65,315; math 1,511→1,513.
 - **2026-06-17 — Wave 6 (session 1, parallel agents).** Four units, all 27/27 (one "non-trivial"→reword on sociolinguistics). §51-linguistics `51.06.01` historical-comparative + `51.07.01` sociolinguistics → **§51 structurally complete (7/7 chapters)**; §52-economics `52.05.01` international-trade + `52.06.01` behavioral → **§52 structurally complete (6/6 chapters)**. Every chapter in both brand-new sections now has at least one unit. Corpus 2,415→2,419; validate_all 65,207/65,207; `other` area 662→666.
 - **2026-06-17 — Wave 5 (session 1, parallel agents).** Four units, all 27/27 first pass. §51-linguistics `51.03.01` morphology + `51.05.01` semantics/pragmatics (section now 5 of 7 chapters filled); §52-economics `52.03.01` econometrics (4 of 6 filled); §12-condensed-matter `12.20.02` superconductivity (BCS, Ginzburg-Landau, Josephson — depth under S6). Corpus 2,411→2,415; validate_all 65,099/65,099; physics area 238→239.

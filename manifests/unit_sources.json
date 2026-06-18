@@ -586,6 +586,12 @@
 ],
 "curriculum": "fast-track"
 },
+"02.02.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "analysis-home"
+},
 "02.03.02": {
 "books": [
 "tom-m-apostol-calculus-vol-single"
@@ -3547,6 +3553,12 @@
 ],
 "curriculum": "fast-track"
 },
+"03.17.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "modern-geometry-home"
+},
 "04.01.01": {
 "books": [
 "forster-riemann-surfaces",
@@ -4561,6 +4573,36 @@
 "gross-tropical-geometry-mirror-symmetry"
 ],
 "curriculum": "fast-track"
+},
+"04.15.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
+},
+"04.16.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
+},
+"04.17.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
+},
+"04.18.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
+},
+"04.19.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
 },
 "05.00.01": {
 "books": [
@@ -6956,6 +6998,12 @@
 ],
 "curriculum": "fast-track"
 },
+"07.08.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "representation-theory-home"
+},
 "08.01.01": {
 "books": [
 "landau-lifshitz-statistical-physics-1",
@@ -8916,6 +8964,18 @@
 ],
 "curriculum": "condensed-matter-home"
 },
+"12.20.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "condensed-matter-home"
+},
+"12.21.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "quantum-home"
+},
 "13.01.01": {
 "books": [
 "sternberg-curvature-mathematics-physics"
@@ -9051,6 +9111,12 @@
 "gerard-microlocal-qft-curved-spacetimes"
 ],
 "curriculum": "fast-track"
+},
+"13.08.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "gr-cosmology-home"
 },
 "13.09.01": {
 "books": [
@@ -9499,6 +9565,18 @@
 ],
 "curriculum": "orgchem-home"
 },
+"15.16.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "orgchem-home"
+},
+"15.17.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "orgchem-home"
+},
 "16.01.01": {
 "books": [],
 "curriculum": "other"
@@ -9602,6 +9680,12 @@
 "curriculum": "inorgchem-home"
 },
 "16.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "inorgchem-home"
+},
+"16.10.01": {
 "books": [
 "foundational-home"
 ],
@@ -9785,6 +9869,12 @@
 ],
 "curriculum": "mol-cell-bio-home"
 },
+"17.12.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "mol-cell-bio-home"
+},
 "18.01.01": {
 "books": [],
 "curriculum": "other"
@@ -9922,6 +10012,12 @@
 "curriculum": "organismal-bio"
 },
 "18.12.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "organismal-bio-home"
+},
+"18.13.01": {
 "books": [
 "foundational-home"
 ],
@@ -10210,6 +10306,12 @@
 "20.11.01": {
 "books": [],
 "curriculum": "other"
+},
+"20.11.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
 },
 "20.12.01": {
 "books": [],
@@ -10861,6 +10963,24 @@
 "books": [],
 "curriculum": "other"
 },
+"22.05.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "language-home"
+},
+"22.06.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "language-home"
+},
+"22.07.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "language-home"
+},
 "23.01.01": {
 "books": [],
 "curriculum": "other"
@@ -11369,6 +11489,18 @@
 "books": [],
 "curriculum": "earth-science"
 },
+"27.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "earth-science-home"
+},
+"27.10.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "earth-science-home"
+},
 "28.01.01": {
 "books": [],
 "curriculum": "other"
@@ -11444,6 +11576,30 @@
 "28.06.02": {
 "books": [],
 "curriculum": "astronomy"
+},
+"28.07.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "astronomy-home"
+},
+"28.08.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "astronomy-home"
+},
+"28.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "astronomy-home"
+},
+"28.10.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "astronomy-home"
 },
 "29.01.01": {
 "books": [],
@@ -11607,6 +11763,18 @@
 ],
 "curriculum": "psychology-home"
 },
+"29.14.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "psychology-home"
+},
+"29.15.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "psychology-home"
+},
 "30.01.01": {
 "books": [],
 "curriculum": "other"
@@ -11706,6 +11874,18 @@
 "30.08.03": {
 "books": [],
 "curriculum": "sociology"
+},
+"30.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "sociology-home"
+},
+"30.10.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "sociology-home"
 },
 "31.01.01": {
 "books": [],
@@ -11863,6 +12043,12 @@
 "books": [],
 "curriculum": "other"
 },
+"32.16.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.17.01": {
 "books": [],
 "curriculum": "other"
@@ -11899,6 +12085,12 @@
 "books": [],
 "curriculum": "other"
 },
+"32.22.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.23.01": {
 "books": [],
 "curriculum": "other"
@@ -11916,6 +12108,12 @@
 "32.25.01": {
 "books": [],
 "curriculum": "other"
+},
+"32.25.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.26.01": {
 "books": [],
@@ -12049,6 +12247,18 @@
 "books": [],
 "curriculum": "other"
 },
+"34.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "music-art-home"
+},
+"34.10.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "music-art-home"
+},
 "35.01.01": {
 "books": [],
 "curriculum": "other"
@@ -12148,6 +12358,18 @@
 "35.08.03": {
 "books": [],
 "curriculum": "health-medicine"
+},
+"35.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "health-medicine-home"
+},
+"35.10.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "health-medicine-home"
 },
 "36.01.01": {
 "books": [],
@@ -13200,6 +13422,12 @@
 ],
 "curriculum": "logic-foundations"
 },
+"41.02.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "foundations-home"
+},
 "41.03.01": {
 "books": [
 "maclane-cwm"
@@ -13229,6 +13457,12 @@
 "riehl-context"
 ],
 "curriculum": "logic-foundations"
+},
+"41.04.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "foundations-home"
 },
 "41.05.01": {
 "books": [
@@ -13487,6 +13721,12 @@
 "takeuti-proof-theory"
 ],
 "curriculum": "logic-foundations"
+},
+"42.05.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "mathematical-logic-home"
 },
 "43.01.01": {
 "books": [
@@ -14914,6 +15154,12 @@
 ],
 "curriculum": "riemannian-home"
 },
+"48.01.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "riemannian-home"
+},
 "48.02.01": {
 "books": [],
 "curriculum": "fast-track"
@@ -15592,6 +15838,12 @@
 "50.12.01": {
 "books": [],
 "curriculum": "other"
+},
+"50.13.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "computer-science-home"
 },
 "51.01.01": {
 "books": [
