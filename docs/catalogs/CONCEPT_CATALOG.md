@@ -24494,3 +24494,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Proof theory — cut-elimination and ordinal analysis
 - **unit**: `42.05.02`
 - **notes**: Gentzen sequent calculus, cut-elimination, consistency proofs, ordinal analysis, consistency strength. Depth under §42/05. Crossrefs FOL [42.01.x], set theory [42.03.x].
+
+
+### algebraic-geometry.abelian-varieties
+
+- **title**: Abelian varieties
+- **unit**: `04.16.01`
+- **notes**: Abelian varieties, theorems of the square, Jacobians as abelian varieties, dual abelian variety, elliptic-curve case. (audit gap). Crossrefs curves [04.04.x], cohomology [04.03.x], Jacobians [06.06.x].
+
+
+### astronomy.high-energy-astrophysics
+
+- **title**: High-energy astrophysics
+- **unit**: `28.08.01`
+- **notes**: Neutron stars, pulsars, black holes, AGN/quasars, X-ray binaries, gamma-ray bursts, accretion disks. (audit gap). Crossrefs stars [28.02.x], galaxies [28.03.x], cosmology [28.04.x].
+
+
+### earth-science.soil-science
+
+- **title**: Soil science and pedology
+- **unit**: `27.10.01`
+- **notes**: Soil formation factors, soil profiles, classification, soil chemistry, erosion, biogeochemistry. (audit gap). Crossrefs earth-history [27.08.x], climate [27.07.x].
+
+
+### physics.standard-model
+
+- **title**: The Standard Model — electroweak theory and QCD
+- **unit**: `12.21.01`
+- **notes**: Electroweak unification (Glashow-Weinberg-Salam, Higgs mechanism), quantum chromodynamics, SU(3)xSU(2)xU(1), running couplings, open problems. (audit gap — beyond QED). Crossrefs canonical QFT [12.12.x], gauge [12.18.x], QED radiative [12.16.x].
+
+
+### orgchem.natural-products-organocatalysis
+
+- **title**: Natural products and organocatalysis
+- **unit**: `15.16.01`
+- **notes**: Terpenes, alkaloids, steroids, polyketides; biosynthesis; organocatalysis (proline, MacMillan), asymmetric catalysis. (audit gap). Crossrefs carbonyl [15.07.x], retrosynthesis [15.10.x].
+
+
+### modern-geometry.algebraic-topology-depth
+
+- **title**: Algebraic topology — homology and cohomology depth
+- **unit**: `03.17.01`
+- **notes**: Singular/simplicial homology, the Eilenberg-Steenrod axioms, cellular homology, cohomology ring, Poincaré duality, Hurewicz. (audit gap — beyond spectral sequences). Crossrefs homotopy [03.12.x], spectral sequences [03.13.x], sheaf cohomology [04.03.x].
