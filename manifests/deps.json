@@ -29201,6 +29201,326 @@
       "from": "22.07.01",
       "to": "]",
       "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "3",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": ",",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "32.02.02",
+      "state": "shipped"
+    },
+    {
+      "from": "32.02.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "32.02.02",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "3",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": ",",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "32.03.02",
+      "state": "shipped"
+    },
+    {
+      "from": "32.03.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "32.03.02",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "\"",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "3",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "5",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": ",",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "32.05.02",
+      "state": "shipped"
+    },
+    {
+      "from": "32.05.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "32.05.02",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "3",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "7",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": ",",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "32.11.02",
+      "state": "shipped"
+    },
+    {
+      "from": "32.11.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "32.11.02",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "3",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "5",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": ",",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "32.13.02",
+      "state": "shipped"
+    },
+    {
+      "from": "32.13.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "32.13.02",
+      "to": "]",
+      "state": "shipped"
+    },
+    {
+      "from": "[",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": "3",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": "2",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": ".",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": "1",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": "0",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": ",",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": "]",
+      "to": "32.12.02",
+      "state": "shipped"
+    },
+    {
+      "from": "32.12.02",
+      "to": "[",
+      "state": "shipped"
+    },
+    {
+      "from": "32.12.02",
+      "to": "]",
+      "state": "shipped"
     }
   ],
   "pending": [
@@ -30156,7 +30476,13 @@
     "29.15.01",
     "30.09.01",
     "30.10.01",
+    "32.02.02",
+    "32.03.02",
+    "32.05.02",
     "32.08.01",
+    "32.11.02",
+    "32.12.02",
+    "32.13.02",
     "32.16.01",
     "32.16.02",
     "32.21.01",

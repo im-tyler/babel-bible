@@ -24739,3 +24739,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: World literatures and literary theory
 - **unit**: `22.07.01`
 - **notes**: Comparative/world literature traditions beyond the Western canon, translation, the major schools of literary theory (formalism, structuralism, post-colonial, etc.). (audit gap). Crossrefs literature [22.03.x], creative-writing [22.06.01], philosophy-of-language [20.12.01].
+
+
+### world-history.mesopotamia-depth
+
+- **title**: Mesopotamia — depth (Sumer, Akkad, Babylon)
+- **unit**: `32.02.02`
+- **notes**: Sumerian city-states, cuneiform, Akkadian empire, Hammurabi, Babylonian science. Depth §32/02. Crossrefs prehistory [32.01.x], egypt [32.03.x].
+
+
+### world-history.egypt-depth
+
+- **title**: Ancient Egypt and Nubia — depth
+- **unit**: `32.03.02`
+- **notes**: Old/Middle/New Kingdom, pyramids, hieroglyphs, the Nile state, Nubian kingdoms. Depth §32/03. Crossrefs mesopotamia [32.02.x], prehistory [32.01.x].
+
+
+### world-history.ancient-china-depth
+
+- **title**: Ancient China — depth
+- **unit**: `32.05.02`
+- **notes**: Shang/Zhou/Han, Confucianism/Legalism, Qin unification, silk roads, inventions. Depth §32/05. Crossrefs classical-india [32.08.x], mongol [32.13.x].
+
+
+### world-history.medieval-europe-depth
+
+- **title**: Medieval Europe and the Crusades — depth
+- **unit**: `32.11.02`
+- **notes**: Feudalism, the Church, Carolingians, Crusades, the Black Death, the 12th-century renaissance. Depth §32/11. Crossrefs islamic-golden-age [32.10.x], roman-empire [32.07.x].
+
+
+### world-history.mongol-depth
+
+- **title**: The Mongol Empire — depth
+- **unit**: `32.13.02`
+- **notes**: Genghis/Khubilai, the Pax Mongolica, Yuan China, Il-khanate, Golden Horde, the Silk Road revival. Depth §32/13. Crossrefs ancient-china [32.05.x], islamic [32.10.x], medieval-europe [32.11.x].
+
+
+### world-history.sub-saharan-africa-depth
+
+- **title**: Sub-Saharan Africa — depth
+- **unit**: `32.12.02`
+- **notes**: Ghana, Mali, Songhai, Great Zimbabwe, the Swahili coast, trans-Saharan trade, Mansa Musa. Depth §32/12. Crossrefs atlantic-slave-trade [32.16.x], colonialism [32.15.x].
