@@ -24452,3 +24452,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Equivalence principle — depth and experimental tests
 - **unit**: `13.01.02`
 - **notes**: Weak/strong/Einstein equivalence, Eotvos, redshift, GPS, metric theories. Depth under §13/01 (1->2). Crossrefs curvature [13.03.x], Schwarzschild [13.05.x].
+
+
+### algebraic-geometry.etale-cohomology
+
+- **title**: Étale cohomology and ℓ-adic methods
+- **unit**: `04.15.01`
+- **notes**: Grothendieck's étale topology, ℓ-adic cohomology, the Weil conjectures, étale fundamental group. (audit gap). Crossrefs schemes [04.02.x], sheaf cohomology [04.03.x], galois reps [21.05.x].
+
+
+### astronomy.ism-star-formation
+
+- **title**: Interstellar medium and star formation
+- **unit**: `28.07.01`
+- **notes**: ISM phases, molecular clouds, Jeans collapse, protostellar evolution, initial mass function. (audit gap). Crossrefs stars [28.02.x], galaxies [28.03.x].
+
+
+### earth-science.structural-geology
+
+- **title**: Structural geology — folds, faults, and mountain building
+- **unit**: `27.09.01`
+- **notes**: Stress/strain, folds, faults, shear zones, orogeny, tectonics. (audit gap). Crossrefs plate-tectonics [27.01.x], earthquakes [27.03.x].
+
+
+### language.rhetoric-composition
+
+- **title**: Rhetoric and composition theory
+- **unit**: `22.05.01`
+- **notes**: Classical rhetoric (Aristotle ethos/pathos/logos), the canon (invention-arrangement-style-memory-delivery), modern composition theory, argumentation. (audit gap). Crossrefs grammar [22.01.x], writing [22.02.x], philosophy of language [20.12.01].
+
+
+### representation-theory.finite-groups-depth
+
+- **title**: Representation theory of finite groups — depth
+- **unit**: `07.05.01`
+- **notes**: Maschke, characters, orthogonality, induced representations, Frobenius reciprocity, representation rings. (audit gap — à la Serre LRFG). Crossrefs foundations [07.01.x], character [07.02.x].
+
+
+### mathematical-logic.proof-theory-depth
+
+- **title**: Proof theory — cut-elimination and ordinal analysis
+- **unit**: `42.05.02`
+- **notes**: Gentzen sequent calculus, cut-elimination, consistency proofs, ordinal analysis, consistency strength. Depth under §42/05. Crossrefs FOL [42.01.x], set theory [42.03.x].
