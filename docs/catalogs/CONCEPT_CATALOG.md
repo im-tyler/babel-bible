@@ -24662,3 +24662,38 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Metaphysics — depth (grounding, modality, persistence)
 - **unit**: `20.11.02`
 - **notes**: Grounding/fundamentality, possible-world semantics, persistence (endurance vs perdurance), constitution, mereology. Depth §20/11. Crossrefs metaphysics-foundations [20.11.01], phil-of-language [20.12.01], modal logic [42.02.x].
+
+
+### psychology.history
+
+- **title**: History of psychology
+- **unit**: `29.14.01`
+- **notes**: From philosophy of mind to Wundt/James/behaviorism/cognitivism/neuroscience turn. (audit gap). Crossrefs intro-methods [29.01.x], all §29.
+
+
+### music-art.theater-drama
+
+- **title**: Theater and drama
+- **unit**: `34.09.01`
+- **notes**: Dramatic structure, world theater history (Greek/Elizabethan/modern), acting/directing/design, musical theater. (audit gap). Crossrefs music-fundamentals [34.01.x], art-history [34.04.x], literature [22.03.x].
+
+
+### health.diagnostics-imaging
+
+- **title**: Medical diagnostics and imaging
+- **unit**: `35.09.01`
+- **notes**: History/physical exam, lab medicine, radiology (X-ray/CT/MRI/ultrasound), pathology, clinical reasoning. (audit gap). Crossrefs human-body [35.01.x], chronic-disease [35.03.x], pharmacology [35.07.x].
+
+
+### astronomy.astrobiology
+
+- **title**: Astrobiology — life in the universe
+- **unit**: `28.10.01`
+- **notes**: Definitions of life, habitable zones, origin-of-life scenarios, extremophiles, biosignatures, SETI, Drake equation. (audit gap). Crossrefs solar-system [28.01.x], stars [28.02.x], origin-of-life [19.15.x].
+
+
+### computer-science.architecture
+
+- **title**: Computer architecture — from logic gates to CPUs
+- **unit**: `50.13.01`
+- **notes**: Instruction sets, pipelining, memory hierarchy (cache/RAM), parallelism (SIMD/MIMD/GPU), performance walls, RISC vs CISC. (audit gap). Crossrefs data-structures [50.02.x], complexity [50.03.x], OS [50.05.x].
