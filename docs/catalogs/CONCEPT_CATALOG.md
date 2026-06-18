@@ -24877,3 +24877,45 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Rudin *Functional Analysis* §2; Kreyszig *Introductory Functional Analysis* §4.7
   - beginner: a family of operators bounded at each point is bounded uniformly — a non-constructive Baire-category miracle
 - **notes**: The uniform-boundedness principle; the third pillar of Banach-space theory alongside Hahn-Banach [02.11.02] and open-mapping [02.11.09]. Crossrefs spectral theorem [02.11.11].
+
+
+### precalc.sets-relations
+
+- **title**: Sets, relations, and functions — depth
+- **unit**: `00.02.06`
+- **notes**: Set operations, Venn diagrams, relations (reflexive/symmetric/transitive), equivalence relations and partitions, function properties (injective/surjective/bijective), composition, inverse functions. Depth §00/02 (1->2). Crossrefs function [00.02.05].
+
+
+### precalc.inequalities-systems
+
+- **title**: Inequalities and systems of equations — depth
+- **unit**: `00.04.02`
+- **notes**: Linear/quadratic/rational/absolute-value inequalities; systems of linear equations (substitution, elimination, matrices intro). Depth §00/04 (1->2). Crossrefs equations-lines [00.03.x].
+
+
+### precalc.coordinate-geometry-depth
+
+- **title**: Coordinate geometry — lines, circles, and conic sections
+- **unit**: `00.09.02`
+- **notes**: Distance/midpoint, slope, line equations (point-slope, two-point, general), parallel/perpendicular, the circle, intro to conic sections from coordinates. Depth §00/09 (1->2). Crossrefs conics [00.10.x].
+
+
+### precalc.conics-depth
+
+- **title**: Conic sections — parabola, ellipse, hyperbola
+- **unit**: `00.10.02`
+- **notes**: Parabola (vertex/focus/directrix), ellipse (foci/eccentricity), hyperbola (asymptotes), the focus-directrix definition, the general second-degree equation. Depth §00/10 (1->2). Crossrefs coordinate-geom [00.09.x].
+
+
+### precalc.complex-numbers
+
+- **title**: Complex numbers — rectangular and polar form
+- **unit**: `00.14.01`
+- **notes**: Rectangular form, the complex plane, addition/multiplication, polar form, De Moivre's theorem, nth roots of unity. (audit gap — needed for §02 analysis and §12 quantum). Crossrefs trig-unit-circle [00.07.x].
+
+
+### precalc.sequences-series
+
+- **title**: Sequences and series — arithmetic, geometric, limits
+- **unit**: `00.15.01`
+- **notes**: Arithmetic sequences, geometric sequences, the common series (sum formulas), limits of sequences informally, sigma notation, the bridge to calculus. (audit gap — the standard bridge into calculus). Crossrefs induction-combinatorics [00.12.x].
