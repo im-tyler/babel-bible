@@ -556,6 +556,12 @@
 ],
 "curriculum": "algebra-home"
 },
+"01.06.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebra-home"
+},
 "02.01.01": {
 "books": [
 "brown-topology-and-groupoids"
@@ -1452,6 +1458,10 @@
 "milnor-stasheff-characteristic-classes",
 "arnold-mathematical-methods"
 ],
+"curriculum": "fast-track"
+},
+"03.02.02": {
+"books": [],
 "curriculum": "fast-track"
 },
 "03.03.01": {
@@ -4670,7 +4680,19 @@
 ],
 "curriculum": "algebraic-geometry-home"
 },
+"04.18.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
+},
 "04.19.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "algebraic-geometry-home"
+},
+"04.19.02": {
 "books": [
 "foundational-home"
 ],
@@ -7444,6 +7466,10 @@
 ],
 "curriculum": "fast-track"
 },
+"08.12.03": {
+"books": [],
+"curriculum": "fast-track"
+},
 "08.13.01": {
 "books": [
 "itzykson-drouffe-statistical-field-theory-vol2",
@@ -9205,6 +9231,10 @@
 ],
 "curriculum": "fast-track"
 },
+"13.07.03": {
+"books": [],
+"curriculum": "fast-track"
+},
 "13.08.01": {
 "books": [
 "sternberg-curvature-mathematics-physics",
@@ -9653,6 +9683,12 @@
 "books": [],
 "curriculum": "orgchem"
 },
+"15.12.03": {
+"books": [
+"orgchem"
+],
+"curriculum": "orgchem"
+},
 "15.13.01": {
 "books": [],
 "curriculum": "other"
@@ -10011,6 +10047,10 @@
 "books": [],
 "curriculum": "organismal-bio"
 },
+"18.01.03": {
+"books": [],
+"curriculum": "organismal-bio"
+},
 "18.02.01": {
 "books": [],
 "curriculum": "other"
@@ -10281,11 +10321,19 @@
 "books": [],
 "curriculum": "eco-evo-bio"
 },
+"19.10.03": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.11.01": {
 "books": [],
 "curriculum": "other"
 },
 "19.11.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
+"19.11.03": {
 "books": [],
 "curriculum": "eco-evo-bio"
 },
@@ -12087,6 +12135,12 @@
 ],
 "curriculum": "sociology-home"
 },
+"30.10.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "sociology-home"
+},
 "31.01.01": {
 "books": [],
 "curriculum": "other"
@@ -13776,6 +13830,13 @@
 ],
 "curriculum": "logic-foundations"
 },
+"41.07.02": {
+"books": [
+"kassel-quantum-groups",
+"maclane-cwm"
+],
+"curriculum": "logic-foundations"
+},
 "42.01.01": {
 "books": [
 "enderton-logic"
@@ -14083,6 +14144,12 @@
 "curriculum": "numerical-analysis"
 },
 "43.05.08": {
+"books": [
+"golub-van-loan"
+],
+"curriculum": "numerical-analysis"
+},
+"43.05.09": {
 "books": [
 "golub-van-loan"
 ],
@@ -16139,6 +16206,12 @@
 ],
 "curriculum": "linguistics-home"
 },
+"51.02.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "linguistics-home"
+},
 "51.03.01": {
 "books": [
 "foundational-home"
@@ -16176,6 +16249,12 @@
 "curriculum": "economics-home"
 },
 "52.02.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
+},
+"52.02.02": {
 "books": [
 "foundational-home"
 ],

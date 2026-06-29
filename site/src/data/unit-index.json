@@ -2132,6 +2132,32 @@
 ],
 "title": "Homological algebra \u2014 chain complexes, exact sequences, and derived functors"
 },
+"01.06.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "homological-algebra",
+"curriculum": "algebra-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.06.02",
+"prereqs": [
+"01.06.01",
+"01.03.01",
+"01.05.01"
+],
+"section": "foundations",
+"slug": "syzygy-hilbert-auslander-buchsbaum",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Syzygies \u2014 Hilbert's syzygy theorem, projective dimension, and Auslander-Buchsbaum"
+},
 "02.01.01": {
 "area": "math",
 "books": [
@@ -5645,6 +5671,29 @@
 "master"
 ],
 "title": "Smooth manifold"
+},
+"03.02.02": {
+"area": "math",
+"books": [],
+"chapter": "manifolds",
+"curriculum": "fast-track",
+"field": "geometry-topology",
+"fieldLabel": "Geometry & Topology",
+"fieldOrder": 7,
+"id": "03.02.02",
+"prereqs": [
+"03.02.01",
+"02.07.01"
+],
+"section": "modern-geometry",
+"slug": "sard-theorem-transversality-genericity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sard's theorem, transversality, and genericity"
 },
 "03.03.01": {
 "area": "math",
@@ -16572,6 +16621,30 @@
 ],
 "title": "Intersection theory \u2014 Chow rings and enumerative geometry"
 },
+"04.18.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "intersection-theory",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.18.02",
+"prereqs": [
+"04.18.01"
+],
+"section": "algebraic-geometry",
+"slug": "schubert-calculus-grassmannian-cohomology",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Schubert calculus and the cohomology of Grassmannians"
+},
 "04.19.01": {
 "area": "math",
 "books": [
@@ -16596,6 +16669,33 @@
 "master"
 ],
 "title": "Deformation theory \u2014 infinitesimal families and moduli"
+},
+"04.19.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "deformation-theory",
+"curriculum": "algebraic-geometry-home",
+"field": "algebraic-geometry",
+"fieldLabel": "Algebraic Geometry",
+"fieldOrder": 8,
+"id": "04.19.02",
+"prereqs": [
+"04.19.01",
+"01.06.01",
+"04.02.01",
+"04.03.01"
+],
+"section": "algebraic-geometry",
+"slug": "cotangent-complex-deformation-obstruction",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cotangent complex and deformation-obstruction theory"
 },
 "05.00.01": {
 "area": "math",
@@ -25904,6 +26004,32 @@
 ],
 "title": "Equilibrium fluctuations of thermodynamic quantities"
 },
+"08.12.03": {
+"area": "math",
+"books": [],
+"chapter": "fluctuations",
+"curriculum": "fast-track",
+"field": "statistical-field-theory",
+"fieldLabel": "Statistical Field Theory",
+"fieldOrder": 12,
+"id": "08.12.03",
+"prereqs": [
+"08.01.01",
+"08.01.03",
+"08.01.04",
+"08.12.01",
+"08.12.02"
+],
+"section": "stat-mech",
+"slug": "jarzynski-crooks-fluctuation-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Jarzynski equality and Crooks fluctuation theorem"
+},
 "08.13.01": {
 "area": "math",
 "books": [
@@ -32662,6 +32788,29 @@
 ],
 "title": "Null infinity, the BMS group, and the Bondi-Sachs mass-loss formula"
 },
+"13.07.03": {
+"area": "physics",
+"books": [],
+"chapter": "gravitational-waves",
+"curriculum": "fast-track",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.07.03",
+"prereqs": [
+"13.07.01",
+"13.07.02"
+],
+"section": "gr-cosmology",
+"slug": "ligo-virgo-kagra-interferometric-detectors",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Interferometric gravitational-wave detectors: LIGO, Virgo, KAGRA"
+},
 "13.08.01": {
 "area": "physics",
 "books": [
@@ -34945,6 +35094,31 @@
 ],
 "title": "Peptide bond geometry: planarity, resonance, and the Ramachandran plot"
 },
+"15.12.03": {
+"area": "other",
+"books": [
+"orgchem"
+],
+"chapter": "biomolecules-aa-protein",
+"curriculum": "orgchem",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.12.03",
+"prereqs": [
+"15.12.01",
+"15.12.02"
+],
+"section": "orgchem",
+"slug": "protein-folding-anfinsen-levinthal-chaperones",
+"status": "draft",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Protein folding: Anfinsen, Levinthal, and molecular chaperones"
+},
 "15.13.01": {
 "area": "other",
 "books": [],
@@ -36826,6 +37000,29 @@
 ],
 "title": "Body plan diversity: symmetry types, coelom origins, and the major animal phyla"
 },
+"18.01.03": {
+"area": "other",
+"books": [],
+"chapter": "body-plans",
+"curriculum": "organismal-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.01.03",
+"prereqs": [
+"18.01.01",
+"18.01.02"
+],
+"section": "organismal-bio",
+"slug": "ediacaran-cambrian-animal-origins",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Ediacaran biota, the Cambrian explosion, and the origin of animals"
+},
 "18.02.01": {
 "area": "other",
 "books": [],
@@ -38290,6 +38487,29 @@
 ],
 "title": "Succession: primary and secondary succession and the intermediate disturbance hypothesis"
 },
+"19.10.03": {
+"area": "other",
+"books": [],
+"chapter": "community-ecology",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.10.03",
+"prereqs": [
+"19.10.01",
+"19.10.02"
+],
+"section": "eco-evo-bio",
+"slug": "food-webs-interaction-strength-trophic-cascades",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Food webs, interaction strength, and trophic cascades"
+},
 "19.11.01": {
 "area": "other",
 "books": [],
@@ -38333,6 +38553,29 @@
 "master"
 ],
 "title": "Ecosystem energy flow: trophic pyramids, primary productivity, and ecological efficiency"
+},
+"19.11.03": {
+"area": "other",
+"books": [],
+"chapter": "ecosystem",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.11.03",
+"prereqs": [
+"19.11.01",
+"19.11.02"
+],
+"section": "eco-evo-bio",
+"slug": "redfield-ecosystem-stoichiometry-nutrient-ratios",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ecosystem stoichiometry: the Redfield ratio and nutrient limitation"
 },
 "19.12.01": {
 "area": "other",
@@ -47167,6 +47410,30 @@
 ],
 "title": "Gender and sexuality \u2014 sociology of"
 },
+"30.10.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "gender-sexuality",
+"curriculum": "sociology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "30.10.02",
+"prereqs": [
+"30.10.01"
+],
+"section": "sociology",
+"slug": "feminist-theory-intersectionality-performativity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Feminist theory \u2014 intersectionality, performativity, and the gender structure"
+},
 "31.01.01": {
 "area": "other",
 "books": [],
@@ -54790,6 +55057,31 @@
 ],
 "title": "Monoidal Categories and Mac Lane's Coherence Theorem"
 },
+"41.07.02": {
+"area": "math",
+"books": [
+"kassel-quantum-groups",
+"maclane-cwm"
+],
+"chapter": "monoidal-categories",
+"curriculum": "logic-foundations",
+"field": "foundations-logic",
+"fieldLabel": "Logic & Foundations",
+"fieldOrder": 2,
+"id": "41.07.02",
+"prereqs": [
+"41.07.01"
+],
+"section": "category-theory",
+"slug": "braided-ribbon-monoidal-categories",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Braided, Symmetric, and Ribbon Monoidal Categories"
+},
 "42.01.01": {
 "area": "math",
 "books": [
@@ -56051,6 +56343,32 @@
 "master"
 ],
 "title": "Total least squares and the generalised SVD"
+},
+"43.05.09": {
+"area": "math",
+"books": [
+"golub-van-loan"
+],
+"chapter": "05-svd-low-rank",
+"curriculum": "numerical-analysis",
+"field": "numerical-analysis",
+"fieldLabel": "Numerical Analysis",
+"fieldOrder": 10,
+"id": "43.05.09",
+"prereqs": [
+"43.05.08",
+"01.01.12",
+"43.04.01"
+],
+"section": "numerical-analysis",
+"slug": "randomized-svd-sketching",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Randomized SVD and sketching"
 },
 "43.06.01": {
 "area": "math",
@@ -64191,6 +64509,31 @@
 ],
 "title": "Phonology \u2014 phonemes, features, and sound systems"
 },
+"51.02.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "phonology-sound-systems",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.02.02",
+"prereqs": [
+"51.02.01",
+"51.01.01"
+],
+"section": "linguistics",
+"slug": "autosegmental-phonology-feature-geometry-ot",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Autosegmental phonology, feature geometry, and optimality theory"
+},
 "51.03.01": {
 "area": "other",
 "books": [
@@ -64356,6 +64699,31 @@
 "master"
 ],
 "title": "Macroeconomics \u2014 aggregates, growth, and cycles"
+},
+"52.02.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "macroeconomics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.02.02",
+"prereqs": [
+"52.02.01",
+"52.01.01"
+],
+"section": "economics",
+"slug": "solow-growth-model-convergence-endogenous",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Solow growth model, convergence, and endogenous growth"
 },
 "52.03.01": {
 "area": "other",
