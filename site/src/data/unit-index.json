@@ -39787,6 +39787,31 @@
 ],
 "title": "History of philosophy \u2014 ancient, medieval, modern, and continental"
 },
+"20.15.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "history-of-philosophy",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.15.02",
+"prereqs": [
+"20.15.01",
+"20.11.01"
+],
+"section": "philosophy",
+"slug": "kant-critique-pure-reason-transcendental-idealism-synthetic-a-priori",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kant's Critique of Pure Reason: transcendental idealism, the synthetic a priori, and the categories"
+},
 "21.01.01": {
 "area": "math",
 "books": [
@@ -42746,6 +42771,30 @@
 "master"
 ],
 "title": "Creative writing \u2014 craft across fiction, poetry, and nonfiction"
+},
+"22.06.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "creative-writing",
+"curriculum": "language-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "22.06.02",
+"prereqs": [
+"22.06.01"
+],
+"section": "language",
+"slug": "prose-rhythm-sentence-acoustics-parataxis-architecture",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Prose rhythm, sentence acoustics, and the architecture of parataxis"
 },
 "22.07.01": {
 "area": "other",
@@ -64877,6 +64926,55 @@
 "master"
 ],
 "title": "Microeconomics \u2014 scarcity, choice, and equilibrium"
+},
+"52.01.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "microeconomics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.01.02",
+"prereqs": [
+"52.01.01"
+],
+"section": "economics",
+"slug": "revealed-preference-afriat-theorem-cyclical-consistency",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Revealed preference and Afriat's theorem: cyclical consistency and the rationalizability of demand"
+},
+"52.01.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "microeconomics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.01.03",
+"prereqs": [
+"52.01.01",
+"52.01.02"
+],
+"section": "economics",
+"slug": "edgeworth-box-pareto-efficiency-welfare-theorems",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Edgeworth box, Pareto efficiency, and the two welfare theorems"
 },
 "52.02.01": {
 "area": "other",

@@ -25049,3 +25049,47 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Mas-Colell-Whinston-Green 1995 Ch. 13; Fudenberg-Tirole 1991 Ch. 8-9
   - beginner: Gibbons 1992 Game Theory for Applied Economists Ch. 3-4
 - **notes**: The economics of asymmetric information under strategic interaction. Covers Akerlof's lemons (adverse selection and market unraveling), Spence's job-market signaling (costly signals that sort types without raising productivity), the single-crossing/Spence-Mirrlees condition, separating versus pooling perfect Bayesian equilibria, the Cho-Kreps intuitive criterion as the standard refinement, Crawford-Sobel cheap talk (costless communication under interest divergence), and Zahavi's biological handicap principle as the evolutionary analogue.
+
+### economics.revealed-preference-afriat-theorem
+
+- **title**: Revealed preference and Afriat's theorem: cyclical consistency and the rationalizability of demand
+- **unit**: `52.01.02`
+- **prerequisites**: `economics.microeconomics-foundations`
+- **tier_anchors**:
+  - master: Samuelson 1938 Economica (originator); Houthakker 1950 (SARP); Afriat 1967 QJE (Afriat's theorem and the Afriat inequalities); Diewert 1973 RES (LP proof via Farkas); Varian 1982 Econometrica (GARP shortest-path test); Chiappori 1992 (collective household)
+  - intermediate: Mas-Colell-Whinston-Green 1995 Ch. 2-3; Varian Microeconomic Analysis Ch. 8 (integrability)
+  - beginner: Varian Intermediate Microeconomics Ch. 6; Pollak 2018 JEL survey
+- **notes**: The nonparametric foundation of demand theory: choice data alone, without cardinal utility, suffice to recover an ordinal preference. Covers the Weak/Strong/Generalised Axioms of Revealed Preference, cyclical consistency (GARP), Afriat's three-way theorem (GARP iff feasible Afriat inequalities iff existence of a concave rationalising utility), the Diewert linear-programming proof via Farkas' lemma, the constructive piecewise-linear utility, Varian's shortest-path GARP test, and Chiappori's extension to collective households.
+
+### economics.edgeworth-box-welfare-theorems
+
+- **title**: The Edgeworth box, Pareto efficiency, and the two welfare theorems
+- **unit**: `52.01.03`
+- **prerequisites**: `economics.microeconomics-foundations`, `economics.revealed-preference-afriat-theorem`
+- **tier_anchors**:
+  - master: Edgeworth 1881 Mathematical Psychics (box, contract curve, core); Pareto 1906 (efficiency criterion); Arrow 1951 (modern welfare theorems); Arrow-Debreu 1954 Econometrica (existence via Kakutani); Debreu 1954 PNAS (Second Welfare Theorem); McKenzie 1959 (existence via Brouwer); Debreu-Scarf 1963 (core convergence)
+  - intermediate: Mas-Colell-Whinston-Green 1995 Ch. 15-16
+  - beginner: Varian Intermediate Microeconomics Ch. 31; Nicholson-Snyder Ch. 15
+- **notes**: The general-equilibrium theory of exchange. Covers the Edgeworth box geometry, the contract curve and the tangency-of-indifference-curves characterisation of Pareto efficiency, the First Welfare Theorem (equilibrium is efficient under local non-satiation) with its budget-separation proof, the Second Welfare Theorem (efficient allocations supportable by prices after redistribution) via the separating-hyperplane theorem, the Arrow-Debreu existence proof via Kakutani/Brouwer fixed points, and the Debreu-Scarf core-convergence theorem.
+
+### language.prose-rhythm-sentence-acoustics
+
+- **title**: Prose rhythm, sentence acoustics, and the architecture of parataxis
+- **unit**: `22.06.02`
+- **prerequisites**: `language.creative-writing`
+- **tier_anchors**:
+  - master: Cicero Orator (46 BCE); Quintilian Institutio Oratoria (c. 95 CE); Christensen 1967 Notes Toward a New Rhetoric (cumulative sentence); Williams 1981 Style (cognitive load/stress position); Lanham 1983 Analyzing Prose (ten-style system); Gibson 2000 dependency-locality theory
+  - intermediate: Christensen 1967; Williams Style 11e; Tufte 2006 Artful Sentences; Lanham 1983
+  - beginner: Francine Prose Reading Like a Writer; Stanley Fish How to Write a Sentence
+- **notes**: The sentence-level craft that produces the reader's acoustic experience of prose. Covers parataxis vs hypotaxis, the periodic vs running (cumulative) sentence, Christensen's free-modifier programme, Joseph Williams's cognitive-load and stress-position principles, Lanham's ten-style descriptive system, the classical clausula, rhetorical figures (isocolon, chiasmus, anaphora), and Gibson's dependency-locality theory grounding style in working-memory cost.
+
+### philosophy.kant-critique-of-pure-reason
+
+- **title**: Kant's Critique of Pure Reason: transcendental idealism, the synthetic a priori, and the categories
+- **unit**: `20.15.02`
+- **prerequisites**: `philosophy.history-of-philosophy`, `philosophy.metaphysics`
+- **tier_anchors**:
+  - master: Kant 1781/1787 Kritik der reinen Vernunft (A/B editions); Kant 1783 Prolegomena; Allison 1983/2004 Kant's Transcendental Idealism (two-aspect reading); Strawson 1966 The Bounds of Sense; Kemp Smith 1923 Commentary
+  - intermediate: Guyer-Wood Cambridge 1998 introduction; Allison 2004
+  - beginner: Scruton 1982 Kant (Past Masters); Kemp Smith 1923
+- **notes**: The Critique of Pure Reason as the hinge of modern philosophy. Covers Kant's Copernican revolution, the synthetic-a-priori distinction, the Transcendental Aesthetic on space and time as pure forms of intuition, the Transcendental Deduction of the twelve categories, the Schematism, the Refutation of Idealism, and the Antinomies of pure reason. Defends the two-aspect reading of transcendental idealism (Allison) against the two-object alternative and situates the work against Hume and the rationalist/empiricist debate.

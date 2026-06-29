@@ -10575,6 +10575,12 @@
 ],
 "curriculum": "philosophy-home"
 },
+"20.15.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
+},
 "21.01.01": {
 "books": [
 "manin-introduction-modern-number-theory",
@@ -11224,6 +11230,12 @@
 "curriculum": "language-home"
 },
 "22.06.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "language-home"
+},
+"22.06.02": {
 "books": [
 "foundational-home"
 ],
@@ -16291,6 +16303,18 @@
 "curriculum": "linguistics-home"
 },
 "52.01.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
+},
+"52.01.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
+},
+"52.01.03": {
 "books": [
 "foundational-home"
 ],
