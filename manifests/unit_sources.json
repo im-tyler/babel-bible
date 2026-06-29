@@ -866,6 +866,14 @@
 ],
 "curriculum": "fast-track"
 },
+"02.08.03": {
+"books": [
+"coddington-levinson",
+"hartman",
+"arnold-ode"
+],
+"curriculum": "analysis-fast-track"
+},
 "02.09.01": {
 "books": [
 "tom-m-apostol-calculus-vol-single"
@@ -8904,6 +8912,10 @@
 ],
 "curriculum": "fast-track"
 },
+"12.15.03": {
+"books": [],
+"curriculum": "fast-track"
+},
 "12.16.01": {
 "books": [
 "weinberg-quantum-theory-of-fields-vol1",
@@ -9146,6 +9158,14 @@
 "13.03.02": {
 "books": [],
 "curriculum": "fast-track"
+},
+"13.03.03": {
+"books": [
+"baumgarte-shapiro-2010",
+"gourgoulhon-2012",
+"wald-1984"
+],
+"curriculum": "gr-cosmology"
 },
 "13.04.01": {
 "books": [
@@ -9697,6 +9717,10 @@
 "books": [],
 "curriculum": "other"
 },
+"15.13.03": {
+"books": [],
+"curriculum": "other"
+},
 "15.14.01": {
 "books": [],
 "curriculum": "other"
@@ -10022,6 +10046,12 @@
 "curriculum": "mol-cell-bio"
 },
 "17.11.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "mol-cell-bio-home"
+},
+"17.11.02": {
 "books": [
 "foundational-home"
 ],
@@ -10520,6 +10550,12 @@
 "20.13.01": {
 "books": [],
 "curriculum": "other"
+},
+"20.13.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
 },
 "20.14.01": {
 "books": [
@@ -16236,7 +16272,19 @@
 ],
 "curriculum": "linguistics-home"
 },
+"51.06.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "linguistics-home"
+},
 "51.07.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "linguistics-home"
+},
+"51.07.02": {
 "books": [
 "foundational-home"
 ],
@@ -16272,6 +16320,12 @@
 ],
 "curriculum": "economics-home"
 },
+"52.04.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
+},
 "52.05.01": {
 "books": [
 "foundational-home"
@@ -16279,6 +16333,12 @@
 "curriculum": "economics-home"
 },
 "52.06.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "economics-home"
+},
+"52.06.02": {
 "books": [
 "foundational-home"
 ],

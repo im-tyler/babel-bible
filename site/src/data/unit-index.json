@@ -3294,6 +3294,34 @@
 ],
 "title": "Second-order linear ODEs with constant coefficients"
 },
+"02.08.03": {
+"area": "math",
+"books": [
+"coddington-levinson",
+"hartman",
+"arnold-ode"
+],
+"chapter": "ode",
+"curriculum": "analysis-fast-track",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.08.03",
+"prereqs": [
+"02.08.01",
+"02.08.02",
+"02.11.04"
+],
+"section": "analysis",
+"slug": "picard-lindelof-existence-uniqueness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Picard-Lindelof existence and uniqueness for ODEs"
+},
 "02.09.01": {
 "area": "math",
 "books": [
@@ -31495,6 +31523,30 @@
 ],
 "title": "Parity, discrete-symmetry groups, and the Wigner-Eckart theorem"
 },
+"12.15.03": {
+"area": "physics",
+"books": [],
+"chapter": "discrete-symmetry",
+"curriculum": "fast-track",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.15.03",
+"prereqs": [
+"12.15.01",
+"12.15.02",
+"12.21.01"
+],
+"section": "quantum",
+"slug": "cp-violation-ckm-matrix-jarlskog",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "CP violation and the CKM matrix"
+},
 "12.16.01": {
 "area": "physics",
 "books": [
@@ -32440,6 +32492,34 @@
 "master"
 ],
 "title": "Ricci and scalar curvature, and the Einstein tensor"
+},
+"13.03.03": {
+"area": "physics",
+"books": [
+"baumgarte-shapiro-2010",
+"gourgoulhon-2012",
+"wald-1984"
+],
+"chapter": "curvature",
+"curriculum": "gr-cosmology",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.03.03",
+"prereqs": [
+"13.03.01",
+"13.03.02",
+"13.02.01"
+],
+"section": "gr-cosmology",
+"slug": "adm-3-plus-1-formalism",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The ADM 3+1 formalism and the Hamiltonian constraint"
 },
 "13.04.01": {
 "area": "physics",
@@ -35161,6 +35241,29 @@
 ],
 "title": "RNA secondary structure and ribozymes"
 },
+"15.13.03": {
+"area": "other",
+"books": [],
+"chapter": "biomolecules-na",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.13.03",
+"prereqs": [
+"15.13.01",
+"15.13.02"
+],
+"section": "orgchem",
+"slug": "dna-supercoiling-topoisomerases-calugareanu",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "DNA topology: supercoiling, the Calugareanu-White theorem, and topoisomerases"
+},
 "15.14.01": {
 "area": "other",
 "books": [],
@@ -36905,6 +37008,31 @@
 "master"
 ],
 "title": "Cell and molecular biology methods \u2014 microscopy, PCR, sequencing, CRISPR"
+},
+"17.11.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "methods-techniques",
+"curriculum": "mol-cell-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.11.02",
+"prereqs": [
+"17.11.01",
+"17.12.01"
+],
+"section": "mol-cell-bio",
+"slug": "optical-tweezers-single-molecule-force-spectroscopy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Optical tweezers and single-molecule force spectroscopy"
 },
 "17.12.01": {
 "area": "other",
@@ -39562,6 +39690,30 @@
 "master"
 ],
 "title": "Daoism: wu wei, the Dao, and natural harmony"
+},
+"20.13.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "philosophy-of-mind",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.13.02",
+"prereqs": [
+"20.13.01"
+],
+"section": "philosophy",
+"slug": "embodied-embedded-enacted-extended-cognition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Embodied, embedded, enacted, extended cognition"
 },
 "20.14.01": {
 "area": "other",
@@ -64630,6 +64782,31 @@
 ],
 "title": "Historical and comparative linguistics \u2014 change, families, and reconstruction"
 },
+"51.06.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "historical-comparative",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.06.02",
+"prereqs": [
+"51.06.01",
+"51.02.01"
+],
+"section": "linguistics",
+"slug": "indo-european-comparative-method-grimm-verner-laryngeal",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Indo-European comparative method: Grimm, Verner, and the laryngeal theory"
+},
 "51.07.01": {
 "area": "other",
 "books": [
@@ -64653,6 +64830,31 @@
 "master"
 ],
 "title": "Sociolinguistics \u2014 variation, identity, and language in society"
+},
+"51.07.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "sociolinguistics",
+"curriculum": "linguistics-home",
+"field": "linguistics",
+"fieldLabel": "Linguistics",
+"fieldOrder": 30,
+"id": "51.07.02",
+"prereqs": [
+"51.07.01",
+"51.06.01"
+],
+"section": "linguistics",
+"slug": "variationist-sociolinguistics-labovian-method-apparent-time",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Variationist sociolinguistics: the Labovian method and the apparent-time construct"
 },
 "52.01.01": {
 "area": "other",
@@ -64773,6 +64975,30 @@
 ],
 "title": "Game theory \u2014 Nash equilibrium and strategic interaction"
 },
+"52.04.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "game-theory",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.04.02",
+"prereqs": [
+"52.04.01"
+],
+"section": "economics",
+"slug": "signaling-games-bayesian-nash-equilibrium-spence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Signaling games and Bayesian Nash equilibrium: Spence, Akerlof, and the intuitive criterion"
+},
 "52.05.01": {
 "area": "other",
 "books": [
@@ -64820,5 +65046,29 @@
 "master"
 ],
 "title": "Behavioral economics \u2014 bounded rationality, biases, and nudges"
+},
+"52.06.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "behavioral-economics",
+"curriculum": "economics-home",
+"field": "economics",
+"fieldLabel": "Economics",
+"fieldOrder": 31,
+"id": "52.06.02",
+"prereqs": [
+"52.06.01"
+],
+"section": "economics",
+"slug": "neuroeconomics-dopamine-reward-prediction-error",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neuroeconomics and the dopamine reward prediction error"
 }
 }

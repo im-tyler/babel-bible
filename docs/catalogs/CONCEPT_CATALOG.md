@@ -24983,3 +24983,69 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Picard-Lindelof existence and uniqueness for ODEs
 - **unit**: `02.08.03`
 - **notes**: stub — see unit `02.08.03` for the initial value problem, Picard iteration and the contraction-mapping proof, Peano existence, Gronwall's inequality, maximal intervals, and continuous dependence.
+
+### mol-cell-bio.optical-tweezers-single-molecule-force
+
+- **title**: Optical tweezers and single-molecule force spectroscopy
+- **unit**: `17.11.02`
+- **prerequisites**: `mol-cell-bio.cell-molecular-methods`, `mol-cell-bio.cytoskeleton-motility`
+- **tier_anchors**:
+  - master: Ashkin 1970/1986 (originator of the optical trap); Svoboda-Block 1993 (kinesin step); Bustamante 2003 (worm-like-chain DNA mechanics); Evans-Ritchie 1997 (dynamic force spectroscopy)
+  - intermediate: Neuman-Nagy 2008 Nature Methods (canonical methods comparison); Howard 2001 Mechanics of Motor Proteins Ch. 4-6
+  - beginner: Molloy-Padgett optical trapping primers (Journal of Cell Science)
+- **notes**: Single-beam gradient optical trap as a harmonic potential for measuring piconewton forces and nanometer displacements on single molecules. Covers equipartition and corner-frequency calibration, the worm-like-chain force-extension relation (Marko-Siggia), the Evans-Ritchie loading-rate theory of bond rupture, back-focal-plane interferometry, and Jarzynski reconstruction of free-energy landscapes from irreversible pulls. Landmark applications: the 8-nm kinesin step (Svoboda-Block) and the 65-pN DNA overstretching transition (Bustamante).
+
+### philosophy.embodied-4e-cognition
+
+- **title**: Embodied, embedded, enacted, extended cognition
+- **unit**: `20.13.02`
+- **prerequisites**: `philosophy.philosophy-of-mind-foundations`
+- **tier_anchors**:
+  - master: Varela-Thompson-Rosch 1991 The Embodied Mind (enactivism originator); Clark-Chalmers 1998 The Extended Mind (parity principle); Friston 2010 Nature Rev Neurosci (active inference); Gibson 1979 (affordances); Merleau-Ponty 1945 (lived-body phenomenology)
+  - intermediate: Clark Being There (MIT 1997); Wilson 2002 TICS; Shapiro Embodied Cognition Reader (Routledge 2014)
+  - beginner: Gallagher Enactivist Interventions (Oxford 2017); Thompson Mind in Life (Belknap 2007)
+- **notes**: The four overlapping externalist theses (embodied, embedded, enacted, extended) that recast cognition as adaptive regulation of a brain-body-environment coupling. Covers the Clark-Chalmers parity principle and Otto's notebook, the Adams-Aizawa cognitive-bloat reply, Gibsonian affordances, sensorimotor theory (O'Regan-Noe), Lakoff-Johnson conceptual metaphor, and Friston's free-energy principle/active inference as the mathematical consolidation of the enactive programme.
+
+### linguistics.indo-european-comparative-method
+
+- **title**: The Indo-European comparative method: Grimm, Verner, and the laryngeal theory
+- **unit**: `51.06.02`
+- **prerequisites**: `linguistics.historical-comparative-foundations`, `linguistics.phonology-foundations`
+- **tier_anchors**:
+  - master: Bopp 1816; Grimm 1822 (sound shift); Verner 1877 (stress conditioning); de Saussure 1879 (laryngeal prediction); Kurylowicz 1927 (Hittite confirmation); Ringe 2006 (statistical comparative method)
+  - intermediate: Trask 1996 Historical Linguistics Ch. 5-6; Fortson 2010 Indo-European Language and Culture; Ringe-Eska 2013
+  - beginner: Trask 1996; Campbell 2013 Historical Linguistics Ch. 5
+- **notes**: Reconstruction of Proto-Indo-European from attested daughters via the regularity of sound change. Covers cognate sets, systematic correspondences, Grimm's Law (the Germanic consonant shift), Verner's Law (stress conditioning resolving the apparent exceptions), the Neogrammarian regularity hypothesis, de Saussure's laryngeal theory as the predictive triumph confirmed by Hittite forty years later, the centum-satem isogloss, and the Ringe-Warnow statistical comparative method.
+
+### linguistics.variationist-sociolinguistics-labovian
+
+- **title**: Variationist sociolinguistics: the Labovian method and the apparent-time construct
+- **unit**: `51.07.02`
+- **prerequisites**: `linguistics.sociolinguistics-foundations`, `linguistics.historical-comparative-foundations`
+- **tier_anchors**:
+  - master: Labov 1963 Martha's Vineyard (Word 19); Labov 1966 Social Stratification of English in NYC; Labov 1972 Sociolinguistic Patterns; Weinreich-Labov-Herzog 1968 (five problems); Eckert 2000 community of practice
+  - intermediate: Tagliamonte 2006 Analysing Sociolinguistic Variation; Sankoff VARBRUL; modern mixed-effects variable rules
+  - beginner: Labov 1972 Ch. 1-4; Wardhaugh-Fuller 2014 An Introduction to Sociolinguistics Ch. 6-7
+- **notes**: The Labovian quantitative method for studying linguistic variation as structured heterogeneity. Covers the linguistic variable and the principle of accountability, the sociolinguistic interview and style-shifting, the apparent-time construct and real-time validation, the department-store stratification of rhotic r in NYC, the indicator/marker/stereotype distinction, the variable rule as logistic regression, Eckert's community-of-practice refinement, the Northern Cities Shift, and the Weinreich-Labov-Herzog five problems (constraints, transition, embedding, evaluation, actuation).
+
+### economics.neuroeconomics-dopamine-reward-prediction-error
+
+- **title**: Neuroeconomics and the dopamine reward prediction error
+- **unit**: `52.06.02`
+- **prerequisites**: `economics.behavioral-economics-foundations`
+- **tier_anchors**:
+  - master: Rescorla-Wagner 1972 (the learning rule); Schultz-Dayan-Montague 1997 Science (dopamine as RPE); Montague-Dayan-Sejnowski 1996 (TD model of dopamine); Sutton-Barto 1998 (reinforcement learning); Caplin-Dean 2008 QJE (axiomatic RPE); McClure et al 2004 Science (dual systems in intertemporal choice)
+  - intermediate: Dayan-Abbott 2001 Theoretical Neuroscience Ch. 9; Glimcher-Fehr Neuroeconomics 2e
+  - beginner: Glimcher Foundations of Neuroeconomic Analysis Ch. 1-4; Schultz 2008 Current Opinion in Neurobiology
+- **notes**: The reward-prediction-error hypothesis of dopamine as the bridge between reinforcement learning and economic choice. Covers the Rescorla-Wagner rule, the TD(0) error and its Bellman-equation derivation, the Schultz-Dayan-Montague electrophysiology (positive for unexpected reward, zero for predicted, negative for omitted), the actor-critic architecture mapped onto striatum, the Caplin-Dean axioms characterising when a neural signal is an RPE, the dopamine model of addiction, and dual-system theories of intertemporal choice (McClure et al).
+
+### economics.signaling-games-bayesian-nash
+
+- **title**: Signaling games and Bayesian Nash equilibrium: Spence, Akerlof, and the intuitive criterion
+- **unit**: `52.04.02`
+- **prerequisites**: `economics.game-theory-foundations`
+- **tier_anchors**:
+  - master: Akerlof 1970 QJE (lemons/adverse selection); Spence 1973 QJE (job-market signaling); Cho-Kreps 1987 (intuitive criterion); Crawford-Sobel 1982 Econometrica (cheap talk); Stiglitz-Weiss 1981 (credit rationing); Riley 1975 (reactive equilibrium)
+  - intermediate: Mas-Colell-Whinston-Green 1995 Ch. 13; Fudenberg-Tirole 1991 Ch. 8-9
+  - beginner: Gibbons 1992 Game Theory for Applied Economists Ch. 3-4
+- **notes**: The economics of asymmetric information under strategic interaction. Covers Akerlof's lemons (adverse selection and market unraveling), Spence's job-market signaling (costly signals that sort types without raising productivity), the single-crossing/Spence-Mirrlees condition, separating versus pooling perfect Bayesian equilibria, the Cho-Kreps intuitive criterion as the standard refinement, Crawford-Sobel cheap talk (costless communication under interest divergence), and Zahavi's biological handicap principle as the evolutionary analogue.
