@@ -1,4 +1,5 @@
 import { getCollection } from "@neutron-build/core";
+import { renderInline } from "../../lib/inline-math";
 
 export function head() {
   return {
@@ -98,7 +99,7 @@ export default function PhilosophyIndex({ data }: { data: any }) {
                 {ch.units.map((u: any) => (
                   <li>
                     <a href={`/u/${u.id}`}>
-                      <code>{u.id}</code> — {u.title}
+                      <code>{u.id}</code> — <span dangerouslySetInnerHTML={{ __html: renderInline(u.title) }} />
                     </a>
                     {u.status && (
                       <>

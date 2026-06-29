@@ -1,6 +1,6 @@
 import { getCollection, getEntry } from "@neutron-build/core";
 import UnitMeta from "../../components/UnitMeta";
-import { renderInline } from "../../lib/inline-math";
+import { renderInline, mathToText } from "../../lib/inline-math";
 
 export async function getStaticPaths() {
   const units = await getCollection("units");
@@ -18,9 +18,10 @@ export async function loader({ params }: { params: { id: string } }) {
 }
 
 export function head({ data }: { data: any }) {
+  const title = mathToText(data.unit.title);
   return {
-    title: `${data.unit.id} — ${data.unit.title} | Babel Bible`,
-    description: `Babel Bible unit ${data.unit.id}: ${data.unit.title}. Tiers present: ${data.unit.tiers_present.join(", ")}.`,
+    title: `${data.unit.id} — ${title} | Babel Bible`,
+    description: `Babel Bible unit ${data.unit.id}: ${title}. Tiers present: ${data.unit.tiers_present.join(", ")}.`,
   };
 }
 
@@ -47,7 +48,9 @@ export default function UnitPage({ data }: { data: any }) {
         </div>
         <p class="unit-anchors">
           <strong>Anchor (Master):</strong>{" "}
-          <em>{u.tier_anchors.master === "deferred" ? "deferred" : u.tier_anchors.master}</em>
+          {u.tier_anchors.master === "deferred"
+            ? <em>deferred</em>
+            : <em dangerouslySetInnerHTML={{ __html: renderInline(u.tier_anchors.master) }} />}
         </p>
       </header>
 

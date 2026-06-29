@@ -88,19 +88,23 @@ function escapeHtml(s: string): string {
     .replace(/'/g, "&#39;");
 }
 
-function renderRefBody(source: string, locator: string): string {
+function renderRefBody(source: string, locator: string, html: string): string {
   const meta = SOURCE_META[source];
+  // Locator/cite may carry inline math; `html` (when present) is the
+  // build-time KaTeX-rendered version of the locator and takes precedence
+  // over the plain escaped string.
+  const locHtml = html || (locator ? escapeHtml(locator) : "");
   if (!meta) {
     return `
       <p class="cite-panel__source-name">${escapeHtml(source)}</p>
-      ${locator ? `<p class="cite-panel__locator">${escapeHtml(locator)}</p>` : ""}
+      ${locHtml ? `<p class="cite-panel__locator">${locHtml}</p>` : ""}
       <p class="cite-panel__muted">No metadata registered for this source. Add it to <code>src/lib/citation-panel.ts</code>.</p>
     `;
   }
   const lines: string[] = [];
   lines.push(`<p class="cite-panel__source-name">${escapeHtml(meta.name)}</p>`);
-  if (locator) {
-    lines.push(`<p class="cite-panel__locator"><strong>Locator:</strong> ${escapeHtml(locator)}</p>`);
+  if (locHtml) {
+    lines.push(`<p class="cite-panel__locator"><strong>Locator:</strong> ${locHtml}</p>`);
   }
   if (meta.license) {
     lines.push(`<p class="cite-panel__license"><strong>License:</strong> ${escapeHtml(meta.license)}</p>`);
@@ -168,8 +172,10 @@ export function initCitationPanel() {
     if (refEl) {
       e.preventDefault();
       const source = refEl.dataset.refSource || "unknown";
-      const locator = refEl.dataset.refLocator || "";
-      open("Citation", renderRefBody(source, locator));
+      const locator = refEl.dataset.refLocator || refEl.dataset.refCite || "";
+      const html = refEl.dataset.refHtml || "";
+      const displaySource = source === "unknown" && refEl.dataset.refCite ? refEl.dataset.refCite : source;
+      open("Citation", renderRefBody(displaySource, locator, html));
       return;
     }
     const unitEl = target.closest(".unit-ref") as HTMLElement | null;

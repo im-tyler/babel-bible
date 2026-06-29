@@ -1,5 +1,7 @@
 // Sidebar metadata for a unit: prereqs, references, lean module, etc.
 
+import { renderInline, renderBlock } from "../lib/inline-math";
+
 // Internal pointers (`docs/…`, `NEED_TO_SOURCE.md#…`) must never surface as
 // a reader-facing citation.
 const isInternalPath = (s: string) =>
@@ -76,7 +78,7 @@ export default function UnitMeta({ unit }: { unit: any }) {
                 {unit.tier_anchors[t] === "deferred" ? (
                   <span class="muted">deferred</span>
                 ) : (
-                  <em>{unit.tier_anchors[t]}</em>
+                  <em dangerouslySetInnerHTML={{ __html: renderInline(unit.tier_anchors[t]) }} />
                 )}
               </dd>
             </>
@@ -98,8 +100,10 @@ export default function UnitMeta({ unit }: { unit: any }) {
               const loc = cleanLocator(r.locator);
               return (
                 <li key={i}>
-                  {cite ? <span>{cite}</span> : <span class="muted">Source pending</span>}
-                  {loc && <span class="muted"> · {loc}</span>}
+                  {cite
+                    ? <span dangerouslySetInnerHTML={{ __html: renderInline(cite) }} />
+                    : <span class="muted">Source pending</span>}
+                  {loc && (<><span class="muted"> · </span><span dangerouslySetInnerHTML={{ __html: renderInline(loc) }} /></>)}
                   {r.pending && <span class="muted"> · source being verified</span>}
                 </li>
               );
@@ -115,7 +119,10 @@ export default function UnitMeta({ unit }: { unit: any }) {
           {unit.lean_status === "partial" && cleanLeanGap(unit.lean_mathlib_gap) && (
             <details>
               <summary>Mathlib gap</summary>
-              <pre class="lean-gap">{cleanLeanGap(unit.lean_mathlib_gap)}</pre>
+              <div
+                class="lean-gap"
+                dangerouslySetInnerHTML={{ __html: renderBlock(cleanLeanGap(unit.lean_mathlib_gap)) }}
+              />
             </details>
           )}
         </section>

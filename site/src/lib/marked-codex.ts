@@ -10,6 +10,25 @@
 // pattern so it does not collide with ordinary markdown link references.
 
 import type { TokenizerExtension, RendererExtension } from "marked";
+import { Marked } from "marked";
+import markedKatex from "marked-katex-extension";
+
+// Local katex-enabled inline renderer for math nested inside opaque HTML
+// blocks (e.g. `<li>$x$</li>`). Kept local to avoid a circular import with
+// `inline-math.ts` (which now consumes `preprocessMath` from this module).
+const _inlineMd = new Marked({ gfm: true });
+_inlineMd.use(
+  markedKatex({
+    throwOnError: false,
+    output: "html",
+    strict: "ignore",
+    nonStandard: true,
+  }) as any,
+);
+function renderInlineLocal(s: string): string {
+  if (!s) return "";
+  return (_inlineMd.parseInline(s) as string).trim();
+}
 
 type Tok = {
   type: string;
@@ -85,21 +104,27 @@ const refRenderer: RendererExtension = {
     if (head === "TODO_REF" || /\bpending\b/i.test(inner)) {
       const cite = cleanCite(head === "TODO_REF" ? rest : inner) || "source pending";
       const c = escapeHtml(cite);
-      return `<span class="ref ref--pending" data-ref-pending="1" data-ref-cite="${c}" title="${c} — source being verified"><sup>[${c}]</sup></span>`;
+      const rendered = renderInlineLocal(cite);
+      const h = escapeHtml(rendered);
+      return `<span class="ref ref--pending" data-ref-pending="1" data-ref-cite="${c}" data-ref-html="${h}" title="${c} — source being verified"><sup>[${rendered}]</sup></span>`;
     }
 
     // Resolved: a lowercase slug head is a registered source key, looked up
     // in the citation panel's source table.
     if (/^[a-z][a-z0-9_-]*$/.test(head)) {
-      const supBody = rest ? `${escapeHtml(head)} ${escapeHtml(rest)}` : escapeHtml(head);
+      const renderedRest = rest ? renderInlineLocal(rest) : "";
+      const supBody = rest ? `${escapeHtml(head)} ${renderedRest}` : escapeHtml(head);
       const title = rest ? escapeHtml(`${head} — ${rest}`) : escapeHtml(head);
-      return `<span class="ref" data-ref-source="${escapeHtml(head)}" data-ref-locator="${escapeHtml(rest)}" title="${title}"><sup>[${supBody}]</sup></span>`;
+      const html = rest ? escapeHtml(renderedRest) : "";
+      return `<span class="ref" data-ref-source="${escapeHtml(head)}" data-ref-locator="${escapeHtml(rest)}" data-ref-html="${html}" title="${title}"><sup>[${supBody}]</sup></span>`;
     }
 
     // Free-form citation (e.g. author-year) with no registered key.
     const cite = cleanCite(inner);
     const c = escapeHtml(cite);
-    return `<span class="ref" data-ref-cite="${c}" title="${c}"><sup>[${c}]</sup></span>`;
+    const rendered = renderInlineLocal(cite);
+    const h = escapeHtml(rendered);
+    return `<span class="ref" data-ref-cite="${c}" data-ref-html="${h}" title="${c}"><sup>[${rendered}]</sup></span>`;
   },
 };
 
@@ -229,23 +254,232 @@ function cleanImageAltPlaceholder(markdown: string): string {
 
 // Some units wrap every body paragraph in literal `<p>…</p>` HTML. Marked
 // treats raw-HTML blocks as opaque, which blocks inline syntax inside —
-// `[ref:]` markers in particular never get tokenized. Strip the redundant
-// wrapper tags; markdown will paragraph the content normally.
+// `[ref:]` markers and `$…$` math never get tokenized. Strip the redundant
+// wrapper tags; markdown will paragraph the content normally. Tagged openers
+// such as `<p class="exercise__label">…</p>` carry styling and are left intact
+// (stripping only their `</p>` would leave a dangling opener and pull the
+// following line into the same raw-HTML block).
 function stripRedundantPTags(markdown: string): string {
-  return markdown.replace(/^<p>/gm, "").replace(/<\/p>$/gm, "");
+  return markdown
+    .split("\n")
+    .map((line) => {
+      if (/^<p[^>]/.test(line)) return line;
+      let out = line;
+      if (/^<p>/.test(out)) out = out.replace(/^<p>/, "");
+      if (/<\/p>$/.test(out)) out = out.replace(/<\/p>$/, "");
+      return out;
+    })
+    .join("\n");
 }
 
-// Collapsible `<details>` exercise-answer blocks are HTML blocks; without a
-// blank line inside, marked treats their contents as opaque raw HTML and
-// inline syntax like `[ref:]` never tokenizes. Inject blank lines so the
-// inner content is parsed as markdown per CommonMark HTML-block rules.
+// HTML-block boundaries in exercise scaffolding (`<aside>`, `<p …>`, `<details>`,
+// `<summary>`) make marked treat everything up to the next blank line as an
+// opaque raw-HTML block, so the markdown content between them (math, emphasis,
+// `[ref:]`) is never tokenised. Inject blank lines around these boundaries so
+// marked re-enters markdown parsing for the inner content, per CommonMark
+// HTML-block rules.
 function openDetailsBlocks(markdown: string): string {
   return markdown
     .replace(/(<summary>[^<]*<\/summary>)\n(?!\n)/g, "$1\n\n")
-    .replace(/(?<!\n)\n<\/details>/g, "\n\n</details>");
+    .replace(/(?<!\n)\n<\/details>/g, "\n\n</details>")
+    .replace(/(<\/p>)\n(?!\n)/g, "$1\n\n")
+    .replace(/(<aside[^>]*>)\n(?!\n)/g, "$1\n\n")
+    .replace(/(?<!\n\n)(\n*)(<\/aside>)/g, "\n\n$2");
 }
 
-// Inline editorial TODO markers left in prose, e.g. `**[Need to source — …]**`.
+// Display-math blocks (`$$...$$`) must sit on their own paragraph for the
+// marked-katex block tokenizer to recognise them. Two failure modes arise in
+// the corpus:
+//   (a) a `$$` opener glued to the preceding prose ("we get:\n$$..") — marked
+//       folds the region into one paragraph, the inline tokenizer cannot span
+//       the newlines, and the math interior leaks into emphasis;
+//   (b) `$$` delimiters glued to the math content (`$$\begin{array}{c}\n..\n\end{array}$$`)
+//       — marked-katex only fires its block tokenizer on a line that begins
+//       with `$$`, so a glued opener is never recognised.
+// Fix: phase 1 normalises every glued `$$` delimiter onto its own line (and
+// splits single-line `$$...$$` into opener/content/closer); phase 2 ensures a
+// blank line borders the now-standalone delimiters. Fenced code is skipped so
+// `$$` shown as a code example is left alone.
+function separateDisplayMath(markdown: string): string {
+  const lines = markdown.split("\n");
+  const norm: string[] = [];
+  let inFence = false;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (/^(?:`{3,}|~{3,})/.test(trimmed)) {
+      inFence = !inFence;
+      norm.push(line);
+      continue;
+    }
+    if (inFence) {
+      norm.push(line);
+      continue;
+    }
+    if (trimmed === "$$" || !trimmed.includes("$$")) {
+      norm.push(line);
+      continue;
+    }
+    if (trimmed.startsWith("$$") && trimmed.endsWith("$$") && trimmed.length > 4) {
+      norm.push("$$", trimmed.slice(2, -2), "$$");
+      continue;
+    }
+    if (trimmed.startsWith("$$")) {
+      norm.push("$$", trimmed.slice(2));
+      continue;
+    }
+    if (trimmed.endsWith("$$")) {
+      norm.push(trimmed.slice(0, -2), "$$");
+      continue;
+    }
+    norm.push(line);
+  }
+  const out: string[] = [];
+  let inMath = false;
+  for (let i = 0; i < norm.length; i++) {
+    const line = norm[i];
+    if (line.trim() !== "$$") {
+      out.push(line);
+      continue;
+    }
+    if (!inMath) {
+      if (out.length && out[out.length - 1].trim() !== "") out.push("");
+      out.push(line);
+      inMath = true;
+    } else {
+      out.push(line);
+      const next = norm[i + 1];
+      if (next !== undefined && next.trim() !== "") out.push("");
+      inMath = false;
+    }
+  }
+  return out.join("\n");
+}
+
+// marked-katex's inline tokenizer cannot match `$…$` across a newline, so a
+// math expression an author split over two source lines renders raw. Re-join
+// such split spans by collapsing the line break inside a line whose `$` count
+// (excluding `$$` display delimiters and escaped `\$`) is odd. Safe for this
+// corpus because `$` is always math (no currency). Fenced code and paragraph
+// breaks are respected.
+function rejoinSplitInlineMath(markdown: string): string {
+  const lines = markdown.split("\n");
+  let inFence = false;
+  let guard = 0;
+  for (let i = 0; i < lines.length - 1 && guard < 200000; i++) {
+    guard++;
+    const line = lines[i];
+    if (/^(?:`{3,}|~{3,})/.test(line.trim())) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    const next = lines[i + 1];
+    if (next.trim() === "") continue;
+    const cleaned = line.replace(/\$\$/g, "").replace(/\\\$/g, "");
+    const dollars = (cleaned.match(/\$/g) || []).length;
+    if (dollars % 2 === 1) {
+      lines[i] = line + " " + next.trimStart();
+      lines.splice(i + 1, 1);
+      i--;
+    }
+  }
+  return lines.join("\n");
+}
+
+
+// an italic/bold `*...*` region when the math itself contains `*` (Hodge star,
+// superscript-star `^*`, convolution). The `*` inside the math is read as an
+// emphasis closer, the `$...$` is broken open, and the interior leaks as raw
+// TeX. KaTeX renders `*` and `\ast` identically in math mode, so we rewrite
+// bare `*` to `\ast` inside math delimiters — a visual no-op that simply stops
+// marked from seeing the asterisk as an emphasis delimiter. Fenced code and
+// inline code spans are left untouched (verified: no real corpus code span
+// contains both `$` and `*`). Runs after separateDisplayMath so multi-line
+// `$$...$$` blocks already have their delimiters on isolated lines.
+function protectMathAsterisk(markdown: string): string {
+  const lines = markdown.split("\n");
+  let inFence = false;
+  let inDisplay = false;
+  // Convert bare `*` to `\ast`, but only inside math delimiters and only when
+  // the star is not a LaTeX starred-command suffix (`\tag*`, `\sqrt*`, …) —
+  // those keep their `*`. `(?<![\\a-zA-Z])` prevents touching a star that
+  // follows a backslash or a letter, so `\tag*` and `ab*c` are preserved while
+  // `^*` (the Hodge-star / superscript case that trips marked's emphasis) is
+  // rewritten.
+  // Convert bare `*` to `\ast`, but only inside math delimiters. Three cases:
+  //  (1) a starred LaTeX command suffix (`\operatorname*`, `\sum*`) — the star
+  //      is a variant marker, not a symbol; drop it so it neither breaks KaTeX
+  //      (`\operatorname\ast` is invalid) nor trips marked's emphasis;
+  //  (2) a standalone math star (`^*` Hodge/superscript, ` * ` multiplication)
+  //      that is not part of `**` and not letter/backslash-preceded — rewrite
+  //      to `\ast` so marked's emphasis tokenizer cannot split the `$…$` span;
+  //  (3) everything else (`**` bold markers, `xy*z` juxtaposition) — leave
+  //      intact.
+  const toAst = (s: string) =>
+    s
+      .replace(/\\([a-zA-Z]+)\*\{/g, "\\$1{")
+      .replace(/\\([a-zA-Z]+)\*/g, "\\$1")
+      .replace(/(?<![\\a-zA-Z*])\*(?!\*)/g, "\\ast");
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmed = line.trim();
+    if (/^(?:`{3,}|~{3,})/.test(trimmed)) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    const isDelim = trimmed === "$$";
+    if (inDisplay) {
+      if (isDelim) {
+        inDisplay = false;
+        continue;
+      }
+      lines[i] = toAst(line);
+      continue;
+    }
+    if (isDelim) {
+      inDisplay = true;
+      continue;
+    }
+    // Inline / single-line math: convert `*` only inside the math body, not in
+    // the leading character captured before the opening `$` (that may be a
+    // legitimate emphasis delimiter — e.g. `*$x$ text*`).
+    lines[i] = line.replace(
+      /(`[^`]*`)|(\$\$.*?\$\$)|(^|[^\\$])\$([^\n$]+?)(?<!\\)\$(?!\d)/g,
+      (m, code: string, display: string, lead: string, body: string) => {
+        if (code) return code;
+        if (display) return toAst(display);
+        return lead + "$" + toAst(body) + "$";
+      },
+    );
+  }
+  return lines.join("\n");
+}
+
+
+// Inline-content HTML tags (`<li>`, `<td>`, …) are opaque HTML blocks to
+// marked, so `$…$` math nested inside them never reaches the katex tokenizer.
+// Exercise multiple-choice options in particular wrap math-bearing text in
+// `<li>…</li>`. Pre-render the inner content through the same inline pipeline
+// used for unit titles so the math ships as KaTeX HTML.
+function renderMathInHtmlItems(markdown: string): string {
+  return markdown.replace(
+    /(<(?:li|td|th|option|dt|dd|figcaption|caption)\b[^>]*>)([\s\S]*?)(<\/(?:li|td|th|option|dt|dd|figcaption|caption)>)/g,
+    (_m, open: string, body: string, close: string) =>
+      open + renderInlineLocal(body) + close,
+  );
+}
+
+// The math-specific preprocessing transforms (delimiter normalisation, split
+// inline-math rejoining, emphasis-asterisk protection), factored out so they
+// can be reused by `renderBlock` in `inline-math.ts` for fields like
+// `lean_mathlib_gap` that render through a separate Marked instance.
+export function preprocessMath(markdown: string): string {
+  return protectMathAsterisk(
+    rejoinSplitInlineMath(separateDisplayMath(markdown)),
+  );
+}
+
 // Self-contained bold spans; consume one leading space so removal doesn't
 // leave a "word ," artifact. (We do not touch unbracketed prose such as
 // "no citation needed".)
@@ -320,9 +554,17 @@ export const codexMarkedExtensions = {
       return stripProductionNotes(
         stripEditorialMarkers(
           stripCatalogEntry(
-            stripRedundantPTags(
-              openDetailsBlocks(
-                cleanImageAltPlaceholder(cleanProseJargon(markdown)),
+            renderMathInHtmlItems(
+              stripRedundantPTags(
+                openDetailsBlocks(
+                  protectMathAsterisk(
+                    rejoinSplitInlineMath(
+                      separateDisplayMath(
+                        cleanImageAltPlaceholder(cleanProseJargon(markdown)),
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
           ),

@@ -1,4 +1,5 @@
 import { getCollection } from "@neutron-build/core";
+import { renderInline } from "../lib/inline-math";
 
 export function head() {
   return {
@@ -45,7 +46,7 @@ export default function PhysicsLanding({ data }: { data: any }) {
             {data.units.map((u: any) => (
               <li>
                 <a href={`/u/${u.id}`}>
-                  <code>{u.id}</code> — {u.title}
+                  <code>{u.id}</code> — <span dangerouslySetInnerHTML={{ __html: renderInline(u.title) }} />
                 </a>
                 {" "}
                 <span class={`badge badge--${u.status}`}>{u.status}</span>
