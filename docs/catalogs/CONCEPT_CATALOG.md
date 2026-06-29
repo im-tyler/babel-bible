@@ -24334,6 +24334,12 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **unit**: `52.02.01`
 - **notes**: National income, growth (Solow), business cycles, monetary/fiscal policy (IS-LM, AD-AS), inflation/unemployment. Crossrefs micro [52.01.01], econometrics [52.03.01].
 
+### economics.solow-growth-model
+
+- **title**: Solow growth model, convergence, and endogenous growth
+- **unit**: `52.02.02`
+- **notes**: Cobb-Douglas Solow-Swan model, the steady state, golden rule of capital accumulation, absolute vs conditional convergence, Mankiw-Romer-Weil human-capital augmentation, and the endogenous-growth turn (AK model, Romer R&D, Schumpeterian). Crossrefs macroeconomics [52.02.01], microeconomics [52.01.01], optimisation [44.02.01], dynamic systems [44.08.03], econometrics [52.03.01].
+
 
 ### linguistics.morphology
 
@@ -24919,3 +24925,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **title**: Sequences and series — arithmetic, geometric, limits
 - **unit**: `00.15.01`
 - **notes**: Arithmetic sequences, geometric sequences, the common series (sum formulas), limits of sequences informally, sigma notation, the bridge to calculus. (audit gap — the standard bridge into calculus). Crossrefs induction-combinatorics [00.12.x].
+
+
+### music-art.modern-dance-technique
+
+- **title**: Modern dance technique — Graham, Cunningham, and Balanchine
+- **unit**: `34.10.02`
+- **prerequisites**: music-art.dance
+- **tier_anchors**:
+  - master: Graham, Blood Memory (1991); Vaughan, Cunningham: Sixty Years (1997); Gottlieb, Balanchine: The Ballet Maker (2004)
+  - intermediate: Vaughan 1997; Horosko 2002; Schorer 1999
+  - beginner: Horosko 2002 Ch. 1-4; Schorer 1999 introduction
+- **notes**: Technique-focused depth fill of [34.10.01]. Formal signature Sigma(T) = (initiation locus, gravitational stance, center) classifies Graham, Balanchine, and Cunningham as three distinct cells of one lattice; bipolar product decomposition (Cunningham), synchronization homomorphism (Balanchine), breathing-cycle periodic orbit (Graham). Crossrefs dance [34.10.01], counterpoint [34.01.02], theater [34.09.01], modern art [34.04.02], aesthetics [34.07.02].
+
+### stat-mech.jarzynski-crooks-fluctuation-theorems
+
+- **title**: Jarzynski equality and Crooks fluctuation theorem
+- **unit**: `08.12.03`
+- **prerequisites**: `stat-mech.partition-function`, `stat-mech.boltzmann-distribution`, `stat-mech.free-energy`, `stat-mech.fluctuation-dissipation-theorem`, `stat-mech.equilibrium-fluctuations-thermodynamic`
+- **tier_anchors**:
+  - master: Jarzynski 1997 *Phys. Rev. Lett.* 78, 2690; Crooks 1999 *Phys. Rev. E* 60, 2721; Evans-Searles 1993; Gallavotti-Cohen 1995; Kawai-Parrondo-van den Broeck 2007; Seifert 2005; Collin/Ritort 2005
+  - intermediate: Kubo *Statistical Mechanics*; Chaikin-Lubensky Ch. 7; Reichl Ch. 15
+  - beginner: Reif §5.6 (free energy and maximum work); Kittel Ch. 12
+- **notes**: For a system prepared in equilibrium at temperature $T$ and driven out of equilibrium by a finite-time protocol $\lambda(t)$, the Jarzynski equality $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ (Jarzynski 1997 *PRL* 78, 2690) relates the exponential average of the work over repetitions of the protocol to the equilibrium Helmholtz free-energy difference $\Delta F = F_B - F_A$. The second law $\langle W\rangle \ge \Delta F$ is the Jensen-inequality shadow. The Crooks fluctuation theorem (Crooks 1999 *PRE* 60, 2721) gives the trajectory-level origin: $P_F(W)/P_R(-W) = e^{\beta(W-\Delta F)}$, where $P_F$ and $P_R$ are the forward and time-reversed work distributions; they cross at exactly $W = \Delta F$. Origin: microscopic reversibility $\mathcal{P}_F[x]/\mathcal{P}_R[\tilde x] = e^{\beta(W-\Delta F)}$. Dissipated work $W_{\mathrm{diss}} = W - \Delta F$ is a Kullback-Leibler divergence: $D_{\mathrm{KL}}(P_F\|P_R\circ(-)) = \beta\langle W_{\mathrm{diss}}\rangle$ (Kawai-Parrondo-van den Broeck 2007). Master-tier scope: Evans-Searles transient FT; Gallavotti-Cohen steady-state FT; Seifert stochastic entropy production integral FT; thermodynamic length and the Fisher-metric minimum-dissipation bound $\langle W_{\mathrm{diss}}\rangle \ge \tfrac12 k_BT \mathcal{L}_{\min}^2/\tau$ (Sivak-Crooks); quantum two-point fluctuation theorems (Tasaki, Kurchan, Campisi-Hänggi-Talkner); Sagawa-Ueda information-theoretic second law $\langle W\rangle \ge \Delta F - k_BT I$ for Maxwell demons. Experimentally verified on single RNA hairpins by Liphardt 2002 (Jarzynski) and Collin/Ritort 2005 (Crooks). Builds on the equilibrium fluctuation theory of [08.12.02] and the linear-response FDT of [08.12.01].

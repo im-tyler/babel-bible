@@ -119,6 +119,30 @@
 ],
 "title": "Function"
 },
+"00.02.06": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "set-and-function",
+"curriculum": "precalc-home",
+"field": "foundations",
+"fieldLabel": "Foundations & Precalculus",
+"fieldOrder": 0,
+"id": "00.02.06",
+"prereqs": [
+"00.02.05"
+],
+"section": "precalc",
+"slug": "sets-relations-functions-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sets, relations, and functions \u2014 the language of mathematics"
+},
 "00.03.01": {
 "area": "math",
 "books": [
@@ -221,6 +245,31 @@
 "master"
 ],
 "title": "Inequalities (linear and quadratic)"
+},
+"00.04.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "inequalities",
+"curriculum": "precalc-home",
+"field": "foundations",
+"fieldLabel": "Foundations & Precalculus",
+"fieldOrder": 0,
+"id": "00.04.02",
+"prereqs": [
+"00.04.01",
+"00.03.01"
+],
+"section": "precalc",
+"slug": "inequalities-systems-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Inequalities and systems of equations"
 },
 "00.05.01": {
 "area": "math",
@@ -486,6 +535,31 @@
 ],
 "title": "Cartesian coordinates and distance in the plane"
 },
+"00.09.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "coordinate-geom",
+"curriculum": "precalc-home",
+"field": "foundations",
+"fieldLabel": "Foundations & Precalculus",
+"fieldOrder": 0,
+"id": "00.09.02",
+"prereqs": [
+"00.09.01",
+"00.03.01"
+],
+"section": "precalc",
+"slug": "coordinate-geometry-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Coordinate geometry \u2014 distance, lines, and circles"
+},
 "00.10.01": {
 "area": "math",
 "books": [
@@ -511,6 +585,31 @@
 "master"
 ],
 "title": "Conic sections (parabola, ellipse, hyperbola)"
+},
+"00.10.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "conics",
+"curriculum": "precalc-home",
+"field": "foundations",
+"fieldLabel": "Foundations & Precalculus",
+"fieldOrder": 0,
+"id": "00.10.02",
+"prereqs": [
+"00.10.01",
+"00.09.01"
+],
+"section": "precalc",
+"slug": "conics-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Conic sections \u2014 parabola, ellipse, hyperbola"
 },
 "00.11.01": {
 "area": "math",
@@ -659,6 +758,54 @@
 "master"
 ],
 "title": "Solid geometry (volume)"
+},
+"00.14.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "complex-numbers",
+"curriculum": "precalc-home",
+"field": "foundations",
+"fieldLabel": "Foundations & Precalculus",
+"fieldOrder": 0,
+"id": "00.14.01",
+"prereqs": [
+"00.07.01"
+],
+"section": "precalc",
+"slug": "complex-numbers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Complex numbers \u2014 rectangular and polar form"
+},
+"00.15.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "sequences-series",
+"curriculum": "precalc-home",
+"field": "foundations",
+"fieldLabel": "Foundations & Precalculus",
+"fieldOrder": 0,
+"id": "00.15.01",
+"prereqs": [
+"00.12.01"
+],
+"section": "precalc",
+"slug": "sequences-series",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sequences and series \u2014 arithmetic, geometric, and the bridge to calculus"
 },
 "01.01.01": {
 "area": "math",
@@ -1627,6 +1774,31 @@
 ],
 "title": "Hilbert basis theorem; Noetherian rings and modules"
 },
+"01.02.18": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "groups",
+"curriculum": "foundations-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.02.18",
+"prereqs": [
+"01.04.01",
+"01.02.01"
+],
+"section": "foundations",
+"slug": "finite-fields-frobenius",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Finite fields F_q and the Frobenius automorphism"
+},
 "01.02.19": {
 "area": "math",
 "books": [
@@ -1860,6 +2032,33 @@
 "master"
 ],
 "title": "Rings and modules"
+},
+"01.03.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "rings-modules",
+"curriculum": "algebra-home",
+"field": "algebra",
+"fieldLabel": "Algebra",
+"fieldOrder": 1,
+"id": "01.03.02",
+"prereqs": [
+"01.03.01",
+"01.02.07",
+"01.01.11",
+"01.02.01"
+],
+"section": "foundations",
+"slug": "modules-over-a-pid",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Modules over a PID and the structure theorem"
 },
 "01.04.01": {
 "area": "math",
@@ -2226,6 +2425,30 @@
 ],
 "title": "The real numbers \u2014 Dedekind cuts, Cauchy completeness, and uniqueness"
 },
+"02.03.01": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "sequences-series",
+"curriculum": "analysis-home",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.03.01",
+"prereqs": [
+"02.02.01"
+],
+"section": "analysis",
+"slug": "sequences-convergence-limits",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Sequences \u2014 convergence and limits"
+},
 "02.03.02": {
 "area": "math",
 "books": [
@@ -2299,6 +2522,31 @@
 "master"
 ],
 "title": "Step-function integral and the Darboux integral"
+},
+"02.04.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "integration",
+"curriculum": "analysis-home",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.04.02",
+"prereqs": [
+"02.04.01",
+"02.02.01"
+],
+"section": "analysis",
+"slug": "riemann-integral",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Riemann integral"
 },
 "02.04.03": {
 "area": "math",
@@ -3448,6 +3696,58 @@
 "master"
 ],
 "title": "Open mapping and closed graph theorems"
+},
+"02.11.10": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "functional-analysis",
+"curriculum": "analysis-home",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.11.10",
+"prereqs": [
+"02.11.02",
+"02.11.09",
+"02.11.01"
+],
+"section": "analysis",
+"slug": "banach-steinhaus",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Banach-Steinhaus \u2014 the uniform boundedness principle"
+},
+"02.11.11": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "functional-analysis",
+"curriculum": "analysis-home",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.11.11",
+"prereqs": [
+"02.11.02",
+"02.11.03",
+"02.11.01"
+],
+"section": "analysis",
+"slug": "spectral-theorem",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The spectral theorem"
 },
 "02.12.01": {
 "area": "math",
@@ -28160,6 +28460,31 @@
 ],
 "title": "Synchrotron radiation: relativistic circular motion and the 1/gamma^4 power formula"
 },
+"10.07.06": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "radiation",
+"curriculum": "em-sr-home",
+"field": "classical-physics",
+"fieldLabel": "Classical Mechanics & EM",
+"fieldOrder": 20,
+"id": "10.07.06",
+"prereqs": [
+"10.07.01",
+"10.07.02"
+],
+"section": "em-sr",
+"slug": "antennas-scattering-radiation-reaction",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Radiation \u2014 antennas, scattering, and radiation reaction"
+},
 "10.08.01": {
 "area": "physics",
 "books": [
@@ -29121,6 +29446,30 @@
 "master"
 ],
 "title": "Critical phenomena and renormalization group"
+},
+"11.07.02": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "rg",
+"curriculum": "stat-mech-physics-home",
+"field": "statistical-physics",
+"fieldLabel": "Statistical Mechanics",
+"fieldOrder": 22,
+"id": "11.07.02",
+"prereqs": [
+"11.07.01"
+],
+"section": "stat-mech-physics",
+"slug": "renormalization-group-depth",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The renormalization group \u2014 Wilson's framework"
 },
 "11.07.03": {
 "area": "physics",
@@ -31760,6 +32109,31 @@
 ],
 "title": "The Standard Model \u2014 electroweak unification and QCD"
 },
+"12.21.02": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "standard-model",
+"curriculum": "quantum-home",
+"field": "quantum",
+"fieldLabel": "Quantum Theory",
+"fieldOrder": 21,
+"id": "12.21.02",
+"prereqs": [
+"12.21.01",
+"12.18.01"
+],
+"section": "quantum",
+"slug": "electroweak-theory-higgs-mechanism",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electroweak theory and the Higgs mechanism"
+},
 "13.01.01": {
 "area": "physics",
 "books": [
@@ -31917,6 +32291,29 @@
 "master"
 ],
 "title": "Riemann curvature tensor"
+},
+"13.03.02": {
+"area": "physics",
+"books": [],
+"chapter": "curvature",
+"curriculum": "fast-track",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.03.02",
+"prereqs": [
+"13.03.01",
+"13.02.01"
+],
+"section": "gr-cosmology",
+"slug": "ricci-einstein-curvature-tensors",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ricci and scalar curvature, and the Einstein tensor"
 },
 "13.04.01": {
 "area": "physics",
@@ -32314,6 +32711,31 @@
 "master"
 ],
 "title": "Cosmology \u2014 FLRW, inflation, nucleosynthesis, CMB, and structure"
+},
+"13.08.03": {
+"area": "physics",
+"books": [
+"foundational-home"
+],
+"chapter": "cosmology",
+"curriculum": "gr-cosmology-home",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.08.03",
+"prereqs": [
+"13.08.01",
+"13.08.02"
+],
+"section": "gr-cosmology",
+"slug": "cosmological-inflation-slow-roll",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cosmological inflation: slow-roll scalar fields and the origin of structure"
 },
 "13.09.01": {
 "area": "physics",
@@ -34543,6 +34965,28 @@
 ],
 "title": "Nucleic acid chemistry"
 },
+"15.13.02": {
+"area": "other",
+"books": [],
+"chapter": "biomolecules-na",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.13.02",
+"prereqs": [
+"15.13.01"
+],
+"section": "orgchem",
+"slug": "rna-secondary-structure-ribozymes",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "RNA secondary structure and ribozymes"
+},
 "15.14.01": {
 "area": "other",
 "books": [],
@@ -34612,6 +35056,32 @@
 "master"
 ],
 "title": "Heterocyclic chemistry \u2014 rings containing N, O, S"
+},
+"15.15.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "heterocyclic-chemistry",
+"curriculum": "orgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.15.02",
+"prereqs": [
+"15.15.01",
+"15.06.01",
+"15.07.01"
+],
+"section": "orgchem",
+"slug": "named-heterocyclic-ring-synthesis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Named heterocyclic ring synthesis \u2014 Paal\u2013Knorr, Fischer, Skraup, Hantzsch"
 },
 "15.16.01": {
 "area": "other",
@@ -35240,6 +35710,31 @@
 "master"
 ],
 "title": "Lanthanides and actinides \u2014 the f-block"
+},
+"16.09.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "lanthanides-actinides",
+"curriculum": "inorgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.09.02",
+"prereqs": [
+"16.09.01",
+"16.04.01"
+],
+"section": "inorgchem",
+"slug": "actinide-chemistry-nuclear-fuel-cycle",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Actinide chemistry and the nuclear fuel cycle"
 },
 "16.10.01": {
 "area": "other",
@@ -36262,6 +36757,31 @@
 ],
 "title": "Cytoskeleton, molecular motors, and cell motility"
 },
+"17.12.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "cytoskeleton-motility",
+"curriculum": "mol-cell-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.12.02",
+"prereqs": [
+"17.12.01",
+"17.04.02"
+],
+"section": "mol-cell-bio",
+"slug": "molecular-motors-kinesin-dynein-myosin",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Molecular motors: kinesin, dynein, and myosin mechanics"
+},
 "18.01.01": {
 "area": "other",
 "books": [],
@@ -37037,6 +37557,31 @@
 ],
 "title": "Plant physiology \u2014 transport, photosynthesis, hormones, and stress"
 },
+"18.12.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "plant-physiology",
+"curriculum": "organismal-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.12.02",
+"prereqs": [
+"18.12.01",
+"17.04.03"
+],
+"section": "organismal-bio",
+"slug": "photosynthesis-pathways-water-relations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Photosynthesis pathways (C3/C4/CAM) and plant water relations"
+},
 "18.13.01": {
 "area": "other",
 "books": [
@@ -37745,28 +38290,6 @@
 ],
 "title": "Succession: primary and secondary succession and the intermediate disturbance hypothesis"
 },
-"19.10.03": {
-"area": "other",
-"books": [],
-"chapter": "community-ecology",
-"curriculum": "eco-evo-bio",
-"field": "other",
-"fieldLabel": "Other",
-"fieldOrder": 99,
-"id": "19.10.03",
-"prereqs": [
-"19.10.01"
-],
-"section": "eco-evo-bio",
-"slug": "island-biogeography",
-"status": "stub",
-"tiers": [
-"beginner",
-"intermediate",
-"master"
-],
-"title": "Island biogeography: species-area relationships, equilibrium theory, and species turnover"
-},
 "19.11.01": {
 "area": "other",
 "books": [],
@@ -37837,24 +38360,26 @@
 "19.12.02": {
 "area": "other",
 "books": [],
-"chapter": "biogeochemistry",
-"curriculum": "eco-evo-bio",
+"chapter": "biogeography",
+"curriculum": "other",
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
 "id": "19.12.02",
 "prereqs": [
-"19.12.01"
+"19.12.01",
+"19.10.01",
+"19.03.01"
 ],
 "section": "eco-evo-bio",
-"slug": "nutrient-cycles",
-"status": "stub",
+"slug": "island-biogeography-species-area",
+"status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Nutrient cycles: carbon, nitrogen, and phosphorus cycles and their anthropogenic disruption"
+"title": "Island biogeography and the species-area relationship"
 },
 "19.13.01": {
 "area": "other",
@@ -37882,24 +38407,26 @@
 "19.13.02": {
 "area": "other",
 "books": [],
-"chapter": "conservation",
-"curriculum": "eco-evo-bio",
+"chapter": "coevolution",
+"curriculum": "other",
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
 "id": "19.13.02",
 "prereqs": [
-"19.13.01"
+"19.13.01",
+"19.03.01",
+"19.10.01"
 ],
 "section": "eco-evo-bio",
-"slug": "conservation-strategies",
-"status": "stub",
+"slug": "coevolutionary-arms-races-red-queen",
+"status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Conservation strategies: population viability analysis, corridor design, and adaptive management"
+"title": "Coevolutionary arms races and the Red Queen hypothesis"
 },
 "19.14.01": {
 "area": "other",
@@ -37947,6 +38474,51 @@
 "master"
 ],
 "title": "Origin of life \u2014 mechanistic scenarios"
+},
+"19.15.02": {
+"area": "other",
+"books": [],
+"chapter": "origin-of-life",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.15.02",
+"prereqs": [
+"19.15.01",
+"17.04.01"
+],
+"section": "eco-evo-bio",
+"slug": "rna-world-prebiotic-chemistry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "RNA world and prebiotic chemistry"
+},
+"19.16.01": {
+"area": "other",
+"books": [],
+"chapter": "biogeochemistry",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.16.01",
+"prereqs": [
+"19.12.01"
+],
+"section": "eco-evo-bio",
+"slug": "nutrient-cycles",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Nutrient cycles: carbon, nitrogen, and phosphorus cycles and their anthropogenic disruption"
 },
 "20.01.01": {
 "area": "other",
@@ -38294,6 +38866,28 @@
 ],
 "title": "Aesthetics: beauty, art, and judgment"
 },
+"20.04.02": {
+"area": "other",
+"books": [],
+"chapter": "aesthetics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.04.02",
+"prereqs": [
+"20.04.01"
+],
+"section": "philosophy",
+"slug": "kant-critique-of-judgment-sublime",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kant's Critique of Judgment: the beautiful, the sublime, and disinterested pleasure"
+},
 "20.05.02": {
 "area": "other",
 "books": [],
@@ -38445,6 +39039,29 @@
 "master"
 ],
 "title": "Democratic theory: participation, deliberation, and representation"
+},
+"20.07.02": {
+"area": "other",
+"books": [],
+"chapter": "democracy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.07.02",
+"prereqs": [
+"20.07.01",
+"20.14.01"
+],
+"section": "philosophy",
+"slug": "deliberative-democracy-public-sphere",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Deliberative democracy and the public sphere"
 },
 "20.08.01": {
 "area": "other",
@@ -38659,6 +39276,30 @@
 ],
 "title": "Advaita Vedanta and Hindu philosophy: Brahman, Atman, and the question of reality"
 },
+"20.12.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "philosophy-of-language",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.12.02",
+"prereqs": [
+"20.12.01"
+],
+"section": "philosophy",
+"slug": "frege-russell-theories-reference",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Frege, Russell, and theories of reference"
+},
 "20.13.01": {
 "area": "other",
 "books": [],
@@ -38702,6 +39343,30 @@
 "master"
 ],
 "title": "Political philosophy \u2014 justice, authority, and the state"
+},
+"20.14.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "political-philosophy",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.14.02",
+"prereqs": [
+"20.14.01"
+],
+"section": "philosophy",
+"slug": "social-contract-hobbes-locke-rousseau",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Social contract theory: Hobbes, Locke, and Rousseau on sovereignty and legitimacy"
 },
 "20.15.01": {
 "area": "other",
@@ -40368,6 +41033,32 @@
 ],
 "title": "Algebraic number theory \u2014 number fields, Dedekind domains, and the class group"
 },
+"21.17.02": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "algebraic-number-theory",
+"curriculum": "number-theory-home",
+"field": "number-theory",
+"fieldLabel": "Number Theory",
+"fieldOrder": 6,
+"id": "21.17.02",
+"prereqs": [
+"21.17.01",
+"01.04.01",
+"01.03.01"
+],
+"section": "number-theory",
+"slug": "ramification-decomposition-inertia-groups",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ramification, decomposition and inertia groups, the discriminant and the different"
+},
 "21.18.01": {
 "area": "math",
 "books": [
@@ -41611,6 +42302,30 @@
 "master"
 ],
 "title": "Rhetoric and composition theory \u2014 from Aristotle to modern argument"
+},
+"22.05.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "rhetoric-composition-theory",
+"curriculum": "language-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "22.05.02",
+"prereqs": [
+"22.05.01"
+],
+"section": "language",
+"slug": "aristotle-rhetorical-proofs-toulmin-argument",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Aristotle's rhetorical proofs and Toulmin's model of argument"
 },
 "22.06.01": {
 "area": "other",
@@ -44265,6 +44980,31 @@
 ],
 "title": "Structural geology \u2014 stress, strain, folds, and faults"
 },
+"27.09.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "structural-geology",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.09.02",
+"prereqs": [
+"27.09.01",
+"27.01.01"
+],
+"section": "earth-science",
+"slug": "folding-faulting-rock-deformation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Folding, faulting, and rock deformation mechanics"
+},
 "27.10.01": {
 "area": "other",
 "books": [
@@ -44288,6 +45028,30 @@
 "master"
 ],
 "title": "Soil science \u2014 formation, profiles, and the critical zone"
+},
+"27.10.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "soil-science-pedology",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.10.02",
+"prereqs": [
+"27.10.01"
+],
+"section": "earth-science",
+"slug": "soil-classification-horizons-critical-zone",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Soil classification, horizons, and the critical zone"
 },
 "28.01.01": {
 "area": "other",
@@ -44800,6 +45564,31 @@
 "master"
 ],
 "title": "Astrobiology \u2014 life in the universe"
+},
+"28.10.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "astrobiology",
+"curriculum": "astronomy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.10.02",
+"prereqs": [
+"28.10.01",
+"19.15.01"
+],
+"section": "astronomy",
+"slug": "extremophiles-habitable-zones-biosignatures",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Extremophiles, habitable zones, and biosignatures"
 },
 "29.01.01": {
 "area": "other",
@@ -45684,6 +46473,31 @@
 ],
 "title": "Psychometrics \u2014 test construction, reliability, and validity"
 },
+"29.13.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "psychometrics",
+"curriculum": "psychology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.13.02",
+"prereqs": [
+"29.13.01",
+"26.06.01"
+],
+"section": "psychology",
+"slug": "classical-test-theory-reliability-factor-analysis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Classical test theory, reliability, and factor analysis"
+},
 "29.14.01": {
 "area": "other",
 "books": [
@@ -45707,6 +46521,30 @@
 "master"
 ],
 "title": "History of psychology \u2014 from philosophy of mind to cognitive neuroscience"
+},
+"29.14.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "history-of-psychology",
+"curriculum": "psychology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.14.02",
+"prereqs": [
+"29.14.01"
+],
+"section": "psychology",
+"slug": "cognitive-revolution-computational-mind",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The cognitive revolution and the computational theory of mind"
 },
 "29.15.01": {
 "area": "other",
@@ -47825,6 +48663,29 @@
 ],
 "title": "The 21st Century: Digital Revolution, Climate Crisis, and Shifting Power"
 },
+"32.26.02": {
+"area": "other",
+"books": [],
+"chapter": "twenty-first-century",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.26.02",
+"prereqs": [
+"32.26.01",
+"32.25.01"
+],
+"section": "world-history",
+"slug": "globalization-backlash-anthropocene",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Globalization Backlash, the Anthropocene, and the Shifting Global Order"
+},
 "33.01.01": {
 "area": "other",
 "books": [],
@@ -48545,6 +49406,30 @@
 ],
 "title": "Theater and drama \u2014 structure, history, and craft"
 },
+"34.09.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "theater-drama",
+"curriculum": "music-art-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.09.02",
+"prereqs": [
+"34.09.01"
+],
+"section": "music-art",
+"slug": "dramatic-structure-aristotle-brecht-beckett",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Dramatic structure \u2014 from Aristotle to Brecht and Beckett"
+},
 "34.10.01": {
 "area": "other",
 "books": [
@@ -48569,6 +49454,30 @@
 "master"
 ],
 "title": "Dance \u2014 technique, history, and choreography"
+},
+"34.10.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "dance",
+"curriculum": "music-art-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.10.02",
+"prereqs": [
+"34.10.01"
+],
+"section": "music-art",
+"slug": "modern-dance-graham-cunningham-balanchine",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Modern dance technique \u2014 Graham, Cunningham, and Balanchine"
 },
 "35.01.01": {
 "area": "other",

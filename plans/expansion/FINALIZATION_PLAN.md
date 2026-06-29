@@ -16,6 +16,74 @@ BLOCKERs — the June cleanup session already deleted §25-logic, fixed every du
 chapter number, emptied the empty dirs, and resolved the §01/§11/§19 collisions. Do
 **not** re-plan those; they are done.
 
+## Live status & roadmap (2026-06-27 audit — authoritative; supersedes the stale §2 table)
+
+Audited against the live tree. This section is the source of truth; §2 below is
+retained for history and is superseded where it conflicts.
+
+**Headline numbers:** 52 sections · 557 chapters · **2,496 units** · validator
+**67,286/67,286 green** · site build green (post the 2026-06-27 math-rendering
+fix: prose raw-math 776 → 0 visible). §51-linguistics (7/7) and §52-economics
+(6/6) structurally complete. S1–S8 locked.
+
+**Completion-criteria scorecard (§0):**
+1. Findability — **mostly** (homes anchored; depth is the gap).
+2. Structural cleanliness — **1 cosmetic dir-number mismatch** (`08-classification` holds unit `07.04.01`); §05/§08 slug-only dirs are cosmetic.
+3. Tier-2 depth floor — **182 non-survey chapters still at 1–2 units** ← the bulk of remaining work.
+4. Standard-subject coverage — **done** (§51/§52 built).
+5. Validator + build — **green**.
+6. Scope decisions recorded — **done**.
+
+**The gate (Tyler, not autonomous):** ~29,060 `TODO_REF` citation placeholders.
+Resolution requires acquiring the ~13 sources in `docs/catalogs/NEED_TO_SOURCE.md`
+— the single biggest perceived-quality lever, and the only item that cannot
+proceed without Tyler.
+
+### Ordered completion roadmap
+
+**Phase 0 — Tyler gate.** Acquire sources (`NEED_TO_SOURCE.md`). Unblocks Phase 3.
+
+**Phase 1 — Structural cleanup (autonomous, ~1 hr, zero content risk).**
+- P1a: rename `content/07-representation-theory/08-classification` → `05-classification` (its unit `07.04.01` keeps its ID — load-bearing for inbound refs; `04` is taken by `04-symmetric`, `05` is the free slot, so this clears the `08` clash with `08-finite-groups-depth`). Pure dir rename; frontmatter/unit-id unchanged; zero reader impact.
+- P1b: confirm no orphan dirs; confirm every unit's frontmatter `chapter` has a matching dir (load-bearing for `build_lenses`).
+- (Optional, cosmetic) normalize §05/§08 slug-only dirs — declined by default per B1/B2.
+
+**Phase 2 — Depth fills (autonomous — the LONG POLE, ~300–400 new units).**
+Raise the 182 thin non-survey chapters to ≥3 (target 4–5). Curricular-weight
+order, each wave disjoint across sections (parallel-producer pattern, serial
+integration — the proven v0.5 cadence):
+
+1. **Math spines** — §01-foundations (rings/fields/commutative/homological
+   anchors exist → thicken), §41-category-theory, §04-AG advanced
+   (étale/abelian/birational/intersection/deformation), §03 alg-top depth,
+   §21-ANT + class-field-theory, §07-rep-theory, §02-analysis thin,
+   §48-differential-geometry depth.
+2. **Sciences** — §13-GR intros (equivalence/curvature/cosmology),
+   §15-orgchem advanced, §16-inorgchem main-group/f-block/catalysis,
+   §17-mol-cell-bio methods/cytoskeleton, §18 organismal plant/sensory,
+   §12-quantum Standard-Model depth, §28-astronomy, §27-earth-science,
+   §19-eco-evo-bio tail.
+3. **Humanities/social** — §32-world-history (20 thin chapters, biggest single
+   block), §20-philosophy depth, §29-psychology, §30-sociology, §34-music-art,
+   §51-linguistics depth, §52-economics depth, §22-language, §31-anthropology,
+   §33-history-of-science, §35-health, §36-media.
+4. **Remaining thin chapters** in section-prefix order (§00, §06, §08–§11, §14,
+   §23, §24, §37–§40, §42–§47, §49).
+
+Each unit: produce per `docs/briefs/PRODUCER_BRIEF.md` + `docs/specs/UNIT_SPEC.md`
+→ validate 27/27 (`scripts/validate_unit.py`) → integrate (`CONCEPT_CATALOG.md`
+stub + `manifests/deps.json`) → `build_lenses` smoke-test.
+
+**Phase 3 — Citation resolution (autonomous, AFTER Phase 0).** Replace
+`TODO_REF` placeholders with sourced citations against the acquired set.
+
+**Phase 4 — Final verification.** Re-run §0 criteria 1–6; declare v1 final;
+archive this file; update `OVERVIEW.md` §13.
+
+**Cadence:** ~4–6 validated units per session wave. Phase 2 is many sessions
+over months — exactly as §7 estimates. Loop: read this roadmap → pick the next
+disjoint slice → produce → validate → integrate → checkpoint → resume.
+
 ---
 
 ## 0. What "done" means (completion criteria)
@@ -359,6 +427,11 @@ existing pipeline has proven it can do this — the constraint is decision bandw
 ---
 
 ## 8. Completion log (append one line per closed task)
+
+- **2026-06-27 — Phase 2 waves 6–7 (autonomous loop continues).** 10 more depth units, all 27/27, all gate-cleared. Wave 6: `08.12.03` Jarzynski/Crooks fluctuation theorems, `43.05.09` randomized SVD/sketching, `41.07.02` braided/ribbon monoidal categories, `51.02.02` autosegmental phonology + OT, `52.02.02` Solow growth + convergence, `30.10.02` feminist theory/intersectionality. Wave 7: `04.19.02` cotangent complex + deformation-obstruction, `04.18.02` Schubert calculus/Grassmannian cohomology, `01.06.02` syzygy/Hilbert/Auslander-Buchsbaum, `03.02.02` Sard/transversality/genericity. The gate again blocked would-be duplicates (Borel-Cantelli vs `37.02.01`, Chow-ring-as-topic vs the `04.18.01` sibling, Abel's theorem vs `06.06.06`, disinformation vs `36.03.02`, big-science vs `33.08.02`) — confirming the corpus is denser than the thin-chapter count suggests, so remaining depth work needs careful niche-topic selection. Two producer tasks returned empty and were re-run cleanly. Corpus 2,521 → **2,531**; validate_all 67,961 → **68,231**; lenses clean; site rebuilt + deployed after each wave-pair.
+- **2026-06-27 — Phase 2 waves 3–5 (autonomous orchestration, dedup gate enforced).** Three more disjoint depth-fill waves, 18 units total, all 27/27, all gate-cleared. The duplicate-detection gate earned its keep across all three waves — it caught and prevented re-creation of: Weil conjectures (vs `04.15.01`), Dedekind domains (vs `21.17.01`), stellar structure (vs `28.02.02`), Nullstellensatz (vs `04.02.07`), Borel-Weil (vs `07.06.09`), Serre duality (vs `04.08.03`), Rawls/Nozick justice (vs `20.02.01`), digital revolution (vs `33.07.01`), anthropological theory (vs `31.01.02`), investigative journalism (vs `36.02.02`), medieval European science (vs `33.02.02`). Wave 3: `27.09.02` folding/faulting/deformation, `27.10.02` soil classification/critical zone, `28.10.02` extremophiles/biosignatures, `18.12.02` C3/C4/CAM + plant water relations, `29.13.02` classical test theory/factor analysis, `17.12.02` molecular-motors mechanics. Wave 4: `20.12.02` Frege/Russell/reference, `20.14.02` social contract (Hobbes/Locke/Rousseau), `34.09.02` dramatic structure Aristotle→Brecht/Beckett, `34.10.02` modern dance Graham/Cunningham/Balanchine, `22.05.02` Aristotle rhetoric + Toulmin, `32.26.02` globalization backlash/Anthropocene. Wave 5: `19.13.02` coevolutionary arms races/Red Queen, `19.15.02` RNA world/prebiotic chemistry, `20.04.02` Kant Critique of Judgment/sublime, `20.07.02` deliberative democracy/public sphere, `15.13.02` RNA secondary structure/ribozymes, `29.14.02` cognitive revolution/computational mind. Corpus 2,503 → **2,521**; validate_all 67,475 → **67,961**; lenses clean; site rebuilt + deployed after each pair of waves.
+- **2026-06-27 — Phase 2 wave 2 (+ duplicate-detection gate).** Built `scripts/check_duplicate.py` (IDF-weighted title/slug/concept similarity over the whole corpus) as a permanent pre-production gate so depth fills don't recreate existing units; it surfaced real overlaps (a "Weil conjectures" proposal vs the existing étale unit, "Dedekind domains" vs `21.17.01`, a "stellar structure" proposal vs the existing `28.02.02`) and is now part of the production loop. Wave 2: 4 depth units, all 27/27, all gate-cleared as non-duplicate — `21.17.02` ramification / decomposition-inertia groups (5972w), `15.15.02` named heterocyclic ring synthesis (6504w), `13.08.03` cosmological inflation / slow-roll (5802w), `16.09.02` actinide chemistry / nuclear fuel cycle (6366w). Corpus 2,499 → **2,503**; validate_all 67,367 → **67,475**; lenses clean.
+- **2026-06-27 — Math-rendering fix + Phase 1 + Phase 2 wave 1.** (a) Fixed all on-page math display (prose raw-math 776 → 0 visible; 2 residual hits live in a collapsed "Mathlib gap" details and a citation tooltip) via six `marked-codex.ts` preprocess passes — `separateDisplayMath`, `rejoinSplitInlineMath`, `protectMathAsterisk`, `openDetailsBlocks`/`stripRedundantPTags` boundary fixes, `renderMathInHtmlItems` — plus `renderInline`/`renderBlock`/`mathToText` for frontmatter fields (titles, tier anchors, references, lean-gap, citation popups); rebuilt + deployed. (b) **Phase 1 (P1a):** renamed `07/08-classification` → `05-classification` (cosmetic, validator green). (c) **Phase 2 wave 1:** 4 depth units shipped, all 27/27 — `01.03.02` modules-over-a-pid (4071w, first pass), `13.03.02` ricci-einstein-curvature-tensors (4739w, first pass), `12.21.02` electroweak-theory-higgs-mechanism (7977w, 2nd pass — 1 paragraph-length fix), `19.12.02` island-biogeography-species-area (4764w, first pass). (d) Fixed a pre-existing ID collision surfaced by the wave: renumbered the mislabeled `19.12.02`-nutrient-cycles stub → `19.16.01`; archived the redundant `19.10.03` island-biogeography stub (superseded by the real `19.12.02`) and redirected its 2 inbound refs. Corpus 2,496 → **2,499**; validate_all 67,286 → **67,367**; build_lenses clean. Next: Phase 2 wave 2 (next disjoint slice — §41/§04/§21 math depth, §32-world-history block).
 
 - **2026-06-17 — Waves 8–15 (session 1, parallel agents, "do it all" directive).** Drained the bulk of the queue: **48 more units across 8 waves** (6 per wave, disjoint sections, collision-proofed via pre-added catalog stubs). Highlights: §21 ANT+CFT complete (17, 18); §16 inorgchem main-group + f-block + catalysis (08–10); §15 orgchem heterocyclic + polymers/photochem + natural-products (15–17); §17 mol-cell methods + cytoskeleton (11, 12); §18 organismal plant-physiology + sensory (12, 13); §04 AG étale + abelian + birational + intersection + deformation (15–19); §28 ISM + high-energy + instrumentation + astrobiology (07–10); §27 structural + soil (09, 10); §13 GR equivalence-depth + cosmology-depth (01, 08); §12 condensed-matter superconductivity + magnetism/topological + Standard-Model (20, 21); §07 finite-groups-rep (08); §42 proof-theory cut-elimination (05); §41 limits + yoneda + adjunctions depth (02, 03, 04); §48 Riemannian geodesics-depth (01); §02 real-numbers constructions-depth (02); §03 alg-top homology-cohomology (17); §20 metaphysics-depth (11); §32 WWII + globalization + atlantic-slave-trade depth (16, 22, 25); §22 rhetoric + creative-writing + world-literatures (05–07); §29 history-of-psych + I-O psych (14, 15); §30 race-ethnicity + gender-sexuality (09, 10); §34 theater + dance (09, 10); §35 medical-diagnostics + surgery-emergency (09, 10); §50 computer-architecture (13). Corpus 2,392 → 2,471; validate_all 64,478 → 66,611. All units 27/27; integration serial throughout; ~80% first-pass, remainder needed only mechanical banned-word / YAML-escape / heading fixes.
 - **2026-06-17 — Wave 7 (session 1, parallel agents).** First D-item wave (depth fills for established thin chapters). `21.17.01` algebraic-number-theory (NEW §21 chapter 17 — the audit's noted ANT/class-group gap; 27/27 after "trivial"→reword + image-bracket fix), `32.24.02` cold-war depth (§32's thinnest section; first-pass, 6,561 words), `41.03.03` adjunctions unit-counit calculus (§41 depth; first-pass), `16.08.01` main-group descriptive chemistry (NEW §16 chapter 08 — the audit's main-group gap; first-pass). Corpus 2,419→2,423; validate_all 65,315/65,315; math 1,511→1,513.
