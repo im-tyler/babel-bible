@@ -10125,6 +10125,10 @@
 "books": [],
 "curriculum": "organismal-bio"
 },
+"18.02.05": {
+"books": [],
+"curriculum": "other"
+},
 "18.03.01": {
 "books": [],
 "curriculum": "other"
@@ -10610,6 +10614,12 @@
 "curriculum": "philosophy-home"
 },
 "20.15.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
+},
+"20.15.03": {
 "books": [
 "foundational-home"
 ],
@@ -11846,6 +11856,10 @@
 "28.02.04": {
 "books": [],
 "curriculum": "astronomy"
+},
+"28.02.05": {
+"books": [],
+"curriculum": "other"
 },
 "28.03.01": {
 "books": [],

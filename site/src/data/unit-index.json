@@ -37360,6 +37360,28 @@
 ],
 "title": "The cardiac cycle: systole and diastole, the Wiggers diagram, and cardiac output regulation"
 },
+"18.02.05": {
+"area": "other",
+"books": [],
+"chapter": "cardiovascular",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.02.05",
+"prereqs": [
+"18.02.02"
+],
+"section": "organismal-bio",
+"slug": "cardiac-gap-junctions-connexin-coupling-arrhythmia",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cardiac gap junctions: connexin architecture, intercellular coupling, and arrhythmia"
+},
 "18.03.01": {
 "area": "other",
 "books": [],
@@ -39955,6 +39977,30 @@
 "master"
 ],
 "title": "Kant's Critique of Pure Reason: transcendental idealism, the synthetic a priori, and the categories"
+},
+"20.15.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "history-of-philosophy",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.15.03",
+"prereqs": [
+"20.15.01"
+],
+"section": "philosophy",
+"slug": "husserl-phenomenology-intentionality-reduction-transcendental-consciousness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Husserl's phenomenology: intentionality, the reduction, and transcendental consciousness"
 },
 "21.01.01": {
 "area": "math",
@@ -45815,6 +45861,28 @@
 "master"
 ],
 "title": "Stellar endpoints: white dwarfs (Chandrasekhar limit), neutron stars, pulsars, black holes"
+},
+"28.02.05": {
+"area": "other",
+"books": [],
+"chapter": "stars",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.02.05",
+"prereqs": [
+"28.02.01"
+],
+"section": "astronomy",
+"slug": "stellar-nucleosynthesis-b2fh-process-network-burning-stages",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stellar nucleosynthesis: the B\u00b2FH process network, nuclear burning stages, and the origin of the elements"
 },
 "28.03.01": {
 "area": "other",

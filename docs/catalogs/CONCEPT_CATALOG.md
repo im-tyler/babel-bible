@@ -11074,6 +11074,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Eddington 1926, Bethe 1939, Bahcall et al. 2001; secondary: Kippenhahn and Weigert, Stellar Structure and Evolution; Hansen, Kawaler, and Trimble, Stellar Interiors"
 - **notes**: Equations of stellar structure (hydrostatic equilibrium, mass continuity, energy generation, radiative and convective energy transport), boundary conditions, equation of state (ideal gas, degeneracy, radiation pressure), opacity sources (electron scattering, free-free, bound-free, Kramers), nuclear energy generation (proton-proton chain ppI/ppII/ppIII/pep/hep and the CNO bi-cycle), temperature sensitivities (epsilon_pp ~ T^4, epsilon_CNO ~ T^17), Standard Solar Model and Bahcall neutrino flux, solar neutrino problem and its SNO resolution via neutrino oscillations, stellar timescales (dynamical, Kelvin-Helmholtz thermal, nuclear), virial theorem. Master covers Lane-Emden polytropes (n=3, n=1.5), Eddington standard model, OPAL/OP opacity tables, MESA, helioseismology, solar abundance problem, Hayashi track, brown dwarf limit, Schonberg-Chandrasekhar limit. No Lean formalisation; reviewer-attested.
 
+### astronomy.stellar-nucleosynthesis
+
+- **title**: Stellar nucleosynthesis: the B²FH process network, nuclear burning stages, and the origin of the elements
+- **unit**: `28.02.05`
+- **prerequisites**: `astronomy.stars-stellar-evolution-hr-diagram` (28.02.01)
+- **tier_anchors**:
+  - master: Bethe 1939 Phys. Rev. 55:1034; B²FH 1957 Rev. Mod. Phys. 29:547; Cameron 1957 PASP 69:201 / AECL-4548; Wallerstein 1997 Rev. Mod. Phys. 69:995; Kasen 2017 Nature 551:80
+  - intermediate: Clayton 1968 "Principles of Stellar Evolution and Nucleosynthesis"; Carroll-Ostlie 2e Ch. 13, 16; Iliadis 2015 "Nuclear Physics of Stars"
+  - beginner: Bennett et al. Cosmic Perspective 8e Ch. 14; the "we are made of star stuff" framing
+- **notes**: Stellar nucleosynthesis forges every chemical element beyond primordial H/He/Li (which come from Big Bang nucleosynthesis — see [13.08.02]). The eight burning stages (H → He → C → Ne → O → Si → Fe) follow Coulomb-barrier scaling: ignition T grows roughly as (Z₁Z₂)^(4/3), derived from the Gamow peak (Maxwell tail × tunnelling probability). B²FH 1957 organised the production routes into eight processes (H burning, He burning, α process, e[NSE], s, r, p, x). The s-process occurs in AGB stars; the r-process is now understood to be dominated by neutron-star mergers (GW170817, AT 2017gfo kilonova). The triple-alpha rate scales as ρ²Y³T⁻³exp(-44/T₈) ≈ ρ²T⁴⁰ near 10⁸ K via the Hoyle 7.65 MeV 0⁺ resonance in ¹²C. Originator chain: Bethe 1939 (pp/CNO) → Salpeter 1952 / Hoyle 1954 (triple-α, the 7.65 MeV ¹²C resonance, confirmed Dunbar et al. 1953) → B²FH 1957 / Cameron 1957 (synthesis) → Sneden 2000, Cowan 2002 (CS 22892-052 r-process pattern) → Frebel-Christlieb 2013 (HE 1327-2326, Pop III IMF) → Wallerstein 1997 (40-year retrospective) → Kasen 2017 (kilonova r-process confirmation). No Lean formalisation; reviewer-attested.
+
 ### astronomy.galaxies-milky-way-classification
 
 - **title**: Galaxies and the Milky Way
@@ -25222,3 +25233,27 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Hastings 2013 "Catastrophe 1914"; Watson 2014 "Ring of Steel"
   - beginner: Keegan "The First World War" 1998; popular treatment
 - **notes**: The two emblematic 1916 battles that defined industrialized attrition warfare. Verdun (Feb-Dec 1916): Falkenhayn's claimed "Ausblutung" doctrine (per the contested Dec 1915 Christmas Memo; Foley 2005 retranslated and contested its authenticity) met Pétain's defensive logistics on the Voie Sacrée; ~700,000 combined casualties; no strategic breakthrough. The Somme (July-Nov 1916): 1 July as the bloodiest day in British military history (57,000 casualties, 19,000 dead); Haig's breakthrough doctrine defeated by deep dugouts that survived the 7-day preparatory bombardment; ~1.1M combined casualties for ~6 miles of gain. Both battles established the structural fact that 3-to-1 force ratios and pre-sighted defensive firepower made breakthrough impossible until combined-arms doctrine matured in 1917-18.
+
+
+### physiology.cardiac-gap-junctions
+
+- **title**: Cardiac gap junctions: connexin architecture, intercellular coupling, and arrhythmia
+- **unit**: `18.02.05`
+- **prerequisites**: `organismal-bio.cardiac-electrophysiology`
+- **tier_anchors**:
+  - master: Revel-Karnovsky 1967 J. Cell Biol. 33:C7; Spach-Dolber 1986 Circ. Res. 58:356; Gutstein 2001 Cell 107:591
+  - intermediate: Kleber-Agi 2004 Circ. Res. review; Dhein 1998 "Gap Junctions in the Heart"
+  - beginner: standard cardiovascular physiology texts (Hall; Boron-Boulpaep)
+- **notes**: Cardiac gap junctions are hexameric connexin channels (Cx43 in ventricle, Cx40 in atria/His-Purkinje, Cx45 in nodal tissue) that electrically couple cardiomyocytes into a syncytium. The action potential propagates through this syncytium at velocities determined by the gap-junction conductance (gj) and membrane capacitance (Cm), via the discontinuous cable equation. Cx43 remodeling (post-MI border zone, heart failure) reduces conduction velocity and creates the anisotropic substrate for re-entrant arrhythmias — the leading mechanism of sudden cardiac death. Originator chain: Revel-Karnovsky 1967 EM → Loewenstein 1966 electrical coupling → Beyer 1987 Cx43 clone → Spach-Dolber 1986 anisotropic re-entry → Gutstein 2001 conditional KO → Roell 2007 gene therapy proof-of-concept.
+
+
+### philosophy.husserl-phenomenology
+
+- **title**: Husserl's phenomenology: intentionality, the reduction, and transcendental consciousness
+- **unit**: `20.15.03`
+- **prerequisites**: `philosophy.history-of-philosophy`
+- **tier_anchors**:
+  - master: Husserl 1900-01 Logical Investigations; Husserl 1913 Ideas I; Husserl 1931 Cartesian Meditations; Husserl 1936 Crisis; Zahavi 2003 "Husserl's Phenomenology"
+  - intermediate: Moran 2000 "Introduction to Phenomenology"; Zahavi 2019 "Phenomenology: The Basics"
+  - beginner: Heidegger's preface to "The Basic Problems of Phenomenology" (popular treatment); Moran 2000 ch. 1-2
+- **notes**: Husserl's phenomenology (1859-1938) is the foundational project of the continental 20th-century tradition. Three load-bearing concepts: (1) intentionality — consciousness is always consciousness-of-something (transformed from Brentano 1874); (2) the phenomenological reduction / epoché — methodological suspension of the natural attitude to describe phenomena as they appear; (3) transcendental consciousness — the constituting subject that gives meaning to objects. Originator chain: Brentano 1874 (intentionality) -> Husserl 1900-01 LI (anti-psychologism) -> Husserl 1913 Ideas I (transcendental turn) -> Husserl 1931 CM (transcendental ego) -> Husserl 1936 Crisis (life-world). The tradition transforms in Heidegger 1927 (hermeneutic phenomenology, the reduction rejected as Cartesian), Sartre 1936/1943 (consciousness as nothingness), Merleau-Ponty 1945 (lived body), Derrida 1967 (deconstruction of presence).
