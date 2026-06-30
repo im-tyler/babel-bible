@@ -35685,6 +35685,30 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "27.07.05": {
+      "id": "27.07.05",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "32.07.03": {
+      "id": "32.07.03",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "02.07.12": {
+      "id": "02.07.12",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],

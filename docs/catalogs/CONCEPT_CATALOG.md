@@ -25153,3 +25153,37 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - beginner: Bear-Connors-Paradiso Neuroscience 4th ed. Ch. 11; Campbell Biology 12th ed. Ch. 50; Crash Course A&P hearing episodes
 - **notes**: The cochlear hair cell as mechanoelectrical transducer. Tip-link (cadherin-23 + protocadherin-15) gating of the TMC1 MET channel; K+/Ca2+ transduction current driven by the +80 mV endocochlear potential; inner hair cells as afferent sensors vs outer hair cells as the cochlear amplifier via prestin-driven somatic electromotility; basilar-membrane tonotopy and the Greenwood place-frequency map f = A(10^{ax} - k); otoacoustic emissions and the ear's active process. Crossrefs sensory-systems [18.13.x], cellular-neuroscience [17.09.x], nervous-system [18.05.x].
 
+
+
+### world-history.byzantine-empire
+
+- **title**: The Byzantine Empire: Constantinople, Justinian, and the thousand-year continuation of Rome
+- **unit**: `32.07.03`
+- **prerequisites**: `world-history.roman-empire` (32.07.01), `world-history.roman-law-governance` (32.07.02)
+- **tier_anchors**:
+  - master: "Procopius, Wars/Buildings/Secret History (6c CE); Kaldellis 2019; Treadgold 1997; Herrin, Ravenna (2022); Mango 1980"
+  - intermediate: "Treadgold, A History of the Byzantine State and Society (1997); Mango, Byzantium: The Empire of New Rome (1980)"
+  - beginner: "Herrin, Byzantium: The Surprising Life of a Medieval Empire (2007); a general medieval-history textbook"
+- **notes**: The Byzantine (eastern Roman) Empire from Constantine's founding of Constantinople (330 CE) to the Ottoman conquest (1453 CE). Justinian era (527-565): reconquest of North Africa, Italy, southern Spain; the Corpus Juris Civilis (529-534); Nika riots (532); Hagia Sophia (537, Anthemius-Isidore); Plague of Justinian (541, Yersinia pestis). Seventh-century crisis: Sassanid wars, Arab-Muslim conquests of Levant/Egypt/North Africa (640s). Iconoclast controversy (726-843); Macedonian Renaissance (867-1056); Great Schism (1054); Manzikert (1071); Fourth Crusade sack of Constantinople (1204, Latin Empire 1204-1261); fall to Mehmed II (1453, Theodosian walls breached by cannon). Legacy: preservation of Greek literature, Orthodox church and Slavic alphabets (Cyril-Methodius, Cyrillic), Byzantine-icon tradition and Russian art, transmission of Roman law to Bologna. Master argument: the continuity thesis (Kaldellis) versus Gibbon's decline-and-fall; Byzantium as direct thousand-year continuation of Rome (sovereign title Basileus kai Autokrator ton Romaion, senate, law code, army structures through 1453), not a separate successor. No Lean formalisation; human-review-only at all tiers.
+
+### earth-science.stratospheric-ozone-depletion
+
+- **title**: Stratospheric ozone depletion: CFC chemistry, the Antarctic ozone hole, and the Montreal Protocol
+- **unit**: `27.07.05`
+- **prerequisites**: `earth-science.climate-change-evidence-impacts-mitigation`, `earth-science.radiative-forcing`
+- **tier_anchors**:
+  - master: Chapman 1930; Crutzen 1970; Molina-Rowland 1974; Farman 1985; Solomon 1986
+  - intermediate: Jacob 1999 Introduction to Atmospheric Chemistry; WMO Scientific Assessment of Ozone Depletion 2018
+  - beginner: Tarbuck and Lutgens, Earth Science (15e), Ch. 16; NOAA Twenty Questions About the Ozone Layer
+- **notes**: Stratospheric O3 photochemistry (Chapman cycle), catalytic destruction by Cl/Br/NOx/HOx radicals, CFC photolysis and the ~10^5 catalytic chain length, polar stratospheric cloud heterogeneous activation of chlorine reservoirs, the Antarctic spring ozone hole, Antarctic-vs-Arctic asymmetry, and the Montreal Protocol phase-out. Master proof derives the Chapman steady-state ozone density (showing the factor-of-two over-prediction that motivates catalytic loss) and the chain-length estimate N = tau_r/tau_c ~ 10^5. Crossrefs climate-change-evidence-impacts-mitigation [27.07.01], radiative-forcing [27.07.02], atmosphere-weather-climate-basics [27.04.01], climate-proxies [27.07.03].
+
+### analysis.lebesgue-differentiation-maximal-function
+
+- **title**: The Lebesgue differentiation theorem and the Hardy-Littlewood maximal function
+- **unit**: `02.07.12`
+- **prerequisites**: `analysis.lebesgue-integral-monotone-convergence` (02.07.04), `analysis.fatou-dominated-convergence` (02.07.05)
+- **tier_anchors**:
+  - master: Lebesgue 1910 (Ann. ENS 27), Hardy-Littlewood 1930 (Acta Math. 54), Wiener 1939 (Duke Math. J. 5), Marcinkiewicz 1939 (Bull. Acad. Polon. Sci. A), Stein 1970 (Singular Integrals, Princeton)
+  - intermediate: Folland Real Analysis 2e §3.4; Stein-Shakarchi Real Analysis (Princeton 2005) Ch. 3 §1-2
+  - beginner: Tao Analysis II §8.5; the running-average-of-a-step-function picture near and far from a jump
+- **notes**: The pointwise-a.e. recovery of a locally integrable function from its ball-averages, and the Hardy-Littlewood maximal function that controls the bad set. Covers the centred maximal function Mf(x) = sup_r |B(x,r)|^{-1} \int_{B(x,r)} |f| dm, the Vitali covering lemma (geometric engine: extract a disjoint subcollection from any ball cover, covering a fixed 3^n fraction), the weak-type (1,1) bound m({Mf > \lambda}) \leq C_n \|f\|_1 / \lambda (Hardy-Littlewood 1930 in n=1, Wiener 1939 in general n), the strong-type (p,p) bound \|Mf\|_p \leq A_p \|f\|_p for 1 < p \leq \infty via Marcinkiewicz interpolation of weak-(1,1) and trivial strong-(\infty,\infty) (Marcinkiewicz 1939, sharp constant A_p = O(p/(p-1)) by Melas 2003), the Lebesgue differentiation theorem (Lebesgue 1910, Wiener 1939): A_r f(x) \to f(x) for m-a.e. x with proof via C_c-density + weak-type control of the error, the Lebesgue set (full measure), the differentiation-of-measures theorem (Radon-Nikodym derivative as limit of ratios \nu(B)/m(B)), the fundamental theorem of calculus for the Lebesgue integral (absolutely continuous F recovers F' a.e.), the Lebesgue density theorem (measurable sets have density 1 at their own points), the Besicovitch covering theorem (sharper geometric loss), and the Calderón-Zygmund decomposition as the dyadic cousin. Originator chain: Lebesgue 1910, Hardy-Littlewood 1930, Wiener 1939, Marcinkiewicz 1939, Besicovitch 1945-46, Calderón-Zygmund 1952, Stein 1970, Coifman-Weiss 1971. Lean status: none. Crossrefs lebesgue-integral-monotone-convergence [02.07.04], fatou-lemma-dominated-convergence [02.07.05], absolute-continuity-radon-nikodym [02.07.08].
