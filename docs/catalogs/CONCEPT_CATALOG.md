@@ -7916,6 +7916,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
+### physiology.control-of-ventilation
+
+- **title**: Control of ventilation: medullary rhythmogenesis, central and peripheral chemoreceptors, and integrated ventilatory response
+- **unit**: `18.03.04`
+- **prerequisites**: `biology.respiratory-physiology`
+- **tier_anchors**:
+  - master: Smith-Feldman 1987 J. Neurophysiol.; Paton 1996 Nature Neurosci.; Guyenet-Abbott 2009; Amiel-Tison 2003 PHOX2B
+  - intermediate: Boron-Boulpaep "Medical Physiology" 3e; Kandel et al. "Principles of Neural Science" 5e
+  - beginner: Hall "Guyton and Hall Textbook of Medical Physiology"
+- **notes**: The ventilatory rhythm originates in the pre-Bötzinger complex (preBötC, ~600 ventrolateral medullary neurons; Smith-Feldman 1987; Paton 1996 in vitro confirmation). Central chemoreceptors in the retrotrapezoid nucleus and medullary raphe sense CSF pH via CO2 diffusion (~80% of the hypercapnic ventilatory response; Richerson 2005; Guyenet 2009). Peripheral chemoreceptors in the carotid body (glomus type I cells) provide the fast hypoxic response (~20% of hypercapnic, the primary hypoxic sensor). Clinical failures: Cheyne-Stokes respiration in heart failure, central sleep apnea, congenital hypoventilation syndrome (Ondine's curse, PHOX2B mutations; Amiel-Tison 2003).
+
+
 ### biology.skeletal-muscle-physiology
 
 - **title**: Skeletal muscle physiology
@@ -9752,6 +9764,17 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - intermediate: "Dehaene, S. — Consciousness and the Brain (2014)"
   - beginner: "Chalmers, D. J. — The Conscious Mind (1996)"
 - **notes**: The major scientific theories of consciousness as responses to the hard problem (20.06.02). Global Workspace Theory (Baars 1988, theater metaphor) and its neuronal implementation, the Global Neuronal Workspace (Dehaene-Changeux, ignition, P3b, masking, attentional blink, subliminal/preconscious/conscious). Integrated Information Theory (Tononi 2004-2012; IIT 3.0/4.0): phi as integrated information, axioms of intrinsic existence, cause-effect structure, qualia space, panpsychist implications, feedforward phi=0, cerebellum, split-brain, anesthesia/sleep/psychedelics; Aaronson expander-graph critique, computational intractability, Cerullo identity objection. Higher-order theories: HOT (Rosenthal), HOROR (Lau-Rosenthal), HOP/dispositional (Carruthers); targetless HOTs (Weisberg, Neander); prefrontal cortex and consciousness. Further frameworks: Attention Schema Theory (Graziano), Recurrent Processing Theory (Lamme, V1 recurrence, no prefrontal need), predictive processing (Friston free-energy, Clark, Hohwy, Seth controlled hallucination, interoceptive inference, Carhart-Harris REBUS). Neural correlates of consciousness (Crick-Koch, posterior hot zone, frontoparietal). Empirical signatures and the adversarial collaboration (IIT vs GWT). Applications: animal consciousness (Birch, Cambridge Declaration 2012, phi in octopus/bees), AI consciousness and substrate independence (functionalism vs IIT, Chinese Room, Tononi on feedforward AI), disorders of consciousness (vegetative/minimally conscious, Owen imagined-tennis fMRI, phi as diagnostic), psychedelic states (REBUS, entropy). Type-A vs type-B physicalism framing of the theories. Cross-domain hooks to 20.06.01/20.06.02, 20.03.01 (measurement), 20.02.06 (AI ethics), 20.02.07 (animal ethics), 20.05 (phil-of-biology), 29.02 (neuroscience), 29.03 (perception), 29.10 (therapy), 29.11 (emotion), 20.10-20.13 (Eastern philosophy). No Lean formalisation; human-review-only at I/M tier.
+
+### philosophy.neuroscience-of-consciousness
+
+- **title**: The neuroscience of consciousness: neural correlates, anesthesia, and disorders of consciousness
+- **unit**: `20.06.04`
+- **prerequisites**: `philosophy.consciousness-hard-problem-qualia` (`20.06.01`)
+- **tier_anchors**:
+  - master: Crick-Koch 1990 Sem. Neurosci. 2:263; Dehaene-Naccache 2001 Cognition 79:1; Tononi 2004 BMC Neurosci 5:42; Owen 2006 Science 313:1402; Casali 2013 Sci. Transl. Med. 5:198ra105 (PCI); Mashour-Roelfsema 2018 Trends Cogn. Sci. 22:738
+  - intermediate: Dehaene "Consciousness and the Brain" 2014; Koch "The Feeling of Life Itself" 2019
+  - beginner: popular treatment (e.g., Eagleman "The Brain on Consciousness")
+- **notes**: The empirical program launched by Crick-Koch 1990 seeks the minimal neural events jointly sufficient for a conscious percept (the NCC). Experimental paradigms — binocular rivalry (Logothetis-Schall 1989 in macaque MT), backward masking, attentional blink, no-report bistable perception (Tsuchiya-Koch 2015; Frässle 2014) — separate conscious-content from neural correlates of report, attention, and arousal. The clinical window: anesthesia disrupts cortical integration (PCI collapse under propofol; Casali 2013; Alkire 2008). Disorders of consciousness (coma, vegetative, minimally conscious, locked-in) gave us the Owen 2006 paradigm — roughly 17% of clinically-vegetative patients show command-following on fMRI. Theory: GWT (Dehaene-Naccache 2001), IIT (Tononi 2004), and the dynamic-core hypothesis (Edelman-Tononi 2000) make distinct empirical predictions that current research tests. Cross-domain hooks to 20.06.01/20.06.02/20.06.03 (consciousness chapter), 20.13.01 (philosophy of mind: access vs phenomenal), 20.13.02 (4E cognition), 29.03.04 (Hubel-Wiesel V1 architecture that rivalry paradigms exploit). No Lean formalisation; human-review-only at I/M tier.
 
 ## Scaffolded §14-§23 Concept IDs
 
@@ -25291,3 +25314,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Kandel, Schwartz, Jessell, Siegelbaum, Hudspert "Principles of Neural Science" 5e Ch. 25-27; Dayan-Abbott 2001 "Theoretical Neuroscience" Ch. 2
   - beginner: Hubel 1988 "Eye, Brain, and Vision" (Scientific American Library); Bear, Connors, Paradiso "Neuroscience: Exploring the Brain" 4e Ch. 10
 - **notes**: The Hubel-Wiesel collaboration (1958-1981, 1981 Nobel Prize in Physiology or Medicine shared with Roger Sperry) mapped the columnar architecture of primary visual cortex (V1). Hierarchy: LGN inputs -> simple cells (oriented, monocular, separable ON/OFF subregions, linear) -> complex cells (oriented, binocular, position-invariant, nonlinear) -> hypercomplex cells (end-stopped). Cortical architecture: orientation columns (~1 mm deep, full 180 degrees per ~750-1000 um of tangential travel), ocular-dominance stripes (~400 um wide, alternating L/R, prominent in layer 4), and the hypercolumn (~1 mm^2 containing a full orientation + OD representation of one visual-field location; ~2500 hypercolumns tile primate V1). Ice-cube model (Stryker-Harris 1986): orientation and OD are orthogonal cortical axes. Pinwheel structure (Bonhoeffer-Grivenvald 1991, 1993; confirmed at single-cell resolution by Ohki-Reid 2005). Critical-period plasticity (Hubel-Wiesel 1970; postnatal weeks 3-7 in cats): monocular deprivation during this window permanently shifts OD columns toward the open eye. Modern revision (Lien-Scanziani 2013): the Hubel-Wiesel feed-forward hierarchical model is structurally correct but mechanistically incomplete; recurrent amplification within V1 supplies the gain required for the observed tuning sharpness. The convergence model is the skeleton; recurrence is the gain.
+
+### medicine.hiv-aids
+
+- **title**: HIV/AIDS: retroviral biology, immune pathogenesis, antiretroviral therapy, and the 40-year pandemic
+- **unit**: `35.02.05`
+- **prerequisites**: `medicine.infectious-disease-survey`
+- **tier_anchors**:
+  - master: Montagnier 1983 Science 220:868 (2008 Nobel); Ho-Shaw 1995 Nature 373:123; Perelson 1996 Science 271:1582; Cohen 2011 NEJM 365:493 (HPTN 052)
+  - intermediate: Lancet HIV annual reviews; Deeks-Lewin 2013 cold-spring-harbor perspectives
+  - beginner: CDC HIV basics; WHO HIV fact sheets
+- **notes**: HIV/AIDS as the canonical modern pandemic — 88M infected, 42M deaths since 1981; 39M living with HIV in 2023 (UNAIDS). Retroviral biology: gp120-CD4/CCR5 entry, reverse transcription (no proof-reading → mutation rate 3.4×10⁻⁵/site/generation), integration, latency in resting memory CD4 T cells. Ho-Shaw-Perelson 1995-96 viral dynamics: ~10¹⁰ virions/day, productively-infected cell half-life ~1 day; explains rapid resistance evolution and the necessity of combination ART. First-line ART: INSTI (dolutegravir/bictegravir) + 2 NRTIs. U=U (undetectable = untransmittable). The reservoir (half-life ~44 months) prevents eradication; "Berlin patient" (Hütter 2009) and subsequent bone-marrow-transplant cures via CCR5-Δ32 homozygous donors remain the exception.
+
+
+### music-history.gregorian-chant-to-notre-dame-polyphony
+
+- **title**: From Gregorian chant to Notre Dame polyphony: Western music, c. 600-1300
+- **unit**: `34.02.04`
+- **prerequisites**: `music-art.music-history-western-world-traditions`
+- **tier_anchors**:
+  - master: Musica Enchiriadis c. 870; Guido d'Arezzo Micrologus c. 1025; Leonin / Perotin Magnus Liber Organi (c. 1170-1230); Franco of Cologne Ars Cantus Mensurabilis c. 1280; Philippe de Vitry Ars Nova c. 1320; Machaut Messe de Nostre Dame c. 1360
+  - intermediate: Wright "Music and Ceremony at Notre Dame of Paris" 1989; Hoppin "Medieval Music" 1978; Treitler chant scholarship
+  - beginner: standard music-history survey textbooks (Burkholder-Grout-Palisca)
+- **notes**: The 700-year arc from Pope Gregory I (traditional attribution, d. 604) to Guillaume de Machaut (c. 1300-1377) is the foundation of all Western art music. Gregorian chant (~3,000 melodies, 8 modes, unmetered, transmitted orally for centuries, standardized by the Carolingian Admonitio Generalis 789). Staff notation (Guido d'Arezzo c. 1025) and rhythmic notation (the Notre Dame rhythmic modes c. 1200; Franco of Cologne mensural notation c. 1280) are the enabling technologies that permitted polyphony at scale. The Notre Dame school (Leonin c. 1150-1201, Perotin c. 1160-1230) produced the Magnus Liber Organi, the cycle of Graduals/Alleluias in 2-, 3-, and 4-voice organum — Perotin's "Viderunt omnes" (c. 1198) is the earliest known 4-voice composition. Ars Nova (Vitry, Machaut c. 1320+) introduces duple meter and syncopation, completing the medieval system.

@@ -37446,6 +37446,28 @@
 ],
 "title": "Gas exchange and transport: the oxygen-hemoglobin dissociation curve and CO2 transport as bicarbonate"
 },
+"18.03.04": {
+"area": "other",
+"books": [],
+"chapter": "respiratory",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.03.04",
+"prereqs": [
+"18.03.01"
+],
+"section": "organismal-bio",
+"slug": "control-of-ventilation-medullary-rhythmogenesis-chemoreceptors",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Control of ventilation: medullary rhythmogenesis, central and peripheral chemoreceptors, and integrated ventilatory response"
+},
 "18.04.01": {
 "area": "other",
 "books": [],
@@ -39576,6 +39598,28 @@
 "master"
 ],
 "title": "Theories of consciousness: Global Workspace, Integrated Information Theory (IIT), higher-order theories"
+},
+"20.06.04": {
+"area": "other",
+"books": [],
+"chapter": "consciousness",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.06.04",
+"prereqs": [
+"20.06.01"
+],
+"section": "philosophy",
+"slug": "neuroscience-of-consciousness-neural-correlates-anesthesia-disorders",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The neuroscience of consciousness: neural correlates, anesthesia, and disorders of consciousness"
 },
 "20.07.01": {
 "area": "other",
@@ -50043,6 +50087,28 @@
 ],
 "title": "20th-century and world music: modernism, jazz, non-Western traditions, popular music"
 },
+"34.02.04": {
+"area": "other",
+"books": [],
+"chapter": "music-history",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.02.04",
+"prereqs": [
+"34.02.01"
+],
+"section": "music-art",
+"slug": "gregorian-chant-notre-dame-polyphony-medieval-western-music",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "From Gregorian chant to Notre Dame polyphony: Western music, c. 600-1300"
+},
 "34.03.01": {
 "area": "other",
 "books": [],
@@ -50501,6 +50567,28 @@
 "master"
 ],
 "title": "Epidemiology basics: R0, herd immunity, outbreak investigation"
+},
+"35.02.05": {
+"area": "other",
+"books": [],
+"chapter": "infectious-disease",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.02.05",
+"prereqs": [
+"35.02.01"
+],
+"section": "health-medicine",
+"slug": "hiv-aids-retroviral-biology-pathogenesis-art-pandemic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "HIV/AIDS: retroviral biology, immune pathogenesis, antiretroviral therapy, and the 40-year pandemic"
 },
 "35.03.01": {
 "area": "other",
