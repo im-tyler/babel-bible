@@ -10229,6 +10229,10 @@
 "books": [],
 "curriculum": "organismal-bio"
 },
+"18.08.04": {
+"books": [],
+"curriculum": "other"
+},
 "18.09.01": {
 "books": [],
 "curriculum": "other"
@@ -11747,6 +11751,12 @@
 "books": [],
 "curriculum": "earth-science"
 },
+"27.01.04": {
+"books": [
+"foundational-home"
+],
+"curriculum": "earth-science-home"
+},
 "27.02.01": {
 "books": [],
 "curriculum": "other"
@@ -11886,6 +11896,10 @@
 "28.01.03": {
 "books": [],
 "curriculum": "astronomy"
+},
+"28.01.04": {
+"books": [],
+"curriculum": "other"
 },
 "28.02.01": {
 "books": [],
@@ -12868,6 +12882,10 @@
 "35.04.03": {
 "books": [],
 "curriculum": "health-medicine"
+},
+"35.04.04": {
+"books": [],
+"curriculum": "other"
 },
 "35.05.01": {
 "books": [],

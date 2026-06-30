@@ -37930,6 +37930,28 @@
 ],
 "title": "Acid-base balance: the bicarbonate buffer system, respiratory and metabolic compensation"
 },
+"18.08.04": {
+"area": "other",
+"books": [],
+"chapter": "renal",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.08.04",
+"prereqs": [
+"18.08.01"
+],
+"section": "organismal-bio",
+"slug": "raas-renin-angiotensin-aldosterone-hypertension-ace-inhibitor-therapy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The renin-angiotensin-aldosterone system: RAAS physiology, hypertension, and ACE-inhibitor therapy"
+},
 "18.09.01": {
 "area": "other",
 "books": [],
@@ -45318,6 +45340,30 @@
 ],
 "title": "Mantle convection and driving forces: slab pull, ridge push, hot spots"
 },
+"27.01.04": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "plate-tectonics",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.01.04",
+"prereqs": [
+"27.01.01"
+],
+"section": "earth-science",
+"slug": "mantle-plumes-hot-spots-large-igneous-provinces-hawaii-yellowstone-deccan",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mantle plumes, hot spots, and large igneous provinces: Hawaii, Yellowstone, and the Deccan Traps"
+},
 "27.02.01": {
 "area": "other",
 "books": [],
@@ -46019,6 +46065,28 @@
 "master"
 ],
 "title": "Planetary interiors and surfaces: comparative planetology, magnetic fields"
+},
+"28.01.04": {
+"area": "other",
+"books": [],
+"chapter": "solar-system",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.01.04",
+"prereqs": [
+"28.01.01"
+],
+"section": "astronomy",
+"slug": "nice-model-solar-system-instability-giant-planet-migration-late-heavy-bombardment",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Nice model: solar-system dynamical instability, giant-planet migration, and the Late Heavy Bombardment"
 },
 "28.02.01": {
 "area": "other",
@@ -51077,6 +51145,28 @@
 "master"
 ],
 "title": "Micronutrients and deficiency diseases: vitamins, minerals, and their biochemical roles"
+},
+"35.04.04": {
+"area": "other",
+"books": [],
+"chapter": "nutrition",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.04.04",
+"prereqs": [
+"35.04.01"
+],
+"section": "health-medicine",
+"slug": "obesity-epidemic-leptin-thrifty-gene-set-point-body-weight",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The obesity epidemic: leptin signaling, the thrifty-gene hypothesis, and the Set-Point theory of body weight"
 },
 "35.05.01": {
 "area": "other",
