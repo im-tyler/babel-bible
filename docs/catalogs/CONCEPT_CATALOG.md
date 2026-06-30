@@ -25117,3 +25117,39 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **prerequisites**: `chemistry.lanthanides-actinides`
 - **tier_anchors**: master: Weissman 1942, Judd 1962, Ofelt 1962, Crosby 1966, Bunzli 2010; intermediate: Cotton Wilkinson; beginner: general inorganic text
 - **notes**: The photophysics of the 4f shell. Covers why 4f-4f transitions are sharp and atom-like (4f burial inside 5s5p), the Laporte parity rule and its relaxation by odd-parity crystal-field mixing, the Weissman 1942 antenna effect (ligand absorbs UV, intersystem-crosses to triplet, transfers energy to the lanthanide by Dexter or Foerster), the microsecond-to-millisecond lifetimes as a direct consequence of forbiddenness, Judd-Ofelt intensity parameters (Omega_2, Omega_4, Omega_6) for predicting radiative rates, O-H multiphonon quenching and the energy-gap law, and applications: Eu/Tb OLED phosphors, time-gated luminescence immunoassays, Nd:YAG lasers, and Yb/Er upconversion nanoparticles. Master proof derives the Foerster k_ET proportional to R^-6 J and shows how the antenna shortens the donor lifetime.
+
+### astronomy.adaptive-optics-interferometry-high-resolution
+
+- **title**: Adaptive optics, interferometry, and high-angular-resolution astronomy
+- **unit**: `28.09.02`
+- **prerequisites**: `astronomy.observational-instrumentation`
+- **tier_anchors**:
+  - master: Babcock 1953 (AO concept); Labeyrie 1970 (speckle); Jennison 1958 (closure phase); EHT 2019 (M87 shadow)
+  - intermediate: Thompson, Moran & Swenson 2017 *Interferometry and Synthesis in Radio Astronomy*; Carroll & Ostlie 2007 Ch. 6
+  - beginner: Bennett et al. 2017 *The Cosmic Perspective* Ch. 6
+- **notes**: Fried parameter r_0 and seeing limit, AO loop (Shack-Hartmann/curvature sensor, deformable mirror, laser guide star), Van Cittert-Zernike and interferometric resolution lambda/B, closure phase, VLBI and the EHT. Depth under §28/09 (1->2). Crossrefs observational-instrumentation [28.09.01], high-energy [28.08.x], stars [28.02.x], CMB [28.04.03], AGN [28.03.03].
+
+
+### chemistry.noble-gas-compounds-xenon-fluorides
+
+- **title**: Noble gas compounds: xenon fluorides and the fall of the octet rule
+- **unit**: `16.08.02`
+- **prerequisites**: `chemistry.main-group-detail`
+- **tier_anchors**:
+  - master: Bartlett 1962 (Proc. Chem. Soc.); Claassen, Selig & Malm 1962 (Argonne XeF2/XeF4/XeF6)
+  - intermediate: Miessler, Fischer & Tarr — Inorganic Chemistry, Ch. 14
+  - beginner: Housecroft & Sharpe — Inorganic Chemistry, Ch. 17
+- **notes**: Bartlett's 1962 Xe+[PtF6]- and the Argonne xenon fluorides; VSEPR of XeF2/XeF4/XeF6; three-center four-electron bond and hypervalency; ionization-energy gate on noble-gas reactivity; krypton/radon chemistry; excimer lasers and XeF2 etching. Crossrefs main-group-detail [16.08.01], VSEPR [14.02.01], MO theory [14.05.01], periodic trends [16.01.01].
+
+
+### biology.hair-cell-mechanotransduction-cochlear-tuning
+
+- **title**: Hair cell mechanotransduction and cochlear frequency tuning
+- **unit**: `18.13.02`
+- **prerequisites**: `biology.sensory-systems` (unit 18.13.01)
+- **tier_anchors**:
+  - master: Dallos-Popper-Fay The Cochlea (Springer 1996); primary literature — von Bekesy 1960, Hudspeth 1985, Brownell 1985, Zheng 2000, Liberman 2002, Greenwood 1990, Kemp 1978, Ashmore 2008
+  - intermediate: Kandel et al. Principles of Neural Science 6th ed. Ch. 28-29; Purves et al. Neuroscience 6th ed. Ch. 13; Pickles An Introduction to the Physiology of Hearing 4th ed. (2012)
+  - beginner: Bear-Connors-Paradiso Neuroscience 4th ed. Ch. 11; Campbell Biology 12th ed. Ch. 50; Crash Course A&P hearing episodes
+- **notes**: The cochlear hair cell as mechanoelectrical transducer. Tip-link (cadherin-23 + protocadherin-15) gating of the TMC1 MET channel; K+/Ca2+ transduction current driven by the +80 mV endocochlear potential; inner hair cells as afferent sensors vs outer hair cells as the cochlear amplifier via prestin-driven somatic electromotility; basilar-membrane tonotopy and the Greenwood place-frequency map f = A(10^{ax} - k); otoacoustic emissions and the ear's active process. Crossrefs sensory-systems [18.13.x], cellular-neuroscience [17.09.x], nervous-system [18.05.x].
+
