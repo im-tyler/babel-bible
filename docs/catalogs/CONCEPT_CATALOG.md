@@ -10673,6 +10673,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Asch 1951, Milgram 1963, Sherif 1936, Zimbardo 1971, Tajfel 1970, Allport 1954, Clark and Clark 1947, Steele and Aronson 1995, Darley and Latane 1968, Bond and Smith 1996, Cialdini 1984, Sherif 1954/1961; secondary: Aronson, Myers, Hogg and Vaughan, Fiske, Brown"
 - **notes**: Social psychology — social influence (conformity, compliance, obedience: Asch, Milgram, Zimbardo), group dynamics (social facilitation, social loafing, groupthink, deindividuation, Sherif's Robbers Cave, realistic conflict theory), prejudice and discrimination (stereotypes, ingroup/outgroup, Tajfel's minimal group paradigm, implicit bias, stereotype threat, intergroup contact theory, jigsaw classroom), attraction and relationships (proximity, similarity, physical attractiveness, Sternberg's triangular theory, attachment theory applied to adult relationships, online dating), altruism and prosocial behavior (bystander effect, Darley and Latane, situational vs dispositional factors). MULTI-PERSPECTIVE: Classic experiments (Milgram, Zimbardo) presented with ethical critiques AND replication concerns. Cultural variation: collectivist vs individualist conformity patterns (Bond and Smith meta-analysis). Prejudice from both majority and minority perspectives. No Lean formalisation; human-review-only at all tiers.
 
+### psychology.interpersonal-attraction-close-relationships
+
+- **title**: Interpersonal attraction and close relationships: adult attachment, social-exchange theories, and the Sternberg triarchic model
+- **unit**: `29.07.05`
+- **prerequisites**: `psychology.social-psychology-groups-prejudice`
+- **tier_anchors**:
+  - master: Berscheid-Walster 1969; Festinger-Schachter-Back 1950; Hazan-Shaver 1987 (adult attachment); Sternberg 1986 Psych. Rev. (triarchic); Rusbult 1980 (investment model); Reis-Shaver 1988; Gottman-Levenson 1992 (marriage prediction); Waldinger-Schulz 2023 (Harvard Study of Adult Development)
+  - intermediate: Berscheid-Reis "Attraction and Close Relationships" handbook chapters; Gottman "The Seven Principles for Making Marriage Work"
+  - beginner: popular treatments (e.g., Gottman-Silver "What Makes Love Last?"; Esther Perel accessible talks)
+- **notes**: Antecedents of attraction: proximity (Festinger-Schachter-Back 1950 dorm study), familiarity (Zajonc mere-exposure), similarity (Byrne), physical attractiveness (Walster matching), reciprocal liking. Adult attachment (Hazan-Shaver 1987) extends Bowlby-Ainsworth to romantic relationships — secure/anxious/avoidant styles track ~60/20/25% of adults cross-culturally; Bartholomew-Horowitz 1991 four-category model. Sternberg 1986 triarchic theory of love (intimacy × passion × commitment). Social-exchange: Kelley-Thibaut 1959 interdependence; Rusbult 1980 investment model (commitment = satisfaction + investments - alternatives). Reis-Shaver 1988 closeness-intimacy (intimacy = self-disclosure + partner responsiveness). Aron-Aron 1986 self-expansion. Gottman-Levenson 1992+ — 40-year marriage lab, the "four horsemen" (criticism, contempt, defensiveness, stonewalling), the 5:1 positive/negative ratio. Harvard Study of Adult Development (Waldinger-Schulz 80+ years): relationship quality at 50 predicts late-life health more than cholesterol.
+
 ### psychology.therapy-treatment-approaches
 
 
@@ -25567,6 +25578,17 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - beginner: patient-facing materials (Obesity Medicine Association; Harvard TH Chan obesity explainer; WHO obesity fact sheet)
 - **notes**: ~13% global adult obesity in 2022 (WHO; triple the 1975 rate); ~42% US adult obesity; ~73% US adult overweight-or-obese; ~70% BMI heritability (Bouchard 1990s). The homeostatic regulation system: adipose leptin crosses the BBB, acts on arcuate-nucleus POMC/CART (anorexigenic; alpha-MSH -> MC4R) and NPY/AgRP (orexigenic) neurons. Most obesity is "leptin-resistant" (high circulating leptin, impaired brain response via SOCS3/PTP1B signalling blockade + hypothalamic inflammation). Neel 1962 thrifty-gene hypothesis vs Speakman 2008 predation-release alternative; both have empirical support. The Set-Point theory of body-weight regulation (defended against the Hall 2017 CICO metabolic-ward critique) holds that the brain actively defends a target body weight via negative feedback; leptin resistance produces asymmetric defence (strong against weight loss, weak against weight gain), driving chronic upward drift. Coleman 1973 parabiosis (ob/ob vs db/db) anticipated leptin-leptin-receptor by 21 years; Zhang-Friedman 1994 positional cloning; Halaas 1995 recombinant leptin weight loss in ob/ob mice. GLP-1 receptor agonists revolutionized pharmacotherapy: liraglutide 2014 (~8% loss), semaglutide Wegovy 2021 (~15% loss), tirzepatide Zepbound 2023 (dual GLP-1/GIP, ~21% loss), retatrutide (triple GLP-1/GIP/glucagon) in phase 3 — the first effective medical treatment for obesity, acting upstream of the leptin-resistant JAK2-STAT3 cascade at central incretin receptors. Bariatric surgery (RYGB, sleeve) achieves 25-30% loss via gut-hormone (PYY, GLP-1) changes, not just restriction.
 
+### medicine.opioid-epidemic
+
+- **title**: The US opioid epidemic: OxyContin, the Sackler family, and the public-health response
+- **unit**: `35.06.04`
+- **prerequisites**: `medicine.public-health-epidemiology-survey`
+- **tier_anchors**:
+  - master: Portenoy 1986 Pain; Porter-Jick 1980 NEJM (5-sentence letter misused as evidence); Van Zee 2009 Am. J. Public Health; Kolodny 2015 Public Health Reports; CDC 2016 prescribing guideline; Case-Deaton 2015 (deaths of despair); Purdue bankruptcy 2019-2021
+  - intermediate: SAMHSA 2023 buprenorphine guideline; CDC WONDER mortality data; Macy 2017 "Dopesick"
+  - beginner: accessible accounts (Quinones "Dreamland"; Macy "Dopesick")
+- **notes**: Three waves of US opioid overdose deaths 1999-2021 (~645,000 total): Wave 1 prescription opioids (OxyContin launch 1996, the "pain as 5th vital sign" campaign, misleading <1% addiction claim based on the 5-sentence Porter-Jick 1980 NEJM letter); Wave 2 heroin (2010+ as prescribing tightened); Wave 3 illicit fentanyl (2013+, 50-100x morphine potency, cheap synthesis from Chinese precursors via Mexican cartels). Tolerance vs dependence vs addiction — mu-opioid receptor agonists produce analgesia + respiratory depression (the lethal mechanism). Public-health response: harm reduction (naloxone distribution, syringe services, fentanyl test strips), medication-assisted treatment (buprenorphine partial agonist, methadone full agonist; SAMHSA 2023 deregulation), social determinants (the "deaths of despair" framework of Case-Deaton 2015). Legal aftermath: Purdue bankruptcy 2019; Sackler settlement ~$6 billion 2022. A syndemic requiring multi-pronged response; criminalization alone worsens harm.
+
 ### earth-science.mantle-plumes-hot-spots
 
 - **title**: Mantle plumes, hot spots, and large igneous provinces: Hawaii, Yellowstone, and the Deccan Traps
@@ -25613,3 +25635,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Raff 1996 "The Shape of Life"; Carroll-Grenier-Weatherbee 2005; Davidson 2001
   - beginner: Sean Carroll "Endless Forms Most Beautiful" (popular)
 - **notes**: The evo-devo synthesis reunited evolutionary biology with embryology after the modern synthesis (1930s-40s) marginalized development. Haeckel 1866 ("ontogeny recapitulates phylogeny") vs von Baer 1828 (specialization — the correct view). The discovery of Hox genes (Lewis 1978 bithorax; Nusslein-Volhard-Wieschaus 1980 Heidelberg screen), the homeobox (McGinnis 1984), and master regulators (Gehring 1994 Pax6 — mouse Pax6 expressed in a fly's leg makes a fly eye) established the "genetic tool-kit" — conserved master genes (Hox, Pax6, Nkx2-5, Distal-less) deployed via cis-regulatory enhancers. Carroll 2005 "deep homology" thesis: morphological evolution acts mostly on regulation (King-Wilson 1975), not protein sequence; body plans are modular and evolvable. Pigliucci-Muller 2010 "extended synthesis" proposes modern-synthesis revision incorporating plasticity (West-Eberhard 2003), niche construction, and evo-devo constraints.
+
+### philosophy.kuhn-lakatos-paradigms
+
+- **title**: Kuhn, Lakatos, and Laudan: paradigms, research programmes, and the theory-ladenness of scientific change
+- **unit**: `20.08.04`
+- **prerequisites**: `philosophy.philosophy-of-science-survey`
+- **tier_anchors**:
+  - master: Hanson 1958 "Patterns of Discovery"; Kuhn 1962 "The Structure of Scientific Revolutions"; Lakatos 1970 (research programmes); Feyerabend 1975 "Against Method"; Laudan 1977 "Progress and Its Problems"; Hoyningen-Huene 1993
+  - intermediate: Hacking 1981 "Scientific Revolutions"; Hoyningen-Huene 1993 "Reconstructing Scientific Revolutions"; Lakatos-Musgrave 1970 "Criticism and the Growth of Knowledge"
+  - beginner: Kuhn "The Copernican Revolution" 1957 (accessible); accessible modern surveys (e.g., Okasha "Philosophy of Science: A Very Short Introduction")
+- **notes**: Kuhn 1962 "Structure" — paradigm as disciplinary matrix (symbolic generalizations, models, exemplars, values); normal science = puzzle-solving within paradigm; anomalies → crisis → extraordinary science → paradigm shift. Incommensurability in three senses: methodological, perceptual (Gestalt), semantic ("mass" in Newton vs Einstein). Lakatos 1970 — research programmes with hard core (irrefutable assumptions) + protective belt (auxiliary hypotheses); progressive if predicting novel facts, degenerating if only patching anomalies. Feyerabend 1975 "Against Method" — anarchism, "anything goes." Laudan 1977 — research traditions judged by problem-solving effectiveness; the reticulated model (aims-methods-theories mutually adjust). The Kuhn-as-relativist charge: Kuhn himself rejected relativism in later writings, arguing paradigms are comparable via shared values (accuracy, simplicity, scope, fruitfulness) without uniquely determining choice. Canonical case: the Copernican revolution (~150 years from Copernicus 1543 to Newton 1687).
+
+
+### astronomy.large-scale-structure-formation
+
+- **title**: Large-scale structure formation: the Press-Schechter formalism, dark-matter halos, and the cosmic web
+- **unit**: `28.04.05`
+- **prerequisites**: `astronomy.cosmology-survey`
+- **tier_anchors**:
+  - master: Press-Schechter 1974 ApJ 187:425; Bond-Myers-Szalay 1991 (excursion-set); BBKS 1986 (transfer functions); Navarro-Frenk-White 1997 (NFW profile); Sheth-Tormen 1999 (ellipsoidal refinement); Springel 2005 (Millennium); Eisenstein 2005 (BAO detection); Springel 2018 (IllustrisTNG)
+  - intermediate: Peebles "Principles of Physical Cosmology"; Mo-van den Bosch-White "Galaxy Formation and Evolution"
+  - beginner: popular treatments (e.g., Panek "The 4 Percent Universe"; Richard Panek accessible accounts)
+- **notes**: Primordial perturbations (from inflation; scale-invariant power spectrum P(k) ∝ k^n_s, n_s ≈ 0.965 Planck 2013) grow via gravitational instability in the matter-dominated era (δρ/ρ ∝ a). Press-Schechter 1974 derived the halo mass function n(M) from the Gaussian random field of density fluctuations: f(>M) = erfc(δ_c / (√2 σ(M))), with critical overdensity δ_c ≈ 1.686; Sheth-Tormen 1999 refined for ellipsoidal collapse; Bond-Myers-Szalay 1991 fixed the cloud-in-cloud problem via excursion-set formalism. Dark-matter halos follow the Navarro-Frenk-White (NFW) universal profile (1997); subhalos and the missing-satellites problem. Baryon acoustic oscillations (BAO, Eisenstein 2005 SDSS) provide a ~150 Mpc standard ruler. Lyman-α forest traces the intergalactic medium via quasar absorption. N-body simulations (Millennium 2005; IllustrisTNG 2018) reproduce observed galaxy clustering. The cosmic web (sheets, filaments, voids) is the largest known structure pattern.

@@ -39928,6 +39928,28 @@
 ],
 "title": "Causation and explanation: counterfactual analysis, mechanistic explanation, causal inference"
 },
+"20.08.04": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-science",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.08.04",
+"prereqs": [
+"20.08.01"
+],
+"section": "philosophy",
+"slug": "kuhn-lakatos-laudan-paradigms-research-programmes-scientific-change",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Kuhn, Lakatos, and Laudan: paradigms, research programmes, and the theory-ladenness of scientific change"
+},
 "20.09.01": {
 "area": "other",
 "books": [],
@@ -46394,6 +46416,28 @@
 ],
 "title": "Dark matter and dark energy: evidence, candidates, and the accelerating expansion"
 },
+"28.04.05": {
+"area": "other",
+"books": [],
+"chapter": "cosmology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.04.05",
+"prereqs": [
+"28.04.01"
+],
+"section": "astronomy",
+"slug": "large-scale-structure-press-schechter-dark-matter-halos-cosmic-web",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Large-scale structure formation: the Press-Schechter formalism, dark-matter halos, and the cosmic web"
+},
 "28.05.01": {
 "area": "other",
 "books": [],
@@ -47331,6 +47375,28 @@
 "master"
 ],
 "title": "Prejudice and discrimination: implicit bias, stereotype threat, contact hypothesis"
+},
+"29.07.05": {
+"area": "other",
+"books": [],
+"chapter": "social-psychology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.07.05",
+"prereqs": [
+"29.07.01"
+],
+"section": "psychology",
+"slug": "interpersonal-attraction-close-relationships-adult-attachment-sternberg-triarchic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Interpersonal attraction and close relationships: adult attachment, social-exchange theories, and the Sternberg triarchic model"
 },
 "29.08.01": {
 "area": "other",
@@ -51389,6 +51455,28 @@
 "master"
 ],
 "title": "Vaccine science: immunization schedules, herd immunity calculation, vaccine hesitancy"
+},
+"35.06.04": {
+"area": "other",
+"books": [],
+"chapter": "public-health",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.06.04",
+"prereqs": [
+"35.06.01"
+],
+"section": "health-medicine",
+"slug": "opioid-epidemic-oxycontin-sackler-public-health-response",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The US opioid epidemic: OxyContin, the Sackler family, and the public-health response"
 },
 "35.07.01": {
 "area": "other",
