@@ -36013,6 +36013,31 @@
 ],
 "title": "Actinide chemistry and the nuclear fuel cycle"
 },
+"16.09.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "lanthanides-actinides",
+"curriculum": "inorgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.09.03",
+"prereqs": [
+"16.09.01",
+"16.09.02"
+],
+"section": "inorgchem",
+"slug": "lanthanide-luminescence-antenna-effect",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Lanthanide luminescence, f-f transitions, and the antenna effect"
+},
 "16.10.01": {
 "area": "other",
 "books": [
@@ -46942,6 +46967,31 @@
 ],
 "title": "Classical test theory, reliability, and factor analysis"
 },
+"29.13.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "psychometrics",
+"curriculum": "psychology-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.13.03",
+"prereqs": [
+"29.13.01",
+"29.13.02"
+],
+"section": "psychology",
+"slug": "item-response-theory-rasch-model-latent-trait-measurement",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Item response theory and the Rasch model: latent-trait measurement"
+},
 "29.14.01": {
 "area": "other",
 "books": [
@@ -49849,6 +49899,30 @@
 "master"
 ],
 "title": "Digital media, art, and technology"
+},
+"34.08.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "digital-media-art",
+"curriculum": "music-art-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.08.02",
+"prereqs": [
+"34.08.01"
+],
+"section": "music-art",
+"slug": "generative-art-creative-coding",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Generative art and creative coding: algorithms as aesthetic medium"
 },
 "34.09.01": {
 "area": "other",

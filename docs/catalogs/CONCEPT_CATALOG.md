@@ -25093,3 +25093,27 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Guyer-Wood Cambridge 1998 introduction; Allison 2004
   - beginner: Scruton 1982 Kant (Past Masters); Kemp Smith 1923
 - **notes**: The Critique of Pure Reason as the hinge of modern philosophy. Covers Kant's Copernican revolution, the synthetic-a-priori distinction, the Transcendental Aesthetic on space and time as pure forms of intuition, the Transcendental Deduction of the twelve categories, the Schematism, the Refutation of Idealism, and the Antinomies of pure reason. Defends the two-aspect reading of transcendental idealism (Allison) against the two-object alternative and situates the work against Hume and the rationalist/empiricist debate.
+### psychology.item-response-theory-rasch-model
+- **title**: Item response theory and the Rasch model: latent-trait measurement
+- **unit**: `29.13.03`
+- **prerequisites**: `psychology.psychometrics-foundations`, `psychology.classical-test-theory`
+- **tier_anchors**: master: Rasch 1960, Lord 1980, Birnbaum 1968, Samejima 1969; intermediate: Embretson-Reyes 2013; beginner: DeBoeck-Wilson 2004
+- **notes**: The latent-trait measurement framework that replaces test-level reliability with item-level modelling. Covers the latent trait theta, the 1PL/Rasch model P(theta) = exp(theta-b)/(1+exp(theta-b)) and its specific objectivity, the 2PL with discrimination and the 3PL with guessing, item characteristic curves, Fisher item information and test information with standard error SE = 1/sqrt(T(theta)), joint/marginal/EM estimation, differential item functioning (Mantel-Haenszel and likelihood-ratio tests), and applications to computerised adaptive testing and GRE/SAT scaling.
+
+
+### music-art.generative-art-creative-coding
+- **title**: Generative art and creative coding: algorithms as aesthetic medium
+- **unit**: `34.08.02`
+- **prerequisites**: `music-art.digital-media-art`
+- **tier_anchors**:
+  - master: Molnár/Mohr/Nake/Noll 1960s plotter art, Perlin 1985 image synthesizer, Reas-Fry 2001 Processing, Turing 1952 morphogenesis, Lindenmayer 1968 L-systems
+  - intermediate: Reas-Fry Processing handbook (MIT Press 2007)
+  - beginner: Rush 2005 New Media in Art; Paul 2003 Digital Art
+- **notes**: The depth companion to the digital-media-art chapter on generative art specifically. Covers the 1960s computer-art pioneers (Molnár, Mohr, Nake, Noll), Sol LeWitt's instruction-based wall drawings as conceptual-generative precursors, the Processing/p5.js creative-coding movement (Reas-Fry 2001), and the algorithmic substrates of naturalistic imagery: Perlin gradient noise and its quintic fade kernel, L-systems, cellular automata, Turing reaction-diffusion, and evolutionary art. The Master tier derives the uniqueness of the quintic Perlin fade via Hermite interpolation and proves gradient noise is band-limited and approximately isotropic, then situates contemporary diffusion-model generation as a continuation of rule-based generative lineage rather than a break from it.
+
+### chemistry.lanthanide-luminescence-antenna-effect
+- **title**: Lanthanide luminescence, f-f transitions, and the antenna effect
+- **unit**: `16.09.03`
+- **prerequisites**: `chemistry.lanthanides-actinides`
+- **tier_anchors**: master: Weissman 1942, Judd 1962, Ofelt 1962, Crosby 1966, Bunzli 2010; intermediate: Cotton Wilkinson; beginner: general inorganic text
+- **notes**: The photophysics of the 4f shell. Covers why 4f-4f transitions are sharp and atom-like (4f burial inside 5s5p), the Laporte parity rule and its relaxation by odd-parity crystal-field mixing, the Weissman 1942 antenna effect (ligand absorbs UV, intersystem-crosses to triplet, transfers energy to the lanthanide by Dexter or Foerster), the microsecond-to-millisecond lifetimes as a direct consequence of forbiddenness, Judd-Ofelt intensity parameters (Omega_2, Omega_4, Omega_6) for predicting radiative rates, O-H multiphonon quenching and the energy-gap law, and applications: Eu/Tb OLED phosphors, time-gated luminescence immunoassays, Nd:YAG lasers, and Yb/Er upconversion nanoparticles. Master proof derives the Foerster k_ET proportional to R^-6 J and shows how the antenna shortens the donor lifetime.

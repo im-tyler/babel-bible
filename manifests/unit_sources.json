@@ -9867,6 +9867,12 @@
 ],
 "curriculum": "inorgchem-home"
 },
+"16.09.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "inorgchem-home"
+},
 "16.10.01": {
 "books": [
 "foundational-home"
@@ -12053,6 +12059,12 @@
 ],
 "curriculum": "psychology-home"
 },
+"29.13.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "psychology-home"
+},
 "29.14.01": {
 "books": [
 "foundational-home"
@@ -12618,6 +12630,12 @@
 "34.08.01": {
 "books": [],
 "curriculum": "other"
+},
+"34.08.02": {
+"books": [
+"foundational-home"
+],
+"curriculum": "music-art-home"
 },
 "34.09.01": {
 "books": [
