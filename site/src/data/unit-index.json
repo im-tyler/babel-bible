@@ -36156,6 +36156,28 @@
 ],
 "title": "Catalysis \u2014 homogeneous, heterogeneous, and enzyme"
 },
+"16.10.02": {
+"area": "other",
+"books": [],
+"chapter": "catalysis",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.10.02",
+"prereqs": [
+"16.10.01"
+],
+"section": "inorgchem",
+"slug": "electrocatalysis-water-splitting-oer-her-non-precious-metal-catalysts",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Electrocatalysis and water splitting: the oxygen-evolution reaction, the hydrogen-evolution reaction, and the search for non-precious-metal catalysts"
+},
 "17.01.01": {
 "area": "other",
 "books": [],
@@ -37730,6 +37752,28 @@
 "master"
 ],
 "title": "Nutrient absorption: monosaccharides, amino acids, lipid micelles, and the enterohepatic circulation"
+},
+"18.06.04": {
+"area": "other",
+"books": [],
+"chapter": "digestive",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.06.04",
+"prereqs": [
+"18.06.01"
+],
+"section": "organismal-bio",
+"slug": "gut-brain-axis-vagal-signaling-microbiome-enteric-neuroscience",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The gut-brain axis: vagal signaling, the microbiome, and enteric neuroscience"
 },
 "18.07.01": {
 "area": "other",
@@ -46868,6 +46912,28 @@
 ],
 "title": "Forgetting and false memory: interference, decay, misinformation effect"
 },
+"29.04.05": {
+"area": "other",
+"books": [],
+"chapter": "learning-memory",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.04.05",
+"prereqs": [
+"29.04.01"
+],
+"section": "psychology",
+"slug": "motor-learning-cerebellum-marr-albus-ltd-purkinje-adaptive-error-correction",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Motor learning and the cerebellum: Marr-Albus theory, long-term depression at Purkinje cells, and adaptive error correction"
+},
 "29.05.01": {
 "area": "other",
 "books": [],
@@ -50434,6 +50500,28 @@
 "master"
 ],
 "title": "Film and photography as visual storytelling"
+},
+"34.05.02": {
+"area": "other",
+"books": [],
+"chapter": "film-photography",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.05.02",
+"prereqs": [
+"34.05.01"
+],
+"section": "music-art",
+"slug": "cinema-verite-direct-cinema-1960s-observational-documentary-revolution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cin\u00e9ma v\u00e9rit\u00e9 and direct cinema: the 1960s observational documentary revolution"
 },
 "34.06.01": {
 "area": "other",

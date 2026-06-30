@@ -25476,3 +25476,48 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Leslie 1989 "Universes"; Rees 1999 "Just Six Numbers"; Greene 2011 "The Hidden Reality"
   - beginner: popular treatments (Susskind "The Cosmic Landscape"; Krauss "A Universe from Nothing")
 - **notes**: Carter 1974 distinguished WAP (observed values must be compatible with observer existence) from SAP (the universe must permit life). Physical fine-tuning cases: cosmological constant (Λ ≤ 10^-120 for galaxy formation; QFT predicts 10^120 larger — Weinberg 1987's anthropic post-diction); Higgs vev (246 GeV); Hoyle 1954 carbon-12 7.65 MeV resonance; weak-force strength. Explanations: design, multiverse (string landscape, Susskind 2005; eternal inflation, Linde), fecund universes (Smolin 1997 cosmological natural selection), necessity. The measure problem (Page 2007+) is the central technical obstacle. Bostrom 2002 "Anthropic Bias" systematized observation-selection effects; related self-locating puzzles: Doomsday, Sleeping Beauty, Presumptuous Philosopher.
+
+
+### physiology.gut-brain-axis
+
+- **title**: The gut-brain axis: vagal signaling, the microbiome, and enteric neuroscience
+- **unit**: `18.06.04`
+- **prerequisites**: `physiology.digestive-physiology`
+- **tier_anchors**:
+  - master: Bayliss-Starling 1902; Langley 1921; Gershon 1998 "The Second Brain"; Cryan-Dinan 2012 Nat. Rev. Drug Discov. 11:508; Bravo 2011 PNAS; Hsiao 2013 Cell; Sampson 2016 Cell
+  - intermediate: Foster-Matsumoto 2017 Nature Neurosci. 20:473; Cryan-O'Riordan 2020s reviews
+  - beginner: popular science (Enders "Gut"; Yong "I Contain Multitudes")
+- **notes**: Bidirectional gut-brain communication via (1) the enteric nervous system (~500M neurons in myenteric + submucosal plexuses; produces 30+ neurotransmitters including ~90% of body serotonin), (2) vagal afferents (~80,000 fibers; 90% afferent, only 10% efferent — the "rest-and-digest" framing is misleading), (3) the gut microbiome (~38T bacteria across ~1000 species), (4) microbial metabolites (SCFAs acetate/propionate/butyrate; tryptophan/serotonin; secondary bile acids). Germ-free mouse experiments (Bravo 2011, Hsiao 2013, Sampson 2016) provide causal evidence for microbiome → brain → behavior effects. Clinical implications: IBS-depression/anxiety comorbidity (~50%), Braak 2003 Parkinson's gut-first hypothesis (α-synuclein originates in enteric nerves), autism-gut associations.
+
+### inorganic-chemistry.electrocatalysis-water-splitting
+
+- **title**: Electrocatalysis and water splitting: the oxygen-evolution reaction, the hydrogen-evolution reaction, and the search for non-precious-metal catalysts
+- **unit**: `16.10.02`
+- **prerequisites**: `inorganic-chemistry.catalysis-survey`
+- **tier_anchors**:
+  - master: Tafel 1905; Trasatti 1972 J. Electroanal. Chem. 39:163; Norskov 2004-2005 (DFT, computational hydrogen electrode); Nocera 2008+ (CoPi, artificial leaf); Trotochaud-Boettcher 2012 (NiFe oxyhydroxide)
+  - intermediate: Bockris "Modern Electrochemistry"; Koper "Fuel Cell Catalysis"
+  - beginner: Nocera popular accounts; accessible chemistry and energy texts
+- **notes**: Water splitting (H2O -> H2 + 1/2 O2, minimum voltage 1.23 V; practical 1.5-1.8 V) underpins green hydrogen production. The OER (4-electron, kinetically sluggish) is the bottleneck; HER (2-electron) is easier. Tafel kinetics (eta = a + b log i) characterize catalyst performance. The Sabatier principle (Trasatti 1972 volcano plot for HER, Pt at the peak; Norskov DFT extensions for OER) rationalizes catalyst activity as a function of intermediate-adsorption energy. Benchmark catalysts: Pt for HER (rare, expensive), IrO2/RuO2 for OER (rarer still); alternatives include NiFe oxyhydroxide (the most active in base; Fe is the active site, Trotochaud 2012), CoPi (Nocera 2008 self-healing, neutral pH), MoS2 edges (Hinnemann 2005), transition-metal phosphides (Ni2P, MoP). Nocera 2011 "artificial leaf" (Science) demonstrated direct solar water splitting with earth-abundant catalysts.
+
+### film-photography.cinema-verite-direct-cinema
+
+- **title**: Cinéma vérité and direct cinema: the 1960s observational documentary revolution
+- **unit**: `34.05.02`
+- **prerequisites**: `music-art.film-photography-survey`
+- **tier_anchors**:
+  - master: Rouch-Morin 1961 "Chronique d'été"; Drew 1960 "Primary"; Nichols 1991 "Representing Reality"; Bruzzi 2000 "New Documentary"; Wiseman interviews and essays
+  - intermediate: Barnouw "Documentary: A History of the Non-Fiction Film"; Grant "Documentary Dossier"
+  - beginner: accessible film-history texts; widely available documentary films (e.g., Dont Look Back, Grey Gardens)
+- **notes**: Two parallel 1960s documentary movements, enabled by lightweight 16mm cameras and portable sync-sound Nagra recorders. French cinéma vérité (Rouch-Morin Chronique d'été 1961, Marker Sans Soleil 1983) embraced reflexivity: filmmaker on-screen, subject as collaborator. North American direct cinema (Drew Associates — Drew, Leacock, Maysles, Pennebaker; plus Frederick Wiseman's institutional series) pursued observational non-intervention. Drew 1960 Primary (JFK vs. Humphrey Wisconsin primary) established the template; Wiseman's Titicut Follies 1967 began the institutional-critique strand; Maysles brothers' Salesman 1969, Gimme Shelter 1970, Grey Gardens 1975; Pennebaker's Dont Look Back 1967 (Dylan). Nichols 1991 (Representing Reality) provided the modern modes taxonomy (expository / observational / participatory / reflexive / performative). The terms are often conflated but reflect distinct philosophical commitments about documentary truth.
+
+### psychology.motor-learning-cerebellum
+
+- **title**: Motor learning and the cerebellum: Marr-Albus theory, long-term depression at Purkinje cells, and adaptive error correction
+- **unit**: `29.04.05`
+- **prerequisites**: `psychology.learning-memory`
+- **tier_anchors**:
+  - master: Holmes 1917 Brain; Eccles-Ito-Szentagothai 1967; Marr 1969 J. Physiol. 202:437; Albus 1971 Math. Biosci. 10:25; Ito 1982 J. Physiol. 324; Lisberger-Miles 1980s VOR; Ito 2008 Brain Res.
+  - intermediate: Ito "The Cerebellum" 2006 textbook; Schmahmann "Cerebellar Cognitive Affective Syndrome"
+  - beginner: standard cognitive-neuroscience textbooks (Gazzaniga; Baars-Gage)
+- **notes**: The cerebellum ("little brain," ~80% of the brain's neurons in ~10% of its volume) implements supervised motor learning. Marr 1969 and Albus 1971 proposed the foundational theory: granule cells encode high-dimensional context representations; Purkinje cells learn via climbing-fibre-supervised synaptic plasticity. Ito 1982 discovered long-term depression at parallel-fibre–Purkinje synapses (requires coincident parallel-fibre + climbing-fibre activation → mGluR1-mediated AMPA receptor endocytosis). The vestibulo-ocular reflex (VOR) adaptation paradigm (Lisberger 1980s) is the canonical experimental model: the basic reflex is brainstem-wired, but the cerebellum adjusts its gain via error-driven plasticity. The eyeblink classical-conditioning paradigm (McCormick-Thompson 1984) localizes to the cerebellar-interpositus pathway. Schmahmann 1991 "dysmetria of thought" theory extends cerebellar function to cognition.
