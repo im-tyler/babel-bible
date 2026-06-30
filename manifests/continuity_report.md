@@ -1,22 +1,22 @@
 # Codex — Continuity Report
 _Generated: $(date)_
 
-**Units measured:** 1875
+**Units measured:** 2562
 
 ## Aggregate metrics
 
 | Metric | Avg | Threshold | Status |
 |---|---|---|---|
-| Backward-reference density (per 1000w) | 9.42 | 8.0 | ✓ |
-| Forward-promise density (per 1000w) | 1.59 | 3.0 | ✗ |
-| Lateral connections (per Master section) | 4.33 | 3 | ✓ |
-| Synthesis claims (Intermediate) | 3.54 | 2 | ✓ |
-| Synthesis claims (Master) | 4.49 | 4 | ✓ |
+| Backward-reference density (per 1000w) | 8.65 | 8.0 | ✓ |
+| Forward-promise density (per 1000w) | 1.41 | 3.0 | ✗ |
+| Lateral connections (per Master section) | 4.23 | 3 | ✓ |
+| Synthesis claims (Intermediate) | 3.24 | 2 | ✓ |
+| Synthesis claims (Master) | 4.10 | 4 | ✓ |
 | Anchor-phrase reuse rate | 1.00 | 0.95 | ✓ |
 
 ## Failures
 
-- forward_density: 1.59 < 3.0
+- forward_density: 1.41 < 3.0
 
 ## Lowest 10 units by backward-reference density
 
@@ -31,4 +31,4 @@ _Generated: $(date)_
 | 02.10.E1 | content/02-analysis/10-harmonic/02.10.E1-vector-calculus-exercises.md | 0.00 |
 | 02.12.E1 | content/02-analysis/12-ode/02.12.E1-qualitative-ode-exercises.md | 0.00 |
 | 02.13.E1 | content/02-analysis/13-pde/02.13.E1-currents-and-integration-exercises.md | 0.00 |
-| 03.15.E1 | content/03-modern-geometry/03.15-morse-homology/03.15.E1-morse-homology-exercises.md | 0.00 |
+| 03.04.E2 | content/03-modern-geometry/04-differential-forms/03.04.E2-forms-stokes-exercises.md | 0.00 |

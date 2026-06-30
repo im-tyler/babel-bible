@@ -7404,6 +7404,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: (to be filled during production)
 
 
+### chemistry.baeyer-villiger-oxidation
+
+- **title**: The Baeyer-Villiger oxidation: Criegee intermediate, migratory aptitude, and lactone regiochemistry
+- **unit**: `15.07.06`
+- **prerequisites**: `chemistry.carbonyl-nucleophilic-addition`
+- **tier_anchors**:
+  - master: Criegee 1948 Ann. 564:9; March's Advanced Organic Chemistry 7th ed. Ch. 19; Carey & Sundberg — Advanced Organic Chemistry Part B 5th ed. Ch. 6
+  - intermediate: Clayden, Greeves & Warren — Organic Chemistry 2nd ed., peracid chapters (Ch. 12, 23); Bruice — Organic Chemistry, carbonyl oxidation chapters
+  - beginner: McMurry — Organic Chemistry 10th ed., carbonyl oxidation chapter (Ch. 20)
+- **notes**: Peracid oxidation of ketones/aldehydes to esters/lactones via the Criegee tetrahedral intermediate; migratory aptitude follows carbocation stability (H > tert-alkyl > sec-alkyl > benzyl ~ phenyl > primary > methyl); stereochemistry at the migrating centre is retained (concerted sigma-bond migration). Originator chain: Baeyer-Villiger 1899 (Ber. 32:3625) → Criegee 1948 mechanism (Ann. 560:127, 564:9) → Brown-Okamoto σ+ correlations (ρ ≈ -4.5, confirming cationic TS) → stereoelectronic antiperiplanar requirement (Houk, 1980s) → asymmetric BV (Bolm 1994 Angew. Chem.; Katsuki 1997 Synlett) → enzymatic BVMOs (Walsh 1976 CHMO, FAD-OOH as biological peracid equivalent). Ring expansion of cyclic ketones to lactones is the industrial route to caprolactone (Nylon-6 precursor).
+
+
 ### chemistry.retrosynthetic-analysis
 
 - **title**: Retrosynthetic analysis
@@ -25187,3 +25199,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Folland Real Analysis 2e §3.4; Stein-Shakarchi Real Analysis (Princeton 2005) Ch. 3 §1-2
   - beginner: Tao Analysis II §8.5; the running-average-of-a-step-function picture near and far from a jump
 - **notes**: The pointwise-a.e. recovery of a locally integrable function from its ball-averages, and the Hardy-Littlewood maximal function that controls the bad set. Covers the centred maximal function Mf(x) = sup_r |B(x,r)|^{-1} \int_{B(x,r)} |f| dm, the Vitali covering lemma (geometric engine: extract a disjoint subcollection from any ball cover, covering a fixed 3^n fraction), the weak-type (1,1) bound m({Mf > \lambda}) \leq C_n \|f\|_1 / \lambda (Hardy-Littlewood 1930 in n=1, Wiener 1939 in general n), the strong-type (p,p) bound \|Mf\|_p \leq A_p \|f\|_p for 1 < p \leq \infty via Marcinkiewicz interpolation of weak-(1,1) and trivial strong-(\infty,\infty) (Marcinkiewicz 1939, sharp constant A_p = O(p/(p-1)) by Melas 2003), the Lebesgue differentiation theorem (Lebesgue 1910, Wiener 1939): A_r f(x) \to f(x) for m-a.e. x with proof via C_c-density + weak-type control of the error, the Lebesgue set (full measure), the differentiation-of-measures theorem (Radon-Nikodym derivative as limit of ratios \nu(B)/m(B)), the fundamental theorem of calculus for the Lebesgue integral (absolutely continuous F recovers F' a.e.), the Lebesgue density theorem (measurable sets have density 1 at their own points), the Besicovitch covering theorem (sharper geometric loss), and the Calderón-Zygmund decomposition as the dyadic cousin. Originator chain: Lebesgue 1910, Hardy-Littlewood 1930, Wiener 1939, Marcinkiewicz 1939, Besicovitch 1945-46, Calderón-Zygmund 1952, Stein 1970, Coifman-Weiss 1971. Lean status: none. Crossrefs lebesgue-integral-monotone-convergence [02.07.04], fatou-lemma-dominated-convergence [02.07.05], absolute-continuity-radon-nikodym [02.07.08].
+
+### molecular-biology.crispr-cas9-genome-editing
+
+- **title**: CRISPR-Cas9 genome editing: PAM recognition, sgRNA guidance, and DSB repair outcomes
+- **unit**: `17.11.03`
+- **prerequisites**: `mol-cell-bio.methods-techniques`
+- **tier_anchors**:
+  - master: Jinek 2012 Science 337:816; Nishimasu 2014 Science 343:1247993; Anzalone 2019 Nature 576:149
+  - intermediate: Molecular Biology of the Gene (Watson et al.) 7e; Doudna-Sternberg "A Crack in Creation" 2017
+  - beginner: Doudna-Sternberg popular-science treatment; 3Blue1Brown-style intuition
+- **notes**: Bacterial adaptive-immunity system reprogrammed for genome editing. Cas9 is a bilobed RNase that uses an sgRNA (fused crRNA-tracrRNA) to find a 20-nt genomic target adjacent to an NGG PAM; HNH and RuvC domains cut both strands 3 bp upstream of the PAM, leaving a blunt DSB. Repair via NHEJ (indels -> knockout) or HDR (template-driven -> precise edit). Originator chain: Ishino 1987 -> Barrangou 2007 -> Doudna-Charpentier 2012 -> Zhang 2013 -> 2020 Nobel Chemistry -> Casgevy 2023 sickle-cell approval.
+
+
+### world-history.verdun-somme-1916-attrition
+
+- **title**: Verdun and the Somme, 1916: industrialized attrition on the Western Front
+- **unit**: `32.20.03`
+- **prerequisites**: `world-history.wwi-global-perspectives`
+- **tier_anchors**:
+  - master: Foley 2005; Prior-Wilson 2005; Sheffield 2011; Keegan 1976
+  - intermediate: Hastings 2013 "Catastrophe 1914"; Watson 2014 "Ring of Steel"
+  - beginner: Keegan "The First World War" 1998; popular treatment
+- **notes**: The two emblematic 1916 battles that defined industrialized attrition warfare. Verdun (Feb-Dec 1916): Falkenhayn's claimed "Ausblutung" doctrine (per the contested Dec 1915 Christmas Memo; Foley 2005 retranslated and contested its authenticity) met Pétain's defensive logistics on the Voie Sacrée; ~700,000 combined casualties; no strategic breakthrough. The Somme (July-Nov 1916): 1 July as the bloodiest day in British military history (57,000 casualties, 19,000 dead); Haig's breakthrough doctrine defeated by deep dugouts that survived the 7-day preparatory bombardment; ~1.1M combined casualties for ~6 miles of gain. Both battles established the structural fact that 3-to-1 force ratios and pre-sighted defensive firepower made breakthrough impossible until combined-arms doctrine matured in 1917-18.

@@ -848,6 +848,12 @@
 ],
 "curriculum": "fast-track"
 },
+"02.07.12": {
+"books": [
+"foundational-home"
+],
+"curriculum": "analysis-home"
+},
 "02.07.E1": {
 "books": [
 "whitney-geometric-integration-theory"
@@ -9647,6 +9653,10 @@
 "books": [],
 "curriculum": "orgchem"
 },
+"15.07.06": {
+"books": [],
+"curriculum": "other"
+},
 "15.08.01": {
 "books": [],
 "curriculum": "other"
@@ -9850,6 +9860,12 @@
 "curriculum": "inorgchem"
 },
 "16.08.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "inorgchem-home"
+},
+"16.08.02": {
 "books": [
 "foundational-home"
 ],
@@ -10063,6 +10079,12 @@
 ],
 "curriculum": "mol-cell-bio-home"
 },
+"17.11.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "mol-cell-bio-home"
+},
 "17.12.01": {
 "books": [
 "foundational-home"
@@ -10228,6 +10250,12 @@
 "curriculum": "organismal-bio-home"
 },
 "18.13.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "organismal-bio-home"
+},
+"18.13.02": {
 "books": [
 "foundational-home"
 ],
@@ -11749,6 +11777,12 @@
 "books": [],
 "curriculum": "earth-science"
 },
+"27.07.05": {
+"books": [
+"foundational-home"
+],
+"curriculum": "earth-science-home"
+},
 "27.08.01": {
 "books": [],
 "curriculum": "other"
@@ -11874,6 +11908,12 @@
 "curriculum": "astronomy-home"
 },
 "28.09.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "astronomy-home"
+},
+"28.09.02": {
 "books": [
 "foundational-home"
 ],
@@ -12337,6 +12377,12 @@
 "books": [],
 "curriculum": "world-history"
 },
+"32.07.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
+},
 "32.08.01": {
 "books": [],
 "curriculum": "other"
@@ -12438,6 +12484,12 @@
 "32.20.02": {
 "books": [],
 "curriculum": "world-history"
+},
+"32.20.03": {
+"books": [
+"foundational-home"
+],
+"curriculum": "world-history-home"
 },
 "32.21.01": {
 "books": [],

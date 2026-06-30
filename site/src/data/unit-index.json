@@ -3221,6 +3221,31 @@
 ],
 "title": "The Area and Coarea Formulas"
 },
+"02.07.12": {
+"area": "math",
+"books": [
+"foundational-home"
+],
+"chapter": "measure-theory",
+"curriculum": "analysis-home",
+"field": "analysis",
+"fieldLabel": "Analysis",
+"fieldOrder": 3,
+"id": "02.07.12",
+"prereqs": [
+"02.07.04",
+"02.07.05"
+],
+"section": "analysis",
+"slug": "lebesgue-differentiation-theorem-hardy-littlewood-maximal",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Lebesgue differentiation theorem and the Hardy-Littlewood maximal function"
+},
 "02.07.E1": {
 "area": "math",
 "books": [
@@ -34870,6 +34895,28 @@
 ],
 "title": "Oxidation and reduction of carbonyls"
 },
+"15.07.06": {
+"area": "other",
+"books": [],
+"chapter": "carbonyl",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "15.07.06",
+"prereqs": [
+"15.07.01"
+],
+"section": "orgchem",
+"slug": "baeyer-villiger-oxidation-criegee-intermediate-lactone-regiochemistry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Baeyer-Villiger oxidation: Criegee intermediate, migratory aptitude, and lactone regiochemistry"
+},
 "15.08.01": {
 "area": "other",
 "books": [],
@@ -35963,6 +36010,30 @@
 "master"
 ],
 "title": "Main-group descriptive chemistry \u2014 s-block, p-block, and periodic structure"
+},
+"16.08.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "main-group-detail",
+"curriculum": "inorgchem-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.08.02",
+"prereqs": [
+"16.08.01"
+],
+"section": "inorgchem",
+"slug": "noble-gas-compounds-xenon-fluorides-bartlett",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Noble gas compounds: xenon fluorides and the fall of the octet rule"
 },
 "16.09.01": {
 "area": "other",
@@ -37059,6 +37130,30 @@
 ],
 "title": "Optical tweezers and single-molecule force spectroscopy"
 },
+"17.11.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "methods-techniques",
+"curriculum": "mol-cell-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "17.11.03",
+"prereqs": [
+"17.11.01"
+],
+"section": "mol-cell-bio",
+"slug": "crispr-cas9-genome-editing-pam-sgrna-dsb-repair",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "CRISPR-Cas9 genome editing: PAM recognition, sgRNA guidance, and DSB repair outcomes"
+},
 "17.12.01": {
 "area": "other",
 "books": [
@@ -37956,6 +38051,30 @@
 "master"
 ],
 "title": "Sensory systems \u2014 vision, hearing, balance, taste, smell"
+},
+"18.13.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "sensory-systems",
+"curriculum": "organismal-bio-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.13.02",
+"prereqs": [
+"18.13.01"
+],
+"section": "organismal-bio",
+"slug": "hair-cell-mechanotransduction-cochlear-tuning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hair cell mechanotransduction and cochlear frequency tuning"
 },
 "19.01.01": {
 "area": "other",
@@ -45361,6 +45480,31 @@
 ],
 "title": "Impacts and adaptation: sea-level rise, extreme events, mitigation scenarios"
 },
+"27.07.05": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "climate-change",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.07.05",
+"prereqs": [
+"27.07.01",
+"27.07.02"
+],
+"section": "earth-science",
+"slug": "stratospheric-ozone-depletion-cfcs-montreal-protocol",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Stratospheric ozone depletion: CFC chemistry, the Antarctic ozone hole, and the Montreal Protocol"
+},
 "27.08.01": {
 "area": "other",
 "books": [],
@@ -46009,6 +46153,30 @@
 "master"
 ],
 "title": "Observational astronomy \u2014 telescopes, detectors, and spectroscopy"
+},
+"28.09.02": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "observational-instrumentation",
+"curriculum": "astronomy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.09.02",
+"prereqs": [
+"28.09.01"
+],
+"section": "astronomy",
+"slug": "adaptive-optics-interferometry-high-angular-resolution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Adaptive optics, interferometry, and high-angular-resolution astronomy"
 },
 "28.10.01": {
 "area": "other",
@@ -48398,6 +48566,31 @@
 ],
 "title": "Roman law and governance: the Twelve Tables, Roman Republic vs. Empire, legacy in legal systems"
 },
+"32.07.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "roman-empire",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.07.03",
+"prereqs": [
+"32.07.01",
+"32.07.02"
+],
+"section": "world-history",
+"slug": "byzantine-empire-constantinople-justinian",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Byzantine Empire: Constantinople, Justinian, and the thousand-year continuation of Rome"
+},
 "32.08.01": {
 "area": "other",
 "books": [],
@@ -48923,6 +49116,30 @@
 "master"
 ],
 "title": "Causes and consequences of WWI: alliance systems, total war, the peace settlement"
+},
+"32.20.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "world-war-one",
+"curriculum": "world-history-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.20.03",
+"prereqs": [
+"32.20.01"
+],
+"section": "world-history",
+"slug": "verdun-somme-1916-western-front-attrition",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Verdun and the Somme, 1916: industrialized attrition on the Western Front"
 },
 "32.21.01": {
 "area": "other",
