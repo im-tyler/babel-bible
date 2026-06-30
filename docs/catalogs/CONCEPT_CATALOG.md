@@ -9711,6 +9711,17 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
   - beginner: Russell, B. — The Problems of Philosophy (1912)
 - **notes**: The structure of epistemic justification: foundationalism (classical and moderate, the myth of the given), coherentism (BonJour, Quine's web of belief, the isolation and input objections), reliabilism (Goldman's process reliabilism, generality and new-evil-demon problems), and naturalized epistemology (Quine). Master tier extends to virtue epistemology (Sosa, Zagzebski), proper functionalism (Plantinga), evidentialism (Feldman-Conee), contextualism (DeRose), pragmatic encroachment (Stanley), Bayesian and formal epistemology (Hintikka, Ramsey-de Finetti), Gettier descendants (tracking, safety, causal theory), and social/feminist/decolonial epistemology (Fricker, Harding, Longino, Mignolo, Smith). No Lean formalisation; human-review-only at I/M tier.
 
+### philosophy.social-epistemology
+
+- **title**: Social epistemology: testimony, trust, virtue, and the social structure of knowledge
+- **unit**: `20.01.04`
+- **prerequisites**: `philosophy.epistemology-knowledge-justification-truth`
+- **tier_anchors**:
+  - master: Hume 1758 Enquiry §10; Reid 1764 Inquiry; Goldman 1999 "Knowledge in the Social World"; Coady 1992 "Testimony"; Sosa 1991 "Knowledge in Perspective"; Lackey 2008 "Learning from Words"; Fricker 2007 "Epistemic Injustice"
+  - intermediate: Goldman-Whitcomb 2011 "Social Epistemology: Essential Readings"; Haddock-Mill-Pritchard 2010
+  - beginner: Wikipedia social epistemology article; accessible introductory essays
+- **notes**: The post-Gettier move from individual to social knowers. Major threads: (1) testimony — Hume (reductionism) vs Reid (anti-reductionism); Coady 1992 modern rehabilitation; Lackey 2008 dualism; (2) virtue epistemology — Sosa 1991 AAA framework (accuracy/adroitness/aptness); Zagzebski 1996 motive-virtue; (3) trust and expertise — Hardwig 1985 epistemic dependence; Kitcher 1990 division of cognitive labor; (4) feminist/standpoint — Harding, Code, Fricker 2007 (testimonial and hermeneutical injustice); (5) collective epistemology — Gilbert 1989 group belief; (6) applied to internet, Wikipedia, and misinformation (Nguyen 2020 echo chambers).
+
 ### philosophy.rights-natural-human-legal
 
 - **title**: Rights: natural, human, and legal
@@ -10628,6 +10639,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Gleitman et al., Psychology (8e), Ch. 14"
   - master: "Beck, A. T. — Cognitive Therapy and the Emotional Disorders (1976)"
 - **notes**: Mood disorders — major depressive disorder (DSM-5 criteria, prevalence, course), persistent depressive disorder (dysthymia), bipolar I and II (mania, hypomania), cyclothymia, the monoamine hypothesis, Beck's cognitive model (cognitive triad, depressive schemas), learned helplessness (Seligman), CBT for depression, neurobiology (HPA axis, hippocampal volume, inflammation hypothesis), genetics (MDD heritability ~37%, bipolar ~60-85%), ketamine and psilocybin as novel antidepressants, recurrence kindling and scar hypothesis, cultural variation in depression presentation. No Lean formalisation; human-review-only at all tiers.
+
+### psychology.eating-disorders
+
+- **title**: Eating disorders: anorexia nervosa, bulimia nervosa, binge-eating disorder, and the biology of starvation
+- **unit**: `29.09.05`
+- **prerequisites**: `psychology.psychological-disorders-survey` (29.09.01)
+- **tier_anchors**:
+  - master: Gull 1873 Trans. Clin. Soc. London; Keys 1950 "The Biology of Human Starvation"; Russell 1979 Psychol. Med. 9:429; Fairburn 2008 "CBT and Eating Disorders"; Lock-Le Grange 2012
+  - intermediate: APA Practice Guideline (2010+); Treasure-Eckstein-Cardi 2020s neurobiology reviews
+  - beginner: Hilde Bruch 1973 accessible chapters; modern popular books (e.g., Maxfield 2018)
+- **notes**: DSM-5 spectrum — AN (restricting/binge-purge), BN (binge + compensation), BED (binge without compensation), ARFID. Highest mortality of any psychiatric disorder (AN ~5-6%, standardized mortality ratio ~5.9; cardiac and suicide). The Keys 1950 Minnesota Starvation Experiment (36 male conscientious objectors, 6-month 1800 kcal/day semi-starvation) established that starvation itself produces eating-disorder-like symptoms in healthy adults — the empirical foundation for the bio-psychosocial model. First-line treatment: CBT-E for adults (Fairburn 2008), Maudsley Family-Based Treatment for adolescent AN (Lock-Le Grange; ~70% recovery). Acute management includes refeeding syndrome (hypophosphatemia, cardiac arrhythmia) — phosphorus monitoring essential.
 
 ### psychology.social-psychology-groups-prejudice
 
@@ -25384,3 +25406,27 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Williams Textbook of Endocrinology 14e; Yen-Jaffe's Reproductive Endocrinology
   - beginner: Hall "Guyton and Hall" medical physiology; Boron-Boulpaep
 - **notes**: The HPT axis (TRH-TSH-T3/T4 with negative feedback) is the canonical endocrine feedback system; TSH is the most sensitive clinical marker. T4 (Kendall 1915; Harrington-Barger 1927) is the prohormone; T3 (Gross-Pitt-Rivers 1952) is the active hormone, ~4x more potent, bound by nuclear TR-alpha/beta. Peripheral D2/D3 deiodinases (Bianco-Kim 2006) control local T3 availability — D2 in pituitary/brain determines the HPT set-point. Autoimmune disease: Graves' (TSHR-stimulating antibodies / TSI, Adams-Purves 1956) vs Hashimoto's (TPO antibodies). Iodine: Wolff-Chaikoff effect (transient hypothyroidism from acute iodine excess) and Jod-Basedow phenomenon (iodine-induced hyperthyroidism in autonomy).
+
+
+### medicine.neurodegenerative-disease
+
+- **title**: Neurodegenerative disease: protein misfolding, Alzheimer's, Parkinson's, and the amyloid/tau/synucleinopathies
+- **unit**: `35.03.05`
+- **prerequisites**: `medicine.chronic-disease-survey`
+- **tier_anchors**:
+  - master: Alzheimer 1907; Parkinson 1817; Prusiner 1982 Science 216:136; Spillantini 1997 Nature 388:839; Hardy-Waterson 1998; Braak-Braak 1991; Braak 2003; van Dyck 2023 NEJM (lecanemab)
+  - intermediate: Selkoe "Alzheimer Disease" NEJM review updates; Updates in Lancet Neurology
+  - beginner: National Institute on Aging accessible materials; popular books (e.g., David Shenk "The Forgetting")
+- **notes**: The unifying paradigm of protein misfolding — natively-unfolded proteins (Aβ, tau, α-synuclein, TDP-43, PrP) adopt β-sheet-rich conformations that template further misfolding and propagate along neural circuits (prion-like spread; Brundin-Melki-Desplats 2010; Walsh-Selkoe 2016). Braak-Braak 1991 staging (AD: entorhinal → hippocampus → neocortex, ~20-25 years) and Braak 2003 staging (PD: brainstem → midbrain → forebrain) follow anatomical connectivity. Amyloid-cascade hypothesis (Hardy-Waterson 1998) — 30-year history of anti-Aβ trial failures, with lecanemab 2023 (27% slowing of decline over 18 months) the first disease-modifying therapy. Parkinson's unified α-synuclein + mitochondrial theories via PINK1/Parkin/LRRK2/GBA mutations. APOE ε4 is the main genetic risk for sporadic AD; APP/PSEN1/2 for familial early-onset (~5%).
+
+
+### astronomy.molecular-clouds-protostellar-evolution
+
+- **title**: Molecular clouds and protostellar evolution: Jeans collapse, the Hayashi track, and the H-R diagram pre-main-sequence
+- **unit**: `28.07.02`
+- **prerequisites**: `astronomy.ism-star-formation-survey`
+- **tier_anchors**:
+  - master: Jeans 1902 Phil. Trans. R. Soc. A 199; Hayashi 1961 PASJ 13:450; Shu 1977 ApJ 214:488; Adams-Lada-Shu 1987; Andre-Ward-Thompson-Barsony 1993 ApJ 406:122; McKee-Tan 2003
+  - intermediate: Stahler-Palla "The Formation of Stars" 2004; Ward-Thompson-Whitworth "An Introduction to Star Formation" 2011
+  - beginner: Pasachoff-Filippenko "The Cosmos"; popular accounts (e.g., Croswell "The Alchemy of the Heavens")
+- **notes**: Jeans 1902 gravitational-instability criterion (λ > λ_J = c_s √(π/Gρ); M > M_J = (π^(5/2)/6) c_s³ / √(G³ρ)) governs initial collapse in cold (T~10 K) molecular clouds. Larson 1969 / Shu 1977 inside-out collapse; Adams-Lada-Shu 1987 + Andre 1993 Class 0/I/II/III protostellar sequence (sub-mm -> envelope+outflow -> disk+T Tauri -> weak-lined T Tauri). Hayashi 1961 track (fully convective, ~constant T_eff) and Henyey 1955 track (radiative-core, leftward in H-R diagram) carry the protostar to the main sequence. Brown-dwarf threshold ~0.08 M☉; deuterium-burning 0.013 M☉ (13 M_Jup) sets the planet/star boundary. Orion Nebula (~1344 ly) is the nearest massive star-forming region; JWST + ALMA resolve protoplanetary disks directly.

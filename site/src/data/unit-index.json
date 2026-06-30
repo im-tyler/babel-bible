@@ -39209,6 +39209,28 @@
 ],
 "title": "Epistemological skepticism and responses: Cartesian doubt, contextualism, externalism"
 },
+"20.01.04": {
+"area": "other",
+"books": [],
+"chapter": "epistemology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.01.04",
+"prereqs": [
+"20.01.01"
+],
+"section": "philosophy",
+"slug": "social-epistemology-testimony-trust-virtue-structure-knowledge",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Social epistemology: testimony, trust, virtue, and the social structure of knowledge"
+},
 "20.02.01": {
 "area": "other",
 "books": [],
@@ -46329,6 +46351,28 @@
 ],
 "title": "The interstellar medium and star formation"
 },
+"28.07.02": {
+"area": "other",
+"books": [],
+"chapter": "ism-star-formation",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.07.02",
+"prereqs": [
+"28.07.01"
+],
+"section": "astronomy",
+"slug": "molecular-clouds-protostellar-evolution-jeans-collapse-hayashi-track",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Molecular clouds and protostellar evolution: Jeans collapse, the Hayashi track, and the H-R diagram pre-main-sequence"
+},
 "28.08.01": {
 "area": "other",
 "books": [
@@ -47176,6 +47220,28 @@
 "master"
 ],
 "title": "Psychotic and neurodevelopmental disorders: schizophrenia, ADHD, autism spectrum"
+},
+"29.09.05": {
+"area": "other",
+"books": [],
+"chapter": "psychological-disorders",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.09.05",
+"prereqs": [
+"29.09.01"
+],
+"section": "psychology",
+"slug": "eating-disorders-anorexia-bulimia-binge-biology-starvation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Eating disorders: anorexia nervosa, bulimia nervosa, binge-eating disorder, and the biology of starvation"
 },
 "29.10.01": {
 "area": "other",
@@ -50768,6 +50834,28 @@
 "master"
 ],
 "title": "Metabolic syndrome and diabetes: insulin resistance, adipose tissue dysfunction, complications"
+},
+"35.03.05": {
+"area": "other",
+"books": [],
+"chapter": "chronic-disease",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.03.05",
+"prereqs": [
+"35.03.01"
+],
+"section": "health-medicine",
+"slug": "neurodegenerative-disease-protein-misfolding-alzheimer-parkinson-amyloid-tau-synuclein",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Neurodegenerative disease: protein misfolding, Alzheimer's, Parkinson's, and the amyloid/tau/synucleinopathies"
 },
 "35.04.01": {
 "area": "other",

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Neurodegenerative Disease Protein Misfolding Alzheimer Parkinson Amyloid Tau Synuclein</title>
+  <desc id="desc">A schematic placeholder diagram for Neurodegenerative Disease Protein Misfolding Alzheimer Parkinson Amyloid Tau Synuclein.</desc>
+  <rect width="720" height="360" fill="#f7f7f2"/>
+  <g fill="none" stroke="#1f6f8b" stroke-width="6">
+    <rect x="100" y="80" width="180" height="180"/>
+    <rect x="270" y="80" width="180" height="180"/>
+    <rect x="440" y="80" width="180" height="180"/>
+  </g>
+  <g fill="none" stroke="#f2b134" stroke-width="4">
+    <path d="M190 170 Q280 50 360 170"/>
+    <path d="M360 170 Q450 290 530 170"/>
+  </g>
+  <g fill="#1f6f8b">
+    <circle cx="190" cy="170" r="9"/>
+    <circle cx="360" cy="170" r="9"/>
+    <circle cx="530" cy="170" r="9"/>
+  </g>
+  <text x="360" y="325" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#222">Neurodegenerative Disease Protein Misfolding Alzheimer Parkinson Amyloid Tau Synuclein</text>
+</svg>
