@@ -39493,6 +39493,28 @@
 ],
 "title": "Space, time, and relativity: substantivalism vs. relationalism, the direction of time"
 },
+"20.03.04": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-physics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.03.04",
+"prereqs": [
+"20.03.01"
+],
+"section": "philosophy",
+"slug": "anthropic-principle-cosmic-fine-tuning-carter-barrow-tipler-multiverse",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The anthropic principle and cosmic fine-tuning: Carter, Barrow-Tipler, and the multiverse response"
+},
 "20.04.01": {
 "area": "other",
 "books": [],
@@ -46398,6 +46420,28 @@
 ],
 "title": "High-energy astrophysics \u2014 compact objects, accretion, and cosmic explosions"
 },
+"28.08.02": {
+"area": "other",
+"books": [],
+"chapter": "high-energy-astrophysics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.08.02",
+"prereqs": [
+"28.08.01"
+],
+"section": "astronomy",
+"slug": "pulsars-neutron-stars-lindblad-bell-discovery-tov-limit-magnetars",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Pulsars and neutron stars: the Lindblad-Bell discovery, the Tolman-Oppenheimer-Volkoff limit, and magnetars"
+},
 "28.09.01": {
 "area": "other",
 "books": [
@@ -46889,6 +46933,28 @@
 "master"
 ],
 "title": "Language acquisition: critical period, Chomsky's nativism vs. connectionist accounts"
+},
+"29.05.04": {
+"area": "other",
+"books": [],
+"chapter": "cognition-intelligence",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.05.04",
+"prereqs": [
+"29.05.01"
+],
+"section": "psychology",
+"slug": "working-memory-baddeley-hitch-phonological-loop-visuospatial-sketchpad",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Working memory: the Baddeley-Hitch model, the phonological loop, and the visuospatial sketchpad"
 },
 "29.06.01": {
 "area": "other",
@@ -51124,6 +51190,28 @@
 "master"
 ],
 "title": "Drug classes and mechanisms: antibiotics (MOA), antihypertensives, psychotropics"
+},
+"35.07.04": {
+"area": "other",
+"books": [],
+"chapter": "pharmacology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.07.04",
+"prereqs": [
+"35.07.01"
+],
+"section": "health-medicine",
+"slug": "cytochrome-p450-pharmacogenomics-cyp3a4-2d6-drug-interactions-precision-dosing",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cytochrome P450 pharmacogenomics: CYP3A4/2D6 polymorphism, drug-drug interactions, and precision dosing"
 },
 "35.08.01": {
 "area": "other",

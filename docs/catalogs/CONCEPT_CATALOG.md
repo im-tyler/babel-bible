@@ -10552,6 +10552,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - master: "primary sources: Piaget 1936/1952, 1937/1954, 1945/1962, 1970; Vygotsky 1934/1962, 1978; Bowlby 1969, 1973, 1980; Ainsworth et al. 1978; Erikson 1950, 1968; Kohlberg 1981; Gilligan 1982; Kuhn 1962; Chomsky 1957, 1959, 1965; Kubler-Ross 1969; Baltes 1987; secondary: Berk, Siegler, Cole, Rogoff, Rogoff Chavajay, Rogoff Paradise, Gauvain, Bronfenbrenner, Super and Harkness, Keller, Weisner, Greenfield, Nielsen and Haun"
 - **notes**: Developmental psychology across the full lifespan. Prenatal development (germinal, embryonic, fetal periods; teratogens; maternal health). Piaget's four stages (sensorimotor, preoperational, concrete operational, formal operational) with critiques: children are more capable than Piaget credited, object permanence earlier, horizontal decalage, underestimation of social context. Vygotsky's sociocultural theory: zone of proximal development, scaffolding, cultural tools, private speech, emphasis on social and cultural factors in cognitive development. Attachment theory: Bowlby's ethological approach, Ainsworth's Strange Situation, secure/insecure/anxious/avoidant/disorganized patterns, cross-cultural attachment variation. Erikson's eight psychosocial stages. Moral development: Kohlberg's six stages AND Gilligan's critique that his model is biased toward male reasoning patterns, women tend to use ethics of care rather than justice. Language development: Chomsky's LAD and universal grammar vs learning theory (Tomasello, usage-based). Adolescence: identity formation (Marcia's statuses), brain development (prefrontal cortex maturation). Adult development: emerging adulthood, intimacy, career, midlife. Aging: cognitive changes, wisdom, life satisfaction, socioemotional selectivity theory, positive aging perspective. Death and dying: Kubler-Ross stages, critiques, cross-cultural death practices. MULTI-PERSPECTIVE: Piaget is Western and individualistic; Vygotsky presented as equally important for social context of learning. Gilligan's feminist critique of Kohlberg. Parenting across cultures: Western authoritative style is NOT universal; children develop well under many parenting styles. Neurodiversity: autism and ADHD as differences not deficits. Non-nuclear family structures across cultures. Positive aging not just decline. No Lean formalisation; human-review-only at all tiers.
 
+### psychology.working-memory
+
+- **title**: Working memory: the Baddeley-Hitch model, the phonological loop, and the visuospatial sketchpad
+- **unit**: `29.05.04`
+- **prerequisites**: `psychology.cognition-intelligence-survey`
+- **tier_anchors**:
+  - master: Atkinson-Shiffrin 1968; Baddeley-Hitch 1974 (Working Memory); Baddeley 1986, 2000; Cowan 2001 (BBS); Engle-Kane 2004; Fuster-Alexander 1971 (PFC persistent activity); Funahashi 1989; D'Esposito-Postle 2015
+  - intermediate: Baddeley "Working Memory" 1986; Miyake-Shah 1999 "Models of Working Memory"
+  - beginner: standard cognitive-psychology textbooks (Anderson; Sternberg)
+- **notes**: Baddeley-Hitch 1974 reformulated "short-term memory" (Atkinson-Shiffrin 1968) as a multi-component "working memory" — phonological loop (verbal/articulatory rehearsal; Broca's area), visuospatial sketchpad (visual/spatial imagery; right occipital-parietal-frontal), central executive (attentional control, DLPFC), with the episodic buffer added in 2000 to integrate with long-term memory. The fractionation is empirically supported by double-dissociations in dual-task paradigms (phonological similarity, word-length, articulatory suppression, visuospatial interference). Cowan 2001 embedded-processes reformulation (4±1 chunks under suppression). Working-memory capacity correlates ~0.5-0.8 with fluid intelligence (Engle-Kane 2004 executive-attention theory). Neural substrate: persistent activity in DLPFC during delay periods (Fuster-Alexander 1971; Funahashi-Bruce-Goldman-Rakic 1989); modern view: distributed PFC-parietal network.
+
 ### psychology.cognition-intelligence
 
 - **title**: Cognition and intelligence: thinking, reasoning, and the measurement of mind
@@ -24629,6 +24640,18 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **notes**: Neutron stars, pulsars, black holes, AGN/quasars, X-ray binaries, gamma-ray bursts, accretion disks. (audit gap). Crossrefs stars [28.02.x], galaxies [28.03.x], cosmology [28.04.x].
 
 
+### astronomy.pulsars-neutron-stars
+
+- **title**: Pulsars and neutron stars: the Lindblad-Bell discovery, the Tolman-Oppenheimer-Volkoff limit, and magnetars
+- **unit**: `28.08.02`
+- **prerequisites**: `astronomy.high-energy-astrophysics` (28.08.01)
+- **tier_anchors**:
+  - master: Landau 1932; Baade-Zwicky 1934 PNAS 20:259; Tolman-Oppenheimer-Volkoff 1939 Phys. Rev. 55:364/374; Hewish-Bell 1968 Nature 217:709; Gold 1968 Nature 218:731; Hulse-Taylor 1975 ApJ 195:L51; Kouveliotou 1998 Nature 393:235
+  - intermediate: Lorimer-Kramer "Handbook of Pulsar Astronomy" 2005; Shapiro-Teukolsky "Black Holes, White Dwarfs, and Neutron Stars" 1983
+  - beginner: Bennett et al. "The Cosmic Perspective" 8e Ch. 18; Manchester-Taylor "Pulsars" 1977
+- **notes**: Neutron stars (radius ~10 km, mass 1.4-2.3 M☉, density ~10^17 kg/m³) form when supernova cores exceed the Chandrasekhar limit but stay below the TOV limit (~2.0-2.3 M☉; Tolman-Oppenheimer-Volkoff 1939). Pulsars (Hewish-Bell 1968; Gold 1968 rotating-beam model) emit lighthouse-like beams along magnetic-axis tilt; magnetic-dipole spin-down gives L_sd = (32π^4 B² R^6 sin²α)/(3 c³ P^4) and the period-derivative diagnostic B ∝ √(P · P-dot). Magnetars (Kouveliotou 1998) have B ~10^14-10^15 G, powered by magnetic-field decay rather than rotation. Binary pulsars test GR: Hulse-Taylor PSR B1913+16 orbital decay matched GR's gravitational-wave prediction exactly (1993 Nobel — first indirect GW detection). Fast radio bursts (Lorimer 2007; Bochenek 2020) likely originate in magnetar flares.
+
+
 ### earth-science.soil-science
 
 - **title**: Soil science and pedology
@@ -25430,3 +25453,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Stahler-Palla "The Formation of Stars" 2004; Ward-Thompson-Whitworth "An Introduction to Star Formation" 2011
   - beginner: Pasachoff-Filippenko "The Cosmos"; popular accounts (e.g., Croswell "The Alchemy of the Heavens")
 - **notes**: Jeans 1902 gravitational-instability criterion (λ > λ_J = c_s √(π/Gρ); M > M_J = (π^(5/2)/6) c_s³ / √(G³ρ)) governs initial collapse in cold (T~10 K) molecular clouds. Larson 1969 / Shu 1977 inside-out collapse; Adams-Lada-Shu 1987 + Andre 1993 Class 0/I/II/III protostellar sequence (sub-mm -> envelope+outflow -> disk+T Tauri -> weak-lined T Tauri). Hayashi 1961 track (fully convective, ~constant T_eff) and Henyey 1955 track (radiative-core, leftward in H-R diagram) carry the protostar to the main sequence. Brown-dwarf threshold ~0.08 M☉; deuterium-burning 0.013 M☉ (13 M_Jup) sets the planet/star boundary. Orion Nebula (~1344 ly) is the nearest massive star-forming region; JWST + ALMA resolve protoplanetary disks directly.
+
+
+### medicine.cytochrome-p450-pharmacogenomics
+
+- **title**: Cytochrome P450 pharmacogenomics: CYP3A4/2D6 polymorphism, drug-drug interactions, and precision dosing
+- **unit**: `35.07.04`
+- **prerequisites**: `medicine.pharmacology-survey`
+- **tier_anchors**:
+  - master: Omura-Sato 1964 J. Biol. Chem. 239:2370; Meyer-Zanger 1997; Paine 2006; Hohl 2014; CPIC 2014+ guidelines
+  - intermediate: Rowland-Tozer "Clinical Pharmacokinetics"; Goodman-Gilman's "The Pharmacological Basis"
+  - beginner: FDA pharmacogenomics fact sheets; CPIC patient-facing guidelines
+- **notes**: Cytochrome P450 enzymes (57 in humans, heme-thiolate monooxygenases) catalyse the oxidative metabolism of most clinically used drugs. CYP3A4 (~30% of drugs) and CYP2D6 (~25%, most polymorphic) are the workhorses. The catalytic cycle: substrate binds, O2 binds, NADPH-cytochrome P450 reductase electron transfer, Compound I oxyferryl intermediate (Fe(IV)=O), H-atom abstraction + oxygen rebound. Drug-drug interactions via induction (PXR receptor; rifampin, St. John's wort) and inhibition (competitive; mechanism-based / suicide). Pharmacogenomic variation: CYP2D6 has >100 alleles with copy-number variation producing poor/intermediate/extensive/ultra-rapid metabolizer phenotypes. Clinical examples: codeine-CYP2D6 (FDA 2013 boxed warning after pediatric deaths), warfarin-CYP2C9/VKORC1, clopidogrel-CYP2C19. CPIC guidelines drive precision-dosing implementation.
+
+### philosophy.anthropic-principle
+
+- **title**: The anthropic principle and cosmic fine-tuning: Carter, Barrow-Tipler, and the multiverse response
+- **unit**: `20.03.04`
+- **prerequisites**: `philosophy.measurement-problem-quantum-mechanics`
+- **tier_anchors**:
+  - master: Carter 1974 (IAU Krakow); Dicke 1961 Nature; Carr-Rees 1979 Nature 278:605; Barrow-Tipler 1986 "The Anthropic Cosmological Principle" Oxford UP; Weinberg 1987 Phys. Rev. Lett.; Susskind 2005 landscape; Bostrom 2002 "Anthropic Bias"
+  - intermediate: Leslie 1989 "Universes"; Rees 1999 "Just Six Numbers"; Greene 2011 "The Hidden Reality"
+  - beginner: popular treatments (Susskind "The Cosmic Landscape"; Krauss "A Universe from Nothing")
+- **notes**: Carter 1974 distinguished WAP (observed values must be compatible with observer existence) from SAP (the universe must permit life). Physical fine-tuning cases: cosmological constant (Λ ≤ 10^-120 for galaxy formation; QFT predicts 10^120 larger — Weinberg 1987's anthropic post-diction); Higgs vev (246 GeV); Hoyle 1954 carbon-12 7.65 MeV resonance; weak-force strength. Explanations: design, multiverse (string landscape, Susskind 2005; eternal inflation, Linde), fecund universes (Smolin 1997 cosmological natural selection), necessity. The measure problem (Page 2007+) is the central technical obstacle. Bostrom 2002 "Anthropic Bias" systematized observation-selection effects; related self-locating puzzles: Doomsday, Sleeping Beauty, Presumptuous Philosopher.

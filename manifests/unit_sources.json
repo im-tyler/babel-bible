@@ -10517,6 +10517,10 @@
 "books": [],
 "curriculum": "philosophy"
 },
+"20.03.04": {
+"books": [],
+"curriculum": "other"
+},
 "20.04.01": {
 "books": [],
 "curriculum": "other"
@@ -11959,6 +11963,10 @@
 ],
 "curriculum": "astronomy-home"
 },
+"28.08.02": {
+"books": [],
+"curriculum": "other"
+},
 "28.09.01": {
 "books": [
 "foundational-home"
@@ -12054,6 +12062,10 @@
 "29.05.03": {
 "books": [],
 "curriculum": "psychology"
+},
+"29.05.04": {
+"books": [],
+"curriculum": "other"
 },
 "29.06.01": {
 "books": [],
@@ -12876,6 +12888,10 @@
 "35.07.03": {
 "books": [],
 "curriculum": "health-medicine"
+},
+"35.07.04": {
+"books": [],
+"curriculum": "other"
 },
 "35.08.01": {
 "books": [],
