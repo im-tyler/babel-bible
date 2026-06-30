@@ -9577,6 +9577,17 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **prerequisites**: *(to be determined)*
 - **notes**: Stub
 
+### biology.founder-effect-speciation
+
+- **title**: Founder-effect and peripatric speciation: Mayr, genetic drift, and the founder-flush model
+- **unit**: `19.06.04`
+- **prerequisites**: `biology.speciation-survey`
+- **tier_anchors**:
+  - master: Mayr 1954 (Evolution as a Process); Mayr 1963 (Animal Species and Evolution); Templeton 1980 Genetics 94:1011; Gavrilets-Hastings 1996 Evolution 50:1834; Coyne-Orr 2004 (Speciation)
+  - intermediate: Gavrilets 2004 "Fitness Landscapes and the Origin of Species"; Nosil 2012 "Ecological Speciation"
+  - beginner: Mayr 1942 (Systematics and the Origin of Species); popular island-biogeography treatments
+- **notes**: Founder-effect / peripatric speciation (Mayr 1954, 1963) is the hypothesis that small peripheral populations undergo rapid speciation via genetic drift and reorganization of coadapted gene complexes ("genetic revolution"). Empirical anchor: Hawaiian Drosophila ~500 species from ~5-7 Myr of sequential island colonization via founder events (Carson 1975). Modern synthesis (Barton-Charlesworth 1984; Gavrilets-Hastings 1996; Coyne-Orr 2004): drift alone rarely suffices; documented cases require combinations of founder effects with selection on novel environments, chromosomal rearrangements, or habitat divergence. Templeton 1980 classified the sub-types (genetic, chromosomal, demographic transilience). The genetic-revolution hypothesis as a single-cause mechanism is rejected; the broader phenomenon — small populations at species peripheries diverging rapidly — is well documented.
+
 ### biology.molecular-clock
 
 - **title**: Molecular clock: calibration, rate heterogeneity, Bayesian dating
@@ -25257,3 +25268,26 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Moran 2000 "Introduction to Phenomenology"; Zahavi 2019 "Phenomenology: The Basics"
   - beginner: Heidegger's preface to "The Basic Problems of Phenomenology" (popular treatment); Moran 2000 ch. 1-2
 - **notes**: Husserl's phenomenology (1859-1938) is the foundational project of the continental 20th-century tradition. Three load-bearing concepts: (1) intentionality — consciousness is always consciousness-of-something (transformed from Brentano 1874); (2) the phenomenological reduction / epoché — methodological suspension of the natural attitude to describe phenomena as they appear; (3) transcendental consciousness — the constituting subject that gives meaning to objects. Originator chain: Brentano 1874 (intentionality) -> Husserl 1900-01 LI (anti-psychologism) -> Husserl 1913 Ideas I (transcendental turn) -> Husserl 1931 CM (transcendental ego) -> Husserl 1936 Crisis (life-world). The tradition transforms in Heidegger 1927 (hermeneutic phenomenology, the reduction rejected as Cartesian), Sartre 1936/1943 (consciousness as nothingness), Merleau-Ponty 1945 (lived body), Derrida 1967 (deconstruction of presence).
+
+
+### earth-science.el-nino-southern-oscillation
+
+- **title**: El Nino-Southern Oscillation (ENSO): the Bjerknes feedback, Walker circulation, and global teleconnections
+- **unit**: `27.04.04`
+- **prerequisites**: `earth-science.atmosphere-weather-climate-basics`
+- **tier_anchors**:
+  - master: Bjerknes 1969 Mon. Weather Rev. 97:163; Cane-Zebiak 1985 Science 228:1085; Suarez-Schopf 1988 J. Atmos. Sci. 45:3283; Jin 1997 J. Atmos. Sci. 54:811; McPhaden 1998 Science 281:259
+  - intermediate: Philander 1990 "El Nino, La Nina, and the Southern Oscillation"; Sarachik-Cane 2010
+  - beginner: standard atmospheric-science textbooks (Holton; Wallace-Hobbs)
+- **notes**: ENSO is the dominant mode of interannual climate variability, originating in the tropical Pacific as a coupled ocean-atmosphere oscillation. The Walker circulation (Bjerknes 1969) is a west-east atmospheric cell driven by the Pacific SST gradient; the Bjerknes positive feedback amplifies anomalies. The delayed-oscillator mechanism (Suarez-Schopf 1988; Battisti-Hirst 1989) explains the 2-7 year period via equatorial Kelvin/Rossby wave reflection delays; Jin 1997 reframed the dynamics as a recharge oscillator (slow build-up/discharge of equatorial warm-water volume). Originator chain: Walker 1923-24 (statistical identification of SO) -> Bjerknes 1966/1969 (coupled feedback) -> Wyrtki 1975 (ocean heat-content buildup) -> Cane-Zebiak 1985 (first successful forecast) -> Suarez-Schopf/Battisti-Hirst (delayed oscillator) -> Jin 1997 (recharge oscillator) -> McPhaden 1998 (TOGA-TAO benchmark 1997-98 event). Climate-change projections (Cai et al. 2018) suggest more extreme ENSO events under greenhouse warming.
+
+### neuroscience.hubel-wiesel-visual-cortex
+
+- **title**: Hubel and Wiesel's visual cortex architecture: orientation columns, ocular dominance, and hypercolumns
+- **unit**: `29.03.04`
+- **prerequisites**: `psychology.sensation-perception-survey`
+- **tier_anchors**:
+  - master: Hubel-Wiesel 1959 J. Physiol. 148:574; Hubel-Wiesel 1962 J. Physiol. 160:106; Hubel-Wiesel 1968 J. Physiol. 195:215; Hubel-Wiesel 1970 J. Physiol. 206:419; Hubel-Wiesel 1977 Proc. R. Soc. B 198:1; Stryker-Harris 1986 J. Neurosci. 6:2117; Bonhoeffer-Grivenvald 1991 Nature 353:429; Ohki-Reid 2005 Nature 433:597; Lien-Scanziani 2013 Nature 493:252
+  - intermediate: Kandel, Schwartz, Jessell, Siegelbaum, Hudspert "Principles of Neural Science" 5e Ch. 25-27; Dayan-Abbott 2001 "Theoretical Neuroscience" Ch. 2
+  - beginner: Hubel 1988 "Eye, Brain, and Vision" (Scientific American Library); Bear, Connors, Paradiso "Neuroscience: Exploring the Brain" 4e Ch. 10
+- **notes**: The Hubel-Wiesel collaboration (1958-1981, 1981 Nobel Prize in Physiology or Medicine shared with Roger Sperry) mapped the columnar architecture of primary visual cortex (V1). Hierarchy: LGN inputs -> simple cells (oriented, monocular, separable ON/OFF subregions, linear) -> complex cells (oriented, binocular, position-invariant, nonlinear) -> hypercomplex cells (end-stopped). Cortical architecture: orientation columns (~1 mm deep, full 180 degrees per ~750-1000 um of tangential travel), ocular-dominance stripes (~400 um wide, alternating L/R, prominent in layer 4), and the hypercolumn (~1 mm^2 containing a full orientation + OD representation of one visual-field location; ~2500 hypercolumns tile primate V1). Ice-cube model (Stryker-Harris 1986): orientation and OD are orthogonal cortical axes. Pinwheel structure (Bonhoeffer-Grivenvald 1991, 1993; confirmed at single-cell resolution by Ohki-Reid 2005). Critical-period plasticity (Hubel-Wiesel 1970; postnatal weeks 3-7 in cats): monocular deprivation during this window permanently shifts OD columns toward the open eye. Modern revision (Lien-Scanziani 2013): the Hubel-Wiesel feed-forward hierarchical model is structurally correct but mechanistically incomplete; recurrent amplification within V1 supplies the gain required for the observed tuning sharpness. The convergence model is the skeleton; recurrence is the gain.

@@ -38538,6 +38538,28 @@
 ],
 "title": "Hybrid zones and introgression: tension zones and the mosaic model"
 },
+"19.06.04": {
+"area": "other",
+"books": [],
+"chapter": "speciation",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.06.04",
+"prereqs": [
+"19.06.01"
+],
+"section": "eco-evo-bio",
+"slug": "founder-effect-peripatric-speciation-mayr-genetic-drift-founder-flush",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Founder-effect and peripatric speciation: Mayr, genetic drift, and the founder-flush model"
+},
 "19.07.01": {
 "area": "other",
 "books": [],
@@ -45312,6 +45334,28 @@
 ],
 "title": "Weather systems: fronts, cyclones, severe weather formation"
 },
+"27.04.04": {
+"area": "other",
+"books": [],
+"chapter": "atmosphere-weather",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.04.04",
+"prereqs": [
+"27.04.01"
+],
+"section": "earth-science",
+"slug": "el-nino-southern-oscillation-enso-bjerknes-feedback-walker-circulation-teleconnections",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "El Nino-Southern Oscillation (ENSO): the Bjerknes feedback, Walker circulation, and global teleconnections"
+},
 "27.05.01": {
 "area": "other",
 "books": [],
@@ -46513,6 +46557,28 @@
 "master"
 ],
 "title": "Auditory and somatosensory systems; pain and the gate-control theory"
+},
+"29.03.04": {
+"area": "other",
+"books": [],
+"chapter": "sensation-perception",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.03.04",
+"prereqs": [
+"29.03.01"
+],
+"section": "psychology",
+"slug": "hubel-wiesel-visual-cortex-orientation-columns-ocular-dominance-hypercolumns",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Hubel and Wiesel's visual cortex architecture: orientation columns, ocular dominance, and hypercolumns"
 },
 "29.04.01": {
 "area": "other",
