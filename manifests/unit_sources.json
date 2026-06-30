@@ -9859,6 +9859,10 @@
 "books": [],
 "curriculum": "inorgchem"
 },
+"16.07.05": {
+"books": [],
+"curriculum": "other"
+},
 "16.08.01": {
 "books": [
 "foundational-home"
@@ -10200,6 +10204,10 @@
 "18.07.03": {
 "books": [],
 "curriculum": "organismal-bio"
+},
+"18.07.04": {
+"books": [],
+"curriculum": "other"
 },
 "18.08.01": {
 "books": [],
@@ -11747,6 +11755,12 @@
 "books": [],
 "curriculum": "earth-science"
 },
+"27.03.04": {
+"books": [
+"foundational-home"
+],
+"curriculum": "earth-science-home"
+},
 "27.04.01": {
 "books": [],
 "curriculum": "other"
@@ -12696,6 +12710,10 @@
 "34.04.02": {
 "books": [],
 "curriculum": "music-art"
+},
+"34.04.03": {
+"books": [],
+"curriculum": "other"
 },
 "34.05.01": {
 "books": [],

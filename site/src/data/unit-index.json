@@ -35987,6 +35987,28 @@
 ],
 "title": "Electronic properties of solids: insulators, semiconductors, conductors, and the band gap"
 },
+"16.07.05": {
+"area": "other",
+"books": [],
+"chapter": "solid-state",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.07.05",
+"prereqs": [
+"16.07.01"
+],
+"section": "inorgchem",
+"slug": "perovskite-solar-cells-abx3-lead-halide-defect-tolerance-photovoltaics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Perovskite solar cells: ABX3 lead-halide crystal chemistry, defect tolerance, and the photovoltaic revolution"
+},
 "16.08.01": {
 "area": "other",
 "books": [
@@ -37774,6 +37796,28 @@
 "master"
 ],
 "title": "Glucose homeostasis: insulin and glucagon action, the fed versus fasted state, and diabetes mechanisms"
+},
+"18.07.04": {
+"area": "other",
+"books": [],
+"chapter": "endocrine",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.07.04",
+"prereqs": [
+"18.07.01"
+],
+"section": "organismal-bio",
+"slug": "thyroid-hormones-metabolic-regulation-hpt-axis-iodine-graves-hashimoto",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Thyroid hormones and metabolic regulation: HPT axis, iodine biochemistry, and autoimmune thyroid disease"
 },
 "18.08.01": {
 "area": "other",
@@ -45314,6 +45358,30 @@
 ],
 "title": "Volcanic hazards: eruption styles, pyroclastic flows, volcanic risk assessment"
 },
+"27.03.04": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "earthquakes-volcanoes",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.03.04",
+"prereqs": [
+"27.03.01"
+],
+"section": "earth-science",
+"slug": "megathrust-earthquakes-seismic-cycle-subduction-cascadia-1700-tohoku-2011",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Megathrust earthquakes and the seismic cycle: subduction-zone seismicity, Cascadia 1700, and the 2011 Tohoku event"
+},
 "27.04.01": {
 "area": "other",
 "books": [],
@@ -50192,6 +50260,28 @@
 "master"
 ],
 "title": "Modern and contemporary art movements: Impressionism through Abstract Expressionism to Conceptual Art"
+},
+"34.04.03": {
+"area": "other",
+"books": [],
+"chapter": "art-history",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.04.03",
+"prereqs": [
+"34.04.01"
+],
+"section": "music-art",
+"slug": "italian-renaissance-art-giotto-michelangelo-vasari-florence-rome",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Italian Renaissance art: from Giotto to Michelangelo, c. 1300-1520"
 },
 "34.05.01": {
 "area": "other",

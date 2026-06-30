@@ -7662,6 +7662,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: Covers crystal structures (NaCl, CsCl, ZnS, diamond, CaF2) and the 14 Bravais lattices; radius-ratio rules for structure prediction; Madelung constants and Born-Lande lattice energies; the Born-Haber cycle; Kapustinskii approximation; Bloch theorem and band theory (nearly-free electron model, tight-binding model, reciprocal lattice, Brillouin zone); classification of metals, semiconductors, and insulators by band gap; carrier concentration, effective mass, and density of states; semiconductor doping (n-type, p-type); optical properties and direct vs indirect gaps; point defects (vacancies, interstitials, Frenkel, Schottky) and defect thermodynamics; ionic conductivity and fast ion conductors; non-stoichiometry; colour centres (F-centres); covalent network solids (diamond, graphite, graphene, silicates); metastable polymorphs and phase transitions. Key theorems: packing efficiency of NaCl structure (proved), Bloch theorem, Born-Lande equation. Originator chain: Bragg 1913 (X-ray diffraction), Madelung 1909 (Coulomb sum), Born-Lande 1918 (lattice energy), Bravais 1850 (lattice classification), Bloch 1928 (band theory), Wilson 1931 (semiconductor classification). Status: deepened to 8001w in Cycle 4 Track B with 5 substantive Master H2 sections.
 
 
+### inorganic-chemistry.perovskite-solar-cells
+
+- **title**: Perovskite solar cells: ABX3 lead-halide crystal chemistry, defect tolerance, and the photovoltaic revolution
+- **unit**: `16.07.05`
+- **prerequisites**: `chemistry.solid-state-chemistry`
+- **tier_anchors**:
+  - master: Kojima-Miyasaka 2009 JACS 131:6050; Lee-Teuscher-Snaith 2012 Science 338:643; Burschka-Grätzel 2013 Nature 499:316; Stranks 2013 Science 342:341; Snaith 2018 Nat. Rev. Mater.
+  - intermediate: Green 2019-2024 reviews; NREL Best-Research Cell Efficiency Chart
+  - beginner: Sivaram "Solar Power, Policy, and the Perovskite Revolution"
+- **notes**: Perovskite solar cells (ABX3 with A = MA/FA/Cs, B = Pb/Sn, X = I/Br/Cl) climbed from 3.8% (Kojima-Miyasaka 2009, as a dye in DSSC) to 26.1% (NREL 2024 single-junction record) and 33.9% (perovskite-silicon tandem) in 15 years. Defect tolerance via the Pb 6s lone pair keeps most defects shallow; long carrier diffusion lengths (~1-10 μm, Stranks 2013). Stability and lead toxicity remain commercialization barriers; first commercial modules shipped 2024 (Oxford PV). Shockley-Queisser limit caps single-junction Eg = 1.55 eV at ~33.7%; tandems reach ~45%.
+
+
 ## Biology (§17–19)
 
 ### symplectic.souriau-gibbs-state
@@ -12249,6 +12261,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Stokstad, Kleiner"
   - master: "Vasari, Greenberg, Krauss"
 - **notes**: Paleolithic through contemporary art. Egyptian, Greek, Roman, Medieval, Renaissance, Baroque, 19th century, modernism, postmodernism. Canon debates. Feminist art history.
+
+### art-history.italian-renaissance
+
+- **title**: Italian Renaissance art: from Giotto to Michelangelo, c. 1300-1520
+- **unit**: `34.04.03`
+- **prerequisites**: `music-art.art-history-cave-paintings-to-contemporary`
+- **tier_anchors**:
+  - master: Vasari "Le Vite" 1550/1568; Alberti "De pictura" 1435; Burckhardt 1860; Panofsky 1927 ("Perspective as Symbolic Form"); Baxandall 1972 ("Painting and Experience")
+  - intermediate: Hartt "History of Italian Renaissance Art"; Gombrich "The Story of Art"
+  - beginner: Vasari's Lives accessible selections; museum catalogs (Uffizi, Vatican)
+- **notes**: The 200-year arc from Giotto's Arena Chapel frescoes (c. 1305) to Michelangelo's Last Judgment (1536-41) is the foundation of Western art. Technical innovations — linear perspective (Brunelleschi c. 1415; Alberti "De pictura" 1435), anatomical study (Leonardo, Michelangelo dissections), oil paint (c. 1470s in Italy), fresco technique — were deployed in service of religious and civic commissions under guild, Medici, and papal patronage (Julius II, Leo X). High Renaissance synthesis (Leonardo, Michelangelo, Raphael, c. 1490-1520); Mannerist reaction (c. 1520+). Vasari's "Lives" 1550/1568 created the Tuscan-centric periodization that Burckhardt, Panofsky, Baxandall later complicated. Counter-Reformation criticism (the 1557+ Fig-Leaf Campaign) marked Renaissance art as irreverent.
 
 ### music-art.film-photography-visual-storytelling
 
@@ -25337,3 +25360,27 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Wright "Music and Ceremony at Notre Dame of Paris" 1989; Hoppin "Medieval Music" 1978; Treitler chant scholarship
   - beginner: standard music-history survey textbooks (Burkholder-Grout-Palisca)
 - **notes**: The 700-year arc from Pope Gregory I (traditional attribution, d. 604) to Guillaume de Machaut (c. 1300-1377) is the foundation of all Western art music. Gregorian chant (~3,000 melodies, 8 modes, unmetered, transmitted orally for centuries, standardized by the Carolingian Admonitio Generalis 789). Staff notation (Guido d'Arezzo c. 1025) and rhythmic notation (the Notre Dame rhythmic modes c. 1200; Franco of Cologne mensural notation c. 1280) are the enabling technologies that permitted polyphony at scale. The Notre Dame school (Leonin c. 1150-1201, Perotin c. 1160-1230) produced the Magnus Liber Organi, the cycle of Graduals/Alleluias in 2-, 3-, and 4-voice organum — Perotin's "Viderunt omnes" (c. 1198) is the earliest known 4-voice composition. Ars Nova (Vitry, Machaut c. 1320+) introduces duple meter and syncopation, completing the medieval system.
+
+
+### earth-science.megathrust-earthquakes
+
+- **title**: Megathrust earthquakes and the seismic cycle: subduction-zone seismicity, Cascadia 1700, and the 2011 Tohoku event
+- **unit**: `27.03.04`
+- **prerequisites**: `earth-science.earthquakes-volcanoes-geologic-hazards`
+- **tier_anchors**:
+  - master: Kanamori 1977 J. Geophys. Res. 82:2981; Lay-Kanamori-Ruff 1982; Scholz 1998 Nature 391:37; Satake-Atwater 2003; Simons-Minson-Sladen 2011 Science 332:1421
+  - intermediate: Scholz "The Mechanics of Earthquakes and Faulting" 3e; Lay-Wallace "Modern Global Seismology"
+  - beginner: USGS earthquake basics; popular accounts (e.g., Kathryn Schulz "The Really Big One")
+- **notes**: Megathrust earthquakes — the largest on Earth — occur at subduction-zone interfaces. Reid 1910 elastic-rebound theory; Kanamori 1977 moment magnitude Mw = (2/3)·log10(M0) - 10.7 with M0 = μAD caps single-event magnitude at M~9.5 (Chile 1960 M9.5 is the largest instrumentally recorded). Rate-and-state friction (Dieterich 1979; Ruina 1983; Scholz 1998) explains the seismic cycle. Great historical events: Chile 1960, Alaska 1964, Sumatra 2004 (M9.1; ~230,000 tsunami deaths), Tohoku 2011 (M9.0; ~20,000 deaths + Fukushima). Cascadia 1700 M~9 (Satake-Atwater 2003 — reconstructed from Japanese orphan-tsunami records + Pacific-NW ghost forests + tree-ring dates); average recurrence ~500 years; next one overdue.
+
+
+### physiology.thyroid-hormones-hpt-axis
+
+- **title**: Thyroid hormones and metabolic regulation: HPT axis, iodine biochemistry, and autoimmune thyroid disease
+- **unit**: `18.07.04`
+- **prerequisites**: `physiology.endocrine-system`
+- **tier_anchors**:
+  - master: Kendall 1915 J. Biol. Chem.; Harrington-Barger 1927 Biochem. J. 21:169; Gross-Pitt-Rivers 1952 Lancet; Adams-Purves 1956; Bianco-Kim 2006 J. Clin. Invest.
+  - intermediate: Williams Textbook of Endocrinology 14e; Yen-Jaffe's Reproductive Endocrinology
+  - beginner: Hall "Guyton and Hall" medical physiology; Boron-Boulpaep
+- **notes**: The HPT axis (TRH-TSH-T3/T4 with negative feedback) is the canonical endocrine feedback system; TSH is the most sensitive clinical marker. T4 (Kendall 1915; Harrington-Barger 1927) is the prohormone; T3 (Gross-Pitt-Rivers 1952) is the active hormone, ~4x more potent, bound by nuclear TR-alpha/beta. Peripheral D2/D3 deiodinases (Bianco-Kim 2006) control local T3 availability — D2 in pituitary/brain determines the HPT set-point. Autoimmune disease: Graves' (TSHR-stimulating antibodies / TSI, Adams-Purves 1956) vs Hashimoto's (TPO antibodies). Iodine: Wolff-Chaikoff effect (transient hypothyroidism from acute iodine excess) and Jod-Basedow phenomenon (iodine-induced hyperthyroidism in autonomy).
