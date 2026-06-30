@@ -35835,6 +35835,28 @@
 ],
 "title": "Homogeneous catalysis: Wilkinson's catalyst and Ziegler-Natta polymerization"
 },
+"16.05.04": {
+"area": "other",
+"books": [],
+"chapter": "organometallic",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.05.04",
+"prereqs": [
+"16.05.01"
+],
+"section": "inorgchem",
+"slug": "ferrocene-sandwich-compounds-metallocene-18-electron-rule-wilkinson-fischer",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ferrocene and the sandwich compounds: metallocene discovery, the 18-electron rule, and Wilkinson-Fischer Nobel revolution"
+},
 "16.06.01": {
 "area": "other",
 "books": [],
@@ -39688,6 +39710,28 @@
 "master"
 ],
 "title": "Reductionism in biology: levels of organization, multiple realizability, emergence"
+},
+"20.05.05": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-biology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.05.05",
+"prereqs": [
+"20.05.02"
+],
+"section": "philosophy",
+"slug": "evo-devo-evolutionary-developmental-biology-deep-homology-genetic-toolkit",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Evo-devo: evolutionary developmental biology, deep homology, and the genetic tool-kit"
 },
 "20.06.01": {
 "area": "other",
@@ -47178,6 +47222,28 @@
 ],
 "title": "Adult development and aging: identity formation, midlife, and cognitive change in aging"
 },
+"29.06.05": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.06.05",
+"prereqs": [
+"29.06.01"
+],
+"section": "psychology",
+"slug": "adolescent-brain-development-prefrontal-cortex-maturation-synaptic-pruning-risk-taking",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Adolescent brain development: prefrontal cortex maturation, synaptic pruning, and the dual-systems model of risk-taking"
+},
 "29.07.01": {
 "area": "other",
 "books": [],
@@ -50356,6 +50422,28 @@
 "master"
 ],
 "title": "Musical form and analysis: sonata form, rondo, theme and variations; set theory in post-tonal music"
+},
+"34.01.04": {
+"area": "other",
+"books": [],
+"chapter": "music-fundamentals",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.01.04",
+"prereqs": [
+"34.01.01"
+],
+"section": "music-art",
+"slug": "rhythm-meter-cross-cultural-time-western-notation-polyrhythm-additive",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Rhythm, meter, and cross-cultural time: Western notation, West African polyrhythm, and additive meters"
 },
 "34.02.01": {
 "area": "other",

@@ -10736,6 +10736,17 @@ These entries register live draft units so the validator can distinguish "unknow
 ### psychology.adult-development
 
 
+### psychology.adolescent-brain-development
+
+- **title**: Adolescent brain development: prefrontal cortex maturation, synaptic pruning, and the dual-systems model of risk-taking
+- **unit**: `29.06.05`
+- **prerequisites**: `psychology.developmental-psychology-lifespan`
+- **tier_anchors**:
+  - master: Huttenlocher 1979 (synaptic pruning); Giedd 1999 Nature Neuroscience (longitudinal pediatric MRI); Sowell 1999-2004; Galvan 2006 (ventral-striatal activation); Somerville-Jones-Casey 2010 (PFC-limbic asymmetry); Steinberg 2008 (dual-systems psychology); Casey 2008
+  - intermediate: Steinberg "Age of Opportunity" 2014; Casey-Duhoux-Dubert 2010s reviews; Blakemore "Inventing Ourselves" 2018
+  - beginner: accessible psychology texts; APA public briefs on adolescent responsibility
+- **notes**: The prefrontal cortex (PFC) continues developing into the mid-20s (Giedd 1999 longitudinal MRI; Sowell 1999-2004 gray-matter thinning). Huttenlocher 1979 showed ~40% synaptic-pruning reduction from childhood to adolescence (differential timing: sensory first, PFC last); white-matter myelination continues through adolescence. The limbic system (especially ventral striatum / nucleus accumbens) matures earlier — by early-mid adolescence. The dual-systems model (Steinberg 2008; Casey 2008) explains adolescent risk-taking as a developmental mismatch: early-maturing limbic-reward system + late-maturing PFC control system create a "gap" peaking ~13-18. Galvan 2006 showed adolescent ventral-striatal activation peaks during reward processing. Chein-Assaad-Steinberg 2011: peer presence doubles adolescent risk-taking. Implications for policy: Roper v. Simmons 2005 (no death penalty for <18); Graham v. Florida 2010; Miller v. Alabama 2012 — neuroscience reshapes juvenile-justice frameworks.
+
 ### psychology.attitudes-persuasion
 
 - **title**: Attitudes and persuasion: cognitive dissonance, elaboration likelihood model
@@ -12228,6 +12239,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Piston, Harmony"
   - master: "Rameau, Schoenberg, Forte, Lewin"
 - **notes**: Rhythm, melody, harmony, timbre, dynamics. Major/minor scales. Intervals. Chords. V-I cadence. Equal temperament. Pentatonic scale. Pythagoras and music-mathematics connection.
+
+### music-fundamentals.rhythm-meter-cross-cultural
+
+- **title**: Rhythm, meter, and cross-cultural time: Western notation, West African polyrhythm, and additive meters
+- **unit**: `34.01.04`
+- **prerequisites**: `music-art.music-fundamentals-rhythm-melody-harmony`
+- **tier_anchors**:
+  - master: Cooper-Meyer 1960 "The Rhythmic Structure of Music"; Lerdahl-Jackendoff 1983 "A Generative Theory of Tonal Music"; Arom 1991 "African Polyphony and Polyrhythm"; Agawu 1995 "African Rhythm"; London 2004 "Hearing in Time"; Toussaint 2013 "The Geometry of Musical Rhythm"
+  - intermediate: Chernoff 1979 "African Rhythm and African Sensibility"; Clayton 2000 "Time in Indian Music"
+  - beginner: accessible ethnomusicology intros (e.g., Titon "Worlds of Music")
+- **notes**: Cross-cultural treatment of rhythmic systems. Western meter notation (time signatures; simple 2/3/4 vs compound 6/8/9/8/12/8; hypermeter). Cooper-Meyer 1960 durational patterns and Lerdahl-Jackendoff 1983 GTTM (four hierarchical structures: grouping, meter, time-span, prolongational). Additive Balkan/Turkish meters (5/8, 7/8, 9/8, 11/8 — documented by Bartok). West African polyrhythm (Anlo-Ewe 12/8 bell pattern; Afro-Cuban son clave; Chernoff 1979; Arom 1991; Agawu 1995 critique of "African rhythm" as a Western projection). Indian tala cyclic meter (teental 16 = 4+4+4+4, sama as the first beat, tihai thrice-repeated cadential figures landing on sama). London 2004: meter as attentional entrainment, "in the listener's mind." Steve Reich "Clapping Music" 1972 — the standard 12-note bell pattern shifted by one note per cycle.
 
 ### music-art.harmony-counterpoint
 
@@ -25567,3 +25589,27 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Brenner "Brenner & Rector's The Kidney" 11e; Hall "Guyton and Hall" 14e; Boron & Boulpaep "Medical Physiology" 3e Ch. 23 & 40
   - beginner: Hall "Guyton and Hall" patient-facing chapters; Braunwald "Heart Disease" hypertension chapters
 - **notes**: Tigerstedt-Bergman 1898 discovered renin (kidney extract raised BP); Goldblatt 1934 modeled renal hypertension with a renal-artery clamp. The cascade: angiotensinogen (liver) -> Ang I (renin) -> Ang II (ACE, mostly lung endothelium) -> AT1 receptor (vasoconstriction + aldosterone release + sympathetic activation + fibrosis); ACE2 generates counter-regulatory Ang 1-7 (Mas receptor). Aldosterone (adrenal zona glomerulosa) acts at distal-tubule principal cells via mineralocorticoid receptor -> ENaC activation -> Na reabsorption. ACE inhibitors (captopril 1981, first; based on Bothrops jararaca snake-venom peptides — Ferreira 1965, Ondetti 1977) and ARBs (losartan 1993/95) revolutionized hypertension therapy. Laragh 1973 volume-vs-vasoconstriction theory framed hypertension mechanism into two druggable phenotypes (high-renin vasoconstriction vs low-renin volume). PARADIGM-HF 2014 (NEJM 371:993) showed sacubitril/valsartan reduces heart-failure hospitalization 20% vs enalapril. COVID-19 (2020): SARS-CoV-2 binds ACE2 for cell entry (Hoffmann 2020 Cell 181:1481); ACEi/ARBs not harmful, possibly protective.
+
+
+### inorganic-chemistry.ferrocene-metallocenes
+
+- **title**: Ferrocene and the sandwich compounds: metallocene discovery, the 18-electron rule, and Wilkinson-Fischer Nobel revolution
+- **unit**: `16.05.04`
+- **prerequisites**: `inorganic-chemistry.organometallic-chemistry`
+- **tier_anchors**:
+  - master: Kealy-Pauson 1951 Nature 168:1039; Wilkinson-Rosenblum-Whiting-Woodward 1952 JACS 74:2125; Fischer 1952; Togni-Spindler 1994 (Josiphos); Blaser 2001 (metolachlor process)
+  - intermediate: Crabtree "The Organometallic Chemistry of the Transition Metals"; Hartwig "Organotransition Metal Chemistry"
+  - beginner: accessible chemistry history (e.g., Ihde "The Development of Modern Chemistry")
+- **notes**: Kealy-Pauson 1951 accidentally synthesized Fe(C5H5)2 (originally mistaken for a fulvalene dimer); Wilkinson-Woodward and Fischer independently proposed the "sandwich" structure in 1952 (Fe(II) between two parallel cyclopentadienyl rings). The 18-electron rule (12e from two Cp + 6e Fe d-electrons) explains the unusual thermal stability (>400 °C decomposition) and aromatic-like reactivity (Friedel-Crafts works). Metallocene family: ruthenocene, osmocene, cobaltocene (19e, easily oxidized), nickelocene (20e, paramagnetic). Wilkinson-Fischer shared the 1973 Nobel Prize for the work. Chiral ferrocenyl phosphines (Josiphos, Taniaphos) drive industrial asymmetric catalysis — the Syngenta (S)-metolachlor process uses Josiphos at >10,000 tons/year, the largest industrial asymmetric-catalysis application. Bent metallocenes (Cp2TiCl2) show antitumor activity; ansa-metallocenes are stereospecific polymerization catalysts.
+
+
+### philosophy.evo-devo
+
+- **title**: Evo-devo: evolutionary developmental biology, deep homology, and the genetic tool-kit
+- **unit**: `20.05.05`
+- **prerequisites**: `philosophy.unit-of-selection`
+- **tier_anchors**:
+  - master: Lewis 1978 Nature (Hox bithorax); Nusslein-Volhard-Wieschaus 1980 (Heidelberg screen, 1995 Nobel); McGinnis 1984 Cell (homeobox); King-Wilson 1975 (regulatory hypothesis); Gehring 1994 (Pax6); Carroll 1995+ "From DNA to Diversity" deep-homology thesis
+  - intermediate: Raff 1996 "The Shape of Life"; Carroll-Grenier-Weatherbee 2005; Davidson 2001
+  - beginner: Sean Carroll "Endless Forms Most Beautiful" (popular)
+- **notes**: The evo-devo synthesis reunited evolutionary biology with embryology after the modern synthesis (1930s-40s) marginalized development. Haeckel 1866 ("ontogeny recapitulates phylogeny") vs von Baer 1828 (specialization — the correct view). The discovery of Hox genes (Lewis 1978 bithorax; Nusslein-Volhard-Wieschaus 1980 Heidelberg screen), the homeobox (McGinnis 1984), and master regulators (Gehring 1994 Pax6 — mouse Pax6 expressed in a fly's leg makes a fly eye) established the "genetic tool-kit" — conserved master genes (Hox, Pax6, Nkx2-5, Distal-less) deployed via cis-regulatory enhancers. Carroll 2005 "deep homology" thesis: morphological evolution acts mostly on regulation (King-Wilson 1975), not protein sequence; body plans are modular and evolvable. Pigliucci-Muller 2010 "extended synthesis" proposes modern-synthesis revision incorporating plasticity (West-Eberhard 2003), niche construction, and evo-devo constraints.

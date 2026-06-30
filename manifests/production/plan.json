@@ -35973,6 +35973,38 @@
       "source_audits": [
         "integrator-direct"
       ]
+    },
+    "16.05.04": {
+      "id": "16.05.04",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "34.01.04": {
+      "id": "34.01.04",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "20.05.05": {
+      "id": "20.05.05",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
+    },
+    "29.06.05": {
+      "id": "29.06.05",
+      "status": "shipped",
+      "kind": "new_unit",
+      "source_audits": [
+        "integrator-direct"
+      ]
     }
   },
   "queue_topo_order": [],
