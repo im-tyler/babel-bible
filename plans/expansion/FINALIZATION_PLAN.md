@@ -21,8 +21,8 @@ chapter number, emptied the empty dirs, and resolved the §01/§11/§19 collisio
 Audited against the live tree. This section is the source of truth; §2 below is
 retained for history and is superseded where it conflicts.
 
-**Headline numbers:** 52 sections · 557 chapters · **2,632 units** · validator
-**70,958/70,958 green** · site build green (post the 2026-06-27 math-rendering
+**Headline numbers:** 52 sections · 557 chapters · **2,647 units** · validator
+**71,363/71,363 green** · site build green (post the 2026-06-27 math-rendering
 fix: prose raw-math 776 → 0 visible). §51-linguistics (7/7) and §52-economics
 (6/6) structurally complete. S1–S8 locked.
 
