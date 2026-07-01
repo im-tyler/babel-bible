@@ -35923,6 +35923,28 @@
 ],
 "title": "Metalloenzyme active sites: nitrogenase, cytochrome P450, and zinc proteases"
 },
+"16.06.04": {
+"area": "other",
+"books": [],
+"chapter": "bioinorganic",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.06.04",
+"prereqs": [
+"16.06.01"
+],
+"section": "inorgchem",
+"slug": "iron-sulfur-clusters-2fe-2s-4fe-4s-cubanes-electron-transfer-proteins-origins",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Iron-sulfur clusters: [2Fe-2S], [4Fe-4S] cubanes, electron-transfer proteins, and the origins-of-life question"
+},
 "16.07.01": {
 "area": "other",
 "books": [],
@@ -38041,6 +38063,28 @@
 ],
 "title": "Fertilization and early development: implantation, HCG signaling, and placental formation"
 },
+"18.09.04": {
+"area": "other",
+"books": [],
+"chapter": "reproductive",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.09.04",
+"prereqs": [
+"18.09.01"
+],
+"section": "organismal-bio",
+"slug": "menstrual-cycle-hpo-axis-follicular-luteal-pulsatile-gnrh-knobil",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The menstrual cycle: HPO axis, follicular and luteal phases, and Knobil's discovery of pulsatile GnRH"
+},
 "18.10.01": {
 "area": "other",
 "books": [],
@@ -40013,6 +40057,28 @@
 "master"
 ],
 "title": "Mathematical ontology: Platonism, nominalism, structuralism, fictionalism"
+},
+"20.09.04": {
+"area": "other",
+"books": [],
+"chapter": "phil-of-math",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.09.04",
+"prereqs": [
+"20.09.01"
+],
+"section": "philosophy",
+"slug": "godel-incompleteness-theorems-hilbert-program-limits-formal-reasoning",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "G\u00f6del's incompleteness theorems: the demise of Hilbert's program and the limits of formal reasoning"
 },
 "20.10.01": {
 "area": "other",
@@ -50786,6 +50852,28 @@
 "master"
 ],
 "title": "Architecture and urban design: form follows function, modernism, sustainability"
+},
+"34.06.03": {
+"area": "other",
+"books": [],
+"chapter": "architecture-design",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.06.03",
+"prereqs": [
+"34.06.01"
+],
+"section": "music-art",
+"slug": "bauhaus-gropius-dessau-weimar-modernist-synthesis-art-craft-industry",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Bauhaus: Gropius, Dessau, and the modernist synthesis of art, craft, and industry, 1919-1933"
 },
 "34.07.01": {
 "area": "other",

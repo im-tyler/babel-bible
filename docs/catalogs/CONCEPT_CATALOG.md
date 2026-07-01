@@ -25658,3 +25658,51 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Peebles "Principles of Physical Cosmology"; Mo-van den Bosch-White "Galaxy Formation and Evolution"
   - beginner: popular treatments (e.g., Panek "The 4 Percent Universe"; Richard Panek accessible accounts)
 - **notes**: Primordial perturbations (from inflation; scale-invariant power spectrum P(k) ∝ k^n_s, n_s ≈ 0.965 Planck 2013) grow via gravitational instability in the matter-dominated era (δρ/ρ ∝ a). Press-Schechter 1974 derived the halo mass function n(M) from the Gaussian random field of density fluctuations: f(>M) = erfc(δ_c / (√2 σ(M))), with critical overdensity δ_c ≈ 1.686; Sheth-Tormen 1999 refined for ellipsoidal collapse; Bond-Myers-Szalay 1991 fixed the cloud-in-cloud problem via excursion-set formalism. Dark-matter halos follow the Navarro-Frenk-White (NFW) universal profile (1997); subhalos and the missing-satellites problem. Baryon acoustic oscillations (BAO, Eisenstein 2005 SDSS) provide a ~150 Mpc standard ruler. Lyman-α forest traces the intergalactic medium via quasar absorption. N-body simulations (Millennium 2005; IllustrisTNG 2018) reproduce observed galaxy clustering. The cosmic web (sheets, filaments, voids) is the largest known structure pattern.
+
+
+### philosophy.godel-incompleteness
+
+- **title**: Gödel's incompleteness theorems: the demise of Hilbert's program and the limits of formal reasoning
+- **unit**: `20.09.04`
+- **prerequisites**: `philosophy.philosophy-of-mathematics-survey`
+- **tier_anchors**:
+  - master: Hilbert 1900 problem 2; Gödel 1931 Monatshefte Math. 38:173 (incompleteness); Gentzen 1936 (epsilon-0 consistency); Turing 1936 (Halting Problem); Cohen 1963 (forcing / CH independence); Lucas 1959 Mind; Penrose 1989 Emperor's New Mind
+  - intermediate: Smullyan "Gödel's Incompleteness Theorems" 1992; Boolos-Burgess-Jeffrey "Computability and Logic"
+  - beginner: Nagel-Newman "Gödel's Proof" 1958 (accessible); Hofstadter "Gödel, Escher, Bach" 1979 (popular)
+- **notes**: Gödel 1931 (age 25) destroyed Hilbert's program with two theorems. Setup: F = effectively axiomatizable, consistent, contains enough arithmetic. Gödel-numbering (arithmetization of syntax) + the diagonal lemma (for any P(x) there is G with F proves G <-> P(G-code)). First Incompleteness Theorem: the Gödel sentence G <-> "G is not provable in F" is true but unprovable in F (if F is consistent). Second Incompleteness Theorem: F does not prove its own consistency Con(F). Hilbert's program (finitary consistency proofs for all mathematics) cannot succeed in its original form; Gentzen 1936 gave a relative consistency proof for PA via transfinite induction to epsilon-0. Turing 1936 the Halting Problem is undecidable — equivalent route to incompleteness. The Continuum Hypothesis is undecidable in ZFC (Gödel 1940 + Cohen 1963 forcing). The Lucas-Penrose argument: human mathematical insight transcends any formal system, therefore strong AI is impossible — widely contested; AI proponents reply that humans face analogous limits. Modern scholarship: Feferman, Boolos, Smullyan.
+
+
+### architecture-design.bauhaus
+
+- **title**: The Bauhaus: Gropius, Dessau, and the modernist synthesis of art, craft, and industry, 1919-1933
+- **unit**: `34.06.03`
+- **prerequisites**: `music-art.architecture-design-built-environment`
+- **tier_anchors**:
+  - master: Gropius 1919 Bauhaus Manifesto; Muthesius Werkbund 1907 (precursor); Itten 1919-1922 Vorkurs; Moholy-Nagy 1923-1928; Josef Albers 1928-1933 (and "Interaction of Color" 1963); Whitford 1984 textbook; Bergdoll-Dickerman 2009 MoMA
+  - intermediate: Droste "Bauhaus 1919-1933" 2002; Forgách "The Bauhaus Idea and Modern America" 2019
+  - beginner: Weber "The Bauhaus Group" (popular 2009); Frank Whitford accessible intro
+- **notes**: Founded by Walter Gropius in Weimar 1919 with the manifesto's programmatic merger of art, craft, and industry ("the complete building is the final goal of the visual arts"). Three phases: Weimar (1919-1925, Expressionist/utopian, craft-focused, the Itten Vorkurs); Dessau (1925-1932, industrial-design focus, the iconic Gropius building 1925-26); Berlin (1932-1933, Mies's pure-architecture phase). Three directors: Gropius (founder 1919-1928), Hannes Meyer (Marxist 1928-1930, added architecture department), Mies van der Rohe (1930-1933, refined minimalism). Closed by the Nazis in 1933 as "degenerate." Diaspora: Gropius at Harvard GSD 1937+; Mies at IIT 1938-1958 (Second Chicago School); Moholy-Nagy's New Bauhaus / IIT Institute of Design 1937+; Anni and Josef Albers at Black Mountain College 1933-1949 and Yale. The Vorkurs foundation course is now standard in art/design education worldwide. Iconic designs still in production: Marcel Breuer tubular-steel chairs (B3/Wassily, B32/Cesca); Marianne Brandt lamps; Wilhelm Wagenfeld tea sets.
+
+
+### inorganic-chemistry.iron-sulfur-clusters
+
+- **title**: Iron-sulfur clusters: [2Fe-2S], [4Fe-4S] cubanes, electron-transfer proteins, and the origins-of-life question
+- **unit**: `16.06.04`
+- **prerequisites**: `inorganic-chemistry.bioinorganic-chemistry`
+- **tier_anchors**:
+  - master: Mortenson 1962 (ferredoxin); Beinert 1960s-1980s (EPR characterization); Berg-Holm 1980s (synthetic models); Beinert-Holm-Munck 1997 Science (biogenesis); Sazanov-Hinchliffe 2006 (complex I structure); Wachtershauser 1988 (iron-sulfur world); Martin-Russell 2003 (LUCA)
+  - intermediate: Holm "Iron-Sulfur Clusters" reviews; Bertini "Biological Inorganic Chemistry"
+  - beginner: popular origin-of-life books (e.g., Nick Lane "The Vital Question")
+- **notes**: Iron-sulfur clusters — [2Fe-2S], [3Fe-4S], [4Fe-4S] (cubane) — are the universal one-electron carriers of biology. The cubane [4Fe-4S] has Fe and S alternating at the 8 cube corners (~2.7 A Fe-Fe, ~2.3 A Fe-S), ligated by 4 Cys thiols. Reduction potentials span -700 to +400 mV depending on protein environment. Mortenson 1962 discovered bacterial ferredoxin; Beinert 1960s characterized "non-heme iron" via EPR. Found in complexes I/II/III of mitochondrial respiration, photosystem I of plants, aconitase (TCA), ribonucleotide reductase (DNA synthesis), and regulatory proteins (IRP1, SoxR). Cluster biogenesis via ISC machinery (Nfs1 + ISCU + frataxin). Wachtershauser 1988 / Russell-Hall 1997 / Martin-Russell 2003 iron-sulfur-world hypothesis: FeS minerals at alkaline hydrothermal vents catalyzed CO2 reduction to organic molecules using geochemical H2, potentially giving rise to the first metabolic pathways before enzymes or DNA. LUCA likely used Fe-S clusters extensively.
+
+
+### physiology.menstrual-cycle-hpo-axis
+
+- **title**: The menstrual cycle: HPO axis, follicular and luteal phases, and Knobil's discovery of pulsatile GnRH
+- **unit**: `18.09.04`
+- **prerequisites**: `physiology.reproductive-biology`
+- **tier_anchors**:
+  - master: Knauer 1900; Harris 1947; Knobil 1970s (pulsatile GnRH); Hotchkis-Knobil 1974; Yen 1970s; Leyendecker-Wildt 1980s; Beitins 1981 PCOS
+  - intermediate: Yen-Jaffe "Reproductive Endocrinology"; Speroff-Fritz "Clinical Gynecologic Endocrinology and Infertility"
+  - beginner: accessible reproductive-endocrinology texts
+- **notes**: The HPO axis: arcuate-nucleus GnRH pulse generator (~60-90 min pulses, Knobil 1970s) -> pituitary FSH/LH -> ovarian estradiol (follicular) + progesterone (luteal). Biphasic estradiol feedback: low/moderate = negative; sustained high (~300 pg/mL x 36 hr) = positive (LH surge, ovulation ~day 14). Follicular phase: FSH-driven follicular recruitment, dominant-follicle selection, estradiol rise. Luteal phase: corpus luteum secretes progesterone (10-20 ng/mL) maintaining secretory endometrium; regression ~14 days without HCG rescue. Knobil's pulsatile-GnRH discovery: continuous GnRH paradoxically suppresses (basis for GnRH agonists like leuprolide); pulsatile GnRH restores cycles in hypothalamic amenorrhea. Combined hormonal contraception mimics the luteal progesterone state. Clinical: PCOS (~10%), hypothalamic amenorrhea, POI, menopause (~51 yr mean).
