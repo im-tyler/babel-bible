@@ -9883,6 +9883,10 @@
 "books": [],
 "curriculum": "other"
 },
+"16.07.06": {
+"books": [],
+"curriculum": "other"
+},
 "16.08.01": {
 "books": [
 "foundational-home"
@@ -10316,6 +10320,10 @@
 "foundational-home"
 ],
 "curriculum": "organismal-bio-home"
+},
+"18.12.03": {
+"books": [],
+"curriculum": "other"
 },
 "18.13.01": {
 "books": [
@@ -11845,6 +11853,12 @@
 "books": [],
 "curriculum": "earth-science"
 },
+"27.02.04": {
+"books": [
+"foundational-home"
+],
+"curriculum": "earth-science-home"
+},
 "27.03.01": {
 "books": [],
 "curriculum": "other"
@@ -12123,7 +12137,7 @@
 },
 "29.01.02": {
 "books": [],
-"curriculum": "psychology"
+"curriculum": "other"
 },
 "29.01.03": {
 "books": [],
@@ -13110,6 +13124,12 @@
 "35.08.03": {
 "books": [],
 "curriculum": "health-medicine"
+},
+"35.08.04": {
+"books": [
+"foundational-home"
+],
+"curriculum": "health-medicine-home"
 },
 "35.09.01": {
 "books": [

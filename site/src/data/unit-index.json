@@ -36119,6 +36119,28 @@
 ],
 "title": "Perovskite solar cells: ABX3 lead-halide crystal chemistry, defect tolerance, and the photovoltaic revolution"
 },
+"16.07.06": {
+"area": "other",
+"books": [],
+"chapter": "solid-state",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.07.06",
+"prereqs": [
+"16.07.01"
+],
+"section": "inorgchem",
+"slug": "lithium-ion-battery-goodenough-yoshino-intercalation-chemistry-2019-nobel",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The lithium-ion battery: Goodenough, Yoshino, intercalation chemistry, and the 2019 Nobel Prize"
+},
 "16.08.01": {
 "area": "other",
 "books": [
@@ -38400,6 +38422,28 @@
 "master"
 ],
 "title": "Photosynthesis pathways (C3/C4/CAM) and plant water relations"
+},
+"18.12.03": {
+"area": "other",
+"books": [],
+"chapter": "plant-physiology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.12.03",
+"prereqs": [
+"18.12.01"
+],
+"section": "organismal-bio",
+"slug": "plant-hormones-auxin-gibberellin-ethylene-abscisic-acid-control-development",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Plant hormones: auxin, gibberellin, ethylene, abscisic acid, and the control of plant development"
 },
 "18.13.01": {
 "area": "other",
@@ -45828,6 +45872,30 @@
 ],
 "title": "Metamorphic and sedimentary rocks: facies, diagenesis, classification"
 },
+"27.02.04": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "minerals-rocks",
+"curriculum": "earth-science-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.02.04",
+"prereqs": [
+"27.02.01"
+],
+"section": "earth-science",
+"slug": "metamorphic-petrology-barrovian-facies-index-minerals-pressure-temperature-paths",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metamorphic petrology: Barrovian facies, index minerals, and the interpretation of pressure-temperature paths"
+},
 "27.03.01": {
 "area": "other",
 "books": [],
@@ -47229,7 +47297,7 @@
 "area": "other",
 "books": [],
 "chapter": "intro-methods",
-"curriculum": "psychology",
+"curriculum": "other",
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
@@ -47238,14 +47306,14 @@
 "29.01.01"
 ],
 "section": "psychology",
-"slug": "research-designs",
-"status": "stub",
+"slug": "replication-crisis-open-science-reproducibility-preregistration-reform-psychological-research",
+"status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Research designs: experiments, quasi-experiments, correlational, and meta-analysis"
+"title": "The replication crisis and Open Science: reproducibility, preregistration, and the reform of psychological research"
 },
 "29.01.03": {
 "area": "other",
@@ -52385,6 +52453,30 @@
 "master"
 ],
 "title": "Precision medicine and AI in healthcare: biomarker discovery, clinical decision support"
+},
+"35.08.04": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "future-medicine",
+"curriculum": "health-medicine-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.08.04",
+"prereqs": [
+"35.08.01"
+],
+"section": "health-medicine",
+"slug": "crispr-therapeutics-casgevy-fda-approved-gene-editing-clinical-translation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "CRISPR therapeutics: Casgevy, the first FDA-approved gene-editing drug, and the clinical translation of genome editing"
 },
 "35.09.01": {
 "area": "other",
