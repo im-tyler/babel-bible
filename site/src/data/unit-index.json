@@ -40347,6 +40347,30 @@
 ],
 "title": "Social contract theory: Hobbes, Locke, and Rousseau on sovereignty and legitimacy"
 },
+"20.14.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "political-philosophy",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.14.03",
+"prereqs": [
+"20.14.01"
+],
+"section": "philosophy",
+"slug": "capabilities-approach-sen-nussbaum-justice-freedom-valued-life",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The capabilities approach: Sen, Nussbaum, and justice as the freedom to live a valued life"
+},
 "20.15.01": {
 "area": "other",
 "books": [
@@ -46125,6 +46149,28 @@
 ],
 "title": "Evolution of the atmosphere and biosphere: Great Oxidation Event, Snowball Earth"
 },
+"27.08.04": {
+"area": "other",
+"books": [],
+"chapter": "earth-history",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.08.04",
+"prereqs": [
+"27.08.01"
+],
+"section": "earth-science",
+"slug": "permian-triassic-mass-extinction-siberian-traps-great-dying-paleozoic-biosphere-collapse",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Permian-Triassic mass extinction: the Siberian Traps, the 'Great Dying,' and the collapse of the Paleozoic biosphere"
+},
 "27.09.01": {
 "area": "other",
 "books": [
@@ -47948,6 +47994,28 @@
 "master"
 ],
 "title": "Stress and health psychology: allostatic load, coping strategies, psychoneuroimmunology"
+},
+"29.11.04": {
+"area": "other",
+"books": [],
+"chapter": "motivation-emotion",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.11.04",
+"prereqs": [
+"29.11.01"
+],
+"section": "psychology",
+"slug": "self-determination-theory-maslow-deci-ryan-intrinsic-motivation-autonomy-competence-relatedness",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Self-determination theory: Maslow, Deci-Ryan, and the intrinsic motivation of autonomy, competence, and relatedness"
 },
 "29.12.01": {
 "area": "other",
@@ -51652,6 +51720,28 @@
 "master"
 ],
 "title": "Neurobiology of addiction: reward circuitry, dopamine dysregulation, withdrawal"
+},
+"35.05.04": {
+"area": "other",
+"books": [],
+"chapter": "mental-health",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.05.04",
+"prereqs": [
+"35.05.01"
+],
+"section": "health-medicine",
+"slug": "ketamine-glutamatergic-revolution-depression-nmda-antagonism-bdnf-rapid-antidepressant",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Ketamine and the glutamatergic revolution in depression: NMDA antagonism, BDNF, and the rapid antidepressant effect"
 },
 "35.06.01": {
 "area": "other",

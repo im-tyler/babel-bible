@@ -24510,6 +24510,18 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **notes**: Justice, authority, rights, liberalism/communitarianism (Rawls, Nozick). Crossrefs metaphysics [20.11.01], democracy chapter [20.07.x].
 
 
+### philosophy.capabilities-approach
+
+- **title**: The capabilities approach: Sen, Nussbaum, and justice as the freedom to live a valued life
+- **unit**: `20.14.03`
+- **prerequisites**: `philosophy.political-philosophy-survey`
+- **tier_anchors**:
+  - master: Sen 1979 Tanner Lecture "Equality of What?"; Sen 1985 "Commodities and Capabilities"; Sen 1992 "Inequality Reexamined"; Sen 1999 "Development as Freedom"; Nussbaum 1988; Nussbaum 2000 "Women and Human Development"; Nussbaum 2011 "Creating Capabilities"
+  - intermediate: Alkire "Valuing Freedoms" 2002; Crocker "Ethics of Global Development" 2008
+  - beginner: Sen "Development as Freedom" accessible chapters; Nussbaum "Creating Capabilities" popular
+- **notes**: Sen 1979 Tanner Lecture "Equality of What?" launched the framework; answers before: utilitarians = welfare; Rawls = primary goods; Nozick = rights; Dworkin = resources; Sen = capabilities. Functionings = what a person actually does or is (being healthy, educated, nourished); capabilities = what they can do or be (functioning + choice). Critique of utilitarianism: utility is adaptive ("happy slave" problem); critique of resources: ignores conversion factors (disabled person needs more resources for same functioning). Nussbaum 2000/2011: 10 central capabilities (life, bodily health, bodily integrity, senses/imagination, emotions, practical reason, affiliation, other species, play, control over environment). Sen deliberately leaves capabilities vague (framework not complete theory); Nussbaum commits to a list. Policy: UNDP HDI (1990+, life expectancy + education + GNI); MPI (Alkire-Foster 2010+); OECD Better Life Index. Sen 1998 Nobel in Economics partly for this work. India vs. China HDI comparison as canonical application.
+
+
 ### philosophy.history-of-philosophy
 
 - **title**: History of philosophy
@@ -25796,3 +25808,37 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Shedler 2010 efficacy meta-analysis; Leichsenring 2008, 2010s trials; Gabbard "Psychodynamic Psychiatry in Clinical Practice"
   - beginner: accessible accounts (e.g., Jonathan Lear "Freud"; Nancy McWilliams "Psychoanalytic Case Formulation")
 - **notes**: Founded by Freud in late-19th-c Vienna. Classical model: topographic (conscious/preconscious/unconscious) -> structural (id/ego/superego, 1923) -> psychosexual stages. Core techniques: free association, dream interpretation, transference analysis (the central mechanism -- patient redirects feelings from important figures onto the therapist), working through. Ego psychology (Anna Freud 1936 defenses; Hartmann 1939). Object relations (Klein positions; Winnicott transitional objects; Mahler separation-individuation; Fairbairn pure object-relations). Self psychology (Kohut 1971 narcissism). Kernberg TFP for borderline. Davanloo ISTDP (5-40 sessions). Efficacy evidence: Shedler 2010 Am. Psychol. 65:98 meta-analysis (effect sizes 0.7-1.0, comparable to CBT, with sustained follow-up); Leichsenring trials for depression/anxiety/personality disorders. The cognitive/behavioral critique (untestable theory, long duration) is partly answered by the modern brief-psychodynamic efficacy evidence.
+
+### earth-science.permian-triassic-extinction
+
+- **title**: The Permian-Triassic mass extinction: the Siberian Traps, the 'Great Dying,' and the collapse of the Paleozoic biosphere
+- **unit**: `27.08.04`
+- **prerequisites**: `earth-science.earth-history-geologic-time-scale`
+- **tier_anchors**:
+  - master: Newell 1967; Raup-Sepkoski 1982 Science 215:1501 (Big Five); Renne-Basu 1991 Science (Siberian Traps dating); Bowring-Erwin-Isozaki 1998-1999; Wignall 2001-2007 (anoxia); Reichow 2009 (Traps volume ~4M km^3); Burgess-Bowring-Shen 2014 PNAS (synchronous timing); Song 2013 PNAS (two pulses)
+  - intermediate: Erwin 2006 "Extinction"; Knoll-Fischer 2011 reviews
+  - beginner: accessible accounts (e.g., Michael Benton "When Life Nearly Died")
+- **notes**: The P-Tr extinction (~252 Ma) is the most severe of the Phanerozoic (Raup-Sepkoski 1982 Big Five): ~96% marine species, ~70% terrestrial vertebrate families. Triggered by the Siberian Traps LIP (~4 million km^3 of lava over ~2 Myr, Reichow 2009; Renne-Basu 1991 dating ~251 Ma; Burgess-Bowring-Shen 2014 PNAS confirmed synchronous with extinction). Traps intruded into coal-bearing sediments, releasing massive CO2 + methane. Cascade: rapid warming (~5-8 deg C SST increase), ocean acidification, marine anoxia/euxinia (extensive black shales), ozone depletion (sulfur-MIF evidence), soil erosion. Two pulses (Song 2013 PNAS): first at the P-Tr boundary, second ~60 kyr later. Marine faunas devastated: trilobites eliminated, ammonoids nearly lost, all reef builders gone. Terrestrial: ~70% vertebrate loss; the therapsid Lystrosaurus dominated post-extinction. Recovery ~5 Myr (marine diversity), ~10 Myr (reefs) — much slower than K-Pg. P-Tr ended the Paleozoic; opened niches for the Mesozoic dinosaur radiation.
+
+### psychology.self-determination-theory
+
+- **title**: Self-determination theory: Maslow, Deci-Ryan, and the intrinsic motivation of autonomy, competence, and relatedness
+- **unit**: `29.11.04`
+- **prerequisites**: `psychology.motivation-emotion-survey`
+- **tier_anchors**:
+  - master: Maslow 1943 Psych. Rev. (hierarchy); Deci 1971 (overjustification); Lepper-Greene-Nisbett 1973 (nursery drawing); Deci-Ryan 1985 (foundational SDT); Deci-Eghrari-Anglin-Keefe 1990s (autonomy-support); Ryan-Deci 2000 Am. Psychol. 55:68 (modern synthesis); Gagné-Deci 2005 (work); Niemiec-Ryan 2009 (education); Przybylski-Rigby-Ryan 2010 (video games); Ryan-Deci 2017 (treatise)
+  - intermediate: Ryan-Deci 2017 "Self-Determination Theory" treatise; Gagné "The Oxford Handbook of Work Engagement, Motivation, and Self-Determination Theory"
+  - beginner: Deci "Why We Do What We Do" (popular 1995); Pink "Drive" 2009
+- **notes**: Maslow 1943 Psych. Rev. hierarchy of needs (physiological -> safety -> belonging -> esteem -> self-actualization) as precursor. Deci 1971 overjustification effect (Soma puzzle: paid students played LESS during free time; external reward undermined intrinsic motivation). Lepper-Greene-Nisbett 1973 nursery-school drawing replication. Deci-Ryan 1985 SDT: three basic psychological needs - AUTONOMY (volitional, endorsed self), COMPETENCE (effective, mastery), RELATEDNESS (connected, belonging); universal across cultures. Motivation continuum: amotivation -> extrinsic (external regulation -> introjected -> identified -> integrated) -> intrinsic. The autonomy-supportive vs controlling distinction (Deci-Eghrari-Anglin-Keefe 1990s): autonomy-supportive parenting/teaching/managing fosters intrinsic motivation. Ryan-Deci 2000 Am. Psychol. 55:68 modern synthesis. Applications: Niemiec-Ryan 2009 education; Gagné-Deci 2005 work; Williams 1998+ healthcare; Przybylski-Rigby-Ryan 2010 video games (SDT-based engagement model).
+
+
+### medicine.ketamine-depression-glutamate
+
+- **title**: Ketamine and the glutamatergic revolution in depression: NMDA antagonism, BDNF, and the rapid antidepressant effect
+- **unit**: `35.05.04`
+- **prerequisites**: `medicine.mental-health-survey`
+- **tier_anchors**:
+  - master: Schildkraut 1965 (monoamine hypothesis); Berman 2000 Biol. Psychiatry 48:751 (first ketamine trial); Zarate 2006 Arch. Gen. Psychiatry 63:856; Li 2010 Science 329:959 (mTOR/synaptogenesis); Duman-Aghajanian-Krystal 2012+ (BDNF/mTOR synaptogenesis); FDA 2019 esketamine approval; Williams 2018/2019 naloxone controversy; AXS-05 2022 approval
+  - intermediate: Sanacora-Treccani-Krystal 2020s reviews; Charney-Duman depression neurobiology texts; Stahl Essential Psychopharmacology glutamate chapter
+  - beginner: accessible accounts (Bergen "The Ketamine Papers"; NIMH patient-facing materials)
+- **notes**: The monoamine hypothesis (Schildkraut 1965, Coppen 1967) underwrote SSRIs (fluoxetine 1987); ~50-60% response rate, ~30% treatment-resistant. Berman 2000 Biol. Psychiatry 48:751: the first controlled trial of ketamine (0.5 mg/kg IV) showed rapid (within 72 hr) antidepressant effect. Zarate 2006 Arch. Gen. Psychiatry 63:856 confirmed onset within 2 hr, sustained ~1 week. Mechanism: NMDA blockade preferential on GABAergic interneurons -> glutamate burst in mPFC -> AMPA receptor activation -> BDNF release -> mTOR activation -> rapid synaptogenesis (new dendritic spines within hours, reversing stress-induced synaptic loss). Li 2010 Science 329:959 showed rapamycin (mTORC1 inhibitor) abolishes sustained antidepressant effect and spine formation. FDA 2019 esketamine (Spravato, S-enantiomer, nasal spray) approval for treatment-resistant depression; supervised administration, 2-hr post-dose observation under REMS. Controversies: opioid-component debate (Williams 2018 Am. J. Psychiatry 175:1205 -- naloxone-blockable effect suggests hybrid mechanism); S vs racemic ketamine; abuse potential (Schedule III). AXS-05 dextromethorphan-bupropion (Auvelity) 2022 FDA approval -- first oral glutamatergic agent for first-line major depression.
