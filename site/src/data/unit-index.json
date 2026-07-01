@@ -36167,6 +36167,28 @@
 ],
 "title": "Noble gas compounds: xenon fluorides and the fall of the octet rule"
 },
+"16.08.03": {
+"area": "other",
+"books": [],
+"chapter": "main-group-detail",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.08.03",
+"prereqs": [
+"16.08.01"
+],
+"section": "inorgchem",
+"slug": "boron-hydrides-wade-rules-cluster-chemistry-electron-counting-polyhedral-skeletal",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Boron hydrides and Wade's rules: cluster chemistry, electron counting, and the polyhedral skeletal electron pair theory"
+},
 "16.09.01": {
 "area": "other",
 "books": [
@@ -37709,6 +37731,28 @@
 "master"
 ],
 "title": "Skeletal mechanics: bone remodeling, joint biomechanics, and the lever principles"
+},
+"18.04.05": {
+"area": "other",
+"books": [],
+"chapter": "musculoskeletal",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.04.05",
+"prereqs": [
+"18.04.01"
+],
+"section": "organismal-bio",
+"slug": "bone-remodeling-osteoporosis-rankl-rank-opg-bisphosphonates-frost-mechanostat",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Bone remodeling and osteoporosis: RANKL-RANK-OPG signaling, bisphosphonates, and the Frost mechanostat"
 },
 "18.05.01": {
 "area": "other",
@@ -39820,6 +39864,28 @@
 "master"
 ],
 "title": "Kant's Critique of Judgment: the beautiful, the sublime, and disinterested pleasure"
+},
+"20.04.03": {
+"area": "other",
+"books": [],
+"chapter": "aesthetics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.04.03",
+"prereqs": [
+"20.04.01"
+],
+"section": "philosophy",
+"slug": "sublime-beautiful-burke-kant-eighteenth-century-aesthetics",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The sublime and the beautiful: Burke, Kant, and the eighteenth-century origins of aesthetics"
 },
 "20.05.02": {
 "area": "other",
@@ -51193,6 +51259,28 @@
 ],
 "title": "Color theory and composition principles: Itten, Albers; figure-ground, gestalt"
 },
+"34.03.03": {
+"area": "other",
+"books": [],
+"chapter": "visual-art-elements",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.03.03",
+"prereqs": [
+"34.03.01"
+],
+"section": "music-art",
+"slug": "gestalt-psychology-visual-composition-proximity-similarity-closure-perceptual-organization",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gestalt psychology and visual composition: proximity, similarity, closure, and the laws of perceptual organization"
+},
 "34.04.01": {
 "area": "other",
 "books": [],
@@ -51631,6 +51719,28 @@
 "master"
 ],
 "title": "Homeostasis and feedback regulation: set points, negative feedback, allostasis"
+},
+"35.01.03": {
+"area": "other",
+"books": [],
+"chapter": "human-body",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.01.03",
+"prereqs": [
+"35.01.01"
+],
+"section": "health-medicine",
+"slug": "cellular-senescence-aging-biology-telomeres-hayflick-limit-mtor-rapamycin-longevity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cellular senescence and the biology of aging: telomeres, the Hayflick limit, and the mTOR/rapamycin longevity pathway"
 },
 "35.02.01": {
 "area": "other",
