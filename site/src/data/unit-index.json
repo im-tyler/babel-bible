@@ -32991,6 +32991,28 @@
 ],
 "title": "Cosmological inflation: slow-roll scalar fields and the origin of structure"
 },
+"13.08.04": {
+"area": "physics",
+"books": [],
+"chapter": "cosmology",
+"curriculum": "fast-track",
+"field": "gravitation",
+"fieldLabel": "General Relativity & Cosmology",
+"fieldOrder": 23,
+"id": "13.08.04",
+"prereqs": [
+"13.08.01"
+],
+"section": "gr-cosmology",
+"slug": "gravitational-lensing-strong-weak-microlensing-einstein-rings-dark-matter-maps-exoplanets",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Gravitational lensing: strong, weak, and microlensing \u2014 Einstein rings, dark matter maps, and exoplanet detection"
+},
 "13.09.01": {
 "area": "physics",
 "books": [
@@ -38515,6 +38537,28 @@
 "master"
 ],
 "title": "Chemosensation: taste, smell, and the Buck-Axel olfactory receptor revolution"
+},
+"18.13.04": {
+"area": "other",
+"books": [],
+"chapter": "sensory-systems",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.13.04",
+"prereqs": [
+"18.13.01"
+],
+"section": "organismal-bio",
+"slug": "phototransduction-rod-cone-physiology-cgmp-cascade-molecular-basis-vision",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Phototransduction: rod and cone physiology, the cGMP cascade, and the molecular basis of vision"
 },
 "19.01.01": {
 "area": "other",
@@ -50247,6 +50291,28 @@
 ],
 "title": "Colonialism and imperialism \u2014 from conquest to formal empire"
 },
+"32.15.03": {
+"area": "other",
+"books": [],
+"chapter": "colonialism-imperialism",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "32.15.03",
+"prereqs": [
+"32.15.01"
+],
+"section": "world-history",
+"slug": "postcolonial-theory-said-orientalism-spivak-subaltern-bhabha-hybridity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Postcolonial theory: Said's Orientalism, Spivak's subaltern, and Bhabha's hybridity"
+},
 "32.16.01": {
 "area": "other",
 "books": [],
@@ -51561,6 +51627,28 @@
 ],
 "title": "Theories of aesthetic experience: Kant's sublime, Dewey's pragmatist aesthetics, institutional theory"
 },
+"34.07.03": {
+"area": "other",
+"books": [],
+"chapter": "aesthetics-theory",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.07.03",
+"prereqs": [
+"34.07.01"
+],
+"section": "music-art",
+"slug": "end-of-art-aesthetic-universalism-danto-dickie-institutional-theory",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The end of art and aesthetic universalism: Danto, Dickie, and the institutional theory"
+},
 "34.08.01": {
 "area": "other",
 "books": [],
@@ -52297,6 +52385,28 @@
 "master"
 ],
 "title": "The US opioid epidemic: OxyContin, the Sackler family, and the public-health response"
+},
+"35.06.05": {
+"area": "other",
+"books": [],
+"chapter": "public-health",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.06.05",
+"prereqs": [
+"35.06.01"
+],
+"section": "health-medicine",
+"slug": "vaccine-hesitancy-wakefield-mmr-autism-fraud-public-health-communication",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vaccine hesitancy: Wakefield, the MMR-autism fraud, and the public-health communication challenge"
 },
 "35.07.01": {
 "area": "other",

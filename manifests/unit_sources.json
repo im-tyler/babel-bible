@@ -9280,6 +9280,10 @@
 ],
 "curriculum": "gr-cosmology-home"
 },
+"13.08.04": {
+"books": [],
+"curriculum": "fast-track"
+},
 "13.09.01": {
 "books": [
 "gerard-microlocal-qft-curved-spacetimes",
@@ -10338,6 +10342,10 @@
 "curriculum": "organismal-bio-home"
 },
 "18.13.03": {
+"books": [],
+"curriculum": "other"
+},
+"18.13.04": {
 "books": [],
 "curriculum": "other"
 },
@@ -12699,6 +12707,10 @@
 ],
 "curriculum": "world-history-home"
 },
+"32.15.03": {
+"books": [],
+"curriculum": "other"
+},
 "32.16.01": {
 "books": [],
 "curriculum": "other"
@@ -12955,6 +12967,10 @@
 "books": [],
 "curriculum": "music-art"
 },
+"34.07.03": {
+"books": [],
+"curriculum": "other"
+},
 "34.08.01": {
 "books": [],
 "curriculum": "other"
@@ -13094,6 +13110,10 @@
 "curriculum": "health-medicine"
 },
 "35.06.04": {
+"books": [],
+"curriculum": "other"
+},
+"35.06.05": {
 "books": [],
 "curriculum": "other"
 },
