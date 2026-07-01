@@ -35610,6 +35610,28 @@
 ],
 "title": "Projection operators and symmetry-adapted linear combinations (SALCs)"
 },
+"16.02.04": {
+"area": "other",
+"books": [],
+"chapter": "symmetry-group-theory",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.02.04",
+"prereqs": [
+"16.02.01"
+],
+"section": "inorgchem",
+"slug": "molecular-symmetry-point-groups-schoenflies-character-tables",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Molecular symmetry and point groups: Schoenflies notation, character tables, and group theory in chemistry"
+},
 "16.03.01": {
 "area": "other",
 "books": [],
@@ -38173,6 +38195,28 @@
 "master"
 ],
 "title": "Inflammation: innate recognition via TLRs and NLRs, cytokine storm, and resolution mechanisms"
+},
+"18.10.04": {
+"area": "other",
+"books": [],
+"chapter": "immunology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.10.04",
+"prereqs": [
+"18.10.01"
+],
+"section": "organismal-bio",
+"slug": "vaccines-immunological-memory-antigen-presentation-clonal-selection-herd-immunity",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Vaccines and immunological memory: antigen presentation, B-cell clonal selection, and the principle of herd immunity"
 },
 "18.11.01": {
 "area": "other",
@@ -46268,6 +46312,28 @@
 ],
 "title": "Soil classification, horizons, and the critical zone"
 },
+"27.10.03": {
+"area": "other",
+"books": [],
+"chapter": "soil-science-pedology",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.10.03",
+"prereqs": [
+"27.10.01"
+],
+"section": "earth-science",
+"slug": "soil-carbon-cycling-rhizosphere-microbiome-mycorrhizae-biochar-terrestrial-carbon-sink",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Soil carbon cycling and the rhizosphere microbiome: mycorrhizae, biochar, and the largest terrestrial carbon sink"
+},
 "28.01.01": {
 "area": "other",
 "books": [],
@@ -46527,6 +46593,28 @@
 "master"
 ],
 "title": "Active galactic nuclei and quasars: accretion onto supermassive black holes"
+},
+"28.03.04": {
+"area": "other",
+"books": [],
+"chapter": "galaxies",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.03.04",
+"prereqs": [
+"28.03.01"
+],
+"section": "astronomy",
+"slug": "galaxy-formation-evolution-cosmic-star-formation-history-hierarchical-merging-hubble-sequence",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Galaxy formation and evolution: the cosmic star-formation history, hierarchical merging, and the Hubble sequence"
 },
 "28.04.01": {
 "area": "other",
