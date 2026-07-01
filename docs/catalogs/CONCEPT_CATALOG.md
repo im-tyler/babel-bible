@@ -10711,6 +10711,17 @@ These entries register live draft units so the validator can distinguish "unknow
 ### psychology.neuroplasticity
 
 
+### psychology.sleep-neuroscience
+
+- **title**: The neuroscience of sleep: NREM and REM, the Saper wake-sleep flip-flop, and the functions of sleep
+- **unit**: `29.02.05`
+- **prerequisites**: `psychology.neuroscience-brain-behavior`
+- **tier_anchors**:
+  - master: Aserinsky-Kleitman 1953 Science 118:273 (REM discovery); Jouvet 1959 (PGO spikes); Moruzzi-Magoun 1949 (ARAS); Borbély 1982 Hum. Neurobiol. 1:195 (2-process model); Sakurai 1998 Cell 92:573 (orexin); Lin 1999 Cell 98:365 (narcolepsy); Saper-Scammell-McCarley 2005 Neuron 47:775 (flip-flop); Tononi-Cirelli 2003-2014 (synaptic homeostasis); Nedergaard 2013 Science 341:610 (glymphatic system)
+  - intermediate: Walker "Why We Sleep" 2017; Saper "Principles of Neural Science" sleep chapters
+  - beginner: Walker "Why We Sleep" (popular); accessible sleep texts
+- **notes**: Sleep cycles through NREM (3 stages: N1 transition, N2 spindles, N3 slow-wave) and REM (paradoxical sleep with fast EEG + muscle atonia + dreaming); ~90-min cycles, 4-5 per night. The wake-sleep flip-flop (Saper-Scammell-McCarley 2005 Neuron 47:775): mutual inhibition between wake-promoting nuclei (LC-NE, DRN-5HT, VTA-DA, PPT-ACh, TMN-histamine) and sleep-promoting VLPO. Orexin/hypocretin (Sakurai 1998 Cell 92:573; ~70,000 lateral-hypothalamic neurons) stabilizes the switch; orexin loss -> narcolepsy (Lin 1999 Cell 98:365). 2-process model (Borbely 1982 Hum. Neurobiol. 1:195): Process S (homeostatic sleep pressure, adenosine accumulation; caffeine blocks A1/A2A receptors) + Process C (circadian, SCN, melatonin). Sleep functions: synaptic homeostasis (Tononi-Cirelli: wake strengthens synapses; SWS renormalizes), glymphatic clearance (Nedergaard 2013 Science 341:610: CSF flushes beta-amyloid and tau through peri-arterial spaces; 60% more active during sleep), memory consolidation (spindles in N2). Sleep disorders: insomnia (CBT-I first-line); narcolepsy type 1 (orexin loss + cataplexy; modafinil, sodium oxybate); OSA (CPAP); RBD (often precedes Parkinson's).
+
 ### psychology.visual-perception
 
 - **title**: Visual perception: depth cues, object recognition, top-down vs bottom-up processing
@@ -25888,3 +25899,38 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Vincent "Molecular Symmetry and Group Theory"; Cotton textbook chapters
   - beginner: accessible intros (e.g., Vincent 2001)
 - **notes**: Molecular point-group classification: C_n, C_nv, C_nh, D_n, D_nh, D_nd, S_2n, T, T_d (full tetrahedral), O, O_h (full octahedral), I_h (icosahedral), C_∞v (linear like HCl), D_∞h (linear with inversion like CO₂). Schoenflies for molecules vs Hermann-Mauguin for crystals. Symmetry operations: E, C_n, σ (σ_v, σ_h, σ_d), i, S_n. Character tables list irreducible representations (Mulliken: A, B non-degenerate; E 2D; T 3D; subscripts 1, 2, g, u, primes). Great orthogonality theorem: Σ_g χ_i(g) × χ_j(g)* = h × δ_ij; allows decomposition of molecular properties into symmetry components. Applications: IR-active modes (irrep matches x, y, or z), Raman-active (irrep matches quadratic forms), dipole moments (only C_nv and C_s), optical activity (chiral point groups C_n, D_n, T, O, I). CH₄ T_d: 9 vibrational modes reduce to 4 distinct frequencies — IR spectrum shows only 2 bands.
+
+### medicine.mri-physics
+
+- **title**: Magnetic resonance imaging physics: Bloch equations, relaxation, and the Lauterbur-Mansfield Nobel revolution
+- **unit**: `35.09.04`
+- **prerequisites**: `medicine.medical-diagnostics-imaging-survey`
+- **tier_anchors**:
+  - master: Bloch 1946 Phys. Rev. 70:460; Purcell-Torrey-Pound 1946 (1952 Nobel); Lauterbur 1973 Nature 242:190 (2003 Nobel); Mansfield 1977 J. Phys. C 10:L55 (EPI; 2003 Nobel); Edelstein-Hutchison 1980 (spin-warp); Le Bihan 1986 (diffusion MRI); Ogawa 1990 PNAS (BOLD); Kwong 1992 PNAS (first human fMRI)
+  - intermediate: Bushberg "The Essential Physics of Medical Imaging"; de Graaf "In Vivo NMR Spectroscopy"
+  - beginner: Hashemi-Bradley-Lisanti "MRI: The Basics" textbook
+- **notes**: Bloch 1946 Phys. Rev. 70:460: dM/dt = gamma M x B - (M_x x-hat + M_y y-hat)/T2 - (M_z - M_0) z-hat/T1; describes Larmor precession (omega = gamma B; gamma = 42.58 MHz/T for H-1), T1 longitudinal (spin-lattice) recovery to M_0, T2 transverse (spin-spin) decay. Tissue-dependent T1/T2 generate image contrast (CSF long T1/T2 ~4000/2000 ms; fat short ~250/80 ms; gray matter ~1000/100; white matter ~800/80). T1-weighted (short TR/TE) highlights fat; T2-weighted (long TR/TE) highlights water (edema, pathology). Spatial encoding via gradients: slice selection (z-gradient + frequency-selective RF pulse), frequency encoding (x-gradient), phase encoding (y-gradient). k-space framework: raw data is 2D FT of the image; inverse FT reconstructs. Lauterbur 1973 Nature 242:190 first MR image (back-projection); Mansfield 1977 J. Phys. C 10:L55 EPI (single-shot; basis of fMRI); Edelstein-Hutchison 1980 spin-warp (clinical standard). Le Bihan 1986 diffusion MRI (DTI for white-matter tracts). Ogawa 1990 PNAS BOLD contrast (deoxyhemoglobin paramagnetic); Kwong 1992 PNAS first human fMRI. ~50M MRI scans annually; no ionizing radiation; contraindications: ferromagnetic implants. Gadolinium contrast risk: NSF in renal failure.
+
+
+### dance-history.petipa-imperial-russian-ballet
+
+- **title**: Petipa and the Imperial Russian ballet: classical ballet, Sleeping Beauty, and the 19th-century synthesis
+- **unit**: `34.10.03`
+- **prerequisites**: `music-art.dance`
+- **tier_anchors**:
+  - master: Louis XIV Academie Royale de Danse 1661; Noverre 1760 "Lettres sur la danse"; Bournonville 1830s-70s; Taglioni La Sylphide 1832; Perrot Giselle 1841; Marius Petipa 1847-1910 (St. Petersburg Imperial Theatres); Sleeping Beauty 1890; Nutcracker 1892; Swan Lake 1895; Diaghilev Ballets Russes 1909; Balanchine 1933-1983; Sergeyev notations (Harvard Theatre Collection)
+  - intermediate: Wiley "Tchaikovsky Ballets" 1985; Garafola "Diaghilev Ballets Russes" 1989; Wulff "Ballet Across Borders" 1998
+  - beginner: accessible dance histories (e.g., Homans "Apollo Angels" 2010)
+- **notes**: Marius Petipa (1818-1910), French-born, served as Premier Maitre de Ballet of the St. Petersburg Imperial Theatres 1871-1903 (50+ years). Synthesized the French academic tradition, Russian Imperial resources, and Romantic narrative conventions into a codified "classical" ballet vocabulary: the three-act narrative structure, the grand pas de deux (entree-adagio-male variation-female variation-coda), the corps de ballet as moving architecture (32 swans in Swan Lake Act II), pointe technique, mime sequences. The three Tchaikovsky collaborations - Sleeping Beauty (1890, the most prescriptive choreographer-composer relationship in ballet history), Nutcracker (1892, choreography by Lev Ivanov), Swan Lake (1895, Petipa-Ivanov revival after Tchaikovsky death) - remain the most-performed ballets worldwide. Parallel traditions: the Paris Opera (declining through the 19th c.); Bournonville-Danish school (still performed in Copenhagen). The 1909 Diaghilev Ballets Russes (Fokine, Nijinsky) modernized against Petipa spectacular classicism; Balanchine (1904-1983, trained at Maryinsky) extended the Petipa lineage into neo-classical abstraction at NYCB. Modern revivals worldwide rest on Sergeyev-notation scores (Harvard Theatre Collection).
+
+
+### philosophy.personal-identity-parfit
+
+- **title**: Personal identity: Parfit, fission, teleportation, and the reductionist view of the self
+- **unit**: `20.11.03`
+- **prerequisites**: `philosophy.metaphysics-survey`
+- **tier_anchors**:
+  - master: Locke 1694 Essay 2.27; Butler 1736 (circularity); Reid 1785 (gallant officer); Hume 1739 (bundle theory); Williams 1956-57 and 1970 "The Self and the Future"; Shoemaker 1963 "Self-Knowledge and Self-Identity"; Wiggins 1967; Perry 1972; Lewis 1976 "Survival and Identity"; Nagel 1971 "Brain Bisection"; Parfit 1984 "Reasons and Persons"; Unger 1990; Olson 1997 "The Human Animal" (animalism); Parfit 2011 "On What Matters"; Schechtman 1996/2014 (narrative)
+  - intermediate: Olson 1997 "The Human Animal"; Schechtman "The Constitution of Selves" 1996; Parfit "On What Matters" 2011
+  - beginner: Parfit "Reasons and Persons" accessible chapters; popular accounts (e.g., Edmonds "Would You Kill the Fat Man?")
+- **notes**: Locke 1694 Essay 2.27: personal identity = sameness of consciousness (memory). Butler 1736 circularity objection (memory presupposes identity). Reid 1785 gallant officer / transitivity failure. Hume 1739 bundle theory. Shoemaker 1963 modern psychological-continuity view (memory + character + intentions) plus quasi-memory to escape Butler's circularity. Williams 1970 "The Self and the Future" bodily vs psychological continuity thought experiments. Lewis 1976 counterpart theory (survival vs identity; survival comes in degrees, identity does not). Parfit 1984 "Reasons and Persons" canonical reductionism: (a) personal identity consists in psychological continuity (relation R); (b) R can take any cause (no special metaphysical fact); (c) identity is not what matters — what matters is R; in fission, identity ceases but R is preserved. The fission thought experiment: split brain into two halves, each transplanted into a different body; both survivors have your memories; identity view says both = you (impossible); Parfit says neither = you, but R preserved. Implications: less fear of death, more concern for others, more rational view of prudence. Animalism (Olson 1997): we ARE biological human animals; psychological views wrong; biological continuity matters. Narrative identity (Schechtman 1996/2014): identity = self-told story. Empirical turn: Metzinger, Blanke on neuroscience of self.

@@ -40255,6 +40255,28 @@
 ],
 "title": "Metaphysics \u2014 depth: grounding, persistence, and possible worlds"
 },
+"20.11.03": {
+"area": "other",
+"books": [],
+"chapter": "metaphysics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.11.03",
+"prereqs": [
+"20.11.01"
+],
+"section": "philosophy",
+"slug": "personal-identity-parfit-fission-teleportation-reductionist-self",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Personal identity: Parfit, fission, teleportation, and the reductionist view of the self"
+},
 "20.12.01": {
 "area": "other",
 "books": [],
@@ -47224,6 +47246,28 @@
 ],
 "title": "Neuroplasticity and neurogenesis: LTP, critical periods, recovery from brain injury"
 },
+"29.02.05": {
+"area": "other",
+"books": [],
+"chapter": "neuroscience",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.02.05",
+"prereqs": [
+"29.02.01"
+],
+"section": "psychology",
+"slug": "sleep-neuroscience-nrem-rem-saper-flip-flop-functions-sleep",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The neuroscience of sleep: NREM and REM, the Saper wake-sleep flip-flop, and the functions of sleep"
+},
 "29.03.01": {
 "area": "other",
 "books": [],
@@ -51390,6 +51434,28 @@
 ],
 "title": "Modern dance technique \u2014 Graham, Cunningham, and Balanchine"
 },
+"34.10.03": {
+"area": "other",
+"books": [],
+"chapter": "dance",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.10.03",
+"prereqs": [
+"34.10.01"
+],
+"section": "music-art",
+"slug": "petipa-imperial-russian-ballet-classical-sleeping-beauty-19th-century-synthesis",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Petipa and the Imperial Russian ballet: classical ballet, Sleeping Beauty, and the 19th-century synthesis"
+},
 "35.01.01": {
 "area": "other",
 "books": [],
@@ -52099,6 +52165,28 @@
 "master"
 ],
 "title": "Medical diagnostics and imaging \u2014 clinical reasoning and seeing inside the body"
+},
+"35.09.04": {
+"area": "other",
+"books": [],
+"chapter": "medical-diagnostics-imaging",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.09.04",
+"prereqs": [
+"35.09.01"
+],
+"section": "health-medicine",
+"slug": "mri-physics-bloch-equations-relaxation-lauterbur-mansfield-nobel",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Magnetic resonance imaging physics: Bloch equations, relaxation, and the Lauterbur-Mansfield Nobel revolution"
 },
 "35.10.01": {
 "area": "other",
