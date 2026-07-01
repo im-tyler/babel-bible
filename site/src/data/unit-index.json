@@ -35522,6 +35522,28 @@
 ],
 "title": "Acid-base theories: Lewis acids, HSAB, and Drago-Wayland parameters"
 },
+"16.01.04": {
+"area": "other",
+"books": [],
+"chapter": "periodic-trends",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.01.04",
+"prereqs": [
+"16.01.01"
+],
+"section": "inorgchem",
+"slug": "mendeleev-periodic-table-1869-eka-elements-atomic-number-ordering-modern",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Mendeleev's periodic table of 1869: prediction of eka-elements, the path to atomic-number ordering, and the modern table"
+},
 "16.02.01": {
 "area": "other",
 "books": [],
@@ -38197,6 +38219,28 @@
 "master"
 ],
 "title": "Organogenesis: inductive interactions, morphogen gradients, and stem cell niches"
+},
+"18.11.04": {
+"area": "other",
+"books": [],
+"chapter": "development",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.11.04",
+"prereqs": [
+"18.11.01"
+],
+"section": "organismal-bio",
+"slug": "induced-pluripotent-stem-cells-yamanaka-factors-reprogramming-regenerative-medicine",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Induced pluripotent stem cells: the Yamanaka factors, reprogramming, and the regenerative-medicine revolution"
 },
 "18.12.01": {
 "area": "other",
@@ -46615,6 +46659,28 @@
 ],
 "title": "Space telescope science: multiwavelength astronomy, gravitational-wave observatories"
 },
+"28.06.04": {
+"area": "other",
+"books": [],
+"chapter": "space-exploration",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.06.04",
+"prereqs": [
+"28.06.01"
+],
+"section": "astronomy",
+"slug": "apollo-program-cold-war-moon-race-saturn-v-twelve-moonwalkers",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The Apollo program: the Cold War Moon race, the Saturn V, and the twelve Moonwalkers"
+},
 "28.07.01": {
 "area": "other",
 "books": [
@@ -47529,6 +47595,28 @@
 "master"
 ],
 "title": "Psychodynamic and humanistic theories: Freud, Erikson, Rogers, Maslow"
+},
+"29.08.04": {
+"area": "other",
+"books": [],
+"chapter": "personality",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.08.04",
+"prereqs": [
+"29.08.01"
+],
+"section": "psychology",
+"slug": "person-situation-debate-mischel-1968-density-distribution-resolution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The person-situation debate: Mischel 1968, the challenge to trait theory, and the density-distribution resolution"
 },
 "29.09.01": {
 "area": "other",

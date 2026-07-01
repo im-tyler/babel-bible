@@ -9775,6 +9775,10 @@
 "books": [],
 "curriculum": "inorgchem"
 },
+"16.01.04": {
+"books": [],
+"curriculum": "other"
+},
 "16.02.01": {
 "books": [],
 "curriculum": "other"
@@ -10276,6 +10280,10 @@
 "18.11.03": {
 "books": [],
 "curriculum": "organismal-bio"
+},
+"18.11.04": {
+"books": [],
+"curriculum": "other"
 },
 "18.12.01": {
 "books": [
@@ -11997,6 +12005,10 @@
 "books": [],
 "curriculum": "astronomy"
 },
+"28.06.04": {
+"books": [],
+"curriculum": "other"
+},
 "28.07.01": {
 "books": [
 "foundational-home"
@@ -12172,6 +12184,10 @@
 "29.08.03": {
 "books": [],
 "curriculum": "psychology"
+},
+"29.08.04": {
+"books": [],
+"curriculum": "other"
 },
 "29.09.01": {
 "books": [],

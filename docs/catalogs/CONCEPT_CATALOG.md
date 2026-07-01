@@ -8012,6 +8012,18 @@ the ring of $W$-invariant polynomials in $r$ degree-$2$ generators. Specialisati
 - **notes**: Embryogenesis from fertilisation through organogenesis. Beginner covers stages (cleavage, gastrulation, neurulation), morphogen gradients (Bicoid), and Hox genes. Intermediate formalises the French flag model and exponential-gradient threshold theorem with proof. Master tier covers four advanced systems: gene regulatory networks (Davidson sea urchin GRN), Turing reaction-diffusion patterns (Gierer-Meinhardt model, wavelength selection), epithelial-mesenchymal transition (EMT transcription factors, morphomechanics), and stem cell niches/pluripotency (Oct4/Sox2/Nanog, iPSC reprogramming). Key theorems: Bicoid threshold model, Turing instability condition, wavelength selection proposition. Prose-first BIO unit; lean_status: none.
 
 
+### biology.induced-pluripotent-stem-cells
+
+- **title**: Induced pluripotent stem cells: the Yamanaka factors, reprogramming, and the regenerative-medicine revolution
+- **unit**: `18.11.04`
+- **prerequisites**: `biology.embryology-morphogenesis`
+- **tier_anchors**:
+  - master: Stevens 1950s-70s (teratocarcinomas); Evans-Kaufman 1981 (mouse ESCs); Gurdon 1962 (frog nuclear transfer); Thomson 1998 Science (hESCs); Takahashi-Yamanaka 2006 Cell 126:663; Yamanaka 2007 Cell 131:861 (human); Mandai 2014 NEJM (autologous iPSC retinal); Takahashi 2024 (autologous iPSC liver)
+  - intermediate: Yamanaka "Stem Cell Research"; Robinton-Daley "Stem Cells: A Very Short Introduction"
+  - beginner: popular accounts (e.g., Fox "Cellular Therapy"; Yamanaka accessible talks)
+- **notes**: The Yamanaka 2006 discovery that 4 transcription factors (Oct4, Sox2, Klf4, c-Myc — OSKM) reprogram adult fibroblasts to pluripotent iPSCs bypassed embryonic-ethical concerns and won Yamanaka the 2012 Nobel (shared with Gurdon). Mechanism: the four factors bind regulatory regions of endogenous pluripotency genes (Oct4-Sox2-Nanog core), recruit chromatin-remodeling complexes, and establish auto-regulatory pluripotency networks; efficiency ~0.01-0.1%, ~2-3 weeks. Pluripotency markers: TRA-1-60, SSEA4, Oct4, Nanog; teratoma formation in immunodeficient mice is the gold standard. Directed differentiation to neurons (Parkinson's), RPE (AMD), cardiomyocytes (heart disease); organoids (Lancaster 2013 cerebral). Clinical translation: Mandai 2014 RIKEN autologous retinal transplant; Schwartz 2020s Parkinson's; 2024 first autologous iPSC solid-organ (liver) transplant. Challenges: de novo mutation accumulation (cancer risk), immunogenicity (Zhao 2011), heterogeneity across lines.
+
+
 ### biology.mendelian-genetics
 
 - **title**: Mendelian genetics — segregation and dominance
@@ -10779,6 +10791,18 @@ These entries register live draft units so the validator can distinguish "unknow
 ### psychology.psychodynamic-humanistic
 
 
+### psychology.person-situation-debate
+
+- **title**: The person-situation debate: Mischel 1968, the challenge to trait theory, and the density-distribution resolution
+- **unit**: `29.08.04`
+- **prerequisites**: `psychology.personality-survey`
+- **tier_anchors**:
+  - master: Allport 1937; Mischel 1968 "Personality and Assessment"; Epstein 1979/1980 (aggregation principle); Mischel-Shoda 1995 Psych. Rev. (CAPS); Fleeson 2001 J. Pers. Soc. Psychol.; Funder 2006; Roberts 2007 (maturation meta-analysis)
+  - intermediate: Mischel "An Introduction to Personality" 7e; Funder "The Personality Puzzle"
+  - beginner: accessible personality texts (Nettle "Personality: What Makes You the Way You Are")
+- **notes**: Allport 1937 trait theory assumed stable cross-situational consistency. Mischel 1968 reviewed the evidence and found personality coefficients ~0.30 — weak cross-situational prediction, challenging the trait foundation. The 30-year person-situation debate followed. Epstein 1979/1980 aggregation principle: aggregating across many observations reveals trait consistency (the reliability-ceiling critique). Mischel-Shoda 1995 Psychological Review: Cognitive-Affective Personality System (CAPS) — mental representations of situations activate cognitive-affective units producing distinctive if-then behavioral signatures. Fleeson 2001: density-distributions of states — trait scores are means of state distributions across situations. Modern synthesis (Kenrick-Funder 1988; Funder 2006): traits are real (heritability ~0.30-0.50, stability ~0.50-0.70 over decades); behavior is situationally variable but trait-consistent within situation type. Roberts 2007 meta-analysis: personality matures across the lifespan (increases in conscientiousness, agreeableness, emotional stability through middle age).
+
+
 ### psychology.anxiety-trauma
 
 
@@ -11262,6 +11286,17 @@ These entries register live draft units so the validator can distinguish "unknow
   - intermediate: "Harwit, M. — Astronomy: From the Earth to the Universe (1987)"
   - master: "Abbott, B. P. et al. — GW150914: First direct gravitational-wave detection (2016)"
 - **notes**: Atmospheric windows and the rationale for space astronomy (UV/IR/X-ray/gamma blocked); multiwavelength missions across the spectrum (radio VLA/ALMA, sub-mm, IR IRAS/Spitzer/JWST, optical/UV HST, X-ray Chandra/XMM-Newton/NuSTAR, gamma Fermi LAT/Swift/INTEGRAL); diffraction limit theta ~ lambda/D and collecting area D^2; spectroscopy (echelle, IFUs, grisms); adaptive optics; interferometry and VLBI, Event Horizon Telescope; gravitational-wave detection by laser interferometry (LIGO 4 km arms, strain h ~ 1e-21, LIGO/Virgo/KAGRA network, LISA for millihertz); multi-messenger astronomy (GW170817 neutron-star merger with gamma-ray, kilonova, afterglow). Master tier: telescope optical design (Ritchey-Chretien, three-mirror anastigmat), JWST sunshield and L2 thermal control, detector technologies (CCDs, H2RG, TES, MKID, SNSPD), radiometer equation and sensitivity, matched filtering and template banks (post-Newtonian, numerical relativity), LIGO noise budget (seismic, thermal, shot, radiation pressure) and squeezing, LISA mission design, pulsar timing arrays (NANOGrav/EPTA/PPTA/IPTA) and stochastic background, EHT black-hole shadows (M87*, Sgr A*), future missions (Roman, Habitable Worlds Observatory/LUVOIR/HabEx, Lynx, ARIEL, THESEUS), time-domain pipelines (ZTF, Rubin/LSST, alert brokers), virtual observatory. No Lean formalisation; human-review-only at all tiers.
+
+### astronomy.apollo-program
+
+- **title**: The Apollo program: the Cold War Moon race, the Saturn V, and the twelve Moonwalkers
+- **unit**: `28.06.04`
+- **prerequisites**: `astronomy.space-exploration-history-future` (28.06.01)
+- **tier_anchors**:
+  - master: Tsiolkovsky 1903; Goddard 1926; Sputnik 1957; Gagarin 1961; Kennedy 1961/1962 speeches; Apollo 1 1967 fire; Apollo 7-10 1968-69; Apollo 11 July 20 1969; Apollo 13 1970; Apollo 17 Dec 1972 (last landing); Apollo-Soyuz 1975; Artemis 2022+
+  - intermediate: Chaikin "A Man on the Moon" 1994; Logsdon "John F. Kennedy and the Race to the Moon" 2010
+  - beginner: popular accounts (e.g., Aldrin "Magnificent Desolation")
+- **notes**: Kennedy's May 1961 commitment and Rice Sept 1962 "we choose to go to the Moon" speech launched the program. Saturn V (von Braun's team, Marshall Space Flight Center): 110 m tall, 2,970 tons at liftoff, 5 F-1 engines producing 35 MN thrust. Lunar orbit rendezvous (Houbolt's choice). Missions: Apollo 1 (1967 fire killing Grissom-White-Chaffee); Apollo 7-10 (testing 1968-1969); Apollo 11 (July 20 1969 — Armstrong-Aldrin-Collins; 2.5 hours EVA, 21.5 kg samples, landed with ~25 sec fuel); Apollo 12 (precision landing near Surveyor 3); Apollo 13 (1970 oxygen tank explosion, heroic rescue, "Houston we've had a problem"); Apollo 14-17 (J-missions with lunar rover, extended stays, sophisticated science). 12 Moonwalkers total (Armstrong-Aldrin-Conrad-Bean-Shepard-Mitchell-Scott-Irwin-Young-Duke-Cernan-Schmitt). 382 kg lunar samples returned; ALSEP seismometers operated until 1977. Program cost ~$25B ($200B+ 2024 dollars), peaking at 4.4% of federal budget in 1966. Apollo 17 (Dec 1972) was the last crewed lunar landing. Artemis program (2022+, NASA) aims to return humans to the Moon ~2026+ via the Space Launch System and SpaceX Starship HLS.
 
 ### anthropology.anthropology-four-fields-holism
 
@@ -25706,3 +25741,14 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Yen-Jaffe "Reproductive Endocrinology"; Speroff-Fritz "Clinical Gynecologic Endocrinology and Infertility"
   - beginner: accessible reproductive-endocrinology texts
 - **notes**: The HPO axis: arcuate-nucleus GnRH pulse generator (~60-90 min pulses, Knobil 1970s) -> pituitary FSH/LH -> ovarian estradiol (follicular) + progesterone (luteal). Biphasic estradiol feedback: low/moderate = negative; sustained high (~300 pg/mL x 36 hr) = positive (LH surge, ovulation ~day 14). Follicular phase: FSH-driven follicular recruitment, dominant-follicle selection, estradiol rise. Luteal phase: corpus luteum secretes progesterone (10-20 ng/mL) maintaining secretory endometrium; regression ~14 days without HCG rescue. Knobil's pulsatile-GnRH discovery: continuous GnRH paradoxically suppresses (basis for GnRH agonists like leuprolide); pulsatile GnRH restores cycles in hypothalamic amenorrhea. Combined hormonal contraception mimics the luteal progesterone state. Clinical: PCOS (~10%), hypothalamic amenorrhea, POI, menopause (~51 yr mean).
+
+### inorganic-chemistry.mendeleev-periodic-table
+
+- **title**: Mendeleev's periodic table of 1869: prediction of eka-elements, the path to atomic-number ordering, and the modern table
+- **unit**: `16.01.04`
+- **prerequisites**: `inorganic-chemistry.periodic-trends-quantified`
+- **tier_anchors**:
+  - master: Döbereiner 1817 (triads); Newlands 1865 (octaves); Meyer 1864-1870; Mendeleev 1869 J. Russ. Chem. Soc. 1:60 and 1871 extended table; Lecoq 1875 (gallium); Nilson 1879 (scandium); Winkler 1886 (germanium); Moseley 1913 Phil. Mag.; Seaborg 1944 (actinides)
+  - intermediate: Scerri "The Periodic Table: Its Story and Its Significance" 2007; Gordin "A Well-Ordered Thing" 2004
+  - beginner: accessible chemistry-history books (Strathern "Mendeleev's Dream")
+- **notes**: Mendeleev's 1869 J. Russ. Chem. Soc. 1:60 paper organized ~60 known elements by atomic weight and chemical properties, identifying the periodic law. The 1871 extended table (8 groups × 12 periods) boldly predicted the existence and properties of "eka-elements" — gaps for unknown elements. The eka-element predictions were confirmed within 17 years: eka-aluminum = gallium (Lecoq de Boisbaudran 1875; predicted density 5.9, observed 5.94), eka-boron = scandium (Nilson 1879), eka-silicon = germanium (Winkler 1886; predicted atomic weight 72 density 5.5, observed 72.6 / 5.35 — the most striking confirmation). Mendeleev's success over Meyer (1864-1870, independent similar table) was the bold predictions and weight corrections. Moseley 1913 (Phil. Mag.) X-ray spectra established atomic number Z (proton count) as the correct ordering variable, resolving anomalies (Ar before K, Co before Ni, Te before I). Seaborg 1944 introduced the actinide concept. Modern table extends to element 118 (oganesson, synthesized 2002); the f-block holds the lanthanides and actinides separately. The periodic table is the foundational organizing structure of chemistry.
