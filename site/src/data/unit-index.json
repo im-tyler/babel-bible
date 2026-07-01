@@ -38406,6 +38406,28 @@
 ],
 "title": "Hair cell mechanotransduction and cochlear frequency tuning"
 },
+"18.13.03": {
+"area": "other",
+"books": [],
+"chapter": "sensory-systems",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "18.13.03",
+"prereqs": [
+"18.13.01"
+],
+"section": "organismal-bio",
+"slug": "chemosensation-taste-smell-buck-axel-olfactory-receptor-revolution",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Chemosensation: taste, smell, and the Buck-Axel olfactory receptor revolution"
+},
 "19.01.01": {
 "area": "other",
 "books": [],
@@ -40320,6 +40342,30 @@
 "master"
 ],
 "title": "Frege, Russell, and theories of reference"
+},
+"20.12.03": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "philosophy-of-language",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.12.03",
+"prereqs": [
+"20.12.01"
+],
+"section": "philosophy",
+"slug": "speech-act-theory-austin-searle-grice-words-do-things",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Speech act theory: Austin, Searle, Grice, and how words do things"
 },
 "20.13.01": {
 "area": "other",
@@ -48172,6 +48218,28 @@
 ],
 "title": "Cross-Cultural and Indigenous Psychology"
 },
+"29.12.02": {
+"area": "other",
+"books": [],
+"chapter": "cross-cultural-indigenous",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.12.02",
+"prereqs": [
+"29.12.01"
+],
+"section": "psychology",
+"slug": "cross-cultural-cognition-nisbett-geography-thought-east-asian-holistic-western-analytic",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cross-cultural cognition: Nisbett's geography of thought, East Asian holistic vs Western analytic reasoning"
+},
 "29.13.01": {
 "area": "other",
 "books": [
@@ -48340,6 +48408,28 @@
 "master"
 ],
 "title": "Industrial and organizational psychology \u2014 work, selection, and motivation"
+},
+"29.15.02": {
+"area": "other",
+"books": [],
+"chapter": "industrial-organizational-psych",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.15.02",
+"prereqs": [
+"29.15.01"
+],
+"section": "psychology",
+"slug": "personnel-selection-validity-generalization-schmidt-hunter-meta-analysis-hiring",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Personnel selection and validity generalization: Schmidt-Hunter meta-analysis and the science of hiring"
 },
 "30.01.01": {
 "area": "other",
