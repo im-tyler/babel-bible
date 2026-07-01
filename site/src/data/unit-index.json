@@ -48246,6 +48246,28 @@
 ],
 "title": "Item response theory and the Rasch model: latent-trait measurement"
 },
+"29.13.04": {
+"area": "other",
+"books": [],
+"chapter": "psychometrics",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.13.04",
+"prereqs": [
+"29.13.01"
+],
+"section": "psychology",
+"slug": "intelligence-testing-history-binet-spearman-flynn-effect-iq-controversy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Intelligence testing history: Binet-Simon 1905, Spearman's g, the Flynn effect, and the controversy over IQ"
+},
 "29.14.01": {
 "area": "other",
 "books": [
@@ -51385,6 +51407,28 @@
 ],
 "title": "Dramatic structure \u2014 from Aristotle to Brecht and Beckett"
 },
+"34.09.03": {
+"area": "other",
+"books": [],
+"chapter": "theater-drama",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "34.09.03",
+"prereqs": [
+"34.09.01"
+],
+"section": "music-art",
+"slug": "greek-tragedy-comedy-aeschylus-sophocles-euripides-aristophanes-dionysia",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Greek tragedy and comedy: Aeschylus, Sophocles, Euripides, and Aristophanes at the Dionysia"
+},
 "34.10.01": {
 "area": "other",
 "books": [
@@ -52212,6 +52256,50 @@
 "master"
 ],
 "title": "Surgery and emergency medicine"
+},
+"35.10.02": {
+"area": "other",
+"books": [],
+"chapter": "surgery-emergency-medicine",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.10.02",
+"prereqs": [
+"35.10.01"
+],
+"section": "health-medicine",
+"slug": "cardiopulmonary-bypass-heart-lung-machine-gibbon-bigelow-open-heart-surgery",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Cardiopulmonary bypass and the heart-lung machine: Gibbon's decades-long quest, Bigelow's hypothermia, and the open-heart-surgery revolution"
+},
+"35.10.03": {
+"area": "other",
+"books": [],
+"chapter": "surgery-emergency-medicine",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "35.10.03",
+"prereqs": [
+"35.10.01"
+],
+"section": "health-medicine",
+"slug": "organ-transplantation-hla-matching-rejection-immunology-murray-calne-nobel",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Organ transplantation: HLA matching, rejection immunology, and the Murray-Calne Nobel revolution"
 },
 "36.01.01": {
 "area": "other",

@@ -25328,6 +25328,18 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **notes**: The latent-trait measurement framework that replaces test-level reliability with item-level modelling. Covers the latent trait theta, the 1PL/Rasch model P(theta) = exp(theta-b)/(1+exp(theta-b)) and its specific objectivity, the 2PL with discrimination and the 3PL with guessing, item characteristic curves, Fisher item information and test information with standard error SE = 1/sqrt(T(theta)), joint/marginal/EM estimation, differential item functioning (Mantel-Haenszel and likelihood-ratio tests), and applications to computerised adaptive testing and GRE/SAT scaling.
 
 
+### psychology.intelligence-testing-history
+
+- **title**: Intelligence testing history: Binet-Simon 1905, Spearman's g, the Flynn effect, and the controversy over IQ
+- **unit**: `29.13.04`
+- **prerequisites**: `psychology.psychometrics-survey`
+- **tier_anchors**:
+  - master: Galton 1869 "Hereditary Genius"; Binet-Simon 1905 L'Année Psychol.; Stern 1912 (IQ formula); Terman 1916 Stanford-Binet; Yerkes 1917-1921 (Army Alpha/Beta); Spearman 1904 Am. J. Psychol. (g); Thurstone 1938 Primary Mental Abilities; Wechsler 1939 (WAIS/WISC); Jensen 1969 Harv. Educ. Rev.; Flynn 1984 Psych. Bull.; Herrnstein-Murray 1994 "Bell Curve"; Gardner 1983 multiple intelligences; Sternberg 1985 triarchic; Carroll 1993 three-stratum; Nisbett 2009
+  - intermediate: Mackintosh "IQ and Human Intelligence"; Hunt "Human Intelligence"
+  - beginner: accessible accounts (e.g., Stephen Murdoch "IQ: A Smart History of a Failed Idea")
+- **notes**: Binet-Simon 1905 (designed to identify Paris schoolchildren needing extra help; Binet explicitly rejected innate-intelligence interpretation). Stern 1912 IQ = (mental age / chronological age) x 100. Terman 1916 Stanford-Binet (American adaptation; popularised IQ for sorting). Yerkes 1917-21 Army Alpha/Beta (1.7M WWI recruits; flawed but influential; fueled the 1924 Immigration Restriction Act). Spearman 1904 g factor via factor analysis (the single best predictor of academic/occupational performance). Thurstone 1938 Primary Mental Abilities (alternative to g). Wechsler 1939 deviation IQ (mean 100, SD 15; WAIS for adults, WISC for children). Heritability: twin studies (Burt, Bouchard MISTRA) show ~0.5-0.8 in adults; the Burt fraud controversy. Jensen 1969 ignited the heritability debate. Flynn effect (Flynn 1984 Psych. Bull.): IQ rose ~3 points/decade across 20th century in developed countries (~30 points total; greater than any contemporary group gap); cannot be genetic; causes environmental (nutrition, education, cognitive complexity); recent reversals in some Nordic countries. Group differences: Herrnstein-Murray 1994 "Bell Curve" controversy; consensus: heavily environmental (Nisbett 2009); no evidence for genetic racial differences. Gardner 1983 multiple intelligences (popular but psychometrically contested); Sternberg 1985 triarchic (analytical/creative/practical); Cattell-Horn-Carroll (CHC) hierarchical model. g is the most robust psychometric finding; IQ predicts academic/occupational success ~0.5.
+
+
 ### music-art.generative-art-creative-coding
 - **title**: Generative art and creative coding: algorithms as aesthetic medium
 - **unit**: `34.08.02`
@@ -25912,6 +25924,18 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
 - **notes**: Bloch 1946 Phys. Rev. 70:460: dM/dt = gamma M x B - (M_x x-hat + M_y y-hat)/T2 - (M_z - M_0) z-hat/T1; describes Larmor precession (omega = gamma B; gamma = 42.58 MHz/T for H-1), T1 longitudinal (spin-lattice) recovery to M_0, T2 transverse (spin-spin) decay. Tissue-dependent T1/T2 generate image contrast (CSF long T1/T2 ~4000/2000 ms; fat short ~250/80 ms; gray matter ~1000/100; white matter ~800/80). T1-weighted (short TR/TE) highlights fat; T2-weighted (long TR/TE) highlights water (edema, pathology). Spatial encoding via gradients: slice selection (z-gradient + frequency-selective RF pulse), frequency encoding (x-gradient), phase encoding (y-gradient). k-space framework: raw data is 2D FT of the image; inverse FT reconstructs. Lauterbur 1973 Nature 242:190 first MR image (back-projection); Mansfield 1977 J. Phys. C 10:L55 EPI (single-shot; basis of fMRI); Edelstein-Hutchison 1980 spin-warp (clinical standard). Le Bihan 1986 diffusion MRI (DTI for white-matter tracts). Ogawa 1990 PNAS BOLD contrast (deoxyhemoglobin paramagnetic); Kwong 1992 PNAS first human fMRI. ~50M MRI scans annually; no ionizing radiation; contraindications: ferromagnetic implants. Gadolinium contrast risk: NSF in renal failure.
 
 
+### medicine.cardiopulmonary-bypass-heart-lung-machine
+
+- **title**: Cardiopulmonary bypass and the heart-lung machine: Gibbon's decades-long quest, Bigelow's hypothermia, and the open-heart-surgery revolution
+- **unit**: `35.10.02`
+- **prerequisites**: `medicine.surgery-emergency-survey`
+- **tier_anchors**:
+  - master: Le Gallois 1812 (theoretical); von Schröder 1882 (bubble oxygenator); Gibbon 1931-1953 (May 6, 1953 first successful open-heart surgery, ASD repair on Cecilia Bavolek); Bigelow 1950 (hypothermia); Lillehei-DeWall 1955 (bubble oxygenator, cross-circulation); Kirklin 1955 (Mayo series); Barnard 1967 (first heart transplant)
+  - intermediate: Kirklin-Barratt-Boyes "Cardiac Surgery" textbook; Cohn "Cardiac Surgery in the Adult"
+  - beginner: accessible accounts (e.g., Miller "King of Hearts")
+- **notes**: Gibbon 1931-1953 (23-year development of the heart-lung machine; first successful human open-heart surgery May 6, 1953, on Cecilia Bavolek, ASD repair, 26 min on CPB; she lived 47 more years). Bigelow 1950 concurrent hypothermia approach (cooling body to 28-32 C reduces metabolic rate ~50%). Lillehei-DeWall 1955 (simpler bubble oxygenator); controlled cross-circulation between parent and child (1954-55). Modern CPB circuit: venous cannula -> reservoir -> roller/centrifugal pump -> membrane oxygenator -> heat exchanger -> arterial filter -> arterial cannula. Systemic heparinization (3-400 U/kg) + protamine reversal. Cardioplegia (potassium-based depolarizing solution) arrests the heart. Hypothermia (28-32 C standard; 18 C deep hypothermia for aortic-arch circulatory arrest). Systemic inflammatory response (SIRS) from blood-artificial surface contact. Complications: stroke (~1-5%), renal failure (~5%), cognitive decline (milder than originally claimed). Modern: off-pump CABG, ECMO (prolonged support for ARDS/COVID), TAVR (no CPB needed), LVAD (destination therapy).
+
+
 ### dance-history.petipa-imperial-russian-ballet
 
 - **title**: Petipa and the Imperial Russian ballet: classical ballet, Sleeping Beauty, and the 19th-century synthesis
@@ -25934,3 +25958,27 @@ Large-scale unconstrained optimization (Nocedal-Wright ch. 7). Limited-memory BF
   - intermediate: Olson 1997 "The Human Animal"; Schechtman "The Constitution of Selves" 1996; Parfit "On What Matters" 2011
   - beginner: Parfit "Reasons and Persons" accessible chapters; popular accounts (e.g., Edmonds "Would You Kill the Fat Man?")
 - **notes**: Locke 1694 Essay 2.27: personal identity = sameness of consciousness (memory). Butler 1736 circularity objection (memory presupposes identity). Reid 1785 gallant officer / transitivity failure. Hume 1739 bundle theory. Shoemaker 1963 modern psychological-continuity view (memory + character + intentions) plus quasi-memory to escape Butler's circularity. Williams 1970 "The Self and the Future" bodily vs psychological continuity thought experiments. Lewis 1976 counterpart theory (survival vs identity; survival comes in degrees, identity does not). Parfit 1984 "Reasons and Persons" canonical reductionism: (a) personal identity consists in psychological continuity (relation R); (b) R can take any cause (no special metaphysical fact); (c) identity is not what matters — what matters is R; in fission, identity ceases but R is preserved. The fission thought experiment: split brain into two halves, each transplanted into a different body; both survivors have your memories; identity view says both = you (impossible); Parfit says neither = you, but R preserved. Implications: less fear of death, more concern for others, more rational view of prudence. Animalism (Olson 1997): we ARE biological human animals; psychological views wrong; biological continuity matters. Narrative identity (Schechtman 1996/2014): identity = self-told story. Empirical turn: Metzinger, Blanke on neuroscience of self.
+
+
+### medicine.organ-transplantation
+
+- **title**: Organ transplantation: HLA matching, rejection immunology, and the Murray-Calne Nobel revolution
+- **unit**: `35.10.03`
+- **prerequisites**: `health.surgery-emergency-survey`
+- **tier_anchors**:
+  - master: Carrel 1902 (1912 Nobel); Medawar 1944 (1960 Nobel); Dauset-Snell-Benacerraf 1980 Nobel (HLA); Murray 1954 (1990 Nobel, first successful kidney transplant); Calne 1960s (azathioprine); Borel 1972 (cyclosporine); Starzl 1963 (liver); Barnard 1967 (heart); Edmonton Protocol 2000 (islet); Maryland 2022 (pig-heart xenograft)
+  - intermediate: Morris-Knechtle "Kidney Transplantation"; Starzl "The Puzzle People"
+  - beginner: accessible accounts (e.g., Starzl memoir)
+- **notes**: Carrel 1902 (vascular anastomosis, 1912 Nobel). Medawar 1944 (skin-graft rejection is immunological, 1960 Nobel). HLA system (Dauset-Snell-Benacerraf 1980 Nobel): class I (A, B, C; CD8), class II (DR, DQ, DP; CD4); >10,000 alleles, most polymorphic human genes. Murray Dec 23, 1954 (first successful kidney transplant between identical twins Ronald -> Richard Herrick; Peter Bent Brigham Hospital; no rejection; Richard lived 8 more years; Murray 1990 Nobel). Calne 1960s azathioprine (6-mercaptopurine for rejection prophylaxis). Borel 1972 cyclosporine (Tolypocladium inflatum; first selective T-cell inhibitor). Modern immunosuppression: calcineurin inhibitors (cyclosporine, tacrolimus) block NFAT -> IL-2 transcription -> T-cell activation blocked; mTOR inhibitors (sirolimus); antimetabolites (mycophenolate); biologics (basiliximab, alemtuzumab). Rejection types: hyperacute (minutes-hours, preformed antibodies), acute (days-weeks, T-cell mediated), chronic (months-years, multifactorial). Major transplants: kidney (~22,000/yr US, 5-yr ~85%), liver (Starzl 1963, ~9,000/yr, ~75%), heart (Barnard 1967, ~2,500/yr, ~80%), lung (Cooper 1983, ~2,000/yr, ~55%). Donor-organ shortage: ~100,000 US waiting list; ~17 die daily waiting. Xenotransplantation: pig organs (alpha-Gal knockout); 2022 Maryland pig-heart (2-month survival). Tolerance induction via mixed chimerism: achieved in some kidney patients.
+
+
+### theater-drama.greek-tragedy-comedy
+
+- **title**: Greek tragedy and comedy: Aeschylus, Sophocles, Euripides, and Aristophanes at the Dionysia
+- **unit**: `34.09.03`
+- **prerequisites**: `music-art.theater-drama`
+- **tier_anchors**:
+  - master: Thespis ~534 BCE; Aeschylus (Persians 472, Oresteia 458 BCE); Sophocles (Antigone ~441, Oedipus Rex ~429, Oedipus at Colonus 401 BCE); Euripides (Medea 431, Trojan Women 415, Bacchae 405 BCE); Aristophanes (Clouds 423, Lysistrata 411, Frogs 405 BCE); Aristotle Poetics ~335 BCE
+  - intermediate: Goldhill "Reading Greek Tragedy" 1986; Easterling "The Cambridge Companion to Greek Tragedy"; Henderson "Aristophanes" Loeb editions
+  - beginner: accessible translations (Fagles, Lattimore); H.D.F. Kitto "Greek Tragedy"
+- **notes**: The City Dionysia (~534 BCE under Pisistratus; Athens's main dramatic festival); the choregos (wealthy citizen funded the chorus as a liturgy); the archon selected 3 competing poets. Conventions: chorus (12-15 men for tragedy, 24 for comedy), 1-3 masked male actors (all roles), skene backdrop, orchestra dancing circle, ekkyklema (interior-scene platform), mechane (deus ex machina crane). Structure: prologue-parodos-episode-stasimon-exodos. Aeschylus (~525-456): Persians 472 (the only contemporary-subject tragedy), Seven Against Thebes 467, Oresteia 458 (Agamemnon, Libation Bearers, Eumenides; trajectory from blood-feud to civic justice via Athena's trial). Sophocles (~496-406): 7 surviving plays including Antigone ~441, Oedipus Rex ~429, Oedipus at Colonus 401; the Sophoclean hero with hamartia. Euripides (~480-406): Medea 431, Hippolytus 428, Trojan Women 415 (anti-war after Melian massacre), Bacchae 405; psychologically realistic characters. Aristophanes (~446-386): Old Comedy, political satire, parabasis; Lysistrata 411, Clouds 423, Frogs 405. Aristotle Poetics ~335 BCE: mimesis, peripeteia (reversal), anagnorisis (recognition), catharsis (purging of pity and fear), hamartia (tragic flaw / missing the mark). Modern reinventions: Anouilh Antigone 1944, Sartre Les Mouches 1943, Brecht 1948, Soyinka Bacchae 1973, Walcott Omeros 1990.
