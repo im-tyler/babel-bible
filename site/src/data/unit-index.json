@@ -35791,6 +35791,28 @@
 ],
 "title": "Stability of coordination complexes: thermodynamic and kinetic stability, the chelate effect"
 },
+"16.04.05": {
+"area": "other",
+"books": [],
+"chapter": "coordination",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "16.04.05",
+"prereqs": [
+"16.04.01"
+],
+"section": "inorgchem",
+"slug": "werner-coordination-chemistry-octahedral-isomerism-1893",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Alfred Werner and the foundation of coordination chemistry: octahedral geometry, isomerism, and the 1893 coordination theory"
+},
 "16.05.01": {
 "area": "other",
 "books": [],
@@ -45842,6 +45864,28 @@
 ],
 "title": "Ocean chemistry: salinity, carbonate system, ocean acidification"
 },
+"27.05.04": {
+"area": "other",
+"books": [],
+"chapter": "oceanography",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "27.05.04",
+"prereqs": [
+"27.05.01"
+],
+"section": "earth-science",
+"slug": "biological-pump-marine-snow-ocean-carbon-cycle-climate-regulation",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The biological pump: marine snow, the ocean carbon cycle, and climate regulation"
+},
 "27.06.01": {
 "area": "other",
 "books": [],
@@ -46613,6 +46657,28 @@
 "master"
 ],
 "title": "Exoplanet demographics: occurrence rates, habitability zone, atmospheric characterization"
+},
+"28.05.04": {
+"area": "other",
+"books": [],
+"chapter": "exoplanets",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "28.05.04",
+"prereqs": [
+"28.05.01"
+],
+"section": "astronomy",
+"slug": "exoplanet-atmospheres-transmission-spectroscopy-habitable-zone-biosignatures",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Exoplanet atmospheres: transmission spectroscopy, the habitable zone, and the search for biosignatures"
 },
 "28.06.01": {
 "area": "other",
@@ -47794,6 +47860,28 @@
 "master"
 ],
 "title": "Biological treatments: pharmacotherapy mechanisms, ECT, TMS, psychedelic-assisted therapy"
+},
+"29.10.04": {
+"area": "other",
+"books": [],
+"chapter": "therapy-treatment",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.10.04",
+"prereqs": [
+"29.10.01"
+],
+"section": "psychology",
+"slug": "psychodynamic-psychotherapy-freud-jung-object-relations-transference-therapeutic-alliance",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Psychodynamic psychotherapy: Freud, Jung, and the object-relations tradition; transference, interpretation, and the therapeutic alliance"
 },
 "29.11.01": {
 "area": "other",

@@ -9823,6 +9823,10 @@
 "books": [],
 "curriculum": "inorgchem"
 },
+"16.04.05": {
+"books": [],
+"curriculum": "other"
+},
 "16.05.01": {
 "books": [],
 "curriculum": "other"
@@ -11847,6 +11851,10 @@
 "books": [],
 "curriculum": "earth-science"
 },
+"27.05.04": {
+"books": [],
+"curriculum": "other"
+},
 "27.06.01": {
 "books": [],
 "curriculum": "other"
@@ -11996,6 +12004,10 @@
 "28.05.03": {
 "books": [],
 "curriculum": "astronomy"
+},
+"28.05.04": {
+"books": [],
+"curriculum": "other"
 },
 "28.06.01": {
 "books": [],
@@ -12220,6 +12232,10 @@
 "29.10.03": {
 "books": [],
 "curriculum": "psychology"
+},
+"29.10.04": {
+"books": [],
+"curriculum": "other"
 },
 "29.11.01": {
 "books": [],
