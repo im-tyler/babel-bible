@@ -20,8 +20,25 @@ companion site (built with Neutron, deployed via Teploy) lives at babelbible.org
 2. **`docs/plans/AGENT_PRODUCTION_PLAYBOOK.md`** — self-contained recipe for
    producing one unit to 27/27 first-pass. Read top-to-bottom before writing any
    content.
-3. **`SESSION_NOTES.md`** — current state and next actions. Where things stand
-   right now.
+3. **Current state** — the "Current state" section below (the old session-journal
+   `SESSION_NOTES.md` was consolidated here and retired on public release).
+
+## Current state
+
+- **Curriculum:** ~2,559 units across 50 sections (~360 chapters); every produced unit passes the 27-check validator (`validate_all` 68,987/68,987).
+- **Site:** live at babelbible.org (Neutron + Vite, deployed via Teploy to an OVH VPS).
+- **Production status:** the Tier A/B/C campaign (math spines 1–12 + Tier C non-math gap-fills) is **complete**. Remaining work is discretionary depth/curation — the live queue lives in `plans/expansion/FINALIZATION_PLAN.md` (status table §2) and `plans/expansion/DEPTH_QUALITY_AUDIT.md` §8.
+- **Known quality gap:** ~98% of units cite via `TODO_REF` placeholders. Resolution path: acquire the ~13 highest-leverage sources in `docs/catalogs/NEED_TO_SOURCE.md` (Tyler-gated), then run a citation-resolution pass.
+- **Framework note:** a Neutron build OOM was fixed via lazy markdown rendering (branch `fix/content-lazy-render-oom` in the Neutron repo, commits `0acf360` + `1206c7a`; not yet merged to Neutron `main` — merge before relying on it elsewhere). Heap fell from ~12.3 GB peak to ~1.3 GB.
+
+## Public repo
+
+This repository is **public** and mirrored to GitHub at https://github.com/im-tyler/babel-bible.
+Treat all work as public-facing. Do not commit transient session/handoff/local
+context (`SESSION_NOTES.md`, `*_NOTES.md`, `HANDOFF*.md`, `.claude/settings.local.json`,
+secrets) — they are gitignored as a safety net, but don't create them in the first
+place. Substantive design/planning docs (`OVERVIEW.md`, `docs/`, `plans/`) are
+intentional public context — keep them.
 
 ## Reference layer (consult as needed, don't read cover-to-cover)
 
