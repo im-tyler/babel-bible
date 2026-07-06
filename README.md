@@ -4,43 +4,43 @@ A self-study curriculum spanning the sciences and humanities. Math, physics, che
 
 - **Beginner** — intuition, visuals, worked examples.
 - **Intermediate** — formal definitions, proofs, exercises.
-- **Master** — graduate-level depth with primary-source citations and Lean formalisation status where Mathlib covers.
+- **Master** — graduate-level depth with primary-source citations and Lean formalisation where Mathlib covers.
 
-**Status:** Live at <https://babelbible.org>. ~2,400 units across 50 sections. Continuously expanded by an autonomous production pipeline against a 27-point quality rubric.
+![License: MIT](https://img.shields.io/badge/code-MIT-blue)
+![Content: CC-BY-SA](https://img.shields.io/badge/content-CC--BY--SA-green)
+![Lean 4](https://img.shields.io/badge/formalization-Lean_4-ff8c0d)
+![Status](https://img.shields.io/badge/status-live-brightgreen)
+
+**Live at <https://babelbible.org>** — ~2,559 units across 50 sections (~360 chapters), every produced unit passing a 27-point automated rubric.
 
 **Codename:** the Lean formalisation library and internal docs still use the codename `Codex`. Babel Bible is the product name.
 
 ## Layout
 
 ```
-B.I.B.L.E/
-├── README.md                          ← you are here
-├── AGENTS.md                          ← agent entry point (doc map + reading order)
-├── OVERVIEW.md                        ← project orientation (load-bearing doc)
-├── content/                           ← produced curriculum units (~2,400, growing)
-│   ├── 00-precalc/  …  21-number-theory/    ← math (~580 units)
-│   ├── 09-classical-mech/  …  13-gr-cosmology/   ← physics (~55 units)
-│   ├── 14-genchem-pchem/  …  16-inorgchem/   ← chemistry (~32 units)
-│   ├── 17-mol-cell-bio/  …  19-eco-evo-bio/   ← biology (~40 units)
-│   ├── 20-philosophy/   ← philosophy (~7 units)
-│   ├── 22-language/     ← grammar / writing / literature (~50 units)
-│   └── 23-world/        ← economics / civics / geography (~57 units)
-├── lean/                              ← Lean 4 project (library = `Codex`)
-├── site/                              ← Neutron-based site (deploys to babelbible.org)
-├── docs/                              ← specs, plans, catalogs
-├── manifests/                         ← per-unit state, deps, campaign log
-├── plans/fasttrack/                   ← per-book Fast Track equivalence plans
-├── reference/                         ← local archive of external sources (gitignored)
-└── scripts/                           ← validators + content tooling
+babel-bible/
+├── README.md                 ← you are here
+├── AGENTS.md                 ← agent + contributor entry point
+├── OVERVIEW.md               ← the load-bearing project doc
+├── content/                  ← curriculum units (~2,559 markdown files, 50 sections)
+├── lean/                     ← Lean 4 formalisation (library root: `Codex.*`)
+├── site/                     ← Neutron-based site → babelbible.org
+├── docs/                     ← specs, briefs, catalogs, plans
+├── plans/                    ← expansion state, audits, finalization queue
+├── manifests/                ← per-unit state, dependency DAG, campaign log
+├── lenses/                   ← lens/filter system (curriculum views)
+├── _meta/, style/            ← notation + editorial voice
+├── scripts/                  ← validators + content tooling
+└── reference/                ← local archive of external sources (gitignored)
 ```
 
 ## Pipeline
 
 1. **Spec** (`docs/specs/UNIT_SPEC.md`) declares the unit format and rubric.
 2. **Produce** — content agents draft units that pass the 27-point automated rubric (`scripts/validate_unit.py`).
-3. **Integrate** — cross-refs validated at build time; broken refs fail the build.
+3. **Integrate** — cross-references validated at build time; broken refs fail the build.
 4. **Site** — Neutron generates static HTML; deployed to OVH via Teploy.
-5. **Audit** — Fast Track books mapped per-unit; per-book audits in `manifests/`.
+5. **Audit** — per-section coverage/gap audits under `plans/expansion/`.
 
 ## Three tiers
 
@@ -52,13 +52,19 @@ The Lean 4 library lives in `lean/` (module root: `Codex.*`). Each Master-tier u
 
 ## Site
 
-Built with [Neutron](https://neutron.build) — single static-site target served by Caddy. Local dev: `cd site && npm run dev`. Production build: `npm run build && neutron-ts preview` to verify locally; deploy with `teploy deploy` (config in `site/teploy.yml`).
+Built with [Neutron](https://neutron.build) — single static-site target served by Caddy. Local dev: `cd site && npm run dev`. Production: `npm run build`, deploy with `teploy deploy` (config in `site/teploy.yml`).
 
 ## Next-step references
 
-- `AGENTS.md` — agent entry point: full doc map and reading order.
+- `AGENTS.md` — entry point: full doc map and reading order (includes a consolidated **Current state** section).
 - `OVERVIEW.md` — the canonical project doc; read this when in doubt.
 - `docs/specs/UNIT_SPEC.md` — the unit format.
 - `docs/specs/QUALITY_RUBRIC.md` — the 27-point automated checks.
-- `docs/plans/AGENT_PRODUCTION_PLAYBOOK.md` — how an agent produces the next unit.
-- `plans/expansion/BACKLOG.md` — what to produce next.
+- `plans/expansion/FINALIZATION_PLAN.md` — the live production queue.
+
+## License
+
+Dual-licensed:
+
+- **Code** (`lean/`, `scripts/`, `site/`) — MIT, see [LICENSE](LICENSE).
+- **Curriculum content** (`content/`) — Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA-4.0), see [LICENSE-content.md](LICENSE-content.md).
