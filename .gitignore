@@ -46,3 +46,11 @@ lake-packages/
 
 # REFERENCE — vendored upstream textbooks/papers (1G, not your work)
 reference/
+
+# --- transient agent/session context: never publish ---
+SESSION_NOTES.md
+*_NOTES.md
+HANDOFF*.md
+CONTINUATION_PROMPT.md
+*_NEXT_SESSION.md
+.opencode/
