@@ -150,7 +150,7 @@ export default function RootLayout({ children }: { children: any }) {
                   <a class="footer-credit__name" href="https://neutron.build" target="_blank" rel="noopener noreferrer">Neutron</a>
                 </div>
                 <div class="footer-credit">
-                  <span class="footer-credit__label">Deployed with</span>
+                  <span class="footer-credit__label">Deployed on</span>
                   <a class="footer-credit__name" href="https://teploy.com" target="_blank" rel="noopener noreferrer">Teploy</a>
                 </div>
               </div>
