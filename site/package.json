@@ -11,8 +11,8 @@
     "preview": "neutron-ts preview"
   },
   "dependencies": {
-    "@neutron-build/core": "file:../../Neutron/typescript/packages/neutron",
-    "@neutron-build/cli": "file:../../Neutron/typescript/packages/neutron-cli",
+    "@neutron-build/core": "^0.2.2",
+    "@neutron-build/cli": "^0.2.3",
     "preact": "10.25.4",
     "remark-math": "^6.0.0",
     "rehype-katex": "^7.0.1",
