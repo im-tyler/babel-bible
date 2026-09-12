@@ -6,8 +6,9 @@
 //
 // Both are inline-level extensions. They do not interact with each other
 // or with KaTeX (they require literal square brackets in markdown text).
-// The unit-id matcher is restricted to the canonical \d{2}\.\d{2}\.\d{2}
-// pattern so it does not collide with ordinary markdown link references.
+// The unit-id matcher is restricted to the canonical id grammar
+// (\d{2}\.\d{2}\.\d{2}, \d{2}\.\d{2}\.E\d+, \d{2}\.essays\.\d{2}) so it
+// does not collide with ordinary markdown link references.
 
 import type { TokenizerExtension, RendererExtension } from "marked";
 import { Marked } from "marked";
@@ -131,14 +132,18 @@ const refRenderer: RendererExtension = {
 // ---------------------------------------------------------------------------
 // [<section>.<chapter>.<ordinal>]  — bare unit-id reference
 // ---------------------------------------------------------------------------
+// Full canonical unit-id grammar: NN.NN.NN units, NN.NN.EN exercise packs,
+// NN.essays.NN essays. The match stays anchored to the bracketed id so
+// arbitrary bracket text never links; malformed ids still do not link.
 
-const UNIT_ID_RE = /^\[(\d{2}\.\d{2}\.\d{2})\]/;
+const UNIT_ID_RE = /^\[(\d{2}\.(?:\d{2}\.\d{2}|\d{2}\.E\d+|essays\.\d{2}))\]/;
+const UNIT_ID_START_RE = /\[\d{2}\.(?:\d{2}\.\d{2}|\d{2}\.E\d+|essays\.\d{2})\]/;
 
 const unitRefTokenizer: TokenizerExtension = {
   name: "codexUnitRef",
   level: "inline",
   start(src: string) {
-    const m = src.match(/\[\d{2}\.\d{2}\.\d{2}\]/);
+    const m = src.match(UNIT_ID_START_RE);
     return m ? src.indexOf(m[0]) : undefined;
   },
   tokenizer(src: string) {
