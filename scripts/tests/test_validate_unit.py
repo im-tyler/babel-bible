@@ -30,14 +30,16 @@ class IdFormatTest(unittest.TestCase):
     def test_valid_ids_pass(self):
         self.assertTrue(run_check({"id": "00.01.01"}))
         self.assertTrue(run_check({"id": "29.13.02"}))
-        self.assertTrue(run_check({"id": "23.essays.08"}))  # essay grammar
+        self.assertTrue(run_check({"id": "23.essays.08"}))   # essay grammar
+        self.assertTrue(run_check({"id": "00.01.E1"}))       # exercise-pack
+        self.assertTrue(run_check({"id": "06.01.E2"}))       # grammar
 
     def test_invalid_ids_fail(self):
         self.assertFalse(run_check({"id": "0.1.1"}))
         self.assertFalse(run_check({"id": "abc"}))
         self.assertFalse(run_check({"id": "00.01.01-extra"}))
-        self.assertFalse(run_check({"id": "00.01.E1"}))  # exercise ids are
-        # not unit ids; they fail the unit grammar (site-only companions)
+        self.assertFalse(run_check({"id": "00.01.e1"}))  # lowercase E fails
+        self.assertFalse(run_check({"id": "00.01.X1"}))
 
 
 class CatalogMembershipTest(unittest.TestCase):

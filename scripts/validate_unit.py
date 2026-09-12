@@ -51,6 +51,7 @@ VALID_TIERS = {"beginner", "intermediate", "master"}
 
 UNIT_ID_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}$")
 ESSAY_ID_RE = re.compile(r"^\d{2}\.essays\.\d{2}$")
+EXERCISE_ID_RE = re.compile(r"^\d{2}\.\d{2}\.E\d+$")
 
 DOMAIN_BY_PREFIX = {
     "00": "math", "01": "math", "02": "math", "03": "math",
@@ -266,9 +267,10 @@ def check_frontmatter_schema(report: ValidationReport):
 
 def check_id_format(report: ValidationReport):
     uid = str(report.frontmatter.get("id", ""))
-    ok = bool(UNIT_ID_RE.fullmatch(uid) or ESSAY_ID_RE.fullmatch(uid))
+    ok = bool(UNIT_ID_RE.fullmatch(uid) or ESSAY_ID_RE.fullmatch(uid)
+              or EXERCISE_ID_RE.fullmatch(uid))
     report.add(
-        "id matches NN.NN.NN (or NN.essays.NN) format",
+        "id matches NN.NN.NN / NN.essays.NN / NN.NN.EN format",
         ok,
         detail=f"got {uid!r}",
     )
