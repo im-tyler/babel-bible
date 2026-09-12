@@ -49,6 +49,11 @@ future Mathlib formulation this would be `sheafCohomology X q
 non-trivial; the theorem says it is the zero module. -/
 def HodgeCohomologyTwist (X : Type*) (L : Type*) (p q : ℕ) : Type := PUnit
 
+/-- Schematic zero of the placeholder cohomology group: the element that
+the vanishing theorems assert to be its only element. -/
+def HodgeCohomologyTwist.zero {X : Type*} {L : Type*} {p q : ℕ} :
+    HodgeCohomologyTwist X L p q := PUnit.unit
+
 /-- The Akizuki-Nakano vanishing theorem (statement only).
 
 On a smooth projective complex variety `X` of complex dimension `n`,
@@ -65,7 +70,7 @@ theorem akizuki_nakano_vanishing
     (hX : SmoothProjectiveComplexOfDim X n)
     (hL : IsAmpleLineBundle (X := X) L)
     (hpq : p + q > n) :
-    Nonempty (HodgeCohomologyTwist X L p q → PUnit) := by
+    ∀ x : HodgeCohomologyTwist X L p q, x = HodgeCohomologyTwist.zero := by
   -- Proof outline:
   --   (1) Hodge harmonic representation of every class.
   --   (2) Bochner-Kodaira-Nakano identity
@@ -81,7 +86,7 @@ theorem akizuki_nakano_vanishing
   --   * The pointwise positivity computation in a unitary frame
   --     diagonalising the curvature.
   -- None of these are currently in Mathlib.
-  exact ⟨fun _ => PUnit.unit⟩
+  sorry
 
 /-!
 ## Comparison with Kodaira vanishing
@@ -99,7 +104,7 @@ theorem akizuki_nakano_specialises_to_kodaira
     (hX : SmoothProjectiveComplexOfDim X n)
     (hL : IsAmpleLineBundle (X := X) L)
     (hq : q > 0) :
-    Nonempty (HodgeCohomologyTwist X L n q → PUnit) := by
+    ∀ x : HodgeCohomologyTwist X L n q, x = HodgeCohomologyTwist.zero := by
   -- For p = n we have p + q = n + q > n iff q > 0; apply Akizuki-Nakano.
   have hpq : n + q > n := by
     have := hq
@@ -127,9 +132,10 @@ theorem akizuki_nakano_serre_dual
     (hX : SmoothProjectiveComplexOfDim X n)
     (hL : IsAmpleLineBundle (X := X) L)
     (hij : i + j < n) :
-    Nonempty (HodgeCohomologyTwist X (InverseLineBundle L) i j → PUnit) := by
+    ∀ x : HodgeCohomologyTwist X (InverseLineBundle L) i j,
+      x = HodgeCohomologyTwist.zero := by
   -- Apply Akizuki-Nakano with (p, q) = (n - i, n - j); the condition
   -- p + q > n becomes (n - i) + (n - j) > n, i.e., i + j < n.
-  exact ⟨fun _ => PUnit.unit⟩
+  sorry
 
 end Codex.AlgGeom.Hodge
