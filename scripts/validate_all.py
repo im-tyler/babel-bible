@@ -21,6 +21,7 @@ never prints "Ready to ship."
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import shutil
 import subprocess
@@ -272,6 +273,27 @@ def check_duplicate_unit_ids(repo_root: Path) -> list[str]:
     ]
 
 
+def check_deps_partition(repo_root: Path) -> list[str]:
+    """manifests/deps.json invariant: shipped and pending are a partition of
+    the graph's unit lifecycle — a unit that has shipped must not still be
+    listed as pending (and vice versa). Regenerate with
+    `python3 scripts/integrate_unit.py --regenerate` to repair."""
+    deps_path = repo_root / "manifests" / "deps.json"
+    if not deps_path.exists():
+        return []
+    try:
+        deps = json.loads(deps_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        return [f"deps.json unreadable: {exc}"]
+    both = sorted(set(deps.get("shipped", [])) & set(deps.get("pending", [])))
+    if not both:
+        return []
+    return [
+        f"deps.json: {len(both)} id(s) listed in both shipped and pending: "
+        f"{', '.join(both)}"
+    ]
+
+
 def find_repo_root(start: Path) -> Path:
     cur = start.resolve()
     for ancestor in [cur, *cur.parents]:
@@ -388,6 +410,15 @@ def main():
         for p in dup_problems:
             print(f"  - {p}")
         aggregate_failures.extend(dup_problems)
+
+    # Gate: deps.json shipped/pending lists must be disjoint.
+    partition_problems = check_deps_partition(repo_root)
+    if partition_problems:
+        print()
+        print("deps.json shipped/pending partition check FAILED:")
+        for p in partition_problems:
+            print(f"  - {p}")
+        aggregate_failures.extend(partition_problems)
 
     print()
     print(f"Overall: {grand_total_passed}/{grand_total_checks} checks passed across {len(units)} units")

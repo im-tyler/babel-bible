@@ -135,6 +135,9 @@ def update_deps(uid: str, prereqs: list[str], successors: list[str]) -> int:
         raise SystemExit(1)
     deps = json.load(open(DEPS))
     shipped = deps.setdefault("shipped", [])
+    pending = deps.setdefault("pending", [])
+    if uid in pending:
+        pending.remove(uid)
     if uid not in shipped:
         shipped.append(uid)
         shipped.sort()
