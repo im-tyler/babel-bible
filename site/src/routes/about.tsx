@@ -1,4 +1,5 @@
 import { getCollection } from "@neutron-build/core";
+import { published } from "../lib/published";
 
 export function head() {
   return {
@@ -9,7 +10,7 @@ export function head() {
 }
 
 export async function loader() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   return {
     unitCount: units.length,
   };

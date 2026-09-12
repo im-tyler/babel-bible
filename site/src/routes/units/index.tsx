@@ -1,6 +1,7 @@
 import { getCollection } from "@neutron-build/core";
 import { sectionLabel, sectionOrder } from "../../lib/sections";
 import { renderInline } from "../../lib/inline-math";
+import { published } from "../../lib/published";
 import lensData from "../../data/lenses.json";
 
 export function head() {
@@ -34,7 +35,7 @@ const LENS_BUTTONS = (lensData as any).lenses
   .map((l: any) => ({ id: l.id, label: l.label, count: l.counts.total }));
 
 export async function loader() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   const sorted = [...units].sort((a: any, b: any) =>
     a.data.id.localeCompare(b.data.id),
   );

@@ -1,6 +1,7 @@
 import { getCollection } from "@neutron-build/core";
 import { sectionLabel, sectionOrder, SECTION_BY_KEY } from "../lib/sections";
 import { renderInline } from "../lib/inline-math";
+import { published } from "../lib/published";
 
 export function head() {
   return {
@@ -28,7 +29,7 @@ interface SectionGroup {
 }
 
 export async function loader() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   const rows: Row[] = units.map((u: any) => ({
     id: u.data.id,
     title: u.data.title,

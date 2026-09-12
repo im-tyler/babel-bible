@@ -1,14 +1,15 @@
 import { getCollection, getEntry } from "@neutron-build/core";
 import UnitMeta from "../../components/UnitMeta";
 import { renderInline, mathToText } from "../../lib/inline-math";
+import { published } from "../../lib/published";
 
 export async function getStaticPaths() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   return units.map((u: any) => ({ params: { id: u.data.id } }));
 }
 
 export async function loader({ params }: { params: { id: string } }) {
-  const all = await getCollection("units");
+  const all = published(await getCollection("units"));
   const match = all.find((u: any) => u.data.id === params.id);
   if (!match) {
     throw new Response("Unit not found", { status: 404 });

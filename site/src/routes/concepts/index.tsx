@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { getCollection } from "@neutron-build/core";
+import { published } from "../../lib/published";
 import { Marked } from "marked";
 import markedKatex from "marked-katex-extension";
 
@@ -83,10 +84,11 @@ export async function loader() {
   }
 
   // Cross-reference against shipped units so we can link those concepts.
-  const units = await getCollection("units");
+  // (units is already filtered to shipped by the published() predicate)
+  const units = published(await getCollection("units"));
   const idByConcept: Record<string, string> = {};
   for (const u of units as any[]) {
-    if (u.data.concept_catalog_id && u.data.status === "shipped") {
+    if (u.data.concept_catalog_id) {
       idByConcept[u.data.concept_catalog_id] = u.data.id;
     }
   }

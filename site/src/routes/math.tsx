@@ -1,4 +1,5 @@
 import { getCollection } from "@neutron-build/core";
+import { published } from "../lib/published";
 import { MATH_SECTION_KEYS, sectionLabel, sectionOrder } from "../lib/sections";
 import lensData from "../data/lenses.json";
 
@@ -11,7 +12,7 @@ export function head() {
 }
 
 export async function loader() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   const mathUnits = units.filter((u: any) => MATH_SECTION_KEYS.has(u.data.section));
   const sectionCounts = new Map<string, number>();
   mathUnits.forEach((u: any) => {

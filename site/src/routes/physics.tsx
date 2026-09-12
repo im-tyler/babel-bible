@@ -1,4 +1,5 @@
 import { getCollection } from "@neutron-build/core";
+import { published } from "../lib/published";
 import { renderInline } from "../lib/inline-math";
 
 export function head() {
@@ -10,7 +11,7 @@ export function head() {
 }
 
 export async function loader() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   const physicsUnits = units
     .filter((u: any) => {
       const id = u.data.id ?? "";

@@ -1,4 +1,5 @@
 import { getCollection } from "@neutron-build/core";
+import { published } from "../lib/published";
 import {
   SECTION_BY_KEY,
   DOMAINS,
@@ -32,7 +33,7 @@ interface DomainGroup {
 }
 
 export async function loader() {
-  const units = await getCollection("units");
+  const units = published(await getCollection("units"));
   const totalUnits = units.length;
 
   const sectionCounts = new Map<string, number>();
