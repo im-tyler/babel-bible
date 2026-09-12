@@ -38,6 +38,7 @@ def main():
     repo_root = find_repo_root(args.root)
     sys.path.insert(0, str(repo_root / "scripts"))
     from validate_unit import validate
+    from check_codex_imports import find_divergence
 
     if args.path:
         units: list[Path] = []
@@ -93,12 +94,30 @@ def main():
                     print(f"            {check.detail.splitlines()[0]}")
             failures.append((unit_path, ""))
 
+    # ------------------------------------------------------------------
+    # Repo-level gates (beyond per-unit checks)
+    # ------------------------------------------------------------------
+    aggregate_failures: list[str] = []
+
+    # Gate: Codex.lean must import every module under lean/Codex/, so a
+    # module can never silently escape the aggregate `lake build`.
+    codex_problems = find_divergence(repo_root)
+    if codex_problems:
+        print()
+        print(f"Codex.lean import check FAILED ({len(codex_problems)} problem(s)):")
+        for p in codex_problems:
+            print(f"  - {p}")
+        aggregate_failures.extend(codex_problems)
+
     print()
     print(f"Overall: {grand_total_passed}/{grand_total_checks} checks passed across {len(units)} units")
-    if failures:
-        print(f"  {len(failures)} unit(s) failed:")
-        for path, _ in failures:
-            print(f"    - {path.relative_to(repo_root)}")
+    if failures or aggregate_failures:
+        if failures:
+            print(f"  {len(failures)} unit(s) failed:")
+            for path, _ in failures:
+                print(f"    - {path.relative_to(repo_root)}")
+        if aggregate_failures:
+            print(f"  {len(aggregate_failures)} repo-level check(s) failed (details above).")
         print()
         print("Re-run `validate_unit.py <path>` against any failing unit for full detail.")
         sys.exit(1)
