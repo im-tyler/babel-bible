@@ -28,6 +28,11 @@ import json
 import re
 from pathlib import Path
 
+try:
+    import yaml
+except ImportError:  # pragma: no cover
+    raise SystemExit("PyYAML required: pip install pyyaml")
+
 ROOT = Path(__file__).resolve().parent.parent
 AUDIT_DIR = ROOT / "plans" / "fasttrack"
 CONTENT_DIR = ROOT / "content"
@@ -36,6 +41,49 @@ DEPS = ROOT / "manifests" / "deps.json"
 
 OUT_JSON = ROOT / "manifests" / "production" / "plan.json"
 OUT_MD = ROOT / "docs" / "plans" / "PRODUCTION_PLAN.md"
+
+# Publication predicate — python twin of site/src/lib/published.ts
+# (isPublished): a unit is shipped iff frontmatter `status == "shipped"`.
+# The two must move together; changing one without the other desyncs the
+# plan from the site.
+SHIPPED_STATUS = "shipped"
+
+FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+
+
+def parse_frontmatter(text: str) -> dict:
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return {}
+    try:
+        return yaml.safe_load(m.group(1)) or {}
+    except yaml.YAMLError:
+        return {}
+
+
+def scan_content() -> dict[str, dict]:
+    """Map id -> {title, slug, path, status} for every content unit,
+    parsed with the canonical YAML frontmatter loader."""
+    meta: dict[str, dict] = {}
+    for p in sorted(CONTENT_DIR.rglob("*.md")):
+        fm = parse_frontmatter(p.read_text(encoding="utf-8", errors="ignore"))
+        uid = str(fm.get("id", "")).strip()
+        if uid and uid not in meta:
+            meta[uid] = {
+                "title": str(fm.get("title", "") or ""),
+                "slug": str(fm.get("slug", "") or ""),
+                "path": str(p.relative_to(ROOT)),
+                "status": str(fm.get("status", "") or ""),
+            }
+    return meta
+
+
+def shipped_unit_ids(content_meta: dict[str, dict]) -> set[str]:
+    """Ids of already-shipped units: content frontmatter status == "shipped"
+    (stub/draft content does not count as shipped)."""
+    return {
+        uid for uid, m in content_meta.items() if m["status"] == SHIPPED_STATUS
+    }
 
 # Match a punch-list bullet:
 #   1. **`05.09.01` Title of unit.** Spec text...
@@ -47,41 +95,6 @@ PUNCHLIST_RE = re.compile(
 
 # Match a deepening reference (existing id with words like "deepening" / "rewrite"):
 DEEPENING_HINTS = ("deepening", "rewrite", "real proof", "templated", "fold")
-
-
-def shipped_unit_ids() -> set[str]:
-    """Discover already-shipped unit ids by scanning content/."""
-    ids = set()
-    for p in CONTENT_DIR.rglob("*.md"):
-        text = p.read_text(encoding="utf-8", errors="ignore")
-        m = re.search(r"^id:\s*(\S+)", text, re.M)
-        if m:
-            ids.add(m.group(1))
-    return ids
-
-
-def shipped_unit_meta() -> dict[str, dict]:
-    """Map id -> {title, slug, path} for shipped units."""
-    meta = {}
-    for p in CONTENT_DIR.rglob("*.md"):
-        text = p.read_text(encoding="utf-8", errors="ignore")
-        fm = re.match(r"^---\n([\s\S]*?)\n---\n", text)
-        if not fm:
-            continue
-        body = fm.group(1)
-
-        def grab(field):
-            m = re.search(rf"^{field}:\s*(.+?)$", body, re.M)
-            return m.group(1).strip().strip('"') if m else ""
-
-        uid = grab("id")
-        if uid:
-            meta[uid] = {
-                "title": grab("title"),
-                "slug": grab("slug"),
-                "path": str(p.relative_to(ROOT)),
-            }
-    return meta
 
 
 def parse_audit(path: Path) -> tuple[str, list[dict]]:
@@ -226,8 +239,8 @@ def topo_sort(units: dict[str, dict]) -> list[str]:
 
 
 def main() -> int:
-    shipped_ids = shipped_unit_ids()
-    shipped_meta = shipped_unit_meta()
+    content_meta = scan_content()
+    shipped_ids = shipped_unit_ids(content_meta)
 
     # Walk audits.
     units: dict[str, dict] = {}
@@ -268,24 +281,24 @@ def main() -> int:
     for uid, info in units.items():
         if uid in shipped_ids:
             info["status"] = "shipped"
-            if uid in shipped_meta:
-                info["actual_path"] = shipped_meta[uid]["path"]
-                info["title"] = shipped_meta[uid]["title"] or info["title"]
+            if uid in content_meta:
+                info["actual_path"] = content_meta[uid]["path"]
+                info["title"] = content_meta[uid]["title"] or info["title"]
         else:
             info["status"] = "queued"
 
     # Add already-shipped units that aren't in any audit (just so the plan
     # sees them as part of the shipped set).
-    for uid in shipped_ids:
+    for uid in sorted(shipped_ids):
         if uid not in units:
             units[uid] = {
                 "id": uid,
-                "title": shipped_meta.get(uid, {}).get("title", ""),
+                "title": content_meta.get(uid, {}).get("title", ""),
                 "status": "shipped",
                 "kind": "new_unit",
                 "priority": "shipped-pre-audit",
                 "source_audits": [],
-                "actual_path": shipped_meta.get(uid, {}).get("path", ""),
+                "actual_path": content_meta.get(uid, {}).get("path", ""),
                 "prereqs": [],
                 "successors": [],
             }
