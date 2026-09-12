@@ -15,8 +15,75 @@ Exit code:
 from __future__ import annotations
 
 import argparse
+import re
+import shutil
+import subprocess
 import sys
 from pathlib import Path
+
+LEAN_PLACEHOLDER_RE = re.compile(r"\b(sorry|admit|sorryAx)\b")
+
+
+def _strip_lean_comments(text: str) -> str:
+    text = re.sub(r"/-[\s\S]*?-/", "", text)  # block comments (non-nested approximation)
+    text = re.sub(r"--[^\n]*", "", text)      # line comments
+    return text
+
+
+def check_lean_contract(repo_root: Path,
+                        lean_units: list[tuple[str, dict]]) -> list[str]:
+    """Enforce the real `lean_status` contract at the aggregate level.
+
+    Per-unit `validate_unit.py` checks are existence-only by design; this
+    stage, scoped to the units selected for this run:
+
+    - runs one `lake build` over `lean/` — `Codex.lean` imports every
+      module (enforced by `check_codex_imports`), so a successful build
+      puts every `full`/`partial` module in the aggregate build closure;
+    - for `lean_status: full` units, additionally scans the module source
+      for proof placeholders (`sorry` / `admit` / `sorryAx`) and fails
+      when any are found; `partial` units need only be in the closure.
+
+    When no lake toolchain is on PATH this emits a warning and returns no
+    failures (a warning, not a silent pass, that a toolchain-bearing CI
+    must do the elaboration).
+    """
+    problems: list[str] = []
+    if shutil.which("lake") is None:
+        print("WARNING: no lake toolchain on PATH — Lean elaboration NOT checked.")
+        print("         (lean_status: full modules were not built nor scanned for sorry/admit/sorryAx)")
+        return problems
+
+    print("Running `lake build` in lean/ (aggregate Lean gate) …")
+    proc = subprocess.run(["lake", "build"], cwd=repo_root / "lean",
+                          capture_output=True, text=True)
+    if proc.returncode != 0:
+        problems.append(f"lake build failed (exit {proc.returncode}); first errors:")
+        lines = (proc.stdout + "\n" + proc.stderr).splitlines()
+        err_lines = [ln for ln in lines if ln.strip().startswith("error")][:10]
+        for ln in (err_lines or [ln for ln in lines if ln.strip()][-5:]):
+            problems.append(f"  {ln.strip()}")
+        return problems
+
+    full_scanned = 0
+    for rel, fm in lean_units:
+        if fm.get("lean_status") != "full":
+            continue
+        module = str(fm.get("lean_module", "")).strip()
+        if not module:
+            continue  # already a per-unit failure
+        path = repo_root / "lean" / (module.replace(".", "/") + ".lean")
+        if not path.exists():
+            continue  # already a per-unit failure
+        full_scanned += 1
+        hits = sorted(set(LEAN_PLACEHOLDER_RE.findall(
+            _strip_lean_comments(path.read_text(encoding="utf-8")))))
+        if hits:
+            problems.append(
+                f"{rel}: lean_status: full but module {module} contains "
+                f"proof placeholder(s): {', '.join(hits)}")
+    print(f"lake build OK; {full_scanned} full module(s) scanned for placeholders.")
+    return problems
 
 
 def find_repo_root(start: Path) -> Path:
@@ -65,6 +132,7 @@ def main():
     print()
 
     failures: list[tuple[Path, str]] = []
+    lean_units: list[tuple[str, dict]] = []
     grand_total_passed = 0
     grand_total_checks = 0
 
@@ -72,6 +140,8 @@ def main():
         rel = unit_path.relative_to(repo_root)
         try:
             report = validate(unit_path)
+            if report.frontmatter.get("lean_status") in ("full", "partial"):
+                lean_units.append((str(rel), report.frontmatter))
             passed = sum(1 for check in report.checks if check.passed)
             total = len(report.checks)
             grand_total_passed += passed
@@ -108,6 +178,17 @@ def main():
         for p in codex_problems:
             print(f"  - {p}")
         aggregate_failures.extend(codex_problems)
+
+    # Gate: the real lean_status contract (aggregate `lake build` +
+    # placeholder scan for `full` modules; see check_lean_contract).
+    if lean_units:
+        lean_problems = check_lean_contract(repo_root, lean_units)
+        if lean_problems:
+            print()
+            print(f"Lean elaboration check FAILED ({len(lean_problems)} problem(s)):")
+            for p in lean_problems:
+                print(f"  - {p}")
+            aggregate_failures.extend(lean_problems)
 
     print()
     print(f"Overall: {grand_total_passed}/{grand_total_checks} checks passed across {len(units)} units")
