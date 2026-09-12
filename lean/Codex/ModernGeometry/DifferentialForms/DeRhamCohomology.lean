@@ -22,9 +22,16 @@ axiom DifferentialForm : SmoothManifold → Nat → Type u
 axiom exteriorDerivative :
     {M : SmoothManifold} → {k : Nat} → DifferentialForm M k → DifferentialForm M (k + 1)
 
-/-- The structural identity that makes the de Rham quotient possible. -/
+/-- Schematic zero form: the additive unit in every degree, pending the
+full graded-algebra structure on forms. -/
+axiom zeroForm : {M : SmoothManifold} → {k : Nat} → DifferentialForm M k
+
+/-- `d ∘ d = 0`: applying the exterior derivative twice yields the zero
+form of degree `k + 1 + 1`. This is the structural identity that makes
+the de Rham quotient possible. -/
 axiom exteriorDerivative_squared_zero :
     {M : SmoothManifold} → {k : Nat} → (ω : DifferentialForm M k) →
-      exteriorDerivative (exteriorDerivative ω) = exteriorDerivative (exteriorDerivative ω)
+      exteriorDerivative (exteriorDerivative ω) =
+        (zeroForm : DifferentialForm M (k + 1 + 1))
 
 end Codex.ModernGeometry.DifferentialForms
