@@ -30,9 +30,17 @@ function buildSectionKeyForId(
 
 export async function loader() {
   const depsPath = resolve(import.meta.dirname, "../../../manifests/deps.json");
-  let deps: any = { edges: [], shipped: [], pending: [] };
-  try { deps = JSON.parse(readFileSync(depsPath, "utf-8")); }
-  catch { /* empty */ }
+  let deps: any;
+  try {
+    deps = JSON.parse(readFileSync(depsPath, "utf-8"));
+  } catch (e) {
+    // Build-fatal: a missing or malformed manifest must never silently
+    // render an empty dependency map. An explicitly-valid empty manifest
+    // ({ edges: [], shipped: [], pending: [] }) still renders fine.
+    throw new Error(
+      `dag: cannot read dependency manifest at ${depsPath}: ${(e as Error).message}`,
+    );
+  }
 
   const edges: Edge[] = deps.edges || [];
   const shipped: string[] = deps.shipped || [];

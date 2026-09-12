@@ -22,9 +22,17 @@ interface Connection {
 const PATH = resolve(import.meta.dirname, "../../../manifests/connections.json");
 
 export async function loader() {
-  let raw: any = null;
-  try { raw = JSON.parse(readFileSync(PATH, "utf-8")); }
-  catch (e) { return { connections: [], typeCounts: {}, strengthCounts: {}, types: [], strengths: [] }; }
+  let raw: any;
+  try {
+    raw = JSON.parse(readFileSync(PATH, "utf-8"));
+  } catch (e) {
+    // Build-fatal: a missing or malformed manifest must never silently
+    // render an empty connections page. An explicitly-valid empty
+    // manifest still renders zero entries fine.
+    throw new Error(
+      `connections: cannot read manifest at ${PATH}: ${(e as Error).message}`,
+    );
+  }
   const connections: Connection[] = raw.connections || [];
   const types: string[] = raw.connection_types || [];
   const strengths: string[] = raw.strength_levels || [];
