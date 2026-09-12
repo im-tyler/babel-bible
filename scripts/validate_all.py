@@ -86,6 +86,30 @@ def check_lean_contract(repo_root: Path,
     return problems
 
 
+def check_duplicate_unit_ids(repo_root: Path) -> list[str]:
+    """Unit ids must be globally unique across all content roots: the site
+    generates /u/:id routes from every id, so a duplicate is a routing
+    collision. `_scan_statuses` in validate_unit.py deliberately folds to
+    id -> status-set, so multiplicity is only visible here."""
+    from validate_unit import parse_unit
+    ids: dict[str, list[str]] = {}
+    for root in [repo_root / "content", repo_root / "site" / "src" / "content"]:
+        if not root.exists():
+            continue
+        for p in sorted(root.rglob("*.md")):
+            try:
+                fm, _ = parse_unit(p)
+            except Exception:
+                continue
+            uid = str(fm.get("id", "")).strip()
+            if uid:
+                ids.setdefault(uid, []).append(str(p.relative_to(repo_root)))
+    return [
+        f"unit id {uid} used by multiple files: {', '.join(paths)}"
+        for uid, paths in sorted(ids.items()) if len(paths) > 1
+    ]
+
+
 def find_repo_root(start: Path) -> Path:
     cur = start.resolve()
     for ancestor in [cur, *cur.parents]:
@@ -104,7 +128,7 @@ def main():
 
     repo_root = find_repo_root(args.root)
     sys.path.insert(0, str(repo_root / "scripts"))
-    from validate_unit import validate
+    from validate_unit import parse_unit, validate
     from check_codex_imports import find_divergence
 
     if args.path:
@@ -189,6 +213,15 @@ def main():
             for p in lean_problems:
                 print(f"  - {p}")
             aggregate_failures.extend(lean_problems)
+
+    # Gate: unit ids must be globally unique (the site routes /u/:id).
+    dup_problems = check_duplicate_unit_ids(repo_root)
+    if dup_problems:
+        print()
+        print(f"Duplicate unit-id check FAILED ({len(dup_problems)} id(s)):")
+        for p in dup_problems:
+            print(f"  - {p}")
+        aggregate_failures.extend(dup_problems)
 
     print()
     print(f"Overall: {grand_total_passed}/{grand_total_checks} checks passed across {len(units)} units")
