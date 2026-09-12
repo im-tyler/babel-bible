@@ -689,7 +689,7 @@
     "deepenings_queued": 0,
     "enrichments_pending": 0,
     "queued": 0,
-    "shipped": 2388
+    "shipped": 2391
   },
   "queue_topo_order": [],
   "units": {
@@ -28777,7 +28777,8 @@
       "source_audits": [],
       "status": "shipped",
       "successors": [
-        "19.12.02"
+        "19.12.02",
+        "19.13.02"
       ],
       "title": "Natural selection — directional, stabilizing, and disruptive"
     },
@@ -28940,7 +28941,8 @@
         "19.10.03",
         "19.11.01",
         "19.12.02",
-        "19.13.01"
+        "19.13.01",
+        "19.13.02"
       ],
       "title": "Community ecology — interactions and food webs"
     },
@@ -29035,7 +29037,8 @@
       "source_audits": [],
       "status": "shipped",
       "successors": [
-        "19.13.02"
+        "19.13.02",
+        "19.14.02"
       ],
       "title": "Coevolution"
     },
@@ -29044,6 +29047,8 @@
       "id": "19.13.02",
       "kind": "new_unit",
       "prereqs": [
+        "19.03.01",
+        "19.10.01",
         "19.13.01"
       ],
       "priority": "shipped-pre-audit",
@@ -29434,8 +29439,41 @@
       "successors": [],
       "title": "Confucianism: ethics, society, and the exemplary person"
     },
+    "20.10.02": {
+      "actual_path": "content/20-philosophy/10-eastern-philosophy/20.10.02-buddhism-four-noble-truths-eightfold-path.md",
+      "id": "20.10.02",
+      "kind": "new_unit",
+      "prereqs": [],
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "status": "shipped",
+      "successors": [],
+      "title": "Buddhism: the Four Noble Truths, the Eightfold Path, and the question of suffering"
+    },
+    "20.10.03": {
+      "actual_path": "content/20-philosophy/10-eastern-philosophy/20.10.03-advaita-vedanta-hindu-philosophy.md",
+      "id": "20.10.03",
+      "kind": "new_unit",
+      "prereqs": [],
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "status": "shipped",
+      "successors": [],
+      "title": "Advaita Vedanta and Hindu philosophy: Brahman, Atman, and the question of reality"
+    },
+    "20.10.04": {
+      "actual_path": "content/20-philosophy/10-eastern-philosophy/20.10.04-daoism-wuwei-natural-harmony.md",
+      "id": "20.10.04",
+      "kind": "new_unit",
+      "prereqs": [],
+      "priority": "shipped-pre-audit",
+      "source_audits": [],
+      "status": "shipped",
+      "successors": [],
+      "title": "Daoism: wu wei, the Dao, and natural harmony"
+    },
     "20.11.01": {
-      "actual_path": "content/20-philosophy/10-eastern-philosophy/20.11.01-buddhism-four-noble-truths-eightfold-path.md",
+      "actual_path": "content/20-philosophy/11-metaphysics/20.11.01-metaphysics-foundations.md",
       "id": "20.11.01",
       "kind": "new_unit",
       "prereqs": [],
@@ -29451,7 +29489,7 @@
         "20.15.01",
         "20.15.02"
       ],
-      "title": "Buddhism: the Four Noble Truths, the Eightfold Path, and the question of suffering"
+      "title": "Metaphysics — existence, identity, causation, modality"
     },
     "20.11.02": {
       "actual_path": "content/20-philosophy/11-metaphysics/20.11.02-metaphysics-depth.md",
@@ -29481,7 +29519,7 @@
       "title": "Personal identity: Parfit, fission, teleportation, and the reductionist view of the self"
     },
     "20.12.01": {
-      "actual_path": "content/20-philosophy/10-eastern-philosophy/20.12.01-advaita-vedanta-hindu-philosophy.md",
+      "actual_path": "content/20-philosophy/12-philosophy-of-language/20.12.01-philosophy-of-language-foundations.md",
       "id": "20.12.01",
       "kind": "new_unit",
       "prereqs": [
@@ -29496,7 +29534,7 @@
         "20.12.03",
         "22.07.01"
       ],
-      "title": "Advaita Vedanta and Hindu philosophy: Brahman, Atman, and the question of reality"
+      "title": "Philosophy of language — reference, meaning, and use"
     },
     "20.12.02": {
       "actual_path": "content/20-philosophy/12-philosophy-of-language/20.12.02-frege-russell-theories-reference.md",
@@ -29525,7 +29563,7 @@
       "title": "Speech act theory: Austin, Searle, Grice, and how words do things"
     },
     "20.13.01": {
-      "actual_path": "content/20-philosophy/10-eastern-philosophy/20.13.01-daoism-wuwei-natural-harmony.md",
+      "actual_path": "content/20-philosophy/13-philosophy-of-mind/20.13.01-philosophy-of-mind-foundations.md",
       "id": "20.13.01",
       "kind": "new_unit",
       "prereqs": [
@@ -29537,7 +29575,7 @@
       "successors": [
         "20.13.02"
       ],
-      "title": "Daoism: wu wei, the Dao, and natural harmony"
+      "title": "Philosophy of mind — consciousness, physicalism, and the mental"
     },
     "20.13.02": {
       "actual_path": "content/20-philosophy/13-philosophy-of-mind/20.13.02-embodied-embedded-enacted-extended-cognition.md",
@@ -33835,6 +33873,7 @@
       "successors": [
         "29.01.02",
         "29.01.03",
+        "29.01.04",
         "29.02.01",
         "29.03.01",
         "29.04.01",
@@ -33846,9 +33885,9 @@
       ],
       "title": "Introduction to psychology and research methods"
     },
-    "29.01.02": {
-      "actual_path": "content/29-psychology/01-intro-methods/29.01.02-replication-crisis-open-science-reproducibility-preregistration-reform-psychological-research.md",
-      "id": "29.01.02",
+    "29.01.04": {
+      "actual_path": "content/29-psychology/01-intro-methods/29.01.04-replication-crisis-open-science-reproducibility-preregistration-reform-psychological-research.md",
+      "id": "29.01.04",
       "kind": "new_unit",
       "prereqs": [
         "29.01.01"
@@ -33856,9 +33895,7 @@
       "priority": "shipped-pre-audit",
       "source_audits": [],
       "status": "shipped",
-      "successors": [
-        "29.01.03"
-      ],
+      "successors": [],
       "title": "The replication crisis and Open Science: reproducibility, preregistration, and the reform of psychological research"
     },
     "29.02.01": {

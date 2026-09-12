@@ -39472,6 +39472,28 @@
 ],
 "title": "Conservation biology"
 },
+"19.14.02": {
+"area": "other",
+"books": [],
+"chapter": "conservation",
+"curriculum": "eco-evo-bio",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "19.14.02",
+"prereqs": [
+"19.13.01"
+],
+"section": "eco-evo-bio",
+"slug": "conservation-strategies",
+"status": "stub",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Conservation strategies: population viability analysis, corridor design, and adaptive management"
+},
 "19.15.01": {
 "area": "other",
 "books": [],
@@ -40386,7 +40408,7 @@
 ],
 "title": "Confucianism: ethics, society, and the exemplary person"
 },
-"20.11.01": {
+"20.10.02": {
 "area": "other",
 "books": [],
 "chapter": "eastern-philosophy",
@@ -40394,7 +40416,7 @@
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
-"id": "20.11.01",
+"id": "20.10.02",
 "prereqs": [],
 "section": "philosophy",
 "slug": "buddhism-four-noble-truths-eightfold-path",
@@ -40405,6 +40427,68 @@
 "master"
 ],
 "title": "Buddhism: the Four Noble Truths, the Eightfold Path, and the question of suffering"
+},
+"20.10.03": {
+"area": "other",
+"books": [],
+"chapter": "eastern-philosophy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.10.03",
+"prereqs": [],
+"section": "philosophy",
+"slug": "advaita-vedanta-hindu-philosophy",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Advaita Vedanta and Hindu philosophy: Brahman, Atman, and the question of reality"
+},
+"20.10.04": {
+"area": "other",
+"books": [],
+"chapter": "eastern-philosophy",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.10.04",
+"prereqs": [],
+"section": "philosophy",
+"slug": "daoism-wuwei-natural-harmony",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Daoism: wu wei, the Dao, and natural harmony"
+},
+"20.11.01": {
+"area": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "metaphysics",
+"curriculum": "philosophy-home",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "20.11.01",
+"prereqs": [],
+"section": "philosophy",
+"slug": "metaphysics-foundations",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "Metaphysics \u2014 existence, identity, causation, modality"
 },
 "20.11.02": {
 "area": "other",
@@ -40455,23 +40539,27 @@
 },
 "20.12.01": {
 "area": "other",
-"books": [],
-"chapter": "eastern-philosophy",
-"curriculum": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "philosophy-of-language",
+"curriculum": "philosophy-home",
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
 "id": "20.12.01",
-"prereqs": [],
+"prereqs": [
+"20.11.01"
+],
 "section": "philosophy",
-"slug": "advaita-vedanta-hindu-philosophy",
+"slug": "philosophy-of-language-foundations",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Advaita Vedanta and Hindu philosophy: Brahman, Atman, and the question of reality"
+"title": "Philosophy of language \u2014 reference, meaning, and use"
 },
 "20.12.02": {
 "area": "other",
@@ -40523,23 +40611,27 @@
 },
 "20.13.01": {
 "area": "other",
-"books": [],
-"chapter": "eastern-philosophy",
-"curriculum": "other",
+"books": [
+"foundational-home"
+],
+"chapter": "philosophy-of-mind",
+"curriculum": "philosophy-home",
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
 "id": "20.13.01",
-"prereqs": [],
+"prereqs": [
+"20.11.01"
+],
 "section": "philosophy",
-"slug": "daoism-wuwei-natural-harmony",
+"slug": "philosophy-of-mind-foundations",
 "status": "shipped",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "Daoism: wu wei, the Dao, and natural harmony"
+"title": "Philosophy of mind \u2014 consciousness, physicalism, and the mental"
 },
 "20.13.02": {
 "area": "other",
@@ -47341,7 +47433,7 @@
 "area": "other",
 "books": [],
 "chapter": "intro-methods",
-"curriculum": "other",
+"curriculum": "psychology",
 "field": "other",
 "fieldLabel": "Other",
 "fieldOrder": 99,
@@ -47350,14 +47442,14 @@
 "29.01.01"
 ],
 "section": "psychology",
-"slug": "replication-crisis-open-science-reproducibility-preregistration-reform-psychological-research",
-"status": "shipped",
+"slug": "research-designs",
+"status": "stub",
 "tiers": [
 "beginner",
 "intermediate",
 "master"
 ],
-"title": "The replication crisis and Open Science: reproducibility, preregistration, and the reform of psychological research"
+"title": "Research designs: experiments, quasi-experiments, correlational, and meta-analysis"
 },
 "29.01.03": {
 "area": "other",
@@ -47380,6 +47472,28 @@
 "master"
 ],
 "title": "Statistical reasoning in psychology: effect size, power, replication crisis"
+},
+"29.01.04": {
+"area": "other",
+"books": [],
+"chapter": "intro-methods",
+"curriculum": "other",
+"field": "other",
+"fieldLabel": "Other",
+"fieldOrder": 99,
+"id": "29.01.04",
+"prereqs": [
+"29.01.01"
+],
+"section": "psychology",
+"slug": "replication-crisis-open-science-reproducibility-preregistration-reform-psychological-research",
+"status": "shipped",
+"tiers": [
+"beginner",
+"intermediate",
+"master"
+],
+"title": "The replication crisis and Open Science: reproducibility, preregistration, and the reform of psychological research"
 },
 "29.02.01": {
 "area": "other",

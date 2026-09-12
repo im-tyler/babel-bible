@@ -2,7 +2,7 @@
 
 ## Burn-down
 
-- Units shipped: **2388**
+- Units shipped: **2391**
 - Units queued (gap units from audits): **0**
 - Of which deepenings: **0**
 - Audits completed: **85 / 93**

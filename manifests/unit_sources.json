@@ -10513,6 +10513,10 @@
 "books": [],
 "curriculum": "other"
 },
+"19.14.02": {
+"books": [],
+"curriculum": "eco-evo-bio"
+},
 "19.15.01": {
 "books": [],
 "curriculum": "other"
@@ -10681,9 +10685,23 @@
 "books": [],
 "curriculum": "other"
 },
-"20.11.01": {
+"20.10.02": {
 "books": [],
 "curriculum": "other"
+},
+"20.10.03": {
+"books": [],
+"curriculum": "other"
+},
+"20.10.04": {
+"books": [],
+"curriculum": "other"
+},
+"20.11.01": {
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
 },
 "20.11.02": {
 "books": [
@@ -10696,8 +10714,10 @@
 "curriculum": "other"
 },
 "20.12.01": {
-"books": [],
-"curriculum": "other"
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
 },
 "20.12.02": {
 "books": [
@@ -10712,8 +10732,10 @@
 "curriculum": "philosophy-home"
 },
 "20.13.01": {
-"books": [],
-"curriculum": "other"
+"books": [
+"foundational-home"
+],
+"curriculum": "philosophy-home"
 },
 "20.13.02": {
 "books": [
@@ -12145,11 +12167,15 @@
 },
 "29.01.02": {
 "books": [],
-"curriculum": "other"
+"curriculum": "psychology"
 },
 "29.01.03": {
 "books": [],
 "curriculum": "psychology"
+},
+"29.01.04": {
+"books": [],
+"curriculum": "other"
 },
 "29.02.01": {
 "books": [],
