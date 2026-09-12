@@ -263,6 +263,16 @@ def check_frontmatter_schema(report: ValidationReport):
     )
 
 
+def check_id_format(report: ValidationReport):
+    uid = str(report.frontmatter.get("id", ""))
+    ok = bool(UNIT_ID_RE.fullmatch(uid) or ESSAY_ID_RE.fullmatch(uid))
+    report.add(
+        "id matches NN.NN.NN (or NN.essays.NN) format",
+        ok,
+        detail=f"got {uid!r}",
+    )
+
+
 def check_id_filename_match(report: ValidationReport):
     fm = report.frontmatter
     name = report.unit_path.name
@@ -741,6 +751,7 @@ def validate(unit_path: Path) -> ValidationReport:
 
     # §0 universal
     check_frontmatter_schema(report)
+    check_id_format(report)
     check_id_filename_match(report)
     check_tiers_present(report)
     check_concept_catalog_id(report, repo)
