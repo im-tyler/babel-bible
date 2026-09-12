@@ -7,10 +7,16 @@ indexes are reused, aggregates results, and exits non-zero if any unit fails.
 Usage:
     python validate_all.py [--root <codex-root>]
     python validate_all.py --path content/14-genchem-pchem --path content/22-language
+    python validate_all.py --content-only   # skip Lean elaboration (no lake needed)
 
 Exit code:
     0 — every unit passes every automated check
     1 — at least one unit fails OR an exception was raised
+
+A lake toolchain on PATH is REQUIRED in normal (shipping) mode: without it
+the Lean elaboration gate cannot run and validation fails. Use
+`--content-only` for content work on machines without a toolchain; that mode
+never prints "Ready to ship."
 """
 from __future__ import annotations
 
@@ -44,14 +50,17 @@ def check_lean_contract(repo_root: Path,
       for proof placeholders (`sorry` / `admit` / `sorryAx`) and fails
       when any are found; `partial` units need only be in the closure.
 
-    When no lake toolchain is on PATH this emits a warning and returns no
-    failures (a warning, not a silent pass, that a toolchain-bearing CI
-    must do the elaboration).
+    When no lake toolchain is on PATH this is FATAL in normal (shipping)
+    mode: "Ready to ship." must never be printed without the Lean gate
+    having actually run. `--content-only` skips this stage entirely.
     """
     problems: list[str] = []
     if shutil.which("lake") is None:
-        print("WARNING: no lake toolchain on PATH — Lean elaboration NOT checked.")
-        print("         (lean_status: full modules were not built nor scanned for sorry/admit/sorryAx)")
+        problems.append(
+            "no lake toolchain on PATH — Lean elaboration NOT checked "
+            "(fatal: shipping validation requires a lake toolchain; "
+            "re-run with --content-only to skip Lean deliberately)"
+        )
         return problems
 
     print("Running `lake build` in lean/ (aggregate Lean gate) …")
@@ -124,6 +133,9 @@ def main():
                     help="codex repo root (auto-detected if omitted)")
     ap.add_argument("--path", action="append", type=Path,
                     help="content subtree or unit file to validate; repeatable")
+    ap.add_argument("--content-only", action="store_true",
+                    help="skip Lean elaboration entirely (no lake needed); "
+                         "success never prints 'Ready to ship.'")
     args = ap.parse_args()
 
     repo_root = find_repo_root(args.root)
@@ -205,7 +217,8 @@ def main():
 
     # Gate: the real lean_status contract (aggregate `lake build` +
     # placeholder scan for `full` modules; see check_lean_contract).
-    if lean_units:
+    # Skipped entirely in --content-only mode.
+    if lean_units and not args.content_only:
         lean_problems = check_lean_contract(repo_root, lean_units)
         if lean_problems:
             print()
@@ -235,6 +248,10 @@ def main():
         print()
         print("Re-run `validate_unit.py <path>` against any failing unit for full detail.")
         sys.exit(1)
+
+    if args.content_only:
+        print("Content validation passed (content-only; Lean NOT checked).")
+        sys.exit(0)
 
     print("All units pass automated rubric. Ready to ship.")
     sys.exit(0)

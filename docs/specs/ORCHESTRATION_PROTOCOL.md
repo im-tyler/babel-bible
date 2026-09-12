@@ -186,6 +186,8 @@ For each returned output:
 
 After all outputs processed:
 7. Run ./.venv/bin/python scripts/validate_all.py
+   (requires a lake toolchain on PATH — missing lake is fatal in shipping
+   mode; `--content-only` skips Lean and is only for content-only local checks)
 8. If 100% pass, update campaign ledger; else file rollback report
 
 Output: integration_report.md listing every action taken and any failures.
