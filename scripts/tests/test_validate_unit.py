@@ -1,4 +1,4 @@
-"""C2: unit id grammar enforcement (UNIT_ID_RE / ESSAY_ID_RE).
+"""C2/C3: unit id grammar enforcement; exact concept-catalog membership.
 
 Run: python3 scripts/tests/test_validate_unit.py
 """
@@ -38,6 +38,52 @@ class IdFormatTest(unittest.TestCase):
         self.assertFalse(run_check({"id": "00.01.01-extra"}))
         self.assertFalse(run_check({"id": "00.01.E1"}))  # exercise ids are
         # not unit ids; they fail the unit grammar (site-only companions)
+
+
+class CatalogMembershipTest(unittest.TestCase):
+    CATALOG = """# Catalog
+
+## Format
+
+Describes entries.
+
+### test.concept-one
+
+- **title**: Concept one
+
+### "test.quoted-concept"
+
+- **title**: Quoted concept
+"""
+
+    def setUp(self):
+        self.root = Path("/tmp/babel-c3-test")
+        cat = self.root / "docs" / "catalogs" / "CONCEPT_CATALOG.md"
+        cat.parent.mkdir(parents=True, exist_ok=True)
+        cat.write_text(self.CATALOG, encoding="utf-8")
+        self.addCleanup(lambda: __import__("shutil").rmtree(
+            self.root, ignore_errors=True))
+        validate_unit._CATALOG_IDS_CACHE.pop(self.root.resolve(), None)
+
+    def _check(self, cid: str) -> bool:
+        report = report_for({"concept_catalog_id": cid})
+        validate_unit.check_concept_catalog_id(report, self.root)
+        return report.checks[-1].passed
+
+    def test_exact_id_passes(self):
+        self.assertTrue(self._check("test.concept-one"))
+
+    def test_quoted_heading_id_passes(self):
+        self.assertTrue(self._check("test.quoted-concept"))
+
+    def test_prefix_or_truncated_id_fails(self):
+        # Substring search used to pass all three of these.
+        self.assertFalse(self._check("test.concept"))        # prefix
+        self.assertFalse(self._check("concept-one"))         # truncated
+        self.assertFalse(self._check("test.concept-one-x"))  # extension
+
+    def test_id_mentioned_only_in_prose_fails(self):
+        self.assertFalse(self._check("Format"))
 
 
 if __name__ == "__main__":

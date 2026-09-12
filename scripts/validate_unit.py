@@ -26,6 +26,7 @@ import yaml
 
 
 _CATALOG_TEXT_CACHE: dict[Path, str] = {}
+_CATALOG_IDS_CACHE: dict[Path, frozenset[str]] = {}
 _DEPS_CACHE: dict[Path, dict[str, Any]] = {}
 _CONTENT_STATUS_CACHE: dict[Path, dict[str, set[str]]] = {}
 _UNIT_STATUS_CACHE: dict[Path, dict[str, set[str]]] = {}
@@ -297,14 +298,30 @@ def check_tiers_present(report: ValidationReport):
 
 def check_concept_catalog_id(report: ValidationReport, repo: Path):
     fm = report.frontmatter
-    cid = fm.get("concept_catalog_id", "")
-    catalog = _concept_catalog_text(repo)
-    found = bool(cid) and cid in catalog
+    cid = str(fm.get("concept_catalog_id", ""))
+    ids = _concept_catalog_ids(repo)
+    found = bool(cid) and cid in ids
     report.add(
         "concept_catalog_id exists in docs/catalogs/CONCEPT_CATALOG.md",
         found,
-        detail=f"id '{cid}' not found" if not found else "",
+        detail=f"id '{cid}' not found as a catalog entry" if not found else "",
     )
+
+
+def _concept_catalog_ids(repo: Path) -> frozenset[str]:
+    """Exact entry ids from the catalog: heading tokens of the form
+    `<subject>.<concept-slug>` (quotes stripped), e.g. `### linalg.vector-space`.
+    Prose mentions (prerequisite lists etc.) are NOT entries."""
+    repo = repo.resolve()
+    if repo not in _CATALOG_IDS_CACHE:
+        ids = set()
+        for m in re.finditer(r"^#{2,4}\s+(\S+)", _concept_catalog_text(repo),
+                             re.MULTILINE):
+            tok = m.group(1).strip().strip('"').strip("'")
+            if "." in tok and " " not in tok and not tok.startswith("<"):
+                ids.add(tok)
+        _CATALOG_IDS_CACHE[repo] = frozenset(ids)
+    return _CATALOG_IDS_CACHE[repo]
 
 
 def check_section_markers_match_tiers(report: ValidationReport, body: str):
