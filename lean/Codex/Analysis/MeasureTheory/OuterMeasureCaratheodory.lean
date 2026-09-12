@@ -38,4 +38,15 @@ def CodexCaratheodory (mu : MeasureTheory.OuterMeasure X) :
 abbrev CodexLebesgue (n : Nat) : MeasureTheory.Measure (Fin n -> Real) :=
   MeasureTheory.volume
 
+/-- Countable additivity of an outer measure on its
+Carathéodory-measurable sets: the Carathéodory construction yields a
+measure. Alias of `MeasureTheory.OuterMeasure.iUnion_eq_of_caratheodory`;
+the primary theorem of the lebesgue-outer-measure-caratheodory unit. -/
+theorem lebesgue_outer_measure_caratheodory (m : MeasureTheory.OuterMeasure X)
+    {s : ℕ → Set X}
+    (h : ∀ i, MeasurableSet[MeasureTheory.OuterMeasure.caratheodory m] (s i))
+    (hd : Pairwise (Disjoint on s)) :
+    m (⋃ i, s i) = ∑' i, m (s i) :=
+  MeasureTheory.OuterMeasure.iUnion_eq_of_caratheodory (m := m) h hd
+
 end Codex.Analysis.MeasureTheory

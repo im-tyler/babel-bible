@@ -18,8 +18,11 @@ variable {X Y Z : Type*} [TopologicalSpace X] [TopologicalSpace Y] [TopologicalS
 example (f : X → Y) (g : Y → Z) (hf : Continuous f) (hg : Continuous g) :
     Continuous (g ∘ f) := hg.comp hf
 
-/-- Preimage of an open set under a continuous map is open. -/
-example (f : X → Y) (hf : Continuous f) (U : Set Y) (hU : IsOpen U) :
+/-- Preimage of an open set under a continuous map is open: continuity,
+defined by pulling back open sets to open sets. The primary theorem of
+the topological-space unit. -/
+theorem topological_space_continuous_preimage_open (f : X → Y) (hf : Continuous f)
+    (U : Set Y) (hU : IsOpen U) :
     IsOpen (f ⁻¹' U) := hU.preimage hf
 
 /-- A continuous image of a compact set is compact. -/

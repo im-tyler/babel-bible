@@ -14,8 +14,10 @@ namespace Codex.Analysis.Topology
 
 variable {X : Type*} [MetricSpace X]
 
-/-- Triangle inequality. -/
-example (x y z : X) : dist x z ≤ dist x y + dist y z := dist_triangle x y z
+/-- Triangle inequality: the geometric heart of the metric-space
+definition, and the primary theorem of the metric-space unit. -/
+theorem metric_space_dist_triangle (x y z : X) :
+    dist x z ≤ dist x y + dist y z := dist_triangle x y z
 
 /-- Symmetry. -/
 example (x y : X) : dist x y = dist y x := dist_comm x y

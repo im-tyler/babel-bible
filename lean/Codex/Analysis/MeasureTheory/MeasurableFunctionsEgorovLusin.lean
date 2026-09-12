@@ -35,4 +35,21 @@ abbrev CodexMeasurable (f : X → Y) : Prop := Measurable f
 finite-range measurable function with measurable level sets. -/
 abbrev CodexSimpleFunc : Type _ := MeasureTheory.SimpleFunc X ENNReal
 
+open scoped Topology in
+/-- Egorov's theorem: on a measurable set of finite measure, a sequence
+of measurable functions converging almost everywhere converges
+uniformly off an arbitrarily small exceptional set. Alias of
+`MeasureTheory.tendstoUniformlyOn_of_ae_tendsto`; the primary theorem
+of the measurable-functions-egorov-lusin unit. -/
+theorem egorov_theorem {β : Type*} [PseudoEMetricSpace β]
+    {μ : MeasureTheory.Measure X} {f : ℕ → X → β} {g : X → β} {s : Set X}
+    (hf : ∀ n, StronglyMeasurable (f n)) (hg : StronglyMeasurable g)
+    (hsm : MeasurableSet s) (hs : μ s ≠ ∞)
+    (hfg : ∀ᵐ x ∂μ, x ∈ s →
+      Filter.Tendsto (fun n => f n x) Filter.atTop (𝓝 (g x)))
+    {ε : ℝ} (hε : 0 < ε) :
+    ∃ t ⊆ s, MeasurableSet t ∧ μ t ≤ ENNReal.ofReal ε ∧
+      TendstoUniformlyOn f g Filter.atTop (s \ t) :=
+  MeasureTheory.tendstoUniformlyOn_of_ae_tendsto hf hg hsm hs hfg hε
+
 end Codex.Analysis.MeasureTheory

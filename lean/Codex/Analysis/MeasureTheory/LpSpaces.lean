@@ -40,4 +40,15 @@ def CodexMinkowskiStatement (f g : α → E) (p : ENNReal) : Prop :=
   MeasureTheory.snorm (fun x => f x + g x) p μ ≤
     MeasureTheory.snorm f p μ + MeasureTheory.snorm g p μ
 
+/-- Minkowski's inequality: the L^p-seminorm of a sum is at most the sum
+of the seminorms, for `1 ≤ p`. Alias of `MeasureTheory.eLpNorm_add_le`;
+the primary theorem of the lp-spaces-holder-minkowski-completeness
+unit. -/
+theorem minkowski_inequality {f g : α → E} {p : ℝ≥0∞}
+    (hf : AEStronglyMeasurable f μ) (hg : AEStronglyMeasurable g μ)
+    (hp1 : 1 ≤ p) :
+    MeasureTheory.eLpNorm (f + g) p μ ≤
+      MeasureTheory.eLpNorm f p μ + MeasureTheory.eLpNorm g p μ :=
+  MeasureTheory.eLpNorm_add_le hf hg hp1
+
 end Codex.Analysis.MeasureTheory

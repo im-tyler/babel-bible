@@ -41,4 +41,13 @@ with respect to a measure. -/
 abbrev CodexIntegrable {β : Type*} [NormedAddCommGroup β] (f : X → β) : Prop :=
   MeasureTheory.Integrable f μ
 
+/-- The monotone convergence theorem for the lower Lebesgue integral: a
+monotone sequence of measurable `ℝ≥0∞`-valued functions may be
+integrated term by term. Alias of `MeasureTheory.lintegral_iSup`; the
+primary theorem of the lebesgue-integral-monotone-convergence unit. -/
+theorem lebesgue_integral_monotone_convergence {f : ℕ → X → ℝ≥0∞}
+    (hf : ∀ n, Measurable (f n)) (h_mono : Monotone f) :
+    ∫⁻ a, ⨆ n, f n a ∂μ = ⨆ n, ∫⁻ a, f n a ∂μ :=
+  MeasureTheory.lintegral_iSup hf h_mono
+
 end Codex.Analysis.MeasureTheory

@@ -40,4 +40,13 @@ def CodexDominated {β : Type*} [NormedAddCommGroup β]
     (f : ℕ → X → β) (g : X → ℝ) : Prop :=
   ∀ n, ∀ᵐ x ∂μ, ‖f n x‖ ≤ g x
 
+/-- Fatou's lemma for the lower Lebesgue integral: the integral of the
+pointwise liminf is at most the liminf of the integrals. Alias of
+`MeasureTheory.lintegral_liminf_le`; the primary theorem of the
+fatou-lemma-dominated-convergence unit. -/
+theorem fatou_lemma {f : ℕ → X → ℝ≥0∞} (h_meas : ∀ n, Measurable (f n)) :
+    ∫⁻ a, Filter.liminf (fun n => f n a) Filter.atTop ∂μ ≤
+      Filter.liminf (fun n => ∫⁻ a, f n a ∂μ) Filter.atTop :=
+  MeasureTheory.lintegral_liminf_le h_meas
+
 end Codex.Analysis.MeasureTheory
