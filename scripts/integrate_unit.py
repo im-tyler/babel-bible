@@ -267,7 +267,10 @@ def update_plan(uid: str) -> bool:
         }
     else:
         u["status"] = "shipped"
-    PLAN.write_text(json.dumps(plan, indent=2, ensure_ascii=False), encoding="utf-8")
+    PLAN.write_text(
+        json.dumps(plan, indent=2, ensure_ascii=False, sort_keys=True),
+        encoding="utf-8",
+    )
     return True
 
 

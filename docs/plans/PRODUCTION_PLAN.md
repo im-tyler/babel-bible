@@ -1,7 +1,5 @@
 # Codex — Master Production Plan
 
-_Generated: 2026-09-12T09:52:57.451875+00:00_
-
 ## Burn-down
 
 - Units shipped: **2388**

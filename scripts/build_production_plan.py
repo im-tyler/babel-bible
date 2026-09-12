@@ -23,7 +23,6 @@ shipped this run becomes `shipped`.
 """
 from __future__ import annotations
 
-import datetime as dt
 import json
 import re
 from pathlib import Path
@@ -228,12 +227,12 @@ def topo_sort(units: dict[str, dict]) -> list[str]:
         if uid in visited:
             return
         visited.add(uid)
-        for p in units.get(uid, {}).get("prereqs", []):
+        for p in sorted(units.get(uid, {}).get("prereqs", [])):
             if p in units:
                 visit(p)
         order.append(uid)
 
-    for uid in units:
+    for uid in sorted(units):
         visit(uid)
     return order
 
@@ -317,6 +316,9 @@ def main() -> int:
                     units[src].setdefault("successors", [])
                     if dst not in units[src]["successors"]:
                         units[src]["successors"].append(dst)
+        for u in units.values():
+            u["prereqs"] = sorted(set(u.get("prereqs", [])))
+            u["successors"] = sorted(set(u.get("successors", [])))
 
     # Topological order for queued units.
     # Exclude enrichments (bibliography-only patches) and out-of-scope/deferred
@@ -353,9 +355,11 @@ def main() -> int:
         "books_unaudited": len(unaudited),
     }
 
+    # No wall-clock timestamp: these artifacts are checked in, and a
+    # volatile marker makes byte-identical reruns impossible. Derive any
+    # provenance from git when needed instead.
     plan = {
         "version": 1,
-        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "counts": counts,
         "units": units,
         "queue_topo_order": queued_order,
@@ -364,13 +368,14 @@ def main() -> int:
     }
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(plan, indent=2, ensure_ascii=False), encoding="utf-8")
+    OUT_JSON.write_text(
+        json.dumps(plan, indent=2, ensure_ascii=False, sort_keys=True),
+        encoding="utf-8",
+    )
 
     # Write the human-readable rollup.
     lines = [
         "# Codex — Master Production Plan",
-        "",
-        f"_Generated: {plan['generated_at']}_",
         "",
         "## Burn-down",
         "",
