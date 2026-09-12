@@ -25,15 +25,117 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 LEAN_PLACEHOLDER_RE = re.compile(r"\b(sorry|admit|sorryAx)\b")
+
+# The standard Lean foundational axioms are always admitted in
+# `#print axioms` output. Anything else (notably `sorryAx` and project
+# `axiom` declarations) fails the full gate unless explicitly listed in
+# lean/AXIOM_ALLOWLIST.txt.
+FOUNDATIONAL_AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
+
+AXIOM_DEP_RE = re.compile(r"^'([^']+)'\s+depends on axioms:\s*\[([^\]]*)\]",
+                          re.MULTILINE)
+AXIOM_NONE_RE = re.compile(r"^'([^']+)'\s+does not depend on any axioms",
+                           re.MULTILINE)
+
+_NAMESPACE_RE = re.compile(r"^namespace\s+([A-Za-z_][\w.]*)")
+_END_RE = re.compile(r"^end(?:\s+([A-Za-z_][\w.]*))?")
+_THEOREM_RE = re.compile(
+    r"^(?:@\[[^\]]*\]\s*)?(?:protected\s+|noncomputable\s+)*"
+    r"(?:theorem|lemma)\s+([A-Za-z_][\w'!?]*)")
+_AXIOM_DECL_RE = re.compile(
+    r"^(?:@\[[^\]]*\]\s*)?(?:private\s+)?"
+    r"axiom\s+([A-Za-z_][\w'!?]*)")
 
 
 def _strip_lean_comments(text: str) -> str:
     text = re.sub(r"/-[\s\S]*?-/", "", text)  # block comments (non-nested approximation)
     text = re.sub(r"--[^\n]*", "", text)      # line comments
     return text
+
+
+def load_axiom_allowlist(repo_root: Path) -> set[str]:
+    """Foundational Lean axioms plus any names listed in
+    lean/AXIOM_ALLOWLIST.txt (one per line, `#` comments)."""
+    allowed = set(FOUNDATIONAL_AXIOMS)
+    path = repo_root / "lean" / "AXIOM_ALLOWLIST.txt"
+    if path.exists():
+        for ln in path.read_text(encoding="utf-8").splitlines():
+            name = ln.split("#", 1)[0].strip()
+            if name:
+                allowed.add(name)
+    return allowed
+
+
+def scan_full_module_decls(source: str) -> tuple[list[str], list[str]]:
+    """Namespace-aware scan of a (comment-stripped) module source.
+
+    Returns (fully-qualified theorem/lemma names, axiom declaration names).
+    Tracks `namespace X.Y` / `end` nesting so probed names resolve. Private
+    declarations are skipped: they are invisible to an importing
+    `#print axioms` probe (their own `sorry` usage is caught by the
+    placeholder scan, and transitive taint surfaces through public callers).
+    """
+    theorems: list[str] = []
+    axioms: list[str] = []
+    stack: list[str] = []
+    for raw in source.splitlines():
+        line = raw.strip()
+        m = _NAMESPACE_RE.match(line)
+        if m:
+            stack.append(m.group(1))
+            continue
+        m = _END_RE.match(line)
+        if m and line == m.group(0):
+            n = len(m.group(1).split(".")) if m.group(1) else 1
+            del stack[max(0, len(stack) - n):]
+            continue
+        m = _THEOREM_RE.match(line)
+        if m:
+            theorems.append(".".join([*stack, m.group(1)]))
+            continue
+        m = _AXIOM_DECL_RE.match(line)
+        if m:
+            axioms.append(".".join([*stack, m.group(1)]))
+    return theorems, axioms
+
+
+def parse_axioms_output(text: str) -> dict[str, list[str]]:
+    """Parse `#print axioms` output into {name: [axioms]}."""
+    out: dict[str, list[str]] = {}
+    for m in AXIOM_NONE_RE.finditer(text):
+        out[m.group(1)] = []
+    for m in AXIOM_DEP_RE.finditer(text):
+        out[m.group(1)] = [a.strip() for a in m.group(2).split(",")
+                           if a.strip()]
+    return out
+
+
+def run_axiom_probe(repo_root: Path, module: str,
+                    names: list[str]) -> dict[str, list[str]] | str:
+    """Elaborate a `#print axioms` probe for `names` against `module`.
+
+    Returns the parsed {name: [axioms]} map, or an error string.
+    """
+    with tempfile.TemporaryDirectory(prefix="axiom-probe-") as td:
+        probe = Path(td) / "Probe.lean"
+        probe.write_text(
+            f"import {module}\n"
+            + "".join(f"#print axioms {n}\n" for n in names),
+            encoding="utf-8")
+        proc = subprocess.run(["lake", "env", "lean", str(probe)],
+                              cwd=repo_root / "lean",
+                              capture_output=True, text=True)
+    output = proc.stdout + "\n" + proc.stderr
+    if proc.returncode != 0:
+        err = next((ln.strip() for ln in output.splitlines()
+                    if ln.strip().startswith("error")), "")
+        return (f"axiom probe failed for module {module} "
+                f"(exit {proc.returncode}): {err}")
+    return parse_axioms_output(output)
 
 
 def check_lean_contract(repo_root: Path,
@@ -47,8 +149,14 @@ def check_lean_contract(repo_root: Path,
       module (enforced by `check_codex_imports`), so a successful build
       puts every `full`/`partial` module in the aggregate build closure;
     - for `lean_status: full` units, additionally scans the module source
-      for proof placeholders (`sorry` / `admit` / `sorryAx`) and fails
-      when any are found; `partial` units need only be in the closure.
+      for proof placeholders (`sorry` / `admit` / `sorryAx`) and custom
+      `axiom` declarations, and probes each full unit's primary theorem
+      (frontmatter `lean_theorem`, else every named theorem/lemma in the
+      module) with `#print axioms`: `sorryAx` and any axiom outside the
+      foundational allowlist (propext, Classical.choice, Quot.sound, plus
+      lean/AXIOM_ALLOWLIST.txt) fails. This catches sorry and custom
+      axioms entering transitively through imported theorems;
+      `partial` units need only be in the closure.
 
     When no lake toolchain is on PATH this is FATAL in normal (shipping)
     mode: "Ready to ship." must never be printed without the Lean gate
@@ -75,6 +183,7 @@ def check_lean_contract(repo_root: Path,
         return problems
 
     full_scanned = 0
+    allowlist = load_axiom_allowlist(repo_root)
     for rel, fm in lean_units:
         if fm.get("lean_status") != "full":
             continue
@@ -85,13 +194,57 @@ def check_lean_contract(repo_root: Path,
         if not path.exists():
             continue  # already a per-unit failure
         full_scanned += 1
-        hits = sorted(set(LEAN_PLACEHOLDER_RE.findall(
-            _strip_lean_comments(path.read_text(encoding="utf-8")))))
+        stripped = _strip_lean_comments(path.read_text(encoding="utf-8"))
+
+        # 1. Direct proof placeholders in the module source.
+        hits = sorted(set(LEAN_PLACEHOLDER_RE.findall(stripped)))
         if hits:
             problems.append(
                 f"{rel}: lean_status: full but module {module} contains "
                 f"proof placeholder(s): {', '.join(hits)}")
-    print(f"lake build OK; {full_scanned} full module(s) scanned for placeholders.")
+
+        # 2. Custom `axiom` declarations in the module itself (unless
+        #    explicitly allowlisted).
+        _, axiom_decls = scan_full_module_decls(stripped)
+        bad_decls = [a for a in axiom_decls if a not in allowlist]
+        if bad_decls:
+            problems.append(
+                f"{rel}: lean_status: full but module {module} declares "
+                f"axiom(s): {', '.join(bad_decls)}")
+
+        # 3. Axiom-dependency probe of the primary theorem(s): catches
+        #    `sorryAx` and custom/non-allowlisted axioms entering
+        #    transitively through imported theorems. The probe set is the
+        #    frontmatter `lean_theorem` when recorded, else every named
+        #    theorem/lemma in the module.
+        explicit = str(fm.get("lean_theorem", "")).strip()
+        named, _ = scan_full_module_decls(stripped)
+        probe_names = [explicit] if explicit else named
+        if not probe_names:
+            problems.append(
+                f"{rel}: lean_status: full but module {module} declares no "
+                f"named theorem/lemma and no lean_theorem is recorded — "
+                f"axiom dependencies cannot be verified")
+            continue
+        probed = run_axiom_probe(repo_root, module, probe_names)
+        if isinstance(probed, str):
+            problems.append(f"{rel}: {probed}")
+            continue
+        for name in probe_names:
+            if name not in probed:
+                problems.append(
+                    f"{rel}: could not resolve #print axioms for {name} "
+                    f"in module {module} (unknown identifier?)")
+                continue
+            bad = sorted(set(probed[name]) - allowlist)
+            if bad:
+                flavor = (" (sorryAx — proof placeholder)"
+                          if "sorryAx" in bad else "")
+                problems.append(
+                    f"{rel}: {module}: {name} depends on non-allowlisted "
+                    f"axiom(s): {', '.join(bad)}{flavor}")
+    print(f"lake build OK; {full_scanned} full module(s) scanned for "
+          f"placeholders and axiom dependencies.")
     return problems
 
 

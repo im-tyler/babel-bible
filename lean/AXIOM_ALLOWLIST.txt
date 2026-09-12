@@ -1,0 +1,9 @@
+# Babel Bible axiom allowlist for the lean_status: full gate.
+#
+# `scripts/validate_all.py` probes every full unit's primary theorem with
+# `#print axioms` and rejects sorryAx plus any axiom not listed here. The
+# standard Lean foundational axioms (propext, Classical.choice, Quot.sound)
+# are always allowed and need not be listed.
+#
+# Add one fully-qualified axiom name per line (empty by default; grow only
+# by explicit owner decision). `#` starts a comment.
