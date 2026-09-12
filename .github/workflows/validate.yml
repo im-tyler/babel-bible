@@ -1,0 +1,39 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: pip install pyyaml
+
+      - name: Install Lean toolchain (elan; pinned by lean/lean-toolchain)
+        run: |
+          curl https://elan.leanprover.dev/elan-init.sh -sSf | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: lake build (aggregate Codex gate; mathlib oleans from cache)
+        working-directory: lean
+        run: |
+          lake exe cache get
+          lake build
+
+      - name: Full validation (content + Lean gates; lake required)
+        run: python3 scripts/validate_all.py
+
+      - name: Codex import divergence check
+        run: python3 scripts/check_codex_imports.py
+
+      - name: Validator unit tests
+        run: python3 -m unittest discover -s scripts/tests
