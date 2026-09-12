@@ -160,7 +160,7 @@ When parallel production agents return outputs, **shared-resource serialization 
 1. Reads each returned agent's output (proposed CONCEPT_CATALOG entries, deps.json registrations, new unit files at known paths).
 2. Validates each new unit individually with `scripts/validate_unit.py`. Rejects (routes back to production) any that fail 27/27.
 3. Integrates accepted CONCEPT_CATALOG entries by inserting at the correct alphabetic / namespace position. Reads file fresh before each edit (no stale caches).
-4. Integrates deps.json `nodes[]` and `_notes{}` entries. Adds DAG edges per the production plan §3.5.
+4. Integrates deps.json `nodes[]` and `_notes{}` entries. Adds DAG edges per the production plan §3.5. Invariant: a unit id may appear in `shipped` or `pending`, never both — the integrator removes a uid from `pending` when it ships. deps.json is fully regenerable from content frontmatter at any time (`python3 scripts/integrate_unit.py --regenerate`); `scripts/validate_all.py` enforces the shipped/pending partition as a repo-level gate.
 5. Integrates connection annotations: reads each unit's `connections:` frontmatter block, writes them into `manifests/connections.json` (proposing new entries via `connection_proposals.md` for orchestrator review if not already registered).
 6. Re-runs `scripts/validate_all.py` after each batch's integration to confirm global validity.
 7. Updates the campaign ledger.
