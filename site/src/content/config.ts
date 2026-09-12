@@ -32,14 +32,16 @@ export const collections = {
       concept_catalog_id: z.string(),
       prerequisites: z.array(z.union([z.string(), z.number()])).default([]),
       successors: z.array(z.union([z.string(), z.number()])).default([]),
+      // Required per docs/specs/UNIT_SPEC.md §frontmatter ("tier_anchors |
+      // yes"); individual tier keys stay optional (a tier not in
+      // tiers_present may be absent or `deferred`).
       tier_anchors: z
         .object({
           beginner: tierAnchor.optional(),
           intermediate: tierAnchor.optional(),
           master: tierAnchor.optional(),
         })
-        .partial()
-        .optional(),
+        .partial(),
       tiers_present: z.array(tier).default(["master"]),
       pending_prereqs: z.boolean().default(false),
       references: z.array(reference).default([]),

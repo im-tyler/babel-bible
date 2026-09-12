@@ -47,12 +47,14 @@ export default function UnitPage({ data }: { data: any }) {
             <span class="badge badge--warn">pending prereqs</span>
           )}
         </div>
-        <p class="unit-anchors">
-          <strong>Anchor (Master):</strong>{" "}
-          {u.tier_anchors.master === "deferred"
-            ? <em>deferred</em>
-            : <em dangerouslySetInnerHTML={{ __html: renderInline(u.tier_anchors.master) }} />}
-        </p>
+        {u.tier_anchors.master != null && (
+          <p class="unit-anchors">
+            <strong>Anchor (Master):</strong>{" "}
+            {u.tier_anchors.master === "deferred"
+              ? <em>deferred</em>
+              : <em dangerouslySetInnerHTML={{ __html: renderInline(u.tier_anchors.master) }} />}
+          </p>
+        )}
       </header>
 
       <div class="unit-body-wrap">
