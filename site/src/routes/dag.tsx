@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { sectionLabel, sectionOrder, SECTIONS } from "../lib/sections";
+import { getCollection } from "@neutron-build/core";
+import { sectionLabel, sectionOrder } from "../lib/sections";
 
 export function head() {
   return {
@@ -11,14 +12,20 @@ export function head() {
 
 interface Edge { from: string; to: string; state: string }
 
-function sectionKeyForId(id: string): string {
-  // "05.09.03" -> use first numeric segment to look up a key in SECTIONS.
-  // Convention from content/ tree: numeric chapter index maps to a section.
-  const top = id.split(".")[0];
-  const idx = parseInt(top, 10);
-  // Heuristic: SECTIONS array is ordered by `order`; map numeric index to first match.
-  const sec = SECTIONS.find((s) => s.order === idx);
-  return sec?.key || "unsectioned";
+// id -> section key, built from canonical unit frontmatter. Unit-id
+// prefixes are NOT section orders (29.04.05 is psychology, not section 29
+// in SectionInfo.order), so the mapping must come from each unit's own
+// `section` frontmatter. Ids with no content (pending forward-refs) fall
+// back to the generated `_prefix_sections` majority-vote prefix map in
+// deps.json (see scripts/integrate_unit.py --regenerate).
+function buildSectionKeyForId(
+  idSection: Map<string, string>,
+  prefixSections: Record<string, string>,
+): (id: string) => string {
+  return (id: string) =>
+    idSection.get(id)
+    ?? prefixSections[id.split(".")[0]]
+    ?? "unsectioned";
 }
 
 export async function loader() {
@@ -31,6 +38,15 @@ export async function loader() {
   const shipped: string[] = deps.shipped || [];
   const pending: string[] = deps.pending || [];
   const notes: Record<string, string> = deps._notes || {};
+  const prefixSections: Record<string, string> = deps._prefix_sections || {};
+
+  const idSection = new Map<string, string>();
+  for (const unit of (await getCollection("units")) as any[]) {
+    const id: string | undefined = unit?.data?.id;
+    const section: string | undefined = unit?.data?.section;
+    if (id && section && !idSection.has(id)) idSection.set(id, section);
+  }
+  const sectionKeyForId = buildSectionKeyForId(idSection, prefixSections);
 
   // Section adjacency counts: from-section -> to-section -> count.
   const sectionsUsed = new Set<string>();
